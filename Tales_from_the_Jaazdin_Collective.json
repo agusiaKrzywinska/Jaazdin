@@ -7,7 +7,7 @@
 				"full": "Tales from the Jaazdin Collective",
 				"authors": [],
 				"convertedBy": [],
-				"version": "0.0.1"
+				"version": "0.0.11"
 			}
 		]
 	},
@@ -91,7 +91,7 @@
 				}
 			],
 			"range": {
-				"type": "self",
+				"type": "radius",
 				"distance": {
 					"type": "feet",
 					"amount": 15
@@ -107,7 +107,7 @@
 				}
 			],
 			"entries": [
-				"You lash out with a watery strike 5 feet wide and 15 feet long. Creatures within the line must make a Dexterity saving throw, and on a fail take {@dice 4d4} bludgeoning damage and are knocked prone. You can also use this to pull a loose object that isn't worn or carried within the spell's range to you",
+				"You lash out with a watery strike 5 feet wide and 15 feet long. Creatures within the line must make a Dexterity saving throw, and on a fail take {@dice 1d4} bludgeoning damage and are knocked prone. You can also use this to pull a loose object that isn't worn or carried within the spell's range to you",
 				"This spell’s damage increases by {@dice 1d4} when you reach 5th level {@dice 2d4}, 11th level {@dice 3d4}, and 17th level {@dice 4d4}."
 			],
 			"scalingLevelDice": {
