@@ -132,6 +132,211 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Decay",
+			"source": "TftJC",
+			"page": 55,
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You select a creature within range, as their body begins to rapidly rot. The target must make a Constitution saving throw, and on a fail the target takes {@dice 1d6} necrotic damage and deals half damage with all weapon attacks that use strength until the end of your next turn.",
+				"This spell’s damage increases by {@dice 1d6} when you reach 5th level {@dice 2d6}, 11th level {@dice 3d6}, and 17th level {@dice 4d6}."
+			],
+			"scalingLevelDice": {
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Light's Embrace",
+			"source": "TftJC",
+			"page": 55,
+			"level": 0,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"A creature of your choice within range begins to glow with brilliant light, which causes them to shed bright light for 5ft, and dim light for another 5ft. During the spell's duration, creatures that can see the light have disadvantage on attack rolls that target that creature."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Minor Magnetism",
+			"source": "TftJC",
+			"page": 55,
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You affect an item made of metal that you can see with a small magnetic force. You generate one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"You move the object up to 30 feet.",
+						"You bend a piece of non magical metal up to 45 degrees."
+					]
+				},
+				"Creatures cannot be damaged by the movement of the object affected by the spell, nor can the spell move more than15 pounds at a time. This cannot affect an item currently wielded by a creature, unless the creature willingly allows it to be moved or the item is not."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Minor Smite",
+			"source": "TftJC",
+			"page": 56,
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus action"
+				}
+			],
+			"range": {
+				"type": "radius"
+			},
+			"components": {
+				"v": true,
+				"m": "a weapon"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"A weapon you are holding becomes cloaked in divine light. The next attack you make with the weapon during the duration uses your casting modifier to calculate its to-hit bonus and its damage bonus, instead of your strength. If you hit a creature with this weapon, they must make a Wisdom saving throw, and on a fail they either cannot take reactions until the start of your next turn or are knocked prone (your choice)."
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			}
 		}
 	]
 }
