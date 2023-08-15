@@ -7,7 +7,7 @@
 				"full": "Tales from the Jaazdin Collective",
 				"authors": [],
 				"convertedBy": [],
-				"version": "0.0.12"
+				"version": "0.0.13"
 			}
 		]
 	},
@@ -300,7 +300,7 @@
 			"source": "TftJC",
 			"page": 56,
 			"level": 0,
-			"school": "E",
+			"school": "V",
 			"time": [
 				{
 					"number": 1,
@@ -340,7 +340,484 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Overload",
+			"source": "TftJC",
+			"page": 56,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "30"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A pulse of arcane energy launches out from your hand at a creature within range. Make a spell attack roll, a target hit by this takes 1d4 force damage. If you cast a spell in the same turn as casting this cantrip, you take force damage equal to the level of that spell slot expended, a cantrip deals 1 damage."
+			],
+			"scalingLevelDice": {
+				"scaling": {
+					"1": "1d4",
+					"5": "2d4",
+					"11": "3d4",
+					"17": "4d4"
+				}
+			},
+			"damageInflict": [
+				"force"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Deja Vu",
+			"source": "TftJC",
+			"page": 56,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You slap a creature within range. They must make an Intelligence Saving throw, and on a fail, forget what happened in the past 6 seconds. If you or your allies had attacked this creature 10 minutes prior to casting the spell, they have advantage on the Saving throw."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or 4th level, the creature forgets the contents of the occurred up to 1 minute ago.",
+						"When you cast this spell using a spell slot of 5th level or 6th level, the creature forgets the contents of the occurred up to 10 minutes ago.",
+						"When you cast this spell using a spell slot of 7th level or 8th level, the creature forgets the contents of the occurred up to 1 hour ago.",
+						"When you cast this spell using a spell slot of 9th level, the creature forgets the contents of the occurred up to 1 week ago."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Headlong Rush",
+			"source": "TftJC",
+			"page": 56,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"amount": 1,
+						"type": "round"
+					}
+				}
+			],
+			"entries": [
+				"You embolden yourself with heroism. For the duration, your speed and jump distance/height is doubled when moving directly towards a hostile creature. After finishing moving, you can use your action to immediately make a melee weapon attack against a creature. On a hit, they take 2d8 bludgeoning damage + your spellcasting modifier and are knocked prone."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, you deal an additional 1d8 bludgeoning damage for every slot above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Hero's Helping Hand",
+			"source": "TftJC",
+			"page": 56,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You give a hand to an injured creature. They regain 1d4 + your spellcasting modifier in hitpoints. If the creature was at 0 hitpoints, they immediately stand up if they were prone, and restore the highest number of hitpoints possible for the die rolled."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the creature regains an additional 1d4 hit points for every slot above 1st."
+					]
+				}
+			],
+			"miscTags": [
+				"HL"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Invigorating Word",
+			"source": "TftJC",
+			"page": 56,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "60"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You speak a magical word that fills a creature with strength and energy. Choose one creature other than yourself within range that can hear you and understands at least one language you speak. Immediately after you cast the spell, that creature can use its reaction to make one action. This action can only be used to take the Attack action (one weapon attack only), Dash, Disengage (and move 5 feet), or Use an Object."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Last Light",
+			"source": "TftJC",
+			"page": 57,
+			"level": 1,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "sphere",
+				"distance": {
+					"type": "20"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"A burst of brilliant light ushers from you, each creature of your choice in a 20ft radius must make a Constitution saving throw or be blinded until the end of their next turn. You shed bright light in a 20ft radius. At the start of you next turn the light vanishes and a burst of necrotic energy dealing 2d8 necrotic damage to each creature that was blinded by this spell and still within range."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the range increases by 5 feet and the necrotic damage increwases by 1d8 for each level past 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Orb of Recall",
+			"source": "TftJC",
+			"page": 57,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "20"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You conjure an arcane orb that flies out in a straight line. All creatures that the orb passes through must make a DEX Save, and on a fail take 2d6 force damage. At the end of your turn, the orb flies back to your position, then dissipates. If the orb would pass through the same creature twice, they are unaffected by the 2nd pass"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for every slot above 1st."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Scribe",
+			"source": "TftJC",
+			"page": 57,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a silver feathered quill worth at least 50gp and a blank sheet of parchment."
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You touch a passage of text that is no larger than 5 square feet and transfer it instantly onto a nearby piece of parchment. The text is copied exactly including signatures, mistakes, or any other oddities within the original text. A DC 25 Investigation check can reveal the subtle markings that reveal magic was used in creating the text but does not necessarily reveal it to be a fake"
+			],
+			"meta": {
+				"ritual": true
+			},
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Wayfinder's Monument",
+			"source": "TftJC",
+			"page": 57,
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "5"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small tower built from nearby materials."
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"amount": 24,
+						"type": "hour"
+					}
+				}
+			],
+			"entries": [
+				"You create a small monument, which creates a magical connection to you. During the spell's duration, you always know where the monument is, how far you are from the monument, if creatures of one certain type (your choice when you cast the spell) has passed within a 15ft radius of the monument, or if the monument is destroyed, which can be done by toppling the tower. Additionally once per 24 hours, you can channel for 10 minutes to transfer your senses into the monument, while your body becomes blinded and deafened to your surroundings. You can see, hear and smell from the monument, but you cannot speak through it. The connection ends when you choose to end it, or when you take damage.",
+				"If you cast this spell on the same area every day for 6 months, it becomes permanent until destroyed or dispelled."
+			],
+			"meta": {
+				"ritual": true
+			},
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
 		}
+
+
 	],
 	"race": [
 		{
