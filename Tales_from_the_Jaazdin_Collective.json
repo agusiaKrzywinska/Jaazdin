@@ -5,9 +5,9 @@
 				"json": "TftJC",
 				"abbreviation": "TftJC",
 				"full": "Tales from the Jaazdin Collective",
-				"url": "",
 				"authors": [],
-				"convertedBy": []
+				"convertedBy": [],
+				"version": "0.0.1"
 			}
 		]
 	},
@@ -16,8 +16,6 @@
 			"name": "Artist's Touch",
 			"source": "TftJC",
 			"page": 55,
-			"otherSources": [
-			],
 			"level": 0,
 			"school": "C",
 			"time": [
@@ -58,7 +56,6 @@
 					]
 				},
 				"If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action. If you cast a new one the oldest effect ends."
-
 			],
 			"classes": {
 				"fromClassList": [
@@ -77,6 +74,61 @@
 					{
 						"name": "Artificer",
 						"source": "TCE"
+					}
+				]
+			}
+		},
+		{
+			"name": "Aqua Whip",
+			"source": "TftJC",
+			"page": 55,
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "self",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You lash out with a watery strike 5 feet wide and 15 feet long. Creatures within the line must make a Dexterity saving throw, and on a fail take {@dice 4d4} bludgeoning damage and are knocked prone. You can also use this to pull a loose object that isn't worn or carried within the spell's range to you",
+				"This spell’s damage increases by {@dice 1d4} when you reach 5th level {@dice 2d4}, 11th level {@dice 3d4}, and 17th level {@dice 4d4}."
+			],
+			"scalingLevelDice": {
+				"scaling": {
+					"1": "1d4",
+					"5": "2d4",
+					"11": "3d4",
+					"17": "4d4"
+				}
+			},
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
 					}
 				]
 			}
