@@ -5,9 +5,9 @@
 				"json": "TftJC",
 				"abbreviation": "TftJC",
 				"full": "Tales from the Jaazdin Collective",
-				"authors": [],
-				"convertedBy": [],
-				"version": "0.0.13"
+				"authors": ["Nicholas McCarthy","Adam Henderson"],
+				"convertedBy": ["Agusia Krzywinska","Adam Henderson"],
+				"version": "0.0.14"
 			}
 		]
 	},
@@ -356,7 +356,8 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "30"
+					"type": "feet",
+					"amount": 30
 				}
 			},
 			"components": {
@@ -578,7 +579,8 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "60"
+					"type": "feet",
+					"amount": 60
 				}
 			},
 			"components": {
@@ -616,7 +618,8 @@
 			"range": {
 				"type": "sphere",
 				"distance": {
-					"type": "20"
+					"type": "feet",
+					"amount": 20
 				}
 			},
 			"components": {
@@ -672,7 +675,8 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "20"
+					"type": "feet",
+					"amount": 20
 				}
 			},
 			"components": {
@@ -779,7 +783,8 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "5"
+					"type": "feet",
+					"amount": 5
 				}
 			},
 			"components": {
