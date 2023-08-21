@@ -1818,5 +1818,27 @@
 				}
 			]
 		}
+	],
+	"item": [
+		{
+			"name": "Naginata",
+			"source": "TftJC",
+			"page": 50,
+			"type": "M",
+			"rarity": "none",
+			"weight": 5,
+			"value": 80000,
+			"weaponCategory": "unique",
+			"property": [
+				"F",
+				"V",
+				"R",
+				"S"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"weapon": true,
+			"entries": ["This weapon only has the reach property when it is being wielded in both hands."]
+		}
 	]
 }
