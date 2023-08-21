@@ -1427,7 +1427,1140 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Lunar Lance",
+			"source": "TftJC",
+			"page": 59,
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "line",
+				"distance": {
+					"type": "feet",
+					"amount": 100
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You conjure moonlight above your head and fire it in a spray of razor-sharp lances. For each creature in 100 feet long and 5 feet wide line make a ranged spell attack. On a hit, you deal 5d8 radiant damage and the next creature hit takes one less d8 of damage. The spell ends if it reaches 0 d8’s of damage or hits its maximum range. If any creature in the line is invisible you ignore the disadvantage imposed by not seeing them and if you hit, their invisibility ends"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each spell slot beyond 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Scurry of Quicklings",
+			"source": "TftJC",
+			"page": 60,
+			"level": 3,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point"
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a quickling's hair"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You create seven illusory copies of quicklings around you, as you too change your appearance to look like a quickling. All quicklings are indistinguishable from another, and if a creature attempts to attack an illusory quickling it puffs into purple smoke. As a part of casting this spell, you can have all seven quicklings to move in any separate direction you desire up to 120ft. Additionally, your walking speed becomes 120ft for the duration. At the end of the spell's duration, all quicklings will attempt to hide where ever they can. If they cannot hide anywhere, they puff into purple smoke."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Molten Cascade",
+			"source": "TftJC",
+			"page": 60,
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "line",
+				"distance": {
+					"type": "feet",
+					"amount": 20
+				}
+				
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You conjure molten magma from your hands and launch it from you in a 20ft long and 10ft wide line. Each creature in that line must make a Dexterity Saving Throw, and on a fail take 4d8 Fire Damage. Creatures that fail are then restrained, and on a subsequent turn must make a Strength Check against your Spell Save DC to break free from the now cooled rock that has encased them. Creatures that succeed take half of this damage and are not encased in rock. Another creature can use their action to break free someone trapped in the cooled rock"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each spell slot beyond 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Sinister Return",
+			"source": "TftJC",
+			"page": 60,
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+
+				},
+				{
+					"type": "special"
+				}
+			],
+			"entries": [
+				"You touch a creature with Necromantic energy. Make a spell attack roll, and on a hit the creature taked 6d6 Necrotic Damage. A hit humanoid must then make a constitution saving throw, and on a fail become cursed. If the cursed creature dies before completing three Long Rests, they rise as a zombie under your control."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each spell slot beyond 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Warrior's Epitaph",
+			"source": "TftJC",
+			"page": 60,
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small banner"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"Choose a loaction in range. A shimmering magical banner appears at that location. Each creature of your choice within 30ft of the banner gains advantage on all attack rolls made until the end of their next turn. In addition, whenever an ally starts its turn within 15 feet of the banner, they gain 1d4 + your spell casting ability mod in temporary hit points. A creature can pick up the banner and move it after it has appeared"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 4th level or 5th level slot, the amount of temporary hit points gained at the end of each turn increases to 1d6, at 6th or 7th level it increases to 1d8, and at 8th or 9th it increases to 1d10."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Blade Halo",
+			"source": "TftJC",
+			"page": 60,
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "one miniature blade worth 5gp for each blade you summon"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"A circle of four shimmering blades appears in your space, spinning around your body. The blades follow you if you move. As a bonus action on your turn, you can hurl one of the blades at a target within range. Make a ranged spell attack, on a hit the target takes 2d8 magical slashing damage. The blade is then destroyed. You can instead of hurling the blade, grasp it, and make a melee spell attack which does 2d10 magical slashing damage on hit. For each blade remaining creatures that end their turn within 5ft of you take 1d4 magical slashing."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 5th level slot, you summon one additional blade."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Final Crescendo",
+			"source": "TftJC",
+			"page": 61,
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a bowstring"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"Running your fingers down the bowstring a beam of silver light springs towards your target and music fills the air. Select a creature within range, it must make a Constitution saving throw. On a fail, you make them the target for a barrage of sonic attacks. On a success, they are still targeted but take half damage from any future effects. As a bonus action on each of your turns afterward, you can deal 2d8 thunder damage to the creature. Each additional time you use your bonus action in this way you deal 2d8 additional thunder damage. Once you reach 8d8 damage your bonus action instead deals 8d8 thunder damage in a 5ft radius around the target, each creature, including the target, must make a Constitution saving throw. On a success, they take half damage. After this happens the spell ends. The spell ends early if you use your bonus action to do anything other than continuing the spell or if you are restrained or disarmed of the spellcasting focus."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 5th level slot, the damage increase by 1d6 for every spell slot above 4th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Light Charge",
+			"source": "TftJC",
+			"page": 61,
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"You launch forth an intense ball of light. Creatures within its radius have their movement speed halved. As a Bonus Action on a subsequent turn after casting the spell, you can cause the light burst, which ends its effects. Creatures within the cube must make a Constitution Saving Throw, and on a fail take 4d6 radiant damage, or half as much to creatures that pass the saving throw. Each turn you are concentrating on the spell, it deals an additional 1d6 radiant damage when it bursts. If you would lose concentration on the spell at any time, it immediately bursts"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Lightning Rush",
+			"source": "TftJC",
+			"page": 61,
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point"
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small lightning rod"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "turn",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Your body becomes enveloped in lightning. You become immune to lightning damage, you can squeeze through a space as small as 1 inch, and your movement speed is doubled. While this spell is active, you can take the Dash action as a bonus action, you don’t provoke attacks of opportunity, and any creatures you move through must make a DEX Save. On a fail, they take 3d6 lightning damage and are knocked prone, or half as much on a success. When the spell ends, your hair becomes frizzy."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 5th level slot, the damage increases by 1d6 for every slot above 4th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Luminescent Lazerbeam",
+			"source": "TftJC",
+			"page": 61,
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "turn",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"A shining line of light fires out from your hands in a line 150 feet long and 5 feet wide in a direction you choose. Each creature in the line must make a Constitution Saving throw. Creatures made of darkness, shadows, or smoke have disadvantage on the Saving throw. A creature takes 6d6 Radiant damage on a failed save and is blinded until the end of their turn, or half as much damage on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 5th level slot, the damage increases by 1d6 for every slot above 4th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Magic Conduit",
+			"source": "TftJC",
+			"page": 61,
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 45
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a spell scroll of a level 3 or lower spell slot, which is consumed"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"A circle of arcane glyphs and runes appears on the ground within range. The circle has a 10ft radius and gives off faint light. While standing within the circle, yourself and those other creatures can use a Bonus Action to draw power from the circle, making the next spell they cast as an Action this turn upcasted by one level. They must remain in the circle while casting the spell for the increase to take effect. The conduit has 8 charges, and absorbing its power consumes a charge."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 5th level slot, tthe conduit gains an additional 2 charges per every spell slots above 4th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Wishing Star",
+			"source": "TftJC",
+			"page": 62,
+			"level": 4,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a sprinkling of stardust"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 3
+					}
+				}
+			],
+			"entries": [
+				"You utter a magical prayer. At the beginning of your second turn after casting this spell, select up to 3 creatures within range. A comet flies by them, as they heal 45 hitpoints split between them."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 5th level slot or higher, it takes one less turn to complete."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Elvinus' Ward of Conflux",
+			"source": "TftJC",
+			"page": 62,
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point"
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a clear crystal ball worth 200gp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minutes",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"You conjure a ward of primal energy that surrounds your body and protects you from elemental magics. Choose one element from fire, cold, lightning, thunder, or acid damage. You gain resistance to that damage type. When you take damage from one of the listed damage types you can use your reaction to gain resistance to that damage type for the rest of the duration of the spell including the inciting instance of damage. Every time you use your reaction to switch resistances it replaces the previous resistance. In addition, any melee attacks that you hit with deal an extra 2d10 of the element you are currently resistant to."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Fate Sealed",
+			"source": "TftJC",
+			"page": 62,
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point"
+			},
+			"components": {
+				"v": true,
+				"m": "a weapon"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You dash 30 feet forward pulling everything in your path and within your weapon’s reach on either side. Each creature hit must make a dexterity saving throw, taking 5d8 force Damage, or half as much on a fail. Those that fail are also left prone after being knocked into the air"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 6th level slot or higher, the damage increases by 1d8 for every slot above 5th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Globes of the Land",
+			"source": "TftJC",
+			"page": 62,
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You designate two 15ft radius spheres within range and swap the contents of them. Each creature in the sphere moves to a new location in the other sphere of your choice along with everything they are wearing and carrying. An unwilling creature must make a Charisma saving throw, on a success they are not moved. Objects are also moved unless they are affixed to the ground, such as a plant, or are not fully inside the radius, such as a cart that is halfway into the radius."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Knox's Numerous Platforms",
+			"source": "TftJC",
+			"page": 62,
+			"level": 5,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"You summon a pane of magical force 10ftx10ft and 1 inch thick. The pane can appear in an unoccupied space within range and be oriented in any direction. The pane can be opaque or transparent or somewhere in the middle. For the duration of the spell you can summon another pane as an action or move up to three summoned platforms up to 30ft. If you summon more panes than the spell slot used to cast the spell one pane of your choice vanishes. The panes can support 1000lbs of weight each, if more weight than this is applied to one it shatters",
+				"Nothing can physically pass through the panes. They are immune to all damage but force and cannot be dispelled by dispel magic. Each pane has an AC of 10 and 25 hit points. If a platform is destroyed it does not count against the number of summoned platforms."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Magnetic Sphere",
+			"source": "TftJC",
+			"page": 63,
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small magnet worth 10gp, which is consumed"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"You conjure a reflective metallic sphere in range. The sphere is 1ft in radius and hovers 5ft above the ground. It emits a magnetic force in a 45ft radius of the sphere that pulls in metal objects. Upon casting the spell, entering its zone for the first time, or starting your turn within its zone,loose metal objects within the magnetic force are flung towards the sphere and stick to it for the duration of the spell. Metal objects that are held require the wielder to make a Strength Save, and on a fail the objects are flung towards the sphere and stick to it. To retrieve an object stuck on the sphere, a creature must make a Strength Check equal to the spell save DC to successfully remove them from the sphere.",
+				"Creatures wearing metal armor are more susceptible to its effects. A creature wearing medium armor made primarily of metal must make a Strength Save, and on a fail, their body is flung towards the sphere and will then be stuck to it. A creature wearing light armor also makes the save, but with advantage. A creature wearing heavy armor makes the save with disadvantage. While stuck to the sphere, the creature is considered restrained. A creature may attempt an Athletics check to remove itself or another creature stuck to the sphere. The same advantages and disadvantages as detailed above depending on the armor type applies to this check.",
+				"Creatures that are pulled to the centre of the sphere by its effect take fall damage equivalent of the range travelled. If you cast this spell using a spell slot of 7th level, when casting the spell you can instead have the orb repulse objects made of metal. Objects are then instead flung outwards of the sphere’s zone of magnetism. Creatures wearing armor are still affected by the same advantages and disadvantages as detailed above."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 8th level slot or higher, its radius is doubled and the caster can alternate between its two modes as a Bonus Action."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Tempest",
+			"source": "TftJC",
+			"page": 63,
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"You create a raging tornado within range. The tornado has a diameter of 20ft, and a height of 100ft. As a Bonus Action on your turn, you can move the tornado up to 30ft in a straight line. Creatures that enter the tornado or start their turn within the tornado must make a Strength Saving throw, and on a fail are flung up into the air inside of the tornado. Creatures affected by the tornado take 5d4 bludegoning damage at the start of their turns, additionally affected creatures cannot concentrate on spells, fail dexterity saving throws, cannot use a fly speed if they have one and are deafened. Creatures affected are flung a number of feet into the air equal to 1d10 x 10 when they start their turn. If a creature goes higher than the top of the tornado, they are shot out of the top of the tornado in a random direction and fall."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 6th level slot or higher, the cube size is increased by 5ft per spell slot above 5th level."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Arcane Barrage",
+			"source": "TftJC",
+			"page": 63,
+			"level": 6,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point"
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a 100gp sapphire, which is consumed"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Your body becomes enveloped in arcane energy. You shed bright light for 15ft, and dim light for another 15ft. Your movement speed becomes 0, you cannot benefit from movement in any way while this spell is active, and you have disadvantage on Dexterity Saving throws. While in this form, you gain access to a Ranged Spell attack roll, which deals 4d4 force damage + your casting modifier, with a range of 300 ft. As an Action, you can fire up to three of these Ranged Spell attacks while in this form. You can use an Action to regain your ability to move and your movement speed for the turn but lose the ability to make the afformentioned Shots, after which you can use a Bonus Action to reactivate this form, losing your movement once again.",
+				"When the spell ends, you have disadvantage on Strength, Dexterity, and Constitution Saving throws and Ability checks until the end of your next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 7th level slot or higher, you can fire an additional shot for every slot above 6th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
 		}
+		
+		
 	],
 	"race": [
 		{
