@@ -1827,18 +1827,19 @@
 			"type": "M",
 			"rarity": "none",
 			"weight": 5,
-			"value": 80000,
-			"weaponCategory": "unique",
+			"value": 8000,
+			"weaponCategory": "martial",
 			"property": [
 				"F",
 				"V",
-				"R",
 				"S"
 			],
+			"range": "10",
 			"dmg1": "1d6",
+			"dmg2": "1d8",
 			"dmgType": "S",
 			"weapon": true,
-			"entries": ["This weapon only has the reach property when it is being wielded in both hands."]
+			"entries": ["This weapon only has the reach (10 ft) property when it is being wielded in both hands."]
 		}
 	]
 }
