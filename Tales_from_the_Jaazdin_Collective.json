@@ -826,6 +826,605 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Bramble Barrier",
+			"source": "TftJC",
+			"page": 57,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 45
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"amount": 24,
+						"type": "hour"
+					}
+				}
+			],
+			"entries": [
+				"A mass of thick brambles and vines rapidly grows from a point within range. The brambles form into a tough dome with a diameter of 15ft, a height of 10ft and a thickness of 1ft. The dome has an AC of 13, has 30 hitpoints, with vulnerability to fire and immunity to psychic and poison. The brambles remain for the duration or as long as they have hitpoints. When casting the spell, you can choose to concentrate on it.",
+				"While concentrating on this spell, the brambles heal 5 hitpoints at the start of your turn. If you would lose concentration, the brambles remain for the remainder of their duration or once their hitpoints reach 0. If you cast this spell using a spell slot of 3rd or higher, the brambles are conjured with an additional 10 maximum hitpoints."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Dungrin's Light Spire",
+			"source": "TftJC",
+			"page": 58,
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"amount": 1,
+						"type": "minute"
+					}
+				}
+			],
+			"entries": [
+				"You create a light spire within range, a glowing tree-like object that has a height of 10ft. It gives off dim light in a 30ft radius, and bright light within a 10ft radius. Creatures of your choice standing within its bright light gain a +1 to all saving throws. Creatures can only benefit from one Light Spire at a time."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Recurring Remedy",
+			"source": "TftJC",
+			"page": 58,
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"amount": 1,
+						"type": "minute",
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"You generate a consistant stream of healing. Select a creature within range. For the duration, at the start of each of their turns they heal 1d4 hitpoints so long as they are conscious."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Reveal",
+			"source": "TftJC",
+			"page": 58,
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 50
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a silk hankerchief"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"With a wave of the hand and a magic word you bring to light that which is hidden. When you cast the spell choose one creature, object, or 10-foot cube within range. Any illusion spell of 2nd level or lower inside that area or effecting a creature or object immediately ends, if the spell is Invisibility or Greater Invisibility the spell ends regardless of level. For each spell of 3rd level or higher in the area, make an ability check with your spell casting ability. The DC for this check is 10 + spell's level. On a success the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, automatically end the effects of a spell on the target if the spell's level is equal to or less than the leave of the spell slot you used."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Strike Reflect",
+			"source": "TftJC",
+			"page": 58,
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"As a reaction to taking damage from a melee weapon attack, you strike back at your foe with magical force. You gain resistance to that attacks damage, and then the attacker must make a Wisdom Saving Throw. On a fail, they take force damage equal to the damage you would have taken before resistances were applied, or half as much on a successful save."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Whirlpool",
+			"source": "TftJC",
+			"page": 58,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a fresh calm"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You conjure a rapid pool of twisting water at a point within range. Creatures within a 15ft cube must make a strength saving throw. On a fail, they take 3d10 bludegoning damage and are moved as close to the centre of the cube as they can. If they would knock into another creature, both creatures take 1d6 bludgeoning damage. If this spell is cast affecting creatures in water, they have disadvantage on the saving throw."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the spell deals an additional 1d10 damager per spell slot above 2nd level."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Brilliant Spectre",
+			"source": "TftJC",
+			"page": 58,
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a lit lantern"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You transmute a lantern's flame into a Will-o'-Wisp. The Will-o'-Wisp is friendly to you, and remains for the spell's duration or once its hitpoints become 0. As a bonus action on your turn, you can command the Will-o'-Wisp to perform an action. Additionally, you can give the Will-o'-Wisp a command once a certain event happens, like 'Notify me if anyone enters this area' or 'Attack any undead you see'. You can have up to three Will-o'-Wisp under your control at a time from this spell's effects. If you already have three Will-o'-Wisps under your control and you cast this spell again, that new Will-o'-Wisp becomes hostile towards you."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Conjure Armory",
+			"source": "TftJC",
+			"page": 59,
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You pull forth a magical weapon rack. You additionally create up to 5 magical weapons of your choice and one suit of armor of your choice. If you create a weapon that requires ammunition, you also create 20 pieces of its type of ammunition. The rack, weapons, armor, and ammunition last for the duration, after which they vanish into dust."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 4th level or higher, you create one additonal weapon per slot above 3rd, and 1 additional set of armor for every two slots above 3rd.",
+						"If you cast this spell using a spell slot of 5th or higher, the weapons are +1.",
+						"If you cast this spell using a spell slot of 7th or higher, the weapons are +2.",
+						"If you cast this spell using a spell slot of 9th or higher, the weapons are +3."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Chains of the Black Bloom",
+			"source": "TftJC",
+			"page": 59,
+			"level": 3,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a black rose"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You create a flurry of black petals and launch them at a creature within range. Make a spell attack roll against that creature, and on a hit they take 4d10 slashing damage as rapidly moving petals tear around them. If this attack hits a creature, that creature is also restrained, as the petals turn to solid chains. If the spell hits, then all creatures of your choice within 10ft of that creature must make a Dexterity Saving throw, or also be restained. Creatures restained by this spell are freed at the end of your next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 4th level or higher, you deal an additional 1d10 damage for every slot above 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Frozen Winds of the Tomb",
+			"source": "TftJC",
+			"page": 59,
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "silver dust"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"You create a flurry of black petals and launch them at a creature within range. Make a spell attack roll against that creature, and on a hit they take 4d10 slashing damage as rapidly moving petals tear around them. If this attack hits a creature, that creature is also restrained, as the petals turn to solid chains. If the spell hits, then all creatures of your choice within 10ft of that creature must make a Dexterity Saving throw, or also be restained. Creatures restained by this spell are freed at the end of your next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 4th level or higher, you deal an additional 1d10 damage for every slot above 3rd."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
 		}
 	],
 	"race": [
