@@ -3337,5 +3337,99 @@
 				}
 			]
 		}
+	],
+	"feat": [
+		{
+			"name": "Phalanx Fighter",
+			"source": "TftJC",
+			"entries": [
+				"Your ability to fight cooperatively with other while protecting your allies grants you the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Increase your Strength, Dexterity or Consitution by 1.",
+						"While within 5 feet of an ally wielding a shield you and the ally gain a +1 to AC and Dexterity saving throws. A creature can only benefit from this feature once.",
+						"While within 5ft of a least two allies the first attack roll you make on your turn has advantage."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			]
+		},
+		{
+			"name": "Pit Fighter",
+			"source": "TftJC",
+			"entries": [
+				"You know the ins and outs of unconventional and exotic weaponry. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Increase your Strength, Dexterity or Coharisma by 1.",
+						"You gain proficiency with a weapon of your choice.",
+						"You don't suffer disadvantage when using throw weapons when within 5ft of a hostile creature and both ranges of all thrown weapons increases by 10.",
+						"When you take the attack action you can use a bonus action to throw a net, bola, or make a Shove attack."
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"cha",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			]
+		},
+		{
+			"name": "Bounce Master",
+			"source": "TftJC",
+			"entries": [
+				"You've become an expert at making your thrown weapon hit no matter the situation. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can make attack rolls with thrown weapons against creatures who have full cover from you provided they are still within range and there is at least one clear path. When you do so you treat the creature as having 1/4 cover instead of full.",
+						"When you miss an attack roll with a thrown weapon you can make annother attack roll against a different creature within the weapon's close range from the first target with disadvantage or have the weapon return to your hand."
+					]
+				}
+			]
+		},
+		{
+			"name": "Meditation Adept",
+			"source": "TftJC",
+			"entries": [
+				"You have learned through quiet meditation or study how to still your mind and sharpen your focus. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency to one artisans tool or language.",
+						"You gain 2 Ki. If you already have Ki these are added to your total. You can spend one Ki and use a bonus action to still your mind, you can remove disadvantage on one attack roll or ability check you make in the next miunute. You regian all spend Ki when you finish a short rest."
+					]
+				}
+			],
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"wis": 13
+						}
+					]
+				}
+			]
+		}
 	]
 }
