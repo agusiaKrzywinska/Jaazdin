@@ -48,6 +48,9 @@
 						"type": "hour",
 						"amount": 1
 					}
+				},
+				{
+					"type": "instant"
 				}
 			],
 			"entries": [
@@ -2967,14 +2970,16 @@
 			"property": [
 				"F",
 				"V",
-				"S"
+				"S",
+				"R"
 			],
 			"dmg1": "1d6",
 			"dmg2": "1d8",
 			"dmgType": "S",
 			"weapon": true,
 			"entries": [
-				"This weapon only has the reach (10 ft) property when it is being wielded in both hands."
+				"<b><i>Special.</i></b> This weapon only has the reach property when it is being wielded in both hands.",
+				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
 			]
 		},
 		{
@@ -2987,17 +2992,244 @@
 			"value": 1000,
 			"weaponCategory": "martial",
 			"property": [
-				"S",
 				"L"
 			],
 			"dmg1": "1d6",
 			"dmgType": "S",
 			"weapon": true,
 			"entries": [
+				"<b><i>Paired.</i></b> Paired weapons has special features that only activate when you are wielding two of the same weapon with the paired property.",
 				"When you are wielding two Shuang Gou you are considered to have reach.",
 				"If you use the reach property you can’t make an offhand attack that turn.",
 				"Additionally, you have advantage on attack rolls made to disarm opponents if you are wielding two Shuang Gou.",
-				"<b><i>Paired.</i></b> Paired weapons has special features that only activate when you are wielding two of the same weapon with the paired property."
+				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+			]
+		},
+		{
+			"name": "Meteor Hammer",
+			"source": "TftJC",
+			"page": 50,
+			"type": "M",
+			"rarity": "none",
+			"weight": 12,
+			"value": 10000,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "B",
+			"weapon": true,
+			"entries": [
+				"<b><i>Reach.(10ft)<b><i> This weapon adds 10 feet to your reach when you attack with it. This property also determines your reach for opportunity attacks with a reach weapon.",
+				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+			]
+		},
+		{
+			"name": "Tonfa",
+			"source": "TftJC",
+			"page": 50,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"weapon": true,
+			"entries": [
+				"<b><i>Paired.</i></b> Paired weapons has special features that only activate when you are wielding two of the same weapon with the paired property.",
+				"When you are wielding two tonfa you gain a +1 bonus to your AC. If you make an attack with both Tonfa on your turn you lose the bonus to AC until the start of your next turn.",
+				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+			]
+		},
+		{
+			"name": "Urumi",
+			"source": "TftJC",
+			"page": 50,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 12000,
+			"weaponCategory": "martial",
+			"property": [
+				"R",
+				"S"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"weapon": true,
+			"entries": [
+				"<b><i>Special.</i></b> If you roll a natural 1 while using the Urumi you deal 1d8 slashing damage to yourself.",
+				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+			]
+		},
+		{
+			"name": "Chakram",
+			"source": "TftJC",
+			"page": 50,
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 300,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"T"
+			],
+			"range": "40/80",
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true,
+			"entries": [
+				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+			]
+		},
+		{
+			"name": "Ceatus",
+			"source": "TftJC",
+			"page": 50,
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 20,
+			"weaponCategory": "martial",
+			"property": [],
+			"dmg1": "3",
+			"dmgType": "B",
+			"weapon": true,
+			"entries": [
+				"<b><i>Unarmed.</i></b> Unarmed weapons replace your unarmed damage with the weapon damage listed. If you have other options for unarmed damage, such as a Fighting Style or Martial Arts monk feature you can choose which damage die applies. A value written as +X as opposed to X adds to unarmed damage rather than replacing it.",
+				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+			]
+		},
+		{
+			"name": "Iron Ceatus",
+			"source": "TftJC",
+			"page": 50,
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"property": [
+				"S"
+			],
+			"dmg1": "+1",
+			"dmgType": "B",
+			"weapon": true,
+			"strength": "15",
+			"entries": [
+				"<b><i>Special.</i></b> These heavy gauntlets require immense strength to use effectively. A creature must have 15 Strength or they make all attacks with this weapon with disadvantage.",
+				"<b><i>Unarmed.</i></b> Unarmed weapons replace your unarmed damage with the weapon damage listed. If you have other options for unarmed damage, such as a Fighting Style or Martial Arts monk feature you can choose which damage die applies. A value written as +X as opposed to X adds to unarmed damage rather than replacing it.",
+				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+			]
+		},
+		{
+			"name": "Bassinet Claws",
+			"source": "TftJC",
+			"page": 50,
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 2500,
+			"weaponCategory": "martial",
+			"property": [
+				"S"
+			],
+			"dmg1": "1",
+			"dmgType": "S",
+			"weapon": true,
+			"entries": [
+				"<b><i>Special.</i></b> As a bonus action you can extended or retract the claws from these knuckles switching your unarmed damage from Bludgeoning to Slashing while the claws are extended.",
+				"<b><i>Hidden.</i></b> A creature gains advantage on Sleight of Hand checks to hide a hidden weapon on their person. In addition, spotting a Hidden weapon on a person requires a DC 15 Perception check.",
+				"<b><i>Unarmed.</i></b> Unarmed weapons replace your unarmed damage with the weapon damage listed. If you have other options for unarmed damage, such as a Fighting Style or Martial Arts monk feature you can choose which damage die applies. A value written as +X as opposed to X adds to unarmed damage rather than replacing it.",
+				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+			]
+		},
+		{
+			"name": "Shell Blades",
+			"source": "TftJC",
+			"page": 50,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 3000,
+			"weaponCategory": "martial",
+			"property": [],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"weapon": true,
+			"entries": [
+				"<b><i>Paired.</i></b> Paired weapons has special features that only activate when you are wielding two of the same weapon with the paired property.",
+				"These blades have a heavily guarded hilt that protects the forearms of its wielder. While wielding two of these blades you gain a +1 to AC.",
+				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+			]
+		},
+		{
+			"name": "Bardiche",
+			"source": "TftJC",
+			"page": 50,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 2500,
+			"weaponCategory": "martial",
+			"property": [
+				"S",
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "S",
+			"weapon": true,
+			"entries": [
+				"<b><i>Special.</i></b> The special hooked head of the Bardiche allows one to bypass an opponent's shield. As a bonus action when you make an attack roll with the Bardiche against a creature with a shield you can have them make an opposed Athletic check. If you win then the creature does not benefit from the AC bonus from their shield until the end of your turn.",
+				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+			]
+		},
+		{
+			"name": "Slingsword",
+			"source": "TftJC",
+			"page": 50,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 25000,
+			"weaponCategory": "martial",
+			"property": [
+				"R",
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"weapon": true,
+			"entries": [
+				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+			]
+		},
+		{
+			"name": "Bolas",
+			"source": "TftJC",
+			"page": 50,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 3,
+			"weaponCategory": "simple",
+			"property": [
+				"S",
+				"T"
+			],
+			"weapon": true,
+			"net": true,
+			"range": "15/40",
+			"entries": [
+				"<b><i>Special.</i></b> A Large or smaller creature hit by a bola must make a Strength (Athletics) or Dexterity (Acrobatics) check verse the attack roll. If they failed, they are knocked prone. A bola has no effect on creatures that are form lessor that don't have legs. Creatures with more than four legs have advantage on the check."
 			]
 		}
 	]
