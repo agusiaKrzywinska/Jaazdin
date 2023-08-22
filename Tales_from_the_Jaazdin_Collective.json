@@ -1922,7 +1922,10 @@
 				}
 			],
 			"range": {
-				"type": "point"
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
 			},
 			"components": {
 				"v": true,
@@ -2185,7 +2188,10 @@
 				}
 			],
 			"range": {
-				"type": "point"
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
 			},
 			"components": {
 				"v": true,
@@ -2238,7 +2244,10 @@
 				}
 			],
 			"range": {
-				"type": "point"
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
 			},
 			"components": {
 				"v": true,
@@ -2520,7 +2529,10 @@
 				}
 			],
 			"range": {
-				"type": "point"
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
 			},
 			"components": {
 				"v": true,
