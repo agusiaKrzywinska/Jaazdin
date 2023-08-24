@@ -3470,5 +3470,26 @@
 				"You’ve learned to fight by leading the charge and inspiring your allies. While allies are within 30 feet of you and you succeed on a saving throw or score a critical hit you can grant a number of allies equal to your proficiency bonus temporary hit points equal to your proficiency modifier + your Charisma modifier."
 			]
 		}
+	],
+	"subclass": [
+		{
+			"name": "Derby Dasher",
+			"source": "TftJC",
+			"page": 7,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"shortName": "DD",
+			"subclassFeatures": [
+				"Tools of the Trade|Artificer|TCE|DD|TftJC|3|TftJC",
+				"Derby Blades|Artificer|TCE|DD|TftJC|3|TftJC",
+				"Dasher Weapons|Artificer|TCE|DD|TftJC|3|TftJC",
+				"Extra Attack|Artificer|TCE|DD|TftJC|5",
+				"Shocking Strikes|Artificer|TCE|DD|TftJC|9",
+				"Rapid Instincts|Artificer|TCE|DD|TftJC|15"
+				],
+			"subclassSpells": [
+				""
+			]
+		}
 	]
 }
