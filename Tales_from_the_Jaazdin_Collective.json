@@ -3502,7 +3502,11 @@
 			"subclassSource": "TftJC",
 			"level": 3,
 			"entries": [
-				"You gain proficiency in Cobbler's Tools. If you already have this proficiency, you gain proficiency with one other type of artisan’s tools of your choice"
+				"You gain proficiency in Cobbler's Tools. If you already have this proficiency, you gain proficiency with one other type of artisan’s tools of your choice",
+				{
+						"type": "refSubclassFeature",
+						"subclassFeature": "Tools of the Trade|Artificer|TCE|DD|TftJC|3|TftJC"
+				}
 			]
 		}
 	]
