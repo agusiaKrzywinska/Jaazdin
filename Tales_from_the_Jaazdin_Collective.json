@@ -3478,35 +3478,225 @@
 			"page": 7,
 			"className": "Artificer",
 			"classSource": "TCE",
-			"shortName": "DD",
+			"shortName": "Derby Dasher",
 			"subclassFeatures": [
-				"Tools of the Trade|Artificer|TCE|DD|TftJC|3|TftJC",
-				"Derby Blades|Artificer|TCE|DD|TftJC|3|TftJC",
-				"Dasher Weapons|Artificer|TCE|DD|TftJC|3|TftJC",
-				"Extra Attack|Artificer|TCE|DD|TftJC|5",
-				"Shocking Strikes|Artificer|TCE|DD|TftJC|9",
-				"Rapid Instincts|Artificer|TCE|DD|TftJC|15"
+				"Derby Dasher|Artificer|TCE|Derby Dasher|TftJC|3",
+				"Extra Attack|Artificer|TCE|Derby Dasher|TftJC|5",
+				"Shocking Strikes|Artificer|TCE|Derby Dasher|TftJC|9",
+				"Rapid Instincts|Artificer|TCE|Derby Dasher|TftJC|15"
 			],
 			"subclassSpells": [
-				""
+				"Headlong Rush|TftJC",
+				"Zephyr Strike|XgtE",
+				"Gust of Wind",
+				"Mirror Image",
+				"Nondetection",
+				"Thunderstep|XgtE",
+				"Greater Invisibility",
+				"Lightning Rush|TftJC",
+				"Control Winds",
+				"Mislead"
 			]
 		}
 	],
-	"subClassFeature": [
+	"subclassFeature": [
+		{
+			"name": "Derby Dasher",
+			"source": "TftJC",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Derby Dasher",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"Derby Dasher is a newer specialization found in the world of inventing, who specializes in hi-tech mobility and movement. Their ability for generating high velocity strikes and quick escapes makes them powerful infultrators and skirmishers. To help with their abilities, they have invented new pieces of gear to help them get in, and dash out.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Derby Dasher Spells|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
+			},
+				{
+						"type": "refSubclassFeature",
+						"subclassFeature": "Tools of the Trade|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
+				},
+				{
+						"type": "refSubclassFeature",
+						"subclassFeature": "Derby Blades|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
+				},
+				{
+						"type": "refSubclassFeature",
+						"subclassFeature": "Dasher Weapons|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
+				}
+			]
+		},
 		{
 			"name": "Tools of the Trade",
 			"source": "TftJC",
 			"className": "Artificer",
 			"classSource": "TCE",
-			"subclassShortName": "DD",
+			"subclassShortName": "Derby Dasher",
 			"subclassSource": "TftJC",
 			"level": 3,
 			"entries": [
-				"You gain proficiency in Cobbler's Tools. If you already have this proficiency, you gain proficiency with one other type of artisan’s tools of your choice",
+				"You gain proficiency in Cobbler's Tools. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice."
+			]
+		},
+		{
+			"name": "Derby Blades",
+			"source": "TftJC",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Derby Dasher",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you learn to invent Derby Blades. Derby Blades are a magical set of shoes that you can create as an action on any set of shoes you are currently wearing, provided you have your Cobbler's Tools in hand.",
+				"You gain the following benefits while wearing the Derby Blades:",
 				{
-						"type": "refSubclassFeature",
-						"subclassFeature": "Tools of the Trade|Artificer|TCE|DD|TftJC|3|TftJC"
+					"type": "list",
+					"items": [
+						"Your walk speed is increased by 5 at 5th level, 10 at 9th level, 15 at 13th level, and 20 at 17th level.",
+						"You can use your Derby Blades as an Arcane Focus for your Artificer Spells.",
+						"For every 5ft you move before making a melee attack, you deal 1 additional damage. You must have moved closer to the enemy than you started, and only spaces in which you move closer to the attack target add to the damage."
+					]
 				}
+			]
+		},
+		{
+			"name": "Dasher Weapons",
+			"source": "TftJC",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Derby Dasher",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"Additionally at 3rd level, you gain access to two different types of weapons. Working for one minute, you can imbue a pair of shortswords or a pair of whips with your Artificer magic transforming them into either the Flip Swords or Silver Tethers, respectfully (you are proficient in these weapons). You can only either have one of these options active at a time. While these weapons are imbued with your magic, they use your Intelligence Modifier to calculate the to hit bonus and damage rolls. If you would imbue one of these weapons with an Infusion, both are affected by the same infusion (this only counts as one infusion being active).",
+				{
+					"type": "inset",
+					"name": "Flip Swords",
+					"entries": [
+						"These blades now have curved handles and guards, allowing you to hold them in a reversed grip so that the blades protect your forearms. While wielding both of the Blades, you gain the following features.",
+						{
+							"type": "list",
+							"items": [
+								"You gain a +1 to your AC.",
+								"Creatures hit by your blades lose 5ft of their walking speed per hit until the start of your next turn.",
+								"You can add your ability modifier for damage dealt with your off handed weapon."
+							]
+						}
+					]	
+				},
+				{
+					"type": "inset",
+					"name": "Silver Tethers",
+					"entries": [
+						"These whips now have retractable metal lines.",
+						{
+							"type": "list",
+							"items": [
+								"The whips have a reach of 10ft and deal 1d6 slashing damage. They gain an additional 5ft of reach at 5th, 9th, 13th, and 17th level.",
+								"While wielding the whips, you gain a climb speed equal to your walking speed, as you can use them similar to grappling hooks. They are strong enough to support your weight plus one additional medium or smaller creature.",
+								"You can cast Artificer spells originating from the ends of your Tethers, allowing you to cast spells up to the reach with the Tethers."
+							]
+						}
+					]	
+				}
+			]
+		},
+		{
+			"name": "Derby Dasher Spells",
+			"source": "TftJC",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Derby Dasher",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"You always have certain spells prepared after you reach particular levels in this class, as shown in the Derby Dasher Spells table. These spells count as artificer spells for you, and they don’t count against the number of artificer spells you prepare.",
+				{
+						"type": "table",
+						"caption": "Derby Dasher Spells",
+						"colLabels": [
+							"Artificer Level",
+							"Spell"
+						],
+						"colStyles": [
+							"col- text-",
+							"col- text- "
+						],
+						"rows": [
+							[
+								"3rd",
+								"headlong rush, zephyr strike"
+							],
+							[
+								"5th",
+								"gust of wind, mirror image"
+							],
+							[
+								"9th",
+								"nondetection, thunderstep"
+							],
+							[
+								"13th",
+								"greater invisibility, lightning rush"
+							],
+							[
+								"17th",
+								"control winds, mislead"
+							]
+						]
+				}
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "TftJC",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Derby Dasher",
+			"subclassSource": "TftJC",
+			"level": 5,
+			"entries": [
+				"At 5th level, you can attack twice rather than once whenever you take the Attack action on you turn."
+			]
+		},
+		{
+			"name": "Shocking Strikes",
+			"source": "TftJC",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Derby Dasher",
+			"subclassSource": "TftJC",
+			"level": 9,
+			"entries": [
+				"At 9th level, you generate static along your weapons. Weapon attacks made by you deal an additional 1d6 lightning damage. Additionally, you Dasher weapons gain bonus effects.",
+				{
+					"type": "inset",
+					"name": "Flip Swords",
+					"entries": [
+						"Creatures hit by two attacks made by your Flip Swords in one turn have their walking speed set to 0 until the end of your next turn."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Silver Tethers",
+					"entries": [
+						"Creatures hit by two attacks made by your Tethers in one turn must make a Strength saving throw against your DC, and on a fail are restrained until the end of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rapid Instincts",
+			"source": "TftJC",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Derby Dasher",
+			"subclassSource": "TftJC",
+			"level": 15,
+			"entries": [
+				"At 15th level, your Derby Blades move faster than your enemies reactions. When you would be attacked by an enemy within 5ft of you, or subjected to a Saving Throw to which you are in the area of, you can use your reaction to move your movement. For melee attacks, you would no longer be in range of their attack. If this would move you out of the area of the effect of the Saving Throw, you are considered outside of its area of effect. You can use this feature a number of timesper long rest equal to your Intelligence Modifier."
 			]
 		}
 	]
