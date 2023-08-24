@@ -3486,9 +3486,23 @@
 				"Extra Attack|Artificer|TCE|DD|TftJC|5",
 				"Shocking Strikes|Artificer|TCE|DD|TftJC|9",
 				"Rapid Instincts|Artificer|TCE|DD|TftJC|15"
-				],
+			],
 			"subclassSpells": [
 				""
+			]
+		}
+	],
+	"subClassFeature": [
+		{
+			"name": "Tools of the Trade",
+			"source": "TftJC",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "DD",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"You gain proficiency in Cobbler's Tools. If you already have this proficiency, you gain proficiency with one other type of artisan’s tools of your choice"
 			]
 		}
 	]
