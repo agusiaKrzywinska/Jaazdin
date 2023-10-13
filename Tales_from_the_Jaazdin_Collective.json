@@ -3497,6 +3497,58 @@
 				"Control Winds",
 				"Mislead"
 			]
+		},
+		{
+			"name": "Necro Virus",
+			"source": "TftJC",
+			"page": 9,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"shortName": "Necro Virus",
+			"subclassFeatures": [
+				"Necro Virus|Artificer|TCE|Necro Virus|TftJC|3",
+				"Infectious|Artificer|TCE|Necro Virus|TftJC|5",
+				"Necro Control|Artificer|TCE|Necro Virus|TftJC|9",
+				"Necrotic Dissolve|Artificer|TCE|Necro Virus|TftJC|15"
+			],
+			"subclassSpells": [
+				"Command",
+				"Guiding Bolt",
+				"Crown of Madness",
+				"Ray of Enfeeblement",
+				"Animate Dead",
+				"Pulse Wave|XgtE",
+				"Blight",
+				"Confusion",
+				"Enveration",
+				"Mass Cure Wounds"
+			]
+		},
+		{
+			"name": "Nullifier",
+			"source": "TftJC",
+			"page": 11,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"shortName": "Nullifier",
+			"subclassFeatures": [
+				"Nullifier|Artificer|TCE|Nullifier|TftJC|3",
+				"Stupifing Spells|Artificer|TCE|Nullifier|TftJC|5",
+				"Disruptive Genius|Artificer|TCE|Nullifier|TftJC|9",
+				"Devious Disruption|Artificer|TCE|Nullifier|TftJC|15"
+			],
+			"subclassSpells": [
+				"Headlong Rush|TftJC",
+				"Zephyr Strike|XgtE",
+				"Gust of Wind",
+				"Mirror Image",
+				"Nondetection",
+				"Thunderstep|XgtE",
+				"Greater Invisibility",
+				"Lightning Rush|TftJC",
+				"Control Winds",
+				"Mislead"
+			]
 		}
 	],
 	"subclassFeature": [
@@ -3513,18 +3565,18 @@
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Derby Dasher Spells|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
-			},
-				{
-						"type": "refSubclassFeature",
-						"subclassFeature": "Tools of the Trade|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
 				},
 				{
-						"type": "refSubclassFeature",
-						"subclassFeature": "Derby Blades|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
 				},
 				{
-						"type": "refSubclassFeature",
-						"subclassFeature": "Dasher Weapons|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
+					"type": "refSubclassFeature",
+					"subclassFeature": "Derby Blades|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dasher Weapons|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
 				}
 			]
 		},
@@ -3584,7 +3636,7 @@
 								"You can add your ability modifier for damage dealt with your off handed weapon."
 							]
 						}
-					]	
+					]
 				},
 				{
 					"type": "inset",
@@ -3599,7 +3651,7 @@
 								"You can cast Artificer spells originating from the ends of your Tethers, allowing you to cast spells up to the reach with the Tethers."
 							]
 						}
-					]	
+					]
 				}
 			]
 		},
@@ -3614,38 +3666,38 @@
 			"entries": [
 				"You always have certain spells prepared after you reach particular levels in this class, as shown in the Derby Dasher Spells table. These spells count as artificer spells for you, and they don’t count against the number of artificer spells you prepare.",
 				{
-						"type": "table",
-						"caption": "Derby Dasher Spells",
-						"colLabels": [
-							"Artificer Level",
-							"Spell"
+					"type": "table",
+					"caption": "Derby Dasher Spells",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"3rd",
+							"headlong rush, zephyr strike"
 						],
-						"colStyles": [
-							"col- text-",
-							"col- text- "
+						[
+							"5th",
+							"gust of wind, mirror image"
 						],
-						"rows": [
-							[
-								"3rd",
-								"headlong rush, zephyr strike"
-							],
-							[
-								"5th",
-								"gust of wind, mirror image"
-							],
-							[
-								"9th",
-								"nondetection, thunderstep"
-							],
-							[
-								"13th",
-								"greater invisibility, lightning rush"
-							],
-							[
-								"17th",
-								"control winds, mislead"
-							]
+						[
+							"9th",
+							"nondetection, thunderstep"
+						],
+						[
+							"13th",
+							"greater invisibility, lightning rush"
+						],
+						[
+							"17th",
+							"control winds, mislead"
 						]
+					]
 				}
 			]
 		},
@@ -3697,6 +3749,227 @@
 			"level": 15,
 			"entries": [
 				"At 15th level, your Derby Blades move faster than your enemies reactions. When you would be attacked by an enemy within 5ft of you, or subjected to a Saving Throw to which you are in the area of, you can use your reaction to move your movement. For melee attacks, you would no longer be in range of their attack. If this would move you out of the area of the effect of the Saving Throw, you are considered outside of its area of effect. You can use this feature a number of timesper long rest equal to your Intelligence Modifier."
+			]
+		},
+		{
+			"name": "Necro Virus",
+			"source": "TftJC",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Necro Virus",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"Years of meticulous planning and experimentation has led to this moment. Your enemies have only two choices, join willingly or die in vain. Either way, all shall know the blightof the Necro Virus. You have concocted a powerful magic which allows you to control the undead with starteling ease, and even make them stronger than they were before. Infect and spread your Virus, and watch as your foes helplessly try and resist your intellect.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Necro Virus Spells|Artificer|TCE|Necro Virus|TftJC|3|TftJC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Artificer|TCE|Necro Virus|TftJC|3|TftJC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Infected Spells|Artificer|TCE|Necro Virus|TftJC|3|TftJC"
+				}
+			]
+		},
+		{
+			"name": "Tools of the Trade",
+			"source": "TftJC",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Necro Virus",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"You gain proficiency in Poisoner's Tools. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice."
+			]
+		},
+		{
+			"name": "Infected Spells",
+			"source": "TftJC",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Necro Virus",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you gain the power to infect others with your spells. As a Bonus Action, you can add your Virus to an Enchantment, Evocation or Necromancy spell of 1st level or higher you cast using your Poisoner's Tools.If the creature is affected by the spell, select a Virus from the Virus list, and they are affected by it and then by the spell. If the spell has a saving throw and the creature succeeds, the virus does not affect them. If the spell affects multiple creatures, they are affected by the same Virus. This feature can be used as a Free Action a number of times per Long Rest equal to your Proficiency Bonus.",
+				{
+					"type": "table",
+					"caption": "Virus Types",
+					"colLabels": [
+						"Virus",
+						"Effect",
+						"Spell School"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- ",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"Wither",
+							"The creature takes 1d6 necrotic damage.",
+							"Any"
+						],
+						[
+							"Augmentation",
+							"The creature has advantage on the next ability check or attack roll they make this minute.",
+							"Any"
+						],
+						[
+							"Mindhack",
+							"The creature subtracts 1d6 from their next ability check or attack roll they make this minute.",
+							"Enchantment"
+						],
+						[
+							"Fortitude",
+							"The creature gains 1d8 temporary hit points.",
+							"Necromancy"
+						],
+						[
+							"Potency",
+							"You can reroll a number of die rolled as a part of the spell up to half of your proficiency bonus (rounded down).",
+							"Evocation"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Necro Virus Spells",
+			"source": "TftJC",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Necro Virus",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"You always have certain spells prepared after you reach particular levels in this class, as shown in the Necro Virus Spells table. These spells count as artificer spells for you, and they don’t count against the number of artificer spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Necro Virus Spells",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"3rd",
+							"command, guiding bolt"
+						],
+						[
+							"5th",
+							"crown of madness, ray of endeeblement"
+						],
+						[
+							"9th",
+							"animate dead, pulse wave"
+						],
+						[
+							"13th",
+							"blight, confusion"
+						],
+						[
+							"17th",
+							"enervation, mass cure wounds"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Infectious",
+			"source": "TftJC",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Necro Virus",
+			"subclassSource": "TftJC",
+			"level": 5,
+			"entries": [
+				"At 5th level, you can spread your Virus to the dead. If a humanoid creature would die to a spell infected by your Virus or damage dealt by your Virus, you can use your Reaction to spread the virus to their body. They arise as a Zombie under your control in 1d4+1 rounds. You can have a number of Zombies equal to your proficiency bonus under your control at one time from this feature."
+			]
+		},
+		{
+			"name": "Advanced Virus",
+			"source": "TftJC",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Necro Virus",
+			"subclassSource": "TftJC",
+			"level": 9,
+			"entries": [
+				"At 9th level, your Infected Spells are enhanced. All Virus types from Infected Spells have their die doubled. Augmentation applies to the next two rolls, and Potency can be used up to twice per spell cast. Also, you gain new virus types",
+				{
+					"type": "table",
+					"caption": "Virus Types",
+					"colLabels": [
+						"Virus",
+						"Effect",
+						"Spell School"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- ",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"Fragility",
+							"The creature has any damage resistances removed until the end of your next turn.",
+							"Necromancy"
+						],
+						[
+							"Puppet",
+							"The creature immediately makes an attack at another creature of your choice within their range, without using their reaction.",
+							"Enchantment"
+						],
+						[
+							"Overclock",
+							"The creature explodes with energy, dealing 1d12 force damage to it and all creatures within a 10ft radius.",
+							"Evocation"
+						],
+						[
+							"Infection",
+							"For the next minute, the target takes 1d4 necrotic damage at the start of their turn. If they are humanoid and die while still under this effect, they immediately rise as a Zombie under your control.",
+							"Any single target spell"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Necro Control",
+			"source": "TftJC",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Necro Virus",
+			"subclassSource": "TftJC",
+			"level": 9,
+			"entries": [
+				"At 9th level, you gain the ability to infect the undead with your virus. As an Action, you can target a number of undead within 60ft of you equal to your INT Modifier with a challenge rating or level no greater than your Proficiency Bonus. They must make an Intelligence Saving Throw, and on a fail they become friendly to you and obey your commands until you use this feature again.",
+				"Intelligent undead are harder to control in this way. If the target has an Intelligence of 8 or higher, it has advantage on the saving throw. If it fails the saving throw and has an Intelligence of 12 or higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free. You can use this feature a number of times equal to your Proficiency Bonus per long rest.",
+				"Furthermore, Undead under your control are bolstered by your Virus. They can be healed by your Artificer Spells while under your control, and you can have zombies under your control automatically fail saving throws of your choice."
+			]
+		},
+		{
+			"name": "Necrotic Dissolve",
+			"source": "TftJC",
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Necro Virus",
+			"subclassSource": "TftJC",
+			"level": 15,
+			"entries": [
+				"At 15th level, your Virus becomes flesh melting. When a Zombie under your control dies, their body melts. All creatures within 10ft of the Zombie take 2d10 acid damage, and they leave behind a puddle of Necrosis, which appears in a 5ft puddle directly under them. If a creature steps on it, you can immediately have them be affected by a Virus of your choice. The puddle lasts for 1 minute, or until someone steps in it."
 			]
 		}
 	]
