@@ -3347,6 +3347,122 @@
 					"quantity": 10
 				}
 			]
+		},
+		{
+			"name": "Denieth Oasis Gemstone Fragment",
+			"source": "TftJC",
+			"rarity": "uncommon",
+			"recharge": "dawn",
+			"charges": "1",
+			"wondrous": true,
+			"entries": [
+				"To use the fragment you must have it on your person. Once per dawn the fragment can be used to do one of the following things.",
+				{
+					"type": "list",
+					"columns": 0,
+					"name": "As a bonus action",
+					"items": [
+						"regain a first level spell slot.",
+						"Cast a first level spell. The spell stored in the fragment is listed below based on the color of the shard. The DC is 13 for the spell casted through the fragment."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Gemstone Fragment Coloured Spells",
+					"colLabels": [
+						"Color",
+						"Spell"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"Yellow",
+							"Absorb Elements"
+						],
+						[
+							"Red",
+							"Arms of Hadar"
+						],
+						[
+							"Green",
+							"Detect Magic"
+						],
+						[
+							"Blue",
+							"Sleep"
+						],
+						[
+							"Purple",
+							"Shield"
+						],
+						[
+							"Orange",
+							"Longstrider"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Denieth Cave Gemstone Fragment",
+			"source": "TftJC",
+			"rarity": "uncommon",
+			"recharge": "dawn",
+			"charges": "1",
+			"wondrous": true,
+			"entries": [
+				"To use the fragment you must have it on your person. Once per dawn the fragment can be used to do one of the following things.",
+				{
+					"type": "list",
+					"columns": 0,
+					"name": "As a bonus action",
+					"items": [
+						"expend one hit die and regain that much hp.",
+						"Use a maneuver. The maneuver stored in the fragment is listed below based on the color of the shard. The DC is 13 and your superior die is 1d6 for the maneuvers."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Gemstone Fragment Coloured Maneuvers",
+					"colLabels": [
+						"Color",
+						"Maneuver"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"Yellow",
+							"Ambush"
+						],
+						[
+							"Red",
+							"Trip Attack"
+						],
+						[
+							"Green",
+							"Tactical Assessment"
+						],
+						[
+							"Blue",
+							"Riposte"
+						],
+						[
+							"Purple",
+							"Rally"
+						],
+						[
+							"Orange",
+							"Precision Attack"
+						]
+					]
+				}
+			]
 		}
 	],
 	"feat": [
@@ -3513,18 +3629,18 @@
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Derby Dasher Spells|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
-			},
-				{
-						"type": "refSubclassFeature",
-						"subclassFeature": "Tools of the Trade|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
 				},
 				{
-						"type": "refSubclassFeature",
-						"subclassFeature": "Derby Blades|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the Trade|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
 				},
 				{
-						"type": "refSubclassFeature",
-						"subclassFeature": "Dasher Weapons|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
+					"type": "refSubclassFeature",
+					"subclassFeature": "Derby Blades|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dasher Weapons|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
 				}
 			]
 		},
@@ -3584,7 +3700,7 @@
 								"You can add your ability modifier for damage dealt with your off handed weapon."
 							]
 						}
-					]	
+					]
 				},
 				{
 					"type": "inset",
@@ -3599,7 +3715,7 @@
 								"You can cast Artificer spells originating from the ends of your Tethers, allowing you to cast spells up to the reach with the Tethers."
 							]
 						}
-					]	
+					]
 				}
 			]
 		},
@@ -3614,38 +3730,38 @@
 			"entries": [
 				"You always have certain spells prepared after you reach particular levels in this class, as shown in the Derby Dasher Spells table. These spells count as artificer spells for you, and they don’t count against the number of artificer spells you prepare.",
 				{
-						"type": "table",
-						"caption": "Derby Dasher Spells",
-						"colLabels": [
-							"Artificer Level",
-							"Spell"
+					"type": "table",
+					"caption": "Derby Dasher Spells",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"3rd",
+							"headlong rush, zephyr strike"
 						],
-						"colStyles": [
-							"col- text-",
-							"col- text- "
+						[
+							"5th",
+							"gust of wind, mirror image"
 						],
-						"rows": [
-							[
-								"3rd",
-								"headlong rush, zephyr strike"
-							],
-							[
-								"5th",
-								"gust of wind, mirror image"
-							],
-							[
-								"9th",
-								"nondetection, thunderstep"
-							],
-							[
-								"13th",
-								"greater invisibility, lightning rush"
-							],
-							[
-								"17th",
-								"control winds, mislead"
-							]
+						[
+							"9th",
+							"nondetection, thunderstep"
+						],
+						[
+							"13th",
+							"greater invisibility, lightning rush"
+						],
+						[
+							"17th",
+							"control winds, mislead"
 						]
+					]
 				}
 			]
 		},
