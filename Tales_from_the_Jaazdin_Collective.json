@@ -3996,6 +3996,73 @@
 				"While the blade is active the wielder can teleport at will. Teleporting requires two feet of movement for every foot traveled.",
 				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
 			]
+		},
+		{
+			"name": "Amulet of Average",
+			"source": "TftJC",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"curse": true,
+			"reqAttune": true,
+			"entries": [
+				"This golden amulet is adorned with the likeness of two different feminine visages on either side of its coin-like form.",
+				"While attuned to this item, the wearer gains a +1 bonus to all ability checks and saving throws made without proficiency.",
+				"<b><i>Cursed.</i></b> This amulet is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the amulet, insisting on wearing it at all times. You cannot unattune to the amulet while cursed in this way. A {@spell remove curse|PHB} or similar magic immediately unattunes the wearer, ending the curse.",
+				"<b><i> Curse of the Average.</i></b>  While attuned to the amulet, the wearer suffers a -1 penalty to all ability checks and saving throws made with proficiency. Additionally, the wearer staunchly believes the amulet brings them good luck, and becomes hostile towards those who would attempt to remove them of the amulet."
+			]
+		},
+		{
+			"name": "Staff of Arachnid Domination",
+			"source": "TftJC",
+			"rarity": "rare",
+			"reqAttune": true,
+			"baseItem": "staff|PHB",
+			"type": "M",
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"entries": [
+				"The staff allows the wielder to control arachnids, such as spiders and ettercaps, within a certain range.",
+				"While holding the staff, the wielder can use an action target to any arachnid within 60 feet. The target must make a Wisdom saving throw against a DC of 15 or be charmed by the wielder for 1 hour. The wielder can use their bonus action on subsequent rounds to maintain control over the charmed creature, causing it to take any actions they desire.",
+				"Additionally, once per day, Target up to three creatures within 60 feet. The affected creatures must make a Wisdom saving throw against a DC of 15 or be magically {@condition restrained} for 1 minute while they struggle to untangle themselves from the web of lies and deceit. The affected creatures can make the save again at the end of their turn.",
+				"While attuned to the staff, the wielder gains resistance to poison damage and advantage on saving throws against poison effects."
+			]
+		},
+		{
+			"name": "Gauntlets of the Frigid North",
+			"source": "TftJC",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"recharge": "dawn",
+			"entries": [
+				"While you wear both of these steel gauntlets, any non-magical weapon you grasp with either gauntlet is treated as a magic weapon.",
+				"As a bonus action, you can use the gauntlets to cause ice to envelop one or two melee weapons in your grasp. Each icy weapon deals an extra {@dice 1d6} cold damage on a hit. The ice last until you sheath or let go of either weapon. Once used, this property can't be used again until the next dawn.",
+				"In addition, you can touch one 5-foot cube of water and cause it to freeze for 1 hour."
+			]
+		},
+		{
+			"name": "Shiverspike",
+			"source": "TftJC",
+			"rarity": "rare",
+			"baseItem": "longsword|PHB",
+			"reqAttune": true,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"entries": [
+				"You gain a +1 to attack rolls and damage rolls with this weapon.",
+				"Whenever you would take or deal Cold damage, you gain Temporary Hit points equal to your Proficiency Bonus, as Ice crystals coalesce around you. Whenever you would hit a creature this weapon, you can remove any Temporary Hit points you have to cause the attack to deal additional cold damage equal to the temporary hit points removed."
+			]
 		}
 	],
 	"feat": [
