@@ -13,7 +13,7 @@
 					"Agusia Krzywinska",
 					"Adam Henderson"
 				],
-				"version": "0.0.16"
+				"version": "0.0.17"
 			}
 		]
 	},
@@ -3672,6 +3672,90 @@
 			"entries": [
 				"This blood-soaked rapier has taken countless lives and is suffused with its previous wielder's malice. Attacks with this magical rapier gain a +1 to attack and damage rolls.",
 				"While in darkness or dim light, the blade becomes shrouded in shadow becoming nearly unperceivable. While shrouded in shadow this blade's damage ignores damage resistances."
+			]
+		},
+		{
+			"name": "Banner of Lathander",
+			"source": "TftJC",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"Crafted from a thick, red fabric, this banner measures 5 feet high and 3 feet wide. The bears the holy symbol of Lathander. It can be attached to a 10-foot pole to serve as a standard. Furling or unfurling the banner requires an action. The banner has the following properties.",
+				{
+					"type": "list",
+					"items": [
+						"<b><i>Mark of Courage.</i></b> As a bonus action, you can touch the unfurled banner and cause it to emanate courage. You and your allies are immune to the frightened condition while within 20 feet of it. This benefit lasts for 10 minutes or until the banner is furled. Once you use this property, you can't use it again until you finish a short or long rest.",
+						"<b><i>Sentinel Standard.</i></b> Undead of CR 5 or lower have disadvantage on attack rolls and saving throws when within 20 feet of the unfurled banner.",
+						"<b><i>Standard's Shield.</i></b> As a bonus action, you can touch the unfurled banner and invoke this power. Any ranged attack roll that targets you or an ally of yours has disadvantage if the target is within 20 feet of the unfurled banner. This benefit lasts for 1 minute or until the banner is furled. Once you use this property, you can't use it again until you finish a short or long rest.",
+						"<b><i>Gift of Battle.</i></b> You can transfer the banner's magic to a place by tracing the rune on the ground with your finger. The point where you trace it becomes the center of a spherical area of magic that has a 500-foot radius and that is fixed to the place. The transfer takes 8 hours of work that requires the banner to be within 5 feet of you and during which you choose creatures, creature types, or both that will benefit from the magic. At the end, the banner is destroyed, and the area gains the following property:",
+						{
+							"type": "list",
+							"items": [
+								"While in the 500-foot-radius sphere, the creatures you chose during the transfer process are immune to the frightened condition and gain a +1 bonus to attack rolls and AC."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Bulwark",
+			"source": "TftJC",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"ac": 2,
+			"type": "S",
+			"weight": 6,
+			"entries": [
+				"This magical shield projects an additional shield of force around itself when activated. As a bonus action, you can activate the shield to increase its AC value by +3. While in this state you also have resistance to force damage and immunity to the magic missile spell.",
+				"While the shield is activated and you succeed on a Dexterity saving throw that effects more than one creature you can choose to extend its protection to all allies within 30 feet. Each creature within 30 feet automatically succeeds on the Dexterity saving throw and suffers no damage or negative effects. You suffer the full effect of the saving throw as if you had failed the save. Once you use this ability the shield becomes inactive, and cannot be activated again until you finish a short or long rest.",
+				"A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time."
+			]
+		},
+		{
+			"name": "Encyclopedia of Combat and War",
+			"source": "TftJC",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"While on your possession you gain a +1 to Weapon Attack Rolls."
+			]
+		},
+		{
+			"name": "Encyclopedia of Art, Music and Literature",
+			"source": "TftJC",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"While on your possession you gain a +1 to Musical Instruments and Artisan Supplies."
+			]
+		},
+		{
+			"name": "Encyclopedia of Inventions and Technology",
+			"source": "TftJC",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"While on your possession you gain a +1 to Tools Checks"
+			]
+		},
+		{
+			"name": "Encyclopedia of Social Culture",
+			"source": "TftJC",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"While on your possession you gain a +1 to Persuasion and Deception"
+			]
+		},
+		{
+			"name": "Encyclopedia of the Lands and History",
+			"source": "TftJC",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"While on your possession you gain a +1 to History and Nature Checks"
 			]
 		}
 	],
