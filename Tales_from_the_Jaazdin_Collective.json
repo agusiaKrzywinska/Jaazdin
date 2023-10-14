@@ -13,7 +13,7 @@
 					"Agusia Krzywinska",
 					"Adam Henderson"
 				],
-				"version": "0.0.17"
+				"version": "0.0.18"
 			}
 		]
 	},
@@ -3774,6 +3774,88 @@
 				"When you hit a fiend or an undead with this magic weapon, that creature takes an extra {@dice 2d6} radiant damage. If the target has 25 hit points or fewer after taking this damage, it must succeed on a DC 15 Wisdom saving throw or be destroyed. On a successful save, the creature becomes frightened of you until the end of your next turn.",
 				"While you hold this weapon, it sheds bright light in a 20-foot radius and dim light for an additional 20 feet."
 			]
+		},
+		{
+			"name": "Compass of the Guiding Arrow",
+			"source": "TftJC",
+			"type": "T",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"The Compass of the Guiding Arrow is a finely crafted magical compass that aids adventurers in locating specific items of significance. This compass is currently linked. This compass is treated as +1 {@item navigator's tools|PHB}.",
+				"<b><i>Linking.</b></i> To link or unlink to a specific item, the attuned user must be within 5 ft of the item and spend 1 minute concentrating on severing/connecting the connection. As if they were concentrating on a spell. You cannot link a new item if it is already linked.",
+				"<b><i>Guiding Arrow.</b></i> the compass's arrow constantly points in the direction of the chosen item. It provides a reliable guide, even if the item is hidden, obscured, but must be on the same plane of existence. The arrow adjusts its direction as the user moves, always pointing towards the desired object.",
+				"<b><i>Protection from Interference.</i></b> The Compass of the Guiding Arrow possesses a magical shielding that prevents external forces from manipulating or disrupting its guidance. It cannot be affected by spells or abilities that alter the accuracy of directional devices."
+			]
+		},
+		{
+			"name": "Anchor of the Deep",
+			"source": "TftJC",
+			"rarity": "artifact",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"The Anchor of the Deep appears to be an old, rusted anchor covered in intricate, weathered runes. When this anchor is used, it triggers a powerful magical effect that causes the entire ship to sink rapidly to the bottom of the sea. However, rather than resulting in tragedy, the occupants of the ship find themselves under the effect of the water breathing spell.",
+				"<b><i>Breath of the Depths.</i></b> Once per long rest, as an action, you can embed the Anchor of the Deep into the deck of a ship or a similar structure. When activated, the anchor triggers a powerful enchantment that causes the ship to sink quickly to the ocean floor, also everyone currently on the ship will gain the effects of the {@spell water breathing|PHB} spell as if the spell was casted on them. This lasts for 24 hours or until the anchor is retrieved and the ship resurfaces. To resurface the ship, as an action the user attuned to it must retrieve the anchor. Once the anchor is lifted, the ship ascends back to the surface, breaking the water's surface and returning to its normal state. It takes 1 minute to sink to the bottom or to float back up. The ship is unharmed from when it sinks."
+			]
+		},
+		{
+			"name": "Candle of Brilliant Arcana",
+			"source": "TftJC",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"These candles hold a powerful magical charge. When a magic item within 30ft of a candle uses a charge, you can have the candles restore its power. It regains an expended charge or use. After it has done so, the candle loses its magical ability."
+			]
+		},
+		{
+			"name": "Puck",
+			"source": "TftJC",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This brightly colored disk is made of some sort of wondrous material and can bend easily. When inverted it will quickly spring itself back to its normal shape, propelling objects on top of it 30 feet into the air. It is an action to arm the Puck and it detonates whenever someone steps onto it or at the start of your next turn. After being used, roll {@dice 1d20}. On a roll of 1 or 2, the Puck snaps and becomes useless."
+			]
+		},
+		{
+			"name": "Propeller Hat",
+			"source": "TftJC",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This hat can be activated to grant a fly speed of 15 feet to the wearer until the end of their turn. It takes a bonus action to activate. After being used, roll {@dice 1d20}. On a roll of 1 or 2, the propeller snaps and the hat becomes useless."
+			]
+		},
+		{
+			"name": "Waxy Pie",
+			"source": "TftJC",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This tasty pie can be shared with up to 4 other people. If shared during a short rest each person that eats it can add {@dice 1d4} to one hit die spent during the short rest. The pie magically reappears each day at midnight."
+			]
+		},
+		{
+			"name": "Bonetooth Necklace",
+			"source": "TftJC",
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"This Necklace magically collects trophies from your hunts. You can spend an hour performing a Ritual to prepare a Hunt. A creature can only be hunted if;",
+				{
+					"type": "list",
+					"style": "list-decimal",
+					"columns": 0,
+					"items": [
+						"You know their name, you have seen them in person and have spoken with them",
+						"They are a level or CR higher than your level",
+						"Wish you dead"
+					]
+				},
+				"If a creature meets these conditions, you can Hunt them. Upon killing the target of your Hunt, a piece of them is magically added to the necklace.",
+				"You gain a +1 to attack rolls per trophy collected. At 5 Trophies, the item changes."
+			]
 		}
 	],
 	"feat": [
@@ -3988,7 +4070,7 @@
 			"subclassSource": "TftJC",
 			"level": 3,
 			"entries": [
-				"Derby Dasher is a newer specialization found in the world of inventing, who specializes in hi-tech mobility and movement. Their ability for generating high velocity strikes and quick escapes makes them powerful infultrators and skirmishers. To help with their abilities, they have invented new pieces of gear to help them get in, and dash out.",
+				"Derby Dasher is a newer specialization found in the world of inventing, who specializes in hi-tech mobility and movement. Their ability for generating high velocity strikes and quick escapes makes them powerful infiltrators and skirmishers. To help with their abilities, they have invented new pieces of gear to help them get in, and dash out.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Derby Dasher Spells|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
