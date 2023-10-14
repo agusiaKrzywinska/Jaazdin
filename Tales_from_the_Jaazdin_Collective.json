@@ -4319,6 +4319,34 @@
 				"Dispel Evil and Good",
 				"Hold Monster"
 			]
+		},
+		{
+			"name": "Path of the Pugilist",
+			"source": "TftJC",
+			"page": 12,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"shortName": "Pugilist",
+			"subclassFeatures": [
+				"Path of the Pugilist|Barbarian|PHB|Pugilist|TftJC|3",
+				"Showstopper|Barbarian|PHB|Pugilist|TftJC|6",
+				"Fancy Footwork|Barbarian|PHB|Pugilist|TftJC|10",
+				"Stubborn|Barbarian|PHB|Pugilist|TftJC|14"
+			]
+		},
+		{
+			"name": "Path of the Vampire",
+			"source": "TftJC",
+			"page": 13,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"shortName": "Vampire",
+			"subclassFeatures": [
+				"Path of the Vampire|Barbarian|PHB|Vampire|TftJC|3",
+				"Bloodthirsty|Barbarian|PHB|Vampire|TftJC|6",
+				"Take Flight|Barbarian|PHB|Vampire|TftJC|10",
+				"Life Consumption|Barbarian|PHB|Vampire|TftJC|14"
+			]
 		}
 	],
 	"subclassFeature": [
@@ -4762,8 +4790,9 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Magical Sabator|Artificer|TCE|NullifierTftJC|3|TftJC"
+					"subclassFeature": "Magical Sabator|Artificer|TCE|Nullifier|TftJC|3|TftJC"
 				}
+
 			]
 		},
 		{
@@ -4889,6 +4918,188 @@
 					]
 				},
 				"In addition, whenever you cast an enchantment or transmutation spell using a spell slot of 1st level or higher, you regain one use of Magical Sabator."
+			]
+		},
+		{
+			"name": "Path of the Pugilist",
+			"source": "TftJC",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Pugilist",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"Not weighed down by unwieldy swords and pathetic armor, the Pugilist knows that the best weapons they own are the ones they were born with. Pugilists are just as skilled in Boxing as they are in their showmanship. A Pugilist not only wants to defeat their enemies hand to hand, but prove time and time again to their adoring fans how powerful they are.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Honorable Combatant|Barbarian|PHB|Pugilist|TftJC|3|TftJC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "The Ol' One Two|Barbarian|PHB|Pugilist|TftJC|3|TftJC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Boastful|Barbarian|PHB|Pugilist|TftJC|3|TftJC"
+				}
+
+			]
+		},
+		{
+			"name": "Honorable Combatant",
+			"source": "TftJC",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Pugilist",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you become a practitioner of fisticuffs. Your unarmed strikes deal 1d4 bludgeoning damage, and while raging, your unarmed attacks deal an additional 1d4 damage. Your unarmed strikes can be lethal. Furthermore, you can add your Charisma Modifier to your Initiative Bonus.",
+				"At 7th level, your bonus damage increases to 2d4, at 11th level it increases to 3d4, and at 15th level, it increases to 4d4."
+			]
+		},
+		{
+			"name": "The Ol' One Two",
+			"source": "TftJC",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Pugilist",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you learn a classic technique. After using your attack action to make an unarmed strike, you can use your Bonus Action to make an unarmed strike. This can only be done while in a Rage."
+			]
+		},
+		{
+			"name": "Boastful",
+			"source": "TftJC",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Pugilist",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you become obnoxious in your showmanship. You gain proficiency in Performance, and can add your Strength Modifier to any Performance check you would make that focuses on your raw power. While Raging, you have advantage on Performance Checks made in this way."
+			]
+		},
+		{
+			"name": "Showstopper",
+			"source": "TftJC",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Pugilist",
+			"subclassSource": "TftJC",
+			"level": 6,
+			"entries": [
+				"At 6th level, you can perform a powerful wind-up punch. You can declare any unarmed attack you make with a Showstopper. A Showstopper deals an additional 1d4 + your Charisma modifier in damage. If a Showstopper reduces a creature to 0 hitpoints, you gain temporary hitpoints equal to your Barbarian level + your Charisma modifier. Regardless if the Showstopper hits or misses, you may attempt to shove or grapple the target as a part of that attack. You can use a Showstopper a number of times per Short or Long rest equal to your Proficiency Bonus.",
+				"Additionally, your unarmed strikes are considered magical for the purposes of overcoming resistances."
+			]
+		},
+		{
+			"name": "Fancy Footwork",
+			"source": "TftJC",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Pugilist",
+			"subclassSource": "TftJC",
+			"level": 10,
+			"entries": [
+				"At 10th level, you can distract your foes with your moves. As a Bonus Action, you can showcase your footwork. Creatures attacking you until the start of your next turn have disadvantage, and you can add your Charisma Modifier to Dextery saving throws."
+			]
+		},
+		{
+			"name": "Stubborn",
+			"source": "TftJC",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Pugilist",
+			"subclassSource": "TftJC",
+			"level": 14,
+			"entries": [
+				"At 14th level, your hard head keeps you in fights longer than the average battler. If you would drop to 0 hitpoints or activate Relentless Rage, you can use your reaction to immediately regain a spent use of Showstopper and make a Showstopper attack against a hostile creature within reach. If you would gain temproary hitpoints from your Showstopper attack, you instead gain that amount as hitpoints."
+			]
+		},
+		{
+			"name": "Path of the Vampire",
+			"source": "TftJC",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Vampire",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"Infused with the cursed blood of a hunter of the night, those who can master their Vampiric Abitilites become powerful warriors. Vampiric Barbarians combine their natural strength with ther unnatural abilities, chomping their way to victory.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Vampiric Fangs|Barbarian|PHB|Vampire|TftJC|3|TftJC"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Vampiric Traits|Barbarian|PHB|Vampire|TftJC|3|TftJC"
+				}
+			]
+		},
+		{
+			"name": "Vampiric Fangs",
+			"source": "TftJC",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Vampire",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you gain Vampiric Features. When you enter a Rage, you grow sharp fangs. They can be used as a Natural weapon that deals 1d8 piercing damage. After making your attack action, you can use your Bonus Action to make an additional attack with your Fangs.",
+				"Additionally, once per turn when you deal damage with your Fangs, you can add your Proficiency Bonus to your damage roll"
+			]
+		},
+		{
+			"name": "Vampiric Traits",
+			"source": "TftJC",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Vampire",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you gain additional traits from your Vampiric origins. You have an adversion to sunlight, and have disadvantage on attack rolls and perception checks while you are directly within sunlight. You also gain resistance to Necrotic Damage."
+			]
+		},
+		{
+			"name": "Bloodthirsty",
+			"source": "TftJC",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Vampire",
+			"subclassSource": "TftJC",
+			"level": 6,
+			"entries": [
+				"At 6th level, you can tap into your Vampiric healing abilities. Whenever you make a Fang attack, you can heal a number of hitpoints equal to half of the damage dealt. You can do so a number of times per Short rest equal to your Proficiency Bonus.",
+				"While you are under half of your maximum hitpoints, your hunger comes out in full force. While you are in a rage, your strength score and strength score maximum are both increased by 2, up to a maximum of 30.",
+				"Your Fangs are also considered magical for the purposes of overcoming resistances."
+			]
+		},
+		{
+			"name": "Take Flight",
+			"source": "TftJC",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Vampire",
+			"subclassSource": "TftJC",
+			"level": 10,
+			"entries": [
+				"At 10th level, you become a master of the night. As an Action, you can expend a use of your Rage so that you and your equipment can transform into a bat. You return to your normal form either once you drop to 0 hitpoints, you dismiss it as a Bonus Action, or a minute passes. You retain your mental statistics, and can use your Vampiric Fangs while in this form."
+			]
+		},
+		{
+			"name": "Life Consumption",
+			"source": "TftJC",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Vampire",
+			"subclassSource": "TftJC",
+			"level": 14,
+			"entries": [
+				"At 14th level, you can absorb the lifeforce of creatures. Whenever you land the killing blow on a creature of CR 1 or greater, you can use your reaction to absorb their lifeforce. Doing so heals you a number of hitpoints equal to the creature's CR (or level) x 4."
 			]
 		}
 	]
