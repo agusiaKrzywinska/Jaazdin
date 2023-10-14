@@ -3481,9 +3481,8 @@
 			"source": "TftJC",
 			"rarity": "very rare",
 			"baseItem": "Katana|TftJC",
-			"type":"M",
+			"type": "M",
 			"weight": 2,
-			"value": 3000,
 			"weaponCategory": "martial",
 			"property": [
 				"F",
@@ -3499,6 +3498,180 @@
 				" In addition, you can make one attack with it as a bonus action on each of your turns.",
 				"You gain a fly speed of 60ft while in the Astral Sea.",
 				"<b><i>Special.</i></b> Only Ninjutsu Rogues are able to gain proficiency with this weapon."
+			]
+		},
+		{
+			"name": "Blade of Darkinix",
+			"source": "TftJC",
+			"rarity": "artifact",
+			"type": "M",
+			"weapon": true,
+			"reqAttune": "by a child of Darkinix",
+			"range": "20/60",
+			"entries": [
+				"This weapon provides a +3 to Attack Rolls and Damage Rolls.",
+				"As an Action, the wielder can change this into any melee weapon they are proficient with.",
+				"In all forms, it has the thrown property with a normal range of 20 feet and a long range of 60 feet. Immediately after the attack, the weapon flies back to your hand.",
+				"You gain Immunity to Fire Damage.",
+				"Your Charisma Score becomes 20 if it is lower than that.",
+				"This weapon deals an additional {@dice 3d6} damage against Dragons.",
+				"This weapon is also considered a {@item Vorpal Sword|DMG} against Dragons, so long as they are at 100 hitpoits or fewer. If they are above this value, they instead take an additional {@dice 6d8} damage."
+			]
+		},
+		{
+			"name": "The Red Blade",
+			"source": "TftJC",
+			"rarity": "very rare",
+			"baseItem": "longsword|phb",
+			"type": "M",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"reqAttune": true,
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"bonusWeapon": "+2",
+			"entries": [
+				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"While wielding this blade, you can cast {@spell Hunter's Mark|PHB}, {@spell Ensnaring Strike|PHB}, {@spell Pass Without Trace|PHB} and {@spell Dust Devil|XGE} once per long rest, each.",
+				"Additionally, you no longer need to drink water, and have advantage on Constitution saving throws against overheating.",
+				"When you hit with a melee attack using this sword and reduce the target to 0 hit points, you gain 2d6 temporary hit points.",
+				"Your theft shall not be forgotten, and my vengeance shall be swift."
+			]
+		},
+		{
+			"name": "Fate Coin",
+			"rarity": "rare",
+			"source": "TftJC",
+			"wondrous": true,
+			"entries": [
+				"As a reaction you can flip this coin into the air and place your fate in its hands. Roll {@dice 1d2}.",
+				"On a 1, your next roll becomes a natural 20 and you have advantage on all attack rolls, saving throws, and ability checks until the end of your next turn.",
+				"On a 2, your next roll becomes a natural 1 and you have disadvantage on all attack rolls, saving throws, and ability checks until the end of your next turn.",
+				"After the coin has been flipped it bursts into sparkles."
+			]
+		},
+		{
+			"name": "Claws of the Wyrmling (Green)",
+			"source": "TftJC",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"entries": [
+				"This magic claw can be attached to a melee weapon you are proficient in.",
+				"Once attached, it cannot be removed without the use of a {@spell Remove Curse|PHB} spell or similar magic.",
+				"If you unattune to it, the attachment remains however you no longer gain the benefits of this magic item.",
+				"While attached to a weapon, you can use your spellcasting ability modifier instead of Strength or Dexterity for attack and damage rolls made with that weapon.",
+				"<b><i>Draconic Fury.</i></b> When you hit with a melee weapon attack using the weapon with the attachment, you can add an additional {@dice 1d4} poison damage to the attack.",
+				"<b><i>Draconic Venom.</i></b> On a successful hit with a melee weapon attack using the weapon with the attachment, the target must make a DC 13 Constitution saving throw or be {@condition posioned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success."
+			]
+		},
+		{
+			"name": "Amulet of the Elemental Knights",
+			"source": "TftJC",
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"Once per month, as an action you can summon a Myrmidon. The Myrmidon is friendly to you and will give its life to fight for you and protect you. The Myrmidon vanishes after its hitpoints reach 0, or a week passes."
+			]
+		},
+		{
+			"name": "Frostwail",
+			"source": "TftJC",
+			"rarity": "rare",
+			"baseItem": "Maul|PHB",
+			"reqAttune": true,
+			"weight": 10,
+			"type": "M",
+			"weaponCategory": "martial",
+			"dmg1": "2d6",
+			"dmgType": "B",
+			"property": [
+				"H",
+				"2H"
+			],
+			"hammer": true,
+			"weapon": true,
+			"entries": [
+				"This maul of ice and ivory bears a never melting heavy head.",
+				"You gain a +2 bonus to attack and damage rolls made with this magical weapon. When you hit a creature with this weapon you deal {@dice 2d6} cold damage.",
+				"When you land a critical hit the maul head explodes dealing {@dice 3d12} cold damage to each creature of your choice within 10ft of you. The maul head then takes (@dice 1d4} rounds to reform, during this time the maul cannot deal damage."
+			]
+		},
+		{
+			"name": "Lance of the Steadfast Prince",
+			"source": "TftJC",
+			"rarity": "legendary",
+			"baseItem": "Lance|PHB",
+			"reqAttune": "by a creature with at least 15 CHA",
+			"type": "M",
+			"weight": 6,
+			"weaponCategory": "martial",
+			"property": [
+				"R",
+				"S"
+			],
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"weapon": true,
+			"entries": [
+				"You gain a +3 to attack rolls and damage rolls with this weapon.",
+				"If you attack a creature with this weapon and roll a 20 on the attack roll, you deal an additional 2d8 necrotic damage and regain a number of hitpoints equal to the necrotic damage dealt.",
+				"Additionally, your walking speed is increased by 10, and if you are mounted this walking speed is bonus is instead applied to your mount.",
+				"<b><i>Special.</i></b> You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."
+			]
+		},
+		{
+			"name": "Dark Storm's Voice",
+			"source": "TftJC",
+			"rarity": "legendary",
+			"baseItem": "Maul|PHB",
+			"reqAttune": true,
+			"weight": 10,
+			"type": "M",
+			"weaponCategory": "martial",
+			"dmg1": "2d6",
+			"dmgType": "B",
+			"property": [
+				"H",
+				"2H"
+			],
+			"hammer": true,
+			"weapon": true,
+			"entries": [
+				"This magical hammer grants a +2 bonus to attack and damage rolls.",
+				"The hammer constantly hums with the power of the storm and is cloaked in a dark shadow and when called upon can unleash the fury of the storm.",
+				"As an action, you can make one melee weapon attack which increases your reach by 30 feet and deals thunder damage instead of bludgeoning damage.",
+				"While in darkness or dim light, the maul becomes shrouded in shadow becoming nearly unperceivable. While shrouded in shadow this maul's bludgeoning damage ignores damage resistances.",
+				"Additionally, you can use the hammer to cast thunderwave with a DC of 14."
+			]
+		},
+		{
+			"name": "Gloom",
+			"source": "TftJC",
+			"rarity": "very rare",
+			"baseItem": "Rapier|PHB",
+			"reqAttune": true,
+			"weight": 2,
+			"type": "M",
+			"weaponCategory": "martial",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"property": [
+				"F"
+			],
+			"entries": [
+				"This blood-soaked rapier has taken countless lives and is suffused with its previous wielder's malice. Attacks with this magical rapier gain a +1 to attack and damage rolls.",
+				"While in darkness or dim light, the blade becomes shrouded in shadow becoming nearly unperceivable. While shrouded in shadow this blade's damage ignores damage resistances."
 			]
 		}
 	],
