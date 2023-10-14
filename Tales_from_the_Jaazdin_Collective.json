@@ -550,7 +550,7 @@
 				}
 			],
 			"entries": [
-				"You give a hand to an injured creature. They regain 1d4 + your spellcasting modifier in hitpoints. If the creature was at 0 hitpoints, they immediately stand up if they were prone, and restore the highest number of hitpoints possible for the die rolled."
+				"You give a hand to an injured creature. They regain 1d4 + your spellcasting modifier in hit points. If the creature was at 0 hit points, they immediately stand up if they were prone, and restore the highest number of hit points possible for the die rolled."
 			],
 			"entriesHigherLevel": [
 				{
@@ -652,7 +652,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the range increases by 5 feet and the necrotic damage increwases by 1d8 for each level past 1st."
+						"When you cast this spell using a spell slot of 2nd level or higher, the range increases by 5 feet and the necrotic damage increases by 1d8 for each level past 1st."
 					]
 				}
 			],
@@ -863,8 +863,8 @@
 				}
 			],
 			"entries": [
-				"A mass of thick brambles and vines rapidly grows from a point within range. The brambles form into a tough dome with a diameter of 15ft, a height of 10ft and a thickness of 1ft. The dome has an AC of 13, has 30 hitpoints, with vulnerability to fire and immunity to psychic and poison. The brambles remain for the duration or as long as they have hitpoints. When casting the spell, you can choose to concentrate on it.",
-				"While concentrating on this spell, the brambles heal 5 hitpoints at the start of your turn. If you would lose concentration, the brambles remain for the remainder of their duration or once their hitpoints reach 0. If you cast this spell using a spell slot of 3rd or higher, the brambles are conjured with an additional 10 maximum hitpoints."
+				"A mass of thick brambles and vines rapidly grows from a point within range. The brambles form into a tough dome with a diameter of 15ft, a height of 10ft and a thickness of 1ft. The dome has an AC of 13, has 30 hit points, with vulnerability to fire and immunity to psychic and poison. The brambles remain for the duration or as long as they have hit points. When casting the spell, you can choose to concentrate on it.",
+				"While concentrating on this spell, the brambles heal 5 hit points at the start of your turn. If you would lose concentration, the brambles remain for the remainder of their duration or once their hit points reach 0. If you cast this spell using a spell slot of 3rd or higher, the brambles are conjured with an additional 10 maximum hit points."
 			],
 			"classes": {
 				"fromClassList": [
@@ -965,7 +965,7 @@
 				}
 			],
 			"entries": [
-				"You generate a consistant stream of healing. Select a creature within range. For the duration, at the start of each of their turns they heal 1d4 hitpoints so long as they are conscious."
+				"You generate a consistent stream of healing. Select a creature within range. For the duration, at the start of each of their turns they heal 1d4 hit points so long as they are conscious."
 			],
 			"classes": {
 				"fromClassList": [
@@ -1006,7 +1006,7 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a silk hankerchief"
+				"m": "a silk handkerchief"
 			},
 			"duration": [
 				{
@@ -1127,7 +1127,7 @@
 				}
 			],
 			"entries": [
-				"You conjure a rapid pool of twisting water at a point within range. Creatures within a 15ft cube must make a strength saving throw. On a fail, they take 3d10 bludegoning damage and are moved as close to the centre of the cube as they can. If they would knock into another creature, both creatures take 1d6 bludgeoning damage. If this spell is cast affecting creatures in water, they have disadvantage on the saving throw."
+				"You conjure a rapid pool of twisting water at a point within range. Creatures within a 15ft cube must make a strength saving throw. On a fail, they take 3d10 bludgeoning damage and are moved as close to the centre of the cube as they can. If they would knock into another creature, both creatures take 1d6 bludgeoning damage. If this spell is cast affecting creatures in water, they have disadvantage on the saving throw."
 			],
 			"entriesHigherLevel": [
 				{
@@ -1193,7 +1193,7 @@
 				}
 			],
 			"entries": [
-				"You transmute a lantern's flame into a Will-o'-Wisp. The Will-o'-Wisp is friendly to you, and remains for the spell's duration or once its hitpoints become 0. As a bonus action on your turn, you can command the Will-o'-Wisp to perform an action. Additionally, you can give the Will-o'-Wisp a command once a certain event happens, like 'Notify me if anyone enters this area' or 'Attack any undead you see'. You can have up to three Will-o'-Wisp under your control at a time from this spell's effects. If you already have three Will-o'-Wisps under your control and you cast this spell again, that new Will-o'-Wisp becomes hostile towards you."
+				"You transmute a lantern's flame into a Will-o'-Wisp. The Will-o'-Wisp is friendly to you, and remains for the spell's duration or once its hit points become 0. As a bonus action on your turn, you can command the Will-o'-Wisp to perform an action. Additionally, you can give the Will-o'-Wisp a command once a certain event happens, like 'Notify me if anyone enters this area' or 'Attack any undead you see'. You can have up to three Will-o'-Wisp under your control at a time from this spell's effects. If you already have three Will-o'-Wisps under your control and you cast this spell again, that new Will-o'-Wisp becomes hostile towards you."
 			],
 			"classes": {
 				"fromClassList": [
@@ -1256,7 +1256,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"If you cast this spell using a spell slot of 4th level or higher, you create one additonal weapon per slot above 3rd, and 1 additional set of armor for every two slots above 3rd.",
+						"If you cast this spell using a spell slot of 4th level or higher, you create one additional weapon per slot above 3rd, and 1 additional set of armor for every two slots above 3rd.",
 						"If you cast this spell using a spell slot of 5th or higher, the weapons are +1.",
 						"If you cast this spell using a spell slot of 7th or higher, the weapons are +2.",
 						"If you cast this spell using a spell slot of 9th or higher, the weapons are +3."
@@ -1314,7 +1314,7 @@
 				}
 			],
 			"entries": [
-				"You create a flurry of black petals and launch them at a creature within range. Make a spell attack roll against that creature, and on a hit they take 4d10 slashing damage as rapidly moving petals tear around them. If this attack hits a creature, that creature is also restrained, as the petals turn to solid chains. If the spell hits, then all creatures of your choice within 10ft of that creature must make a Dexterity Saving throw, or also be restained. Creatures restained by this spell are freed at the end of your next turn."
+				"You create a flurry of black petals and launch them at a creature within range. Make a spell attack roll against that creature, and on a hit they take 4d10 slashing damage as rapidly moving petals tear around them. If this attack hits a creature, that creature is also restrained, as the petals turn to solid chains. If the spell hits, then all creatures of your choice within 10ft of that creature must make a Dexterity Saving throw, or also be restrained. Creatures restrained by this spell are freed at the end of your next turn."
 			],
 			"entriesHigherLevel": [
 				{
@@ -1632,7 +1632,7 @@
 				}
 			],
 			"entries": [
-				"You touch a creature with Necromantic energy. Make a spell attack roll, and on a hit the creature taked 6d6 Necrotic Damage. A hit humanoid must then make a constitution saving throw, and on a fail become cursed. If the cursed creature dies before completing three Long Rests, they rise as a zombie under your control."
+				"You touch a creature with Necromantic energy. Make a spell attack roll, and on a hit the creature takes {@dice 6d6} Necrotic Damage. A hit humanoid must then make a constitution saving throw, and on a fail become cursed. If the cursed creature dies before completing three Long Rests, they rise as a zombie under your control."
 			],
 			"entriesHigherLevel": [
 				{
@@ -1699,7 +1699,7 @@
 				}
 			],
 			"entries": [
-				"Choose a loaction in range. A shimmering magical banner appears at that location. Each creature of your choice within 30ft of the banner gains advantage on all attack rolls made until the end of their next turn. In addition, whenever an ally starts its turn within 15 feet of the banner, they gain 1d4 + your spell casting ability mod in temporary hit points. A creature can pick up the banner and move it after it has appeared"
+				"Choose a location in range. A shimmering magical banner appears at that location. Each creature of your choice within 30ft of the banner gains advantage on all attack rolls made until the end of their next turn. In addition, whenever an ally starts its turn within 15 feet of the banner, they gain 1d4 + your spell casting ability mod in temporary hit points. A creature can pick up the banner and move it after it has appeared"
 			],
 			"entriesHigherLevel": [
 				{
@@ -2085,7 +2085,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"If you cast this spell using a spell slot of 5th level slot, tthe conduit gains an additional 2 charges per every spell slots above 4th."
+						"If you cast this spell using a spell slot of 5th level slot, the conduit gains an additional 2 charges per every spell slots above 4th."
 					]
 				}
 			],
@@ -2144,7 +2144,7 @@
 				}
 			],
 			"entries": [
-				"You utter a magical prayer. At the beginning of your second turn after casting this spell, select up to 3 creatures within range. A comet flies by them, as they heal 45 hitpoints split between them."
+				"You utter a magical prayer. At the beginning of your second turn after casting this spell, select up to 3 creatures within range. A comet flies by them, as they heal 45 hit points split between them."
 			],
 			"entriesHigherLevel": [
 				{
@@ -2431,7 +2431,7 @@
 			"entries": [
 				"You conjure a reflective metallic sphere in range. The sphere is 1ft in radius and hovers 5ft above the ground. It emits a magnetic force in a 45ft radius of the sphere that pulls in metal objects. Upon casting the spell, entering its zone for the first time, or starting your turn within its zone,loose metal objects within the magnetic force are flung towards the sphere and stick to it for the duration of the spell. Metal objects that are held require the wielder to make a Strength Save, and on a fail the objects are flung towards the sphere and stick to it. To retrieve an object stuck on the sphere, a creature must make a Strength Check equal to the spell save DC to successfully remove them from the sphere.",
 				"Creatures wearing metal armor are more susceptible to its effects. A creature wearing medium armor made primarily of metal must make a Strength Save, and on a fail, their body is flung towards the sphere and will then be stuck to it. A creature wearing light armor also makes the save, but with advantage. A creature wearing heavy armor makes the save with disadvantage. While stuck to the sphere, the creature is considered restrained. A creature may attempt an Athletics check to remove itself or another creature stuck to the sphere. The same advantages and disadvantages as detailed above depending on the armor type applies to this check.",
-				"Creatures that are pulled to the centre of the sphere by its effect take fall damage equivalent of the range travelled. If you cast this spell using a spell slot of 7th level, when casting the spell you can instead have the orb repulse objects made of metal. Objects are then instead flung outwards of the sphere’s zone of magnetism. Creatures wearing armor are still affected by the same advantages and disadvantages as detailed above."
+				"Creatures that are pulled to the centre of the sphere by its effect take fall damage equivalent of the range traveled. If you cast this spell using a spell slot of 7th level, when casting the spell you can instead have the orb repulse objects made of metal. Objects are then instead flung outwards of the sphere’s zone of magnetism. Creatures wearing armor are still affected by the same advantages and disadvantages as detailed above."
 			],
 			"entriesHigherLevel": [
 				{
@@ -2489,7 +2489,7 @@
 				}
 			],
 			"entries": [
-				"You create a raging tornado within range. The tornado has a diameter of 20ft, and a height of 100ft. As a Bonus Action on your turn, you can move the tornado up to 30ft in a straight line. Creatures that enter the tornado or start their turn within the tornado must make a Strength Saving throw, and on a fail are flung up into the air inside of the tornado. Creatures affected by the tornado take 5d4 bludegoning damage at the start of their turns, additionally affected creatures cannot concentrate on spells, fail dexterity saving throws, cannot use a fly speed if they have one and are deafened. Creatures affected are flung a number of feet into the air equal to 1d10 x 10 when they start their turn. If a creature goes higher than the top of the tornado, they are shot out of the top of the tornado in a random direction and fall."
+				"You create a raging tornado within range. The tornado has a diameter of 20ft, and a height of 100ft. As a Bonus Action on your turn, you can move the tornado up to 30ft in a straight line. Creatures that enter the tornado or start their turn within the tornado must make a Strength Saving throw, and on a fail are flung up into the air inside of the tornado. Creatures affected by the tornado take 5d4 bludgeoning damage at the start of their turns, additionally affected creatures cannot concentrate on spells, fail dexterity saving throws, cannot use a fly speed if they have one and are deafened. Creatures affected are flung a number of feet into the air equal to 1d10 x 10 when they start their turn. If a creature goes higher than the top of the tornado, they are shot out of the top of the tornado in a random direction and fall."
 			],
 			"entriesHigherLevel": [
 				{
@@ -2550,7 +2550,7 @@
 				}
 			],
 			"entries": [
-				"Your body becomes enveloped in arcane energy. You shed bright light for 15ft, and dim light for another 15ft. Your movement speed becomes 0, you cannot benefit from movement in any way while this spell is active, and you have disadvantage on Dexterity Saving throws. While in this form, you gain access to a Ranged Spell attack roll, which deals 4d4 force damage + your casting modifier, with a range of 300 ft. As an Action, you can fire up to three of these Ranged Spell attacks while in this form. You can use an Action to regain your ability to move and your movement speed for the turn but lose the ability to make the afformentioned Shots, after which you can use a Bonus Action to reactivate this form, losing your movement once again.",
+				"Your body becomes enveloped in arcane energy. You shed bright light for 15ft, and dim light for another 15ft. Your movement speed becomes 0, you cannot benefit from movement in any way while this spell is active, and you have disadvantage on Dexterity Saving throws. While in this form, you gain access to a Ranged Spell attack roll, which deals 4d4 force damage + your casting modifier, with a range of 300 ft. As an Action, you can fire up to three of these Ranged Spell attacks while in this form. You can use an Action to regain your ability to move and your movement speed for the turn but lose the ability to make the aforementioned Shots, after which you can use a Bonus Action to reactivate this form, losing your movement once again.",
 				"When the spell ends, you have disadvantage on Strength, Dexterity, and Constitution Saving throws and Ability checks until the end of your next turn."
 			],
 			"entriesHigherLevel": [
@@ -2747,7 +2747,7 @@
 				{
 					"name": "Sunlight Sickness",
 					"entries": [
-						"While in sunlight, the myconid has disadvantage on abilitychecks, attack rolls, and saving throws."
+						"While in sunlight, the myconid has disadvantage on ability checks, attack rolls, and saving throws."
 					],
 					"type": "entries"
 				},
@@ -2768,7 +2768,7 @@
 				{
 					"name": "Fungal Resilience",
 					"entries": [
-						"Your fungal body has an easy time adapting to strange airborn toxins. You face no negative effects of polluted air, and have advantage on saving throws against harmful gases and vapors, such as Cloudkill.."
+						"Your fungal body has an easy time adapting to strange airborne toxins. You face no negative effects of polluted air, and have advantage on saving throws against harmful gases and vapors, such as Cloudkill.."
 					],
 					"type": "entries"
 				},
@@ -2794,7 +2794,7 @@
 					"type": "entries"
 				},
 				{
-					"name": "Halluciation Spores (1/day)",
+					"name": "Hallucination Spores (1/day)",
 					"entries": [
 						"The myconid ejects spores at one creature it can see within 5feet of it. The target must succeed on a Constitution saving throw (DC = 8 + prof + CON) or be poisoned for 1 minute. The poisoned target is incapacitated while it hallucinates. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 					],
@@ -2987,7 +2987,6 @@
 			"dmg1": "1d6",
 			"dmg2": "1d8",
 			"dmgType": "S",
-			"weapon": true,
 			"entries": [
 				"<b><i>Special.</i></b> This weapon only has the reach property when it is being wielded in both hands.",
 				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
@@ -3007,7 +3006,6 @@
 			],
 			"dmg1": "1d6",
 			"dmgType": "S",
-			"weapon": true,
 			"entries": [
 				"<b><i>Paired.</i></b> Paired weapons has special features that only activate when you are wielding two of the same weapon with the paired property.",
 				"When you are wielding two Shuang Gou you are considered to have reach.",
@@ -3031,7 +3029,6 @@
 			],
 			"dmg1": "1d10",
 			"dmgType": "B",
-			"weapon": true,
 			"entries": [
 				"<b><i>Reach.(10ft)<b><i> This weapon adds 10 feet to your reach when you attack with it. This property also determines your reach for opportunity attacks with a reach weapon.",
 				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
@@ -3051,7 +3048,6 @@
 			],
 			"dmg1": "1d6",
 			"dmgType": "B",
-			"weapon": true,
 			"entries": [
 				"<b><i>Paired.</i></b> Paired weapons has special features that only activate when you are wielding two of the same weapon with the paired property.",
 				"When you are wielding two tonfa you gain a +1 bonus to your AC. If you make an attack with both Tonfa on your turn you lose the bonus to AC until the start of your next turn.",
@@ -3073,7 +3069,6 @@
 			],
 			"dmg1": "1d8",
 			"dmgType": "S",
-			"weapon": true,
 			"entries": [
 				"<b><i>Special.</i></b> If you roll a natural 1 while using the Urumi you deal 1d8 slashing damage to yourself.",
 				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
@@ -3095,7 +3090,6 @@
 			"range": "40/80",
 			"dmg1": "1d4",
 			"dmgType": "S",
-			"weapon": true,
 			"entries": [
 				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
 			]
@@ -3112,7 +3106,6 @@
 			"property": [],
 			"dmg1": "3",
 			"dmgType": "B",
-			"weapon": true,
 			"entries": [
 				"<b><i>Unarmed.</i></b> Unarmed weapons replace your unarmed damage with the weapon damage listed. If you have other options for unarmed damage, such as a Fighting Style or Martial Arts monk feature you can choose which damage die applies. A value written as +X as opposed to X adds to unarmed damage rather than replacing it.",
 				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
@@ -3132,7 +3125,6 @@
 			],
 			"dmg1": "+1",
 			"dmgType": "B",
-			"weapon": true,
 			"strength": "15",
 			"entries": [
 				"<b><i>Special.</i></b> These heavy gauntlets require immense strength to use effectively. A creature must have 15 Strength or they make all attacks with this weapon with disadvantage.",
@@ -3154,7 +3146,6 @@
 			],
 			"dmg1": "1",
 			"dmgType": "S",
-			"weapon": true,
 			"entries": [
 				"<b><i>Special.</i></b> As a bonus action you can extended or retract the claws from these knuckles switching your unarmed damage from Bludgeoning to Slashing while the claws are extended.",
 				"<b><i>Hidden.</i></b> A creature gains advantage on Sleight of Hand checks to hide a hidden weapon on their person. In addition, spotting a Hidden weapon on a person requires a DC 15 Perception check.",
@@ -3174,7 +3165,6 @@
 			"property": [],
 			"dmg1": "1d6",
 			"dmgType": "S",
-			"weapon": true,
 			"entries": [
 				"<b><i>Paired.</i></b> Paired weapons has special features that only activate when you are wielding two of the same weapon with the paired property.",
 				"These blades have a heavily guarded hilt that protects the forearms of its wielder. While wielding two of these blades you gain a +1 to AC.",
@@ -3197,7 +3187,6 @@
 			"dmg1": "1d8",
 			"dmg2": "1d10",
 			"dmgType": "S",
-			"weapon": true,
 			"entries": [
 				"<b><i>Special.</i></b> The special hooked head of the Bardiche allows one to bypass an opponent's shield. As a bonus action when you make an attack roll with the Bardiche against a creature with a shield you can have them make an opposed Athletic check. If you win then the creature does not benefit from the AC bonus from their shield until the end of your turn.",
 				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
@@ -3218,7 +3207,6 @@
 			],
 			"dmg1": "1d8",
 			"dmgType": "S",
-			"weapon": true,
 			"entries": [
 				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
 			]
@@ -3236,8 +3224,6 @@
 				"S",
 				"T"
 			],
-			"weapon": true,
-			"net": true,
 			"range": "15/40",
 			"entries": [
 				"<b><i>Special.</i></b> A Large or smaller creature hit by a bola must make a Strength (Athletics) or Dexterity (Acrobatics) check verse the attack roll. If they failed, they are knocked prone. A bola has no effect on creatures that are form lessor that don't have legs. Creatures with more than four legs have advantage on the check."
@@ -3247,7 +3233,7 @@
 			"name": "Bladed Net",
 			"source": "TftJC",
 			"page": 50,
-			"type": "M",
+			"type": "R",
 			"rarity": "none",
 			"weight": 2,
 			"value": 10,
@@ -3256,8 +3242,6 @@
 				"S",
 				"T"
 			],
-			"weapon": true,
-			"net": true,
 			"range": "5/15",
 			"entries": [
 				"<b><i>Special.</i></b> A Large or smaller creature hit by a net is Restrained until it is freed. A net has no Effect on Creatures that are formless or Creatures that are Huge or larger. A creature can use its Action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. On a failure, the creature takes 1d4 slashing damage. Dealing 10 slashing damage to the net (AC 13) also frees the creature without harming it, Ending the Effect and destroying the net. When you use an Action,bonus Action, or Reaction to Attack with a net, you can make only one Attack regardless of the number of attacks you can normally make.",
@@ -3280,7 +3264,6 @@
 			],
 			"dmg1": "1d6",
 			"dmgType": "B",
-			"weapon": true,
 			"entries": [
 				"<b><i>Special.</i></b> A creature can make a grapple check with the reach of the Man Catcher. On a success the grappler can move and maintain the grapple as long as they remain with the weapon’s reach. If a second creature attempts to grapple a creature you are grappling you can grant them advantage. If three or more Man Catchers are all grappling the same creature, that creature is restrained instead, as long as all three maintain the restraint.",
 				"<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
@@ -3303,7 +3286,6 @@
 			"dmg1": "1d8",
 			"dmg2": "1d10",
 			"dmgType": "S",
-			"weapon": true,
 			"entries": [
 				"<b><i>Special.</i></b> Only Ninjutsu Rogues are able to gain proficiency with this weapon."
 			]
@@ -3324,7 +3306,6 @@
 			],
 			"dmg1": "1d4",
 			"dmgType": "P",
-			"weapon": true,
 			"range": "30/90",
 			"entries": [
 				"<b><i>Special.</i></b> After using a Throwing Star for your Attack Action, you can use your Bonus Action to throw an additional Star, provided you have another. You can hold up to three Stars in one hand at a time.",
@@ -3492,7 +3473,6 @@
 			"dmg1": "1d8",
 			"dmg2": "1d10",
 			"dmgType": "S",
-			"weapon": true,
 			"entries": [
 				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
 				" In addition, you can make one attack with it as a bonus action on each of your turns.",
@@ -3505,7 +3485,6 @@
 			"source": "TftJC",
 			"rarity": "artifact",
 			"type": "M",
-			"weapon": true,
 			"reqAttune": "by a child of Darkinix",
 			"range": "20/60",
 			"entries": [
@@ -3515,7 +3494,7 @@
 				"You gain Immunity to Fire Damage.",
 				"Your Charisma Score becomes 20 if it is lower than that.",
 				"This weapon deals an additional {@dice 3d6} damage against Dragons.",
-				"This weapon is also considered a {@item Vorpal Sword|DMG} against Dragons, so long as they are at 100 hitpoits or fewer. If they are above this value, they instead take an additional {@dice 6d8} damage."
+				"This weapon is also considered a {@item Vorpal Sword|DMG} against Dragons, so long as they are at 100 hit points or fewer. If they are above this value, they instead take an additional {@dice 6d8} damage."
 			]
 		},
 		{
@@ -3571,7 +3550,7 @@
 				"If you unattune to it, the attachment remains however you no longer gain the benefits of this magic item.",
 				"While attached to a weapon, you can use your spellcasting ability modifier instead of Strength or Dexterity for attack and damage rolls made with that weapon.",
 				"<b><i>Draconic Fury.</i></b> When you hit with a melee weapon attack using the weapon with the attachment, you can add an additional {@dice 1d4} poison damage to the attack.",
-				"<b><i>Draconic Venom.</i></b> On a successful hit with a melee weapon attack using the weapon with the attachment, the target must make a DC 13 Constitution saving throw or be {@condition posioned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success."
+				"<b><i>Draconic Venom.</i></b> On a successful hit with a melee weapon attack using the weapon with the attachment, the target must make a DC 13 Constitution saving throw or be {@condition poisoned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success."
 			]
 		},
 		{
@@ -3581,7 +3560,7 @@
 			"wondrous": true,
 			"reqAttune": true,
 			"entries": [
-				"Once per month, as an action you can summon a Myrmidon. The Myrmidon is friendly to you and will give its life to fight for you and protect you. The Myrmidon vanishes after its hitpoints reach 0, or a week passes."
+				"Once per month, as an action you can summon a Myrmidon. The Myrmidon is friendly to you and will give its life to fight for you and protect you. The Myrmidon vanishes after its hit points reach 0, or a week passes."
 			]
 		},
 		{
@@ -3599,8 +3578,6 @@
 				"H",
 				"2H"
 			],
-			"hammer": true,
-			"weapon": true,
 			"entries": [
 				"This maul of ice and ivory bears a never melting heavy head.",
 				"You gain a +2 bonus to attack and damage rolls made with this magical weapon. When you hit a creature with this weapon you deal {@dice 2d6} cold damage.",
@@ -3622,10 +3599,9 @@
 			],
 			"dmg1": "1d12",
 			"dmgType": "P",
-			"weapon": true,
 			"entries": [
 				"You gain a +3 to attack rolls and damage rolls with this weapon.",
-				"If you attack a creature with this weapon and roll a 20 on the attack roll, you deal an additional 2d8 necrotic damage and regain a number of hitpoints equal to the necrotic damage dealt.",
+				"If you attack a creature with this weapon and roll a 20 on the attack roll, you deal an additional 2d8 necrotic damage and regain a number of hit points equal to the necrotic damage dealt.",
 				"Additionally, your walking speed is increased by 10, and if you are mounted this walking speed is bonus is instead applied to your mount.",
 				"<b><i>Special.</i></b> You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."
 			]
@@ -3645,8 +3621,6 @@
 				"H",
 				"2H"
 			],
-			"hammer": true,
-			"weapon": true,
 			"entries": [
 				"This magical hammer grants a +2 bonus to attack and damage rolls.",
 				"The hammer constantly hums with the power of the storm and is cloaked in a dark shadow and when called upon can unleash the fury of the storm.",
@@ -3757,6 +3731,49 @@
 			"entries": [
 				"While on your possession you gain a +1 to History and Nature Checks"
 			]
+		},
+		{
+			"name": "Spear of Thassa",
+			"source": "TftJC",
+			"type": "M",
+			"rarity": "rare",
+			"weaponCategory": "martial",
+			"property": [
+				"V",
+				"T"
+			],
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "P",
+			"range": "20/60",
+			"reqAttune": "by a follower of a Thassa",
+			"entries": [
+				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"When you hurl it and speak its command word, it transforms into a torrent of water, forming a line 5 feet wide that extends out from you to a target within 120 feet. Each creature in the line excluding you and the target must make a DC 13 Dexterity saving throw, taking {@dice 4d6} cold damage on a failed save, and half as much damage on a successful one. The torrent  turns back into a spear when it reaches the target. Make a ranged weapon attack against the target. On a hit, the target takes damage from the spear plus {@dice 4d6} cold damage. This ability does an additional {@dice 2d6} cold damage when used underwater.",
+				"The spear’s property can't be used again until the next dawn. In the meantime, the spear can still be used as a magic weapon.",
+				"The Spear retains all properties from its Staff Form."
+			]
+		},
+		{
+			"name": "Flail of Disruption",
+			"source": "TftJC",
+			"type": "M",
+			"rarity": "very rare",
+			"weaponCategory": "simple",
+			"baseItem": "mace|PHB",
+			"weight": 4,
+			"property": [
+				"V",
+				"T"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"reqAttune": true,
+			"entries": [
+				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"When you hit a fiend or an undead with this magic weapon, that creature takes an extra {@dice 2d6} radiant damage. If the target has 25 hit points or fewer after taking this damage, it must succeed on a DC 15 Wisdom saving throw or be destroyed. On a successful save, the creature becomes frightened of you until the end of your next turn.",
+				"While you hold this weapon, it sheds bright light in a 20-foot radius and dim light for an additional 20 feet."
+			]
 		}
 	],
 	"feat": [
@@ -3768,7 +3785,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Increase your Strength, Dexterity or Consitution by 1.",
+						"Increase your Strength, Dexterity or Constitution by 1.",
 						"While within 5 feet of an ally wielding a shield you and the ally gain a +1 to AC and Dexterity saving throws. A creature can only benefit from this feature once.",
 						"While within 5ft of a least two allies the first attack roll you make on your turn has advantage."
 					]
@@ -3795,7 +3812,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Increase your Strength, Dexterity or Coharisma by 1.",
+						"Increase your Strength, Dexterity or Charisma by 1.",
 						"You gain proficiency with a weapon of your choice.",
 						"You don't suffer disadvantage when using throw weapons when within 5ft of a hostile creature and both ranges of all thrown weapons increases by 10.",
 						"When you take the attack action you can use a bonus action to throw a net, bola, or make a Shove attack."
@@ -3824,7 +3841,7 @@
 					"type": "list",
 					"items": [
 						"You can make attack rolls with thrown weapons against creatures who have full cover from you provided they are still within range and there is at least one clear path. When you do so you treat the creature as having 1/4 cover instead of full.",
-						"When you miss an attack roll with a thrown weapon you can make annother attack roll against a different creature within the weapon's close range from the first target with disadvantage or have the weapon return to your hand."
+						"When you miss an attack roll with a thrown weapon you can make another attack roll against a different creature within the weapon's close range from the first target with disadvantage or have the weapon return to your hand."
 					]
 				}
 			]
@@ -3838,7 +3855,7 @@
 					"type": "list",
 					"items": [
 						"You gain proficiency to one artisans tool or language.",
-						"You gain 2 Ki. If you already have Ki these are added to your total. You can spend one Ki and use a bonus action to still your mind, you can remove disadvantage on one attack roll or ability check you make in the next miunute. You regian all spend Ki when you finish a short rest."
+						"You gain 2 Ki. If you already have Ki these are added to your total. You can spend one Ki and use a bonus action to still your mind, you can remove disadvantage on one attack roll or ability check you make in the next minute. You regian all spend Ki when you finish a short rest."
 					]
 				}
 			],
