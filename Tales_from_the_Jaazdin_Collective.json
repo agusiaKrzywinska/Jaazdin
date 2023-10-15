@@ -4196,6 +4196,355 @@
 				"<b><i>Good Hare Day.</i></b> Once per day, the wearer of the Slippers of Hopping may boop the noses of their footwear as a bonus action. When this happens, wearer casts Jump upon themselves and triples their jump distance for one minute. For the duration, long rabbit-like ears sprout from the head of the wearer, though the ears may be slicked back if the wearer has a receding hareline. Additionally, every jump is accompanied by a loud “BOING”!",
 				"Unfortunately, while wearing the Slippers of Hopping, the user is compelled to do the embarrassing action that bunnies are known for...twitch their nose."
 			]
+		},
+		{
+			"name": "Plate of Heating and Cooling",
+			"source": "TftJC",
+			"rarity": "common",
+			"wondrous": true,
+			"entries": [
+				"This black slate of stone has been enchanted with minor magic to heat or cool food. As an action it can be touched and either heated to a temperature hot enough to boil water or cooled to a temperature enough to freeze water. The effect remains until it is touched again and turned off."
+			]
+		},
+		{
+			"name": "Blackened Ice Plate",
+			"source": "TftJC",
+			"rarity": "very rare",
+			"type": "HA",
+			"ac": 18,
+			"entries": [
+				"You gain a +1 to your AC, and you gain resistance to Cold Damage. You take no negative repercussions from Cold Weather.",
+				"Once per Long Rest, as an Action you can invoke the powers of an unrelenting storm. All Creatures around you must make a DC 17 Constitution Saving Throw and take {@dice 6d10} Cold Damage, or half as much on a Fail."
+			]
+		},
+		{
+			"name": "Tinker's Tome Vol. (Uncommon)",
+			"source": "TftJC",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This tome contains the secrets of invention and innovation.",
+				"It can be read over 1 week to gain +10 towards one Innovative invention blueprint progress. Alternatively, a creature reading it can instead read the book to increase their Teaching, Tinkering, or Smithing labor tier by 1.",
+				"Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+			]
+		},
+		{
+			"name": "Tinker's Tome Vol. (Rare)",
+			"source": "TftJC",
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"This tome contains the secrets of invention and innovation.",
+				"It can be read over 1 week to gain +15 towards one Innovative invention blueprint progress. Alternatively, a creature reading it can instead read the book to increase their Teaching, Tinkering, or Smithing labor tier by 2.",
+				"Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+			]
+		},
+		{
+			"name": "Tinker's Tome Vol. (Very Rare)",
+			"source": "TftJC",
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"This tome contains the secrets of invention and innovation.",
+				"It can be read over 1 week to gain +20 towards one Innovative invention blueprint progress. Alternatively, a creature reading it can instead read the book to increase their Teaching, Tinkering, or Smithing labor tier by 3.",
+				"Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+			]
+		},
+		{
+			"name": "Tinker's Tome Vol. (Legendary)",
+			"source": "TftJC",
+			"rarity": "legendary",
+			"wondrous": true,
+			"entries": [
+				"This tome contains the secrets of invention and innovation.",
+				"It can be read over 1 week to gain +25 towards one Innovative invention blueprint progress. Alternatively, a creature reading it can instead read the book to increase their Teaching, Tinkering, or Smithing labor tier by 4.",
+				"Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+			]
+		},
+		{
+			"name": "Tinker's Tome Vol.",
+			"source": "TftJC",
+			"rarity": "varies",
+			"wondrous": true,
+			"entries": [
+				"These tomes contains the secrets of invention and innovation.",
+				{
+					"type": "list",
+					"items": [
+						"{@item Tinker's Tome Vol. (Uncommon)|TftJC}",
+						"{@item Tinker's Tome Vol. (Rare)|TftJC}",
+						"{@item Tinker's Tome Vol. (Very Rare)|TftJC}",
+						"{@item Tinker's Tome Vol. (Legendary)|TftJC}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Herbalist Helper Vol. (Uncommon)",
+			"source": "TftJC",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This tome contains the secrets of medical knowledge, plants, and poultices.",
+				"It can be read over 1 week to learn the use for one uncommon or lower plant, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Gardening, Doctor, or Alchemist labor tier by 1.",
+				"Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+			]
+		},
+		{
+			"name": "Herbalist Helper Vol. (Rare)",
+			"source": "TftJC",
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"This tome contains the secrets of medical knowledge, plants, and poultices.",
+				"It can be read over 1 week to learn the use for one rare or lower plant, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Gardening, Doctor, or Alchemist labor tier by 2.",
+				"Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+			]
+		},
+		{
+			"name": "Herbalist Helper Vol. (Very Rare)",
+			"source": "TftJC",
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"This tome contains the secrets of medical knowledge, plants, and poultices.",
+				"It can be read over 1 week to learn the use for one very rare or lower plant, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Gardening, Doctor, or Alchemist labor tier by 3.",
+				"Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+			]
+		},
+		{
+			"name": "Herbalist Helper Vol. (Legendary)",
+			"source": "TftJC",
+			"rarity": "legendary",
+			"wondrous": true,
+			"entries": [
+				"This tome contains the secrets of medical knowledge, plants, and poultices.",
+				"It can be read over 1 week to learn the use for one legendary or lower plant, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Gardening, Doctor, or Alchemist labor tier by 4.",
+				"Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+			]
+		},
+		{
+			"name": "Herbalist Helper Vol.",
+			"source": "TftJC",
+			"rarity": "varies",
+			"wondrous": true,
+			"entries": [
+				"These tomes contains the secrets of medical knowledge, plants, and poultices.",
+				{
+					"type": "list",
+					"items": [
+						"{@item Herbalist Helper Vol. (Uncommon)|TftJC}",
+						"{@item Herbalist Helper Vol. (Rare)|TftJC}",
+						"{@item Herbalist Helper Vol. (Very Rare)|TftJC}",
+						"{@item Herbalist Helper Vol. (Legendary)|TftJC}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Enchanting Catalogue Vol. (Uncommon)",
+			"source": "TftJC",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This tome contains the secrets to enchanting magical objects.",
+				"It can be read over 1 week to learn the recipe for one uncommon or lower magical item, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Tinkering, Teaching, or Arcanist labor tier by 1.",
+				"Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+			]
+		},
+		{
+			"name": "Enchanting Catalogue Vol. (Rare)",
+			"source": "TftJC",
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"This tome contains the secrets to enchanting magical objects.",
+				"It can be read over 1 week to learn the recipe for one rare or lower magical item, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Tinkering, Teaching, or Arcanist labor tier by 2.",
+				"Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+			]
+		},
+		{
+			"name": "Enchanting Catalogue Vol. (Very Rare)",
+			"source": "TftJC",
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"This tome contains the secrets to enchanting magical objects.",
+				"It can be read over 1 week to learn the recipe for one very rare or lower magical item, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Tinkering, Teaching, or Arcanist labor tier by 3.",
+				"Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+			]
+		},
+		{
+			"name": "Enchanting Catalogue Vol. (Legendary)",
+			"source": "TftJC",
+			"rarity": "legendary",
+			"wondrous": true,
+			"entries": [
+				"This tome contains the secrets to enchanting magical objects.",
+				"It can be read over 1 week to learn the recipe for one legendary or lower magical item, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Tinkering, Teaching, or Arcanist labor tier by 4.",
+				"Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+			]
+		},
+		{
+			"name": "Enchanting Catalogue Vol.",
+			"source": "TftJC",
+			"rarity": "varies",
+			"wondrous": true,
+			"entries": [
+				"These tomes contains the secrets to enchanting magical objects.",
+				{
+					"type": "list",
+					"items": [
+						"{@item Enchanting Catalogue Vol. (Uncommon)|TftJC}",
+						"{@item Enchanting Catalogue Vol. (Rare)|TftJC}",
+						"{@item Enchanting Catalogue Vol. (Very Rare)|TftJC}",
+						"{@item Enchanting Catalogue Vol. (Legendary)|TftJC}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Thieves Almanac Vol. (Uncommon)",
+			"source": "TftJC",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This tome contains the secrets to skullduggery and crime.",
+				"It can be read over 1 week to reduce the heat of a creature to 0. Alternatively, a creature reading it can instead read the book to increase their Theft, Guard Duty, or Gambling labor tier by 1.",
+				"Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+			]
+		},
+		{
+			"name": "Thieves Almanac Vol. (Rare)",
+			"source": "TftJC",
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"This tome contains the secrets to skullduggery and crime.",
+				"It can be read over 1 week to reduce the heat of a creature to 0. Alternatively, a creature reading it can instead read the book to increase their Theft, Guard Duty, or Gambling labor tier by 2.",
+				"Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+			]
+		},
+		{
+			"name": "Thieves Almanac Vol. (Very Rare)",
+			"source": "TftJC",
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"This tome contains the secrets to skullduggery and crime.",
+				"It can be read over 1 week to reduce the heat of a creature to 0. Alternatively, a creature reading it can instead read the book to increase their Theft, Guard Duty, or Gambling labor tier by 3.",
+				"Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+			]
+		},
+		{
+			"name": "Thieves Almanac Vol. (Legendary)",
+			"source": "TftJC",
+			"rarity": "legendary",
+			"wondrous": true,
+			"entries": [
+				"This tome contains the secrets to skullduggery and crime.",
+				"It can be read over 1 week to reduce the heat of a creature to 0. Alternatively, a creature reading it can instead read the book to increase their Theft, Guard Duty, or Gambling labor tier by 4.",
+				"Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+			]
+		},
+		{
+			"name": "Thieves Almanac Vol.",
+			"source": "TftJC",
+			"rarity": "varies",
+			"wondrous": true,
+			"entries": [
+				"These tomes contains the secrets to skullduggery and crime.",
+				{
+					"type": "list",
+					"items": [
+						"{@item Thieves Almanac Vol. (Uncommon)|TftJC}",
+						"{@item Thieves Almanac Vol. (Rare)|TftJC}",
+						"{@item Thieves Almanac Vol. (Very Rare)|TftJC}",
+						"{@item Thieves Almanac Vol. (Legendary)|TftJC}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Performer’s Companion Vol. (Uncommon)",
+			"source": "TftJC",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"This tome contains the secrets to performance and writing.",
+				"It can be read over 1 week to grant a creature a {@dice 1d6} to one roll during their downtime. Alternatively, a creature reading it can instead read the book to increase their Journalism, Performance, or Theft labor tier by 1.",
+				"Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+			]
+		},
+		{
+			"name": "Performer’s Companion Vol. (Rare)",
+			"source": "TftJC",
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"This tome contains the secrets to performance and writing.",
+				"It can be read over 1 week to grant a creature a {@dice 1d8} to one roll during their downtime. Alternatively, a creature reading it can instead read the book to increase their Journalism, Performance, or Theft labor tier by 2.",
+				"Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+			]
+		},
+		{
+			"name": "Performer’s Companion Vol. (Very Rare)",
+			"source": "TftJC",
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"This tome contains the secrets to performance and writing.",
+				"It can be read over 1 week to grant a creature a {@dice 1d10} to one roll during their downtime. Alternatively, a creature reading it can instead read the book to increase their Journalism, Performance, or Theft labor tier by 3.",
+				"Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+			]
+		},
+		{
+			"name": "Performer’s Companion Vol. (Legendary)",
+			"source": "TftJC",
+			"rarity": "legendary",
+			"wondrous": true,
+			"entries": [
+				"This tome contains the secrets to performance and writing.",
+				"It can be read over 1 week to grant a creature a {@dice 1d12} to one roll during their downtime. Alternatively, a creature reading it can instead read the book to increase their Journalism, Performance, or Theft labor tier by 4.",
+				"Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+			]
+		},
+		{
+			"name": "Performer’s Companion Vol.",
+			"source": "TftJC",
+			"rarity": "varies",
+			"wondrous": true,
+			"entries": [
+				"These tome contains the secrets to performance and writing.",
+				{
+					"type": "list",
+					"items": [
+						"{@item Performer’s Companion Vol. (Uncommon)|TftJC}",
+						"{@item Performer’s Companion Vol. (Rare)|TftJC}",
+						"{@item Performer’s Companion Vol. (Very Rare)|TftJC}",
+						"{@item Performer’s Companion Vol. (Legendary)|TftJC}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Training Vol.",
+			"source": "TftJC",
+			"rarity": "varies",
+			"wondrous": true,
+			"entries": [
+				"These tomes contains the secrets on a variety of topics.",
+				{
+					"type": "list",
+					"items": [
+						"{@item Tinker's Tome Vol.|TftJC}",
+						"{@item Herbalist Helper Vol.|TftJC}",
+						"{@item Enchanting Catalogue Vol.|TftJC}",
+						"{@item Thieves Almanac Vol.|TftJC}",
+						"{@item Performer’s Companion Vol.|TftJC}"
+					]
+				}
+			]
 		}
 	],
 	"feat": [
