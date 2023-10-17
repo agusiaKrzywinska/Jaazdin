@@ -15,7 +15,9 @@
 				],
 				"version": "0.0.18"
 			}
-		]
+		],
+		"dateAdded": 0,
+		"dateLastModified": 1697471582
 	},
 	"spell": [
 		{
@@ -4544,6 +4546,28 @@
 						"{@item Performer’s Companion Vol.|TftJC}"
 					]
 				}
+			]
+		}
+	],
+	"reward": [
+		{
+			"name": "Impossible Gloves",
+			"source": "TftJC",
+			"type": "Invention",
+			"entries": [
+				"<i><b>Simple Invention.</i></b>",
+				"This set of gloves is coated with Boggle Oil. They are flame resistant and hydrophobic.",
+				"They must be kept in water for 8 hours per hour of use to maintain their potency. Touching a creature with the gloves gives you advantage on Strength based Grapple checks."
+			]
+		},
+		{
+			"name": "Shade Goggles",
+			"source": "TftJC",
+			"type": "Invention",
+			"entries": [
+				"<i><b>Simple Invention.</i></b>",
+				"While wearing these Goggles, the strain of bright lights is diminished. Creatures with Sunlight Sensitivity and Sunlight Sickness no longer have the negative effects of sunlight affect their vision.",
+				"Additionally, creatures with Sunlight Sensitivity and Sunlight Sickness that wear these goggles during the day have a Brightvision now, with a range of 60ft. This acts the same way Darkvision allows creatures to see in darkness, but works for Sunlight instead. Seeing beyond your Brightvision incurs the same negative effects as detailed in your Sunlight Sickness or Sunlight Sensitivity."
 			]
 		}
 	],
