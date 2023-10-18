@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1697471582
+		"dateLastModified": 1697591324
 	},
 	"spell": [
 		{
@@ -4568,6 +4568,155 @@
 				"<i><b>Simple Invention.</i></b>",
 				"While wearing these Goggles, the strain of bright lights is diminished. Creatures with Sunlight Sensitivity and Sunlight Sickness no longer have the negative effects of sunlight affect their vision.",
 				"Additionally, creatures with Sunlight Sensitivity and Sunlight Sickness that wear these goggles during the day have a Brightvision now, with a range of 60ft. This acts the same way Darkvision allows creatures to see in darkness, but works for Sunlight instead. Seeing beyond your Brightvision incurs the same negative effects as detailed in your Sunlight Sickness or Sunlight Sensitivity."
+			]
+		},
+		{
+			"name": "Hookblade MK I",
+			"source": "TftJC",
+			"type": "Invention",
+			"entries": [
+				"<i><b>Simple Invention.</i></b>",
+				"This bracer contains a retractable two-pronged climbing tool.",
+				"As an action, the wearer can deploy (or retract) the climbing tool by pressing a button (this is considered using an item). While deployed, the wearer had advantage on ability checks made to climb surfaces. Additionally, the wearer can hang from a wall they are climbing with only the hookblade secured into the wall, freeing up a hand."
+			]
+		},
+		{
+			"name": "Wirelauncher MK I",
+			"source": "TftJC",
+			"type": "Invention",
+			"entries": [
+				"<i><b>Simple Invention.</i></b>",
+				"A creature can spend 1 minute attaching a javelin to this device. The javelin retains any properties it had before, such as enchantments and rare metal abilities. While attached, the javelin now connects to a canister containing 50ft of thick rope.",
+				"The javelin's maximum range cannot exceed how many ft of rope the cannister contains. Hitting a creature with the javelin carries the rope with it, allowing you to hold a rope on that creature so long as the javelin remains stuck in the creature. The creature can remove the javelin as an action by making a DC 10 Strength or Dexterity Check."
+			]
+		},
+		{
+			"name": "Hookblade MK II",
+			"source": "TftJC",
+			"type": "Invention",
+			"entries": [
+				"<i><b>Innovative Invention.</i></b>",
+				"This bracer contains a retractable three-pronged climbing tool.",
+				"As a bonus action, the wearer can deploy (or retract) the climbing tool by pressing a button (this is considered using an item). While deployed, the wearer gains a climb speed equal to their walking speed. Additionally, the wearer can hang from a wall they are climbing with only the hookblade secured into the wall, freeing up a hand."
+			]
+		},
+		{
+			"name": "Wirelauncher MK II",
+			"source": "TftJC",
+			"type": "Invention",
+			"entries": [
+				"<i><b>Innovative Invention.</i></b>",
+				"A creature can spend 1 minute attaching a javelin to this device. The javelin retains any properties it had before, such as enchantments and rare metal abilities. While attached, the javelin now connects to a canister containing 75ft of thick rope.",
+				"The javelin's maximum range cannot exceed how many ft of rope the cannister contains. Additionally, as a Bonus Action, you can set a maximum length limit to the rope, so that the rope only goes out a number of feet up to this amount. You can change or remove the length limit as a Bonus Action on a subsequent turn.",
+				"Hitting a creature with the javelin carries the rope with it, allowing you to hold a rope on that creature so long as the javelin remains stuck in the creature. The creature can remove the javelin as an action by making a DC 15 Strength Check. While the javelin remains embedded in the creature, their walking/swim/flying speeds are lowered by 10."
+			]
+		},
+		{
+			"name": "Flaming Blades",
+			"source": "TftJC",
+			"type": "Invention",
+			"entries": [
+				"<i><b>Innovative Invention.</i></b>",
+				"This weapon has channels where oil can freely flow between to keep the blades alight.",
+				"As an Action, you can ignite the Blade with fire. While lit, they deal an additional {@dice 1d6} Fire Damage.",
+				"They stay lit per a number of successful attacks landed equal to how many doses of lantern's oil they have inside, which is stored in the pommel. They can store 5 doses worth. It takes 1 minute to fully refill the pommels with oil.",
+				"These weapons also make for great tools for performers looking to spice up their act."
+			]
+		},
+		{
+			"name": "Handcannon MK I",
+			"source": "TftJC",
+			"type": "Invention",
+			"entries": [
+				"<i><b>Innovative Invention.</i></b>",
+				"This miniature cannon can be wielded effectively with two hands, like a heavy crossbow.",
+				"Proficiency in the Heavy Crossbow allows you to add your proficiency bonus with this weapon.",
+				"It uses small cannonballs as ammunition, 10 of which can be bought for 5gp.",
+				"As an Action, the wielder can ignite the fuse on the end of the cannon and fire it. Make a ranged attack roll (range 120ft, with no long range). It travels in that line until it hits a creature's AC, or it reaches the end of its range. A Creature hit by this attack takes {@dice 4d10} + DEX Bludgeoning Damage.",
+				"It requires 3 Actions to Reload. If the wielder has the Crossbow Master Feat, this is lowered to 2."
+			]
+		},
+		{
+			"name": "Handcannon MK II",
+			"source": "TftJC",
+			"type": "Invention",
+			"entries": [
+				"<i><b>Complex Invention.</i></b>",
+				"This miniature cannon can be wielded effectively with two hands, like a heavy crossbow.",
+				"Proficiency in the Heavy Crossbow allows you to add your proficiency bonus with this weapon.",
+				"It uses small cannonballs as ammunition, 10 of which can be bought for 5gp.",
+				"The wielder can ignite the fuse on the end of the cannon and fire it. Make a ranged attack roll (range 120ft, with no long range). It travels in that line until it hits a creature's AC, or it reaches the end of its range. A Creature hit by this attack takes {@dice 4d10} + DEX Bludgeoning Damage.",
+				"It requires forgoing 3 Attacks to Reload. If the wielder has the Crossbow Master Feat, this is lowered to 2."
+			]
+		},
+		{
+			"name": "Oiled Ballbearings",
+			"source": "TftJC",
+			"type": "Invention",
+			"entries": [
+				"<i><b>Simple Invention.</i></b>",
+				"These ballbearings have been coated in slippery oil. As an Action, you can apply 3 Flasks of Oil to Ball Bearings.",
+				"As an action, you can spill these tiny metal balls from their pouch to cover a level, square area that is 10 feet on a side. A creature moving across the covered area must succeed on a DC 13 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn’t need to make the save."
+			]
+		},
+		{
+			"name": "Ballista Magazine",
+			"source": "TftJC",
+			"type": "Invention",
+			"entries": [
+				"<i><b>Innovative Invention.</i></b>",
+				"This wide magazine allows for quicker reloading of a Ballista. Once crafted, it must be installed on the ballista, which takes 10 minutes.",
+				"It has an AC of 15 and 20 hit points. The Magazine can hold up to 14 Ballista Sized Bolts, and while the magazine is loaded with ammunition the Ballista only requires a Bonus Action to reload. All other rules about a Ballista remain the same.",
+				"To reload the Magazine, you can spend an Action to place a bolt into the magazine."
+			]
+		},
+		{
+			"name": "Handcannon",
+			"source": "TftJC",
+			"type": "Invention",
+			"entries": [
+				"This miniature cannon can be wielded effectively with two hands, like a heavy crossbow.",
+				"Proficiency in the Heavy Crossbow allows you to add your proficiency bonus with this weapon.",
+				"It uses small cannonballs as ammunition, 10 of which can be bought for 5gp.",
+				"There are the following versions:",
+				{
+					"type": "list",
+					"items": [
+						"{@reward Handcannon MK I|TftJC}",
+						"{@reward Handcannon MK II|TftJC}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Wirelauncher",
+			"source": "TftJC",
+			"type": "Invention",
+			"entries": [
+				"There are the following versions:",
+				{
+					"type": "list",
+					"items": [
+						"{@reward Wirelauncher MK I|TftJC}",
+						"{@reward Wirelauncher MK II|TftJC}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Hookblade",
+			"source": "TftJC",
+			"type": "Invention",
+			"entries": [
+				"This bracer contains a retractable two-pronged climbing tool.",
+				"There are the following versions:",
+				{
+					"type": "list",
+					"items": [
+						"{@reward Hookblade MK I|TftJC}",
+						"{@reward Hookblade MK II|TftJC}"
+					]
+				}
 			]
 		}
 	],
