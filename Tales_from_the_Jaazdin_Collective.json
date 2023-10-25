@@ -5233,6 +5233,42 @@
 				"Polytheist's Gamble|Cleric|PHB|Polyglot|TftJC|6",
 				"Potent Spellcasting|Cleric|PHB|Polyglot|TftJC|8",
 				"Blessing of the Many|Cleric|PHB|Polyglot|TftJC|17"
+			],
+			"subclassSpells": [
+				"Comprehend Languages|PHB",
+				"Suggestion|PHB",
+				"Tongues|PHB",
+				"Compulsion|PHB",
+				"Seeming|PHB"
+			]
+		},
+		{
+			"name": "Circle of Seasons",
+			"source": "TftJC",
+			"page": 19,
+			"className": "Druid",
+			"classSource": "PHB",
+			"shortName": "Seasons",
+			"subclassFeatures": [
+				"Circle of Seasons|Druid|PHB|Seasons|TftJC|2",
+				"Natural Guide|Druid|PHB|Seasons|TftJC|6",
+				"Seasonal Warden|Druid|PHB|Seasons|TftJC|10",
+				"Circle of Land and Air|Druid|PHB|Seasons|TftJC|14"
+			]
+		},
+		{
+			"name": "Circle of Titans",
+			"source": "TftJC",
+			"page": 20,
+			"className": "Druid",
+			"classSource": "PHB",
+			"shortName": "Titans",
+			"subclassFeatures": [
+				"Circle of Titans|Druid|PHB|Titans|TftJC|2",
+				"Menacing Stature|Druid|PHB|Titans|TftJC|6",
+				"Titanic Might|Druid|PHB|Titans|TftJC|6",
+				"Indomnitable Stature|Druid|PHB|Titans|TftJC|10",
+				"Primal Reckoning|Druid|PHB|Titans|TftJC|14"
 			]
 		}
 	],
@@ -6483,7 +6519,226 @@
 			"entries": [
 				"At 17th level, when you use your Beseech the Divine Channel Divinity you can roll twice and have two effects manifest. If you roll the same effect twice, reroll one of the effects."
 			]
+		},
+		{
+			"name": "Circle of Seasons",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Seasons",
+			"subclassSource": "TftJC",
+			"level": 2,
+			"entries": [
+				"The Circle of Seasons is made up of the attendants of the Fey Court's servants, confidents, assassins, and ambassadors employed by the great Archfey. These druids work to maintain balance and peace between the various factions of the Fey Realm and when needed are sent to the Material Plane to act on the behalf of their masters.",
+				"Groups of these druids serve exclusively on the Material Plane as well, forming tribes based on their seasonal prowess. Tribes in great tundra might be masters of their winter forms while their desert dwelling cousins' savants of the fiery summer power. These clans were usually started by an ancestor that crossed over from the Fey Realm and now after generations may not even remember the true meaning behind their powers",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Nobility of Court|Druid|PHB|Seasons|TftJC|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Seasonal Forms|Druid|PHB|Seasons|TftJC|2"
+				}
+			]
+		},
+		{
+			"name": "Nobility of Court",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Seasons",
+			"subclassSource": "TftJC",
+			"level": 2,
+			"entries": [
+				"Starting when you take this circle at 2nd level, you gain knowledge of the proceedings and etiquette of the Season Courts. You learn Sylvan and gain proficiency in Persuasion, your proficiency bonus for Persuasion is doubled whendealing with fey."
+			]
+		},
+		{
+			"name": "Seasonal Forms",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Seasons",
+			"subclassSource": "TftJC",
+			"level": 2,
+			"entries": [
+				"At 2nd level, when you use your Wildshape you can further enhance your form with the power of the Seasonal Courts. When you Wildshape you gain a number of temporary hitpoints equal to your Druid level x 3, and also you can choose from the Winter, Spring, Summer, and Autumn forms and gain its special abilities while you are in your chosen Wildshape form:",
+				{
+					"type": "list",
+					"items": [
+						"Summer: You gain resistance to fire and your attacks deal 1d6 extra fire damage, this fire damage increases to 1d8 at 7th level, 1d10 at 13th level, and 1d12 at 18th level.",
+						"Spring: You gain resistance to acid damage and you gain the Vibrant Aura feature",
+						"Autumn: You gain the Shock Bolt ranged attack and resistance to lightning damage.",
+						"Winter: You gain resistance to cold damage and gain the Frost Breath Special action."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Vibrant Aura",
+					"entries": [
+						"Vines and plant life spring to life creating a 10ft radius of difficult terrain around you. In addition, any creature of your choice that regain hit points in that radius regains extra hit points equal to your proficiency bonus."
+						
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Shock Bolt",
+					"entries": [
+						"Make a ranged spell attack against one creature. On hit it deals 1d6 + your spellcasting ability modifier and the creature makes a Dexterity saving throw. On a failure it cannot make a reaction until the start of its next turn. The damage increases to 2d6 at 7th level, 3d6 at 13th level, and 4d6 at 18th level."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Frost Breath (Recharge 6)",
+					"entries": [
+						" You exhale a blast of freezing wind in a 15-foot cone. Each creature in the area must make a Constitution saving throw or take 3d6 cold damage on a failed save, or half as much damage on a successful one. This damage increases to 3d8 at 7th level. 3d10 at 13th level, and 3d12 at 18th level."
+					]
+				}
+			]
+		},
+		{
+			"name": "Natural Guide",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Seasons",
+			"subclassSource": "TftJC",
+			"level": 6,
+			"entries": [
+				"Starting at 6th level, you become an expert at leading groups of people through dangerous areas. While creatures are within 30 ft of you, they benefit from the following effects: They have advantage on Constitution Saving throws to resist the effects of extreme cold or heat, they ignore the effects of difficult terrain caused by natural or magical plants, and have advantage on saving throws to resist being grappled or restrained by natural or magical plants."
+			]
+		},
+		{
+			"name": "Seasonal Warden",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Seasons",
+			"subclassSource": "TftJC",
+			"level": 10,
+			"entries": [
+				"Starting at 10th level, when you use your Seasonal Forms wild shape you can choose to remain in your normal form while gaining the benefits of the Seasonal Form you choose. In addition, you deal extra damage on your spells based on your current Season Form. You add your Wisdom modifier to spells that deal fire for summer, cold for winter, acid for spring, and lightning for autumn while you are in that form. You still gain the afformentioned Temporary hitpoints from your Seasonal Forms feature, and when thise temporary hitpoints are lost, you lose the bonuses from this feature."
+			]
+		},
+		{
+			"name": "Circle of Land and Air",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Seasons",
+			"subclassSource": "TftJC",
+			"level": 14,
+			"entries": [
+				"Starting at 14th level your Seasonal forms change the world around you. While in your Seasonal Form or Seasonal Warden form you create a 15ft aura around you with effects depending on your form:",
+				{
+					"type": "list",
+					"items": [
+						"Summer: Friendly creatures have resistance to fire damage and hostile creatures take fire damage equal to your proficiency modifier at the start of their turns.",
+						"Spring:  Friendly creatures have resistance to acid damage and regain the maximum hitpoints possible from healing spells",
+						"Autumn: Friendly creatures have resistance to lightning damage and hostile creatures that cast spells in the radius take lightning damage equal to half your druid level.",
+						"Winter: Friendly creatures have resistance to cold damage and hostile creatures have their movement speed reduced by 10"
+					]
+				}
+			]
+		},
+		{
+			"name": "Circle of Titans",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Titans",
+			"subclassSource": "TftJC",
+			"level": 2,
+			"entries": [
+				"Meek and meager beasts have inhabitedthe lands today, but deep beneath the ground lay the bones of Titans who once ruled over all. Some Druids channel these dead beasts to return their might to the puny world above. Channeling the energy of ancient beasts, Druids of the Circle of Titans empower themselves with long forgotten colossi.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Titanic Form|Druid|PHB|Titan|TftJC|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Knowledge of Ancient Beasts|Druid|PHB|Titan|TftJC|2"
+				}
+			]
+		},
+		{
+			"name": "Titanic Form",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Titan",
+			"subclassSource": "TftJC",
+			"level": 2,
+			"entries": [
+				"When you choose this circle at 2nd level, you can embolden your Wild Shapes with Titanic Power. When you enter a Wild Shape, you can choose to make that form a Titan. It grows one size category larger, and its Strength is increased by 2, up to 20. It additionally gains 1 extra hitpoint per hit die that creature has.",
+				"Additionally, you can expend 2 uses of your Wild Shape to transform into a Dinosaur. You must be a Druid level equal to or higher than that creature's CR to transform into it. You cannot make a Dinosaur you Wild Shape into with this ability a Titan."
+			]
+		},
+		{
+			"name": "Knowledge of Ancient Beasts",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Titan",
+			"subclassSource": "TftJC",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you learn of Ancient Beasts that once walked the lands. You can Wild Shape into any Dinosaur Beast (so long as you still meet any wild shape resitrictions). You also learn the Primordial Language, or another language if you know this language already."
+
+			]
+		},
+		{
+			"name": "Menacing Stature",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Titan",
+			"subclassSource": "TftJC",
+			"level": 6,
+			"entries": [
+				"At 2nd level, you learn of Ancient Beasts that once walked the lands. You can Wild Shape into any Dinosaur Beast (so long as you still meet any wild shape resitrictions). You also learn the Primordial Language, or another language if you know this language already."
+
+			]
+		},
+		{
+			"name": "Titanic Might",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Titan",
+			"subclassSource": "TftJC",
+			"level": 6,
+			"entries": [
+				"At 6th level, your Titanic Forms grow even stronger. When you enter a Wild Shape, if the creature's strength score is less than 18 after entering a Titan Form, it becomes 18. Additionally, Titanic Wild Shapes have resistance to nonmagical Bludgeoning, Slashing and Piercing Damage."
+
+			]
+		},
+		{
+			"name": "Indomnitable Stature",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Titan",
+			"subclassSource": "TftJC",
+			"level": 10,
+			"entries": [
+				"At 10th level, your Menacing Stature is improved. When you cast Enlarge/Reduce, you now grow the target two size categories. Your Titanic Wild Shapes also grow two Size categories. Your Wild Shapes are considered Monstrosities now when you choose to make them a Titan"
+
+			]
+		},
+		{
+			"name": "Indomnitable Stature",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Titan",
+			"subclassSource": "TftJC",
+			"level": 14,
+			"entries": [
+				"At 14th level, your Titanic might is at its peak. Your Wild Shapes now heal a number of missing hitpoints equal to their Constitution Modifier + your Proficiency Bonus at the beginning of your turn, and their Strength Minimum now becomes 22. All creatures of your choice that are smaller than your Wild Shape forms must make a Wisdom Saving throw when they either start their turn within 30ft of you, or enter that space. On a Fail, they are Frightened until they leave this area."
+			]
 		}
+		
 		
 	]
 }
