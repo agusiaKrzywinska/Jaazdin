@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1698192283
+		"dateLastModified": 1699824201
 	},
 	"spell": [
 		{
@@ -4764,6 +4764,231 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Breath Stone (uncommon)",
+			"source": "TftJC",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"As an action, you can pop the stone into your mouth consuming it, unleashing a breath weapon effect. The breath weapon takes the form of a 15-foot cone of elemental damage. Each creature in the area must make a DC 13 Dexterity saving throw, taking {@dice 3d6} elemental damage on a failed save, or half as much damage on a successful one. Once consumed the breath stone is used.",
+				"Based on the color of the stone it determines the elemental damage type",
+				{
+					"type": "table",
+					"colLabels": [
+						"Breath Stone Color",
+						"Damage Type"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"Black, or Copper",
+							"Acid"
+						],
+						[
+							"Blue, or Bronze",
+							"Lightning"
+						],
+						[
+							"Brass, Gold, or Red",
+							"Fire"
+						],
+						[
+							"Green",
+							"Poison"
+						],
+						[
+							"Silver, or White",
+							"Cold"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Breath Stone (rare)",
+			"source": "TftJC",
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"As an action, you can pop the stone into your mouth consuming it, unleashing a breath weapon effect. The breath weapon takes the form of a 15-foot cone of elemental damage. Each creature in the area must make a DC 15 Dexterity saving throw, taking {@dice 4d8} elemental damage on a failed save, or half as much damage on a successful one. Once consumed the breath stone is used.",
+				"Based on the color of the stone it determines the elemental damage type",
+				{
+					"type": "table",
+					"colLabels": [
+						"Breath Stone Color",
+						"Damage Type"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"Black, or Copper",
+							"Acid"
+						],
+						[
+							"Blue, or Bronze",
+							"Lightning"
+						],
+						[
+							"Brass, Gold, or Red",
+							"Fire"
+						],
+						[
+							"Green",
+							"Poison"
+						],
+						[
+							"Silver, or White",
+							"Cold"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Breath Stone (very rare)",
+			"source": "TftJC",
+			"rarity": "very rare",
+			"wondrous": true,
+			"entries": [
+				"As an action, you can pop the stone into your mouth consuming it, unleashing a breath weapon effect. The breath weapon takes the form of a 15-foot cone of elemental damage. Each creature in the area must make a DC 17 Dexterity saving throw, taking {@dice 5d10} elemental damage on a failed save, or half as much damage on a successful one. Once consumed the breath stone is used.",
+				"Based on the color of the stone it determines the elemental damage type",
+				{
+					"type": "table",
+					"colLabels": [
+						"Breath Stone Color",
+						"Damage Type"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"Black, or Copper",
+							"Acid"
+						],
+						[
+							"Blue, or Bronze",
+							"Lightning"
+						],
+						[
+							"Brass, Gold, or Red",
+							"Fire"
+						],
+						[
+							"Green",
+							"Poison"
+						],
+						[
+							"Silver, or White",
+							"Cold"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Breath Stone (legendary)",
+			"source": "TftJC",
+			"rarity": "legendary",
+			"wondrous": true,
+			"entries": [
+				"As an action, you can pop the stone into your mouth consuming it, unleashing a breath weapon effect. The breath weapon takes the form of a 15-foot cone of elemental damage. Each creature in the area must make a DC 20 Dexterity saving throw, taking {@dice 6d12} elemental damage on a failed save, or half as much damage on a successful one. Once consumed the breath stone is used.",
+				"Based on the color of the stone it determines the elemental damage type",
+				{
+					"type": "table",
+					"colLabels": [
+						"Breath Stone Color",
+						"Damage Type"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"Black, or Copper",
+							"Acid"
+						],
+						[
+							"Blue, or Bronze",
+							"Lightning"
+						],
+						[
+							"Brass, Gold, or Red",
+							"Fire"
+						],
+						[
+							"Green",
+							"Poison"
+						],
+						[
+							"Silver, or White",
+							"Cold"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Breath Stone",
+			"source": "TftJC",
+			"rarity": "varies",
+			"wondrous": true,
+			"entries": [
+				"As an action, you can pop the stone into your mouth consuming it, unleashing a breath weapon effect. The breath weapon takes the form of a 15-foot cone of elemental damage. Each creature in the area must make a Dexterity saving throw, taking elemental damage on a failed save, or half as much damage on a successful one. Once consumed the breath stone is used.",
+				"Based on the color of the stone it determines the elemental damage type",
+				{
+					"type": "table",
+					"colLabels": [
+						"Breath Stone Color",
+						"Damage Type"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"Black, or Copper",
+							"Acid"
+						],
+						[
+							"Blue, or Bronze",
+							"Lightning"
+						],
+						[
+							"Brass, Gold, or Red",
+							"Fire"
+						],
+						[
+							"Green",
+							"Poison"
+						],
+						[
+							"Silver, or White",
+							"Cold"
+						]
+					]
+				},
+				"The following breath stones exist:",
+				{
+					"type": "list",
+					"items": [
+						"{@item Breath Stone (uncommon)|TftJC}",
+						"{@item Breath Stone (rare)|TftJC}",
+						"{@item Breath Stone (very rare)|TftJC}",
+						"{@item Breath Stone (legendary)|TftJC}"
+					]
+				}
+			]
 		}
 	],
 	"reward": [
@@ -6577,7 +6802,6 @@
 					"name": "Vibrant Aura",
 					"entries": [
 						"Vines and plant life spring to life creating a 10ft radius of difficult terrain around you. In addition, any creature of your choice that regain hit points in that radius regains extra hit points equal to your proficiency bonus."
-						
 					]
 				},
 				{
@@ -6684,7 +6908,6 @@
 			"level": 2,
 			"entries": [
 				"At 2nd level, you learn of Ancient Beasts that once walked the lands. You can Wild Shape into any Dinosaur Beast (so long as you still meet any wild shape resitrictions). You also learn the Primordial Language, or another language if you know this language already."
-
 			]
 		},
 		{
@@ -6697,7 +6920,6 @@
 			"level": 6,
 			"entries": [
 				"At 2nd level, you learn of Ancient Beasts that once walked the lands. You can Wild Shape into any Dinosaur Beast (so long as you still meet any wild shape resitrictions). You also learn the Primordial Language, or another language if you know this language already."
-
 			]
 		},
 		{
@@ -6710,7 +6932,6 @@
 			"level": 6,
 			"entries": [
 				"At 6th level, your Titanic Forms grow even stronger. When you enter a Wild Shape, if the creature's strength score is less than 18 after entering a Titan Form, it becomes 18. Additionally, Titanic Wild Shapes have resistance to nonmagical Bludgeoning, Slashing and Piercing Damage."
-
 			]
 		},
 		{
@@ -6723,7 +6944,6 @@
 			"level": 10,
 			"entries": [
 				"At 10th level, your Menacing Stature is improved. When you cast Enlarge/Reduce, you now grow the target two size categories. Your Titanic Wild Shapes also grow two Size categories. Your Wild Shapes are considered Monstrosities now when you choose to make them a Titan"
-
 			]
 		},
 		{
@@ -6738,7 +6958,5 @@
 				"At 14th level, your Titanic might is at its peak. Your Wild Shapes now heal a number of missing hitpoints equal to their Constitution Modifier + your Proficiency Bonus at the beginning of your turn, and their Strength Minimum now becomes 22. All creatures of your choice that are smaller than your Wild Shape forms must make a Wisdom Saving throw when they either start their turn within 30ft of you, or enter that space. On a Fail, they are Frightened until they leave this area."
 			]
 		}
-		
-		
 	]
 }
