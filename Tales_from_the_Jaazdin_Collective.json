@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1701534536
+		"dateLastModified": 1701536050
 	},
 	"spell": [
 		{
@@ -5495,6 +5495,20 @@
 				"Indomnitable Stature|Druid|PHB|Titan|TftJC|10",
 				"Primal Reckoning|Druid|PHB|Titan|TftJC|14"
 			]
+		},
+		{
+			"name": "Circle of the Dragon",
+			"source": "TftJC",
+			"page": 21,
+			"className": "Druid",
+			"classSource": "PHB",
+			"shortName": "Dragon",
+			"subclassFeatures": [
+				"Circle of the Dragon|Druid|PHB|Dragon|TftJC|2",
+				"Dragon's Breath|Druid|PHB|Dragon|TftJC|6",
+				"From Fur to Scales|Druid|PHB|Dragon|TftJC|10",
+				"Affinity|Druid|PHB|Dragon|TftJC|14"
+			]
 		}
 	],
 	"subclassFeature": [
@@ -6956,6 +6970,129 @@
 			"level": 14,
 			"entries": [
 				"At 14th level, your Titanic might is at its peak. Your Wild Shapes now heal a number of missing hitpoints equal to their Constitution Modifier + your Proficiency Bonus at the beginning of your turn, and their Strength Minimum now becomes 22. All creatures of your choice that are smaller than your Wild Shape forms must make a Wisdom Saving throw when they either start their turn within 30ft of you, or enter that space. On a Fail, they are Frightened until they leave this area."
+			]
+		},
+		{
+			"name": "Circle of the Dragon",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon",
+			"subclassSource": "TftJC",
+			"level": 2,
+			"entries": [
+				"The Dragon's Tail is not shockingly home to powerful scaled beasts. The settlers that have shared the islands with these beasts have adapted to their might, and even taken onsome of their characteristics.",
+				"Druids of the Circle of Dragon embody the unbridaled power of a Dragon within them. From toughened scales to powerful breath weapons, their grace and might shall be known to all.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "The Dragon's Soul|Druid|PHB|Dragon|TftJC|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Draconic Companion|Druid|PHB|Dragon|TftJC|2"
+				}
+			]
+		},
+		{
+			"name": "The Dragon's Soul",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon",
+			"subclassSource": "TftJC",
+			"level": 2,
+			"entries": [
+				"When you choose this circle at 2nd level, you gain a connection to Draconic beings. You learn Draconic, and additionally you grow scales. While you aren't wearing armor, your AC equals 13 + your Dexterity modifier. Your Wild Shapes have a Draconic flare to them, and this bonus is still provided while you are in Wild Shape."
+			]
+		},
+		{
+			"name": "Draconic Companion",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon",
+			"subclassSource": "TftJC",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you learn the {@spell Find Familiar|PHB} spell. It is a Druid spell for you, is always prepared and does not count against the number of spells you can prepare. Whenever you cast Find Familiar, it appears as a Pseudodragon. This Pseudodragon can make the attack action, and you can use your Bonus Action to command it to do so."
+			]
+		},
+		{
+			"name": "Dragon's Breath",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon",
+			"subclassSource": "TftJC",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain the ability to launch breath weapons. Asa Bonus Action, you can exhale elemental power. Select a Breath Weapon from the list below. Their DC is equal to yourDruid spell saving throw. You can use this feature while in Wild Shape. Its deals {@dice 3d8} damage, increasing by to {@dice 4d8} at 9th level, and {@dice 5d8} at 13th level. You can use this feature a number of times equal to your Wisdom Modifier per Long Rest.",
+				{
+					"type": "table",
+					"caption": "Breath Weapons",
+					"colLabels": [
+						"Element",
+						"Size",
+						"Saving Throw"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text-",
+						"col- text-"
+					],
+					"rows": [
+						[
+							"Fire",
+							"15 ft Cone",
+							"DEX"
+						],
+						[
+							"Lightning",
+							"30 ft Line",
+							"DEX"
+						],
+						[
+							"Cold",
+							"15 ft Cone",
+							"CON"
+						],
+						[
+							"Poison",
+							"15 ft Cone",
+							"CON"
+						],
+						[
+							"Acid",
+							"30 ft Line",
+							"DEX"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "From Fur to Scales",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon",
+			"subclassSource": "TftJC",
+			"level": 10,
+			"entries": [
+				"At 10th level, your Wild Shape list now includes Dragons, and you can expend two uses of your Wild shape to transform into a Young Dragon of your choice. Also, you can cast {@spell Polymorph|PHB} on yourself once per short rest, but can only select a Dragon as a possible form."
+			]
+		},
+		{
+			"name": "Affinity",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Dragon",
+			"subclassSource": "TftJC",
+			"level": 14,
+			"entries": [
+				"At 14th level, you fully embrace your Draconic abilities. As an Action, you can unleash a pair of Draconic Wings from your body. You gain a flying speed of 80 feet. This lasts for 10 minutes, and you can do this once per long rest.",
+				"Furthermore, all beasts you Wild Shape into are treated as Dragons. Whenever you use your Wild Shape, they also gain the afformentioned wings and flying speed. If they already have a flying speed that is slower than 80 ft, it becomes that."
 			]
 		}
 	]
