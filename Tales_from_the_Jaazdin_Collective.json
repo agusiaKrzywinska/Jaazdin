@@ -5509,6 +5509,20 @@
 				"From Fur to Scales|Druid|PHB|Dragon|TftJC|10",
 				"Affinity|Druid|PHB|Dragon|TftJC|14"
 			]
+		},
+		{
+			"name": "Circle of the Iron Heretic",
+			"source": "TftJC",
+			"page": 22,
+			"className": "Druid",
+			"classSource": "PHB",
+			"shortName": "Iron Heretic",
+			"subclassFeatures": [
+				"Circle of the Iron Heretic|Druid|PHB|Iron Heretic|TftJC|2",
+				"Beastial Metal|Druid|PHB|Iron Heretic|TftJC|6",
+				"Creation Core|Druid|PHB|Iron Heretic|TftJC|10",
+				"Rare Metallics|Druid|PHB|Iron Heretic|TftJC|14"
+			]
 		}
 	],
 	"subclassFeature": [
@@ -7093,6 +7107,161 @@
 			"entries": [
 				"At 14th level, you fully embrace your Draconic abilities. As an Action, you can unleash a pair of Draconic Wings from your body. You gain a flying speed of 80 feet. This lasts for 10 minutes, and you can do this once per long rest.",
 				"Furthermore, all beasts you Wild Shape into are treated as Dragons. Whenever you use your Wild Shape, they also gain the afformentioned wings and flying speed. If they already have a flying speed that is slower than 80 ft, it becomes that."
+			]
+		},
+		{
+			"name": "Circle of the Iron Heretic",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Iron Heretic",
+			"subclassSource": "TftJC",
+			"level": 2,
+			"entries": [
+				"Druids of the Circle of the Iron Heretic find their calling not in the preservation of nature, but in the advancement of it. They see nature as the perfect mechanism for the advancement of intelligent races but unlike their brethren, they do not shy away from the exploitation of natural resources into valuable tools.",
+				"These druids use their magic to twist metal and stone into cold lifeless mimicry of natural life and push their own power forward by consuming natural material. Their disregard for nature for progress often puts them at odds with other druidic circles, hence their branding as heretics.",
+				"Druids in this circle do not necessarily see natural life as different from that created through construct magic, treating both as useful tools to advance intelligent life forwards. These druids believe that progress and destruction are a natural part of life, embracing modernity as opposed to rejecting it.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Circle Spells|Druid|PHB|Iron Heretic|TftJC|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Shell of Iron|Druid|PHB|Iron Heretic|TftJC|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Metallic Carapace|Druid|PHB|Iron Heretic|TftJC|2"
+				}
+			]
+		},
+		{
+			"name": "Circle Spells",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Iron Heretic",
+			"subclassSource": "TftJC",
+			"level": 2,
+			"entries": [
+				"Your relationship with metal grants you the ability to tap into magic forbidden to other druids. At 2nd level, you learn one of the following cantrips: booming blade, green flame blade, or sword burst. At 3rd, 5th, 7th, and 9th levels you gain access to the spells listed for that level in the Circle of the Iron Heretic Spells table.",
+				"Once you gain access to one of these spells, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+				{
+					"type": "table",
+					"caption": "Iron Heretic Spells",
+					"colLabels": [
+						"Druid Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"3rd",
+							"Aganazzar’s Scorcher, Dragon’s Breath"
+						],
+						[
+							"5th",
+							"Wall of sand, Molten Cascade"
+						],
+						[
+							"7th",
+							"Fabricate, Fire Shield"
+						],
+						[
+							"9th",
+							"Animate Objects, Steel Wind Strike"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Shell of Iron",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Iron Heretic",
+			"subclassSource": "TftJC",
+			"level": 2,
+			"entries": [
+				"Starting at 2nd level, you gain proficiency in heavy armor and ignore the restriction on wearing metal that druids normally have."
+			]
+		},
+		{
+			"name": "Metallic Carapace",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Iron Heretic",
+			"subclassSource": "TftJC",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you gain the ability to make use of metal and shape it into natural shapes. As an action, while wearing metal armor, you can expend a use of your Wild Shape feature to shape both your body and the metal into a newform. You Wild Shape into a Beast as normal but your new form has the following difference: Your AC in your new formis equal to the AC of the armor you were wearing in your normal form.",
+				{
+					"type": "list",
+					"items": [
+						"Your creature type is Construct and you cannot regain hitpoints in your new form.",
+						"Your speed in all forms decreases by 10ft.",
+						"Your attacks in this form deal {@dice 1d6} extra fire damage from your super-heated metal. This damage increases to {@dice 2d6} at level 9 and {@dice 3d6} at level 16."
+					]
+				},
+				"While wearing heavy armor you cannot Wild Shape into a non-metallic version of your Wild Shape."
+			]
+		},
+		{
+			"name": "Beastial Metal",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Iron Heretic",
+			"subclassSource": "TftJC",
+			"level": 6,
+			"entries": [
+				"At the 6th level, you gain the ability to reshape metal both inside and outside of your Wild Shape. You can use a bonus action to expend a use of your Wild Shape to manifest one of the following benefits on a suit of metal armor you arewearing for one hour:",
+				{
+					"type": "list",
+					"items": [
+						"Beastial Weapons: You create a natural weapon on your armor such as claws, a bladed tail, or fangs on the helmet. These weapons deal {@dice 1d8} magical damage of either bludgeoning, piercing, or slashing (chosen when you choose the weapon). These weapons are considered magical for the purpose of overcoming damage resistance.",
+						"Animalistic Movement: You gain a swim, climb, or burrow speed as your metal converts into claws, fins, or extra legs to assist with movement.",
+						"Enhanced Carapace: Your armor changes to grant you resistance to fire, thunder, or lightning damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Creation Core",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Iron Heretic",
+			"subclassSource": "TftJC",
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain the ability to breathe life into metal and grant it a bestial form. You learn the {@spell find greater steed|XGE} spell .When you summon the steed it is instead of type Construct and gains all the benefits of your Metal Carapace feature. Instead of applying your Beastial Metal to yourself, you can cause it to affect your steed from this feature instead."
+			]
+		},
+		{
+			"name": "Rare Metallics",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Iron Heretic",
+			"subclassSource": "TftJC",
+			"level": 14,
+			"entries": [
+				"At 14th level, you have learned to pull trace amounts of rare metals from the earth to fuel your Wild Shapes. When you use your Metalic Carapace or Beastial Metal feature you canchoose to apply one of the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Adamantine: You gain immunity to Critical Hits and your weapons deal double damage to structures and Constructs.",
+						"Mythril: Your speed increases by 10 feet instead of decreasing by 10 feet and your natural weapon score Critical Hits on 19 or 20.",
+						"Platinum: Your AC increases by 2 and you gain resistanceto Radiant damage."
+					]
+				},
+				"When you summon a steed with the find greater steed spell granted from this class you can apply one rare metallics to your summon."
 			]
 		}
 	]
