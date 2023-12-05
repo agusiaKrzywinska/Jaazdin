@@ -5536,7 +5536,7 @@
 				"Light Shield|Fighter|PHB|Angelic Armsmaster|TftJC|7",
 				"Blinding Brillance|Fighter|PHB|Angelic Armsmaster|TftJC|10",
 				"Pierce the Light|Fighter|PHB|Angelic Armsmaster|TftJC|15",
-				"Angellic Arsenal|Fighter|PHB|Angelic Armsmaster|TftJC|18"
+				"Angelic Arsenal|Fighter|PHB|Angelic Armsmaster|TftJC|18"
 			]
 		}
 	],
@@ -7310,8 +7310,8 @@
 			"level": 3,
 			"entries": [
 				"Beginning at 3rd level, your connection to Celestials can allow you to conjure weapons of Light. You can conduct a 1 hour ritual with a weapon you are holding to convert it into a Weapon of the Gods, at which time it vanishes.",
-				"As a Bonus Action, you can conjure one of your Weapon of the Gods. It appears as a glowing and translucent version of that weapon. If the weapon requires ammo, you additionally create a quiver or pouch filled with the required ammunition.This weapon can be dismissed as a Free Action. If the weapon would leave your hands, it disappears after one round. You can only have one weapon conjured at a time.",
-				"This weapon deals Radiant damage instead of its normaldamage type. Additonally, once per turn you gain a bonus toyour damage rolls equal to your Wisdom Modifier whenusing your Weapon of the Gods.",
+				"As a Bonus Action, you can conjure one of your Weapon of the Gods. It appears as a glowing and translucent version of that weapon. If the weapon requires ammo, you additionally create a quiver or pouch filled with the required ammunition. This weapon can be dismissed as a Free Action. If the weapon would leave your hands, it disappears after one round. You can only have one weapon conjured at a time.",
+				"This weapon deals Radiant damage instead of its normal damage type. Additonally, once per turn you gain a bonus toyour damage rolls equal to your Wisdom Modifier when using your Weapon of the Gods.",
 				"Finally, you learn the {@spell Light|PHB} cantrip."
 			]
 		},
@@ -7336,60 +7336,44 @@
 			"subclassSource": "TftJC",
 			"level": 7,
 			"entries": [
-				"At 7th level, you learn to conjure defensive barriers. As a Reaction to an ally within 30 ft of you being attacked, you candismiss your conjured weapon and conjure a shield for you oran ally. This grants them a bonus to their Armor Class equal to your Wisdom Modifier. The shield is dismissed at the end of your next turn, and you cannot conjure a new weapon while the shield is active."
+				"At 7th level, you learn to conjure defensive barriers. As a Reaction to an ally within 30 ft of you being attacked, you can dismiss your conjured weapon and conjure a shield for you oran ally. This grants them a bonus to their Armor Class equal to your Wisdom Modifier. The shield is dismissed at the end of your next turn, and you cannot conjure a new weapon while the shield is active."
 			]
 		},
 		{
-			"name": "Beastial Metal",
+			"name": "Blinding Brillance",
 			"source": "TftJC",
-			"className": "Druid",
+			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Iron Heretic",
-			"subclassSource": "TftJC",
-			"level": 6,
-			"entries": [
-				"At the 6th level, you gain the ability to reshape metal both inside and outside of your Wild Shape. You can use a bonus action to expend a use of your Wild Shape to manifest one of the following benefits on a suit of metal armor you arewearing for one hour:",
-				{
-					"type": "list",
-					"items": [
-						"Beastial Weapons: You create a natural weapon on your armor such as claws, a bladed tail, or fangs on the helmet. These weapons deal {@dice 1d8} magical damage of either bludgeoning, piercing, or slashing (chosen when you choose the weapon). These weapons are considered magical for the purpose of overcoming damage resistance.",
-						"Animalistic Movement: You gain a swim, climb, or burrow speed as your metal converts into claws, fins, or extra legs to assist with movement.",
-						"Enhanced Carapace: Your armor changes to grant you resistance to fire, thunder, or lightning damage."
-					]
-				}
-			]
-		},
-		{
-			"name": "Creation Core",
-			"source": "TftJC",
-			"className": "Druid",
-			"classSource": "PHB",
-			"subclassShortName": "Iron Heretic",
+			"subclassShortName": "Angelic Armsmaster",
 			"subclassSource": "TftJC",
 			"level": 10,
 			"entries": [
-				"At 10th level, you gain the ability to breathe life into metal and grant it a bestial form. You learn the {@spell find greater steed|XGE} spell .When you summon the steed it is instead of type Construct and gains all the benefits of your Metal Carapace feature. Instead of applying your Beastial Metal to yourself, you can cause it to affect your steed from this feature instead."
+				"At 10th level, you can perform a Blinding Attack. After hitting a creature with a Weapon of the Gods, you can force that creature and all other creatures within a 10ft radius of it to make a Constitution Saving Throw, using your Wisdom Modifier to calculate the DC (8 + prof + WIS). Creatures that fail are blinded until the end of your next turn. You can use this ability a number of times equal to your proficiency bonus per short rest.",
+				"Additionally, you are immune to the blinded conditionwhen the source would be from a powerful light."
 			]
 		},
 		{
-			"name": "Rare Metallics",
+			"name": "Pierce the Light",
 			"source": "TftJC",
-			"className": "Druid",
+			"className": "Fighter",
 			"classSource": "PHB",
-			"subclassShortName": "Iron Heretic",
+			"subclassShortName": "Angelic Armsmaster",
 			"subclassSource": "TftJC",
-			"level": 14,
+			"level": 15,
 			"entries": [
-				"At 14th level, you have learned to pull trace amounts of rare metals from the earth to fuel your Wild Shapes. When you use your Metalic Carapace or Beastial Metal feature you canchoose to apply one of the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"Adamantine: You gain immunity to Critical Hits and your weapons deal double damage to structures and Constructs.",
-						"Mythril: Your speed increases by 10 feet instead of decreasing by 10 feet and your natural weapon score Critical Hits on 19 or 20.",
-						"Platinum: Your AC increases by 2 and you gain resistanceto Radiant damage."
-					]
-				},
-				"When you summon a steed with the find greater steed spell granted from this class you can apply one rare metallics to your summon."
+				"At 15th level, you can weaken your foes to your Light. As a part of conjuring a weapon through Weapon of the Gods, you can select a creature you can see within 60 ft of you. Until the start of your next turn, they become vulnerable to Radiant damage. You can only do so once per long rest."
+			]
+		},
+		{
+			"name": "Angelic Arsenal",
+			"source": "TftJC",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Angelic Armsmaster",
+			"subclassSource": "TftJC",
+			"level": 18,
+			"entries": [
+				"At 18th level, you can unleash your entire arsenal. As an Action, select a point within 60ft that you can see. Creatures within a 15 ft radius of this point must make a Dexterity Saving throw, using your Wisdom Modifier to calculate the DC. Creatures that fail take {@dice 12d6} radiant damage, as weapons rain down on them, or half as much on a successful save. Creatures of your choice are immune to this damage. You can use this ability once per long rest."
 			]
 		}
 	]
