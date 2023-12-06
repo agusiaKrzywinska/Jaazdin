@@ -3332,7 +3332,7 @@
 			]
 		},
 		{
-			"name": "Denieth Oasis Gemstone Fragment",
+			"name": "Deneith Oasis Gemstone Fragment",
 			"source": "TftJC",
 			"rarity": "uncommon",
 			"recharge": "dawn",
@@ -3390,7 +3390,7 @@
 			]
 		},
 		{
-			"name": "Denieth Cave Gemstone Fragment",
+			"name": "Deneith Cave Gemstone Fragment",
 			"source": "TftJC",
 			"rarity": "uncommon",
 			"recharge": "dawn",
@@ -3628,7 +3628,7 @@
 				"The hammer constantly hums with the power of the storm and is cloaked in a dark shadow and when called upon can unleash the fury of the storm.",
 				"As an action, you can make one melee weapon attack which increases your reach by 30 feet and deals thunder damage instead of bludgeoning damage.",
 				"While in darkness or dim light, the maul becomes shrouded in shadow becoming nearly unperceivable. While shrouded in shadow this maul's bludgeoning damage ignores damage resistances.",
-				"Additionally, you can use the hammer to cast thunderwave with a DC of 14."
+				"Additionally, you can use the hammer to cast {@spell thunderwave|PHB} with a DC of 14."
 			]
 		},
 		{
@@ -5029,7 +5029,7 @@
 			"entries": [
 				"<i><b>Simple Invention.</i></b>",
 				"A creature can spend 1 minute attaching a javelin to this device. The javelin retains any properties it had before, such as enchantments and rare metal abilities. While attached, the javelin now connects to a canister containing 50ft of thick rope.",
-				"The javelin's maximum range cannot exceed how many ft of rope the cannister contains. Hitting a creature with the javelin carries the rope with it, allowing you to hold a rope on that creature so long as the javelin remains stuck in the creature. The creature can remove the javelin as an action by making a DC 10 Strength or Dexterity Check."
+				"The javelin's maximum range cannot exceed how many ft of rope the canister contains. Hitting a creature with the javelin carries the rope with it, allowing you to hold a rope on that creature so long as the javelin remains stuck in the creature. The creature can remove the javelin as an action by making a DC 10 Strength or Dexterity Check."
 			]
 		},
 		{
@@ -5049,7 +5049,7 @@
 			"entries": [
 				"<i><b>Innovative Invention.</i></b>",
 				"A creature can spend 1 minute attaching a javelin to this device. The javelin retains any properties it had before, such as enchantments and rare metal abilities. While attached, the javelin now connects to a canister containing 75ft of thick rope.",
-				"The javelin's maximum range cannot exceed how many ft of rope the cannister contains. Additionally, as a Bonus Action, you can set a maximum length limit to the rope, so that the rope only goes out a number of feet up to this amount. You can change or remove the length limit as a Bonus Action on a subsequent turn.",
+				"The javelin's maximum range cannot exceed how many ft of rope the canister contains. Additionally, as a Bonus Action, you can set a maximum length limit to the rope, so that the rope only goes out a number of feet up to this amount. You can change or remove the length limit as a Bonus Action on a subsequent turn.",
 				"Hitting a creature with the javelin carries the rope with it, allowing you to hold a rope on that creature so long as the javelin remains stuck in the creature. The creature can remove the javelin as an action by making a DC 15 Strength Check. While the javelin remains embedded in the creature, their walking/swim/flying speeds are lowered by 10."
 			]
 		},
@@ -5240,7 +5240,7 @@
 					"type": "list",
 					"items": [
 						"You gain proficiency to one artisans tool or language.",
-						"You gain 2 Ki. If you already have Ki these are added to your total. You can spend one Ki and use a bonus action to still your mind, you can remove disadvantage on one attack roll or ability check you make in the next minute. You regian all spend Ki when you finish a short rest."
+						"You gain 2 Ki. If you already have Ki these are added to your total. You can spend one Ki and use a bonus action to still your mind, you can remove disadvantage on one attack roll or ability check you make in the next minute. You regain all spend Ki when you finish a short rest."
 					]
 				}
 			],
@@ -5332,7 +5332,7 @@
 				"Pulse Wave|XgtE",
 				"Blight",
 				"Confusion",
-				"Enveration",
+				"Enervation",
 				"Mass Cure Wounds"
 			]
 		},
@@ -5345,7 +5345,7 @@
 			"shortName": "Nullifier",
 			"subclassFeatures": [
 				"Nullifier|Artificer|TCE|Nullifier|TftJC|3",
-				"Stupifing Spells|Artificer|TCE|Nullifier|TftJC|5",
+				"Stupefying Spells|Artificer|TCE|Nullifier|TftJC|5",
 				"Disruptive Genius|Artificer|TCE|Nullifier|TftJC|9",
 				"Devious Disruption|Artificer|TCE|Nullifier|TftJC|15"
 			],
@@ -5427,7 +5427,7 @@
 				"Fate Domain Spells|Cleric|PHB|Fate|TftJC|1",
 				"Threads of Change|Cleric|PHB|Fate|TftJC|1",
 				"Woven Fate|Cleric|PHB|Fate|TftJC|1",
-				"Channel Divinty: Stolen Fate|Cleric|PHB|Fate|TftJC|2",
+				"Channel Divinity: Stolen Fate|Cleric|PHB|Fate|TftJC|2",
 				"Improved Fate Weaving|Cleric|PHB|Fate|TftJC|6",
 				"Potent Spellcasting|Cleric|PHB|Fate|TftJC|8",
 				"Perfected Visions|Cleric|PHB|Fate|TftJC|17"
@@ -5446,12 +5446,12 @@
 			]
 		},
 		{
-			"name": "Polygolt Domain",
+			"name": "Polyglot Domain",
 			"source": "TftJC",
 			"page": 17,
 			"className": "Cleric",
 			"classSource": "PHB",
-			"shortName": "Polygolt",
+			"shortName": "Polyglot",
 			"subclassFeatures": [
 				"Polyglot Domain|Cleric|PHB|Polyglot|TftJC|1",
 				"Channel Divinity: Beseech the Divine|Cleric|PHB|Polyglot|TftJC|2",
@@ -5492,7 +5492,7 @@
 				"Circle of Titans|Druid|PHB|Titan|TftJC|2",
 				"Menacing Stature|Druid|PHB|Titan|TftJC|6",
 				"Titanic Might|Druid|PHB|Titan|TftJC|6",
-				"Indomnitable Stature|Druid|PHB|Titan|TftJC|10",
+				"Indomitable Stature|Druid|PHB|Titan|TftJC|10",
 				"Primal Reckoning|Druid|PHB|Titan|TftJC|14"
 			]
 		},
@@ -5534,9 +5534,25 @@
 			"subclassFeatures": [
 				"Angelic Armsmaster|Fighter|PHB|Angelic Armsmaster|TftJC|3",
 				"Light Shield|Fighter|PHB|Angelic Armsmaster|TftJC|7",
-				"Blinding Brillance|Fighter|PHB|Angelic Armsmaster|TftJC|10",
+				"Blinding Brilliance|Fighter|PHB|Angelic Armsmaster|TftJC|10",
 				"Pierce the Light|Fighter|PHB|Angelic Armsmaster|TftJC|15",
 				"Angelic Arsenal|Fighter|PHB|Angelic Armsmaster|TftJC|18"
+			]
+		},
+		{
+			"name": "Desertstrider",
+			"source": "TftJC",
+			"page": 24,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"shortName": "Desertstrider",
+			"subclassFeatures": [
+				"Desertstrider|Fighter|PHB|Desertstrider|TftJC|3",
+				"Pitfall|Fighter|PHB|Desertstrider|TftJC|7",
+				"Shape Earth|Fighter|PHB|Desertstrider|TftJC|10",
+				"Sand Blast|Fighter|PHB|Desertstrider|TftJC|10",
+				"Land Shark|Fighter|PHB|Desertstrider|TftJC|15",
+				"Terramaster|Fighter|PHB|Desertstrider|TftJC|18"
 			]
 		}
 	],
@@ -5737,7 +5753,7 @@
 			"subclassSource": "TftJC",
 			"level": 15,
 			"entries": [
-				"At 15th level, your Derby Blades move faster than your enemies reactions. When you would be attacked by an enemy within 5ft of you, or subjected to a Saving Throw to which you are in the area of, you can use your reaction to move your movement. For melee attacks, you would no longer be in range of their attack. If this would move you out of the area of the effect of the Saving Throw, you are considered outside of its area of effect. You can use this feature a number of timesper long rest equal to your Intelligence Modifier."
+				"At 15th level, your Derby Blades move faster than your enemies reactions. When you would be attacked by an enemy within 5ft of you, or subjected to a Saving Throw to which you are in the area of, you can use your reaction to move your movement. For melee attacks, you would no longer be in range of their attack. If this would move you out of the area of the effect of the Saving Throw, you are considered outside of its area of effect. You can use this feature a number of times per long rest equal to your Intelligence Modifier."
 			]
 		},
 		{
@@ -5749,7 +5765,7 @@
 			"subclassSource": "TftJC",
 			"level": 3,
 			"entries": [
-				"Years of meticulous planning and experimentation has led to this moment. Your enemies have only two choices, join willingly or die in vain. Either way, all shall know the blightof the Necro Virus. You have concocted a powerful magic which allows you to control the undead with starteling ease, and even make them stronger than they were before. Infect and spread your Virus, and watch as your foes helplessly try and resist your intellect.",
+				"Years of meticulous planning and experimentation has led to this moment. Your enemies have only two choices, join willingly or die in vain. Either way, all shall know the blight of the Necro Virus. You have concocted a powerful magic which allows you to control the undead with startling ease, and even make them stronger than they were before. Infect and spread your Virus, and watch as your foes helplessly try and resist your intellect.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Necro Virus Spells|Artificer|TCE|Necro Virus|TftJC|3|TftJC"
@@ -5857,7 +5873,7 @@
 						],
 						[
 							"5th",
-							"crown of madness, ray of endeeblement"
+							"crown of madness, ray of enfeeblement"
 						],
 						[
 							"9th",
@@ -6066,7 +6082,7 @@
 			]
 		},
 		{
-			"name": "Stupifing Spells",
+			"name": "Stupefying Spells",
 			"source": "TftJC",
 			"className": "Artificer",
 			"classSource": "TCE",
@@ -6180,7 +6196,7 @@
 			"subclassSource": "TftJC",
 			"level": 6,
 			"entries": [
-				"At 6th level, you can perform a powerful wind-up punch. You can declare any unarmed attack you make with a Showstopper. A Showstopper deals an additional 1d4 + your Charisma modifier in damage. If a Showstopper reduces a creature to 0 hitpoints, you gain temporary hitpoints equal to your Barbarian level + your Charisma modifier. Regardless if the Showstopper hits or misses, you may attempt to shove or grapple the target as a part of that attack. You can use a Showstopper a number of times per Short or Long rest equal to your Proficiency Bonus.",
+				"At 6th level, you can perform a powerful wind-up punch. You can declare any unarmed attack you make with a Showstopper. A Showstopper deals an additional {@dice 1d4} + your Charisma modifier in damage. If a Showstopper reduces a creature to 0 hit points, you gain temporary hit points equal to your Barbarian level + your Charisma modifier. Regardless if the Showstopper hits or misses, you may attempt to shove or grapple the target as a part of that attack. You can use a Showstopper a number of times per Short or Long rest equal to your Proficiency Bonus.",
 				"Additionally, your unarmed strikes are considered magical for the purposes of overcoming resistances."
 			]
 		},
@@ -6193,7 +6209,7 @@
 			"subclassSource": "TftJC",
 			"level": 10,
 			"entries": [
-				"At 10th level, you can distract your foes with your moves. As a Bonus Action, you can showcase your footwork. Creatures attacking you until the start of your next turn have disadvantage, and you can add your Charisma Modifier to Dextery saving throws."
+				"At 10th level, you can distract your foes with your moves. As a Bonus Action, you can showcase your footwork. Creatures attacking you until the start of your next turn have disadvantage, and you can add your Charisma Modifier to Dexterity saving throws."
 			]
 		},
 		{
@@ -6205,7 +6221,7 @@
 			"subclassSource": "TftJC",
 			"level": 14,
 			"entries": [
-				"At 14th level, your hard head keeps you in fights longer than the average battler. If you would drop to 0 hitpoints or activate Relentless Rage, you can use your reaction to immediately regain a spent use of Showstopper and make a Showstopper attack against a hostile creature within reach. If you would gain temproary hitpoints from your Showstopper attack, you instead gain that amount as hitpoints."
+				"At 14th level, your hard head keeps you in fights longer than the average battler. If you would drop to 0 hit points or activate Relentless Rage, you can use your reaction to immediately regain a spent use of Showstopper and make a Showstopper attack against a hostile creature within reach. If you would gain temporary hit points from your Showstopper attack, you instead gain that amount as hit points."
 			]
 		},
 		{
@@ -6217,7 +6233,7 @@
 			"subclassSource": "TftJC",
 			"level": 3,
 			"entries": [
-				"Infused with the cursed blood of a hunter of the night, those who can master their Vampiric Abitilites become powerful warriors. Vampiric Barbarians combine their natural strength with ther unnatural abilities, chomping their way to victory.",
+				"Infused with the cursed blood of a hunter of the night, those who can master their Vampiric Abilities become powerful warriors. Vampiric Barbarians combine their natural strength with their unnatural abilities, chomping their way to victory.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Vampiric Fangs|Barbarian|PHB|Vampire|TftJC|3|TftJC"
@@ -6262,8 +6278,8 @@
 			"subclassSource": "TftJC",
 			"level": 6,
 			"entries": [
-				"At 6th level, you can tap into your Vampiric healing abilities. Whenever you make a Fang attack, you can heal a number of hitpoints equal to half of the damage dealt. You can do so a number of times per Short rest equal to your Proficiency Bonus.",
-				"While you are under half of your maximum hitpoints, your hunger comes out in full force. While you are in a rage, your strength score and strength score maximum are both increased by 2, up to a maximum of 30.",
+				"At 6th level, you can tap into your Vampiric healing abilities. Whenever you make a Fang attack, you can heal a number of hit points equal to half of the damage dealt. You can do so a number of times per Short rest equal to your Proficiency Bonus.",
+				"While you are under half of your maximum hit points, your hunger comes out in full force. While you are in a rage, your strength score and strength score maximum are both increased by 2, up to a maximum of 30.",
 				"Your Fangs are also considered magical for the purposes of overcoming resistances."
 			]
 		},
@@ -6276,7 +6292,7 @@
 			"subclassSource": "TftJC",
 			"level": 10,
 			"entries": [
-				"At 10th level, you become a master of the night. As an Action, you can expend a use of your Rage so that you and your equipment can transform into a bat. You return to your normal form either once you drop to 0 hitpoints, you dismiss it as a Bonus Action, or a minute passes. You retain your mental statistics, and can use your Vampiric Fangs while in this form."
+				"At 10th level, you become a master of the night. As an Action, you can expend a use of your Rage so that you and your equipment can transform into a bat. You return to your normal form either once you drop to 0 hit points, you dismiss it as a Bonus Action, or a minute passes. You retain your mental statistics, and can use your Vampiric Fangs while in this form."
 			]
 		},
 		{
@@ -6288,7 +6304,7 @@
 			"subclassSource": "TftJC",
 			"level": 14,
 			"entries": [
-				"At 14th level, you can absorb the lifeforce of creatures. Whenever you land the killing blow on a creature of CR 1 or greater, you can use your reaction to absorb their lifeforce. Doing so heals you a number of hitpoints equal to the creature's CR (or level) x 4."
+				"At 14th level, you can absorb the life force of creatures. Whenever you land the killing blow on a creature of CR 1 or greater, you can use your reaction to absorb their life force. Doing so heals you a number of hit points equal to the creature's CR (or level) x 4."
 			]
 		},
 		{
@@ -6346,7 +6362,7 @@
 			"level": 6,
 			"entries": [
 				"At 6th level, whenever you target a friendly creature with a single target spell effect you can target another friendly creature within the spell's range. They are also under that effect. If the spell requires concentration, you are considered concentrating on both at the same time. If your concentration is broken, then both friendly creatures lose the spell effect.",
-				"You can do this a number of times equal to your Proficiency Bonus, and the spell level of the spell being Dueted can be equal to or less than your Proficiency Bonus."
+				"You can do this a number of times equal to your Proficiency Bonus, and the spell level of the spell being Duetted can be equal to or less than your Proficiency Bonus."
 			]
 		},
 		{
@@ -6414,7 +6430,7 @@
 			"subclassSource": "TftJC",
 			"level": 6,
 			"entries": [
-				"At 6th level, you gain the ability to trick your enemies with your foolery. Immediately after you would fail an ability check using either INT, WIS or CHA while interracting with another creature, you can attempt to confuse that creature. That creature must make a Wisdom saving throw against your Spell Save DC, and on a fail, your rolled value on the d20 becomes inverted (1s become 20s, 2s become 19s, etc). Creatures that are able to detect lies are immune to this feature, and you cannot use this feature when you cannot lie, like while in a Zone of Truth. You can use this feature a number of times per long rest equal to your Charisma modifier."
+				"At 6th level, you gain the ability to trick your enemies with your foolery. Immediately after you would fail an ability check using either INT, WIS or CHA while interacting with another creature, you can attempt to confuse that creature. That creature must make a Wisdom saving throw against your Spell Save DC, and on a fail, your rolled value on the d20 becomes inverted (1s become 20s, 2s become 19s, etc). Creatures that are able to detect lies are immune to this feature, and you cannot use this feature when you cannot lie, like while in a Zone of Truth. You can use this feature a number of times per long rest equal to your Charisma modifier."
 			]
 		},
 		{
@@ -6438,7 +6454,7 @@
 			"subclassSource": "TftJC",
 			"level": 1,
 			"entries": [
-				"Some debate whether a God of Fate truly has a Domain. The nonbelievers argue that Fate is simply an idea invented by men that either feartheir future or to give reason to their meaningless actions. But the true preachers of the Fate Domain know that Fate is not a predetermined destiny, but a set of probabilities that can be influenced by minute actions to achieve a desired future. Clerics of the Fate Domain pull the small universal strings to move the future in their favour.",
+				"Some debate whether a God of Fate truly has a Domain. The nonbelievers argue that Fate is simply an idea invented by men that either fear their future or to give reason to their meaningless actions. But the true preachers of the Fate Domain know that Fate is not a predetermined destiny, but a set of probabilities that can be influenced by minute actions to achieve a desired future. Clerics of the Fate Domain pull the small universal strings to move the future in their favour.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Fate Domain Spells|Cleric|PHB|Fate|TftJC|1"
@@ -6520,11 +6536,11 @@
 			"subclassSource": "TftJC",
 			"level": 1,
 			"entries": [
-				"At 1st level, whenever you expend a Spell Slot to cast aDivination spell, you gain a number of points of Woven Fate equal to the spell slot level expended. You can expend anumber of points of Woven Fate to increase or decrease the value of an attack roll or ability check of a creature within 30ft of you, up to a maximum equal to your Cleric Level. You lose all points of Woven Fate after you complete a Long Rest."
+				"At 1st level, whenever you expend a Spell Slot to cast aDivination spell, you gain a number of points of Woven Fate equal to the spell slot level expended. You can expend a number of points of Woven Fate to increase or decrease the value of an attack roll or ability check of a creature within 30ft of you, up to a maximum equal to your Cleric Level. You lose all points of Woven Fate after you complete a Long Rest."
 			]
 		},
 		{
-			"name": "Channel Divinty: Stolen Fate",
+			"name": "Channel Divinity: Stolen Fate",
 			"source": "TftJC",
 			"className": "Cleric",
 			"classSource": "PHB",
@@ -6532,7 +6548,7 @@
 			"subclassSource": "TftJC",
 			"level": 2,
 			"entries": [
-				"At 2nd level, you can use your Channel Divinity to fix anegative outcome in the potential future. As an Reaction, whenever a creature within 60 ft of you makes an Attack Roll or Saving Throw, you can store that value rolled on the dieand replace the die roll with a 10. If you use this Channel Divinity again, you can use the value stored instead of setting it to a 10, replacing their roll with the die value stored. You can only store a die up until you complete a Long Rest."
+				"At 2nd level, you can use your Channel Divinity to fix a negative outcome in the potential future. As an Reaction, whenever a creature within 60 ft of you makes an Attack Roll or Saving Throw, you can store that value rolled on the die and replace the die roll with a 10. If you use this Channel Divinity again, you can use the value stored instead of setting it to a 10, replacing their roll with the die value stored. You can only store a die up until you complete a Long Rest."
 			]
 		},
 		{
@@ -6797,7 +6813,7 @@
 			"subclassSource": "TftJC",
 			"level": 2,
 			"entries": [
-				"The Circle of Seasons is made up of the attendants of the Fey Court's servants, confidents, assassins, and ambassadors employed by the great Archfey. These druids work to maintain balance and peace between the various factions of the Fey Realm and when needed are sent to the Material Plane to act on the behalf of their masters.",
+				"The Circle of Seasons is made up of the attendants of the Fey Court's servants, confidants, assassins, and ambassadors employed by the great Archfey. These druids work to maintain balance and peace between the various factions of the Fey Realm and when needed are sent to the Material Plane to act on the behalf of their masters.",
 				"Groups of these druids serve exclusively on the Material Plane as well, forming tribes based on their seasonal prowess. Tribes in great tundra might be masters of their winter forms while their desert dwelling cousins' savants of the fiery summer power. These clans were usually started by an ancestor that crossed over from the Fey Realm and now after generations may not even remember the true meaning behind their powers",
 				{
 					"type": "refSubclassFeature",
@@ -6818,7 +6834,7 @@
 			"subclassSource": "TftJC",
 			"level": 2,
 			"entries": [
-				"Starting when you take this circle at 2nd level, you gain knowledge of the proceedings and etiquette of the Season Courts. You learn Sylvan and gain proficiency in Persuasion, your proficiency bonus for Persuasion is doubled whendealing with fey."
+				"Starting when you take this circle at 2nd level, you gain knowledge of the proceedings and etiquette of the Season Courts. You learn Sylvan and gain proficiency in Persuasion, your proficiency bonus for Persuasion is doubled when dealing with fey."
 			]
 		},
 		{
@@ -6830,7 +6846,7 @@
 			"subclassSource": "TftJC",
 			"level": 2,
 			"entries": [
-				"At 2nd level, when you use your Wildshape you can further enhance your form with the power of the Seasonal Courts. When you Wildshape you gain a number of temporary hitpoints equal to your Druid level x 3, and also you can choose from the Winter, Spring, Summer, and Autumn forms and gain its special abilities while you are in your chosen Wildshape form:",
+				"At 2nd level, when you use your Wild Shape you can further enhance your form with the power of the Seasonal Courts. When you Wild Shape you gain a number of temporary hit points equal to your Druid level x 3, and also you can choose from the Winter, Spring, Summer, and Autumn forms and gain its special abilities while you are in your chosen Wild Shape form:",
 				{
 					"type": "list",
 					"items": [
@@ -6884,7 +6900,7 @@
 			"subclassSource": "TftJC",
 			"level": 10,
 			"entries": [
-				"Starting at 10th level, when you use your Seasonal Forms wild shape you can choose to remain in your normal form while gaining the benefits of the Seasonal Form you choose. In addition, you deal extra damage on your spells based on your current Season Form. You add your Wisdom modifier to spells that deal fire for summer, cold for winter, acid for spring, and lightning for autumn while you are in that form. You still gain the afformentioned Temporary hitpoints from your Seasonal Forms feature, and when thise temporary hitpoints are lost, you lose the bonuses from this feature."
+				"Starting at 10th level, when you use your Seasonal Forms wild shape you can choose to remain in your normal form while gaining the benefits of the Seasonal Form you choose. In addition, you deal extra damage on your spells based on your current Season Form. You add your Wisdom modifier to spells that deal fire for summer, cold for winter, acid for spring, and lightning for autumn while you are in that form. You still gain the aforementioned Temporary hit points from your Seasonal Forms feature, and when these temporary hit points are lost, you lose the bonuses from this feature."
 			]
 		},
 		{
@@ -6901,7 +6917,7 @@
 					"type": "list",
 					"items": [
 						"Summer: Friendly creatures have resistance to fire damage and hostile creatures take fire damage equal to your proficiency modifier at the start of their turns.",
-						"Spring:  Friendly creatures have resistance to acid damage and regain the maximum hitpoints possible from healing spells",
+						"Spring:  Friendly creatures have resistance to acid damage and regain the maximum hit points possible from healing spells",
 						"Autumn: Friendly creatures have resistance to lightning damage and hostile creatures that cast spells in the radius take lightning damage equal to half your druid level.",
 						"Winter: Friendly creatures have resistance to cold damage and hostile creatures have their movement speed reduced by 10"
 					]
@@ -6917,7 +6933,7 @@
 			"subclassSource": "TftJC",
 			"level": 2,
 			"entries": [
-				"Meek and meager beasts have inhabitedthe lands today, but deep beneath the ground lay the bones of Titans who once ruled over all. Some Druids channel these dead beasts to return their might to the puny world above. Channeling the energy of ancient beasts, Druids of the Circle of Titans empower themselves with long forgotten colossi.",
+				"Meek and meager beasts have inhabited the lands today, but deep beneath the ground lay the bones of Titans who once ruled over all. Some Druids channel these dead beasts to return their might to the puny world above. Channeling the energy of ancient beasts, Druids of the Circle of Titans empower themselves with long forgotten colossi.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Titanic Form|Druid|PHB|Titan|TftJC|2"
@@ -6937,7 +6953,7 @@
 			"subclassSource": "TftJC",
 			"level": 2,
 			"entries": [
-				"When you choose this circle at 2nd level, you can embolden your Wild Shapes with Titanic Power. When you enter a Wild Shape, you can choose to make that form a Titan. It grows one size category larger, and its Strength is increased by 2, up to 20. It additionally gains 1 extra hitpoint per hit die that creature has.",
+				"When you choose this circle at 2nd level, you can embolden your Wild Shapes with Titanic Power. When you enter a Wild Shape, you can choose to make that form a Titan. It grows one size category larger, and its Strength is increased by 2, up to 20. It additionally gains 1 extra hit point per hit die that creature has.",
 				"Additionally, you can expend 2 uses of your Wild Shape to transform into a Dinosaur. You must be a Druid level equal to or higher than that creature's CR to transform into it. You cannot make a Dinosaur you Wild Shape into with this ability a Titan."
 			]
 		},
@@ -6950,7 +6966,7 @@
 			"subclassSource": "TftJC",
 			"level": 2,
 			"entries": [
-				"At 2nd level, you learn of Ancient Beasts that once walked the lands. You can Wild Shape into any Dinosaur Beast (so long as you still meet any wild shape resitrictions). You also learn the Primordial Language, or another language if you know this language already."
+				"At 2nd level, you learn of Ancient Beasts that once walked the lands. You can Wild Shape into any Dinosaur Beast (so long as you still meet any wild shape restrictions). You also learn the Primordial Language, or another language if you know this language already."
 			]
 		},
 		{
@@ -6962,7 +6978,7 @@
 			"subclassSource": "TftJC",
 			"level": 6,
 			"entries": [
-				"At 2nd level, you learn of Ancient Beasts that once walked the lands. You can Wild Shape into any Dinosaur Beast (so long as you still meet any wild shape resitrictions). You also learn the Primordial Language, or another language if you know this language already."
+				"At 2nd level, you learn of Ancient Beasts that once walked the lands. You can Wild Shape into any Dinosaur Beast (so long as you still meet any wild shape restrictions). You also learn the Primordial Language, or another language if you know this language already."
 			]
 		},
 		{
@@ -6974,11 +6990,11 @@
 			"subclassSource": "TftJC",
 			"level": 6,
 			"entries": [
-				"At 6th level, your Titanic Forms grow even stronger. When you enter a Wild Shape, if the creature's strength score is less than 18 after entering a Titan Form, it becomes 18. Additionally, Titanic Wild Shapes have resistance to nonmagical Bludgeoning, Slashing and Piercing Damage."
+				"At 6th level, your Titanic Forms grow even stronger. When you enter a Wild Shape, if the creature's strength score is less than 18 after entering a Titan Form, it becomes 18. Additionally, Titanic Wild Shapes have resistance to non magical Bludgeoning, Slashing and Piercing Damage."
 			]
 		},
 		{
-			"name": "Indomnitable Stature",
+			"name": "Indomitable Stature",
 			"source": "TftJC",
 			"className": "Druid",
 			"classSource": "PHB",
@@ -6998,7 +7014,7 @@
 			"subclassSource": "TftJC",
 			"level": 14,
 			"entries": [
-				"At 14th level, your Titanic might is at its peak. Your Wild Shapes now heal a number of missing hitpoints equal to their Constitution Modifier + your Proficiency Bonus at the beginning of your turn, and their Strength Minimum now becomes 22. All creatures of your choice that are smaller than your Wild Shape forms must make a Wisdom Saving throw when they either start their turn within 30ft of you, or enter that space. On a Fail, they are Frightened until they leave this area."
+				"At 14th level, your Titanic might is at its peak. Your Wild Shapes now heal a number of missing hit points equal to their Constitution Modifier + your Proficiency Bonus at the beginning of your turn, and their Strength Minimum now becomes 22. All creatures of your choice that are smaller than your Wild Shape forms must make a Wisdom Saving throw when they either start their turn within 30ft of you, or enter that space. On a Fail, they are Frightened until they leave this area."
 			]
 		},
 		{
@@ -7010,8 +7026,8 @@
 			"subclassSource": "TftJC",
 			"level": 2,
 			"entries": [
-				"The Dragon's Tail is not shockingly home to powerful scaled beasts. The settlers that have shared the islands with these beasts have adapted to their might, and even taken onsome of their characteristics.",
-				"Druids of the Circle of Dragon embody the unbridaled power of a Dragon within them. From toughened scales to powerful breath weapons, their grace and might shall be known to all.",
+				"The Dragon's Tail is not shockingly home to powerful scaled beasts. The settlers that have shared the islands with these beasts have adapted to their might, and even taken on some of their characteristics.",
+				"Druids of the Circle of Dragon embody the unbridled power of a Dragon within them. From toughened scales to powerful breath weapons, their grace and might shall be known to all.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "The Dragon's Soul|Druid|PHB|Dragon|TftJC|2"
@@ -7121,7 +7137,7 @@
 			"level": 14,
 			"entries": [
 				"At 14th level, you fully embrace your Draconic abilities. As an Action, you can unleash a pair of Draconic Wings from your body. You gain a flying speed of 80 feet. This lasts for 10 minutes, and you can do this once per long rest.",
-				"Furthermore, all beasts you Wild Shape into are treated as Dragons. Whenever you use your Wild Shape, they also gain the afformentioned wings and flying speed. If they already have a flying speed that is slower than 80 ft, it becomes that."
+				"Furthermore, all beasts you Wild Shape into are treated as Dragons. Whenever you use your Wild Shape, they also gain the aforementioned wings and flying speed. If they already have a flying speed that is slower than 80 ft, it becomes that."
 			]
 		},
 		{
@@ -7214,11 +7230,11 @@
 			"subclassSource": "TftJC",
 			"level": 2,
 			"entries": [
-				"At 2nd level, you gain the ability to make use of metal and shape it into natural shapes. As an action, while wearing metal armor, you can expend a use of your Wild Shape feature to shape both your body and the metal into a newform. You Wild Shape into a Beast as normal but your new form has the following difference: Your AC in your new formis equal to the AC of the armor you were wearing in your normal form.",
+				"At 2nd level, you gain the ability to make use of metal and shape it into natural shapes. As an action, while wearing metal armor, you can expend a use of your Wild Shape feature to shape both your body and the metal into a new form. You Wild Shape into a Beast as normal but your new form has the following difference: Your AC in your new form is equal to the AC of the armor you were wearing in your normal form.",
 				{
 					"type": "list",
 					"items": [
-						"Your creature type is Construct and you cannot regain hitpoints in your new form.",
+						"Your creature type is Construct and you cannot regain hit points in your new form.",
 						"Your speed in all forms decreases by 10ft.",
 						"Your attacks in this form deal {@dice 1d6} extra fire damage from your super-heated metal. This damage increases to {@dice 2d6} at level 9 and {@dice 3d6} at level 16."
 					]
@@ -7235,7 +7251,7 @@
 			"subclassSource": "TftJC",
 			"level": 6,
 			"entries": [
-				"At the 6th level, you gain the ability to reshape metal both inside and outside of your Wild Shape. You can use a bonus action to expend a use of your Wild Shape to manifest one of the following benefits on a suit of metal armor you arewearing for one hour:",
+				"At the 6th level, you gain the ability to reshape metal both inside and outside of your Wild Shape. You can use a bonus action to expend a use of your Wild Shape to manifest one of the following benefits on a suit of metal armor you are wearing for one hour:",
 				{
 					"type": "list",
 					"items": [
@@ -7267,13 +7283,13 @@
 			"subclassSource": "TftJC",
 			"level": 14,
 			"entries": [
-				"At 14th level, you have learned to pull trace amounts of rare metals from the earth to fuel your Wild Shapes. When you use your Metalic Carapace or Beastial Metal feature you canchoose to apply one of the following benefits:",
+				"At 14th level, you have learned to pull trace amounts of rare metals from the earth to fuel your Wild Shapes. When you use your Metallic Carapace or Beastial Metal feature you can choose to apply one of the following benefits:",
 				{
 					"type": "list",
 					"items": [
 						"Adamantine: You gain immunity to Critical Hits and your weapons deal double damage to structures and Constructs.",
 						"Mythril: Your speed increases by 10 feet instead of decreasing by 10 feet and your natural weapon score Critical Hits on 19 or 20.",
-						"Platinum: Your AC increases by 2 and you gain resistanceto Radiant damage."
+						"Platinum: Your AC increases by 2 and you gain resistance to Radiant damage."
 					]
 				},
 				"When you summon a steed with the find greater steed spell granted from this class you can apply one rare metallics to your summon."
@@ -7289,7 +7305,7 @@
 			"level": 3,
 			"entries": [
 				"A Divine solider, gifted a weapon from the heavens. Slicing down foes, with the might of Celestials, the Angelic Armsmaster unleashes Divine Fury.",
-				"Angelic Armsmasters can summon weapons of light to adapt to any situation and destroy anyfoe.",
+				"Angelic Armsmasters can summon weapons of light to adapt to any situation and destroy any foe.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Weapon of the Gods|Fighter|PHB|Angelic Armsmaster|TftJC|3"
@@ -7311,7 +7327,7 @@
 			"entries": [
 				"Beginning at 3rd level, your connection to Celestials can allow you to conjure weapons of Light. You can conduct a 1 hour ritual with a weapon you are holding to convert it into a Weapon of the Gods, at which time it vanishes.",
 				"As a Bonus Action, you can conjure one of your Weapon of the Gods. It appears as a glowing and translucent version of that weapon. If the weapon requires ammo, you additionally create a quiver or pouch filled with the required ammunition. This weapon can be dismissed as a Free Action. If the weapon would leave your hands, it disappears after one round. You can only have one weapon conjured at a time.",
-				"This weapon deals Radiant damage instead of its normal damage type. Additonally, once per turn you gain a bonus toyour damage rolls equal to your Wisdom Modifier when using your Weapon of the Gods.",
+				"This weapon deals Radiant damage instead of its normal damage type. Additionally, once per turn you gain a bonus to your damage rolls equal to your Wisdom Modifier when using your Weapon of the Gods.",
 				"Finally, you learn the {@spell Light|PHB} cantrip."
 			]
 		},
@@ -7340,7 +7356,7 @@
 			]
 		},
 		{
-			"name": "Blinding Brillance",
+			"name": "Blinding Brilliance",
 			"source": "TftJC",
 			"className": "Fighter",
 			"classSource": "PHB",
@@ -7349,7 +7365,7 @@
 			"level": 10,
 			"entries": [
 				"At 10th level, you can perform a Blinding Attack. After hitting a creature with a Weapon of the Gods, you can force that creature and all other creatures within a 10ft radius of it to make a Constitution Saving Throw, using your Wisdom Modifier to calculate the DC (8 + prof + WIS). Creatures that fail are blinded until the end of your next turn. You can use this ability a number of times equal to your proficiency bonus per short rest.",
-				"Additionally, you are immune to the blinded conditionwhen the source would be from a powerful light."
+				"Additionally, you are immune to the blinded condition when the source would be from a powerful light."
 			]
 		},
 		{
@@ -7374,6 +7390,119 @@
 			"level": 18,
 			"entries": [
 				"At 18th level, you can unleash your entire arsenal. As an Action, select a point within 60ft that you can see. Creatures within a 15 ft radius of this point must make a Dexterity Saving throw, using your Wisdom Modifier to calculate the DC. Creatures that fail take {@dice 12d6} radiant damage, as weapons rain down on them, or half as much on a successful save. Creatures of your choice are immune to this damage. You can use this ability once per long rest."
+			]
+		},
+		{
+			"name": "Desertstrider",
+			"source": "TftJC",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Desertstrider",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"Deep in the Dunish Desert travels warriors accustomed to its unique terrain. From wanderers, bandits and soldiers, Desertstriders make the most of their environment in combat,harnessing the sands for their strength.",
+				"Desertstriders control their terrain to confuse and control their foes. Desertstriders are able to shift the earth to their will, showing no mercy to their foes, as does the unrelenting dunes of Dunish.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Desert Acclimation|Fighter|PHB|Desertstrider|TftJC|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sand Swipe|Fighter|PHB|Desertstrider|TftJC|3"
+				}
+			]
+		},
+		{
+			"name": "Desert Acclimation",
+			"source": "TftJC",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Desertstrider",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"Beginning at 3rd level, you are accustomed to battling within a sandy terrain. You are not affected by difficult terrain on uneven ground, or shifting sands. You have advantage on Constitution based saving throws against overheating. You can hold 4 times the amount of water in your body than the average person. Finally, you know the {@spell Mold Earth|XGE} cantrip, and can use it as a Bonus Action if using it on sand."
+			]
+		},
+		{
+			"name": "Sand Swipe",
+			"source": "TftJC",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Desertstrider",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you can weave sand into your attacks. As a Bonus Action, you can fling sand at a creature within 10ft's eyes provided you have a free hand to do so. If you use this Bonus Action prior to making your Attack action, your first attack against that target has advantage. If you use this after making the Attack Action, the target's next attack before the end of their next turn has disadvantage."
+			]
+		},
+		{
+			"name": "Pitfall",
+			"source": "TftJC",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Desertstrider",
+			"subclassSource": "TftJC",
+			"level": 7,
+			"entries": [
+				"At 7th level, you can cause disturbances in the ground to pull in your prey. As an Action, you stomp the ground. All creatures standing on the ground that are no more than one size category greater than yours within a 15ft radius of you must make a Dexterity Saving Throw (DC = 8 + prof + CON). Any creatures that failed are pulled within 5ft of you. If this ability would affect an underground creature, they automatically fail the saving throw and are pulled aboveground to you. If this ability is used on sandy terrain, creatures have disadvantage on the saving throw. You can use this ability a number of times equal to your Proficiency Bonus per long rest."
+			]
+		},
+		{
+			"name": "Shape Earth",
+			"source": "TftJC",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Desertstrider",
+			"subclassSource": "TftJC",
+			"level": 10,
+			"entries": [
+				"At 10th level, you Mold Earth cantrip is enhanced. It now affects a 10 ft cube. Mold Earth also gains the following effect.",
+				{
+					"type": "list",
+					"style": "list-hang",
+					"items": [
+						"If you target an area of earth, you can transform it into sand."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sand Blast",
+			"source": "TftJC",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Desertstrider",
+			"subclassSource": "TftJC",
+			"level": 10,
+			"entries": [
+				"At 10th level, your Sand Swipe is improved. When you use Sand Swipe, you next attack deals an additional {@dice 1d12} piercing damage, and if you don't attack this turn, the next time you would take damage that amount is reduced by {@dice 1d12}."
+			]
+		},
+		{
+			"name": "Land Shark",
+			"source": "TftJC",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Desertstrider",
+			"subclassSource": "TftJC",
+			"level": 15,
+			"entries": [
+				"At 15th level, you can travel through the ground. You can a burrow speed equal to your walking speed. When burrowing through sand, that speed is doubled. While underground, you gain a tremorsense of 15ft, and this range is doubled when in sand. Finally, your Pitfall's radius is increased to 30ft and can pull creatures affected by it underground towards you if you use it while burrowing. Creatures affected by Pitfall take {@dice 1d12} + your Constitution Modifier bludgeoning damage."
+			]
+		},
+		{
+			"name": "Terramaster",
+			"source": "TftJC",
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Desertstrider",
+			"subclassSource": "TftJC",
+			"level": 18,
+			"entries": [
+				"At 18th level, your earth shaping abilities are at their peak. Your {@spell Mold Earth|XGE} Cantrip can now affect a 100ft cube.",
+				"You learn the {@spell Earthquake|PHB} spell, and can cast it without expending a spell slot once per long rest (DC = 8 + prof +CON)."
 			]
 		}
 	]
