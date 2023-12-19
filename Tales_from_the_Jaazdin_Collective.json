@@ -5554,6 +5554,47 @@
 				"Land Shark|Fighter|PHB|Desertstrider|TftJC|15",
 				"Terramaster|Fighter|PHB|Desertstrider|TftJC|18"
 			]
+		},
+		{
+			"name": "Way of the Four Elements 2.0",
+			"source": "TftJC",
+			"page": 25,
+			"className": "Monk",
+			"classSource": "PHB",
+			"shortName": "Four Elements 2.0",
+			"subclassFeatures": [
+				"Spellcasting|Monk|PHB|Four Elements 2.0|TftJC|3",
+				"Flurry of Nature|Monk|PHB|Four Elements 2.0|TftJC|3",
+				"Balance|Monk|PHB|Four Elements 2.0|TftJC|6",
+				"Devastating Force|Monk|PHB|Four Elements 2.0|TftJC|11",
+				"Catycalysm of Nature|Monk|PHB|Four Elements 2.0|TftJC|17"
+			],
+			"subclassSpells": [
+				"Aqua Whip|TftJC",
+				"Control Flame|PHB",
+				"Druidcraft|PHB",
+				"Firebolt|PHB",
+				"Gust|PHB",
+				"Mold Earth|PHB",
+				"Produce Flame|PHB",
+				"Ray of Frost|PHB",
+				"Shape Water|PHB",
+				"Thunderclap|PHB"
+			]
+		},
+		{
+			"name": "Way of the Spirit",
+			"source": "TftJC",
+			"page": 27,
+			"className": "Monk",
+			"classSource": "PHB",
+			"shortName": "Spirit",
+			"subclassFeatures": [
+				"Spirit Stance|Monk|PHB|Spirit|TftJC|3",
+				"Stance Shift|Monk|PHB|Spirit|TftJC|6",
+				"Spiritual Connection|Monk|PHB|Spirit|TftJC|11",
+				"Spirit Brothers|Monk|PHB|Spirit|TftJC|17"
+			]
 		}
 	],
 	"subclassFeature": [
@@ -7503,6 +7544,136 @@
 			"entries": [
 				"At 18th level, your earth shaping abilities are at their peak. Your {@spell Mold Earth|XGE} Cantrip can now affect a 100ft cube.",
 				"You learn the {@spell Earthquake|PHB} spell, and can cast it without expending a spell slot once per long rest (DC = 8 + prof +CON)."
+			]
+		},
+		{
+			"name": "Way of the Four Elements 2.0",
+			"source": "TftJC",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Four Elements 2.0",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"You follow a monastic tradition that teaches you to harness the elements. When you focus your ki, you can align yourself with the forces of creation and bend the four elements to your will, using them as an extension of your body. Some members of this tradition dedicate themselves to a single element, but others weave the elements together.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spellcasting|Monk|PHB|Four Elements 2.0|TftJC|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Flurry of Nature|Monk|PHB|Four Elements 2.0|TftJC|3"
+				}
+			]
+		},
+		{
+			"name": "Spellcasting",
+			"source": "TftJC",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Four Elements 2.0",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"When you reach 3rd level, you augment your martial arts with the ability to cast spells. See Spells Rules for the general rules of spellcasting and the Spells Listing for this subclass' spell list.",
+				"You learn two cantrips of your choice from the Four Elements spell list. You learn an additional cantrip at 10th level. Additionally, you learn two of the following cantrips: Shape Water, Mold Earth, Gust or Produce Flame.",
+				"The Four Elements Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.",
+				"For example, if you know a 1st-level spell and have a 1st level and a 2nd-level spell slot available, you can cast that spell using either slot.",
+				"You know three 1st-level Elemental spells of your choice.",
+				"The Spells Known column of the Four Elements Spellcasting table shows when you learn more wizard spells of 1st level or higher. These spells must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
+				"Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the Four Elements spell list. The new spell must be of a level for which you have spell slots.",
+				"Wisdom is your spellcasting ability for your spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a spell you cast and when making an attack roll with one.",
+				"Spell save DC = 8 + your proficiency bonus + your Wisdom modifier.",
+				"Spell attack modifier = your proficiency bonus + your Wisdom modifier."
+			]
+		},
+		{
+			"name": "Flurry of Nature",
+			"source": "TftJC",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Four Elements 2.0",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"Starting at 3rd level, you can interweave your strikes with your elemental attacks. When using Flurry of Blows, you can instead cast a Spell on the Four Elements List.",
+				"Additionally, spell attack rolls you make can use your Dexterity or Wisdom Modifier to calculate the to-hit bonus when using a spell on the Four Elements list."
+			]
+		},
+		{
+			"name": "Balance",
+			"source": "TftJC",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Four Elements 2.0",
+			"subclassSource": "TftJC",
+			"level": 6,
+			"entries": [
+				"At 6th level, through your connection to the elements and Ki, you can intertwine your powers. You gain access to new ways to empower your strikes. When you take the attack action, choose one of the following. You can only use one effect once per turn.",
+				{
+					"type": "list",
+					"style": "list-hang",
+					"items": [
+						"Stream of Air. A creature hit by this strike must make a Strength save against you Monk DC, and on a fail be moved 10ft in a direction of your choice.",
+						"Force of Earth. A creature hit by this attack must make a dexterity save against your DC, and on a fail become grappled as stone envelops them. This lasts until the end of their next turn.",
+						"Fangs of Fire. A creature hit by this attack additional fire damage equal to your Martial Arts die.",
+						"Whips of Water. Your unarmed attacks this turn gain an additional 5ft reach."
+					]
+				}
+			]
+		},
+		{
+			"name": "Devastating Force",
+			"source": "TftJC",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Four Elements 2.0",
+			"subclassSource": "TftJC",
+			"level": 11,
+			"entries": [
+				"At 11th level, your magic can be enhanced with your Ki. Whenever you would cast a spell, you can expend a Ki point to upcast the spell by a level."
+			]
+		},
+		{
+			"name": "Catycalysm of Nature",
+			"source": "TftJC",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Four Elements 2.0",
+			"subclassSource": "TftJC",
+			"level": 17,
+			"entries": [
+				"At 17th level, your control over the Elements is at its peak. Once per day, you can cast one of the following spells without expending a spell slot, or having them on your spell list. You can expend a number of Ki points equal to the level of that spell to do so again.",
+				"Bones of The Earth, Cone of Cold, Immolation, Investiture of Flame, Investiture of Ice, Maelstrom, Wall of Stone, Wind Walk."
+			]
+		},
+		{
+			"name": "Way of the Spirit",
+			"source": "TftJC",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Spirit",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"As the lands grow older and the people move further away from the ancient ways, those who practise the Way of the Spirit hang behind and preserve their sacred stances. They channel the powers of long forgotten spirits, who guide their techniques.",
+				"Practitioners of the Way of the Spirit are masters of Spirit Stances, powerful cumulations of Spirit energy that embolden their physical abilities. Monks of this Tradition may have spiritual animals guide their movements, or even powerful demons who may be bound to the order.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spirit Stance|Monk|PHB|Spirit|TftJC|3"
+				}
+			]
+		},
+		{
+			"name": "Spirit Stance",
+			"source": "TftJC",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Spirit",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you can enter various stances to augment your combat. As a Bonus Action, you can enter a stance. A Stance ends after a minute without taking or dealing damage. Once per turn on your turn, you can expend one Ki point to enter a stance or switch your stance as a Free Action."
 			]
 		}
 	]
