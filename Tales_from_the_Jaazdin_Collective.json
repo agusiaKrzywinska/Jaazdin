@@ -7685,7 +7685,109 @@
 			"subclassSource": "TftJC",
 			"level": 3,
 			"entries": [
-				"At 3rd level, you can enter various stances to augment your combat. As a Bonus Action, you can enter a stance. A Stance ends after a minute without taking or dealing damage. Once per turn on your turn, you can expend one Ki point to enter a stance or switch your stance as a Free Action."
+				"At 3rd level, you can enter various stances to augment your combat. As a Bonus Action, you can enter a stance. A Stance ends after a minute without taking or dealing damage. Once per turn on your turn, you can expend one Ki point to enter a stance or switch your stance as a Free Action.",
+				{
+					"type": "inset",
+					"name": "Hunter Stance",
+					"entries": [
+						"Your first attack you make each turn has advantage.Creatures have disadvantage on Opportunity attacks made against you when you move out of their reach."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Graceful Stance",
+					"entries": [
+						"You gain a bonus to your Dexterity Saving Throws equal to your Wisdom Modifier. When Dodging, you can add your proficiency Bonus to your Armor Class."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Titan Stance",
+					"entries": [
+						"Once per turn, when dealing damage to a creature with an unarmed strike or a Monk weapon, you can force that creature to make a Wisdom Saving Throw against your Monk DC, and on a fail, they are frightened of you until the end of their next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Stance Shift",
+			"source": "TftJC",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Spirit",
+			"subclassSource": "TftJC",
+			"level": 6,
+			"entries": [
+				"Starting at 6th level, you can more fluidly change stances. After using your Flurry of Blows, you can immediately change or enter a stance. Upon exiting a stance, you gain a bonus based on the stance you have exited.",
+				{
+					"type": "inset",
+					"name": "Hunter Stance",
+					"entries": [
+						"Until the end of your next turn, your walking speed is increased by 15 ft, and you have advantage on Dexterity based Stealth Checks."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Graceful Stance",
+					"entries": [
+						"You can remove one of the following effects on yourself: Blinded, Restrained, Grappled, Poisoned."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Titan Stance",
+					"entries": [
+						"Your next attack with an Unarmed Strike or a Monk Weapon deals additional damage equal to your Monk Level."
+					]
+				}
+			]
+		},
+		{
+			"name": "Spiritual Connection",
+			"source": "TftJC",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Spirit",
+			"subclassSource": "TftJC",
+			"level": 11,
+			"entries": [
+				"At 11th level, you connect further to the spirit realm. You learn the {@spell Speak With Dead|PHB} spell, and can cast it by expending 2 Ki points.",
+				"Furthermore, each time you complete a long rest, you can channel the power of the spirits to protect you from harm. Select either Radiant, Necrotic, Psychic or Force damage.You gain resistance to that damage type until you complete your next long rest. As an Action, you can also spend 2 Ki points to change this resistance."
+			]
+		},
+		{
+			"name": "Spirit Brothers",
+			"source": "TftJC",
+			"className": "Monk",
+			"classSource": "PHB",
+			"subclassShortName": "Spirit",
+			"subclassSource": "TftJC",
+			"level": 17,
+			"entries": [
+				"At 17th level, you gain mastery over your stances, and can spread their power.",
+				"Whenever you change into a new stance, you can provide the effect of that stance granted by the Spirit Stance and Stance Shift to a creature of your choice within 30ft of you. That creature uses your Monk level and Monk Save DC for any abilities.",
+				"Also, whenever you would change your stance, you can choose the same stance you are currently in, Awakening the stance. This still counts as changing stances. If you Awaken a stance, you gain the following effects along side the effects granted from Spirit Stance.",
+				{
+					"type": "inset",
+					"name": "Hunter Stance, Awaken",
+					"entries": [
+						"You now critically strike on the roll of a 19 or 20, and your Extra Attack feature gains an additional attack."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Graceful Stance, Awaken",
+					"entries": [
+						"Your Strength and Dexterity, or Wisdom and Charisma Score increases by 5, up to a maximum of 30."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Titan Stance, Awaken",
+					"entries": [
+						"You take reduced damage from all sources equal to your Wisdom Modifier."
+					]
+				}
 			]
 		}
 	]
