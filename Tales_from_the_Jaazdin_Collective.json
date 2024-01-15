@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1702321471
+		"dateLastModified": 1705287002
 	},
 	"spell": [
 		{
@@ -963,7 +963,8 @@
 						"amount": 1,
 						"type": "minute",
 						"upTo": true
-					}
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
@@ -1387,7 +1388,8 @@
 						"type": "minute",
 						"amount": 1,
 						"upTo": true
-					}
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
@@ -1697,7 +1699,8 @@
 						"type": "minute",
 						"amount": 1,
 						"upTo": true
-					}
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
@@ -1760,7 +1763,8 @@
 						"type": "minute",
 						"amount": 10,
 						"upTo": true
-					}
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
@@ -1831,7 +1835,8 @@
 						"type": "minute",
 						"amount": 1,
 						"upTo": true
-					}
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
@@ -1885,7 +1890,8 @@
 						"type": "minute",
 						"amount": 1,
 						"upTo": true
-					}
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
@@ -2076,7 +2082,8 @@
 					"duration": {
 						"type": "minute",
 						"amount": 1
-					}
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
@@ -2207,7 +2214,8 @@
 					"duration": {
 						"type": "minutes",
 						"amount": 10
-					}
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
@@ -2372,7 +2380,8 @@
 						"type": "minute",
 						"amount": 10,
 						"upTo": true
-					}
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
@@ -2427,7 +2436,8 @@
 						"type": "minute",
 						"amount": 1,
 						"upTo": true
-					}
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
@@ -2487,7 +2497,8 @@
 						"type": "minute",
 						"amount": 1,
 						"upTo": true
-					}
+					},
+					"concentration": true
 				}
 			],
 			"entries": [
@@ -4181,6 +4192,7 @@
 			"source": "TftJC",
 			"rarity": "artifact",
 			"wondrous": true,
+			"reqAttune": true,
 			"entries": [
 				"While wearing or holding this magical gem you can commune with the spirit trapped within to create a powerful magical implement. As an action, you can target one non-magical weapon, armor, or spellcasting focus that you are holding and wearing and cause it to become encrusted with magical gemstones.",
 				"<b><i>Encrusted Weapon.</i></b> You gain a +2 bonus to attack and damage rolls made with this now magical weapon. In addition, you deal {@dice 1d6} cold damage on a hit. On scoring a critical hit you deal {@dice 3d6} cold damage to each creature of your choice within 5 feet of the original target.",
@@ -7657,7 +7669,7 @@
 			"level": 3,
 			"entries": [
 				"As the lands grow older and the people move further away from the ancient ways, those who practise the Way of the Spirit hang behind and preserve their sacred stances. They channel the powers of long forgotten spirits, who guide their techniques.",
-				"Practitioners of the Way of the Spirit are masters of Spirit Stances, powerful cumulations of Spirit energy that embolden their physical abilities. Monks of this Tradition may have spiritual animals guide their movements, or even powerful demons who may be bound to the order.",
+				"Practitioners of the Way of the Spirit are masters of Spirit Stances, powerful cumulation of Spirit energy that embolden their physical abilities. Monks of this Tradition may have spiritual animals guide their movements, or even powerful demons who may be bound to the order.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Spirit Stance|Monk|PHB|Spirit|TftJC|3"
