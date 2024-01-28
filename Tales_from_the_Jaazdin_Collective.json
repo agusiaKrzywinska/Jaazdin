@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1706396633
+		"dateLastModified": 1706472139 
 	},
 	"spell": [
 		{
@@ -5626,7 +5626,7 @@
 			"classSource": "PHB",
 			"shortName": "Divine Justice",
 			"subclassFeatures": [
-				"Tenets of Divine Justice|Paladin|PHB|Divine Justice|TftJC|3",
+				"Oath of Divine Justice|Paladin|PHB|Divine Justice|TftJC|3",
 				"Aura of Arclight|Paladin|PHB|Divine Justice|TftJC|7",
 				"Holy Fire|Paladin|PHB|Divine Justice|TftJC|15",
 				"Divine Judge|Paladin|PHB|Divine Justice|TftJC|20"
@@ -5642,6 +5642,32 @@
 				"Locate Creature",
 				"Destructive Wave",
 				"Immolation|XGtE"
+			]
+		},
+		{
+			"name": "Oath of Liberation",
+			"source": "TftJC",
+			"page": 29,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"shortName": "Liberation",
+			"subclassFeatures": [
+				"Oath of Liberation|Paladin|PHB|Liberation|TftJC|3",
+				"Aura of the Juggernaut|Paladin|PHB|Liberation|TftJC|7",
+				"Strike the Foundations|Paladin|PHB|Liberation|TftJC|15",
+				"Arbiter of Freedom|Paladin|PHB|Liberation|TftJC|20"
+			],
+			"subclassSpells": [
+				"Expeditious Retreat",
+				"Sanctuary",
+				"Knock",
+				"Shatter",
+				"Fly",
+				"Nondetection",
+				"Dimension Door",
+				"Freedom of Movement",
+				"Greater Restoration",
+				"Passwall"
 			]
 		}
 	],
@@ -7827,6 +7853,31 @@
 			]
 		},
 		{
+			"name": "Oath of Divine Justice",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Divine Justice",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"Following the belief that all creatures fall under one law, Paladins of Divine Justice act as Judge,Jury and Executioner for those who dare break said law.",
+				"Paladins under the Oath of Divine Justice strike forth with Holy Fire, burning all evil in their path to a perfect world, at any cost.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenets of Divine Justice|Paladin|PHB|Divine Justice|TftJC|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity|Paladin|PHB|Divine Justice|TftJC|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath of Divine Justice Spells|Paladin|PHB|Divine Justice|TftJC|3"
+				}
+			]
+		},
+		{
 			"name": "Tenets of Divine Justice",
 			"source": "TftJC",
 			"className": "Paladin",
@@ -7837,15 +7888,7 @@
 			"entries": [
 				"<b>None are free from Judgement.</b> Any and all living creatures are under your law. You uphold this law at any cost.",
 				"<b>Purify in Flames</b>. Impure Creatures are to be burned with Holy Fire, as to cleanse their filth from this world.",
-				"<b>Hope for a Brighter Tomorrow</b>. Every action you make is in the name of a better future for all, as long as they too live under your law.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Channel Divinity|Paladin|PHB|Divine Justice|TftJC|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Oath of Divine Justice Spells|Paladin|PHB|Divine Justice|TftJC|3"
-				}
+				"<b>Hope for a Brighter Tomorrow</b>. Every action you make is in the name of a better future for all, as long as they too live under your law."
 			]
 		},
 		{
@@ -7961,6 +8004,162 @@
 						"You become under the effects of Fervor and LeapingFlames. If you are already under one or both effects, they end first and afterwards are applied. All creatures of your choice within your Aura of Arclight also gain the benefits of Leaping Flames.",
 						"You gain a Hover Speed equal to your walking speed.",
 						"You can use the Dash Action as a Bonus Action, provided you are approaching a hostile creature."
+					]
+				},
+				"Once you use this feature, you can’t use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Oath of Liberation",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Liberation",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"Rumors travel of a lone warrior fighting corruption chain by chain. Freeing slaves ,destroying prisons, all in a days work for those under the Oath of Liberation",
+				"Paladins under the Oath of Liberation detest anything that would prevent their freedom with a burning passion, destroying walls, blockades and soldiers that would stand in their way with impunity.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenets of Liberation|Paladin|PHB|Liberation|TftJC|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity|Paladin|PHB|Liberation|TftJC|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath of Liberation Spells|Paladin|PHB|Liberation|TftJC|3"
+				}
+			]
+		},
+		{
+			"name": "Tenets of Liberation",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Liberation",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"<b>Break the Chains</b>. Free all those imprisoned, bound and restrained.",
+				"<b>Death before Bondage</b>. You shall never be captured against your will, and will die trying to free yourself and others.",
+				"<b>Lead by Example</b>. Show those around you the pleasures of freedom and teach others how to keep themselves free."
+			]
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Liberation",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"When you take this Oath at 3rd level, you gain access to two new channel divinity options.",
+				{
+					"type": "inset",
+					"name": "Relinquish",
+					"entries": [
+						"As an action, you can expend a use of your Channel Divinity to break an effect keeping someone trapped in place. One effect of your choice within 30 feet that is causing a creature to have their movement reduced or be grappled, restrained, paralyzed, petrified or stunned ends immediately."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Crushing Might",
+					"entries": [
+						"As part of an attack against an inanimate object, you can expend a use of your Channel Divinity to have the attack be a critical hit and deal bonus damage equal to your Paladin Level."
+					]
+				}
+			]
+		},
+		{
+			"name": "Oath of Liberation Spells",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Liberation",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				{
+					"type": "table",
+					"caption": "Liberation Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"3rd",
+							"Expeditious Retreat, Sanctuary"
+						],
+						[
+							"5th",
+							"Knock, Shatter"
+						],
+						[
+							"9th",
+							"Fly, Nondetection"
+						],
+						[
+							"13th",
+							"Dimension Door, Freedom of Movement"
+						],
+						[
+							"17th",
+							"Greater Restoration, Passwall"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Aura of the Juggernaut",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Liberation",
+			"subclassSource": "TftJC",
+			"level": 7,
+			"entries": [
+				"Starting at 7th level, you and any friendly creatures within 10 feet of you have advantage on Strength saving throws, and can spend 5 feet of movement on their turn to escape an effect that has them grappled or restrained.",
+				"At 18th level, the range of this aura increases to 30 feet."
+			]
+		},
+		{
+			"name": "Strike the Foundations",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Liberation",
+			"subclassSource": "TftJC",
+			"level": 15,
+			"entries": [
+				"At 15th level, your strikes break the foundations. Any weapon you are wielding is treated as having the siege property."
+			]
+		},
+		{
+			"name": "Arbiter of Freedom",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Liberation",
+			"subclassSource": "TftJC",
+			"level": 20,
+			"entries": [
+				"At 20th level, you can fully enhance your Liberation abilities. As an action, you can transcend the barriers of reality for 1minute, giving you and creatures of your choice within 30 feet the following properties:",
+				{
+					"type": "list",
+					"items": [
+						"You can choose to ignore all magical restrictions and qualifications on spells based on creature type or description, such as those on antilife shell, hallow or glyph of warding.",
+						"You can move through solid terrain at half speed. If you occupy the same spot as a solid object or creature when this or a similar effect is no longer active for you, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you are moved.",
+						"You have resistance to all damage but force."
 					]
 				},
 				"Once you use this feature, you can’t use it again until you finish a long rest."
