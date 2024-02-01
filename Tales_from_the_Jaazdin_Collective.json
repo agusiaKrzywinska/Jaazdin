@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1706472139 
+		"dateLastModified": 1706756914
 	},
 	"spell": [
 		{
@@ -5669,6 +5669,58 @@
 				"Greater Restoration",
 				"Passwall"
 			]
+		},
+		{
+			"name": "Oath of the Masked Rider",
+			"source": "TftJC",
+			"page": 30,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"shortName": "Masked Rider",
+			"subclassFeatures": [
+				"Oath of the Masked Rider|Paladin|PHB|Masked Rider|TftJC|3",
+				"Aura of Blasting|Paladin|PHB|Masked Rider|TftJC|7",
+				"Virtuous Blasts|Paladin|PHB|Masked Rider|TftJC|15",
+				"Masked Champion|Paladin|PHB|Masked Rider|TftJC|20"
+			],
+			"subclassSpells": [
+				"Thunderwave",
+				"Zephyr Strike|XGtE",
+				"Enthrall",
+				"Shatter",
+				"Ashardalon's Stride|FtD",
+				"Thunder Step",
+				"Freedom of Movement",
+				"Wall of Fire",
+				"Dawn|XGtE",
+				"Steel Wind Strike|XGtE"
+			]
+		},
+		{
+			"name": "Oath of the Slayer",
+			"source": "TftJC",
+			"page": 31,
+			"className": "Paladin",
+			"classSource": "PHB",
+			"shortName": "Slayer",
+			"subclassFeatures": [
+				"Oath of the Slayer|Paladin|PHB|Slayer|TftJC|3",
+				"Slayer’s Protection|Paladin|PHB|Slayer|TftJC|7",
+				"Blood of the Hunt|Paladin|PHB|Slayer|TftJC|15",
+				"Perfect Slayer|Paladin|PHB|Slayer|TftJC|20"
+			],
+			"subclassSpells": [
+				"Absorb Elements|XGtE",
+				"Hunter's Mark",
+				"Locate plants or animals",
+				"See Invisibility",
+				"Phantom Steed",
+				"protection from energy",
+				"locate creature",
+				"dimension door",
+				"hold monster",
+				"Steel Wind Strike|XGtE"
+			]
 		}
 	],
 	"subclassFeature": [
@@ -8160,6 +8212,320 @@
 						"You can choose to ignore all magical restrictions and qualifications on spells based on creature type or description, such as those on antilife shell, hallow or glyph of warding.",
 						"You can move through solid terrain at half speed. If you occupy the same spot as a solid object or creature when this or a similar effect is no longer active for you, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you are moved.",
 						"You have resistance to all damage but force."
+					]
+				},
+				"Once you use this feature, you can’t use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Oath of the Masked Rider",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Masked Rider",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"As villains run wild and monsters destroy the city ,a brave warrior steps up from the crowd. Brilliant armor coalesces around them, as an imposing Mask covers their face. They race off to any challenge in their path, as onlookers cheer for the spectacle.",
+				"Paladins under the Oath of the Masked Rider dash forth in blazing explosions, defeating evil with style, flair and loud kabooms.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenets of Masked Rider|Paladin|PHB|Masked Rider|TftJC|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity|Paladin|PHB|Masked Rider|TftJC|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath of the Masked Rider Spells|Paladin|PHB|Masked Rider|TftJC|3"
+				}
+			]
+		},
+		{
+			"name": "Tenets of Masked Rider",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Masked Rider",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"<b>Masked Identity.</b> Many Masked Riders keep their identity hidden, as they are meant to be a symbol to the people.",
+				"<b>Inspire Hope</b>. Your feats are meant to inspire those around you to one day take up the Mask and carry on your legacy.",
+				"<b>Heroics are all but Silent</b>. Defeating a foe should be a spectacle, marked with explosions and high flying stunts."
+			]
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Masked Rider",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"When you take this Oath at 3rd level, you gain access to two new channel divinity options.",
+				{
+					"type": "inset",
+					"name": "Mask Change",
+					"entries": [
+						"You can conduct a 1 hour Ritual with a set of Armor you are wearing, a weapon and optionally a shield. These items then disappear and are stored inside a pocket dimension inside of your Holy Symbol. Then as a Bonus Action, you can expend a use of your Channel Divinity to summon these items and immediately equip them. After doing so, all creatures within10ft of you must make a Constitution Saving Throw, and on a fail take 2d8 Thunder Damage and are shoved 10ft away from you, or half as much on a successful save and are not moved. This damage increases by 1d8 at 5th, 9th, 13th and17th level. You can dismiss these items back into your Holy Symbol as a Free Action.",
+						"You can use this ability without expending a use of ChannelDivinity, but it then requires an Action to use, and deals no damage nor does it push away nearby creatures."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Explosive Finisher",
+					"entries": [
+						"After dealing Thunder or Force Damage, you can use your Reaction to expend a use of Channel Divinity to finish your opponent. You move your movement to a creature that took the damage, then immediately make a melee attack against them. If that attack hits, it is treated as a Divine Smite at the highest level for which you have spell slots. If this damage leaves the creature with hit points equal to or less than your Paladin Level, they are finished off (you can decide lethal or non lethal)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Oath of the Masked Rider Spells",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Masked Rider",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				{
+					"type": "table",
+					"caption": "Masked Rider Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"3rd",
+							"Thunderwave, Zephyr Strike"
+						],
+						[
+							"5th",
+							"Enthrall, Shatter"
+						],
+						[
+							"9th",
+							"Ashardalon's Stride, Thunder Step"
+						],
+						[
+							"13th",
+							"Freedom of Movement, Wall of Fire"
+						],
+						[
+							"17th",
+							"Dawn, Steel Wind Strike"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Aura of Blasting",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Masked Rider",
+			"subclassSource": "TftJC",
+			"level": 7,
+			"entries": [
+				"Starting at 7th level, whenever you or friendly creatures within 10ft of you forcibly move a hostile creature, that creature takes 1d8 thunder damage. This damage can only be done once per turn, per creature.",
+				"At 18th level, the range of this aura increases to 30 feet."
+			]
+		},
+		{
+			"name": "Virtuous Blasts",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Masked Rider",
+			"subclassSource": "TftJC",
+			"level": 15,
+			"entries": [
+				"At 15th level, your resolve causes explosive force to emanate from you. Whenever you would succeed on a Saving Throw, you can make all creatures within 5ft of you take Thunder damage equal to your Charisma Modifier."
+			]
+		},
+		{
+			"name": "Masked Champion",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Masked Rider",
+			"subclassSource": "TftJC",
+			"level": 20,
+			"entries": [
+				"At 20th level, you can assume the form of a Masked Champion. Your armor may become golden, your strikes moving faster than the eye can see, or your explosions shine off golden light. As an Action, you gain the following features.This lasts for 1 minute, or until knocked unconscious.",
+				{
+					"type": "list",
+					"items": [
+						"Upon activating the ability, you can immediately use your Mask Change Channel Divinity (this does not expend the use of your Channel Divinity). If you are already wearing your armor, it remains and instead you only deal the damage and the shove effect.",
+						"Using your Explosive Finisher Channel Divinity does not expend your Channel Divinity if that attack would finish the creature hit.",
+						"Whenever you would deal Thunder Damage to a single creature, all other creatures within 10ft of that creature take the same amount of damage. This effect cannot activate off of itself."
+					]
+				},
+				"You can use this feature once per Long Rest, or by expending a 5th level spell slot."
+			]
+		},
+		{
+			"name": "Oath of the Slayer",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Slayer",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"Sometimes a warrior will come across dangers that go well beyond the handling of mundane warriors. Dragons, demons, giants, fey, whatever supernatural threat befalls the people of world the Slayers are there to take up the fight. Many religious orders have their own sect of Slayers dedicated to eradicating the evil of their beliefs.",
+				"Most Slayers are trained from a young age to fight the target of their quarry. By the time they reach maturity hunting their quarry is not just their mission, it is their life.",
+				"A Slayer’s Quarry has a profound impact on a Slayer's fighting style and lifestyle. A giant hunter might use a polearm and a sling to poke and prod their quarry until they succumb. Dragon slayers might use heavy armor, heavy shields, and a large sword to protect themselves from their target’s flames and claws. The way a Slayer fights, acts, and lives, all serve to make them the ultimate opponent for the thing they hunt.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenets of the Slayer|Paladin|PHB|Slayer|TftJC|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity|Paladin|PHB|Slayer|TftJC|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath of the Slayer Spells|Paladin|PHB|Slayer|TftJC|3"
+				}
+			]
+		},
+		{
+			"name": "Tenets of the Slayer",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Slayer",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"<b>Shelter the Hunted.</b> Aid those that are harmed by your quarry and the forces of evil.",
+				"<b>Quell your Quarry.</b> Seek out your quarry wherever they may hide and show no mercy in quelling their plots.",
+				"<b>Restore the Broken.</b> A slayers job does not end when the quarry is dead. Help tore build that which has been broken by evil."
+			]
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Slayer",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"When you take this Oath at 3rd level, you gain access to two new channel divinity options.",
+				{
+					"type": "inset",
+					"name": "Rebuke the Hunted.",
+					"entries": [
+						"As an action, you present your holy symbol and speak a prayer of rebuke, using your Channel Divinity. Every creature of your chosen Slayer's Quarry within 60 feet of you that can see you must make a Wisdom saving throw, unless it is immune to being frightened. Fiends and undead are also affected. On a failed save, the creature is frightened for 1 minute or until it takes any damage. While frightened, the creature is paralyzed. On a successful save, the creature cannot take reactions this turn."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Slay Thy Hate.",
+					"entries": [
+						"You can use your Channel Divinity to strike an especially deadly blow. When you hit with a weapon attack you can use your Channel Divinity to double your weapon's damage dice.If the target of the attack is also your Slayer's Quarry you add half your paladin level to the damage as well (minimum 1)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Oath of the Slayer Spells",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Slayer",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				{
+					"type": "table",
+					"caption": "Slayer Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"3rd",
+							"absorb elements, hunter's mark"
+						],
+						[
+							"5th",
+							"locate plants or animals, see invisibility"
+						],
+						[
+							"9th",
+							"phantom steed, protection from energy"
+						],
+						[
+							"13th",
+							"locate creature, dimension door"
+						],
+						[
+							"17th",
+							"hold monster, steel wind strike"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Slayer’s Protection",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Slayer",
+			"subclassSource": "TftJC",
+			"level": 7,
+			"entries": [
+				"Starting at 7th level, you project an aura that protects those around you from the attacks from your Slayer's Quarry.Whenever a fiend, undead, or your Slayer’s Quarry forces a creature that benefits from your Aura of Protection class feature to make a saving throw they can add a 1d4 to the roll.A number of creatures equal to your Charisma modifier can benefit from this effect at once.",
+				"At 18th level, the d4 increases to a d6."
+			]
+		},
+		{
+			"name": "Blood of the Hunt",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Slayer",
+			"subclassSource": "TftJC",
+			"level": 15,
+			"entries": [
+				"At 15th level, whenever you reduce a creature to 0 hit points you gain temporary hit points equal to your Charisma modifier. In addition, when you reduce a fiend, undead, or your Slayer’s Quarry to 0 hit points you may take an additional action. Once you use this secondary effect you cannot use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Perfect Slayer",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Slayer",
+			"subclassSource": "TftJC",
+			"level": 20,
+			"entries": [
+				"At 20th level, as an action, you can empower your body to become the perfect hunter. Your body adapts to better hunt the Quarry of your oath. The transformation lasts 1 minute.You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You make any saving throws against your Quarry at advantage. In addition, if they force you to make Dexterity saving throws you take half damage on a failed save, and no damage on a success.",
+						"You are immune to the fear and charmed conditions.",
+						"Whenever a creature, other than you, succeeds on a saving throw while benefiting from your Slayer’sProtection the creature that forced them to make the saving throw takes psychic damage equal to yourCharisma Modifier."
 					]
 				},
 				"Once you use this feature, you can’t use it again until you finish a long rest."
