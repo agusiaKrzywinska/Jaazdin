@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1706756914
+		"dateLastModified": 1710677407
 	},
 	"spell": [
 		{
@@ -870,10 +870,6 @@
 			],
 			"classes": {
 				"fromClassList": [
-					{
-						"name": "Druid",
-						"source": "PHB"
-					},
 					{
 						"name": "Druid",
 						"source": "PHB"
@@ -5011,6 +5007,27 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Evercure Potion",
+			"rarity":"rare",
+			"type": "P",
+			"source": "TftJC",
+			"entries": [
+				"This Golden potion swirls with small strands of light seemingly flowing within it. As an action, a creature can drink or administer the potion to another creature. Their body is refreshed, as they are affected by the Greater Restoration Spell."
+			]
+		},
+		{
+			"name": "Egg of Seeking",
+			"rarity":"rare",
+			"wondrous": true,
+			"source": "TftJC",
+			"entries": [
+				"\"What an eggscellent and eggsquisite artifact, we can’t eggnore or eggscuse its ability to eggsecute. Indeed we must eggspress that we are eggstatic at its eggsplosive eggspertise, though we are egghausted. How eggciting to see something so eggstravagant, it’s eggceptional…\"",
+				"\"Captain...wha...what was that? Did you plan that? Is this why you were an hour late to the crime scene?! People were murdered!\"",
+				"\\...Eggsactly.\"",
+				"When you break an Egg of Seeking, it reveals the location of any purposefully hidden objects, entrances, containers, persons, and the like within 100 feet for one minute. When this happens, that which is purposefully hidden is enveloped in the illusion of a brightly-colored egg. The hunter of such should then easily be able to poach the location(s) of what is hidden as long as it resides on the same plane of existence."
+			]
 		}
 	],
 	"reward": [
@@ -5181,6 +5198,32 @@
 						"{@reward Hookblade MK II|TftJC}"
 					]
 				}
+			]
+		},
+		{
+			"name": "Glider",
+			"source": "TftJC",
+			"type": "Invention",
+			"entries": [
+				"<i><b>Complex Invention.</i></b>",
+				"This folding device contains a flexible cloth that is able to take on the weight of 1 Medium or smaller creature. This device is stored on the wearer's back, and metal rods connect to the apparatus that run down the wearer's arms. As an Action, the wearer can Prime the Glider. While Primed the wearer's range of motion is slightly more limited, causing disadvantage on making melee attacks, sleight of hand checks, and preventing the use of a Shield.",
+				"While primed, the wearer can use a reaction when falling more than 10ft to begin to glide. The Glider allows the wielder to fall harmlessly down, gliding a number of feet forwards equal to the distance they would have fallen. A creature using the Glider can only fall a maximum of 60ft in a round, as it slows descent.",
+				"If you take 5 or more fire damage while using the glider, the cloth burns up causing the wielder to begin falling. A new cloth can be replaced onto the glider for 25gp."
+			]
+		},
+		{
+			"name": "Hand-Bomb",
+			"source": "TftJC",
+			"type": "Invention",
+			"entries": [
+				"<i><b>Simple Invention.</i></b>",
+				"Damage: {@dice 1d4}",
+				"Damage Type: Bludgeoning",
+				"Range: 20/60",
+				"Weight: 0.5",
+				"On a successful hit, the Hand-Bomb explodes. All creatures within a 15ft cube of the point of detonation must make a DC 13 DEX Save, taking 3d4 Force damage on a fail or half on a save (If the bomb detonated while being thrown at a creature, they have disadvantage on the save).",
+				"On a miss, the bomb lands at the feet of the targeted creature. The bomb will then detonate after the end of your next turn, or if the bomb would take radiant/force/fire/thunder damage before that point.",
+				"The bomb can be picked up and thrown again in this time period, or diffused by making a DC 13 Tinkers Tools (INT/DEX) check. Failing this check immediately detonates the bomb."
 			]
 		}
 	],
