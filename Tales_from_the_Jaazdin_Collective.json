@@ -5028,6 +5028,10 @@
 				"\\...Eggsactly.\"",
 				"When you break an Egg of Seeking, it reveals the location of any purposefully hidden objects, entrances, containers, persons, and the like within 100 feet for one minute. When this happens, that which is purposefully hidden is enveloped in the illusion of a brightly-colored egg. The hunter of such should then easily be able to poach the location(s) of what is hidden as long as it resides on the same plane of existence."
 			]
+		},
+		{
+			"name": "Blade of Larsinix"
+			
 		}
 	],
 	"reward": [
@@ -5224,6 +5228,18 @@
 				"On a successful hit, the Hand-Bomb explodes. All creatures within a 15ft cube of the point of detonation must make a DC 13 DEX Save, taking 3d4 Force damage on a fail or half on a save (If the bomb detonated while being thrown at a creature, they have disadvantage on the save).",
 				"On a miss, the bomb lands at the feet of the targeted creature. The bomb will then detonate after the end of your next turn, or if the bomb would take radiant/force/fire/thunder damage before that point.",
 				"The bomb can be picked up and thrown again in this time period, or diffused by making a DC 13 Tinkers Tools (INT/DEX) check. Failing this check immediately detonates the bomb."
+			]
+		},
+		{
+			"name": "Quickdraw Bandolier",
+			"source": "TftJC",
+			"type": "Invention",
+			"entries": [
+				"<i><b>Innovative Invention.</i></b>",
+				"This multi-pouch strap can be worn over the chest. The Bandolier contains 5 front pouches and two back straps.",
+				"A back strap can hold a thrown weapon, like a spear or dagger, and the front pouches can hold objects such as potions, caltrops, acid vials and other small handheld trinkets.",
+				"Items in the bandolier can be drawn as a free action. Placing an Item in the bandolier uses an Item interaction.",
+				"Each Pouch can only contain one type of item but can hold up to 5 lbs."
 			]
 		}
 	],
