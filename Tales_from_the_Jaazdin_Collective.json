@@ -5673,96 +5673,6 @@
 				"Aura of Arclight|Paladin|PHB|Divine Justice|TftJC|7",
 				"Holy Fire|Paladin|PHB|Divine Justice|TftJC|15",
 				"Divine Judge|Paladin|PHB|Divine Justice|TftJC|20"
-			],
-			"subclassSpells": [
-				"Guiding Bolt",
-				"Hunter's Mark",
-				"Flame Blade",
-				"Hold Person",
-				"Crusader's Mantle",
-				"Enemies Abound|XGtE",
-				"Fire Shield",
-				"Locate Creature",
-				"Destructive Wave",
-				"Immolation|XGtE"
-			]
-		},
-		{
-			"name": "Oath of Liberation",
-			"source": "TftJC",
-			"page": 29,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"shortName": "Liberation",
-			"subclassFeatures": [
-				"Oath of Liberation|Paladin|PHB|Liberation|TftJC|3",
-				"Aura of the Juggernaut|Paladin|PHB|Liberation|TftJC|7",
-				"Strike the Foundations|Paladin|PHB|Liberation|TftJC|15",
-				"Arbiter of Freedom|Paladin|PHB|Liberation|TftJC|20"
-			],
-			"subclassSpells": [
-				"Expeditious Retreat",
-				"Sanctuary",
-				"Knock",
-				"Shatter",
-				"Fly",
-				"Nondetection",
-				"Dimension Door",
-				"Freedom of Movement",
-				"Greater Restoration",
-				"Passwall"
-			]
-		},
-		{
-			"name": "Oath of the Masked Rider",
-			"source": "TftJC",
-			"page": 30,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"shortName": "Masked Rider",
-			"subclassFeatures": [
-				"Oath of the Masked Rider|Paladin|PHB|Masked Rider|TftJC|3",
-				"Aura of Blasting|Paladin|PHB|Masked Rider|TftJC|7",
-				"Virtuous Blasts|Paladin|PHB|Masked Rider|TftJC|15",
-				"Masked Champion|Paladin|PHB|Masked Rider|TftJC|20"
-			],
-			"subclassSpells": [
-				"Thunderwave",
-				"Zephyr Strike|XGtE",
-				"Enthrall",
-				"Shatter",
-				"Ashardalon's Stride|FtD",
-				"Thunder Step",
-				"Freedom of Movement",
-				"Wall of Fire",
-				"Dawn|XGtE",
-				"Steel Wind Strike|XGtE"
-			]
-		},
-		{
-			"name": "Oath of the Slayer",
-			"source": "TftJC",
-			"page": 31,
-			"className": "Paladin",
-			"classSource": "PHB",
-			"shortName": "Slayer",
-			"subclassFeatures": [
-				"Oath of the Slayer|Paladin|PHB|Slayer|TftJC|3",
-				"Slayer’s Protection|Paladin|PHB|Slayer|TftJC|7",
-				"Blood of the Hunt|Paladin|PHB|Slayer|TftJC|15",
-				"Perfect Slayer|Paladin|PHB|Slayer|TftJC|20"
-			],
-			"subclassSpells": [
-				"Absorb Elements|XGtE",
-				"Hunter's Mark",
-				"Locate plants or animals",
-				"See Invisibility",
-				"Phantom Steed",
-				"protection from energy",
-				"locate creature",
-				"dimension door",
-				"hold monster",
-				"Steel Wind Strike|XGtE"
 			]
 		}
 	],
@@ -8569,6 +8479,151 @@
 						"You make any saving throws against your Quarry at advantage. In addition, if they force you to make Dexterity saving throws you take half damage on a failed save, and no damage on a success.",
 						"You are immune to the fear and charmed conditions.",
 						"Whenever a creature, other than you, succeeds on a saving throw while benefiting from your Slayer’sProtection the creature that forced them to make the saving throw takes psychic damage equal to yourCharisma Modifier."
+					]
+				},
+				"Once you use this feature, you can’t use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Oath of Divine Justice",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Divine Justice",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"Following the belief that all creatures fall under one law, Paladins of Divine Justice act as Judge, Jury, and Executioner for those who dare break said law.",
+				"Paladins under the Oath of Divine Justice strike forth with Holy Fire, buring all evil in their path to a perfect world, at any cost.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tenents of Divine Justice|Paladin|PHB|Divine Justice|TftJC|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Channel Divinity|Paladin|PHB|Divine Justice|TftJC|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Oath of Divine Justice Spells|Paladin|PHB|Divine Justice|TftJC|3"
+				}
+			]
+		},
+		{
+			"name": "Tenents of Divine Justice",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Divine Justice",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"None are free from Judgement. Any and all living creatures are under your law. You uphold this law at any cost.",
+				"Purify in Flames. Impure Creatures are to be burned with Holy Fire, as to cleanse their filth from this world.",
+				"Hope for a Brighter Tomorrow. Every action you make is in the name of a better future for all, as long as they too live under your law."
+			]
+		},
+		{
+			"name": "Channel Divinity",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Divine Justice",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"When you take this Oath at 3rd level, you gain access to two new channel divinity options.",
+				"Fervor. As an Action, you ignite a weapon you are holding with Holy Fervor. It becomes magical for purposes of damage against other creatures. Select either Fire or Radiant damage. For the next minute, at the start of your turn your weapon grows in power. It deals an additional 1 Radiant or Fire damage (your choice when you first activate this ability). This bonus continues to add on at the start of each of your turns (up to a maximum of 10), and is lost when you fall unconscious or after a minute passes.",
+				"Leaping Flames. As a Bonus Action, you imbue a melee weapon within 30ft of you that you can see with Flames. For the next minute, the wielder's body is engulfed in flames, granting them a +10 to all Intimidation (Charisma) checks they make. The wielder can end this effect early if they choose by using the flames to empower a weapon attack. The next melee weapon attack they make with the flaming weapon gains an additional 30 ft of reach. Then, all creatures within 5ft of the target creature (including the target creature) take fire damage equal to your Charisma Modifier. The adjacent creatures also take additional Fire damage equal to the weapon's damage die. The flames are ended after the attack is made, the weapon is dropped or stowed, or a minute passes."
+			]
+		},
+		{
+			"name": "Oath of Divine Justice Spells",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Divine Justice",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				{
+					"type": "table",
+					"caption": "Oath of Divine Justice Spells",
+					"colLabels": [
+						"Paladin Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"3rd",
+							"Guiding Bolt, Hunter's Mark"
+						],
+						[
+							"5th",
+							"Flame Blade, Hold Person"
+						],
+						[
+							"9th",
+							"Crusader's Mantle, Enemies Abound"
+						],
+						[
+							"13th",
+							"Fire Shield, Locate Creature"
+						],
+						[
+							"13th",
+							"Destructive Wave, Immolation"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Aura of Arclight",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Divine Justice",
+			"subclassSource": "TftJC",
+			"level": 7,
+			"entries": [
+				"Starting at 7th level, you and friendly creatures within 10 feet of you gain 60ft of darkvision that can see through magical darkness.",
+				"At 18th level, the range of this aura increases to 30 feet"
+			]
+		},
+		{
+			"name": "Holy Fire",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Divine Justice",
+			"subclassSource": "TftJC",
+			"level": 15,
+			"entries": [
+				"At 15th level, your strikes intertwine in Holy Fire. Whenever you would deal Fire Damage, you deal additional radiant damage equal to your Charisma Modifier. Also, whenever you deal Radiant Damage, you deal additional Fire Damage equal to your Charisma Modifier. This effect cannot activate off of itself."
+			]
+		},
+		{
+			"name": "Divine Judge",
+			"source": "TftJC",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Divine Justice",
+			"subclassSource": "TftJC",
+			"level": 20,
+			"entries": [
+				"At 20th level, you can assume the form of a Divine Judge. Your form becomes cloaked in Holy Light that burns to the eye, and may adopt other features such as a Flaming Halo or Golden Armor",
+				"As an Action, you undergo a transformation and gain the following benefits. This transformation lasts a minute, or until you fall unconscious.",
+				{
+					"type": "list",
+					"items": [
+						"You become under the effects of Fervor and Leaping Flames. If you are already under one or both effects, they end first and afterwards are applied. All creatures of your choice within your Aura of Arclight also gain the benefits of Leaping Flames.",
+						"You gain a Hover Speed equal to your walking speed.",
+						"You can use the Dash Action as a Bonus Action, provided you are approaching a hostile creature."
 					]
 				},
 				"Once you use this feature, you can’t use it again until you finish a long rest."
