@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1714782658 
+		"dateLastModified": 1715132485
 	},
 	"spell": [
 		{
@@ -5010,7 +5010,7 @@
 		},
 		{
 			"name": "Evercure Potion",
-			"rarity":"rare",
+			"rarity": "rare",
 			"type": "P",
 			"source": "TftJC",
 			"entries": [
@@ -5019,7 +5019,7 @@
 		},
 		{
 			"name": "Egg of Seeking",
-			"rarity":"rare",
+			"rarity": "rare",
 			"wondrous": true,
 			"source": "TftJC",
 			"entries": [
@@ -5718,7 +5718,7 @@
 		{
 			"name": "Oath of the Slayer",
 			"source": "TftJC",
-			"page": 29,
+			"page": 31,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"shortName": "Slayer",
@@ -5727,6 +5727,21 @@
 				"Slayer’s Protection|Paladin|PHB|Slayer|TftJC|7",
 				"Blood of the Hunt|Paladin|PHB|Slayer|TftJC|15",
 				"Perfect Slayer|Paladin|PHB|Slayer|TftJC|20"
+			]
+		},
+		{
+			"name": "Survivor Conclave",
+			"source": "TftJC",
+			"page": 33,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"shortName": "Survivor",
+			"subclassFeatures": [
+				"Survivor Conclave|Ranger|PHB|Survivor|TftJC|3",
+				"Rugged Resilience|Ranger|PHB|Survivor|TftJC|7",
+				"Scrap Crafting|Ranger|PHB|Survivor|TftJC|7",
+				"Battle Medic|Ranger|PHB|Survivor|TftJC|11",
+				"Doom Designator|Ranger|PHB|Survivor|TftJC|15"
 			]
 		}
 	],
@@ -8536,6 +8551,155 @@
 					]
 				},
 				"Once you use this feature, you can’t use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Survivor Conclave",
+			"source": "TftJC",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Survivor",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"Wandering alone in the wastelands, a warrior who has faced death countless times persists.Though resources are scares, the light fades and hope looks grim, they know they will survive. Rangers of the Survivor Conclave do everything in their power to persist through unthinkable dangers and ridiculous conditions.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Survivor Magic|Ranger|PHB|Survivor|TftJC|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Miraculous Recovery|Ranger|PHB|Survivor|TftJC|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Wasteland Diet|Ranger|PHB|Survivor|TftJC|3"
+				}
+			]
+		},
+		{
+			"name": "Survivor Magic",
+			"source": "TftJC",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Survivor",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Survivor Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.",
+				{
+					"type": "table",
+					"caption": "Survivor Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"3rd",
+							"Shield"
+						],
+						[
+							"5th",
+							"Rope Trick"
+						],
+						[
+							"9th",
+							"Nondetection"
+						],
+						[
+							"13th",
+							"Death Ward"
+						],
+						[
+							"17th",
+							"Mass Cure Wounds"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Miraculous Recovery",
+			"source": "TftJC",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Survivor",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"Starting at 3rd level, your wounds heal quicker than others. Whenever you would make a Death Saving Throw, you can choose to instantly become stabilized, then regain a number of hit points equal to your Ranger Level. You can only do soonce per long rest."
+			]
+		},
+		{
+			"name": "Wasteland Diet",
+			"source": "TftJC",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Survivor",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, your magic helps feed you and others. You learn Goodberry (it does not count against your spells known), and you can cast it a number of times per long rest equal to your Wisdom Modifier without expending a spell slot. When you cast goodberry in this way, it only creates a number of berries equal to your Proficiency Bonus. You can also consume a number of goodberries as a free action each turn equal to your proficiency bonus. If you eat a goodberry and your health is full, you instead gain temporary hit points equal to your Wisdom Modifier. Once on your turn, when you would make an attack and you currently have temporary hit points,you can remove all of them to have that attack deal an additional 1d6 of damage.",
+				"At 7th level, when you cast Goodberry in this way, one berry in the bunch becomes golden. A golden berry cures a disease or the poisoned condition affecting the creature of your choice.",
+				"At 11th level, a golden berry can remove a point of exhaustion instead.",
+				"A creature can only benefit from a golden goodberry once per day."
+			]
+		},
+		{
+			"name": "Rugged Resilience",
+			"source": "TftJC",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Survivor",
+			"subclassSource": "TftJC",
+			"level": 7,
+			"entries": [
+				"At 7th level, your body adapts to harsher environments. You gain proficiency in Constitution Saving Throws. If youalready have this, then you can become proficient in either Strength or Dexterity saving throws (your choice)."
+			]
+		},
+		{
+			"name": "Scrap Crafting",
+			"source": "TftJC",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Survivor",
+			"subclassSource": "TftJC",
+			"level": 7,
+			"entries": [
+				"At 7th level, you can create weapons on the fly. You can spend 1 minute taking raw material, such as metal, wood, stone, or similar things to craft items. You can create shields, simple and martial weapons, so long as you have proficiency in those weapons and the appropriate materials. The weapons fall apart into their raw materials after a day of use.",
+				"At 11th level, Scrap weapons you create are considered magical for the purposes of overcoming resistances and immunities when you wield them.",
+				"At 15th level, Scrap weapons you create have jagged edges. Scrap weapons have their critical strike range increased, and critically hit on a 19 and 20 when you wield them."
+			]
+		},
+		{
+			"name": "Battle Medic",
+			"source": "TftJC",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Survivor",
+			"subclassSource": "TftJC",
+			"level": 11,
+			"entries": [
+				"At 11th level, you can heal your wounds on the fly. If you drop to 0 hit points and don’t die outright, you can use your reaction to make a DC 15 Medicine Check. If you succeed,you drop to 1 hit point instead.",
+				"Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10."
+			]
+		},
+		{
+			"name": "Doom Designator",
+			"source": "TftJC",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Survivor",
+			"subclassSource": "TftJC",
+			"level": 15,
+			"entries": [
+				"At 15th level, you have escaped death so many times that it has left a supernatural effect on you. As an action, designate a creature within 60ft of you that you can see. That creature must make a Charisma saving throw against your Spell SaveDC. On a fail, they are doomed. The world around them begins to react to their impending doom, with things such as buzzards flocking around them or clerics adverting their eyes.If the creature has more than 100 hit points, they gain a point of exhaustion for every hour that passes, ending after the 6th hour. If they have fewer than 100 hit points, they instantly reach 6 points of exhaustion. A creature that dies by this ability becomes dust.",
+				"If a creature passes this saving throw, they are immune to you using this ability on them for the next 2d4+4 days. This ability can be used once per long rest. A Doomed creature can be saved by having Remove Curse cast on them anywhere at or above 7th level."
 			]
 		}
 	]
