@@ -62,6 +62,8 @@
         "flumph",
         "flumphs",
         "Frostwail",
+        "goodberries",
+        "Goodberry",
         "greatsword",
         "Handcannon",
         "hareline",
@@ -118,6 +120,7 @@
         "unattunes",
         "undercommon",
         "Underdark",
+        "unperceivable",
         "unsculpted",
         "upcasted",
         "Urumi",
@@ -128,5 +131,6 @@
         "Wyrmling",
         "zaratan",
         "Zyrial"
-    ]
+    ],
+    "cSpell.language": "en,en-CA"
 }
