@@ -13,11 +13,11 @@
 					"Agusia Krzywinska",
 					"Adam Henderson"
 				],
-				"version": "0.0.19"
+				"version": "0.0.20"
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1715910031
+		"dateLastModified": 1715910032
 	},
 	"spell": [
 		{
@@ -5164,7 +5164,8 @@
 					"type": "list",
 					"items": [
 						"{@reward Handcannon MK I|TftJC}",
-						"{@reward Handcannon MK II|TftJC}"
+						"{@reward Handcannon MK II|TftJC}",
+						"{@reward Handcannon MK III|TftJC}"
 					]
 				}
 			]
@@ -5236,6 +5237,32 @@
 				"A back strap can hold a thrown weapon, like a spear or dagger, and the front pouches can hold objects such as potions, caltrops, acid vials and other small handheld trinkets.",
 				"Items in the bandolier can be drawn as a free action. Placing an Item in the bandolier uses an Item interaction.",
 				"Each Pouch can only contain one type of item but can hold up to 5 lbs."
+			]
+		},
+		{
+			"name": "Handcannon MK III",
+			"source": "TftJC",
+			"type": "Invention",
+			"entries": [
+				"<i><b>Complex Invention.</i></b>",
+				"This miniature cannon can be wielded effectively with two hands, like a heavy crossbow. Proficiency in the Heavy Crossbow allows you to add your proficiency bonus with this weapon. It uses small cannonballs as ammunition, 10 of which can be bought for 5gp.",
+				"The wielder can ignite the fuse on the end of the cannon and fire it. Make a ranged attack roll (range 120ft, with no long range). It travels in that line until it hits a creature's AC, or it reaches the end of its range. A Creature hit by this attack takes 4d10 + DEX Bludgeoning Damage.",
+				"It requires forgoing 2 Attacks by the wielder to Reload. If the wielder has the Crossbow Master Feat, this is lowered to 1. Additionally, the wielder can use a Bonus Action to progress the reload of this weapon by 1. Minimum 1 attacks required to reload the cannon."
+			]
+		},
+		{
+			"name": "The Bunker Buster",
+			"source": "TftJC",
+			"type": "Invention",
+			"entries": [
+				"<i><b>Groundbreaking Invention.</i></b>",
+				"This 5ft x 5ft sphere contains enough firepower in it to level a town.  It weighs 75lbs and has large metal handles on the sides for easier carrying. It has an AC of 20, 100 hit points (immune to psychic/necrotic/poison, resist non-magical weapon damage). If its hit points drop to 0 it begins detonation (this does not expose the core, meaning it cannot be disarmed).",
+				"<i><b>Detonation:</i></b>",
+				"As an Action, a creature next to it can make a DC 15 Tinkers Tools check with INT to prepare it for detonation. The Bunker Buster then opens up to reveal a large core charged with arcane energy. Attacking the core in this state with a melee weapon that deals 20+ damage causes it to immediately detonate (AC 15, retaining same resistances and immunities). Otherwise, the core will detonate in 1 minute after the Detonation procedure begins.",
+				"<i><b>Explosion:</i></b>",
+				"When the core explodes, it emits a shockwave in a 300ft radius. Creatures must make a DC 19 Dexterity Saving Throw or take 25d8 Force Damage. Creatures within 100ft of it that are not behind full cover automatically fail the saving throw. The damage dealt by this explosion is doubled against structures. If a creature is reduced to 0 hit points by this damage, for every 40 damage over their current hit points they took by this explosion causes them to fail 1 death saving throw (normal rules for death saving throws still apply). Creatures that die to this damage are turned to ash.",
+				"<i><b>Disarming:</i></b>",
+				"While the core is exposed, a creature can use an Action to attempt to disarm it. They must make 3 successful DC 20 Tinkers Tools check with INT. Failing this check causes the bomb's timer to speed up by 1d6 rounds (rolled by the DM and kept private)."
 			]
 		}
 	],
