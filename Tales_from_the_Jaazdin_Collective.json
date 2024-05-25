@@ -1069,7 +1069,7 @@
 				}
 			],
 			"entries": [
-				"As a reaction to taking damage from a melee weapon attack, you strike back at your foe with magical force. You gain resistance to that attacks damage, and then the attacker must make a Wisdom Saving Throw. On a fail, they take force damage equal to the damage you would have taken before resistances were applied, or half as much on a successful save."
+				"As a reaction to taking damage from a melee weapon attack, you strike back at your foe with magical force. You gain resistance to that attacks damage and the attacker then takes force damage equal to the damage you took, and then the attacker must make a Strength Saving Throw. On a fail, they are pushed back 15ft."
 			],
 			"classes": {
 				"fromClassList": [
@@ -5631,7 +5631,7 @@
 		{
 			"name": "Angelic Armsmaster",
 			"source": "TftJC",
-			"page": 23,
+			"page": 24,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"shortName": "Angelic Armsmaster",
@@ -5646,7 +5646,7 @@
 		{
 			"name": "Desertstrider",
 			"source": "TftJC",
-			"page": 24,
+			"page": 25,
 			"className": "Fighter",
 			"classSource": "PHB",
 			"shortName": "Desertstrider",
@@ -5662,7 +5662,7 @@
 		{
 			"name": "Way of the Four Elements 2.0",
 			"source": "TftJC",
-			"page": 25,
+			"page": 26,
 			"className": "Monk",
 			"classSource": "PHB",
 			"shortName": "Four Elements 2.0",
@@ -5689,7 +5689,7 @@
 		{
 			"name": "Way of the Spirit",
 			"source": "TftJC",
-			"page": 27,
+			"page": 28,
 			"className": "Monk",
 			"classSource": "PHB",
 			"shortName": "Spirit",
@@ -5703,7 +5703,7 @@
 		{
 			"name": "Oath of Divine Justice",
 			"source": "TftJC",
-			"page": 28,
+			"page": 29,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"shortName": "Divine Justice",
@@ -5717,7 +5717,7 @@
 		{
 			"name": "Oath of Liberation",
 			"source": "TftJC",
-			"page": 29,
+			"page": 30,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"shortName": "Liberation",
@@ -5731,7 +5731,7 @@
 		{
 			"name": "Oath of the Masked Rider",
 			"source": "TftJC",
-			"page": 30,
+			"page": 31,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"shortName": "Masked Rider",
@@ -5745,7 +5745,7 @@
 		{
 			"name": "Oath of the Slayer",
 			"source": "TftJC",
-			"page": 31,
+			"page": 32,
 			"className": "Paladin",
 			"classSource": "PHB",
 			"shortName": "Slayer",
@@ -5759,7 +5759,7 @@
 		{
 			"name": "Survivor Conclave",
 			"source": "TftJC",
-			"page": 33,
+			"page": 34,
 			"className": "Ranger",
 			"classSource": "PHB",
 			"shortName": "Survivor",
@@ -5774,7 +5774,7 @@
 		{
 			"name": "Wayward Conclave",
 			"source": "TftJC",
-			"page": 33,
+			"page": 35,
 			"className": "Ranger",
 			"classSource": "PHB",
 			"shortName": "Wayward",
@@ -7392,6 +7392,10 @@
 				},
 				{
 					"type": "refSubclassFeature",
+					"subclassFeature": "Construct Creation|Druid|PHB|Iron Heretic|TftJC|2"
+				},
+				{
+					"type": "refSubclassFeature",
 					"subclassFeature": "Metallic Carapace|Druid|PHB|Iron Heretic|TftJC|2"
 				}
 			]
@@ -7452,6 +7456,18 @@
 			]
 		},
 		{
+			"name": "Construct Creation",
+			"source": "TftJC",
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Iron Heretic",
+			"subclassSource": "TftJC",
+			"level": 2,
+			"entries": [
+				"You can expend 2 uses of your Wild Shape to cast the Find Steed Spell. When you summon a steed in this way it is considered a Construct and gains the AC and all other benefits your armor provides you. It also gains the effects of Metal Carapace."
+			]
+		},
+		{
 			"name": "Metallic Carapace",
 			"source": "TftJC",
 			"className": "Druid",
@@ -7460,7 +7476,7 @@
 			"subclassSource": "TftJC",
 			"level": 2,
 			"entries": [
-				"At 2nd level, you gain the ability to make use of metal and shape it into natural shapes. As an action, while wearing metal armor, you can expend a use of your Wild Shape feature to shape both your body and the metal into a new form. You Wild Shape into a Beast as normal but your new form has the following difference: Your AC in your new form is equal to the AC of the armor you were wearing in your normal form.",
+				"At 2nd level, you gain the ability to make use of metal and shape it into natural shapes. As an action, while wearing metal armor, you can expend a use of your Wild Shape feature to shape both your body and the metal into a new form. You Wild Shape into a Beast as normal but your new form has the following difference: Your AC in your new form is equal to the AC of the armor you were wearing in your normal form, and you benefit from all additional effects granted by your armor.",
 				{
 					"type": "list",
 					"items": [
@@ -7501,7 +7517,7 @@
 			"subclassSource": "TftJC",
 			"level": 10,
 			"entries": [
-				"At 10th level, you gain the ability to breathe life into metal and grant it a bestial form. You learn the {@spell find greater steed|XGE} spell .When you summon the steed it is instead of type Construct and gains all the benefits of your Metal Carapace feature. Instead of applying your Beastial Metal to yourself, you can cause it to affect your steed from this feature instead."
+				"At 10th level, you gain the ability to breathe life into metal and grant it a bestial form. You can expend two uses of your Wild Shape to Cast Find Greater Steed. When you summon the steed it is instead of type Construct and gains all the benefits of your Metal Carapace feature. Instead of applying your Beastial Metal to yourself, you can cause it to affect your steed from this feature instead."
 			]
 		},
 		{
@@ -8685,7 +8701,7 @@
 			"subclassSource": "TftJC",
 			"level": 3,
 			"entries": [
-				"At 3rd level, your magic helps feed you and others. You learn Goodberry (it does not count against your spells known), and you can cast it a number of times per long rest equal to your Wisdom Modifier without expending a spell slot. When you cast goodberry in this way, it only creates a number of berries equal to your Proficiency Bonus. You can also consume a number of goodberries as a free action each turn equal to your proficiency bonus. If you eat a goodberry and your health is full, you instead gain temporary hit points equal to your Wisdom Modifier. Once on your turn, when you would make an attack and you currently have temporary hit points,you can remove all of them to have that attack deal an additional 1d6 of damage.",
+				"At 3rd level, your magic helps feed you and others. You learnGoodberry (it does not count against your spells known), and you can cast it without expending a spell slot once per Long Rest, but when cast this way you generate a number of berries equal to your Ranger Level. You can also consume a number of goodberries as a free action each turn equal to your proficiency bonus. If you eat a goodberry and your health is full, you instead gain temporary hit points equal to your Wisdom Modifier. Once on your turn, when you would make an attack and you currently have temporary hit points,you can remove all of them to have that attack deal an additional 1d6 of damage.",
 				"At 7th level, when you cast Goodberry in this way, one berry in the bunch becomes golden. A golden berry cures a disease or the poisoned condition affecting the creature of your choice.",
 				"At 11th level, a golden berry can remove a point of exhaustion instead.",
 				"A creature can only benefit from a golden goodberry once per day."
