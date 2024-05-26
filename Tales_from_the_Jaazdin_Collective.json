@@ -5785,6 +5785,38 @@
 				"A New Adventure Awaits|Ranger|PHB|Wayward|TftJC|11",
 				"Places to be|Ranger|PHB|Wayward|TftJC|15"
 			]
+		},
+		{
+			"name": "Ninjutsu",
+			"source": "TftJC",
+			"page": 35,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"shortName": "Ninjutsu",
+			"subclassFeatures": [
+				"Weapon Specialist|Rogue|PHB|Ninjutsu|TftJC|3",
+				"Fighting Style|Rogue|PHB|Ninjutsu|TftJC|3",
+				"Darkness Adaptation|Rogue|PHB|Ninjutsu|TftJC|3",
+				"Crafted Explosives|Rogue|PHB|Ninjutsu|TftJC|9",
+				"Death Mark|Rogue|PHB|Ninjutsu|TftJC|13",
+				"You Are Already Dead|Rogue|PHB|Ninjutsu|TftJC|17"
+			]
+		},
+		{
+			"name": "Gambler",
+			"source": "TftJC",
+			"page": 37,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"shortName": "Gambler",
+			"subclassFeatures": [
+				"Expanded Spell List|Sorcerer|PHB|Gambler|TftJC|1",
+				"Natural Cheat|Sorcerer|PHB|Gambler|TftJC|1",
+				"Game of Choice|Sorcerer|PHB|Gambler|TftJC|1",
+				"Unfair Advantage|Sorcerer|PHB|Gambler|TftJC|6",
+				"Rigged Game|Sorcerer|PHB|Gambler|TftJC|14",
+				"Just That Lucky|Sorcerer|PHB|Gambler|TftJC|18"
+			]
 		}
 	],
 	"subclassFeature": [
@@ -8891,6 +8923,302 @@
 			"level": 15,
 			"entries": [
 				"At 15th level, you can easily get to where ever you need to be in a battle. As a Bonus Action, you can teleport up to 150ft. Your next attack this turn has advantage. You can do this a number of times equal to your Proficiency Bonus per Long Rest."
+			]
+		},
+		{
+			"name": "Ninjustsu",
+			"source": "TftJC",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Ninjutsu",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"A branch into the days of old, practicians of the Art of Ninjutsu hone their skills and mind though rigourous training, day and night.",
+				"You have studied the ways of the Ninja. Your abilities of stealth and reconaissance are unparalleled. Whether it be in a clan of fellow Ninja or that of a lone warrior, nothing will stop you from completeing your mission",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Weapon Specialist|Rogue|PHB|Ninjutsu|TftJC|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fighting Style|Rogue|PHB|Ninjutsu|TftJC|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Darkness Adaptation|Rogue|PHB|Ninjutsu|TftJC|3"
+				}
+			]
+		},
+		{
+			"name": "Weapon Specialist",
+			"source": "TftJC",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Ninjutsu",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you can pull from a larger set of weapons compared to most Rogues. You gain proficiency in Martial Weapons. You also gain proficiency in two special weapons, the Katana and the Throwing Star.",
+				{
+					"type": "inset",
+					"name": "Katana",
+					"entries": [
+						"A Katana costs 30gp and has the following stat block: melee, reach 5ft, finesse, special, 1d8 slashing, versatile. It weights 2lbs."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Throwing Star",
+					"entries": [
+						"Throwing Stars cost 5sp for a group of 10 and has the following stat block: thrown, light, range 30/90, special, 1d4 piercing. They weight 0.25lbs.",
+						{
+							"type": "list",
+							"items": [
+								"After using a Throwing Star for your Attack Action, you can use your Bonus Action to throw an additional Star, provided you have another. You can hold up to three Stars in one hand at a time."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Fighting Style",
+			"source": "TftJC",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Ninjutsu",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you also adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.",
+				{
+					"type": "inset",
+					"name": "Archery",
+					"entries": [
+						"You gain a +2 bonus to attack rolls you make with ranged weapons."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Blind Fighting",
+					"entries": [
+						"You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in total darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Dueling",
+					"entries": [
+						"When you are wielding a melee weapon in one hand and on other weapon, you gain a +2 bonus to damage rolls with that weapon."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Thrown Weapon Fighting",
+					"entries": [
+						"You can draw a weapon that has the thrown property as part of the attack you make with the weapon. In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll."
+					]
+				}
+			]
+		},
+		{
+			"name": "Darkness Adaptation",
+			"source": "TftJC",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Ninjutsu",
+			"subclassSource": "TftJC",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you gain a darkvision of 60 ft. If you already have Darkvision, then it is instead increased by 30 ft. At 17th level, your Darkvision can see through Magical Darkness."
+			]
+		},
+		{
+			"name": "Crafted Explosives",
+			"source": "TftJC",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Ninjutsu",
+			"subclassSource": "TftJC",
+			"level": 9,
+			"entries": [
+				"At 9th level, you gain the ability to create explosives. You create a number of explosives equal to your Proficiency Bonus after completing a long rest. At that time, you select which explosives you would like to create. Explosives can only be used by you, and lose their potency after completing a Long rest. Using an Explosive requires an Action, but using it centred on yourself can be done with a Bonus Action",
+				{
+					"entries": [
+						{
+							"type": "inset",
+							"name": "Smoke Bomb",
+							"entries": [
+								"You cast the Fog Cloud spell within 120ft of you, requiring no concentration. It lasts for one minute. You can see through this Fog Cloud without negative penalties on the turn you cast it."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Flash Bomb",
+							"entries": [
+								"You throw a Flash Bomb at an area within 120 ft. All creatures within a 20 ft radius of the explosion must make a Constitution Saving Throw (DC = 8 + prof + INT) or be blinded for a number of rounds equal to your Proficiency Bonus. Creatures blinded by this can repeat the Constitution Saving Throw at the ends of their turn, removing the effect on a Successful Save. If you have a free hand when you throw the bomb, you can use it to guard your eyes, granting you advantage on the Saving Throw if you are within the radius"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Death Mark",
+			"source": "TftJC",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Ninjutsu",
+			"subclassSource": "TftJC",
+			"level": 13,
+			"entries": [
+				"At 13th level, you can mark your targets for death. After dealing damage to a creature with your Sneak Attack, you can Death Mark them. While Death Marked, you know where your target is at all times (even if they are behind full cover) so long as they are within a mile of you. Additionally, attacking a target that is Death Marked can apply Sneak Attack, even withoud advantage or a nearby ally. Only one creature can be Death Marked at a time."
+			]
+		},
+		{
+			"name": "You Are Already Dead",
+			"source": "TftJC",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Ninjutsu",
+			"subclassSource": "TftJC",
+			"level": 17,
+			"entries": [
+				"At 17th level, your strikes can leave a lasting affect on unsuspecting targets. Once per Long rest, as an Action, you can attack a creature that you have Death Marked. That attack is considered a Critcal Hit. That creature must make a Constitution Saving Throw (DC = 8 + prof + INT). On a fail, they take the maximum damage from your Sneak Attack dice.",
+				"The range of your Death Mark now covers the entire plane of existence you are on."
+			]
+		},
+		{
+			"name": "Expanded Spell List",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Gambler",
+			"subclassSource": "TftJC",
+			"level": 1,
+			"entries": [
+				"You learn additional spells when you reach certain levels in this class, as shown on the Gambler Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know.",
+				{
+					"type": "table",
+					"caption": "Gambler Expanded Spells",
+					"colLabels": [
+						"Spell Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"1st",
+							"deja vu, silvery barbs"
+						],
+						[
+							"2nd",
+							"enthrall, suggestion"
+						],
+						[
+							"3rd",
+							"feign death, nondetection"
+						],
+						[
+							"4th",
+							"divination, greater invisibility"
+						],
+						[
+							"5th",
+							"geas, mislead"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Natural Cheat",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Gambler",
+			"subclassSource": "TftJC",
+			"level": 1,
+			"entries": [
+				"Starting at 1st level, you gain proficiency in the Deception or Sleight of Hand, or another skill from the Sorcerer's skill list if you already have these proficiencies."
+			]
+		},
+		{
+			"name": "Game of Choice",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Gambler",
+			"subclassSource": "TftJC",
+			"level": 1,
+			"entries": [
+				"At 1st level, you become skilled in games. You gain proficiency in either cards, dice or dragon's chess. You can use game pieces from your selected game as an arcane focus. Additionally, based on your game selection, you gain an associated feature.",
+				{
+					"type": "list",
+					"items": [
+						"Blackjack (Cards).  Whenever you would roll a d20 for an attack roll, skill check or saving throw and after applying modifiers the result would be 21, you can immediately cast the Catapult Spell as a free action without requiring it known, prepared or without expending a spell slot. The object thrown must be a playing card",
+						"Weighted Die (Dice). Once per turn, whenever you would roll a d4, d6, d8, d10 or d12 as a part of a Sorcerer Spell of 1st level or higher, you can maximize the value on one of those die before the die is rolled.",
+						"Superior Strategist (Dragon's Chess). After casting a Divination, Enchantment or Illusion spell, you can immediately move a creature up to 10ft in a direction of your choice. If the creature is not willing, they must make a Strength Saving Throw against your Spell Save DC, and on a success are not moved."
+					]
+				}
+			]
+		},
+		{
+			"name": "Unfair Advantage",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Gambler",
+			"subclassSource": "TftJC",
+			"level": 6,
+			"entries": [
+				"At 6th level, you learn to intertwine your cheating magic with your Sorceror abilities. Whenever you would cast a Divination, Enchantment or Illusion spell that is bolstered by your Metamagic, you can use one of the below features",
+				{
+					"type": "list",
+					"items": [
+						"Read their Eyes. You cast the Detect Thoughts spell as a free action and without expending a spell slot. You cannot probe deeper into the target's mind.",
+						"Stack you Hand. You gain advantage on the next skill check you would make in the next minute.",
+						"Call it. Before the next time you would roll a d20 in the next minute, you can call its value. If you are correct, you gain a Luck point, as detailed in the Lucky feat. This point goes away after completing a long rest.",
+						"Counting Cards (Cards). Within the next minute, you can grant up to a +3 bonus on the next skill check, spell attack roll or saving throw you would make (after the die is rolled, but before its result is known), so long as the next check of that type (attack roll, saving throw, skill check) gains a penalty equal to the value you selected.",
+						"Low Roller (Dice). As a reaction to a creature rolling d4s, d6s, d8s, d10s or d12s within the next minute, you can have them reroll those die and take the lower value.",
+						"Calculated Gambit (Dragon's Chess). You move yourself 15ft directly closer to a hostile creature, then you have advantage on the next spell attack roll you make against them within this minute."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rigged Game",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Gambler",
+			"subclassSource": "TftJC",
+			"level": 14,
+			"entries": [
+				"At 14th level, you learn to efficiently rig any game in your favour. You gain expertise in your game proficiency selected with Game of Choice. Furthermore, you learn a new ability you can use as a part of Unfair Advantage.",
+				{
+					"type": "list",
+					"items": [
+						"Rig the Game. The next time within the minute you or another creature would roll d4s, d6s, d8s, d10s or d12s, before the roll, you can change a number of those die up to your Proficiency Bonus into 1s or their maximum value."
+					]
+				}
+			]
+		},
+		{
+			"name": "Just That Lucky",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Gambler",
+			"subclassSource": "TftJC",
+			"level": 18,
+			"entries": [
+				"At 18th level, your ability to influence luck is at its peak. As an Action, you can pull forth all of your magical power and transform it into pure Luck. For the next minute, you cannot gain disadvantage from any source and each time you would roll with advantage you can select a creature you can see within 120ft of you, they have disadvantage on the next saving throw they would make in the next minute. This effect can stack.",
+				"Once you use this feature, you cannot do so again until you complete a long rest, unless you spend 5 sorcery points to use it again."
 			]
 		}
 	]
