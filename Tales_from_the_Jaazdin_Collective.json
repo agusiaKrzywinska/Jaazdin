@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1716859915
+		"dateLastModified": 1716933820
 	},
 	"spell": [
 		{
@@ -6253,6 +6253,36 @@
 				"Larger Arsenal|Warlock|PHB|Fleshwarper|TftJC|10",
 				"Dual Wield|Warlock|PHB|Fleshwarper|TftJC|14"
 			]
+		},
+		{
+			"name": "Dark Arts",
+			"source": "TftJC",
+			"page": 47,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"shortName": "Dark Arts",
+			"subclassFeatures": [
+				"The Forbidden Spell|Wizard|PHB|Dark Arts|TftJC|2",
+				"Ancient Knowledge|Wizard|PHB|Dark Arts|TftJC|2",
+				"Forbidden Spell Versatility|Wizard|PHB|Dark Arts|TftJC|6",
+				"Favoured Arcana|Wizard|PHB|Dark Arts|TftJC|10",
+				"Unleashed|Wizard|PHB|Dark Arts|TftJC|14"
+			]
+		},
+		{
+			"name": "Spellthief",
+			"source": "TftJC",
+			"page": 49,
+			"className": "Wizard",
+			"classSource": "PHB",
+			"shortName": "Spellthief",
+			"subclassFeatures": [
+				"Shorthand Spells|Wizard|PHB|Spellthief|TftJC|2",
+				"Spellthief's Skills|Wizard|PHB|Spellthief|TftJC|2",
+				"Silent Hands|Wizard|PHB|Spellthief|TftJC|6",
+				"Quick Copying|Wizard|PHB|Spellthief|TftJC|10",
+				"Personalized Notes|Wizard|PHB|Spellthief|TftJC|14"
+			]
 		}
 	],
 	"subclassFeature": [
@@ -10507,6 +10537,192 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "The Forbidden Spell",
+			"source": "TftJC",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Dark Arts",
+			"subclassSource": "TftJC",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you gain knowledge of an ancient spell. The Forbidden Spell is added to your spellbook, is always prepared for you and does not count against your prepared number of spells. You cannot create spell scrolls of this spell, nor can another Wizard copy this spell from your spellbook."
+				
+			]
+		},
+		{
+			"name": "Ancient Knowledge",
+			"source": "TftJC",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Dark Arts",
+			"subclassSource": "TftJC",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you have acquired once forgotten knowledge. You gain proficiency in the History skill, and whenever you make a history check relating to magic, you can add 1d4 to the roll."
+			]
+		},
+		{
+			"name": "Forbidden Spell Versatility",
+			"source": "TftJC",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Dark Arts",
+			"subclassSource": "TftJC",
+			"level": 6,
+			"entries": [
+				"At 6th level, you learn more ways to utilize the Forbidden Spell. You gain access to two Forbidden Arcana. You gain more Forbidden Arcana as you progress in this class. Each time you take a level in this class, you can replace up to one Forbidden Arcana with another available. You can only learn Forbidden Arcana within your tier, which is determined by your level in this class. Each time you cast The Forbidden Spell, you can select a number of Forbidden Arcana to apply to that spell up to the spell level -1.",
+				{
+					"type": "table",
+					"caption": "Forbidden Arcana Scaling",
+					"colLabels": [
+						"Level",
+						"Forbidden Arcana Known",
+						"Tier"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- ",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"6",
+							"3",
+							"1"
+						],
+						[
+							"8",
+							"5",
+							"1"
+						],
+						[
+							"10",
+							"7",
+							"2"
+						],
+						[
+							"12",
+							"9",
+							"2"
+						],
+						[
+							"14",
+							"11",
+							"2"
+						],
+						[
+							"16",
+							"13",
+							"3"
+						],
+						[
+							"18",
+							"15",
+							"3"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Favoured Arcana",
+			"source": "TftJC",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Dark Arts",
+			"subclassSource": "TftJC",
+			"level": 10,
+			"entries": [
+				"At 10th level, you become adept in using your favourite Forbidden Arcana. Select one Tier 1 Forbidden Arcana you know, it is now applied each time you cast The Forbidden Spell without it using one of your Forbidden Arcana slots. Whenever you take another level in this class, you may change your Favourite Arcana."
+			]
+		},
+		{
+			"name": "Unleashed",
+			"source": "TftJC",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Dark Arts",
+			"subclassSource": "TftJC",
+			"level": 14,
+			"entries": [
+				"At 14th level, The Forbidden Spell becomes unstable. Once per long rest, when you cast The Forbidden Spell, you can apply as many Forbidden Arcanas that you know as you wish to it."
+			]
+		},
+		{
+			"name": "Shorthand Spells",
+			"source": "TftJC",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Spellthief",
+			"subclassSource": "TftJC",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you become a savant in copying spells on the fly. Whenever you copy a spell into your spellbook, you can choose to write it in shorthand. Doing so only takes you 6 seconds per level of spell, and 1/10th of the cost. You cannot create a spellscroll from shorthand, nor can anyone copy down a spell from shorthand. A shorthand spell, can only exist once at a time in your spellbook, meaning you can not have 2 or more separate instances of the spell in your book. A shorthand spell can only be cast a number of times equal to your Intelligence Modifier (minimum 1), after which it disappears from your book.",
+				"If you have a shorthand spell in your book, you can spend the remaining time and gold required to write the spell to have it added to your spellbook fully.",
+				"Whenever you cast the last use of a shorthand spell, its spell level is treated to be upcasted by one level."
+			]
+		},
+		{
+			"name": "Spellthief's Skills",
+			"source": "TftJC",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Spellthief",
+			"subclassSource": "TftJC",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you gain proficiency in skills related to your craft. You gain Proficiency in Thieves' Tools, and you additionally gain proficiency in one of the following skills: Deception, Stealth, Sleight of Hand. You can also add your Intelligence modifier to Dexterity based skill checks in which you are proficient."
+			]
+		},
+		{
+			"name": "Silent Hands",
+			"source": "TftJC",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Spellthief",
+			"subclassSource": "TftJC",
+			"level": 6,
+			"entries": [
+				"At 6th level, you add the Invisiblity spell into your Spellbook, which is then always prepared. If you already have this spell, you may choose another 2nd level spell. Whenever you cast Invisibility, you can choose to be completely silent, along with all actions you perform while you are maintaining concentration.",
+				"You can also take the Hide action as a Bonus Action."
+			]
+		},
+		{
+			"name": "Quick Copying",
+			"source": "TftJC",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Spellthief",
+			"subclassSource": "TftJC",
+			"level": 10,
+			"entries": [
+				"At 10th level, as a Reaction to seeing a Spell being cast, you can immediately shorthand it into your book. A spell shorthanded this way automatically becomes prepared and doesn't count against your number of prepared spells, but only has one charge to be cast. A spell shorthanded this way does not benefit from Final Cast. You still have to pay the gold cost. You can do this a number of times equal to your Proficiency Bonus per long rest.",
+				"If you already have that spell shorthanded, you instead gain an additional casting of the spell. When you finish a Long Rest, you lose any charges of shorthand spells granted by Quick Copying."
+			]
+		},
+		{
+			"name": "Personalized Notes",
+			"source": "TftJC",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Spellthief",
+			"subclassSource": "TftJC",
+			"level": 14,
+			"entries": [
+				"At 14th level, you can tie in your own creativity into your shorthand. Whenever you use the Final Cast of a shorthand spell, you can apply one effect of your choice to the spell. The effect you pick must be able to affect the spell correctly",
+				{
+					"type": "list",
+					"items": [
+						"You can increase the level of the spell by one spell slot level.",
+						"You can impose disadvantage on the Saving Throw.",
+						"You have advantage on the spell attack roll",
+						"The duration of the spell is doubled."
+					]
+				}
+			]
 		}
+
 	]
 }
