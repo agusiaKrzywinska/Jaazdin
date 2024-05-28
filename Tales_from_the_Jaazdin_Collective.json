@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1716855854
+		"dateLastModified": 1716859639
 	},
 	"spell": [
 		{
@@ -5574,6 +5574,164 @@
 			"entries": [
 				"You’ve learned to fight by leading the charge and inspiring your allies. While allies are within 30 feet of you and you succeed on a saving throw or score a critical hit you can grant a number of allies equal to your proficiency bonus temporary hit points equal to your proficiency modifier + your Charisma modifier."
 			]
+		},
+		{
+			"name": "Teamwork in Servitude",
+			"prerequisite": [
+				{
+					"feature": [
+						"Pact of the Chain","Master Warlock"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 43,
+			"featureType": [
+				"EI"
+			],
+			"entries": [
+				"Your minion, familiar, and any creatures summoned through the use of a conjuration spell gain the Pact Tactics feature but only in relation to each other and you."
+			]
+		},
+		{
+			"name": "Shared Comprehension",
+			"prerequisite": [
+				{
+					"feature": [
+						"Pact of the Tome","Master Warlock"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 43,
+			"featureType": [
+				"EI"
+			],
+			"entries": [
+				"Your minion can cast the cantrips you have in your Book of Shadows. If you gain the ability to cast rituals your minion can also cast those rituals and together you can both cast the same ritual to lower the time it takes to complete by half."
+			]
+		},
+		{
+			"name": "Blade Guard",
+			"prerequisite": [
+				{
+					"feature": [
+						"Pact of the Blade","Master Warlock"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 43,
+			"featureType": [
+				"EI"
+			],
+			"entries": [
+				"You and your minion can cast warding bond once per long rest. When you cast it using this evocation the target must be either the minion or master and you do not need to provide the material component."
+			]
+		},
+		{
+			"name": "Leader's Venir",
+			"prerequisite": [
+				{
+					"feature": [
+						"Master Warlock"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 43,
+			"featureType": [
+				"EI"
+			],
+			"entries": [
+				"Your minion’s attacks become magical for the purposes of overcoming damage resistance and deal additional damage equal to your Charisma modifier if you have hit the target this turn."
+			]
+		},
+		{
+			"name": "Otherworldly Summons",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Warlock"
+						}
+					}
+				}
+			],
+			"source": "TftJC",
+			"page": 43,
+			"featureType": [
+				"EI"
+			],
+			"entries": [
+				"You can cast summon celestial using a warlock spell slot. Once you do so you can’t cast the spell again until you finish a long rest. While the celestial is summoned, creatures of your choice within 10 feet of it gains +1 to all saving throws."
+			]
+		},
+		{
+			"name": "Umbral Armour",
+			"prerequisite": [
+			],
+			"source": "TftJC",
+			"page": 44,
+			"featureType": [
+				"EI"
+			],
+			"entries": [
+				"When you begin combat while wearing medium armour you gain 1d4 + Charisma modifier temporary hit points. This bonus increases to 1d6 at 9th level, 1d8 at 13th,1d10 at 17th level, and 1d12 at 20th level."
+			]
+		},
+		{
+			"name": "Gift of Darkness",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock"
+						}
+					}
+				},
+				{
+					"feature":[
+						"Shadowsworn Warlock"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 44,
+			"featureType": [
+				"EI"
+			],
+			"entries": [
+				"You learn the darkvision spell and can cast it once per day without expending a spell slot. In addition, when cast in this way the darkvision granted by the spell allows the target to see through magical darkness."
+			]
+		},
+		{
+			"name": "Door of Shadow",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Warlock"
+						}
+					}
+				},
+				{
+					"feature":[
+						"Shadowsworn Warlock"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 44,
+			"featureType": [
+				"EI"
+			],
+			"entries": [
+				"You may cast the dimension door spell once per day without expending a spell slot."
+			]
 		}
 	],
 	"subclass": [
@@ -6052,6 +6210,52 @@
 				"Extra Attack|Sorcerer|PHB|Runebound|TftJC|6",
 				"Magical Siphon|Sorcerer|PHB|Runebound|TftJC|14",
 				"Runes of Power|Sorcerer|PHB|Runebound|TftJC|18"
+			]
+		},
+		{
+			"name": "The Master",
+			"source": "TftJC",
+			"page": 41,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"shortName": "Master",
+			"subclassFeatures": [
+				"Expanded Spell List|Warlock|PHB|Master|TftJC|1",
+				"Master of Minions|Warlock|PHB|Master|TftJC|1",
+				"Patron's Bond|Warlock|PHB|Master|TftJC|6",
+				"Blood of the God|Warlock|PHB|Master|TftJC|10",
+				"Might of the Master|Warlock|PHB|Master|TftJC|14"
+			]
+		},
+		{
+			"name": "Shadowsworn",
+			"source": "TftJC",
+			"page": 44,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"shortName": "Shadow",
+			"subclassFeatures": [
+				"Expanded Spell List|Warlock|PHB|Shadow|TftJC|1",
+				"Gifted Prowess|Warlock|PHB|Shadow|TftJC|1",
+				"Sweep the Darkness|Warlock|PHB|Shadow|TftJC|1",
+				"Shadow's Edge|Warlock|PHB|Shadow|TftJC|6",
+				"Stepping Umbra|Warlock|PHB|Shadow|TftJC|10",
+				"Eclipse Soul|Warlock|PHB|Shadow|TftJC|14"
+			]
+		},
+		{
+			"name": "The Fleshwarper",
+			"source": "TftJC",
+			"page": 45,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"shortName": "Fleshwarper",
+			"subclassFeatures": [
+				"Expanded Spell List|Warlock|PHB|Fleshwarper|TftJC|1",
+				"The Cost of the Fleshwarper|Warlock|PHB|Fleshwarper|TftJC|1",
+				"Bodily Enhancements|Warlock|PHB|Fleshwarper|TftJC|6",
+				"Larger Arsenal|Warlock|PHB|Fleshwarper|TftJC|10",
+				"Dual Wield|Warlock|PHB|Fleshwarper|TftJC|14"
 			]
 		}
 	],
@@ -9869,6 +10073,443 @@
 			"level": 18,
 			"entries": [
 				"At 18th level, your runes have grown to cover large areas of your body. If you are concentrating on a spell and cast another spell that requires concentration you can spend 3 sorcery points to store the second spell in your runes, allowing you to concentrate on both at once. When you take damage you must make a saving throw for both spells and the DC increases for both by an amount equal to the highest spell level you are concentrating on. Each round you must spend one sorcery point to continue concentrating on the spells, if you cannot or do not spend a sorcery point one spell of your choice ends. You can only ever concentrate on two spells at once."
+			]
+		},
+		{
+			"name": "Expanded Spell List",
+			"source": "TftJC",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Master",
+			"subclassSource": "TftJC",
+			"level": 1,
+			"entries": [
+				"Master lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+				{
+					"type": "table",
+					"caption": "Master Expanded Spells",
+					"colLabels": [
+						"Spell Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"1st",
+							"shield of faith, sanctuary"
+						],
+						[
+							"2nd",
+							"summon beast, find steed"
+						],
+						[
+							"3rd",
+							"tiny servent, spirit guardians"
+						],
+						[
+							"4th",
+							"summon construct, summon elemental"
+						],
+						[
+							"5th",
+							"conjure elemental, find greater steed"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Master of Minions",
+			"source": "TftJC",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Master",
+			"subclassSource": "TftJC",
+			"level": 1,
+			"entries": [
+				"At 1st level, one of the creatures devoted to you has found you and dedicated itself to your service. Your minion takes the shape of a small humanoid, beast, elemental, or monstrosity with the following stat block which increases with your level.",
+				"When you summon a minion or get one for the first time assign its abilities scores using the values below: 16, 14, 10,10, 8, 4.",
+				"The minion obeys your general commands as best it can. It takes its turn on your initiative. On your turn, you can verbally command your minion where to move (no action required by you). You can use a bonus action to command it to take the Attack, Dash, Disengage, Help, or Cast A Spell actions. If you don’t issue a command the minion takes the dodge action and will try to get within 10 feet of you.",
+				"When you choose a Pact at 3rd level your minion is transformed to better suit your new found skills:",
+				{
+					"type": "inset",
+					"name": "Pact of the Blade",
+					"entries": [
+						"Your minion gains the Blade action."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Pact of the Tome",
+					"entries": [
+						"Your minion learns one 1st and 2nd level spell from the Warlock spell list. They can cast each of these spells once per long rest."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Pact of the Chain",
+					"entries": [
+						"Your minion now fights better on its own. It loses the Unfocused Follower feature and gains the Bolstered Follower feature."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Pact of the Talisman",
+					"entries": [
+						"Anyone holding your talisman is counted as the master of the minion for the purposes of this class’s features."
+					]
+				},
+				"The minion won’t obey commands that put it in obvious danger, such as jumping off a cliff or walking into a fire. However, you can choose to push a command making a Persuasion or Intimidation check. The DC for this check is equal to 25 - your levels in this class.",
+				"If your minion dies, you can summon forth a new one by spending 8 hours in a magical ritual, the new minion must be of the creature type you chose when you took this class. If you don’t summon a new minion within 7 days a new one will magically find you."
+			]
+		},
+		{
+			"name": "Patron's Bond",
+			"source": "TftJC",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Master",
+			"subclassSource": "TftJC",
+			"level": 6,
+			"entries": [
+				"At 6th level, the bond between you and your minion is strengthened to the point where you can share magical effects. When you heal hit points through the casting of a spell your minion regains an equal amount and vice versa. Likewise when you cast a spell that targets only self, it affects your minion as well if they are within 30 feet when you cast it.",
+				"Your minion can become medium and any future minions you summon can be medium as well."
+			]
+		},
+		{
+			"name": "Blood of the God",
+			"source": "TftJC",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Master",
+			"subclassSource": "TftJC",
+			"level": 10,
+			"entries": [
+				"At 10th level, you can sacrifice your minion to save your own life. When you fail a death saving throw and your minion is within 60 feet of you they can use their reaction to sacrifice themselves and save you. You do not fail the death save and instead regain a number of hit points equal to your Warlock level, your minion immediately dies.",
+				"In addition, your minion gains a benefit based on its type:",
+				{
+					"type": "inset",
+					"name": "Pact of the Blade",
+					"entries": [
+						"While your minion is within 10 feet of you both gain a +1 bonus to AC and saving throws."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Pact of the Tome",
+					"entries": [
+						"Your minion gains a 3rd and 4th level spell from the Warlock spell list, they can cast these once per long rest"
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Pact of the Chain",
+					"entries": [
+						"When your minion makes an attack they can attack twice instead of once."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Pact of the Talisman",
+					"entries": [
+						"Your minion gains the ability to use the Help action with a range of 30 feet. In addition, when it uses its action to help its master the master can add 1d4 extra to the roll."
+					]
+				}
+			]
+		},
+		{
+			"name": "Might of the Master",
+			"source": "TftJC",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Master",
+			"subclassSource": "TftJC",
+			"level": 14,
+			"entries": [
+				"At 14th level, your minion's power is permanently linked with yours. When you are affected by a spell you can choose to share the effect with your minion as long as it is within 30 feet of you. Also when you fail a saving throw against a negative effect from a spell, such as hold person, and your minion is within 30 feet both you and your minion can use your reactions to have the spell take effect on your minion instead.",
+				"Your minion can become large and any future minions canbe large as well."
+			]
+		},
+		{
+			"name": "Expanded Spell List",
+			"source": "TftJC",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Shadow",
+			"subclassSource": "TftJC",
+			"level": 1,
+			"entries": [
+				"Shadowsworn lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+				{
+					"type": "table",
+					"caption": "Shadowsworn Expanded Spells",
+					"colLabels": [
+						"Spell Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"1st",
+							"last light, inflict wounds"
+						],
+						[
+							"2nd",
+							"blur, silence"
+						],
+						[
+							"3rd",
+							"bestow curse, life transference"
+						],
+						[
+							"4th",
+							"black tentacles, death ward"
+						],
+						[
+							"5th",
+							"antilife shell, steel wind strike"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Gifted Prowess",
+			"source": "TftJC",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Shadow",
+			"subclassSource": "TftJC",
+			"level": 1,
+			"entries": [
+				"At 1st level, you gain the ability to use shortsword, longswords, scimitars, and medium armor."
+			]
+		},
+		{
+			"name": "Sweep the Darkness",
+			"source": "TftJC",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Shadow",
+			"subclassSource": "TftJC",
+			"level": 1,
+			"entries": [
+				"Starting at 1st level, your patron bestows upon you the power to control light and darkness. You gain the light cantrip. In addition, as an action you can target any number of light sources within 30 feet of you. If they are fires or other natural sources of light they are extinguished. If they are magical sources and if their spell level is less than 1/3 of your current total level, they are dispelled."
+			]
+		},
+		{
+			"name": "Shadow's Edge",
+			"source": "TftJC",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Shadow",
+			"subclassSource": "TftJC",
+			"level": 6,
+			"entries": [
+				"Starting at 6th level, you can dodge death for a short while. When you are reduced to 0 hit points you are instead reduced to a dark shadowy form. This form has the same effect as the spell gaseous form except you are immune to all damage except radiant. If you take any damage in this form you fail 1 death saving throw. At the end of your next turn you revert to your normal form regaining hit points equal to 1 + your warlock level. Once you use this feature you cannot use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Stepping Umbra",
+			"source": "TftJC",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Shadow",
+			"subclassSource": "TftJC",
+			"level": 10,
+			"entries": [
+				"Beginning at 10th level, whenever you hit a creature with a melee attack you can use your bonus action to teleport up to 30ft to a point you can see within range. In addition, when you are struck by a ranged attack or spell you can teleport up to 30ft to a point you can see within range. After using this feature, you become resistant to all non-magical damage until the start of your next turn. You can use this feature a number of times equal to your Charisma modifier. You regain all uses on a short rest."
+			]
+		},
+		{
+			"name": "Eclipse Soul",
+			"source": "TftJC",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Shadow",
+			"subclassSource": "TftJC",
+			"level": 14,
+			"entries": [
+				"Starting at 14th level, you can use your action to burn necrotic and radiant energies within your own body. When you activate this ability, you take damage equal to your level in this class, this damage cannot be reduced in any way, and for the next minute you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have resistance to necrotic and radiant damage.",
+						"Whenever you deal damage with a spell or attack you deal additional radiant or necrotic damage equal to your Charisma modifier. This damage can only apply to one damage roll per spell or attack.",
+						"Creatures that hit you with melee attacks take 1d8 necrotic or radiant damage.",
+						"The range of your Stepping Umbra ability is doubled to 60 and during the duration of this ability it does not consume uses."
+					]
+				}
+			]
+		},
+		{
+			"name": "Expanded Spell List",
+			"source": "TftJC",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Fleshwarper",
+			"subclassSource": "TftJC",
+			"level": 1,
+			"entries": [
+				"The Fleshwarper lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+				{
+					"type": "table",
+					"caption": "Fleshwarper Expanded Spells",
+					"colLabels": [
+						"Spell Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"1st",
+							"absorb elements, zephyr strike"
+						],
+						[
+							"2nd",
+							"alter self, spiritual weapon"
+						],
+						[
+							"3rd",
+							"elemental weapon, haste"
+						],
+						[
+							"4th",
+							"evard's black tentacles, stoneskin"
+						],
+						[
+							"5th",
+							"bigby's hand, mislead"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "The Cost of the Fleshwarper",
+			"source": "TftJC",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Fleshwarper",
+			"subclassSource": "TftJC",
+			"level": 1,
+			"entries": [
+				"At 1st level, your Patron demands more from you than the average Warlock. You lose an arm, and cannot have it replaced nor regrown. As a Bonus Action, you can pull from your Patron's well of power, summoning a magical weapon in place of your missing arm, in which you are always proficient. All summoned weapons use your Charisma to calculate to-hit and damage bonuses. You decide which weapon you summon from a list below. You cannot be disarmed or drop conjured weapons, nor can you wear Medium or Heavy armor while a weapon is conjured. Any weapon you conjure can be selected for the 'Pact of the Blade' feature.",
+				{
+					"type": "inset",
+					"name": "Blade",
+					"entries": [
+						"You conjure a Blade in place of your arm. It deals 1d10 Slashing damage. Your walking speed increases by 10 feet while the Blade is active. While in Blade form, you subtract 1d4 from Concentration checks."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Cannon",
+					"entries": [
+						"You conjure a Cannon. This acts as an Arcane Focus. Whenever you cast a Cantrip, you can increase its damage. It deals an additional die of damage, or for Eldritch Blast, gains another beam. Doing so knocks you back 10 feet. You cannot cast the same cantrip next turn. You have disadvantage on Strength checks and Saving Throws."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Shield",
+					"entries": [
+						"You conjure a Shield in place of your arm. Your walking speed decreases by 10 feet. You provide half of the AC bonus from this shield to creatures of your choice within 10 feet of you. Furthermore, you have advantage on saving throws made to maintain Concentration."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bodily Enhancements",
+			"source": "TftJC",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Fleshwarper",
+			"subclassSource": "TftJC",
+			"level": 6,
+			"entries": [
+				"At 6th level, your body is more accustomed to transforming. You gain resistance to Necrotic Damage, but this resistance is lost while a weapon is conjured. Furthermore, your weapons are stronger.",
+				{
+					"type": "inset",
+					"name": "Blade",
+					"entries": [
+						"Your walking speed whilst the Blade is summoned is now increased by 15 feet. You gain a climbing speed equal to your walking speed, and you can take the Dash action as a Bonus action"
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Cannon",
+					"entries": [
+						"If you damage a creature with a Cantrip, you have advantage on the next different cantrip attack you make against them. This bonus is lost after 1 minute."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Shield",
+					"entries": [
+						"You gain a +2 bonus to your Armor Class provided by your Shield, and you can add the Armor Class Bonus from this shield to Dexterity Saving throws."
+					]
+				}
+			]
+		},
+		{
+			"name": "Larger Arsenal",
+			"source": "TftJC",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Fleshwarper",
+			"subclassSource": "TftJC",
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain access to more weapons. Additionally, you gain the ability to incorporate magical weapons into your conjured weapons. Whenever you attune to a magical sword, shield, bow or heavy weapon, it can be absorbed into your body. Unattuning from an absorbed weapon makes it reappear in an unoccupied space next to you. Your conjured Blade, Shield, Bow and Hammer can take on properties from magical swords, shields, bows and two handed heavy weapons, respectively. When conjured, they gain any bonuses the magical weapon provides, like a +1 to hit and damage rolls, new damage types, spells they can cast, etc. They retain their original damage die, and cannot gain the versatile property.",
+				{
+					"type": "inset",
+					"name": "Bow",
+					"entries": [
+						"You conjure a massive bow that doesn't require two hands to shoot. You can make a ranged weapon attack while the Bow is conjured. It deals 3d8 Piercing damage, and has a range of 600 feet."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Energy",
+					"entries": [
+						"Your conjure an arm made of unstable energy. This acts as an Arcane Focus. Whenever you cast a spell that forces a creature to make a Saving throw, you can roll 1d6. If the number rolled is equal to or higher than the level of spell you are casting, the creature making the saving throw has disadvantage."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Hammer",
+					"entries": [
+						"You conjure a massive Bludgeoning weapon. Your walking speed is lowered by 10 feet. It only requires your Conjured arm to lift and wield effectively. It deals 3d6 Bludgeoning damage. You have resistance to Piercing, Bludgeoning and Slashing damage"
+					]
+				}
+			]
+		},
+		{
+			"name": "Dual Wield",
+			"source": "TftJC",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Fleshwarper",
+			"subclassSource": "TftJC",
+			"level": 14,
+			"entries": [
+				"At 14th level, when you conjure a Weapon, you can replace your other arm with a different weapon than the first conjured. Conjuring multiple weapons is a painful process, and thus gives a point of Exhaustion once the weapons are dismissed. You also gain one final form to conjure.",
+				{
+					"type": "inset",
+					"name": "Dark Flesh",
+					"entries": [
+						"You create an arm. While conjured, you retain your resistance to Necrotic Damage from your Bodily Enhancements feature. Furthermore, you have advantage on Death Saving Throws. This form can remain conjured for up to 8 hours."
+					]
+				}
 			]
 		}
 	]
