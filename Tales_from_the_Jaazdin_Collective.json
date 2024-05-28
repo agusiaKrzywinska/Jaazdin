@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1716859639
+		"dateLastModified": 1716859915
 	},
 	"spell": [
 		{
@@ -5580,7 +5580,7 @@
 			"prerequisite": [
 				{
 					"feature": [
-						"Pact of the Chain","Master Warlock"
+						"Pact of the Chain and Master Warlock"
 					]
 				}
 			],
@@ -5598,7 +5598,7 @@
 			"prerequisite": [
 				{
 					"feature": [
-						"Pact of the Tome","Master Warlock"
+						"Pact of the Tome and Master Warlock"
 					]
 				}
 			],
@@ -5616,7 +5616,7 @@
 			"prerequisite": [
 				{
 					"feature": [
-						"Pact of the Blade","Master Warlock"
+						"Pact of the Blade and Master Warlock"
 					]
 				}
 			],
@@ -5690,9 +5690,7 @@
 						"class": {
 							"name": "Warlock"
 						}
-					}
-				},
-				{
+					},
 					"feature":[
 						"Shadowsworn Warlock"
 					]
@@ -5716,12 +5714,10 @@
 						"class": {
 							"name": "Warlock"
 						}
-					}
-				},
-				{
-					"feature":[
-						"Shadowsworn Warlock"
-					]
+					},
+						"feature":[
+							"Shadowsworn Warlock"
+						]
 				}
 			],
 			"source": "TftJC",
