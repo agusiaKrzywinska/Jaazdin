@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1715910032
+		"dateLastModified": 1716855854
 	},
 	"spell": [
 		{
@@ -5817,6 +5817,53 @@
 				"Rigged Game|Sorcerer|PHB|Gambler|TftJC|14",
 				"Just That Lucky|Sorcerer|PHB|Gambler|TftJC|18"
 			]
+		},
+		{
+			"name": "Ironhide",
+			"source": "TftJC",
+			"page": 38,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"shortName": "Ironhide",
+			"subclassFeatures": [
+				"Expanded Spell List|Sorcerer|PHB|Ironhide|TftJC|1",
+				"Metallic Defenses|Sorcerer|PHB|Ironhide|TftJC|1",
+				"Magnetic Surge|Sorcerer|PHB|Ironhide|TftJC|1",
+				"Power Core|Sorcerer|PHB|Ironhide|TftJC|6",
+				"Magnetic Hover|Sorcerer|PHB|Ironhide|TftJC|14",
+				"Magnetic Singularity|Sorcerer|PHB|Ironhide|TftJC|18"
+			]
+		},
+		{
+			"name": "Lunar Blessing",
+			"source": "TftJC",
+			"page": 40,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"shortName": "Lunar",
+			"subclassFeatures": [
+				"Rune of the Moons|Sorcerer|PHB|Lunar|TftJC|1",
+				"Fabrics of the Night|Sorcerer|PHB|Lunar|TftJC|1",
+				"Weave of Midnight|Sorcerer|PHB|Lunar|TftJC|6",
+				"Wax and Wane|Sorcerer|PHB|Lunar|TftJC|14",
+				"Blessing of the Moons|Sorcerer|PHB|Lunar|TftJC|18"
+			]
+		},
+		{
+			"name": "Runebound",
+			"source": "TftJC",
+			"page": 41,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"shortName": "Runebound",
+			"subclassFeatures": [
+				"Enhanced Fortitude|Sorcerer|PHB|Runebound|TftJC|1",
+				"Runebound Spells|Sorcerer|PHB|Runebound|TftJC|1",
+				"Runic Power|Sorcerer|PHB|Runebound|TftJC|6",
+				"Extra Attack|Sorcerer|PHB|Runebound|TftJC|6",
+				"Magical Siphon|Sorcerer|PHB|Runebound|TftJC|14",
+				"Runes of Power|Sorcerer|PHB|Runebound|TftJC|18"
+			]
 		}
 	],
 	"subclassFeature": [
@@ -9219,6 +9266,420 @@
 			"entries": [
 				"At 18th level, your ability to influence luck is at its peak. As an Action, you can pull forth all of your magical power and transform it into pure Luck. For the next minute, you cannot gain disadvantage from any source and each time you would roll with advantage you can select a creature you can see within 120ft of you, they have disadvantage on the next saving throw they would make in the next minute. This effect can stack.",
 				"Once you use this feature, you cannot do so again until you complete a long rest, unless you spend 5 sorcery points to use it again."
+			]
+		},
+		{
+			"name": "Metallic Defenses",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Ironhide",
+			"subclassSource": "TftJC",
+			"level": 1,
+			"entries": [
+				"Starting at 1st level, your skin becomes hard as steel, or shards of metal hover around you. While you aren't wearing armor, your AC equals 10 + your Constitution modifier. As a part of a short rest, you can disassemble suits of armor to increase your AC. Light armor provides 11 AC base, Medium provides 12 and heavy provides 13. If the armor you have disassembled has bonus effects, such as enchantments, you gain those effects. You can only hold one disassembled set of armor with this feature at a time."
+			]
+		},
+		{
+			"name": "Magnetic Surge",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Ironhide",
+			"subclassSource": "TftJC",
+			"level": 1,
+			"entries": [
+				"At 1st level, after expending a spell slot to cast a Sorcerer spell, you can use your Bonus Action to move an object made of metal, creature wearing metal, or a creature holding a metal object, up to 10ft. The spell slot spent determines its weight, and the range of the spell determines how far away you can affect an object from (minimum 30ft.). If the target is a creature or an object held by a creature, they must make a Strength Saving throw and on a fail are affected. If you use a higher level spell slot to move something in a lower weight category, you can move it an additional 5ft per tier of difference. You can throw a metal object at a creature with this feature, and they must make a Dexterity Saving throw, and on a fail take 1d4 x the spell slot level used in bludgeoning damage.",
+				"You can ignore the weight maximum and instead target yourself with this ability, even without wearing/wielding metal.",
+				{
+					"type": "table",
+					"caption": "Magnetic Surge Table",
+					"colLabels": [
+						"Spell Level",
+						"Weight Moved",
+						"Armor/Item Affected"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- ",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"1st",
+							"15lbs",
+							"One held item, Light armor"
+						],
+						[
+							"2nd",
+							"30lbs",
+							"One heavy held item, Medium armor"
+						],
+						[
+							"3rd",
+							"50lbs",
+							"Heavy armor"
+						],
+						[
+							"4th",
+							"80lbs",
+							"-"
+						],
+						[
+							"5th",
+							"120lbs",
+							"-"
+						],
+						[
+							"6th",
+							"175lbs",
+							"-"
+						],
+						[
+							"7th",
+							"250lbs",
+							"-"
+						],
+						[
+							"8th",
+							"400lbs",
+							"-"
+						],
+						[
+							"9th",
+							"700lbs",
+							"-"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Expanded Spell List",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Ironhide",
+			"subclassSource": "TftJC",
+			"level": 1,
+			"entries": [
+				"You learn additional spells when you reach certain levels in this class, as shown on the Ironhide Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know. In addition you learn the Minor Megnetism cantrip.",
+				{
+					"type": "table",
+					"caption": "Ironhide Expanded Spells",
+					"colLabels": [
+						"Spell Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"1st",
+							"armor of agathys, sanctuary"
+						],
+						[
+							"2nd",
+							"hold person, spiritual weapon"
+						],
+						[
+							"3rd",
+							"call lightning, pulse wave"
+						],
+						[
+							"4th",
+							"gravity sinkhole, storm sphere"
+						],
+						[
+							"5th",
+							"wall of force, magnetic sphere"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Power Core",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Ironhide",
+			"subclassSource": "TftJC",
+			"level": 6,
+			"entries": [
+				"At 6th level, you can select a unique way to manifest your magical powers. Select either Molten Core or Static Core, and you gain features based off what you selected.",
+				{
+					"entries": [
+						{
+							"type": "inset",
+							"name": "Molten Core",
+							"entries": [
+								"You gain resistance to Fire damage. You learn the Heat Metal spell, it counts as a Sorcerer spell for you, and can cast it a number of times equal to your Charisma Modifier per long rest. Creatures of your choice that would be moved or disarmed by Magnetic Surge take 2d4 Fire Damage, as the metal burns them."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Static Core",
+							"entries": [
+								"You gain resistance to Lightning damage. Whenever you cast a Sorcerer spell that deals Lightning Damage, your Magnetic Surge's weight maximum is doubled and creatures affected by it have disadvantage on the Strength Saving Throw. Creatures of your choice that would be moved or disarmed by Magnetic Surge take 2d4 Lightning Damage, as the metal shocks them."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Magnetic Hover",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Ironhide",
+			"subclassSource": "TftJC",
+			"level": 14,
+			"entries": [
+				"At 14th level, you can accutely control magnetic fields under you to cause you to fly. As an Action, you gain a fly speed and maximum fly height based on the terrain that is under you.",
+				{
+					"type": "table",
+					"caption": "Hover Material Table",
+					"colLabels": [
+						"STerrain Type",
+						"Fly Speed",
+						"AFly Height"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- ",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"Earth/Sand/Stone",
+							"30ft",
+							"60ft"
+						],
+						[
+							"Metal",
+							"60ft",
+							"120ft"
+						],
+						[
+							"Water/Ice",
+							"10ft",
+							"5ft"
+						]
+					]
+				},
+				"You can fly with this feature for 10 minutes at a time, and can do so a number of times equal to your Constitution modifier per long rest."
+			]
+		},
+		{
+			"name": "Magnetic Singularity",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Ironhide",
+			"subclassSource": "TftJC",
+			"level": 18,
+			"entries": [
+				"At 18th level, your control over magnetism is at its peak. The weight moved by your Magnetic Surge Feature is tripled. As an Action, you can create a field of powerful magentism in a 15ft radius centred around you. No metal objects can enter that field under any circumstances. If a metal object is teleported inside of the field, it is immediately pushed outwards past the end of your radius. While this is active, you can select one object composed of metal within 100ft of you as a Bonus Action and launch it with your magnetism. The object can weigh no more that 100 lbs. It is launched 100ft in a direction you choose, and all creatures in its path must make a Dexterity Saving throw, or take 3d10 Bludgeoning damage. This lasts for 1 minute, and can only be used once per Long Rest, or by spending 5 Sorcery Points."
+			]
+		},
+		{
+			"name": "Fabrics of the Night",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Lunar",
+			"subclassSource": "TftJC",
+			"level": 1,
+			"entries": [
+				"At 1st level, your blessing gives you an innate understanding of the vexing nature of the moons and their magic. Illusions and enchantments come naturally to you: you learn the Friends or Minor Illusion cantrip. In addition, when you reach certain levels in this class you may learn the following spells without having them count against your spells known, if they are not on the sorcerer spell list, they are added to your spell list:",
+				{
+					"type": "table",
+					"caption": "Fabric of Night Spells",
+					"colLabels": [
+						"Sorcerer Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col- text-",
+						"col- text- "
+					],
+					"rows": [
+						[
+							"3rd",
+							"moonbeam"
+						],
+						[
+							"5th",
+							"fear"
+						],
+						[
+							"7th",
+							"greater invisibility"
+						],
+						[
+							"9th",
+							"dream"
+						],
+						[
+							"11th",
+							"programmed illusion"
+						],
+						[
+							"13th",
+							"simulacrum"
+						],
+						[
+							"15th",
+							"dominate monster"
+						],
+						[
+							"17th",
+							"weird"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Rune of the Moons",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Lunar",
+			"subclassSource": "TftJC",
+			"level": 1,
+			"entries": [
+				"When you take this bloodline at 1st level, the magic of the moons that runs in your blood allows you to innately understand the languages of Fey. You can read, speak, and write Sylvan."
+			]
+		},
+		{
+			"name": "Weave of Midnight",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Lunar",
+			"subclassSource": "TftJC",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain the ability to perform a ritual to render yourself and other creatures invisible. The ritual takes 1 minute to perform at the end of which up to your Charisma modifier number of creatures within 10 feet of you are turned invisible as if the invisibility spell had been cast. The invisibility lasts for 1 hour, until any invisible creature attacks or casts a spell, or you enter an area of bright light. You can only conduct this ritual at night."
+			]
+		},
+		{
+			"name": "Wax and Wane",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Lunar",
+			"subclassSource": "TftJC",
+			"level": 14,
+			"entries": [
+				"At 14th level, you have begun to absorb the powers of the moon into your magic. Once per long rest when you expend the last spell slot for a spell level you can regain 1 spell slot of any level lower than your last expended level. In addition, whenever you use sorcery points you can use your reaction to deal radiant damage equal to your proficiency score to any creatures of your choice within 10ft."
+			]
+		},
+		{
+			"name": "Blessing of the Moons",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Lunar",
+			"subclassSource": "TftJC",
+			"level": 18,
+			"entries": [
+				"At 18th level, a shimmering veil of moonlight always covers you granting you the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"At the end of a long rest you gain temporary hit points equal to your sorcerer level.",
+						"You have resistance to radiant damage.",
+						"When you hit a creature with a spell you deal additional radiant damage equal to your proficiency bonus.",
+						"You can expend 2 sorcerer ppoints as a bonus action to teleport up to 60ft to a point you can see."
+					]
+				}
+			]
+		},
+		{
+			"name": "Enhanced Fortitude",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Runebound",
+			"subclassSource": "TftJC",
+			"level": 1,
+			"entries": [
+				"The intense experiments done on your body have left you hardier than normal. At 1st level your hit point maximum increases by 2 and increases by 2 again whenever you gain a level in this class."
+			]
+		},
+		{
+			"name": "Runebound Spells",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Runebound",
+			"subclassSource": "TftJC",
+			"level": 1,
+			"entries": [
+				"At 1st level, the runes inside your body activate when you are actively channeling magic. While you are concentrating on a spell you gain temporary hit points equal to twice the spells level at the start of each of your turns and once per turn when you deal damage with a weapon or spell attack you deal bonus force damage equal to your proficiency modifier.",
+				"When you fail a concentration check you can spend a hit die, roll it and add it to the result, potentially allowing you to maintain concentration."
+			]
+		},
+		{
+			"name": "Runic Power",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Runebound",
+			"subclassSource": "TftJC",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain the ability to imbue your strikes with powerful magical impacts. When you hit with a melee weapon attack or melee spell attack you can expend two sorcery points to manifest one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"You deal 2d8 extra damage of your choice from fire, cold, lightning, acid, or thunder damage.",
+						"The creature must make a Strength saving throw or be knocked back up to 30 feet.",
+						"If the target is concentrating on a spell you can force them to make their concentration check with disadvantage and if they fail the save they suffer extra psychic damage equal to 3 x the level of the spell."
+					]
+				}
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Runebound",
+			"subclassSource": "TftJC",
+			"level": 6,
+			"entries": [
+				"At 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. Moveoever, you can cast one of your cantrips in place of one of those attacks."
+			]
+		},
+		{
+			"name": "Magical Siphon",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Runebound",
+			"subclassSource": "TftJC",
+			"level": 14,
+			"entries": [
+				"At 14th level, your runic power has manifested fully as a physical rune on your body. You can choose where the rune appears. Your rune becomes a siphon for magical power, as a reaction when you are hit with a spell of 1st level or higher you can use your reaction to draw power from the spell. Make a Spell Casting ability check with a DC equal to 10 + twice the spells level. On a success you regain sorcery points equal to half the spells level, minimum 1."
+			]
+		},
+		{
+			"name": "Runes of Power",
+			"source": "TftJC",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Runebound",
+			"subclassSource": "TftJC",
+			"level": 18,
+			"entries": [
+				"At 18th level, your runes have grown to cover large areas of your body. If you are concentrating on a spell and cast another spell that requires concentration you can spend 3 sorcery points to store the second spell in your runes, allowing you to concentrate on both at once. When you take damage you must make a saving throw for both spells and the DC increases for both by an amount equal to the highest spell level you are concentrating on. Each round you must spend one sorcery point to continue concentrating on the spells, if you cannot or do not spend a sorcery point one spell of your choice ends. You can only ever concentrate on two spells at once."
 			]
 		}
 	]
