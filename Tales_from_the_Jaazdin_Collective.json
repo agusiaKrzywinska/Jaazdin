@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1716933820
+		"dateLastModified": 1716987729
 	},
 	"spell": [
 		{
@@ -5670,8 +5670,7 @@
 		},
 		{
 			"name": "Umbral Armour",
-			"prerequisite": [
-			],
+			"prerequisite": [],
 			"source": "TftJC",
 			"page": 44,
 			"featureType": [
@@ -5691,7 +5690,7 @@
 							"name": "Warlock"
 						}
 					},
-					"feature":[
+					"feature": [
 						"Shadowsworn Warlock"
 					]
 				}
@@ -5715,9 +5714,9 @@
 							"name": "Warlock"
 						}
 					},
-						"feature":[
-							"Shadowsworn Warlock"
-						]
+					"feature": [
+						"Shadowsworn Warlock"
+					]
 				}
 			],
 			"source": "TftJC",
@@ -5727,6 +5726,441 @@
 			],
 			"entries": [
 				"You may cast the dimension door spell once per day without expending a spell slot."
+			]
+		},
+		{
+			"name": "Passage",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 1 Arcana. The Forbidden Spell's range is halved, but it becomes a Dexterity Saving throw affecting creatures in a 5ft line."
+			]
+		},
+		{
+			"name": "Element",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 1 Arcana. The Forbidden Spell's damage type becomes either Fire, Cold, Acid, Lightning or Poison (you choose when you select this Arcana)."
+			]
+		},
+		{
+			"name": "Adept",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 1 Arcana. You may add your Intelligence Modifier + the spell level to the damage of The Forbidden Spell."
+			]
+		},
+		{
+			"name": "Barrier",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 1 Arcana. After casting The Forbidden Spell, you gain temporary hitpoints equal to your Intelligence Modifier + the spell level."
+			]
+		},
+		{
+			"name": "Drain",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 1 Arcana. Creatures poisoned by The Forbidden Spell have their walking speed reduced by 10ft."
+			]
+		},
+		{
+			"name": "Distance",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 1 Arcana. The Forbidden Spell's range is increased by 10 per Spell Slot it is cast at."
+			]
+		},
+		{
+			"name": "Contact",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 1 Arcana. The Forbidden Spell's range is reduced to touch, and for every 30ft of range the Forbidden Spell would have had instead grants one additional damage die."
+			]
+		},
+		{
+			"name": "Horizon",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 2 Arcana. The Forbidden Spell's range is doubled, but it deals one less damage die."
+			]
+		},
+		{
+			"name": "Origin",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 2 Arcana. The Forbidden Spell's damage type becomes either Necrotic, Radiant or Thunder (you choose when you select this Arcana)."
+			]
+		},
+		{
+			"name": "Envelop",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 2 Arcana. The Forbidden Spell's damage die is lowered by 2, but it becomes a Dexterity Saving Throws affecting creatures in a 15ft radius."
+			]
+		},
+		{
+			"name": "Gloom",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 2 Arcana. Creatures affected by The Forbidden Spell must instead make a Wisdom saving throw, and on a fail are frightened rather than poisoned, for 1 minute or until they succeed the saving throw by repeating it at the end of their turns. Any effects that would remain during the duration of the Poisoned condition of this spell are now applied to the Frightened Condition instead."
+			]
+		},
+		{
+			"name": "Drift",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 2 Arcana. Immediately after or before casting The Forbidden Spell, you may teleport up to 15ft to an unocupied space you can see."
+			]
+		},
+		{
+			"name": "Regress",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 2 Arcana. Creatures affected by The Forbidden Spell must make an Intelligence saving throw instead of a Constitution Saving throw, and on a fail they subract 1d4 from their attack rolls while they remain poisoned."
+			]
+		},
+		{
+			"name": "Piercing",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 2 Arcana. Creatures affected by The Forbidden Spell gain a -1 penalty to its Armor Class until the end of your their next turn."
+			]
+		},
+		{
+			"name": "Double",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 2 Arcana. You can cast The Forbidden Spell again this turn as a Bonus Action, but it must be cast using a lower level spell slot (which is still spent)."
+			]
+		}
+		,
+		{
+			"name": "Recovery",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 2 Arcana. The Forbidden Spell deals one less damage die, and one ally within range of the Forbidden Spell's attack range regains half of the damage roll."
+			]
+		},
+		{
+			"name": "Cost",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 3 Arcana. The Forbidden Spell is upcasted by two levels, and then your maximum hitpoints are reduced by 3d6 until you complete a long rest."
+			]
+		}
+		,
+		{
+			"name": "Grasp",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 3 Arcana. Creatures affected by The Forbidden Spell are no longer Poisoned, but now they must instead then make a Strength Saving Throw, and on a fail become Restrained for 1 minute, or until they succeed on the saving throw by repeating it at the end of their turns. Any effects that would remain during the duration of the Poisoned condition of this spell are now applied to the Restrained Condition instead."
+			]
+		},
+		{
+			"name": "Burst",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 3 Arcana. Creatures affected by The Forbidden Spell explode with its power, dealing half of its damage to creatures within a 5ft radius of it (excluding itself)."
+			]
+		},
+		{
+			"name": "Wither",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 3 Arcana. Creatures affected by The Forbidden Spell's Poison have their Strength and Dexterity based attack deal half damage."
+			]
+		},
+		{
+			"name": "Empower",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 3 Arcana. The Forbidden Spell's base damage die is 6d6."
+			]
+		},
+		{
+			"name": "Repeating",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 3 Arcana. You make an additional attack with this spell at another creature within range."
+			]
+		}
+		,
+		{
+			"name": "Failure",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 3 Arcana. Creatures affected have disadvantage on the next saving throw they would make until the end of your next turn."
+			]
+		},
+		{
+			"name": "Renewal",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 3 Arcana. The Forbidden Spell's damage die is lowered by 2, but you regain an expended spell slot of 3rd or lower. This must be cast with a spell slot of 4th or higher to use this Arcana."
 			]
 		}
 	],
@@ -10548,7 +10982,6 @@
 			"level": 2,
 			"entries": [
 				"At 2nd level, you gain knowledge of an ancient spell. The Forbidden Spell is added to your spellbook, is always prepared for you and does not count against your prepared number of spells. You cannot create spell scrolls of this spell, nor can another Wizard copy this spell from your spellbook."
-				
 			]
 		},
 		{
@@ -10723,6 +11156,5 @@
 				}
 			]
 		}
-
 	]
 }
