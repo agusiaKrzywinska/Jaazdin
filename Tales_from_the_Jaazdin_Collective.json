@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1716987729
+		"dateLastModified": 1717463599
 	},
 	"spell": [
 		{
@@ -463,6 +463,49 @@
 						"source": "PHB"
 					}
 				]
+			}
+		},
+		{
+			"name": "The Forbidden Spell",
+			"source": "TftJC",
+			"page": 48,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "feet",
+				"distance": 60
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You lash out with magical energy at a creature within range. Make a spell attack roll against them, and on a hit they take {@dice 3d6} Force Damage. They must then make a ConstitutionSaving Throw, and on a fail become poisoned for 1 minute, or until they succeed on the saving throw by repeating it at the end of their turns.",
+				"If someone casts Wish and attempts to recreate this spell, it is cast at 9th level, and the caster incurs the penalties described in using Wish to do anything but cast a spell"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 2nd level or higher, the damage of this spell is increased by 1d6 per spell slot level above 1st expended.",
+						"If you cast this spell using a spell slot of 3rd level or higher, creatures poisoned by this spell suffer 1d4 Necrotic damage at the start of their turns."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": []
 			}
 		},
 		{
@@ -2984,7 +3027,9 @@
 			"page": 43,
 			"summonedByClass": "Warlock|PHB",
 			"size": [
-				"S","M","L"
+				"S",
+				"M",
+				"L"
 			],
 			"type": "humanoid/beast/elemental/monstrosity",
 			"ac": [
@@ -3010,15 +3055,11 @@
 			"save": {
 				"cha": "your PB"
 			},
-			"skill": {
-			},
-			"senses": [
-			],
+			"skill": {},
+			"senses": [],
 			"passive": "10 + (PB × 2)",
-			"immune": [
-			],
-			"conditionImmune": [
-			],
+			"immune": [],
+			"conditionImmune": [],
 			"languages": [
 				"Common and all the languages you speak"
 			],
@@ -5297,6 +5338,17 @@
 				"While within an eye socket the host creature can draw on its energies. They learn the Empower and Transmute Metamagics, adding these to their known Metamagics if they have them. Once per long rest they can use the Empower Metamagic on a spell dealing Lightning damage without expending any Sorcery Points. Once per long rest they may use the Transmute Metamagic to transmute any spell into Lightning damage without expending any Sorcery Points.",
 				"The Eye of the Tempest is cursed and cannot be willing removed. A remove curse allows it to be removed for 1 minute, during which time a creature must succeed a DC 15 Medicine(Dexterity) check to successfully remove the eye. On a failure, the host takes {@dice 2d4} slashing damage and {@dice 4d10} psychic damage."
 			]
+		},
+		{
+			"name": "Thought Forge",
+			"source": "TftJC",
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"Thought Forges are installed in pairs, directly into the brains of two different creatures.",
+				"While those creatures are within 60 ft of them, the Thought Forges remain active. When either of the creatures makes an Intelligence saving throw or uses Intelligence to resist a harmful effect, they use the bonus of the creature with higher Intelligence. Whenever a creature makes an Intelligence saving throw in this manner, both creatures suffer psychic damage equal the difference in their Intelligence scores. ",
+				"If both creatures have the same Intelligence, then instead they make Intelligence saving throws with advantage while within 60 ft of each other. If one of the characters fails the saving throw, both suffer the saving throw's negative effects, although not damage."
+			]
 		}
 	],
 	"reward": [
@@ -5877,7 +5929,7 @@
 				"Other"
 			],
 			"entries": [
-				"Tier 1 Arcana. After casting The Forbidden Spell, you gain temporary hitpoints equal to your Intelligence Modifier + the spell level."
+				"Tier 1 Arcana. After casting The Forbidden Spell, you gain temporary hit points equal to your Intelligence Modifier + the spell level."
 			]
 		},
 		{
@@ -6021,7 +6073,7 @@
 				"Other"
 			],
 			"entries": [
-				"Tier 2 Arcana. Immediately after or before casting The Forbidden Spell, you may teleport up to 15ft to an unocupied space you can see."
+				"Tier 2 Arcana. Immediately after or before casting The Forbidden Spell, you may teleport up to 15ft to an unoccupied space you can see."
 			]
 		},
 		{
@@ -6039,7 +6091,7 @@
 				"Other"
 			],
 			"entries": [
-				"Tier 2 Arcana. Creatures affected by The Forbidden Spell must make an Intelligence saving throw instead of a Constitution Saving throw, and on a fail they subract 1d4 from their attack rolls while they remain poisoned."
+				"Tier 2 Arcana. Creatures affected by The Forbidden Spell must make an Intelligence saving throw instead of a Constitution Saving throw, and on a fail they subtract 1d4 from their attack rolls while they remain poisoned."
 			]
 		},
 		{
@@ -6077,8 +6129,7 @@
 			"entries": [
 				"Tier 2 Arcana. You can cast The Forbidden Spell again this turn as a Bonus Action, but it must be cast using a lower level spell slot (which is still spent)."
 			]
-		}
-		,
+		},
 		{
 			"name": "Recovery",
 			"prerequisite": [
@@ -6112,10 +6163,9 @@
 				"Other"
 			],
 			"entries": [
-				"Tier 3 Arcana. The Forbidden Spell is upcasted by two levels, and then your maximum hitpoints are reduced by 3d6 until you complete a long rest."
+				"Tier 3 Arcana. The Forbidden Spell is upcasted by two levels, and then your maximum hit points are reduced by 3d6 until you complete a long rest."
 			]
-		}
-		,
+		},
 		{
 			"name": "Grasp",
 			"prerequisite": [
@@ -6205,8 +6255,7 @@
 			"entries": [
 				"Tier 3 Arcana. You make an additional attack with this spell at another creature within range."
 			]
-		}
-		,
+		},
 		{
 			"name": "Failure",
 			"prerequisite": [
@@ -6781,6 +6830,9 @@
 				"Forbidden Spell Versatility|Wizard|PHB|Dark Arts|TftJC|6",
 				"Favoured Arcana|Wizard|PHB|Dark Arts|TftJC|10",
 				"Unleashed|Wizard|PHB|Dark Arts|TftJC|14"
+			],
+			"subclassSpells": [
+				"The Forbidden Spell|TftJC"
 			]
 		},
 		{
@@ -10296,7 +10348,7 @@
 			"subclassSource": "TftJC",
 			"level": 1,
 			"entries": [
-				"You learn additional spells when you reach certain levels in this class, as shown on the Ironhide Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know. In addition you learn the Minor Megnetism cantrip.",
+				"You learn additional spells when you reach certain levels in this class, as shown on the Ironhide Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know. In addition you learn the Minor Magnetism cantrip.",
 				{
 					"type": "table",
 					"caption": "Ironhide Expanded Spells",
@@ -10372,7 +10424,7 @@
 			"subclassSource": "TftJC",
 			"level": 14,
 			"entries": [
-				"At 14th level, you can accutely control magnetic fields under you to cause you to fly. As an Action, you gain a fly speed and maximum fly height based on the terrain that is under you.",
+				"At 14th level, you can accurately control magnetic fields under you to cause you to fly. As an Action, you gain a fly speed and maximum fly height based on the terrain that is under you.",
 				{
 					"type": "table",
 					"caption": "Hover Material Table",
@@ -10416,7 +10468,7 @@
 			"subclassSource": "TftJC",
 			"level": 18,
 			"entries": [
-				"At 18th level, your control over magnetism is at its peak. The weight moved by your Magnetic Surge Feature is tripled. As an Action, you can create a field of powerful magentism in a 15ft radius centred around you. No metal objects can enter that field under any circumstances. If a metal object is teleported inside of the field, it is immediately pushed outwards past the end of your radius. While this is active, you can select one object composed of metal within 100ft of you as a Bonus Action and launch it with your magnetism. The object can weigh no more that 100 lbs. It is launched 100ft in a direction you choose, and all creatures in its path must make a Dexterity Saving throw, or take 3d10 Bludgeoning damage. This lasts for 1 minute, and can only be used once per Long Rest, or by spending 5 Sorcery Points."
+				"At 18th level, your control over magnetism is at its peak. The weight moved by your Magnetic Surge Feature is tripled. As an Action, you can create a field of powerful magnetism in a 15ft radius centred around you. No metal objects can enter that field under any circumstances. If a metal object is teleported inside of the field, it is immediately pushed outwards past the end of your radius. While this is active, you can select one object composed of metal within 100ft of you as a Bonus Action and launch it with your magnetism. The object can weigh no more that 100 lbs. It is launched 100ft in a direction you choose, and all creatures in its path must make a Dexterity Saving throw, or take 3d10 Bludgeoning damage. This lasts for 1 minute, and can only be used once per Long Rest, or by spending 5 Sorcery Points."
 			]
 		},
 		{
@@ -10529,7 +10581,7 @@
 						"At the end of a long rest you gain temporary hit points equal to your sorcerer level.",
 						"You have resistance to radiant damage.",
 						"When you hit a creature with a spell you deal additional radiant damage equal to your proficiency bonus.",
-						"You can expend 2 sorcerer ppoints as a bonus action to teleport up to 60ft to a point you can see."
+						"You can expend 2 sorcerer points as a bonus action to teleport up to 60 ft to a point you can see."
 					]
 				}
 			]
@@ -10647,7 +10699,7 @@
 						],
 						[
 							"3rd",
-							"tiny servent, spirit guardians"
+							"tiny servant, spirit guardians"
 						],
 						[
 							"4th",
@@ -10770,7 +10822,7 @@
 			"level": 14,
 			"entries": [
 				"At 14th level, your minion's power is permanently linked with yours. When you are affected by a spell you can choose to share the effect with your minion as long as it is within 30 feet of you. Also when you fail a saving throw against a negative effect from a spell, such as hold person, and your minion is within 30 feet both you and your minion can use your reactions to have the spell take effect on your minion instead.",
-				"Your minion can become large and any future minions canbe large as well."
+				"Your minion can become large and any future minions can be large as well."
 			]
 		},
 		{
@@ -10828,7 +10880,7 @@
 			"subclassSource": "TftJC",
 			"level": 1,
 			"entries": [
-				"At 1st level, you gain the ability to use shortsword, longswords, scimitars, and medium armor."
+				"At 1st level, you gain the ability to use shortswords, longswords, scimitars, and medium armor."
 			]
 		},
 		{
@@ -11172,7 +11224,7 @@
 			"subclassSource": "TftJC",
 			"level": 2,
 			"entries": [
-				"At 2nd level, you become a savant in copying spells on the fly. Whenever you copy a spell into your spellbook, you can choose to write it in shorthand. Doing so only takes you 6 seconds per level of spell, and 1/10th of the cost. You cannot create a spellscroll from shorthand, nor can anyone copy down a spell from shorthand. A shorthand spell, can only exist once at a time in your spellbook, meaning you can not have 2 or more separate instances of the spell in your book. A shorthand spell can only be cast a number of times equal to your Intelligence Modifier (minimum 1), after which it disappears from your book.",
+				"At 2nd level, you become a savant in copying spells on the fly. Whenever you copy a spell into your spellbook, you can choose to write it in shorthand. Doing so only takes you 6 seconds per level of spell, and 1/10th of the cost. You cannot create a spell scroll from shorthand, nor can anyone copy down a spell from shorthand. A shorthand spell, can only exist once at a time in your spellbook, meaning you can not have 2 or more separate instances of the spell in your book. A shorthand spell can only be cast a number of times equal to your Intelligence Modifier (minimum 1), after which it disappears from your book.",
 				"If you have a shorthand spell in your book, you can spend the remaining time and gold required to write the spell to have it added to your spellbook fully.",
 				"Whenever you cast the last use of a shorthand spell, its spell level is treated to be upcasted by one level."
 			]
@@ -11198,7 +11250,7 @@
 			"subclassSource": "TftJC",
 			"level": 6,
 			"entries": [
-				"At 6th level, you add the Invisiblity spell into your Spellbook, which is then always prepared. If you already have this spell, you may choose another 2nd level spell. Whenever you cast Invisibility, you can choose to be completely silent, along with all actions you perform while you are maintaining concentration.",
+				"At 6th level, you add the Invisibility spell into your Spellbook, which is then always prepared. If you already have this spell, you may choose another 2nd level spell. Whenever you cast Invisibility, you can choose to be completely silent, along with all actions you perform while you are maintaining concentration.",
 				"You can also take the Hide action as a Bonus Action."
 			]
 		},
