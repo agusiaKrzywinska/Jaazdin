@@ -6564,7 +6564,7 @@
 			"shortName": "Angelic Armsmaster",
 			"subclassFeatures": [
 				"Angelic Armsmaster|Fighter|PHB|Angelic Armsmaster|TftJC|3",
-				"Light Shield|Fighter|PHB|Angelic Armsmaster|TftJC|7",
+				"Light Constructs|Fighter|PHB|Angelic Armsmaster|TftJC|7",
 				"Blinding Brilliance|Fighter|PHB|Angelic Armsmaster|TftJC|10",
 				"Pierce the Light|Fighter|PHB|Angelic Armsmaster|TftJC|15",
 				"Angelic Arsenal|Fighter|PHB|Angelic Armsmaster|TftJC|18"
@@ -6850,7 +6850,8 @@
 			"subclassFeatures": [
 				"The Forbidden Spell|Wizard|PHB|Dark Arts|TftJC|2",
 				"Ancient Knowledge|Wizard|PHB|Dark Arts|TftJC|2",
-				"Forbidden Spell Versatility|Wizard|PHB|Dark Arts|TftJC|6",
+				"Forbidden Spell Versatility|Wizard|PHB|Dark Arts|TftJC|2",
+				"Dark Modifications|Wizard|PHB|Dark Arts|TftJC|6",
 				"Favoured Arcana|Wizard|PHB|Dark Arts|TftJC|10",
 				"Unleashed|Wizard|PHB|Dark Arts|TftJC|14"
 			],
@@ -6868,9 +6869,9 @@
 			"subclassFeatures": [
 				"Shorthand Spells|Wizard|PHB|Spellthief|TftJC|2",
 				"Spellthief's Skills|Wizard|PHB|Spellthief|TftJC|2",
-				"Silent Hands|Wizard|PHB|Spellthief|TftJC|6",
-				"Quick Copying|Wizard|PHB|Spellthief|TftJC|10",
-				"Personalized Notes|Wizard|PHB|Spellthief|TftJC|14"
+				"Quickened Copying|Wizard|PHB|Spellthief|TftJC|6",
+				"Personalized Notes|Wizard|PHB|Spellthief|TftJC|10",
+				"Hidden Talents|Wizard|PHB|Spellthief|TftJC|14"
 			]
 		}
 	],
