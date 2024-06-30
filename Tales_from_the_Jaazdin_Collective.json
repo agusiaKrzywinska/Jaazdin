@@ -491,8 +491,10 @@
 				}
 			],
 			"entries": [
-				"You lash out with magical energy at a creature within range. Make a spell attack roll against them, and on a hit they take {@dice 3d6} Force Damage. They must then make a ConstitutionSaving Throw, and on a fail become poisoned for 1 minute, or until they succeed on the saving throw by repeating it at the end of their turns.",
-				"If someone casts Wish and attempts to recreate this spell, it is cast at 9th level, and the caster incurs the penalties described in using Wish to do anything but cast a spell"
+				"You lash out with magical energy at a creature within range. Make a spell attack roll against them, and on a hit they take {@dice 1d6} Force Damage. That creature also removes 1d4 from their next attack roll, ability check, or saving throw.",
+				"This spell can also be cast as a leveled spell, dealing an additional 2d6 per casting slot level used.",
+				"This spell's base damage increases by 1d6 at 5th level, 11th, and 17th level.",
+				"If someone casts Wish and attempts to recreate this spell it is cast at 9th level, and the caster incurs the penalties described in using Wish to do anything but cast a spell."
 			],
 			"entriesHigherLevel": [
 				{
@@ -5933,6 +5935,24 @@
 			]
 		},
 		{
+			"name": "Overwhelm",
+			"prerequisite": [
+				{
+					"feature": [
+						"Dark Arts Wizard"
+					]
+				}
+			],
+			"source": "TftJC",
+			"page": 48,
+			"featureType": [
+				"Other"
+			],
+			"entries": [
+				"Tier 1 Arcana. Creatures affected by The Forbidden Spell must make a Strength saving throw or be knocked prone."
+			]
+		},
+		{
 			"name": "Drain",
 			"prerequisite": [
 				{
@@ -5947,7 +5967,7 @@
 				"Other"
 			],
 			"entries": [
-				"Tier 1 Arcana. Creatures poisoned by The Forbidden Spell have their walking speed reduced by 10ft."
+				"Tier 1 Arcana. Creatures hit by The Forbidden Spell have their speed reduced by 10ft until the end of their next turn."
 			]
 		},
 		{
@@ -6055,7 +6075,7 @@
 				"Other"
 			],
 			"entries": [
-				"Tier 2 Arcana. Creatures affected by The Forbidden Spell must instead make a Wisdom saving throw, and on a fail are frightened rather than poisoned, for 1 minute or until they succeed the saving throw by repeating it at the end of their turns. Any effects that would remain during the duration of the Poisoned condition of this spell are now applied to the Frightened Condition instead."
+				"Tier 2 Arcana. Creatures affected by The Forbidden Spell must instead make a Wisdom saving throw, and on a fail are frightened rather than subtracting 1d4, for 1 minute or until they succeed the saving throw by repeating it at the end of their turns."
 			]
 		},
 		{
@@ -6091,7 +6111,7 @@
 				"Other"
 			],
 			"entries": [
-				"Tier 2 Arcana. Creatures affected by The Forbidden Spell must make an Intelligence saving throw instead of a Constitution Saving throw, and on a fail they subtract 1d4 from their attack rolls while they remain poisoned."
+				"Tier 2 Arcana. Creatures affected by The Forbidden Spell instead subtract 2d4 from their next roll."
 			]
 		},
 		{
@@ -6181,7 +6201,7 @@
 				"Other"
 			],
 			"entries": [
-				"Tier 3 Arcana. Creatures affected by The Forbidden Spell are no longer Poisoned, but now they must instead then make a Strength Saving Throw, and on a fail become Restrained for 1 minute, or until they succeed on the saving throw by repeating it at the end of their turns. Any effects that would remain during the duration of the Poisoned condition of this spell are now applied to the Restrained Condition instead."
+				"Tier 3 Arcana. Creatures affected by The Forbidden Spell are no longer subtract 1d4, but now they must instead then make a Strength Saving Throw, and on a fail become Restrained for 1 minute, or until they succeed on the saving throw by repeating it at the end of their turns."
 			]
 		},
 		{
@@ -6217,7 +6237,7 @@
 				"Other"
 			],
 			"entries": [
-				"Tier 3 Arcana. Creatures affected by The Forbidden Spell's Poison have their Strength and Dexterity based attack deal half damage."
+				"Tier 3 Arcana. Creatures affected by The Forbidden Spell have their Strength and Dexterity scores halved until the start of your next turn."
 			]
 		},
 		{
@@ -6235,7 +6255,7 @@
 				"Other"
 			],
 			"entries": [
-				"Tier 3 Arcana. The Forbidden Spell's base damage die is 6d6."
+				"Tier 3 Arcana. The Forbidden Spell's damage die uses d8s instead of d6s."
 			]
 		},
 		{
@@ -6702,9 +6722,12 @@
 			"subclassFeatures": [
 				"Weapon Specialist|Rogue|PHB|Ninjutsu|TftJC|3",
 				"Fighting Style|Rogue|PHB|Ninjutsu|TftJC|3",
+				"Ninjutsu Techniques|Rogue|PHB|Ninjutsu|TftJC|3",
 				"Darkness Adaptation|Rogue|PHB|Ninjutsu|TftJC|3",
 				"Crafted Explosives|Rogue|PHB|Ninjutsu|TftJC|9",
+				"Preparedness|Rogue|PHB|Ninjutsu|TftJC|9",
 				"Death Mark|Rogue|PHB|Ninjutsu|TftJC|13",
+				"Darkness Adaptation|Rogue|PHB|Ninjutsu|TftJC|13",
 				"You Are Already Dead|Rogue|PHB|Ninjutsu|TftJC|17"
 			]
 		},
@@ -8638,7 +8661,7 @@
 			"entries": [
 				"Beginning at 3rd level, your connection to Celestials can allow you to conjure weapons of Light. You can conduct a 1 hour ritual with a weapon you are holding to convert it into a Weapon of the Gods, at which time it vanishes.",
 				"As a Bonus Action, you can conjure one of your Weapon of the Gods. It appears as a glowing and translucent version of that weapon. If the weapon requires ammo, you additionally create a quiver or pouch filled with the required ammunition. This weapon can be dismissed as a Free Action. If the weapon would leave your hands, it disappears after one round. You can only have one weapon conjured at a time.",
-				"This weapon deals Radiant damage instead of its normal damage type. Additionally, once per turn you gain a bonus to your damage rolls equal to your Wisdom Modifier when using your Weapon of the Gods.",
+				"This weapon deals Radiant damage instead of its normal damage type. Additionally, once per turn you gain a bonus to your damage rolls equal to your Proficiency Bonus when using your Weapon of the Gods.",
 				"Finally, you learn the {@spell Light|PHB} cantrip."
 			]
 		},
@@ -8655,7 +8678,7 @@
 			]
 		},
 		{
-			"name": "Light Shield",
+			"name": "Light Constructs",
 			"source": "TftJC",
 			"className": "Fighter",
 			"classSource": "PHB",
@@ -8663,7 +8686,21 @@
 			"subclassSource": "TftJC",
 			"level": 7,
 			"entries": [
-				"At 7th level, you learn to conjure defensive barriers. As a Reaction to an ally within 30 ft of you being attacked, you can dismiss your conjured weapon and conjure a shield for you oran ally. This grants them a bonus to their Armor Class equal to your Wisdom Modifier. The shield is dismissed at the end of your next turn, and you cannot conjure a new weapon while the shield is active."
+				"At 7th level, you gain the ability to use Radiant Reach and Light Shield. You can use these features a total number of times equal to your Proficiency Bonus per Long Rest. The Spiritual Weapon uses your Wisdom to calvulate to-hit bonus and damage rolls.",
+				{
+					"type": "inset",
+					"name": "Radiant Reach",
+					"entries": [
+						"You can cast the spell Spiritual Weapon, selecting a weapon in your arsenal as the Spirital Weapon, it then gains any bonuses that weapon has, and deals Radiant Damage instead of Force. It returns to your Arsenal after the spell ends."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Light Shield",
+					"entries": [
+						"As a Reaction to an ally within 30ft of you being attacked, you can cast Shield of Faith on that creature, potentially making the attack miss them. You then begin concentrating on the spell."
+					]
+				}
 			]
 		},
 		{
@@ -9422,7 +9459,7 @@
 					"type": "inset",
 					"name": "Explosive Finisher",
 					"entries": [
-						"After dealing Thunder or Force Damage, you can use your Reaction to expend a use of Channel Divinity to finish your opponent. You move your movement to a creature that took the damage, then immediately make a melee attack against them. If that attack hits, it is treated as a Divine Smite at the highest level for which you have spell slots. If this damage leaves the creature with hit points equal to or less than your Paladin Level, they are finished off (you can decide lethal or non lethal)."
+						"After dealing Thunder or Force Damage, you can use your Reaction to expend a use of Channel Divinity to finish your opponent. You move your movement to a creature that took the damage, without provoking attacks of opportunity, then immediately make a melee attack against them. If that attack hits, it is treated as a Divine Smite at the highest level for which you have spell slots. If this damage leaves the creature with hit points equal to or less than your Paladin Level, they are finished off (you can decide lethal or non lethal). Regardless of hitting the target or not, the target is knocked prone."
 					]
 				}
 			]
@@ -10055,7 +10092,7 @@
 			]
 		},
 		{
-			"name": "Darkness Adaptation",
+			"name": "Ninjutsu Techniques",
 			"source": "TftJC",
 			"className": "Rogue",
 			"classSource": "PHB",
@@ -10063,11 +10100,54 @@
 			"subclassSource": "TftJC",
 			"level": 3,
 			"entries": [
-				"At 3rd level, you gain a darkvision of 60 ft. If you already have Darkvision, then it is instead increased by 30 ft. At 17th level, your Darkvision can see through Magical Darkness."
+				"At 3rd level, you learn ancient techniques of Ninjutsu. You learn two of these Techniques at 3rd level, and you can use these Techniques a number of times equal to your Proficiency Bonus per Long Rest. You learn a new Techniques that require a saving throw is calculated by 8 + Prof Bonus + INT modifier.",
+				{
+					"type": "inset",
+					"name": "Smoke Bomb",
+					"entries": [
+						"As a Bonus Action, you create an explosion of Fog in a 10ft radius around you, which heavily obscures the area. You also become invisibile until the start of your next turn, or attack or cast a spell."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Flash Bomb",
+					"entries": [
+						"As a Bonus Action, you throw a Flash Bomb at an area within 60 ft. All creatures within a 15 ft radius of the explosion must make a Constitution Saving Throw (DC = 8 + prof + INT) or be blinded for a number of rounds equal to your Proficiency Bonus. Creatures blinded by this can repeat the Constitution Saving Throw at the ends of their turn, removing the effect on a Successful Save. If you have a free hand when you throw the bomb, you can use it to guard your eyes, granting you advantage on the Saving Throw if you are within the radius."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Shadow Clone",
+					"entries": [
+						"As a Bonus Action, you apparate a shadowy version of you, moving in and out of your space. For the next minute, if you would be attacked, the attacker must roll 1d20. On a 9 or lower, the clone is hit instead of you, which destroys the clone if the attack meets your AC."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Grappling Swing",
+					"entries": [
+						"As a Bonus Action, you gain a Fly speed equal to your walking speed until the end of your turn, provided there is terrain or structures to grapple to within 60ft of you. If you end your turn in the air, you immediately fall, suffering fall damage as normal."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Acupuncture Dart",
+					"entries": [
+						"As a Bonus Action, you throw a single dart at a creature within 30ft. Make a Ranged attack roll against that creature, and on a hit they take 1 piercing damage and must make a Constitution Saving throw against the Stunned Condition. On a fail, they are stunned until the end of their turn."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Shadow Binding",
+					"entries": [
+						"As a Bonus Action, you target a creature that is in dim light or darkness within 30ft. Shadowy arms grab the creature, they must then make a Strength Saving Throw or become restrained until the start of your next turn."
+					]
+				}
+
 			]
 		},
 		{
-			"name": "Crafted Explosives",
+			"name": "Nimble",
 			"source": "TftJC",
 			"className": "Rogue",
 			"classSource": "PHB",
@@ -10075,25 +10155,19 @@
 			"subclassSource": "TftJC",
 			"level": 9,
 			"entries": [
-				"At 9th level, you gain the ability to create explosives. You create a number of explosives equal to your Proficiency Bonus after completing a long rest. At that time, you select which explosives you would like to create. Explosives can only be used by you, and lose their potency after completing a Long rest. Using an Explosive requires an Action, but using it centred on yourself can be done with a Bonus Action",
-				{
-					"entries": [
-						{
-							"type": "inset",
-							"name": "Smoke Bomb",
-							"entries": [
-								"You cast the Fog Cloud spell within 120ft of you, requiring no concentration. It lasts for one minute. You can see through this Fog Cloud without negative penalties on the turn you cast it."
-							]
-						},
-						{
-							"type": "inset",
-							"name": "Flash Bomb",
-							"entries": [
-								"You throw a Flash Bomb at an area within 120 ft. All creatures within a 20 ft radius of the explosion must make a Constitution Saving Throw (DC = 8 + prof + INT) or be blinded for a number of rounds equal to your Proficiency Bonus. Creatures blinded by this can repeat the Constitution Saving Throw at the ends of their turn, removing the effect on a Successful Save. If you have a free hand when you throw the bomb, you can use it to guard your eyes, granting you advantage on the Saving Throw if you are within the radius"
-							]
-						}
-					]
-				}
+				"At 9th level, your ability to move is enhanced. Your walking speed increases by 10 ft, and you gain a climbing speed equal to your walking speed. Your long jump distance is tripled and uses your Dexterity to calculate distance, instead of Strength."
+			]
+		},
+		{
+			"name": "Preparedness",
+			"source": "TftJC",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Ninjutsu",
+			"subclassSource": "TftJC",
+			"level": 9,
+			"entries": [
+				"At 9th level, whenever you roll intitiative you regain an expended use of your Ninjutsu Techniques."
 			]
 		},
 		{
@@ -10106,6 +10180,18 @@
 			"level": 13,
 			"entries": [
 				"At 13th level, you can mark your targets for death. After dealing damage to a creature with your Sneak Attack, you can Death Mark them. While Death Marked, you know where your target is at all times (even if they are behind full cover) so long as they are within a mile of you. Additionally, attacking a target that is Death Marked can apply Sneak Attack, even without advantage or a nearby ally. Only one creature can be Death Marked at a time."
+			]
+		},
+		{
+			"name": "Darkness Adaptation",
+			"source": "TftJC",
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Ninjutsu",
+			"subclassSource": "TftJC",
+			"level": 13,
+			"entries": [
+				"At 13th level, you gain 60ft of Darkvision the can see through Magical Darkness."
 			]
 		},
 		{
@@ -11135,9 +11221,9 @@
 			"classSource": "PHB",
 			"subclassShortName": "Dark Arts",
 			"subclassSource": "TftJC",
-			"level": 6,
+			"level": 2,
 			"entries": [
-				"At 6th level, you learn more ways to utilize the Forbidden Spell. You gain access to two Forbidden Arcana. You gain more Forbidden Arcana as you progress in this class. Each time you take a level in this class, you can replace up to one Forbidden Arcana with another available. You can only learn Forbidden Arcana within your tier, which is determined by your level in this class. Each time you cast The Forbidden Spell, you can select a number of Forbidden Arcana to apply to that spell up to the spell level -1.",
+				"At 2th level, you learn more ways to utilize the Forbidden Spell. You gain access to two Forbidden Arcana. You gain more Forbidden Arcana as you progress in this class. Each time you take a level in this class, you can replace up to one Forbidden Arcana with another available. You can only learn Forbidden Arcana within your tier, which is determined by your level in this class. Each time you cast The Forbidden Spell, you can select a number of Forbidden Arcana to apply to that spell up to the spell slot level used in casting.",
 				{
 					"type": "table",
 					"caption": "Forbidden Arcana Scaling",
@@ -11153,42 +11239,59 @@
 					],
 					"rows": [
 						[
-							"6",
-							"3",
+							"2",
+							"2",
 							"1"
 						],
 						[
-							"8",
 							"5",
+							"4",
 							"1"
+						],
+						[
+							"7",
+							"6",
+							"2"
 						],
 						[
 							"10",
-							"7",
+							"8",
 							"2"
 						],
 						[
 							"12",
-							"9",
+							"10",
 							"2"
 						],
 						[
-							"14",
-							"11",
-							"2"
-						],
-						[
-							"16",
-							"13",
+							"15",
+							"12",
 							"3"
 						],
 						[
-							"18",
-							"15",
+							"17",
+							"14",
+							"3"
+						],
+						[
+							"20",
+							"16",
 							"3"
 						]
 					]
 				}
+			]
+		},
+		{
+			"name": "Dark Modifications",
+			"source": "TftJC",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Dark Arts",
+			"subclassSource": "TftJC",
+			"level": 6,
+			"entries": [
+				"At 6th level, you learn to twist other spells in your favor. When casting a spell that makes a Spell Attack roll, you can apply 1 Forbidden Arcana that you know to it."
 			]
 		},
 		{
@@ -11224,9 +11327,8 @@
 			"subclassSource": "TftJC",
 			"level": 2,
 			"entries": [
-				"At 2nd level, you become a savant in copying spells on the fly. Whenever you copy a spell into your spellbook, you can choose to write it in shorthand. Doing so only takes you 6 seconds per level of spell, and 1/10th of the cost. You cannot create a spell scroll from shorthand, nor can anyone copy down a spell from shorthand. A shorthand spell, can only exist once at a time in your spellbook, meaning you can not have 2 or more separate instances of the spell in your book. A shorthand spell can only be cast a number of times equal to your Intelligence Modifier (minimum 1), after which it disappears from your book.",
-				"If you have a shorthand spell in your book, you can spend the remaining time and gold required to write the spell to have it added to your spellbook fully.",
-				"Whenever you cast the last use of a shorthand spell, its spell level is treated to be upcasted by one level."
+				"At 2nd level, you become a savant in cramming in spells into your spellbook. When you prepare your Wizard spell, you can also shorthand a number of spells into your spellbook equal to your Proficiency Bonus. You cannot Shorthand the same spell twice, nor can you have a prepared spell also Shorthanded. These Shorthanded spells once each without using a spell slot, but cannot be cast using your normal spell slots. You can only Shorthand spells equal to or lower than 5th level.",
+				"Additionally, when copyiong spells into your spellbook, you can do so 10x faster."
 			]
 		},
 		{
@@ -11238,19 +11340,7 @@
 			"subclassSource": "TftJC",
 			"level": 2,
 			"entries": [
-				"At 2nd level, you gain proficiency in skills related to your craft. You gain Proficiency in Thieves' Tools, and you additionally gain proficiency in one of the following skills: Deception, Stealth, Sleight of Hand. You can also add your Intelligence modifier to Dexterity based skill checks in which you are proficient."
-			]
-		},
-		{
-			"name": "Silent Hands",
-			"source": "TftJC",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"subclassShortName": "Spellthief",
-			"subclassSource": "TftJC",
-			"level": 6,
-			"entries": [
-				"At 6th level, you add the Invisibility spell into your Spellbook, which is then always prepared. If you already have this spell, you may choose another 2nd level spell. Whenever you cast Invisibility, you can choose to be completely silent, along with all actions you perform while you are maintaining concentration.",
+				"At 2nd level, you gain proficiency in skills related to your craft. You gain Proficiency in Thieves' Tools, and you additionally gain proficiency in one of the following skills: Deception, Stealth, Sleight of Hand.",
 				"You can also take the Hide action as a Bonus Action."
 			]
 		},
@@ -11261,10 +11351,9 @@
 			"classSource": "PHB",
 			"subclassShortName": "Spellthief",
 			"subclassSource": "TftJC",
-			"level": 10,
+			"level": 6,
 			"entries": [
-				"At 10th level, as a Reaction to seeing a Spell being cast, you can immediately shorthand it into your book. A spell shorthanded this way automatically becomes prepared and doesn't count against your number of prepared spells, but only has one charge to be cast. A spell shorthanded this way does not benefit from Final Cast. You still have to pay the gold cost. You can do this a number of times equal to your Proficiency Bonus per long rest.",
-				"If you already have that spell shorthanded, you instead gain an additional casting of the spell. When you finish a Long Rest, you lose any charges of shorthand spells granted by Quick Copying."
+				"At 6th level, you learn to Shorthand on the fly. As a reaction to seeing a spell be cast, you can replace one of your Shorthanded spells with that spell (even if it not a Wizard Spell). You can only copy a spell up to 5th level."
 			]
 		},
 		{
@@ -11274,7 +11363,7 @@
 			"classSource": "PHB",
 			"subclassShortName": "Spellthief",
 			"subclassSource": "TftJC",
-			"level": 14,
+			"level": 10,
 			"entries": [
 				"At 14th level, you can tie in your own creativity into your shorthand. Whenever you use the Final Cast of a shorthand spell, you can apply one effect of your choice to the spell. The effect you pick must be able to affect the spell correctly",
 				{
@@ -11286,6 +11375,18 @@
 						"The duration of the spell is doubled."
 					]
 				}
+			]
+		},
+		{
+			"name": "Hidden Talents",
+			"source": "TftJC",
+			"className": "Wizard",
+			"classSource": "PHB",
+			"subclassShortName": "Spellthief",
+			"subclassSource": "TftJC",
+			"level": 14,
+			"entries": [
+				"At 14th level, your ability to stay hidden is perfected. You can choose to ingore either the Somatic or the Verbal component of a spell, and always have Invisibility and Greater Invisibility shorthanded (these do not count against your number of shorthanded spells, and these spells cannot be replaced by Quickened Copying)."
 			]
 		}
 	]
