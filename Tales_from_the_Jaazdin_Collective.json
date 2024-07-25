@@ -13,11 +13,11 @@
 					"Agusia Krzywinska",
 					"Adam Henderson"
 				],
-				"version": "0.0.21"
+				"version": "0.0.22"
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1721942326
+		"dateLastModified": 1721942704 
 	},
 	"spell": [
 		{
@@ -10030,7 +10030,7 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Darkness Adaptation|Rogue|PHB|Ninjutsu|TftJC|3"
+					"subclassFeature": "Ninjutsu Techniques|Rogue|PHB|Ninjutsu|TftJC|3"
 				}
 			]
 		},
