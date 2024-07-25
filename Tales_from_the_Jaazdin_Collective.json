@@ -13,11 +13,11 @@
 					"Agusia Krzywinska",
 					"Adam Henderson"
 				],
-				"version": "0.0.20"
+				"version": "0.0.21"
 			}
 		],
 		"dateAdded": 0,
-		"dateLastModified": 1717463599
+		"dateLastModified": 1721942326
 	},
 	"spell": [
 		{
@@ -6738,7 +6738,6 @@
 				"Weapon Specialist|Rogue|PHB|Ninjutsu|TftJC|3",
 				"Fighting Style|Rogue|PHB|Ninjutsu|TftJC|3",
 				"Ninjutsu Techniques|Rogue|PHB|Ninjutsu|TftJC|3",
-				"Darkness Adaptation|Rogue|PHB|Ninjutsu|TftJC|3",
 				"Nimble|Rogue|PHB|Ninjutsu|TftJC|9",
 				"Preparedness|Rogue|PHB|Ninjutsu|TftJC|9",
 				"Death Mark|Rogue|PHB|Ninjutsu|TftJC|13",
@@ -8702,12 +8701,12 @@
 			"subclassSource": "TftJC",
 			"level": 7,
 			"entries": [
-				"At 7th level, you gain the ability to use Radiant Reach and Light Shield. You can use these features a total number of times equal to your Proficiency Bonus per Long Rest. The Spiritual Weapon uses your Wisdom to calvulate to-hit bonus and damage rolls.",
+				"At 7th level, you gain the ability to use Radiant Reach and Light Shield. You can use these features a total number of times equal to your Proficiency Bonus per Long Rest. The Spiritual Weapon uses your Wisdom to calculate to-hit bonus and damage rolls.",
 				{
 					"type": "inset",
 					"name": "Radiant Reach",
 					"entries": [
-						"You can cast the spell Spiritual Weapon, selecting a weapon in your arsenal as the Spirital Weapon, it then gains any bonuses that weapon has, and deals Radiant Damage instead of Force. It returns to your Arsenal after the spell ends."
+						"You can cast the spell Spiritual Weapon, selecting a weapon in your arsenal as the Spiritual Weapon, it then gains any bonuses that weapon has, and deals Radiant Damage instead of Force. It returns to your Arsenal after the spell ends."
 					]
 				},
 				{
@@ -10121,7 +10120,7 @@
 					"type": "inset",
 					"name": "Smoke Bomb",
 					"entries": [
-						"As a Bonus Action, you create an explosion of Fog in a 10ft radius around you, which heavily obscures the area. You also become invisibile until the start of your next turn, or attack or cast a spell."
+						"As a Bonus Action, you create an explosion of Fog in a 10ft radius around you, which heavily obscures the area. You also become invisible until the start of your next turn, or attack or cast a spell."
 					]
 				},
 				{
@@ -10135,7 +10134,7 @@
 					"type": "inset",
 					"name": "Shadow Clone",
 					"entries": [
-						"As a Bonus Action, you apparate a shadowy version of you, moving in and out of your space. For the next minute, if you would be attacked, the attacker must roll 1d20. On a 9 or lower, the clone is hit instead of you, which destroys the clone if the attack meets your AC."
+						"As a Bonus Action, you apparat a shadowy version of you, moving in and out of your space. For the next minute, if you would be attacked, the attacker must roll 1d20. On a 9 or lower, the clone is hit instead of you, which destroys the clone if the attack meets your AC."
 					]
 				},
 				{
@@ -10183,7 +10182,7 @@
 			"subclassSource": "TftJC",
 			"level": 9,
 			"entries": [
-				"At 9th level, whenever you roll intitiative you regain an expended use of your Ninjutsu Techniques."
+				"At 9th level, whenever you roll initiative you regain an expended use of your Ninjutsu Techniques."
 			]
 		},
 		{
@@ -10742,7 +10741,7 @@
 			"subclassSource": "TftJC",
 			"level": 6,
 			"entries": [
-				"At 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. Moveoever, you can cast one of your cantrips in place of one of those attacks."
+				"At 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. Moreover, you can cast one of your cantrips in place of one of those attacks."
 			]
 		},
 		{
@@ -11344,7 +11343,7 @@
 			"level": 2,
 			"entries": [
 				"At 2nd level, you become a savant in cramming in spells into your spellbook. When you prepare your Wizard spell, you can also shorthand a number of spells into your spellbook equal to your Proficiency Bonus. You cannot Shorthand the same spell twice, nor can you have a prepared spell also Shorthanded. These Shorthanded spells once each without using a spell slot, but cannot be cast using your normal spell slots. You can only Shorthand spells equal to or lower than 5th level.",
-				"Additionally, when copyiong spells into your spellbook, you can do so 10x faster."
+				"Additionally, when copying spells into your spellbook, you can do so 10x faster."
 			]
 		},
 		{
@@ -11361,7 +11360,7 @@
 			]
 		},
 		{
-			"name": "Quick Copying",
+			"name": "Quickened Copying",
 			"source": "TftJC",
 			"className": "Wizard",
 			"classSource": "PHB",
@@ -11402,7 +11401,7 @@
 			"subclassSource": "TftJC",
 			"level": 14,
 			"entries": [
-				"At 14th level, your ability to stay hidden is perfected. You can choose to ingore either the Somatic or the Verbal component of a spell, and always have Invisibility and Greater Invisibility shorthanded (these do not count against your number of shorthanded spells, and these spells cannot be replaced by Quickened Copying)."
+				"At 14th level, your ability to stay hidden is perfected. You can choose to ignore either the Somatic or the Verbal component of a spell, and always have Invisibility and Greater Invisibility shorthanded (these do not count against your number of shorthanded spells, and these spells cannot be replaced by Quickened Copying)."
 			]
 		}
 	]
