@@ -1,9 +1,9 @@
 const prompt = require("prompt");
 const fs = require("fs");
 
-const FOLDERS = ["feat", "item", "monster", "optionalfeature", "race", "reward", "spell", "subclass", "subclassFeature", "subrace"];
+const EXCLUDED_FOLDERS = ["node_modules", ".git", ".vscode"]
 
-const newJson = {};
+const FOLDERS = fs.readdirSync("./").filter((file) => fs.lstatSync(file).isDirectory() && !EXCLUDED_FOLDERS.includes(file));
 
 prompt.start();
 
@@ -26,7 +26,9 @@ prompt.get(
         }
 
         const version = result.version;
-        const newJson = {};
+        const newJson = {
+            $schema: "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+        };
         const _meta = {
             sources: [
                 {
@@ -50,9 +52,10 @@ prompt.get(
                 const obj = JSON.parse(fileContent);
                 newJson[folder].push(obj);
             });
+            newJson[folder].sort((a,b) => a.name.localeCompare(b.name));
         });
         const newJsonContent = JSON.stringify(newJson, null, 4);
-        fs.writeFile("./test.json", newJsonContent, (err) => {
+        fs.writeFile("./Tales_from_the_Jaazdin_Collective.json", newJsonContent, (err) => {
             if (err) {
                 console.error(`Error writing file tftjc.json: ${err}`);
             } else {
