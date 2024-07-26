@@ -1,0 +1,12 @@
+{
+    "name": "Weave of Midnight",
+    "source": "TftJC",
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "subclassShortName": "Lunar",
+    "subclassSource": "TftJC",
+    "level": 6,
+    "entries": [
+        "At 6th level, you gain the ability to perform a ritual to render yourself and other creatures invisible. The ritual takes 1 minute to perform at the end of which up to your Charisma modifier number of creatures within 10 feet of you are turned invisible as if the invisibility spell had been cast. The invisibility lasts for 1 hour, until any invisible creature attacks or casts a spell, or you enter an area of bright light. You can only conduct this ritual at night."
+    ]
+}

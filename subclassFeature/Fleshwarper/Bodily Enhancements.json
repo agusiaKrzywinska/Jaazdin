@@ -1,0 +1,33 @@
+{
+    "name": "Bodily Enhancements",
+    "source": "TftJC",
+    "className": "Warlock",
+    "classSource": "PHB",
+    "subclassShortName": "Fleshwarper",
+    "subclassSource": "TftJC",
+    "level": 6,
+    "entries": [
+        "At 6th level, your body is more accustomed to transforming. You gain resistance to Necrotic Damage, but this resistance is lost while a weapon is conjured. Furthermore, your weapons are stronger.",
+        {
+            "type": "inset",
+            "name": "Blade",
+            "entries": [
+                "Your walking speed whilst the Blade is summoned is now increased by 15 feet. You gain a climbing speed equal to your walking speed, and you can take the Dash action as a Bonus action"
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Cannon",
+            "entries": [
+                "If you damage a creature with a Cantrip, you have advantage on the next different cantrip attack you make against them. This bonus is lost after 1 minute."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Shield",
+            "entries": [
+                "You gain a +2 bonus to your Armor Class provided by your Shield, and you can add the Armor Class Bonus from this shield to Dexterity Saving throws."
+            ]
+        }
+    ]
+}

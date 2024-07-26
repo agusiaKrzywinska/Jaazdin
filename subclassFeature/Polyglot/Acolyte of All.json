@@ -1,0 +1,12 @@
+{
+    "name": "Acolyte of All",
+    "source": "TftJC",
+    "className": "Cleric",
+    "classSource": "PHB",
+    "subclassShortName": "Polyglot",
+    "subclassSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "You know how to get along with people from all walks of life, races, and religions. Your vast knowledge of religions grants you proficiency in the Religion skill and allows you to add twice your Proficiency bonus to Religion checks. In addition, when you make a Persuasion check you add your Wisdom modifier to the check as well as any normal modifiers when dealing with people of faith."
+    ]
+}

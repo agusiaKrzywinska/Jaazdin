@@ -1,0 +1,15 @@
+{
+    "name": "Circle of Titans",
+    "source": "TftJC",
+    "page": 20,
+    "className": "Druid",
+    "classSource": "PHB",
+    "shortName": "Titan",
+    "subclassFeatures": [
+        "Circle of Titans|Druid|PHB|Titan|TftJC|2",
+        "Menacing Stature|Druid|PHB|Titan|TftJC|6",
+        "Titanic Might|Druid|PHB|Titan|TftJC|6",
+        "Indomitable Stature|Druid|PHB|Titan|TftJC|10",
+        "Primal Reckoning|Druid|PHB|Titan|TftJC|14"
+    ]
+}

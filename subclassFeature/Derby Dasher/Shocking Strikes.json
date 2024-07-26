@@ -1,0 +1,26 @@
+{
+    "name": "Shocking Strikes",
+    "source": "TftJC",
+    "className": "Artificer",
+    "classSource": "TCE",
+    "subclassShortName": "Derby Dasher",
+    "subclassSource": "TftJC",
+    "level": 9,
+    "entries": [
+        "At 9th level, you generate static along your weapons. Weapon attacks made by you deal an additional 1d6 lightning damage. Additionally, you Dasher weapons gain bonus effects.",
+        {
+            "type": "inset",
+            "name": "Flip Swords",
+            "entries": [
+                "Creatures hit by two attacks made by your Flip Swords in one turn have their walking speed set to 0 until the end of your next turn."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Silver Tethers",
+            "entries": [
+                "Creatures hit by two attacks made by your Tethers in one turn must make a Strength saving throw against your DC, and on a fail are restrained until the end of your next turn."
+            ]
+        }
+    ]
+}

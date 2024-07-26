@@ -1,0 +1,13 @@
+{
+    "name": "Honorable Combatant",
+    "source": "TftJC",
+    "className": "Barbarian",
+    "classSource": "PHB",
+    "subclassShortName": "Pugilist",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, you become a practitioner of fisticuffs. Your unarmed strikes deal 1d4 bludgeoning damage, and while raging, your unarmed attacks deal an additional 1d4 damage. Your unarmed strikes can be lethal. Furthermore, you can add your Charisma Modifier to your Initiative Bonus.",
+        "At 7th level, your bonus damage increases to 2d4, at 11th level it increases to 3d4, and at 15th level, it increases to 4d4."
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Oath of the Masked Rider",
+    "source": "TftJC",
+    "className": "Paladin",
+    "classSource": "PHB",
+    "subclassShortName": "Masked Rider",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "As villains run wild and monsters destroy the city ,a brave warrior steps up from the crowd. Brilliant armor coalesces around them, as an imposing Mask covers their face. They race off to any challenge in their path, as onlookers cheer for the spectacle.",
+        "Paladins under the Oath of the Masked Rider dash forth in blazing explosions, defeating evil with style, flair and loud kabooms.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Tenets of Masked Rider|Paladin|PHB|Masked Rider|TftJC|3"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Channel Divinity|Paladin|PHB|Masked Rider|TftJC|3"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Oath of the Masked Rider Spells|Paladin|PHB|Masked Rider|TftJC|3"
+        }
+    ]
+}

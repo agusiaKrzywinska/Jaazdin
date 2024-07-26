@@ -1,0 +1,44 @@
+{
+    "name": "Magnetic Hover",
+    "source": "TftJC",
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "subclassShortName": "Ironhide",
+    "subclassSource": "TftJC",
+    "level": 14,
+    "entries": [
+        "At 14th level, you can accurately control magnetic fields under you to cause you to fly. As an Action, you gain a fly speed and maximum fly height based on the terrain that is under you.",
+        {
+            "type": "table",
+            "caption": "Hover Material Table",
+            "colLabels": [
+                "STerrain Type",
+                "Fly Speed",
+                "AFly Height"
+            ],
+            "colStyles": [
+                "col- text-",
+                "col- text- ",
+                "col- text- "
+            ],
+            "rows": [
+                [
+                    "Earth/Sand/Stone",
+                    "30ft",
+                    "60ft"
+                ],
+                [
+                    "Metal",
+                    "60ft",
+                    "120ft"
+                ],
+                [
+                    "Water/Ice",
+                    "10ft",
+                    "5ft"
+                ]
+            ]
+        },
+        "You can fly with this feature for 10 minutes at a time, and can do so a number of times equal to your Constitution modifier per long rest."
+    ]
+}

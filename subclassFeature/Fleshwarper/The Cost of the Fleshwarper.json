@@ -1,0 +1,33 @@
+{
+    "name": "The Cost of the Fleshwarper",
+    "source": "TftJC",
+    "className": "Warlock",
+    "classSource": "PHB",
+    "subclassShortName": "Fleshwarper",
+    "subclassSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "At 1st level, your Patron demands more from you than the average Warlock. You lose an arm, and cannot have it replaced nor regrown. As a Bonus Action, you can pull from your Patron's well of power, summoning a magical weapon in place of your missing arm, in which you are always proficient. All summoned weapons use your Charisma to calculate to-hit and damage bonuses. You decide which weapon you summon from a list below. You cannot be disarmed or drop conjured weapons, nor can you wear Medium or Heavy armor while a weapon is conjured. Any weapon you conjure can be selected for the 'Pact of the Blade' feature.",
+        {
+            "type": "inset",
+            "name": "Blade",
+            "entries": [
+                "You conjure a Blade in place of your arm. It deals 1d10 Slashing damage. Your walking speed increases by 10 feet while the Blade is active. While in Blade form, you subtract 1d4 from Concentration checks."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Cannon",
+            "entries": [
+                "You conjure a Cannon. This acts as an Arcane Focus. Whenever you cast a Cantrip, you can increase its damage. It deals an additional die of damage, or for Eldritch Blast, gains another beam. Doing so knocks you back 10 feet. You cannot cast the same cantrip next turn. You have disadvantage on Strength checks and Saving Throws."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Shield",
+            "entries": [
+                "You conjure a Shield in place of your arm. Your walking speed decreases by 10 feet. You provide half of the AC bonus from this shield to creatures of your choice within 10 feet of you. Furthermore, you have advantage on saving throws made to maintain Concentration."
+            ]
+        }
+    ]
+}

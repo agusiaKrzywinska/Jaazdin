@@ -1,0 +1,12 @@
+{
+    "name": "Quickened Conducting",
+    "source": "TftJC",
+    "className": "Bard",
+    "classSource": "PHB",
+    "subclassShortName": "Conducting",
+    "subclassSource": "TftJC",
+    "level": 14,
+    "entries": [
+        "At 14th level, your ability to conduct is quickened. Your Conductor's Baton ability can now causes two creatures of your choice to be affected"
+    ]
+}

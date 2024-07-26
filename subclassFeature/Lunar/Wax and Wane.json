@@ -1,0 +1,12 @@
+{
+    "name": "Wax and Wane",
+    "source": "TftJC",
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "subclassShortName": "Lunar",
+    "subclassSource": "TftJC",
+    "level": 14,
+    "entries": [
+        "At 14th level, you have begun to absorb the powers of the moon into your magic. Once per long rest when you expend the last spell slot for a spell level you can regain 1 spell slot of any level lower than your last expended level. In addition, whenever you use sorcery points you can use your reaction to deal radiant damage equal to your proficiency score to any creatures of your choice within 10ft."
+    ]
+}

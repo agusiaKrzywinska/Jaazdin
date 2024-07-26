@@ -1,0 +1,12 @@
+{
+    "name": "Boastful",
+    "source": "TftJC",
+    "className": "Barbarian",
+    "classSource": "PHB",
+    "subclassShortName": "Pugilist",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, you become obnoxious in your showmanship. You gain proficiency in Performance, and can add your Strength Modifier to any Performance check you would make that focuses on your raw power. While Raging, you have advantage on Performance Checks made in this way."
+    ]
+}

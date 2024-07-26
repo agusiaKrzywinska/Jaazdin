@@ -1,0 +1,19 @@
+{
+    "name": "Training Vol.",
+    "source": "TftJC",
+    "rarity": "varies",
+    "wondrous": true,
+    "entries": [
+        "These tomes contains the secrets on a variety of topics.",
+        {
+            "type": "list",
+            "items": [
+                "{@item Tinker's Tome Vol.|TftJC}",
+                "{@item Herbalist Helper Vol.|TftJC}",
+                "{@item Enchanting Catalogue Vol.|TftJC}",
+                "{@item Thieves Almanac Vol.|TftJC}",
+                "{@item Performer’s Companion Vol.|TftJC}"
+            ]
+        }
+    ]
+}

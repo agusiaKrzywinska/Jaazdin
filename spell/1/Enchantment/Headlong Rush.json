@@ -1,0 +1,59 @@
+{
+    "name": "Headlong Rush",
+    "source": "TftJC",
+    "page": 56,
+    "level": 1,
+    "school": "E",
+    "time": [
+        {
+            "number": 1,
+            "unit": "bonus action"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "self"
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true
+    },
+    "duration": [
+        {
+            "type": "timed",
+            "duration": {
+                "amount": 1,
+                "type": "round"
+            }
+        }
+    ],
+    "entries": [
+        "You embolden yourself with heroism. For the duration, your speed and jump distance/height is doubled when moving directly towards a hostile creature. After finishing moving, you can use your action to immediately make a melee weapon attack against a creature. On a hit, they take {@dice 2d8} bludgeoning damage + your spellcasting modifier and are knocked prone."
+    ],
+    "entriesHigherLevel": [
+        {
+            "type": "entries",
+            "name": "At Higher Levels",
+            "entries": [
+                "When you cast this spell using a spell slot of 2nd level or higher, you deal an additional {@dice 1d8} bludgeoning damage for every slot above 1st."
+            ]
+        }
+    ],
+    "damageInflict": [
+        "bludgeoning"
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Paladin",
+                "source": "PHB"
+            },
+            {
+                "name": "Ranger",
+                "source": "PHB"
+            }
+        ]
+    }
+}

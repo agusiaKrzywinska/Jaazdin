@@ -1,0 +1,46 @@
+{
+    "name": "Expanded Spell List",
+    "source": "TftJC",
+    "className": "Warlock",
+    "classSource": "PHB",
+    "subclassShortName": "Fleshwarper",
+    "subclassSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "The Fleshwarper lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        {
+            "type": "table",
+            "caption": "Fleshwarper Expanded Spells",
+            "colLabels": [
+                "Spell Level",
+                "Spells"
+            ],
+            "colStyles": [
+                "col- text-",
+                "col- text- "
+            ],
+            "rows": [
+                [
+                    "1st",
+                    "absorb elements, zephyr strike"
+                ],
+                [
+                    "2nd",
+                    "alter self, spiritual weapon"
+                ],
+                [
+                    "3rd",
+                    "elemental weapon, haste"
+                ],
+                [
+                    "4th",
+                    "evard's black tentacles, stoneskin"
+                ],
+                [
+                    "5th",
+                    "bigby's hand, mislead"
+                ]
+            ]
+        }
+    ]
+}

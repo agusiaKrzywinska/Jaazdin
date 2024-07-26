@@ -1,0 +1,57 @@
+{
+    "name": "Brilliant Spectre",
+    "source": "TftJC",
+    "page": 58,
+    "level": 3,
+    "school": "N",
+    "time": [
+        {
+            "number": 1,
+            "unit": "action"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "feet",
+            "amount": 30
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true,
+        "m": "a lit lantern"
+    },
+    "duration": [
+        {
+            "type": "timed",
+            "duration": {
+                "type": "hour",
+                "amount": 1
+            }
+        }
+    ],
+    "entries": [
+        "You transmute a lantern's flame into a Will-o'-Wisp. The Will-o'-Wisp is friendly to you, and remains for the spell's duration or once its hit points become 0. As a bonus action on your turn, you can command the Will-o'-Wisp to perform an action. Additionally, you can give the Will-o'-Wisp a command once a certain event happens, like 'Notify me if anyone enters this area' or 'Attack any undead you see'. You can have up to three Will-o'-Wisp under your control at a time from this spell's effects. If you already have three Will-o'-Wisps under your control and you cast this spell again, that new Will-o'-Wisp becomes hostile towards you."
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Bard",
+                "source": "PHB"
+            },
+            {
+                "name": "Cleric",
+                "source": "PHB"
+            },
+            {
+                "name": "Warlock",
+                "source": "PHB"
+            },
+            {
+                "name": "Wizard",
+                "source": "PHB"
+            }
+        ]
+    }
+}

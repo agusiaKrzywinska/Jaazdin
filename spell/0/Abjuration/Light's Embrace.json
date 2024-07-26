@@ -1,0 +1,48 @@
+{
+    "name": "Light's Embrace",
+    "source": "TftJC",
+    "page": 55,
+    "level": 0,
+    "school": "A",
+    "time": [
+        {
+            "number": 1,
+            "unit": "action"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "feet",
+            "amount": 60
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true
+    },
+    "duration": [
+        {
+            "type": "timed",
+            "duration": {
+                "type": "round",
+                "amount": 1
+            }
+        }
+    ],
+    "entries": [
+        "A creature of your choice within range begins to glow with brilliant light, which causes them to shed bright light for 5ft, and dim light for another 5ft. During the spell's duration, creatures that can see the light have disadvantage on attack rolls that target that creature."
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Bard",
+                "source": "PHB"
+            },
+            {
+                "name": "Cleric",
+                "source": "PHB"
+            }
+        ]
+    }
+}

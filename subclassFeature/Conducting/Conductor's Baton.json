@@ -1,0 +1,13 @@
+{
+    "name": "Conductor's Baton",
+    "source": "TftJC",
+    "className": "Bard",
+    "classSource": "PHB",
+    "subclassShortName": "Conducting",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, you create a Conductor's Baton. It counts as a Bard Instrument, and when used to cast Bard Spells, music magically plays around you. If you ever lose or break your Baton, you can create another one with 1 gp worth of material by spending 10 minutes of time.",
+        "As an Action, you can expend a use of your Bardic Inspiration to command a friendly creature that can hear you to use their Reaction to immediately make an Action."
+    ]
+}

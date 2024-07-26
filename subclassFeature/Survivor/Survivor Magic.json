@@ -1,0 +1,46 @@
+{
+    "name": "Survivor Magic",
+    "source": "TftJC",
+    "className": "Ranger",
+    "classSource": "PHB",
+    "subclassShortName": "Survivor",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Survivor Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.",
+        {
+            "type": "table",
+            "caption": "Survivor Spells",
+            "colLabels": [
+                "Ranger Level",
+                "Spell"
+            ],
+            "colStyles": [
+                "col- text-",
+                "col- text- "
+            ],
+            "rows": [
+                [
+                    "3rd",
+                    "Shield"
+                ],
+                [
+                    "5th",
+                    "Rope Trick"
+                ],
+                [
+                    "9th",
+                    "Nondetection"
+                ],
+                [
+                    "13th",
+                    "Death Ward"
+                ],
+                [
+                    "17th",
+                    "Mass Cure Wounds"
+                ]
+            ]
+        }
+    ]
+}

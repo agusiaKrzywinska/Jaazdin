@@ -1,0 +1,22 @@
+{
+    "name": "Lance of the Steadfast Prince",
+    "source": "TftJC",
+    "rarity": "legendary",
+    "baseItem": "Lance|PHB",
+    "reqAttune": "by a creature with at least 15 CHA",
+    "type": "M",
+    "weight": 6,
+    "weaponCategory": "martial",
+    "property": [
+        "R",
+        "S"
+    ],
+    "dmg1": "1d12",
+    "dmgType": "P",
+    "entries": [
+        "You gain a +3 to attack rolls and damage rolls with this weapon.",
+        "If you attack a creature with this weapon and roll a 20 on the attack roll, you deal an additional 2d8 necrotic damage and regain a number of hit points equal to the necrotic damage dealt.",
+        "Additionally, your walking speed is increased by 10, and if you are mounted this walking speed is bonus is instead applied to your mount.",
+        "<b><i>Special.</i></b> You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."
+    ]
+}

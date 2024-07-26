@@ -1,0 +1,27 @@
+{
+    "name": "Pit Fighter",
+    "source": "TftJC",
+    "entries": [
+        "You know the ins and outs of unconventional and exotic weaponry. You gain the following benefits:",
+        {
+            "type": "list",
+            "items": [
+                "You gain proficiency with a weapon of your choice.",
+                "You don't suffer disadvantage when using throw weapons when within 5ft of a hostile creature and both ranges of all thrown weapons increases by 10.",
+                "When you take the attack action you can use a bonus action to throw a net, bola, or make a Shove attack."
+            ]
+        }
+    ],
+    "ability": [
+        {
+            "choose": {
+                "from": [
+                    "str",
+                    "cha",
+                    "dex"
+                ],
+                "amount": 1
+            }
+        }
+    ]
+}

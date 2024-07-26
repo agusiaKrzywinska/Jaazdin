@@ -1,0 +1,26 @@
+{
+    "name": "Oath of the Slayer",
+    "source": "TftJC",
+    "className": "Paladin",
+    "classSource": "PHB",
+    "subclassShortName": "Slayer",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "Sometimes a warrior will come across dangers that go well beyond the handling of mundane warriors. Dragons, demons, giants, fey, whatever supernatural threat befalls the people of world the Slayers are there to take up the fight. Many religious orders have their own sect of Slayers dedicated to eradicating the evil of their beliefs.",
+        "Most Slayers are trained from a young age to fight the target of their quarry. By the time they reach maturity hunting their quarry is not just their mission, it is their life.",
+        "A Slayer’s Quarry has a profound impact on a Slayer's fighting style and lifestyle. A giant hunter might use a polearm and a sling to poke and prod their quarry until they succumb. Dragon slayers might use heavy armor, heavy shields, and a large sword to protect themselves from their target’s flames and claws. The way a Slayer fights, acts, and lives, all serve to make them the ultimate opponent for the thing they hunt.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Tenets of the Slayer|Paladin|PHB|Slayer|TftJC|3"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Channel Divinity|Paladin|PHB|Slayer|TftJC|3"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Oath of the Slayer Spells|Paladin|PHB|Slayer|TftJC|3"
+        }
+    ]
+}

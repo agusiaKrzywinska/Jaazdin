@@ -1,0 +1,12 @@
+{
+    "name": "Can't Be Tied Down",
+    "source": "TftJC",
+    "className": "Ranger",
+    "classSource": "PHB",
+    "subclassShortName": "Wayward",
+    "subclassSource": "TftJC",
+    "level": 7,
+    "entries": [
+        "At 7th level, your ability to slip away becomes unmatched. You have advantage on Saving Throws and ability checks against being grappled, restrained, or effects that would lower your speed. Furthermore, you learn the Far Step spell, and can cast it once per short or long rest without spending a spell slot."
+    ]
+}

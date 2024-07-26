@@ -1,0 +1,10 @@
+{
+    "name": "Hookblade MK II",
+    "source": "TftJC",
+    "type": "Invention",
+    "entries": [
+        "<i><b>Innovative Invention.</i></b>",
+        "This bracer contains a retractable three-pronged climbing tool.",
+        "As a bonus action, the wearer can deploy (or retract) the climbing tool by pressing a button (this is considered using an item). While deployed, the wearer gains a climb speed equal to their walking speed. Additionally, the wearer can hang from a wall they are climbing with only the hookblade secured into the wall, freeing up a hand."
+    ]
+}

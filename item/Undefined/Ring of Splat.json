@@ -1,0 +1,13 @@
+{
+    "name": "Ring of *Splat*",
+    "source": "TftJC",
+    "rarity": "rare",
+    "wondrous": true,
+    "entries": [
+        "“You wanna piece of me?”",
+        "A ring that smells of rich cinnamon and sweet fruit, creating a unique scent that encapsulates the wearer, confusing creatures that rely on scent.",
+        "As a bonus action, the wearer of the ring can conjure a ghostly pie and attempt to smash it in the face of a creature within melee range (improvised weapon attack). On a hit, the pie explodes in the creature’s face, blinding them for one turn and dealing {@dice 1d4} force damage. If the attack misses and there’s a creature directly behind the original target, another attack is made against this new target.",
+        "The Ring of *Splat* contains five charges and regains {@dice 1d4} charges every day at dawn.",
+        "Ghost pie can only be eaten by ghosts. It goes well with ghost vanilla ice cream."
+    ]
+}

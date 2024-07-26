@@ -1,0 +1,12 @@
+{
+    "name": "Metallic Defenses",
+    "source": "TftJC",
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "subclassShortName": "Ironhide",
+    "subclassSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "Starting at 1st level, your skin becomes hard as steel, or shards of metal hover around you. While you aren't wearing armor, your AC equals 10 + your Constitution modifier. As a part of a short rest, you can disassemble suits of armor to increase your AC. Light armor provides 11 AC base, Medium provides 12 and heavy provides 13. If the armor you have disassembled has bonus effects, such as enchantments, you gain those effects. You can only hold one disassembled set of armor with this feature at a time."
+    ]
+}

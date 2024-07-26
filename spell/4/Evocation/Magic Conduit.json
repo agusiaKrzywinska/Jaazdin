@@ -1,0 +1,67 @@
+{
+    "name": "Magic Conduit",
+    "source": "TftJC",
+    "page": 61,
+    "level": 4,
+    "school": "V",
+    "time": [
+        {
+            "number": 1,
+            "unit": "action"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "feet",
+            "amount": 45
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true,
+        "m": "a spell scroll of a level 3 or lower spell slot, which is consumed"
+    },
+    "duration": [
+        {
+            "type": "timed",
+            "duration": {
+                "type": "minute",
+                "amount": 1
+            },
+            "concentration": true
+        }
+    ],
+    "entries": [
+        "A circle of arcane glyphs and runes appears on the ground within range. The circle has a 10ft radius and gives off faint light. While standing within the circle, yourself and those other creatures can use a Bonus Action to draw power from the circle, making the next spell they cast as an Action this turn upcasted by one level. They must remain in the circle while casting the spell for the increase to take effect. The conduit has 8 charges, and absorbing its power consumes a charge."
+    ],
+    "entriesHigherLevel": [
+        {
+            "type": "entries",
+            "name": "At Higher Levels",
+            "entries": [
+                "If you cast this spell using a spell slot of 5th level slot, the conduit gains an additional 2 charges per every spell slots above 4th."
+            ]
+        }
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Bard",
+                "source": "PHB"
+            },
+            {
+                "name": "Druid",
+                "source": "PHB"
+            },
+            {
+                "name": "Sorcerer",
+                "source": "PHB"
+            },
+            {
+                "name": "Wizard",
+                "source": "PHB"
+            }
+        ]
+    }
+}

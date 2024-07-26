@@ -1,0 +1,18 @@
+{
+    "name": "Performer’s Companion Vol.",
+    "source": "TftJC",
+    "rarity": "varies",
+    "wondrous": true,
+    "entries": [
+        "These tome contains the secrets to performance and writing.",
+        {
+            "type": "list",
+            "items": [
+                "{@item Performer’s Companion Vol. (Uncommon)|TftJC}",
+                "{@item Performer’s Companion Vol. (Rare)|TftJC}",
+                "{@item Performer’s Companion Vol. (Very Rare)|TftJC}",
+                "{@item Performer’s Companion Vol. (Legendary)|TftJC}"
+            ]
+        }
+    ]
+}

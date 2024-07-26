@@ -1,0 +1,21 @@
+{
+    "name": "Desertstrider",
+    "source": "TftJC",
+    "className": "Fighter",
+    "classSource": "PHB",
+    "subclassShortName": "Desertstrider",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "Deep in the Dunish Desert travels warriors accustomed to its unique terrain. From wanderers, bandits and soldiers, Desertstriders make the most of their environment in combat,harnessing the sands for their strength.",
+        "Desertstriders control their terrain to confuse and control their foes. Desertstriders are able to shift the earth to their will, showing no mercy to their foes, as does the unrelenting dunes of Dunish.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Desert Acclimation|Fighter|PHB|Desertstrider|TftJC|3"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Sand Swipe|Fighter|PHB|Desertstrider|TftJC|3"
+        }
+    ]
+}

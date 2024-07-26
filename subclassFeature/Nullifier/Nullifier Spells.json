@@ -1,0 +1,46 @@
+{
+    "name": "Nullifier Spells",
+    "source": "TftJC",
+    "className": "Artificer",
+    "classSource": "TCE",
+    "subclassShortName": "Nullifier",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "You always have certain spells prepared after you reach particular levels in this class, as shown in the Nullifier Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificers spells you prepare.",
+        {
+            "type": "table",
+            "caption": "Nullifier Spells",
+            "colLabels": [
+                "Artificer Level",
+                "Spell"
+            ],
+            "colStyles": [
+                "col- text-",
+                "col- text- "
+            ],
+            "rows": [
+                [
+                    "3rd",
+                    "catapult, protection from Evil and Good"
+                ],
+                [
+                    "5th",
+                    "knock, hold person"
+                ],
+                [
+                    "9th",
+                    "counterspell, dispel magic"
+                ],
+                [
+                    "13th",
+                    "aura of purity, death ward"
+                ],
+                [
+                    "17th",
+                    "dispel evil and good, hold monster"
+                ]
+            ]
+        }
+    ]
+}

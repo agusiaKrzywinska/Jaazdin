@@ -1,0 +1,19 @@
+{
+    "name": "Bladed Net",
+    "source": "TftJC",
+    "page": 50,
+    "type": "R",
+    "rarity": "none",
+    "weight": 2,
+    "value": 10,
+    "weaponCategory": "martial",
+    "property": [
+        "S",
+        "T"
+    ],
+    "range": "5/15",
+    "entries": [
+        "<b><i>Special.</i></b> A Large or smaller creature hit by a net is Restrained until it is freed. A net has no Effect on Creatures that are formless or Creatures that are Huge or larger. A creature can use its Action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. On a failure, the creature takes 1d4 slashing damage. Dealing 10 slashing damage to the net (AC 13) also frees the creature without harming it, Ending the Effect and destroying the net. When you use an Action,bonus Action, or Reaction to Attack with a net, you can make only one Attack regardless of the number of attacks you can normally make.",
+        "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+    ]
+}

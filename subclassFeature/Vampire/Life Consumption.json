@@ -1,0 +1,12 @@
+{
+    "name": "Life Consumption",
+    "source": "TftJC",
+    "className": "Barbarian",
+    "classSource": "PHB",
+    "subclassShortName": "Vampire",
+    "subclassSource": "TftJC",
+    "level": 14,
+    "entries": [
+        "At 14th level, you can absorb the life force of creatures. Whenever you land the killing blow on a creature of CR 1 or greater, you can use your reaction to absorb their life force. Doing so heals you a number of hit points equal to the creature's CR (or level) x 4."
+    ]
+}

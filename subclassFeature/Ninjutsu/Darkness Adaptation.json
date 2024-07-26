@@ -1,0 +1,12 @@
+{
+    "name": "Darkness Adaptation",
+    "source": "TftJC",
+    "className": "Rogue",
+    "classSource": "PHB",
+    "subclassShortName": "Ninjutsu",
+    "subclassSource": "TftJC",
+    "level": 13,
+    "entries": [
+        "At 13th level, you gain 60ft of Darkvision the can see through Magical Darkness."
+    ]
+}

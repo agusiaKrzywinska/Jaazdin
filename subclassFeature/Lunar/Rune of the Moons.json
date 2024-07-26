@@ -1,0 +1,12 @@
+{
+    "name": "Rune of the Moons",
+    "source": "TftJC",
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "subclassShortName": "Lunar",
+    "subclassSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "When you take this bloodline at 1st level, the magic of the moons that runs in your blood allows you to innately understand the languages of Fey. You can read, speak, and write Sylvan."
+    ]
+}

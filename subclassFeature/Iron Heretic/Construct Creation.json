@@ -1,0 +1,12 @@
+{
+    "name": "Construct Creation",
+    "source": "TftJC",
+    "className": "Druid",
+    "classSource": "PHB",
+    "subclassShortName": "Iron Heretic",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "You can expend 2 uses of your Wild Shape to cast the Find Steed Spell. When you summon a steed in this way it is considered a Construct and gains the AC and all other benefits your armor provides you. It also gains the effects of Metal Carapace."
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Shell of Iron",
+    "source": "TftJC",
+    "className": "Druid",
+    "classSource": "PHB",
+    "subclassShortName": "Iron Heretic",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "Starting at 2nd level, you gain proficiency in heavy armor and ignore the restriction on wearing metal that druids normally have."
+    ]
+}

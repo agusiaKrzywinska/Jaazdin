@@ -1,0 +1,12 @@
+{
+    "name": "Potent Spellcasting",
+    "source": "TftJC",
+    "className": "Cleric",
+    "classSource": "PHB",
+    "subclassShortName": "Fate",
+    "subclassSource": "TftJC",
+    "level": 8,
+    "entries": [
+        "Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+    ]
+}

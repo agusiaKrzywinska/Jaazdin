@@ -1,0 +1,13 @@
+{
+    "name": "You Are Already Dead",
+    "source": "TftJC",
+    "className": "Rogue",
+    "classSource": "PHB",
+    "subclassShortName": "Ninjutsu",
+    "subclassSource": "TftJC",
+    "level": 17,
+    "entries": [
+        "At 17th level, your strikes can leave a lasting affect on unsuspecting targets. Once per Long rest, as an Action, you can attack a creature that you have Death Marked. That attack is considered a Critical Hit. That creature must make a Constitution Saving Throw (DC = 8 + prof + INT). On a fail, they take the maximum damage from your Sneak Attack dice.",
+        "The range of your Death Mark now covers the entire plane of existence you are on."
+    ]
+}

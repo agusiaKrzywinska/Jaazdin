@@ -1,0 +1,45 @@
+{
+    "name": "Oath of the Slayer Spells",
+    "source": "TftJC",
+    "className": "Paladin",
+    "classSource": "PHB",
+    "subclassShortName": "Slayer",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        {
+            "type": "table",
+            "caption": "Slayer Spells",
+            "colLabels": [
+                "Paladin Level",
+                "Spell"
+            ],
+            "colStyles": [
+                "col- text-",
+                "col- text- "
+            ],
+            "rows": [
+                [
+                    "3rd",
+                    "absorb elements, hunter's mark"
+                ],
+                [
+                    "5th",
+                    "locate plants or animals, see invisibility"
+                ],
+                [
+                    "9th",
+                    "phantom steed, protection from energy"
+                ],
+                [
+                    "13th",
+                    "locate creature, dimension door"
+                ],
+                [
+                    "17th",
+                    "hold monster, steel wind strike"
+                ]
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Shadowsworn",
+    "source": "TftJC",
+    "page": 44,
+    "className": "Warlock",
+    "classSource": "PHB",
+    "shortName": "Shadow",
+    "subclassFeatures": [
+        "Expanded Spell List|Warlock|PHB|Shadow|TftJC|1",
+        "Gifted Prowess|Warlock|PHB|Shadow|TftJC|1",
+        "Sweep the Darkness|Warlock|PHB|Shadow|TftJC|1",
+        "Shadow's Edge|Warlock|PHB|Shadow|TftJC|6",
+        "Stepping Umbra|Warlock|PHB|Shadow|TftJC|10",
+        "Eclipse Soul|Warlock|PHB|Shadow|TftJC|14"
+    ]
+}

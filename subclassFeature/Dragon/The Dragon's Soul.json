@@ -1,0 +1,12 @@
+{
+    "name": "The Dragon's Soul",
+    "source": "TftJC",
+    "className": "Druid",
+    "classSource": "PHB",
+    "subclassShortName": "Dragon",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "When you choose this circle at 2nd level, you gain a connection to Draconic beings. You learn Draconic, and additionally you grow scales. While you aren't wearing armor, your AC equals 13 + your Dexterity modifier. Your Wild Shapes have a Draconic flare to them, and this bonus is still provided while you are in Wild Shape."
+    ]
+}

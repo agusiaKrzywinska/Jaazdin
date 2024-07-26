@@ -1,0 +1,12 @@
+{
+    "name": "Stage Presence",
+    "source": "TftJC",
+    "className": "Bard",
+    "classSource": "PHB",
+    "subclassShortName": "Conducting",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, your presence commands not only your audience, but your band. All creatures of your choice within a 15 ft radius of you have advantage on saving throws against charm and frightened effects."
+    ]
+}

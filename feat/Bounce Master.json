@@ -1,0 +1,14 @@
+{
+    "name": "Bounce Master",
+    "source": "TftJC",
+    "entries": [
+        "You've become an expert at making your thrown weapon hit no matter the situation. You gain the following benefits:",
+        {
+            "type": "list",
+            "items": [
+                "You can make attack rolls with thrown weapons against creatures who have full cover from you provided they are still within range and there is at least one clear path. When you do so you treat the creature as having 1/4 cover instead of full.",
+                "When you miss an attack roll with a thrown weapon you can make another attack roll against a different creature within the weapon's close range from the first target with disadvantage or have the weapon return to your hand."
+            ]
+        }
+    ]
+}

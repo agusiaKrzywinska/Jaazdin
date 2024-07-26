@@ -1,0 +1,45 @@
+{
+    "name": "Master of Minions",
+    "source": "TftJC",
+    "className": "Warlock",
+    "classSource": "PHB",
+    "subclassShortName": "Master",
+    "subclassSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "At 1st level, one of the creatures devoted to you has found you and dedicated itself to your service. Your minion takes the shape of a small humanoid, beast, elemental, or monstrosity with the following stat block which increases with your level.",
+        "When you summon a minion or get one for the first time assign its abilities scores using the values below: 16, 14, 10,10, 8, 4.",
+        "The minion obeys your general commands as best it can. It takes its turn on your initiative. On your turn, you can verbally command your minion where to move (no action required by you). You can use a bonus action to command it to take the Attack, Dash, Disengage, Help, or Cast A Spell actions. If you don’t issue a command the minion takes the dodge action and will try to get within 10 feet of you.",
+        "When you choose a Pact at 3rd level your minion is transformed to better suit your new found skills:",
+        {
+            "type": "inset",
+            "name": "Pact of the Blade",
+            "entries": [
+                "Your minion gains the Blade action."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Pact of the Tome",
+            "entries": [
+                "Your minion learns one 1st and 2nd level spell from the Warlock spell list. They can cast each of these spells once per long rest."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Pact of the Chain",
+            "entries": [
+                "Your minion now fights better on its own. It loses the Unfocused Follower feature and gains the Bolstered Follower feature."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Pact of the Talisman",
+            "entries": [
+                "Anyone holding your talisman is counted as the master of the minion for the purposes of this class’s features."
+            ]
+        },
+        "The minion won’t obey commands that put it in obvious danger, such as jumping off a cliff or walking into a fire. However, you can choose to push a command making a Persuasion or Intimidation check. The DC for this check is equal to 25 - your levels in this class.",
+        "If your minion dies, you can summon forth a new one by spending 8 hours in a magical ritual, the new minion must be of the creature type you chose when you took this class. If you don’t summon a new minion within 7 days a new one will magically find you."
+    ]
+}

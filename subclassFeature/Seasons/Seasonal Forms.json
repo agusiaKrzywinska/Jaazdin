@@ -1,0 +1,42 @@
+{
+    "name": "Seasonal Forms",
+    "source": "TftJC",
+    "className": "Druid",
+    "classSource": "PHB",
+    "subclassShortName": "Seasons",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "At 2nd level, when you use your Wild Shape you can further enhance your form with the power of the Seasonal Courts. When you Wild Shape you gain a number of temporary hit points equal to your Druid level x 3, and also you can choose from the Winter, Spring, Summer, and Autumn forms and gain its special abilities while you are in your chosen Wild Shape form:",
+        {
+            "type": "list",
+            "items": [
+                "Summer: You gain resistance to fire and your attacks deal 1d6 extra fire damage, this fire damage increases to 1d8 at 7th level, 1d10 at 13th level, and 1d12 at 18th level.",
+                "Spring: You gain resistance to acid damage and you gain the Vibrant Aura feature",
+                "Autumn: You gain the Shock Bolt ranged attack and resistance to lightning damage.",
+                "Winter: You gain resistance to cold damage and gain the Frost Breath Special action."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Vibrant Aura",
+            "entries": [
+                "Vines and plant life spring to life creating a 10ft radius of difficult terrain around you. In addition, any creature of your choice that regain hit points in that radius regains extra hit points equal to your proficiency bonus."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Shock Bolt",
+            "entries": [
+                "Make a ranged spell attack against one creature. On hit it deals 1d6 + your spellcasting ability modifier and the creature makes a Dexterity saving throw. On a failure it cannot make a reaction until the start of its next turn. The damage increases to 2d6 at 7th level, 3d6 at 13th level, and 4d6 at 18th level."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Frost Breath (Recharge 6)",
+            "entries": [
+                " You exhale a blast of freezing wind in a 15-foot cone. Each creature in the area must make a Constitution saving throw or take 3d6 cold damage on a failed save, or half as much damage on a successful one. This damage increases to 3d8 at 7th level. 3d10 at 13th level, and 3d12 at 18th level."
+            ]
+        }
+    ]
+}

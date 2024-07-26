@@ -1,0 +1,15 @@
+{
+    "name": "Hand-Bomb",
+    "source": "TftJC",
+    "type": "Invention",
+    "entries": [
+        "<i><b>Simple Invention.</i></b>",
+        "Damage: {@dice 1d4}",
+        "Damage Type: Bludgeoning",
+        "Range: 20/60",
+        "Weight: 0.5",
+        "On a successful hit, the Hand-Bomb explodes. All creatures within a 15ft cube of the point of detonation must make a DC 13 DEX Save, taking 3d4 Force damage on a fail or half on a save (If the bomb detonated while being thrown at a creature, they have disadvantage on the save).",
+        "On a miss, the bomb lands at the feet of the targeted creature. The bomb will then detonate after the end of your next turn, or if the bomb would take radiant/force/fire/thunder damage before that point.",
+        "The bomb can be picked up and thrown again in this time period, or diffused by making a DC 13 Tinkers Tools (INT/DEX) check. Failing this check immediately detonates the bomb."
+    ]
+}

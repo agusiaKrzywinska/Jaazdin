@@ -1,0 +1,16 @@
+{
+    "name": "Runebound",
+    "source": "TftJC",
+    "page": 41,
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "shortName": "Runebound",
+    "subclassFeatures": [
+        "Enhanced Fortitude|Sorcerer|PHB|Runebound|TftJC|1",
+        "Runebound Spells|Sorcerer|PHB|Runebound|TftJC|1",
+        "Runic Power|Sorcerer|PHB|Runebound|TftJC|6",
+        "Extra Attack|Sorcerer|PHB|Runebound|TftJC|6",
+        "Magical Siphon|Sorcerer|PHB|Runebound|TftJC|14",
+        "Runes of Power|Sorcerer|PHB|Runebound|TftJC|18"
+    ]
+}

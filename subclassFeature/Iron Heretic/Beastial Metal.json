@@ -1,0 +1,20 @@
+{
+    "name": "Beastial Metal",
+    "source": "TftJC",
+    "className": "Druid",
+    "classSource": "PHB",
+    "subclassShortName": "Iron Heretic",
+    "subclassSource": "TftJC",
+    "level": 6,
+    "entries": [
+        "At the 6th level, you gain the ability to reshape metal both inside and outside of your Wild Shape. You can use a bonus action to expend a use of your Wild Shape to manifest one of the following benefits on a suit of metal armor you are wearing for one hour:",
+        {
+            "type": "list",
+            "items": [
+                "Beastial Weapons: You create a natural weapon on your armor such as claws, a bladed tail, or fangs on the helmet. These weapons deal {@dice 1d8} magical damage of either bludgeoning, piercing, or slashing (chosen when you choose the weapon). These weapons are considered magical for the purpose of overcoming damage resistance.",
+                "Animalistic Movement: You gain a swim, climb, or burrow speed as your metal converts into claws, fins, or extra legs to assist with movement.",
+                "Enhanced Carapace: Your armor changes to grant you resistance to fire, thunder, or lightning damage."
+            ]
+        }
+    ]
+}

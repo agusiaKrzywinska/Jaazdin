@@ -1,0 +1,21 @@
+{
+    "name": "Devious Disruption",
+    "source": "TftJC",
+    "className": "Artificer",
+    "classSource": "TCE",
+    "subclassShortName": "Nullifier",
+    "subclassSource": "TftJC",
+    "level": 15,
+    "entries": [
+        "At 15th level, your magical sabotage has become more deadly. Your Magical Sabator is enhanced with the following effects:",
+        {
+            "type": "list",
+            "items": [
+                "When a crossbow or firearm malfunctions because of your Magical Sabator ability the wielder and each creature within 5 feet take 2d8 force damage.",
+                "When a spell is cast from a focus affected by your Magical Sabator ability the caster suffers magical backlash of force damage equal to twice the spell's level (1 damage for a cantrip).",
+                "A magic item becomes suppressed and stops functioning until an action is used to restart it."
+            ]
+        },
+        "In addition, whenever you cast an enchantment or transmutation spell using a spell slot of 1st level or higher, you regain one use of Magical Sabator."
+    ]
+}

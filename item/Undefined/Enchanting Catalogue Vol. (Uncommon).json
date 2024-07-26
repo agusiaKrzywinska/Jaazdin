@@ -1,0 +1,11 @@
+{
+    "name": "Enchanting Catalogue Vol. (Uncommon)",
+    "source": "TftJC",
+    "rarity": "uncommon",
+    "wondrous": true,
+    "entries": [
+        "This tome contains the secrets to enchanting magical objects.",
+        "It can be read over 1 week to learn the recipe for one uncommon or lower magical item, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Tinkering, Teaching, or Arcanist labor tier by 1.",
+        "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+    ]
+}

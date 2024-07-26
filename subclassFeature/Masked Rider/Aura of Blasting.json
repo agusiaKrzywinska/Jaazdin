@@ -1,0 +1,13 @@
+{
+    "name": "Aura of Blasting",
+    "source": "TftJC",
+    "className": "Paladin",
+    "classSource": "PHB",
+    "subclassShortName": "Masked Rider",
+    "subclassSource": "TftJC",
+    "level": 7,
+    "entries": [
+        "Starting at 7th level, whenever you or friendly creatures within 10ft of you forcibly move a hostile creature, that creature takes 1d8 thunder damage. This damage can only be done once per turn, per creature.",
+        "At 18th level, the range of this aura increases to 30 feet."
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Threads of Change",
+    "source": "TftJC",
+    "className": "Cleric",
+    "classSource": "PHB",
+    "subclassShortName": "Fate",
+    "subclassSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "At 1st level, You learn the {@spell Guidance|PHB} Cantrip if you don't already know it. Your ability to weave fate with this cantrip is more potent, as its die turns into a {@dice d6} at 5th level, a {@dice d8} at 9th level, and a {@dice d10} at 13th level."
+    ]
+}

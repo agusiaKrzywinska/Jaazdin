@@ -1,0 +1,51 @@
+{
+    "name": "Hero's Helping Hand",
+    "source": "TftJC",
+    "page": 56,
+    "level": 1,
+    "school": "V",
+    "time": [
+        {
+            "number": 1,
+            "unit": "bonus action"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "touch"
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true
+    },
+    "duration": [
+        {
+            "type": "instant"
+        }
+    ],
+    "entries": [
+        "You give a hand to an injured creature. They regain 1d4 + your spellcasting modifier in hit points. If the creature was at 0 hit points, they immediately stand up if they were prone, and restore the highest number of hit points possible for the die rolled."
+    ],
+    "entriesHigherLevel": [
+        {
+            "type": "entries",
+            "name": "At Higher Levels",
+            "entries": [
+                "When you cast this spell using a spell slot of 2nd level or higher, the creature regains an additional 1d4 hit points for every slot above 1st."
+            ]
+        }
+    ],
+    "miscTags": [
+        "HL"
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Paladin",
+                "source": "PHB"
+            }
+        ]
+    }
+}

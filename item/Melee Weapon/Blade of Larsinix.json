@@ -1,0 +1,17 @@
+{
+    "name": "Blade of Larsinix",
+    "source": "TftJC",
+    "rarity": "artifact",
+    "type": "M",
+    "reqAttune": "by a child of Larsinix",
+    "entries": [
+        "This weapon provides a +3 to Attack Rolls and Damage Rolls.",
+        "This weapon can only be attuned by a child of Larsinix/Xanamil.",
+        "As an Action, the wielder can change this into any melee weapon they are proficient with.",
+        "In all forms, it has the cleave property, allowing the wielder to make their weapon attacks in a 5ft cone in front of them (can hit a maximum of 3 creatures at a time).",
+        "You gain Immunity to Acid Damage.",
+        "Your Constitution Score becomes 20 if it is lower than that.",
+        "This weapon deals an additional {@dice 3d8} damage against Dragons.",
+        "This weapon is also considered a {@item Vorpal Sword|DMG} against Dragons, so long as they are at 100 hit points or fewer. If they are above this value, they instead take an additional 6d8 damage."
+    ]
+}

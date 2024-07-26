@@ -1,0 +1,30 @@
+{
+    "name": "Power Core",
+    "source": "TftJC",
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "subclassShortName": "Ironhide",
+    "subclassSource": "TftJC",
+    "level": 6,
+    "entries": [
+        "At 6th level, you can select a unique way to manifest your magical powers. Select either Molten Core or Static Core, and you gain features based off what you selected.",
+        {
+            "entries": [
+                {
+                    "type": "inset",
+                    "name": "Molten Core",
+                    "entries": [
+                        "You gain resistance to Fire damage. You learn the Heat Metal spell, it counts as a Sorcerer spell for you, and can cast it a number of times equal to your Charisma Modifier per long rest. Creatures of your choice that would be moved or disarmed by Magnetic Surge take 2d4 Fire Damage, as the metal burns them."
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Static Core",
+                    "entries": [
+                        "You gain resistance to Lightning damage. Whenever you cast a Sorcerer spell that deals Lightning Damage, your Magnetic Surge's weight maximum is doubled and creatures affected by it have disadvantage on the Strength Saving Throw. Creatures of your choice that would be moved or disarmed by Magnetic Surge take 2d4 Lightning Damage, as the metal shocks them."
+                    ]
+                }
+            ]
+        }
+    ]
+}

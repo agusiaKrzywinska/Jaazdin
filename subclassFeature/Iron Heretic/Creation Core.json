@@ -1,0 +1,12 @@
+{
+    "name": "Creation Core",
+    "source": "TftJC",
+    "className": "Druid",
+    "classSource": "PHB",
+    "subclassShortName": "Iron Heretic",
+    "subclassSource": "TftJC",
+    "level": 10,
+    "entries": [
+        "At 10th level, you gain the ability to breathe life into metal and grant it a bestial form. You can expend two uses of your Wild Shape to Cast Find Greater Steed. When you summon the steed it is instead of type Construct and gains all the benefits of your Metal Carapace feature. Instead of applying your Beastial Metal to yourself, you can cause it to affect your steed from this feature instead."
+    ]
+}

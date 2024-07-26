@@ -1,0 +1,21 @@
+{
+    "name": "Rare Metallics",
+    "source": "TftJC",
+    "className": "Druid",
+    "classSource": "PHB",
+    "subclassShortName": "Iron Heretic",
+    "subclassSource": "TftJC",
+    "level": 14,
+    "entries": [
+        "At 14th level, you have learned to pull trace amounts of rare metals from the earth to fuel your Wild Shapes. When you use your Metallic Carapace or Beastial Metal feature you can choose to apply one of the following benefits:",
+        {
+            "type": "list",
+            "items": [
+                "Adamantine: You gain immunity to Critical Hits and your weapons deal double damage to structures and Constructs.",
+                "Mythril: Your speed increases by 10 feet instead of decreasing by 10 feet and your natural weapon score Critical Hits on 19 or 20.",
+                "Platinum: Your AC increases by 2 and you gain resistance to Radiant damage."
+            ]
+        },
+        "When you summon a steed with the find greater steed spell granted from this class you can apply one rare metallics to your summon."
+    ]
+}

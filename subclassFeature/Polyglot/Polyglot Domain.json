@@ -1,0 +1,24 @@
+{
+    "name": "Polyglot Domain",
+    "source": "TftJC",
+    "className": "Cleric",
+    "classSource": "PHB",
+    "subclassShortName": "Polyglot",
+    "subclassSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "The Polyglot domain isn’t concerned with any specific god or domain but instead pledging fealty and faith to whatever god suits their needs at the current moment. Polyglot clerics don’t subscribe to a single faith but rather all of them. They may carry with them the holy symbols of dozens or hundreds of different faiths and call upon which god or gods can help them at the chosen moment.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Polyglot Domain Spells|Cleric|PHB|Polyglot|TftJC|1"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Bonus Proficiency|Cleric|PHB|Polyglot|TftJC|1"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Acolyte of All|Cleric|PHB|Polyglot|TftJC|1"
+        }
+    ]
+}

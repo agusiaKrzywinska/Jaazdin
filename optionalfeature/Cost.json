@@ -1,0 +1,18 @@
+{
+    "name": "Cost",
+    "prerequisite": [
+        {
+            "feature": [
+                "Dark Arts Wizard"
+            ]
+        }
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "Other"
+    ],
+    "entries": [
+        "Tier 3 Arcana. The Forbidden Spell is upcasted by two levels, and then your maximum hit points are reduced by 3d6 until you complete a long rest."
+    ]
+}

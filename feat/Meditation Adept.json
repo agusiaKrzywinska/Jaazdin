@@ -1,0 +1,23 @@
+{
+    "name": "Meditation Adept",
+    "source": "TftJC",
+    "entries": [
+        "You have learned through quiet meditation or study how to still your mind and sharpen your focus. You gain the following benefits:",
+        {
+            "type": "list",
+            "items": [
+                "You gain proficiency to one artisans tool or language.",
+                "You gain 2 Ki. If you already have Ki these are added to your total. You can spend one Ki and use a bonus action to still your mind, you can remove disadvantage on one attack roll or ability check you make in the next minute. You regain all spend Ki when you finish a short rest."
+            ]
+        }
+    ],
+    "prerequisite": [
+        {
+            "ability": [
+                {
+                    "wis": 13
+                }
+            ]
+        }
+    ]
+}

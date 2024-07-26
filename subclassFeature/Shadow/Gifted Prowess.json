@@ -1,0 +1,12 @@
+{
+    "name": "Gifted Prowess",
+    "source": "TftJC",
+    "className": "Warlock",
+    "classSource": "PHB",
+    "subclassShortName": "Shadow",
+    "subclassSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "At 1st level, you gain the ability to use shortswords, longswords, scimitars, and medium armor."
+    ]
+}

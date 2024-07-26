@@ -1,0 +1,11 @@
+{
+    "name": "Wirelauncher MK II",
+    "source": "TftJC",
+    "type": "Invention",
+    "entries": [
+        "<i><b>Innovative Invention.</i></b>",
+        "A creature can spend 1 minute attaching a javelin to this device. The javelin retains any properties it had before, such as enchantments and rare metal abilities. While attached, the javelin now connects to a canister containing 75ft of thick rope.",
+        "The javelin's maximum range cannot exceed how many ft of rope the canister contains. Additionally, as a Bonus Action, you can set a maximum length limit to the rope, so that the rope only goes out a number of feet up to this amount. You can change or remove the length limit as a Bonus Action on a subsequent turn.",
+        "Hitting a creature with the javelin carries the rope with it, allowing you to hold a rope on that creature so long as the javelin remains stuck in the creature. The creature can remove the javelin as an action by making a DC 15 Strength Check. While the javelin remains embedded in the creature, their walking/swim/flying speeds are lowered by 10."
+    ]
+}

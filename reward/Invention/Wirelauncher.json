@@ -1,0 +1,15 @@
+{
+    "name": "Wirelauncher",
+    "source": "TftJC",
+    "type": "Invention",
+    "entries": [
+        "There are the following versions:",
+        {
+            "type": "list",
+            "items": [
+                "{@reward Wirelauncher MK I|TftJC}",
+                "{@reward Wirelauncher MK II|TftJC}"
+            ]
+        }
+    ]
+}

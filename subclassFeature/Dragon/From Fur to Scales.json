@@ -1,0 +1,12 @@
+{
+    "name": "From Fur to Scales",
+    "source": "TftJC",
+    "className": "Druid",
+    "classSource": "PHB",
+    "subclassShortName": "Dragon",
+    "subclassSource": "TftJC",
+    "level": 10,
+    "entries": [
+        "At 10th level, your Wild Shape list now includes Dragons, and you can expend two uses of your Wild shape to transform into a Young Dragon of your choice. Also, you can cast {@spell Polymorph|PHB} on yourself once per short rest, but can only select a Dragon as a possible form."
+    ]
+}

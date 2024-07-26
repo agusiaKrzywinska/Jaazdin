@@ -1,0 +1,23 @@
+{
+    "name": "Naginata",
+    "source": "TftJC",
+    "page": 50,
+    "type": "M",
+    "rarity": "none",
+    "weight": 5,
+    "value": 8000,
+    "weaponCategory": "martial",
+    "property": [
+        "F",
+        "V",
+        "S",
+        "R"
+    ],
+    "dmg1": "1d6",
+    "dmg2": "1d8",
+    "dmgType": "S",
+    "entries": [
+        "<b><i>Special.</i></b> This weapon only has the reach property when it is being wielded in both hands.",
+        "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+    ]
+}

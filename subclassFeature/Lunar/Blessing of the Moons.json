@@ -1,0 +1,21 @@
+{
+    "name": "Blessing of the Moons",
+    "source": "TftJC",
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "subclassShortName": "Lunar",
+    "subclassSource": "TftJC",
+    "level": 18,
+    "entries": [
+        "At 18th level, a shimmering veil of moonlight always covers you granting you the following benefits:",
+        {
+            "type": "list",
+            "items": [
+                "At the end of a long rest you gain temporary hit points equal to your sorcerer level.",
+                "You have resistance to radiant damage.",
+                "When you hit a creature with a spell you deal additional radiant damage equal to your proficiency bonus.",
+                "You can expend 2 sorcerer points as a bonus action to teleport up to 60 ft to a point you can see."
+            ]
+        }
+    ]
+}

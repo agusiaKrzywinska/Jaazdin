@@ -1,0 +1,13 @@
+{
+    "name": "Rakish Fighting",
+    "source": "TftJC",
+    "page": 52,
+    "isClassFeatureVariant": true,
+    "featureType": [
+        "FS:R",
+        "FS:F"
+    ],
+    "entries": [
+        "You learned to fight on the streets and use everything you can to your advantage. As a bonus action you can attempt a dirty trick. One creature within 10 feet of you must make a Wisdom saving throw equal to 8 + your proficiency bonus + your Str or Dex, or become {@condition blinded} until the start of their next turn. In addition, whenever you hit a creature you have advantage on you deal {@dice 1d6} extra damage."
+    ]
+}

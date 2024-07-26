@@ -1,0 +1,55 @@
+{
+    "name": "Overload",
+    "source": "TftJC",
+    "page": 56,
+    "level": 0,
+    "school": "V",
+    "time": [
+        {
+            "number": 1,
+            "unit": "bonus action"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "feet",
+            "amount": 30
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true
+    },
+    "duration": [
+        {
+            "type": "instant"
+        }
+    ],
+    "entries": [
+        "A pulse of arcane energy launches out from your hand at a creature within range. Make a spell attack roll, a target hit by this takes {@dice 1d4} force damage. If you cast a spell in the same turn as casting this cantrip, you take force damage equal to the level of that spell slot expended, a cantrip deals 1 damage."
+    ],
+    "scalingLevelDice": {
+        "scaling": {
+            "1": "1d4",
+            "5": "2d4",
+            "11": "3d4",
+            "17": "4d4"
+        }
+    },
+    "damageInflict": [
+        "force"
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Sorcerer",
+                "source": "PHB"
+            },
+            {
+                "name": "Wizard",
+                "source": "PHB"
+            }
+        ]
+    }
+}

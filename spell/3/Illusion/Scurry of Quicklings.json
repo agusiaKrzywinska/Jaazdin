@@ -1,0 +1,52 @@
+{
+    "name": "Scurry of Quicklings",
+    "source": "TftJC",
+    "page": 60,
+    "level": 3,
+    "school": "I",
+    "time": [
+        {
+            "number": 1,
+            "unit": "action"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "self"
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true,
+        "m": "a quickling's hair"
+    },
+    "duration": [
+        {
+            "type": "timed",
+            "duration": {
+                "type": "round",
+                "amount": 1
+            }
+        }
+    ],
+    "entries": [
+        "You create seven illusory copies of quicklings around you, as you too change your appearance to look like a quickling. All quicklings are indistinguishable from another, and if a creature attempts to attack an illusory quickling it puffs into purple smoke. As a part of casting this spell, you can have all seven quicklings to move in any separate direction you desire up to 120ft. Additionally, your walking speed becomes 120ft for the duration. At the end of the spell's duration, all quicklings will attempt to hide where ever they can. If they cannot hide anywhere, they puff into purple smoke."
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Druid",
+                "source": "PHB"
+            },
+            {
+                "name": "Sorcerer",
+                "source": "PHB"
+            },
+            {
+                "name": "Warlock",
+                "source": "PHB"
+            }
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Tenets of Divine Justice",
+    "source": "TftJC",
+    "className": "Paladin",
+    "classSource": "PHB",
+    "subclassShortName": "Divine Justice",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "<b>None are free from Judgement.</b> Any and all living creatures are under your law. You uphold this law at any cost.",
+        "<b>Purify in Flames</b>. Impure Creatures are to be burned with Holy Fire, as to cleanse their filth from this world.",
+        "<b>Hope for a Brighter Tomorrow</b>. Every action you make is in the name of a better future for all, as long as they too live under your law."
+    ]
+}

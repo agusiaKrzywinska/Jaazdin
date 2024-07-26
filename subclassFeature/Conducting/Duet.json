@@ -1,0 +1,13 @@
+{
+    "name": "Duet",
+    "source": "TftJC",
+    "className": "Bard",
+    "classSource": "PHB",
+    "subclassShortName": "Conducting",
+    "subclassSource": "TftJC",
+    "level": 6,
+    "entries": [
+        "At 6th level, whenever you target a friendly creature with a single target spell effect you can target another friendly creature within the spell's range. They are also under that effect. If the spell requires concentration, you are considered concentrating on both at the same time. If your concentration is broken, then both friendly creatures lose the spell effect.",
+        "You can do this a number of times equal to your Proficiency Bonus, and the spell level of the spell being Duetted can be equal to or less than your Proficiency Bonus."
+    ]
+}

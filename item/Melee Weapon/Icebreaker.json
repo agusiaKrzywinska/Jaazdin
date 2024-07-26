@@ -1,0 +1,21 @@
+{
+    "name": "Icebreaker",
+    "source": "TftJC",
+    "rarity": "very rare",
+    "baseItem": "greatsword|PHB",
+    "reqAttune": true,
+    "type": "M",
+    "weight": 6,
+    "weaponCategory": "martial",
+    "property": [
+        "H",
+        "2H"
+    ],
+    "dmg1": "2d6",
+    "dmgType": "S",
+    "entries": [
+        "You gain a +2 to attack rolls and damage rolls with this weapon.",
+        "When you cast a spell that deals Cold Damage, you can apply this sword's bonus to the Spell Attack Roll, or increase its saving throw by 2 (whichever applies).",
+        "If you make an attack with this weapon after dealing Cold Damage in the past minute, this weapon’s Critical Hit Range is increased by 1."
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Sand Swipe",
+    "source": "TftJC",
+    "className": "Fighter",
+    "classSource": "PHB",
+    "subclassShortName": "Desertstrider",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, you can weave sand into your attacks. As a Bonus Action, you can fling sand at a creature within 10ft's eyes provided you have a free hand to do so. If you use this Bonus Action prior to making your Attack action, your first attack against that target has advantage. If you use this after making the Attack Action, the target's next attack before the end of their next turn has disadvantage."
+    ]
+}

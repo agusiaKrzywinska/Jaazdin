@@ -1,0 +1,10 @@
+{
+    "name": "Amulet of the Elemental Knights",
+    "source": "TftJC",
+    "rarity": "rare",
+    "wondrous": true,
+    "reqAttune": true,
+    "entries": [
+        "Once per month, as an action you can summon a Myrmidon. The Myrmidon is friendly to you and will give its life to fight for you and protect you. The Myrmidon vanishes after its hit points reach 0, or a week passes."
+    ]
+}

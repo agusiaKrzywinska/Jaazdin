@@ -1,0 +1,12 @@
+{
+    "name": "Stubborn",
+    "source": "TftJC",
+    "className": "Barbarian",
+    "classSource": "PHB",
+    "subclassShortName": "Pugilist",
+    "subclassSource": "TftJC",
+    "level": 14,
+    "entries": [
+        "At 14th level, your hard head keeps you in fights longer than the average battler. If you would drop to 0 hit points or activate Relentless Rage, you can use your reaction to immediately regain a spent use of Showstopper and make a Showstopper attack against a hostile creature within reach. If you would gain temporary hit points from your Showstopper attack, you instead gain that amount as hit points."
+    ]
+}

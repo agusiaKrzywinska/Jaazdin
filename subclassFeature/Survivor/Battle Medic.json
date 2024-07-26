@@ -1,0 +1,13 @@
+{
+    "name": "Battle Medic",
+    "source": "TftJC",
+    "className": "Ranger",
+    "classSource": "PHB",
+    "subclassShortName": "Survivor",
+    "subclassSource": "TftJC",
+    "level": 11,
+    "entries": [
+        "At 11th level, you can heal your wounds on the fly. If you drop to 0 hit points and don’t die outright, you can use your reaction to make a DC 15 Medicine Check. If you succeed,you drop to 1 hit point instead.",
+        "Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10."
+    ]
+}

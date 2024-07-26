@@ -1,0 +1,17 @@
+{
+    "name": "Crown of Sun Peak",
+    "source": "TftJC",
+    "rarity": "rare",
+    "wondrous": true,
+    "reqAttune": "by a spellcaster",
+    "reqAttuneTags": [
+        {
+            "spellcasting": true
+        }
+    ],
+    "entries": [
+        "This golden amulet bears an ancient Mere’su’ra symbol of the sun and is inlaid with precious stones. While you wear this amulet, you gain a +1 bonus to spell attack rolls and the saving throw DCs of your spells.",
+        "While you wear this amulet, your spells that create light have their radius or range increased by 10ft. In addition, any spell you cast that creates light is treated as being two levels higher when they are contested by a spell or effect that would try and extinguish it. ",
+        "Effected Spells: control flame, dancing lights, light, produce flame, faerie fire, branding smite, continual flame, flame blade, flaming sphere, moonbeam, daylight, fire shield, dawn, hallow, holy weapon, immolation, wall of light, sickening radiance, investiture of flame, sunbeam, crown of stars, symbol, temple of the gods, holy aura, sunburst, prismatic wall."
+    ]
+}

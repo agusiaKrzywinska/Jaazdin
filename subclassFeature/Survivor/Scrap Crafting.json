@@ -1,0 +1,14 @@
+{
+    "name": "Scrap Crafting",
+    "source": "TftJC",
+    "className": "Ranger",
+    "classSource": "PHB",
+    "subclassShortName": "Survivor",
+    "subclassSource": "TftJC",
+    "level": 7,
+    "entries": [
+        "At 7th level, you can create weapons on the fly. You can spend 1 minute taking raw material, such as metal, wood, stone, or similar things to craft items. You can create shields, simple and martial weapons, so long as you have proficiency in those weapons and the appropriate materials. The weapons fall apart into their raw materials after a day of use.",
+        "At 11th level, Scrap weapons you create are considered magical for the purposes of overcoming resistances and immunities when you wield them.",
+        "At 15th level, Scrap weapons you create have jagged edges. Scrap weapons have their critical strike range increased, and critically hit on a 19 and 20 when you wield them."
+    ]
+}

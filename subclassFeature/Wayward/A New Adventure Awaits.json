@@ -1,0 +1,13 @@
+{
+    "name": "A New Adventure Awaits",
+    "source": "TftJC",
+    "className": "Ranger",
+    "classSource": "PHB",
+    "subclassShortName": "Wayward",
+    "subclassSource": "TftJC",
+    "level": 11,
+    "entries": [
+        "At 11th level, you can follow creatures that try to go off on their own. Whenever a creature within 30ft of you casts a spell with the Teleportation tag, or uses an ability that causes them to Teleport, you can use your reaction to teleport to where ever they arrive alongside them. You appear in the nearest space to the target creature. You can do this a number of times equal to your Wisdom Modifier per Long Rest.",
+        "At 17th level, you can bring up to three willing creatures within 30ft of the creature teleporting. Any additional creature brought by this effect also appears in a random space within 30ft of the target creature."
+    ]
+}

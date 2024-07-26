@@ -1,0 +1,13 @@
+{
+    "name": "Might of the Master",
+    "source": "TftJC",
+    "className": "Warlock",
+    "classSource": "PHB",
+    "subclassShortName": "Master",
+    "subclassSource": "TftJC",
+    "level": 14,
+    "entries": [
+        "At 14th level, your minion's power is permanently linked with yours. When you are affected by a spell you can choose to share the effect with your minion as long as it is within 30 feet of you. Also when you fail a saving throw against a negative effect from a spell, such as hold person, and your minion is within 30 feet both you and your minion can use your reactions to have the spell take effect on your minion instead.",
+        "Your minion can become large and any future minions can be large as well."
+    ]
+}

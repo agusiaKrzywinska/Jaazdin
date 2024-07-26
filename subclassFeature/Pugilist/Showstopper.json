@@ -1,0 +1,13 @@
+{
+    "name": "Showstopper",
+    "source": "TftJC",
+    "className": "Barbarian",
+    "classSource": "PHB",
+    "subclassShortName": "Pugilist",
+    "subclassSource": "TftJC",
+    "level": 6,
+    "entries": [
+        "At 6th level, you can perform a powerful wind-up punch. You can declare any unarmed attack you make with a Showstopper. A Showstopper deals an additional {@dice 1d4} + your Charisma modifier in damage. If a Showstopper reduces a creature to 0 hit points, you gain temporary hit points equal to your Barbarian level + your Charisma modifier. Regardless if the Showstopper hits or misses, you may attempt to shove or grapple the target as a part of that attack. You can use a Showstopper a number of times per Short or Long rest equal to your Proficiency Bonus.",
+        "Additionally, your unarmed strikes are considered magical for the purposes of overcoming resistances."
+    ]
+}

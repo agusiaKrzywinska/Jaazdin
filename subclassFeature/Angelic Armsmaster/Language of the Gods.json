@@ -1,0 +1,12 @@
+{
+    "name": "Language of the Gods",
+    "source": "TftJC",
+    "className": "Fighter",
+    "classSource": "PHB",
+    "subclassShortName": "Angelic Armsmaster",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, you become adept in speaking to angelic beings. You learn Celestial, or alternatively you gain proficiency in the Arcana, History or Religion skill."
+    ]
+}

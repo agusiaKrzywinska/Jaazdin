@@ -1,0 +1,12 @@
+{
+    "name": "Knowledge of Ancient Beasts",
+    "source": "TftJC",
+    "className": "Druid",
+    "classSource": "PHB",
+    "subclassShortName": "Titan",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "At 2nd level, you learn of Ancient Beasts that once walked the lands. You can Wild Shape into any Dinosaur Beast (so long as you still meet any wild shape restrictions). You also learn the Primordial Language, or another language if you know this language already."
+    ]
+}

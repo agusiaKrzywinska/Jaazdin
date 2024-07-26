@@ -1,0 +1,76 @@
+{
+    "name": "Minion",
+    "source": "TftJC",
+    "page": 43,
+    "summonedByClass": "Warlock|PHB",
+    "size": [
+        "S",
+        "M",
+        "L"
+    ],
+    "type": "humanoid/beast/elemental/monstrosity",
+    "ac": [
+        {
+            "ac": 11,
+            "from": [
+                "+ your proficiency bonus"
+            ]
+        }
+    ],
+    "hp": {
+        "special": "2 + your Charisma bonus + three times your warlock level (the minion has a number of Hit Dice [d6s] equal to your warlock level)"
+    },
+    "speed": {
+        "walk": 30
+    },
+    "str": 0,
+    "dex": 0,
+    "con": 0,
+    "int": 0,
+    "wis": 0,
+    "cha": 0,
+    "save": {
+        "cha": "your PB"
+    },
+    "skill": {},
+    "senses": [],
+    "passive": "10 + (PB × 2)",
+    "immune": [],
+    "conditionImmune": [],
+    "languages": [
+        "Common and all the languages you speak"
+    ],
+    "pbNote": "equals your bonus",
+    "trait": [
+        {
+            "name": "Innate Spellcasting(Warlock)",
+            "entries": [
+                "The minion's innate spellcasting ability is charisma. It can innately cast the following spells, requiring no components. Its spell casting level is equal to your warlock level.",
+                "At will: two Warlock cantrips of your choice."
+            ]
+        },
+        {
+            "name": "Unfocused Follower",
+            "entries": [
+                "Unless the minion is within 60 feet of its master is has disadvantage on all attack rolls and ability checks."
+            ]
+        }
+    ],
+    "actionNote": "Requires Your Bonus Action",
+    "action": [
+        {
+            "name": "Natural Weapon",
+            "entries": [
+                "{@atk mw} {@hitYourSpellAttack} to hit, reach 5 ft., one target. {@h}{@damage 1d6 + PB} slashing damage."
+            ]
+        }
+    ],
+    "reaction": [
+        {
+            "name": "Protect Master",
+            "entries": [
+                "While within 10ft of its master, the minion can use its reaction to add + your proficiency bonus to its Master's AC against one attack, if the attack misses, the attack hits the minion instead."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "name": "Dragon's Breath",
+    "source": "TftJC",
+    "className": "Druid",
+    "classSource": "PHB",
+    "subclassShortName": "Dragon",
+    "subclassSource": "TftJC",
+    "level": 6,
+    "entries": [
+        "At 6th level, you gain the ability to launch breath weapons. Asa Bonus Action, you can exhale elemental power. Select a Breath Weapon from the list below. Their DC is equal to yourDruid spell saving throw. You can use this feature while in Wild Shape. Its deals {@dice 3d8} damage, increasing by to {@dice 4d8} at 9th level, and {@dice 5d8} at 13th level. You can use this feature a number of times equal to your Wisdom Modifier per Long Rest.",
+        {
+            "type": "table",
+            "caption": "Breath Weapons",
+            "colLabels": [
+                "Element",
+                "Size",
+                "Saving Throw"
+            ],
+            "colStyles": [
+                "col- text-",
+                "col- text-",
+                "col- text-"
+            ],
+            "rows": [
+                [
+                    "Fire",
+                    "15 ft Cone",
+                    "DEX"
+                ],
+                [
+                    "Lightning",
+                    "30 ft Line",
+                    "DEX"
+                ],
+                [
+                    "Cold",
+                    "15 ft Cone",
+                    "CON"
+                ],
+                [
+                    "Poison",
+                    "15 ft Cone",
+                    "CON"
+                ],
+                [
+                    "Acid",
+                    "30 ft Line",
+                    "DEX"
+                ]
+            ]
+        }
+    ]
+}

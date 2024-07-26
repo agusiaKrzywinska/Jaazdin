@@ -1,0 +1,22 @@
+{
+    "name": "Spear of Thassa",
+    "source": "TftJC",
+    "type": "M",
+    "rarity": "rare",
+    "weaponCategory": "martial",
+    "property": [
+        "V",
+        "T"
+    ],
+    "dmg1": "1d8",
+    "dmg2": "1d10",
+    "dmgType": "P",
+    "range": "20/60",
+    "reqAttune": "by a follower of a Thassa",
+    "entries": [
+        "You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+        "When you hurl it and speak its command word, it transforms into a torrent of water, forming a line 5 feet wide that extends out from you to a target within 120 feet. Each creature in the line excluding you and the target must make a DC 13 Dexterity saving throw, taking {@dice 4d6} cold damage on a failed save, and half as much damage on a successful one. The torrent  turns back into a spear when it reaches the target. Make a ranged weapon attack against the target. On a hit, the target takes damage from the spear plus {@dice 4d6} cold damage. This ability does an additional {@dice 2d6} cold damage when used underwater.",
+        "The spear’s property can't be used again until the next dawn. In the meantime, the spear can still be used as a magic weapon.",
+        "The Spear retains all properties from its Staff Form."
+    ]
+}

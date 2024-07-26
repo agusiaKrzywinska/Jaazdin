@@ -1,0 +1,14 @@
+{
+    "name": "Circle of Seasons",
+    "source": "TftJC",
+    "page": 19,
+    "className": "Druid",
+    "classSource": "PHB",
+    "shortName": "Seasons",
+    "subclassFeatures": [
+        "Circle of Seasons|Druid|PHB|Seasons|TftJC|2",
+        "Natural Guide|Druid|PHB|Seasons|TftJC|6",
+        "Seasonal Warden|Druid|PHB|Seasons|TftJC|10",
+        "Circle of Land and Air|Druid|PHB|Seasons|TftJC|14"
+    ]
+}

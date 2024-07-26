@@ -1,0 +1,72 @@
+{
+    "name": "Artist's Touch",
+    "source": "TftJC",
+    "page": 55,
+    "level": 0,
+    "school": "C",
+    "time": [
+        {
+            "number": 1,
+            "unit": "action"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "feet",
+            "amount": 60
+        }
+    },
+    "components": {
+        "s": true,
+        "m": "a paint bruch, quill or similar artistic tool"
+    },
+    "duration": [
+        {
+            "type": "timed",
+            "duration": {
+                "type": "hour",
+                "amount": 1
+            }
+        },
+        {
+            "type": "instant"
+        }
+    ],
+    "entries": [
+        "You conjure from the tip of your brush or quill a single magical effect as a manifestation of your artistic spirit. You can create one of the following effects:",
+        {
+            "type": "list",
+            "items": [
+                "You instantly cause a message no more than 25 words in length to appear on a surface within range. The message appears in ink or paint and remains for 1 hour.",
+                "You touch unsculpted clay, a bottle of paint, or an ink pot and immediately shape it into an artistic work no larger than 2ft in any dimension. The work is fair but unimpressive to any discerning eye. The work remains for 1 hour.",
+                "You draw or sculpt a simple object worth no more than 1 gp and it becomes real. The object is brittle and breaks under heavy use, close inspection reveals it to be made of worthless paste. If you have an example of an object on you when you cast the spell you can duplicate it, such as a specific key, otherwise the objects are generic. The object lasts for 1 hour or until it breaks.",
+                "You summon forth a splash of ink or paint at one target within 15 ft attempting to blind them. The creature must make a Constitution saving throw or be {@condition blinded|PHB} until the end of their next turn."
+            ]
+        },
+        "If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action. If you cast a new one the oldest effect ends."
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Sorcerer",
+                "source": "PHB"
+            },
+            {
+                "name": "Warlock",
+                "source": "PHB"
+            },
+            {
+                "name": "Bard",
+                "source": "PHB"
+            },
+            {
+                "name": "Artificer",
+                "source": "TCE"
+            }
+        ]
+    },
+    "savingThrow": [
+        "constitution"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Arbiter of Freedom",
+    "source": "TftJC",
+    "className": "Paladin",
+    "classSource": "PHB",
+    "subclassShortName": "Liberation",
+    "subclassSource": "TftJC",
+    "level": 20,
+    "entries": [
+        "At 20th level, you can fully enhance your Liberation abilities. As an action, you can transcend the barriers of reality for 1minute, giving you and creatures of your choice within 30 feet the following properties:",
+        {
+            "type": "list",
+            "items": [
+                "You can choose to ignore all magical restrictions and qualifications on spells based on creature type or description, such as those on antilife shell, hallow or glyph of warding.",
+                "You can move through solid terrain at half speed. If you occupy the same spot as a solid object or creature when this or a similar effect is no longer active for you, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you are moved.",
+                "You have resistance to all damage but force."
+            ]
+        },
+        "Once you use this feature, you can’t use it again until you finish a long rest."
+    ]
+}

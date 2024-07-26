@@ -1,0 +1,12 @@
+{
+    "name": "Quickened Copying",
+    "source": "TftJC",
+    "className": "Wizard",
+    "classSource": "PHB",
+    "subclassShortName": "Spellthief",
+    "subclassSource": "TftJC",
+    "level": 6,
+    "entries": [
+        "At 6th level, you learn to Shorthand on the fly. As a reaction to seeing a spell be cast, you can replace one of your Shorthanded spells with that spell (even if it not a Wizard Spell). You can only copy a spell up to 5th level."
+    ]
+}

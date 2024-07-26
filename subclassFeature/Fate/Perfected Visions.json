@@ -1,0 +1,12 @@
+{
+    "name": "Perfected Visions",
+    "source": "TftJC",
+    "className": "Cleric",
+    "classSource": "PHB",
+    "subclassShortName": "Fate",
+    "subclassSource": "TftJC",
+    "level": 17,
+    "entries": [
+        "At 17th level, your knowledge of Fate is perfected. Any Divination spell that you cast using a spell slot that has a chance at failure now can never fail, nor do Divination spells require material components."
+    ]
+}

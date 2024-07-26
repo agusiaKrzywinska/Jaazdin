@@ -1,0 +1,14 @@
+{
+    "name": "Oath of Divine Justice",
+    "source": "TftJC",
+    "page": 29,
+    "className": "Paladin",
+    "classSource": "PHB",
+    "shortName": "Divine Justice",
+    "subclassFeatures": [
+        "Oath of Divine Justice|Paladin|PHB|Divine Justice|TftJC|3",
+        "Aura of Arclight|Paladin|PHB|Divine Justice|TftJC|7",
+        "Holy Fire|Paladin|PHB|Divine Justice|TftJC|15",
+        "Divine Judge|Paladin|PHB|Divine Justice|TftJC|20"
+    ]
+}

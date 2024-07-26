@@ -1,0 +1,45 @@
+{
+    "name": "Oath of Divine Justice Spells",
+    "source": "TftJC",
+    "className": "Paladin",
+    "classSource": "PHB",
+    "subclassShortName": "Divine Justice",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        {
+            "type": "table",
+            "caption": "Divine Justice Spells",
+            "colLabels": [
+                "Paladin Level",
+                "Spell"
+            ],
+            "colStyles": [
+                "col- text-",
+                "col- text- "
+            ],
+            "rows": [
+                [
+                    "3rd",
+                    "Guiding Bolt, Hunter's Mark"
+                ],
+                [
+                    "5th",
+                    "Flame Blade, Hold Person"
+                ],
+                [
+                    "9th",
+                    "Crusader's Mantle, Enemies Abound"
+                ],
+                [
+                    "13th",
+                    "Fire Shield, Locate Creature"
+                ],
+                [
+                    "17th",
+                    "Destructive Wave, Immolation"
+                ]
+            ]
+        }
+    ]
+}

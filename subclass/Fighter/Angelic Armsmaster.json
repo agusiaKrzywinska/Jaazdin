@@ -1,0 +1,15 @@
+{
+    "name": "Angelic Armsmaster",
+    "source": "TftJC",
+    "page": 24,
+    "className": "Fighter",
+    "classSource": "PHB",
+    "shortName": "Angelic Armsmaster",
+    "subclassFeatures": [
+        "Angelic Armsmaster|Fighter|PHB|Angelic Armsmaster|TftJC|3",
+        "Light Constructs|Fighter|PHB|Angelic Armsmaster|TftJC|7",
+        "Blinding Brilliance|Fighter|PHB|Angelic Armsmaster|TftJC|10",
+        "Pierce the Light|Fighter|PHB|Angelic Armsmaster|TftJC|15",
+        "Angelic Arsenal|Fighter|PHB|Angelic Armsmaster|TftJC|18"
+    ]
+}

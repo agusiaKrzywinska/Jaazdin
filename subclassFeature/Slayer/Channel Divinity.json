@@ -1,0 +1,26 @@
+{
+    "name": "Channel Divinity",
+    "source": "TftJC",
+    "className": "Paladin",
+    "classSource": "PHB",
+    "subclassShortName": "Slayer",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "When you take this Oath at 3rd level, you gain access to two new channel divinity options.",
+        {
+            "type": "inset",
+            "name": "Rebuke the Hunted.",
+            "entries": [
+                "As an action, you present your holy symbol and speak a prayer of rebuke, using your Channel Divinity. Every creature of your chosen Slayer's Quarry within 60 feet of you that can see you must make a Wisdom saving throw, unless it is immune to being frightened. Fiends and undead are also affected. On a failed save, the creature is frightened for 1 minute or until it takes any damage. While frightened, the creature is paralyzed. On a successful save, the creature cannot take reactions this turn."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Slay Thy Hate.",
+            "entries": [
+                "You can use your Channel Divinity to strike an especially deadly blow. When you hit with a weapon attack you can use your Channel Divinity to double your weapon's damage dice.If the target of the attack is also your Slayer's Quarry you add half your paladin level to the damage as well (minimum 1)."
+            ]
+        }
+    ]
+}

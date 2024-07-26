@@ -1,0 +1,13 @@
+{
+    "name": "Spellthief's Skills",
+    "source": "TftJC",
+    "className": "Wizard",
+    "classSource": "PHB",
+    "subclassShortName": "Spellthief",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "At 2nd level, you gain proficiency in skills related to your craft. You gain Proficiency in Thieves' Tools, and you additionally gain proficiency in one of the following skills: Deception, Stealth, Sleight of Hand.",
+        "You can also take the Hide action as a Bonus Action."
+    ]
+}

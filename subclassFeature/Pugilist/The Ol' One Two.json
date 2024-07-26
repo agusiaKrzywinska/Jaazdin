@@ -1,0 +1,12 @@
+{
+    "name": "The Ol' One Two",
+    "source": "TftJC",
+    "className": "Barbarian",
+    "classSource": "PHB",
+    "subclassShortName": "Pugilist",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, you learn a classic technique. After using your attack action to make an unarmed strike, you can use your Bonus Action to make an unarmed strike. This can only be done while in a Rage."
+    ]
+}

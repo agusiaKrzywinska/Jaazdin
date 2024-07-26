@@ -1,0 +1,15 @@
+{
+    "name": "Weapon of the Gods",
+    "source": "TftJC",
+    "className": "Fighter",
+    "classSource": "PHB",
+    "subclassShortName": "Angelic Armsmaster",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "Beginning at 3rd level, your connection to Celestials can allow you to conjure weapons of Light. You can conduct a 1 hour ritual with a weapon you are holding to convert it into a Weapon of the Gods, at which time it vanishes.",
+        "As a Bonus Action, you can conjure one of your Weapon of the Gods. It appears as a glowing and translucent version of that weapon. If the weapon requires ammo, you additionally create a quiver or pouch filled with the required ammunition. This weapon can be dismissed as a Free Action. If the weapon would leave your hands, it disappears after one round. You can only have one weapon conjured at a time.",
+        "This weapon deals Radiant damage instead of its normal damage type. Additionally, once per turn you gain a bonus to your damage rolls equal to your Proficiency Bonus when using your Weapon of the Gods.",
+        "Finally, you learn the {@spell Light|PHB} cantrip."
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Recovery",
+    "prerequisite": [
+        {
+            "feature": [
+                "Dark Arts Wizard"
+            ]
+        }
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "Other"
+    ],
+    "entries": [
+        "Tier 2 Arcana. The Forbidden Spell deals one less damage die, and one ally within range of the Forbidden Spell's attack range regains half of the damage roll."
+    ]
+}

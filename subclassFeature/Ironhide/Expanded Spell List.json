@@ -1,0 +1,46 @@
+{
+    "name": "Expanded Spell List",
+    "source": "TftJC",
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "subclassShortName": "Ironhide",
+    "subclassSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "You learn additional spells when you reach certain levels in this class, as shown on the Ironhide Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know. In addition you learn the Minor Magnetism cantrip.",
+        {
+            "type": "table",
+            "caption": "Ironhide Expanded Spells",
+            "colLabels": [
+                "Spell Level",
+                "Spells"
+            ],
+            "colStyles": [
+                "col- text-",
+                "col- text- "
+            ],
+            "rows": [
+                [
+                    "1st",
+                    "armor of agathys, sanctuary"
+                ],
+                [
+                    "2nd",
+                    "hold person, spiritual weapon"
+                ],
+                [
+                    "3rd",
+                    "call lightning, pulse wave"
+                ],
+                [
+                    "4th",
+                    "gravity sinkhole, storm sphere"
+                ],
+                [
+                    "5th",
+                    "wall of force, magnetic sphere"
+                ]
+            ]
+        }
+    ]
+}

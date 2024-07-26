@@ -1,0 +1,13 @@
+{
+    "name": "Flurry of Nature",
+    "source": "TftJC",
+    "className": "Monk",
+    "classSource": "PHB",
+    "subclassShortName": "Four Elements 2.0",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "Starting at 3rd level, you can interweave your strikes with your elemental attacks. When using Flurry of Blows, you can instead cast a Spell on the Four Elements List.",
+        "Additionally, spell attack rolls you make can use your Dexterity or Wisdom Modifier to calculate the to-hit bonus when using a spell on the Four Elements list."
+    ]
+}

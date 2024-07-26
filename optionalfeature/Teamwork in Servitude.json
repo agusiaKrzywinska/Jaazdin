@@ -1,0 +1,18 @@
+{
+    "name": "Teamwork in Servitude",
+    "prerequisite": [
+        {
+            "feature": [
+                "Pact of the Chain and Master Warlock"
+            ]
+        }
+    ],
+    "source": "TftJC",
+    "page": 43,
+    "featureType": [
+        "EI"
+    ],
+    "entries": [
+        "Your minion, familiar, and any creatures summoned through the use of a conjuration spell gain the Pact Tactics feature but only in relation to each other and you."
+    ]
+}

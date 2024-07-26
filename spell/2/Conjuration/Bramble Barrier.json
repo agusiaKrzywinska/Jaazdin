@@ -1,0 +1,49 @@
+{
+    "name": "Bramble Barrier",
+    "source": "TftJC",
+    "page": 57,
+    "level": 2,
+    "school": "C",
+    "time": [
+        {
+            "number": 10,
+            "unit": "minute"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "feet",
+            "amount": 45
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true
+    },
+    "duration": [
+        {
+            "type": "timed",
+            "duration": {
+                "amount": 24,
+                "type": "hour"
+            }
+        }
+    ],
+    "entries": [
+        "A mass of thick brambles and vines rapidly grows from a point within range. The brambles form into a tough dome with a diameter of 15ft, a height of 10ft and a thickness of 1ft. The dome has an AC of 13, has 30 hit points, with vulnerability to fire and immunity to psychic and poison. The brambles remain for the duration or as long as they have hit points. When casting the spell, you can choose to concentrate on it.",
+        "While concentrating on this spell, the brambles heal 5 hit points at the start of your turn. If you would lose concentration, the brambles remain for the remainder of their duration or once their hit points reach 0. If you cast this spell using a spell slot of 3rd or higher, the brambles are conjured with an additional 10 maximum hit points."
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Druid",
+                "source": "PHB"
+            },
+            {
+                "name": "Ranger",
+                "source": "PHB"
+            }
+        ]
+    }
+}

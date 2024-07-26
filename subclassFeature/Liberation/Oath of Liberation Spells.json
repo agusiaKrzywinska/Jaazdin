@@ -1,0 +1,45 @@
+{
+    "name": "Oath of Liberation Spells",
+    "source": "TftJC",
+    "className": "Paladin",
+    "classSource": "PHB",
+    "subclassShortName": "Liberation",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        {
+            "type": "table",
+            "caption": "Liberation Spells",
+            "colLabels": [
+                "Paladin Level",
+                "Spell"
+            ],
+            "colStyles": [
+                "col- text-",
+                "col- text- "
+            ],
+            "rows": [
+                [
+                    "3rd",
+                    "Expeditious Retreat, Sanctuary"
+                ],
+                [
+                    "5th",
+                    "Knock, Shatter"
+                ],
+                [
+                    "9th",
+                    "Fly, Nondetection"
+                ],
+                [
+                    "13th",
+                    "Dimension Door, Freedom of Movement"
+                ],
+                [
+                    "17th",
+                    "Greater Restoration, Passwall"
+                ]
+            ]
+        }
+    ]
+}

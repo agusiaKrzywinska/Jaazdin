@@ -1,0 +1,14 @@
+{
+    "name": "Tenets of the Slayer",
+    "source": "TftJC",
+    "className": "Paladin",
+    "classSource": "PHB",
+    "subclassShortName": "Slayer",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "<b>Shelter the Hunted.</b> Aid those that are harmed by your quarry and the forces of evil.",
+        "<b>Quell your Quarry.</b> Seek out your quarry wherever they may hide and show no mercy in quelling their plots.",
+        "<b>Restore the Broken.</b> A slayers job does not end when the quarry is dead. Help tore build that which has been broken by evil."
+    ]
+}

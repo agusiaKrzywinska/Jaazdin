@@ -1,0 +1,13 @@
+{
+    "name": "Cataclysm of Nature",
+    "source": "TftJC",
+    "className": "Monk",
+    "classSource": "PHB",
+    "subclassShortName": "Four Elements 2.0",
+    "subclassSource": "TftJC",
+    "level": 17,
+    "entries": [
+        "At 17th level, your control over the Elements is at its peak. Once per day, you can cast one of the following spells without expending a spell slot, or having them on your spell list. You can expend a number of Ki points equal to the level of that spell to do so again.",
+        "Bones of The Earth, Cone of Cold, Immolation, Investiture of Flame, Investiture of Ice, Maelstrom, Wall of Stone, Wind Walk."
+    ]
+}

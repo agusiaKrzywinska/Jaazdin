@@ -1,0 +1,13 @@
+{
+    "name": "College of Conducting",
+    "source": "TftJC",
+    "page": 14,
+    "className": "Bard",
+    "classSource": "PHB",
+    "shortName": "Conducting",
+    "subclassFeatures": [
+        "College of Conducting|Bard|PHB|Conducting|TftJC|3",
+        "Duet|Bard|PHB|Conducting|TftJC|6",
+        "Quickened Conducting|Bard|PHB|Conducting|TftJC|14"
+    ]
+}

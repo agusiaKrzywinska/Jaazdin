@@ -1,0 +1,24 @@
+{
+    "name": "The Red Blade",
+    "source": "TftJC",
+    "rarity": "very rare",
+    "baseItem": "longsword|phb",
+    "type": "M",
+    "weight": 3,
+    "weaponCategory": "martial",
+    "reqAttune": true,
+    "property": [
+        "V"
+    ],
+    "dmg1": "1d8",
+    "dmgType": "S",
+    "dmg2": "1d10",
+    "bonusWeapon": "+2",
+    "entries": [
+        "You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+        "While wielding this blade, you can cast {@spell Hunter's Mark|PHB}, {@spell Ensnaring Strike|PHB}, {@spell Pass Without Trace|PHB} and {@spell Dust Devil|XGE} once per long rest, each.",
+        "Additionally, you no longer need to drink water, and have advantage on Constitution saving throws against overheating.",
+        "When you hit with a melee attack using this sword and reduce the target to 0 hit points, you gain 2d6 temporary hit points.",
+        "Your theft shall not be forgotten, and my vengeance shall be swift."
+    ]
+}
