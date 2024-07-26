@@ -6,11 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "destructure": "node destructure.js",
-    "build": "node build.js"
+    "build": "node build.js",
+    "spell": "cspell **/*.json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jsonschema": "^1.4.1",
     "prompt": "^1.3.0"
   }
 }
