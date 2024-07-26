@@ -103,7 +103,7 @@ TOP_FOLDERS.forEach((key) => {
                 filepath = `./subclass/${obj.className}/${obj.name}.json`;
                 break;
 
-            case "sublcassFeature":
+            case "subclassFeature":
                 fs.existsSync(`./subclassfeature/${obj.subclassShortName}`) || fs.mkdirSync(`./subclassfeature/${obj.subclassShortName}`);
                 filepath = `./subclassfeature/${obj.subclassShortName}/${obj.name}.json`;
                 break;
