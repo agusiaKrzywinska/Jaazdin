@@ -1,0 +1,30 @@
+{
+    "name": "Sword of Hate",
+    "baseItem": "longsword|PHB",
+    "source": "TftJC",
+    "type": "M",
+    "rarity": "rare",
+    "reqAttune": true,
+    "weight": 7,
+    "weaponCategory": "martial",
+    "property": [
+        "H",
+        "2H"
+    ],
+    "dmg1": "1d8",
+    "dmg2": "1d10",
+    "dmgType": "S",
+    "bonusWeapon": "+1",
+    "curse": true,
+    "entries": [
+        "This simple longsword has embedded in its hilt a rough hew red crystal. The Sword of Hate is a magical longsword, and you gain a +1 bonus to attack and damage rolls made with this weapon. ",
+        "Whenever you have the choice to spar someone, choose mercy, or forgive someone, the sword whispers hateful things into your mind. If you still choose the merciful option, you must give the blade one hit die, which reduces your maximum hit dice by the same amount. If you choose to listen to the blade, the blade gains a stack of Malice. If you have no hit dice left, you cannot resist the blade and must choose the most violent option. At certain amounts of Malice the blade gains more abilities.",
+        "2 - The weapon bonus increases to a +2.",
+        "4 - The weapon bonus increases to a +3.",
+        "6 - The weapon’s critical range is increased by 1.",
+        "8 - The weapon deals an additional 1d8 (1d10 if held in two hands) slashing damage.",
+        "10 - ??",
+        "To regain hit dice consumed by the blade, you must cast a remove curse or similar spell on the blade. Each time this is cast, you regain one lost hit die. The creature casting the remove curse (or similar spell) must make a DC 13 + the number of held hit dice Charisma saving throw or have their alignment shifted down by one row, if it is already evil it is shifted one towards chaotic, if they are already chaotic evil                                                 .",
+        "The blade can hold a total of 20 hit dice."
+    ]
+}

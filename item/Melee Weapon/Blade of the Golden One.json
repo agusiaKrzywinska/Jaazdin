@@ -1,0 +1,20 @@
+{
+    "name": "Blade of the Golden One",
+    "source": "TftJC",
+    "type": "M",
+    "rarity": "artifact",
+    "reqAttune": true,
+    "weaponCategory": "simple",
+    "curse": true,
+    "entries": [
+        "This ancient blade once belonged to the Golden Empress of Mere’su’ra, given as a betrothal gift from the Emperor of Kimatt. The blade appears as an opulently sheathed longsword but when draw can take on one of the following shapes.",
+        "Golden Strength. Your Strength score increases by 2 and your Strength score maximum increases by 2.",
+        "Astarte. This magical {@item longsword} hums with arcane energy. If you hit a target with this weapon on the same turn that you cast a spell, it deals additional damage equal to half your Arcana bonus.",
+        "Lunari. These magical {@item scimitar||scimitars} glow with intertwined golden vines. At the start of your turn while you have Lunari drawn, you gain temporary hit points equal to half your Nature bonus.",
+        "Piety. This magical {@item greatsword} carries with it sanctified light. When drawn it sheds bright light in a 15ft radius, this light is considered sunlight. Each creature hostile to you that ends its turn inside that light suffers radiant damage equal to half your History bonus.",
+        "Omega. This magical {@item warhammer} is rusted and aged yet holds ancient wisdom. While you have this weapon drawn, you can cast one cleric spell of a level equal to or lower than half your religion bonus. Once you use this property, you cannot use it again until the next dawn. ",
+        "Regardless of its form, the blade is a +1 weapon if the wielders Intelligence is 12 or higher, +2 weapon if the wielders Intelligence is 16 or higher, and +3 if it is 20 or higher. ",
+        "Cursed. Upon touching this blade a creature becomes cursed. While cursed, they hold the blade in high regard and refuse to part with it. In addition, the creature is infected with the lust for conquest that Thilask once held. You desire to own land, things, and knowledge, only wishing to share these things if people pay you tribute in the form of gold, fealty, or faith.",
+        "You cannot become immune to the charmed condition, and you have disadvantage on saving throws to resist being charmed. Charmed effects on you last until the creature who charmed you is killed (or object is destroyed), regardless of their regular duration. Regular ways of dispelling charms still work. If the blade ever leaves your person, your Strength becomes 1, this lasts until you have the blade again or a 9th level Remove Curse removes the curse."
+    ]
+}

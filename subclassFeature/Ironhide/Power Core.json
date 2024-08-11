@@ -9,6 +9,7 @@
     "entries": [
         "At 6th level, you can select a unique way to manifest your magical powers. Select either Molten Core or Static Core, and you gain features based off what you selected.",
         {
+            "type": "entries",
             "entries": [
                 {
                     "type": "inset",

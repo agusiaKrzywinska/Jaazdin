@@ -32,11 +32,7 @@
     "save": {
         "cha": "your PB"
     },
-    "skill": {},
-    "senses": [],
     "passive": "10 + (PB × 2)",
-    "immune": [],
-    "conditionImmune": [],
     "languages": [
         "Common and all the languages you speak"
     ],
