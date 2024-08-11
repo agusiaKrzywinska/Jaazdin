@@ -5,22 +5,27 @@ const EXCLUDED_FOLDERS = ["node_modules", ".git", ".vscode"];
 
 const FOLDERS = fs.readdirSync("./").filter((file) => fs.lstatSync(file).isDirectory() && !EXCLUDED_FOLDERS.includes(file));
 
-const SORTS = {
-    subclass: (a, b) => {
-        return a.className.localeCompare(b.className);
-    },
-    subclassFeature: (a, b) => {
-        return (
-            a.className.localeCompare(b.className) || a.subclassShortName.localeCompare(b.subclassShortName) || a.level - b.level
-        );
-    },
-    classFeature: (a, b) => {
-        return a.className.localeCompare(b.className) || a.level - b.level;
-    },
-};
-
-const DEAFULT_SORT = (a, b) => {
-    return a.name.localeCompare(b.name);
+const getSort = (folder) => {
+    switch (folder) {
+        case "subclass":
+            return (a, b) => {
+                return a.className.localeCompare(b.className);
+            };
+        case "subclassFeature":
+            return (a, b) => {
+                return (
+                    a.className.localeCompare(b.className) || a.subclassShortName.localeCompare(b.subclassShortName) || a.level - b.level
+                );
+            };
+        case "classFeature":
+            return (a, b) => {
+                return a.className.localeCompare(b.className) || a.level - b.level;
+            };
+        default:
+            return (a, b) => {
+                return a.name.localeCompare(b.name);
+            };
+    }
 };
 
 prompt.start();
@@ -70,7 +75,7 @@ prompt.get(
                 const obj = JSON.parse(fileContent);
                 newJson[folder].push(obj);
             });
-            newJson[folder].sort(SORTS[folder] || DEAFULT_SORT);
+            newJson[folder].sort(getSort(folder));
         });
         const newJsonContent = JSON.stringify(newJson, null, 4);
         fs.writeFile("./Tales_from_the_Jaazdin_Collective.json", newJsonContent, (err) => {
