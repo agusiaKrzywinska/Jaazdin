@@ -9,7 +9,7 @@ const getSort = (folder) => {
     switch (folder) {
         case "subclass":
             return (a, b) => {
-                return a.className.localeCompare(b.className);
+                return a.className.localeCompare(b.className) || a.name.localeCompare(b.name);
             };
         case "subclassFeature":
             return (a, b) => {
