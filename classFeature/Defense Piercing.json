@@ -1,0 +1,10 @@
+{
+    "name": "Defense Piercing",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "level": 11,
+    "entries": [
+        "At 11th level, your shots can hurt even the most resilient of foes. Ranged attacks you make with Firearms ignore resistance to piercing damage, as well as they are considered magical for the purpose of overcoming resistances."
+    ]
+}

@@ -2,122 +2,122 @@
     "name": "Red Banner Recruit",
     "source": "TftJC",
     "feats": [
-		{
-			"Eldritch Adept|phb": true
-		}
+        {
+            "Eldritch Adept|phb": true
+        }
     ],
     "skillProficiencies": [
         {
             "athletics": true,
-            "intimidation":true
+            "intimidation": true
         }
     ],
     "languageProficiencies": [
-		{
-			"anyStandard": 1
-		}
-	],
+        {
+            "anyStandard": 1
+        }
+    ],
     "startingEquipment": [
-		{
-			"_": [
-				"traveler's clothes|phb",
-				"bedroll|phb",
-				"mess kit|phb",
-				{
-					"item": "pouch|phb",
-					"containsValue": 100
-				},
+        {
+            "_": [
+                "traveler's clothes|phb",
+                "bedroll|phb",
+                "mess kit|phb",
                 {
-					"special": "memento from home"
-				}
-			]
-		}
-	],
-	"fromFeature": {
-		"feats": true
-	},
+                    "item": "pouch|phb",
+                    "containsValue": 100
+                },
+                {
+                    "special": "memento from home"
+                }
+            ]
+        }
+    ],
+    "fromFeature": {
+        "feats": true
+    },
     "entries": [
-		{
-			"type": "list",
-			"style": "list-hang-notitle",
-			"items": [
-				{
-					"type": "item",
-					"name": "Skill Proficiencies:",
-					"entry": "{@skill Athletics}, {@skill Intimidation}"
-				},
-				{
-					"type": "item",
-					"name": "Weapon Proficiency:",
-					"entry": "One martial or unique weapon of your choice."
-				},
-				{
-					"type": "item",
-					"name": "Equipment:",
-					"entry": "A {@item traveler's clothes|PHB}, a {@item bedroll|PHB}, a {@item mess kit}, a {@item pouch|PHB} containing 1 gp and a memento from home."
-				}
-			]
-		},
-		{
-			"name": "Feature: Mercenary Patron",
-			"type": "entries",
-			"entries": [
-				"You gain the {@feat Eldritch Adept|PHB} feat, ignoring its prerequisite. When selected from this background you must choose one of the follow Invocations: Armor of Shadows, Beast Speech, Beguiling Influence, Eldritch Sight, Eyes of the Rune Keeper, Fiendish Vigor, Umbral Armour, or Gaze of Two Minds."
-			],
-			"data": {
-				"isFeature": true
-			}
-		},
-		{
-			"name": "Otherworldly Influence Table",
-			"type": "entries",
-			"entries": [
-				"There are many kinds of criminals, and within a thieves' guild or similar criminal organization, individual members have particular specialties. Even criminals who operate outside of such organizations have strong preferences for certain kinds of crimes over others. Choose the role you played in your criminal life, or roll on the table below.",
-				{
-					"type": "table",
-					"colLabels": [
-						"d6",
-						"Manifestation"
-					],
-					"colStyles": [
-						"col-1 text-center",
-						"col-11"
-					],
-					"rows": [
-						[
-							"1",
-							"When using your new ability, your eye flare with red light."
-						],
-						[
-							"2",
-							"When your ability manifests, small red crystals grow from your body or an affected object."
-						],
-						[
-							"3",
-							"Otherworldly whispers fill your mind when using your ability, urging you towards violent acts."
-						],
-						[
-							"4",
-							"You occasionally have dreams of violence and fire, dominated by visions of a towering crystalline structure."
-						],
-						[
-							"5",
-							"Sometimes, shortly after using your abilities, things appear different. Allies seem alien and violent and the landscapes twist into hellish vistas."
-						],
-						[
-							"6",
-							"Use of your abilities is physically painful and leaves scars on your body that fade after a few minutes."
-						]
-					]
-				}
-			]
-		},
-		{
-			"name": "Suggested Characteristics",
-			"type": "entries",
-			"entries": [
+        {
+            "type": "list",
+            "style": "list-hang-notitle",
+            "items": [
+                {
+                    "type": "item",
+                    "name": "Skill Proficiencies:",
+                    "entry": "{@skill Athletics}, {@skill Intimidation}"
+                },
+                {
+                    "type": "item",
+                    "name": "Weapon Proficiency:",
+                    "entry": "One martial or unique weapon of your choice."
+                },
+                {
+                    "type": "item",
+                    "name": "Equipment:",
+                    "entry": "A {@item traveler's clothes|PHB}, a {@item bedroll|PHB}, a {@item mess kit}, a {@item pouch|PHB} containing 1 gp and a memento from home."
+                }
+            ]
+        },
+        {
+            "name": "Feature: Mercenary Patron",
+            "type": "entries",
+            "entries": [
+                "You gain the {@feat Eldritch Adept|PHB} feat, ignoring its prerequisite. When selected from this background you must choose one of the follow Invocations: Armor of Shadows, Beast Speech, Beguiling Influence, Eldritch Sight, Eyes of the Rune Keeper, Fiendish Vigor, Umbral Armour, or Gaze of Two Minds."
+            ],
+            "data": {
+                "isFeature": true
+            }
+        },
+        {
+            "name": "Otherworldly Influence Table",
+            "type": "entries",
+            "entries": [
+                "There are many kinds of criminals, and within a thieves' guild or similar criminal organization, individual members have particular specialties. Even criminals who operate outside of such organizations have strong preferences for certain kinds of crimes over others. Choose the role you played in your criminal life, or roll on the table below.",
+                {
+                    "type": "table",
+                    "colLabels": [
+                        "d6",
+                        "Manifestation"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-11"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "When using your new ability, your eye flare with red light."
+                        ],
+                        [
+                            "2",
+                            "When your ability manifests, small red crystals grow from your body or an affected object."
+                        ],
+                        [
+                            "3",
+                            "Otherworldly whispers fill your mind when using your ability, urging you towards violent acts."
+                        ],
+                        [
+                            "4",
+                            "You occasionally have dreams of violence and fire, dominated by visions of a towering crystalline structure."
+                        ],
+                        [
+                            "5",
+                            "Sometimes, shortly after using your abilities, things appear different. Allies seem alien and violent and the landscapes twist into hellish vistas."
+                        ],
+                        [
+                            "6",
+                            "Use of your abilities is physically painful and leaves scars on your body that fade after a few minutes."
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Suggested Characteristics",
+            "type": "entries",
+            "entries": [
                 "Use the tables for the soldier background in the Player's Handbook as the basis for your traits and motivations, modifying the entries when appropriate to suit your identity as a mercenary. Your bond could be associated with the company you traveled with previously, or with some of the comrades you served with. The ideal you embrace largely depends on your worldview and your motivation for fighting."
             ]
-		}
-	]
+        }
+    ]
 }
