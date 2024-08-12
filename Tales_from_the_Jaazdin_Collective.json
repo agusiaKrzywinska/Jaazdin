@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.0.24"
+                "version": "0.0.25"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1723499838
+        "dateLastModified": 1723502109
     },
     "background": [
         {
@@ -778,6 +778,29 @@
             ]
         },
         {
+            "name": "Automatic Rifle",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 9,
+            "value": 1200000,
+            "weaponCategory": "firearm",
+            "property": [
+                "2H"
+            ],
+            "ammunition": true,
+            "reload": 30,
+            "dmg1": "3d6",
+            "dmgType": "P",
+            "range": "80/320",
+            "entries": [
+                "<b><i>Tier 5.</i></b>",
+                "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
+                "<b><i>Auto</i><b> Auto firearms can make an additional attack as a part of the Attack Action.",
+                "<b><i>Clip 30.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+            ]
+        },
+        {
             "name": "Bag of Shiny Bait",
             "source": "TftJC",
             "rarity": "uncommon",
@@ -1275,6 +1298,51 @@
                         ]
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Bren",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 15,
+            "value": 1000000,
+            "weaponCategory": "firearm",
+            "property": [
+                "2H",
+                "H"
+            ],
+            "ammunition": true,
+            "reload": 20,
+            "dmg1": "2d10",
+            "dmgType": "P",
+            "range": "120/480",
+            "entries": [
+                "<b><i>Tier 5.</i></b>",
+                "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
+                "<b><i>Reliable</i><b> Reliable firearms have their misfire score lowered by 1.",
+                "<b><i>Clip 20.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+            ]
+        },
+        {
+            "name": "Broomhandle Pistol",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 2,
+            "value": 80000,
+            "weaponCategory": "firearm",
+            "property": [
+                "L"
+            ],
+            "ammunition": true,
+            "reload": 6,
+            "dmg1": "1d8",
+            "dmgType": "P",
+            "range": "60/240",
+            "entries": [
+                "<b><i>Tier 2.</i></b>",
+                "<b><i>Clip 8.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
             ]
         },
         {
@@ -2084,6 +2152,29 @@
             ]
         },
         {
+            "name": "Maxim",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 25,
+            "value": 325000,
+            "weaponCategory": "firearm",
+            "property": [
+                "2H",
+                "H"
+            ],
+            "ammunition": true,
+            "reload": 40,
+            "dmg1": "4d4",
+            "dmgType": "P",
+            "range": "60/240",
+            "entries": [
+                "<b><i>Tier 3.</i></b>",
+                "<b><i>Belt 40.</i></b> Upon crafting a Belt fed firearm, you additionally gain 1 Belt. Belt fed firearms use a number of rounds equal to how many damage die they roll with their attack. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1.",
+                "<b><i>Loud</i></b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away."
+            ]
+        },
+        {
             "name": "Meteor Hammer",
             "source": "TftJC",
             "page": 50,
@@ -2201,6 +2292,27 @@
             ]
         },
         {
+            "name": "Pistol",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 1,
+            "value": 35000,
+            "weaponCategory": "firearm",
+            "property": [
+                "L"
+            ],
+            "ammunition": true,
+            "reload": 6,
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "range": "40/160",
+            "entries": [
+                "<b><i>Tier 1.</i></b>",
+                "<b><i>Clip 6.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+            ]
+        },
+        {
             "name": "Plate of Heating and Cooling",
             "source": "TftJC",
             "rarity": "common",
@@ -2235,6 +2347,48 @@
             "wondrous": true,
             "entries": [
                 "This brightly colored disk is made of some sort of wondrous material and can bend easily. When inverted it will quickly spring itself back to its normal shape, propelling objects on top of it 30 feet into the air. It is an action to arm the Puck and it detonates whenever someone steps onto it or at the start of your next turn. After being used, roll {@dice 1d20}. On a roll of 1 or 2, the Puck snaps and becomes useless."
+            ]
+        },
+        {
+            "name": "Revolving Rifle",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 6,
+            "value": 100000,
+            "weaponCategory": "firearm",
+            "property": [
+                "2H"
+            ],
+            "ammunition": true,
+            "reload": 5,
+            "dmg1": "1d10",
+            "dmgType": "P",
+            "range": "80/320",
+            "entries": [
+                "<b><i>Tier 2.</i></b>",
+                "<b><i>Barrel 5.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
+            ]
+        },
+        {
+            "name": "Rifle",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 8,
+            "value": 250000,
+            "weaponCategory": "firearm",
+            "property": [
+                "2H"
+            ],
+            "ammunition": true,
+            "reload": 5,
+            "dmg1": "2d6",
+            "dmgType": "P",
+            "range": "80/320",
+            "entries": [
+                "<b><i>Tier 3.</i></b>",
+                "<b><i>Clip 8.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
             ]
         },
         {
@@ -2707,6 +2861,28 @@
             ]
         },
         {
+            "name": "Stench Pistol",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 3,
+            "value": 650000,
+            "weaponCategory": "firearm",
+            "property": [
+                "L"
+            ],
+            "ammunition": true,
+            "reload": 20,
+            "dmg1": "1d10",
+            "dmgType": "P",
+            "range": "40/160",
+            "entries": [
+                "<b><i>Tier 4.</i></b>",
+                "<b><i>Auto</i></b> Auto firearms can make an additional attack as a part of the Attack Action.",
+                "<b><i>Clip 20.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+            ]
+        },
+        {
             "name": "Stinger",
             "source": "TftJC",
             "type": "R",
@@ -2978,6 +3154,28 @@
                 "This tome contains the secrets of invention and innovation.",
                 "It can be read over 1 week to gain +20 towards one Complex invention blueprint progress. Alternatively, a creature reading it can instead read the book to increase their Teaching, Tinkering, or Smithing labor tier by 3.",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+            ]
+        },
+        {
+            "name": "Tommy",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 10,
+            "value": 750000,
+            "weaponCategory": "firearm",
+            "property": [
+                "2H"
+            ],
+            "ammunition": true,
+            "reload": 40,
+            "dmg1": "2d8",
+            "dmgType": "P",
+            "range": "60/240",
+            "entries": [
+                "<b><i>Tier 4.</i></b>",
+                "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
+                "<b><i>Drum 40.</i></b> A drum operates the same as a clip, but can store much more rounds. A drum can be loaded with its maximum number of rounds by spending 10 minutes. Drum weapons are prone to jam, and have their misfire score increased by 1."
             ]
         },
         {

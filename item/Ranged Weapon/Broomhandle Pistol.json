@@ -1,0 +1,21 @@
+{
+    "name": "Broomhandle Pistol",
+    "source": "TftJC",
+    "type": "R",
+    "rarity": "none",
+    "weight": 2,
+    "value": 80000,
+    "weaponCategory": "firearm",
+    "property": [
+        "L"
+    ],
+    "ammunition": true,
+    "reload": 6,
+    "dmg1": "1d8",
+    "dmgType": "P",
+    "range": "60/240",
+    "entries": [
+        "<b><i>Tier 2.</i></b>",
+        "<b><i>Clip 8.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+    ]
+}
