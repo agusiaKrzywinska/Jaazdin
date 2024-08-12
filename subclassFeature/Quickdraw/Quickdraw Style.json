@@ -1,0 +1,12 @@
+{
+    "name": "Quickdraw Style",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "subclassShortName": "Quickdraw",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "When you choose this archetype at 2nd level, you become adept in the Quickdraw style. While wielding two Light firearms, you can engage in two-weapon fighting and add your Dexterity Modifier to the damage of your off hand firearm. For each ranged attack you make with a firearm on your turn, your movement speed is increased by 5ft until the end of the turn. You can reload one handed ranged weapons while your hands are full."
+    ]
+}

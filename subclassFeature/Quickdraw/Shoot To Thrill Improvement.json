@@ -1,0 +1,12 @@
+{
+    "name": "Shoot To Thrill Improvement",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "subclassShortName": "Quickdraw",
+    "subclassSource": "TftJC",
+    "level": 10,
+    "entries": [
+        "At 10th level, your Shoot to Thrill feature is enhanced. It can now be used as a Free Action."
+    ]
+}
