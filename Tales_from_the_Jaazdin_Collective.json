@@ -18,7 +18,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1723502109
+        "dateLastModified": 1723502359
     },
     "background": [
         {
@@ -783,7 +783,7 @@
             "type": "R",
             "rarity": "none",
             "weight": 9,
-            "value": 1200000,
+            "value": 120000,
             "weaponCategory": "firearm",
             "property": [
                 "2H"
@@ -1306,7 +1306,7 @@
             "type": "R",
             "rarity": "none",
             "weight": 15,
-            "value": 1000000,
+            "value": 100000,
             "weaponCategory": "firearm",
             "property": [
                 "2H",
@@ -1330,7 +1330,7 @@
             "type": "R",
             "rarity": "none",
             "weight": 2,
-            "value": 80000,
+            "value": 8000,
             "weaponCategory": "firearm",
             "property": [
                 "L"
@@ -2157,7 +2157,7 @@
             "type": "R",
             "rarity": "none",
             "weight": 25,
-            "value": 325000,
+            "value": 32500,
             "weaponCategory": "firearm",
             "property": [
                 "2H",
@@ -2297,7 +2297,7 @@
             "type": "R",
             "rarity": "none",
             "weight": 1,
-            "value": 35000,
+            "value": 3500,
             "weaponCategory": "firearm",
             "property": [
                 "L"
@@ -2355,7 +2355,7 @@
             "type": "R",
             "rarity": "none",
             "weight": 6,
-            "value": 100000,
+            "value": 10000,
             "weaponCategory": "firearm",
             "property": [
                 "2H"
@@ -2376,7 +2376,7 @@
             "type": "R",
             "rarity": "none",
             "weight": 8,
-            "value": 250000,
+            "value": 25000,
             "weaponCategory": "firearm",
             "property": [
                 "2H"
@@ -2866,7 +2866,7 @@
             "type": "R",
             "rarity": "none",
             "weight": 3,
-            "value": 650000,
+            "value": 65000,
             "weaponCategory": "firearm",
             "property": [
                 "L"
@@ -2888,7 +2888,7 @@
             "type": "R",
             "rarity": "none",
             "weight": 0.5,
-            "value": 30000,
+            "value": 3000,
             "weaponCategory": "firearm",
             "property": [
                 "L"
@@ -3162,7 +3162,7 @@
             "type": "R",
             "rarity": "none",
             "weight": 10,
-            "value": 750000,
+            "value": 75000,
             "weaponCategory": "firearm",
             "property": [
                 "2H"
