@@ -1,0 +1,10 @@
+{
+    "name": "Gunner Archetype Feature",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "level": 6,
+    "entries": [
+        "At 6th level, you gain a feature from your Gunner Archetype."
+    ]
+}

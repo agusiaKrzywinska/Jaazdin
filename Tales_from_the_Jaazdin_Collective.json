@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.0.25"
+                "version": "0.0.24"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1723389641
+        "dateLastModified": 1723499838
     },
     "background": [
         {
@@ -394,16 +394,6 @@
             ]
         },
         {
-            "name": "Gunner Archtype",
-            "source": "TftJC",
-            "className": "Gunner",
-            "classSource": "TftJC",
-            "level": 2,
-            "entries": [
-                "At 2nd level, you select a style of shooting in which to excel. Select either the Quickdraw, Sniper, Demolitionist or Buckshot. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level. Your Archtype is unique to you, and only you or another character with the same Archtype can utilize a special Firearm detailed in your Subclass."
-            ]
-        },
-        {
             "name": "Gun Modifications",
             "source": "TftJC",
             "className": "Gunner",
@@ -415,6 +405,16 @@
             ]
         },
         {
+            "name": "Ability Score Improvement",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "level": 4,
+            "entries": [
+                "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. You can forgo taking this feature to take a feat of your choice instead."
+            ]
+        },
+        {
             "name": "Extra Attack",
             "source": "TftJC",
             "className": "Gunner",
@@ -422,6 +422,16 @@
             "level": 5,
             "entries": [
                 "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+            ]
+        },
+        {
+            "name": "Gunner Archetype Feature",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "level": 6,
+            "entries": [
+                "At 6th level, you gain a feature from your Gunner Archetype."
             ]
         },
         {
@@ -473,6 +483,16 @@
             ]
         },
         {
+            "name": "Ability Score Improvement",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "level": 8,
+            "entries": [
+                "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. You can forgo taking this feature to take a feat of your choice instead."
+            ]
+        },
+        {
             "name": "Dodge and Roll",
             "source": "TftJC",
             "className": "Gunner",
@@ -482,6 +502,16 @@
                 "At 9th level, your reflexes can save you from harm. As a Reaction, when you would be hit by a ranged weapon attack (and can see the attacker), you can move up to half of your movement. As a part of this reaction, you can expend a use of Shoot to Thrill to make an attack with a ranged weapon attack.",
                 "At 13th level, you additionally gain the benefits of Shoot to Thrill if you decide to attack.",
                 "At 17th level, you can now move your full movement with this reaction."
+            ]
+        },
+        {
+            "name": "Gunner Archetype Feature",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "level": 10,
+            "entries": [
+                "At 10th level, you gain a feature from your Gunner Archetype."
             ]
         },
         {
@@ -495,6 +525,26 @@
             ]
         },
         {
+            "name": "Ability Score Improvement",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "level": 12,
+            "entries": [
+                "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. You can forgo taking this feature to take a feat of your choice instead."
+            ]
+        },
+        {
+            "name": "Dodge and Roll Improvement",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "level": 13,
+            "entries": [
+                "At 13th level, you additionally gain the benefits of Shoot to Thrill if you decide to attack."
+            ]
+        },
+        {
             "name": "Gunner Archetype Feature",
             "source": "TftJC",
             "className": "Gunner",
@@ -505,16 +555,6 @@
             ]
         },
         {
-            "name": "Gunner Archtype Feature",
-            "source": "TftJC",
-            "className": "Gunner",
-            "classSource": "TftJC",
-            "level": 14,
-            "entries": [
-                "At 14th level, you gain a feature from your Gunner Archtype."
-            ]
-        },
-        {
             "name": "Deadeye",
             "source": "TftJC",
             "className": "Gunner",
@@ -522,6 +562,16 @@
             "level": 15,
             "entries": [
                 "At 15th level, your accuracy becomes pinpoint accurate. When you have advantage on a ranged weapon attack, your ranged weapon attacks now increases your critical hit range by 1."
+            ]
+        },
+        {
+            "name": "Ability Score Improvement",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "level": 16,
+            "entries": [
+                "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. You can forgo taking this feature to take a feat of your choice instead."
             ]
         },
         {
@@ -2654,6 +2704,28 @@
                 "While holding the staff, the wielder can use an action target to any arachnid within 60 feet. The target must make a Wisdom saving throw against a DC of 15 or be charmed by the wielder for 1 hour. The wielder can use their bonus action on subsequent rounds to maintain control over the charmed creature, causing it to take any actions they desire.",
                 "Additionally, once per day, Target up to three creatures within 60 feet. The affected creatures must make a Wisdom saving throw against a DC of 15 or be magically {@condition restrained} for 1 minute while they struggle to untangle themselves from the web of lies and deceit. The affected creatures can make the save again at the end of their turn.",
                 "While attuned to the staff, the wielder gains resistance to poison damage and advantage on saving throws against poison effects."
+            ]
+        },
+        {
+            "name": "Stinger",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 0.5,
+            "value": 30000,
+            "weaponCategory": "firearm",
+            "property": [
+                "L"
+            ],
+            "ammunition": true,
+            "reload": 4,
+            "dmg1": "1d4",
+            "dmgType": "P",
+            "range": "15/60",
+            "entries": [
+                "<b><i>Tier 1.</i></b>",
+                "<b><i>Barrel 4.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel.",
+                "<b><i>Hidden.</i></b> Hidden Firearms are small enough to tuck into a sleeve without it showing an outline and are made for assassinations. Hidden firearms come with a small track that can be mounted to the wielders wrist. As an interaction, they can slide the firearm hidden in their sleeve down the track and right into their hand. Creatures searching you for weapons have disadvantage on finding a Hidden firearm, and you have advantage on Sleight of Hand checks to hide it."
             ]
         },
         {

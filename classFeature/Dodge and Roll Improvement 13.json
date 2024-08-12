@@ -1,0 +1,10 @@
+{
+    "name": "Dodge and Roll Improvement",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "level": 13,
+    "entries": [
+        "At 13th level, you additionally gain the benefits of Shoot to Thrill if you decide to attack."
+    ]
+}
