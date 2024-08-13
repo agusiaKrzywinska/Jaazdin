@@ -102,7 +102,10 @@ TOP_FOLDERS.forEach((key) => {
                 fs.existsSync(`./subclassFeature/${obj.subclassShortName}`) || fs.mkdirSync(`./subclassFeature/${obj.subclassShortName}`);
                 filepath = `./subclassFeature/${obj.subclassShortName}/${obj.name}.json`;
                 break;
-
+            case "classFeature":
+                fs.existsSync(`./classFeature/${obj.className}`) || fs.mkdirSync(`./classFeature/${obj.className}`);
+                filepath = `./classFeature/${obj.className}/${obj.level}. ${obj.name}.json`;
+                break;
             default:
                 filepath = `./${key}/${obj.name}.json`;
                 break;
