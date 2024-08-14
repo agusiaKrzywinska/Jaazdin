@@ -1,0 +1,12 @@
+{
+    "name": "Shoot to Thrill Improvement",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "subclassShortName": "Sniper",
+    "subclassSource": "TftJC",
+    "level": 10,
+    "entries": [
+        "At 10th level, your Shoot to Thrill feature is enchanced. When you use Shoot to Thrill, you immediately gain the benefits of Calm Mind or your Hidden Perch, ignoring its prerequisite. You can only select Hidden perch if you are already hiding or hidden."
+    ]
+}

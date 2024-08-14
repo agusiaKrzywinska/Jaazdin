@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.0.25"
+                "version": "0.0.26"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1723503561
+        "dateLastModified": 1723671610
     },
     "background": [
         {
@@ -1639,6 +1639,50 @@
             ]
         },
         {
+            "name": "Double Barrel",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 8,
+            "value": 7500,
+            "weaponCategory": "buckshot firearm",
+            "property": [
+                "2H"
+            ],
+            "ammunition": true,
+            "reload": 2,
+            "dmg1": "1d10",
+            "dmgType": "P",
+            "range": "10/30",
+            "entries": [
+                "<b><i>Tier 2.</i></b>",
+                "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
+                "<b><i>Pump 2.</i></b> A pump ammo system stores a number of shots directly in the gun. You can reload the barrel with up to 2 slugs as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two shots as a part of the same attack. The first target takes additional damage equal to the weapon's damage die. Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
+            ]
+        },
+        {
+            "name": "Dusty Falcon",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 4.5,
+            "value": 100000,
+            "weaponCategory": "quickdraw firearm",
+            "property": [
+                "L"
+            ],
+            "ammunition": true,
+            "reload": 8,
+            "dmg1": "2d6",
+            "dmgType": "P",
+            "range": "80/320",
+            "entries": [
+                "<b><i>Tier 5.</i></b>",
+                "<b><i>Auto</i><b> Auto firearms can make an additional attack as a part of the Attack Action.",
+                "<b><i>Clip 8.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+            ]
+        },
+        {
             "name": "Eclipse Sol",
             "source": "TftJC",
             "rarity": "legendary",
@@ -2131,6 +2175,27 @@
             ]
         },
         {
+            "name": "Long-Barrel Revolver",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 1.5,
+            "value": 12500,
+            "weaponCategory": "quickdraw firearm",
+            "property": [
+                "L"
+            ],
+            "ammunition": true,
+            "reload": 6,
+            "dmg1": "1d8",
+            "dmgType": "P",
+            "range": "60/240",
+            "entries": [
+                "<b><i>Tier 2.</i></b>",
+                "<b><i>Barrel 6.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
+            ]
+        },
+        {
             "name": "Man Catcher",
             "source": "TftJC",
             "page": 50,
@@ -2347,6 +2412,49 @@
             "wondrous": true,
             "entries": [
                 "This brightly colored disk is made of some sort of wondrous material and can bend easily. When inverted it will quickly spring itself back to its normal shape, propelling objects on top of it 30 feet into the air. It is an action to arm the Puck and it detonates whenever someone steps onto it or at the start of your next turn. After being used, roll {@dice 1d20}. On a roll of 1 or 2, the Puck snaps and becomes useless."
+            ]
+        },
+        {
+            "name": "Remy",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 8,
+            "value": 12500,
+            "weaponCategory": "buckshot firearm",
+            "property": [
+                "2H"
+            ],
+            "ammunition": true,
+            "reload": 2,
+            "dmg1": "2d6",
+            "dmgType": "P",
+            "range": "15/30",
+            "entries": [
+                "<b><i>Tier 2.</i></b>",
+                "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
+                "<b><i>Pump 2.</i></b> A pump ammo system stores a number of shots directly in the gun. You can reload the barrel with up to 2 slugs as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two shots as a part of the same attack. The first target takes additional damage equal to the weapon's damage die. Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
+            ]
+        },
+        {
+            "name": "Revolver",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 1,
+            "value": 5000,
+            "weaponCategory": "quickdraw firearm",
+            "property": [
+                "L"
+            ],
+            "ammunition": true,
+            "reload": 6,
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "range": "40/160",
+            "entries": [
+                "<b><i>Tier 1.</i></b>",
+                "<b><i>Barrel 6.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
             ]
         },
         {
@@ -2765,6 +2873,28 @@
             ]
         },
         {
+            "name": "Shotgun",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 6,
+            "value": 500,
+            "weaponCategory": "buckshot firearm",
+            "property": [
+                "2H"
+            ],
+            "ammunition": true,
+            "reload": 1,
+            "dmg1": "1d10",
+            "dmgType": "P",
+            "range": "10/20",
+            "entries": [
+                "<b><i>Tier 1.</i></b>",
+                "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
+                "<b><i>Pump 1.</i></b> A pump ammo system stores a number of shots directly in the gun. You can reload the barrel with up to 2 slugs as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two shots as a part of the same attack. The first target takes additional damage equal to the weapon's damage die. Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
+            ]
+        },
+        {
             "name": "Shuang Gou",
             "source": "TftJC",
             "page": 50,
@@ -2883,6 +3013,28 @@
             ]
         },
         {
+            "name": "Stench Pistol",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 3,
+            "value": 65000,
+            "weaponCategory": "firearm",
+            "property": [
+                "L"
+            ],
+            "ammunition": true,
+            "reload": 20,
+            "dmg1": "1d10",
+            "dmgType": "P",
+            "range": "40/160",
+            "entries": [
+                "<b><i>Tier 4.</i></b>",
+                "<b><i>Auto</i></b> Auto firearms can make an additional attack as a part of the Attack Action.",
+                "<b><i>Clip 20.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+            ]
+        },
+        {
             "name": "Stinger",
             "source": "TftJC",
             "type": "R",
@@ -2932,6 +3084,28 @@
                 "10 - ??",
                 "To regain hit dice consumed by the blade, you must cast a remove curse or similar spell on the blade. Each time this is cast, you regain one lost hit die. The creature casting the remove curse (or similar spell) must make a DC 13 + the number of held hit dice Charisma saving throw or have their alignment shifted down by one row, if it is already evil it is shifted one towards chaotic, if they are already chaotic evil                                                 .",
                 "The blade can hold a total of 20 hit dice."
+            ]
+        },
+        {
+            "name": "The Fozz",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 2,
+            "value": 7500,
+            "weaponCategory": "quickdraw firearm",
+            "property": [
+                "L"
+            ],
+            "ammunition": true,
+            "reload": 6,
+            "dmg1": "1d10",
+            "dmgType": "P",
+            "range": "60/240",
+            "entries": [
+                "<b><i>Tier 3.</i></b>",
+                "<b><i>Auto</i><b> Auto firearms can make an additional attack as a part of the Attack Action.",
+                "<b><i>Barrel 6.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
             ]
         },
         {
@@ -3244,6 +3418,72 @@
             "wondrous": true,
             "entries": [
                 "This tasty pie can be shared with up to 4 other people. If shared during a short rest each person that eats it can add {@dice 1d4} to one hit die spent during the short rest. The pie magically reappears each day at midnight."
+            ]
+        },
+        {
+            "name": "Wind Chest",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 10,
+            "value": 100000,
+            "weaponCategory": "buckshot firearm",
+            "property": [
+                "2H"
+            ],
+            "ammunition": true,
+            "reload": 8,
+            "dmg1": "2d6",
+            "dmgType": "P",
+            "range": "15/40",
+            "entries": [
+                "<b><i>Tier 5.</i></b>",
+                "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
+                "<b><i>Pump 8.</i></b> A pump ammo system stores a number of shots directly in the gun. You can reload the barrel with up to 2 slugs as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two shots as a part of the same attack. The first target takes additional damage equal to the weapon's damage die. Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
+            ]
+        },
+        {
+            "name": "Wind Chest",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 8,
+            "value": 50000,
+            "weaponCategory": "buckshot firearm",
+            "property": [
+                "2H"
+            ],
+            "ammunition": true,
+            "reload": 4,
+            "dmg1": "2d6",
+            "dmgType": "P",
+            "range": "15/40",
+            "entries": [
+                "<b><i>Tier 4.</i></b>",
+                "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
+                "<b><i>Pump 4.</i></b> A pump ammo system stores a number of shots directly in the gun. You can reload the barrel with up to 2 slugs as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two shots as a part of the same attack. The first target takes additional damage equal to the weapon's damage die. Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
+            ]
+        },
+        {
+            "name": "Wolverine",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 2,
+            "value": 50000,
+            "weaponCategory": "quickdraw firearm",
+            "property": [
+                "L"
+            ],
+            "ammunition": true,
+            "reload": 6,
+            "dmg1": "1d10",
+            "dmgType": "P",
+            "range": "80/320",
+            "entries": [
+                "<b><i>Tier 4.</i></b>",
+                "<b><i>Auto</i><b> Auto firearms can make an additional attack as a part of the Attack Action.",
+                "<b><i>Clip 6.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
             ]
         },
         {
@@ -7363,24 +7603,6 @@
             ]
         },
         {
-            "name": "Sniper",
-            "source": "TftJC",
-            "page": 16,
-            "className": "Gunner",
-            "classSource": "TftJC",
-            "shortName": "Sniper",
-            "subclassFeatures": [
-                "Hidden Perch|Gunner|TftJC|Sniper|TftJC|2",
-                "Sniper's Eye|Gunner|TftJC|Sniper|TftJC|2",
-                "Sniper Progression|Gunner|TftJC|Sniper|TftJC|2",
-                "Calm Mind|Gunner|TftJC|Sniper|TftJC|6",
-                "Sniper Modifications|Gunner|TftJC|Sniper|TftJC|6",
-                "Piercing Rounds|Gunner|TftJC|Sniper|TftJC|10",
-                "Shoot to Thrill Improvement|Gunner|TftJC|Sniper|TftJC|10",
-                "Headshot|Gunner|TftJC|Sniper|TftJC|14"
-            ]
-        },
-        {
             "name": "Demolitionist",
             "source": "TftJC",
             "page": 19,
@@ -7414,6 +7636,24 @@
                 "Lightning Round|Gunner|TftJC|Quickdraw|TftJC|10",
                 "Shoot to Thrill Improvement|Gunner|TftJC|Quickdraw|TftJC|10",
                 "Drop N' Dance|Gunner|TftJC|Quickdraw|TftJC|14"
+            ]
+        },
+        {
+            "name": "Sniper",
+            "source": "TftJC",
+            "page": 16,
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "shortName": "Sniper",
+            "subclassFeatures": [
+                "Hidden Perch|Gunner|TftJC|Sniper|TftJC|2",
+                "Sniper's Eye|Gunner|TftJC|Sniper|TftJC|2",
+                "Sniper Progression|Gunner|TftJC|Sniper|TftJC|2",
+                "Calm Mind|Gunner|TftJC|Sniper|TftJC|6",
+                "Sniper Modifications|Gunner|TftJC|Sniper|TftJC|6",
+                "Piercing Rounds|Gunner|TftJC|Sniper|TftJC|10",
+                "Shoot to Thrill Improvement|Gunner|TftJC|Sniper|TftJC|10",
+                "Headshot|Gunner|TftJC|Sniper|TftJC|14"
             ]
         },
         {
@@ -9696,6 +9936,101 @@
             ]
         },
         {
+            "name": "Shotgun Progression",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Buckshot",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "As your skills improve, you learn to modify your Shotgun. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. If you lose or need to replace your special firearm, you can spend 1 hour per Tier it was crafting a new one, and the combined gold cost.",
+                {
+                    "title": "Buckshot Firearms",
+                    "type": "table",
+                    "colLabels": [
+                        "Firearm",
+                        "Tier",
+                        "Cost",
+                        "Ammo",
+                        "Damage",
+                        "Weight",
+                        "Range",
+                        "Properties",
+                        "Modification Slots"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center"
+                    ],
+                    "rows": [
+                        [
+                            "Shotgun",
+                            "1",
+                            "50gp",
+                            "3gp/10",
+                            "1d10 piercing",
+                            "6lb.",
+                            "20",
+                            "two handed, shotgun 10, loud, pump 1",
+                            "1"
+                        ],
+                        [
+                            "Double Barrel",
+                            "2",
+                            "75gp",
+                            "3gp/10",
+                            "1d10 piercing",
+                            "8lbs",
+                            "30",
+                            "two handed, shotgun 10, loud, pump 2",
+                            "2"
+                        ],
+                        [
+                            "Remy",
+                            "3",
+                            "125gp",
+                            "3gp/10",
+                            "2d6 piercing",
+                            "8lbs",
+                            "30",
+                            "two handed, shotgun 15, loud, pump 2",
+                            "3"
+                        ],
+                        [
+                            "Wind Chest",
+                            "4",
+                            "500gp",
+                            "3gp/10",
+                            "2d6 piercing",
+                            "8lbs",
+                            "40",
+                            "two handed, shotgun 15, loud, pump 4",
+                            "3"
+                        ],
+                        [
+                            "Assault Shotgun",
+                            "5",
+                            "1000gp",
+                            "3gp/10",
+                            "2d8 piercing",
+                            "10lbs",
+                            "40",
+                            "two handed, shotgun 15, loud, pump 8",
+                            "4"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Shrug It Off",
             "source": "TftJC",
             "className": "Gunner",
@@ -9708,18 +10043,6 @@
             ]
         },
         {
-            "name": "Smokescreen",
-            "source": "TftJC",
-            "className": "Gunner",
-            "classSource": "TftJC",
-            "subclassShortName": "Buckshot",
-            "subclassSource": "TftJC",
-            "level": 6,
-            "entries": [
-                "At 6th level, you learn to craft smokebombs. You craft a number of smokebombs equal to your Proficiency Bonus per Long Rest, and can have a number of Smokebombs equal to your Proficiency Bonus. You can replace a ranged attack with a Shotgun firearm with a smokebomb, firing it out of your Shotgun a distance up to its range. The smokebomb then detonates and fills a 10ft radius area with smoke, heavily obscurring it. The smoke remains for a number of rounds equal to your Proficiency Bonus, or until blown away by a strong wind."
-            ]
-        },
-        {
             "name": "Buckshot Modifications",
             "source": "TftJC",
             "className": "Gunner",
@@ -9729,6 +10052,18 @@
             "level": 6,
             "entries": [
                 "At 6th level, Buckshots gain access to new modifications which do not count against their known Modifications. You gain the Tier 2 modification at 10th level, and the Tier 3 modification at 15th level."
+            ]
+        },
+        {
+            "name": "Smokescreen",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Buckshot",
+            "subclassSource": "TftJC",
+            "level": 6,
+            "entries": [
+                "At 6th level, you learn to craft smokebombs. You craft a number of smokebombs equal to your Proficiency Bonus per Long Rest, and can have a number of Smokebombs equal to your Proficiency Bonus. You can replace a ranged attack with a Shotgun firearm with a smokebomb, firing it out of your Shotgun a distance up to its range. The smokebomb then detonates and fills a 10ft radius area with smoke, heavily obscurring it. The smoke remains for a number of rounds equal to your Proficiency Bonus, or until blown away by a strong wind."
             ]
         },
         {
@@ -9765,221 +10100,6 @@
             "level": 14,
             "entries": [
                 "At 14th level, your Buckshot is more deadly. Creatures immediately behind your initial target of ranged atatcks made by your shotgun firearms no longer have the damage dealt to them by the cone halved."
-            ]
-        },
-        {
-            "name": "Quickdraw Style",
-            "source": "TftJC",
-            "className": "Gunner",
-            "classSource": "TftJC",
-            "subclassShortName": "Quickdraw",
-            "subclassSource": "TftJC",
-            "level": 2,
-            "entries": [
-                "When you choose this archetype at 2nd level, you become adept in the Quickdraw style. While wielding two Light firearms, you can engage in two-weapon fighting and add your Dexterity Modifier to the damage of your off hand firearm. For each ranged attack you make with a firearm on your turn, your movement speed is increased by 5ft until the end of the turn. You can reload one handed ranged weapons while your hands are full."
-            ]
-        },
-        {
-            "name": "Hidden Perch",
-            "source": "TftJC",
-            "className": "Gunner",
-            "classSource": "TftJC",
-            "subclassShortName": "Sniper",
-            "subclassSource": "TftJC",
-            "level": 2,
-            "entries": [
-                "At 2nd level, you become adpet at hiding your position. By spending a minute preparing your position and making a Stealth check, you are not automatically revealed to enemy creatures after attacking them with a Sniper firearm. You remain hidden from enemies that are further than 30ft away from you as long as you do not move from this position. You can also take the Hide Action as a Bonus Action. "
-            ]
-        },
-        {
-            "name": "Sniper's Eye",
-            "source": "TftJC",
-            "className": "Gunner",
-            "classSource": "TftJC",
-            "subclassShortName": "Sniper",
-            "subclassSource": "TftJC",
-            "level": 2,
-            "entries": [
-                "When you choose this archetype at 2nd level, your accuracy is enhanced. You gain proficiency in Perception, or if you already have this, you gain proficiency in another skill from the Gunner's skill list."
-            ]
-        },
-        {
-            "name": "Sniper Progression",
-            "source": "TftJC",
-            "className": "Gunner",
-            "classSource": "TftJC",
-            "subclassShortName": "Sniper",
-            "subclassSource": "TftJC",
-            "level": 2,
-            "entries": [
-                "As your skills improve, you learn to modify your Sniper. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. If you lose or need to replace your special firearm, you can spend 1 hour per Tier it was crafting a new one, and the combined gold cost.",
-                {
-                    "title": "Sniper Firearms",
-                    "type": "table",
-                    "colLabels": [
-                        "Firearm",
-                        "Tier",
-                        "Cost",
-                        "Ammo",
-                        "Damage",
-                        "Weight",
-                        "Range",
-                        "Properties",
-                        "Modification Slots"
-                    ],
-                    "colStyles": [
-                        "col-1 text-center",
-                        "col-1 text-center",
-                        "col-1 text-center",
-                        "col-1 text-center",
-                        "col-1 text-center",
-                        "col-1 text-center",
-                        "col-1 text-center",
-                        "col-1 text-center",
-                        "col-1 text-center"
-                    ],
-                    "rows": [
-                        [
-                            "Sniper Rifle",
-                            "1",
-                            "50gp",
-                            "2gp/10",
-                            "1d12 piercing",
-                            "10lbs",
-                            "120/480",
-                            "two handed, sniper, clip 6",
-                            "1"
-                        ],
-                        [
-                            "Windchaster Sniper",
-                            "2",
-                            "75gp",
-                            "2gp/10",
-                            "2d8 piercing",
-                            "15lbs",
-                            "120/480",
-                            "two handed, sniper, clip 8",
-                            "2"
-                        ],
-                        [
-                            "Modular Sniper",
-                            "3",
-                            "125gp",
-                            "2gp/10",
-                            "2d10 piercing",
-                            "15lbs",
-                            "120/480",
-                            "two handed, sniper, clip 10",
-                            "4"
-                        ],
-                        [
-                            "Semi-Auto Sniper",
-                            "4",
-                            "500gp",
-                            "2gp/10",
-                            "2d10 piercing",
-                            "18lbs",
-                            "150/600",
-                            "two handed, semi auto, sniper, clip 10",
-                            "4"
-                        ],
-                        [
-                            "Gold Standard",
-                            "5",
-                            "1000gp",
-                            "2gp/10",
-                            "2d12 piercing",
-                            "18lbs",
-                            "150/600",
-                            "two handed, semi auto, standard, sniper, clip 12",
-                            "5"
-                        ]
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Calm Mind",
-            "source": "TftJC",
-            "className": "Gunner",
-            "classSource": "TftJC",
-            "subclassShortName": "Sniper",
-            "subclassSource": "TftJC",
-            "level": 6,
-            "entries": [
-                "At 6th level, you learn to remain calm in the heat of battle, which aids your aim. You may add your Wisdom Modifier to your to-hit bonus of Sniper firearms. You can use this ability only if you do not move during your turn. "
-            ]
-        },
-        {
-            "name": "Sniper Modifications",
-            "source": "TftJC",
-            "className": "Gunner",
-            "classSource": "TftJC",
-            "subclassShortName": "Sniper",
-            "subclassSource": "TftJC",
-            "level": 6,
-            "entries": [
-                "At 6th level, Snipers gain access to new modifications which do not count against their known Modifications. You gain the Tier 2 modification at 10th level, and the Tier 3 modification at 15th level."
-            ]
-        },
-        {
-            "name": "Piercing Rounds",
-            "source": "TftJC",
-            "className": "Gunner",
-            "classSource": "TftJC",
-            "subclassShortName": "Sniper",
-            "subclassSource": "TftJC",
-            "level": 10,
-            "entries": [
-                "At 10th level, your bullets can pierce through creatures. You can expend a use of Shoot to Thrill as a Bonus Action, and for this turn if you hit a creature with a ranged attack with a firearm, the attack continues in a line beyond the target. You use your initial attack roll, add 10 and then subtract the enemy's AC. If this attack hits a creature behind them, they take the same damage as the initial target. This continues in a line until the bullet reaches a wall or enters its long range. "
-            ]
-        },
-        {
-            "name": "Shoot to Thrill Improvement",
-            "source": "TftJC",
-            "className": "Gunner",
-            "classSource": "TftJC",
-            "subclassShortName": "Sniper",
-            "subclassSource": "TftJC",
-            "level": 10,
-            "entries": [
-                "At 10th level, your Shoot to Thrill feature is enchanced. When you use Shoot to Thrill, you immediately gain the benefits of Calm Mind or your Hidden Perch, ignoring its prerequisite. You can only select Hidden perch if you are already hiding or hidden."
-            ]
-        },
-        {
-            "name": "Headshot",
-            "source": "TftJC",
-            "className": "Gunner",
-            "classSource": "TftJC",
-            "subclassShortName": "Sniper",
-            "subclassSource": "TftJC",
-            "level": 14,
-            "entries": [
-                "At 14th level, your sniper skills are immaculately accurate and deadly. When using your Hidden Perch, your first ranged attack with a firearm against each creature deals double damage. This extra damage can be applied to the same creature once per hour."
-            ]
-        },
-        {
-            "name": "Frontloaded Savagery",
-            "source": "TftJC",
-            "className": "Gunner",
-            "classSource": "TftJC",
-            "subclassShortName": "Demolitionist",
-            "subclassSource": "TftJC",
-            "level": 2,
-            "entries": [
-                "When you choose this archetype at 2nd level, your attacks become lethally savage. Your firearms gain an additional range, equal to half of its normal range. Attacking an enemy in this range with a Firearm allows you to reroll a number of the damage die up to your Constitution Modifier once per turn. You also gain proficiency in Medium Armor."
-            ]
-        },
-        {
-            "name": "Property Damage",
-            "source": "TftJC",
-            "className": "Gunner",
-            "classSource": "TftJC",
-            "subclassShortName": "Demolitionist",
-            "subclassSource": "TftJC",
-            "level": 2,
-            "entries": [
-                "At 2nd level, your firearms blow up the neighbourhood. Your Demolitionist Firearms deal double damage to structures and buildings."
             ]
         },
         {
@@ -10194,15 +10314,27 @@
             ]
         },
         {
-            "name": "Overcustomized Firearms",
+            "name": "Frontloaded Savagery",
             "source": "TftJC",
             "className": "Gunner",
             "classSource": "TftJC",
             "subclassShortName": "Demolitionist",
             "subclassSource": "TftJC",
-            "level": 6,
+            "level": 2,
             "entries": [
-                "At 6th level, you can modify your weapons past their limits. You can treat all firearms as if they have an additional Modification Slot. Only you can benefit from the additional modification."
+                "When you choose this archetype at 2nd level, your attacks become lethally savage. Your firearms gain an additional range, equal to half of its normal range. Attacking an enemy in this range with a Firearm allows you to reroll a number of the damage die up to your Constitution Modifier once per turn. You also gain proficiency in Medium Armor."
+            ]
+        },
+        {
+            "name": "Property Damage",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Demolitionist",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "At 2nd level, your firearms blow up the neighbourhood. Your Demolitionist Firearms deal double damage to structures and buildings."
             ]
         },
         {
@@ -10215,6 +10347,18 @@
             "level": 6,
             "entries": [
                 "At 6th level, Demolitionists gain access to new modifications which do not count against their known Modifications. You gain the Tier 2 modification at 10th level, and the Tier 3 modification at 15th level."
+            ]
+        },
+        {
+            "name": "Overcustomized Firearms",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Demolitionist",
+            "subclassSource": "TftJC",
+            "level": 6,
+            "entries": [
+                "At 6th level, you can modify your weapons past their limits. You can treat all firearms as if they have an additional Modification Slot. Only you can benefit from the additional modification."
             ]
         },
         {
@@ -10251,6 +10395,18 @@
             "level": 14,
             "entries": [
                 "At 14th level, you learn to bear the damage you cause. You gain resistance to Fire damage, and creatures of your choice have advantage on explosive saving throws you impose on them. You take no damage from Demolitionist Firearms you attack with."
+            ]
+        },
+        {
+            "name": "Quickdraw Style",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Quickdraw",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "When you choose this archetype at 2nd level, you become adept in the Quickdraw style. While wielding two Light firearms, you can engage in two-weapon fighting and add your Dexterity Modifier to the damage of your off hand firearm. For each ranged attack you make with a firearm on your turn, your movement speed is increased by 5ft until the end of the turn. You can reload one handed ranged weapons while your hands are full."
             ]
         },
         {
@@ -10353,7 +10509,7 @@
             "source": "TftJC",
             "className": "Gunner",
             "classSource": "TftJC",
-            "subclassShortName": "Buckshot",
+            "subclassShortName": "Quickdraw",
             "subclassSource": "TftJC",
             "level": 2,
             "entries": [
@@ -10443,7 +10599,6 @@
                 }
             ]
         },
-        
         {
             "name": "The Travelling Gun",
             "source": "TftJC",
@@ -10529,6 +10684,185 @@
                         "A dancing creature must use all its movement to dance without leaving its space and has disadvantage on Dexterity saving throws and attack rolls."
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Hidden Perch",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Sniper",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "At 2nd level, you become adpet at hiding your position. By spending a minute preparing your position and making a Stealth check, you are not automatically revealed to enemy creatures after attacking them with a Sniper firearm. You remain hidden from enemies that are further than 30ft away from you as long as you do not move from this position. You can also take the Hide Action as a Bonus Action. "
+            ]
+        },
+        {
+            "name": "Sniper Progression",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Sniper",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "As your skills improve, you learn to modify your Sniper. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. If you lose or need to replace your special firearm, you can spend 1 hour per Tier it was crafting a new one, and the combined gold cost.",
+                {
+                    "title": "Sniper Firearms",
+                    "type": "table",
+                    "colLabels": [
+                        "Firearm",
+                        "Tier",
+                        "Cost",
+                        "Ammo",
+                        "Damage",
+                        "Weight",
+                        "Range",
+                        "Properties",
+                        "Modification Slots"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center"
+                    ],
+                    "rows": [
+                        [
+                            "Sniper Rifle",
+                            "1",
+                            "50gp",
+                            "2gp/10",
+                            "1d12 piercing",
+                            "10lbs",
+                            "120/480",
+                            "two handed, sniper, clip 6",
+                            "1"
+                        ],
+                        [
+                            "Windchaster Sniper",
+                            "2",
+                            "75gp",
+                            "2gp/10",
+                            "2d8 piercing",
+                            "15lbs",
+                            "120/480",
+                            "two handed, sniper, clip 8",
+                            "2"
+                        ],
+                        [
+                            "Modular Sniper",
+                            "3",
+                            "125gp",
+                            "2gp/10",
+                            "2d10 piercing",
+                            "15lbs",
+                            "120/480",
+                            "two handed, sniper, clip 10",
+                            "4"
+                        ],
+                        [
+                            "Semi-Auto Sniper",
+                            "4",
+                            "500gp",
+                            "2gp/10",
+                            "2d10 piercing",
+                            "18lbs",
+                            "150/600",
+                            "two handed, semi auto, sniper, clip 10",
+                            "4"
+                        ],
+                        [
+                            "Gold Standard",
+                            "5",
+                            "1000gp",
+                            "2gp/10",
+                            "2d12 piercing",
+                            "18lbs",
+                            "150/600",
+                            "two handed, semi auto, standard, sniper, clip 12",
+                            "5"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sniper's Eye",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Sniper",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "When you choose this archetype at 2nd level, your accuracy is enhanced. You gain proficiency in Perception, or if you already have this, you gain proficiency in another skill from the Gunner's skill list."
+            ]
+        },
+        {
+            "name": "Calm Mind",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Sniper",
+            "subclassSource": "TftJC",
+            "level": 6,
+            "entries": [
+                "At 6th level, you learn to remain calm in the heat of battle, which aids your aim. You may add your Wisdom Modifier to your to-hit bonus of Sniper firearms. You can use this ability only if you do not move during your turn. "
+            ]
+        },
+        {
+            "name": "Sniper Modifications",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Sniper",
+            "subclassSource": "TftJC",
+            "level": 6,
+            "entries": [
+                "At 6th level, Snipers gain access to new modifications which do not count against their known Modifications. You gain the Tier 2 modification at 10th level, and the Tier 3 modification at 15th level."
+            ]
+        },
+        {
+            "name": "Piercing Rounds",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Sniper",
+            "subclassSource": "TftJC",
+            "level": 10,
+            "entries": [
+                "At 10th level, your bullets can pierce through creatures. You can expend a use of Shoot to Thrill as a Bonus Action, and for this turn if you hit a creature with a ranged attack with a firearm, the attack continues in a line beyond the target. You use your initial attack roll, add 10 and then subtract the enemy's AC. If this attack hits a creature behind them, they take the same damage as the initial target. This continues in a line until the bullet reaches a wall or enters its long range. "
+            ]
+        },
+        {
+            "name": "Shoot to Thrill Improvement",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Sniper",
+            "subclassSource": "TftJC",
+            "level": 10,
+            "entries": [
+                "At 10th level, your Shoot to Thrill feature is enchanced. When you use Shoot to Thrill, you immediately gain the benefits of Calm Mind or your Hidden Perch, ignoring its prerequisite. You can only select Hidden perch if you are already hiding or hidden."
+            ]
+        },
+        {
+            "name": "Headshot",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Sniper",
+            "subclassSource": "TftJC",
+            "level": 14,
+            "entries": [
+                "At 14th level, your sniper skills are immaculately accurate and deadly. When using your Hidden Perch, your first ranged attack with a firearm against each creature deals double damage. This extra damage can be applied to the same creature once per hour."
             ]
         },
         {

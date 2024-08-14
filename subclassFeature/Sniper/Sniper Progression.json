@@ -1,0 +1,95 @@
+{
+    "name": "Sniper Progression",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "subclassShortName": "Sniper",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "As your skills improve, you learn to modify your Sniper. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. If you lose or need to replace your special firearm, you can spend 1 hour per Tier it was crafting a new one, and the combined gold cost.",
+        {
+            "title": "Sniper Firearms",
+            "type": "table",
+            "colLabels": [
+                "Firearm",
+                "Tier",
+                "Cost",
+                "Ammo",
+                "Damage",
+                "Weight",
+                "Range",
+                "Properties",
+                "Modification Slots"
+            ],
+            "colStyles": [
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center",
+                "col-1 text-center"
+            ],
+            "rows": [
+                [
+                    "Sniper Rifle",
+                    "1",
+                    "50gp",
+                    "2gp/10",
+                    "1d12 piercing",
+                    "10lbs",
+                    "120/480",
+                    "two handed, sniper, clip 6",
+                    "1"
+                ],
+                [
+                    "Windchaster Sniper",
+                    "2",
+                    "75gp",
+                    "2gp/10",
+                    "2d8 piercing",
+                    "15lbs",
+                    "120/480",
+                    "two handed, sniper, clip 8",
+                    "2"
+                ],
+                [
+                    "Modular Sniper",
+                    "3",
+                    "125gp",
+                    "2gp/10",
+                    "2d10 piercing",
+                    "15lbs",
+                    "120/480",
+                    "two handed, sniper, clip 10",
+                    "4"
+                ],
+                [
+                    "Semi-Auto Sniper",
+                    "4",
+                    "500gp",
+                    "2gp/10",
+                    "2d10 piercing",
+                    "18lbs",
+                    "150/600",
+                    "two handed, semi auto, sniper, clip 10",
+                    "4"
+                ],
+                [
+                    "Gold Standard",
+                    "5",
+                    "1000gp",
+                    "2gp/10",
+                    "2d12 piercing",
+                    "18lbs",
+                    "150/600",
+                    "two handed, semi auto, standard, sniper, clip 12",
+                    "5"
+                ]
+            ]
+        }
+    ]
+}

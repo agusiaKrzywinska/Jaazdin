@@ -1,0 +1,18 @@
+{
+    "name": "Sniper",
+    "source": "TftJC",
+    "page": 16,
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "shortName": "Sniper",
+    "subclassFeatures": [
+        "Hidden Perch|Gunner|TftJC|Sniper|TftJC|2",
+        "Sniper's Eye|Gunner|TftJC|Sniper|TftJC|2",
+        "Sniper Progression|Gunner|TftJC|Sniper|TftJC|2",
+        "Calm Mind|Gunner|TftJC|Sniper|TftJC|6",
+        "Sniper Modifications|Gunner|TftJC|Sniper|TftJC|6",
+        "Piercing Rounds|Gunner|TftJC|Sniper|TftJC|10",
+        "Shoot to Thrill Improvement|Gunner|TftJC|Sniper|TftJC|10",
+        "Headshot|Gunner|TftJC|Sniper|TftJC|14"
+    ]
+}

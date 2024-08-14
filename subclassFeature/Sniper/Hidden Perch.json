@@ -1,0 +1,12 @@
+{
+    "name": "Hidden Perch",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "subclassShortName": "Sniper",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "At 2nd level, you become adpet at hiding your position. By spending a minute preparing your position and making a Stealth check, you are not automatically revealed to enemy creatures after attacking them with a Sniper firearm. You remain hidden from enemies that are further than 30ft away from you as long as you do not move from this position. You can also take the Hide Action as a Bonus Action. "
+    ]
+}

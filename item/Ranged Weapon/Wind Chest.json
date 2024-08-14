@@ -1,0 +1,22 @@
+{
+    "name": "Wind Chest",
+    "source": "TftJC",
+    "type": "R",
+    "rarity": "none",
+    "weight": 8,
+    "value": 50000,
+    "weaponCategory": "buckshot firearm",
+    "property": [
+        "2H"
+    ],
+    "ammunition": true,
+    "reload": 4,
+    "dmg1": "2d6",
+    "dmgType": "P",
+    "range": "15/40",
+    "entries": [
+        "<b><i>Tier 4.</i></b>",
+        "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
+        "<b><i>Pump 4.</i></b> A pump ammo system stores a number of shots directly in the gun. You can reload the barrel with up to 2 slugs as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two shots as a part of the same attack. The first target takes additional damage equal to the weapon's damage die. Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
+    ]
+}
