@@ -18,7 +18,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1723671610
+        "dateLastModified": 1723679615
     },
     "background": [
         {
@@ -1993,6 +1993,30 @@
             ]
         },
         {
+            "name": "Gold Standard",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 18,
+            "value": 100000,
+            "weaponCategory": "sniper firearm",
+            "property": [
+                "2H"
+            ],
+            "ammunition": true,
+            "reload": 12,
+            "dmg1": "2d12",
+            "dmgType": "P",
+            "range": "150/600",
+            "entries": [
+                "<b><i>Tier 5.</i></b>",
+                "<b><i>Semi Auto.</i></b> As a Bonus Action, you can activate or deactivate your Semi Auto. Semi Auto overrides the Sniper's restriction to Extra Attack and Multiattack.",
+                "<b><i>Standard.</i></b> Standard weapons gain two additional damage die per Extra Attack or Multiattack the wielder can make, and cannot make the Extra Attack or Multiattack action.",
+                "<b><i>Sniper</i></b> When you make an attack action with this weapon, each attack you could have made with that action is instead consolidated into one attack, where each attack you could have made instead increases the weapon's damage die per attack. Snipers also have disadvantage to hit a creature within 15ft of them.",
+                "<b><i>Clip 12.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+            ]
+        },
+        {
             "name": "Heart of Ice",
             "source": "TftJC",
             "rarity": "legendary",
@@ -2257,6 +2281,28 @@
             "entries": [
                 "<b><i>Reach.(10ft)<b><i> This weapon adds 10 feet to your reach when you attack with it. This property also determines your reach for opportunity attacks with a reach weapon.",
                 "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+            ]
+        },
+        {
+            "name": "Modular Sniper",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 15,
+            "value": 125000,
+            "weaponCategory": "sniper firearm",
+            "property": [
+                "2H"
+            ],
+            "ammunition": true,
+            "reload": 10,
+            "dmg1": "2d10",
+            "dmgType": "P",
+            "range": "120/480",
+            "entries": [
+                "<b><i>Tier 3.</i></b>",
+                "<b><i>Sniper</i></b> When you make an attack action with this weapon, each attack you could have made with that action is instead consolidated into one attack, where each attack you could have made instead increases the weapon's damage die per attack. Snipers also have disadvantage to hit a creature within 15ft of them.",
+                "<b><i>Clip 10.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
             ]
         },
         {
@@ -2780,6 +2826,29 @@
             ]
         },
         {
+            "name": "Semi-Auto Sniper",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 18,
+            "value": 500000,
+            "weaponCategory": "sniper firearm",
+            "property": [
+                "2H"
+            ],
+            "ammunition": true,
+            "reload": 10,
+            "dmg1": "2d10",
+            "dmgType": "P",
+            "range": "150/600",
+            "entries": [
+                "<b><i>Tier 4.</i></b>",
+                "<b><i>Semi Auto.</i></b> As a Bonus Action, you can activate or deactivate your Semi Auto. Semi Auto overrides the Sniper's restriction to Extra Attack and Multiattack.",
+                "<b><i>Sniper</i></b> When you make an attack action with this weapon, each attack you could have made with that action is instead consolidated into one attack, where each attack you could have made instead increases the weapon's damage die per attack. Snipers also have disadvantage to hit a creature within 15ft of them.",
+                "<b><i>Clip 10.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+            ]
+        },
+        {
             "name": "Shard of Illumina",
             "source": "TftJC",
             "rarity": "rare",
@@ -2878,7 +2947,7 @@
             "type": "R",
             "rarity": "none",
             "weight": 6,
-            "value": 500,
+            "value": 5000,
             "weaponCategory": "buckshot firearm",
             "property": [
                 "2H"
@@ -2947,6 +3016,28 @@
             ]
         },
         {
+            "name": "Sniper Rifle",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 10,
+            "value": 5000,
+            "weaponCategory": "sniper firearm",
+            "property": [
+                "2H"
+            ],
+            "ammunition": true,
+            "reload": 6,
+            "dmg1": "1d12",
+            "dmgType": "P",
+            "range": "120/480",
+            "entries": [
+                "<b><i>Tier 1.</i></b>",
+                "<b><i>Sniper</i></b> When you make an attack action with this weapon, each attack you could have made with that action is instead consolidated into one attack, where each attack you could have made instead increases the weapon's damage die per attack. Snipers also have disadvantage to hit a creature within 15ft of them.",
+                "<b><i>Clip 6.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+            ]
+        },
+        {
             "name": "Spear of Thassa",
             "source": "TftJC",
             "type": "M",
@@ -2988,28 +3079,6 @@
                 "While holding the staff, the wielder can use an action target to any arachnid within 60 feet. The target must make a Wisdom saving throw against a DC of 15 or be charmed by the wielder for 1 hour. The wielder can use their bonus action on subsequent rounds to maintain control over the charmed creature, causing it to take any actions they desire.",
                 "Additionally, once per day, Target up to three creatures within 60 feet. The affected creatures must make a Wisdom saving throw against a DC of 15 or be magically {@condition restrained} for 1 minute while they struggle to untangle themselves from the web of lies and deceit. The affected creatures can make the save again at the end of their turn.",
                 "While attuned to the staff, the wielder gains resistance to poison damage and advantage on saving throws against poison effects."
-            ]
-        },
-        {
-            "name": "Stench Pistol",
-            "source": "TftJC",
-            "type": "R",
-            "rarity": "none",
-            "weight": 3,
-            "value": 65000,
-            "weaponCategory": "firearm",
-            "property": [
-                "L"
-            ],
-            "ammunition": true,
-            "reload": 20,
-            "dmg1": "1d10",
-            "dmgType": "P",
-            "range": "40/160",
-            "entries": [
-                "<b><i>Tier 4.</i></b>",
-                "<b><i>Auto</i></b> Auto firearms can make an additional attack as a part of the Attack Action.",
-                "<b><i>Clip 20.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
             ]
         },
         {
@@ -3462,6 +3531,28 @@
                 "<b><i>Tier 4.</i></b>",
                 "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
                 "<b><i>Pump 4.</i></b> A pump ammo system stores a number of shots directly in the gun. You can reload the barrel with up to 2 slugs as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two shots as a part of the same attack. The first target takes additional damage equal to the weapon's damage die. Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
+            ]
+        },
+        {
+            "name": "Windchaser Sniper",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 13,
+            "value": 75000,
+            "weaponCategory": "sniper firearm",
+            "property": [
+                "2H"
+            ],
+            "ammunition": true,
+            "reload": 8,
+            "dmg1": "2d8",
+            "dmgType": "P",
+            "range": "120/480",
+            "entries": [
+                "<b><i>Tier 2.</i></b>",
+                "<b><i>Sniper</i></b> When you make an attack action with this weapon, each attack you could have made with that action is instead consolidated into one attack, where each attack you could have made instead increases the weapon's damage die per attack. Snipers also have disadvantage to hit a creature within 15ft of them.",
+                "<b><i>Clip 8.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
             ]
         },
         {

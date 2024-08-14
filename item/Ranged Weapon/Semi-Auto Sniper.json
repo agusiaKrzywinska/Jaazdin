@@ -1,0 +1,23 @@
+{
+    "name": "Semi-Auto Sniper",
+    "source": "TftJC",
+    "type": "R",
+    "rarity": "none",
+    "weight": 18,
+    "value": 500000,
+    "weaponCategory": "sniper firearm",
+    "property": [
+        "2H"
+    ],
+    "ammunition": true,
+    "reload": 10,
+    "dmg1": "2d10",
+    "dmgType": "P",
+    "range": "150/600",
+    "entries": [
+        "<b><i>Tier 4.</i></b>",
+        "<b><i>Semi Auto.</i></b> As a Bonus Action, you can activate or deactivate your Semi Auto. Semi Auto overrides the Sniper's restriction to Extra Attack and Multiattack.",
+        "<b><i>Sniper</i></b> When you make an attack action with this weapon, each attack you could have made with that action is instead consolidated into one attack, where each attack you could have made instead increases the weapon's damage die per attack. Snipers also have disadvantage to hit a creature within 15ft of them.",
+        "<b><i>Clip 10.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+    ]
+}
