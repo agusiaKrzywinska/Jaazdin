@@ -7359,7 +7359,43 @@
                 "Buckshot Modifications|Gunner|TftJC|Buckshot|TftJC|6",
                 "Push 'em Off|Gunner|TftJC|Buckshot|TftJC|10",
                 "Shoot to Thrill Improvement|Gunner|TftJC|Buckshot|TftJC|10",
-                "Scatterslug|Gunner|TftJC|Quickdraw|TftJC|14"
+                "Scatterslug|Gunner|TftJC|Buckshot|TftJC|14"
+            ]
+        },
+        {
+            "name": "Sniper",
+            "source": "TftJC",
+            "page": 16,
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "shortName": "Sniper",
+            "subclassFeatures": [
+                "Hidden Perch|Gunner|TftJC|Sniper|TftJC|2",
+                "Sniper's Eye|Gunner|TftJC|Sniper|TftJC|2",
+                "Sniper Progression|Gunner|TftJC|Sniper|TftJC|2",
+                "Calm Mind|Gunner|TftJC|Sniper|TftJC|6",
+                "Sniper Modifications|Gunner|TftJC|Sniper|TftJC|6",
+                "Piercing Rounds|Gunner|TftJC|Sniper|TftJC|10",
+                "Shoot to Thrill Improvement|Gunner|TftJC|Sniper|TftJC|10",
+                "Headshot|Gunner|TftJC|Sniper|TftJC|14"
+            ]
+        },
+        {
+            "name": "Demolitionist",
+            "source": "TftJC",
+            "page": 19,
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "shortName": "Demolitionist",
+            "subclassFeatures": [
+                "Frontloaded Savagery|Gunner|TftJC|Demolitionist|TftJC|2",
+                "Property Damage|Gunner|TftJC|Demolitionist|TftJC|2",
+                "Blast Gun Progression|Gunner|TftJC|Demolitionist|TftJC|2",
+                "Overcustomized Firearms|Gunner|TftJC|Demolitionist|TftJC|6",
+                "Demolitionist Modifications|Gunner|TftJC|Demolitionist|TftJC|6",
+                "Rocket Jump|Gunner|TftJC|Demolitionist|TftJC|10",
+                "Shoot to Thrill Improvement|Gunner|TftJC|Demolitionist|TftJC|10",
+                "Fear No Flame|Gunner|TftJC|Demolitionist|TftJC|14"
             ]
         },
         {
@@ -9660,18 +9696,6 @@
             ]
         },
         {
-            "name": "Shotgun",
-            "source": "TftJC",
-            "className": "Gunner",
-            "classSource": "TftJC",
-            "subclassShortName": "Buckshot",
-            "subclassSource": "TftJC",
-            "level": 2,
-            "entries": [
-                "As your skills improve, you learn to modify your Shotgun. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. If you lose or need to replace your special firearm, you can spend 1 hour per Tier it was crafting a new one, and the combined gold cost."
-            ]
-        },
-        {
             "name": "Shrug It Off",
             "source": "TftJC",
             "className": "Gunner",
@@ -9684,6 +9708,66 @@
             ]
         },
         {
+            "name": "Smokescreen",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Buckshot",
+            "subclassSource": "TftJC",
+            "level": 6,
+            "entries": [
+                "At 6th level, you learn to craft smokebombs. You craft a number of smokebombs equal to your Proficiency Bonus per Long Rest, and can have a number of Smokebombs equal to your Proficiency Bonus. You can replace a ranged attack with a Shotgun firearm with a smokebomb, firing it out of your Shotgun a distance up to its range. The smokebomb then detonates and fills a 10ft radius area with smoke, heavily obscurring it. The smoke remains for a number of rounds equal to your Proficiency Bonus, or until blown away by a strong wind."
+            ]
+        },
+        {
+            "name": "Buckshot Modifications",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Buckshot",
+            "subclassSource": "TftJC",
+            "level": 6,
+            "entries": [
+                "At 6th level, Buckshots gain access to new modifications which do not count against their known Modifications. You gain the Tier 2 modification at 10th level, and the Tier 3 modification at 15th level."
+            ]
+        },
+        {
+            "name": "Push 'em Off",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Buckshot",
+            "subclassSource": "TftJC",
+            "level": 10,
+            "entries": [
+                "At 10th level, you gain the ability to get foes out of your space. After you use Shrug it Off, if there is a creature within your melee attack range, you can bodycheck them. You expend a use of Shoot to Thrill, and the target creature makes a Strength Saving throw (DC equal to 8 + the firearm you are currently wielding's tier x2). On a fail, they are shoved back up to 10 feet, and then you can immediately make a ranged attack with a firearm against that creature as a part of this action. "
+            ]
+        },
+        {
+            "name": "Shoot to Thrill Improvement",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Buckshot",
+            "subclassSource": "TftJC",
+            "level": 10,
+            "entries": [
+                "At 10th level, your Shoot to Thrill feature is enhanced. When making a ranged attack with a Shotgun that is enhanced by Shoot to Thrill, if the attack hits the length of its cone is doubled."
+            ]
+        },
+        {
+            "name": "Scatterslug",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Buckshot",
+            "subclassSource": "TftJC",
+            "level": 14,
+            "entries": [
+                "At 14th level, your Buckshot is more deadly. Creatures immediately behind your initial target of ranged atatcks made by your shotgun firearms no longer have the damage dealt to them by the cone halved."
+            ]
+        },
+        {
             "name": "Quickdraw Style",
             "source": "TftJC",
             "className": "Gunner",
@@ -9693,6 +9777,480 @@
             "level": 2,
             "entries": [
                 "When you choose this archetype at 2nd level, you become adept in the Quickdraw style. While wielding two Light firearms, you can engage in two-weapon fighting and add your Dexterity Modifier to the damage of your off hand firearm. For each ranged attack you make with a firearm on your turn, your movement speed is increased by 5ft until the end of the turn. You can reload one handed ranged weapons while your hands are full."
+            ]
+        },
+        {
+            "name": "Hidden Perch",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Sniper",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "At 2nd level, you become adpet at hiding your position. By spending a minute preparing your position and making a Stealth check, you are not automatically revealed to enemy creatures after attacking them with a Sniper firearm. You remain hidden from enemies that are further than 30ft away from you as long as you do not move from this position. You can also take the Hide Action as a Bonus Action. "
+            ]
+        },
+        {
+            "name": "Sniper's Eye",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Sniper",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "When you choose this archetype at 2nd level, your accuracy is enhanced. You gain proficiency in Perception, or if you already have this, you gain proficiency in another skill from the Gunner's skill list."
+            ]
+        },
+        {
+            "name": "Sniper Progression",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Sniper",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "As your skills improve, you learn to modify your Sniper. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. If you lose or need to replace your special firearm, you can spend 1 hour per Tier it was crafting a new one, and the combined gold cost.",
+                {
+                    "title": "Sniper Firearms",
+                    "type": "table",
+                    "colLabels": [
+                        "Firearm",
+                        "Tier",
+                        "Cost",
+                        "Ammo",
+                        "Damage",
+                        "Weight",
+                        "Range",
+                        "Properties",
+                        "Modification Slots"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center"
+                    ],
+                    "rows": [
+                        [
+                            "Sniper Rifle",
+                            "1",
+                            "50gp",
+                            "2gp/10",
+                            "1d12 piercing",
+                            "10lbs",
+                            "120/480",
+                            "two handed, sniper, clip 6",
+                            "1"
+                        ],
+                        [
+                            "Windchaster Sniper",
+                            "2",
+                            "75gp",
+                            "2gp/10",
+                            "2d8 piercing",
+                            "15lbs",
+                            "120/480",
+                            "two handed, sniper, clip 8",
+                            "2"
+                        ],
+                        [
+                            "Modular Sniper",
+                            "3",
+                            "125gp",
+                            "2gp/10",
+                            "2d10 piercing",
+                            "15lbs",
+                            "120/480",
+                            "two handed, sniper, clip 10",
+                            "4"
+                        ],
+                        [
+                            "Semi-Auto Sniper",
+                            "4",
+                            "500gp",
+                            "2gp/10",
+                            "2d10 piercing",
+                            "18lbs",
+                            "150/600",
+                            "two handed, semi auto, sniper, clip 10",
+                            "4"
+                        ],
+                        [
+                            "Gold Standard",
+                            "5",
+                            "1000gp",
+                            "2gp/10",
+                            "2d12 piercing",
+                            "18lbs",
+                            "150/600",
+                            "two handed, semi auto, standard, sniper, clip 12",
+                            "5"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Calm Mind",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Sniper",
+            "subclassSource": "TftJC",
+            "level": 6,
+            "entries": [
+                "At 6th level, you learn to remain calm in the heat of battle, which aids your aim. You may add your Wisdom Modifier to your to-hit bonus of Sniper firearms. You can use this ability only if you do not move during your turn. "
+            ]
+        },
+        {
+            "name": "Sniper Modifications",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Sniper",
+            "subclassSource": "TftJC",
+            "level": 6,
+            "entries": [
+                "At 6th level, Snipers gain access to new modifications which do not count against their known Modifications. You gain the Tier 2 modification at 10th level, and the Tier 3 modification at 15th level."
+            ]
+        },
+        {
+            "name": "Piercing Rounds",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Sniper",
+            "subclassSource": "TftJC",
+            "level": 10,
+            "entries": [
+                "At 10th level, your bullets can pierce through creatures. You can expend a use of Shoot to Thrill as a Bonus Action, and for this turn if you hit a creature with a ranged attack with a firearm, the attack continues in a line beyond the target. You use your initial attack roll, add 10 and then subtract the enemy's AC. If this attack hits a creature behind them, they take the same damage as the initial target. This continues in a line until the bullet reaches a wall or enters its long range. "
+            ]
+        },
+        {
+            "name": "Shoot to Thrill Improvement",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Sniper",
+            "subclassSource": "TftJC",
+            "level": 10,
+            "entries": [
+                "At 10th level, your Shoot to Thrill feature is enchanced. When you use Shoot to Thrill, you immediately gain the benefits of Calm Mind or your Hidden Perch, ignoring its prerequisite. You can only select Hidden perch if you are already hiding or hidden."
+            ]
+        },
+        {
+            "name": "Headshot",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Sniper",
+            "subclassSource": "TftJC",
+            "level": 14,
+            "entries": [
+                "At 14th level, your sniper skills are immaculately accurate and deadly. When using your Hidden Perch, your first ranged attack with a firearm against each creature deals double damage. This extra damage can be applied to the same creature once per hour."
+            ]
+        },
+        {
+            "name": "Frontloaded Savagery",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Demolitionist",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "When you choose this archetype at 2nd level, your attacks become lethally savage. Your firearms gain an additional range, equal to half of its normal range. Attacking an enemy in this range with a Firearm allows you to reroll a number of the damage die up to your Constitution Modifier once per turn. You also gain proficiency in Medium Armor."
+            ]
+        },
+        {
+            "name": "Property Damage",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Demolitionist",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "At 2nd level, your firearms blow up the neighbourhood. Your Demolitionist Firearms deal double damage to structures and buildings."
+            ]
+        },
+        {
+            "name": "Blast Gun Progression",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Demolitionist",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "As your skills improve, you learn to modify your Blast Gun. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. The Blast Gun has unique modifications, which are unlocked at level 5, and these modifications can be upgraded at level 13 by paying the gold cost and spending 4 hours of work. These modifcations can be attacked to the Blast Gun to allow it to perform new attacks. These new attacks have spearate ranges, damage types, and use their own ammunition.",
+                {
+                    "title": "Demolitionist Firearms",
+                    "type": "table",
+                    "colLabels": [
+                        "Firearm",
+                        "Tier",
+                        "Cost",
+                        "Ammo",
+                        "Damage",
+                        "Weight",
+                        "Range",
+                        "Properties",
+                        "Modification Slots"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center"
+                    ],
+                    "rows": [
+                        [
+                            "Blast Gun",
+                            "1",
+                            "50gp",
+                            "1gp/10",
+                            "2d6 piercing",
+                            "15lbs",
+                            "30/120",
+                            "heavy, two handed, barrel 1",
+                            "2"
+                        ],
+                        [
+                            "Blast Cannon",
+                            "3",
+                            "125gp",
+                            "1gp/10",
+                            "3d6 piercing",
+                            "15lbs",
+                            "30/120",
+                            "heavy, two handed, barrel 1",
+                            "3"
+                        ],
+                        [
+                            "Meteor Cannon",
+                            "5",
+                            "1000gp",
+                            "1gp/10",
+                            "4d6 piercing",
+                            "15lbs",
+                            "30/120",
+                            "heavy, two handed, barrel 1",
+                            "5"
+                        ]
+                    ]
+                },
+                {
+                    "title": "Blast Gun Modifications - Minigun",
+                    "type": "table",
+                    "colLabels": [
+                        "Firearm",
+                        "Level Unlocked",
+                        "Cost",
+                        "Ammo",
+                        "Damage",
+                        "Extra Weight",
+                        "Range",
+                        "Properties"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center"
+                    ],
+                    "rows": [
+                        [
+                            "Minigun",
+                            "5",
+                            "100gp",
+                            "1gp/10",
+                            "4d4 piercing",
+                            "+10lbs",
+                            "30/120",
+                            "belt 90"
+                        ],
+                        [
+                            "MEGA!!!gun",
+                            "13",
+                            "500gp",
+                            "1gp/10",
+                            "4d4 piercing",
+                            "+10lbs",
+                            "30/120",
+                            "belt 90, auto"
+                        ]
+                    ]
+                },
+                {
+                    "title": "Blast Gun Modifications - Explosive Lobber",
+                    "type": "table",
+                    "colLabels": [
+                        "Firearm",
+                        "Level Unlocked",
+                        "Cost",
+                        "Ammo",
+                        "Damage",
+                        "Extra Weight",
+                        "Range",
+                        "Properties"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center"
+                    ],
+                    "rows": [
+                        [
+                            "Explosive Lobber",
+                            "5",
+                            "100gp",
+                            "5gp/10",
+                            "2d8 fire",
+                            "+15lbs",
+                            "80/320",
+                            "explosive 5"
+                        ],
+                        [
+                            "Rocket Launcher",
+                            "13",
+                            "500gp",
+                            "5gp/10",
+                            "4d4 piercing",
+                            "+15lbs",
+                            "100/400",
+                            "explosive 10"
+                        ]
+                    ]
+                },
+                {
+                    "title": "Blast Gun Modifications - Flamethrower",
+                    "type": "table",
+                    "colLabels": [
+                        "Firearm",
+                        "Level Unlocked",
+                        "Cost",
+                        "Ammo",
+                        "Damage",
+                        "Extra Weight",
+                        "Range",
+                        "Properties"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center"
+                    ],
+                    "rows": [
+                        [
+                            "Flamethrower",
+                            "5",
+                            "100gp",
+                            "5gp/1",
+                            "1d12 fire",
+                            "+25lbs",
+                            "30/60",
+                            "gas 5"
+                        ],
+                        [
+                            "Phoenix Force",
+                            "13",
+                            "500gp",
+                            "5gp/1",
+                            "2d12 fire",
+                            "+25lbs",
+                            "30/60",
+                            "gas 7, cone 10"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Overcustomized Firearms",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Demolitionist",
+            "subclassSource": "TftJC",
+            "level": 6,
+            "entries": [
+                "At 6th level, you can modify your weapons past their limits. You can treat all firearms as if they have an additional Modification Slot. Only you can benefit from the additional modification."
+            ]
+        },
+        {
+            "name": "Demolitionist Modifications",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Demolitionist",
+            "subclassSource": "TftJC",
+            "level": 6,
+            "entries": [
+                "At 6th level, Demolitionists gain access to new modifications which do not count against their known Modifications. You gain the Tier 2 modification at 10th level, and the Tier 3 modification at 15th level."
+            ]
+        },
+        {
+            "name": "Rocket Jump",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Demolitionist",
+            "subclassSource": "TftJC",
+            "level": 10,
+            "entries": [
+                "At 10th level, you can use your firearms to make a narrow escape. You can expend a use of Shoot to Thrill, and then replace one of your attacks with your Blast Gun with a Rocket Jump, which allows you to immediately fly up to 30ft in an arc in a direction of your choice. This does not provoke opportunity attacks. If there were creatures within 5ft of your starting pointCreatures within 5ft must make a Dexterity Saving Throw (DC equal to 8 + the firearm's tier x2) all creatures hit then take the Blast Gun's damage. You still take falling damage as normal."
+            ]
+        },
+        {
+            "name": "Shoot To Thrill Improvement",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Demolitionist",
+            "subclassSource": "TftJC",
+            "level": 10,
+            "entries": [
+                "At 10th level, your Shoot to Thrill feature is enchanced. When Shoot to Thrill is used to an enhance a ranged attack made with a Blast Gun or one of its Modified weapon attacks, the attack gains explosive 15 (or if the attack alreay has explosive, 15 is added to the radius). This attack deals maximum damage to structures. "
+            ]
+        },
+        {
+            "name": "Fear No Flame",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Demolitionist",
+            "subclassSource": "TftJC",
+            "level": 14,
+            "entries": [
+                "At 14th level, you learn to bear the damage you cause. You gain resistance to Fire damage, and creatures of your choice have advantage on explosive saving throws you impose on them. You take no damage from Demolitionist Firearms you attack with."
             ]
         },
         {
@@ -9795,7 +10353,7 @@
             "source": "TftJC",
             "className": "Gunner",
             "classSource": "TftJC",
-            "subclassShortName": "Quickdraw",
+            "subclassShortName": "Buckshot",
             "subclassSource": "TftJC",
             "level": 2,
             "entries": [
@@ -9885,6 +10443,7 @@
                 }
             ]
         },
+        
         {
             "name": "The Travelling Gun",
             "source": "TftJC",
