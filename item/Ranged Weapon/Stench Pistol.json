@@ -9,7 +9,6 @@
     "property": [
         "L"
     ],
-    "ammunition": true,
     "reload": 20,
     "dmg1": "1d10",
     "dmgType": "P",

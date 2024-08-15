@@ -9,7 +9,6 @@
     "property": [
         "2H"
     ],
-    "ammunition": true,
     "reload": 6,
     "dmg1": "1d12",
     "dmgType": "P",

@@ -10,7 +10,6 @@
         "2H",
         "H"
     ],
-    "ammunition": true,
     "reload": 20,
     "dmg1": "2d10",
     "dmgType": "P",

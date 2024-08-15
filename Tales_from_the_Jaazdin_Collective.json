@@ -788,7 +788,6 @@
             "property": [
                 "2H"
             ],
-            "ammunition": true,
             "reload": 30,
             "dmg1": "3d6",
             "dmgType": "P",
@@ -1312,7 +1311,6 @@
                 "2H",
                 "H"
             ],
-            "ammunition": true,
             "reload": 20,
             "dmg1": "2d10",
             "dmgType": "P",
@@ -1335,7 +1333,6 @@
             "property": [
                 "L"
             ],
-            "ammunition": true,
             "reload": 6,
             "dmg1": "1d8",
             "dmgType": "P",
@@ -1649,7 +1646,6 @@
             "property": [
                 "2H"
             ],
-            "ammunition": true,
             "reload": 2,
             "dmg1": "1d10",
             "dmgType": "P",
@@ -1671,7 +1667,6 @@
             "property": [
                 "L"
             ],
-            "ammunition": true,
             "reload": 8,
             "dmg1": "2d6",
             "dmgType": "P",
@@ -2003,7 +1998,6 @@
             "property": [
                 "2H"
             ],
-            "ammunition": true,
             "reload": 12,
             "dmg1": "2d12",
             "dmgType": "P",
@@ -2209,7 +2203,6 @@
             "property": [
                 "L"
             ],
-            "ammunition": true,
             "reload": 6,
             "dmg1": "1d8",
             "dmgType": "P",
@@ -2252,7 +2245,6 @@
                 "2H",
                 "H"
             ],
-            "ammunition": true,
             "reload": 40,
             "dmg1": "4d4",
             "dmgType": "P",
@@ -2294,7 +2286,6 @@
             "property": [
                 "2H"
             ],
-            "ammunition": true,
             "reload": 10,
             "dmg1": "2d10",
             "dmgType": "P",
@@ -2413,7 +2404,6 @@
             "property": [
                 "L"
             ],
-            "ammunition": true,
             "reload": 6,
             "dmg1": "1d6",
             "dmgType": "P",
@@ -2471,7 +2461,6 @@
             "property": [
                 "2H"
             ],
-            "ammunition": true,
             "reload": 2,
             "dmg1": "2d6",
             "dmgType": "P",
@@ -2493,7 +2482,6 @@
             "property": [
                 "L"
             ],
-            "ammunition": true,
             "reload": 6,
             "dmg1": "1d6",
             "dmgType": "P",
@@ -2514,7 +2502,6 @@
             "property": [
                 "2H"
             ],
-            "ammunition": true,
             "reload": 5,
             "dmg1": "1d10",
             "dmgType": "P",
@@ -2535,7 +2522,6 @@
             "property": [
                 "2H"
             ],
-            "ammunition": true,
             "reload": 5,
             "dmg1": "2d6",
             "dmgType": "P",
@@ -2836,7 +2822,6 @@
             "property": [
                 "2H"
             ],
-            "ammunition": true,
             "reload": 10,
             "dmg1": "2d10",
             "dmgType": "P",
@@ -2952,7 +2937,6 @@
             "property": [
                 "2H"
             ],
-            "ammunition": true,
             "reload": 1,
             "dmg1": "1d10",
             "dmgType": "P",
@@ -3026,7 +3010,6 @@
             "property": [
                 "2H"
             ],
-            "ammunition": true,
             "reload": 6,
             "dmg1": "1d12",
             "dmgType": "P",
@@ -3092,7 +3075,6 @@
             "property": [
                 "L"
             ],
-            "ammunition": true,
             "reload": 20,
             "dmg1": "1d10",
             "dmgType": "P",
@@ -3114,7 +3096,6 @@
             "property": [
                 "L"
             ],
-            "ammunition": true,
             "reload": 4,
             "dmg1": "1d4",
             "dmgType": "P",
@@ -3166,7 +3147,6 @@
             "property": [
                 "L"
             ],
-            "ammunition": true,
             "reload": 6,
             "dmg1": "1d10",
             "dmgType": "P",
@@ -3410,7 +3390,6 @@
             "property": [
                 "2H"
             ],
-            "ammunition": true,
             "reload": 40,
             "dmg1": "2d8",
             "dmgType": "P",
@@ -3494,35 +3473,12 @@
             "source": "TftJC",
             "type": "R",
             "rarity": "none",
-            "weight": 10,
-            "value": 100000,
-            "weaponCategory": "buckshot firearm",
-            "property": [
-                "2H"
-            ],
-            "ammunition": true,
-            "reload": 8,
-            "dmg1": "2d6",
-            "dmgType": "P",
-            "range": "15/40",
-            "entries": [
-                "<b><i>Tier 5.</i></b>",
-                "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
-                "<b><i>Pump 8.</i></b> A pump ammo system stores a number of shots directly in the gun. You can reload the barrel with up to 2 slugs as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two shots as a part of the same attack. The first target takes additional damage equal to the weapon's damage die. Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
-            ]
-        },
-        {
-            "name": "Wind Chest",
-            "source": "TftJC",
-            "type": "R",
-            "rarity": "none",
             "weight": 8,
             "value": 50000,
             "weaponCategory": "buckshot firearm",
             "property": [
                 "2H"
             ],
-            "ammunition": true,
             "reload": 4,
             "dmg1": "2d6",
             "dmgType": "P",
@@ -3544,7 +3500,6 @@
             "property": [
                 "2H"
             ],
-            "ammunition": true,
             "reload": 8,
             "dmg1": "2d8",
             "dmgType": "P",
@@ -3566,7 +3521,6 @@
             "property": [
                 "L"
             ],
-            "ammunition": true,
             "reload": 6,
             "dmg1": "1d10",
             "dmgType": "P",
@@ -10154,7 +10108,7 @@
             "subclassSource": "TftJC",
             "level": 6,
             "entries": [
-                "At 6th level, you learn to craft smokebombs. You craft a number of smokebombs equal to your Proficiency Bonus per Long Rest, and can have a number of Smokebombs equal to your Proficiency Bonus. You can replace a ranged attack with a Shotgun firearm with a smokebomb, firing it out of your Shotgun a distance up to its range. The smokebomb then detonates and fills a 10ft radius area with smoke, heavily obscurring it. The smoke remains for a number of rounds equal to your Proficiency Bonus, or until blown away by a strong wind."
+                "At 6th level, you learn to craft smokebombs. You craft a number of smokebombs equal to your Proficiency Bonus per Long Rest, and can have a number of Smokebombs equal to your Proficiency Bonus. You can replace a ranged attack with a Shotgun firearm with a smokebomb, firing it out of your Shotgun a distance up to its range. The smokebomb then detonates and fills a 10ft radius area with smoke, heavily obscuring it. The smoke remains for a number of rounds equal to your Proficiency Bonus, or until blown away by a strong wind."
             ]
         },
         {
@@ -10190,7 +10144,7 @@
             "subclassSource": "TftJC",
             "level": 14,
             "entries": [
-                "At 14th level, your Buckshot is more deadly. Creatures immediately behind your initial target of ranged atatcks made by your shotgun firearms no longer have the damage dealt to them by the cone halved."
+                "At 14th level, your Buckshot is more deadly. Creatures immediately behind your initial target of ranged attacks made by your shotgun firearms no longer have the damage dealt to them by the cone halved."
             ]
         },
         {
@@ -10202,7 +10156,7 @@
             "subclassSource": "TftJC",
             "level": 2,
             "entries": [
-                "As your skills improve, you learn to modify your Blast Gun. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. The Blast Gun has unique modifications, which are unlocked at level 5, and these modifications can be upgraded at level 13 by paying the gold cost and spending 4 hours of work. These modifcations can be attacked to the Blast Gun to allow it to perform new attacks. These new attacks have spearate ranges, damage types, and use their own ammunition.",
+                "As your skills improve, you learn to modify your Blast Gun. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. The Blast Gun has unique modifications, which are unlocked at level 5, and these modifications can be upgraded at level 13 by paying the gold cost and spending 4 hours of work. These modifications can be attacked to the Blast Gun to allow it to perform new attacks. These new attacks have separate ranges, damage types, and use their own ammunition.",
                 {
                     "title": "Demolitionist Firearms",
                     "type": "table",
@@ -10473,7 +10427,7 @@
             "subclassSource": "TftJC",
             "level": 10,
             "entries": [
-                "At 10th level, your Shoot to Thrill feature is enchanced. When Shoot to Thrill is used to an enhance a ranged attack made with a Blast Gun or one of its Modified weapon attacks, the attack gains explosive 15 (or if the attack alreay has explosive, 15 is added to the radius). This attack deals maximum damage to structures. "
+                "At 10th level, your Shoot to Thrill feature is enhanced. When Shoot to Thrill is used to an enhance a ranged attack made with a Blast Gun or one of its Modified weapon attacks, the attack gains explosive 15 (or if the attack already has explosive, 15 is added to the radius). This attack deals maximum damage to structures. "
             ]
         },
         {
@@ -10786,7 +10740,7 @@
             "subclassSource": "TftJC",
             "level": 2,
             "entries": [
-                "At 2nd level, you become adpet at hiding your position. By spending a minute preparing your position and making a Stealth check, you are not automatically revealed to enemy creatures after attacking them with a Sniper firearm. You remain hidden from enemies that are further than 30ft away from you as long as you do not move from this position. You can also take the Hide Action as a Bonus Action. "
+                "At 2nd level, you become adept at hiding your position. By spending a minute preparing your position and making a Stealth check, you are not automatically revealed to enemy creatures after attacking them with a Sniper firearm. You remain hidden from enemies that are further than 30ft away from you as long as you do not move from this position. You can also take the Hide Action as a Bonus Action. "
             ]
         },
         {

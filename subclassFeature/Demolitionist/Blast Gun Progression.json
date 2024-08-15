@@ -7,7 +7,7 @@
     "subclassSource": "TftJC",
     "level": 2,
     "entries": [
-        "As your skills improve, you learn to modify your Blast Gun. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. The Blast Gun has unique modifications, which are unlocked at level 5, and these modifications can be upgraded at level 13 by paying the gold cost and spending 4 hours of work. These modifcations can be attacked to the Blast Gun to allow it to perform new attacks. These new attacks have spearate ranges, damage types, and use their own ammunition.",
+        "As your skills improve, you learn to modify your Blast Gun. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. The Blast Gun has unique modifications, which are unlocked at level 5, and these modifications can be upgraded at level 13 by paying the gold cost and spending 4 hours of work. These modifications can be attacked to the Blast Gun to allow it to perform new attacks. These new attacks have separate ranges, damage types, and use their own ammunition.",
         {
             "title": "Demolitionist Firearms",
             "type": "table",
