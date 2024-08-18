@@ -6,6 +6,6 @@
         "EI"
     ],
     "entries": [
-        "When you begin combat while wearing medium armour you gain {@dice 1d4} + Charisma modifier temporary hit points. This bonus increases to 1d6 at 9th level, 1d8 at 13th,1d10 at 17th level, and 1d12 at 20th level."
+        "When you begin combat while wearing medium armour you gain {@dice 1d4} + Charisma modifier temporary hit points. This bonus increases to {@dice 1d6} at 9th level, {@dice 1d8} at 13th, {@dice 1d10} at 17th level, and 1d12 at 20th level."
     ]
 }
