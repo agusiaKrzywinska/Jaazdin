@@ -1,0 +1,18 @@
+{
+    "name": "Rocket Launcher",
+    "source": "TftJC",
+    "type": "R",
+    "rarity": "none",
+    "weight": 10,
+    "value": 50000,
+    "weaponCategory": "martial",
+    "property": [],
+    "charges": 5,
+    "dmg1": "4d8",
+    "dmgType": "F",
+    "range": "100/400",
+    "entries": [
+        "<b><i>Tier 4.</i></b>",
+        "<b><i>Explosive 10.</i></b> Upon a hit, everything within a radius determined by its explosive value of the target must make a Dexterity saving throw (DC equal to 8 + the firearm's tier x2) or take an additional 1d4 fire damage x the firearm's Tier. If the weapon attack misses, the explosive ammunition fails to detonate. Explosive weapons have their misfire score increased by 1."
+    ]
+}

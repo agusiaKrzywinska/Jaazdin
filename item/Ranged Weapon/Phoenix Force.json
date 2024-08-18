@@ -1,0 +1,19 @@
+{
+    "name": "Phoenix Force",
+    "source": "TftJC",
+    "type": "R",
+    "rarity": "none",
+    "weight": 25,
+    "value": 50000,
+    "weaponCategory": "martial",
+    "property": [],
+    "charges": 5,
+    "dmg1": "2d12",
+    "dmgType": "F",
+    "range": "30/60",
+    "entries": [
+        "<b><i>Tier 2.</i></b>",
+        "<b><i>Gas 7.</i></b> Gas weapons do not require to be loaded, rather attached to them is a tank of fuel. A gas weapon uses one unit of gas per attack, and can attack until the tank is depleted. A Gas tank can be refilled by spending 1 minute per unit refilled. You cannot store additional units of Gas, except within the weapon itself.",
+        "<b><i>Cone 10.</i></b> ???"
+    ]
+}
