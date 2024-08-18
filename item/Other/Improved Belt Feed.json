@@ -1,0 +1,14 @@
+{
+    "name": "Improved Belt Feed",
+    "source": "TftJC",
+    "page": 10,
+    "type": "OTH",
+    "rarity": "none",
+    "weight": 0,
+    "value": 40000,
+    "entries": [
+        "<b><i>Effect.</i></b> The firearm's misfire score is reduced by 1.",
+        "<b><i>Restrictions.</i></b> Requires the Belt property.",
+        "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+    ]
+}

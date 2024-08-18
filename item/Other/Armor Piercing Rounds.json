@@ -1,0 +1,14 @@
+{
+    "name": "Armor Piercing Rounds",
+    "source": "TftJC",
+    "page": 10,
+    "type": "OTH",
+    "rarity": "none",
+    "weight": 0,
+    "value": 150000,
+    "entries": [
+        "<b><i>Effect.</i></b> The firearm gains a +2 to-hit against creatures wearing armor, wielding a shield or using cover.",
+        "<b><i>Restrictions.</i></b> Cannot be used on an Explosive or Gas firearm.",
+        "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
+    ]
+}

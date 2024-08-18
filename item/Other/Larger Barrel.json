@@ -1,0 +1,14 @@
+{
+    "name": "Larger Barrel",
+    "source": "TftJC",
+    "page": 10,
+    "type": "OTH",
+    "rarity": "none",
+    "weight": 0,
+    "value": 20000,
+    "entries": [
+        "<b><i>Effect.</i></b> The barrel can hold an additional 2 rounds.",
+        "<b><i>Restrictions.</i></b> Requires the Barrel property.",
+        "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Double Barrel",
+    "source": "TftJC",
+    "page": 12,
+    "type": "OTH",
+    "rarity": "none",
+    "weight": 0,
+    "value": 150000,
+    "entries": [
+        "<b><i>Effect.</i></b> When using your bonus action to make an attack with a light firearm, you can make two attacks as a part of the same bonus action.",
+        "<b><i>Restrictions.</i></b> Requires the Light property.",
+        "<b><i>Archetype.</i></b> Only Quickdraws can use this modification.",
+        "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
+    ]
+}

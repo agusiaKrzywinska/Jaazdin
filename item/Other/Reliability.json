@@ -1,0 +1,13 @@
+{
+    "name": "Reliability",
+    "source": "TftJC",
+    "page": 10,
+    "type": "OTH",
+    "rarity": "none",
+    "weight": 0,
+    "value": 200000,
+    "entries": [
+        "<b><i>Effect.</i></b> The firearm gains the reliable property.",
+        "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
+    ]
+}

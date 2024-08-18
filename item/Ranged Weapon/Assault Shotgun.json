@@ -5,12 +5,12 @@
     "rarity": "none",
     "weight": 10,
     "value": 100000,
-    "weaponCategory": "buckshot firearm",
+    "weaponCategory": "martial",
     "property": [
         "2H"
     ],
-    "ammunition": true,
-    "reload": 8,
+    "firearm": true,
+    "charges": 8,
     "dmg1": "2d6",
     "dmgType": "P",
     "range": "15/40",

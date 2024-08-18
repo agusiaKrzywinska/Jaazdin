@@ -5,11 +5,11 @@
     "rarity": "none",
     "weight": 8,
     "value": 25000,
-    "weaponCategory": "firearm",
+    "weaponCategory": "martial",
     "property": [
         "2H"
     ],
-    "reload": 5,
+    "charges": 5,
     "dmg1": "2d6",
     "dmgType": "P",
     "range": "80/320",

@@ -5,11 +5,11 @@
     "rarity": "none",
     "weight": 13,
     "value": 75000,
-    "weaponCategory": "sniper firearm",
+    "weaponCategory": "martial",
     "property": [
         "2H"
     ],
-    "reload": 8,
+    "charges": 8,
     "dmg1": "2d8",
     "dmgType": "P",
     "range": "120/480",

@@ -5,11 +5,11 @@
     "rarity": "none",
     "weight": 4.5,
     "value": 100000,
-    "weaponCategory": "quickdraw firearm",
+    "weaponCategory": "martial",
     "property": [
         "L"
     ],
-    "reload": 8,
+    "charges": 8,
     "dmg1": "2d6",
     "dmgType": "P",
     "range": "80/320",

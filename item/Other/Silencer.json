@@ -1,0 +1,14 @@
+{
+    "name": "Silencer",
+    "source": "TftJC",
+    "page": 10,
+    "type": "OTH",
+    "rarity": "none",
+    "weight": 0,
+    "value": 35000,
+    "entries": [
+        "<b><i>Effect.</i></b> The firearm produces a quarter of its normal noise. For the average firearm, it becomes nearly silent. Removes the Loud property.",
+        "<b><i>Restrictions.</i></b> Cannot be used on an Explosive or Gas firearm.",
+        "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+    ]
+}

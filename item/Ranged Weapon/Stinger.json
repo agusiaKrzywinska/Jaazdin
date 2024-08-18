@@ -5,11 +5,11 @@
     "rarity": "none",
     "weight": 0.5,
     "value": 3000,
-    "weaponCategory": "firearm",
+    "weaponCategory": "charges",
     "property": [
         "L"
     ],
-    "reload": 4,
+    "charges": 4,
     "dmg1": "1d4",
     "dmgType": "P",
     "range": "15/60",

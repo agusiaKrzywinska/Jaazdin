@@ -1,0 +1,14 @@
+{
+    "name": "Bayonet",
+    "source": "TftJC",
+    "page": 10,
+    "type": "OTH",
+    "rarity": "none",
+    "weight": 0,
+    "value": 25000,
+    "entries": [
+        "<b><i>Effect.</i></b> You attach a blade at the end of the weapon, which can be used as a martial melee weapon that deals 1d8 piercing damage on a hit. The Bayoney is not considered a firearm.",
+        "<b><i>Restrictions.</i></b> Requires the Two Handed property.",
+        "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+    ]
+}

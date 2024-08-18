@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.0.26"
+                "version": "0.0.25"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1723679615
+        "dateLastModified": 1723989861
     },
     "background": [
         {
@@ -778,17 +778,31 @@
             ]
         },
         {
+            "name": "Armor Piercing Rounds",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 150000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm gains a +2 to-hit against creatures wearing armor, wielding a shield or using cover.",
+                "<b><i>Restrictions.</i></b> Cannot be used on an Explosive or Gas firearm.",
+                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
+            ]
+        },
+        {
             "name": "Automatic Rifle",
             "source": "TftJC",
             "type": "R",
             "rarity": "none",
             "weight": 9,
             "value": 120000,
-            "weaponCategory": "firearm",
+            "weaponCategory": "martial",
             "property": [
                 "2H"
             ],
-            "reload": 30,
+            "charges": 30,
             "dmg1": "3d6",
             "dmgType": "P",
             "range": "80/320",
@@ -876,6 +890,20 @@
                 "<b><i>Hidden.</i></b> A creature gains advantage on Sleight of Hand checks to hide a hidden weapon on their person. In addition, spotting a Hidden weapon on a person requires a DC 15 Perception check.",
                 "<b><i>Unarmed.</i></b> Unarmed weapons replace your unarmed damage with the weapon damage listed. If you have other options for unarmed damage, such as a Fighting Style or Martial Arts monk feature you can choose which damage die applies. A value written as +X as opposed to X adds to unarmed damage rather than replacing it.",
                 "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+            ]
+        },
+        {
+            "name": "Bayonet",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 25000,
+            "entries": [
+                "<b><i>Effect.</i></b> You attach a blade at the end of the weapon, which can be used as a martial melee weapon that deals 1d8 piercing damage on a hit. The Bayoney is not considered a firearm.",
+                "<b><i>Restrictions.</i></b> Requires the Two Handed property.",
+                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
             ]
         },
         {
@@ -1306,12 +1334,12 @@
             "rarity": "none",
             "weight": 15,
             "value": 100000,
-            "weaponCategory": "firearm",
+            "weaponCategory": "martial",
             "property": [
                 "2H",
                 "H"
             ],
-            "reload": 20,
+            "charges": 20,
             "dmg1": "2d10",
             "dmgType": "P",
             "range": "120/480",
@@ -1329,11 +1357,11 @@
             "rarity": "none",
             "weight": 2,
             "value": 8000,
-            "weaponCategory": "firearm",
+            "weaponCategory": "martial",
             "property": [
                 "L"
             ],
-            "reload": 6,
+            "charges": 6,
             "dmg1": "1d8",
             "dmgType": "P",
             "range": "60/240",
@@ -1497,6 +1525,19 @@
             ]
         },
         {
+            "name": "Damascene",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 25000,
+            "entries": [
+                "<b><i>Effect.</i></b> When using the firearm for a performance check, you have advantage.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
             "name": "Dark Storm's Voice",
             "source": "TftJC",
             "rarity": "legendary",
@@ -1638,15 +1679,30 @@
         {
             "name": "Double Barrel",
             "source": "TftJC",
+            "page": 12,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 150000,
+            "entries": [
+                "<b><i>Effect.</i></b> When using your bonus action to make an attack with a light firearm, you can make two attacks as a part of the same bonus action.",
+                "<b><i>Restrictions.</i></b> Requires the Light property.",
+                "<b><i>Archetype.</i></b> Only Quickdraws can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
+            ]
+        },
+        {
+            "name": "Double Barrel",
+            "source": "TftJC",
             "type": "R",
             "rarity": "none",
             "weight": 8,
             "value": 7500,
-            "weaponCategory": "buckshot firearm",
+            "weaponCategory": "martial",
             "property": [
                 "2H"
             ],
-            "reload": 2,
+            "charges": 2,
             "dmg1": "1d10",
             "dmgType": "P",
             "range": "10/30",
@@ -1657,17 +1713,60 @@
             ]
         },
         {
+            "name": "Dragon's Breath",
+            "source": "TftJC",
+            "page": 12,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 175000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm deals an additional 1d8 fire damage. If the firearm activates pump, this damage is doubled.",
+                "<b><i>Archetype.</i></b> Only Buckshots can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
+            ]
+        },
+        {
+            "name": "Drilling",
+            "source": "TftJC",
+            "page": 12,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 50000,
+            "entries": [
+                "<b><i>Effect.</i></b> Can declare attacks as Drilling, ignoring the shotgun feature. The range is doubled and the cone is removed.",
+                "<b><i>Restrictions.</i></b> Requires the Shotgun property.",
+                "<b><i>Archetype.</i></b> Only Buckshots can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+            ]
+        },
+        {
+            "name": "Drum Upgrade",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 120000,
+            "entries": [
+                "<b><i>Effect.</i></b> All of this firearm's clips are converted into drums, which each triple their ammunition capacity.",
+                "<b><i>Restrictions.</i></b> Requires the Clip property.",
+                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
+            ]
+        },
+        {
             "name": "Dusty Falcon",
             "source": "TftJC",
             "type": "R",
             "rarity": "none",
             "weight": 4.5,
             "value": 100000,
-            "weaponCategory": "quickdraw firearm",
+            "weaponCategory": "martial",
             "property": [
                 "L"
             ],
-            "reload": 8,
+            "charges": 8,
             "dmg1": "2d6",
             "dmgType": "P",
             "range": "80/320",
@@ -1830,6 +1929,34 @@
             ]
         },
         {
+            "name": "Extended Barrel",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 20000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm's normal range increases by 10, and its long range increases by 40.",
+                "<b><i>Restrictions.</i></b> Requires the Two Handed property.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
+            "name": "Extended Clip",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 30000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm's clips can now store twice the normal amount of rounds.",
+                "<b><i>Restrictions.</i></b> Requires the Clip property.",
+                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+            ]
+        },
+        {
             "name": "Eye of the Tempest",
             "source": "TftJC",
             "rarity": "artifact",
@@ -1917,6 +2044,20 @@
             ]
         },
         {
+            "name": "Friction Holster",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 7500,
+            "entries": [
+                "<b><i>Effect.</i></b> When drawing a light firearm, you can draw another one as a part of the same action.",
+                "<b><i>Restrictions.</i></b> Requires the Light property.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
             "name": "Frostwail",
             "source": "TftJC",
             "rarity": "rare",
@@ -1994,11 +2135,11 @@
             "rarity": "none",
             "weight": 18,
             "value": 100000,
-            "weaponCategory": "sniper firearm",
+            "weaponCategory": "martial",
             "property": [
                 "2H"
             ],
-            "reload": 12,
+            "charges": 12,
             "dmg1": "2d12",
             "dmgType": "P",
             "range": "150/600",
@@ -2085,6 +2226,35 @@
             ]
         },
         {
+            "name": "Hidden Track",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 10000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm gains the hidden property.",
+                "<b><i>Restrictions.</i></b> Requires the Light property.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
+            "name": "Hollow Point Rounds",
+            "source": "TftJC",
+            "page": 12,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 30000,
+            "entries": [
+                "<b><i>Effect.</i></b> When you critically hit with the firearm, you can roll one additional weapon damage die when determining the extra damage for a critical hit.",
+                "<b><i>Restrictions.</i></b> Cannot be used on an Explosive or Gas firearm.",
+                "<b><i>Archetype.</i></b> Only Quickdraws can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+            ]
+        },
+        {
             "name": "Icebreaker",
             "source": "TftJC",
             "rarity": "very rare",
@@ -2106,6 +2276,20 @@
             ]
         },
         {
+            "name": "Improved Belt Feed",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 40000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm's misfire score is reduced by 1.",
+                "<b><i>Restrictions.</i></b> Requires the Belt property.",
+                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+            ]
+        },
+        {
             "name": "Iron Ceatus",
             "source": "TftJC",
             "page": 50,
@@ -2124,6 +2308,19 @@
                 "<b><i>Special.</i></b> These heavy gauntlets require immense strength to use effectively. A creature must have 15 Strength or they make all attacks with this weapon with disadvantage.",
                 "<b><i>Unarmed.</i></b> Unarmed weapons replace your unarmed damage with the weapon damage listed. If you have other options for unarmed damage, such as a Fighting Style or Martial Arts monk feature you can choose which damage die applies. A value written as +X as opposed to X adds to unarmed damage rather than replacing it.",
                 "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+            ]
+        },
+        {
+            "name": "Ironsight",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 5000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm gains a +1 to-hit.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
             ]
         },
         {
@@ -2193,17 +2390,45 @@
             ]
         },
         {
+            "name": "Larger Barrel",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 20000,
+            "entries": [
+                "<b><i>Effect.</i></b> The barrel can hold an additional 2 rounds.",
+                "<b><i>Restrictions.</i></b> Requires the Barrel property.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
+            "name": "Laser Sight",
+            "source": "TftJC",
+            "page": 12,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 25000,
+            "entries": [
+                "<b><i>Effect.</i></b> Before you roll, you can gain a +3 to hit, unless your darget is in direct sunlight. If you use the bonus from this and hit a creature, you are revealed to that creature.",
+                "<b><i>Archetype.</i></b> Only Snipers can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+            ]
+        },
+        {
             "name": "Long-Barrel Revolver",
             "source": "TftJC",
             "type": "R",
             "rarity": "none",
             "weight": 1.5,
             "value": 12500,
-            "weaponCategory": "quickdraw firearm",
+            "weaponCategory": "martial",
             "property": [
                 "L"
             ],
-            "reload": 6,
+            "charges": 6,
             "dmg1": "1d8",
             "dmgType": "P",
             "range": "60/240",
@@ -2240,12 +2465,12 @@
             "rarity": "none",
             "weight": 25,
             "value": 32500,
-            "weaponCategory": "firearm",
+            "weaponCategory": "martial",
             "property": [
                 "2H",
                 "H"
             ],
-            "reload": 40,
+            "charges": 40,
             "dmg1": "4d4",
             "dmgType": "P",
             "range": "60/240",
@@ -2282,11 +2507,11 @@
             "rarity": "none",
             "weight": 15,
             "value": 125000,
-            "weaponCategory": "sniper firearm",
+            "weaponCategory": "martial",
             "property": [
                 "2H"
             ],
-            "reload": 10,
+            "charges": 10,
             "dmg1": "2d10",
             "dmgType": "P",
             "range": "120/480",
@@ -2329,6 +2554,46 @@
             "entries": [
                 "<b><i>Special.</i></b> This weapon only has the reach property when it is being wielded in both hands.",
                 "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+            ]
+        },
+        {
+            "name": "Night Scope",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 100000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm can be used in darkness without disadvantage.",
+                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+            ]
+        },
+        {
+            "name": "Overpressure",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 120000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm's attacks deal an additional 1d6 damage, but its misfire score is increased by 1.",
+                "<b><i>Restrictions.</i></b> Cannot be used on an Explosive or Gas firearm.",
+                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
+            ]
+        },
+        {
+            "name": "Paint Job",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 3500,
+            "entries": [
+                "<b><i>Effect.</i></b> When the firearm is used for intimidation, you have advantage on the check.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
             ]
         },
         {
@@ -2400,17 +2665,31 @@
             "rarity": "none",
             "weight": 1,
             "value": 3500,
-            "weaponCategory": "firearm",
+            "weaponCategory": "martial",
             "property": [
                 "L"
             ],
-            "reload": 6,
+            "charges": 6,
             "dmg1": "1d6",
             "dmgType": "P",
             "range": "40/160",
             "entries": [
                 "<b><i>Tier 1.</i></b>",
                 "<b><i>Clip 6.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+            ]
+        },
+        {
+            "name": "Pistol Stock",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 15000,
+            "entries": [
+                "<b><i>Effect.</i></b> The pistol gains 20 normal range.",
+                "<b><i>Restrictions.</i></b> Requires the Light property, cannot be used with the Hidden property.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
             ]
         },
         {
@@ -2451,17 +2730,30 @@
             ]
         },
         {
+            "name": "Reliability",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 200000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm gains the reliable property.",
+                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
+            ]
+        },
+        {
             "name": "Remy",
             "source": "TftJC",
             "type": "R",
             "rarity": "none",
             "weight": 8,
             "value": 12500,
-            "weaponCategory": "buckshot firearm",
+            "weaponCategory": "martial",
             "property": [
                 "2H"
             ],
-            "reload": 2,
+            "charges": 2,
             "dmg1": "2d6",
             "dmgType": "P",
             "range": "15/30",
@@ -2478,11 +2770,11 @@
             "rarity": "none",
             "weight": 1,
             "value": 5000,
-            "weaponCategory": "quickdraw firearm",
+            "weaponCategory": "martial",
             "property": [
                 "L"
             ],
-            "reload": 6,
+            "charges": 6,
             "dmg1": "1d6",
             "dmgType": "P",
             "range": "40/160",
@@ -2498,11 +2790,11 @@
             "rarity": "none",
             "weight": 6,
             "value": 10000,
-            "weaponCategory": "firearm",
+            "weaponCategory": "martial",
             "property": [
                 "2H"
             ],
-            "reload": 5,
+            "charges": 5,
             "dmg1": "1d10",
             "dmgType": "P",
             "range": "80/320",
@@ -2518,11 +2810,11 @@
             "rarity": "none",
             "weight": 8,
             "value": 25000,
-            "weaponCategory": "firearm",
+            "weaponCategory": "martial",
             "property": [
                 "2H"
             ],
-            "reload": 5,
+            "charges": 5,
             "dmg1": "2d6",
             "dmgType": "P",
             "range": "80/320",
@@ -2799,6 +3091,21 @@
             ]
         },
         {
+            "name": "Sawed Off",
+            "source": "TftJC",
+            "page": 12,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 8500,
+            "entries": [
+                "<b><i>Effect.</i></b> Reduces the range for the firearm by 10, but increases the shotgun cone by 5 feet. Misfire is also increased by 1.",
+                "<b><i>Restrictions.</i></b> Requires the Shotgun property.",
+                "<b><i>Archetype.</i></b> Only Buckshots can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
             "name": "Scarf of the Rushing Tides",
             "source": "TftJC",
             "rarity": "rare",
@@ -2812,17 +3119,30 @@
             ]
         },
         {
+            "name": "Scope",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 40000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm does not pose disadvantage when firing at long range.",
+                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+            ]
+        },
+        {
             "name": "Semi-Auto Sniper",
             "source": "TftJC",
             "type": "R",
             "rarity": "none",
             "weight": 18,
             "value": 500000,
-            "weaponCategory": "sniper firearm",
+            "weaponCategory": "martial",
             "property": [
                 "2H"
             ],
-            "reload": 10,
+            "charges": 10,
             "dmg1": "2d10",
             "dmgType": "P",
             "range": "150/600",
@@ -2933,11 +3253,11 @@
             "rarity": "none",
             "weight": 6,
             "value": 5000,
-            "weaponCategory": "buckshot firearm",
+            "weaponCategory": "martial",
             "property": [
                 "2H"
             ],
-            "reload": 1,
+            "charges": 1,
             "dmg1": "1d10",
             "dmgType": "P",
             "range": "10/20",
@@ -2967,6 +3287,20 @@
                 "If you use the reach property you can’t make an offhand attack that turn.",
                 "Additionally, you have advantage on attack rolls made to disarm opponents if you are wielding two Shuang Gou.",
                 "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+            ]
+        },
+        {
+            "name": "Silencer",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 35000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm produces a quarter of its normal noise. For the average firearm, it becomes nearly silent. Removes the Loud property.",
+                "<b><i>Restrictions.</i></b> Cannot be used on an Explosive or Gas firearm.",
+                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
             ]
         },
         {
@@ -3006,11 +3340,11 @@
             "rarity": "none",
             "weight": 10,
             "value": 5000,
-            "weaponCategory": "sniper firearm",
+            "weaponCategory": "martial",
             "property": [
                 "2H"
             ],
-            "reload": 6,
+            "charges": 6,
             "dmg1": "1d12",
             "dmgType": "P",
             "range": "120/480",
@@ -3043,6 +3377,21 @@
             ]
         },
         {
+            "name": "Speed Loader",
+            "source": "TftJC",
+            "page": 12,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 7500,
+            "entries": [
+                "<b><i>Effect.</i></b> Converts a barrel to be loaded as if it were a clip, but the firearm is still classified as a barrel.",
+                "<b><i>Restrictions.</i></b> Requires the Barrel property.",
+                "<b><i>Archetype.</i></b> Only Quickdraws can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
             "name": "Staff of Arachnid Domination",
             "source": "TftJC",
             "rarity": "rare",
@@ -3071,11 +3420,11 @@
             "rarity": "none",
             "weight": 3,
             "value": 65000,
-            "weaponCategory": "firearm",
+            "weaponCategory": "martial",
             "property": [
                 "L"
             ],
-            "reload": 20,
+            "charges": 20,
             "dmg1": "1d10",
             "dmgType": "P",
             "range": "40/160",
@@ -3092,11 +3441,11 @@
             "rarity": "none",
             "weight": 0.5,
             "value": 3000,
-            "weaponCategory": "firearm",
+            "weaponCategory": "charges",
             "property": [
                 "L"
             ],
-            "reload": 4,
+            "charges": 4,
             "dmg1": "1d4",
             "dmgType": "P",
             "range": "15/60",
@@ -3104,6 +3453,20 @@
                 "<b><i>Tier 1.</i></b>",
                 "<b><i>Barrel 4.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel.",
                 "<b><i>Hidden.</i></b> Hidden Firearms are small enough to tuck into a sleeve without it showing an outline and are made for assassinations. Hidden firearms come with a small track that can be mounted to the wielders wrist. As an interaction, they can slide the firearm hidden in their sleeve down the track and right into their hand. Creatures searching you for weapons have disadvantage on finding a Hidden firearm, and you have advantage on Sleight of Hand checks to hide it."
+            ]
+        },
+        {
+            "name": "Support Strap",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 15000,
+            "entries": [
+                "<b><i>Effect.</i></b> The heavy weapon can be used by small sized creatures with no issue.",
+                "<b><i>Restrictions.</i></b> Requires the Heavy property.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
             ]
         },
         {
@@ -3143,11 +3506,11 @@
             "rarity": "none",
             "weight": 2,
             "value": 7500,
-            "weaponCategory": "quickdraw firearm",
+            "weaponCategory": "martial",
             "property": [
                 "L"
             ],
-            "reload": 6,
+            "charges": 6,
             "dmg1": "1d10",
             "dmgType": "P",
             "range": "60/240",
@@ -3203,6 +3566,20 @@
                 "Additionally, you no longer need to drink water, and have advantage on Constitution saving throws against overheating.",
                 "When you hit with a melee attack using this sword and reduce the target to 0 hit points, you gain 2d6 temporary hit points.",
                 "Your theft shall not be forgotten, and my vengeance shall be swift."
+            ]
+        },
+        {
+            "name": "Thermal Scope",
+            "source": "TftJC",
+            "page": 12,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 200000,
+            "entries": [
+                "<b><i>Effect.</i></b> Looking through this scope allows you to see all creatures within your firearm's short range, even hidden behind cover so long as that creature produces heat.",
+                "<b><i>Archetype.</i></b> Only Snipers can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
             ]
         },
         {
@@ -3386,11 +3763,11 @@
             "rarity": "none",
             "weight": 10,
             "value": 75000,
-            "weaponCategory": "firearm",
+            "weaponCategory": "martial",
             "property": [
                 "2H"
             ],
-            "reload": 40,
+            "charges": 40,
             "dmg1": "2d8",
             "dmgType": "P",
             "range": "60/240",
@@ -3440,6 +3817,21 @@
             ]
         },
         {
+            "name": "Tripod",
+            "source": "TftJC",
+            "page": 12,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 7500,
+            "entries": [
+                "<b><i>Effect.</i></b> You can deploy this as a Bonus Action on a surface. If you do not move on this turn, the Firearm gains a bonus to hit equal to its Tier if shooting a target who did not move in their last round.",
+                "<b><i>Restrictions.</i></b> Requires the Two Handed property.",
+                "<b><i>Archetype.</i></b> Only Snipers can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
             "name": "Urumi",
             "source": "TftJC",
             "page": 50,
@@ -3460,398 +3852,6 @@
             ]
         },
         {
-            "name": "Paint Job",
-            "source": "TftJC",
-            "page": 10,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 3500,
-            "entries": [
-                "<b><i>Effect.</i></b> When the firearm is used for intimidation, you have advantage on the check.",
-                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-            ]
-        },
-        {
-            "name": "Ironsight",
-            "source": "TftJC",
-            "page": 10,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 5000,
-            "entries": [
-                "<b><i>Effect.</i></b> The firearm gains a +1 to-hit.",
-                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-            ]
-        },
-        {
-            "name": "Friction Holster",
-            "source": "TftJC",
-            "page": 10,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 7500,
-            "entries": [
-                "<b><i>Effect.</i></b> When drawing a light firearm, you can draw another one as a part of the same action.",
-                "<b><i>Restrictions.</i></b> Requires the Light property.",
-                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-            ]
-        },
-        {
-            "name": "Hidden Track",
-            "source": "TftJC",
-            "page": 10,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 10000,
-            "entries": [
-                "<b><i>Effect.</i></b> The firearm gains the hidden property.",
-                "<b><i>Restrictions.</i></b> Requires the Light property.",
-                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-            ]
-        },
-        {
-            "name": "Pistol Stock",
-            "source": "TftJC",
-            "page": 10,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 15000,
-            "entries": [
-                "<b><i>Effect.</i></b> The pistol gains 20 normal range.",
-                "<b><i>Restrictions.</i></b> Requires the Light property, cannot be used with the Hidden property.",
-                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-            ]
-        },
-        {
-            "name": "Support Strap",
-            "source": "TftJC",
-            "page": 10,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 15000,
-            "entries": [
-                "<b><i>Effect.</i></b> The heavy weapon can be used by small sized creatures with no issue.",
-                "<b><i>Restrictions.</i></b> Requires the Heavy property.",
-                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-            ]
-        },
-        {
-            "name": "Larger Barrel",
-            "source": "TftJC",
-            "page": 10,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 20000,
-            "entries": [
-                "<b><i>Effect.</i></b> The barrel can hold an additional 2 rounds.",
-                "<b><i>Restrictions.</i></b> Requires the Barrel property.",
-                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-            ]
-        },
-        {
-            "name": "Extended Barrel",
-            "source": "TftJC",
-            "page": 10,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 20000,
-            "entries": [
-                "<b><i>Effect.</i></b> The firearm's normal range increases by 10, and its long range increases by 40.",
-                "<b><i>Restrictions.</i></b> Requires the Two Handed property.",
-                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-            ]
-        },
-        {
-            "name": "Damascene",
-            "source": "TftJC",
-            "page": 10,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 25000,
-            "entries": [
-                "<b><i>Effect.</i></b> When using the firearm for a performance check, you have advantage.",
-                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-            ]
-        },
-        {
-            "name": "Bayonet",
-            "source": "TftJC",
-            "page": 10,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 25000,
-            "entries": [
-                "<b><i>Effect.</i></b> You attach a blade at the end of the weapon, which can be used as a martial melee weapon that deals 1d8 piercing damage on a hit. The Bayoney is not considered a firearm.",
-                "<b><i>Restrictions.</i></b> Requires the Two Handed property.",
-                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
-            ]
-        },
-        {
-            "name": "Extended Clip",
-            "source": "TftJC",
-            "page": 10,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 30000,
-            "entries": [
-                "<b><i>Effect.</i></b> The firearm's clips can now store twice the normal amount of rounds.",
-                "<b><i>Restrictions.</i></b> Requires the Clip property.",
-                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
-            ]
-        },
-        {
-            "name": "Silencer",
-            "source": "TftJC",
-            "page": 10,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 35000,
-            "entries": [
-                "<b><i>Effect.</i></b> The firearm produces a quarter of its normal noise. For the average firearm, it becomes nearly silent. Removes the Loud property.",
-                "<b><i>Restrictions.</i></b> Cannot be used on an Explosive or Gas firearm.",
-                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
-            ]
-        },
-        {
-            "name": "Improved Belt Feed",
-            "source": "TftJC",
-            "page": 10,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 40000,
-            "entries": [
-                "<b><i>Effect.</i></b> The firearm's misfire score is reduced by 1.",
-                "<b><i>Restrictions.</i></b> Requires the Belt property.",
-                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
-            ]
-        },
-        {
-            "name": "Scope",
-            "source": "TftJC",
-            "page": 10,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 40000,
-            "entries": [
-                "<b><i>Effect.</i></b> The firearm does not pose disadvantage when firing at long range.",
-                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
-            ]
-        },
-        {
-            "name": "Night Scope",
-            "source": "TftJC",
-            "page": 10,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 100000,
-            "entries": [
-                "<b><i>Effect.</i></b> The firearm can be used in darkness without disadvantage.",
-                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
-            ]
-        },
-        {
-            "name": "Drum Upgrade",
-            "source": "TftJC",
-            "page": 10,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 120000,
-            "entries": [
-                "<b><i>Effect.</i></b> All of this firearm's clips are converted into drums, which each triple their ammunition capacity.",
-                "<b><i>Restrictions.</i></b> Requires the Clip property.",
-                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
-            ]
-        },
-        {
-            "name": "Overpressure",
-            "source": "TftJC",
-            "page": 10,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 120000,
-            "entries": [
-                "<b><i>Effect.</i></b> The firearm's attacks deal an additional 1d6 damage, but its misfire score is increased by 1.",
-                "<b><i>Restrictions.</i></b> Cannot be used on an Explosive or Gas firearm.",
-                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
-            ]
-        },
-        {
-            "name": "Armor Piercing Rounds",
-            "source": "TftJC",
-            "page": 10,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 150000,
-            "entries": [
-                "<b><i>Effect.</i></b> The firearm gains a +2 to-hit against creatures wearing armor, wielding a shield or using cover.",
-                "<b><i>Restrictions.</i></b> Cannot be used on an Explosive or Gas firearm.",
-                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
-            ]
-        },
-        {
-            "name": "Reliability",
-            "source": "TftJC",
-            "page": 10,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 200000,
-            "entries": [
-                "<b><i>Effect.</i></b> The firearm gains the reliable property.",
-                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
-            ]
-        },
-        {
-            "name": "Speed Loader",
-            "source": "TftJC",
-            "page": 12,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 7500,
-            "entries": [
-                "<b><i>Effect.</i></b> Converts a barrel to be loaded as if it were a clip, but the firearm is still classified as a barrel.",
-                "<b><i>Restrictions.</i></b> Requires the Barrel property.",
-                "<b><i>Archetype.</i></b> Only Quickdraws can use this modification.",
-                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-            ]
-        },
-        {
-            "name": "Hollow Point Rounds",
-            "source": "TftJC",
-            "page": 12,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 30000,
-            "entries": [
-                "<b><i>Effect.</i></b> When you critically hit with the firearm, you can roll one additional weapon damage die when determining the extra damage for a critical hit.",
-                "<b><i>Restrictions.</i></b> Cannot be used on an Explosive or Gas firearm.",
-                "<b><i>Archetype.</i></b> Only Quickdraws can use this modification.",
-                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
-            ]
-        },
-        {
-            "name": "Double Barrel",
-            "source": "TftJC",
-            "page": 12,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 150000,
-            "entries": [
-                "<b><i>Effect.</i></b> When using your bonus action to make an attack with a light firearm, you can make two attacks as a part of the same bonus action.",
-                "<b><i>Restrictions.</i></b> Requires the Light property.",
-                "<b><i>Archetype.</i></b> Only Quickdraws can use this modification.",
-                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
-            ]
-        },
-        {
-            "name": "Sawed Off",
-            "source": "TftJC",
-            "page": 12,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 8500,
-            "entries": [
-                "<b><i>Effect.</i></b> Reduces the range for the firearm by 10, but increases the shotgun cone by 5 feet. Misfire is also increased by 1.",
-                "<b><i>Restrictions.</i></b> Requires the Shotgun property.",
-                "<b><i>Archetype.</i></b> Only Buckshots can use this modification.",
-                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-            ]
-        },
-        {
-            "name": "Drilling",
-            "source": "TftJC",
-            "page": 12,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 50000,
-            "entries": [
-                "<b><i>Effect.</i></b> Can declare attacks as Drilling, ignoring the shotgun feature. The range is doubled and the cone is removed.",
-                "<b><i>Restrictions.</i></b> Requires the Shotgun property.",
-                "<b><i>Archetype.</i></b> Only Buckshots can use this modification.",
-                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
-            ]
-        },
-        {
-            "name": "Dragon's Breath",
-            "source": "TftJC",
-            "page": 12,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 175000,
-            "entries": [
-                "<b><i>Effect.</i></b> The firearm deals an additional 1d8 fire damage. If the firearm activates pump, this damage is doubled.",
-                "<b><i>Archetype.</i></b> Only Buckshots can use this modification.",
-                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
-            ]
-        },
-        {
-            "name": "Tripod",
-            "source": "TftJC",
-            "page": 12,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 7500,
-            "entries": [
-                "<b><i>Effect.</i></b> You can deploy this as a Bonus Action on a surface. If you do not move on this turn, the Firearm gains a bonus to hit equal to its Tier if shooting a target who did not move in their last round.",
-                "<b><i>Restrictions.</i></b> Requires the Two Handed property.",
-                "<b><i>Archetype.</i></b> Only Snipers can use this modification.",
-                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-            ]
-        },
-        {
-            "name": "Laser Sight",
-            "source": "TftJC",
-            "page": 12,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 25000,
-            "entries": [
-                "<b><i>Effect.</i></b> Before you roll, you can gain a +3 to hit, unless your darget is in direct sunlight. If you use the bonus from this and hit a creature, you are revealed to that creature.",
-                "<b><i>Archetype.</i></b> Only Snipers can use this modification.",
-                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
-            ]
-        },
-        {
-            "name": "Thermal Scope",
-            "source": "TftJC",
-            "page": 12,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 200000,
-            "entries": [
-                "<b><i>Effect.</i></b> Looking through this scope allows you to see all creatures within your firearm's short range, even hidden behind cover so long as that creature produces heat.",
-                "<b><i>Archetype.</i></b> Only Snipers can use this modification.",
-                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
-            ]
-        },
-        {
             "name": "Waxy Pie",
             "source": "TftJC",
             "rarity": "common",
@@ -3865,13 +3865,35 @@
             "source": "TftJC",
             "type": "R",
             "rarity": "none",
-            "weight": 8,
-            "value": 50000,
-            "weaponCategory": "buckshot firearm",
+            "weight": 10,
+            "value": 100000,
+            "weaponCategory": "martial",
             "property": [
                 "2H"
             ],
-            "reload": 4,
+            "firearm": true,
+            "charges": 8,
+            "dmg1": "2d6",
+            "dmgType": "P",
+            "range": "15/40",
+            "entries": [
+                "<b><i>Tier 5.</i></b>",
+                "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
+                "<b><i>Pump 8.</i></b> A pump ammo system stores a number of shots directly in the gun. You can reload the barrel with up to 2 slugs as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two shots as a part of the same attack. The first target takes additional damage equal to the weapon's damage die. Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
+            ]
+        },
+        {
+            "name": "Wind Chest",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 8,
+            "value": 50000,
+            "weaponCategory": "martial",
+            "property": [
+                "2H"
+            ],
+            "charges": 4,
             "dmg1": "2d6",
             "dmgType": "P",
             "range": "15/40",
@@ -3888,11 +3910,11 @@
             "rarity": "none",
             "weight": 13,
             "value": 75000,
-            "weaponCategory": "sniper firearm",
+            "weaponCategory": "martial",
             "property": [
                 "2H"
             ],
-            "reload": 8,
+            "charges": 8,
             "dmg1": "2d8",
             "dmgType": "P",
             "range": "120/480",
@@ -3909,11 +3931,11 @@
             "rarity": "none",
             "weight": 2,
             "value": 50000,
-            "weaponCategory": "quickdraw firearm",
+            "weaponCategory": "martial",
             "property": [
                 "L"
             ],
-            "reload": 6,
+            "charges": 6,
             "dmg1": "1d10",
             "dmgType": "P",
             "range": "80/320",
@@ -9753,36 +9775,6 @@
             ]
         },
         {
-            "name": "Circle of the Iron Heretic",
-            "source": "TftJC",
-            "className": "Druid",
-            "classSource": "PHB",
-            "subclassShortName": "Iron Heretic",
-            "subclassSource": "TftJC",
-            "level": 2,
-            "entries": [
-                "Druids of the Circle of the Iron Heretic find their calling not in the preservation of nature, but in the advancement of it. They see nature as the perfect mechanism for the advancement of intelligent races but unlike their brethren, they do not shy away from the exploitation of natural resources into valuable tools.",
-                "These druids use their magic to twist metal and stone into cold lifeless mimicry of natural life and push their own power forward by consuming natural material. Their disregard for nature for progress often puts them at odds with other druidic circles, hence their branding as heretics.",
-                "Druids in this circle do not necessarily see natural life as different from that created through construct magic, treating both as useful tools to advance intelligent life forwards. These druids believe that progress and destruction are a natural part of life, embracing modernity as opposed to rejecting it.",
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Circle Spells|Druid|PHB|Iron Heretic|TftJC|2"
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Shell of Iron|Druid|PHB|Iron Heretic|TftJC|2"
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Construct Creation|Druid|PHB|Iron Heretic|TftJC|2"
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Metallic Carapace|Druid|PHB|Iron Heretic|TftJC|2"
-                }
-            ]
-        },
-        {
             "name": "Circle Spells",
             "source": "TftJC",
             "className": "Druid",
@@ -9822,6 +9814,36 @@
                             "Animate Objects, Steel Wind Strike"
                         ]
                     ]
+                }
+            ]
+        },
+        {
+            "name": "Circle of the Iron Heretic",
+            "source": "TftJC",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Iron Heretic",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "Druids of the Circle of the Iron Heretic find their calling not in the preservation of nature, but in the advancement of it. They see nature as the perfect mechanism for the advancement of intelligent races but unlike their brethren, they do not shy away from the exploitation of natural resources into valuable tools.",
+                "These druids use their magic to twist metal and stone into cold lifeless mimicry of natural life and push their own power forward by consuming natural material. Their disregard for nature for progress often puts them at odds with other druidic circles, hence their branding as heretics.",
+                "Druids in this circle do not necessarily see natural life as different from that created through construct magic, treating both as useful tools to advance intelligent life forwards. These druids believe that progress and destruction are a natural part of life, embracing modernity as opposed to rejecting it.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Circle Spells|Druid|PHB|Iron Heretic|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Shell of Iron|Druid|PHB|Iron Heretic|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Construct Creation|Druid|PHB|Iron Heretic|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Metallic Carapace|Druid|PHB|Iron Heretic|TftJC|2"
                 }
             ]
         },

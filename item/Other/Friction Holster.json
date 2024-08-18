@@ -1,0 +1,14 @@
+{
+    "name": "Friction Holster",
+    "source": "TftJC",
+    "page": 10,
+    "type": "OTH",
+    "rarity": "none",
+    "weight": 0,
+    "value": 7500,
+    "entries": [
+        "<b><i>Effect.</i></b> When drawing a light firearm, you can draw another one as a part of the same action.",
+        "<b><i>Restrictions.</i></b> Requires the Light property.",
+        "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+    ]
+}

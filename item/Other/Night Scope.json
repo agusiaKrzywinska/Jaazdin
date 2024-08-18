@@ -1,0 +1,13 @@
+{
+    "name": "Night Scope",
+    "source": "TftJC",
+    "page": 10,
+    "type": "OTH",
+    "rarity": "none",
+    "weight": 0,
+    "value": 100000,
+    "entries": [
+        "<b><i>Effect.</i></b> The firearm can be used in darkness without disadvantage.",
+        "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+    ]
+}
