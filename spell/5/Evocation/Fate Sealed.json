@@ -26,14 +26,14 @@
         }
     ],
     "entries": [
-        "You dash 30 feet forward pulling everything in your path and within your weapon’s reach on either side. Each creature hit must make a dexterity saving throw, taking 5d8 force Damage, or half as much on a fail. Those that fail are also left prone after being knocked into the air"
+        "You dash 30 feet forward pulling everything in your path and within your weapon’s reach on either side. Each creature hit must make a dexterity saving throw, taking {@dice 5d8} force damage, or half as much on a fail. Those that fail are also left prone after being knocked into the air"
     ],
     "entriesHigherLevel": [
         {
             "type": "entries",
             "name": "At Higher Levels",
             "entries": [
-                "If you cast this spell using a spell slot of 6th level slot or higher, the damage increases by 1d8 for every slot above 5th."
+                "If you cast this spell using a spell slot of 6th level slot or higher, the damage increases by {@dice 1d8} for every slot above 5th."
             ]
         }
     ],
@@ -52,5 +52,8 @@
                 "source": "PHB"
             }
         ]
-    }
+    },
+    "savingThrow": [
+        "dexterity"
+    ]
 }

@@ -29,7 +29,7 @@
         }
     ],
     "entries": [
-        "You touch a creature with Necromantic energy. Make a spell attack roll, and on a hit the creature takes {@dice 6d6} Necrotic Damage. A hit humanoid must then make a constitution saving throw, and on a fail become cursed. If the cursed creature dies before completing three Long Rests, they rise as a zombie under your control."
+        "You touch a creature with Necromantic energy. Make a spell attack roll, and on a hit the creature takes {@dice 6d6} Necrotic Damage. A hit humanoid must then make a Constitution saving throw, and on a fail become cursed. If the cursed creature dies before completing three Long Rests, they rise as a zombie under your control."
     ],
     "entriesHigherLevel": [
         {
@@ -59,5 +59,8 @@
                 "source": "PHB"
             }
         ]
-    }
+    },
+    "savingThrow": [
+        "constitution"
+    ]
 }

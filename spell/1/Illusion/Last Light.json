@@ -31,14 +31,14 @@
         }
     ],
     "entries": [
-        "A burst of brilliant light ushers from you, each creature of your choice in a 20ft radius must make a Constitution saving throw or be blinded until the end of their next turn. You shed bright light in a 20ft radius. At the start of you next turn the light vanishes and a burst of necrotic energy dealing 2d8 necrotic damage to each creature that was blinded by this spell and still within range."
+        "A burst of brilliant light ushers from you, each creature of your choice in a 20ft radius must make a Constitution saving throw or be blinded until the end of their next turn. You shed bright light in a 20ft radius. At the start of you next turn the light vanishes and a burst of necrotic energy dealing {@dice 2d8} necrotic damage to each creature that was blinded by this spell and still within range."
     ],
     "entriesHigherLevel": [
         {
             "type": "entries",
             "name": "At Higher Levels",
             "entries": [
-                "When you cast this spell using a spell slot of 2nd level or higher, the range increases by 5 feet and the necrotic damage increases by 1d8 for each level past 1st."
+                "When you cast this spell using a spell slot of 2nd level or higher, the range increases by 5 feet and the necrotic damage increases by {@dice 1d8} for each level past 1st."
             ]
         }
     ],

@@ -33,7 +33,7 @@
         }
     ],
     "entries": [
-        "You generate a consistent stream of healing. Select a creature within range. For the duration, at the start of each of their turns they heal 1d4 hit points so long as they are conscious."
+        "You generate a consistent stream of healing. Select a creature within range. For the duration, at the start of each of their turns they heal {@dice 1d4} hit points so long as they are conscious."
     ],
     "classes": {
         "fromClassList": [

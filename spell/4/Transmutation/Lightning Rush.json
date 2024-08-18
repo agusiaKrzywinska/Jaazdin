@@ -31,14 +31,14 @@
         }
     ],
     "entries": [
-        "Your body becomes enveloped in lightning. You become immune to lightning damage, you can squeeze through a space as small as 1 inch, and your movement speed is doubled. While this spell is active, you can take the Dash action as a bonus action, you don’t provoke attacks of opportunity, and any creatures you move through must make a DEX Save. On a fail, they take 3d6 lightning damage and are knocked prone, or half as much on a success. When the spell ends, your hair becomes frizzy."
+        "Your body becomes enveloped in lightning. You become immune to lightning damage, you can squeeze through a space as small as 1 inch, and your movement speed is doubled. While this spell is active, you can take the Dash action as a bonus action, you don’t provoke attacks of opportunity, and any creatures you move through must make a DEX Save. On a fail, they take {@dice 3d6} lightning damage and are knocked prone, or half as much on a success. When the spell ends, your hair becomes frizzy."
     ],
     "entriesHigherLevel": [
         {
             "type": "entries",
             "name": "At Higher Levels",
             "entries": [
-                "If you cast this spell using a spell slot of 5th level slot, the damage increases by 1d6 for every slot above 4th."
+                "If you cast this spell using a spell slot of 5th level slot, the damage increases by {@dice 1d6} for every slot above 4th."
             ]
         }
     ],
@@ -61,5 +61,8 @@
                 "source": "PHB"
             }
         ]
-    }
+    },
+    "savingThrow": [
+        "dexterity"
+    ]
 }

@@ -34,7 +34,7 @@
         }
     ],
     "entries": [
-        "A circle of four shimmering blades appears in your space, spinning around your body. The blades follow you if you move. As a bonus action on your turn, you can hurl one of the blades at a target within range. Make a ranged spell attack, on a hit the target takes 2d8 magical slashing damage. The blade is then destroyed. You can instead of hurling the blade, grasp it, and make a melee spell attack which does 2d10 magical slashing damage on hit. For each blade remaining creatures that end their turn within 5ft of you take 1d4 magical slashing."
+        "A circle of four shimmering blades appears in your space, spinning around your body. The blades follow you if you move. As a bonus action on your turn, you can hurl one of the blades at a target within range. Make a ranged spell attack, on a hit the target takes {@dice 2d8} magical slashing damage. The blade is then destroyed. You can instead of hurling the blade, grasp it, and make a melee spell attack which does {@dice 2d10} magical slashing damage on hit. For each blade remaining creatures that end their turn within 5ft of you take {@dice 1d4} magical slashing."
     ],
     "entriesHigherLevel": [
         {

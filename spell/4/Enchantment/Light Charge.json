@@ -33,7 +33,7 @@
         }
     ],
     "entries": [
-        "You launch forth an intense ball of light. Creatures within its radius have their movement speed halved. As a Bonus Action on a subsequent turn after casting the spell, you can cause the light burst, which ends its effects. Creatures within the cube must make a Constitution Saving Throw, and on a fail take 4d6 radiant damage, or half as much to creatures that pass the saving throw. Each turn you are concentrating on the spell, it deals an additional 1d6 radiant damage when it bursts. If you would lose concentration on the spell at any time, it immediately bursts"
+        "You launch forth an intense ball of light. Creatures within its radius have their movement speed halved. As a Bonus Action on a subsequent turns after casting the spell, you can cause the light burst, which ends its effects. Creatures within the cube must make a Constitution Saving Throw, and on a fail take {@dice 4d6} radiant damage, or half as much to creatures that pass the saving throw. Each turn you are concentrating on the spell, it deals an additional {@dice 1d6} radiant damage when it bursts. If you would lose concentration on the spell at any time, it immediately bursts"
     ],
     "classes": {
         "fromClassList": [
@@ -54,5 +54,8 @@
                 "source": "PHB"
             }
         ]
-    }
+    },
+    "savingThrow": [
+        "constitution"
+    ]
 }

@@ -27,14 +27,14 @@
         }
     ],
     "entries": [
-        "You conjure moonlight above your head and fire it in a spray of razor-sharp lances. For each creature in 100 feet long and 5 feet wide line make a ranged spell attack. On a hit, you deal 5d8 radiant damage and the next creature hit takes one less d8 of damage. The spell ends if it reaches 0 d8’s of damage or hits its maximum range. If any creature in the line is invisible you ignore the disadvantage imposed by not seeing them and if you hit, their invisibility ends"
+        "You conjure moonlight above your head and fire it in a spray of razor-sharp lances. For each creature in 100 feet long and 5 feet wide line make a ranged spell attack. On a hit, you deal {@dice 5d8} radiant damage and the next creature hit takes one less d8 of damage. The spell ends if it reaches 0 d8’s of damage or hits its maximum range. If any creature in the line is invisible you ignore the disadvantage imposed by not seeing them and if you hit, their invisibility ends"
     ],
     "entriesHigherLevel": [
         {
             "type": "entries",
             "name": "At Higher Levels",
             "entries": [
-                "If you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each spell slot beyond 3rd."
+                "If you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d8} for each spell slot beyond 3rd."
             ]
         }
     ],

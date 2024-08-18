@@ -34,14 +34,14 @@
         }
     ],
     "entries": [
-        "Choose a location in range. A shimmering magical banner appears at that location. Each creature of your choice within 30ft of the banner gains advantage on all attack rolls made until the end of their next turn. In addition, whenever an ally starts its turn within 15 feet of the banner, they gain 1d4 + your spell casting ability mod in temporary hit points. A creature can pick up the banner and move it after it has appeared"
+        "Choose a location in range. A shimmering magical banner appears at that location. Each creature of your choice within 30ft of the banner gains advantage on all attack rolls made until the end of their next turn. In addition, whenever an ally starts its turn within 15 feet of the banner, they gain {@dice 1d4} + your spell casting ability mod in temporary hit points. A creature can pick up the banner and move it after it has appeared"
     ],
     "entriesHigherLevel": [
         {
             "type": "entries",
             "name": "At Higher Levels",
             "entries": [
-                "If you cast this spell using a spell slot of 4th level or 5th level slot, the amount of temporary hit points gained at the end of each turn increases to 1d6, at 6th or 7th level it increases to 1d8, and at 8th or 9th it increases to 1d10."
+                "If you cast this spell using a spell slot of 4th level or 5th level slot, the amount of temporary hit points gained at the end of each turn increases to {@dice 1d6}, at 6th or 7th level it increases to {@dice 1d8}, and at 8th or 9th it increases to {@dice 1d10}."
             ]
         }
     ],

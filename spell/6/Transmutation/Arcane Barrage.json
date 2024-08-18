@@ -31,7 +31,7 @@
         }
     ],
     "entries": [
-        "Your body becomes enveloped in arcane energy. You shed bright light for 15ft, and dim light for another 15ft. Your movement speed becomes 0, you cannot benefit from movement in any way while this spell is active, and you have disadvantage on Dexterity Saving throws. While in this form, you gain access to a Ranged Spell attack roll, which deals 4d4 force damage + your casting modifier, with a range of 300 ft. As an Action, you can fire up to three of these Ranged Spell attacks while in this form. You can use an Action to regain your ability to move and your movement speed for the turn but lose the ability to make the aforementioned Shots, after which you can use a Bonus Action to reactivate this form, losing your movement once again.",
+        "Your body becomes enveloped in arcane energy. You shed bright light for 15ft, and dim light for another 15ft. Your movement speed becomes 0, you cannot benefit from movement in any way while this spell is active, and you have disadvantage on Dexterity Saving throws. While in this form, you gain access to a Ranged Spell attack roll, which deals {@dice 4d4} force damage + your casting modifier, with a range of 300 ft. As an Action, you can fire up to three of these Ranged Spell attacks while in this form. You can use an Action to regain your ability to move and your movement speed for the turn but lose the ability to make the aforementioned Shots, after which you can use a Bonus Action to reactivate this form, losing your movement once again.",
         "When the spell ends, you have disadvantage on Strength, Dexterity, and Constitution Saving throws and Ability checks until the end of your next turn."
     ],
     "entriesHigherLevel": [

@@ -28,14 +28,14 @@
         }
     ],
     "entries": [
-        "You create a flurry of black petals and launch them at a creature within range. Make a spell attack roll against that creature, and on a hit they take 4d10 slashing damage as rapidly moving petals tear around them. If this attack hits a creature, that creature is also restrained, as the petals turn to solid chains. If the spell hits, then all creatures of your choice within 10ft of that creature must make a Dexterity Saving throw, or also be restrained. Creatures restrained by this spell are freed at the end of your next turn."
+        "You create a flurry of black petals and launch them at a creature within range. Make a spell attack roll against that creature, and on a hit they take {@dice 4d10} slashing damage as rapidly moving petals tear around them. If this attack hits a creature, that creature is also restrained, as the petals turn to solid chains. If the spell hits, then all creatures of your choice within 10ft of that creature must make a Dexterity Saving throw, or also be restrained. Creatures restrained by this spell are freed at the end of your next turn."
     ],
     "entriesHigherLevel": [
         {
             "type": "entries",
             "name": "At Higher Levels",
             "entries": [
-                "If you cast this spell using a spell slot of 4th level or higher, you deal an additional 1d10 damage for every slot above 3rd."
+                "If you cast this spell using a spell slot of 4th level or higher, you deal an additional {@dice 1d10} damage for every slot above 3rd."
             ]
         }
     ],
@@ -66,5 +66,8 @@
                 "source": "PHB"
             }
         ]
-    }
+    },
+    "savingThrow": [
+        "dexterity"
+    ]
 }

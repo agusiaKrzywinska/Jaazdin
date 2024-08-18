@@ -34,14 +34,14 @@
         }
     ],
     "entries": [
-        "Running your fingers down the bowstring a beam of silver light springs towards your target and music fills the air. Select a creature within range, it must make a Constitution saving throw. On a fail, you make them the target for a barrage of sonic attacks. On a success, they are still targeted but take half damage from any future effects. As a bonus action on each of your turns afterward, you can deal 2d8 thunder damage to the creature. Each additional time you use your bonus action in this way you deal 2d8 additional thunder damage. Once you reach 8d8 damage your bonus action instead deals 8d8 thunder damage in a 5ft radius around the target, each creature, including the target, must make a Constitution saving throw. On a success, they take half damage. After this happens the spell ends. The spell ends early if you use your bonus action to do anything other than continuing the spell or if you are restrained or disarmed of the spellcasting focus."
+        "Running your fingers down the bowstring a beam of silver light springs towards your target and music fills the air. Select a creature within range, it must make a Constitution saving throw. On a fail, you make them the target for a barrage of sonic attacks. On a success, they are still targeted but take half damage from any future effects. As a bonus action on each of your turns afterward, you can deal {@dice 2d8} thunder damage to the creature. Each additional time you use your bonus action in this way you deal {@dice 2d8} additional thunder damage. Once you reach 8d8 damage your bonus action instead deals {@dice 8d8} thunder damage in a 5ft radius around the target, each creature, including the target, must make a Constitution saving throw. On a success, they take half damage. After this happens the spell ends. The spell ends early if you use your bonus action to do anything other than continuing the spell or if you are restrained or disarmed of the spellcasting focus."
     ],
     "entriesHigherLevel": [
         {
             "type": "entries",
             "name": "At Higher Levels",
             "entries": [
-                "If you cast this spell using a spell slot of 5th level slot, the damage increase by 1d6 for every spell slot above 4th."
+                "If you cast this spell using a spell slot of 5th level slot, the damage increase by {@dice 1d8} for every spell slot above 4th."
             ]
         }
     ],
@@ -52,5 +52,8 @@
                 "source": "PHB"
             }
         ]
-    }
+    },
+    "savingThrow": [
+        "constitution"
+    ]
 }
