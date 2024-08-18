@@ -33,27 +33,29 @@
     "raceSource": "PHB",
     "basicRules": true,
     "additionalSpells": [
-        {
-            "ability": "con",
-            "known": {
-                "0": [
-                    "druidcraft|PHB"
-                ],
-                "3": {
-                    "daily": {
-                        "1": [
-                            "create and destroy water|PHB"
-                        ]
-                    }
-                },
-                "5": {
-                    "daily": {
-                        "1": [
-                            "dust devil|XGE"
-                        ]
-                    }
-                }
-            }
-        }
+		{
+			"innate": {
+				"3": {
+					"daily": {
+						"1": [
+							"create or destroy water|PHB"
+						]
+					}
+				},
+				"5": {
+					"daily": {
+						"1": [
+							"dust devil|XGE"
+						]
+					}
+				}
+			},
+			"ability": "con",
+			"known": {
+				"1": [
+					"druidcraft#c"
+				]
+			}
+		}
     ]
 }

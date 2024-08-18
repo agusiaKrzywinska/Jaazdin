@@ -3,7 +3,7 @@
     "source": "TftJC",
     "feats": [
         {
-            "Eldritch Adept|phb": true
+            "Eldritch Adept|TCE": true
         }
     ],
     "skillProficiencies": [
@@ -62,7 +62,7 @@
             "name": "Feature: Mercenary Patron",
             "type": "entries",
             "entries": [
-                "You gain the {@feat Eldritch Adept|PHB} feat, ignoring its prerequisite. When selected from this background you must choose one of the follow Invocations: Armor of Shadows, Beast Speech, Beguiling Influence, Eldritch Sight, Eyes of the Rune Keeper, Fiendish Vigor, Umbral Armour, or Gaze of Two Minds."
+                "You gain the {@feat Eldritch Adept|TCE} feat, ignoring its prerequisite. When selected from this background you must choose one of the follow Invocations: Armor of Shadows, Beast Speech, Beguiling Influence, Eldritch Sight, Eyes of the Rune Keeper, Fiendish Vigor, Umbral Armour, or Gaze of Two Minds."
             ],
             "data": {
                 "isFeature": true
