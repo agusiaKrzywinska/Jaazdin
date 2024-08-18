@@ -3460,6 +3460,398 @@
             ]
         },
         {
+            "name": "Paint Job",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 3500,
+            "entries": [
+                "<b><i>Effect.</i></b> When the firearm is used for intimidation, you have advantage on the check.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
+            "name": "Ironsight",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 5000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm gains a +1 to-hit.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
+            "name": "Friction Holster",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 7500,
+            "entries": [
+                "<b><i>Effect.</i></b> When drawing a light firearm, you can draw another one as a part of the same action.",
+                "<b><i>Restrictions.</i></b> Requires the Light property.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
+            "name": "Hidden Track",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 10000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm gains the hidden property.",
+                "<b><i>Restrictions.</i></b> Requires the Light property.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
+            "name": "Pistol Stock",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 15000,
+            "entries": [
+                "<b><i>Effect.</i></b> The pistol gains 20 normal range.",
+                "<b><i>Restrictions.</i></b> Requires the Light property, cannot be used with the Hidden property.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
+            "name": "Support Strap",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 15000,
+            "entries": [
+                "<b><i>Effect.</i></b> The heavy weapon can be used by small sized creatures with no issue.",
+                "<b><i>Restrictions.</i></b> Requires the Heavy property.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
+            "name": "Larger Barrel",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 20000,
+            "entries": [
+                "<b><i>Effect.</i></b> The barrel can hold an additional 2 rounds.",
+                "<b><i>Restrictions.</i></b> Requires the Barrel property.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
+            "name": "Extended Barrel",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 20000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm's normal range increases by 10, and its long range increases by 40.",
+                "<b><i>Restrictions.</i></b> Requires the Two Handed property.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
+            "name": "Damascene",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 25000,
+            "entries": [
+                "<b><i>Effect.</i></b> When using the firearm for a performance check, you have advantage.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
+            "name": "Bayonet",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 25000,
+            "entries": [
+                "<b><i>Effect.</i></b> You attach a blade at the end of the weapon, which can be used as a martial melee weapon that deals 1d8 piercing damage on a hit. The Bayoney is not considered a firearm.",
+                "<b><i>Restrictions.</i></b> Requires the Two Handed property.",
+                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+            ]
+        },
+        {
+            "name": "Extended Clip",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 30000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm's clips can now store twice the normal amount of rounds.",
+                "<b><i>Restrictions.</i></b> Requires the Clip property.",
+                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+            ]
+        },
+        {
+            "name": "Silencer",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 35000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm produces a quarter of its normal noise. For the average firearm, it becomes nearly silent. Removes the Loud property.",
+                "<b><i>Restrictions.</i></b> Cannot be used on an Explosive or Gas firearm.",
+                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+            ]
+        },
+        {
+            "name": "Improved Belt Feed",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 40000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm's misfire score is reduced by 1.",
+                "<b><i>Restrictions.</i></b> Requires the Belt property.",
+                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+            ]
+        },
+        {
+            "name": "Scope",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 40000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm does not pose disadvantage when firing at long range.",
+                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+            ]
+        },
+        {
+            "name": "Night Scope",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 100000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm can be used in darkness without disadvantage.",
+                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+            ]
+        },
+        {
+            "name": "Drum Upgrade",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 120000,
+            "entries": [
+                "<b><i>Effect.</i></b> All of this firearm's clips are converted into drums, which each triple their ammunition capacity.",
+                "<b><i>Restrictions.</i></b> Requires the Clip property.",
+                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
+            ]
+        },
+        {
+            "name": "Overpressure",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 120000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm's attacks deal an additional 1d6 damage, but its misfire score is increased by 1.",
+                "<b><i>Restrictions.</i></b> Cannot be used on an Explosive or Gas firearm.",
+                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
+            ]
+        },
+        {
+            "name": "Armor Piercing Rounds",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 150000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm gains a +2 to-hit against creatures wearing armor, wielding a shield or using cover.",
+                "<b><i>Restrictions.</i></b> Cannot be used on an Explosive or Gas firearm.",
+                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
+            ]
+        },
+        {
+            "name": "Reliability",
+            "source": "TftJC",
+            "page": 10,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 200000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm gains the reliable property.",
+                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
+            ]
+        },
+        {
+            "name": "Speed Loader",
+            "source": "TftJC",
+            "page": 12,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 7500,
+            "entries": [
+                "<b><i>Effect.</i></b> Converts a barrel to be loaded as if it were a clip, but the firearm is still classified as a barrel.",
+                "<b><i>Restrictions.</i></b> Requires the Barrel property.",
+                "<b><i>Archetype.</i></b> Only Quickdraws can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
+            "name": "Hollow Point Rounds",
+            "source": "TftJC",
+            "page": 12,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 30000,
+            "entries": [
+                "<b><i>Effect.</i></b> When you critically hit with the firearm, you can roll one additional weapon damage die when determining the extra damage for a critical hit.",
+                "<b><i>Restrictions.</i></b> Cannot be used on an Explosive or Gas firearm.",
+                "<b><i>Archetype.</i></b> Only Quickdraws can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+            ]
+        },
+        {
+            "name": "Double Barrel",
+            "source": "TftJC",
+            "page": 12,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 150000,
+            "entries": [
+                "<b><i>Effect.</i></b> When using your bonus action to make an attack with a light firearm, you can make two attacks as a part of the same bonus action.",
+                "<b><i>Restrictions.</i></b> Requires the Light property.",
+                "<b><i>Archetype.</i></b> Only Quickdraws can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
+            ]
+        },
+        {
+            "name": "Sawed Off",
+            "source": "TftJC",
+            "page": 12,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 8500,
+            "entries": [
+                "<b><i>Effect.</i></b> Reduces the range for the firearm by 10, but increases the shotgun cone by 5 feet. Misfire is also increased by 1.",
+                "<b><i>Restrictions.</i></b> Requires the Shotgun property.",
+                "<b><i>Archetype.</i></b> Only Buckshots can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
+            "name": "Drilling",
+            "source": "TftJC",
+            "page": 12,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 50000,
+            "entries": [
+                "<b><i>Effect.</i></b> Can declare attacks as Drilling, ignoring the shotgun feature. The range is doubled and the cone is removed.",
+                "<b><i>Restrictions.</i></b> Requires the Shotgun property.",
+                "<b><i>Archetype.</i></b> Only Buckshots can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+            ]
+        },
+        {
+            "name": "Dragon's Breath",
+            "source": "TftJC",
+            "page": 12,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 175000,
+            "entries": [
+                "<b><i>Effect.</i></b> The firearm deals an additional 1d8 fire damage. If the firearm activates pump, this damage is doubled.",
+                "<b><i>Archetype.</i></b> Only Buckshots can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
+            ]
+        },
+        {
+            "name": "Tripod",
+            "source": "TftJC",
+            "page": 12,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 7500,
+            "entries": [
+                "<b><i>Effect.</i></b> You can deploy this as a Bonus Action on a surface. If you do not move on this turn, the Firearm gains a bonus to hit equal to its Tier if shooting a target who did not move in their last round.",
+                "<b><i>Restrictions.</i></b> Requires the Two Handed property.",
+                "<b><i>Archetype.</i></b> Only Snipers can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
+            "name": "Laser Sight",
+            "source": "TftJC",
+            "page": 12,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 25000,
+            "entries": [
+                "<b><i>Effect.</i></b> Before you roll, you can gain a +3 to hit, unless your darget is in direct sunlight. If you use the bonus from this and hit a creature, you are revealed to that creature.",
+                "<b><i>Archetype.</i></b> Only Snipers can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+            ]
+        },
+        {
+            "name": "Thermal Scope",
+            "source": "TftJC",
+            "page": 12,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 200000,
+            "entries": [
+                "<b><i>Effect.</i></b> Looking through this scope allows you to see all creatures within your firearm's short range, even hidden behind cover so long as that creature produces heat.",
+                "<b><i>Archetype.</i></b> Only Snipers can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
+            ]
+        },
+        {
             "name": "Waxy Pie",
             "source": "TftJC",
             "rarity": "common",
