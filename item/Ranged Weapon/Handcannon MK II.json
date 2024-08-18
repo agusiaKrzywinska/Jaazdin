@@ -1,7 +1,17 @@
 {
     "name": "Handcannon MK II",
     "source": "TftJC",
-    "type": "Invention",
+    "type": "R",
+    "rarity": "none",
+    "weight": 0.5,
+    "value": 50000,
+    "weaponCategory": "martial",
+    "property": [
+        "2H"
+    ],
+    "range": "120",
+    "dmg1": "4d10",
+    "dmgType": "B",
     "entries": [
         "<i><b>Complex Invention.</i></b>",
         "This miniature cannon can be wielded effectively with two hands, like a heavy crossbow.",

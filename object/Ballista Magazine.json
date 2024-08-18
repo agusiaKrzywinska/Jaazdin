@@ -1,11 +1,23 @@
 {
     "name": "Ballista Magazine",
     "source": "TftJC",
-    "type": "Invention",
+    "rarity": "none",
+    "weight": 0,
+    "value": 25000,
     "entries": [
         "<i><b>Innovative Invention.</i></b>",
         "This wide magazine allows for quicker reloading of a Ballista. Once crafted, it must be installed on the ballista, which takes 10 minutes.",
         "It has an AC of 15 and 20 hit points. The Magazine can hold up to 14 Ballista Sized Bolts, and while the magazine is loaded with ammunition the Ballista only requires a Bonus Action to reload. All other rules about a Ballista remain the same.",
         "To reload the Magazine, you can spend an Action to place a bolt into the magazine."
-    ]
+    ],
+	"size": [
+		"S"
+	],
+	"objectType": "GEN",
+	"ac": 15,
+	"hp": 20,
+	"immune": [
+		"poison",
+		"psychic"
+	]
 }

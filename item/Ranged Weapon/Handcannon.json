@@ -1,7 +1,7 @@
 {
     "name": "Handcannon",
     "source": "TftJC",
-    "type": "Invention",
+    "type": "GV",
     "entries": [
         "This miniature cannon can be wielded effectively with two hands, like a heavy crossbow.",
         "Proficiency in the Heavy Crossbow allows you to add your proficiency bonus with this weapon.",
@@ -10,9 +10,9 @@
         {
             "type": "list",
             "items": [
-                "{@reward Handcannon MK I|TftJC}",
-                "{@reward Handcannon MK II|TftJC}",
-                "{@reward Handcannon MK III|TftJC}"
+                "{@item Handcannon MK I|TftJC}",
+                "{@item Handcannon MK II|TftJC}",
+                "{@item Handcannon MK III|TftJC}"
             ]
         }
     ]
