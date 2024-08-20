@@ -1,0 +1,13 @@
+{
+    "name": "Flame of Destruction",
+    "source": "TftJC",
+    "className": "Ranger",
+    "classSource": "PHB",
+    "subclassShortName": "Devastator",
+    "subclassSource": "TftJC",
+    "level": 15,
+    "entries": [
+        "At 15th level, you can conjure a powerful flame of destruction and all of your fires burn with a destructive fury. You learn the investiture of flame spell and can cast it once without expending a spell slot.",
+        "In addition, once per turn when you deal fire damage to a creature that creature must make a Constitution saving throw or have disadvantage on the next attack roll or ability check they make before the end of their next turn."
+    ]
+}

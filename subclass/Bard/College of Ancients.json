@@ -1,0 +1,14 @@
+{
+    "name": "College of Ancients",
+    "source": "TftJC",
+    "page": 14,
+    "className": "Bard",
+    "classSource": "PHB",
+    "shortName": "Ancients",
+    "subclassFeatures": [
+        "Stories of Olde|Bard|PHB|Ancients|TftJC|3",
+        "Words of Providence|Bard|PHB|Ancients|TftJC|3",
+        "Truth Seeker|Bard|PHB|Ancients|TftJC|6",
+        "Secret Pilferer|Bard|PHB|Ancients|TftJC|14"
+    ]
+}

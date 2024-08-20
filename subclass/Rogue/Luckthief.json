@@ -1,0 +1,15 @@
+{
+    "name": "Luckthief",
+    "source": "TftJC",
+    "page": 35,
+    "className": "Rogue",
+    "classSource": "PHB",
+    "shortName": "Luckthief",
+    "subclassFeatures": [
+        "Watcher of Fate|Rogue|PHB|Luckthief|TftJC|3",
+        "Luck Cutter|Rogue|PHB|Luckthief|TftJC|3",
+        "Bend Fate|Rogue|PHB|Luckthief|TftJC|9",
+        "Share the Fortune|Rogue|PHB|Luckthief|TftJC|13",
+        "Sever the Thread|Rogue|PHB|Ninjutsu|TftJC|17"
+    ]
+}

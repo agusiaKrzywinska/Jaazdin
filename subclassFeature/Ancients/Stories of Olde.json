@@ -1,0 +1,12 @@
+{
+    "name": "Stories of Olde",
+    "source": "TftJC",
+    "className": "Bard",
+    "classSource": "PHB",
+    "subclassShortName": "Ancients",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "Starting at 3rd level, your studies of ancient stories have granted you peerless mastery of the stories of old. You gain proficiency in History if you don’t already have it. In addition, whenever you make a History check with advantage you roll 3 dice and take the highest instead of rolling 2 dice. You also gain proficiency with Calligraphy’s supplies."
+    ]
+}

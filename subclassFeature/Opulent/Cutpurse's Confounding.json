@@ -1,0 +1,12 @@
+{
+    "name": "Cutpurse's Confounding",
+    "source": "TftJC",
+    "className": "Warlock",
+    "classSource": "PHB",
+    "subclassShortName": "Opulent",
+    "subclassSource": "TftJC",
+    "level": 10,
+    "entries": [
+        "Beginning at 10th level, whenever you take damage from an attack or fail a saving throw you can use your reaction to either take half damage from the attack or reroll the saving throw. To do so you must expend 100gp, which vanishes in a puff of smoke. You canmake use of this feature until the total amount of gold pieces spent reaches 1000gp. This total resets when you finish a long rest."
+    ]
+}

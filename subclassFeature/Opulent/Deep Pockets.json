@@ -1,0 +1,13 @@
+{
+    "name": "Deep Pockets",
+    "source": "TftJC",
+    "className": "Warlock",
+    "classSource": "PHB",
+    "subclassShortName": "Opulent",
+    "subclassSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "Starting at 1st level, the pockets and pouches of all your clothes are magically enchanted as you put them on. Any pocket or pouch that you are wearing can hold an infinite amount of coins. It can only hold coins. When you remove clothing, the coins are locked in a pocket plane until you don new clothing. When you pull coins out of this dimension, they are of any denomination you wish, regardless of what you put in as long as removing that coin would not be worth more than what is in the pocket plane.",
+        "In addition, whenever you finish a long rest you gain 1d4+warlock level gp, added directly into your pocket dimension."
+    ]
+}

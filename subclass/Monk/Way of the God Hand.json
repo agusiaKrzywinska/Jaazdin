@@ -1,0 +1,14 @@
+{
+    "name": "Way of the God Hand",
+    "source": "TftJC",
+    "page": 28,
+    "className": "Monk",
+    "classSource": "PHB",
+    "shortName": "God Hand",
+    "subclassFeatures": [
+        "Spirit Stance|Monk|PHB|God Hand|TftJC|3",
+        "Stance Shift|Monk|PHB|God Hand|TftJC|6",
+        "Spiritual Connection|Monk|PHB|God Hand|TftJC|11",
+        "Spirit Brothers|Monk|PHB|God Hand|TftJC|17"
+    ]
+}

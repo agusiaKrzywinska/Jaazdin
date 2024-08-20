@@ -1,0 +1,13 @@
+{
+    "name": "Weapons of the God Hand",
+    "source": "TftJC",
+    "className": "Monk",
+    "classSource": "PHB",
+    "subclassShortName": "God Hand",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "Starting at 3rd level, you learn mastery of all forms of ranged weaponry. You gain proficiency in all simple or martial weapons that have the Range property, as well as proficiency in firearms. Any ranged weapon that does not have the heavy property can be a monk weapon for you.",
+        "In addition, you learn the mage hand cantrip and can cast it as a bonus action. As an action you can command the hand to make an unarmed attack, using your bonus, but using Wisdom instead of Strength or Dexterity."
+    ]
+}

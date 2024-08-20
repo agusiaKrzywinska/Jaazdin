@@ -1,0 +1,12 @@
+{
+    "name": "Fist of the Gods",
+    "source": "TftJC",
+    "className": "Monk",
+    "classSource": "PHB",
+    "subclassShortName": "God Hand",
+    "subclassSource": "TftJC",
+    "level": 11,
+    "entries": [
+        "At 11th level, once per long rest you can expend 4 ki points to cast the bigby’s hand spell. While concentrating on this spell, you can use your Deflecting Hand ability with the range of bigby’s hand rather than mage hand."
+    ]
+}

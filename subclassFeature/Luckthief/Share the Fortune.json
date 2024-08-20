@@ -1,0 +1,12 @@
+{
+    "name": "Share the Fortune",
+    "source": "TftJC",
+    "className": "Rogue",
+    "classSource": "PHB",
+    "subclassShortName": "Luckthief",
+    "subclassSource": "TftJC",
+    "level": 13,
+    "entries": [
+        "At 13th level, you can choose to share your luck with your allies. When you use your Luck Cutter ability you can choose to forgo the bonus on your own roll to instead grant advantage to the first saving throw or attack roll of any number of creatures within 30ft of you made within the next minute."
+    ]
+}

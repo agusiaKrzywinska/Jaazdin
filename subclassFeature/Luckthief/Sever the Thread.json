@@ -1,0 +1,12 @@
+{
+    "name": "Sever the Thread",
+    "source": "TftJC",
+    "className": "Rogue",
+    "classSource": "PHB",
+    "subclassShortName": "Luckthief",
+    "subclassSource": "TftJC",
+    "level": 17,
+    "entries": [
+        "At 17th level, you gain the ability to deal a greater wound to someone’s luck. When you use your Luck Cutter ability you can forgo the bonus and instead choose to cause the next attack roll against the target to be a 20 on the die, and the next attack roll against you to be a 1 on the die. Once you use this ability you cannot use it again until you finish a long rest."
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Loot Explosions",
+    "prerequisite": [
+        {
+            "feature": [
+                "Opulent Warlock"
+            ]
+        }
+    ],
+    "source": "TftJC",
+    "page": 43,
+    "featureType": [
+        "EI"
+    ],
+    "entries": [
+        "If you kill a creature with an eldritch blast, they will spew coins out of their mouth (or another applicable orifice) when they die. The amount of coins they divulge is equal to their hit dice and is of the type of coin you used for the material component of the eldritch blastwhich killed them."
+    ]
+}
