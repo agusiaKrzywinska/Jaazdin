@@ -7,6 +7,6 @@
     "subclassSource": "TftJC",
     "level": 10,
     "entries": [
-        "At 10th level, your Sand Swipe is improved. When you use Sand Swipe, you next attack deals an additional {@dice 1d12} piercing damage, and if you don't attack this turn, the next time you would take damage that amount is reduced by {@dice 1d12}."
+        "At 10th level, your Sand Swipe is improved. When you use Sand Swipe, you next attack deals an additional {@dice 1d12} piercing damage, and if used instead at the end of your turn, the next time you would take damage that amount is reduced by {@dice 1d12}. Sand Swipe's range also becomes 30ft."
     ]
 }

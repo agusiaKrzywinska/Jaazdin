@@ -2,8 +2,9 @@
     "name": "Flaming Blades",
     "source": "TftJC",
     "type": "OTH",
+    "rarity": "none",
     "value": 20000,
-    "charges":5,
+    "charges": 5,
     "entries": [
         "<i><b>Innovative Invention.</i></b>",
         "This weapon has channels where oil can freely flow between to keep the blades alight.",

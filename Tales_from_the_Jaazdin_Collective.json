@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.0.25"
+                "version": "0.0.27"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1724112299
+        "dateLastModified": 1724114341
     },
     "background": [
         {
@@ -880,6 +880,28 @@
             ]
         },
         {
+            "name": "Assault Shotgun",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 10,
+            "value": 100000,
+            "weaponCategory": "martial",
+            "property": [
+                "2H"
+            ],
+            "firearm": true,
+            "charges": 8,
+            "dmg1": "2d6",
+            "dmgType": "P",
+            "range": "15/40",
+            "entries": [
+                "<b><i>Tier 5.</i></b>",
+                "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
+                "<b><i>Pump 8.</i></b> A pump ammo system stores a number of shots directly in the gun. You can reload the barrel with up to 2 slugs as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two shots as a part of the same attack. The first target takes additional damage equal to the weapon's damage die. Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
+            ]
+        },
+        {
             "name": "Automatic Rifle",
             "source": "TftJC",
             "type": "R",
@@ -989,7 +1011,7 @@
             "weight": 0,
             "value": 25000,
             "entries": [
-                "<b><i>Effect.</i></b> You attach a blade at the end of the weapon, which can be used as a martial melee weapon that deals 1d8 piercing damage on a hit. The Bayoney is not considered a firearm.",
+                "<b><i>Effect.</i></b> You attach a blade at the end of the weapon, which can be used as a martial melee weapon that deals 1d8 piercing damage on a hit. The Bayonet is not considered a firearm.",
                 "<b><i>Restrictions.</i></b> Requires the Two Handed property.",
                 "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
             ]
@@ -2191,6 +2213,7 @@
             "name": "Flaming Blades",
             "source": "TftJC",
             "type": "OTH",
+            "rarity": "none",
             "value": 20000,
             "charges": 5,
             "entries": [
@@ -2292,6 +2315,7 @@
         {
             "name": "Glider",
             "source": "TftJC",
+            "rarity": "none",
             "type": "OTH",
             "entries": [
                 "<i><b>Complex Invention.</i></b>",
@@ -2366,6 +2390,7 @@
         {
             "name": "Handcannon",
             "source": "TftJC",
+            "rarity": "none",
             "type": "GV",
             "entries": [
                 "This miniature cannon can be wielded effectively with two hands, like a heavy crossbow.",
@@ -2710,7 +2735,7 @@
             "weight": 0,
             "value": 25000,
             "entries": [
-                "<b><i>Effect.</i></b> Before you roll, you can gain a +3 to hit, unless your darget is in direct sunlight. If you use the bonus from this and hit a creature, you are revealed to that creature.",
+                "<b><i>Effect.</i></b> Before you roll, you can gain a +3 to hit, unless your target is in direct sunlight. If you use the bonus from this and hit a creature, you are revealed to that creature.",
                 "<b><i>Archetype.</i></b> Only Snipers can use this modification.",
                 "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
             ]
@@ -2793,7 +2818,7 @@
             "range": "30/120",
             "entries": [
                 "<b><i>Tier 4.</i></b>",
-                "<b><i>Belt 90.</i></b> Upon crafting a Belt fed firearm, you additonally gain 1 Belt. Belt fed firearms use a number of rounds equal to how many damage die they roll with their attack. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1.",
+                "<b><i>Belt 90.</i></b> Upon crafting a Belt fed firearm, you additionally gain 1 Belt. Belt fed firearms use a number of rounds equal to how many damage die they roll with their attack. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1.",
                 "<b><i>Auto</i></b> Auto firearms can make an additional attack as a part of the Attack Action."
             ]
         },
@@ -2853,7 +2878,7 @@
             "range": "30/120",
             "entries": [
                 "<b><i>Tier 2.</i></b>",
-                "<b><i>Belt 90.</i></b> Upon crafting a Belt fed firearm, you additonally gain 1 Belt. Belt fed firearms use a number of rounds equal to how many damage die they roll with their attack. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1."
+                "<b><i>Belt 90.</i></b> Upon crafting a Belt fed firearm, you additionally gain 1 Belt. Belt fed firearms use a number of rounds equal to how many damage die they roll with their attack. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1."
             ]
         },
         {
@@ -4258,28 +4283,6 @@
             "source": "TftJC",
             "type": "R",
             "rarity": "none",
-            "weight": 10,
-            "value": 100000,
-            "weaponCategory": "martial",
-            "property": [
-                "2H"
-            ],
-            "firearm": true,
-            "charges": 8,
-            "dmg1": "2d6",
-            "dmgType": "P",
-            "range": "15/40",
-            "entries": [
-                "<b><i>Tier 5.</i></b>",
-                "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
-                "<b><i>Pump 8.</i></b> A pump ammo system stores a number of shots directly in the gun. You can reload the barrel with up to 2 slugs as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two shots as a part of the same attack. The first target takes additional damage equal to the weapon's damage die. Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
-            ]
-        },
-        {
-            "name": "Wind Chest",
-            "source": "TftJC",
-            "type": "R",
-            "rarity": "none",
             "weight": 8,
             "value": 50000,
             "weaponCategory": "martial",
@@ -4434,9 +4437,6 @@
         {
             "name": "Ballista Magazine",
             "source": "TftJC",
-            "rarity": "none",
-            "weight": 0,
-            "value": 25000,
             "entries": [
                 "<i><b>Innovative Invention.</i></b>",
                 "This wide magazine allows for quicker reloading of a Ballista. Once crafted, it must be installed on the ballista, which takes 10 minutes.",
@@ -6117,7 +6117,7 @@
                 }
             ],
             "entries": [
-                "You create a light spire within range, a glowing tree-like object that has a height of 10ft. It gives off dim light in a 30ft radius, and bright light within a 10ft radius. Creatures of your choice standing within its bright light gain a +1 to all saving throws. Creatures can only benefit from one Light Spire at a time."
+                "You create a light spire within range, a glowing tree-like object that has a height of 10ft. It gives off dim light in a 30ft radius, and bright light within a 10ft radius. Creatures of your choice standing within its bright light gain a +1 to all saving throws. Creatures within the dim light do not benefit from being {@condition Invisible} Creatures can only benefit from one Light Spire at a time."
             ],
             "classes": {
                 "fromClassList": [
@@ -7790,7 +7790,7 @@
                 }
             ],
             "entries": [
-                "You create a raging tornado within range. The tornado has a diameter of 20ft, and a height of 100ft. As a Bonus Action on your turn, you can move the tornado up to 30ft in a straight line. Creatures that enter the tornado or start their turn within the tornado must make a Strength Saving throw, and on a fail are flung up into the air inside of the tornado. Creatures affected by the tornado take {@dice 5d4} bludgeoning damage at the start of their turns, additionally affected creatures cannot concentrate on spells, fail dexterity saving throws, cannot use a fly speed if they have one and are deafened. Creatures affected are flung a number of feet into the air equal to 1d10 x 10 when they start their turn. If a creature goes higher than the top of the tornado, they are shot out of the top of the tornado in a random direction and fall."
+                "You create a raging tornado within range. The tornado has a diameter of 20ft, and a height of 100ft. As a Bonus Action on your turn, you can move the tornado up to 30ft in a straight line. Creatures that enter the tornado or start their turn within the tornado must make a Strength Saving throw, and on a fail are flung up into the air inside of the tornado. Creatures affected by the tornado take {@dice 5d4} bludgeoning damage when they fail the saving throw, and cannot concentrate on spells, fail dexterity saving throws, cannot use a fly speed if they have one and are deafened. Creatures affected are flung a number of feet into the air equal to 1d10 x 10 when they start their turn. If a creature goes higher than the top of the tornado, they are shot out of the top of the tornado in a random direction and fall. They fly a number of feet equal to the remaining distance they would have travelled upwards."
             ],
             "entriesHigherLevel": [
                 {
@@ -10630,7 +10630,7 @@
             "subclassSource": "TftJC",
             "level": 3,
             "entries": [
-                "Beginning at 3rd level, you are accustomed to battling within a sandy terrain. You are not affected by difficult terrain on uneven ground, or shifting sands. You have advantage on Constitution based saving throws against overheating. You can hold 4 times the amount of water in your body than the average person. Finally, you know the {@spell Mold Earth|XGE} cantrip, and can use it as a Bonus Action if using it on sand."
+                "Beginning at 3rd level, you are accustomed to battling within a sandy terrain. You are not affected by difficult terrain on uneven ground, or shifting sands. You have advantage on Constitution based saving throws against overheating. You can hold 4 times the amount of water in your body than the average person. Finally, you know the {@spell Mold Earth|XGE} cantrip which increases in size to a 10ft cube at 7th level, and a 2oft cube at 10th level, and a 100ft cube at 18th level, and can use it as a Bonus Action if using it on sand."
             ]
         },
         {
@@ -10663,7 +10663,7 @@
             "subclassSource": "TftJC",
             "level": 3,
             "entries": [
-                "At 3rd level, you can weave sand into your attacks. As a Bonus Action, you can fling sand at a creature within 10ft's eyes provided you have a free hand to do so. If you use this Bonus Action prior to making your Attack action, your first attack against that target has advantage. If you use this after making the Attack Action, the target's next attack before the end of their next turn has disadvantage."
+                "At 3rd level, you can weave sand into your attacks. At the start of your turn, you can fling sand at a creature within 10ft's eyes provided you have a free hand to do so. Your first attack against that target has advantage. You can instead use this at the end of your turn, and the target's next attack before the end of their next turn has disadvantage."
             ]
         },
         {
@@ -10675,7 +10675,7 @@
             "subclassSource": "TftJC",
             "level": 7,
             "entries": [
-                "At 7th level, you can cause disturbances in the ground to pull in your prey. As an Action, you stomp the ground. All creatures standing on the ground that are no more than one size category greater than yours within a 15ft radius of you must make a Dexterity Saving Throw (DC = 8 + prof + CON). Any creatures that failed are pulled within 5ft of you. If this ability would affect an underground creature, they automatically fail the saving throw and are pulled aboveground to you. If this ability is used on sandy terrain, creatures have disadvantage on the saving throw. You can use this ability a number of times equal to your Proficiency Bonus per long rest."
+                "At 7th level, you can cause disturbances in the ground to pull in your prey. You can replace one attack to stomp the ground. All creatures standing on the ground that are no more than one size category greater than yours within a 15ft radius of you must make a Dexterity Saving Throw (DC = 8 + prof + CON). Any creatures that failed are pulled within 5ft of you. If this ability would affect an underground creature, they automatically fail the saving throw and are pulled aboveground to you. If this ability is used on sandy terrain, creatures have disadvantage on the saving throw. You can use this ability a number of times equal to your Proficiency Bonus per long rest."
             ]
         },
         {
@@ -10687,7 +10687,7 @@
             "subclassSource": "TftJC",
             "level": 10,
             "entries": [
-                "At 10th level, your Sand Swipe is improved. When you use Sand Swipe, you next attack deals an additional {@dice 1d12} piercing damage, and if you don't attack this turn, the next time you would take damage that amount is reduced by {@dice 1d12}."
+                "At 10th level, your Sand Swipe is improved. When you use Sand Swipe, you next attack deals an additional {@dice 1d12} piercing damage, and if used instead at the end of your turn, the next time you would take damage that amount is reduced by {@dice 1d12}. Sand Swipe's range also becomes 30ft."
             ]
         },
         {
@@ -10699,7 +10699,7 @@
             "subclassSource": "TftJC",
             "level": 10,
             "entries": [
-                "At 10th level, you Mold Earth cantrip is enhanced. It now affects a 10 ft cube. Mold Earth also gains the following effect.",
+                "At 10th level, you Mold Earth cantrip is enhanced. It now affects a 30 ft cube. Mold Earth also gains the following effect.",
                 {
                     "type": "list",
                     "style": "list-hang",
@@ -10731,7 +10731,7 @@
             "level": 18,
             "entries": [
                 "At 18th level, your earth shaping abilities are at their peak. Your {@spell Mold Earth|XGE} Cantrip can now affect a 100ft cube.",
-                "You learn the {@spell Earthquake|PHB} spell, and can cast it without expending a spell slot once per long rest (DC = 8 + prof +CON)."
+                "You learn the {@spell Earthquake|PHB} spell, and can cast it without expending a spell slot once per long rest (DC = 8 + prof + CON)."
             ]
         },
         {

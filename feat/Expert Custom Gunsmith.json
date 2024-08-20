@@ -12,8 +12,8 @@
         }
     ],
     "prerequisite": [
-		{
-			"other": "Knowing at least 1 Gun Modification"
-		}
+        {
+            "other": "Knowing at least 1 Gun Modification"
+        }
     ]
 }

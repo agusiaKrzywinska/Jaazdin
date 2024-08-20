@@ -64,29 +64,29 @@
         "weightMod": "1d4"
     },
     "additionalSpells": [
-		{
-			"innate": {
-				"3": {
-					"daily": {
-						"1": [
-							"ice knife|XGE"
-						]
-					}
-				},
-				"5": {
-					"daily": {
-						"1": [
-							"snilloc's snowball swarm|XGE"
-						]
-					}
-				}
-			},
-			"ability": "con",
-			"known": {
-				"1": [
-					"frostbite|XGE#c"
-				]
-			}
-		}
+        {
+            "innate": {
+                "3": {
+                    "daily": {
+                        "1": [
+                            "ice knife|XGE"
+                        ]
+                    }
+                },
+                "5": {
+                    "daily": {
+                        "1": [
+                            "snilloc's snowball swarm|XGE"
+                        ]
+                    }
+                }
+            },
+            "ability": "con",
+            "known": {
+                "1": [
+                    "frostbite|XGE#c"
+                ]
+            }
+        }
     ]
 }
