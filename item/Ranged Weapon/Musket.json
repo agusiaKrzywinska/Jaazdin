@@ -1,0 +1,22 @@
+{
+    "name": "Musket",
+    "source": "TftJC",
+    "type": "R",
+    "rarity": "none",
+    "weight": 5,
+    "value": 5000,
+    "weaponCategory": "martial",
+    "property": [
+        "2H"
+    ],
+    "charges": 1,
+    "dmg1": "1d8",
+    "dmgType": "P",
+    "range": "50/200",
+    "entries": [
+        "<b><i>Tier 31.</i></b>",
+        "<b><i>Barrel 1.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel.",
+        "<b><i>Loud.</i></b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away."
+
+    ]
+}
