@@ -1,0 +1,24 @@
+{
+    "name": "Firearm Technician",
+    "source": "TftJC",
+    "entries": [
+        {
+            "type": "list",
+            "items": [
+                "You gain proficiency in Firearms",
+                "You gain proficiency in Gunsmith's Tools",
+                "You learn 3 Tier 1 Gun Modifications"
+            ]
+        }
+    ],
+    "ability": [
+        {
+            "dex": 1
+        }
+    ],
+    "weaponProficiencies": [
+        {
+            "firearms": true
+        }
+    ]
+}

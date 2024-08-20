@@ -18,7 +18,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1724002090
+        "dateLastModified": 1724112299
     },
     "background": [
         {
@@ -641,6 +641,76 @@
             ]
         },
         {
+            "name": "Close Quarters Marksman",
+            "source": "TftJC",
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "You ignore half or 3/4 cover attacking a creature with ranged weapon attacks within 30ft",
+                        "Being within 5 feet or otherwise too close to a hostile creature doesn't impose disadvantage on your ranged weapon attacks"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Expert Custom Gunsmith",
+            "source": "TftJC",
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "You learn 3 Tier 1 or 2 Gun Modifications, or 1 Tier 1 Gun Modification from a Gunner Subclass",
+                        "You gain expertise in Gunsmith's Tools",
+                        "You learn how to craft a Tier 1 weapon from a Gunner Subclass, and gain proficiency with that type of weapon"
+                    ]
+                }
+            ],
+            "prerequisite": [
+                {
+                    "other": "Knowing at least 1 Gun Modification"
+                }
+            ]
+        },
+        {
+            "name": "Firearm Technician",
+            "source": "TftJC",
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain proficiency in Firearms",
+                        "You gain proficiency in Gunsmith's Tools",
+                        "You learn 3 Tier 1 Gun Modifications"
+                    ]
+                }
+            ],
+            "ability": [
+                {
+                    "dex": 1
+                }
+            ],
+            "weaponProficiencies": [
+                {
+                    "firearms": true
+                }
+            ]
+        },
+        {
+            "name": "Firearms Specialist",
+            "source": "TftJC",
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain proficiency with Firearms",
+                        "Once per short rest, when you would misfire with a firearm, you may remake the d20 roll. If you roll higher than the misfire score, the weapon does not misfire",
+                        "When using the Attack action with a one-handed weapon, you can use your bonus action to attack with a loaded firearm with the light property."
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Meditation Adept",
             "source": "TftJC",
             "entries": [
@@ -699,7 +769,7 @@
                     "type": "list",
                     "items": [
                         "You gain proficiency with a weapon of your choice.",
-                        "You don't suffer disadvantage when using throw weapons when within 5ft of a hostile creature and both ranges of all thrown weapons increases by 10.",
+                        "You don't suffer disadvantage when using thrown weapons when within 5ft of a hostile creature and both ranges of all thrown weapons increases by 10.",
                         "When you take the attack action you can use a bonus action to throw a net, bola, or make a Shove attack."
                     ]
                 }
@@ -714,6 +784,24 @@
                         ],
                         "amount": 1
                     }
+                }
+            ]
+        },
+        {
+            "name": "Quickload",
+            "source": "TftJC",
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain a +1 to your Dexterity Score, up to a maximum of 20",
+                        "Once per turn, any Bonus Action detailing reloading a Firearm for you is now ignored"
+                    ]
+                }
+            ],
+            "prerequisite": [
+                {
+                    "other": "Firearms Proficiency"
                 }
             ]
         }
@@ -10039,6 +10127,36 @@
             ]
         },
         {
+            "name": "Circle of the Iron Heretic",
+            "source": "TftJC",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Iron Heretic",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "Druids of the Circle of the Iron Heretic find their calling not in the preservation of nature, but in the advancement of it. They see nature as the perfect mechanism for the advancement of intelligent races but unlike their brethren, they do not shy away from the exploitation of natural resources into valuable tools.",
+                "These druids use their magic to twist metal and stone into cold lifeless mimicry of natural life and push their own power forward by consuming natural material. Their disregard for nature for progress often puts them at odds with other druidic circles, hence their branding as heretics.",
+                "Druids in this circle do not necessarily see natural life as different from that created through construct magic, treating both as useful tools to advance intelligent life forwards. These druids believe that progress and destruction are a natural part of life, embracing modernity as opposed to rejecting it.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Circle Spells|Druid|PHB|Iron Heretic|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Shell of Iron|Druid|PHB|Iron Heretic|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Construct Creation|Druid|PHB|Iron Heretic|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Metallic Carapace|Druid|PHB|Iron Heretic|TftJC|2"
+                }
+            ]
+        },
+        {
             "name": "Circle Spells",
             "source": "TftJC",
             "className": "Druid",
@@ -10078,36 +10196,6 @@
                             "Animate Objects, Steel Wind Strike"
                         ]
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Circle of the Iron Heretic",
-            "source": "TftJC",
-            "className": "Druid",
-            "classSource": "PHB",
-            "subclassShortName": "Iron Heretic",
-            "subclassSource": "TftJC",
-            "level": 2,
-            "entries": [
-                "Druids of the Circle of the Iron Heretic find their calling not in the preservation of nature, but in the advancement of it. They see nature as the perfect mechanism for the advancement of intelligent races but unlike their brethren, they do not shy away from the exploitation of natural resources into valuable tools.",
-                "These druids use their magic to twist metal and stone into cold lifeless mimicry of natural life and push their own power forward by consuming natural material. Their disregard for nature for progress often puts them at odds with other druidic circles, hence their branding as heretics.",
-                "Druids in this circle do not necessarily see natural life as different from that created through construct magic, treating both as useful tools to advance intelligent life forwards. These druids believe that progress and destruction are a natural part of life, embracing modernity as opposed to rejecting it.",
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Circle Spells|Druid|PHB|Iron Heretic|TftJC|2"
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Shell of Iron|Druid|PHB|Iron Heretic|TftJC|2"
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Construct Creation|Druid|PHB|Iron Heretic|TftJC|2"
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Metallic Carapace|Druid|PHB|Iron Heretic|TftJC|2"
                 }
             ]
         },

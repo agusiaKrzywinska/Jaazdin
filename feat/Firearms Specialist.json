@@ -1,0 +1,14 @@
+{
+    "name": "Firearms Specialist",
+    "source": "TftJC",
+    "entries": [
+        {
+            "type": "list",
+            "items": [
+                "You gain proficiency with Firearms",
+                "Once per short rest, when you would misfire with a firearm, you may remake the d20 roll. If you roll higher than the misfire score, the weapon does not misfire",
+                "When using the Attack action with a one-handed weapon, you can use your bonus action to attack with a loaded firearm with the light property."
+            ]
+        }
+    ]
+}
