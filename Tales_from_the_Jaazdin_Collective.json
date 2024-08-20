@@ -18,7 +18,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1724114341
+        "dateLastModified": 1724118936
     },
     "background": [
         {
@@ -8653,6 +8653,7 @@
             "subclassFeatures": [
                 "Rune of the Moons|Sorcerer|PHB|Lunar|TftJC|1",
                 "Fabrics of the Night|Sorcerer|PHB|Lunar|TftJC|1",
+                "Bright Night|Sorcerer|PHB|Lunar|TftJC|1",
                 "Weave of Midnight|Sorcerer|PHB|Lunar|TftJC|6",
                 "Wax and Wane|Sorcerer|PHB|Lunar|TftJC|14",
                 "Blessing of the Moons|Sorcerer|PHB|Lunar|TftJC|18"
@@ -8680,14 +8681,14 @@
             "page": 44,
             "className": "Warlock",
             "classSource": "PHB",
-            "shortName": "Shadow",
+            "shortName": "Shadowsworn",
             "subclassFeatures": [
-                "Expanded Spell List|Warlock|PHB|Shadow|TftJC|1",
-                "Gifted Prowess|Warlock|PHB|Shadow|TftJC|1",
-                "Sweep the Darkness|Warlock|PHB|Shadow|TftJC|1",
-                "Shadow's Edge|Warlock|PHB|Shadow|TftJC|6",
-                "Stepping Umbra|Warlock|PHB|Shadow|TftJC|10",
-                "Eclipse Soul|Warlock|PHB|Shadow|TftJC|14"
+                "Expanded Spell List|Warlock|PHB|Shadowsworn|TftJC|1",
+                "Gifted Prowess|Warlock|PHB|Shadowsworn|TftJC|1",
+                "Sweep the Darkness|Warlock|PHB|Shadowsworn|TftJC|1",
+                "Shadow's Edge|Warlock|PHB|Shadowsworn|TftJC|6",
+                "Stepping Umbra|Warlock|PHB|Shadowsworn|TftJC|10",
+                "Eclipse Soul|Warlock|PHB|Shadowsworn|TftJC|14"
             ]
         },
         {
@@ -11794,7 +11795,7 @@
                     "type": "inset",
                     "name": "Hunter Stance, Awaken",
                     "entries": [
-                        "You now critically strike on the roll of a 19 or 20, and your Extra Attack feature gains an additional attack."
+                        "Your Critical Strike range is increased by 1, and your Extra Attack feature gains an additional attack."
                     ]
                 },
                 {
@@ -12275,7 +12276,7 @@
                 {
                     "type": "list",
                     "items": [
-                        "Upon activating the ability, you can immediately use your Mask Change Channel Divinity (this does not expend the use of your Channel Divinity). If you are already wearing your armor, it remains and instead you only deal the damage and the shove effect.",
+                        "Upon activating the ability, you can immediately use your Mask Change Channel Divinity (this does not expend the use of your Channel Divinity). If you are already wearing your armor, it remains and instead you only deal the damage and the shove effect. When used in this way, it deals double the damage die.",
                         "Using your Explosive Finisher Channel Divinity does not expend your Channel Divinity if that attack would finish the creature hit.",
                         "Whenever you would deal Thunder Damage to a single creature, all other creatures within 10ft of that creature take the same amount of damage. This effect cannot activate off of itself."
                     ]
@@ -13214,14 +13215,21 @@
                             "type": "inset",
                             "name": "Molten Core",
                             "entries": [
-                                "You gain resistance to Fire damage. You learn the Heat Metal spell, it counts as a Sorcerer spell for you, and can cast it a number of times equal to your Charisma Modifier per long rest. Creatures of your choice that would be moved or disarmed by Magnetic Surge take 2d4 Fire Damage, as the metal burns them."
+                                "You gain resistance to Fire damage. You learn the Heat Metal spell, it counts as a Sorcerer spell for you, and can cast it a number of times equal to your Charisma Modifier per long rest. Creatures of your choice that would be moved or disarmed by Magnetic Surge take {@dice 2d4} Fire Damage, as the metal burns them."
                             ]
                         },
                         {
                             "type": "inset",
                             "name": "Static Core",
                             "entries": [
-                                "You gain resistance to Lightning damage. Whenever you cast a Sorcerer spell that deals Lightning Damage, your Magnetic Surge's weight maximum is doubled and creatures affected by it have disadvantage on the Strength Saving Throw. Creatures of your choice that would be moved or disarmed by Magnetic Surge take 2d4 Lightning Damage, as the metal shocks them."
+                                "You gain resistance to Lightning damage. Whenever you cast a Sorcerer spell that deals Lightning Damage, your Magnetic Surge's weight maximum is doubled and creatures affected by it have disadvantage on the Strength Saving Throw. Creatures of your choice that would be moved or disarmed by Magnetic Surge take {@dice 2d4} Lightning Damage, as the metal shocks them."
+                            ]
+                        },
+                        {
+                            "type": "inset",
+                            "name": "Static Core",
+                            "entries": [
+                                "You gain resistance to Acid damage. Creatures of your choice that would be disarmed or moved by your Magnetic Surge, you can reduce their Armor class by 1d4 or their attack rolls by 1d4, so long as you are targetting armor/weapon made of metal. This reduction lasts until the start of your next turn. Creatures of your choice that would be moved or disarmed by Magnetic Surge take {@dice 2d4} Acid Damage, as the metal burns them."
                             ]
                         }
                     ]
@@ -13282,6 +13290,18 @@
             "level": 18,
             "entries": [
                 "At 18th level, your control over magnetism is at its peak. The weight moved by your Magnetic Surge Feature is tripled. As an Action, you can create a field of powerful magnetism in a 15ft radius centred around you. No metal objects can enter that field under any circumstances. If a metal object is teleported inside of the field, it is immediately pushed outwards past the end of your radius. While this is active, you can select one object composed of metal within 100ft of you as a Bonus Action and launch it with your magnetism. The object can weigh no more that 100 lbs. It is launched 100ft in a direction you choose, and all creatures in its path must make a Dexterity Saving throw, or take 3d10 Bludgeoning damage. This lasts for 1 minute, and can only be used once per Long Rest, or by spending 5 Sorcery Points."
+            ]
+        },
+        {
+            "name": "Bright Night",
+            "source": "TftJC",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Lunar",
+            "subclassSource": "TftJC",
+            "level": 1,
+            "entries": [
+                "At 1st level, when you hit a creature with a spell that deals Radiant or Psychic damage, or they fail the saving throw, they become {@condition blinded} until the start of your next turn."
             ]
         },
         {
@@ -13363,7 +13383,8 @@
             "subclassSource": "TftJC",
             "level": 6,
             "entries": [
-                "At 6th level, you gain the ability to perform a ritual to render yourself and other creatures invisible. The ritual takes 1 minute to perform at the end of which up to your Charisma modifier number of creatures within 10 feet of you are turned invisible as if the invisibility spell had been cast. The invisibility lasts for 1 hour, until any invisible creature attacks or casts a spell, or you enter an area of bright light. You can only conduct this ritual at night."
+                "At 6th level, you gain the ability to perform a ritual to render yourself and other creatures invisible. The ritual takes 1 minute to perform at the end of which up to your Charisma modifier number of creatures within 10 feet of you are turned invisible as if the invisibility spell had been cast. The invisibility lasts for 1 hour, until any invisible creature attacks or casts a spell, or you enter an area of bright light. You can only conduct this ritual at night.",
+                "You also learn the Transmute Spell Metamagic (not counting against your known metamagics), and gain the ability to transmute spells into Psychic and Radiant Damage."
             ]
         },
         {
@@ -13420,7 +13441,7 @@
             "subclassSource": "TftJC",
             "level": 1,
             "entries": [
-                "At 1st level, the runes inside your body activate when you are actively channeling magic. While you are concentrating on a spell you gain temporary hit points equal to twice the spells level at the start of each of your turns and once per turn when you deal damage with a weapon or spell attack you deal bonus force damage equal to your proficiency modifier.",
+                "At 1st level, the runes inside your body activate when you are actively channeling magic. While you are concentrating on a spell you gain temporary hit points equal to the spells level + your proficiency bonus at the start of each of your turns and once per turn when you deal damage with a weapon or spell attack you deal bonus force damage equal to your proficiency modifier.",
                 "When you fail a concentration check you can spend a hit die, roll it and add it to the result, potentially allowing you to maintain concentration."
             ]
         },
@@ -13807,7 +13828,7 @@
             "source": "TftJC",
             "className": "Warlock",
             "classSource": "PHB",
-            "subclassShortName": "Shadow",
+            "subclassShortName": "Shadowsworn",
             "subclassSource": "TftJC",
             "level": 1,
             "entries": [
@@ -13853,7 +13874,7 @@
             "source": "TftJC",
             "className": "Warlock",
             "classSource": "PHB",
-            "subclassShortName": "Shadow",
+            "subclassShortName": "Shadowsworn",
             "subclassSource": "TftJC",
             "level": 1,
             "entries": [
@@ -13865,11 +13886,12 @@
             "source": "TftJC",
             "className": "Warlock",
             "classSource": "PHB",
-            "subclassShortName": "Shadow",
+            "subclassShortName": "Shadowsworn",
             "subclassSource": "TftJC",
             "level": 1,
             "entries": [
-                "Starting at 1st level, your patron bestows upon you the power to control light and darkness. You gain the light cantrip. In addition, as an action you can target any number of light sources within 30 feet of you. If they are fires or other natural sources of light they are extinguished. If they are magical sources and if their spell level is less than 1/3 of your current total level, they are dispelled."
+                "Starting at 1st level, your patron bestows upon you the power to control light and darkness. You gain the {@spell light} cantrip. In addition, as an action you can target any number of light sources within 30 feet of you. If they are fires or other natural sources of light they are extinguished. If they are magical sources and if their spell level is less than 1/3 of your current total level, they are dispelled.",
+                "While your target is in dim light or darkness, your weapon and spell attacks deal additional damage equal to your Proficiency Bonus."
             ]
         },
         {
@@ -13877,7 +13899,7 @@
             "source": "TftJC",
             "className": "Warlock",
             "classSource": "PHB",
-            "subclassShortName": "Shadow",
+            "subclassShortName": "Shadowsworn",
             "subclassSource": "TftJC",
             "level": 6,
             "entries": [
@@ -13889,11 +13911,11 @@
             "source": "TftJC",
             "className": "Warlock",
             "classSource": "PHB",
-            "subclassShortName": "Shadow",
+            "subclassShortName": "Shadowsworn",
             "subclassSource": "TftJC",
             "level": 10,
             "entries": [
-                "Beginning at 10th level, whenever you hit a creature with a melee attack you can use your bonus action to teleport up to 30ft to a point you can see within range. In addition, when you are struck by a ranged attack or spell you can teleport up to 30ft to a point you can see within range. After using this feature, you become resistant to all non-magical damage until the start of your next turn. You can use this feature a number of times equal to your Charisma modifier. You regain all uses on a short rest."
+                "Beginning at 10th level, whenever you hit a creature with a melee attack you can use your bonus action to teleport up to 30ft to a point you can see within range. In addition, when you are struck by a ranged attack or spell you can teleport up to 30ft to a point you can see within range. After using this feature, you become resistant to all non-magical damage until the start of your next turn. You can use this feature a number of times equal to your Proficiency Bonus. You regain all uses on a short rest."
             ]
         },
         {
@@ -13901,7 +13923,7 @@
             "source": "TftJC",
             "className": "Warlock",
             "classSource": "PHB",
-            "subclassShortName": "Shadow",
+            "subclassShortName": "Shadowsworn",
             "subclassSource": "TftJC",
             "level": 14,
             "entries": [
@@ -13911,7 +13933,7 @@
                     "items": [
                         "You have resistance to necrotic and radiant damage.",
                         "Whenever you deal damage with a spell or attack you deal additional radiant or necrotic damage equal to your Charisma modifier. This damage can only apply to one damage roll per spell or attack.",
-                        "Creatures that hit you with melee attacks take 1d8 necrotic or radiant damage.",
+                        "Creatures that hit you with melee attacks take {@dice 1d8} necrotic or radiant damage.",
                         "The range of your Stepping Umbra ability is doubled to 60 and during the duration of this ability it does not consume uses."
                     ]
                 }

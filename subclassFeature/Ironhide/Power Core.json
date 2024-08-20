@@ -14,14 +14,21 @@
                     "type": "inset",
                     "name": "Molten Core",
                     "entries": [
-                        "You gain resistance to Fire damage. You learn the Heat Metal spell, it counts as a Sorcerer spell for you, and can cast it a number of times equal to your Charisma Modifier per long rest. Creatures of your choice that would be moved or disarmed by Magnetic Surge take 2d4 Fire Damage, as the metal burns them."
+                        "You gain resistance to Fire damage. You learn the Heat Metal spell, it counts as a Sorcerer spell for you, and can cast it a number of times equal to your Charisma Modifier per long rest. Creatures of your choice that would be moved or disarmed by Magnetic Surge take {@dice 2d4} Fire Damage, as the metal burns them."
                     ]
                 },
                 {
                     "type": "inset",
                     "name": "Static Core",
                     "entries": [
-                        "You gain resistance to Lightning damage. Whenever you cast a Sorcerer spell that deals Lightning Damage, your Magnetic Surge's weight maximum is doubled and creatures affected by it have disadvantage on the Strength Saving Throw. Creatures of your choice that would be moved or disarmed by Magnetic Surge take 2d4 Lightning Damage, as the metal shocks them."
+                        "You gain resistance to Lightning damage. Whenever you cast a Sorcerer spell that deals Lightning Damage, your Magnetic Surge's weight maximum is doubled and creatures affected by it have disadvantage on the Strength Saving Throw. Creatures of your choice that would be moved or disarmed by Magnetic Surge take {@dice 2d4} Lightning Damage, as the metal shocks them."
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Static Core",
+                    "entries": [
+                        "You gain resistance to Acid damage. Creatures of your choice that would be disarmed or moved by your Magnetic Surge, you can reduce their Armor class by 1d4 or their attack rolls by 1d4, so long as you are targetting armor/weapon made of metal. This reduction lasts until the start of your next turn. Creatures of your choice that would be moved or disarmed by Magnetic Surge take {@dice 2d4} Acid Damage, as the metal burns them."
                     ]
                 }
             ]

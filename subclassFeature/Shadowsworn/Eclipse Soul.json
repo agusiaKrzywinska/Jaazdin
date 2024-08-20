@@ -3,7 +3,7 @@
     "source": "TftJC",
     "className": "Warlock",
     "classSource": "PHB",
-    "subclassShortName": "Shadow",
+    "subclassShortName": "Shadowsworn",
     "subclassSource": "TftJC",
     "level": 14,
     "entries": [
@@ -13,7 +13,7 @@
             "items": [
                 "You have resistance to necrotic and radiant damage.",
                 "Whenever you deal damage with a spell or attack you deal additional radiant or necrotic damage equal to your Charisma modifier. This damage can only apply to one damage roll per spell or attack.",
-                "Creatures that hit you with melee attacks take 1d8 necrotic or radiant damage.",
+                "Creatures that hit you with melee attacks take {@dice 1d8} necrotic or radiant damage.",
                 "The range of your Stepping Umbra ability is doubled to 60 and during the duration of this ability it does not consume uses."
             ]
         }

@@ -4,13 +4,13 @@
     "page": 44,
     "className": "Warlock",
     "classSource": "PHB",
-    "shortName": "Shadow",
+    "shortName": "Shadowsworn",
     "subclassFeatures": [
-        "Expanded Spell List|Warlock|PHB|Shadow|TftJC|1",
-        "Gifted Prowess|Warlock|PHB|Shadow|TftJC|1",
-        "Sweep the Darkness|Warlock|PHB|Shadow|TftJC|1",
-        "Shadow's Edge|Warlock|PHB|Shadow|TftJC|6",
-        "Stepping Umbra|Warlock|PHB|Shadow|TftJC|10",
-        "Eclipse Soul|Warlock|PHB|Shadow|TftJC|14"
+        "Expanded Spell List|Warlock|PHB|Shadowsworn|TftJC|1",
+        "Gifted Prowess|Warlock|PHB|Shadowsworn|TftJC|1",
+        "Sweep the Darkness|Warlock|PHB|Shadowsworn|TftJC|1",
+        "Shadow's Edge|Warlock|PHB|Shadowsworn|TftJC|6",
+        "Stepping Umbra|Warlock|PHB|Shadowsworn|TftJC|10",
+        "Eclipse Soul|Warlock|PHB|Shadowsworn|TftJC|14"
     ]
 }

@@ -1,0 +1,12 @@
+{
+    "name": "Stepping Umbra",
+    "source": "TftJC",
+    "className": "Warlock",
+    "classSource": "PHB",
+    "subclassShortName": "Shadowsworn",
+    "subclassSource": "TftJC",
+    "level": 10,
+    "entries": [
+        "Beginning at 10th level, whenever you hit a creature with a melee attack you can use your bonus action to teleport up to 30ft to a point you can see within range. In addition, when you are struck by a ranged attack or spell you can teleport up to 30ft to a point you can see within range. After using this feature, you become resistant to all non-magical damage until the start of your next turn. You can use this feature a number of times equal to your Proficiency Bonus. You regain all uses on a short rest."
+    ]
+}
