@@ -18,7 +18,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1724192192
+        "dateLastModified": 1724192936
     },
     "background": [
         {
@@ -2000,27 +2000,6 @@
         {
             "name": "Electrolysis Orb",
             "source": "TftJC",
-            "rarity": "legendary",
-            "reqAttune": "Spellcaster that can cast 5th level spells or higher",
-            "wondrous": true,
-            "entries": [
-                "This metal orb hovers around the user and requires no hands to wield. The Orb retains its magical properties while within 120ft of its owner, and leaving this radius causes it to slowly hover back to its owner at 30ft per round. Upon casting a 1st level spell or higher, the attuned can move the Orb up to 30ft (before or after the spell is cast).",
-                "It grants a +2 to your Spell Save DC and Spell attack rolls. The orb can be fitted with 4 plates of a Rare Metal (requiring 1 hour of work and smiths tools in hand, no downtime required), granting the effects of their Weapon Bonus to your Spell attack rolls if it can be properly applied. The plates can also be removed by spending an hour.",
-                "The owner of the Orb can give the Orb Commands as a Bonus Action. Below are its possible commands.",
-                {
-                    "type": "list",
-                    "style": "list-hang",
-                    "items": [
-                        "Static Wave - The Orb pulses with electricity. All creatures within 15ft of it must make a Dexterity Saving Throw against your DC or take 3d8 lightning damage (half as much on a success).",
-                        "Reflector - The Orb pulses with a protective field. All creatures within 15ft of the orb gain 1d8 + your casting modifier Temporary Hit points.",
-                        "Positioner - The Orb channels your magic through it. Until the start of your next turn, spells you cast originate from the Orb instead of you. Alternatively, you can use the Orb to reposition Line spells with the orb acting as a point of rotation."
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Electrolysis Orb",
-            "source": "TftJC",
             "rarity": "very rare",
             "reqAttune": "by a creature with Intelligence, Wisdom, or Charisma greater than or equal to 15",
             "wondrous": true,
@@ -2150,6 +2129,20 @@
             "wondrous": true,
             "entries": [
                 "While on your possession you gain a +1 to History and Nature Checks"
+            ]
+        },
+        {
+            "name": "Etched Pentagram",
+            "source": "TftJC",
+            "page": 25,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 10000,
+            "entries": [
+                "<b><i>Effect.</i></b> As a bonus action, you can summon this firearm into your hand. As a bonus action, you can dismiss the firearm into a pocket dimension.",
+                "<b><i>Archetype.</i></b> Only Hexlock can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
             ]
         },
         {
@@ -2393,6 +2386,33 @@
                 "While you wear both of these steel gauntlets, any non-magical weapon you grasp with either gauntlet is treated as a magic weapon.",
                 "As a bonus action, you can use the gauntlets to cause ice to envelop one or two melee weapons in your grasp. Each icy weapon deals an extra {@dice 1d6} cold damage on a hit. The ice last until you sheath or let go of either weapon. Once used, this property can't be used again until the next dawn.",
                 "In addition, you can touch one 5-foot cube of water and cause it to freeze for 1 hour."
+            ]
+        },
+        {
+            "name": "Githyanki Warbrace (Astral Dragon)",
+            "source": "TftJC",
+            "rarity": "very rare",
+            "reqAttune": "by a creature with Intelligence, Wisdom, or Charisma greater than or equal to 15",
+            "wondrous": true,
+            "entries": [
+                "This combination Armbrace and belt depicts the visage of a grand astral dragon with amethyst inlays. This brace was once made for elite warriors of Vlaakith, but have since been lost or are not in production, although it is still possible to create new ones with materials from various planes of existence.",
+                "This item was blessed through Vlaakith, and she would not want this to be muddled in any other way. You cannot combine this item.",
+                "As an action, you can activate this brace and gain the following benefits: ",
+                {
+                    "type": "list",
+                    "style": "list-hang",
+                    "items": [
+                        "You gain a bonus to AC equal to your (Intelligence/Wisdom/Charisma) modifier",
+                        "Your walking speed increases by 10 feet",
+                        "You gain advantage on Acrobatics Checks",
+                        "You gain a bonus equal to your Constitution saving throw for maintaining concentration on spells equal to your (Intelligence/Wisdom/Charisma) Ability modifier"
+                    ]
+                },
+                "When you activate this brace, roll 1d3, on a 1 you use your Intelligence modifier, on a 2 you use your Wisdom Modifier, and on a 3 you use your Charisma modifier",
+                "This effect lasts for 1 minute. At the end of its activation, you gain 1 level of exhaustion and are stunned for a 1 turn.",
+                "The brace can be activated in this way 3 times and you regain 1 use per long rest. You cannot end this effect early.",
+                "If the attuning creature has access to Psionic Energy Dice, the Telekinetic Feat, or the Telepathic Feat, they gain access to the following ability:",
+                "Astral Blade: When you attack with a weapon while the Warbrace is active, your attacks are considered magical and can add 1d8 Force damage once per turn."
             ]
         },
         {
@@ -3695,6 +3715,20 @@
             ]
         },
         {
+            "name": "Runick Chamber",
+            "source": "TftJC",
+            "page": 25,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 35000,
+            "entries": [
+                "<b><i>Effect.</i></b> As a bonus action, you can summon this firearm into your hand. As a bonus action, you can dismiss the firearm into a pocket dimension.",
+                "<b><i>Archetype.</i></b> Only Hexlock can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
             "name": "Sanguinity",
             "source": "TftJC",
             "rarity": "very rare",
@@ -4832,6 +4866,30 @@
             ]
         },
         {
+            "name": "Bounty Hunter",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 9,
+                        "class": {
+                            "name": "Warlock"
+                        }
+                    },
+                    "feature": [
+                        "Opulent Warlock"
+                    ]
+                }
+            ],
+            "source": "TftJC",
+            "page": 43,
+            "featureType": [
+                "EI"
+            ],
+            "entries": [
+                "You can cast the hunter’s mark spell once per day without expending a spell slot by expending 50gp. By default, it is cast at 1st level, you can expend 100gp to increase the level of the spell by 1. When you kill a creature affected by hunter’s mark cast from this invocation you gain gold equal to 150% of the gold spent casting this spell. Once you have received gold in this way you cannot receive more gold from this invocation until you finish a long rest."
+            ]
+        },
+        {
             "name": "Burst",
             "prerequisite": [
                 {
@@ -5150,6 +5208,45 @@
             ]
         },
         {
+            "name": "Loot Explosions",
+            "prerequisite": [
+                {
+                    "feature": [
+                        "Opulent Warlock"
+                    ]
+                }
+            ],
+            "source": "TftJC",
+            "page": 43,
+            "featureType": [
+                "EI"
+            ],
+            "entries": [
+                "If you kill a creature with an eldritch blast, they will spew coins out of their mouth (or another applicable orifice) when they die. The amount of coins they divulge is equal to their hit dice and is of the type of coin you used for the material component of the eldritch blastwhich killed them."
+            ]
+        },
+        {
+            "name": "Money Talks",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 3,
+                        "class": {
+                            "name": "Warlock"
+                        }
+                    }
+                }
+            ],
+            "source": "TftJC",
+            "page": 43,
+            "featureType": [
+                "EI"
+            ],
+            "entries": [
+                "You can cast the magic mouth spell once per day without expending a spell slot or requiring a material component. The object of the spell must be a coin."
+            ]
+        },
+        {
             "name": "Origin",
             "prerequisite": [
                 {
@@ -5361,6 +5458,30 @@
             ],
             "entries": [
                 "Your minion, familiar, and any creatures summoned through the use of a conjuration spell gain the Pact Tactics feature but only in relation to each other and you."
+            ]
+        },
+        {
+            "name": "The Bank",
+            "prerequisite": [
+                {
+                    "level": {
+                        "level": 11,
+                        "class": {
+                            "name": "Warlock"
+                        }
+                    },
+                    "feature": [
+                        "Opulent Warlock"
+                    ]
+                }
+            ],
+            "source": "TftJC",
+            "page": 43,
+            "featureType": [
+                "EI"
+            ],
+            "entries": [
+                "You gain a sapphire worth 1,000gp that can be used as a material component for the spell instant summons, which you learn when you take this invocations. This sapphire is not consumed when you end the spell, instead, the spell simply ends, and you can reuse the sapphire on another cast of instant summons.If you lose this sapphire you can expend 1,000gp from your Deep Pockets to produce a new one, doing so causes the other to vanish."
             ]
         },
         {
@@ -8564,6 +8685,20 @@
             ]
         },
         {
+            "name": "College of Ancients",
+            "source": "TftJC",
+            "page": 14,
+            "className": "Bard",
+            "classSource": "PHB",
+            "shortName": "Ancients",
+            "subclassFeatures": [
+                "Stories of Olde|Bard|PHB|Ancients|TftJC|3",
+                "Words of Providence|Bard|PHB|Ancients|TftJC|3",
+                "Truth Seeker|Bard|PHB|Ancients|TftJC|6",
+                "Secret Pilferer|Bard|PHB|Ancients|TftJC|14"
+            ]
+        },
+        {
             "name": "College of Conducting",
             "source": "TftJC",
             "page": 14,
@@ -8765,6 +8900,24 @@
             ]
         },
         {
+            "name": "Hexlock",
+            "source": "TftJC",
+            "page": 15,
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "shortName": "Hexlock",
+            "subclassFeatures": [
+                "Magical Acolyte|Gunner|TftJC|Hexlock|TftJC|2",
+                "Hexed Bullets|Gunner|TftJC|Hexlock|TftJC|2",
+                "Hexed Bullet Progression|Gunner|TftJC|Hexlock|TftJC|2",
+                "Firearm Enchanter|Gunner|TftJC|Hexlock|TftJC|6",
+                "Hexlock Modifications|Gunner|TftJC|Hexlock|TftJC|6",
+                "Spellshot Combo|Gunner|TftJC|Hexlock|TftJC|10",
+                "Shoot to Thrill Improvement|Gunner|TftJC|Hexlock|TftJC|10",
+                "Hex Master|Gunner|TftJC|Hexlock|TftJC|14"
+            ]
+        },
+        {
             "name": "Quickdraw",
             "source": "TftJC",
             "page": 12,
@@ -8825,6 +8978,20 @@
                 "Ray of Frost|PHB",
                 "Shape Water|PHB",
                 "Thunderclap|PHB"
+            ]
+        },
+        {
+            "name": "Way of the God Hand",
+            "source": "TftJC",
+            "page": 28,
+            "className": "Monk",
+            "classSource": "PHB",
+            "shortName": "God Hand",
+            "subclassFeatures": [
+                "Spirit Stance|Monk|PHB|God Hand|TftJC|3",
+                "Stance Shift|Monk|PHB|God Hand|TftJC|6",
+                "Spiritual Connection|Monk|PHB|God Hand|TftJC|11",
+                "Spirit Brothers|Monk|PHB|God Hand|TftJC|17"
             ]
         },
         {
@@ -8898,6 +9065,21 @@
             ]
         },
         {
+            "name": "Devastator Conclave",
+            "source": "TftJC",
+            "page": 34,
+            "className": "Ranger",
+            "classSource": "PHB",
+            "shortName": "Devastator",
+            "subclassFeatures": [
+                "Devastator's Magic|Ranger|PHB|Devastator|TftJC|3",
+                "Devastator's Tools|Ranger|PHB|Devastator|TftJC|7",
+                "Buring Strikes|Ranger|PHB|Devastator|TftJC|7",
+                "Devastator of Nature|Ranger|PHB|Devastator|TftJC|11",
+                "Flame of Destruction|Ranger|PHB|Devastator|TftJC|15"
+            ]
+        },
+        {
             "name": "Survivor Conclave",
             "source": "TftJC",
             "page": 34,
@@ -8924,6 +9106,21 @@
                 "Can't Be Tied Down|Ranger|PHB|Wayward|TftJC|7",
                 "A New Adventure Awaits|Ranger|PHB|Wayward|TftJC|11",
                 "Places to be|Ranger|PHB|Wayward|TftJC|15"
+            ]
+        },
+        {
+            "name": "Luckthief",
+            "source": "TftJC",
+            "page": 35,
+            "className": "Rogue",
+            "classSource": "PHB",
+            "shortName": "Luckthief",
+            "subclassFeatures": [
+                "Watcher of Fate|Rogue|PHB|Luckthief|TftJC|3",
+                "Luck Cutter|Rogue|PHB|Luckthief|TftJC|3",
+                "Bend Fate|Rogue|PHB|Luckthief|TftJC|9",
+                "Share the Fortune|Rogue|PHB|Luckthief|TftJC|13",
+                "Sever the Thread|Rogue|PHB|Ninjutsu|TftJC|17"
             ]
         },
         {
@@ -9006,6 +9203,22 @@
                 "Extra Attack|Sorcerer|PHB|Runebound|TftJC|6",
                 "Magical Siphon|Sorcerer|PHB|Runebound|TftJC|14",
                 "Runes of Power|Sorcerer|PHB|Runebound|TftJC|18"
+            ]
+        },
+        {
+            "name": "Opulent",
+            "source": "TftJC",
+            "page": 44,
+            "className": "Warlock",
+            "classSource": "PHB",
+            "shortName": "Opulent",
+            "subclassFeatures": [
+                "Expanded Spell List|Warlock|PHB|Opulent|TftJC|1",
+                "Gifted Prowess|Warlock|PHB|Opulent|TftJC|1",
+                "Deep Pockets|Warlock|PHB|Opulent|TftJC|1",
+                "Bang for your Buck|Warlock|PHB|Opulent|TftJC|6",
+                "Cutpurse's Confounding|Warlock|PHB|Opulent|TftJC|10",
+                "Opulent Appearance|Warlock|PHB|Opulent|TftJC|14"
             ]
         },
         {
@@ -9838,6 +10051,57 @@
             "level": 14,
             "entries": [
                 "At 14th level, you can absorb the life force of creatures. Whenever you land the killing blow on a creature of CR 1 or greater, you can use your reaction to absorb their life force. Doing so heals you a number of hit points equal to the creature's CR (or level) x 4."
+            ]
+        },
+        {
+            "name": "Stories of Olde",
+            "source": "TftJC",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Ancients",
+            "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "Starting at 3rd level, your studies of ancient stories have granted you peerless mastery of the stories of old. You gain proficiency in History if you don’t already have it. In addition, whenever you make a History check with advantage you roll 3 dice and take the highest instead of rolling 2 dice. You also gain proficiency with Calligraphy’s supplies."
+            ]
+        },
+        {
+            "name": "Words of Providence",
+            "source": "TftJC",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Ancients",
+            "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "Also at 3rd level, you learn to use your vast knowledge of history to warn others of incoming danger. When a creature you can see uses a spell or an ability that forces another creature to make a saving throw you can expend a use of your Bardic Inspiration to attempt to ward your allies from the spell. Roll your Bardic Inspiration die and add 8 + your Charisma Modifier. If the total is higher than the DC of the ability or spell all creatures that would be affected make the saving throws with advantage.",
+                "You learn the cantrip word of radiance cantrip. Additionally you automatically learn the following spells when you gain spell slots for them: healing word, invigorating word, mass healing word, word of recall, divine word, power word pain, power word stun, power word heal, power word kill."
+            ]
+        },
+        {
+            "name": "Truth Seeker",
+            "source": "TftJC",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Ancients",
+            "subclassSource": "TftJC",
+            "level": 6,
+            "entries": [
+                "At 6th level, you gain spells that help you access deeply guarded secrets and long forgotten lore. You learn the zone of truth and speak with dead spells which don’t count against your known spells and you can cast each once per day without expending a spell slot.",
+                "In addition when you grant a creature that is charmed or frightened your Bardic Inspiration they may immediately remake the saving throw against the effect if applicable."
+            ]
+        },
+        {
+            "name": "Secret Pilferer",
+            "source": "TftJC",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Ancients",
+            "subclassSource": "TftJC",
+            "level": 14,
+            "entries": [
+                "Starting at 14th level, you gain the ability to quickly memorize magic that you see cast or hear cast if it only has a verbal component. As a reaction when you see a spell being cast you can memorize that spell adding it to your spells known. After you have it memorized you can cast the spell as a Bard spell if you have the necessary spell slot needed. You can only have one spell memorized at a time if you memorize a new one you forget the old one. To memorize a spell, you must have at least one spell slot of that level.",
+                "In addition, once per long rest when you cast any spell that only has a verbal component it does not use a spell slot."
             ]
         },
         {
@@ -11543,6 +11807,380 @@
             ]
         },
         {
+            "name": "Hexed Bullets",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Hexlock",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "When you choose this archetype at 2nd level, you gain the ability to magically enchant bullets to produce deadly effects. You learn three Hexed Bullets, as listed in the Hexed Bullets Progression Table, and can produce up to twice your proficiency bonus of those bullets when you finish a long rest. Whenever you finish a long rest, all the Hexed Bullets you have enchanted lose their potency. You learn an additional Hexed Bullet whenever you learn a new tier of firearm.",
+                "Prepared Hexed Bullets are placed in a magical receptacle, such as an enchanted bandolier, a special clip, or other magical storage device. As a free action once per turn when you make a ranged weapon attack with a firearm, you can cause one of the prepared Hexed Bullets to teleport into your firearm, enhancing your next attack with that Hexed Bullets effects, and consuming one use of your Hexed Bullets.",
+                "Whenever you gain another Gunner level, you can replace a known Hexed Bullet option with another.",
+                {
+                    "title": "Hexlock Spellcasting",
+                    "type": "table",
+                    "colLabels": [
+                        "Name",
+                        "Tier",
+                        "Effect",
+                        "Restriction"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center"
+                    ],
+                    "rows": [
+                        [
+                            "Element",
+                            "1",
+                            "The shot deals additional damage of either fire, lightning, cold, acid, or thunder (chosen when created) equal to 1d6+the tier of the gun.",
+                            "-"
+                        ],
+                        [
+                            "Seeking",
+                            "1",
+                            "The attack’s range is increased to its maximum range, with no short range. In addition, if the attack hits you can target another creature within range and remake the attack with disadvantage.",
+                            "-"
+                        ],
+                        [
+                            "Sanctified",
+                            "1",
+                            "This attack deals extra radiant damage equal to half your gunner level, this bonus is doubled against undead and fiends. In addition if the target is an undead or fiend, any Undead Fortitude or Magical Resistance that creature might have ceases to function until the start of your next turn.",
+                            "Religion from Magical Acolyte"
+                        ],
+                        [
+                            "Thorned",
+                            "1",
+                            "A creature hit by this bullet must make a Dexterity saving throw or become restrained. A creature can use an action on subsequent turns to attempt to break free by making an Athletics or Acrobatic check against your save DC. On a failure they take piercing damage equal to half your gunner level, on a success they break free.",
+                            "Nature from Magical Acolyte"
+                        ],
+                        [
+                            "Starlight",
+                            "1",
+                            "The fired bullet shatters into tiny magical darts. You create a number of these darts equal to your firearm’s tier, each dart deals force damage equal to a single die of the weapon’s damage die + the firearm’s tier. These darts automatically hit targets within the short range of your weapon. These darts can be blocked by effects that would block magic missile.",
+                            "Arcana from Magical Acolyte"
+                        ],
+                        [
+                            "Weaken",
+                            "2",
+                            "The hit creature must make a Strength saving throw or have its speed reduced by 10ft and deal half damage on Strength based weapon attacks until the start of your next turn.",
+                            "-"
+                        ],
+                        [
+                            "Mist",
+                            "2",
+                            "The hit creature takes additional Force damage equal to the Weapon’s Tier, and afterward you teleport to an unoccupied space of your choice within 15ft of that creature.",
+                            "-"
+                        ],
+                        [
+                            "Arcane",
+                            "3",
+                            "Choose one spell you know. When fired the shot takes the effect of that spell, if the spell comes from a point, the point can be any place within range that you could fire at (this expends the spell slot).",
+                            "-"
+                        ],
+                        [
+                            "Flash",
+                            "3",
+                            "Choose a point with your firearms short range. Each creature with 15ft of that point must make a Constitution saving throw. On a failure they suffer the weapons damage die in thunder damage + your INT modifier and are deafened and blinded until the start of your next turn. On a success they take half damage and are not blinded or deafened.",
+                            "-"
+                        ],
+                        [
+                            "Rally",
+                            "3",
+                            "You fire your gun into the air, bolstering allies within 30ft of you. Each ally gains temporary hit points equal to the firearm’s tier + your INT modifier and has advantage on the next attack roll they make.",
+                            "Religion from Magical Acolyte"
+                        ],
+                        [
+                            "Swarm",
+                            "3",
+                            "The hit creature must make a Wisdom saving throw or become swarmed by small insects. While swarmed it cannot benefit from cover (including full) from you and all attacks have advantage against it. At the end of the creature’s turn it can remake the saving throw, ending the effect on a success.",
+                            "Nature from Magical Acolyte"
+                        ],
+                        [
+                            "Target",
+                            "3",
+                            "The hit creature has disadvantage on the next saving throw they would make against a Spell.",
+                            "Arcana from Magical Acolyte"
+                        ],
+                        [
+                            "Drill",
+                            "4",
+                            "You fire a drilling bullet that cuts through anything it hits. Your attack becomes a 5ft line with a range equal to the gun’s short range. Each creature in that line must make a Dexterity saving throw or take Piercing damage equal to the gun’s damage die + your INT modifier. On a success they take half damage.",
+                            "-"
+                        ],
+                        [
+                            "Maxim",
+                            "4",
+                            "This bullet triples your gun’s misfire score for this shot but if it hits deals maximum damage.",
+                            "-"
+                        ],
+                        [
+                            "Trick",
+                            "5",
+                            "You make the attack roll at disadvantage, you cannot gain advantage from any source on this attack. If the attack hits, you regain one expended pact slot and deal extra damage equal to twice that spell slot’s level.",
+                            "-"
+                        ],
+                        [
+                            "Midas",
+                            "5",
+                            "A creature hit with this bullet must make a Constitution saving throw or become restrained. If restrained, on their next turn, they must make the Constitution save again. On a success, the restrained ends. On a failure, they are petrified as they turn to gold. This petrification lasts 1 minute, or until the creature takes damage equal to twice your gunner level.",
+                            "-"
+                        ],
+                        [
+                            "Smite",
+                            "5",
+                            "When fired, expend one spell slot. If the attack hits, it deals additional radiant damage equal to 4d8 + 1d8 for each spell level.",
+                            "Religion from Magical Acolyte. Only one can be prepared per long rest."
+                        ],
+                        [
+                            "World",
+                            "5",
+                            "When fired, the bullet explodes into wooden spears. Make an attack roll against any number of creatures within range.",
+                            "Nature from Magical Acolyte. Only one can be prepared per long rest."
+                        ],
+                        [
+                            "Portal",
+                            "5",
+                            "The bullet is fired on the Ethereal Plane. The target’s AC is calculated using only the target’s Dexterity bonus, ignoring bonuses granted from Shields, Armor and other AC increasing effects. This bullet passes through all barriers, including things such as Wall of Force, Force Cage, or planar portals. On hit, the target takes additional force damage equal to twice the difference between your attack roll and their AC.",
+                            "Arcana from Magical Acolyte. Only one can be prepared per long rest."
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Magical Acolyte",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Hexlock",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "At 2nd level, you choose an arcane discipline to learn from to enchant your firearms. You gain proficiency in either Nature, Religion, or Arcana, and your proficiency bonus for that skill is doubled. Depending on your choice, you unlock a unique Hexed Bullet the Pact Magic feature. If you choose Nature, your spell list is from the Druid and Ranger list, if you chose Religion your spell list is from the Cleric and Paladin list, and if you chose Arcana your spell list is from the Wizard and Artificer list. Regardless of your choice, your spell casting modifier is Intelligence.",
+                "At certain level, when you gain new Hexed Bullets you automatically learn the ones associated with your spellcasting list.",
+                {
+                    "title": "Hexlock Spellcasting",
+                    "type": "table",
+                    "colLabels": [
+                        "Gunner Level",
+                        "Cantrips Known",
+                        "Spells Known",
+                        "Pact Slots",
+                        "Slot Level"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center",
+                        "col-1 text-center"
+                    ],
+                    "rows": [
+                        [
+                            "2",
+                            "2",
+                            "2",
+                            "1",
+                            "1st"
+                        ],
+                        [
+                            "3",
+                            "2",
+                            "2",
+                            "1",
+                            "1st"
+                        ],
+                        [
+                            "4",
+                            "2",
+                            "2",
+                            "1",
+                            "1st"
+                        ],
+                        [
+                            "5",
+                            "2",
+                            "3",
+                            "1",
+                            "1st"
+                        ],
+                        [
+                            "6",
+                            "2",
+                            "3",
+                            "1",
+                            "1st"
+                        ],
+                        [
+                            "7",
+                            "2",
+                            "4",
+                            "2",
+                            "2nd"
+                        ],
+                        [
+                            "8",
+                            "2",
+                            "4",
+                            "2",
+                            "2nd"
+                        ],
+                        [
+                            "9",
+                            "2",
+                            "4",
+                            "2",
+                            "2nd"
+                        ],
+                        [
+                            "10",
+                            "3",
+                            "5",
+                            "2",
+                            "2nd"
+                        ],
+                        [
+                            "11",
+                            "3",
+                            "5",
+                            "2",
+                            "2nd"
+                        ],
+                        [
+                            "12",
+                            "3",
+                            "5",
+                            "2",
+                            "2nd"
+                        ],
+                        [
+                            "13",
+                            "3",
+                            "6",
+                            "3",
+                            "3rd"
+                        ],
+                        [
+                            "14",
+                            "3",
+                            "6",
+                            "3",
+                            "3rd"
+                        ],
+                        [
+                            "15",
+                            "3",
+                            "6",
+                            "3",
+                            "3rd"
+                        ],
+                        [
+                            "16",
+                            "3",
+                            "7",
+                            "3",
+                            "3rd"
+                        ],
+                        [
+                            "17",
+                            "3",
+                            "7",
+                            "3",
+                            "3rd"
+                        ],
+                        [
+                            "18",
+                            "3",
+                            "7",
+                            "3",
+                            "3rd"
+                        ],
+                        [
+                            "19",
+                            "3",
+                            "8",
+                            "4",
+                            "4th"
+                        ],
+                        [
+                            "20",
+                            "3",
+                            "9",
+                            "4",
+                            "4th"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Firearm Enchanter",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Hexlock",
+            "subclassSource": "TftJC",
+            "level": 6,
+            "entries": [
+                "At 6th level, you have mastered placing arcane enhancements on firearms. The first Hexlock modification placed on a firearm does not count against the number of modifications on a weapon.",
+                "Firearms with at least one Hexlock modification count as magical when overcoming damage resistances."
+            ]
+        },
+        {
+            "name": "Hexlock Modifications",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Hexlock",
+            "subclassSource": "TftJC",
+            "level": 6,
+            "entries": [
+                "At 6th level, Hexlocks gain access to new modifications which do not count against their Modifications known. You gain the Tier 2 modification at 10th level, and the Tier 3 modification at 15th level."
+            ]
+        },
+        {
+            "name": "Shoot To Thrill Improvement",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Hexlock",
+            "subclassSource": "TftJC",
+            "level": 10,
+            "entries": [
+                "At 10th level, your Shoot to Thrill feature is enhanced. When Shoot to Thrill is used to enhance a ranged weapon attack, you can choose to immediately apply one Hexed Bullet to the attack, following the normal restrictions of that bullet."
+            ]
+        },
+        {
+            "name": "Spellshot Combo",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Hexlock",
+            "subclassSource": "TftJC",
+            "level": 10,
+            "entries": [
+                "At 10th level, after casting a spell or cantrip you can make one ranged weapon attack with a bonus action."
+            ]
+        },
+        {
+            "name": "Hex Master",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Hexlock",
+            "subclassSource": "TftJC",
+            "level": 14,
+            "entries": [
+                "At 14th level, you learn to apply Hexes on the fly. You can replace any number of bullets fired on your turn with Hexed Bullets.",
+                "If you ever roll for initiative with no remaining Hexed Bullets, regain one use."
+            ]
+        },
+        {
             "name": "Quickdraw Style",
             "source": "TftJC",
             "className": "Gunner",
@@ -12014,6 +12652,91 @@
             "entries": [
                 "At 17th level, your control over the Elements is at its peak. Once per day, you can cast one of the following spells without expending a spell slot, or having them on your spell list. You can expend a number of Ki points equal to the level of that spell to do so again.",
                 "Bones of The Earth, Cone of Cold, Immolation, Investiture of Flame, Investiture of Ice, Maelstrom, Wall of Stone, Wind Walk."
+            ]
+        },
+        {
+            "name": "Guide Thy Hand",
+            "source": "TftJC",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "God Hand",
+            "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you learn how to seamlessly weave unarmed strikes and ranged attacks. When you make an unarmed attack on your turn, you don’t suffer disadvantage on ranged attacks if a creature is within 5ft of you until the end of your turn. In addition, when you take the Flurry of Blows bonus action, you can replace the two unarmed strikes with one ranged weapon attack."
+            ]
+        },
+        {
+            "name": "Weapons of the God Hand",
+            "source": "TftJC",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "God Hand",
+            "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "Starting at 3rd level, you learn mastery of all forms of ranged weaponry. You gain proficiency in all simple or martial weapons that have the Range property, as well as proficiency in firearms. Any ranged weapon that does not have the heavy property can be a monk weapon for you.",
+                "In addition, you learn the mage hand cantrip and can cast it as a bonus action. As an action you can command the hand to make an unarmed attack, using your bonus, but using Wisdom instead of Strength or Dexterity."
+            ]
+        },
+        {
+            "name": "Deflecting Hand",
+            "source": "TftJC",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "God Hand",
+            "subclassSource": "TftJC",
+            "level": 6,
+            "entries": [
+                "At 6th level, while you have your mage hand active you can use your Deflect Missiles feature when any ally is hit within the range of your mage hand. When you deflect missiles in this way you reduce the damage by 1d4+your Wisdom modifier+your monk level. If the damage is reduced to zero, you can spend ki as normal to redirect the attack."
+            ]
+        },
+        {
+            "name": "Steady Path",
+            "source": "TftJC",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "God Hand",
+            "subclassSource": "TftJC",
+            "level": 6,
+            "entries": [
+                "At 6th level, you learn to manipulate the path of projectiles you fire. Once per turn, when you hit with a ranged weapon attack, you deal additional damage on the attack equal to a roll of your martial arts die. In addition, when you make a ranged weapon attack, you can spend 1 ki to make the attack ignore 1⁄2 or 3⁄4 cover or 2 ki to ignore total cover and remove any disadvantage that would affect the attack."
+            ]
+        },
+        {
+            "name": "Fist of the Gods",
+            "source": "TftJC",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "God Hand",
+            "subclassSource": "TftJC",
+            "level": 11,
+            "entries": [
+                "At 11th level, once per long rest you can expend 4 ki points to cast the bigby’s hand spell. While concentrating on this spell, you can use your Deflecting Hand ability with the range of bigby’s hand rather than mage hand."
+            ]
+        },
+        {
+            "name": "Flurry of Bullets",
+            "source": "TftJC",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "God Hand",
+            "subclassSource": "TftJC",
+            "level": 11,
+            "entries": [
+                "At 11th level, when you replace your Flurry of Blow attacks with ranged weapon attacks, you can make two instead of one. Whenever you make an unarmed strike, you can ignore the loading property of a weapon you are holding, reload one firearm, or attempt to repair one firearm."
+            ]
+        },
+        {
+            "name": "Hand of God",
+            "source": "TftJC",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "God Hand",
+            "subclassSource": "TftJC",
+            "level": 17,
+            "entries": [
+                "At 17th level, once per turn when you hit a creature with a ranged weapon attack you may immediately make one unarmed attack roll against them, as long as they are within the ranged weapon’s range, and you can see them."
             ]
         },
         {
@@ -12775,6 +13498,115 @@
             ]
         },
         {
+            "name": "Burning Strikes",
+            "source": "TftJC",
+            "className": "Ranger",
+            "classSource": "PHB",
+            "subclassShortName": "Devastator",
+            "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "At 3rd level, your strikes have been enhanced with a divine cleansing flame. Once per turn you can deal 1d8 extra fire damage on one of your attacks or spells. This damage ignores resistance if the target is also your favored foe/enemy. When you reach level 11 in this class the extra damage increases to 2d8."
+            ]
+        },
+        {
+            "name": "Devastator's Magic",
+            "source": "TftJC",
+            "className": "Ranger",
+            "classSource": "PHB",
+            "subclassShortName": "Devastator",
+            "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Devastator Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.",
+                {
+                    "type": "table",
+                    "caption": "Devastator Spells",
+                    "colLabels": [
+                        "Ranger Level",
+                        "Spell"
+                    ],
+                    "colStyles": [
+                        "col- text-",
+                        "col- text- "
+                    ],
+                    "rows": [
+                        [
+                            "3rd",
+                            "Hellish Rebuke"
+                        ],
+                        [
+                            "5th",
+                            "Flame Blade"
+                        ],
+                        [
+                            "9th",
+                            "Fireball"
+                        ],
+                        [
+                            "13th",
+                            "Blight"
+                        ],
+                        [
+                            "17th",
+                            "Flame Strike"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Devastator's Tools",
+            "source": "TftJC",
+            "className": "Ranger",
+            "classSource": "PHB",
+            "subclassShortName": "Devastator",
+            "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you’ve been trained with the tools needed to cleanse nature. You gain proficiency in firearms (if they exist in your setting) in addition, you learn the firebolt and produce flame cantrips, and they are ranger spells for you.",
+                "You learn the spell burning hands and can cast it once per day without expending a spell slot. When you cast it using this feature, it is cast with a spell slot equal to your proficiency modifier."
+            ]
+        },
+        {
+            "name": "Seeking Flames",
+            "source": "TftJC",
+            "className": "Ranger",
+            "classSource": "PHB",
+            "subclassShortName": "Devastator",
+            "subclassSource": "TftJC",
+            "level": 7,
+            "entries": [
+                "At 7th level, when you use your Burning Strikes your flames also jump to a number of other creatures nearby within 10 feet up to your proficiency modifier. Each target takes the same amount of fire damage rolled on your d8 from Burning Strikes."
+            ]
+        },
+        {
+            "name": "Devastator of Nature",
+            "source": "TftJC",
+            "className": "Ranger",
+            "classSource": "PHB",
+            "subclassShortName": "Devastator",
+            "subclassSource": "TftJC",
+            "level": 11,
+            "entries": [
+                "At 11th level you’ve become a flaming visage of destruction against natural forces. When you reduce a creature to 0 hit points with a spell or attack that creature explodes in a flurry of fire, dealing 2d8 + your proficiency modifier to all creatures other than you in 10 feet.",
+                "In addition, difficult terrain caused by plants, magical or otherwise, disappears permanently if you move into its square as the plants shrivel and die in your presence. You gain immunity to spells of levels under your proficiency bonus that use plants, such as entangle or thorn whip."
+            ]
+        },
+        {
+            "name": "Flame of Destruction",
+            "source": "TftJC",
+            "className": "Ranger",
+            "classSource": "PHB",
+            "subclassShortName": "Devastator",
+            "subclassSource": "TftJC",
+            "level": 15,
+            "entries": [
+                "At 15th level, you can conjure a powerful flame of destruction and all of your fires burn with a destructive fury. You learn the investiture of flame spell and can cast it once without expending a spell slot.",
+                "In addition, once per turn when you deal fire damage to a creature that creature must make a Constitution saving throw or have disadvantage on the next attack roll or ability check they make before the end of their next turn."
+            ]
+        },
+        {
             "name": "Miraculous Recovery",
             "source": "TftJC",
             "className": "Ranger",
@@ -13054,6 +13886,67 @@
             "level": 15,
             "entries": [
                 "At 15th level, you can easily get to where ever you need to be in a battle. As a Bonus Action, you can teleport up to 150ft. Your next attack this turn has advantage. You can do this a number of times equal to your Proficiency Bonus per Long Rest."
+            ]
+        },
+        {
+            "name": "Luck Cutter",
+            "source": "TftJC",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Luckthief",
+            "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you gain the ability to cut away the luck of your enemies and use it for yourself. When you hit a creature and use your Sneak Attack roll 1d4 and deal additional damage equal to the number rolled, in addition subtract it from that creatures next attack roll or saving throw and you add the number rolled to the first attack roll or saving throw you make. You can use this ability a number of times equal to your proficency bonus, regaining all uses when you finish a long rest.",
+                "The bonus from this ability increases to 1d6 at level 5, 1d8 at level 9, 1d10 at level 13, and 1d12 at level 17."
+            ]
+        },
+        {
+            "name": "Watcher of Fate",
+            "source": "TftJC",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Luckthief",
+            "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "When you take this archetype at 3rd level, you gain the bless and bane spells and can cast each of them once without expending a spell slot before having a long rest. Your Wisdom is your spell save ability for these spells."
+            ]
+        },
+        {
+            "name": "Bend Fate",
+            "source": "TftJC",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Luckthief",
+            "subclassSource": "TftJC",
+            "level": 9,
+            "entries": [
+                "At 9th level, you can directly gaze upon and influence the fates around you. You gain the divination spell and can use it once without needing material components or expending a spell slot before having a long rest. When you use this ability, you can then reroll one attack roll, saving throw, or attack roll you make in the next 24 hours, you must use the new result."
+            ]
+        },
+        {
+            "name": "Share the Fortune",
+            "source": "TftJC",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Luckthief",
+            "subclassSource": "TftJC",
+            "level": 13,
+            "entries": [
+                "At 13th level, you can choose to share your luck with your allies. When you use your Luck Cutter ability you can choose to forgo the bonus on your own roll to instead grant advantage to the first saving throw or attack roll of any number of creatures within 30ft of you made within the next minute."
+            ]
+        },
+        {
+            "name": "Sever the Thread",
+            "source": "TftJC",
+            "className": "Rogue",
+            "classSource": "PHB",
+            "subclassShortName": "Luckthief",
+            "subclassSource": "TftJC",
+            "level": 17,
+            "entries": [
+                "At 17th level, you gain the ability to deal a greater wound to someone’s luck. When you use your Luck Cutter ability you can forgo the bonus and instead choose to cause the next attack roll against the target to be a 20 on the die, and the next attack roll against you to be a 1 on the die. Once you use this ability you cannot use it again until you finish a long rest."
             ]
         },
         {
@@ -14154,6 +15047,114 @@
             "entries": [
                 "At 14th level, your minion's power is permanently linked with yours. When you are affected by a spell you can choose to share the effect with your minion as long as it is within 30 feet of you. Also when you fail a saving throw against a negative effect from a spell, such as hold person, and your minion is within 30 feet both you and your minion can use your reactions to have the spell take effect on your minion instead.",
                 "Your minion can become large and any future minions can be large as well."
+            ]
+        },
+        {
+            "name": "Deep Pockets",
+            "source": "TftJC",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Opulent",
+            "subclassSource": "TftJC",
+            "level": 1,
+            "entries": [
+                "Starting at 1st level, the pockets and pouches of all your clothes are magically enchanted as you put them on. Any pocket or pouch that you are wearing can hold an infinite amount of coins. It can only hold coins. When you remove clothing, the coins are locked in a pocket plane until you don new clothing. When you pull coins out of this dimension, they are of any denomination you wish, regardless of what you put in as long as removing that coin would not be worth more than what is in the pocket plane.",
+                "In addition, whenever you finish a long rest you gain 1d4+warlock level gp, added directly into your pocket dimension."
+            ]
+        },
+        {
+            "name": "Expanded Spell List",
+            "source": "TftJC",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Opulent",
+            "subclassSource": "TftJC",
+            "level": 1,
+            "entries": [
+                "Opulent lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+                {
+                    "type": "table",
+                    "caption": "Opulent Expanded Spells",
+                    "colLabels": [
+                        "Spell Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col- text-",
+                        "col- text- "
+                    ],
+                    "rows": [
+                        [
+                            "1st",
+                            "chromatic orb, ceremony"
+                        ],
+                        [
+                            "2nd",
+                            "arcane lock, warding bond"
+                        ],
+                        [
+                            "3rd",
+                            "glyph of warding, non-detection"
+                        ],
+                        [
+                            "4th",
+                            "divination, secrect chest"
+                        ],
+                        [
+                            "5th",
+                            "dawn, teleportation circle"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Gifted Prowess",
+            "source": "TftJC",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Opulent",
+            "subclassSource": "TftJC",
+            "level": 1,
+            "entries": [
+                "Starting at 1st level, you gain the eldritch blast cantrip if you did not have it already. However, it now has a material component that is consumed when used. The material component can be 1cp, 1sp, 1ep, 1gp, or 1pp.",
+                "When you cast the spell, the damage isdetermined by the material component. 1d4 for 1cp, 1d6 for 1sp, 1d8 for 1ep, 1d10 for 1gp, and 1d12 for 1pp."
+            ]
+        },
+        {
+            "name": "Band For Your Buck",
+            "source": "TftJC",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Opulent",
+            "subclassSource": "TftJC",
+            "level": 6,
+            "entries": [
+                "Starting at 6th level, whenever you cast a spell that requires a material component that has a GP cost of greater than 1gp you can double all dice rolled as part of that spell, however the spell consumes twice the material component even if it does not regularly. You can use this feature a number of times per long rest equal to your Proficiency Bonus."
+            ]
+        },
+        {
+            "name": "Cutpurse's Confounding",
+            "source": "TftJC",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Opulent",
+            "subclassSource": "TftJC",
+            "level": 10,
+            "entries": [
+                "Beginning at 10th level, whenever you take damage from an attack or fail a saving throw you can use your reaction to either take half damage from the attack or reroll the saving throw. To do so you must expend 100gp, which vanishes in a puff of smoke. You canmake use of this feature until the total amount of gold pieces spent reaches 1000gp. This total resets when you finish a long rest."
+            ]
+        },
+        {
+            "name": "Opulent Appearance",
+            "source": "TftJC",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Opulent",
+            "subclassSource": "TftJC",
+            "level": 14,
+            "entries": [
+                "Starting at 14th level, the amount of gold that you carry enhances your body and empowers your mind. For each 10,000gp of gold that you have on your person all your ability scores increase by 1 to a maximum of 22. Should the amount of gold you are carrying every drop below 10,000gp you gain disadvantage on all ability checks, saving throws, and attack rolls until it is over 10,000gp. In addition, you can ignore the gold cost of any material components that are not consumed."
             ]
         },
         {
