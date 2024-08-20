@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.0.28"
+                "version": "0.0.29"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1724196232
+        "dateLastModified": 1724196458
     },
     "background": [
         {
@@ -15125,7 +15125,7 @@
             ]
         },
         {
-            "name": "Band For Your Buck",
+            "name": "Bang For Your Buck",
             "source": "TftJC",
             "className": "Warlock",
             "classSource": "PHB",
