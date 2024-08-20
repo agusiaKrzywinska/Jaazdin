@@ -6,9 +6,12 @@
     "classSource": "PHB",
     "shortName": "God Hand",
     "subclassFeatures": [
-        "Spirit Stance|Monk|PHB|God Hand|TftJC|3",
-        "Stance Shift|Monk|PHB|God Hand|TftJC|6",
-        "Spiritual Connection|Monk|PHB|God Hand|TftJC|11",
-        "Spirit Brothers|Monk|PHB|God Hand|TftJC|17"
+        "Weapons of the God Hand|Monk|PHB|God Hand|TftJC|3",
+        "Guide Thy Hand|Monk|PHB|God Hand|TftJC|3",
+        "Steady Path|Monk|PHB|God Hand|TftJC|6",
+        "Deflecting Hand|Monk|PHB|God Hand|TftJC|6",
+        "Flurry of Bullets|Monk|PHB|God Hand|TftJC|11",
+        "Fist of the Gods|Monk|PHB|God Hand|TftJC|11",
+        "Hand of God|Monk|PHB|God Hand|TftJC|17"
     ]
 }
