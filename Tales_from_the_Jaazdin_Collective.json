@@ -18,7 +18,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1724153193
+        "dateLastModified": 1724154887
     },
     "background": [
         {
@@ -1636,6 +1636,18 @@
             ]
         },
         {
+            "name": "Compass of Seeking",
+            "source": "TftJC",
+            "type": "T",
+            "rarity": "rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "entries": [
+                "While holding this golden compass, you can speak the name of any location of which you have been before, and the compass will point to the location. If the location is not on the plane you are on, it will point to the nearest portal to that plane, including possibly leading through multiple unrelated planes to get to your target if no immediate portal exists.",
+                "The compass always points to the most efficient route, ignoring things such as human limitations, bodies of water, or gravity. If the compass can’t find a proper route, its needle will spin until a new name is spoken or a pathway opens. "
+            ]
+        },
+        {
             "name": "Compass of the Guiding Arrow",
             "source": "TftJC",
             "type": "T",
@@ -1655,6 +1667,11 @@
             "rarity": "artifact",
             "wondrous": true,
             "reqAttune": "by a creature with spellcasting that uses their Charisma",
+            "reqAttuneTags": [
+                {
+                    "spellcasting": true
+                }
+            ],
             "entries": [
                 "You gain a +2 to spell attack rolls and your spell save DC. When you would cast a spell that requires Gemstones as an expended material component, the cost of the gemstones is lowered by 100 for you."
             ]
@@ -1677,6 +1694,22 @@
             ]
         },
         {
+            "name": "Crown of the Everknowing",
+            "source": "TftJC",
+            "rarity": "artifact",
+            "wondrous": true,
+            "curse": true,
+            "ability": {
+                "int": 2
+            },
+            "entries": [
+                "This crown once belonged to the Golden Empress of Mere’su’ra who hungered to know everything in the world. This crown is inset with nine sapphires that glow with a soft blue light. A creature wearing this crown gains +2 to their Intelligence and increases their maximum Intelligence to 22.",
+                "While wearing this crown, you gain +1 max Hit Points for each tool or language proficiency you have.",
+                "<b><i>Cursed.</i></b> This crown is imbued with the Thilask’s lust for knowledge, which infects the wearer. You will go to great lengths to learn and hoard secrets. Gaps in your knowledge irritate you and you will try to fill them whenever possible.",
+                "Whenever you fail a History, Nature, Arcana, or Religion check, one of the seven sapphires on the crown will light up. When all seven gems light up, you suffer 20d10 psychic damage and have disadvantage on any Intelligence saving throws, attack rolls, and ability checks for one week. If this damage reduces a creature to zero hit points they turn into a Nothic. If the crown ever leaves your person, your Intelligence becomes 1, this lasts until you have the Crown again or a 9th level Remove Curse removes the curse."
+            ]
+        },
+        {
             "name": "Damascene",
             "source": "TftJC",
             "page": 10,
@@ -1686,7 +1719,7 @@
             "value": 25000,
             "entries": [
                 "<b><i>Effect.</i></b> When using the firearm for a performance check, you have advantage.",
-                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+                "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
             ]
         },
         {
@@ -1831,21 +1864,6 @@
         {
             "name": "Double Barrel",
             "source": "TftJC",
-            "page": 12,
-            "type": "OTH",
-            "rarity": "none",
-            "weight": 0,
-            "value": 150000,
-            "entries": [
-                "<b><i>Effect.</i></b> When using your bonus action to make an attack with a light firearm, you can make two attacks as a part of the same bonus action.",
-                "<b><i>Restrictions.</i></b> Requires the Light property.",
-                "<b><i>Archetype.</i></b> Only Quickdraws can use this modification.",
-                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
-            ]
-        },
-        {
-            "name": "Double Barrel",
-            "source": "TftJC",
             "type": "R",
             "rarity": "none",
             "weight": 8,
@@ -1862,6 +1880,21 @@
                 "<b><i>Tier 2.</i></b>",
                 "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
                 "<b><i>Pump 2.</i></b> A pump ammo system stores a number of shots directly in the gun. You can reload the barrel with up to 2 slugs as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two shots as a part of the same attack. The first target takes additional damage equal to the weapon's damage die. Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
+            ]
+        },
+        {
+            "name": "Double-Barrel",
+            "source": "TftJC",
+            "page": 12,
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 150000,
+            "entries": [
+                "<b><i>Effect.</i></b> When using your bonus action to make an attack with a light firearm, you can make two attacks as a part of the same bonus action.",
+                "<b><i>Restrictions.</i></b> Requires the Light property.",
+                "<b><i>Archetype.</i></b> Only Quickdraws can use this modification.",
+                "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
             ]
         },
         {
@@ -2095,7 +2128,8 @@
             "range": "80/320",
             "entries": [
                 "<b><i>Tier 2.</i></b>",
-                "<b><i>Explosive 5.</i></b> Upon a hit, everything within a radius determined by its explosive value of the target must make a Dexterity saving throw (DC equal to 8 + the firearm's tier x2) or take an additional 1d4 fire damage x the firearm's Tier. If the weapon attack misses, the explosive ammunition fails to detonate. Explosive weapons have their misfire score increased by 1."
+                "<b><i>Explosive 5.</i></b> Upon a hit, everything within a radius determined by its explosive value of the target must make a Dexterity saving throw (DC equal to 8 + the firearm's tier x2) or take an additional 1d4 fire damage x the firearm's Tier. If the weapon attack misses, the explosive ammunition fails to detonate. Explosive weapons have their misfire score increased by 1.",
+                "<b><i>Barrel 1.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
             ]
         },
         {
@@ -2206,7 +2240,8 @@
             "range": "30/60",
             "entries": [
                 "<b><i>Tier 2.</i></b>",
-                "<b><i>Gas 5.</i></b> Gas weapons do not require to be loaded, rather attached to them is a tank of fuel. A gas weapon uses one unit of gas per attack, and can attack until the tank is depleted. A Gas tank can be refilled by spending 1 minute per unit refilled. You cannot store additional units of Gas, except within the weapon itself."
+                "<b><i>Gas 5.</i></b> Gas weapons do not require to be loaded, rather attached to them is a tank of fuel. A gas weapon uses one unit of gas per attack, and can attack until the tank is depleted. A Gas tank can be refilled by spending 1 minute per unit refilled. You cannot store additional units of Gas, except within the weapon itself.",
+                "<b><i>Cone 5.</i></b> Cone weapons attack in a cone with a length equal to their value, using the attack roll rolled on all creatures within its cone area."
             ]
         },
         {
@@ -2255,7 +2290,7 @@
             "weight": 0,
             "value": 7500,
             "entries": [
-                "<b><i>Effect.</i></b> When drawing a light firearm, you can draw another one as a part of the same action.",
+                "<b><i>Effect.</i></b> When drawing this light firearm, you can draw another one as a part of the same action.",
                 "<b><i>Restrictions.</i></b> Requires the Light property.",
                 "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
             ]
@@ -2390,8 +2425,8 @@
         {
             "name": "Handcannon",
             "source": "TftJC",
-            "rarity": "none",
             "type": "GV",
+            "rarity": "none",
             "entries": [
                 "This miniature cannon can be wielded effectively with two hands, like a heavy crossbow.",
                 "Proficiency in the Heavy Crossbow allows you to add your proficiency bonus with this weapon.",
@@ -2484,6 +2519,24 @@
                 "You gain resistance to Cold Damage. If you already have resistance from another source, this either becomes resistance to Necrotic Damage, or immunity to Cold (your choice).",
                 "Your Charisma Score and its maximum increase by 2, up to 30.",
                 "Whenever you succeed on a Saving Throw, the Amulet bursts with Ice. Your next weapon or spell attack in the next minute deals additional damage equal to your Charisma Modifier."
+            ]
+        },
+        {
+            "name": "Heart of the Empire",
+            "source": "TftJC",
+            "rarity": "artifact",
+            "wondrous": true,
+            "curse": true,
+            "ability": {
+                "con": 2
+            },
+            "entries": [
+                "This golden amulet is in the shape of the monumental pyramids of Mere’su’ra, a favored piece of jewelry of its tragic empress. When in direct sunlight it glows a soft golden.",
+                "Golden Heart. Your Constitution score increases by 2 and your maximum increases by 2 as well.",
+                "<b><i>Heart of the Mind.</i></b> When you fail a Death Save instead of marking a failure, you reduce your Intelligence by 1, this intelligence drop cannot be mitigated through any means. If this drops your Intelligence to 0, you die instantly. Intelligence lost in this way is regained on the last day of the month.",
+                "<b><i>Greater Diviner.</i></b> While on your person, Divination spells of 5th level or lower do not require spell slots to cast.",
+                "<b><i>Cursed.</i></b> Cursed. Upon touching this amulet a creature becomes cursed. While cursed, they gain boundless compassion similar to Thilask the Empress of Mere’su’ra. You instinctively trust people and cannot think about lying, answering openly and honestly to those you encounter. You automatically fail Deception and Insight checks and the saving throws of any effects that would force you to tell the truth.",
+                "You are unable to benefit from any illusions that would obscure your appearance or effects that would shape change you, such as polymorph or wild shape and similarly magic items or spells that prevent creatures from reading your thoughts or learning your creature type don’t work on you. Should you ever take off the amulet or lose it your Constitution becomes 1, this lasts until you have the amulet again or a 9th level Remove Curse removes the curse."
             ]
         },
         {
@@ -2690,7 +2743,7 @@
             "type": "OTH",
             "rarity": "none",
             "weight": 0,
-            "value": 5000,
+            "value": 20000,
             "entries": [
                 "<b><i>Effect.</i></b> The firearm gains a +1 to-hit.",
                 "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
@@ -2965,6 +3018,27 @@
             ]
         },
         {
+            "name": "Musket",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "weight": 5,
+            "value": 5000,
+            "weaponCategory": "martial",
+            "property": [
+                "2H"
+            ],
+            "charges": 1,
+            "dmg1": "1d8",
+            "dmgType": "P",
+            "range": "50/200",
+            "entries": [
+                "<b><i>Tier 31.</i></b>",
+                "<b><i>Barrel 1.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel.",
+                "<b><i>Loud.</i></b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away."
+            ]
+        },
+        {
             "name": "Naginata",
             "source": "TftJC",
             "page": 50,
@@ -3117,7 +3191,7 @@
             "entries": [
                 "<b><i>Tier 2.</i></b>",
                 "<b><i>Gas 7.</i></b> Gas weapons do not require to be loaded, rather attached to them is a tank of fuel. A gas weapon uses one unit of gas per attack, and can attack until the tank is depleted. A Gas tank can be refilled by spending 1 minute per unit refilled. You cannot store additional units of Gas, except within the weapon itself.",
-                "<b><i>Cone 10.</i></b> ???"
+                "<b><i>Cone 10.</i></b> Cone weapons attack in a cone with a length equal to their value, using the attack roll rolled on all creatures within its cone area."
             ]
         },
         {
@@ -3568,7 +3642,8 @@
             "range": "100/400",
             "entries": [
                 "<b><i>Tier 4.</i></b>",
-                "<b><i>Explosive 10.</i></b> Upon a hit, everything within a radius determined by its explosive value of the target must make a Dexterity saving throw (DC equal to 8 + the firearm's tier x2) or take an additional 1d4 fire damage x the firearm's Tier. If the weapon attack misses, the explosive ammunition fails to detonate. Explosive weapons have their misfire score increased by 1."
+                "<b><i>Explosive 10.</i></b> Upon a hit, everything within a radius determined by its explosive value of the target must make a Dexterity saving throw (DC equal to 8 + the firearm's tier x2) or take an additional 1d4 fire damage x the firearm's Tier. If the weapon attack misses, the explosive ammunition fails to detonate. Explosive weapons have their misfire score increased by 1.",
+                "<b><i>Barrel 1.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
             ]
         },
         {
@@ -5498,114 +5573,6 @@
     ],
     "reward": [],
     "spell": [
-        {
-            "name": "Toxic Earth",
-            "source": "TftJC",
-            "page": 98,
-            "level": 6,
-            "school": "N",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 90
-                }
-            },
-            "components": {
-                "v": true,
-                "s": true
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 10
-                    },
-                    "concentration": true
-                }
-            ],
-            "entries": [
-                "You place your hand on the ground and pour corruptive energies into it turning the very earth toxic to those that touch it. The poisoned area consists of up to 5 15ft cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. The area inside each cube is difficult terrain and each time a creature starts its turn inside one of the cubes it must make a Constitution saving throw or take 4d10 poison damage and become poisoned until the start of its next turn, while poisoned in this way the creature’s speed is halved. On a successful save it takes half as much damage and is not poisoned."
-            ],
-            "savingThrow": [
-                "constitution"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Druid",
-                        "source": "PHB"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "Time Lock",
-            "source": "TftJC",
-            "page": 96,
-            "level": 4,
-            "school": "T",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 60
-                }
-            },
-            "components": {
-                "v": true,
-                "m": "a small doll and an hourglass worth 25gp"
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minute",
-                        "amount": 1
-                    },
-                    "concentration": true
-                }
-            ],
-            
-            "entries": [
-                "You reach out with grasping magical forces to freeze a target in time and space. Choose one target in range, that target must make a Wisdom saving throw or become stunned. While stunned in this way the target is not aware of its surroundings and is immune to all damage. The target cannot be moved from its current location, even remaining airborne if the ground beneath it is removed. At the end of each of its turns the target can make a Wisdom saving throw, on a success the spell ends. When the spell ends, including if they succeed on the saving throw, the target can only take an action or bonus action and has their movement speed halved until the end of their next turn."
-            ],
-            "entriesHigherLevel": [
-                "At Higher Levels. When you cast this spell using a spell slot of 5th level or higher you can target one additional creature."
-            ],
-            "savingThrow": [
-                "wisdom"
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Sorcerer",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Warlock",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Wizard",
-                        "source": "PHB"
-                    }
-                ]
-            }
-        },
         {
             "name": "Aqua Whip",
             "source": "TftJC",
@@ -8020,6 +7987,113 @@
                 "necrotic",
                 "force"
             ]
+        },
+        {
+            "name": "Time Lock",
+            "source": "TftJC",
+            "page": 96,
+            "level": 4,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60
+                }
+            },
+            "components": {
+                "v": true,
+                "m": "a small doll and an hourglass worth 25gp"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You reach out with grasping magical forces to freeze a target in time and space. Choose one target in range, that target must make a Wisdom saving throw or become stunned. While stunned in this way the target is not aware of its surroundings and is immune to all damage. The target cannot be moved from its current location, even remaining airborne if the ground beneath it is removed. At the end of each of its turns the target can make a Wisdom saving throw, on a success the spell ends. When the spell ends, including if they succeed on the saving throw, the target can only take an action or bonus action and has their movement speed halved until the end of their next turn."
+            ],
+            "entriesHigherLevel": [
+                "At Higher Levels. When you cast this spell using a spell slot of 5th level or higher you can target one additional creature."
+            ],
+            "savingThrow": [
+                "wisdom"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Toxic Earth",
+            "source": "TftJC",
+            "page": 98,
+            "level": 6,
+            "school": "N",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 90
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 10
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You place your hand on the ground and pour corruptive energies into it turning the very earth toxic to those that touch it. The poisoned area consists of up to 5 15ft cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. The area inside each cube is difficult terrain and each time a creature starts its turn inside one of the cubes it must make a Constitution saving throw or take 4d10 poison damage and become poisoned until the start of its next turn, while poisoned in this way the creature’s speed is halved. On a successful save it takes half as much damage and is not poisoned."
+            ],
+            "savingThrow": [
+                "constitution"
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    }
+                ]
+            }
         },
         {
             "name": "Warrior's Epitaph",

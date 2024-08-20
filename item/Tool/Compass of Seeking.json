@@ -1,0 +1,12 @@
+{
+    "name": "Compass of Seeking",
+    "source": "TftJC",
+    "type": "T",
+    "rarity": "rare",
+    "wondrous": true,
+    "reqAttune": true,
+    "entries": [
+        "While holding this golden compass, you can speak the name of any location of which you have been before, and the compass will point to the location. If the location is not on the plane you are on, it will point to the nearest portal to that plane, including possibly leading through multiple unrelated planes to get to your target if no immediate portal exists.",
+        "The compass always points to the most efficient route, ignoring things such as human limitations, bodies of water, or gravity. If the compass can’t find a proper route, its needle will spin until a new name is spoken or a pathway opens. "
+    ]
+}
