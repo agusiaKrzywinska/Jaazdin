@@ -18,7 +18,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1724118936
+        "dateLastModified": 1724151436
     },
     "background": [
         {
@@ -14076,7 +14076,7 @@
             "subclassSource": "TftJC",
             "level": 2,
             "entries": [
-                "At 2nd level, you become a savant in cramming in spells into your spellbook. When you prepare your Wizard spell, you can also shorthand a number of spells into your spellbook equal to your Proficiency Bonus. You cannot Shorthand the same spell twice, nor can you have a prepared spell also Shorthanded. These Shorthanded spells once each without using a spell slot, but cannot be cast using your normal spell slots. You can only Shorthand spells equal to or lower than 5th level.",
+                "At 2nd level, you become a savant in cramming in spells into your spellbook. When you prepare your Wizard spell, you can also shorthand a number of spells into your spellbook equal to half of your Wizard level, in total Spell Levels (rounded down). You cannot Shorthand the same spell twice, nor can you have a prepared spell also Shorthanded. These Shorthanded spells can be casted once each without using a spell slot, but cannot be cast using your normal spell slots. You can only Shorthand spells equal to or lower than 5th level.",
                 "Additionally, when copying spells into your spellbook, you can do so 10x faster."
             ]
         },
