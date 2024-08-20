@@ -1,15 +1,16 @@
 {
     "name": "Hookblade",
     "source": "TftJC",
-    "type": "Invention",
+    "rarity": "none",
+    "type": "GV",
     "entries": [
         "This bracer contains a retractable two-pronged climbing tool.",
         "There are the following versions:",
         {
             "type": "list",
             "items": [
-                "{@reward Hookblade MK I|TftJC}",
-                "{@reward Hookblade MK II|TftJC}"
+                "{@item Hookblade MK I|TftJC}",
+                "{@item Hookblade MK II|TftJC}"
             ]
         }
     ]

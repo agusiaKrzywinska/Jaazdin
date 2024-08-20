@@ -1,14 +1,15 @@
 {
     "name": "Wirelauncher",
     "source": "TftJC",
-    "type": "Invention",
+    "rarity": "none",
+    "type": "GV",
     "entries": [
         "There are the following versions:",
         {
             "type": "list",
             "items": [
-                "{@reward Wirelauncher MK I|TftJC}",
-                "{@reward Wirelauncher MK II|TftJC}"
+                "{@item Wirelauncher MK I|TftJC}",
+                "{@item Wirelauncher MK II|TftJC}"
             ]
         }
     ]

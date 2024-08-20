@@ -1,7 +1,8 @@
 {
     "name": "Quickdraw Bandolier",
     "source": "TftJC",
-    "type": "Invention",
+    "rarity": "none",
+    "type": "G",
     "entries": [
         "<i><b>Innovative Invention.</i></b>",
         "This multi-pouch strap can be worn over the chest. The Bandolier contains 5 front pouches and two back straps.",

@@ -1,7 +1,17 @@
 {
     "name": "Wirelauncher MK I",
     "source": "TftJC",
-    "type": "Invention",
+    "baseItem": "javelin|phb",
+    "type": "M",
+    "rarity": "none",
+    "weight": 2,
+    "weaponCategory": "simple",
+    "property": [
+        "T"
+    ],
+    "range": "30/120",
+    "dmg1": "1d6",
+    "dmgType": "P",
     "entries": [
         "<i><b>Simple Invention.</i></b>",
         "A creature can spend 1 minute attaching a javelin to this device. The javelin retains any properties it had before, such as enchantments and rare metal abilities. While attached, the javelin now connects to a canister containing 50ft of thick rope.",

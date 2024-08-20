@@ -1,7 +1,8 @@
 {
     "name": "Hookblade MK II",
     "source": "TftJC",
-    "type": "Invention",
+    "type": "T",
+    "rarity": "none",
     "entries": [
         "<i><b>Innovative Invention.</i></b>",
         "This bracer contains a retractable three-pronged climbing tool.",

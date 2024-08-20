@@ -1,7 +1,8 @@
 {
     "name": "The Bunker Buster",
     "source": "TftJC",
-    "type": "Invention",
+    "type": "OTH",
+    "rarity": "none",
     "entries": [
         "<i><b>Groundbreaking Invention.</i></b>",
         "This 5ft x 5ft sphere contains enough firepower in it to level a town.  It weighs 75lbs and has large metal handles on the sides for easier carrying. It has an AC of 20, 100 hit points (immune to psychic/necrotic/poison, resist non-magical weapon damage). If its hit points drop to 0 it begins detonation (this does not expose the core, meaning it cannot be disarmed).",

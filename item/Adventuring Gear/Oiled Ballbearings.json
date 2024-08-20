@@ -1,7 +1,9 @@
 {
     "name": "Oiled Ballbearings",
     "source": "TftJC",
-    "type": "Invention",
+    "rarity": "none",
+    "baseItem": "Ball Bearings (bag of 1,000)|PHB",
+    "type": "G",
     "entries": [
         "<i><b>Simple Invention.</i></b>",
         "These ballbearings have been coated in slippery oil. As an Action, you can apply 3 Flasks of Oil to Ball Bearings.",
