@@ -1,0 +1,47 @@
+{
+    "name": "Speaker of the Wind",
+    "source": "TftJC",
+    "type": "Elemental Gift",
+    "entries": [
+        "This creature has been attuned the energies of Sky Titan and the Plane of Air. They gain the following features.",
+        "They learn to read and write Druidic.",
+        "Once per long rest the creature can cast Feather Fall without expending a spell slot.",
+        "At 5th level, they gain the ability to cast Warding Wind without expending a spell slot.",
+        "At 9th level they gain the ability to cast Wind Wall without expending a spell slot.",
+        "Once they have casted any of the three spells with this feature they cannot do so again until finish a long rest.",
+        "Your casting ability for these spells is Wisdom."
+    ],
+    "additionalSpells": [
+        {
+            "innate": {
+                "3": {
+                    "daily": {
+                        "1": [
+                            "feather fall|PHB"
+                        ]
+                    }
+                },
+                "5": {
+                    "daily": {
+                        "1": [
+                            "warding wind|XGE"
+                        ]
+                    }
+                },
+                "9": {
+                    "daily": {
+                        "1": [
+                            "wind Wall|PHB"
+                        ]
+                    }
+                }
+            },
+            "ability": "wis"
+        }
+    ],
+    "languageProficiencies": [
+        {
+            "druidic": true
+        }
+    ]
+}

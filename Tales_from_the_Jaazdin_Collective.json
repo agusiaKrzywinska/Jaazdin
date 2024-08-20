@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.0.27"
+                "version": "0.0.28"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1724158781
+        "dateLastModified": 1724192192
     },
     "background": [
         {
@@ -1998,6 +1998,54 @@
             ]
         },
         {
+            "name": "Electrolysis Orb",
+            "source": "TftJC",
+            "rarity": "legendary",
+            "reqAttune": "Spellcaster that can cast 5th level spells or higher",
+            "wondrous": true,
+            "entries": [
+                "This metal orb hovers around the user and requires no hands to wield. The Orb retains its magical properties while within 120ft of its owner, and leaving this radius causes it to slowly hover back to its owner at 30ft per round. Upon casting a 1st level spell or higher, the attuned can move the Orb up to 30ft (before or after the spell is cast).",
+                "It grants a +2 to your Spell Save DC and Spell attack rolls. The orb can be fitted with 4 plates of a Rare Metal (requiring 1 hour of work and smiths tools in hand, no downtime required), granting the effects of their Weapon Bonus to your Spell attack rolls if it can be properly applied. The plates can also be removed by spending an hour.",
+                "The owner of the Orb can give the Orb Commands as a Bonus Action. Below are its possible commands.",
+                {
+                    "type": "list",
+                    "style": "list-hang",
+                    "items": [
+                        "Static Wave - The Orb pulses with electricity. All creatures within 15ft of it must make a Dexterity Saving Throw against your DC or take 3d8 lightning damage (half as much on a success).",
+                        "Reflector - The Orb pulses with a protective field. All creatures within 15ft of the orb gain 1d8 + your casting modifier Temporary Hit points.",
+                        "Positioner - The Orb channels your magic through it. Until the start of your next turn, spells you cast originate from the Orb instead of you. Alternatively, you can use the Orb to reposition Line spells with the orb acting as a point of rotation."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Electrolysis Orb",
+            "source": "TftJC",
+            "rarity": "very rare",
+            "reqAttune": "by a creature with Intelligence, Wisdom, or Charisma greater than or equal to 15",
+            "wondrous": true,
+            "entries": [
+                "This combination Armbrace and belt depicts the visage of a grand astral dragon with amethyst inlays. This brace was once made for elite warriors of Vlaakith, but have since been lost or are not in production, although it is still possible to create new ones with materials from various planes of existence.",
+                "This item was blessed through Vlaakith, and she would not want this to be muddled in any other way. You cannot combine this item.",
+                "As an action, you can activate this brace and gain the following benefits: ",
+                {
+                    "type": "list",
+                    "style": "list-hang",
+                    "items": [
+                        "You gain a bonus to AC equal to your (Intelligence/Wisdom/Charisma) modifier",
+                        "Your walking speed increases by 10 feet",
+                        "You gain advantage on Acrobatics Checks",
+                        "You gain a bonus equal to your Constitution saving throw for maintaining concentration on spells equal to your (Intelligence/Wisdom/Charisma) Ability modifier"
+                    ]
+                },
+                "When you activate this brace, roll 1d3, on a 1 you use your Intelligence modifier, on a 2 you use your Wisdom Modifier, and on a 3 you use your Charisma modifier",
+                "This effect lasts for 1 minute. At the end of its activation, you gain 1 level of exhaustion and are stunned for a 1 turn.",
+                "The brace can be activated in this way 3 times and you regain 1 use per long rest. You cannot end this effect early.",
+                "If the attuning creature has access to Psionic Energy Dice, the Telekinetic Feat, or the Telepathic Feat, they gain access to the following ability:",
+                "Astral Blade: When you attack with a weapon while the Warbrace is active, your attacks are considered magical and can add 1d8 Force damage once per turn."
+            ]
+        },
+        {
             "name": "Enchanting Catalogue Vol.",
             "source": "TftJC",
             "rarity": "varies",
@@ -3644,6 +3692,32 @@
                 "<b><i>Tier 4.</i></b>",
                 "<b><i>Explosive 10.</i></b> Upon a hit, everything within a radius determined by its explosive value of the target must make a Dexterity saving throw (DC equal to 8 + the firearm's tier x2) or take an additional 1d4 fire damage x the firearm's Tier. If the weapon attack misses, the explosive ammunition fails to detonate. Explosive weapons have their misfire score increased by 1.",
                 "<b><i>Barrel 1.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
+            ]
+        },
+        {
+            "name": "Sanguinity",
+            "source": "TftJC",
+            "rarity": "very rare",
+            "wondrous": true,
+            "curse": true,
+            "reqAttune": true,
+            "entries": [
+                "This tarnished, silvered bracer slides with ease onto any wrist. The bracer is made of Devil’s Mercury inlaid with Bloodsteel. No matter what form of bracer, it always retains an intricate design depicting a well crafted yet horrifying visage of the arts of Sanguine Alchemy.",
+                "This bracer punctures into the vital vein of the wearer, using their life essence to power its alchemy. Upon attuning to this item, a creature takes 5 points of piercing damage. ",
+                "Once attuned, the wearer gains these following traits:",
+                {
+                    "type": "list",
+                    "style": "list-hang",
+                    "items": [
+                        "Clotted Regeneration: At the start of your turn, you can expend a use of your Hit Dice to gain Temporary HP equal to the amount rolled",
+                        "Crimson Strike: As a bonus action, you can expend a number of hit dice equal to your level to add to the damage of your next attack (weapon or spell). When you expend these hit dice, roll half the amount of those dice (rounded up) and you take piercing damage equal to the number rolled. This damage cannot be reduced in any way.",
+                        "Blood Shield: When you are hit with an attack, you can use your reaction to expend a Hit Dice and increase your AC by the amount rolled against that instance of attack.",
+                        "Eldritch Claret: As an Action, you can expend an amount of Hit Dice equal to the highest Spell Slot you are able to cast, you then regain a spell slot equal to the amount of hit dice you expend. When you expend these Hit Dice, roll half of the amount expended (rounded up), and take piercing damage equal to the amount rolled. This damage cannot be reduced in any way."
+                    ]
+                },
+                "Curse: Sanguinity is a cursed item. When a creature attunes to this bracer, they are unable to remove it unless a DC 20 Medicine Check is met as well as a cast of the {@spell Remove Curse} spell.",
+                "While the creature is attuned to the bracer, once every two weeks they must roll a DC 14 Wisdom Saving throw or become Blood Starved. While Blood Starved, the creature gains 1 point of exhaustion for every week they do not consume the blood from one humanoid creature (other than yourself). The amount of blood to consume must equal one or more pints.",
+                "By drinking blood, you are no longer Blood Starved. If you fail this save again without drinking blood, this effect stacks"
             ]
         },
         {
@@ -5556,6 +5630,55 @@
                         "Myconid can write and understand Common and Undercommon. Myconids can speak any language they can understand by expelling spores at a creature."
                     ],
                     "type": "entries"
+                }
+            ]
+        }
+    ],
+    "reward": [
+        {
+            "name": "Speaker of the Wind",
+            "source": "TftJC",
+            "type": "Elemental Gift",
+            "entries": [
+                "This creature has been attuned the energies of Sky Titan and the Plane of Air. They gain the following features.",
+                "They learn to read and write Druidic.",
+                "Once per long rest the creature can cast Feather Fall without expending a spell slot.",
+                "At 5th level, they gain the ability to cast Warding Wind without expending a spell slot.",
+                "At 9th level they gain the ability to cast Wind Wall without expending a spell slot.",
+                "Once they have casted any of the three spells with this feature they cannot do so again until finish a long rest.",
+                "Your casting ability for these spells is Wisdom."
+            ],
+            "additionalSpells": [
+                {
+                    "innate": {
+                        "3": {
+                            "daily": {
+                                "1": [
+                                    "feather fall|PHB"
+                                ]
+                            }
+                        },
+                        "5": {
+                            "daily": {
+                                "1": [
+                                    "warding wind|XGE"
+                                ]
+                            }
+                        },
+                        "9": {
+                            "daily": {
+                                "1": [
+                                    "wind Wall|PHB"
+                                ]
+                            }
+                        }
+                    },
+                    "ability": "wis"
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "druidic": true
                 }
             ]
         }
