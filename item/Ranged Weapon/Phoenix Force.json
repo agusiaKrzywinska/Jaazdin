@@ -6,7 +6,9 @@
     "weight": 25,
     "value": 50000,
     "weaponCategory": "martial",
-    "property": [],
+    "property": [
+        "AF"
+    ],
     "charges": 5,
     "dmg1": "2d12",
     "dmgType": "F",

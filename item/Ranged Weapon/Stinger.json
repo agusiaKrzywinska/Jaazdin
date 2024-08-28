@@ -7,7 +7,8 @@
     "value": 3000,
     "weaponCategory": "charges",
     "property": [
-        "L"
+        "L",
+        "AF"
     ],
     "charges": 4,
     "dmg1": "1d4",

@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.0.29"
+                "version": "0.0.3"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1724846108
+        "dateLastModified": 1724847032
     },
     "background": [
         {
@@ -888,7 +888,8 @@
             "value": 100000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "firearm": true,
             "charges": 8,
@@ -897,7 +898,7 @@
             "range": "15/40",
             "entries": [
                 "<b><i>Tier 5.</i></b>",
-                "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
+                "<b><i>Loud</i></b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
                 "<b><i>Pump 8.</i></b> A pump ammo system stores a number of shots directly in the gun. You can reload the barrel with up to 2 slugs as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two shots as a part of the same attack. The first target takes additional damage equal to the weapon's damage die. Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
             ]
         },
@@ -910,7 +911,8 @@
             "value": 120000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 30,
             "dmg1": "3d6",
@@ -1158,7 +1160,8 @@
             "weaponCategory": "martial",
             "property": [
                 "H",
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 1,
             "dmg1": "3d6",
@@ -1179,7 +1182,8 @@
             "weaponCategory": "martial",
             "property": [
                 "H",
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 1,
             "dmg1": "2d6",
@@ -1489,7 +1493,8 @@
             "weaponCategory": "martial",
             "property": [
                 "2H",
-                "H"
+                "H",
+                "AF"
             ],
             "charges": 20,
             "dmg1": "2d10",
@@ -1511,7 +1516,8 @@
             "value": 8000,
             "weaponCategory": "martial",
             "property": [
-                "L"
+                "L",
+                "AF"
             ],
             "charges": 6,
             "dmg1": "1d8",
@@ -1870,7 +1876,8 @@
             "value": 7500,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 2,
             "dmg1": "1d10",
@@ -1949,7 +1956,8 @@
             "value": 100000,
             "weaponCategory": "martial",
             "property": [
-                "L"
+                "L",
+                "AF"
             ],
             "charges": 8,
             "dmg1": "2d6",
@@ -2162,7 +2170,9 @@
             "weight": 10,
             "value": 10000,
             "weaponCategory": "martial",
-            "property": [],
+            "property": [
+                "AF"
+            ],
             "charges": 5,
             "dmg1": "2d8",
             "dmgType": "F",
@@ -2274,7 +2284,9 @@
             "weight": 25,
             "value": 10000,
             "weaponCategory": "martial",
-            "property": [],
+            "property": [
+                "AF"
+            ],
             "charges": 5,
             "dmg1": "1d12",
             "dmgType": "F",
@@ -2455,7 +2467,8 @@
             "value": 100000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 12,
             "dmg1": "2d12",
@@ -2920,7 +2933,8 @@
             "value": 12500,
             "weaponCategory": "martial",
             "property": [
-                "L"
+                "L",
+                "AF"
             ],
             "charges": 6,
             "dmg1": "1d8",
@@ -2962,7 +2976,8 @@
             "weaponCategory": "martial",
             "property": [
                 "2H",
-                "H"
+                "H",
+                "AF"
             ],
             "charges": 40,
             "dmg1": "4d4",
@@ -2982,7 +2997,9 @@
             "weight": 10,
             "value": 50000,
             "weaponCategory": "martial",
-            "property": [],
+            "property": [
+                "AF"
+            ],
             "charges": 90,
             "dmg1": "4d4",
             "dmgType": "P",
@@ -3003,7 +3020,8 @@
             "weaponCategory": "martial",
             "property": [
                 "H",
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 1,
             "dmg1": "4d6",
@@ -3042,7 +3060,9 @@
             "weight": 10,
             "value": 10000,
             "weaponCategory": "martial",
-            "property": [],
+            "property": [
+                "AF"
+            ],
             "charges": 90,
             "dmg1": "4d4",
             "dmgType": "P",
@@ -3061,7 +3081,8 @@
             "value": 125000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 10,
             "dmg1": "2d10",
@@ -3094,7 +3115,8 @@
             "value": 5000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 1,
             "dmg1": "1d8",
@@ -3251,7 +3273,9 @@
             "weight": 25,
             "value": 50000,
             "weaponCategory": "martial",
-            "property": [],
+            "property": [
+                "AF"
+            ],
             "charges": 5,
             "dmg1": "2d12",
             "dmgType": "F",
@@ -3271,7 +3295,8 @@
             "value": 3500,
             "weaponCategory": "martial",
             "property": [
-                "L"
+                "L",
+                "AF"
             ],
             "charges": 6,
             "dmg1": "1d6",
@@ -3368,7 +3393,8 @@
             "value": 12500,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 2,
             "dmg1": "2d6",
@@ -3389,7 +3415,8 @@
             "value": 5000,
             "weaponCategory": "martial",
             "property": [
-                "L"
+                "L",
+                "AF"
             ],
             "charges": 6,
             "dmg1": "1d6",
@@ -3409,7 +3436,8 @@
             "value": 10000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 5,
             "dmg1": "1d10",
@@ -3429,7 +3457,8 @@
             "value": 25000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 5,
             "dmg1": "2d6",
@@ -3703,7 +3732,9 @@
             "weight": 10,
             "value": 50000,
             "weaponCategory": "martial",
-            "property": [],
+            "property": [
+                "AF"
+            ],
             "charges": 5,
             "dmg1": "4d8",
             "dmgType": "F",
@@ -3816,7 +3847,8 @@
             "value": 500000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 10,
             "dmg1": "2d10",
@@ -3942,7 +3974,8 @@
             "value": 5000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 1,
             "dmg1": "1d10",
@@ -4029,7 +4062,8 @@
             "value": 5000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 6,
             "dmg1": "1d12",
@@ -4109,7 +4143,8 @@
             "value": 65000,
             "weaponCategory": "martial",
             "property": [
-                "L"
+                "L",
+                "AF"
             ],
             "charges": 20,
             "dmg1": "1d10",
@@ -4130,7 +4165,8 @@
             "value": 3000,
             "weaponCategory": "charges",
             "property": [
-                "L"
+                "L",
+                "AF"
             ],
             "charges": 4,
             "dmg1": "1d4",
@@ -4211,7 +4247,8 @@
             "value": 7500,
             "weaponCategory": "martial",
             "property": [
-                "L"
+                "L",
+                "AF"
             ],
             "charges": 6,
             "dmg1": "1d10",
@@ -4468,7 +4505,8 @@
             "value": 75000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 40,
             "dmg1": "2d8",
@@ -4572,7 +4610,8 @@
             "value": 50000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 4,
             "dmg1": "2d6",
@@ -4593,7 +4632,8 @@
             "value": 75000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 8,
             "dmg1": "2d8",
@@ -4671,7 +4711,8 @@
             "value": 50000,
             "weaponCategory": "martial",
             "property": [
-                "L"
+                "L",
+                "AF"
             ],
             "charges": 6,
             "dmg1": "1d10",

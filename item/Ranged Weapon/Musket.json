@@ -7,7 +7,8 @@
     "value": 5000,
     "weaponCategory": "martial",
     "property": [
-        "2H"
+        "2H",
+        "AF"
     ],
     "charges": 1,
     "dmg1": "1d8",
