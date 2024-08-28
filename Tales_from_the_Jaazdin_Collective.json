@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.0.28"
+                "version": "0.0.29"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1724325905
+        "dateLastModified": 1724846108
     },
     "background": [
         {
@@ -5757,6 +5757,61 @@
     ],
     "reward": [
         {
+            "name": "Boon of Minor Combat Might",
+            "source": "TftJC",
+            "type": "Boon",
+            "entries": [
+                "You have overcome mighty foes in the arena, and have been granted power beyond this.",
+                "The first time you would drop to 0 hit points, you instead drop to 1. You can only use this feature once per week.",
+                "Additionally, rolling a 19 on a Death Saving Throw now makes you stand with one hit point."
+            ]
+        },
+        {
+            "name": "Draconic Elemental Affinity (Kobold)",
+            "source": "TftJC",
+            "type": "Dragon Jelly",
+            "entries": [
+                "You gain resistance to the damage type of your associated colour.",
+                "Your breath weapon is now a recharge of 6 (not affected by the dragon's breath dragon jelly transformation).",
+                "You additionally have advantage on saving throws against terrain effects created by a mature dragon of your elemental type's territory/lair, such as extreme heat from a red dragon's volcano or acid pools in a black dragon's swamp."
+            ]
+        },
+        {
+            "name": "Dragon's Breath",
+            "source": "TftJC",
+            "type": "Dragon Jelly",
+            "entries": [
+                "You gain a breath weapon. If you are not draconic, its type is random.",
+                "If you already have a breath weapon, you either gain an additional usage of it per rest, or its recharge die is lowered by 1."
+            ]
+        },
+        {
+            "name": "Dragon's Claws",
+            "source": "TftJC",
+            "type": "Dragon Jelly",
+            "entries": [
+                "Your unarmed attacks deal {@dice 1d6} + STR slashing damage.",
+                "You gain a climbing speed equal to your walking speed."
+            ]
+        },
+        {
+            "name": "Dragon's Heart",
+            "source": "TftJC",
+            "type": "Dragon Jelly",
+            "entries": [
+                "Advantage against Frightened and Charmed conditions.",
+                "Once Per Long rest, you can automatically succeed against a Charm or Frighten Effect"
+            ]
+        },
+        {
+            "name": "Increased Eyesight",
+            "source": "TftJC",
+            "type": "Dragon Jelly",
+            "entries": [
+                "You gain Blindsight of 5ft, and your Darkvision is increased by 30ft."
+            ]
+        },
+        {
             "name": "Speaker of the Wind",
             "source": "TftJC",
             "type": "Elemental Gift",
@@ -5801,6 +5856,15 @@
                 {
                     "druidic": true
                 }
+            ]
+        },
+        {
+            "name": "Tough Scales",
+            "source": "TftJC",
+            "type": "Dragon Jelly",
+            "entries": [
+                "While Unarmored, your AC is equal to 10 + DEX + Proficiency Bonus.",
+                "Creatures grappling you take damage equal to your Proficiency Bonus in piercing damage at the start of their turns."
             ]
         }
     ],
