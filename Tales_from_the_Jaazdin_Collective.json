@@ -18,7 +18,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1724887570
+        "dateLastModified": 1724888496
     },
     "background": [
         {
@@ -1061,6 +1061,20 @@
             ]
         },
         {
+            "name": "Blackpowder Bottoms",
+            "source": "TftJC",
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 17500,
+            "entries": [
+                "<i><b>Simple Invention.</i></b>",
+                "<i><b>Requires Light + Clip</i></b>",
+                "<b><i>Effect.</i></b> This shoe can have a firearm attached directly to it, and with a trigger in the toe of the shoe, can be fired from the heel of the shoe without using your hands. Can only store 1/2 its normal clip capacity.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
             "name": "Blade of Darkinix",
             "source": "TftJC",
             "rarity": "artifact",
@@ -1673,7 +1687,6 @@
             "type": "R",
             "rarity": "uncommon",
             "weight": 1,
-            "value": 3500,
             "baseItem": "pistol|TftJC",
             "bonusWeapon": "+1",
             "weaponCategory": "martial",
@@ -1688,7 +1701,7 @@
             "entries": [
                 "You gain a bonus +1 bonus to attack and damage rolls made with this magical firearm.",
                 "On hit, the weapon deals {@dice 1d4} extra necrotic.",
-                "If this weapon kills a target, that target returns as a zombie under your control. You can only have one zombie under your control from this weapon at a time.",
+                "If this weapon kills a target, that target returns as a {@creature zombie|MM} under your control. You can only have one zombie under your control from this weapon at a time.",
                 "<b><i>Tier 1.</i></b>",
                 "<b><i>Clip 6.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
             ]
@@ -5356,7 +5369,7 @@
                 "EI"
             ],
             "entries": [
-                "If you kill a creature with an eldritch blast, they will spew coins out of their mouth (or another applicable orifice) when they die. The amount of coins they divulge is equal to their hit dice and is of the type of coin you used for the material component of the eldritch blastwhich killed them."
+                "If you kill a creature with an eldritch blast, they will spew coins out of their mouth (or another applicable orifice) when they die. The amount of coins they divulge is equal to their hit dice and is of the type of coin you used for the material component of the eldritch blast which killed them."
             ]
         },
         {
