@@ -18,7 +18,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1724888496
+        "dateLastModified": 1725493746
     },
     "background": [
         {
@@ -1907,6 +1907,58 @@
             ]
         },
         {
+            "name": "Docent (Combat Morph)",
+            "source": "TftJC",
+            "rarity": "rare",
+            "reqAttune": "by a warforged",
+            "reqAttuneTags": [
+                {
+                    "race": "warforged|erlw"
+                }
+            ],
+            "wondrous": true,
+            "sentient": true,
+            "entries": [
+                "To attune to a docent, you must embed the item somewhere on your body, such as your chest or your eye socket.",
+                "This docent can be merged onto a second docent, allowing the owner to switch between any possible morphs with an action.",
+                {
+                    "type": "entries",
+                    "name": "Sentience",
+                    "entries": [
+                        "A docent is a sentient item of any alignment with an Intelligence of 16, a Wisdom of 14, and a Charisma of 14. It perceives the world through your senses. It communicates telepathically with you and can speak, read, and understand any language it knows (see \"Random Properties\" below)."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Combat Support",
+                    "entries": [
+                        "Whenever you end your turn without making use of the docent’s abilities your AC is increased by 1 until the start of your next turn, in addition it has several random abilities."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Random Properties",
+                    "entries": [
+                        "A docent has the following properties:",
+                        "{@b Damage Types}. Damage Types. As a bonus action, the docent can fire a beam of energy of either fire or radiant, as well as {@dice 1d4} additional damage types: (1) cold, (2) acid, (3) thunder, (4) force. This beam uses your spell casting bonus (if you have one) or your Intelligence + proficiency. On hit it deals {@dice 1d10}+1 of your chosen damage type.",
+                        "{@b Skills}. As a bonus action, the docent can Help you with one of the skills it knows. It knows up two skills (roll a {@dice d4}): (1) {@skill Athletics}, (2) {@skill Acrobatics}, (3) {@skill Stealth}, or (4) {@skill Perception}.",
+                        "{@b Spells}. The docent knows up two of the following spells and can cast each once per long rest, requiring no components (roll a {@dice 2d6}): (1–2) {@spell hellish rebuke}, (3–4) {@spell shield} or (5–6) {@spell absorb elements}. The docent can cast the spell without requiring your reaction."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Personality",
+                    "entries": [
+                        "A docent is designed to advise and assist the warforged it's attached to. One of the simple functions of a docent is to serve as a translator. The docent's properties are under its control, and if you have a bad relationship with your docent, it might refuse to assist you."
+                    ]
+                }
+            ],
+            "attachedSpells": [
+                "detect evil and good",
+                "detect magic"
+            ]
+        },
+        {
             "name": "Double Barrel",
             "source": "TftJC",
             "type": "R",
@@ -1984,6 +2036,27 @@
                 "<b><i>Effect.</i></b> All of this firearm's clips are converted into drums, which each triple their ammunition capacity.",
                 "<b><i>Restrictions.</i></b> Requires the Clip property.",
                 "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
+            ]
+        },
+        {
+            "name": "Dual Doors of Knox",
+            "source": "TftJC",
+            "rarity": "artifact",
+            "reqAttune": true,
+            "baseItem": "shield|PHB",
+            "ac": 2,
+            "type": "S",
+            "property": [
+                "H"
+            ],
+            "attachedSpells": [
+                "knock"
+            ],
+            "weight": 6,
+            "entries": [
+                "These dual doors where wielded by a fire giant dread naught who *hated* doors. he hated them so much that he ripped the seal off a cloud giant hoard room and used them are his shields. ",
+                "+2 magic weapon AND +2 shield. You must be wielding both items to gain their benefits. {@dice 2d6} bludgeoning, cast {@spell knock|PHB} once per LR, can target up to 9th level magics that are considered \"locking\" or \"sealing\".",
+                "<b><i>Paired.</i></b> Paired weapons has special features that only activate when you are wielding two of the same weapon with the paired property."
             ]
         },
         {
@@ -10939,36 +11012,6 @@
             ]
         },
         {
-            "name": "Circle of the Iron Heretic",
-            "source": "TftJC",
-            "className": "Druid",
-            "classSource": "PHB",
-            "subclassShortName": "Iron Heretic",
-            "subclassSource": "TftJC",
-            "level": 2,
-            "entries": [
-                "Druids of the Circle of the Iron Heretic find their calling not in the preservation of nature, but in the advancement of it. They see nature as the perfect mechanism for the advancement of intelligent races but unlike their brethren, they do not shy away from the exploitation of natural resources into valuable tools.",
-                "These druids use their magic to twist metal and stone into cold lifeless mimicry of natural life and push their own power forward by consuming natural material. Their disregard for nature for progress often puts them at odds with other druidic circles, hence their branding as heretics.",
-                "Druids in this circle do not necessarily see natural life as different from that created through construct magic, treating both as useful tools to advance intelligent life forwards. These druids believe that progress and destruction are a natural part of life, embracing modernity as opposed to rejecting it.",
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Circle Spells|Druid|PHB|Iron Heretic|TftJC|2"
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Shell of Iron|Druid|PHB|Iron Heretic|TftJC|2"
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Construct Creation|Druid|PHB|Iron Heretic|TftJC|2"
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Metallic Carapace|Druid|PHB|Iron Heretic|TftJC|2"
-                }
-            ]
-        },
-        {
             "name": "Circle Spells",
             "source": "TftJC",
             "className": "Druid",
@@ -11008,6 +11051,36 @@
                             "Animate Objects, Steel Wind Strike"
                         ]
                     ]
+                }
+            ]
+        },
+        {
+            "name": "Circle of the Iron Heretic",
+            "source": "TftJC",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Iron Heretic",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "Druids of the Circle of the Iron Heretic find their calling not in the preservation of nature, but in the advancement of it. They see nature as the perfect mechanism for the advancement of intelligent races but unlike their brethren, they do not shy away from the exploitation of natural resources into valuable tools.",
+                "These druids use their magic to twist metal and stone into cold lifeless mimicry of natural life and push their own power forward by consuming natural material. Their disregard for nature for progress often puts them at odds with other druidic circles, hence their branding as heretics.",
+                "Druids in this circle do not necessarily see natural life as different from that created through construct magic, treating both as useful tools to advance intelligent life forwards. These druids believe that progress and destruction are a natural part of life, embracing modernity as opposed to rejecting it.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Circle Spells|Druid|PHB|Iron Heretic|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Shell of Iron|Druid|PHB|Iron Heretic|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Construct Creation|Druid|PHB|Iron Heretic|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Metallic Carapace|Druid|PHB|Iron Heretic|TftJC|2"
                 }
             ]
         },

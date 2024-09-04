@@ -1,0 +1,21 @@
+{
+    "name": "Dual Doors of Knox",
+    "source": "TftJC",
+    "rarity": "artifact",
+    "reqAttune": true,
+    "baseItem": "shield|PHB",
+    "ac": 2,
+    "type": "S",
+    "property": [
+        "H"
+    ],
+    "attachedSpells": [
+        "knock"
+    ],
+    "weight": 6,
+    "entries": [
+        "These dual doors where wielded by a fire giant dread naught who *hated* doors. he hated them so much that he ripped the seal off a cloud giant hoard room and used them are his shields. ",
+        "+2 magic weapon AND +2 shield. You must be wielding both items to gain their benefits. {@dice 2d6} bludgeoning, cast {@spell knock|PHB} once per LR, can target up to 9th level magics that are considered \"locking\" or \"sealing\".",
+        "<b><i>Paired.</i></b> Paired weapons has special features that only activate when you are wielding two of the same weapon with the paired property."
+    ]
+}
