@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.0.31"
+                "version": "0.0.32"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1725493746
+        "dateLastModified": 1725494400
     },
     "background": [
         {
@@ -1704,6 +1704,32 @@
                 "If this weapon kills a target, that target returns as a {@creature zombie|MM} under your control. You can only have one zombie under your control from this weapon at a time.",
                 "<b><i>Tier 1.</i></b>",
                 "<b><i>Clip 6.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+            ]
+        },
+        {
+            "name": "Cross-Shield",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "baseItem": "heavy crossbow|PHB",
+            "weight": 25,
+            "value": 15000,
+            "weaponCategory": "martial",
+            "property": [
+                "A",
+                "H",
+                "LD",
+                "2H"
+            ],
+            "range": "100/400",
+            "dmg1": "1d10",
+            "dmgType": "P",
+            "crossbow": true,
+            "weapon": true,
+            "ammoType": "crossbow bolt|phb",
+            "entries": [
+                "<i><b>Simple Invention.</i></b>",
+                "If you do not move on your turn you benefit from the AC of the shield until the start of your next turn."
             ]
         },
         {
