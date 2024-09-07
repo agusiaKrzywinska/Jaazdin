@@ -6,7 +6,6 @@
         {
             "type": "list",
             "items": [
-                "Increase your Strength, Dexterity or Constitution by 1.",
                 "While within 5 feet of an ally wielding a shield you and the ally gain a +1 to AC and Dexterity saving throws. A creature can only benefit from this feature once.",
                 "While within 5ft of a least two allies the first attack roll you make on your turn has advantage."
             ]
