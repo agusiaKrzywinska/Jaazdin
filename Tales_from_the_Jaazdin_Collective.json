@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.0.32"
+                "version": "0.0.34"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1725495985
+        "dateLastModified": 1725575779
     },
     "background": [
         {
@@ -842,6 +842,12 @@
                         "Opal"
                     ]
                 }
+            ],
+            "attachedSpells": [
+                "burning hands",
+                "ice knife|XGE",
+                "zephyr strike|XGE",
+                "earth tremor|XGE"
             ]
         },
         {
@@ -851,7 +857,8 @@
             "wondrous": true,
             "reqAttune": true,
             "entries": [
-                "Once per month, as an action you can summon a Myrmidon. The Myrmidon is friendly to you and will give its life to fight for you and protect you. The Myrmidon vanishes after its hit points reach 0, or a week passes."
+                "Once per month, as an action you can summon a {@creature Air Elemental Myrmidon|MPMM|Myrmidon}. The {@creature Earth Elemental Myrmidon|MPMM|Myrmidon} is friendly to you and will give its life to fight for you and protect you. The {@creature Fire Elemental Myrmidon|MPMM|Myrmidon} vanishes after its hit points reach 0, or a week passes.",
+                "The following Myrmidon can be summoned: {@creature Air Elemental Myrmidon|MPMM} {@creature Earth Elemental Myrmidon|MPMM} {@creature Fire Elemental Myrmidon|MPMM} {@creature Water Elemental Myrmidon|MPMM}"
             ]
         },
         {
@@ -860,6 +867,9 @@
             "rarity": "artifact",
             "wondrous": true,
             "reqAttune": true,
+            "recharge": "restLong",
+            "rechargeAmount": 1,
+            "charges": 1,
             "entries": [
                 "The Anchor of the Deep appears to be an old, rusted anchor covered in intricate, weathered runes. When this anchor is used, it triggers a powerful magical effect that causes the entire ship to sink rapidly to the bottom of the sea. However, rather than resulting in tragedy, the occupants of the ship find themselves under the effect of the water breathing spell.",
                 "<b><i>Breath of the Depths.</i></b> Once per long rest, as an action, you can embed the Anchor of the Deep into the deck of a ship or a similar structure. When activated, the anchor triggers a powerful enchantment that causes the ship to sink quickly to the ocean floor, also everyone currently on the ship will gain the effects of the {@spell water breathing|PHB} spell as if the spell was casted on them. This lasts for 24 hours or until the anchor is retrieved and the ship resurfaces. To resurface the ship, as an action the user attuned to it must retrieve the anchor. Once the anchor is lifted, the ship ascends back to the surface, breaking the water's surface and returning to its normal state. It takes 1 minute to sink to the bottom or to float back up. The ship is unharmed from when it sinks."
@@ -930,6 +940,9 @@
             "source": "TftJC",
             "rarity": "uncommon",
             "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": 1,
+            "charges": 3,
             "entries": [
                 "A small pouch containing Morenstar Lake's special Shiny Bait, a glimmering gem-like item that has little value by itself, but is easily confused as valuable to the casual observer.",
                 "As a bonus action, a creature can remove one piece of bait and throw it up to 30 feet away.",
@@ -1054,7 +1067,13 @@
             "source": "TftJC",
             "rarity": "very rare",
             "type": "HA",
-            "ac": 18,
+            "ac": 19,
+            "resist": [
+                "cold"
+            ],
+            "recharge": "restLong",
+            "rechargeAmount": 1,
+            "charges": 1,
             "entries": [
                 "You gain a +1 to your AC, and you gain resistance to Cold Damage. You take no negative repercussions from Cold Weather.",
                 "Once per Long Rest, as an Action you can invoke the powers of an unrelenting storm. All Creatures around you must make a DC 17 Constitution Saving Throw and take {@dice 6d10} Cold Damage, or half as much on a Fail."
@@ -3558,6 +3577,18 @@
             "source": "TftJC",
             "rarity": "none",
             "type": "G",
+            "containerCapacity": {
+                "weight": [
+                    4,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ],
+                "weightless": true
+            },
             "entries": [
                 "<i><b>Innovative Invention.</i></b>",
                 "This multi-pouch strap can be worn over the chest. The Bandolier contains 5 front pouches and two back straps.",

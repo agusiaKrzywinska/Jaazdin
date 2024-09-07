@@ -3,6 +3,9 @@
     "source": "TftJC",
     "rarity": "uncommon",
     "wondrous": true,
+    "recharge": "dawn",
+	"rechargeAmount": 1,
+	"charges": 3,
     "entries": [
         "A small pouch containing Morenstar Lake's special Shiny Bait, a glimmering gem-like item that has little value by itself, but is easily confused as valuable to the casual observer.",
         "As a bonus action, a creature can remove one piece of bait and throw it up to 30 feet away.",

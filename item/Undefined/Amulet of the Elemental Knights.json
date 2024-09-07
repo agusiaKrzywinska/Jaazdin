@@ -5,6 +5,7 @@
     "wondrous": true,
     "reqAttune": true,
     "entries": [
-        "Once per month, as an action you can summon a Myrmidon. The Myrmidon is friendly to you and will give its life to fight for you and protect you. The Myrmidon vanishes after its hit points reach 0, or a week passes."
+        "Once per month, as an action you can summon a {@creature Air Elemental Myrmidon|MPMM|Myrmidon}. The {@creature Earth Elemental Myrmidon|MPMM|Myrmidon} is friendly to you and will give its life to fight for you and protect you. The {@creature Fire Elemental Myrmidon|MPMM|Myrmidon} vanishes after its hit points reach 0, or a week passes.",
+        "The following Myrmidon can be summoned: {@creature Air Elemental Myrmidon|MPMM} {@creature Earth Elemental Myrmidon|MPMM} {@creature Fire Elemental Myrmidon|MPMM} {@creature Water Elemental Myrmidon|MPMM}"
     ]
 }
