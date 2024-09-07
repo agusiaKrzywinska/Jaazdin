@@ -1,0 +1,9 @@
+{
+    "name": "Dragon's Breath",
+    "source": "TftJC",
+    "type": "Dragon Jelly",
+    "entries": [
+        "You gain a breath weapon. If you are not draconic, its type is random.",
+        "If you already have a breath weapon, you either gain an additional usage of it per rest, or its recharge die is lowered by 1."
+    ]
+}

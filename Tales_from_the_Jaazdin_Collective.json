@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.0.28"
+                "version": "0.0.34"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1724325905
+        "dateLastModified": 1725575779
     },
     "background": [
         {
@@ -842,6 +842,12 @@
                         "Opal"
                     ]
                 }
+            ],
+            "attachedSpells": [
+                "burning hands",
+                "ice knife|XGE",
+                "zephyr strike|XGE",
+                "earth tremor|XGE"
             ]
         },
         {
@@ -851,7 +857,8 @@
             "wondrous": true,
             "reqAttune": true,
             "entries": [
-                "Once per month, as an action you can summon a Myrmidon. The Myrmidon is friendly to you and will give its life to fight for you and protect you. The Myrmidon vanishes after its hit points reach 0, or a week passes."
+                "Once per month, as an action you can summon a {@creature Air Elemental Myrmidon|MPMM|Myrmidon}. The {@creature Earth Elemental Myrmidon|MPMM|Myrmidon} is friendly to you and will give its life to fight for you and protect you. The {@creature Fire Elemental Myrmidon|MPMM|Myrmidon} vanishes after its hit points reach 0, or a week passes.",
+                "The following Myrmidon can be summoned: {@creature Air Elemental Myrmidon|MPMM} {@creature Earth Elemental Myrmidon|MPMM} {@creature Fire Elemental Myrmidon|MPMM} {@creature Water Elemental Myrmidon|MPMM}"
             ]
         },
         {
@@ -860,6 +867,9 @@
             "rarity": "artifact",
             "wondrous": true,
             "reqAttune": true,
+            "recharge": "restLong",
+            "rechargeAmount": 1,
+            "charges": 1,
             "entries": [
                 "The Anchor of the Deep appears to be an old, rusted anchor covered in intricate, weathered runes. When this anchor is used, it triggers a powerful magical effect that causes the entire ship to sink rapidly to the bottom of the sea. However, rather than resulting in tragedy, the occupants of the ship find themselves under the effect of the water breathing spell.",
                 "<b><i>Breath of the Depths.</i></b> Once per long rest, as an action, you can embed the Anchor of the Deep into the deck of a ship or a similar structure. When activated, the anchor triggers a powerful enchantment that causes the ship to sink quickly to the ocean floor, also everyone currently on the ship will gain the effects of the {@spell water breathing|PHB} spell as if the spell was casted on them. This lasts for 24 hours or until the anchor is retrieved and the ship resurfaces. To resurface the ship, as an action the user attuned to it must retrieve the anchor. Once the anchor is lifted, the ship ascends back to the surface, breaking the water's surface and returning to its normal state. It takes 1 minute to sink to the bottom or to float back up. The ship is unharmed from when it sinks."
@@ -888,7 +898,8 @@
             "value": 100000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "firearm": true,
             "charges": 8,
@@ -897,7 +908,7 @@
             "range": "15/40",
             "entries": [
                 "<b><i>Tier 5.</i></b>",
-                "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
+                "<b><i>Loud</i></b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
                 "<b><i>Pump 8.</i></b> A pump ammo system stores a number of shots directly in the gun. You can reload the barrel with up to 2 slugs as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two shots as a part of the same attack. The first target takes additional damage equal to the weapon's damage die. Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
             ]
         },
@@ -910,7 +921,8 @@
             "value": 120000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 30,
             "dmg1": "3d6",
@@ -928,6 +940,9 @@
             "source": "TftJC",
             "rarity": "uncommon",
             "wondrous": true,
+            "recharge": "dawn",
+            "rechargeAmount": 1,
+            "charges": 3,
             "entries": [
                 "A small pouch containing Morenstar Lake's special Shiny Bait, a glimmering gem-like item that has little value by itself, but is easily confused as valuable to the casual observer.",
                 "As a bonus action, a creature can remove one piece of bait and throw it up to 30 feet away.",
@@ -1052,10 +1067,30 @@
             "source": "TftJC",
             "rarity": "very rare",
             "type": "HA",
-            "ac": 18,
+            "ac": 19,
+            "resist": [
+                "cold"
+            ],
+            "recharge": "restLong",
+            "rechargeAmount": 1,
+            "charges": 1,
             "entries": [
                 "You gain a +1 to your AC, and you gain resistance to Cold Damage. You take no negative repercussions from Cold Weather.",
                 "Once per Long Rest, as an Action you can invoke the powers of an unrelenting storm. All Creatures around you must make a DC 17 Constitution Saving Throw and take {@dice 6d10} Cold Damage, or half as much on a Fail."
+            ]
+        },
+        {
+            "name": "Blackpowder Bottoms",
+            "source": "TftJC",
+            "type": "OTH",
+            "rarity": "none",
+            "weight": 0,
+            "value": 17500,
+            "entries": [
+                "<i><b>Simple Invention.</i></b>",
+                "<i><b>Requires Light + Clip</i></b>",
+                "<b><i>Effect.</i></b> This shoe can have a firearm attached directly to it, and with a trigger in the toe of the shoe, can be fired from the heel of the shoe without using your hands. Can only store 1/2 its normal clip capacity.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
             ]
         },
         {
@@ -1158,7 +1193,8 @@
             "weaponCategory": "martial",
             "property": [
                 "H",
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 1,
             "dmg1": "3d6",
@@ -1179,7 +1215,8 @@
             "weaponCategory": "martial",
             "property": [
                 "H",
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 1,
             "dmg1": "2d6",
@@ -1489,7 +1526,8 @@
             "weaponCategory": "martial",
             "property": [
                 "2H",
-                "H"
+                "H",
+                "AF"
             ],
             "charges": 20,
             "dmg1": "2d10",
@@ -1511,7 +1549,8 @@
             "value": 8000,
             "weaponCategory": "martial",
             "property": [
-                "L"
+                "L",
+                "AF"
             ],
             "charges": 6,
             "dmg1": "1d8",
@@ -1659,6 +1698,57 @@
                 "<b><i>Linking.</b></i> To link or unlink to a specific item, the attuned user must be within 5 ft of the item and spend 1 minute concentrating on severing/connecting the connection. As if they were concentrating on a spell. You cannot link a new item if it is already linked.",
                 "<b><i>Guiding Arrow.</b></i> the compass's arrow constantly points in the direction of the chosen item. It provides a reliable guide, even if the item is hidden, obscured, but must be on the same plane of existence. The arrow adjusts its direction as the user moves, always pointing towards the desired object.",
                 "<b><i>Protection from Interference.</i></b> The Compass of the Guiding Arrow possesses a magical shielding that prevents external forces from manipulating or disrupting its guidance. It cannot be affected by spells or abilities that alter the accuracy of directional devices."
+            ]
+        },
+        {
+            "name": "Creed",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "uncommon",
+            "weight": 1,
+            "baseItem": "pistol|TftJC",
+            "bonusWeapon": "+1",
+            "weaponCategory": "martial",
+            "property": [
+                "L",
+                "AF"
+            ],
+            "charges": 6,
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "range": "40/160",
+            "entries": [
+                "You gain a bonus +1 bonus to attack and damage rolls made with this magical firearm.",
+                "On hit, the weapon deals {@dice 1d4} extra necrotic.",
+                "If this weapon kills a target, that target returns as a {@creature zombie|MM} under your control. You can only have one zombie under your control from this weapon at a time.",
+                "<b><i>Tier 1.</i></b>",
+                "<b><i>Clip 6.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+            ]
+        },
+        {
+            "name": "Cross-Shield",
+            "source": "TftJC",
+            "type": "R",
+            "rarity": "none",
+            "baseItem": "heavy crossbow|PHB",
+            "weight": 25,
+            "value": 15000,
+            "weaponCategory": "martial",
+            "property": [
+                "A",
+                "H",
+                "LD",
+                "2H"
+            ],
+            "range": "100/400",
+            "dmg1": "1d10",
+            "dmgType": "P",
+            "crossbow": true,
+            "weapon": true,
+            "ammoType": "crossbow bolt|phb",
+            "entries": [
+                "<i><b>Simple Invention.</i></b>",
+                "If you do not move on your turn you benefit from the AC of the shield until the start of your next turn."
             ]
         },
         {
@@ -1862,6 +1952,58 @@
             ]
         },
         {
+            "name": "Docent (Combat Morph)",
+            "source": "TftJC",
+            "rarity": "rare",
+            "reqAttune": "by a warforged",
+            "reqAttuneTags": [
+                {
+                    "race": "warforged|erlw"
+                }
+            ],
+            "wondrous": true,
+            "sentient": true,
+            "entries": [
+                "To attune to a docent, you must embed the item somewhere on your body, such as your chest or your eye socket.",
+                "This docent can be merged onto a second docent, allowing the owner to switch between any possible morphs with an action.",
+                {
+                    "type": "entries",
+                    "name": "Sentience",
+                    "entries": [
+                        "A docent is a sentient item of any alignment with an Intelligence of 16, a Wisdom of 14, and a Charisma of 14. It perceives the world through your senses. It communicates telepathically with you and can speak, read, and understand any language it knows (see \"Random Properties\" below)."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Combat Support",
+                    "entries": [
+                        "Whenever you end your turn without making use of the docent’s abilities your AC is increased by 1 until the start of your next turn, in addition it has several random abilities."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Random Properties",
+                    "entries": [
+                        "A docent has the following properties:",
+                        "{@b Damage Types}. Damage Types. As a bonus action, the docent can fire a beam of energy of either fire or radiant, as well as {@dice 1d4} additional damage types: (1) cold, (2) acid, (3) thunder, (4) force. This beam uses your spell casting bonus (if you have one) or your Intelligence + proficiency. On hit it deals {@dice 1d10}+1 of your chosen damage type.",
+                        "{@b Skills}. As a bonus action, the docent can Help you with one of the skills it knows. It knows up two skills (roll a {@dice d4}): (1) {@skill Athletics}, (2) {@skill Acrobatics}, (3) {@skill Stealth}, or (4) {@skill Perception}.",
+                        "{@b Spells}. The docent knows up two of the following spells and can cast each once per long rest, requiring no components (roll a {@dice 2d6}): (1–2) {@spell hellish rebuke}, (3–4) {@spell shield} or (5–6) {@spell absorb elements}. The docent can cast the spell without requiring your reaction."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Personality",
+                    "entries": [
+                        "A docent is designed to advise and assist the warforged it's attached to. One of the simple functions of a docent is to serve as a translator. The docent's properties are under its control, and if you have a bad relationship with your docent, it might refuse to assist you."
+                    ]
+                }
+            ],
+            "attachedSpells": [
+                "detect evil and good",
+                "detect magic"
+            ]
+        },
+        {
             "name": "Double Barrel",
             "source": "TftJC",
             "type": "R",
@@ -1870,7 +2012,8 @@
             "value": 7500,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 2,
             "dmg1": "1d10",
@@ -1941,6 +2084,27 @@
             ]
         },
         {
+            "name": "Dual Doors of Knox",
+            "source": "TftJC",
+            "rarity": "artifact",
+            "reqAttune": true,
+            "baseItem": "shield|PHB",
+            "ac": 2,
+            "type": "S",
+            "property": [
+                "H"
+            ],
+            "attachedSpells": [
+                "knock"
+            ],
+            "weight": 6,
+            "entries": [
+                "These dual doors where wielded by a fire giant dread naught who *hated* doors. he hated them so much that he ripped the seal off a cloud giant hoard room and used them are his shields. ",
+                "+2 magic weapon AND +2 shield. You must be wielding both items to gain their benefits. {@dice 2d6} bludgeoning, cast {@spell knock|PHB} once per LR, can target up to 9th level magics that are considered \"locking\" or \"sealing\".",
+                "<b><i>Paired.</i></b> Paired weapons has special features that only activate when you are wielding two of the same weapon with the paired property."
+            ]
+        },
+        {
             "name": "Dusty Falcon",
             "source": "TftJC",
             "type": "R",
@@ -1949,7 +2113,8 @@
             "value": 100000,
             "weaponCategory": "martial",
             "property": [
-                "L"
+                "L",
+                "AF"
             ],
             "charges": 8,
             "dmg1": "2d6",
@@ -2162,7 +2327,9 @@
             "weight": 10,
             "value": 10000,
             "weaponCategory": "martial",
-            "property": [],
+            "property": [
+                "AF"
+            ],
             "charges": 5,
             "dmg1": "2d8",
             "dmgType": "F",
@@ -2274,7 +2441,9 @@
             "weight": 25,
             "value": 10000,
             "weaponCategory": "martial",
-            "property": [],
+            "property": [
+                "AF"
+            ],
             "charges": 5,
             "dmg1": "1d12",
             "dmgType": "F",
@@ -2455,7 +2624,8 @@
             "value": 100000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 12,
             "dmg1": "2d12",
@@ -2912,6 +3082,49 @@
             ]
         },
         {
+            "name": "Locket of Warding",
+            "source": "TftJC",
+            "rarity": "rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "entries": [
+                "This magical Locket contains space for a piece of a Creature to be placed within.",
+                "As an Action, you can place a reagent of a Creature within the locket and grant yourself the following benefit based on its CR and Type.",
+                "You gain advantage on one saving throw of your choice (which can be changed at dawn) against creatures of that Type. You also gain advantage on saving throws against one condition from the below list against creatures with the same Creature Type as it, based on the CR of the reagent placed within the locket (which can also be changed at dawn).",
+                {
+                    "type": "table",
+                    "colStyles": [
+                        "col- text-",
+                        "col- text- "
+                    ],
+                    "rows": [
+                        [
+                            "CR 0-4",
+                            "{@condition Grappled} or {@condition Restrained}"
+                        ],
+                        [
+                            "CR 5-10",
+                            "{@condition Blinded} or {@condition Deafened}"
+                        ],
+                        [
+                            "CR 11-15",
+                            "{@condition Poisoned} or {@condition Frightened}"
+                        ],
+                        [
+                            "CR 16-20",
+                            "{@condition Petrified} or {@condition Charmed}"
+                        ],
+                        [
+                            "CR 21+",
+                            "{@condition Stunned} or {@condition Paralyzed} or {@condition Exhaustion}"
+                        ]
+                    ]
+                },
+                "You only gain these benefits based on the CR of the Reagent placed within the locket for creatures within its CR range or lower, and can only select Conditions based on the Reagents CR.",
+                "The Reagent inside the Locket can be replaced by a different reagent, but this consumes the first reagent."
+            ]
+        },
+        {
             "name": "Long-Barrel Revolver",
             "source": "TftJC",
             "type": "R",
@@ -2920,7 +3133,8 @@
             "value": 12500,
             "weaponCategory": "martial",
             "property": [
-                "L"
+                "L",
+                "AF"
             ],
             "charges": 6,
             "dmg1": "1d8",
@@ -2962,7 +3176,8 @@
             "weaponCategory": "martial",
             "property": [
                 "2H",
-                "H"
+                "H",
+                "AF"
             ],
             "charges": 40,
             "dmg1": "4d4",
@@ -2982,7 +3197,9 @@
             "weight": 10,
             "value": 50000,
             "weaponCategory": "martial",
-            "property": [],
+            "property": [
+                "AF"
+            ],
             "charges": 90,
             "dmg1": "4d4",
             "dmgType": "P",
@@ -3003,7 +3220,8 @@
             "weaponCategory": "martial",
             "property": [
                 "H",
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 1,
             "dmg1": "4d6",
@@ -3042,7 +3260,9 @@
             "weight": 10,
             "value": 10000,
             "weaponCategory": "martial",
-            "property": [],
+            "property": [
+                "AF"
+            ],
             "charges": 90,
             "dmg1": "4d4",
             "dmgType": "P",
@@ -3050,6 +3270,20 @@
             "entries": [
                 "<b><i>Tier 2.</i></b>",
                 "<b><i>Belt 90.</i></b> Upon crafting a Belt fed firearm, you additionally gain 1 Belt. Belt fed firearms use a number of rounds equal to how many damage die they roll with their attack. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1."
+            ]
+        },
+        {
+            "name": "Mirror of Makora",
+            "source": "TftJC",
+            "rarity": "artifact",
+            "reqAttune": true,
+            "ac": 2,
+            "type": "S",
+            "weight": 6,
+            "entries": [
+                "This magical mirror is three feet in diameter and decorated with carvings of monkeys holding the mirror aloft. The mirror is unbreakable and can be used as a shield, granting the wearing +3 AC and advantage on saving throws against spells that deal fire, lightning, radiant, or force damage.",
+                "As a bonus action the wielder can throw the shield up to 30 feet at which point it stops, hanging in the air. The wielder can then target the mirror with ranged weapon or spell attacks. When hit, the mirror reflects the attack at a perfect 90 degrees from itself, increasing the damage and the hit of the attack by +1 when it does so and resetting the attack's range. If the attack hit, another mirror is created from the first, also hovering in place. For each subsequent mirror your attack hits, it gains an additional +1 to attack and damage, up to a maximum of +3. You can never have more than three total mirrors at once.",
+                "As a bonus action on your turn, you can move any number of your active mirrors up to 30 feet. Your main mirror is immune to all damage however the magically created ones are not, having 16 AC and 5 HP with immunity to fire, lightning, radiant, and force damage. When you return the main mirror to yourself, all remaining mirrors shatter and vanish."
             ]
         },
         {
@@ -3061,7 +3295,8 @@
             "value": 125000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 10,
             "dmg1": "2d10",
@@ -3094,7 +3329,8 @@
             "value": 5000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 1,
             "dmg1": "1d8",
@@ -3251,7 +3487,9 @@
             "weight": 25,
             "value": 50000,
             "weaponCategory": "martial",
-            "property": [],
+            "property": [
+                "AF"
+            ],
             "charges": 5,
             "dmg1": "2d12",
             "dmgType": "F",
@@ -3271,7 +3509,8 @@
             "value": 3500,
             "weaponCategory": "martial",
             "property": [
-                "L"
+                "L",
+                "AF"
             ],
             "charges": 6,
             "dmg1": "1d6",
@@ -3338,6 +3577,18 @@
             "source": "TftJC",
             "rarity": "none",
             "type": "G",
+            "containerCapacity": {
+                "weight": [
+                    4,
+                    4,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ],
+                "weightless": true
+            },
             "entries": [
                 "<i><b>Innovative Invention.</i></b>",
                 "This multi-pouch strap can be worn over the chest. The Bandolier contains 5 front pouches and two back straps.",
@@ -3368,7 +3619,8 @@
             "value": 12500,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 2,
             "dmg1": "2d6",
@@ -3389,7 +3641,8 @@
             "value": 5000,
             "weaponCategory": "martial",
             "property": [
-                "L"
+                "L",
+                "AF"
             ],
             "charges": 6,
             "dmg1": "1d6",
@@ -3409,7 +3662,8 @@
             "value": 10000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 5,
             "dmg1": "1d10",
@@ -3429,7 +3683,8 @@
             "value": 25000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 5,
             "dmg1": "2d6",
@@ -3703,7 +3958,9 @@
             "weight": 10,
             "value": 50000,
             "weaponCategory": "martial",
-            "property": [],
+            "property": [
+                "AF"
+            ],
             "charges": 5,
             "dmg1": "4d8",
             "dmgType": "F",
@@ -3808,6 +4065,16 @@
             ]
         },
         {
+            "name": "Scope MK I",
+            "source": "TftJC",
+            "type": "OTH",
+            "rarity": "none",
+            "entries": [
+                "<i><b>Simple Invention.</i></b>",
+                "the basic version of the scope is an attachment that can pe built and placed on a ranged weapon that allows the wielder to use a spyglass wile still holding the weapon (so the spyglass uses no hands) and can be used in tandem with the weapon to see far away targets"
+            ]
+        },
+        {
             "name": "Semi-Auto Sniper",
             "source": "TftJC",
             "type": "R",
@@ -3816,7 +4083,8 @@
             "value": 500000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 10,
             "dmg1": "2d10",
@@ -3942,7 +4210,8 @@
             "value": 5000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 1,
             "dmg1": "1d10",
@@ -4029,7 +4298,8 @@
             "value": 5000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 6,
             "dmg1": "1d12",
@@ -4109,7 +4379,8 @@
             "value": 65000,
             "weaponCategory": "martial",
             "property": [
-                "L"
+                "L",
+                "AF"
             ],
             "charges": 20,
             "dmg1": "1d10",
@@ -4130,7 +4401,8 @@
             "value": 3000,
             "weaponCategory": "charges",
             "property": [
-                "L"
+                "L",
+                "AF"
             ],
             "charges": 4,
             "dmg1": "1d4",
@@ -4211,7 +4483,8 @@
             "value": 7500,
             "weaponCategory": "martial",
             "property": [
-                "L"
+                "L",
+                "AF"
             ],
             "charges": 6,
             "dmg1": "1d10",
@@ -4468,7 +4741,8 @@
             "value": 75000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 40,
             "dmg1": "2d8",
@@ -4572,7 +4846,8 @@
             "value": 50000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 4,
             "dmg1": "2d6",
@@ -4593,7 +4868,8 @@
             "value": 75000,
             "weaponCategory": "martial",
             "property": [
-                "2H"
+                "2H",
+                "AF"
             ],
             "charges": 8,
             "dmg1": "2d8",
@@ -4671,7 +4947,8 @@
             "value": 50000,
             "weaponCategory": "martial",
             "property": [
-                "L"
+                "L",
+                "AF"
             ],
             "charges": 6,
             "dmg1": "1d10",
@@ -4702,6 +4979,63 @@
         }
     ],
     "monster": [
+        {
+            "name": "Kelpglider",
+            "source": "TftJC",
+            "size": [
+                "T"
+            ],
+            "type": "plant",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                12
+            ],
+            "hp": {
+                "average": 8,
+                "formula": "3d6 - 3"
+            },
+            "speed": {
+                "walk": 0,
+                "fly": {
+                    "number": 15,
+                    "condition": "(hover)"
+                },
+                "swim": 30,
+                "canHover": true
+            },
+            "str": 3,
+            "dex": 15,
+            "con": 9,
+            "int": 2,
+            "wis": 11,
+            "cha": 5,
+            "passive": 10,
+            "languages": [
+                "none"
+            ],
+            "vulnerable": [
+                "fire"
+            ],
+            "cr": "0",
+            "trait": [
+                {
+                    "name": "Water Rejuvenation",
+                    "entries": [
+                        "After spending 1 minute submerged in water, the Kelpglider regains all of its hit points and removes any negative conditions from itself."
+                    ]
+                }
+            ],
+            "action": [
+                {
+                    "name": "Druidcraft",
+                    "entries": [
+                        "The Kelpglider casts {@spell Druidcraft}"
+                    ]
+                }
+            ]
+        },
         {
             "name": "Minion",
             "source": "TftJC",
@@ -5222,7 +5556,7 @@
                 "EI"
             ],
             "entries": [
-                "If you kill a creature with an eldritch blast, they will spew coins out of their mouth (or another applicable orifice) when they die. The amount of coins they divulge is equal to their hit dice and is of the type of coin you used for the material component of the eldritch blastwhich killed them."
+                "If you kill a creature with an eldritch blast, they will spew coins out of their mouth (or another applicable orifice) when they die. The amount of coins they divulge is equal to their hit dice and is of the type of coin you used for the material component of the eldritch blast which killed them."
             ]
         },
         {
@@ -5757,6 +6091,61 @@
     ],
     "reward": [
         {
+            "name": "Boon of Minor Combat Might",
+            "source": "TftJC",
+            "type": "Boon",
+            "entries": [
+                "You have overcome mighty foes in the arena, and have been granted power beyond this.",
+                "The first time you would drop to 0 hit points, you instead drop to 1. You can only use this feature once per week.",
+                "Additionally, rolling a 19 on a Death Saving Throw now makes you stand with one hit point."
+            ]
+        },
+        {
+            "name": "Draconic Elemental Affinity (Kobold)",
+            "source": "TftJC",
+            "type": "Dragon Jelly",
+            "entries": [
+                "You gain resistance to the damage type of your associated colour.",
+                "Your breath weapon is now a recharge of 6 (not affected by the dragon's breath dragon jelly transformation).",
+                "You additionally have advantage on saving throws against terrain effects created by a mature dragon of your elemental type's territory/lair, such as extreme heat from a red dragon's volcano or acid pools in a black dragon's swamp."
+            ]
+        },
+        {
+            "name": "Dragon's Breath",
+            "source": "TftJC",
+            "type": "Dragon Jelly",
+            "entries": [
+                "You gain a breath weapon. If you are not draconic, its type is random.",
+                "If you already have a breath weapon, you either gain an additional usage of it per rest, or its recharge die is lowered by 1."
+            ]
+        },
+        {
+            "name": "Dragon's Claws",
+            "source": "TftJC",
+            "type": "Dragon Jelly",
+            "entries": [
+                "Your unarmed attacks deal {@dice 1d6} + STR slashing damage.",
+                "You gain a climbing speed equal to your walking speed."
+            ]
+        },
+        {
+            "name": "Dragon's Heart",
+            "source": "TftJC",
+            "type": "Dragon Jelly",
+            "entries": [
+                "Advantage against Frightened and Charmed conditions.",
+                "Once Per Long rest, you can automatically succeed against a Charm or Frighten Effect"
+            ]
+        },
+        {
+            "name": "Increased Eyesight",
+            "source": "TftJC",
+            "type": "Dragon Jelly",
+            "entries": [
+                "You gain Blindsight of 5ft, and your Darkvision is increased by 30ft."
+            ]
+        },
+        {
             "name": "Speaker of the Wind",
             "source": "TftJC",
             "type": "Elemental Gift",
@@ -5801,6 +6190,15 @@
                 {
                     "druidic": true
                 }
+            ]
+        },
+        {
+            "name": "Tough Scales",
+            "source": "TftJC",
+            "type": "Dragon Jelly",
+            "entries": [
+                "While Unarmored, your AC is equal to 10 + DEX + Proficiency Bonus.",
+                "Creatures grappling you take damage equal to your Proficiency Bonus in piercing damage at the start of their turns."
             ]
         }
     ],
@@ -10728,36 +11126,6 @@
             ]
         },
         {
-            "name": "Circle of the Iron Heretic",
-            "source": "TftJC",
-            "className": "Druid",
-            "classSource": "PHB",
-            "subclassShortName": "Iron Heretic",
-            "subclassSource": "TftJC",
-            "level": 2,
-            "entries": [
-                "Druids of the Circle of the Iron Heretic find their calling not in the preservation of nature, but in the advancement of it. They see nature as the perfect mechanism for the advancement of intelligent races but unlike their brethren, they do not shy away from the exploitation of natural resources into valuable tools.",
-                "These druids use their magic to twist metal and stone into cold lifeless mimicry of natural life and push their own power forward by consuming natural material. Their disregard for nature for progress often puts them at odds with other druidic circles, hence their branding as heretics.",
-                "Druids in this circle do not necessarily see natural life as different from that created through construct magic, treating both as useful tools to advance intelligent life forwards. These druids believe that progress and destruction are a natural part of life, embracing modernity as opposed to rejecting it.",
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Circle Spells|Druid|PHB|Iron Heretic|TftJC|2"
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Shell of Iron|Druid|PHB|Iron Heretic|TftJC|2"
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Construct Creation|Druid|PHB|Iron Heretic|TftJC|2"
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Metallic Carapace|Druid|PHB|Iron Heretic|TftJC|2"
-                }
-            ]
-        },
-        {
             "name": "Circle Spells",
             "source": "TftJC",
             "className": "Druid",
@@ -10797,6 +11165,36 @@
                             "Animate Objects, Steel Wind Strike"
                         ]
                     ]
+                }
+            ]
+        },
+        {
+            "name": "Circle of the Iron Heretic",
+            "source": "TftJC",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Iron Heretic",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "Druids of the Circle of the Iron Heretic find their calling not in the preservation of nature, but in the advancement of it. They see nature as the perfect mechanism for the advancement of intelligent races but unlike their brethren, they do not shy away from the exploitation of natural resources into valuable tools.",
+                "These druids use their magic to twist metal and stone into cold lifeless mimicry of natural life and push their own power forward by consuming natural material. Their disregard for nature for progress often puts them at odds with other druidic circles, hence their branding as heretics.",
+                "Druids in this circle do not necessarily see natural life as different from that created through construct magic, treating both as useful tools to advance intelligent life forwards. These druids believe that progress and destruction are a natural part of life, embracing modernity as opposed to rejecting it.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Circle Spells|Druid|PHB|Iron Heretic|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Shell of Iron|Druid|PHB|Iron Heretic|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Construct Creation|Druid|PHB|Iron Heretic|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Metallic Carapace|Druid|PHB|Iron Heretic|TftJC|2"
                 }
             ]
         },

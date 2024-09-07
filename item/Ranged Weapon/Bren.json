@@ -8,7 +8,8 @@
     "weaponCategory": "martial",
     "property": [
         "2H",
-        "H"
+        "H",
+        "AF"
     ],
     "charges": 20,
     "dmg1": "2d10",

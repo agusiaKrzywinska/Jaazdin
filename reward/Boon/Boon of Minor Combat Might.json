@@ -1,0 +1,10 @@
+{
+    "name": "Boon of Minor Combat Might",
+    "source": "TftJC",
+    "type": "Boon",
+    "entries": [
+        "You have overcome mighty foes in the arena, and have been granted power beyond this.",
+        "The first time you would drop to 0 hit points, you instead drop to 1. You can only use this feature once per week.",
+        "Additionally, rolling a 19 on a Death Saving Throw now makes you stand with one hit point."
+    ]
+}
