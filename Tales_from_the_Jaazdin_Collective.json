@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.0.36"
+                "version": "0.0.37"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1725829846
+        "dateLastModified": 1725830280
     },
     "background": [
         {
@@ -9415,8 +9415,7 @@
             "classSource": "PHB",
             "shortName": "Four Elements 2.0",
             "subclassFeatures": [
-                "Spellcasting|Monk|PHB|Four Elements 2.0|TftJC|3",
-                "Flurry of Nature|Monk|PHB|Four Elements 2.0|TftJC|3",
+                "Way of the Four Elements 2.0|Monk|PHB|Four Elements 2.0|TftJC|3",
                 "Balance|Monk|PHB|Four Elements 2.0|TftJC|6",
                 "Devastating Force|Monk|PHB|Four Elements 2.0|TftJC|11",
                 "Cataclysm of Nature|Monk|PHB|Four Elements 2.0|TftJC|17"
@@ -9459,7 +9458,7 @@
             "classSource": "PHB",
             "shortName": "Spirit",
             "subclassFeatures": [
-                "Spirit Stance|Monk|PHB|Spirit|TftJC|3",
+                "Way of the Spirit|Monk|PHB|Spirit|TftJC|3",
                 "Stance Shift|Monk|PHB|Spirit|TftJC|6",
                 "Spiritual Connection|Monk|PHB|Spirit|TftJC|11",
                 "Spirit Brothers|Monk|PHB|Spirit|TftJC|17"
