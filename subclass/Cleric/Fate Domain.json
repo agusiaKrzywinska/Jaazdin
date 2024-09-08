@@ -6,9 +6,7 @@
     "classSource": "PHB",
     "shortName": "Fate",
     "subclassFeatures": [
-        "Fate Domain Spells|Cleric|PHB|Fate|TftJC|1",
-        "Threads of Change|Cleric|PHB|Fate|TftJC|1",
-        "Woven Fate|Cleric|PHB|Fate|TftJC|1",
+        "Fate Domain|Cleric|PHB|Fate|TftJC|1",
         "Channel Divinity: Stolen Fate|Cleric|PHB|Fate|TftJC|2",
         "Improved Fate Weaving|Cleric|PHB|Fate|TftJC|6",
         "Potent Spellcasting|Cleric|PHB|Fate|TftJC|8",

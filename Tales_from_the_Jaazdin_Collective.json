@@ -18,7 +18,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1725830280
+        "dateLastModified": 1725839169
     },
     "background": [
         {
@@ -9147,8 +9147,7 @@
             "classSource": "PHB",
             "shortName": "Ancients",
             "subclassFeatures": [
-                "Stories of Olde|Bard|PHB|Ancients|TftJC|3",
-                "Words of Providence|Bard|PHB|Ancients|TftJC|3",
+                "College of the Ancients|Bard|PHB|Ancients|TftJC|3",
                 "Truth Seeker|Bard|PHB|Ancients|TftJC|6",
                 "Secret Pilferer|Bard|PHB|Ancients|TftJC|14"
             ]
@@ -9187,9 +9186,7 @@
             "classSource": "PHB",
             "shortName": "Fate",
             "subclassFeatures": [
-                "Fate Domain Spells|Cleric|PHB|Fate|TftJC|1",
-                "Threads of Change|Cleric|PHB|Fate|TftJC|1",
-                "Woven Fate|Cleric|PHB|Fate|TftJC|1",
+                "Fate Domain|Cleric|PHB|Fate|TftJC|1",
                 "Channel Divinity: Stolen Fate|Cleric|PHB|Fate|TftJC|2",
                 "Improved Fate Weaving|Cleric|PHB|Fate|TftJC|6",
                 "Potent Spellcasting|Cleric|PHB|Fate|TftJC|8",
@@ -9587,9 +9584,7 @@
             "classSource": "PHB",
             "shortName": "Ninjutsu",
             "subclassFeatures": [
-                "Weapon Specialist|Rogue|PHB|Ninjutsu|TftJC|3",
-                "Fighting Style|Rogue|PHB|Ninjutsu|TftJC|3",
-                "Ninjutsu Techniques|Rogue|PHB|Ninjutsu|TftJC|3",
+                "Ninjutsu|Rogue|PHB|Ninjutsu|TftJC|3",
                 "Nimble|Rogue|PHB|Ninjutsu|TftJC|9",
                 "Preparedness|Rogue|PHB|Ninjutsu|TftJC|9",
                 "Death Mark|Rogue|PHB|Ninjutsu|TftJC|13",
@@ -10507,6 +10502,27 @@
             "level": 14,
             "entries": [
                 "At 14th level, you can absorb the life force of creatures. Whenever you land the killing blow on a creature of CR 1 or greater, you can use your reaction to absorb their life force. Doing so heals you a number of hit points equal to the creature's CR (or level) x 4."
+            ]
+        },
+        {
+            "name": "College of the Ancients",
+            "source": "TftJC",
+            "className": "Bard",
+            "classSource": "PHB",
+            "subclassShortName": "Ancients",
+            "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "The College of Ancients is home to the bards whose focus is on the study, understanding, and emulation of ancient myths and histories. These bards spend their time hunting down long-lost ruins, ancient texts, and obscure myths to better understand the history of their world and prevent the mistakes of the past from repeating.",
+                "The bards of this college are not always as flamboyant and performative as other colleges. Often, they focus more on perfecting their written word rather than plotting grand performances to awe crowds. These bards are privy to many secret magical talents forgotten to time that allows them to better grasp the histories they study and to warn others of the troubles they may come across now. The greatest bards of these colleges are inspiring historians that have uncovered great truths about the world, but do not stop there because these bards use history to shape their own present as well.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Stories of Olde|Bard|PHB|Ancients|TftJC|3|TftJC"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Words of Providence|Bard|PHB|Ancients|TftJC|3|TftJC"
+                }
             ]
         },
         {
@@ -15595,7 +15611,7 @@
             "level": 1,
             "entries": [
                 "Starting at 1st level, you gain the eldritch blast cantrip if you did not have it already. However, it now has a material component that is consumed when used. The material component can be 1cp, 1sp, 1ep, 1gp, or 1pp.",
-                "When you cast the spell, the damage isdetermined by the material component. 1d4 for 1cp, 1d6 for 1sp, 1d8 for 1ep, 1d10 for 1gp, and 1d12 for 1pp."
+                "When you cast the spell, the damage is determined by the material component. {@dice 1d4} for 1cp, {@dice 1d6} for 1sp, {@dice 1d8} for 1ep, {@dice 1d10} for 1gp, and {@dice 1d12} for 1pp."
             ]
         },
         {
@@ -15839,7 +15855,7 @@
             "subclassSource": "TftJC",
             "level": 2,
             "entries": [
-                "At 2nd level, you gain knowledge of an ancient spell. The Forbidden Spell is added to your spellbook, is always prepared for you and does not count against your prepared number of spells. You cannot create spell scrolls of this spell, nor can another Wizard copy this spell from your spellbook."
+                "At 2nd level, you gain knowledge of an ancient spell. {@spell The Forbidden Spell|TftJC} is added to your spellbook, is always prepared for you and does not count against your prepared number of spells. You cannot create spell scrolls of this spell, nor can another Wizard copy this spell from your spellbook."
             ]
         },
         {
@@ -15946,7 +15962,7 @@
             "subclassSource": "TftJC",
             "level": 14,
             "entries": [
-                "At 14th level, your ability to stay hidden is perfected. You can choose to ignore either the Somatic or the Verbal component of a spell, and always have Invisibility and Greater Invisibility shorthanded (these do not count against your number of shorthanded spells, and these spells cannot be replaced by Quickened Copying)."
+                "At 14th level, your ability to stay hidden is perfected. You can choose to ignore either the Somatic or the Verbal component of a spell, and always have {@spell Invisibility} and {@spell Greater Invisibility} shorthanded (these do not count against your number of shorthanded spells, and these spells cannot be replaced by Quickened Copying)."
             ]
         }
     ],

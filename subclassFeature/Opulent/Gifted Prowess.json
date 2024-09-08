@@ -8,6 +8,6 @@
     "level": 1,
     "entries": [
         "Starting at 1st level, you gain the eldritch blast cantrip if you did not have it already. However, it now has a material component that is consumed when used. The material component can be 1cp, 1sp, 1ep, 1gp, or 1pp.",
-        "When you cast the spell, the damage isdetermined by the material component. 1d4 for 1cp, 1d6 for 1sp, 1d8 for 1ep, 1d10 for 1gp, and 1d12 for 1pp."
+        "When you cast the spell, the damage is determined by the material component. {@dice 1d4} for 1cp, {@dice 1d6} for 1sp, {@dice 1d8} for 1ep, {@dice 1d10} for 1gp, and {@dice 1d12} for 1pp."
     ]
 }

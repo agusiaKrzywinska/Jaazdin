@@ -6,9 +6,7 @@
     "classSource": "PHB",
     "shortName": "Ninjutsu",
     "subclassFeatures": [
-        "Weapon Specialist|Rogue|PHB|Ninjutsu|TftJC|3",
-        "Fighting Style|Rogue|PHB|Ninjutsu|TftJC|3",
-        "Ninjutsu Techniques|Rogue|PHB|Ninjutsu|TftJC|3",
+        "Ninjutsu|Rogue|PHB|Ninjutsu|TftJC|3",
         "Nimble|Rogue|PHB|Ninjutsu|TftJC|9",
         "Preparedness|Rogue|PHB|Ninjutsu|TftJC|9",
         "Death Mark|Rogue|PHB|Ninjutsu|TftJC|13",
