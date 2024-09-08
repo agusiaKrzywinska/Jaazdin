@@ -21,10 +21,9 @@
         }
     ],
     "attachedSpells": [
-		"burning hands",
-		"ice knife|XGE",
+        "burning hands",
+        "ice knife|XGE",
         "zephyr strike|XGE",
         "earth tremor|XGE"
-	]
-
+    ]
 }

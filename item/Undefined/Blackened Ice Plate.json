@@ -5,11 +5,11 @@
     "type": "HA",
     "ac": 19,
     "resist": [
-		"cold"
-	],
+        "cold"
+    ],
     "recharge": "restLong",
-	"rechargeAmount": 1,
-	"charges": 1,
+    "rechargeAmount": 1,
+    "charges": 1,
     "entries": [
         "You gain a +1 to your AC, and you gain resistance to Cold Damage. You take no negative repercussions from Cold Weather.",
         "Once per Long Rest, as an Action you can invoke the powers of an unrelenting storm. All Creatures around you must make a DC 17 Constitution Saving Throw and take {@dice 6d10} Cold Damage, or half as much on a Fail."

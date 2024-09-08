@@ -4,6 +4,8 @@
     "rarity": "rare",
     "wondrous": true,
     "charges": "7",
+    "recharge": "midnight",
+    "rechargeAmount": "{@dice 1d4}",
     "entries": [
         "This crystal prism can be used as an arcane focus. While using it the holder can change the damage type of any cantrip they cast to fire, acid, radiant, poison, cold, lightning, or psychic. Doing so consumes one charge from the prism, which holds up to 7 charges. It regains {@dice 1d4} charges when it spends a night in moonlight."
     ]

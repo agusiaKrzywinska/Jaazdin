@@ -1,0 +1,24 @@
+{
+    "name": "Sash of Doluna",
+    "source": "TftJC",
+    "rarity": "legendary",
+    "wondrous": true,
+    "curse": true,
+    "entries": [
+        "Whenever you cast a spell that deals cold damage or restores hit points roll {@dice 1d12} and add it to the damage or healing. In addition, you gain resistance to cold damage, if you already have resistance you gain immunity, if you already have immunity cold damage instead heals you for half the damage dealt.",
+        "You gain a swim speed equal to 120 feet and can breathe underwater.",
+        "<b><i>Curse.</i></b> You require 12x as much water as others. If you go more than 4 hours without drinking at least 1 liter of water, you have disadvantage on all Strength and Constitution saving throws and ability checks until you drink and if you take fire damage you have disadvantage on Strength and Constitution saving throws and ability checks until the end of your next turn.",
+        "<b><i>Form of the Tides</i></b> As an action, you can set loose the spirit contained within the scarf to fight alongside you. The spirit takes on the form of an Elemental from the following list: {@creature Water Elemental Myrmidon|MPMM}, {@creature Giant Shark|MM|Giant Shark (type Elemental)}, or {@creature Water Elemental|MM}.",
+        "While the spirit is active and has more than 0 hit points, you gain the following benefits:",
+        {
+            "type": "list",
+            "style": "list-hang",
+            "items": [
+                "Creature that receive healing from you gain temporary hit points equal to the amount healed. While they have these temporary hit points creatures that damage those creatures suffer 5 cold damage if they are within 5ft of the damaged creature.",
+                "Whenever you cast a spell that deals cold damage, the surrounding area grows frigid. Each creature of your choice within 30 feet of you must make a DC 20 Constitution saving throw or have their movement speed halved and suffer cold damage equal to your proficiency bonus.",
+                "When you restore hit points to a creature, you can also end one of the following conditions on that creature: poisoned, paralyzed, prone, or stunned."
+            ]
+        },
+        "When the spirit drops to 0 hit points or 1 hour passes, it vanishes, and you lose the benefits listed above. Once you use this ability, you cannot use it again for 90 days. As an action, you can cast a 5th level or higher spell that deals cold damage into the Sash to lower the time to wait by 1 day."
+    ]
+}

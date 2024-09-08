@@ -4,6 +4,9 @@
     "rarity": "artifact",
     "wondrous": true,
     "reqAttune": true,
+    "charges": 1,
+    "recharge": "restLong",
+    "rechargeAmount": 1,
     "entries": [
         "While wearing or holding this magical gem you can commune with the spirit trapped within to create a powerful magical implement. As an action, you can target one non-magical weapon, armor, or spellcasting focus that you are holding and wearing and cause it to become encrusted with magical gemstones.",
         "<b><i>Encrusted Weapon.</i></b> You gain a +2 bonus to attack and damage rolls made with this now magical weapon. In addition, you deal {@dice 1d6} cold damage on a hit. On scoring a critical hit you deal {@dice 3d6} cold damage to each creature of your choice within 5 feet of the original target.",

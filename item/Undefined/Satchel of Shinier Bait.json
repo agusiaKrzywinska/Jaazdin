@@ -3,6 +3,9 @@
     "source": "TftJC",
     "rarity": "rare",
     "wondrous": true,
+    "charges": 5,
+    "recharge": "dawn",
+    "rechargeAmount": "{@dice 1d4 + 1}",
     "entries": [
         "A small pouch containing Morenstar Lake's new special Shinier Bait, a glimmering gem-like item that has little value by itself, but is easily confused as valuable to the casual observer.",
         "As a bonus action, a creature can remove one piece of bait and throw it up to 30 feet away. Alternatively, they can use their bonus action to attach it to a piece of ammunition, due to the Shinier Bait's higher durability.",

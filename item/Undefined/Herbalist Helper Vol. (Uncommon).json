@@ -3,6 +3,7 @@
     "source": "TftJC",
     "rarity": "uncommon",
     "wondrous": true,
+    "charges": 2,
     "entries": [
         "This tome contains the secrets of medical knowledge, plants, and poultices.",
         "It can be read over 1 week to learn the use for one uncommon or lower plant, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Gardening, Doctor, or Alchemist labor tier by 1.",

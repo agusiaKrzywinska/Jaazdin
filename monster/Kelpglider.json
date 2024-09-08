@@ -6,8 +6,8 @@
     ],
     "type": "plant",
     "alignment": [
-		"U"
-	],
+        "U"
+    ],
     "ac": [
         12
     ],
@@ -16,14 +16,14 @@
         "formula": "3d6 - 3"
     },
     "speed": {
-		"walk": 0,
-		"fly": {
-			"number": 15,
-			"condition": "(hover)"
-		},
+        "walk": 0,
+        "fly": {
+            "number": 15,
+            "condition": "(hover)"
+        },
         "swim": 30,
-		"canHover": true
-	},
+        "canHover": true
+    },
     "str": 3,
     "dex": 15,
     "con": 9,

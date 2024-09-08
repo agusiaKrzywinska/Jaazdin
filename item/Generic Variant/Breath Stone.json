@@ -3,6 +3,7 @@
     "source": "TftJC",
     "rarity": "varies",
     "wondrous": true,
+    "type": "GV",
     "entries": [
         "As an action, you can pop the stone into your mouth consuming it, unleashing a breath weapon effect. The breath weapon takes the form of a 15-foot cone of elemental damage. Each creature in the area must make a Dexterity saving throw, taking elemental damage on a failed save, or half as much damage on a successful one. Once consumed the breath stone is used.",
         "Based on the color of the stone it determines the elemental damage type",

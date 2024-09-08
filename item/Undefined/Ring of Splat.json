@@ -3,6 +3,9 @@
     "source": "TftJC",
     "rarity": "rare",
     "wondrous": true,
+    "charges": 5,
+    "recharge": "dawn",
+    "rechargeAmount": "{@dice 1d4}",
     "entries": [
         "“You wanna piece of me?”",
         "A ring that smells of rich cinnamon and sweet fruit, creating a unique scent that encapsulates the wearer, confusing creatures that rely on scent.",

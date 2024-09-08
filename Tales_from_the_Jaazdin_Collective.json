@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.0.34"
+                "version": "0.0.35"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1725575779
+        "dateLastModified": 1725828999
     },
     "background": [
         {
@@ -741,7 +741,6 @@
                 {
                     "type": "list",
                     "items": [
-                        "Increase your Strength, Dexterity or Constitution by 1.",
                         "While within 5 feet of an ally wielding a shield you and the ally gain a +1 to AC and Dexterity saving throws. A creature can only benefit from this feature once.",
                         "While within 5ft of a least two allies the first attack roll you make on your turn has advantage."
                     ]
@@ -1082,7 +1081,7 @@
         {
             "name": "Blackpowder Bottoms",
             "source": "TftJC",
-            "type": "OTH",
+            "type": "T",
             "rarity": "none",
             "weight": 0,
             "value": 17500,
@@ -1296,6 +1295,7 @@
             "source": "TftJC",
             "rarity": "varies",
             "wondrous": true,
+            "type": "GV",
             "entries": [
                 "As an action, you can pop the stone into your mouth consuming it, unleashing a breath weapon effect. The breath weapon takes the form of a 15-foot cone of elemental damage. Each creature in the area must make a Dexterity saving throw, taking elemental damage on a failed save, or half as much damage on a successful one. Once consumed the breath stone is used.",
                 "Based on the color of the stone it determines the elemental damage type",
@@ -2193,6 +2193,7 @@
             "name": "Enchanting Catalogue Vol.",
             "source": "TftJC",
             "rarity": "varies",
+            "type": "GV",
             "wondrous": true,
             "entries": [
                 "These tomes contains the secrets to enchanting magical objects.",
@@ -2212,10 +2213,11 @@
             "source": "TftJC",
             "rarity": "legendary",
             "wondrous": true,
+            "charges": 4,
             "entries": [
                 "This tome contains the secrets to enchanting magical objects.",
                 "It can be read over 1 week to learn the recipe for one legendary or lower magical item, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Tinkering, Teaching, or Arcanist labor tier by 4.",
-                "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+                "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
         {
@@ -2223,10 +2225,11 @@
             "source": "TftJC",
             "rarity": "rare",
             "wondrous": true,
+            "charges": 3,
             "entries": [
                 "This tome contains the secrets to enchanting magical objects.",
                 "It can be read over 1 week to learn the recipe for one rare or lower magical item, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Tinkering, Teaching, or Arcanist labor tier by 2.",
-                "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+                "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
         {
@@ -2234,10 +2237,11 @@
             "source": "TftJC",
             "rarity": "uncommon",
             "wondrous": true,
+            "charges": 2,
             "entries": [
                 "This tome contains the secrets to enchanting magical objects.",
                 "It can be read over 1 week to learn the recipe for one uncommon or lower magical item, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Tinkering, Teaching, or Arcanist labor tier by 1.",
-                "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+                "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
         {
@@ -2248,7 +2252,7 @@
             "entries": [
                 "This tome contains the secrets to enchanting magical objects.",
                 "It can be read over 1 week to learn the recipe for one very rare or lower magical item, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Tinkering, Teaching, or Arcanist labor tier by 3.",
-                "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+                "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
         {
@@ -2330,7 +2334,7 @@
             "property": [
                 "AF"
             ],
-            "charges": 5,
+            "charges": 1,
             "dmg1": "2d8",
             "dmgType": "F",
             "range": "80/320",
@@ -2457,7 +2461,7 @@
         {
             "name": "Flaming Blades",
             "source": "TftJC",
-            "type": "OTH",
+            "type": "T",
             "rarity": "none",
             "value": 20000,
             "charges": 5,
@@ -2588,7 +2592,7 @@
             "name": "Glider",
             "source": "TftJC",
             "rarity": "none",
-            "type": "OTH",
+            "type": "T",
             "entries": [
                 "<i><b>Complex Invention.</i></b>",
                 "This folding device contains a flexible cloth that is able to take on the weight of 1 Medium or smaller creature. This device is stored on the wearer's back, and metal rods connect to the apparatus that run down the wearer's arms. As an Action, the wearer can Prime the Glider. While Primed the wearer's range of motion is slightly more limited, causing disadvantage on making melee attacks, sleight of hand checks, and preventing the use of a Shield.",
@@ -2742,7 +2746,9 @@
             "dmgType": "B",
             "entries": [
                 "<i><b>Complex Invention.</i></b>",
-                "This miniature cannon can be wielded effectively with two hands, like a heavy crossbow. Proficiency in the Heavy Crossbow allows you to add your proficiency bonus with this weapon. It uses small cannonballs as ammunition, 10 of which can be bought for 5gp.",
+                "This miniature cannon can be wielded effectively with two hands, like a heavy crossbow.",
+                "Proficiency in the Heavy Crossbow allows you to add your proficiency bonus with this weapon.",
+                "It uses small cannonballs as ammunition, 10 of which can be bought for 5gp.",
                 "The wielder can ignite the fuse on the end of the cannon and fire it. Make a ranged attack roll (range 120ft, with no long range). It travels in that line until it hits a creature's AC, or it reaches the end of its range. A Creature hit by this attack takes {@dice 4d10} + DEX Bludgeoning Damage.",
                 "It requires forgoing 2 Attacks by the wielder to Reload. If the wielder has the Crossbow Master Feat, this is lowered to 1. Additionally, the wielder can use a Bonus Action to progress the reload of this weapon by 1. Minimum 1 attacks required to reload the cannon."
             ]
@@ -2781,6 +2787,7 @@
             "name": "Herbalist Helper Vol.",
             "source": "TftJC",
             "rarity": "varies",
+            "type": "GV",
             "wondrous": true,
             "entries": [
                 "These tomes contains the secrets of medical knowledge, plants, and poultices.",
@@ -2800,10 +2807,11 @@
             "source": "TftJC",
             "rarity": "legendary",
             "wondrous": true,
+            "charges": 4,
             "entries": [
                 "This tome contains the secrets of medical knowledge, plants, and poultices.",
                 "It can be read over 1 week to learn the use for one legendary or lower plant, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Gardening, Doctor, or Alchemist labor tier by 4.",
-                "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+                "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
         {
@@ -2811,10 +2819,11 @@
             "source": "TftJC",
             "rarity": "rare",
             "wondrous": true,
+            "charges": 3,
             "entries": [
                 "This tome contains the secrets of medical knowledge, plants, and poultices.",
                 "It can be read over 1 week to learn the use for one rare or lower plant, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Gardening, Doctor, or Alchemist labor tier by 2.",
-                "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+                "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
         {
@@ -2822,6 +2831,7 @@
             "source": "TftJC",
             "rarity": "uncommon",
             "wondrous": true,
+            "charges": 2,
             "entries": [
                 "This tome contains the secrets of medical knowledge, plants, and poultices.",
                 "It can be read over 1 week to learn the use for one uncommon or lower plant, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Gardening, Doctor, or Alchemist labor tier by 1.",
@@ -2833,10 +2843,11 @@
             "source": "TftJC",
             "rarity": "very rare",
             "wondrous": true,
+            "charges": 4,
             "entries": [
                 "This tome contains the secrets of medical knowledge, plants, and poultices.",
                 "It can be read over 1 week to learn the use for one very rare or lower plant, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Gardening, Doctor, or Alchemist labor tier by 3.",
-                "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+                "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
         {
@@ -3383,7 +3394,7 @@
             "source": "TftJC",
             "rarity": "none",
             "baseItem": "Ball Bearings (bag of 1,000)|PHB",
-            "type": "G",
+            "type": "T",
             "entries": [
                 "<i><b>Simple Invention.</i></b>",
                 "These ballbearings have been coated in slippery oil. As an Action, you can apply 3 Flasks of Oil to Ball Bearings.",
@@ -3422,6 +3433,7 @@
             "source": "TftJC",
             "rarity": "varies",
             "wondrous": true,
+            "type": "GV",
             "entries": [
                 "These tome contains the secrets to performance and writing.",
                 {
@@ -3440,10 +3452,11 @@
             "source": "TftJC",
             "rarity": "legendary",
             "wondrous": true,
+            "charges": 4,
             "entries": [
                 "This tome contains the secrets to performance and writing.",
                 "It can be read over 1 week to grant a creature a {@dice 1d12} to one roll during their downtime. Alternatively, a creature reading it can instead read the book to increase their Journalism, Performance, or Theft labor tier by 4.",
-                "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+                "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
         {
@@ -3451,10 +3464,11 @@
             "source": "TftJC",
             "rarity": "rare",
             "wondrous": true,
+            "charges": 3,
             "entries": [
                 "This tome contains the secrets to performance and writing.",
                 "It can be read over 1 week to grant a creature a {@dice 1d8} to one roll during their downtime. Alternatively, a creature reading it can instead read the book to increase their Journalism, Performance, or Theft labor tier by 2.",
-                "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+                "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
         {
@@ -3462,10 +3476,11 @@
             "source": "TftJC",
             "rarity": "uncommon",
             "wondrous": true,
+            "charges": 2,
             "entries": [
                 "This tome contains the secrets to performance and writing.",
                 "It can be read over 1 week to grant a creature a {@dice 1d6} to one roll during their downtime. Alternatively, a creature reading it can instead read the book to increase their Journalism, Performance, or Theft labor tier by 1.",
-                "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+                "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
         {
@@ -3473,10 +3488,11 @@
             "source": "TftJC",
             "rarity": "very rare",
             "wondrous": true,
+            "charges": 4,
             "entries": [
                 "This tome contains the secrets to performance and writing.",
                 "It can be read over 1 week to grant a creature a {@dice 1d10} to one roll during their downtime. Alternatively, a creature reading it can instead read the book to increase their Journalism, Performance, or Theft labor tier by 3.",
-                "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+                "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
         {
@@ -3490,7 +3506,7 @@
             "property": [
                 "AF"
             ],
-            "charges": 5,
+            "charges": 7,
             "dmg1": "2d12",
             "dmgType": "F",
             "range": "30/60",
@@ -3550,6 +3566,8 @@
             "rarity": "rare",
             "wondrous": true,
             "charges": "7",
+            "recharge": "midnight",
+            "rechargeAmount": "{@dice 1d4}",
             "entries": [
                 "This crystal prism can be used as an arcane focus. While using it the holder can change the damage type of any cantrip they cast to fire, acid, radiant, poison, cold, lightning, or psychic. Doing so consumes one charge from the prism, which holds up to 7 charges. It regains {@dice 1d4} charges when it spends a night in moonlight."
             ]
@@ -3576,7 +3594,7 @@
             "name": "Quickdraw Bandolier",
             "source": "TftJC",
             "rarity": "none",
-            "type": "G",
+            "type": "T",
             "containerCapacity": {
                 "weight": [
                     4,
@@ -3942,6 +3960,9 @@
             "source": "TftJC",
             "rarity": "rare",
             "wondrous": true,
+            "charges": 5,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4}",
             "entries": [
                 "“You wanna piece of me?”",
                 "A ring that smells of rich cinnamon and sweet fruit, creating a unique scent that encapsulates the wearer, confusing creatures that rely on scent.",
@@ -3961,7 +3982,7 @@
             "property": [
                 "AF"
             ],
-            "charges": 5,
+            "charges": 1,
             "dmg1": "4d8",
             "dmgType": "F",
             "range": "100/400",
@@ -4012,10 +4033,37 @@
             ]
         },
         {
+            "name": "Sash of Doluna",
+            "source": "TftJC",
+            "rarity": "legendary",
+            "wondrous": true,
+            "curse": true,
+            "entries": [
+                "Whenever you cast a spell that deals cold damage or restores hit points roll {@dice 1d12} and add it to the damage or healing. In addition, you gain resistance to cold damage, if you already have resistance you gain immunity, if you already have immunity cold damage instead heals you for half the damage dealt.",
+                "You gain a swim speed equal to 120 feet and can breathe underwater.",
+                "<b><i>Curse.</i></b> You require 12x as much water as others. If you go more than 4 hours without drinking at least 1 liter of water, you have disadvantage on all Strength and Constitution saving throws and ability checks until you drink and if you take fire damage you have disadvantage on Strength and Constitution saving throws and ability checks until the end of your next turn.",
+                "<b><i>Form of the Tides</i></b> As an action, you can set loose the spirit contained within the scarf to fight alongside you. The spirit takes on the form of an Elemental from the following list: {@creature Water Elemental Myrmidon|MPMM}, {@creature Giant Shark|MM|Giant Shark (type Elemental)}, or {@creature Water Elemental|MM}.",
+                "While the spirit is active and has more than 0 hit points, you gain the following benefits:",
+                {
+                    "type": "list",
+                    "style": "list-hang",
+                    "items": [
+                        "Creature that receive healing from you gain temporary hit points equal to the amount healed. While they have these temporary hit points creatures that damage those creatures suffer 5 cold damage if they are within 5ft of the damaged creature.",
+                        "Whenever you cast a spell that deals cold damage, the surrounding area grows frigid. Each creature of your choice within 30 feet of you must make a DC 20 Constitution saving throw or have their movement speed halved and suffer cold damage equal to your proficiency bonus.",
+                        "When you restore hit points to a creature, you can also end one of the following conditions on that creature: poisoned, paralyzed, prone, or stunned."
+                    ]
+                },
+                "When the spirit drops to 0 hit points or 1 hour passes, it vanishes, and you lose the benefits listed above. Once you use this ability, you cannot use it again for 90 days. As an action, you can cast a 5th level or higher spell that deals cold damage into the Sash to lower the time to wait by 1 day."
+            ]
+        },
+        {
             "name": "Satchel of Shinier Bait",
             "source": "TftJC",
             "rarity": "rare",
             "wondrous": true,
+            "charges": 5,
+            "recharge": "dawn",
+            "rechargeAmount": "{@dice 1d4 + 1}",
             "entries": [
                 "A small pouch containing Morenstar Lake's new special Shinier Bait, a glimmering gem-like item that has little value by itself, but is easily confused as valuable to the casual observer.",
                 "As a bonus action, a creature can remove one piece of bait and throw it up to 30 feet away. Alternatively, they can use their bonus action to attach it to a piece of ammunition, due to the Shinier Bait's higher durability.",
@@ -4039,19 +4087,6 @@
             ]
         },
         {
-            "name": "Scarf of the Rushing Tides",
-            "source": "TftJC",
-            "rarity": "rare",
-            "wondrous": true,
-            "curse": true,
-            "entries": [
-                "Whenever you cast a spell that deals cold damage or restores hit points roll {@dice 1d8} and add it to the damage or healing. In addition, you gain resistance to cold damage and when you suffer cold damage you reduce the damage by {@dice 1d4}.",
-                "You gain a swim speed equal to 60 feet and can breathe underwater.",
-                "<b><i>Curse.</i></b> You require 6x as much water as others. If you go more than 4 hours without drinking at least 1 liter of water you have disadvantage on all Strength and Constitution saving throws and ability checks until you drink.",
-                "<b><i>Shackles of Farlanki.</i></b> This item contains the spirit of a destructive elemental leviathan known as Doluna. While this scarf is not being worn by someone the enchantment magic holding Doluna at bay begins to wane. After {@dice 1d6+2} days the scarf vanishes and transforms into a portal into the Elemental Plane of Water. After {@dice 2d4+2} days the magic fails entirely and Doluna is freed."
-            ]
-        },
-        {
             "name": "Scope",
             "source": "TftJC",
             "page": 10,
@@ -4067,7 +4102,7 @@
         {
             "name": "Scope MK I",
             "source": "TftJC",
-            "type": "OTH",
+            "type": "T",
             "rarity": "none",
             "entries": [
                 "<i><b>Simple Invention.</i></b>",
@@ -4461,7 +4496,7 @@
         {
             "name": "The Bunker Buster",
             "source": "TftJC",
-            "type": "OTH",
+            "type": "EXP",
             "rarity": "none",
             "entries": [
                 "<i><b>Groundbreaking Invention.</i></b>",
@@ -4563,6 +4598,7 @@
             "source": "TftJC",
             "rarity": "varies",
             "wondrous": true,
+            "type": "GV",
             "entries": [
                 "These tomes contains the secrets to skullduggery and crime.",
                 {
@@ -4581,10 +4617,11 @@
             "source": "TftJC",
             "rarity": "legendary",
             "wondrous": true,
+            "charges": 4,
             "entries": [
                 "This tome contains the secrets to skullduggery and crime.",
                 "It can be read over 1 week to reduce the heat of a creature to 0. Alternatively, a creature reading it can instead read the book to increase their Theft, Guard Duty, or Gambling labor tier by 4.",
-                "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+                "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
         {
@@ -4592,10 +4629,11 @@
             "source": "TftJC",
             "rarity": "rare",
             "wondrous": true,
+            "charges": 3,
             "entries": [
                 "This tome contains the secrets to skullduggery and crime.",
                 "It can be read over 1 week to reduce the heat of a creature to 0. Alternatively, a creature reading it can instead read the book to increase their Theft, Guard Duty, or Gambling labor tier by 2.",
-                "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+                "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
         {
@@ -4603,10 +4641,11 @@
             "source": "TftJC",
             "rarity": "uncommon",
             "wondrous": true,
+            "charges": 2,
             "entries": [
                 "This tome contains the secrets to skullduggery and crime.",
                 "It can be read over 1 week to reduce the heat of a creature to 0. Alternatively, a creature reading it can instead read the book to increase their Theft, Guard Duty, or Gambling labor tier by 1.",
-                "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+                "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
         {
@@ -4614,10 +4653,11 @@
             "source": "TftJC",
             "rarity": "very rare",
             "wondrous": true,
+            "charges": 4,
             "entries": [
                 "This tome contains the secrets to skullduggery and crime.",
                 "It can be read over 1 week to reduce the heat of a creature to 0. Alternatively, a creature reading it can instead read the book to increase their Theft, Guard Duty, or Gambling labor tier by 3.",
-                "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+                "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
         {
@@ -4675,6 +4715,7 @@
             "source": "TftJC",
             "rarity": "varies",
             "wondrous": true,
+            "type": "GV",
             "entries": [
                 "These tomes contains the secrets of invention and innovation.",
                 {
@@ -4693,10 +4734,11 @@
             "source": "TftJC",
             "rarity": "legendary",
             "wondrous": true,
+            "charges": 4,
             "entries": [
                 "This tome contains the secrets of invention and innovation.",
                 "It can be read over 1 week to gain +25 towards one Groundbreaking invention blueprint progress. Alternatively, a creature reading it can instead read the book to increase their Teaching, Tinkering, or Smithing labor tier by 4.",
-                "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+                "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
         {
@@ -4704,10 +4746,11 @@
             "source": "TftJC",
             "rarity": "rare",
             "wondrous": true,
+            "charges": 3,
             "entries": [
                 "This tome contains the secrets of invention and innovation.",
                 "It can be read over 1 week to gain +15 towards one Innovative invention blueprint progress. Alternatively, a creature reading it can instead read the book to increase their Teaching, Tinkering, or Smithing labor tier by 2.",
-                "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+                "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
         {
@@ -4715,10 +4758,11 @@
             "source": "TftJC",
             "rarity": "uncommon",
             "wondrous": true,
+            "charges": 2,
             "entries": [
                 "This tome contains the secrets of invention and innovation.",
                 "It can be read over 1 week to gain +10 towards one Simple invention blueprint progress. Alternatively, a creature reading it can instead read the book to increase their Teaching, Tinkering, or Smithing labor tier by 1.",
-                "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+                "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
         {
@@ -4726,10 +4770,11 @@
             "source": "TftJC",
             "rarity": "very rare",
             "wondrous": true,
+            "charges": 4,
             "entries": [
                 "This tome contains the secrets of invention and innovation.",
                 "It can be read over 1 week to gain +20 towards one Complex invention blueprint progress. Alternatively, a creature reading it can instead read the book to increase their Teaching, Tinkering, or Smithing labor tier by 3.",
-                "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+                "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
         {
@@ -4779,6 +4824,7 @@
             "source": "TftJC",
             "rarity": "varies",
             "wondrous": true,
+            "type": "GV",
             "entries": [
                 "These tomes contains the secrets on a variety of topics.",
                 {
@@ -4966,6 +5012,9 @@
             "rarity": "artifact",
             "wondrous": true,
             "reqAttune": true,
+            "charges": 1,
+            "recharge": "restLong",
+            "rechargeAmount": 1,
             "entries": [
                 "While wearing or holding this magical gem you can commune with the spirit trapped within to create a powerful magical implement. As an action, you can target one non-magical weapon, armor, or spellcasting focus that you are holding and wearing and cause it to become encrusted with magical gemstones.",
                 "<b><i>Encrusted Weapon.</i></b> You gain a +2 bonus to attack and damage rolls made with this now magical weapon. In addition, you deal {@dice 1d6} cold damage on a hit. On scoring a critical hit you deal {@dice 3d6} cold damage to each creature of your choice within 5 feet of the original target.",
@@ -8711,7 +8760,7 @@
                 }
             ],
             "entries": [
-                "You place your hand on the ground and pour corruptive energies into it turning the very earth toxic to those that touch it. The poisoned area consists of up to 5 15ft cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. The area inside each cube is difficult terrain and each time a creature starts its turn inside one of the cubes it must make a Constitution saving throw or take 4d10 poison damage and become poisoned until the start of its next turn, while poisoned in this way the creature’s speed is halved. On a successful save it takes half as much damage and is not poisoned."
+                "You place your hand on the ground and pour corruptive energies into it turning the very earth toxic to those that touch it. The poisoned area consists of up to 5 15ft cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. The area inside each cube is difficult terrain and each time a creature starts its turn inside one of the cubes it must make a Constitution saving throw or take {@dice 4d10} poison damage and become poisoned until the start of its next turn, while poisoned in this way the creature’s speed is halved. On a successful save it takes half as much damage and is not poisoned."
             ],
             "savingThrow": [
                 "constitution"
@@ -11470,7 +11519,7 @@
             "subclassSource": "TftJC",
             "level": 6,
             "entries": [
-                "At 2nd level, you learn of Ancient Beasts that once walked the lands. You can Wild Shape into any Dinosaur Beast (so long as you still meet any wild shape restrictions). You also learn the Primordial Language, or another language if you know this language already."
+                "At 6th level your body gains the ability to grow as well. You learn the {@spell Enlarge/Reduce} spell, and always have it prepared as a Druid spell for you. You can only cast the Enlarge portion of the spell. Whenever you would attack a creature that is at least a size category smaller than you, you deal an additional {@dice 1d6} damage equal to how many size categories smaller that creature is compared to you."
             ]
         },
         {
