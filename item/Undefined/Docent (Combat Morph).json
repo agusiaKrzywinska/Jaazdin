@@ -5,7 +5,7 @@
     "reqAttune": "by a warforged",
     "reqAttuneTags": [
         {
-            "race": "warforged|erlw"
+            "race": "warforged|ERLW"
         }
     ],
     "wondrous": true,
