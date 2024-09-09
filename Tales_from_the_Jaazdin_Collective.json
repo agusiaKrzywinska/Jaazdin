@@ -18,7 +18,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1725839169
+        "dateLastModified": 1725843654
     },
     "background": [
         {
@@ -1571,8 +1571,7 @@
             "weight": 6,
             "entries": [
                 "This magical shield projects an additional shield of force around itself when activated. As a bonus action, you can activate the shield to increase its AC value by +3. While in this state you also have resistance to force damage and immunity to the magic missile spell.",
-                "While the shield is activated and you succeed on a Dexterity saving throw that effects more than one creature you can choose to extend its protection to all allies within 30 feet. Each creature within 30 feet automatically succeeds on the Dexterity saving throw and suffers no damage or negative effects. You suffer the full effect of the saving throw as if you had failed the save. Once you use this ability the shield becomes inactive, and cannot be activated again until you finish a short or long rest.",
-                "A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time."
+                "While the shield is activated and you succeed on a Dexterity saving throw that effects more than one creature you can choose to extend its protection to all allies within 30 feet. Each creature within 30 feet automatically succeeds on the Dexterity saving throw and suffers no damage or negative effects. You suffer the full effect of the saving throw as if you had failed the save. Once you use this ability the shield becomes inactive, and cannot be activated again until you finish a short or long rest."
             ]
         },
         {
@@ -3288,7 +3287,7 @@
             "source": "TftJC",
             "rarity": "artifact",
             "reqAttune": true,
-            "ac": 2,
+            "ac": 3,
             "type": "S",
             "weight": 6,
             "entries": [
@@ -3394,7 +3393,7 @@
             "source": "TftJC",
             "rarity": "none",
             "baseItem": "Ball Bearings (bag of 1,000)|PHB",
-            "type": "T",
+            "type": "G",
             "entries": [
                 "<i><b>Simple Invention.</i></b>",
                 "These ballbearings have been coated in slippery oil. As an Action, you can apply 3 Flasks of Oil to Ball Bearings.",
