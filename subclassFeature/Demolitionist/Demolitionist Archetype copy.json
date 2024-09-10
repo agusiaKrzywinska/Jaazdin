@@ -1,0 +1,25 @@
+{
+    "name": "Demolitionist Archetype",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "subclassShortName": "Demolitionist",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "Walking through the smoke of a destroyed building emerges a creature, head to toe in weapons of mass destruction. Between explosives, guns and fire, the Demolitionist is ready for any mission, so long as that mission is causing as much destruction as possible.",
+        "As a Demolitionist, you excel in destruction. Between your array of unique weaponry to your aggressive fighting style, Demolitionists put themselves in the way of danger to fully utilize their weaponry to its potential.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Frontloaded Savagery|Gunner|TftJC|Demolitionist|TftJC|2"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Property Damage|Gunner|TftJC|Demolitionist|TftJC|2"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Blast Gun Progression|Gunner|TftJC|Demolitionist|TftJC|2"
+        }
+    ]
+}

@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.0.37"
+                "version": "0.0.39"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1725843654
+        "dateLastModified": 1725934242
     },
     "background": [
         {
@@ -9322,9 +9322,7 @@
             "classSource": "TftJC",
             "shortName": "Buckshot",
             "subclassFeatures": [
-                "Shrug It Off|Gunner|TftJC|Buckshot|TftJC|2",
-                "Raw Muscle|Gunner|TftJC|Buckshot|TftJC|2",
-                "Shotgun Progression|Gunner|TftJC|Buckshot|TftJC|2",
+                "Buckshot Archetype|Gunner|TftJC|Buckshot|TftJC|2",
                 "Smokescreen|Gunner|TftJC|Buckshot|TftJC|6",
                 "Buckshot Modifications|Gunner|TftJC|Buckshot|TftJC|6",
                 "Push 'em Off|Gunner|TftJC|Buckshot|TftJC|10",
@@ -9340,9 +9338,7 @@
             "classSource": "TftJC",
             "shortName": "Demolitionist",
             "subclassFeatures": [
-                "Frontloaded Savagery|Gunner|TftJC|Demolitionist|TftJC|2",
-                "Property Damage|Gunner|TftJC|Demolitionist|TftJC|2",
-                "Blast Gun Progression|Gunner|TftJC|Demolitionist|TftJC|2",
+                "Demolitionist Archetype|Gunner|TftJC|Demolitionist|TftJC|2",
                 "Overcustomized Firearms|Gunner|TftJC|Demolitionist|TftJC|6",
                 "Demolitionist Modifications|Gunner|TftJC|Demolitionist|TftJC|6",
                 "Rocket Jump|Gunner|TftJC|Demolitionist|TftJC|10",
@@ -9358,7 +9354,7 @@
             "classSource": "TftJC",
             "shortName": "Hexlock",
             "subclassFeatures": [
-                "Magical Acolyte|Gunner|TftJC|Hexlock|TftJC|2",
+                "Hexlock Archetype|Gunner|TftJC|Hexlock|TftJC|2",
                 "Hexed Bullets|Gunner|TftJC|Hexlock|TftJC|2",
                 "Firearm Enchanter|Gunner|TftJC|Hexlock|TftJC|6",
                 "Hexlock Modifications|Gunner|TftJC|Hexlock|TftJC|6",
@@ -11196,6 +11192,36 @@
             ]
         },
         {
+            "name": "Circle of the Iron Heretic",
+            "source": "TftJC",
+            "className": "Druid",
+            "classSource": "PHB",
+            "subclassShortName": "Iron Heretic",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "Druids of the Circle of the Iron Heretic find their calling not in the preservation of nature, but in the advancement of it. They see nature as the perfect mechanism for the advancement of intelligent races but unlike their brethren, they do not shy away from the exploitation of natural resources into valuable tools.",
+                "These druids use their magic to twist metal and stone into cold lifeless mimicry of natural life and push their own power forward by consuming natural material. Their disregard for nature for progress often puts them at odds with other druidic circles, hence their branding as heretics.",
+                "Druids in this circle do not necessarily see natural life as different from that created through construct magic, treating both as useful tools to advance intelligent life forwards. These druids believe that progress and destruction are a natural part of life, embracing modernity as opposed to rejecting it.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Circle Spells|Druid|PHB|Iron Heretic|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Shell of Iron|Druid|PHB|Iron Heretic|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Construct Creation|Druid|PHB|Iron Heretic|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Metallic Carapace|Druid|PHB|Iron Heretic|TftJC|2"
+                }
+            ]
+        },
+        {
             "name": "Circle Spells",
             "source": "TftJC",
             "className": "Druid",
@@ -11235,36 +11261,6 @@
                             "Animate Objects, Steel Wind Strike"
                         ]
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Circle of the Iron Heretic",
-            "source": "TftJC",
-            "className": "Druid",
-            "classSource": "PHB",
-            "subclassShortName": "Iron Heretic",
-            "subclassSource": "TftJC",
-            "level": 2,
-            "entries": [
-                "Druids of the Circle of the Iron Heretic find their calling not in the preservation of nature, but in the advancement of it. They see nature as the perfect mechanism for the advancement of intelligent races but unlike their brethren, they do not shy away from the exploitation of natural resources into valuable tools.",
-                "These druids use their magic to twist metal and stone into cold lifeless mimicry of natural life and push their own power forward by consuming natural material. Their disregard for nature for progress often puts them at odds with other druidic circles, hence their branding as heretics.",
-                "Druids in this circle do not necessarily see natural life as different from that created through construct magic, treating both as useful tools to advance intelligent life forwards. These druids believe that progress and destruction are a natural part of life, embracing modernity as opposed to rejecting it.",
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Circle Spells|Druid|PHB|Iron Heretic|TftJC|2"
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Shell of Iron|Druid|PHB|Iron Heretic|TftJC|2"
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Construct Creation|Druid|PHB|Iron Heretic|TftJC|2"
-                },
-                {
-                    "type": "refSubclassFeature",
-                    "subclassFeature": "Metallic Carapace|Druid|PHB|Iron Heretic|TftJC|2"
                 }
             ]
         },
@@ -11804,6 +11800,30 @@
             ]
         },
         {
+            "name": "Buckshot Archetype",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Buckshot",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "The sound of a heavy gun cocking echoes through the streets. A gas canister flies though the air, as fog obscures the area, the only thing that can be heard is the sound of a loud boom. As the smoke clears, a lone gunner walks off, with their boomstick proudly slung over their shoulder.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Shrug It Off|Gunner|TftJC|Buckshot|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Raw Muscle|Gunner|TftJC|Buckshot|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Shotgun Progression|Gunner|TftJC|Buckshot|TftJC|2"
+                }
+            ]
+        },
+        {
             "name": "Raw Muscle",
             "source": "TftJC",
             "className": "Gunner",
@@ -12194,6 +12214,31 @@
             ]
         },
         {
+            "name": "Demolitionist Archetype",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Demolitionist",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "Walking through the smoke of a destroyed building emerges a creature, head to toe in weapons of mass destruction. Between explosives, guns and fire, the Demolitionist is ready for any mission, so long as that mission is causing as much destruction as possible.",
+                "As a Demolitionist, you excel in destruction. Between your array of unique weaponry to your aggressive fighting style, Demolitionists put themselves in the way of danger to fully utilize their weaponry to its potential.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Frontloaded Savagery|Gunner|TftJC|Demolitionist|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Property Damage|Gunner|TftJC|Demolitionist|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Blast Gun Progression|Gunner|TftJC|Demolitionist|TftJC|2"
+                }
+            ]
+        },
+        {
             "name": "Frontloaded Savagery",
             "source": "TftJC",
             "className": "Gunner",
@@ -12420,6 +12465,27 @@
                             "Arcana from Magical Acolyte. Only one can be prepared per long rest."
                         ]
                     ]
+                }
+            ]
+        },
+        {
+            "name": "Hexlock Archetype",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Hexlock",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "As bullets fly from the chamber, runes along the bullet suddenly burst to life, casting a golden tail behind the bullet as it flies forth. The bullet lands true between the ghast's head and for a second the undead monstrosity merely recoils from the impact before a burst of gold blasts out its eyes and mouth, the creature slumps to the ground, dead.",
+                "As a Hexlock you merge the complex machinery of firearms with the equally complex nature of magic. You possess a multitude of magical enhancements that can be placed on ammunition, turning your bullets into sanctified missiles, explosive ordinance, or bolts of lightning.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Magical Acolyte|Gunner|TftJC|Hexlock|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Hexed Bullets|Gunner|TftJC|Hexlock|TftJC|2"
                 }
             ]
         },
