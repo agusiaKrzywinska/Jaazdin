@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.0.41"
+                "version": "0.0.43"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1726104622
+        "dateLastModified": 1726105890
     },
     "background": [
         {
@@ -9655,8 +9655,7 @@
             "classSource": "PHB",
             "shortName": "Fleshwarper",
             "subclassFeatures": [
-                "Expanded Spell List|Warlock|PHB|Fleshwarper|TftJC|1",
-                "The Cost of the Fleshwarper|Warlock|PHB|Fleshwarper|TftJC|1",
+                "The Fleshwarper|Warlock|PHB|Fleshwarper|TftJC|1",
                 "Bodily Enhancements|Warlock|PHB|Fleshwarper|TftJC|6",
                 "Larger Arsenal|Warlock|PHB|Fleshwarper|TftJC|10",
                 "Dual Wield|Warlock|PHB|Fleshwarper|TftJC|14"
@@ -9670,8 +9669,7 @@
             "classSource": "PHB",
             "shortName": "Master",
             "subclassFeatures": [
-                "Expanded Spell List|Warlock|PHB|Master|TftJC|1",
-                "Master of Minions|Warlock|PHB|Master|TftJC|1",
+                "The Master|Warlock|PHB|Master|TftJC|1",
                 "Patron's Bond|Warlock|PHB|Master|TftJC|6",
                 "Blood of the God|Warlock|PHB|Master|TftJC|10",
                 "Might of the Master|Warlock|PHB|Master|TftJC|14"
@@ -9685,9 +9683,7 @@
             "classSource": "PHB",
             "shortName": "Opulent",
             "subclassFeatures": [
-                "Expanded Spell List|Warlock|PHB|Opulent|TftJC|1",
-                "Gifted Prowess|Warlock|PHB|Opulent|TftJC|1",
-                "Deep Pockets|Warlock|PHB|Opulent|TftJC|1",
+                "The Opulent|Warlock|PHB|Opulent|TftJC|1",
                 "Bang for your Buck|Warlock|PHB|Opulent|TftJC|6",
                 "Cutpurse's Confounding|Warlock|PHB|Opulent|TftJC|10",
                 "Opulent Appearance|Warlock|PHB|Opulent|TftJC|14"
@@ -9701,9 +9697,7 @@
             "classSource": "PHB",
             "shortName": "Shadowsworn",
             "subclassFeatures": [
-                "Expanded Spell List|Warlock|PHB|Shadowsworn|TftJC|1",
-                "Gifted Prowess|Warlock|PHB|Shadowsworn|TftJC|1",
-                "Sweep the Darkness|Warlock|PHB|Shadowsworn|TftJC|1",
+                "The Shadowsworn|Warlock|PHB|Shadowsworn|TftJC|1",
                 "Shadow's Edge|Warlock|PHB|Shadowsworn|TftJC|6",
                 "Stepping Umbra|Warlock|PHB|Shadowsworn|TftJC|10",
                 "Eclipse Soul|Warlock|PHB|Shadowsworn|TftJC|14"
@@ -15550,6 +15544,26 @@
             ]
         },
         {
+            "name": "The Fleshwarper",
+            "source": "TftJC",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Fleshwarper",
+            "subclassSource": "TftJC",
+            "level": 1,
+            "entries": [
+                "Some Patrons want influence, some want chaos. But the most truly twisted Patrons want a level of devotion like no other. One so powerful that a mortal would give up a part of their being for a well of their powers.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Expanded Spell List|Warlock|PHB|Fleshwarper|TftJC|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "The Cost of the Fleshwarper|Warlock|PHB|Fleshwarper|TftJC|1"
+                }
+            ]
+        },
+        {
             "name": "Bodily Enhancements",
             "source": "TftJC",
             "className": "Warlock",
@@ -15726,6 +15740,26 @@
             ]
         },
         {
+            "name": "The Master",
+            "source": "TftJC",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Master",
+            "subclassSource": "TftJC",
+            "level": 1,
+            "entries": [
+                "The relationship between a Warlock and their patron is a two way street, one granting power and the other service. For some , however, through some great fortune, or misfortune, they have been haphazardly granted the title of patron without the means to back it up. These warlocks have been the recipients of some cosmic misunderstanding that has caused a creature or group of creatures to believe that they can grant them otherworldly power. Most warlocks in this circumstance find themselves in an uneasy position. Either use the blind faith of their minions to their advantage and hope they don’t see through the deception or hope that you can somehow convince them you aren’t who they think you are and that when they do they don’t turn their ire on you.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Expanded Spell List|Warlock|PHB|Master|TftJC|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Master of Minions|Warlock|PHB|Master|TftJC|1"
+                }
+            ]
+        },
+        {
             "name": "Patron's Bond",
             "source": "TftJC",
             "className": "Warlock",
@@ -15865,6 +15899,30 @@
             ]
         },
         {
+            "name": "The Opulent",
+            "source": "TftJC",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Opulent",
+            "subclassSource": "TftJC",
+            "level": 1,
+            "entries": [
+                "Occasionally, through great luck or great skill, a mortal is able to gain the favor of a being of undeterminable wealth and opulence. These creatures are often fickle things, beings well beyond the moral understanding of wealth, collecting things such as people, souls, or even world to add to their hordes. Servants such as yourself are often little more than tools, tools to expand their ever-expanding greed and lust. In some twist of fate, you have struck a bargain, sealed a deal, sunk the goose and now you are beholden to all such terms and conditions that apply. The creature that you bargained with cares about one thing and one thing only, coin. The fact is that for you, everything has a price, just hope that price isn't too high…",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Expanded Spell List|Warlock|PHB|Opulent|TftJC|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Gifted Prowess|Warlock|PHB|Opulent|TftJC|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Deep Pockets|Warlock|PHB|Opulent|TftJC|1"
+                }
+            ]
+        },
+        {
             "name": "Bang For Your Buck",
             "source": "TftJC",
             "className": "Warlock",
@@ -15969,6 +16027,31 @@
             "entries": [
                 "Starting at 1st level, your patron bestows upon you the power to control light and darkness. You gain the {@spell light} cantrip. In addition, as an action you can target any number of light sources within 30 feet of you. If they are fires or other natural sources of light they are extinguished. If they are magical sources and if their spell level is less than 1/3 of your current total level, they are dispelled.",
                 "While your target is in dim light or darkness, your weapon and spell attacks deal additional damage equal to your Proficiency Bonus."
+            ]
+        },
+        {
+            "name": "The Shadowsworn",
+            "source": "TftJC",
+            "className": "Warlock",
+            "classSource": "PHB",
+            "subclassShortName": "Shadowsworn",
+            "subclassSource": "TftJC",
+            "level": 1,
+            "entries": [
+                "Lurking in the recesses of the universe where no light ever shines are creatures of such vile ambition that many shudders at the mere thought of their existence. Some of these creatures' bare known names, Shades, Nightwalkers, Raven Queens, Vachninos, and Skull Lords. Others are beyond knowing, as old as darkness itself.",
+                "For whatever reason you have bound your fate with one of these creatures, vile as it might be. Many give their power freely seizing any chance to spread their darkness and death. Others hold greater machinations, dreams of endless nights and a still dead world. Those that serve the shadows will often find their own lives growing dark, the toll of taking life and living in shadows wearing upon even the firmest of souls.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Expanded Spell List|Warlock|PHB|Shadowsworn|TftJC|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Gifted Prowess|Warlock|PHB|Shadowsworn|TftJC|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Sweep the Darkness|Warlock|PHB|Shadowsworn|TftJC|1"
+                }
             ]
         },
         {

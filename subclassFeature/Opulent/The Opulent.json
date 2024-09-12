@@ -1,0 +1,24 @@
+{
+    "name": "The Opulent",
+    "source": "TftJC",
+    "className": "Warlock",
+    "classSource": "PHB",
+    "subclassShortName": "Opulent",
+    "subclassSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "Occasionally, through great luck or great skill, a mortal is able to gain the favor of a being of undeterminable wealth and opulence. These creatures are often fickle things, beings well beyond the moral understanding of wealth, collecting things such as people, souls, or even world to add to their hordes. Servants such as yourself are often little more than tools, tools to expand their ever-expanding greed and lust. In some twist of fate, you have struck a bargain, sealed a deal, sunk the goose and now you are beholden to all such terms and conditions that apply. The creature that you bargained with cares about one thing and one thing only, coin. The fact is that for you, everything has a price, just hope that price isn't too high…",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Expanded Spell List|Warlock|PHB|Opulent|TftJC|1"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Gifted Prowess|Warlock|PHB|Opulent|TftJC|1"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Deep Pockets|Warlock|PHB|Opulent|TftJC|1"
+        }
+    ]
+}
