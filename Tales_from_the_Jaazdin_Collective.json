@@ -1742,8 +1742,7 @@
             "range": "100/400",
             "dmg1": "1d10",
             "dmgType": "P",
-            "crossbow": true,
-            "weapon": true,
+            "foundryType": "weapon",
             "ammoType": "crossbow bolt|phb",
             "entries": [
                 "<i><b>Simple Invention.</i></b>",
