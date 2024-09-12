@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.0.43"
+                "version": "0.1.0"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1726105890
+        "dateLastModified": 1726106316
     },
     "background": [
         {
@@ -9711,9 +9711,7 @@
             "classSource": "PHB",
             "shortName": "Dark Arts",
             "subclassFeatures": [
-                "The Forbidden Spell|Wizard|PHB|Dark Arts|TftJC|2",
-                "Ancient Knowledge|Wizard|PHB|Dark Arts|TftJC|2",
-                "Forbidden Spell Versatility|Wizard|PHB|Dark Arts|TftJC|2",
+                "Dark Arts|Wizard|PHB|Dark Arts|TftJC|2",
                 "Dark Modifications|Wizard|PHB|Dark Arts|TftJC|6",
                 "Favoured Arcana|Wizard|PHB|Dark Arts|TftJC|10",
                 "Unleashed|Wizard|PHB|Dark Arts|TftJC|14"
@@ -9730,8 +9728,7 @@
             "classSource": "PHB",
             "shortName": "Spellthief",
             "subclassFeatures": [
-                "Shorthand Spells|Wizard|PHB|Spellthief|TftJC|2",
-                "Spellthief's Skills|Wizard|PHB|Spellthief|TftJC|2",
+                "Spellthief|Wizard|PHB|Spellthief|TftJC|2",
                 "Quickened Copying|Wizard|PHB|Spellthief|TftJC|6",
                 "Personalized Notes|Wizard|PHB|Spellthief|TftJC|10",
                 "Hidden Talents|Wizard|PHB|Spellthief|TftJC|14"
@@ -16112,6 +16109,31 @@
             ]
         },
         {
+            "name": "Dark Arts",
+            "source": "TftJC",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassShortName": "Dark Arts",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "Stories tell of a spell so powerful that a council of Wizards agreed to have it wiped from the records forever. Now, its power has resurfaced.",
+                "As a Dark Arts Wizard, you wield an ancient spell with infinite possibilities. Though it was once forgotten, you shall show the new world the power of the Forbidden Spell.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "The Forbidden Spell|Wizard|PHB|Dark Arts|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Ancient Knowledge|Wizard|PHB|Dark Arts|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Forbidden Spell Versatility|Wizard|PHB|Dark Arts|TftJC|2"
+                }
+            ]
+        },
+        {
             "name": "Forbidden Spell Versatility",
             "source": "TftJC",
             "className": "Wizard",
@@ -16251,6 +16273,27 @@
             "entries": [
                 "At 2nd level, you gain proficiency in skills related to your craft. You gain Proficiency in Thieves' Tools, and you additionally gain proficiency in one of the following skills: Deception, Stealth, Sleight of Hand.",
                 "You can also take the Hide action as a Bonus Action."
+            ]
+        },
+        {
+            "name": "Spellthief",
+            "source": "TftJC",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "subclassShortName": "Spellthief",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "A spellthief on the surface may seem to other Wizards like a scoundrel, only gaining value off other's merit. But the true Spellthieves know that their craft is the most difficult in the Wizarding world. Sneaking into libraries late at night to add more knowledge to their repertoire, climbing into the magical castles of powerful mages to collect a new rare spell.",
+                "One is more likely to find a budding Spellthief trained by the streets rather than a college. Spellthieves bring the cunning of rogues into the world of Magic, making them unpredictable and powerful allies, or formidable foes.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Shorthand Spells|Wizard|PHB|Spellthief|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Spellthief's Skills|Wizard|PHB|Spellthief|TftJC|2"
+                }
             ]
         },
         {

@@ -6,9 +6,7 @@
     "classSource": "PHB",
     "shortName": "Dark Arts",
     "subclassFeatures": [
-        "The Forbidden Spell|Wizard|PHB|Dark Arts|TftJC|2",
-        "Ancient Knowledge|Wizard|PHB|Dark Arts|TftJC|2",
-        "Forbidden Spell Versatility|Wizard|PHB|Dark Arts|TftJC|2",
+        "Dark Arts|Wizard|PHB|Dark Arts|TftJC|2",
         "Dark Modifications|Wizard|PHB|Dark Arts|TftJC|6",
         "Favoured Arcana|Wizard|PHB|Dark Arts|TftJC|10",
         "Unleashed|Wizard|PHB|Dark Arts|TftJC|14"
