@@ -318,27 +318,28 @@
                 "tools": [
                     "gunsmithing tools",
                     "one artisan tool or instrument of your choice"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "acrobatics",
+                                "arcana",
+                                "athletics",
+                                "insight",
+                                "intimidation",
+                                "perception",
+                                "persuasion",
+                                "sleight of hand",
+                                "survival"
+                            ],
+                            "count": 3
+                        }
+                    }
                 ]
             },
-            "skills": [
-                {
-                    "choose": {
-                        "from": [
-                            "acrobatics",
-                            "arcana",
-                            "athletics",
-                            "insight",
-                            "intimidation",
-                            "perception",
-                            "persuasion",
-                            "sleight of hand",
-                            "survival"
-                        ],
-                        "count": 3
-                    }
-                }
-            ],
             "startingEquipment": {
+                "additionalFromBackground": true,
                 "default": [
                     "a martial melee weapon",
                     "a tier 1 firearm with 20 bullets and 1 clip if applicable",
