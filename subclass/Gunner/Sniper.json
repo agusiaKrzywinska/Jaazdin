@@ -6,9 +6,7 @@
     "classSource": "TftJC",
     "shortName": "Sniper",
     "subclassFeatures": [
-        "Hidden Perch|Gunner|TftJC|Sniper|TftJC|2",
-        "Sniper's Eye|Gunner|TftJC|Sniper|TftJC|2",
-        "Sniper Progression|Gunner|TftJC|Sniper|TftJC|2",
+        "Sniper Archetype|Gunner|TftJC|Sniper|TftJC|2",
         "Calm Mind|Gunner|TftJC|Sniper|TftJC|6",
         "Sniper Modifications|Gunner|TftJC|Sniper|TftJC|6",
         "Piercing Rounds|Gunner|TftJC|Sniper|TftJC|10",

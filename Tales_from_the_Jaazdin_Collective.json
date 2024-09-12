@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.0.39"
+                "version": "0.0.4"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1725934242
+        "dateLastModified": 1726102663
     },
     "background": [
         {
@@ -2394,6 +2394,16 @@
                 "On a 1, your next roll becomes a natural 20 and you have advantage on all attack rolls, saving throws, and ability checks until the end of your next turn.",
                 "On a 2, your next roll becomes a natural 1 and you have disadvantage on all attack rolls, saving throws, and ability checks until the end of your next turn.",
                 "After the coin has been flipped it bursts into sparkles."
+            ]
+        },
+        {
+            "name": "Fiendish Syringe",
+            "source": "TftJC",
+            "type": "T",
+            "rarity": "none",
+            "entries": [
+                "<i><b>Innovative Invention.</i></b>",
+                "As an Action, you can administer the Syringe into a dead creature instantly taking the creature's blood. The Blood is the correct amount to act as a Magic Item reagent."
             ]
         },
         {
@@ -9371,9 +9381,7 @@
             "classSource": "TftJC",
             "shortName": "Quickdraw",
             "subclassFeatures": [
-                "Quickdraw Style|Gunner|TftJC|Quickdraw|TftJC|2",
-                "The Travelling Gun|Gunner|TftJC|Quickdraw|TftJC|2",
-                "Revolver Progression|Gunner|TftJC|Quickdraw|TftJC|2",
+                "Quickdraw Archetype|Gunner|TftJC|Quickdraw|TftJC|2",
                 "Quickdraw Showdown|Gunner|TftJC|Quickdraw|TftJC|6",
                 "Quickdraw Modifications|Gunner|TftJC|Quickdraw|TftJC|6",
                 "Lightning Round|Gunner|TftJC|Quickdraw|TftJC|10",
@@ -9389,9 +9397,7 @@
             "classSource": "TftJC",
             "shortName": "Sniper",
             "subclassFeatures": [
-                "Hidden Perch|Gunner|TftJC|Sniper|TftJC|2",
-                "Sniper's Eye|Gunner|TftJC|Sniper|TftJC|2",
-                "Sniper Progression|Gunner|TftJC|Sniper|TftJC|2",
+                "Sniper Archetype|Gunner|TftJC|Sniper|TftJC|2",
                 "Calm Mind|Gunner|TftJC|Sniper|TftJC|6",
                 "Sniper Modifications|Gunner|TftJC|Sniper|TftJC|6",
                 "Piercing Rounds|Gunner|TftJC|Sniper|TftJC|10",
@@ -9433,8 +9439,7 @@
             "classSource": "PHB",
             "shortName": "God Hand",
             "subclassFeatures": [
-                "Weapons of the God Hand|Monk|PHB|God Hand|TftJC|3",
-                "Guide Thy Hand|Monk|PHB|God Hand|TftJC|3",
+                "Way of the God Hand|Monk|PHB|God Hand|TftJC|3",
                 "Steady Path|Monk|PHB|God Hand|TftJC|6",
                 "Deflecting Hand|Monk|PHB|God Hand|TftJC|6",
                 "Flurry of Bullets|Monk|PHB|God Hand|TftJC|11",
@@ -9520,9 +9525,7 @@
             "classSource": "PHB",
             "shortName": "Devastator",
             "subclassFeatures": [
-                "Devastator's Magic|Ranger|PHB|Devastator|TftJC|3",
-                "Devastator's Tools|Ranger|PHB|Devastator|TftJC|3",
-                "Burning Strikes|Ranger|PHB|Devastator|TftJC|3",
+                "Devastator's Conclave|Ranger|PHB|Devastator|TftJC|3",
                 "Seeking Flames|Ranger|PHB|Devastator|TftJC|7",
                 "Devastator of Nature|Ranger|PHB|Devastator|TftJC|11",
                 "Flame of Destruction|Ranger|PHB|Devastator|TftJC|15"
@@ -12718,6 +12721,31 @@
             ]
         },
         {
+            "name": "Quickdraw Archetype",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Quickdraw",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "A lone desperado stares down his opponent whilst the townsfolk watch on in anticipation. The clock strikes twelve, and in a flash of light, the desperado blows the smoke from his gun.",
+                "As a Quickdraw Gunner, you are an expert in engaging your opponent before they even prepare their weapons. Not only are your marksman skills incredibly fast, but you aspire to stand out amongst the crowd, flexing your talents.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Quickdraw Style|Gunner|TftJC|Quickdraw|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "The Travelling Gun|Gunner|TftJC|Quickdraw|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Revolver Progression|Gunner|TftJC|Quickdraw|TftJC|2"
+                }
+            ]
+        },
+        {
             "name": "Quickdraw Style",
             "source": "TftJC",
             "className": "Gunner",
@@ -12921,6 +12949,30 @@
             "level": 2,
             "entries": [
                 "At 2nd level, you become adept at hiding your position. By spending a minute preparing your position and making a Stealth check, you are not automatically revealed to enemy creatures after attacking them with a Sniper firearm. You remain hidden from enemies that are further than 30ft away from you as long as you do not move from this position. You can also take the Hide Action as a Bonus Action. "
+            ]
+        },
+        {
+            "name": "Sniper Archetype",
+            "source": "TftJC",
+            "className": "Gunner",
+            "classSource": "TftJC",
+            "subclassShortName": "Sniper",
+            "subclassSource": "TftJC",
+            "level": 2,
+            "entries": [
+                "Sitting at the highest point, a slender barrel watches its target. A single shot tears through their sky, as the target falls. The barrel slinks back into the shadows, away from sight.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Hidden Perch|Gunner|TftJC|Sniper|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Sniper's Eye|Gunner|TftJC|Sniper|TftJC|2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Sniper Progression|Gunner|TftJC|Sniper|TftJC|2"
+                }
             ]
         },
         {
@@ -13201,6 +13253,27 @@
             "level": 3,
             "entries": [
                 "At 3rd level, you learn how to seamlessly weave unarmed strikes and ranged attacks. When you make an unarmed attack on your turn, you don’t suffer disadvantage on ranged attacks if a creature is within 5ft of you until the end of your turn. In addition, when you take the Flurry of Blows bonus action, you can replace the two unarmed strikes with one ranged weapon attack."
+            ]
+        },
+        {
+            "name": "Way of the God Hand",
+            "source": "TftJC",
+            "className": "Monk",
+            "classSource": "PHB",
+            "subclassShortName": "God Hand",
+            "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "A crack of gunpowder and smoke briefly illuminate a figure draped in gray and red. As the bullet leave the figure's firearm, it whizzes towards the bandit hiding behind the overturned carriage. A sigh of relief leaves the bandit’s lungs as the bullet passes them by. Suddenly there is a flash of gold from behind them. They turn just in time to see a golden spectral hand slam into the bullet's path, deflecting it right back into the bandit. Reeling from the impact, the bandit stragglers back, right into the gray figure that has approached in the interim. With a swift chop of their hand, the bandit crumples to the ground.",
+                "Those trained in the techniques of the God Hand can extend their fists and feet beyond their body, using it to guide and deflect projectiles. While most monks focus on being up close and personal, those of the God Hand command the battlefield from any position with deadly projectiles and waiting fists.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Weapons of the God Hand|Monk|PHB|God Hand|TftJC|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Guide Thy Hand|Monk|PHB|God Hand|TftJC|3"
+                }
             ]
         },
         {
@@ -14044,6 +14117,30 @@
             "level": 3,
             "entries": [
                 "At 3rd level, your strikes have been enhanced with a divine cleansing flame. Once per turn you can deal 1d8 extra fire damage on one of your attacks or spells. This damage ignores resistance if the target is also your favored foe/enemy. When you reach level 11 in this class the extra damage increases to 2d8."
+            ]
+        },
+        {
+            "name": "Devastator Conclave",
+            "source": "TftJC",
+            "className": "Ranger",
+            "classSource": "PHB",
+            "subclassShortName": "Devastator",
+            "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "Most ranger conclaves strike a balance between the protection of civilization and the conservation of nature but not those of the Devastator conclave. For these rangers their mission is only total, indiscriminate, and inescapable destruction. Devastators are shunned by most conclaves and especially by druids who see their ways as nothing more than primitive destruction. In truth Devastators use their vast destructive powers only rarely, when all other methods have failed.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Devastator's Magic|Ranger|PHB|Devastator|TftJC|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Devastator's Tools|Ranger|PHB|Devastator|TftJC|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Burning Strikes|Ranger|PHB|Devastator|TftJC|3"
+                }
             ]
         },
         {

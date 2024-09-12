@@ -1,0 +1,24 @@
+{
+    "name": "Devastator Conclave",
+    "source": "TftJC",
+    "className": "Ranger",
+    "classSource": "PHB",
+    "subclassShortName": "Devastator",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "Most ranger conclaves strike a balance between the protection of civilization and the conservation of nature but not those of the Devastator conclave. For these rangers their mission is only total, indiscriminate, and inescapable destruction. Devastators are shunned by most conclaves and especially by druids who see their ways as nothing more than primitive destruction. In truth Devastators use their vast destructive powers only rarely, when all other methods have failed.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Devastator's Magic|Ranger|PHB|Devastator|TftJC|3"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Devastator's Tools|Ranger|PHB|Devastator|TftJC|3"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Burning Strikes|Ranger|PHB|Devastator|TftJC|3"
+        }
+    ]
+}
