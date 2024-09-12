@@ -11,7 +11,7 @@
         "Prepared Hexed Bullets are placed in a magical receptacle, such as an enchanted bandolier, a special clip, or other magical storage device. As a free action once per turn when you make a ranged weapon attack with a firearm, you can cause one of the prepared Hexed Bullets to teleport into your firearm, enhancing your next attack with that Hexed Bullets effects, and consuming one use of your Hexed Bullets.",
         "Whenever you gain another Gunner level, you can replace a known Hexed Bullet option with another.",
         {
-            "title": "Hexlock Spellcasting",
+            "caption": "Hexlock Spellcasting",
             "type": "table",
             "colLabels": [
                 "Name",

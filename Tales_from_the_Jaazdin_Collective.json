@@ -11826,7 +11826,7 @@
             "entries": [
                 "As your skills improve, you learn to modify your Shotgun. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. If you lose or need to replace your special firearm, you can spend 1 hour per Tier it was crafting a new one, and the combined gold cost.",
                 {
-                    "title": "Buckshot Firearms",
+                    "caption": "Buckshot Firearms",
                     "type": "table",
                     "colLabels": [
                         "Firearm",
@@ -11993,7 +11993,7 @@
             "entries": [
                 "As your skills improve, you learn to modify your Blast Gun. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. The Blast Gun has unique modifications, which are unlocked at level 5, and these modifications can be upgraded at level 13 by paying the gold cost and spending 4 hours of work. These modifications can be attacked to the Blast Gun to allow it to perform new attacks. These new attacks have separate ranges, damage types, and use their own ammunition.",
                 {
-                    "title": "Demolitionist Firearms",
+                    "caption": "Demolitionist Firearms",
                     "type": "table",
                     "colLabels": [
                         "Firearm",
@@ -12054,7 +12054,7 @@
                     ]
                 },
                 {
-                    "title": "Blast Gun Modifications - Minigun",
+                    "caption": "Blast Gun Modifications - Minigun",
                     "type": "table",
                     "colLabels": [
                         "Firearm",
@@ -12100,7 +12100,7 @@
                     ]
                 },
                 {
-                    "title": "Blast Gun Modifications - Explosive Lobber",
+                    "caption": "Blast Gun Modifications - Explosive Lobber",
                     "type": "table",
                     "colLabels": [
                         "Firearm",
@@ -12146,7 +12146,7 @@
                     ]
                 },
                 {
-                    "title": "Blast Gun Modifications - Flamethrower",
+                    "caption": "Blast Gun Modifications - Flamethrower",
                     "type": "table",
                     "colLabels": [
                         "Firearm",
@@ -12315,7 +12315,7 @@
                 "Prepared Hexed Bullets are placed in a magical receptacle, such as an enchanted bandolier, a special clip, or other magical storage device. As a free action once per turn when you make a ranged weapon attack with a firearm, you can cause one of the prepared Hexed Bullets to teleport into your firearm, enhancing your next attack with that Hexed Bullets effects, and consuming one use of your Hexed Bullets.",
                 "Whenever you gain another Gunner level, you can replace a known Hexed Bullet option with another.",
                 {
-                    "title": "Hexlock Spellcasting",
+                    "caption": "Hexlock Spellcasting",
                     "type": "table",
                     "colLabels": [
                         "Name",
@@ -12481,7 +12481,7 @@
                 "At 2nd level, you choose an arcane discipline to learn from to enchant your firearms. You gain proficiency in either Nature, Religion, or Arcana, and your proficiency bonus for that skill is doubled. Depending on your choice, you unlock a unique Hexed Bullet the Pact Magic feature. If you choose Nature, your spell list is from the Druid and Ranger list, if you chose Religion your spell list is from the Cleric and Paladin list, and if you chose Arcana your spell list is from the Wizard and Artificer list. Regardless of your choice, your spell casting modifier is Intelligence.",
                 "At certain level, when you gain new Hexed Bullets you automatically learn the ones associated with your spellcasting list.",
                 {
-                    "title": "Hexlock Spellcasting",
+                    "caption": "Hexlock Spellcasting",
                     "type": "table",
                     "colLabels": [
                         "Gunner Level",
@@ -12745,7 +12745,7 @@
             "entries": [
                 "As your skills improve, you learn to modify your Revolvers. As your Gun Tier levels up, both of your weapons are upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. If you lose or need to replace your special firearms, you can spend 1 hour per Tier it was by crafting a new pair, and the combined gold cost. Both of the dual firearms the Quickdraw gains from this class can be equipped with unique Modifications. Though Revolvers can be crafted together, they are treated as individual weapons for things such as Rare Metal Crafting, Enchanting, etc.",
                 {
-                    "title": "Quickdraw Firearms",
+                    "caption": "Quickdraw Firearms",
                     "type": "table",
                     "colLabels": [
                         "Firearm",
@@ -12963,7 +12963,7 @@
             "entries": [
                 "As your skills improve, you learn to modify your Sniper. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. If you lose or need to replace your special firearm, you can spend 1 hour per Tier it was crafting a new one, and the combined gold cost.",
                 {
-                    "title": "Sniper Firearms",
+                    "caption": "Sniper Firearms",
                     "type": "table",
                     "colLabels": [
                         "Firearm",

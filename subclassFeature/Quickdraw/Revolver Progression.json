@@ -9,7 +9,7 @@
     "entries": [
         "As your skills improve, you learn to modify your Revolvers. As your Gun Tier levels up, both of your weapons are upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. If you lose or need to replace your special firearms, you can spend 1 hour per Tier it was by crafting a new pair, and the combined gold cost. Both of the dual firearms the Quickdraw gains from this class can be equipped with unique Modifications. Though Revolvers can be crafted together, they are treated as individual weapons for things such as Rare Metal Crafting, Enchanting, etc.",
         {
-            "title": "Quickdraw Firearms",
+            "caption": "Quickdraw Firearms",
             "type": "table",
             "colLabels": [
                 "Firearm",

@@ -10,7 +10,7 @@
         "At 2nd level, you choose an arcane discipline to learn from to enchant your firearms. You gain proficiency in either Nature, Religion, or Arcana, and your proficiency bonus for that skill is doubled. Depending on your choice, you unlock a unique Hexed Bullet the Pact Magic feature. If you choose Nature, your spell list is from the Druid and Ranger list, if you chose Religion your spell list is from the Cleric and Paladin list, and if you chose Arcana your spell list is from the Wizard and Artificer list. Regardless of your choice, your spell casting modifier is Intelligence.",
         "At certain level, when you gain new Hexed Bullets you automatically learn the ones associated with your spellcasting list.",
         {
-            "title": "Hexlock Spellcasting",
+            "caption": "Hexlock Spellcasting",
             "type": "table",
             "colLabels": [
                 "Gunner Level",
