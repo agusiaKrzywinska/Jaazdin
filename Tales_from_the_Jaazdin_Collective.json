@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.0.4"
+                "version": "0.0.41"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1726102663
+        "dateLastModified": 1726104622
     },
     "background": [
         {
@@ -9598,9 +9598,7 @@
             "classSource": "PHB",
             "shortName": "Gambler",
             "subclassFeatures": [
-                "Expanded Spell List|Sorcerer|PHB|Gambler|TftJC|1",
-                "Natural Cheat|Sorcerer|PHB|Gambler|TftJC|1",
-                "Game of Choice|Sorcerer|PHB|Gambler|TftJC|1",
+                "Gambler|Sorcerer|PHB|Gambler|TftJC|1",
                 "Unfair Advantage|Sorcerer|PHB|Gambler|TftJC|6",
                 "Rigged Game|Sorcerer|PHB|Gambler|TftJC|14",
                 "Just That Lucky|Sorcerer|PHB|Gambler|TftJC|18"
@@ -9614,9 +9612,7 @@
             "classSource": "PHB",
             "shortName": "Ironhide",
             "subclassFeatures": [
-                "Expanded Spell List|Sorcerer|PHB|Ironhide|TftJC|1",
-                "Metallic Defenses|Sorcerer|PHB|Ironhide|TftJC|1",
-                "Magnetic Surge|Sorcerer|PHB|Ironhide|TftJC|1",
+                "Ironhide|Sorcerer|PHB|Ironhide|TftJC|1",
                 "Power Core|Sorcerer|PHB|Ironhide|TftJC|6",
                 "Magnetic Hover|Sorcerer|PHB|Ironhide|TftJC|14",
                 "Magnetic Singularity|Sorcerer|PHB|Ironhide|TftJC|18"
@@ -9630,9 +9626,7 @@
             "classSource": "PHB",
             "shortName": "Lunar",
             "subclassFeatures": [
-                "Rune of the Moons|Sorcerer|PHB|Lunar|TftJC|1",
-                "Fabrics of the Night|Sorcerer|PHB|Lunar|TftJC|1",
-                "Bright Night|Sorcerer|PHB|Lunar|TftJC|1",
+                "Lunar Blessing|Sorcerer|PHB|Lunar|TftJC|1",
                 "Weave of Midnight|Sorcerer|PHB|Lunar|TftJC|6",
                 "Wax and Wane|Sorcerer|PHB|Lunar|TftJC|14",
                 "Blessing of the Moons|Sorcerer|PHB|Lunar|TftJC|18"
@@ -9646,8 +9640,7 @@
             "classSource": "PHB",
             "shortName": "Runebound",
             "subclassFeatures": [
-                "Enhanced Fortitude|Sorcerer|PHB|Runebound|TftJC|1",
-                "Runebound Spells|Sorcerer|PHB|Runebound|TftJC|1",
+                "Runebound|Sorcerer|PHB|Runebound|TftJC|1",
                 "Runic Power|Sorcerer|PHB|Runebound|TftJC|6",
                 "Extra Attack|Sorcerer|PHB|Runebound|TftJC|6",
                 "Magical Siphon|Sorcerer|PHB|Runebound|TftJC|14",
@@ -14863,6 +14856,31 @@
             ]
         },
         {
+            "name": "Gambler",
+            "source": "TftJC",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Gambler",
+            "subclassSource": "TftJC",
+            "level": 1,
+            "entries": [
+                "A suave mage sits down at a table and opens a coin pouch. The buy in is high today, but the mage knows they have already won today, as magic flicks through their hands.",
+                "A Gambler specializes in utilizing their magic to shift things subtly in their favour, from battle to bets. Some choose to let fate take control of their fate, hedging their bets on their lady luck. Others bend these games to their wills, making sure its never fair when they place their bets.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Expanded Spell List|Sorcerer|PHB|Gambler|TftJC|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Natural Cheat|Sorcerer|PHB|Gambler|TftJC|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Game of Choice|Sorcerer|PHB|Gambler|TftJC|1"
+                }
+            ]
+        },
+        {
             "name": "Game of Choice",
             "source": "TftJC",
             "className": "Sorcerer",
@@ -14991,6 +15009,31 @@
                             "wall of force, magnetic sphere"
                         ]
                     ]
+                }
+            ]
+        },
+        {
+            "name": "Ironhide",
+            "source": "TftJC",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Ironhide",
+            "subclassSource": "TftJC",
+            "level": 1,
+            "entries": [
+                "Swords crash down on invisible forces, halting their strikes. Armor clad infantry are sent through the air with just a thought. As the world of mortals modernized, covering themselves in metal, so did some rare Sorcerers.  Let their reliance on Iron be their downfall.",
+                "You have a magical affinity to metals. You bend and control magnetic forces with ease. Ironhide Sorcerers have become a rare and valuable member to any front line, with their ability to bend barriers, crush armorclad soldiers and launch waves of jagged metal at their enemies.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Expanded Spell List|Sorcerer|PHB|Ironhide|TftJC|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Metallic Defenses|Sorcerer|PHB|Ironhide|TftJC|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Magnetic Surge|Sorcerer|PHB|Ironhide|TftJC|1"
                 }
             ]
         },
@@ -15244,6 +15287,30 @@
             ]
         },
         {
+            "name": "Lunar Blessing",
+            "source": "TftJC",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Lunar",
+            "subclassSource": "TftJC",
+            "level": 1,
+            "entries": [
+                "The moon is a magical force. When full the world blooms with magic, creatures, forces, and phenomena unseen. When they fade from the sky darkness overtakes the world and magic wanes. While all people and creatures feel the waxing and waning of magic from the moon, you feel it much more acutely. Your magic comes and goes with the phases of the moon. Your unique blessing allows you to pull at the fabric of reality wrapping darkness and light around you with your hands and mind.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Rune of the Moons|Sorcerer|PHB|Lunar|TftJC|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Fabrics of Night|Sorcerer|PHB|Lunar|TftJC|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Bright Night|Sorcerer|PHB|Lunar|TftJC|1"
+                }
+            ]
+        },
+        {
             "name": "Rune of the Moons",
             "source": "TftJC",
             "className": "Sorcerer",
@@ -15324,6 +15391,27 @@
             "entries": [
                 "At 1st level, the runes inside your body activate when you are actively channeling magic. While you are concentrating on a spell you gain temporary hit points equal to the spells level + your proficiency bonus at the start of each of your turns and once per turn when you deal damage with a weapon or spell attack you deal bonus force damage equal to your proficiency modifier.",
                 "When you fail a concentration check you can spend a hit die, roll it and add it to the result, potentially allowing you to maintain concentration."
+            ]
+        },
+        {
+            "name": "Runebound",
+            "source": "TftJC",
+            "className": "Sorcerer",
+            "classSource": "PHB",
+            "subclassShortName": "Runebound",
+            "subclassSource": "TftJC",
+            "level": 1,
+            "entries": [
+                "Runebound are not made, but crafted. Most Runebound are not willing vessels for the vast power that they gain but hapless victims of those seeking to create a perfect soldier. Runebound gain their power from the runes etched into their body, either tattooed permanently onto their skin, etched into their bones, or emblazoned on their very souls.",
+                "Runebound are often created to serve the whims of an arcanist or military. When created Runebound often do not have full control over their body and mind serving the whims of the ones that created them. When their original master dies or the Runebound manufactures their own means of escape they are loosed on the world with the immense power they hold. While most Runebound are made unwillingly, rarely someone will volunteer for the experiment in the hopes they can use the abilities granted for their own purposes.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Enhanced Fortitude|Sorcerer|PHB|Runebound|TftJC|1"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Runebound Spells|Sorcerer|PHB|Runebound|TftJC|1"
+                }
             ]
         },
         {

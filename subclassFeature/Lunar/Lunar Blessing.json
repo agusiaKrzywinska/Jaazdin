@@ -1,0 +1,24 @@
+{
+    "name": "Lunar Blessing",
+    "source": "TftJC",
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "subclassShortName": "Lunar",
+    "subclassSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "The moon is a magical force. When full the world blooms with magic, creatures, forces, and phenomena unseen. When they fade from the sky darkness overtakes the world and magic wanes. While all people and creatures feel the waxing and waning of magic from the moon, you feel it much more acutely. Your magic comes and goes with the phases of the moon. Your unique blessing allows you to pull at the fabric of reality wrapping darkness and light around you with your hands and mind.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Rune of the Moons|Sorcerer|PHB|Lunar|TftJC|1"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Fabrics of Night|Sorcerer|PHB|Lunar|TftJC|1"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Bright Night|Sorcerer|PHB|Lunar|TftJC|1"
+        }
+    ]
+}

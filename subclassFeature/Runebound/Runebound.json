@@ -1,0 +1,21 @@
+{
+    "name": "Runebound",
+    "source": "TftJC",
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "subclassShortName": "Runebound",
+    "subclassSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "Runebound are not made, but crafted. Most Runebound are not willing vessels for the vast power that they gain but hapless victims of those seeking to create a perfect soldier. Runebound gain their power from the runes etched into their body, either tattooed permanently onto their skin, etched into their bones, or emblazoned on their very souls.",
+        "Runebound are often created to serve the whims of an arcanist or military. When created Runebound often do not have full control over their body and mind serving the whims of the ones that created them. When their original master dies or the Runebound manufactures their own means of escape they are loosed on the world with the immense power they hold. While most Runebound are made unwillingly, rarely someone will volunteer for the experiment in the hopes they can use the abilities granted for their own purposes.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Enhanced Fortitude|Sorcerer|PHB|Runebound|TftJC|1"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Runebound Spells|Sorcerer|PHB|Runebound|TftJC|1"
+        }
+    ]
+}

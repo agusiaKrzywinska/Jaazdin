@@ -6,9 +6,7 @@
     "classSource": "PHB",
     "shortName": "Ironhide",
     "subclassFeatures": [
-        "Expanded Spell List|Sorcerer|PHB|Ironhide|TftJC|1",
-        "Metallic Defenses|Sorcerer|PHB|Ironhide|TftJC|1",
-        "Magnetic Surge|Sorcerer|PHB|Ironhide|TftJC|1",
+        "Ironhide|Sorcerer|PHB|Ironhide|TftJC|1",
         "Power Core|Sorcerer|PHB|Ironhide|TftJC|6",
         "Magnetic Hover|Sorcerer|PHB|Ironhide|TftJC|14",
         "Magnetic Singularity|Sorcerer|PHB|Ironhide|TftJC|18"
