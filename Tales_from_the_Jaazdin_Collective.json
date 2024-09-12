@@ -15154,7 +15154,7 @@
                     "type": "table",
                     "caption": "Hover Material Table",
                     "colLabels": [
-                        "STerrain Type",
+                        "Terrain Type",
                         "Fly Speed",
                         "AFly Height"
                     ],
