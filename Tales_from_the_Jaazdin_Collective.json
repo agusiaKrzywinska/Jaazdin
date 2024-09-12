@@ -18,7 +18,7 @@
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1726106316
+        "dateLastModified": 1726106490
     },
     "background": [
         {
@@ -9525,7 +9525,7 @@
             "classSource": "PHB",
             "shortName": "Devastator",
             "subclassFeatures": [
-                "Devastator's Conclave|Ranger|PHB|Devastator|TftJC|3",
+                "Devastator Conclave|Ranger|PHB|Devastator|TftJC|3",
                 "Seeking Flames|Ranger|PHB|Devastator|TftJC|7",
                 "Devastator of Nature|Ranger|PHB|Devastator|TftJC|11",
                 "Flame of Destruction|Ranger|PHB|Devastator|TftJC|15"
@@ -15293,7 +15293,7 @@
                 },
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Fabrics of Night|Sorcerer|PHB|Lunar|TftJC|1"
+                    "subclassFeature": "Fabrics of the Night|Sorcerer|PHB|Lunar|TftJC|1"
                 },
                 {
                     "type": "refSubclassFeature",
