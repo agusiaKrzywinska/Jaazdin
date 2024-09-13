@@ -7,6 +7,6 @@
     "subclassSource": "TftJC",
     "level": 2,
     "entries": [
-        "At 2nd level, you have acquired once forgotten knowledge. You gain proficiency in the History skill, and whenever you make a history check relating to magic, you can add 1d4 to the roll."
+        "At 2nd level, you have acquired once forgotten knowledge. You gain proficiency in the History skill, and whenever you make a History or Arcana check with advantage, you can roll {@dice 3d20} and take the highest result"
     ]
 }

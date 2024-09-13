@@ -26,10 +26,18 @@
             "type": "instant"
         }
     ],
+    "scalingLevelDice": {
+        "scaling": {
+            "1": "1d6",
+            "5": "2d6",
+            "11": "3d6",
+            "17": "4d6"
+        }
+    },
     "entries": [
         "You lash out with magical energy at a creature within range. Make a spell attack roll against them, and on a hit they take {@dice 1d6} Force Damage. That creature also removes {@dice 1d4} from their next attack roll, ability check, or saving throw.",
-        "This spell can also be cast as a leveled spell, dealing an additional 2d6 per casting slot level used.",
-        "This spell's base damage increases by 1d6 at 5th level, 11th, and 17th level.",
+        "This spell can also be cast as a leveled spell, dealing an additional {@dice 2d6} per casting slot level used.",
+        "This spell's base damage increases by {@dice 1d6} at 5th level, 11th, and 17th level.",
         "If someone casts Wish and attempts to recreate this spell it is cast at 9th level, and the caster incurs the penalties described in using Wish to do anything but cast a spell."
     ],
     "entriesHigherLevel": [
@@ -37,8 +45,7 @@
             "type": "entries",
             "name": "At Higher Levels",
             "entries": [
-                "If you cast this spell using a spell slot of 2nd level or higher, the damage of this spell is increased by {@dice 1d6} per spell slot level above 1st expended.",
-                "If you cast this spell using a spell slot of 3rd level or higher, creatures poisoned by this spell suffer {@dice 1d4} Necrotic damage at the start of their turns."
+                "This spell can also be cast as a leveled spell, dealing an additional {@dice 2d6} per casting slot level used."
             ]
         }
     ],
@@ -46,7 +53,6 @@
         "constitution"
     ],
     "damageInflict": [
-        "necrotic",
         "force"
     ]
 }
