@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.1.31"
+                "version": "0.1.32"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1728226920
+        "dateLastModified": 1728252962
     },
     "background": [
         {
@@ -3183,6 +3183,18 @@
             ]
         },
         {
+            "name": "Magic Capacitor",
+            "source": "TftJC",
+            "type": "OTH",
+            "rarity": "uncommon",
+            "weight": 0,
+            "entries": [
+                "This magical modification can be slotted into a gun to grant it the magical effects placed on it. Any enchantment that can be placed on a weapon can be placed on a magic capacitor. Once installed on a gun, it grants that gun the enchantment. A magic capacitor can only be placed on a non-magical gun, otherwise it has no effect.",
+                "An unenchanted magical capacitor can be crafting using Arcstone based on the rarity and requires two plates, requiring Gunsmithing tools check.",
+                "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+            ]
+        },
+        {
             "name": "Man Catcher",
             "source": "TftJC",
             "page": 50,
@@ -3224,6 +3236,16 @@
                 "<b><i>Tier 3.</i></b>",
                 "<b><i>Belt 40.</i></b> Upon crafting a Belt fed firearm, you additionally gain 1 Belt. Belt fed firearms use a number of rounds equal to how many damage die they roll with their attack. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1.",
                 "<b><i>Loud</i></b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away."
+            ]
+        },
+        {
+            "name": "Medal of Muscle (Rare)",
+            "source": "TftJC",
+            "charges": 3,
+            "rarity": "uncommon",
+            "wondrous": true,
+            "entries": [
+                "You can squeeze this medal tightly in the palm of your hand as an action. Doing so gives you advantage on Strength checks and Strength saving throws for 1 hour. Once this property has been used 3 times, it can't be used again, and the medal becomes nonmagical."
             ]
         },
         {
@@ -4157,6 +4179,24 @@
                 "<b><i>Sniper</i></b> When you make an attack action with this weapon, each attack you could have made with that action is instead consolidated into one attack, where each attack you could have made instead increases the weapon's damage die per attack. Snipers also have disadvantage to hit a creature within 15ft of them.",
                 "<b><i>Clip 10.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
             ]
+        },
+        {
+            "name": "Sending Stones (Rare)",
+            "source": "TftJC",
+            "charges": 3,
+            "recharge": "dawn",
+            "rechargeAmount": 3,
+            "tier": "minor",
+            "rarity": "rare",
+            "wondrous": true,
+            "entries": [
+                "Sending stones come in pairs, with each smooth stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can use an action to cast the {@spell sending} spell from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone and don't cast the spell.",
+                "You can cast {@spell sending} through the stones 3 times until they can't be used again until the next dawn. If one of the stones in a pair is destroyed, the other one becomes nonmagical."
+            ],
+            "attachedSpells": [
+                "sending"
+            ],
+            "hasFluffImages": true
         },
         {
             "name": "Shade Goggles",
@@ -10476,7 +10516,7 @@
             "subclassSource": "TftJC",
             "level": 10,
             "entries": [
-                "At 10th level, you become a master of the night. As an Action, you can expend a use of your Rage so that you and your equipment can transform into a bat. You return to your normal form either once you drop to 0 hit points, you dismiss it as a Bonus Action, or a minute passes. You retain your mental statistics, and can use your Vampiric Fangs while in this form."
+                "At 10th level, you become a master of the night. As an Action while raging, you and your equipment can transform into a bat. You return to your normal form either once you drop to 0 hit points, you dismiss it as a Bonus Action, or your rage ends. You retain your mental statistics, and can use your Vampiric Fangs while in this form."
             ]
         },
         {
@@ -14320,8 +14360,8 @@
             "subclassSource": "TftJC",
             "level": 3,
             "entries": [
-                "At 3rd level, your magic helps feed you and others. You learnGoodberry (it does not count against your spells known), and you can cast it without expending a spell slot once per Long Rest, but when cast this way you generate a number of berries equal to your Ranger Level. You can also consume a number of goodberries as a free action each turn equal to your proficiency bonus. If you eat a goodberry and your health is full, you instead gain temporary hit points equal to your Wisdom Modifier. Once on your turn, when you would make an attack and you currently have temporary hit points,you can remove all of them to have that attack deal an additional 1d6 of damage.",
-                "At 7th level, when you cast Goodberry in this way, one berry in the bunch becomes golden. A golden berry cures a disease or the poisoned condition affecting the creature of your choice.",
+                "At 3rd level, your magic helps feed you and others. You learn {@spell Goodberry} (it does not count against your spells known), at the end of a Long Rest you generate a number of berries equal to your Ranger Level. You can also consume a number of goodberries as a free action each turn equal to your proficiency bonus. If you eat a goodberry and your health is full, you instead gain temporary hit points equal to your Wisdom Modifier. Once on your turn, when you would make an attack and you currently have temporary hit points, you can remove all of them to have that attack deal an additional {@dice 1d6} of damage.",
+                "At 7th level, when you cast {@spell Goodberry} in this way, one berry in the bunch becomes golden. A golden berry cures a disease or the poisoned condition affecting the creature of your choice.",
                 "At 11th level, a golden berry can remove a point of exhaustion instead.",
                 "A creature can only benefit from a golden goodberry once per day."
             ]
