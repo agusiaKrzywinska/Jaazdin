@@ -14,11 +14,11 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.1.32"
+                "version": "0.1.33"
             }
         ],
         "dateAdded": 0,
-        "dateLastModified": 1728252962
+        "dateLastModified": 1730585341
     },
     "background": [
         {
@@ -3239,7 +3239,7 @@
             ]
         },
         {
-            "name": "Medal of Muscle (Rare)",
+            "name": "Medal of Muscle (Uncommon)",
             "source": "TftJC",
             "charges": 3,
             "rarity": "uncommon",
