@@ -1,13 +1,13 @@
 {
-    "name": "Runebound Spells",
-    "source": "TftJC",
-    "className": "Sorcerer",
-    "classSource": "PHB",
-    "subclassShortName": "Runebound",
-    "subclassSource": "TftJC",
-    "level": 1,
-    "entries": [
-        "At 1st level, the runes inside your body activate when you are actively channeling magic. While you are concentrating on a spell you gain temporary hit points equal to the spells level + your proficiency bonus at the start of each of your turns and once per turn when you deal damage with a weapon or spell attack you deal bonus force damage equal to your proficiency modifier.",
-        "When you fail a concentration check you can spend a hit die, roll it and add it to the result, potentially allowing you to maintain concentration."
-    ]
+  "name": "Runebound Spells",
+  "source": "TftJC",
+  "className": "Sorcerer",
+  "classSource": "PHB",
+  "subclassShortName": "Runebound",
+  "subclassSource": "TftJC",
+  "level": 1,
+  "entries": [
+    "At 1st level, the runes inside your body activate when you are actively channeling magic. While you are concentrating on a spell you gain temporary hit points equal to the spells level + your proficiency bonus at the start of each of your turns and once per turn when you deal damage with a weapon or spell attack you deal bonus force damage equal to your proficiency modifier.",
+    "When you fail a concentration check you can spend a hit die, roll it and add it to the result, potentially allowing you to maintain concentration."
+  ]
 }

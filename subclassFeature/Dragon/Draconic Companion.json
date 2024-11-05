@@ -1,12 +1,12 @@
 {
-    "name": "Draconic Companion",
-    "source": "TftJC",
-    "className": "Druid",
-    "classSource": "PHB",
-    "subclassShortName": "Dragon",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "At 2nd level, you learn the {@spell Find Familiar|PHB} spell. It is a Druid spell for you, is always prepared and does not count against the number of spells you can prepare. Whenever you cast Find Familiar, it appears as a Pseudodragon. This Pseudodragon can make the attack action, and you can use your Bonus Action to command it to do so."
-    ]
+  "name": "Draconic Companion",
+  "source": "TftJC",
+  "className": "Druid",
+  "classSource": "PHB",
+  "subclassShortName": "Dragon",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "At 2nd level, you learn the {@spell Find Familiar|PHB} spell. It is a Druid spell for you, is always prepared and does not count against the number of spells you can prepare. Whenever you cast Find Familiar, it appears as a Pseudodragon. This Pseudodragon can make the attack action, and you can use your Bonus Action to command it to do so."
+  ]
 }

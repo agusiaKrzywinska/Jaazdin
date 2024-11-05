@@ -1,26 +1,22 @@
 {
-    "name": "Phalanx Fighter",
-    "source": "TftJC",
-    "entries": [
-        "Your ability to fight cooperatively with other while protecting your allies grants you the following benefits:",
-        {
-            "type": "list",
-            "items": [
-                "While within 5 feet of an ally wielding a shield you and the ally gain a +1 to AC and Dexterity saving throws. A creature can only benefit from this feature once.",
-                "While within 5ft of a least two allies the first attack roll you make on your turn has advantage."
-            ]
-        }
-    ],
-    "ability": [
-        {
-            "choose": {
-                "from": [
-                    "str",
-                    "con",
-                    "dex"
-                ],
-                "amount": 1
-            }
-        }
-    ]
+  "name": "Phalanx Fighter",
+  "source": "TftJC",
+  "entries": [
+    "Your ability to fight cooperatively with other while protecting your allies grants you the following benefits:",
+    {
+      "type": "list",
+      "items": [
+        "While within 5 feet of an ally wielding a shield you and the ally gain a +1 to AC and Dexterity saving throws. A creature can only benefit from this feature once.",
+        "While within 5ft of a least two allies the first attack roll you make on your turn has advantage."
+      ]
+    }
+  ],
+  "ability": [
+    {
+      "choose": {
+        "from": ["str", "con", "dex"],
+        "amount": 1
+      }
+    }
+  ]
 }

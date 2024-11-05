@@ -1,23 +1,19 @@
 {
-    "name": "Maxim",
-    "source": "TftJC",
-    "type": "R",
-    "rarity": "none",
-    "weight": 25,
-    "value": 32500,
-    "weaponCategory": "martial",
-    "property": [
-        "2H",
-        "H",
-        "AF"
-    ],
-    "charges": 40,
-    "dmg1": "4d4",
-    "dmgType": "P",
-    "range": "60/240",
-    "entries": [
-        "<b><i>Tier 3.</i></b>",
-        "<b><i>Belt 40.</i></b> Upon crafting a Belt fed firearm, you additionally gain 1 Belt. Belt fed firearms use a number of rounds equal to how many damage die they roll with their attack. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1.",
-        "<b><i>Loud</i></b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away."
-    ]
+  "name": "Maxim",
+  "source": "TftJC",
+  "type": "R",
+  "rarity": "none",
+  "weight": 25,
+  "value": 32500,
+  "weaponCategory": "martial",
+  "property": ["2H", "H", "AF"],
+  "charges": 40,
+  "dmg1": "4d4",
+  "dmgType": "P",
+  "range": "60/240",
+  "entries": [
+    "<b><i>Tier 3.</i></b>",
+    "<b><i>Belt 40.</i></b> Upon crafting a Belt fed firearm, you additionally gain 1 Belt. Belt fed firearms use a number of rounds equal to how many damage die they roll with their attack. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1.",
+    "<b><i>Loud</i></b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away."
+  ]
 }

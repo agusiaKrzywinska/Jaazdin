@@ -1,12 +1,12 @@
 {
-    "name": "Polytheist's Gamble",
-    "source": "TftJC",
-    "className": "Cleric",
-    "classSource": "PHB",
-    "subclassShortName": "Polyglot",
-    "subclassSource": "TftJC",
-    "level": 6,
-    "entries": [
-        "At 6th level, when you use your Beseech the Divine Channel Divinity you can increase or decrease the result by up to 10. In addition, you gain one cantrip of your choice from any class's spell list, this cantrip becomes a cleric cantrip for you."
-    ]
+  "name": "Polytheist's Gamble",
+  "source": "TftJC",
+  "className": "Cleric",
+  "classSource": "PHB",
+  "subclassShortName": "Polyglot",
+  "subclassSource": "TftJC",
+  "level": 6,
+  "entries": [
+    "At 6th level, when you use your Beseech the Divine Channel Divinity you can increase or decrease the result by up to 10. In addition, you gain one cantrip of your choice from any class's spell list, this cantrip becomes a cleric cantrip for you."
+  ]
 }

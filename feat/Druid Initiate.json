@@ -1,23 +1,23 @@
 {
-    "name": "Druid Initiate",
-    "source": "TftJC",
-    "entries": [
-        "You have learned the magics of the beastial wilds and have gained a portion of of a druids ability to change shape, or heightened your already existing connection.",
+  "name": "Druid Initiate",
+  "source": "TftJC",
+  "entries": [
+    "You have learned the magics of the beastial wilds and have gained a portion of of a druids ability to change shape, or heightened your already existing connection.",
+    {
+      "type": "list",
+      "items": [
+        "You gain a use of Druid's Wildshape ability, or an additional use if you already have the Wildshape ability. When you transform, you may choose a beast as if you were a 1st level Druid and Wildshape into any beast that is of a CR 1/6th your druid level that does not have a flying or swim speed, if you already have levels in Druid you can Wildshape into any beast CR 1/6th your druid level + 1, following the regular restrictions on Wildshaping. You can stay in this form for up to an hours and you cannot chose a form with an innate fly speed. This ability recharges upon long rest.",
+        "You learn one cantrip from the druid spell list, Wisdom is your spellcasting ability for this spell. In addition, you learn one 1st level spell from the Druid list. You can cast this spell once per day without expending a spell slot, but can cast it additional times by expending a use of your Wildshape. Both the cantrip and 1st level spell granted from this feat can be cast while Wildshaped."
+      ]
+    }
+  ],
+  "prerequisite": [
+    {
+      "ability": [
         {
-            "type": "list",
-            "items": [
-                "You gain a use of Druid's Wildshape ability, or an additional use if you already have the Wildshape ability. When you transform, you may choose a beast as if you were a 1st level Druid and Wildshape into any beast that is of a CR 1/6th your druid level that does not have a flying or swim speed, if you already have levels in Druid you can Wildshape into any beast CR 1/6th your druid level + 1, following the regular restrictions on Wildshaping. You can stay in this form for up to an hours and you cannot chose a form with an innate fly speed. This ability recharges upon long rest.",
-                "You learn one cantrip from the druid spell list, Wisdom is your spellcasting ability for this spell. In addition, you learn one 1st level spell from the Druid list. You can cast this spell once per day without expending a spell slot, but can cast it additional times by expending a use of your Wildshape. Both the cantrip and 1st level spell granted from this feat can be cast while Wildshaped."
-            ]
+          "wis": 13
         }
-    ],
-    "prerequisite": [
-        {
-            "ability": [
-                {
-                    "wis": 13
-                }
-            ]
-        }
-    ]
-} 
+      ]
+    }
+  ]
+}

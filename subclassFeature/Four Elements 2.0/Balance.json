@@ -1,22 +1,22 @@
 {
-    "name": "Balance",
-    "source": "TftJC",
-    "className": "Monk",
-    "classSource": "PHB",
-    "subclassShortName": "Four Elements 2.0",
-    "subclassSource": "TftJC",
-    "level": 6,
-    "entries": [
-        "At 6th level, through your connection to the elements and Ki, you can intertwine your powers. You gain access to new ways to empower your strikes. When you take the attack action, choose one of the following. You can only use one effect once per turn.",
-        {
-            "type": "list",
-            "style": "list-hang",
-            "items": [
-                "Stream of Air. A creature hit by this strike must make a Strength save against you Monk DC, and on a fail be moved 10ft in a direction of your choice.",
-                "Force of Earth. A creature hit by this attack must make a dexterity save against your DC, and on a fail become grappled as stone envelops them. This lasts until the end of their next turn.",
-                "Fangs of Fire. A creature hit by this attack additional fire damage equal to your Martial Arts die.",
-                "Whips of Water. Your unarmed attacks this turn gain an additional 5ft reach."
-            ]
-        }
-    ]
+  "name": "Balance",
+  "source": "TftJC",
+  "className": "Monk",
+  "classSource": "PHB",
+  "subclassShortName": "Four Elements 2.0",
+  "subclassSource": "TftJC",
+  "level": 6,
+  "entries": [
+    "At 6th level, through your connection to the elements and Ki, you can intertwine your powers. You gain access to new ways to empower your strikes. When you take the attack action, choose one of the following. You can only use one effect once per turn.",
+    {
+      "type": "list",
+      "style": "list-hang",
+      "items": [
+        "Stream of Air. A creature hit by this strike must make a Strength save against you Monk DC, and on a fail be moved 10ft in a direction of your choice.",
+        "Force of Earth. A creature hit by this attack must make a dexterity save against your DC, and on a fail become grappled as stone envelops them. This lasts until the end of their next turn.",
+        "Fangs of Fire. A creature hit by this attack additional fire damage equal to your Martial Arts die.",
+        "Whips of Water. Your unarmed attacks this turn gain an additional 5ft reach."
+      ]
+    }
+  ]
 }

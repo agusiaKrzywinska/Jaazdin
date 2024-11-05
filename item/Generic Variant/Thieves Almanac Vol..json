@@ -1,19 +1,19 @@
 {
-    "name": "Thieves Almanac Vol.",
-    "source": "TftJC",
-    "rarity": "varies",
-    "wondrous": true,
-    "type": "GV",
-    "entries": [
-        "These tomes contains the secrets to skullduggery and crime.",
-        {
-            "type": "list",
-            "items": [
-                "{@item Thieves Almanac Vol. (Uncommon)|TftJC}",
-                "{@item Thieves Almanac Vol. (Rare)|TftJC}",
-                "{@item Thieves Almanac Vol. (Very Rare)|TftJC}",
-                "{@item Thieves Almanac Vol. (Legendary)|TftJC}"
-            ]
-        }
-    ]
+  "name": "Thieves Almanac Vol.",
+  "source": "TftJC",
+  "rarity": "varies",
+  "wondrous": true,
+  "type": "GV",
+  "entries": [
+    "These tomes contains the secrets to skullduggery and crime.",
+    {
+      "type": "list",
+      "items": [
+        "{@item Thieves Almanac Vol. (Uncommon)|TftJC}",
+        "{@item Thieves Almanac Vol. (Rare)|TftJC}",
+        "{@item Thieves Almanac Vol. (Very Rare)|TftJC}",
+        "{@item Thieves Almanac Vol. (Legendary)|TftJC}"
+      ]
+    }
+  ]
 }

@@ -1,15 +1,15 @@
 {
-    "name": "Drilling",
-    "source": "TftJC",
-    "page": 12,
-    "type": "OTH",
-    "rarity": "none",
-    "weight": 0,
-    "value": 50000,
-    "entries": [
-        "<b><i>Effect.</i></b> Can declare attacks as Drilling, ignoring the shotgun feature. The range is doubled and the cone is removed.",
-        "<b><i>Restrictions.</i></b> Requires the Shotgun property.",
-        "<b><i>Archetype.</i></b> Only Buckshots can use this modification.",
-        "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
-    ]
+  "name": "Drilling",
+  "source": "TftJC",
+  "page": 12,
+  "type": "OTH",
+  "rarity": "none",
+  "weight": 0,
+  "value": 50000,
+  "entries": [
+    "<b><i>Effect.</i></b> Can declare attacks as Drilling, ignoring the shotgun feature. The range is doubled and the cone is removed.",
+    "<b><i>Restrictions.</i></b> Requires the Shotgun property.",
+    "<b><i>Archetype.</i></b> Only Buckshots can use this modification.",
+    "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+  ]
 }

@@ -1,21 +1,18 @@
 {
-    "name": "Bardiche",
-    "source": "TftJC",
-    "page": 50,
-    "type": "M",
-    "rarity": "none",
-    "weight": 2,
-    "value": 2500,
-    "weaponCategory": "martial",
-    "property": [
-        "S",
-        "V"
-    ],
-    "dmg1": "1d8",
-    "dmg2": "1d10",
-    "dmgType": "S",
-    "entries": [
-        "<b><i>Special.</i></b> The special hooked head of the Bardiche allows one to bypass an opponent's shield. As a bonus action when you make an attack roll with the Bardiche against a creature with a shield you can have them make an opposed Athletic check. If you win then the creature does not benefit from the AC bonus from their shield until the end of your turn.",
-        "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
-    ]
+  "name": "Bardiche",
+  "source": "TftJC",
+  "page": 50,
+  "type": "M",
+  "rarity": "none",
+  "weight": 2,
+  "value": 2500,
+  "weaponCategory": "martial",
+  "property": ["S", "V"],
+  "dmg1": "1d8",
+  "dmg2": "1d10",
+  "dmgType": "S",
+  "entries": [
+    "<b><i>Special.</i></b> The special hooked head of the Bardiche allows one to bypass an opponent's shield. As a bonus action when you make an attack roll with the Bardiche against a creature with a shield you can have them make an opposed Athletic check. If you win then the creature does not benefit from the AC bonus from their shield until the end of your turn.",
+    "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+  ]
 }

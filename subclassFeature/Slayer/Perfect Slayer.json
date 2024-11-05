@@ -1,21 +1,21 @@
 {
-    "name": "Perfect Slayer",
-    "source": "TftJC",
-    "className": "Paladin",
-    "classSource": "PHB",
-    "subclassShortName": "Slayer",
-    "subclassSource": "TftJC",
-    "level": 20,
-    "entries": [
-        "At 20th level, as an action, you can empower your body to become the perfect hunter. Your body adapts to better hunt the Quarry of your oath. The transformation lasts 1 minute.You gain the following benefits:",
-        {
-            "type": "list",
-            "items": [
-                "You make any saving throws against your Quarry at advantage. In addition, if they force you to make Dexterity saving throws you take half damage on a failed save, and no damage on a success.",
-                "You are immune to the fear and charmed conditions.",
-                "Whenever a creature, other than you, succeeds on a saving throw while benefiting from your Slayer’sProtection the creature that forced them to make the saving throw takes psychic damage equal to yourCharisma Modifier."
-            ]
-        },
-        "Once you use this feature, you can’t use it again until you finish a long rest."
-    ]
+  "name": "Perfect Slayer",
+  "source": "TftJC",
+  "className": "Paladin",
+  "classSource": "PHB",
+  "subclassShortName": "Slayer",
+  "subclassSource": "TftJC",
+  "level": 20,
+  "entries": [
+    "At 20th level, as an action, you can empower your body to become the perfect hunter. Your body adapts to better hunt the Quarry of your oath. The transformation lasts 1 minute.You gain the following benefits:",
+    {
+      "type": "list",
+      "items": [
+        "You make any saving throws against your Quarry at advantage. In addition, if they force you to make Dexterity saving throws you take half damage on a failed save, and no damage on a success.",
+        "You are immune to the fear and charmed conditions.",
+        "Whenever a creature, other than you, succeeds on a saving throw while benefiting from your Slayer’sProtection the creature that forced them to make the saving throw takes psychic damage equal to yourCharisma Modifier."
+      ]
+    },
+    "Once you use this feature, you can’t use it again until you finish a long rest."
+  ]
 }

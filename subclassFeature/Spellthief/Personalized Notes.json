@@ -1,21 +1,21 @@
 {
-    "name": "Personalized Notes",
-    "source": "TftJC",
-    "className": "Wizard",
-    "classSource": "PHB",
-    "subclassShortName": "Spellthief",
-    "subclassSource": "TftJC",
-    "level": 10,
-    "entries": [
-        "At 14th level, you can tie in your own creativity into your shorthand. Whenever you use the Final Cast of a shorthand spell, you can apply one effect of your choice to the spell. The effect you pick must be able to affect the spell correctly",
-        {
-            "type": "list",
-            "items": [
-                "You can increase the level of the spell by one spell slot level.",
-                "You can impose disadvantage on the Saving Throw.",
-                "You have advantage on the spell attack roll",
-                "The duration of the spell is doubled."
-            ]
-        }
-    ]
+  "name": "Personalized Notes",
+  "source": "TftJC",
+  "className": "Wizard",
+  "classSource": "PHB",
+  "subclassShortName": "Spellthief",
+  "subclassSource": "TftJC",
+  "level": 10,
+  "entries": [
+    "At 14th level, you can tie in your own creativity into your shorthand. Whenever you use the Final Cast of a shorthand spell, you can apply one effect of your choice to the spell. The effect you pick must be able to affect the spell correctly",
+    {
+      "type": "list",
+      "items": [
+        "You can increase the level of the spell by one spell slot level.",
+        "You can impose disadvantage on the Saving Throw.",
+        "You have advantage on the spell attack roll",
+        "The duration of the spell is doubled."
+      ]
+    }
+  ]
 }

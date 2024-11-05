@@ -1,10 +1,10 @@
 {
-    "name": "Deadeye",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "level": 15,
-    "entries": [
-        "At 15th level, your accuracy becomes pinpoint accurate. When you have advantage on a ranged weapon attack, your ranged weapon attacks now increases your critical hit range by 1."
-    ]
+  "name": "Deadeye",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "level": 15,
+  "entries": [
+    "At 15th level, your accuracy becomes pinpoint accurate. When you have advantage on a ranged weapon attack, your ranged weapon attacks now increases your critical hit range by 1."
+  ]
 }

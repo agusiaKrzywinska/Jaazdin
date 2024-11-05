@@ -1,13 +1,13 @@
 {
-    "name": "Bracers of the Mountain Cliffs",
-    "source": "TftJC",
-    "rarity": "rare",
-    "wondrous": true,
-    "curse": true,
-    "entries": [
-        "You gain proficiency in Athletics, if you already have proficiency you gain expertise. Whenever you make an athletics check to push, pull, or otherwise move a creature you do so with advantage.",
-        "When you force a creature to move through an attack or spell they move an additional 10ft and take {@dice 2d6} Bludgeoning damage. In addition, if the creature has a fly speed that speed is reduced to 0 until the start of their next turn.",
-        "<b><i>Curse.</i></b> The heavy gauntlets weigh you down, your speed decreases by 15ft.",
-        "<b><i>Shackles of Jurajuru.</i></b> This item contains the spirit of a destructive elemental zaratan known as Cavalkal. While these bracers are not being worn by someone the enchantment magic binding Cavalkal to them begins to wane. After {@dice 1d6+2} days the bracers vanish and transform into a portal into the Elemental Plane of Earth. After {@dice 2d4+2} days the magic fails entirely and Cavalkal is freed. The bracers currently feel empty, it does not appear that Cavalkal is binded within them."
-    ]
+  "name": "Bracers of the Mountain Cliffs",
+  "source": "TftJC",
+  "rarity": "rare",
+  "wondrous": true,
+  "curse": true,
+  "entries": [
+    "You gain proficiency in Athletics, if you already have proficiency you gain expertise. Whenever you make an athletics check to push, pull, or otherwise move a creature you do so with advantage.",
+    "When you force a creature to move through an attack or spell they move an additional 10ft and take {@dice 2d6} Bludgeoning damage. In addition, if the creature has a fly speed that speed is reduced to 0 until the start of their next turn.",
+    "<b><i>Curse.</i></b> The heavy gauntlets weigh you down, your speed decreases by 15ft.",
+    "<b><i>Shackles of Jurajuru.</i></b> This item contains the spirit of a destructive elemental zaratan known as Cavalkal. While these bracers are not being worn by someone the enchantment magic binding Cavalkal to them begins to wane. After {@dice 1d6+2} days the bracers vanish and transform into a portal into the Elemental Plane of Earth. After {@dice 2d4+2} days the magic fails entirely and Cavalkal is freed. The bracers currently feel empty, it does not appear that Cavalkal is binded within them."
+  ]
 }

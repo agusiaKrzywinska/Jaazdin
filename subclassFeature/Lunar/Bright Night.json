@@ -1,12 +1,12 @@
 {
-    "name": "Bright Night",
-    "source": "TftJC",
-    "className": "Sorcerer",
-    "classSource": "PHB",
-    "subclassShortName": "Lunar",
-    "subclassSource": "TftJC",
-    "level": 1,
-    "entries": [
-        "At 1st level, when you hit a creature with a spell that deals Radiant or Psychic damage, or they fail the saving throw, they become {@condition blinded} until the start of your next turn."
-    ]
+  "name": "Bright Night",
+  "source": "TftJC",
+  "className": "Sorcerer",
+  "classSource": "PHB",
+  "subclassShortName": "Lunar",
+  "subclassSource": "TftJC",
+  "level": 1,
+  "entries": [
+    "At 1st level, when you hit a creature with a spell that deals Radiant or Psychic damage, or they fail the saving throw, they become {@condition blinded} until the start of your next turn."
+  ]
 }

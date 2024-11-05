@@ -1,9 +1,9 @@
 {
-    "name": "Dragon's Heart",
-    "source": "TftJC",
-    "type": "Dragon Jelly",
-    "entries": [
-        "Advantage against Frightened and Charmed conditions.",
-        "Once Per Long rest, you can automatically succeed against a Charm or Frighten Effect"
-    ]
+  "name": "Dragon's Heart",
+  "source": "TftJC",
+  "type": "Dragon Jelly",
+  "entries": [
+    "Advantage against Frightened and Charmed conditions.",
+    "Once Per Long rest, you can automatically succeed against a Charm or Frighten Effect"
+  ]
 }

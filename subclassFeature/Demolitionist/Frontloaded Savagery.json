@@ -1,12 +1,12 @@
 {
-    "name": "Frontloaded Savagery",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Demolitionist",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "When you choose this archetype at 2nd level, your attacks become lethally savage. Your firearms gain an additional range, equal to half of its normal range. Attacking an enemy in this range with a Firearm allows you to reroll a number of the damage die up to your Constitution Modifier once per turn. You also gain proficiency in Medium Armor."
-    ]
+  "name": "Frontloaded Savagery",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Demolitionist",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "When you choose this archetype at 2nd level, your attacks become lethally savage. Your firearms gain an additional range, equal to half of its normal range. Attacking an enemy in this range with a Firearm allows you to reroll a number of the damage die up to your Constitution Modifier once per turn. You also gain proficiency in Medium Armor."
+  ]
 }

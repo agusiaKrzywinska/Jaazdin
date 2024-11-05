@@ -1,12 +1,12 @@
 {
-    "name": "Magic Capacitor",
-    "source": "TftJC",
-    "type": "OTH",
-    "rarity": "uncommon",
-    "weight": 0,
-    "entries": [
-        "This magical modification can be slotted into a gun to grant it the magical effects placed on it. Any enchantment that can be placed on a weapon can be placed on a magic capacitor. Once installed on a gun, it grants that gun the enchantment. A magic capacitor can only be placed on a non-magical gun, otherwise it has no effect.",
-        "An unenchanted magical capacitor can be crafting using Arcstone based on the rarity and requires two plates, requiring Gunsmithing tools check.",
-        "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-    ]
+  "name": "Magic Capacitor",
+  "source": "TftJC",
+  "type": "OTH",
+  "rarity": "uncommon",
+  "weight": 0,
+  "entries": [
+    "This magical modification can be slotted into a gun to grant it the magical effects placed on it. Any enchantment that can be placed on a weapon can be placed on a magic capacitor. Once installed on a gun, it grants that gun the enchantment. A magic capacitor can only be placed on a non-magical gun, otherwise it has no effect.",
+    "An unenchanted magical capacitor can be crafting using Arcstone based on the rarity and requires two plates, requiring Gunsmithing tools check.",
+    "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+  ]
 }

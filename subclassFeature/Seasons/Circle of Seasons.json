@@ -1,21 +1,21 @@
 {
-    "name": "Circle of Seasons",
-    "source": "TftJC",
-    "className": "Druid",
-    "classSource": "PHB",
-    "subclassShortName": "Seasons",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "The Circle of Seasons is made up of the attendants of the Fey Court's servants, confidants, assassins, and ambassadors employed by the great Archfey. These druids work to maintain balance and peace between the various factions of the Fey Realm and when needed are sent to the Material Plane to act on the behalf of their masters.",
-        "Groups of these druids serve exclusively on the Material Plane as well, forming tribes based on their seasonal prowess. Tribes in great tundra might be masters of their winter forms while their desert dwelling cousins' savants of the fiery summer power. These clans were usually started by an ancestor that crossed over from the Fey Realm and now after generations may not even remember the true meaning behind their powers",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Nobility of Court|Druid|PHB|Seasons|TftJC|2"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Seasonal Forms|Druid|PHB|Seasons|TftJC|2"
-        }
-    ]
+  "name": "Circle of Seasons",
+  "source": "TftJC",
+  "className": "Druid",
+  "classSource": "PHB",
+  "subclassShortName": "Seasons",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "The Circle of Seasons is made up of the attendants of the Fey Court's servants, confidants, assassins, and ambassadors employed by the great Archfey. These druids work to maintain balance and peace between the various factions of the Fey Realm and when needed are sent to the Material Plane to act on the behalf of their masters.",
+    "Groups of these druids serve exclusively on the Material Plane as well, forming tribes based on their seasonal prowess. Tribes in great tundra might be masters of their winter forms while their desert dwelling cousins' savants of the fiery summer power. These clans were usually started by an ancestor that crossed over from the Fey Realm and now after generations may not even remember the true meaning behind their powers",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Nobility of Court|Druid|PHB|Seasons|TftJC|2"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Seasonal Forms|Druid|PHB|Seasons|TftJC|2"
+    }
+  ]
 }

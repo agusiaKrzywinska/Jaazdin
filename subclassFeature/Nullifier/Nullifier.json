@@ -1,24 +1,24 @@
 {
-    "name": "Nullifier",
-    "source": "TftJC",
-    "className": "Artificer",
-    "classSource": "TCE",
-    "subclassShortName": "Nullifier",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "A Nullifier is an expert at not creating but rather undoing things. Nullifiers use their creations to suppress, break, and disrupt other inventions both magical and mundane. Nullifiers are often looked down on by other artificers, many of whom fear their abilities to undo their work, but for those not gifted in crafts the employment of a Nullifier can be invaluable in undoing magical protections",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Nullifier Spells|Artificer|TCE|Nullifier|TftJC|3|TftJC"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Skilled Breaker|Artificer|TCE|Nullifier|TftJC|3|TftJC"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Magical Sabator|Artificer|TCE|Nullifier|TftJC|3|TftJC"
-        }
-    ]
+  "name": "Nullifier",
+  "source": "TftJC",
+  "className": "Artificer",
+  "classSource": "TCE",
+  "subclassShortName": "Nullifier",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "A Nullifier is an expert at not creating but rather undoing things. Nullifiers use their creations to suppress, break, and disrupt other inventions both magical and mundane. Nullifiers are often looked down on by other artificers, many of whom fear their abilities to undo their work, but for those not gifted in crafts the employment of a Nullifier can be invaluable in undoing magical protections",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Nullifier Spells|Artificer|TCE|Nullifier|TftJC|3|TftJC"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Skilled Breaker|Artificer|TCE|Nullifier|TftJC|3|TftJC"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Magical Sabator|Artificer|TCE|Nullifier|TftJC|3|TftJC"
+    }
+  ]
 }

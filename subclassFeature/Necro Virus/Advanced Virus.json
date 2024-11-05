@@ -1,48 +1,40 @@
 {
-    "name": "Advanced Virus",
-    "source": "TftJC",
-    "className": "Artificer",
-    "classSource": "TCE",
-    "subclassShortName": "Necro Virus",
-    "subclassSource": "TftJC",
-    "level": 9,
-    "entries": [
-        "At 9th level, your Infected Spells are enhanced. All Virus types from Infected Spells have their die doubled. Augmentation applies to the next two rolls, and Potency can be used up to twice per spell cast. Also, you gain new virus types",
-        {
-            "type": "table",
-            "caption": "Virus Types",
-            "colLabels": [
-                "Virus",
-                "Effect",
-                "Spell School"
-            ],
-            "colStyles": [
-                "col- text-",
-                "col- text- ",
-                "col- text- "
-            ],
-            "rows": [
-                [
-                    "Fragility",
-                    "The creature has any damage resistances removed until the end of your next turn.",
-                    "Necromancy"
-                ],
-                [
-                    "Puppet",
-                    "The creature immediately makes an attack at another creature of your choice within their range, without using their reaction.",
-                    "Enchantment"
-                ],
-                [
-                    "Overclock",
-                    "The creature explodes with energy, dealing 1d12 force damage to it and all creatures within a 10ft radius.",
-                    "Evocation"
-                ],
-                [
-                    "Infection",
-                    "For the next minute, the target takes 1d4 necrotic damage at the start of their turn. If they are humanoid and die while still under this effect, they immediately rise as a Zombie under your control.",
-                    "Any single target spell"
-                ]
-            ]
-        }
-    ]
+  "name": "Advanced Virus",
+  "source": "TftJC",
+  "className": "Artificer",
+  "classSource": "TCE",
+  "subclassShortName": "Necro Virus",
+  "subclassSource": "TftJC",
+  "level": 9,
+  "entries": [
+    "At 9th level, your Infected Spells are enhanced. All Virus types from Infected Spells have their die doubled. Augmentation applies to the next two rolls, and Potency can be used up to twice per spell cast. Also, you gain new virus types",
+    {
+      "type": "table",
+      "caption": "Virus Types",
+      "colLabels": ["Virus", "Effect", "Spell School"],
+      "colStyles": ["col- text-", "col- text- ", "col- text- "],
+      "rows": [
+        [
+          "Fragility",
+          "The creature has any damage resistances removed until the end of your next turn.",
+          "Necromancy"
+        ],
+        [
+          "Puppet",
+          "The creature immediately makes an attack at another creature of your choice within their range, without using their reaction.",
+          "Enchantment"
+        ],
+        [
+          "Overclock",
+          "The creature explodes with energy, dealing 1d12 force damage to it and all creatures within a 10ft radius.",
+          "Evocation"
+        ],
+        [
+          "Infection",
+          "For the next minute, the target takes 1d4 necrotic damage at the start of their turn. If they are humanoid and die while still under this effect, they immediately rise as a Zombie under your control.",
+          "Any single target spell"
+        ]
+      ]
+    }
+  ]
 }

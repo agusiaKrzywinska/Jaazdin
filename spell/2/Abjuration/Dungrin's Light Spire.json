@@ -1,48 +1,48 @@
 {
-    "name": "Dungrin's Light Spire",
-    "source": "TftJC",
-    "page": 58,
-    "level": 2,
-    "school": "A",
-    "time": [
-        {
-            "number": 1,
-            "unit": "action"
-        }
-    ],
-    "range": {
-        "type": "point",
-        "distance": {
-            "type": "feet",
-            "amount": 30
-        }
-    },
-    "components": {
-        "v": true,
-        "s": true
-    },
-    "duration": [
-        {
-            "type": "timed",
-            "duration": {
-                "amount": 1,
-                "type": "minute"
-            }
-        }
-    ],
-    "entries": [
-        "You create a light spire within range, a glowing tree-like object that has a height of 10ft. It gives off dim light in a 30ft radius, and bright light within a 10ft radius. Creatures of your choice standing within its bright light gain a +1 to all saving throws. Creatures within the dim light do not benefit from being {@condition Invisible} Creatures can only benefit from one Light Spire at a time."
-    ],
-    "classes": {
-        "fromClassList": [
-            {
-                "name": "Cleric",
-                "source": "PHB"
-            },
-            {
-                "name": "Paladin",
-                "source": "PHB"
-            }
-        ]
+  "name": "Dungrin's Light Spire",
+  "source": "TftJC",
+  "page": 58,
+  "level": 2,
+  "school": "A",
+  "time": [
+    {
+      "number": 1,
+      "unit": "action"
     }
+  ],
+  "range": {
+    "type": "point",
+    "distance": {
+      "type": "feet",
+      "amount": 30
+    }
+  },
+  "components": {
+    "v": true,
+    "s": true
+  },
+  "duration": [
+    {
+      "type": "timed",
+      "duration": {
+        "amount": 1,
+        "type": "minute"
+      }
+    }
+  ],
+  "entries": [
+    "You create a light spire within range, a glowing tree-like object that has a height of 10ft. It gives off dim light in a 30ft radius, and bright light within a 10ft radius. Creatures of your choice standing within its bright light gain a +1 to all saving throws. Creatures within the dim light do not benefit from being {@condition Invisible} Creatures can only benefit from one Light Spire at a time."
+  ],
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Cleric",
+        "source": "PHB"
+      },
+      {
+        "name": "Paladin",
+        "source": "PHB"
+      }
+    ]
+  }
 }

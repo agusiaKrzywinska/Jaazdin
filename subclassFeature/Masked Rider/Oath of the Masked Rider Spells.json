@@ -1,45 +1,24 @@
 {
-    "name": "Oath of the Masked Rider Spells",
-    "source": "TftJC",
-    "className": "Paladin",
-    "classSource": "PHB",
-    "subclassShortName": "Masked Rider",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        {
-            "type": "table",
-            "caption": "Masked Rider Spells",
-            "colLabels": [
-                "Paladin Level",
-                "Spell"
-            ],
-            "colStyles": [
-                "col- text-",
-                "col- text- "
-            ],
-            "rows": [
-                [
-                    "3rd",
-                    "Thunderwave, Zephyr Strike"
-                ],
-                [
-                    "5th",
-                    "Enthrall, Shatter"
-                ],
-                [
-                    "9th",
-                    "Ashardalon's Stride, Thunder Step"
-                ],
-                [
-                    "13th",
-                    "Freedom of Movement, Wall of Fire"
-                ],
-                [
-                    "17th",
-                    "Dawn, Steel Wind Strike"
-                ]
-            ]
-        }
-    ]
+  "name": "Oath of the Masked Rider Spells",
+  "source": "TftJC",
+  "className": "Paladin",
+  "classSource": "PHB",
+  "subclassShortName": "Masked Rider",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    {
+      "type": "table",
+      "caption": "Masked Rider Spells",
+      "colLabels": ["Paladin Level", "Spell"],
+      "colStyles": ["col- text-", "col- text- "],
+      "rows": [
+        ["3rd", "Thunderwave, Zephyr Strike"],
+        ["5th", "Enthrall, Shatter"],
+        ["9th", "Ashardalon's Stride, Thunder Step"],
+        ["13th", "Freedom of Movement, Wall of Fire"],
+        ["17th", "Dawn, Steel Wind Strike"]
+      ]
+    }
+  ]
 }

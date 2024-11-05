@@ -1,10 +1,10 @@
 {
-    "name": "Dodge and Roll Improvement",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "level": 17,
-    "entries": [
-        "At 17th level, you can now move your full movement with this reaction."
-    ]
+  "name": "Dodge and Roll Improvement",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "level": 17,
+  "entries": [
+    "At 17th level, you can now move your full movement with this reaction."
+  ]
 }

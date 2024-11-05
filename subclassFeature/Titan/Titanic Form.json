@@ -1,13 +1,13 @@
 {
-    "name": "Titanic Form",
-    "source": "TftJC",
-    "className": "Druid",
-    "classSource": "PHB",
-    "subclassShortName": "Titan",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "When you choose this circle at 2nd level, you can embolden your Wild Shapes with Titanic Power. When you enter a Wild Shape, you can choose to make that form a Titan. It grows one size category larger, and its Strength is increased by 2, up to 20. It additionally gains 1 extra hit point per hit die that creature has.",
-        "Additionally, you can expend 2 uses of your Wild Shape to transform into a Dinosaur. You must be a Druid level equal to or higher than that creature's CR to transform into it. You cannot make a Dinosaur you Wild Shape into with this ability a Titan."
-    ]
+  "name": "Titanic Form",
+  "source": "TftJC",
+  "className": "Druid",
+  "classSource": "PHB",
+  "subclassShortName": "Titan",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "When you choose this circle at 2nd level, you can embolden your Wild Shapes with Titanic Power. When you enter a Wild Shape, you can choose to make that form a Titan. It grows one size category larger, and its Strength is increased by 2, up to 20. It additionally gains 1 extra hit point per hit die that creature has.",
+    "Additionally, you can expend 2 uses of your Wild Shape to transform into a Dinosaur. You must be a Druid level equal to or higher than that creature's CR to transform into it. You cannot make a Dinosaur you Wild Shape into with this ability a Titan."
+  ]
 }

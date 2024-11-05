@@ -1,46 +1,28 @@
 {
-    "name": "Polyglot Domain Spells",
-    "source": "TftJC",
-    "className": "Cleric",
-    "classSource": "PHB",
-    "subclassShortName": "Polyglot",
-    "subclassSource": "TftJC",
-    "level": 1,
-    "entries": [
-        "At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.",
-        {
-            "type": "table",
-            "caption": "Polyglot Domain Spells",
-            "colLabels": [
-                "Artificer Level",
-                "Spell"
-            ],
-            "colStyles": [
-                "col- text-",
-                "col- text- "
-            ],
-            "rows": [
-                [
-                    "1st",
-                    "one 1st level spell from any class but cleric, comprehend languages"
-                ],
-                [
-                    "3rd",
-                    "one 2nd level spell from any class but cleric, suggestion"
-                ],
-                [
-                    "5th",
-                    "one 3rd level spell from any class but cleric, tongues"
-                ],
-                [
-                    "7th",
-                    "one 4th level spell from any class but cleric, compulsion"
-                ],
-                [
-                    "9th",
-                    "one 5th level spell from any class but cleric, seeming"
-                ]
-            ]
-        }
-    ]
+  "name": "Polyglot Domain Spells",
+  "source": "TftJC",
+  "className": "Cleric",
+  "classSource": "PHB",
+  "subclassShortName": "Polyglot",
+  "subclassSource": "TftJC",
+  "level": 1,
+  "entries": [
+    "At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.",
+    {
+      "type": "table",
+      "caption": "Polyglot Domain Spells",
+      "colLabels": ["Artificer Level", "Spell"],
+      "colStyles": ["col- text-", "col- text- "],
+      "rows": [
+        [
+          "1st",
+          "one 1st level spell from any class but cleric, comprehend languages"
+        ],
+        ["3rd", "one 2nd level spell from any class but cleric, suggestion"],
+        ["5th", "one 3rd level spell from any class but cleric, tongues"],
+        ["7th", "one 4th level spell from any class but cleric, compulsion"],
+        ["9th", "one 5th level spell from any class but cleric, seeming"]
+      ]
+    }
+  ]
 }

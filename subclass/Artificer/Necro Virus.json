@@ -1,27 +1,27 @@
 {
-    "name": "Necro Virus",
-    "source": "TftJC",
-    "page": 9,
-    "className": "Artificer",
-    "classSource": "TCE",
-    "shortName": "Necro Virus",
-    "subclassFeatures": [
-        "Necro Virus|Artificer|TCE|Necro Virus|TftJC|3",
-        "Infectious|Artificer|TCE|Necro Virus|TftJC|5",
-        "Advanced Virus|Artificer|TCE|Necro Virus|TftJC|9",
-        "Necro Control|Artificer|TCE|Necro Virus|TftJC|9",
-        "Necrotic Dissolve|Artificer|TCE|Necro Virus|TftJC|15"
-    ],
-    "subclassSpells": [
-        "Command",
-        "Guiding Bolt",
-        "Crown of Madness",
-        "Ray of Enfeeblement",
-        "Animate Dead",
-        "Pulse Wave|XgtE",
-        "Blight",
-        "Confusion",
-        "Enervation",
-        "Mass Cure Wounds"
-    ]
+  "name": "Necro Virus",
+  "source": "TftJC",
+  "page": 9,
+  "className": "Artificer",
+  "classSource": "TCE",
+  "shortName": "Necro Virus",
+  "subclassFeatures": [
+    "Necro Virus|Artificer|TCE|Necro Virus|TftJC|3",
+    "Infectious|Artificer|TCE|Necro Virus|TftJC|5",
+    "Advanced Virus|Artificer|TCE|Necro Virus|TftJC|9",
+    "Necro Control|Artificer|TCE|Necro Virus|TftJC|9",
+    "Necrotic Dissolve|Artificer|TCE|Necro Virus|TftJC|15"
+  ],
+  "subclassSpells": [
+    "Command",
+    "Guiding Bolt",
+    "Crown of Madness",
+    "Ray of Enfeeblement",
+    "Animate Dead",
+    "Pulse Wave|XgtE",
+    "Blight",
+    "Confusion",
+    "Enervation",
+    "Mass Cure Wounds"
+  ]
 }

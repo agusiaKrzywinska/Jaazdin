@@ -1,13 +1,13 @@
 {
-    "name": "Hex Master",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Hexlock",
-    "subclassSource": "TftJC",
-    "level": 14,
-    "entries": [
-        "At 14th level, you learn to apply Hexes on the fly. You can replace any number of bullets fired on your turn with Hexed Bullets.",
-        "If you ever roll for initiative with no remaining Hexed Bullets, regain one use."
-    ]
+  "name": "Hex Master",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Hexlock",
+  "subclassSource": "TftJC",
+  "level": 14,
+  "entries": [
+    "At 14th level, you learn to apply Hexes on the fly. You can replace any number of bullets fired on your turn with Hexed Bullets.",
+    "If you ever roll for initiative with no remaining Hexed Bullets, regain one use."
+  ]
 }

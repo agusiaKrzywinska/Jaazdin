@@ -1,22 +1,19 @@
 {
-    "name": "Dusty Falcon",
-    "source": "TftJC",
-    "type": "R",
-    "rarity": "none",
-    "weight": 4.5,
-    "value": 100000,
-    "weaponCategory": "martial",
-    "property": [
-        "L",
-        "AF"
-    ],
-    "charges": 8,
-    "dmg1": "2d6",
-    "dmgType": "P",
-    "range": "80/320",
-    "entries": [
-        "<b><i>Tier 5.</i></b>",
-        "<b><i>Auto</i><b> Auto firearms can make an additional attack as a part of the Attack Action.",
-        "<b><i>Clip 8.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
-    ]
+  "name": "Dusty Falcon",
+  "source": "TftJC",
+  "type": "R",
+  "rarity": "none",
+  "weight": 4.5,
+  "value": 100000,
+  "weaponCategory": "martial",
+  "property": ["L", "AF"],
+  "charges": 8,
+  "dmg1": "2d6",
+  "dmgType": "P",
+  "range": "80/320",
+  "entries": [
+    "<b><i>Tier 5.</i></b>",
+    "<b><i>Auto</i><b> Auto firearms can make an additional attack as a part of the Attack Action.",
+    "<b><i>Clip 8.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+  ]
 }

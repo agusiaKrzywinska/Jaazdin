@@ -1,13 +1,13 @@
 {
-    "name": "Firearm Enchanter",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Hexlock",
-    "subclassSource": "TftJC",
-    "level": 6,
-    "entries": [
-        "At 6th level, you have mastered placing arcane enhancements on firearms. The first Hexlock modification placed on a firearm does not count against the number of modifications on a weapon.",
-        "Firearms with at least one Hexlock modification count as magical when overcoming damage resistances."
-    ]
+  "name": "Firearm Enchanter",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Hexlock",
+  "subclassSource": "TftJC",
+  "level": 6,
+  "entries": [
+    "At 6th level, you have mastered placing arcane enhancements on firearms. The first Hexlock modification placed on a firearm does not count against the number of modifications on a weapon.",
+    "Firearms with at least one Hexlock modification count as magical when overcoming damage resistances."
+  ]
 }

@@ -1,11 +1,11 @@
 {
-    "name": "Enchanting Catalogue Vol. (Very Rare)",
-    "source": "TftJC",
-    "rarity": "very rare",
-    "wondrous": true,
-    "entries": [
-        "This tome contains the secrets to enchanting magical objects.",
-        "It can be read over 1 week to learn the recipe for one very rare or lower magical item, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Tinkering, Teaching, or Arcanist labor tier by 3.",
-        "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
-    ]
+  "name": "Enchanting Catalogue Vol. (Very Rare)",
+  "source": "TftJC",
+  "rarity": "very rare",
+  "wondrous": true,
+  "entries": [
+    "This tome contains the secrets to enchanting magical objects.",
+    "It can be read over 1 week to learn the recipe for one very rare or lower magical item, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Tinkering, Teaching, or Arcanist labor tier by 3.",
+    "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+  ]
 }

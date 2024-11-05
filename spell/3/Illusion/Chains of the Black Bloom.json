@@ -1,73 +1,71 @@
 {
-    "name": "Chains of the Black Bloom",
-    "source": "TftJC",
-    "page": 59,
-    "level": 3,
-    "school": "I",
-    "time": [
-        {
-            "number": 1,
-            "unit": "action"
-        }
-    ],
-    "range": {
-        "type": "point",
-        "distance": {
-            "type": "feet",
-            "amount": 60
-        }
-    },
-    "components": {
-        "v": true,
-        "s": true,
-        "m": "a black rose"
-    },
-    "duration": [
-        {
-            "type": "instant"
-        }
-    ],
-    "entries": [
-        "You create a flurry of black petals and launch them at a creature within range. Make a spell attack roll against that creature, and on a hit they take {@dice 4d10} slashing damage as rapidly moving petals tear around them. If this attack hits a creature, that creature is also restrained, as the petals turn to solid chains. If the spell hits, then all creatures of your choice within 10ft of that creature must make a Dexterity Saving throw, or also be restrained. Creatures restrained by this spell are freed at the end of your next turn."
-    ],
-    "entriesHigherLevel": [
-        {
-            "type": "entries",
-            "name": "At Higher Levels",
-            "entries": [
-                "If you cast this spell using a spell slot of 4th level or higher, you deal an additional {@dice 1d10} damage for every slot above 3rd."
-            ]
-        }
-    ],
-    "classes": {
-        "fromClassList": [
-            {
-                "name": "Artificer",
-                "source": "PHB"
-            },
-            {
-                "name": "Bard",
-                "source": "PHB"
-            },
-            {
-                "name": "Druid",
-                "source": "PHB"
-            },
-            {
-                "name": "Sorcerer",
-                "source": "PHB"
-            },
-            {
-                "name": "Warlock",
-                "source": "PHB"
-            },
-            {
-                "name": "Wizard",
-                "source": "PHB"
-            }
-        ]
-    },
-    "savingThrow": [
-        "dexterity"
+  "name": "Chains of the Black Bloom",
+  "source": "TftJC",
+  "page": 59,
+  "level": 3,
+  "school": "I",
+  "time": [
+    {
+      "number": 1,
+      "unit": "action"
+    }
+  ],
+  "range": {
+    "type": "point",
+    "distance": {
+      "type": "feet",
+      "amount": 60
+    }
+  },
+  "components": {
+    "v": true,
+    "s": true,
+    "m": "a black rose"
+  },
+  "duration": [
+    {
+      "type": "instant"
+    }
+  ],
+  "entries": [
+    "You create a flurry of black petals and launch them at a creature within range. Make a spell attack roll against that creature, and on a hit they take {@dice 4d10} slashing damage as rapidly moving petals tear around them. If this attack hits a creature, that creature is also restrained, as the petals turn to solid chains. If the spell hits, then all creatures of your choice within 10ft of that creature must make a Dexterity Saving throw, or also be restrained. Creatures restrained by this spell are freed at the end of your next turn."
+  ],
+  "entriesHigherLevel": [
+    {
+      "type": "entries",
+      "name": "At Higher Levels",
+      "entries": [
+        "If you cast this spell using a spell slot of 4th level or higher, you deal an additional {@dice 1d10} damage for every slot above 3rd."
+      ]
+    }
+  ],
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Artificer",
+        "source": "PHB"
+      },
+      {
+        "name": "Bard",
+        "source": "PHB"
+      },
+      {
+        "name": "Druid",
+        "source": "PHB"
+      },
+      {
+        "name": "Sorcerer",
+        "source": "PHB"
+      },
+      {
+        "name": "Warlock",
+        "source": "PHB"
+      },
+      {
+        "name": "Wizard",
+        "source": "PHB"
+      }
     ]
+  },
+  "savingThrow": ["dexterity"]
 }

@@ -1,12 +1,12 @@
 {
-    "name": "Quickdraw Showdown",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Quickdraw",
-    "subclassSource": "TftJC",
-    "level": 6,
-    "entries": [
-        "At 6th level, you become incredibly fast at unholstering your weapons. You have advantage on Initiative Rolls, and can take out a firearm or a pair of light firearms as a free action on your first turn in combat. Furthermore, attacking a creature who is yet to act in initiative gives you the upper hand, causing your attacks to deal additional damage equal to your Charisma Modifier."
-    ]
+  "name": "Quickdraw Showdown",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Quickdraw",
+  "subclassSource": "TftJC",
+  "level": 6,
+  "entries": [
+    "At 6th level, you become incredibly fast at unholstering your weapons. You have advantage on Initiative Rolls, and can take out a firearm or a pair of light firearms as a free action on your first turn in combat. Furthermore, attacking a creature who is yet to act in initiative gives you the upper hand, causing your attacks to deal additional damage equal to your Charisma Modifier."
+  ]
 }

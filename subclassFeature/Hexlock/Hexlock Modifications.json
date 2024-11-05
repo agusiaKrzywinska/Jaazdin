@@ -1,12 +1,12 @@
 {
-    "name": "Hexlock Modifications",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Hexlock",
-    "subclassSource": "TftJC",
-    "level": 6,
-    "entries": [
-        "At 6th level, Hexlocks gain access to new modifications which do not count against their Modifications known. You gain the Tier 2 modification at 10th level, and the Tier 3 modification at 15th level."
-    ]
+  "name": "Hexlock Modifications",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Hexlock",
+  "subclassSource": "TftJC",
+  "level": 6,
+  "entries": [
+    "At 6th level, Hexlocks gain access to new modifications which do not count against their Modifications known. You gain the Tier 2 modification at 10th level, and the Tier 3 modification at 15th level."
+  ]
 }

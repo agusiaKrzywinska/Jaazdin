@@ -1,12 +1,12 @@
 {
-    "name": "Seeking Flames",
-    "source": "TftJC",
-    "className": "Ranger",
-    "classSource": "PHB",
-    "subclassShortName": "Devastator",
-    "subclassSource": "TftJC",
-    "level": 7,
-    "entries": [
-        "At 7th level, when you use your Burning Strikes your flames also jump to a number of other creatures nearby within 10 feet up to your proficiency modifier. Each target takes the same amount of fire damage rolled on your d8 from Burning Strikes."
-    ]
+  "name": "Seeking Flames",
+  "source": "TftJC",
+  "className": "Ranger",
+  "classSource": "PHB",
+  "subclassShortName": "Devastator",
+  "subclassSource": "TftJC",
+  "level": 7,
+  "entries": [
+    "At 7th level, when you use your Burning Strikes your flames also jump to a number of other creatures nearby within 10 feet up to your proficiency modifier. Each target takes the same amount of fire damage rolled on your d8 from Burning Strikes."
+  ]
 }

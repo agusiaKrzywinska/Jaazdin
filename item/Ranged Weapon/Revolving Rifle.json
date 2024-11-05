@@ -1,21 +1,18 @@
 {
-    "name": "Revolving Rifle",
-    "source": "TftJC",
-    "type": "R",
-    "rarity": "none",
-    "weight": 6,
-    "value": 10000,
-    "weaponCategory": "martial",
-    "property": [
-        "2H",
-        "AF"
-    ],
-    "charges": 5,
-    "dmg1": "1d10",
-    "dmgType": "P",
-    "range": "80/320",
-    "entries": [
-        "<b><i>Tier 2.</i></b>",
-        "<b><i>Barrel 5.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
-    ]
+  "name": "Revolving Rifle",
+  "source": "TftJC",
+  "type": "R",
+  "rarity": "none",
+  "weight": 6,
+  "value": 10000,
+  "weaponCategory": "martial",
+  "property": ["2H", "AF"],
+  "charges": 5,
+  "dmg1": "1d10",
+  "dmgType": "P",
+  "range": "80/320",
+  "entries": [
+    "<b><i>Tier 2.</i></b>",
+    "<b><i>Barrel 5.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
+  ]
 }

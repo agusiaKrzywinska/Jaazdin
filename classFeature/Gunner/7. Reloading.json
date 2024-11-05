@@ -1,38 +1,34 @@
 {
-    "name": "Reloading",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "level": 7,
-    "entries": [
-        "At 7th level, you become extremely quick at reloading your firearms. You now gain these benefits:",
-        {
-            "type": "inset",
-            "name": "Clip",
-            "entries": [
-                "You can now load an entire Clip as an Action."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Barrel",
-            "entries": [
-                "You can now load a number of shots into your barrel up to your Dexterity Modifier as a Bonus Action."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Belt",
-            "entries": [
-                "You can now reload a belt weapon with a loaded belt as a Bonus Action."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Drum",
-            "entries": [
-                "You can now load an entire drum in 1 minute."
-            ]
-        }
-    ]
+  "name": "Reloading",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "level": 7,
+  "entries": [
+    "At 7th level, you become extremely quick at reloading your firearms. You now gain these benefits:",
+    {
+      "type": "inset",
+      "name": "Clip",
+      "entries": ["You can now load an entire Clip as an Action."]
+    },
+    {
+      "type": "inset",
+      "name": "Barrel",
+      "entries": [
+        "You can now load a number of shots into your barrel up to your Dexterity Modifier as a Bonus Action."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Belt",
+      "entries": [
+        "You can now reload a belt weapon with a loaded belt as a Bonus Action."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Drum",
+      "entries": ["You can now load an entire drum in 1 minute."]
+    }
+  ]
 }

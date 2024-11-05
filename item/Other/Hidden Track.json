@@ -1,14 +1,14 @@
 {
-    "name": "Hidden Track",
-    "source": "TftJC",
-    "page": 10,
-    "type": "OTH",
-    "rarity": "none",
-    "weight": 0,
-    "value": 10000,
-    "entries": [
-        "<b><i>Effect.</i></b> The firearm gains the hidden property.",
-        "<b><i>Restrictions.</i></b> Requires the Light property.",
-        "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-    ]
+  "name": "Hidden Track",
+  "source": "TftJC",
+  "page": 10,
+  "type": "OTH",
+  "rarity": "none",
+  "weight": 0,
+  "value": 10000,
+  "entries": [
+    "<b><i>Effect.</i></b> The firearm gains the hidden property.",
+    "<b><i>Restrictions.</i></b> Requires the Light property.",
+    "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+  ]
 }

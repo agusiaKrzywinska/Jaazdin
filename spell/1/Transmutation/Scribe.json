@@ -1,47 +1,47 @@
 {
-    "name": "Scribe",
-    "source": "TftJC",
-    "page": 57,
-    "level": 1,
-    "school": "T",
-    "time": [
-        {
-            "number": 1,
-            "unit": "action"
-        }
-    ],
-    "range": {
-        "type": "point",
-        "distance": {
-            "type": "touch"
-        }
-    },
-    "components": {
-        "v": true,
-        "s": true,
-        "m": "a silver feathered quill worth at least 50gp and a blank sheet of parchment."
-    },
-    "duration": [
-        {
-            "type": "instant"
-        }
-    ],
-    "entries": [
-        "You touch a passage of text that is no larger than 5 square feet and transfer it instantly onto a nearby piece of parchment. The text is copied exactly including signatures, mistakes, or any other oddities within the original text. A DC 25 Investigation check can reveal the subtle markings that reveal magic was used in creating the text but does not necessarily reveal it to be a fake"
-    ],
-    "meta": {
-        "ritual": true
-    },
-    "classes": {
-        "fromClassList": [
-            {
-                "name": "Artificer",
-                "source": "PHB"
-            },
-            {
-                "name": "Wizard",
-                "source": "PHB"
-            }
-        ]
+  "name": "Scribe",
+  "source": "TftJC",
+  "page": 57,
+  "level": 1,
+  "school": "T",
+  "time": [
+    {
+      "number": 1,
+      "unit": "action"
     }
+  ],
+  "range": {
+    "type": "point",
+    "distance": {
+      "type": "touch"
+    }
+  },
+  "components": {
+    "v": true,
+    "s": true,
+    "m": "a silver feathered quill worth at least 50gp and a blank sheet of parchment."
+  },
+  "duration": [
+    {
+      "type": "instant"
+    }
+  ],
+  "entries": [
+    "You touch a passage of text that is no larger than 5 square feet and transfer it instantly onto a nearby piece of parchment. The text is copied exactly including signatures, mistakes, or any other oddities within the original text. A DC 25 Investigation check can reveal the subtle markings that reveal magic was used in creating the text but does not necessarily reveal it to be a fake"
+  ],
+  "meta": {
+    "ritual": true
+  },
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Artificer",
+        "source": "PHB"
+      },
+      {
+        "name": "Wizard",
+        "source": "PHB"
+      }
+    ]
+  }
 }

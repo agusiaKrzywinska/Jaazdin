@@ -1,13 +1,13 @@
 {
-    "name": "Luck Cutter",
-    "source": "TftJC",
-    "className": "Rogue",
-    "classSource": "PHB",
-    "subclassShortName": "Luckthief",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "At 3rd level, you gain the ability to cut away the luck of your enemies and use it for yourself. When you hit a creature and use your Sneak Attack roll 1d4 and deal additional damage equal to the number rolled, in addition subtract it from that creatures next attack roll or saving throw and you add the number rolled to the first attack roll or saving throw you make. You can use this ability a number of times equal to your proficency bonus, regaining all uses when you finish a long rest.",
-        "The bonus from this ability increases to 1d6 at level 5, 1d8 at level 9, 1d10 at level 13, and 1d12 at level 17."
-    ]
+  "name": "Luck Cutter",
+  "source": "TftJC",
+  "className": "Rogue",
+  "classSource": "PHB",
+  "subclassShortName": "Luckthief",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "At 3rd level, you gain the ability to cut away the luck of your enemies and use it for yourself. When you hit a creature and use your Sneak Attack roll 1d4 and deal additional damage equal to the number rolled, in addition subtract it from that creatures next attack roll or saving throw and you add the number rolled to the first attack roll or saving throw you make. You can use this ability a number of times equal to your proficency bonus, regaining all uses when you finish a long rest.",
+    "The bonus from this ability increases to 1d6 at level 5, 1d8 at level 9, 1d10 at level 13, and 1d12 at level 17."
+  ]
 }

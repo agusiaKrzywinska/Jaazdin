@@ -1,95 +1,95 @@
 {
-    "name": "Revolver Progression",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Quickdraw",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "As your skills improve, you learn to modify your Revolvers. As your Gun Tier levels up, both of your weapons are upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. If you lose or need to replace your special firearms, you can spend 1 hour per Tier it was by crafting a new pair, and the combined gold cost. Both of the dual firearms the Quickdraw gains from this class can be equipped with unique Modifications. Though Revolvers can be crafted together, they are treated as individual weapons for things such as Rare Metal Crafting, Enchanting, etc.",
-        {
-            "caption": "Quickdraw Firearms",
-            "type": "table",
-            "colLabels": [
-                "Firearm",
-                "Tier",
-                "Cost",
-                "Ammo",
-                "Damage",
-                "Weight",
-                "Range",
-                "Properties",
-                "Modification Slots"
-            ],
-            "colStyles": [
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center"
-            ],
-            "rows": [
-                [
-                    "Revolver",
-                    "1",
-                    "50gp",
-                    "1gp/10",
-                    "1d6 piercing",
-                    "1lb.",
-                    "40/160",
-                    "light, barrel 6",
-                    "1"
-                ],
-                [
-                    "Long-Barrel Revolver",
-                    "2",
-                    "75gp",
-                    "1gp/10",
-                    "1d8 piercing",
-                    "1.5lbs",
-                    "60/240",
-                    "light, barrel 6",
-                    "2"
-                ],
-                [
-                    "The Fozz",
-                    "3",
-                    "125gp",
-                    "1gp/10",
-                    "1d10 piercing",
-                    "2lbs",
-                    "60/240",
-                    "light,auto,barrel 6",
-                    "3"
-                ],
-                [
-                    "Wolverine",
-                    "4",
-                    "500gp",
-                    "1gp/10",
-                    "1d10 piercing",
-                    "2lbs",
-                    "80/320",
-                    "light, auto, clip 6",
-                    "3"
-                ],
-                [
-                    "Dusty Falcon",
-                    "5",
-                    "1000gp",
-                    "1gp/10",
-                    "2d6 piercing",
-                    "4.5lbs",
-                    "80/320",
-                    "light, auto, clip 8",
-                    "4"
-                ]
-            ]
-        }
-    ]
+  "name": "Revolver Progression",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Quickdraw",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "As your skills improve, you learn to modify your Revolvers. As your Gun Tier levels up, both of your weapons are upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. If you lose or need to replace your special firearms, you can spend 1 hour per Tier it was by crafting a new pair, and the combined gold cost. Both of the dual firearms the Quickdraw gains from this class can be equipped with unique Modifications. Though Revolvers can be crafted together, they are treated as individual weapons for things such as Rare Metal Crafting, Enchanting, etc.",
+    {
+      "caption": "Quickdraw Firearms",
+      "type": "table",
+      "colLabels": [
+        "Firearm",
+        "Tier",
+        "Cost",
+        "Ammo",
+        "Damage",
+        "Weight",
+        "Range",
+        "Properties",
+        "Modification Slots"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "Revolver",
+          "1",
+          "50gp",
+          "1gp/10",
+          "1d6 piercing",
+          "1lb.",
+          "40/160",
+          "light, barrel 6",
+          "1"
+        ],
+        [
+          "Long-Barrel Revolver",
+          "2",
+          "75gp",
+          "1gp/10",
+          "1d8 piercing",
+          "1.5lbs",
+          "60/240",
+          "light, barrel 6",
+          "2"
+        ],
+        [
+          "The Fozz",
+          "3",
+          "125gp",
+          "1gp/10",
+          "1d10 piercing",
+          "2lbs",
+          "60/240",
+          "light,auto,barrel 6",
+          "3"
+        ],
+        [
+          "Wolverine",
+          "4",
+          "500gp",
+          "1gp/10",
+          "1d10 piercing",
+          "2lbs",
+          "80/320",
+          "light, auto, clip 6",
+          "3"
+        ],
+        [
+          "Dusty Falcon",
+          "5",
+          "1000gp",
+          "1gp/10",
+          "2d6 piercing",
+          "4.5lbs",
+          "80/320",
+          "light, auto, clip 8",
+          "4"
+        ]
+      ]
+    }
+  ]
 }

@@ -1,20 +1,20 @@
 {
-    "name": "College of Conducting",
-    "source": "TftJC",
-    "className": "Bard",
-    "classSource": "PHB",
-    "subclassShortName": "Conducting",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "Students of the College of Conducting know that the most important member of an orchestra is the one that holds them together.These Bards see music and combat not in single parts, but as a combination of many small moving pieces creating a bigger picture. Their ability to influence these pieces cannot be understated, as any orchestra is only as good as their Conductor.",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Conductor's Baton|Bard|PHB|Conducting|TftJC|3|TftJC"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Stage Presence|Bard|PHB|Conducting|TftJC|3|TftJC"
-        }
-    ]
+  "name": "College of Conducting",
+  "source": "TftJC",
+  "className": "Bard",
+  "classSource": "PHB",
+  "subclassShortName": "Conducting",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "Students of the College of Conducting know that the most important member of an orchestra is the one that holds them together.These Bards see music and combat not in single parts, but as a combination of many small moving pieces creating a bigger picture. Their ability to influence these pieces cannot be understated, as any orchestra is only as good as their Conductor.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Conductor's Baton|Bard|PHB|Conducting|TftJC|3|TftJC"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Stage Presence|Bard|PHB|Conducting|TftJC|3|TftJC"
+    }
+  ]
 }

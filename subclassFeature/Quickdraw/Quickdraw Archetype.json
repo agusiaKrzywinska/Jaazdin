@@ -1,25 +1,25 @@
 {
-    "name": "Quickdraw Archetype",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Quickdraw",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "A lone desperado stares down his opponent whilst the townsfolk watch on in anticipation. The clock strikes twelve, and in a flash of light, the desperado blows the smoke from his gun.",
-        "As a Quickdraw Gunner, you are an expert in engaging your opponent before they even prepare their weapons. Not only are your marksman skills incredibly fast, but you aspire to stand out amongst the crowd, flexing your talents.",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Quickdraw Style|Gunner|TftJC|Quickdraw|TftJC|2"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "The Travelling Gun|Gunner|TftJC|Quickdraw|TftJC|2"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Revolver Progression|Gunner|TftJC|Quickdraw|TftJC|2"
-        }
-    ]
+  "name": "Quickdraw Archetype",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Quickdraw",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "A lone desperado stares down his opponent whilst the townsfolk watch on in anticipation. The clock strikes twelve, and in a flash of light, the desperado blows the smoke from his gun.",
+    "As a Quickdraw Gunner, you are an expert in engaging your opponent before they even prepare their weapons. Not only are your marksman skills incredibly fast, but you aspire to stand out amongst the crowd, flexing your talents.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Quickdraw Style|Gunner|TftJC|Quickdraw|TftJC|2"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "The Travelling Gun|Gunner|TftJC|Quickdraw|TftJC|2"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Revolver Progression|Gunner|TftJC|Quickdraw|TftJC|2"
+    }
+  ]
 }

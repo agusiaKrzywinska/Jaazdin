@@ -1,46 +1,25 @@
 {
-    "name": "Devastator's Magic",
-    "source": "TftJC",
-    "className": "Ranger",
-    "classSource": "PHB",
-    "subclassShortName": "Devastator",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Devastator Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.",
-        {
-            "type": "table",
-            "caption": "Devastator Spells",
-            "colLabels": [
-                "Ranger Level",
-                "Spell"
-            ],
-            "colStyles": [
-                "col- text-",
-                "col- text- "
-            ],
-            "rows": [
-                [
-                    "3rd",
-                    "Hellish Rebuke"
-                ],
-                [
-                    "5th",
-                    "Flame Blade"
-                ],
-                [
-                    "9th",
-                    "Fireball"
-                ],
-                [
-                    "13th",
-                    "Blight"
-                ],
-                [
-                    "17th",
-                    "Flame Strike"
-                ]
-            ]
-        }
-    ]
+  "name": "Devastator's Magic",
+  "source": "TftJC",
+  "className": "Ranger",
+  "classSource": "PHB",
+  "subclassShortName": "Devastator",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Devastator Spells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.",
+    {
+      "type": "table",
+      "caption": "Devastator Spells",
+      "colLabels": ["Ranger Level", "Spell"],
+      "colStyles": ["col- text-", "col- text- "],
+      "rows": [
+        ["3rd", "Hellish Rebuke"],
+        ["5th", "Flame Blade"],
+        ["9th", "Fireball"],
+        ["13th", "Blight"],
+        ["17th", "Flame Strike"]
+      ]
+    }
+  ]
 }

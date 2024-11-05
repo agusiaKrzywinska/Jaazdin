@@ -1,72 +1,70 @@
 {
-    "name": "Luminescent Lazerbeam",
-    "source": "TftJC",
-    "page": 61,
-    "level": 4,
-    "school": "V",
-    "time": [
-        {
-            "number": 1,
-            "unit": "action"
-        }
-    ],
-    "range": {
-        "type": "point",
-        "distance": {
-            "type": "feet",
-            "amount": 150
-        }
-    },
-    "components": {
-        "v": true,
-        "s": true
-    },
-    "duration": [
-        {
-            "type": "timed",
-            "duration": {
-                "type": "turn",
-                "amount": 1
-            }
-        }
-    ],
-    "entries": [
-        "A shining line of light fires out from your hands in a line 150 feet long and 5 feet wide in a direction you choose. Each creature in the line must make a Constitution Saving throw. Creatures made of darkness, shadows, or smoke have disadvantage on the Saving throw. A creature takes {@dice 6d6} Radiant damage on a failed save and is blinded until the end of their turn, or half as much damage on a successful one."
-    ],
-    "entriesHigherLevel": [
-        {
-            "type": "entries",
-            "name": "At Higher Levels",
-            "entries": [
-                "If you cast this spell using a spell slot of 5th level slot, the damage increases by {@dice 1d6} for every slot above 4th."
-            ]
-        }
-    ],
-    "classes": {
-        "fromClassList": [
-            {
-                "name": "Artificer",
-                "source": "PHB"
-            },
-            {
-                "name": "Cleric",
-                "source": "PHB"
-            },
-            {
-                "name": "Paladin",
-                "source": "PHB"
-            },
-            {
-                "name": "Sorcerer",
-                "source": "PHB"
-            },
-            {
-                "name": "Wizard",
-                "source": "PHB"
-            }
-        ]
-    },
-    "savingThrow": [
-        "constitution"
+  "name": "Luminescent Lazerbeam",
+  "source": "TftJC",
+  "page": 61,
+  "level": 4,
+  "school": "V",
+  "time": [
+    {
+      "number": 1,
+      "unit": "action"
+    }
+  ],
+  "range": {
+    "type": "point",
+    "distance": {
+      "type": "feet",
+      "amount": 150
+    }
+  },
+  "components": {
+    "v": true,
+    "s": true
+  },
+  "duration": [
+    {
+      "type": "timed",
+      "duration": {
+        "type": "turn",
+        "amount": 1
+      }
+    }
+  ],
+  "entries": [
+    "A shining line of light fires out from your hands in a line 150 feet long and 5 feet wide in a direction you choose. Each creature in the line must make a Constitution Saving throw. Creatures made of darkness, shadows, or smoke have disadvantage on the Saving throw. A creature takes {@dice 6d6} Radiant damage on a failed save and is blinded until the end of their turn, or half as much damage on a successful one."
+  ],
+  "entriesHigherLevel": [
+    {
+      "type": "entries",
+      "name": "At Higher Levels",
+      "entries": [
+        "If you cast this spell using a spell slot of 5th level slot, the damage increases by {@dice 1d6} for every slot above 4th."
+      ]
+    }
+  ],
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Artificer",
+        "source": "PHB"
+      },
+      {
+        "name": "Cleric",
+        "source": "PHB"
+      },
+      {
+        "name": "Paladin",
+        "source": "PHB"
+      },
+      {
+        "name": "Sorcerer",
+        "source": "PHB"
+      },
+      {
+        "name": "Wizard",
+        "source": "PHB"
+      }
     ]
+  },
+  "savingThrow": ["constitution"]
 }

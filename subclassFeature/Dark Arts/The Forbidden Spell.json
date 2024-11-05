@@ -1,12 +1,12 @@
 {
-    "name": "The Forbidden Spell",
-    "source": "TftJC",
-    "className": "Wizard",
-    "classSource": "PHB",
-    "subclassShortName": "Dark Arts",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "At 2nd level, you gain knowledge of an ancient spell. {@spell The Forbidden Spell|TftJC} is added to your spellbook, is always prepared for you and does not count against your prepared number of spells. You cannot create spell scrolls of this spell, nor can another Wizard copy this spell from your spellbook."
-    ]
+  "name": "The Forbidden Spell",
+  "source": "TftJC",
+  "className": "Wizard",
+  "classSource": "PHB",
+  "subclassShortName": "Dark Arts",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "At 2nd level, you gain knowledge of an ancient spell. {@spell The Forbidden Spell|TftJC} is added to your spellbook, is always prepared for you and does not count against your prepared number of spells. You cannot create spell scrolls of this spell, nor can another Wizard copy this spell from your spellbook."
+  ]
 }

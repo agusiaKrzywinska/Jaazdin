@@ -1,12 +1,12 @@
 {
-    "name": "Improved Fate Weaving",
-    "source": "TftJC",
-    "className": "Cleric",
-    "classSource": "PHB",
-    "subclassShortName": "Fate",
-    "subclassSource": "TftJC",
-    "level": 6,
-    "entries": [
-        "At 6th level, your Woven Fate can affect Saving Throws. Additionally, Guidance has a range of 30 ft."
-    ]
+  "name": "Improved Fate Weaving",
+  "source": "TftJC",
+  "className": "Cleric",
+  "classSource": "PHB",
+  "subclassShortName": "Fate",
+  "subclassSource": "TftJC",
+  "level": 6,
+  "entries": [
+    "At 6th level, your Woven Fate can affect Saving Throws. Additionally, Guidance has a range of 30 ft."
+  ]
 }

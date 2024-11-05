@@ -1,216 +1,119 @@
 {
-    "name": "Gunner",
-    "source": "TftJC",
-    "classFeatures": [
-        "Shoot to Thrill|Gunner|TftJC|1",
-        "Firearm Crafter|Gunner|TftJC|1",
-        {
-            "classFeature": "Gunner Archetype|Gunner|TftJC|2",
-            "gainSubclassFeature": true
-        },
-        "Gun Modifications|Gunner|TftJC|3",
-        "Ability Score Improvement|Gunner|TftJC|4",
-        "Extra Attack|Gunner|TftJC|5",
-        {
-            "classFeature": "Gunner Archetype Feature|Gunner|TftJC|6",
-            "gainSubclassFeature": true
-        },
-        "Gunsmithing Adept|Gunner|TftJC|7",
-        "Reloading|Gunner|TftJC|7",
-        "Ability Score Improvement|Gunner|TftJC|8",
-        "Dodge and Roll|Gunner|TftJC|9",
-        {
-            "classFeature": "Gunner Archetype Feature|Gunner|TftJC|10",
-            "gainSubclassFeature": true
-        },
-        "Defense Piercing|Gunner|TftJC|11",
-        "Ability Score Improvement|Gunner|TftJC|12",
-        "Dodge and Roll Improvement|Gunner|TftJC|13",
-        {
-            "classFeature": "Gunner Archetype Feature|Gunner|TftJC|14",
-            "gainSubclassFeature": true
-        },
-        "Deadeye|Gunner|TftJC|15",
-        "Ability Score Improvement|Gunner|TftJC|16",
-        "Dodge and Roll Improvement|Gunner|TftJC|17",
-        "Gritty Instincts|Gunner|TftJC|17",
-        "Merciless Shot|Gunner|TftJC|18",
-        "Ability Score Improvement|Gunner|TftJC|19",
-        "Second Nature|Gunner|TftJC|20"
-    ],
-    "hd": {
-        "number": 1,
-        "faces": 8
+  "name": "Gunner",
+  "source": "TftJC",
+  "classFeatures": [
+    "Shoot to Thrill|Gunner|TftJC|1",
+    "Firearm Crafter|Gunner|TftJC|1",
+    {
+      "classFeature": "Gunner Archetype|Gunner|TftJC|2",
+      "gainSubclassFeature": true
     },
-    "proficiency": [
-        "dex",
-        "int"
-    ],
-    "classTableGroups": [
-        {
-            "title": "",
-            "colLabels": [
-                "Gun Tier",
-                "Modifications Known",
-                "Modification Tier"
-            ],
-            "rows": [
-                [
-                    "1",
-                    "-",
-                    "-"
-                ],
-                [
-                    "1",
-                    "-",
-                    "-"
-                ],
-                [
-                    "1",
-                    "4",
-                    "1"
-                ],
-                [
-                    "1",
-                    "4",
-                    "1"
-                ],
-                [
-                    "2",
-                    "5",
-                    "1"
-                ],
-                [
-                    "2",
-                    "5",
-                    "1"
-                ],
-                [
-                    "2",
-                    "6",
-                    "2"
-                ],
-                [
-                    "2",
-                    "6",
-                    "2"
-                ],
-                [
-                    "3",
-                    "7",
-                    "2"
-                ],
-                [
-                    "3",
-                    "7",
-                    "2"
-                ],
-                [
-                    "3",
-                    "8",
-                    "2"
-                ],
-                [
-                    "3",
-                    "8",
-                    "2"
-                ],
-                [
-                    "4",
-                    "9",
-                    "2"
-                ],
-                [
-                    "4",
-                    "9",
-                    "2"
-                ],
-                [
-                    "4",
-                    "10",
-                    "3"
-                ],
-                [
-                    "4",
-                    "10",
-                    "3"
-                ],
-                [
-                    "5",
-                    "11",
-                    "3"
-                ],
-                [
-                    "5",
-                    "11",
-                    "3"
-                ],
-                [
-                    "5",
-                    "12",
-                    "3"
-                ],
-                [
-                    "5",
-                    "12",
-                    "3"
-                ]
-            ]
-        }
-    ],
-    "startingProficiencies": {
-        "armor": [
-            "light"
-        ],
-        "weapons": [
-            "simple",
-            "martial",
-            "firearms"
-        ],
-        "tools": [
-            "gunsmithing tools",
-            "one artisan tool or instrument of your choice"
-        ],
-        "skills": [
-            {
-                "choose": {
-                    "from": [
-                        "acrobatics",
-                        "arcana",
-                        "athletics",
-                        "insight",
-                        "intimidation",
-                        "perception",
-                        "persuasion",
-                        "sleight of hand",
-                        "survival"
-                    ],
-                    "count": 3
-                }
-            }
-        ]
+    "Gun Modifications|Gunner|TftJC|3",
+    "Ability Score Improvement|Gunner|TftJC|4",
+    "Extra Attack|Gunner|TftJC|5",
+    {
+      "classFeature": "Gunner Archetype Feature|Gunner|TftJC|6",
+      "gainSubclassFeature": true
     },
-    "startingEquipment": {
-        "additionalFromBackground": true,
-        "default": [
-            "a martial melee weapon",
-            "a tier 1 firearm with 20 bullets and 1 clip if applicable",
-            "leather armor",
-            "gunsmithing tools",
-            "an explorer's or a dungeoneer's pack"
-        ]
+    "Gunsmithing Adept|Gunner|TftJC|7",
+    "Reloading|Gunner|TftJC|7",
+    "Ability Score Improvement|Gunner|TftJC|8",
+    "Dodge and Roll|Gunner|TftJC|9",
+    {
+      "classFeature": "Gunner Archetype Feature|Gunner|TftJC|10",
+      "gainSubclassFeature": true
     },
-    "multiclassing": {
-        "requirements": {
-            "dex": 13
-        },
-        "proficienciesGained": {
-            "weapons": [
-                "firearms"
-            ],
-            "tools": [
-                "gunsmithing tools"
-            ]
-        }
+    "Defense Piercing|Gunner|TftJC|11",
+    "Ability Score Improvement|Gunner|TftJC|12",
+    "Dodge and Roll Improvement|Gunner|TftJC|13",
+    {
+      "classFeature": "Gunner Archetype Feature|Gunner|TftJC|14",
+      "gainSubclassFeature": true
+    },
+    "Deadeye|Gunner|TftJC|15",
+    "Ability Score Improvement|Gunner|TftJC|16",
+    "Dodge and Roll Improvement|Gunner|TftJC|17",
+    "Gritty Instincts|Gunner|TftJC|17",
+    "Merciless Shot|Gunner|TftJC|18",
+    "Ability Score Improvement|Gunner|TftJC|19",
+    "Second Nature|Gunner|TftJC|20"
+  ],
+  "hd": {
+    "number": 1,
+    "faces": 8
+  },
+  "proficiency": ["dex", "int"],
+  "classTableGroups": [
+    {
+      "title": "",
+      "colLabels": ["Gun Tier", "Modifications Known", "Modification Tier"],
+      "rows": [
+        ["1", "-", "-"],
+        ["1", "-", "-"],
+        ["1", "4", "1"],
+        ["1", "4", "1"],
+        ["2", "5", "1"],
+        ["2", "5", "1"],
+        ["2", "6", "2"],
+        ["2", "6", "2"],
+        ["3", "7", "2"],
+        ["3", "7", "2"],
+        ["3", "8", "2"],
+        ["3", "8", "2"],
+        ["4", "9", "2"],
+        ["4", "9", "2"],
+        ["4", "10", "3"],
+        ["4", "10", "3"],
+        ["5", "11", "3"],
+        ["5", "11", "3"],
+        ["5", "12", "3"],
+        ["5", "12", "3"]
+      ]
     }
+  ],
+  "startingProficiencies": {
+    "armor": ["light"],
+    "weapons": ["simple", "martial", "firearms"],
+    "tools": [
+      "gunsmithing tools",
+      "one artisan tool or instrument of your choice"
+    ],
+    "skills": [
+      {
+        "choose": {
+          "from": [
+            "acrobatics",
+            "arcana",
+            "athletics",
+            "insight",
+            "intimidation",
+            "perception",
+            "persuasion",
+            "sleight of hand",
+            "survival"
+          ],
+          "count": 3
+        }
+      }
+    ]
+  },
+  "startingEquipment": {
+    "additionalFromBackground": true,
+    "default": [
+      "a martial melee weapon",
+      "a tier 1 firearm with 20 bullets and 1 clip if applicable",
+      "leather armor",
+      "gunsmithing tools",
+      "an explorer's or a dungeoneer's pack"
+    ]
+  },
+  "multiclassing": {
+    "requirements": {
+      "dex": 13
+    },
+    "proficienciesGained": {
+      "weapons": ["firearms"],
+      "tools": ["gunsmithing tools"]
+    }
+  }
 }

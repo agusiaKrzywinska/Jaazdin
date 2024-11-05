@@ -1,24 +1,24 @@
 {
-    "name": "Buckshot Archetype",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Buckshot",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "The sound of a heavy gun cocking echoes through the streets. A gas canister flies though the air, as fog obscures the area, the only thing that can be heard is the sound of a loud boom. As the smoke clears, a lone gunner walks off, with their boomstick proudly slung over their shoulder.",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Shrug It Off|Gunner|TftJC|Buckshot|TftJC|2"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Raw Muscle|Gunner|TftJC|Buckshot|TftJC|2"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Shotgun Progression|Gunner|TftJC|Buckshot|TftJC|2"
-        }
-    ]
+  "name": "Buckshot Archetype",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Buckshot",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "The sound of a heavy gun cocking echoes through the streets. A gas canister flies though the air, as fog obscures the area, the only thing that can be heard is the sound of a loud boom. As the smoke clears, a lone gunner walks off, with their boomstick proudly slung over their shoulder.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Shrug It Off|Gunner|TftJC|Buckshot|TftJC|2"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Raw Muscle|Gunner|TftJC|Buckshot|TftJC|2"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Shotgun Progression|Gunner|TftJC|Buckshot|TftJC|2"
+    }
+  ]
 }

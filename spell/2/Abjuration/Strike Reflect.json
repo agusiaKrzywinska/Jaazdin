@@ -1,58 +1,56 @@
 {
-    "name": "Strike Reflect",
-    "source": "TftJC",
-    "page": 58,
-    "level": 2,
-    "school": "A",
-    "time": [
-        {
-            "number": 1,
-            "unit": "reaction"
-        }
-    ],
-    "range": {
-        "type": "point",
-        "distance": {
-            "type": "self"
-        }
-    },
-    "components": {
-        "v": true,
-        "s": true
-    },
-    "duration": [
-        {
-            "type": "instant"
-        }
-    ],
-    "entries": [
-        "As a reaction to taking damage from a melee weapon attack, you strike back at your foe with magical force. You gain resistance to that attacks damage and the attacker then takes force damage equal to the damage you took, and then the attacker must make a Strength Saving Throw. On a fail, they are pushed back 15ft."
-    ],
-    "classes": {
-        "fromClassList": [
-            {
-                "name": "Artificer",
-                "source": "PHB"
-            },
-            {
-                "name": "Paladin",
-                "source": "PHB"
-            },
-            {
-                "name": "Ranger",
-                "source": "PHB"
-            },
-            {
-                "name": "Warlock",
-                "source": "PHB"
-            },
-            {
-                "name": "Wizard",
-                "source": "PHB"
-            }
-        ]
-    },
-    "savingThrow": [
-        "strength"
+  "name": "Strike Reflect",
+  "source": "TftJC",
+  "page": 58,
+  "level": 2,
+  "school": "A",
+  "time": [
+    {
+      "number": 1,
+      "unit": "reaction"
+    }
+  ],
+  "range": {
+    "type": "point",
+    "distance": {
+      "type": "self"
+    }
+  },
+  "components": {
+    "v": true,
+    "s": true
+  },
+  "duration": [
+    {
+      "type": "instant"
+    }
+  ],
+  "entries": [
+    "As a reaction to taking damage from a melee weapon attack, you strike back at your foe with magical force. You gain resistance to that attacks damage and the attacker then takes force damage equal to the damage you took, and then the attacker must make a Strength Saving Throw. On a fail, they are pushed back 15ft."
+  ],
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Artificer",
+        "source": "PHB"
+      },
+      {
+        "name": "Paladin",
+        "source": "PHB"
+      },
+      {
+        "name": "Ranger",
+        "source": "PHB"
+      },
+      {
+        "name": "Warlock",
+        "source": "PHB"
+      },
+      {
+        "name": "Wizard",
+        "source": "PHB"
+      }
     ]
+  },
+  "savingThrow": ["strength"]
 }

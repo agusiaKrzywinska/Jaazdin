@@ -1,24 +1,24 @@
 {
-    "name": "Sniper Archetype",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Sniper",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "Sitting at the highest point, a slender barrel watches its target. A single shot tears through their sky, as the target falls. The barrel slinks back into the shadows, away from sight.",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Hidden Perch|Gunner|TftJC|Sniper|TftJC|2"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Sniper's Eye|Gunner|TftJC|Sniper|TftJC|2"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Sniper Progression|Gunner|TftJC|Sniper|TftJC|2"
-        }
-    ]
+  "name": "Sniper Archetype",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Sniper",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "Sitting at the highest point, a slender barrel watches its target. A single shot tears through their sky, as the target falls. The barrel slinks back into the shadows, away from sight.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Hidden Perch|Gunner|TftJC|Sniper|TftJC|2"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Sniper's Eye|Gunner|TftJC|Sniper|TftJC|2"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Sniper Progression|Gunner|TftJC|Sniper|TftJC|2"
+    }
+  ]
 }

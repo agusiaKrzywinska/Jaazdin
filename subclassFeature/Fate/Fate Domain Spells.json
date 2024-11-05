@@ -1,46 +1,25 @@
 {
-    "name": "Fate Domain Spells",
-    "source": "TftJC",
-    "className": "Cleric",
-    "classSource": "PHB",
-    "subclassShortName": "Fate",
-    "subclassSource": "TftJC",
-    "level": 1,
-    "entries": [
-        "At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.",
-        {
-            "type": "table",
-            "caption": "Fate Domain Spells",
-            "colLabels": [
-                "Artificer Level",
-                "Spell"
-            ],
-            "colStyles": [
-                "col- text-",
-                "col- text- "
-            ],
-            "rows": [
-                [
-                    "1st",
-                    "identify, shield"
-                ],
-                [
-                    "3rd",
-                    "augury, locate object"
-                ],
-                [
-                    "5th",
-                    "nondetection, tiny hut"
-                ],
-                [
-                    "7th",
-                    "aura of purity, divination"
-                ],
-                [
-                    "9th",
-                    "commune, legend lore"
-                ]
-            ]
-        }
-    ]
+  "name": "Fate Domain Spells",
+  "source": "TftJC",
+  "className": "Cleric",
+  "classSource": "PHB",
+  "subclassShortName": "Fate",
+  "subclassSource": "TftJC",
+  "level": 1,
+  "entries": [
+    "At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.",
+    {
+      "type": "table",
+      "caption": "Fate Domain Spells",
+      "colLabels": ["Artificer Level", "Spell"],
+      "colStyles": ["col- text-", "col- text- "],
+      "rows": [
+        ["1st", "identify, shield"],
+        ["3rd", "augury, locate object"],
+        ["5th", "nondetection, tiny hut"],
+        ["7th", "aura of purity, divination"],
+        ["9th", "commune, legend lore"]
+      ]
+    }
+  ]
 }

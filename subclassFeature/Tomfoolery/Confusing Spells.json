@@ -1,12 +1,12 @@
 {
-    "name": "Confusing Spells",
-    "source": "TftJC",
-    "className": "Bard",
-    "classSource": "PHB",
-    "subclassShortName": "Tomfoolery",
-    "subclassSource": "TftJC",
-    "level": 14,
-    "entries": [
-        "At 14th level, your spellcasting becomes difficult for enemies to keep track of. After an enemy succeeds a Saving Throw against one of your Bard Spells you have casted using a spell slot, that enemy has disadvantage on the next saving throw they make within a minute using that ability score. If that enemy fails the next saving throw they would make using that ability score, they take Psychic Damage equal to your Charisma Modifier x 2."
-    ]
+  "name": "Confusing Spells",
+  "source": "TftJC",
+  "className": "Bard",
+  "classSource": "PHB",
+  "subclassShortName": "Tomfoolery",
+  "subclassSource": "TftJC",
+  "level": 14,
+  "entries": [
+    "At 14th level, your spellcasting becomes difficult for enemies to keep track of. After an enemy succeeds a Saving Throw against one of your Bard Spells you have casted using a spell slot, that enemy has disadvantage on the next saving throw they make within a minute using that ability score. If that enemy fails the next saving throw they would make using that ability score, they take Psychic Damage equal to your Charisma Modifier x 2."
+  ]
 }

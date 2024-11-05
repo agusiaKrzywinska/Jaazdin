@@ -1,23 +1,20 @@
 {
-    "name": "Automatic Rifle",
-    "source": "TftJC",
-    "type": "R",
-    "rarity": "none",
-    "weight": 9,
-    "value": 120000,
-    "weaponCategory": "martial",
-    "property": [
-        "2H",
-        "AF"
-    ],
-    "charges": 30,
-    "dmg1": "3d6",
-    "dmgType": "P",
-    "range": "80/320",
-    "entries": [
-        "<b><i>Tier 5.</i></b>",
-        "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
-        "<b><i>Auto</i><b> Auto firearms can make an additional attack as a part of the Attack Action.",
-        "<b><i>Clip 30.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
-    ]
+  "name": "Automatic Rifle",
+  "source": "TftJC",
+  "type": "R",
+  "rarity": "none",
+  "weight": 9,
+  "value": 120000,
+  "weaponCategory": "martial",
+  "property": ["2H", "AF"],
+  "charges": 30,
+  "dmg1": "3d6",
+  "dmgType": "P",
+  "range": "80/320",
+  "entries": [
+    "<b><i>Tier 5.</i></b>",
+    "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
+    "<b><i>Auto</i><b> Auto firearms can make an additional attack as a part of the Attack Action.",
+    "<b><i>Clip 30.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+  ]
 }

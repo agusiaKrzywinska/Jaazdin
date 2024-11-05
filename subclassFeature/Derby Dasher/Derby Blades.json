@@ -1,21 +1,21 @@
 {
-    "name": "Derby Blades",
-    "source": "TftJC",
-    "className": "Artificer",
-    "classSource": "TCE",
-    "subclassShortName": "Derby Dasher",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "At 3rd level, you learn to invent Derby Blades. Derby Blades are a magical set of shoes that you can create as an action on any set of shoes you are currently wearing, provided you have your Cobbler's Tools in hand.",
-        "You gain the following benefits while wearing the Derby Blades:",
-        {
-            "type": "list",
-            "items": [
-                "Your walk speed is increased by 5 at 5th level, 10 at 9th level, 15 at 13th level, and 20 at 17th level.",
-                "You can use your Derby Blades as an Arcane Focus for your Artificer Spells.",
-                "For every 5ft you move before making a melee attack, you deal 1 additional damage. You must have moved closer to the enemy than you started, and only spaces in which you move closer to the attack target add to the damage."
-            ]
-        }
-    ]
+  "name": "Derby Blades",
+  "source": "TftJC",
+  "className": "Artificer",
+  "classSource": "TCE",
+  "subclassShortName": "Derby Dasher",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "At 3rd level, you learn to invent Derby Blades. Derby Blades are a magical set of shoes that you can create as an action on any set of shoes you are currently wearing, provided you have your Cobbler's Tools in hand.",
+    "You gain the following benefits while wearing the Derby Blades:",
+    {
+      "type": "list",
+      "items": [
+        "Your walk speed is increased by 5 at 5th level, 10 at 9th level, 15 at 13th level, and 20 at 17th level.",
+        "You can use your Derby Blades as an Arcane Focus for your Artificer Spells.",
+        "For every 5ft you move before making a melee attack, you deal 1 additional damage. You must have moved closer to the enemy than you started, and only spaces in which you move closer to the attack target add to the damage."
+      ]
+    }
+  ]
 }

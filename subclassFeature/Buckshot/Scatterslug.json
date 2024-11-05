@@ -1,12 +1,12 @@
 {
-    "name": "Scatterslug",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Buckshot",
-    "subclassSource": "TftJC",
-    "level": 14,
-    "entries": [
-        "At 14th level, your Buckshot is more deadly. Creatures immediately behind your initial target of ranged attacks made by your shotgun firearms no longer have the damage dealt to them by the cone halved."
-    ]
+  "name": "Scatterslug",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Buckshot",
+  "subclassSource": "TftJC",
+  "level": 14,
+  "entries": [
+    "At 14th level, your Buckshot is more deadly. Creatures immediately behind your initial target of ranged attacks made by your shotgun firearms no longer have the damage dealt to them by the cone halved."
+  ]
 }

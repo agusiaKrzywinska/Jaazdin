@@ -1,12 +1,12 @@
 {
-    "name": "Stupefying Spells",
-    "source": "TftJC",
-    "className": "Artificer",
-    "classSource": "TCE",
-    "subclassShortName": "Nullifier",
-    "subclassSource": "TftJC",
-    "level": 5,
-    "entries": [
-        "At 5th level, when you hit a creature with a spell attack that creature has disadvantage on its next attack roll. When a creature fails a saving throw for one of your spells its movement speed is reduced by 10 feet until the end of its next turn."
-    ]
+  "name": "Stupefying Spells",
+  "source": "TftJC",
+  "className": "Artificer",
+  "classSource": "TCE",
+  "subclassShortName": "Nullifier",
+  "subclassSource": "TftJC",
+  "level": 5,
+  "entries": [
+    "At 5th level, when you hit a creature with a spell attack that creature has disadvantage on its next attack roll. When a creature fails a saving throw for one of your spells its movement speed is reduced by 10 feet until the end of its next turn."
+  ]
 }

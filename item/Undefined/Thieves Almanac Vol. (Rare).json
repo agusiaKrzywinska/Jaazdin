@@ -1,12 +1,12 @@
 {
-    "name": "Thieves Almanac Vol. (Rare)",
-    "source": "TftJC",
-    "rarity": "rare",
-    "wondrous": true,
-    "charges": 3,
-    "entries": [
-        "This tome contains the secrets to skullduggery and crime.",
-        "It can be read over 1 week to reduce the heat of a creature to 0. Alternatively, a creature reading it can instead read the book to increase their Theft, Guard Duty, or Gambling labor tier by 2.",
-        "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
-    ]
+  "name": "Thieves Almanac Vol. (Rare)",
+  "source": "TftJC",
+  "rarity": "rare",
+  "wondrous": true,
+  "charges": 3,
+  "entries": [
+    "This tome contains the secrets to skullduggery and crime.",
+    "It can be read over 1 week to reduce the heat of a creature to 0. Alternatively, a creature reading it can instead read the book to increase their Theft, Guard Duty, or Gambling labor tier by 2.",
+    "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+  ]
 }

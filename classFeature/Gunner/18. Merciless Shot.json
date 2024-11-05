@@ -1,10 +1,10 @@
 {
-    "name": "Merciless Shot",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "level": 18,
-    "entries": [
-        "At 18th level, your attacks injure your targets for more damage. Once on each of your turns, when you hit a creature with a ranged attack with a firearm, you deal additional damage equal to the difference between your attack roll and the target's Armor Class."
-    ]
+  "name": "Merciless Shot",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "level": 18,
+  "entries": [
+    "At 18th level, your attacks injure your targets for more damage. Once on each of your turns, when you hit a creature with a ranged attack with a firearm, you deal additional damage equal to the difference between your attack roll and the target's Armor Class."
+  ]
 }

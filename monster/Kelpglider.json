@@ -1,57 +1,45 @@
 {
-    "name": "Kelpglider",
-    "source": "TftJC",
-    "size": [
-        "T"
-    ],
-    "type": "plant",
-    "alignment": [
-        "U"
-    ],
-    "ac": [
-        12
-    ],
-    "hp": {
-        "average": 8,
-        "formula": "3d6 - 3"
+  "name": "Kelpglider",
+  "source": "TftJC",
+  "size": ["T"],
+  "type": "plant",
+  "alignment": ["U"],
+  "ac": [12],
+  "hp": {
+    "average": 8,
+    "formula": "3d6 - 3"
+  },
+  "speed": {
+    "walk": 0,
+    "fly": {
+      "number": 15,
+      "condition": "(hover)"
     },
-    "speed": {
-        "walk": 0,
-        "fly": {
-            "number": 15,
-            "condition": "(hover)"
-        },
-        "swim": 30,
-        "canHover": true
-    },
-    "str": 3,
-    "dex": 15,
-    "con": 9,
-    "int": 2,
-    "wis": 11,
-    "cha": 5,
-    "passive": 10,
-    "languages": [
-        "none"
-    ],
-    "vulnerable": [
-        "fire"
-    ],
-    "cr": "0",
-    "trait": [
-        {
-            "name": "Water Rejuvenation",
-            "entries": [
-                "After spending 1 minute submerged in water, the Kelpglider regains all of its hit points and removes any negative conditions from itself."
-            ]
-        }
-    ],
-    "action": [
-        {
-            "name": "Druidcraft",
-            "entries": [
-                "The Kelpglider casts {@spell Druidcraft}"
-            ]
-        }
-    ]
+    "swim": 30,
+    "canHover": true
+  },
+  "str": 3,
+  "dex": 15,
+  "con": 9,
+  "int": 2,
+  "wis": 11,
+  "cha": 5,
+  "passive": 10,
+  "languages": ["none"],
+  "vulnerable": ["fire"],
+  "cr": "0",
+  "trait": [
+    {
+      "name": "Water Rejuvenation",
+      "entries": [
+        "After spending 1 minute submerged in water, the Kelpglider regains all of its hit points and removes any negative conditions from itself."
+      ]
+    }
+  ],
+  "action": [
+    {
+      "name": "Druidcraft",
+      "entries": ["The Kelpglider casts {@spell Druidcraft}"]
+    }
+  ]
 }

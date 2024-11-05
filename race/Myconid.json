@@ -1,128 +1,121 @@
 {
-    "name": "Myconid",
-    "source": "TftJC",
-    "page": 4,
-    "size": [
-        "S",
-        "M"
-    ],
-    "speed": {
-        "walk": 30
+  "name": "Myconid",
+  "source": "TftJC",
+  "page": 4,
+  "size": ["S", "M"],
+  "speed": {
+    "walk": 30
+  },
+  "ability": [
+    {
+      "wis": 2,
+      "con": 1
+    }
+  ],
+  "darkvision": 120,
+  "languageProficiencies": [
+    {
+      "common": true,
+      "undercommon": true
+    }
+  ],
+  "creatureTypes": ["plant"],
+  "entries": [
+    {
+      "name": "Alignment",
+      "type": "entries",
+      "entries": [
+        "Myconids are pacifist and lean towards Neutrality on most occasions."
+      ]
     },
-    "ability": [
-        {
-            "wis": 2,
-            "con": 1
-        }
-    ],
-    "darkvision": 120,
-    "languageProficiencies": [
-        {
-            "common": true,
-            "undercommon": true
-        }
-    ],
-    "creatureTypes": [
-        "plant"
-    ],
-    "entries": [
-        {
-            "name": "Alignment",
-            "type": "entries",
-            "entries": [
-                "Myconids are pacifist and lean towards Neutrality on most occasions."
-            ]
-        },
-        {
-            "type": "entries",
-            "name": "Size",
-            "entries": [
-                "Your size is small, but you're a fast grower. You start out anywhere between 1 and 2 feet tall. You become a Medium Creature when you become a Myconid Adult, growing to 5ft. You grow to just under 7ft as a Sovereign."
-            ]
-        },
-        {
-            "type": "entries",
-            "name": "Speed",
-            "entries": [
-                "Your walking speed is 25ft. Your speed increases to 30ft when you become a Myconid Adult."
-            ]
-        },
-        {
-            "name": "Fungal Growth",
-            "entries": [
-                "Myconids go through a process of evolution as they mature. At level 1, you are a Myconid Sprout. At level 4, you become a Myconid Adult. At level 7, you become a Myconid Sovereign. Your features change based off what stage of life you are in."
-            ],
-            "type": "entries"
-        },
-        {
-            "name": "Sunlight Sickness",
-            "entries": [
-                "While in sunlight, the myconid has disadvantage on ability checks, attack rolls, and saving throws."
-            ],
-            "type": "entries"
-        },
-        {
-            "name": "Melding Rest",
-            "entries": [
-                "Myconids don’t need to sleep. Instead, they release calming spores, remaining semiconscious for 6 hours a day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep."
-            ],
-            "type": "entries"
-        },
-        {
-            "name": "Underdark Vision",
-            "entries": [
-                "You have darkvision in a range of 120ft."
-            ],
-            "type": "entries"
-        },
-        {
-            "name": "Fungal Resilience",
-            "entries": [
-                "Your fungal body has an easy time adapting to strange airborne toxins. You face no negative effects of polluted air, and have advantage on saving throws against harmful gases and vapors, such as {@spell Cloudkill}.."
-            ],
-            "type": "entries"
-        },
-        {
-            "name": "Spores",
-            "entries": [
-                "As your Myconid matures, they learn ways to use their spores. As a Sprout, you can use your Rapport Spores. As an Adult, you can use Pacifying Spores. The Sovereign learns Hallucination Spores."
-            ],
-            "type": "entries"
-        },
-        {
-            "name": "Rapport Spores (1/day)",
-            "entries": [
-                "A 10-foot radius of spores extends from the myconid. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren’t undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour."
-            ],
-            "type": "entries"
-        },
-        {
-            "name": "Pacifying Spores (1/day)",
-            "entries": [
-                "The myconid ejects spores at one creature it can see within 5 feet of it. The target must succeed on a Constitution saving throw (DC = 8 + prof + CON) or be stunned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-            ],
-            "type": "entries"
-        },
-        {
-            "name": "Hallucination Spores (1/day)",
-            "entries": [
-                "The myconid ejects spores at one creature it can see within 5 feet of it. The target must succeed on a Constitution saving throw (DC = 8 + prof + CON) or be poisoned for 1 minute. The poisoned target is incapacitated while it hallucinates. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
-            ],
-            "type": "entries"
-        },
-        {
-            "name": "Sovereign",
-            "entries": [
-                "When you become a Sovereign, you gain the Powerful Build feature and have advantage on all checks to communicate with other Myconid, as they see you as someone to be respected."
-            ],
-            "type": "entries"
-        },
-        {
-            "name": "Languages",
-            "entries": [
-                "Myconid can write and understand Common and Undercommon. Myconids can speak any language they can understand by expelling spores at a creature."
-            ],
-            "type": "entries"
-        }
-    ]
+    {
+      "type": "entries",
+      "name": "Size",
+      "entries": [
+        "Your size is small, but you're a fast grower. You start out anywhere between 1 and 2 feet tall. You become a Medium Creature when you become a Myconid Adult, growing to 5ft. You grow to just under 7ft as a Sovereign."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Speed",
+      "entries": [
+        "Your walking speed is 25ft. Your speed increases to 30ft when you become a Myconid Adult."
+      ]
+    },
+    {
+      "name": "Fungal Growth",
+      "entries": [
+        "Myconids go through a process of evolution as they mature. At level 1, you are a Myconid Sprout. At level 4, you become a Myconid Adult. At level 7, you become a Myconid Sovereign. Your features change based off what stage of life you are in."
+      ],
+      "type": "entries"
+    },
+    {
+      "name": "Sunlight Sickness",
+      "entries": [
+        "While in sunlight, the myconid has disadvantage on ability checks, attack rolls, and saving throws."
+      ],
+      "type": "entries"
+    },
+    {
+      "name": "Melding Rest",
+      "entries": [
+        "Myconids don’t need to sleep. Instead, they release calming spores, remaining semiconscious for 6 hours a day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep."
+      ],
+      "type": "entries"
+    },
+    {
+      "name": "Underdark Vision",
+      "entries": ["You have darkvision in a range of 120ft."],
+      "type": "entries"
+    },
+    {
+      "name": "Fungal Resilience",
+      "entries": [
+        "Your fungal body has an easy time adapting to strange airborne toxins. You face no negative effects of polluted air, and have advantage on saving throws against harmful gases and vapors, such as {@spell Cloudkill}.."
+      ],
+      "type": "entries"
+    },
+    {
+      "name": "Spores",
+      "entries": [
+        "As your Myconid matures, they learn ways to use their spores. As a Sprout, you can use your Rapport Spores. As an Adult, you can use Pacifying Spores. The Sovereign learns Hallucination Spores."
+      ],
+      "type": "entries"
+    },
+    {
+      "name": "Rapport Spores (1/day)",
+      "entries": [
+        "A 10-foot radius of spores extends from the myconid. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren’t undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour."
+      ],
+      "type": "entries"
+    },
+    {
+      "name": "Pacifying Spores (1/day)",
+      "entries": [
+        "The myconid ejects spores at one creature it can see within 5 feet of it. The target must succeed on a Constitution saving throw (DC = 8 + prof + CON) or be stunned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "type": "entries"
+    },
+    {
+      "name": "Hallucination Spores (1/day)",
+      "entries": [
+        "The myconid ejects spores at one creature it can see within 5 feet of it. The target must succeed on a Constitution saving throw (DC = 8 + prof + CON) or be poisoned for 1 minute. The poisoned target is incapacitated while it hallucinates. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+      ],
+      "type": "entries"
+    },
+    {
+      "name": "Sovereign",
+      "entries": [
+        "When you become a Sovereign, you gain the Powerful Build feature and have advantage on all checks to communicate with other Myconid, as they see you as someone to be respected."
+      ],
+      "type": "entries"
+    },
+    {
+      "name": "Languages",
+      "entries": [
+        "Myconid can write and understand Common and Undercommon. Myconids can speak any language they can understand by expelling spores at a creature."
+      ],
+      "type": "entries"
+    }
+  ]
 }

@@ -1,14 +1,14 @@
 {
-    "name": "Bloodthirsty",
-    "source": "TftJC",
-    "className": "Barbarian",
-    "classSource": "PHB",
-    "subclassShortName": "Vampire",
-    "subclassSource": "TftJC",
-    "level": 6,
-    "entries": [
-        "At 6th level, you can tap into your Vampiric healing abilities. Whenever you make a Fang attack, you can heal a number of hit points equal to half of the damage dealt. You can do so a number of times per Short rest equal to your Proficiency Bonus.",
-        "While you are under half of your maximum hit points, your hunger comes out in full force. While you are in a rage, your strength score and strength score maximum are both increased by 2, up to a maximum of 30.",
-        "Your Fangs are also considered magical for the purposes of overcoming resistances."
-    ]
+  "name": "Bloodthirsty",
+  "source": "TftJC",
+  "className": "Barbarian",
+  "classSource": "PHB",
+  "subclassShortName": "Vampire",
+  "subclassSource": "TftJC",
+  "level": 6,
+  "entries": [
+    "At 6th level, you can tap into your Vampiric healing abilities. Whenever you make a Fang attack, you can heal a number of hit points equal to half of the damage dealt. You can do so a number of times per Short rest equal to your Proficiency Bonus.",
+    "While you are under half of your maximum hit points, your hunger comes out in full force. While you are in a rage, your strength score and strength score maximum are both increased by 2, up to a maximum of 30.",
+    "Your Fangs are also considered magical for the purposes of overcoming resistances."
+  ]
 }

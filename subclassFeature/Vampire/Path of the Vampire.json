@@ -1,20 +1,20 @@
 {
-    "name": "Path of the Vampire",
-    "source": "TftJC",
-    "className": "Barbarian",
-    "classSource": "PHB",
-    "subclassShortName": "Vampire",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "Infused with the cursed blood of a hunter of the night, those who can master their Vampiric Abilities become powerful warriors. Vampiric Barbarians combine their natural strength with their unnatural abilities, chomping their way to victory.",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Vampiric Fangs|Barbarian|PHB|Vampire|TftJC|3|TftJC"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Vampiric Traits|Barbarian|PHB|Vampire|TftJC|3|TftJC"
-        }
-    ]
+  "name": "Path of the Vampire",
+  "source": "TftJC",
+  "className": "Barbarian",
+  "classSource": "PHB",
+  "subclassShortName": "Vampire",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "Infused with the cursed blood of a hunter of the night, those who can master their Vampiric Abilities become powerful warriors. Vampiric Barbarians combine their natural strength with their unnatural abilities, chomping their way to victory.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Vampiric Fangs|Barbarian|PHB|Vampire|TftJC|3|TftJC"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Vampiric Traits|Barbarian|PHB|Vampire|TftJC|3|TftJC"
+    }
+  ]
 }

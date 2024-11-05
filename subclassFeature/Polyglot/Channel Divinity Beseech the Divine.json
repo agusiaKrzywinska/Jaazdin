@@ -1,87 +1,81 @@
 {
-    "name": "Channel Divinity: Beseech the Divine",
-    "source": "TftJC",
-    "className": "Cleric",
-    "classSource": "PHB",
-    "subclassShortName": "Polyglot",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "Starting at 2nd level, you can use your Channel Divinity to call upon whatever god will listen.",
-        "As an action, you present a holy symbol and roll {@dice 1d100}. A random effect determined by the d100 takes place immediately.",
-        {
-            "type": "table",
-            "caption": "Beseech the Divine",
-            "colLabels": [
-                "{@dice d100}",
-                "Effect"
-            ],
-            "colStyles": [
-                "col-1 text-center",
-                "col-11"
-            ],
-            "rows": [
-                [
-                    "01-05",
-                    "A god of trickery answers allows you to swap the location of yourself and one creature within 60 feet of you. You and the chosen creature teleport, swapping locations and attacks against you have disadvantage on you until the start of your next turn."
-                ],
-                [
-                    "06-12",
-                    "A god of death answers, each creature of your choice with 30ft of you must make a Wisdom saving throw or suffer {@dice 2d8) + your cleric level necrotic damage and be unable to regain hit points until the end of their next turn."
-                ],
-                [
-                    "13-19",
-                    "A god of fire answers and a flame bursts to life in your hand. The flame sheds bright light in a 15ft radius. Each creature of your choice in the bright light adds {@dice 1d4} to saving throws they make while in the light. The flame takes one hand to keep lit and stays lit until you close your hand or 1-minute passes."
-                ],
-                [
-                    "20-26",
-                    "A god of the seas answers, summoning a powerful deluge of water. A surge of water rushes forward from you in a 10ft wide 60ft long line. Each creature in the line takes {@dice 1d6} + your cleric level and must make a Strength saving throw or be knocked prone and pushed back 15 feet."
-                ],
-                [
-                    "27-33",
-                    "A god of nature answers your call. Barklike growth springs to life over your body granting you resistance to Bludgeoning damage and your cleric level in Temporary hit points. This effect lasts for 1 hour."
-                ],
-                [
-                    "34-40",
-                    "A god of mercy answers your call. Each creature within 60 feet of you must make a Wisdom saving throw. On a failure, they are charmed by you and while charmed in this way cannot attack another creature or cast a harmful spell. This effect lasts until the end of their turn or until they take damage from any source"
-                ],
-                [
-                    "41-47",
-                    "A god of law answers, select one creature within 60 feet that must make a Charisma saving throw. If they fail you can designate one action that the creature cannot take for the next minute. The action must be specific, such as casting the spell magic missile or hitting your allies with their sword. If the creature takes this prohibited action they take {@dice 3d8} + cleric level radiant damage and the effect end."
-                ],
-                [
-                    "48-54",
-                    "A god of darkness answers, choose a number of creatures up to your cleric level with 60 feet. Each creature must make a Wisdom saving throw. On a failure, they are blinded until the end of their next turn."
-                ],
-                [
-                    "55-61",
-                    "A god of bravery answers. Each creature of your choice within 30 feet of you gains your cleric level in temporary hit points and if they are affected by the frightened condition the condition ends."
-                ],
-                [
-                    "62-68",
-                    "A god of storms answers, a powerful storm erupts in a 60-foot radius around you. Each creature of your choice must make a Dexterity saving throw or take {@dice 2d10} + your cleric level and be unable to take reactions until the end of their next turn. Until the end of your next turn all ranged weapon attacks in the 60-foot radius have disadvantage as the heavy winds swirl."
-                ],
-                [
-                    "69-75",
-                    "A god of change answers, each creature of your choice within 30 feet must make a Wisdom saving throw or become charmed by you until the end of your next turn. While charmed in this way they randomly determine their action as if affected by the confusion spell."
-                ],
-                [
-                    "76-82",
-                    "A god of knowledge answers, you gain true sight out to 60 feet for the next minute."
-                ],
-                [
-                    "83-89",
-                    "A god of hope answers, each creature of your choice within 30 feet regains {@dice 1d8} + your cleric level hp and removes the prone, grappled, or restrained conditions."
-                ],
-                [
-                    "90-95",
-                    "A god of light answers and emblazons your holy symbol with truth finding light. You cast bright light for 30 feet, any invisible creature inside the light is revealed and any melee weapon attacks made by you or your allies deal {@dice 1d8} extra radiant damage. The light shrinks by 5 feet at the end of each of your turns until it vanishes completely."
-                ],
-                [
-                    "96-100",
-                    "A god of order answers. Every creature of your choice within 60 feet cannot be affected by disadvantage until the end of your next turn."
-                ]
-            ]
-        }
-    ]
+  "name": "Channel Divinity: Beseech the Divine",
+  "source": "TftJC",
+  "className": "Cleric",
+  "classSource": "PHB",
+  "subclassShortName": "Polyglot",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "Starting at 2nd level, you can use your Channel Divinity to call upon whatever god will listen.",
+    "As an action, you present a holy symbol and roll {@dice 1d100}. A random effect determined by the d100 takes place immediately.",
+    {
+      "type": "table",
+      "caption": "Beseech the Divine",
+      "colLabels": ["{@dice d100}", "Effect"],
+      "colStyles": ["col-1 text-center", "col-11"],
+      "rows": [
+        [
+          "01-05",
+          "A god of trickery answers allows you to swap the location of yourself and one creature within 60 feet of you. You and the chosen creature teleport, swapping locations and attacks against you have disadvantage on you until the start of your next turn."
+        ],
+        [
+          "06-12",
+          "A god of death answers, each creature of your choice with 30ft of you must make a Wisdom saving throw or suffer {@dice 2d8) + your cleric level necrotic damage and be unable to regain hit points until the end of their next turn."
+        ],
+        [
+          "13-19",
+          "A god of fire answers and a flame bursts to life in your hand. The flame sheds bright light in a 15ft radius. Each creature of your choice in the bright light adds {@dice 1d4} to saving throws they make while in the light. The flame takes one hand to keep lit and stays lit until you close your hand or 1-minute passes."
+        ],
+        [
+          "20-26",
+          "A god of the seas answers, summoning a powerful deluge of water. A surge of water rushes forward from you in a 10ft wide 60ft long line. Each creature in the line takes {@dice 1d6} + your cleric level and must make a Strength saving throw or be knocked prone and pushed back 15 feet."
+        ],
+        [
+          "27-33",
+          "A god of nature answers your call. Barklike growth springs to life over your body granting you resistance to Bludgeoning damage and your cleric level in Temporary hit points. This effect lasts for 1 hour."
+        ],
+        [
+          "34-40",
+          "A god of mercy answers your call. Each creature within 60 feet of you must make a Wisdom saving throw. On a failure, they are charmed by you and while charmed in this way cannot attack another creature or cast a harmful spell. This effect lasts until the end of their turn or until they take damage from any source"
+        ],
+        [
+          "41-47",
+          "A god of law answers, select one creature within 60 feet that must make a Charisma saving throw. If they fail you can designate one action that the creature cannot take for the next minute. The action must be specific, such as casting the spell magic missile or hitting your allies with their sword. If the creature takes this prohibited action they take {@dice 3d8} + cleric level radiant damage and the effect end."
+        ],
+        [
+          "48-54",
+          "A god of darkness answers, choose a number of creatures up to your cleric level with 60 feet. Each creature must make a Wisdom saving throw. On a failure, they are blinded until the end of their next turn."
+        ],
+        [
+          "55-61",
+          "A god of bravery answers. Each creature of your choice within 30 feet of you gains your cleric level in temporary hit points and if they are affected by the frightened condition the condition ends."
+        ],
+        [
+          "62-68",
+          "A god of storms answers, a powerful storm erupts in a 60-foot radius around you. Each creature of your choice must make a Dexterity saving throw or take {@dice 2d10} + your cleric level and be unable to take reactions until the end of their next turn. Until the end of your next turn all ranged weapon attacks in the 60-foot radius have disadvantage as the heavy winds swirl."
+        ],
+        [
+          "69-75",
+          "A god of change answers, each creature of your choice within 30 feet must make a Wisdom saving throw or become charmed by you until the end of your next turn. While charmed in this way they randomly determine their action as if affected by the confusion spell."
+        ],
+        [
+          "76-82",
+          "A god of knowledge answers, you gain true sight out to 60 feet for the next minute."
+        ],
+        [
+          "83-89",
+          "A god of hope answers, each creature of your choice within 30 feet regains {@dice 1d8} + your cleric level hp and removes the prone, grappled, or restrained conditions."
+        ],
+        [
+          "90-95",
+          "A god of light answers and emblazons your holy symbol with truth finding light. You cast bright light for 30 feet, any invisible creature inside the light is revealed and any melee weapon attacks made by you or your allies deal {@dice 1d8} extra radiant damage. The light shrinks by 5 feet at the end of each of your turns until it vanishes completely."
+        ],
+        [
+          "96-100",
+          "A god of order answers. Every creature of your choice within 60 feet cannot be affected by disadvantage until the end of your next turn."
+        ]
+      ]
+    }
+  ]
 }

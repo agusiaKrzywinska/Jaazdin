@@ -1,23 +1,21 @@
 {
-    "name": "Handcannon MK III",
-    "source": "TftJC",
-    "type": "R",
-    "rarity": "none",
-    "weight": 0.5,
-    "value": 75000,
-    "weaponCategory": "martial",
-    "property": [
-        "2H"
-    ],
-    "range": "120",
-    "dmg1": "4d10",
-    "dmgType": "B",
-    "entries": [
-        "<i><b>Complex Invention.</i></b>",
-        "This miniature cannon can be wielded effectively with two hands, like a heavy crossbow.",
-        "Proficiency in the Heavy Crossbow allows you to add your proficiency bonus with this weapon.",
-        "It uses small cannonballs as ammunition, 10 of which can be bought for 5gp.",
-        "The wielder can ignite the fuse on the end of the cannon and fire it. Make a ranged attack roll (range 120ft, with no long range). It travels in that line until it hits a creature's AC, or it reaches the end of its range. A Creature hit by this attack takes {@dice 4d10} + DEX Bludgeoning Damage.",
-        "It requires forgoing 2 Attacks by the wielder to Reload. If the wielder has the Crossbow Master Feat, this is lowered to 1. Additionally, the wielder can use a Bonus Action to progress the reload of this weapon by 1. Minimum 1 attacks required to reload the cannon."
-    ]
+  "name": "Handcannon MK III",
+  "source": "TftJC",
+  "type": "R",
+  "rarity": "none",
+  "weight": 0.5,
+  "value": 75000,
+  "weaponCategory": "martial",
+  "property": ["2H"],
+  "range": "120",
+  "dmg1": "4d10",
+  "dmgType": "B",
+  "entries": [
+    "<i><b>Complex Invention.</i></b>",
+    "This miniature cannon can be wielded effectively with two hands, like a heavy crossbow.",
+    "Proficiency in the Heavy Crossbow allows you to add your proficiency bonus with this weapon.",
+    "It uses small cannonballs as ammunition, 10 of which can be bought for 5gp.",
+    "The wielder can ignite the fuse on the end of the cannon and fire it. Make a ranged attack roll (range 120ft, with no long range). It travels in that line until it hits a creature's AC, or it reaches the end of its range. A Creature hit by this attack takes {@dice 4d10} + DEX Bludgeoning Damage.",
+    "It requires forgoing 2 Attacks by the wielder to Reload. If the wielder has the Crossbow Master Feat, this is lowered to 1. Additionally, the wielder can use a Bonus Action to progress the reload of this weapon by 1. Minimum 1 attacks required to reload the cannon."
+  ]
 }

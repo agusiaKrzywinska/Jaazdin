@@ -1,12 +1,12 @@
 {
-    "name": "Opulent Appearance",
-    "source": "TftJC",
-    "className": "Warlock",
-    "classSource": "PHB",
-    "subclassShortName": "Opulent",
-    "subclassSource": "TftJC",
-    "level": 14,
-    "entries": [
-        "Starting at 14th level, the amount of gold that you carry enhances your body and empowers your mind. For each 10,000gp of gold that you have on your person all your ability scores increase by 1 to a maximum of 22. Should the amount of gold you are carrying every drop below 10,000gp you gain disadvantage on all ability checks, saving throws, and attack rolls until it is over 10,000gp. In addition, you can ignore the gold cost of any material components that are not consumed."
-    ]
+  "name": "Opulent Appearance",
+  "source": "TftJC",
+  "className": "Warlock",
+  "classSource": "PHB",
+  "subclassShortName": "Opulent",
+  "subclassSource": "TftJC",
+  "level": 14,
+  "entries": [
+    "Starting at 14th level, the amount of gold that you carry enhances your body and empowers your mind. For each 10,000gp of gold that you have on your person all your ability scores increase by 1 to a maximum of 22. Should the amount of gold you are carrying every drop below 10,000gp you gain disadvantage on all ability checks, saving throws, and attack rolls until it is over 10,000gp. In addition, you can ignore the gold cost of any material components that are not consumed."
+  ]
 }

@@ -1,54 +1,54 @@
 {
-    "name": "Ninjutsu Techniques",
-    "source": "TftJC",
-    "className": "Rogue",
-    "classSource": "PHB",
-    "subclassShortName": "Ninjutsu",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "At 3rd level, you learn ancient techniques of Ninjutsu. You learn two of these Techniques at 3rd level, and you can use these Techniques a number of times equal to your Proficiency Bonus per Long Rest. You learn a new Techniques that require a saving throw is calculated by 8 + Prof Bonus + INT modifier.",
-        {
-            "type": "inset",
-            "name": "Smoke Bomb",
-            "entries": [
-                "As a Bonus Action, you create an explosion of Fog in a 10ft radius around you, which heavily obscures the area. You also become invisible until the start of your next turn, or attack or cast a spell."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Flash Bomb",
-            "entries": [
-                "As a Bonus Action, you throw a Flash Bomb at an area within 60 ft. All creatures within a 15 ft radius of the explosion must make a Constitution Saving Throw (DC = 8 + prof + INT) or be blinded for a number of rounds equal to your Proficiency Bonus. Creatures blinded by this can repeat the Constitution Saving Throw at the ends of their turn, removing the effect on a Successful Save. If you have a free hand when you throw the bomb, you can use it to guard your eyes, granting you advantage on the Saving Throw if you are within the radius."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Shadow Clone",
-            "entries": [
-                "As a Bonus Action, you apparat a shadowy version of you, moving in and out of your space. For the next minute, if you would be attacked, the attacker must roll 1d20. On a 9 or lower, the clone is hit instead of you, which destroys the clone if the attack meets your AC."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Grappling Swing",
-            "entries": [
-                "As a Bonus Action, you gain a Fly speed equal to your walking speed until the end of your turn, provided there is terrain or structures to grapple to within 60ft of you. If you end your turn in the air, you immediately fall, suffering fall damage as normal."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Acupuncture Dart",
-            "entries": [
-                "As a Bonus Action, you throw a single dart at a creature within 30ft. Make a Ranged attack roll against that creature, and on a hit they take 1 piercing damage and must make a Constitution Saving throw against the Stunned Condition. On a fail, they are stunned until the end of their turn."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Shadow Binding",
-            "entries": [
-                "As a Bonus Action, you target a creature that is in dim light or darkness within 30ft. Shadowy arms grab the creature, they must then make a Strength Saving Throw or become restrained until the start of your next turn."
-            ]
-        }
-    ]
+  "name": "Ninjutsu Techniques",
+  "source": "TftJC",
+  "className": "Rogue",
+  "classSource": "PHB",
+  "subclassShortName": "Ninjutsu",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "At 3rd level, you learn ancient techniques of Ninjutsu. You learn two of these Techniques at 3rd level, and you can use these Techniques a number of times equal to your Proficiency Bonus per Long Rest. You learn a new Techniques that require a saving throw is calculated by 8 + Prof Bonus + INT modifier.",
+    {
+      "type": "inset",
+      "name": "Smoke Bomb",
+      "entries": [
+        "As a Bonus Action, you create an explosion of Fog in a 10ft radius around you, which heavily obscures the area. You also become invisible until the start of your next turn, or attack or cast a spell."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Flash Bomb",
+      "entries": [
+        "As a Bonus Action, you throw a Flash Bomb at an area within 60 ft. All creatures within a 15 ft radius of the explosion must make a Constitution Saving Throw (DC = 8 + prof + INT) or be blinded for a number of rounds equal to your Proficiency Bonus. Creatures blinded by this can repeat the Constitution Saving Throw at the ends of their turn, removing the effect on a Successful Save. If you have a free hand when you throw the bomb, you can use it to guard your eyes, granting you advantage on the Saving Throw if you are within the radius."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Shadow Clone",
+      "entries": [
+        "As a Bonus Action, you apparat a shadowy version of you, moving in and out of your space. For the next minute, if you would be attacked, the attacker must roll 1d20. On a 9 or lower, the clone is hit instead of you, which destroys the clone if the attack meets your AC."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Grappling Swing",
+      "entries": [
+        "As a Bonus Action, you gain a Fly speed equal to your walking speed until the end of your turn, provided there is terrain or structures to grapple to within 60ft of you. If you end your turn in the air, you immediately fall, suffering fall damage as normal."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Acupuncture Dart",
+      "entries": [
+        "As a Bonus Action, you throw a single dart at a creature within 30ft. Make a Ranged attack roll against that creature, and on a hit they take 1 piercing damage and must make a Constitution Saving throw against the Stunned Condition. On a fail, they are stunned until the end of their turn."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Shadow Binding",
+      "entries": [
+        "As a Bonus Action, you target a creature that is in dim light or darkness within 30ft. Shadowy arms grab the creature, they must then make a Strength Saving Throw or become restrained until the start of your next turn."
+      ]
+    }
+  ]
 }

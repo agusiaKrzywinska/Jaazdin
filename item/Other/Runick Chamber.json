@@ -1,14 +1,14 @@
 {
-    "name": "Runick Chamber",
-    "source": "TftJC",
-    "page": 25,
-    "type": "OTH",
-    "rarity": "none",
-    "weight": 0,
-    "value": 35000,
-    "entries": [
-        "<b><i>Effect.</i></b> As a bonus action, you can summon this firearm into your hand. As a bonus action, you can dismiss the firearm into a pocket dimension.",
-        "<b><i>Archetype.</i></b> Only Hexlock can use this modification.",
-        "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-    ]
+  "name": "Runick Chamber",
+  "source": "TftJC",
+  "page": 25,
+  "type": "OTH",
+  "rarity": "none",
+  "weight": 0,
+  "value": 35000,
+  "entries": [
+    "<b><i>Effect.</i></b> As a bonus action, you can summon this firearm into your hand. As a bonus action, you can dismiss the firearm into a pocket dimension.",
+    "<b><i>Archetype.</i></b> Only Hexlock can use this modification.",
+    "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+  ]
 }

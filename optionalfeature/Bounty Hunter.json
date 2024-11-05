@@ -1,24 +1,20 @@
 {
-    "name": "Bounty Hunter",
-    "prerequisite": [
-        {
-            "level": {
-                "level": 9,
-                "class": {
-                    "name": "Warlock"
-                }
-            },
-            "feature": [
-                "Opulent Warlock"
-            ]
+  "name": "Bounty Hunter",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 9,
+        "class": {
+          "name": "Warlock"
         }
-    ],
-    "source": "TftJC",
-    "page": 43,
-    "featureType": [
-        "EI"
-    ],
-    "entries": [
-        "You can cast the hunter’s mark spell once per day without expending a spell slot by expending 50gp. By default, it is cast at 1st level, you can expend 100gp to increase the level of the spell by 1. When you kill a creature affected by hunter’s mark cast from this invocation you gain gold equal to 150% of the gold spent casting this spell. Once you have received gold in this way you cannot receive more gold from this invocation until you finish a long rest."
-    ]
+      },
+      "feature": ["Opulent Warlock"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 43,
+  "featureType": ["EI"],
+  "entries": [
+    "You can cast the hunter’s mark spell once per day without expending a spell slot by expending 50gp. By default, it is cast at 1st level, you can expend 100gp to increase the level of the spell by 1. When you kill a creature affected by hunter’s mark cast from this invocation you gain gold equal to 150% of the gold spent casting this spell. Once you have received gold in this way you cannot receive more gold from this invocation until you finish a long rest."
+  ]
 }

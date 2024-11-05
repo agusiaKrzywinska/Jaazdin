@@ -1,19 +1,19 @@
 {
-    "name": "Enchanting Catalogue Vol.",
-    "source": "TftJC",
-    "rarity": "varies",
-    "type": "GV",
-    "wondrous": true,
-    "entries": [
-        "These tomes contains the secrets to enchanting magical objects.",
-        {
-            "type": "list",
-            "items": [
-                "{@item Enchanting Catalogue Vol. (Uncommon)|TftJC}",
-                "{@item Enchanting Catalogue Vol. (Rare)|TftJC}",
-                "{@item Enchanting Catalogue Vol. (Very Rare)|TftJC}",
-                "{@item Enchanting Catalogue Vol. (Legendary)|TftJC}"
-            ]
-        }
-    ]
+  "name": "Enchanting Catalogue Vol.",
+  "source": "TftJC",
+  "rarity": "varies",
+  "type": "GV",
+  "wondrous": true,
+  "entries": [
+    "These tomes contains the secrets to enchanting magical objects.",
+    {
+      "type": "list",
+      "items": [
+        "{@item Enchanting Catalogue Vol. (Uncommon)|TftJC}",
+        "{@item Enchanting Catalogue Vol. (Rare)|TftJC}",
+        "{@item Enchanting Catalogue Vol. (Very Rare)|TftJC}",
+        "{@item Enchanting Catalogue Vol. (Legendary)|TftJC}"
+      ]
+    }
+  ]
 }

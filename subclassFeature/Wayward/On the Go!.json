@@ -1,13 +1,13 @@
 {
-    "name": "On the Go!",
-    "source": "TftJC",
-    "className": "Ranger",
-    "classSource": "PHB",
-    "subclassShortName": "Wayward",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "Starting at 3rd level, you're always in a hurry to get to what comes next. You have advantage on Initiative Rolls. You can take the Dash action as a Bonus Action. Furthermore, once per turn if you move your full movement on your turn, you deal an additional 1d6 damage. You must have moved to deal this bonus damage.",
-        "Finally, whenever entering a location you have never been,you become quickly accustomed to the land. You have advantage on Wisdom and Intelligence checks that you make to discover more information about this location. This bonus lasts a number of hours equal to your Proficiency Bonus."
-    ]
+  "name": "On the Go!",
+  "source": "TftJC",
+  "className": "Ranger",
+  "classSource": "PHB",
+  "subclassShortName": "Wayward",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "Starting at 3rd level, you're always in a hurry to get to what comes next. You have advantage on Initiative Rolls. You can take the Dash action as a Bonus Action. Furthermore, once per turn if you move your full movement on your turn, you deal an additional 1d6 damage. You must have moved to deal this bonus damage.",
+    "Finally, whenever entering a location you have never been,you become quickly accustomed to the land. You have advantage on Wisdom and Intelligence checks that you make to discover more information about this location. This bonus lasts a number of hours equal to your Proficiency Bonus."
+  ]
 }

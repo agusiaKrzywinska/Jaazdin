@@ -1,14 +1,14 @@
 {
-    "name": "Dragon's Breath",
-    "source": "TftJC",
-    "page": 12,
-    "type": "OTH",
-    "rarity": "none",
-    "weight": 0,
-    "value": 175000,
-    "entries": [
-        "<b><i>Effect.</i></b> The firearm deals an additional 1d8 fire damage. If the firearm activates pump, this damage is doubled.",
-        "<b><i>Archetype.</i></b> Only Buckshots can use this modification.",
-        "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
-    ]
+  "name": "Dragon's Breath",
+  "source": "TftJC",
+  "page": 12,
+  "type": "OTH",
+  "rarity": "none",
+  "weight": 0,
+  "value": 175000,
+  "entries": [
+    "<b><i>Effect.</i></b> The firearm deals an additional 1d8 fire damage. If the firearm activates pump, this damage is doubled.",
+    "<b><i>Archetype.</i></b> Only Buckshots can use this modification.",
+    "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
+  ]
 }

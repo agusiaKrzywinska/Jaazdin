@@ -1,21 +1,19 @@
 {
-    "name": "Bassinet Claws",
-    "source": "TftJC",
-    "page": 50,
-    "type": "M",
-    "rarity": "none",
-    "weight": 1,
-    "value": 2500,
-    "weaponCategory": "martial",
-    "property": [
-        "S"
-    ],
-    "dmg1": "1",
-    "dmgType": "S",
-    "entries": [
-        "<b><i>Special.</i></b> As a bonus action you can extended or retract the claws from these knuckles switching your unarmed damage from Bludgeoning to Slashing while the claws are extended.",
-        "<b><i>Hidden.</i></b> A creature gains advantage on Sleight of Hand checks to hide a hidden weapon on their person. In addition, spotting a Hidden weapon on a person requires a DC 15 Perception check.",
-        "<b><i>Unarmed.</i></b> Unarmed weapons replace your unarmed damage with the weapon damage listed. If you have other options for unarmed damage, such as a Fighting Style or Martial Arts monk feature you can choose which damage die applies. A value written as +X as opposed to X adds to unarmed damage rather than replacing it.",
-        "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
-    ]
+  "name": "Bassinet Claws",
+  "source": "TftJC",
+  "page": 50,
+  "type": "M",
+  "rarity": "none",
+  "weight": 1,
+  "value": 2500,
+  "weaponCategory": "martial",
+  "property": ["S"],
+  "dmg1": "1",
+  "dmgType": "S",
+  "entries": [
+    "<b><i>Special.</i></b> As a bonus action you can extended or retract the claws from these knuckles switching your unarmed damage from Bludgeoning to Slashing while the claws are extended.",
+    "<b><i>Hidden.</i></b> A creature gains advantage on Sleight of Hand checks to hide a hidden weapon on their person. In addition, spotting a Hidden weapon on a person requires a DC 15 Perception check.",
+    "<b><i>Unarmed.</i></b> Unarmed weapons replace your unarmed damage with the weapon damage listed. If you have other options for unarmed damage, such as a Fighting Style or Martial Arts monk feature you can choose which damage die applies. A value written as +X as opposed to X adds to unarmed damage rather than replacing it.",
+    "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+  ]
 }

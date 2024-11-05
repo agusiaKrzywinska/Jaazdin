@@ -1,21 +1,17 @@
 {
-    "name": "Man Catcher",
-    "source": "TftJC",
-    "page": 50,
-    "type": "M",
-    "rarity": "none",
-    "weight": 2,
-    "value": 500,
-    "weaponCategory": "martial",
-    "property": [
-        "R",
-        "2H",
-        "S"
-    ],
-    "dmg1": "1d6",
-    "dmgType": "B",
-    "entries": [
-        "<b><i>Special.</i></b> A creature can make a grapple check with the reach of the Man Catcher. On a success the grappler can move and maintain the grapple as long as they remain with the weapon’s reach. If a second creature attempts to grapple a creature you are grappling you can grant them advantage. If three or more Man Catchers are all grappling the same creature, that creature is restrained instead, as long as all three maintain the restraint.",
-        "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
-    ]
+  "name": "Man Catcher",
+  "source": "TftJC",
+  "page": 50,
+  "type": "M",
+  "rarity": "none",
+  "weight": 2,
+  "value": 500,
+  "weaponCategory": "martial",
+  "property": ["R", "2H", "S"],
+  "dmg1": "1d6",
+  "dmgType": "B",
+  "entries": [
+    "<b><i>Special.</i></b> A creature can make a grapple check with the reach of the Man Catcher. On a success the grappler can move and maintain the grapple as long as they remain with the weapon’s reach. If a second creature attempts to grapple a creature you are grappling you can grant them advantage. If three or more Man Catchers are all grappling the same creature, that creature is restrained instead, as long as all three maintain the restraint.",
+    "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+  ]
 }

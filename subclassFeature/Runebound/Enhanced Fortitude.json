@@ -1,12 +1,12 @@
 {
-    "name": "Enhanced Fortitude",
-    "source": "TftJC",
-    "className": "Sorcerer",
-    "classSource": "PHB",
-    "subclassShortName": "Runebound",
-    "subclassSource": "TftJC",
-    "level": 1,
-    "entries": [
-        "The intense experiments done on your body have left you hardier than normal. At 1st level your hit point maximum increases by 2 and increases by 2 again whenever you gain a level in this class."
-    ]
+  "name": "Enhanced Fortitude",
+  "source": "TftJC",
+  "className": "Sorcerer",
+  "classSource": "PHB",
+  "subclassShortName": "Runebound",
+  "subclassSource": "TftJC",
+  "level": 1,
+  "entries": [
+    "The intense experiments done on your body have left you hardier than normal. At 1st level your hit point maximum increases by 2 and increases by 2 again whenever you gain a level in this class."
+  ]
 }

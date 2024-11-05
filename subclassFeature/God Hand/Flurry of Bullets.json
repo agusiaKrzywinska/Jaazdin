@@ -1,12 +1,12 @@
 {
-    "name": "Flurry of Bullets",
-    "source": "TftJC",
-    "className": "Monk",
-    "classSource": "PHB",
-    "subclassShortName": "God Hand",
-    "subclassSource": "TftJC",
-    "level": 11,
-    "entries": [
-        "At 11th level, when you replace your Flurry of Blow attacks with ranged weapon attacks, you can make two instead of one. Whenever you make an unarmed strike, you can ignore the loading property of a weapon you are holding, reload one firearm, or attempt to repair one firearm."
-    ]
+  "name": "Flurry of Bullets",
+  "source": "TftJC",
+  "className": "Monk",
+  "classSource": "PHB",
+  "subclassShortName": "God Hand",
+  "subclassSource": "TftJC",
+  "level": 11,
+  "entries": [
+    "At 11th level, when you replace your Flurry of Blow attacks with ranged weapon attacks, you can make two instead of one. Whenever you make an unarmed strike, you can ignore the loading property of a weapon you are holding, reload one firearm, or attempt to repair one firearm."
+  ]
 }

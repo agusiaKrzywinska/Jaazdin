@@ -1,211 +1,211 @@
 {
-    "name": "Blast Gun Progression",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Demolitionist",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "As your skills improve, you learn to modify your Blast Gun. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. The Blast Gun has unique modifications, which are unlocked at level 5, and these modifications can be upgraded at level 13 by paying the gold cost and spending 4 hours of work. These modifications can be attacked to the Blast Gun to allow it to perform new attacks. These new attacks have separate ranges, damage types, and use their own ammunition.",
-        {
-            "caption": "Demolitionist Firearms",
-            "type": "table",
-            "colLabels": [
-                "Firearm",
-                "Tier",
-                "Cost",
-                "Ammo",
-                "Damage",
-                "Weight",
-                "Range",
-                "Properties",
-                "Modification Slots"
-            ],
-            "colStyles": [
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center"
-            ],
-            "rows": [
-                [
-                    "Blast Gun",
-                    "1",
-                    "50gp",
-                    "1gp/10",
-                    "2d6 piercing",
-                    "15lbs",
-                    "30/120",
-                    "heavy, two handed, barrel 1",
-                    "2"
-                ],
-                [
-                    "Blast Cannon",
-                    "3",
-                    "125gp",
-                    "1gp/10",
-                    "3d6 piercing",
-                    "15lbs",
-                    "30/120",
-                    "heavy, two handed, barrel 1",
-                    "3"
-                ],
-                [
-                    "Meteor Cannon",
-                    "5",
-                    "1000gp",
-                    "1gp/10",
-                    "4d6 piercing",
-                    "15lbs",
-                    "30/120",
-                    "heavy, two handed, barrel 1",
-                    "5"
-                ]
-            ]
-        },
-        {
-            "caption": "Blast Gun Modifications - Minigun",
-            "type": "table",
-            "colLabels": [
-                "Firearm",
-                "Level Unlocked",
-                "Cost",
-                "Ammo",
-                "Damage",
-                "Extra Weight",
-                "Range",
-                "Properties"
-            ],
-            "colStyles": [
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center"
-            ],
-            "rows": [
-                [
-                    "Minigun",
-                    "5",
-                    "100gp",
-                    "1gp/10",
-                    "4d4 piercing",
-                    "+10lbs",
-                    "30/120",
-                    "belt 90"
-                ],
-                [
-                    "MEGA!!!gun",
-                    "13",
-                    "500gp",
-                    "1gp/10",
-                    "4d4 piercing",
-                    "+10lbs",
-                    "30/120",
-                    "belt 90, auto"
-                ]
-            ]
-        },
-        {
-            "caption": "Blast Gun Modifications - Explosive Lobber",
-            "type": "table",
-            "colLabels": [
-                "Firearm",
-                "Level Unlocked",
-                "Cost",
-                "Ammo",
-                "Damage",
-                "Extra Weight",
-                "Range",
-                "Properties"
-            ],
-            "colStyles": [
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center"
-            ],
-            "rows": [
-                [
-                    "Explosive Lobber",
-                    "5",
-                    "100gp",
-                    "5gp/10",
-                    "2d8 fire",
-                    "+15lbs",
-                    "80/320",
-                    "explosive 5"
-                ],
-                [
-                    "Rocket Launcher",
-                    "13",
-                    "500gp",
-                    "5gp/10",
-                    "4d4 piercing",
-                    "+15lbs",
-                    "100/400",
-                    "explosive 10"
-                ]
-            ]
-        },
-        {
-            "caption": "Blast Gun Modifications - Flamethrower",
-            "type": "table",
-            "colLabels": [
-                "Firearm",
-                "Level Unlocked",
-                "Cost",
-                "Ammo",
-                "Damage",
-                "Extra Weight",
-                "Range",
-                "Properties"
-            ],
-            "colStyles": [
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center"
-            ],
-            "rows": [
-                [
-                    "Flamethrower",
-                    "5",
-                    "100gp",
-                    "5gp/1",
-                    "1d12 fire",
-                    "+25lbs",
-                    "30/60",
-                    "gas 5"
-                ],
-                [
-                    "Phoenix Force",
-                    "13",
-                    "500gp",
-                    "5gp/1",
-                    "2d12 fire",
-                    "+25lbs",
-                    "30/60",
-                    "gas 7, cone 10"
-                ]
-            ]
-        }
-    ]
+  "name": "Blast Gun Progression",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Demolitionist",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "As your skills improve, you learn to modify your Blast Gun. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. The Blast Gun has unique modifications, which are unlocked at level 5, and these modifications can be upgraded at level 13 by paying the gold cost and spending 4 hours of work. These modifications can be attacked to the Blast Gun to allow it to perform new attacks. These new attacks have separate ranges, damage types, and use their own ammunition.",
+    {
+      "caption": "Demolitionist Firearms",
+      "type": "table",
+      "colLabels": [
+        "Firearm",
+        "Tier",
+        "Cost",
+        "Ammo",
+        "Damage",
+        "Weight",
+        "Range",
+        "Properties",
+        "Modification Slots"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "Blast Gun",
+          "1",
+          "50gp",
+          "1gp/10",
+          "2d6 piercing",
+          "15lbs",
+          "30/120",
+          "heavy, two handed, barrel 1",
+          "2"
+        ],
+        [
+          "Blast Cannon",
+          "3",
+          "125gp",
+          "1gp/10",
+          "3d6 piercing",
+          "15lbs",
+          "30/120",
+          "heavy, two handed, barrel 1",
+          "3"
+        ],
+        [
+          "Meteor Cannon",
+          "5",
+          "1000gp",
+          "1gp/10",
+          "4d6 piercing",
+          "15lbs",
+          "30/120",
+          "heavy, two handed, barrel 1",
+          "5"
+        ]
+      ]
+    },
+    {
+      "caption": "Blast Gun Modifications - Minigun",
+      "type": "table",
+      "colLabels": [
+        "Firearm",
+        "Level Unlocked",
+        "Cost",
+        "Ammo",
+        "Damage",
+        "Extra Weight",
+        "Range",
+        "Properties"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "Minigun",
+          "5",
+          "100gp",
+          "1gp/10",
+          "4d4 piercing",
+          "+10lbs",
+          "30/120",
+          "belt 90"
+        ],
+        [
+          "MEGA!!!gun",
+          "13",
+          "500gp",
+          "1gp/10",
+          "4d4 piercing",
+          "+10lbs",
+          "30/120",
+          "belt 90, auto"
+        ]
+      ]
+    },
+    {
+      "caption": "Blast Gun Modifications - Explosive Lobber",
+      "type": "table",
+      "colLabels": [
+        "Firearm",
+        "Level Unlocked",
+        "Cost",
+        "Ammo",
+        "Damage",
+        "Extra Weight",
+        "Range",
+        "Properties"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "Explosive Lobber",
+          "5",
+          "100gp",
+          "5gp/10",
+          "2d8 fire",
+          "+15lbs",
+          "80/320",
+          "explosive 5"
+        ],
+        [
+          "Rocket Launcher",
+          "13",
+          "500gp",
+          "5gp/10",
+          "4d4 piercing",
+          "+15lbs",
+          "100/400",
+          "explosive 10"
+        ]
+      ]
+    },
+    {
+      "caption": "Blast Gun Modifications - Flamethrower",
+      "type": "table",
+      "colLabels": [
+        "Firearm",
+        "Level Unlocked",
+        "Cost",
+        "Ammo",
+        "Damage",
+        "Extra Weight",
+        "Range",
+        "Properties"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "Flamethrower",
+          "5",
+          "100gp",
+          "5gp/1",
+          "1d12 fire",
+          "+25lbs",
+          "30/60",
+          "gas 5"
+        ],
+        [
+          "Phoenix Force",
+          "13",
+          "500gp",
+          "5gp/1",
+          "2d12 fire",
+          "+25lbs",
+          "30/60",
+          "gas 7, cone 10"
+        ]
+      ]
+    }
+  ]
 }

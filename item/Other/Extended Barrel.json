@@ -1,14 +1,14 @@
 {
-    "name": "Extended Barrel",
-    "source": "TftJC",
-    "page": 10,
-    "type": "OTH",
-    "rarity": "none",
-    "weight": 0,
-    "value": 20000,
-    "entries": [
-        "<b><i>Effect.</i></b> The firearm's normal range increases by 10, and its long range increases by 40.",
-        "<b><i>Restrictions.</i></b> Requires the Two Handed property.",
-        "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-    ]
+  "name": "Extended Barrel",
+  "source": "TftJC",
+  "page": 10,
+  "type": "OTH",
+  "rarity": "none",
+  "weight": 0,
+  "value": 20000,
+  "entries": [
+    "<b><i>Effect.</i></b> The firearm's normal range increases by 10, and its long range increases by 40.",
+    "<b><i>Restrictions.</i></b> Requires the Two Handed property.",
+    "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+  ]
 }

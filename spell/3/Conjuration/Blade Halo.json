@@ -1,72 +1,72 @@
 {
-    "name": "Blade Halo",
-    "source": "TftJC",
-    "page": 60,
-    "level": 3,
-    "school": "C",
-    "time": [
-        {
-            "number": 1,
-            "unit": "action"
-        }
-    ],
-    "range": {
-        "type": "point",
-        "distance": {
-            "type": "feet",
-            "amount": 30
-        }
-    },
-    "components": {
-        "v": true,
-        "s": true,
-        "m": "one miniature blade worth 5gp for each blade you summon"
-    },
-    "duration": [
-        {
-            "type": "timed",
-            "duration": {
-                "type": "minute",
-                "amount": 10,
-                "upTo": true
-            },
-            "concentration": true
-        }
-    ],
-    "entries": [
-        "A circle of four shimmering blades appears in your space, spinning around your body. The blades follow you if you move. As a bonus action on your turn, you can hurl one of the blades at a target within range. Make a ranged spell attack, on a hit the target takes {@dice 2d8} magical slashing damage. The blade is then destroyed. You can instead of hurling the blade, grasp it, and make a melee spell attack which does {@dice 2d10} magical slashing damage on hit. For each blade remaining creatures that end their turn within 5ft of you take {@dice 1d4} magical slashing."
-    ],
-    "entriesHigherLevel": [
-        {
-            "type": "entries",
-            "name": "At Higher Levels",
-            "entries": [
-                "If you cast this spell using a spell slot of 5th level slot, you summon one additional blade."
-            ]
-        }
-    ],
-    "classes": {
-        "fromClassList": [
-            {
-                "name": "Artificer",
-                "source": "PHB"
-            },
-            {
-                "name": "Bard",
-                "source": "PHB"
-            },
-            {
-                "name": "Paladin",
-                "source": "PHB"
-            },
-            {
-                "name": "Ranger",
-                "source": "PHB"
-            },
-            {
-                "name": "Wizard",
-                "source": "PHB"
-            }
-        ]
+  "name": "Blade Halo",
+  "source": "TftJC",
+  "page": 60,
+  "level": 3,
+  "school": "C",
+  "time": [
+    {
+      "number": 1,
+      "unit": "action"
     }
+  ],
+  "range": {
+    "type": "point",
+    "distance": {
+      "type": "feet",
+      "amount": 30
+    }
+  },
+  "components": {
+    "v": true,
+    "s": true,
+    "m": "one miniature blade worth 5gp for each blade you summon"
+  },
+  "duration": [
+    {
+      "type": "timed",
+      "duration": {
+        "type": "minute",
+        "amount": 10,
+        "upTo": true
+      },
+      "concentration": true
+    }
+  ],
+  "entries": [
+    "A circle of four shimmering blades appears in your space, spinning around your body. The blades follow you if you move. As a bonus action on your turn, you can hurl one of the blades at a target within range. Make a ranged spell attack, on a hit the target takes {@dice 2d8} magical slashing damage. The blade is then destroyed. You can instead of hurling the blade, grasp it, and make a melee spell attack which does {@dice 2d10} magical slashing damage on hit. For each blade remaining creatures that end their turn within 5ft of you take {@dice 1d4} magical slashing."
+  ],
+  "entriesHigherLevel": [
+    {
+      "type": "entries",
+      "name": "At Higher Levels",
+      "entries": [
+        "If you cast this spell using a spell slot of 5th level slot, you summon one additional blade."
+      ]
+    }
+  ],
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Artificer",
+        "source": "PHB"
+      },
+      {
+        "name": "Bard",
+        "source": "PHB"
+      },
+      {
+        "name": "Paladin",
+        "source": "PHB"
+      },
+      {
+        "name": "Ranger",
+        "source": "PHB"
+      },
+      {
+        "name": "Wizard",
+        "source": "PHB"
+      }
+    ]
+  }
 }

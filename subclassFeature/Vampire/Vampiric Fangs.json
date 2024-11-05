@@ -1,13 +1,13 @@
 {
-    "name": "Vampiric Fangs",
-    "source": "TftJC",
-    "className": "Barbarian",
-    "classSource": "PHB",
-    "subclassShortName": "Vampire",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "At 3rd level, you gain Vampiric Features. When you enter a Rage, you grow sharp fangs. They can be used as a Natural weapon that deals 1d8 piercing damage. After making your attack action, you can use your Bonus Action to make an additional attack with your Fangs.",
-        "Additionally, once per turn when you deal damage with your Fangs, you can add your Proficiency Bonus to your damage roll"
-    ]
+  "name": "Vampiric Fangs",
+  "source": "TftJC",
+  "className": "Barbarian",
+  "classSource": "PHB",
+  "subclassShortName": "Vampire",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "At 3rd level, you gain Vampiric Features. When you enter a Rage, you grow sharp fangs. They can be used as a Natural weapon that deals 1d8 piercing damage. After making your attack action, you can use your Bonus Action to make an additional attack with your Fangs.",
+    "Additionally, once per turn when you deal damage with your Fangs, you can add your Proficiency Bonus to your damage roll"
+  ]
 }

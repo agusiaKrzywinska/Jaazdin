@@ -1,24 +1,24 @@
 {
-    "name": "Fate Domain",
-    "source": "TftJC",
-    "className": "Cleric",
-    "classSource": "PHB",
-    "subclassShortName": "Fate",
-    "subclassSource": "TftJC",
-    "level": 1,
-    "entries": [
-        "Some debate whether a God of Fate truly has a Domain. The nonbelievers argue that Fate is simply an idea invented by men that either fear their future or to give reason to their meaningless actions. But the true preachers of the Fate Domain know that Fate is not a predetermined destiny, but a set of probabilities that can be influenced by minute actions to achieve a desired future. Clerics of the Fate Domain pull the small universal strings to move the future in their favour.",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Fate Domain Spells|Cleric|PHB|Fate|TftJC|1"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Threads of Change|Cleric|PHB|Fate|TftJC|1"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Woven Fate|Cleric|PHB|Fate|TftJC|1"
-        }
-    ]
+  "name": "Fate Domain",
+  "source": "TftJC",
+  "className": "Cleric",
+  "classSource": "PHB",
+  "subclassShortName": "Fate",
+  "subclassSource": "TftJC",
+  "level": 1,
+  "entries": [
+    "Some debate whether a God of Fate truly has a Domain. The nonbelievers argue that Fate is simply an idea invented by men that either fear their future or to give reason to their meaningless actions. But the true preachers of the Fate Domain know that Fate is not a predetermined destiny, but a set of probabilities that can be influenced by minute actions to achieve a desired future. Clerics of the Fate Domain pull the small universal strings to move the future in their favour.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Fate Domain Spells|Cleric|PHB|Fate|TftJC|1"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Threads of Change|Cleric|PHB|Fate|TftJC|1"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Woven Fate|Cleric|PHB|Fate|TftJC|1"
+    }
+  ]
 }

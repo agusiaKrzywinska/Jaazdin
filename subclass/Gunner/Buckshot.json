@@ -1,16 +1,16 @@
 {
-    "name": "Buckshot",
-    "source": "TftJC",
-    "page": 15,
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "shortName": "Buckshot",
-    "subclassFeatures": [
-        "Buckshot Archetype|Gunner|TftJC|Buckshot|TftJC|2",
-        "Smokescreen|Gunner|TftJC|Buckshot|TftJC|6",
-        "Buckshot Modifications|Gunner|TftJC|Buckshot|TftJC|6",
-        "Push 'em Off|Gunner|TftJC|Buckshot|TftJC|10",
-        "Shoot to Thrill Improvement|Gunner|TftJC|Buckshot|TftJC|10",
-        "Scatterslug|Gunner|TftJC|Buckshot|TftJC|14"
-    ]
+  "name": "Buckshot",
+  "source": "TftJC",
+  "page": 15,
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "shortName": "Buckshot",
+  "subclassFeatures": [
+    "Buckshot Archetype|Gunner|TftJC|Buckshot|TftJC|2",
+    "Smokescreen|Gunner|TftJC|Buckshot|TftJC|6",
+    "Buckshot Modifications|Gunner|TftJC|Buckshot|TftJC|6",
+    "Push 'em Off|Gunner|TftJC|Buckshot|TftJC|10",
+    "Shoot to Thrill Improvement|Gunner|TftJC|Buckshot|TftJC|10",
+    "Scatterslug|Gunner|TftJC|Buckshot|TftJC|14"
+  ]
 }

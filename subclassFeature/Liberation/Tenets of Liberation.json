@@ -1,14 +1,14 @@
 {
-    "name": "Tenets of Liberation",
-    "source": "TftJC",
-    "className": "Paladin",
-    "classSource": "PHB",
-    "subclassShortName": "Liberation",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "<b>Break the Chains</b>. Free all those imprisoned, bound and restrained.",
-        "<b>Death before Bondage</b>. You shall never be captured against your will, and will die trying to free yourself and others.",
-        "<b>Lead by Example</b>. Show those around you the pleasures of freedom and teach others how to keep themselves free."
-    ]
+  "name": "Tenets of Liberation",
+  "source": "TftJC",
+  "className": "Paladin",
+  "classSource": "PHB",
+  "subclassShortName": "Liberation",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "<b>Break the Chains</b>. Free all those imprisoned, bound and restrained.",
+    "<b>Death before Bondage</b>. You shall never be captured against your will, and will die trying to free yourself and others.",
+    "<b>Lead by Example</b>. Show those around you the pleasures of freedom and teach others how to keep themselves free."
+  ]
 }

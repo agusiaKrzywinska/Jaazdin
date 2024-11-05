@@ -1,16 +1,16 @@
 {
-    "name": "Demolitionist",
-    "source": "TftJC",
-    "page": 19,
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "shortName": "Demolitionist",
-    "subclassFeatures": [
-        "Demolitionist Archetype|Gunner|TftJC|Demolitionist|TftJC|2",
-        "Overcustomized Firearms|Gunner|TftJC|Demolitionist|TftJC|6",
-        "Demolitionist Modifications|Gunner|TftJC|Demolitionist|TftJC|6",
-        "Rocket Jump|Gunner|TftJC|Demolitionist|TftJC|10",
-        "Shoot to Thrill Improvement|Gunner|TftJC|Demolitionist|TftJC|10",
-        "Fear No Flame|Gunner|TftJC|Demolitionist|TftJC|14"
-    ]
+  "name": "Demolitionist",
+  "source": "TftJC",
+  "page": 19,
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "shortName": "Demolitionist",
+  "subclassFeatures": [
+    "Demolitionist Archetype|Gunner|TftJC|Demolitionist|TftJC|2",
+    "Overcustomized Firearms|Gunner|TftJC|Demolitionist|TftJC|6",
+    "Demolitionist Modifications|Gunner|TftJC|Demolitionist|TftJC|6",
+    "Rocket Jump|Gunner|TftJC|Demolitionist|TftJC|10",
+    "Shoot to Thrill Improvement|Gunner|TftJC|Demolitionist|TftJC|10",
+    "Fear No Flame|Gunner|TftJC|Demolitionist|TftJC|14"
+  ]
 }

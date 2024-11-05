@@ -1,146 +1,141 @@
 {
-    "name": "Hexed Bullets",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Hexlock",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "When you choose this archetype at 2nd level, you gain the ability to magically enchant bullets to produce deadly effects. You learn three Hexed Bullets, as listed in the Hexed Bullets Progression Table, and can produce up to twice your proficiency bonus of those bullets when you finish a long rest. Whenever you finish a long rest, all the Hexed Bullets you have enchanted lose their potency. You learn an additional Hexed Bullet whenever you learn a new tier of firearm.",
-        "Prepared Hexed Bullets are placed in a magical receptacle, such as an enchanted bandolier, a special clip, or other magical storage device. As a free action once per turn when you make a ranged weapon attack with a firearm, you can cause one of the prepared Hexed Bullets to teleport into your firearm, enhancing your next attack with that Hexed Bullets effects, and consuming one use of your Hexed Bullets.",
-        "Whenever you gain another Gunner level, you can replace a known Hexed Bullet option with another.",
-        {
-            "caption": "Hexlock Spellcasting",
-            "type": "table",
-            "colLabels": [
-                "Name",
-                "Tier",
-                "Effect",
-                "Restriction"
-            ],
-            "colStyles": [
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center"
-            ],
-            "rows": [
-                [
-                    "Element",
-                    "1",
-                    "The shot deals additional damage of either fire, lightning, cold, acid, or thunder (chosen when created) equal to 1d6+the tier of the gun.",
-                    "-"
-                ],
-                [
-                    "Seeking",
-                    "1",
-                    "The attack’s range is increased to its maximum range, with no short range. In addition, if the attack hits you can target another creature within range and remake the attack with disadvantage.",
-                    "-"
-                ],
-                [
-                    "Sanctified",
-                    "1",
-                    "This attack deals extra radiant damage equal to half your gunner level, this bonus is doubled against undead and fiends. In addition if the target is an undead or fiend, any Undead Fortitude or Magical Resistance that creature might have ceases to function until the start of your next turn.",
-                    "Religion from Magical Acolyte"
-                ],
-                [
-                    "Thorned",
-                    "1",
-                    "A creature hit by this bullet must make a Dexterity saving throw or become restrained. A creature can use an action on subsequent turns to attempt to break free by making an Athletics or Acrobatic check against your save DC. On a failure they take piercing damage equal to half your gunner level, on a success they break free.",
-                    "Nature from Magical Acolyte"
-                ],
-                [
-                    "Starlight",
-                    "1",
-                    "The fired bullet shatters into tiny magical darts. You create a number of these darts equal to your firearm’s tier, each dart deals force damage equal to a single die of the weapon’s damage die + the firearm’s tier. These darts automatically hit targets within the short range of your weapon. These darts can be blocked by effects that would block magic missile.",
-                    "Arcana from Magical Acolyte"
-                ],
-                [
-                    "Weaken",
-                    "2",
-                    "The hit creature must make a Strength saving throw or have its speed reduced by 10ft and deal half damage on Strength based weapon attacks until the start of your next turn.",
-                    "-"
-                ],
-                [
-                    "Mist",
-                    "2",
-                    "The hit creature takes additional Force damage equal to the Weapon’s Tier, and afterward you teleport to an unoccupied space of your choice within 15ft of that creature.",
-                    "-"
-                ],
-                [
-                    "Arcane",
-                    "3",
-                    "Choose one spell you know. When fired the shot takes the effect of that spell, if the spell comes from a point, the point can be any place within range that you could fire at (this expends the spell slot).",
-                    "-"
-                ],
-                [
-                    "Flash",
-                    "3",
-                    "Choose a point with your firearms short range. Each creature with 15ft of that point must make a Constitution saving throw. On a failure they suffer the weapons damage die in thunder damage + your INT modifier and are deafened and blinded until the start of your next turn. On a success they take half damage and are not blinded or deafened.",
-                    "-"
-                ],
-                [
-                    "Rally",
-                    "3",
-                    "You fire your gun into the air, bolstering allies within 30ft of you. Each ally gains temporary hit points equal to the firearm’s tier + your INT modifier and has advantage on the next attack roll they make.",
-                    "Religion from Magical Acolyte"
-                ],
-                [
-                    "Swarm",
-                    "3",
-                    "The hit creature must make a Wisdom saving throw or become swarmed by small insects. While swarmed it cannot benefit from cover (including full) from you and all attacks have advantage against it. At the end of the creature’s turn it can remake the saving throw, ending the effect on a success.",
-                    "Nature from Magical Acolyte"
-                ],
-                [
-                    "Target",
-                    "3",
-                    "The hit creature has disadvantage on the next saving throw they would make against a Spell.",
-                    "Arcana from Magical Acolyte"
-                ],
-                [
-                    "Drill",
-                    "4",
-                    "You fire a drilling bullet that cuts through anything it hits. Your attack becomes a 5ft line with a range equal to the gun’s short range. Each creature in that line must make a Dexterity saving throw or take Piercing damage equal to the gun’s damage die + your INT modifier. On a success they take half damage.",
-                    "-"
-                ],
-                [
-                    "Maxim",
-                    "4",
-                    "This bullet triples your gun’s misfire score for this shot but if it hits deals maximum damage.",
-                    "-"
-                ],
-                [
-                    "Trick",
-                    "5",
-                    "You make the attack roll at disadvantage, you cannot gain advantage from any source on this attack. If the attack hits, you regain one expended pact slot and deal extra damage equal to twice that spell slot’s level.",
-                    "-"
-                ],
-                [
-                    "Midas",
-                    "5",
-                    "A creature hit with this bullet must make a Constitution saving throw or become restrained. If restrained, on their next turn, they must make the Constitution save again. On a success, the restrained ends. On a failure, they are petrified as they turn to gold. This petrification lasts 1 minute, or until the creature takes damage equal to twice your gunner level.",
-                    "-"
-                ],
-                [
-                    "Smite",
-                    "5",
-                    "When fired, expend one spell slot. If the attack hits, it deals additional radiant damage equal to 4d8 + 1d8 for each spell level.",
-                    "Religion from Magical Acolyte. Only one can be prepared per long rest."
-                ],
-                [
-                    "World",
-                    "5",
-                    "When fired, the bullet explodes into wooden spears. Make an attack roll against any number of creatures within range.",
-                    "Nature from Magical Acolyte. Only one can be prepared per long rest."
-                ],
-                [
-                    "Portal",
-                    "5",
-                    "The bullet is fired on the Ethereal Plane. The target’s AC is calculated using only the target’s Dexterity bonus, ignoring bonuses granted from Shields, Armor and other AC increasing effects. This bullet passes through all barriers, including things such as Wall of Force, Force Cage, or planar portals. On hit, the target takes additional force damage equal to twice the difference between your attack roll and their AC.",
-                    "Arcana from Magical Acolyte. Only one can be prepared per long rest."
-                ]
-            ]
-        }
-    ]
+  "name": "Hexed Bullets",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Hexlock",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "When you choose this archetype at 2nd level, you gain the ability to magically enchant bullets to produce deadly effects. You learn three Hexed Bullets, as listed in the Hexed Bullets Progression Table, and can produce up to twice your proficiency bonus of those bullets when you finish a long rest. Whenever you finish a long rest, all the Hexed Bullets you have enchanted lose their potency. You learn an additional Hexed Bullet whenever you learn a new tier of firearm.",
+    "Prepared Hexed Bullets are placed in a magical receptacle, such as an enchanted bandolier, a special clip, or other magical storage device. As a free action once per turn when you make a ranged weapon attack with a firearm, you can cause one of the prepared Hexed Bullets to teleport into your firearm, enhancing your next attack with that Hexed Bullets effects, and consuming one use of your Hexed Bullets.",
+    "Whenever you gain another Gunner level, you can replace a known Hexed Bullet option with another.",
+    {
+      "caption": "Hexlock Spellcasting",
+      "type": "table",
+      "colLabels": ["Name", "Tier", "Effect", "Restriction"],
+      "colStyles": [
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        [
+          "Element",
+          "1",
+          "The shot deals additional damage of either fire, lightning, cold, acid, or thunder (chosen when created) equal to 1d6+the tier of the gun.",
+          "-"
+        ],
+        [
+          "Seeking",
+          "1",
+          "The attack’s range is increased to its maximum range, with no short range. In addition, if the attack hits you can target another creature within range and remake the attack with disadvantage.",
+          "-"
+        ],
+        [
+          "Sanctified",
+          "1",
+          "This attack deals extra radiant damage equal to half your gunner level, this bonus is doubled against undead and fiends. In addition if the target is an undead or fiend, any Undead Fortitude or Magical Resistance that creature might have ceases to function until the start of your next turn.",
+          "Religion from Magical Acolyte"
+        ],
+        [
+          "Thorned",
+          "1",
+          "A creature hit by this bullet must make a Dexterity saving throw or become restrained. A creature can use an action on subsequent turns to attempt to break free by making an Athletics or Acrobatic check against your save DC. On a failure they take piercing damage equal to half your gunner level, on a success they break free.",
+          "Nature from Magical Acolyte"
+        ],
+        [
+          "Starlight",
+          "1",
+          "The fired bullet shatters into tiny magical darts. You create a number of these darts equal to your firearm’s tier, each dart deals force damage equal to a single die of the weapon’s damage die + the firearm’s tier. These darts automatically hit targets within the short range of your weapon. These darts can be blocked by effects that would block magic missile.",
+          "Arcana from Magical Acolyte"
+        ],
+        [
+          "Weaken",
+          "2",
+          "The hit creature must make a Strength saving throw or have its speed reduced by 10ft and deal half damage on Strength based weapon attacks until the start of your next turn.",
+          "-"
+        ],
+        [
+          "Mist",
+          "2",
+          "The hit creature takes additional Force damage equal to the Weapon’s Tier, and afterward you teleport to an unoccupied space of your choice within 15ft of that creature.",
+          "-"
+        ],
+        [
+          "Arcane",
+          "3",
+          "Choose one spell you know. When fired the shot takes the effect of that spell, if the spell comes from a point, the point can be any place within range that you could fire at (this expends the spell slot).",
+          "-"
+        ],
+        [
+          "Flash",
+          "3",
+          "Choose a point with your firearms short range. Each creature with 15ft of that point must make a Constitution saving throw. On a failure they suffer the weapons damage die in thunder damage + your INT modifier and are deafened and blinded until the start of your next turn. On a success they take half damage and are not blinded or deafened.",
+          "-"
+        ],
+        [
+          "Rally",
+          "3",
+          "You fire your gun into the air, bolstering allies within 30ft of you. Each ally gains temporary hit points equal to the firearm’s tier + your INT modifier and has advantage on the next attack roll they make.",
+          "Religion from Magical Acolyte"
+        ],
+        [
+          "Swarm",
+          "3",
+          "The hit creature must make a Wisdom saving throw or become swarmed by small insects. While swarmed it cannot benefit from cover (including full) from you and all attacks have advantage against it. At the end of the creature’s turn it can remake the saving throw, ending the effect on a success.",
+          "Nature from Magical Acolyte"
+        ],
+        [
+          "Target",
+          "3",
+          "The hit creature has disadvantage on the next saving throw they would make against a Spell.",
+          "Arcana from Magical Acolyte"
+        ],
+        [
+          "Drill",
+          "4",
+          "You fire a drilling bullet that cuts through anything it hits. Your attack becomes a 5ft line with a range equal to the gun’s short range. Each creature in that line must make a Dexterity saving throw or take Piercing damage equal to the gun’s damage die + your INT modifier. On a success they take half damage.",
+          "-"
+        ],
+        [
+          "Maxim",
+          "4",
+          "This bullet triples your gun’s misfire score for this shot but if it hits deals maximum damage.",
+          "-"
+        ],
+        [
+          "Trick",
+          "5",
+          "You make the attack roll at disadvantage, you cannot gain advantage from any source on this attack. If the attack hits, you regain one expended pact slot and deal extra damage equal to twice that spell slot’s level.",
+          "-"
+        ],
+        [
+          "Midas",
+          "5",
+          "A creature hit with this bullet must make a Constitution saving throw or become restrained. If restrained, on their next turn, they must make the Constitution save again. On a success, the restrained ends. On a failure, they are petrified as they turn to gold. This petrification lasts 1 minute, or until the creature takes damage equal to twice your gunner level.",
+          "-"
+        ],
+        [
+          "Smite",
+          "5",
+          "When fired, expend one spell slot. If the attack hits, it deals additional radiant damage equal to 4d8 + 1d8 for each spell level.",
+          "Religion from Magical Acolyte. Only one can be prepared per long rest."
+        ],
+        [
+          "World",
+          "5",
+          "When fired, the bullet explodes into wooden spears. Make an attack roll against any number of creatures within range.",
+          "Nature from Magical Acolyte. Only one can be prepared per long rest."
+        ],
+        [
+          "Portal",
+          "5",
+          "The bullet is fired on the Ethereal Plane. The target’s AC is calculated using only the target’s Dexterity bonus, ignoring bonuses granted from Shields, Armor and other AC increasing effects. This bullet passes through all barriers, including things such as Wall of Force, Force Cage, or planar portals. On hit, the target takes additional force damage equal to twice the difference between your attack roll and their AC.",
+          "Arcana from Magical Acolyte. Only one can be prepared per long rest."
+        ]
+      ]
+    }
+  ]
 }

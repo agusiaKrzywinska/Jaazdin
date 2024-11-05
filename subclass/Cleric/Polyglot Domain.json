@@ -1,22 +1,22 @@
 {
-    "name": "Polyglot Domain",
-    "source": "TftJC",
-    "page": 17,
-    "className": "Cleric",
-    "classSource": "PHB",
-    "shortName": "Polyglot",
-    "subclassFeatures": [
-        "Polyglot Domain|Cleric|PHB|Polyglot|TftJC|1",
-        "Channel Divinity: Beseech the Divine|Cleric|PHB|Polyglot|TftJC|2",
-        "Polytheist's Gamble|Cleric|PHB|Polyglot|TftJC|6",
-        "Potent Spellcasting|Cleric|PHB|Polyglot|TftJC|8",
-        "Blessing of the Many|Cleric|PHB|Polyglot|TftJC|17"
-    ],
-    "subclassSpells": [
-        "Comprehend Languages|PHB",
-        "Suggestion|PHB",
-        "Tongues|PHB",
-        "Compulsion|PHB",
-        "Seeming|PHB"
-    ]
+  "name": "Polyglot Domain",
+  "source": "TftJC",
+  "page": 17,
+  "className": "Cleric",
+  "classSource": "PHB",
+  "shortName": "Polyglot",
+  "subclassFeatures": [
+    "Polyglot Domain|Cleric|PHB|Polyglot|TftJC|1",
+    "Channel Divinity: Beseech the Divine|Cleric|PHB|Polyglot|TftJC|2",
+    "Polytheist's Gamble|Cleric|PHB|Polyglot|TftJC|6",
+    "Potent Spellcasting|Cleric|PHB|Polyglot|TftJC|8",
+    "Blessing of the Many|Cleric|PHB|Polyglot|TftJC|17"
+  ],
+  "subclassSpells": [
+    "Comprehend Languages|PHB",
+    "Suggestion|PHB",
+    "Tongues|PHB",
+    "Compulsion|PHB",
+    "Seeming|PHB"
+  ]
 }

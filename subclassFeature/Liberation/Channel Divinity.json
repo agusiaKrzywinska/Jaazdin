@@ -1,26 +1,26 @@
 {
-    "name": "Channel Divinity",
-    "source": "TftJC",
-    "className": "Paladin",
-    "classSource": "PHB",
-    "subclassShortName": "Liberation",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "When you take this Oath at 3rd level, you gain access to two new channel divinity options.",
-        {
-            "type": "inset",
-            "name": "Relinquish",
-            "entries": [
-                "As an action, you can expend a use of your Channel Divinity to break an effect keeping someone trapped in place. One effect of your choice within 30 feet that is causing a creature to have their movement reduced or be grappled, restrained, paralyzed, petrified or stunned ends immediately."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Crushing Might",
-            "entries": [
-                "As part of an attack against an inanimate object, you can expend a use of your Channel Divinity to have the attack be a critical hit and deal bonus damage equal to your Paladin Level."
-            ]
-        }
-    ]
+  "name": "Channel Divinity",
+  "source": "TftJC",
+  "className": "Paladin",
+  "classSource": "PHB",
+  "subclassShortName": "Liberation",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "When you take this Oath at 3rd level, you gain access to two new channel divinity options.",
+    {
+      "type": "inset",
+      "name": "Relinquish",
+      "entries": [
+        "As an action, you can expend a use of your Channel Divinity to break an effect keeping someone trapped in place. One effect of your choice within 30 feet that is causing a creature to have their movement reduced or be grappled, restrained, paralyzed, petrified or stunned ends immediately."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Crushing Might",
+      "entries": [
+        "As part of an attack against an inanimate object, you can expend a use of your Channel Divinity to have the attack be a critical hit and deal bonus damage equal to your Paladin Level."
+      ]
+    }
+  ]
 }

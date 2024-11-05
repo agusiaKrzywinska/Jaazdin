@@ -1,12 +1,12 @@
 {
-    "name": "Raw Muscle",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Buckshot",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "At 2nd level, You gain proficiency in Athletics, and you gain proficiency in Medium Armor. If you already have this proficiency, you instead gain another from the Gunner's skill list."
-    ]
+  "name": "Raw Muscle",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Buckshot",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "At 2nd level, You gain proficiency in Athletics, and you gain proficiency in Medium Armor. If you already have this proficiency, you instead gain another from the Gunner's skill list."
+  ]
 }

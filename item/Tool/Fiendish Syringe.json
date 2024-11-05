@@ -1,10 +1,10 @@
 {
-    "name": "Fiendish Syringe",
-    "source": "TftJC",
-    "type": "T",
-    "rarity": "none",
-    "entries": [
-        "<i><b>Innovative Invention.</i></b>",
-        "As an Action, you can administer the Syringe into a dead creature instantly taking the creature's blood. The Blood is the correct amount to act as a Magic Item reagent."
-    ]
+  "name": "Fiendish Syringe",
+  "source": "TftJC",
+  "type": "T",
+  "rarity": "none",
+  "entries": [
+    "<i><b>Innovative Invention.</i></b>",
+    "As an Action, you can administer the Syringe into a dead creature instantly taking the creature's blood. The Blood is the correct amount to act as a Magic Item reagent."
+  ]
 }

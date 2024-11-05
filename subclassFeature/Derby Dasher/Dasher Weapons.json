@@ -1,42 +1,42 @@
 {
-    "name": "Dasher Weapons",
-    "source": "TftJC",
-    "className": "Artificer",
-    "classSource": "TCE",
-    "subclassShortName": "Derby Dasher",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "Additionally at 3rd level, you gain access to two different types of weapons. Working for one minute, you can imbue a pair of shortswords or a pair of whips with your Artificer magic transforming them into either the Flip Swords or Silver Tethers, respectfully (you are proficient in these weapons). You can only either have one of these options active at a time. While these weapons are imbued with your magic, they use your Intelligence Modifier to calculate the to hit bonus and damage rolls. If you would imbue one of these weapons with an Infusion, both are affected by the same infusion (this only counts as one infusion being active).",
+  "name": "Dasher Weapons",
+  "source": "TftJC",
+  "className": "Artificer",
+  "classSource": "TCE",
+  "subclassShortName": "Derby Dasher",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "Additionally at 3rd level, you gain access to two different types of weapons. Working for one minute, you can imbue a pair of shortswords or a pair of whips with your Artificer magic transforming them into either the Flip Swords or Silver Tethers, respectfully (you are proficient in these weapons). You can only either have one of these options active at a time. While these weapons are imbued with your magic, they use your Intelligence Modifier to calculate the to hit bonus and damage rolls. If you would imbue one of these weapons with an Infusion, both are affected by the same infusion (this only counts as one infusion being active).",
+    {
+      "type": "inset",
+      "name": "Flip Swords",
+      "entries": [
+        "These blades now have curved handles and guards, allowing you to hold them in a reversed grip so that the blades protect your forearms. While wielding both of the Blades, you gain the following features.",
         {
-            "type": "inset",
-            "name": "Flip Swords",
-            "entries": [
-                "These blades now have curved handles and guards, allowing you to hold them in a reversed grip so that the blades protect your forearms. While wielding both of the Blades, you gain the following features.",
-                {
-                    "type": "list",
-                    "items": [
-                        "You gain a +1 to your AC.",
-                        "Creatures hit by your blades lose 5ft of their walking speed per hit until the start of your next turn.",
-                        "You can add your ability modifier for damage dealt with your off handed weapon."
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Silver Tethers",
-            "entries": [
-                "These whips now have retractable metal lines.",
-                {
-                    "type": "list",
-                    "items": [
-                        "The whips have a reach of 10ft and deal 1d6 slashing damage. They gain an additional 5ft of reach at 5th, 9th, 13th, and 17th level.",
-                        "While wielding the whips, you gain a climb speed equal to your walking speed, as you can use them similar to grappling hooks. They are strong enough to support your weight plus one additional medium or smaller creature.",
-                        "You can cast Artificer spells originating from the ends of your Tethers, allowing you to cast spells up to the reach with the Tethers."
-                    ]
-                }
-            ]
+          "type": "list",
+          "items": [
+            "You gain a +1 to your AC.",
+            "Creatures hit by your blades lose 5ft of their walking speed per hit until the start of your next turn.",
+            "You can add your ability modifier for damage dealt with your off handed weapon."
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Silver Tethers",
+      "entries": [
+        "These whips now have retractable metal lines.",
+        {
+          "type": "list",
+          "items": [
+            "The whips have a reach of 10ft and deal 1d6 slashing damage. They gain an additional 5ft of reach at 5th, 9th, 13th, and 17th level.",
+            "While wielding the whips, you gain a climb speed equal to your walking speed, as you can use them similar to grappling hooks. They are strong enough to support your weight plus one additional medium or smaller creature.",
+            "You can cast Artificer spells originating from the ends of your Tethers, allowing you to cast spells up to the reach with the Tethers."
+          ]
+        }
+      ]
+    }
+  ]
 }

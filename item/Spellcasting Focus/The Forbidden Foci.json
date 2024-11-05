@@ -1,66 +1,70 @@
 {
-    "name": "The Forbidden Foci",
-    "source": "TftJC",
-    "rarity": "legendary",
-    "wondrous": true,
-    "reqAttune": true,
-    "type": "SCF",
-    "scfType": "arcane",
-    "focus": true,
-    "bonusSpellAttack": "+2",
-    "bonusSpellSaveDc": "+2",
-    "entries": [
-        "This skull is emboldened with the most ancient forms of magic. When used as an Arcane Focus, you gain a +2 to spell attack rolls and your Spell Save DC, this bonus is doubled for the Forbidden Spell. The Forbidden Spell is immune to Antimagic Fields, and checks to counterspell it/dispel it have disadvantage.",
-        "Upon finishing a Long rest, the Forbidden Spell can be wholly modified. You can change the School of Magic the Forbidden spell is considered, and depending on its school, it gains access to a new Arcana option which is always applied to it and does not count against the number that can typically be applied to it. Casting the Forbidden Spell at 6th level or higher allows you to instantly change the Spell School it is considered, but you cannot add the new Arcana type to that casting.",
-        {
-            "type": "entries",
-            "name": "Abjuration",
-            "entries": [
-                "You gain resistance to 2 random damage types (roll 2d10, 1 - Cold, 2 - Fire, 3 - Lightning, 4 - Thunder, 5 - Poison, 6 - Acid, 7 - Radiant, 8 - Necrotic, 9 - Force, 10 - Psychic). Rolling the same number twice instead grants immunity to that type. This lasts for 1 minute. Recasting the Forbidden Spell allows you to reroll the d10s, potentially changing the resistances gained."
-            ]
-        },
-        {
-            "type": "entries",
-            "name": "Conjuration",
-            "entries": [
-                "An Elemental of your choice with a CR equal to half of the Forbidden Spell's level appears and fights along side you, operating on your Initiative. They remain until reduced to 0 hit points, or after 1 minute passes."
-            ]
-        },
-        {
-            "type": "entries",
-            "name": "Divination",
-            "entries": ["You gain a +1 to all ability checks, attack rolls and saving throws until the end of your next turn."]
-        },
-        {
-            "type": "entries",
-            "name": "Enchantment",
-            "entries": [
-                "Creatures affected by the Forbidden Spell must make a Wisdom Saving throw to harm you, as if you were protected by the Sanctuary Spell. This lasts until the end of your next turn."
-            ]
-        },
-        {
-            "type": "entries",
-            "name": "Evocation",
-            "entries": ["The Forbidden Spell's critical range is increased by 1."]
-        },
-        {
-            "type": "entries",
-            "name": "Illusion",
-            "entries": ["You become Invisible after casting the spell and can teleport up to 30ft within a point you can see."]
-        },
-        {
-            "type": "entries",
-            "name": "Necromancy",
-            "entries": [
-                "Slaying a humanoid with this spell causes them to rise as an Undead under your control, with the Undead's CR equal to up to 1/3rd of that Humanoid's CR/Level. Must create an Undead they could physically be (DM Discretion)."
-            ]
-        },
-        {
-            "type": "entries",
-            "name": "Transmutation",
-            "entries": [
-                "The Creature must make a CON Save, and on a fail their damage resistances are removed until the end of your next turn."
-            ]
-        }
-    ]
+  "name": "The Forbidden Foci",
+  "source": "TftJC",
+  "rarity": "legendary",
+  "wondrous": true,
+  "reqAttune": true,
+  "type": "SCF",
+  "scfType": "arcane",
+  "focus": true,
+  "bonusSpellAttack": "+2",
+  "bonusSpellSaveDc": "+2",
+  "entries": [
+    "This skull is emboldened with the most ancient forms of magic. When used as an Arcane Focus, you gain a +2 to spell attack rolls and your Spell Save DC, this bonus is doubled for the Forbidden Spell. The Forbidden Spell is immune to Antimagic Fields, and checks to counterspell it/dispel it have disadvantage.",
+    "Upon finishing a Long rest, the Forbidden Spell can be wholly modified. You can change the School of Magic the Forbidden spell is considered, and depending on its school, it gains access to a new Arcana option which is always applied to it and does not count against the number that can typically be applied to it. Casting the Forbidden Spell at 6th level or higher allows you to instantly change the Spell School it is considered, but you cannot add the new Arcana type to that casting.",
+    {
+      "type": "entries",
+      "name": "Abjuration",
+      "entries": [
+        "You gain resistance to 2 random damage types (roll 2d10, 1 - Cold, 2 - Fire, 3 - Lightning, 4 - Thunder, 5 - Poison, 6 - Acid, 7 - Radiant, 8 - Necrotic, 9 - Force, 10 - Psychic). Rolling the same number twice instead grants immunity to that type. This lasts for 1 minute. Recasting the Forbidden Spell allows you to reroll the d10s, potentially changing the resistances gained."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Conjuration",
+      "entries": [
+        "An Elemental of your choice with a CR equal to half of the Forbidden Spell's level appears and fights along side you, operating on your Initiative. They remain until reduced to 0 hit points, or after 1 minute passes."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Divination",
+      "entries": [
+        "You gain a +1 to all ability checks, attack rolls and saving throws until the end of your next turn."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Enchantment",
+      "entries": [
+        "Creatures affected by the Forbidden Spell must make a Wisdom Saving throw to harm you, as if you were protected by the Sanctuary Spell. This lasts until the end of your next turn."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Evocation",
+      "entries": ["The Forbidden Spell's critical range is increased by 1."]
+    },
+    {
+      "type": "entries",
+      "name": "Illusion",
+      "entries": [
+        "You become Invisible after casting the spell and can teleport up to 30ft within a point you can see."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Necromancy",
+      "entries": [
+        "Slaying a humanoid with this spell causes them to rise as an Undead under your control, with the Undead's CR equal to up to 1/3rd of that Humanoid's CR/Level. Must create an Undead they could physically be (DM Discretion)."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Transmutation",
+      "entries": [
+        "The Creature must make a CON Save, and on a fail their damage resistances are removed until the end of your next turn."
+      ]
+    }
+  ]
 }

@@ -1,46 +1,44 @@
 {
-    "name": "Minor Smite",
-    "source": "TftJC",
-    "page": 56,
-    "level": 0,
-    "school": "V",
-    "time": [
-        {
-            "number": 1,
-            "unit": "bonus action"
-        }
-    ],
-    "range": {
-        "type": "point",
-        "distance": {
-            "type": "self"
-        }
-    },
-    "components": {
-        "v": true,
-        "m": "a weapon"
-    },
-    "duration": [
-        {
-            "type": "timed",
-            "duration": {
-                "type": "round",
-                "amount": 1
-            }
-        }
-    ],
-    "entries": [
-        "A weapon you are holding becomes cloaked in divine light. The next attack you make with the weapon during the duration uses your casting modifier to calculate its to-hit bonus and its damage bonus, instead of your strength. If you hit a creature with this weapon, they must make a Wisdom saving throw, and on a fail they either cannot take reactions until the start of your next turn or are knocked prone (your choice)."
-    ],
-    "savingThrow": [
-        "wisdom"
-    ],
-    "classes": {
-        "fromClassList": [
-            {
-                "name": "Cleric",
-                "source": "PHB"
-            }
-        ]
+  "name": "Minor Smite",
+  "source": "TftJC",
+  "page": 56,
+  "level": 0,
+  "school": "V",
+  "time": [
+    {
+      "number": 1,
+      "unit": "bonus action"
     }
+  ],
+  "range": {
+    "type": "point",
+    "distance": {
+      "type": "self"
+    }
+  },
+  "components": {
+    "v": true,
+    "m": "a weapon"
+  },
+  "duration": [
+    {
+      "type": "timed",
+      "duration": {
+        "type": "round",
+        "amount": 1
+      }
+    }
+  ],
+  "entries": [
+    "A weapon you are holding becomes cloaked in divine light. The next attack you make with the weapon during the duration uses your casting modifier to calculate its to-hit bonus and its damage bonus, instead of your strength. If you hit a creature with this weapon, they must make a Wisdom saving throw, and on a fail they either cannot take reactions until the start of your next turn or are knocked prone (your choice)."
+  ],
+  "savingThrow": ["wisdom"],
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Cleric",
+        "source": "PHB"
+      }
+    ]
+  }
 }

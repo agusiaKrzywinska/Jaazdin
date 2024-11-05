@@ -1,15 +1,15 @@
 {
-    "name": "Bag of Shiny Bait",
-    "source": "TftJC",
-    "rarity": "uncommon",
-    "wondrous": true,
-    "recharge": "dawn",
-    "rechargeAmount": 1,
-    "charges": 3,
-    "entries": [
-        "A small pouch containing Morenstar Lake's special Shiny Bait, a glimmering gem-like item that has little value by itself, but is easily confused as valuable to the casual observer.",
-        "As a bonus action, a creature can remove one piece of bait and throw it up to 30 feet away.",
-        "If it lands within 30 feet of another creature, that creature must make a DC 12 Wisdom saving throw at the start of their next turn. On a fail, they must move up to their speed towards the bait and pick it up. The creature is not compelled to move in a way that obviously endangers them; for instance, over a cliff or through a known hazard. If the creature picks it up, succeeds on their saving throw, or if the bait is unreachable, they immediately discern it as a worthless item and are immune to this effect until the next dawn.",
-        "The bag contains up to 3 pieces of bait. 1 piece of bait reappears in the bag each day at dawn."
-    ]
+  "name": "Bag of Shiny Bait",
+  "source": "TftJC",
+  "rarity": "uncommon",
+  "wondrous": true,
+  "recharge": "dawn",
+  "rechargeAmount": 1,
+  "charges": 3,
+  "entries": [
+    "A small pouch containing Morenstar Lake's special Shiny Bait, a glimmering gem-like item that has little value by itself, but is easily confused as valuable to the casual observer.",
+    "As a bonus action, a creature can remove one piece of bait and throw it up to 30 feet away.",
+    "If it lands within 30 feet of another creature, that creature must make a DC 12 Wisdom saving throw at the start of their next turn. On a fail, they must move up to their speed towards the bait and pick it up. The creature is not compelled to move in a way that obviously endangers them; for instance, over a cliff or through a known hazard. If the creature picks it up, succeeds on their saving throw, or if the bait is unreachable, they immediately discern it as a worthless item and are immune to this effect until the next dawn.",
+    "The bag contains up to 3 pieces of bait. 1 piece of bait reappears in the bag each day at dawn."
+  ]
 }

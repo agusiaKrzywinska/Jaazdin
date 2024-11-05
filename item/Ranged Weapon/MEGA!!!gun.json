@@ -1,21 +1,19 @@
 {
-    "name": "MEGA!!!gun",
-    "source": "TftJC",
-    "type": "R",
-    "rarity": "none",
-    "weight": 10,
-    "value": 50000,
-    "weaponCategory": "martial",
-    "property": [
-        "AF"
-    ],
-    "charges": 90,
-    "dmg1": "4d4",
-    "dmgType": "P",
-    "range": "30/120",
-    "entries": [
-        "<b><i>Tier 4.</i></b>",
-        "<b><i>Belt 90.</i></b> Upon crafting a Belt fed firearm, you additionally gain 1 Belt. Belt fed firearms use a number of rounds equal to how many damage die they roll with their attack. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1.",
-        "<b><i>Auto</i></b> Auto firearms can make an additional attack as a part of the Attack Action."
-    ]
+  "name": "MEGA!!!gun",
+  "source": "TftJC",
+  "type": "R",
+  "rarity": "none",
+  "weight": 10,
+  "value": 50000,
+  "weaponCategory": "martial",
+  "property": ["AF"],
+  "charges": 90,
+  "dmg1": "4d4",
+  "dmgType": "P",
+  "range": "30/120",
+  "entries": [
+    "<b><i>Tier 4.</i></b>",
+    "<b><i>Belt 90.</i></b> Upon crafting a Belt fed firearm, you additionally gain 1 Belt. Belt fed firearms use a number of rounds equal to how many damage die they roll with their attack. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1.",
+    "<b><i>Auto</i></b> Auto firearms can make an additional attack as a part of the Attack Action."
+  ]
 }

@@ -1,12 +1,12 @@
 {
-    "name": "Vampiric Traits",
-    "source": "TftJC",
-    "className": "Barbarian",
-    "classSource": "PHB",
-    "subclassShortName": "Vampire",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "At 3rd level, you gain additional traits from your Vampiric origins. You have an adversion to sunlight, and have disadvantage on attack rolls and perception checks while you are directly within sunlight. You also gain resistance to Necrotic Damage."
-    ]
+  "name": "Vampiric Traits",
+  "source": "TftJC",
+  "className": "Barbarian",
+  "classSource": "PHB",
+  "subclassShortName": "Vampire",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "At 3rd level, you gain additional traits from your Vampiric origins. You have an adversion to sunlight, and have disadvantage on attack rolls and perception checks while you are directly within sunlight. You also gain resistance to Necrotic Damage."
+  ]
 }

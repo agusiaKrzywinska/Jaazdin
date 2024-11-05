@@ -1,24 +1,24 @@
 {
-    "name": "Necro Virus",
-    "source": "TftJC",
-    "className": "Artificer",
-    "classSource": "TCE",
-    "subclassShortName": "Necro Virus",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "Years of meticulous planning and experimentation has led to this moment. Your enemies have only two choices, join willingly or die in vain. Either way, all shall know the blight of the Necro Virus. You have concocted a powerful magic which allows you to control the undead with startling ease, and even make them stronger than they were before. Infect and spread your Virus, and watch as your foes helplessly try and resist your intellect.",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Necro Virus Spells|Artificer|TCE|Necro Virus|TftJC|3|TftJC"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Tools of the Trade|Artificer|TCE|Necro Virus|TftJC|3|TftJC"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Infected Spells|Artificer|TCE|Necro Virus|TftJC|3|TftJC"
-        }
-    ]
+  "name": "Necro Virus",
+  "source": "TftJC",
+  "className": "Artificer",
+  "classSource": "TCE",
+  "subclassShortName": "Necro Virus",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "Years of meticulous planning and experimentation has led to this moment. Your enemies have only two choices, join willingly or die in vain. Either way, all shall know the blight of the Necro Virus. You have concocted a powerful magic which allows you to control the undead with startling ease, and even make them stronger than they were before. Infect and spread your Virus, and watch as your foes helplessly try and resist your intellect.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Necro Virus Spells|Artificer|TCE|Necro Virus|TftJC|3|TftJC"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Tools of the Trade|Artificer|TCE|Necro Virus|TftJC|3|TftJC"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Infected Spells|Artificer|TCE|Necro Virus|TftJC|3|TftJC"
+    }
+  ]
 }

@@ -1,25 +1,25 @@
 {
-    "name": "Dark Arts",
-    "source": "TftJC",
-    "className": "Wizard",
-    "classSource": "PHB",
-    "subclassShortName": "Dark Arts",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "Stories tell of a spell so powerful that a council of Wizards agreed to have it wiped from the records forever. Now, its power has resurfaced.",
-        "As a Dark Arts Wizard, you wield an ancient spell with infinite possibilities. Though it was once forgotten, you shall show the new world the power of the Forbidden Spell.",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "The Forbidden Spell|Wizard|PHB|Dark Arts|TftJC|2"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Ancient Knowledge|Wizard|PHB|Dark Arts|TftJC|2"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Forbidden Spell Versatility|Wizard|PHB|Dark Arts|TftJC|2"
-        }
-    ]
+  "name": "Dark Arts",
+  "source": "TftJC",
+  "className": "Wizard",
+  "classSource": "PHB",
+  "subclassShortName": "Dark Arts",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "Stories tell of a spell so powerful that a council of Wizards agreed to have it wiped from the records forever. Now, its power has resurfaced.",
+    "As a Dark Arts Wizard, you wield an ancient spell with infinite possibilities. Though it was once forgotten, you shall show the new world the power of the Forbidden Spell.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "The Forbidden Spell|Wizard|PHB|Dark Arts|TftJC|2"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Ancient Knowledge|Wizard|PHB|Dark Arts|TftJC|2"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Forbidden Spell Versatility|Wizard|PHB|Dark Arts|TftJC|2"
+    }
+  ]
 }

@@ -1,166 +1,52 @@
 {
-    "name": "Magical Acolyte",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Hexlock",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "At 2nd level, you choose an arcane discipline to learn from to enchant your firearms. You gain proficiency in either Nature, Religion, or Arcana, and your proficiency bonus for that skill is doubled. Depending on your choice, you unlock a unique Hexed Bullet the Pact Magic feature. If you choose Nature, your spell list is from the Druid and Ranger list, if you chose Religion your spell list is from the Cleric and Paladin list, and if you chose Arcana your spell list is from the Wizard and Artificer list. Regardless of your choice, your spell casting modifier is Intelligence.",
-        "At certain level, when you gain new Hexed Bullets you automatically learn the ones associated with your spellcasting list.",
-        {
-            "caption": "Hexlock Spellcasting",
-            "type": "table",
-            "colLabels": [
-                "Gunner Level",
-                "Cantrips Known",
-                "Spells Known",
-                "Pact Slots",
-                "Slot Level"
-            ],
-            "colStyles": [
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center",
-                "col-1 text-center"
-            ],
-            "rows": [
-                [
-                    "2",
-                    "2",
-                    "2",
-                    "1",
-                    "1st"
-                ],
-                [
-                    "3",
-                    "2",
-                    "2",
-                    "1",
-                    "1st"
-                ],
-                [
-                    "4",
-                    "2",
-                    "2",
-                    "1",
-                    "1st"
-                ],
-                [
-                    "5",
-                    "2",
-                    "3",
-                    "1",
-                    "1st"
-                ],
-                [
-                    "6",
-                    "2",
-                    "3",
-                    "1",
-                    "1st"
-                ],
-                [
-                    "7",
-                    "2",
-                    "4",
-                    "2",
-                    "2nd"
-                ],
-                [
-                    "8",
-                    "2",
-                    "4",
-                    "2",
-                    "2nd"
-                ],
-                [
-                    "9",
-                    "2",
-                    "4",
-                    "2",
-                    "2nd"
-                ],
-                [
-                    "10",
-                    "3",
-                    "5",
-                    "2",
-                    "2nd"
-                ],
-                [
-                    "11",
-                    "3",
-                    "5",
-                    "2",
-                    "2nd"
-                ],
-                [
-                    "12",
-                    "3",
-                    "5",
-                    "2",
-                    "2nd"
-                ],
-                [
-                    "13",
-                    "3",
-                    "6",
-                    "3",
-                    "3rd"
-                ],
-                [
-                    "14",
-                    "3",
-                    "6",
-                    "3",
-                    "3rd"
-                ],
-                [
-                    "15",
-                    "3",
-                    "6",
-                    "3",
-                    "3rd"
-                ],
-                [
-                    "16",
-                    "3",
-                    "7",
-                    "3",
-                    "3rd"
-                ],
-                [
-                    "17",
-                    "3",
-                    "7",
-                    "3",
-                    "3rd"
-                ],
-                [
-                    "18",
-                    "3",
-                    "7",
-                    "3",
-                    "3rd"
-                ],
-                [
-                    "19",
-                    "3",
-                    "8",
-                    "4",
-                    "4th"
-                ],
-                [
-                    "20",
-                    "3",
-                    "9",
-                    "4",
-                    "4th"
-                ]
-            ]
-        }
-    ]
+  "name": "Magical Acolyte",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Hexlock",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "At 2nd level, you choose an arcane discipline to learn from to enchant your firearms. You gain proficiency in either Nature, Religion, or Arcana, and your proficiency bonus for that skill is doubled. Depending on your choice, you unlock a unique Hexed Bullet the Pact Magic feature. If you choose Nature, your spell list is from the Druid and Ranger list, if you chose Religion your spell list is from the Cleric and Paladin list, and if you chose Arcana your spell list is from the Wizard and Artificer list. Regardless of your choice, your spell casting modifier is Intelligence.",
+    "At certain level, when you gain new Hexed Bullets you automatically learn the ones associated with your spellcasting list.",
+    {
+      "caption": "Hexlock Spellcasting",
+      "type": "table",
+      "colLabels": [
+        "Gunner Level",
+        "Cantrips Known",
+        "Spells Known",
+        "Pact Slots",
+        "Slot Level"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        ["2", "2", "2", "1", "1st"],
+        ["3", "2", "2", "1", "1st"],
+        ["4", "2", "2", "1", "1st"],
+        ["5", "2", "3", "1", "1st"],
+        ["6", "2", "3", "1", "1st"],
+        ["7", "2", "4", "2", "2nd"],
+        ["8", "2", "4", "2", "2nd"],
+        ["9", "2", "4", "2", "2nd"],
+        ["10", "3", "5", "2", "2nd"],
+        ["11", "3", "5", "2", "2nd"],
+        ["12", "3", "5", "2", "2nd"],
+        ["13", "3", "6", "3", "3rd"],
+        ["14", "3", "6", "3", "3rd"],
+        ["15", "3", "6", "3", "3rd"],
+        ["16", "3", "7", "3", "3rd"],
+        ["17", "3", "7", "3", "3rd"],
+        ["18", "3", "7", "3", "3rd"],
+        ["19", "3", "8", "4", "4th"],
+        ["20", "3", "9", "4", "4th"]
+      ]
+    }
+  ]
 }

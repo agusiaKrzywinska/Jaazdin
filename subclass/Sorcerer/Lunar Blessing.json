@@ -1,14 +1,14 @@
 {
-    "name": "Lunar Blessing",
-    "source": "TftJC",
-    "page": 40,
-    "className": "Sorcerer",
-    "classSource": "PHB",
-    "shortName": "Lunar",
-    "subclassFeatures": [
-        "Lunar Blessing|Sorcerer|PHB|Lunar|TftJC|1",
-        "Weave of Midnight|Sorcerer|PHB|Lunar|TftJC|6",
-        "Wax and Wane|Sorcerer|PHB|Lunar|TftJC|14",
-        "Blessing of the Moons|Sorcerer|PHB|Lunar|TftJC|18"
-    ]
+  "name": "Lunar Blessing",
+  "source": "TftJC",
+  "page": 40,
+  "className": "Sorcerer",
+  "classSource": "PHB",
+  "shortName": "Lunar",
+  "subclassFeatures": [
+    "Lunar Blessing|Sorcerer|PHB|Lunar|TftJC|1",
+    "Weave of Midnight|Sorcerer|PHB|Lunar|TftJC|6",
+    "Wax and Wane|Sorcerer|PHB|Lunar|TftJC|14",
+    "Blessing of the Moons|Sorcerer|PHB|Lunar|TftJC|18"
+  ]
 }

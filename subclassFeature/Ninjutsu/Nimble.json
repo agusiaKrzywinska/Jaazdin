@@ -1,12 +1,12 @@
 {
-    "name": "Nimble",
-    "source": "TftJC",
-    "className": "Rogue",
-    "classSource": "PHB",
-    "subclassShortName": "Ninjutsu",
-    "subclassSource": "TftJC",
-    "level": 9,
-    "entries": [
-        "At 9th level, your ability to move is enhanced. Your walking speed increases by 10 ft, and you gain a climbing speed equal to your walking speed. Your long jump distance is tripled and uses your Dexterity to calculate distance, instead of Strength."
-    ]
+  "name": "Nimble",
+  "source": "TftJC",
+  "className": "Rogue",
+  "classSource": "PHB",
+  "subclassShortName": "Ninjutsu",
+  "subclassSource": "TftJC",
+  "level": 9,
+  "entries": [
+    "At 9th level, your ability to move is enhanced. Your walking speed increases by 10 ft, and you gain a climbing speed equal to your walking speed. Your long jump distance is tripled and uses your Dexterity to calculate distance, instead of Strength."
+  ]
 }

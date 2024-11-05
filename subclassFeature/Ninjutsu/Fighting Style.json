@@ -1,40 +1,40 @@
 {
-    "name": "Fighting Style",
-    "source": "TftJC",
-    "className": "Rogue",
-    "classSource": "PHB",
-    "subclassShortName": "Ninjutsu",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "At 3rd level, you also adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.",
-        {
-            "type": "inset",
-            "name": "Archery",
-            "entries": [
-                "You gain a +2 bonus to attack rolls you make with ranged weapons."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Blind Fighting",
-            "entries": [
-                "You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in total darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Dueling",
-            "entries": [
-                "When you are wielding a melee weapon in one hand and on other weapon, you gain a +2 bonus to damage rolls with that weapon."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Thrown Weapon Fighting",
-            "entries": [
-                "You can draw a weapon that has the thrown property as part of the attack you make with the weapon. In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll."
-            ]
-        }
-    ]
+  "name": "Fighting Style",
+  "source": "TftJC",
+  "className": "Rogue",
+  "classSource": "PHB",
+  "subclassShortName": "Ninjutsu",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "At 3rd level, you also adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.",
+    {
+      "type": "inset",
+      "name": "Archery",
+      "entries": [
+        "You gain a +2 bonus to attack rolls you make with ranged weapons."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Blind Fighting",
+      "entries": [
+        "You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in total darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Dueling",
+      "entries": [
+        "When you are wielding a melee weapon in one hand and on other weapon, you gain a +2 bonus to damage rolls with that weapon."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Thrown Weapon Fighting",
+      "entries": [
+        "You can draw a weapon that has the thrown property as part of the attack you make with the weapon. In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll."
+      ]
+    }
+  ]
 }

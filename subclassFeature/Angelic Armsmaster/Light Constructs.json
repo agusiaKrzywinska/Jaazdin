@@ -1,26 +1,26 @@
 {
-    "name": "Light Constructs",
-    "source": "TftJC",
-    "className": "Fighter",
-    "classSource": "PHB",
-    "subclassShortName": "Angelic Armsmaster",
-    "subclassSource": "TftJC",
-    "level": 7,
-    "entries": [
-        "At 7th level, you gain the ability to use Radiant Reach and Light Shield. You can use these features a total number of times equal to your Proficiency Bonus per Long Rest. The Spiritual Weapon uses your Wisdom to calculate to-hit bonus and damage rolls.",
-        {
-            "type": "inset",
-            "name": "Radiant Reach",
-            "entries": [
-                "You can cast the spell Spiritual Weapon, selecting a weapon in your arsenal as the Spiritual Weapon, it then gains any bonuses that weapon has, and deals Radiant Damage instead of Force. It returns to your Arsenal after the spell ends."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Light Shield",
-            "entries": [
-                "As a Reaction to an ally within 30ft of you being attacked, you can cast Shield of Faith on that creature, potentially making the attack miss them. You then begin concentrating on the spell."
-            ]
-        }
-    ]
+  "name": "Light Constructs",
+  "source": "TftJC",
+  "className": "Fighter",
+  "classSource": "PHB",
+  "subclassShortName": "Angelic Armsmaster",
+  "subclassSource": "TftJC",
+  "level": 7,
+  "entries": [
+    "At 7th level, you gain the ability to use Radiant Reach and Light Shield. You can use these features a total number of times equal to your Proficiency Bonus per Long Rest. The Spiritual Weapon uses your Wisdom to calculate to-hit bonus and damage rolls.",
+    {
+      "type": "inset",
+      "name": "Radiant Reach",
+      "entries": [
+        "You can cast the spell Spiritual Weapon, selecting a weapon in your arsenal as the Spiritual Weapon, it then gains any bonuses that weapon has, and deals Radiant Damage instead of Force. It returns to your Arsenal after the spell ends."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Light Shield",
+      "entries": [
+        "As a Reaction to an ally within 30ft of you being attacked, you can cast Shield of Faith on that creature, potentially making the attack miss them. You then begin concentrating on the spell."
+      ]
+    }
+  ]
 }

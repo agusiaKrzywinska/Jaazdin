@@ -1,13 +1,13 @@
 {
-    "name": "College of Tomfoolery",
-    "source": "TftJC",
-    "page": 15,
-    "className": "Bard",
-    "classSource": "PHB",
-    "shortName": "Tomfoolery",
-    "subclassFeatures": [
-        "College of Tomfoolery|Bard|PHB|Tomfoolery|TftJC|3",
-        "When The Fool Fools You, Who Is The Fool?|Bard|PHB|Tomfoolery|TftJC|6",
-        "Confusing Spells|Bard|PHB|Tomfoolery|TftJC|14"
-    ]
+  "name": "College of Tomfoolery",
+  "source": "TftJC",
+  "page": 15,
+  "className": "Bard",
+  "classSource": "PHB",
+  "shortName": "Tomfoolery",
+  "subclassFeatures": [
+    "College of Tomfoolery|Bard|PHB|Tomfoolery|TftJC|3",
+    "When The Fool Fools You, Who Is The Fool?|Bard|PHB|Tomfoolery|TftJC|6",
+    "Confusing Spells|Bard|PHB|Tomfoolery|TftJC|14"
+  ]
 }

@@ -1,16 +1,16 @@
 {
-    "name": "Wirelauncher",
-    "source": "TftJC",
-    "rarity": "none",
-    "type": "GV",
-    "entries": [
-        "There are the following versions:",
-        {
-            "type": "list",
-            "items": [
-                "{@item Wirelauncher MK I|TftJC}",
-                "{@item Wirelauncher MK II|TftJC}"
-            ]
-        }
-    ]
+  "name": "Wirelauncher",
+  "source": "TftJC",
+  "rarity": "none",
+  "type": "GV",
+  "entries": [
+    "There are the following versions:",
+    {
+      "type": "list",
+      "items": [
+        "{@item Wirelauncher MK I|TftJC}",
+        "{@item Wirelauncher MK II|TftJC}"
+      ]
+    }
+  ]
 }

@@ -1,35 +1,35 @@
 {
-    "name": "Spirit Brothers",
-    "source": "TftJC",
-    "className": "Monk",
-    "classSource": "PHB",
-    "subclassShortName": "Spirit",
-    "subclassSource": "TftJC",
-    "level": 17,
-    "entries": [
-        "At 17th level, you gain mastery over your stances, and can spread their power.",
-        "Whenever you change into a new stance, you can provide the effect of that stance granted by the Spirit Stance and Stance Shift to a creature of your choice within 30ft of you. That creature uses your Monk level and Monk Save DC for any abilities.",
-        "Also, whenever you would change your stance, you can choose the same stance you are currently in, Awakening the stance. This still counts as changing stances. If you Awaken a stance, you gain the following effects along side the effects granted from Spirit Stance.",
-        {
-            "type": "inset",
-            "name": "Hunter Stance, Awaken",
-            "entries": [
-                "Your Critical Strike range is increased by 1, and your Extra Attack feature gains an additional attack."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Graceful Stance, Awaken",
-            "entries": [
-                "Your Strength and Dexterity, or Wisdom and Charisma Score increases by 5, up to a maximum of 30."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Titan Stance, Awaken",
-            "entries": [
-                "You take reduced damage from all sources equal to your Wisdom Modifier."
-            ]
-        }
-    ]
+  "name": "Spirit Brothers",
+  "source": "TftJC",
+  "className": "Monk",
+  "classSource": "PHB",
+  "subclassShortName": "Spirit",
+  "subclassSource": "TftJC",
+  "level": 17,
+  "entries": [
+    "At 17th level, you gain mastery over your stances, and can spread their power.",
+    "Whenever you change into a new stance, you can provide the effect of that stance granted by the Spirit Stance and Stance Shift to a creature of your choice within 30ft of you. That creature uses your Monk level and Monk Save DC for any abilities.",
+    "Also, whenever you would change your stance, you can choose the same stance you are currently in, Awakening the stance. This still counts as changing stances. If you Awaken a stance, you gain the following effects along side the effects granted from Spirit Stance.",
+    {
+      "type": "inset",
+      "name": "Hunter Stance, Awaken",
+      "entries": [
+        "Your Critical Strike range is increased by 1, and your Extra Attack feature gains an additional attack."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Graceful Stance, Awaken",
+      "entries": [
+        "Your Strength and Dexterity, or Wisdom and Charisma Score increases by 5, up to a maximum of 30."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Titan Stance, Awaken",
+      "entries": [
+        "You take reduced damage from all sources equal to your Wisdom Modifier."
+      ]
+    }
+  ]
 }

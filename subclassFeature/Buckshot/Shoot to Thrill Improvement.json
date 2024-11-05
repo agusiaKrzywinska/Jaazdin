@@ -1,12 +1,12 @@
 {
-    "name": "Shoot to Thrill Improvement",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Buckshot",
-    "subclassSource": "TftJC",
-    "level": 10,
-    "entries": [
-        "At 10th level, your Shoot to Thrill feature is enhanced. When making a ranged attack with a Shotgun that is enhanced by Shoot to Thrill, if the attack hits the length of its cone is doubled."
-    ]
+  "name": "Shoot to Thrill Improvement",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Buckshot",
+  "subclassSource": "TftJC",
+  "level": 10,
+  "entries": [
+    "At 10th level, your Shoot to Thrill feature is enhanced. When making a ranged attack with a Shotgun that is enhanced by Shoot to Thrill, if the attack hits the length of its cone is doubled."
+  ]
 }

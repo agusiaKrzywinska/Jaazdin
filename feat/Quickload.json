@@ -1,18 +1,18 @@
 {
-    "name": "Quickload",
-    "source": "TftJC",
-    "entries": [
-        {
-            "type": "list",
-            "items": [
-                "You gain a +1 to your Dexterity Score, up to a maximum of 20",
-                "Once per turn, any Bonus Action detailing reloading a Firearm for you is now ignored"
-            ]
-        }
-    ],
-    "prerequisite": [
-        {
-            "other": "Firearms Proficiency"
-        }
-    ]
+  "name": "Quickload",
+  "source": "TftJC",
+  "entries": [
+    {
+      "type": "list",
+      "items": [
+        "You gain a +1 to your Dexterity Score, up to a maximum of 20",
+        "Once per turn, any Bonus Action detailing reloading a Firearm for you is now ignored"
+      ]
+    }
+  ],
+  "prerequisite": [
+    {
+      "other": "Firearms Proficiency"
+    }
+  ]
 }

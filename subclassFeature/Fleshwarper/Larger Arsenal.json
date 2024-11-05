@@ -1,33 +1,33 @@
 {
-    "name": "Larger Arsenal",
-    "source": "TftJC",
-    "className": "Warlock",
-    "classSource": "PHB",
-    "subclassShortName": "Fleshwarper",
-    "subclassSource": "TftJC",
-    "level": 10,
-    "entries": [
-        "At 10th level, you gain access to more weapons. Additionally, you gain the ability to incorporate magical weapons into your conjured weapons. Whenever you attune to a magical sword, shield, bow or heavy weapon, it can be absorbed into your body. Unattuning from an absorbed weapon makes it reappear in an unoccupied space next to you. Your conjured Blade, Shield, Bow and Hammer can take on properties from magical swords, shields, bows and two handed heavy weapons, respectively. When conjured, they gain any bonuses the magical weapon provides, like a +1 to hit and damage rolls, new damage types, spells they can cast, etc. They retain their original damage die, and cannot gain the versatile property.",
-        {
-            "type": "inset",
-            "name": "Bow",
-            "entries": [
-                "You conjure a massive bow that doesn't require two hands to shoot. You can make a ranged weapon attack while the Bow is conjured. It deals 3d8 Piercing damage, and has a range of 600 feet."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Energy",
-            "entries": [
-                "Your conjure an arm made of unstable energy. This acts as an Arcane Focus. Whenever you cast a spell that forces a creature to make a Saving throw, you can roll 1d6. If the number rolled is equal to or higher than the level of spell you are casting, the creature making the saving throw has disadvantage."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Hammer",
-            "entries": [
-                "You conjure a massive Bludgeoning weapon. Your walking speed is lowered by 10 feet. It only requires your Conjured arm to lift and wield effectively. It deals 3d6 Bludgeoning damage. You have resistance to Piercing, Bludgeoning and Slashing damage"
-            ]
-        }
-    ]
+  "name": "Larger Arsenal",
+  "source": "TftJC",
+  "className": "Warlock",
+  "classSource": "PHB",
+  "subclassShortName": "Fleshwarper",
+  "subclassSource": "TftJC",
+  "level": 10,
+  "entries": [
+    "At 10th level, you gain access to more weapons. Additionally, you gain the ability to incorporate magical weapons into your conjured weapons. Whenever you attune to a magical sword, shield, bow or heavy weapon, it can be absorbed into your body. Unattuning from an absorbed weapon makes it reappear in an unoccupied space next to you. Your conjured Blade, Shield, Bow and Hammer can take on properties from magical swords, shields, bows and two handed heavy weapons, respectively. When conjured, they gain any bonuses the magical weapon provides, like a +1 to hit and damage rolls, new damage types, spells they can cast, etc. They retain their original damage die, and cannot gain the versatile property.",
+    {
+      "type": "inset",
+      "name": "Bow",
+      "entries": [
+        "You conjure a massive bow that doesn't require two hands to shoot. You can make a ranged weapon attack while the Bow is conjured. It deals 3d8 Piercing damage, and has a range of 600 feet."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Energy",
+      "entries": [
+        "Your conjure an arm made of unstable energy. This acts as an Arcane Focus. Whenever you cast a spell that forces a creature to make a Saving throw, you can roll 1d6. If the number rolled is equal to or higher than the level of spell you are casting, the creature making the saving throw has disadvantage."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Hammer",
+      "entries": [
+        "You conjure a massive Bludgeoning weapon. Your walking speed is lowered by 10 feet. It only requires your Conjured arm to lift and wield effectively. It deals 3d6 Bludgeoning damage. You have resistance to Piercing, Bludgeoning and Slashing damage"
+      ]
+    }
+  ]
 }

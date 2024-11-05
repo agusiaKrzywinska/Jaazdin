@@ -1,18 +1,14 @@
 {
-    "name": "Adept",
-    "prerequisite": [
-        {
-            "feature": [
-                "Dark Arts Wizard"
-            ]
-        }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "Other"
-    ],
-    "entries": [
-        "Tier 1 Arcana. You may add your Intelligence Modifier + the spell level to the damage of The Forbidden Spell."
-    ]
+  "name": "Adept",
+  "prerequisite": [
+    {
+      "feature": ["Dark Arts Wizard"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["Other"],
+  "entries": [
+    "Tier 1 Arcana. You may add your Intelligence Modifier + the spell level to the damage of The Forbidden Spell."
+  ]
 }

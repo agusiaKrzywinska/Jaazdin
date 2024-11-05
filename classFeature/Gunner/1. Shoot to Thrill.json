@@ -1,10 +1,10 @@
 {
-    "name": "Shoot to Thrill",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "level": 1,
-    "entries": [
-        "Beginning at 1st level, you gain the ability to make sure your shots count. As a Bonus Action, your next ranged attack with a firearm has advantage. If that attack hits, it deals additional damage equal to your Proficiency Bonus. You can use this ability a number of times equal to your Proficiency Bonus, and you regain all spent uses of this ability after you complete a short rest. When you reduce a hostile creature to 0 hit points, you regain a spent use of this ability."
-    ]
+  "name": "Shoot to Thrill",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "level": 1,
+  "entries": [
+    "Beginning at 1st level, you gain the ability to make sure your shots count. As a Bonus Action, your next ranged attack with a firearm has advantage. If that attack hits, it deals additional damage equal to your Proficiency Bonus. You can use this ability a number of times equal to your Proficiency Bonus, and you regain all spent uses of this ability after you complete a short rest. When you reduce a hostile creature to 0 hit points, you regain a spent use of this ability."
+  ]
 }

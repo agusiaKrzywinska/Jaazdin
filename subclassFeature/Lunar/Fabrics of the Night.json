@@ -1,58 +1,28 @@
 {
-    "name": "Fabrics of the Night",
-    "source": "TftJC",
-    "className": "Sorcerer",
-    "classSource": "PHB",
-    "subclassShortName": "Lunar",
-    "subclassSource": "TftJC",
-    "level": 1,
-    "entries": [
-        "At 1st level, your blessing gives you an innate understanding of the vexing nature of the moons and their magic. Illusions and enchantments come naturally to you: you learn the Friends or Minor Illusion cantrip. In addition, when you reach certain levels in this class you may learn the following spells without having them count against your spells known, if they are not on the sorcerer spell list, they are added to your spell list:",
-        {
-            "type": "table",
-            "caption": "Fabric of Night Spells",
-            "colLabels": [
-                "Sorcerer Level",
-                "Spells"
-            ],
-            "colStyles": [
-                "col- text-",
-                "col- text- "
-            ],
-            "rows": [
-                [
-                    "3rd",
-                    "moonbeam"
-                ],
-                [
-                    "5th",
-                    "fear"
-                ],
-                [
-                    "7th",
-                    "greater invisibility"
-                ],
-                [
-                    "9th",
-                    "dream"
-                ],
-                [
-                    "11th",
-                    "programmed illusion"
-                ],
-                [
-                    "13th",
-                    "simulacrum"
-                ],
-                [
-                    "15th",
-                    "dominate monster"
-                ],
-                [
-                    "17th",
-                    "weird"
-                ]
-            ]
-        }
-    ]
+  "name": "Fabrics of the Night",
+  "source": "TftJC",
+  "className": "Sorcerer",
+  "classSource": "PHB",
+  "subclassShortName": "Lunar",
+  "subclassSource": "TftJC",
+  "level": 1,
+  "entries": [
+    "At 1st level, your blessing gives you an innate understanding of the vexing nature of the moons and their magic. Illusions and enchantments come naturally to you: you learn the Friends or Minor Illusion cantrip. In addition, when you reach certain levels in this class you may learn the following spells without having them count against your spells known, if they are not on the sorcerer spell list, they are added to your spell list:",
+    {
+      "type": "table",
+      "caption": "Fabric of Night Spells",
+      "colLabels": ["Sorcerer Level", "Spells"],
+      "colStyles": ["col- text-", "col- text- "],
+      "rows": [
+        ["3rd", "moonbeam"],
+        ["5th", "fear"],
+        ["7th", "greater invisibility"],
+        ["9th", "dream"],
+        ["11th", "programmed illusion"],
+        ["13th", "simulacrum"],
+        ["15th", "dominate monster"],
+        ["17th", "weird"]
+      ]
+    }
+  ]
 }

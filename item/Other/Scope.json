@@ -1,13 +1,13 @@
 {
-    "name": "Scope",
-    "source": "TftJC",
-    "page": 10,
-    "type": "OTH",
-    "rarity": "none",
-    "weight": 0,
-    "value": 40000,
-    "entries": [
-        "<b><i>Effect.</i></b> The firearm does not pose disadvantage when firing at long range.",
-        "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
-    ]
+  "name": "Scope",
+  "source": "TftJC",
+  "page": 10,
+  "type": "OTH",
+  "rarity": "none",
+  "weight": 0,
+  "value": 40000,
+  "entries": [
+    "<b><i>Effect.</i></b> The firearm does not pose disadvantage when firing at long range.",
+    "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+  ]
 }

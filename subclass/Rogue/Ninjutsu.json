@@ -1,16 +1,16 @@
 {
-    "name": "Ninjutsu",
-    "source": "TftJC",
-    "page": 35,
-    "className": "Rogue",
-    "classSource": "PHB",
-    "shortName": "Ninjutsu",
-    "subclassFeatures": [
-        "Ninjutsu|Rogue|PHB|Ninjutsu|TftJC|3",
-        "Nimble|Rogue|PHB|Ninjutsu|TftJC|9",
-        "Preparedness|Rogue|PHB|Ninjutsu|TftJC|9",
-        "Death Mark|Rogue|PHB|Ninjutsu|TftJC|13",
-        "Darkness Adaptation|Rogue|PHB|Ninjutsu|TftJC|13",
-        "You Are Already Dead|Rogue|PHB|Ninjutsu|TftJC|17"
-    ]
+  "name": "Ninjutsu",
+  "source": "TftJC",
+  "page": 35,
+  "className": "Rogue",
+  "classSource": "PHB",
+  "shortName": "Ninjutsu",
+  "subclassFeatures": [
+    "Ninjutsu|Rogue|PHB|Ninjutsu|TftJC|3",
+    "Nimble|Rogue|PHB|Ninjutsu|TftJC|9",
+    "Preparedness|Rogue|PHB|Ninjutsu|TftJC|9",
+    "Death Mark|Rogue|PHB|Ninjutsu|TftJC|13",
+    "Darkness Adaptation|Rogue|PHB|Ninjutsu|TftJC|13",
+    "You Are Already Dead|Rogue|PHB|Ninjutsu|TftJC|17"
+  ]
 }

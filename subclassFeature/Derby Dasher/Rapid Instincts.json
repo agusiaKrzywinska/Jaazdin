@@ -1,12 +1,12 @@
 {
-    "name": "Rapid Instincts",
-    "source": "TftJC",
-    "className": "Artificer",
-    "classSource": "TCE",
-    "subclassShortName": "Derby Dasher",
-    "subclassSource": "TftJC",
-    "level": 15,
-    "entries": [
-        "At 15th level, your Derby Blades move faster than your enemies reactions. When you would be attacked by an enemy within 5ft of you, or subjected to a Saving Throw to which you are in the area of, you can use your reaction to move your movement. For melee attacks, you would no longer be in range of their attack. If this would move you out of the area of the effect of the Saving Throw, you are considered outside of its area of effect. You can use this feature a number of times per long rest equal to your Intelligence Modifier."
-    ]
+  "name": "Rapid Instincts",
+  "source": "TftJC",
+  "className": "Artificer",
+  "classSource": "TCE",
+  "subclassShortName": "Derby Dasher",
+  "subclassSource": "TftJC",
+  "level": 15,
+  "entries": [
+    "At 15th level, your Derby Blades move faster than your enemies reactions. When you would be attacked by an enemy within 5ft of you, or subjected to a Saving Throw to which you are in the area of, you can use your reaction to move your movement. For melee attacks, you would no longer be in range of their attack. If this would move you out of the area of the effect of the Saving Throw, you are considered outside of its area of effect. You can use this feature a number of times per long rest equal to your Intelligence Modifier."
+  ]
 }

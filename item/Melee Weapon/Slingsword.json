@@ -1,19 +1,16 @@
 {
-    "name": "Slingsword",
-    "source": "TftJC",
-    "page": 50,
-    "type": "M",
-    "rarity": "none",
-    "weight": 2,
-    "value": 25000,
-    "weaponCategory": "martial",
-    "property": [
-        "R",
-        "F"
-    ],
-    "dmg1": "1d8",
-    "dmgType": "S",
-    "entries": [
-        "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
-    ]
+  "name": "Slingsword",
+  "source": "TftJC",
+  "page": 50,
+  "type": "M",
+  "rarity": "none",
+  "weight": 2,
+  "value": 25000,
+  "weaponCategory": "martial",
+  "property": ["R", "F"],
+  "dmg1": "1d8",
+  "dmgType": "S",
+  "entries": [
+    "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+  ]
 }
