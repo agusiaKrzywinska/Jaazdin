@@ -2,8 +2,6 @@
     "name": "Zar's Fancy Boots",
     "source": "TftJC",
     "rarity": "none",
-    "baseItem": "Common Clothes|PHB",
-    "type": "G",
     "modifySpeed": {
         "bonus": {
             "walk": 5
