@@ -63,6 +63,7 @@ prompt.get(
                     version: version,
                 },
             ],
+            edition: "classic",
             dateAdded: 0,
             dateLastModified: Math.round(Date.now() / 1000),
         };
