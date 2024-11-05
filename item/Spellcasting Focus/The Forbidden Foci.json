@@ -8,7 +8,7 @@
     "scfType": "arcane",
     "focus": true,
     "bonusSpellAttack": "+2",
-    "bonusSpellSaveDC": "+2",
+    "bonusSpellSaveDc": "+2",
     "entries": [
         "This skull is emboldened with the most ancient forms of magic. When used as an Arcane Focus, you gain a +2 to spell attack rolls and your Spell Save DC, this bonus is doubled for the Forbidden Spell. The Forbidden Spell is immune to Antimagic Fields, and checks to counterspell it/dispel it have disadvantage.",
         "Upon finishing a Long rest, the Forbidden Spell can be wholly modified. You can change the School of Magic the Forbidden spell is considered, and depending on its school, it gains access to a new Arcana option which is always applied to it and does not count against the number that can typically be applied to it. Casting the Forbidden Spell at 6th level or higher allows you to instantly change the Spell School it is considered, but you cannot add the new Arcana type to that casting.",
