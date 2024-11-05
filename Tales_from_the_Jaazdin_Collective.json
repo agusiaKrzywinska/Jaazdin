@@ -14,11 +14,12 @@
                     "Agusia Krzywinska",
                     "Adam Henderson"
                 ],
-                "version": "0.1.33"
+                "version": "0.1.38"
             }
         ],
+        "edition": "classic",
         "dateAdded": 0,
-        "dateLastModified": 1730585341
+        "dateLastModified": 1730833738
     },
     "background": [
         {
@@ -4576,6 +4577,78 @@
             ]
         },
         {
+            "name": "The Forbidden Foci",
+            "source": "TftJC",
+            "rarity": "legendary",
+            "wondrous": true,
+            "reqAttune": true,
+            "type": "SCF",
+            "scfType": "arcane",
+            "focus": true,
+            "bonusSpellAttack": "+2",
+            "bonusSpellSaveDc": "+2",
+            "entries": [
+                "This skull is emboldened with the most ancient forms of magic. When used as an Arcane Focus, you gain a +2 to spell attack rolls and your Spell Save DC, this bonus is doubled for the Forbidden Spell. The Forbidden Spell is immune to Antimagic Fields, and checks to counterspell it/dispel it have disadvantage.",
+                "Upon finishing a Long rest, the Forbidden Spell can be wholly modified. You can change the School of Magic the Forbidden spell is considered, and depending on its school, it gains access to a new Arcana option which is always applied to it and does not count against the number that can typically be applied to it. Casting the Forbidden Spell at 6th level or higher allows you to instantly change the Spell School it is considered, but you cannot add the new Arcana type to that casting.",
+                {
+                    "type": "entries",
+                    "name": "Abjuration",
+                    "entries": [
+                        "You gain resistance to 2 random damage types (roll 2d10, 1 - Cold, 2 - Fire, 3 - Lightning, 4 - Thunder, 5 - Poison, 6 - Acid, 7 - Radiant, 8 - Necrotic, 9 - Force, 10 - Psychic). Rolling the same number twice instead grants immunity to that type. This lasts for 1 minute. Recasting the Forbidden Spell allows you to reroll the d10s, potentially changing the resistances gained."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Conjuration",
+                    "entries": [
+                        "An Elemental of your choice with a CR equal to half of the Forbidden Spell's level appears and fights along side you, operating on your Initiative. They remain until reduced to 0 hit points, or after 1 minute passes."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Divination",
+                    "entries": [
+                        "You gain a +1 to all ability checks, attack rolls and saving throws until the end of your next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Enchantment",
+                    "entries": [
+                        "Creatures affected by the Forbidden Spell must make a Wisdom Saving throw to harm you, as if you were protected by the Sanctuary Spell. This lasts until the end of your next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Evocation",
+                    "entries": [
+                        "The Forbidden Spell's critical range is increased by 1."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Illusion",
+                    "entries": [
+                        "You become Invisible after casting the spell and can teleport up to 30ft within a point you can see."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Necromancy",
+                    "entries": [
+                        "Slaying a humanoid with this spell causes them to rise as an Undead under your control, with the Undead's CR equal to up to 1/3rd of that Humanoid's CR/Level. Must create an Undead they could physically be (DM Discretion)."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Transmutation",
+                    "entries": [
+                        "The Creature must make a CON Save, and on a fail their damage resistances are removed until the end of your next turn."
+                    ]
+                }
+            ]
+        },
+        {
             "name": "The Fozz",
             "source": "TftJC",
             "type": "R",
@@ -5076,8 +5149,6 @@
             "name": "Zar's Fancy Boots",
             "source": "TftJC",
             "rarity": "none",
-            "baseItem": "Common Clothes|PHB",
-            "type": "G",
             "modifySpeed": {
                 "bonus": {
                     "walk": 5
@@ -5308,7 +5379,7 @@
                 "FS:P"
             ],
             "entries": [
-                "You’ve learned to fight by leading the charge and inspiring your allies. While allies are within 30 feet of you and you succeed on a saving throw or score a critical hit you can grant a number of allies equal to your proficiency bonus temporary hit points equal to your proficiency modifier + your Charisma modifier."
+                "You've learned to fight by leading the charge and inspiring your allies. While allies are within 30 feet of you and you succeed on a saving throw or score a critical hit you can use your reaction to grant a number of allies equal to your proficiency bonus temporary hit points equal to your proficiency modifier + your Charisma modifier."
             ]
         },
         {
@@ -7032,6 +7103,73 @@
                         "name": "Sorcerer",
                         "source": "PHB"
                     },
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Epoch Shift",
+            "source": "TftJC",
+            "level": 6,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 90
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "an egg, ashes of a creature, and an hourglass worth at least 250gp all of which the spell consumes"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+            ],
+            "entries": [
+                "You pick a point within range and in a 20ft radius around that point you wrest control of the time there. Choose one of the following effects from below to take effect:",
+                {
+                    "type": "entries",
+                    "name": "Accelerate",
+                    "entries": [
+                        "Each creature in the radius has its speed doubled. It gains an additional action on each of its turns which can only be used to Attack (one weapon attack), Dash, Disengage, Hide, or Use and Object. In addition any effects on the creature progress their durations twice at the start of their turns, including effects that would damage them such as being on fire or poisoned. Creatures age twice as fast while in the area."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Arrest",
+                    "entries": [
+                        "   Arrest: You halt the natural flow of time in the area. Effect that would take place at the start or end of a creatures turn do not take effect. Creatures do not age in the area. If you use this effect on an area where time does not normally flow, such as the Astral Sea, or an area effected by this spell or Time Lock you can return time to its normal flow."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Decelerate",
+                    "entries": [
+                        "Each creature in the radius has its movement speed halved. They receive a -2 penalty to AC and Dexterity saving throws, and can’t use reactions. At the start and end of a creatures turn roll 1d2, on a 2 effects that would normally occur at that point do not occur. Creatures in the radius age at half the normal rate."
+                    ]
+                },
+                "As a bonus action on your turn after the initial casting, you can alter the effect to one of the other effects. When changed any creature in the radius can make a Wisdom saving throw, on a success the new effect does not take effect until they end their turn in the radius."
+            ],
+            "classes": {
+                "fromClassList": [
                     {
                         "name": "Wizard",
                         "source": "PHB"
