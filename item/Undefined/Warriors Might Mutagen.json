@@ -1,0 +1,16 @@
+{
+  "name": "Warriors Might Mutagen",
+  "source": "TftJC",
+  "rarity": "very rare",
+  "wondrous": true,
+  "curse": true,
+  "ability": {
+    "str": 1,
+    "dex": 1,
+    "con": 1
+  },
+  "entries": [
+    "A creature can use an action to inject this mutagen into their brain stem. The creature doing the injection must make a DC 30 Medicine check on a failure the injected creature suffers one level of exhaustion and an additional level for every 5 below the DC.",
+    "Once injected, the creature's Strength, Dexterity, and Constitution scores all increase by 1 up to 20. The creature gains Vulnerability to Psychic damage. The effect lasts until removed by a wish or magic that remakes a creature's body such as Reincarnate or Wish."
+  ]
+}
