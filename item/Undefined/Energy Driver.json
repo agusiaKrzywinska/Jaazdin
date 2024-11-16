@@ -1,0 +1,17 @@
+{
+  "name": "Energy Driver",
+  "source": "TftJC",
+  "rarity": "uncommon",
+  "reqAttune": true,
+  "entries": [
+    "This metal disc can be affixed to a belt, bandolier, armor, or other things. It contains the power for rapid change. After completing a Long Rest, one of your spell slots becomes 1 slot higher (must select a slot equal to or lower than your proficiency bonus, even if you are not of the level for that spell slot, must remained attuned to retain this benefit), or if you don't have spell slots, you gain a 1st level spell slot. Additionally, you learn to cast 2 spells based on your alignment.",
+    "Good - Heroism",
+    "Neutral - Absorb Elements",
+    "Evil - Last Light",
+    "",
+    "Lawful - Compelled Duel",
+    "Neutral - Sanctuary",
+    "Chaotic - Chaos Bolt",
+    "The Energy Driver has room for up to 2 additional parts to be added to it."
+  ]
+}
