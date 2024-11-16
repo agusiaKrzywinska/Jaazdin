@@ -9,10 +9,10 @@
     {
       "type": "list",
       "items": [
-        "{@item Tinker's Tome Vol. (Uncommon)|TftJC}",
-        "{@item Tinker's Tome Vol. (Rare)|TftJC}",
-        "{@item Tinker's Tome Vol. (Very Rare)|TftJC}",
-        "{@item Tinker's Tome Vol. (Legendary)|TftJC}"
+        "{@item Tinker's Tome Vol. I|TftJC}",
+        "{@item Tinker's Tome Vol. II|TftJC}",
+        "{@item Tinker's Tome Vol. III|TftJC}",
+        "{@item Tinker's Tome Vol. IV|TftJC}"
       ]
     }
   ]

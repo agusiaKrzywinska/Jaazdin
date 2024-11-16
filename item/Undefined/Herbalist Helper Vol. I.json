@@ -1,12 +1,13 @@
 {
-  "name": "Herbalist Helper Vol. (Uncommon)",
+  "name": "Herbalist Helper Vol. I",
   "source": "TftJC",
   "rarity": "uncommon",
   "wondrous": true,
   "charges": 2,
   "entries": [
     "This tome contains the secrets of medical knowledge, plants, and poultices.",
-    "It can be read over 1 week to learn the use for one uncommon or lower plant, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Gardening, Doctor, or Alchemist labor tier by 1.",
+    "It can be read over 1 week to learn the use for one plant, potion, or poison of a rarity lower than this book, determined randomly.",
+    "Alternatively, a creature reading it can instead read the book to increase their Gardening, Doctor, Poisoner, or Alchemist Wage Progression by 1",
     "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
   ]
 }

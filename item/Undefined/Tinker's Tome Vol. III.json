@@ -1,12 +1,13 @@
 {
-  "name": "Tinker's Tome Vol. (Very Rare)",
+  "name": "Tinker's Tome Vol. III",
   "source": "TftJC",
   "rarity": "very rare",
   "wondrous": true,
   "charges": 4,
   "entries": [
     "This tome contains the secrets of invention and innovation.",
-    "It can be read over 1 week to gain +20 towards one Complex invention blueprint progress. Alternatively, a creature reading it can instead read the book to increase their Teaching, Tinkering, or Smithing labor tier by 3.",
+    "It can be read over 1 week to gain +20 towards any tool check made in downtime.",
+    "Alternatively, a creature reading it can instead read the book to increase their Teaching, Tinkering, Carpentry, or Smithing Wage Progression by 3",
     "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
   ]
 }
