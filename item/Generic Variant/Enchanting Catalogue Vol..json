@@ -9,10 +9,10 @@
     {
       "type": "list",
       "items": [
-        "{@item Enchanting Catalogue Vol. (Uncommon)|TftJC}",
-        "{@item Enchanting Catalogue Vol. (Rare)|TftJC}",
-        "{@item Enchanting Catalogue Vol. (Very Rare)|TftJC}",
-        "{@item Enchanting Catalogue Vol. (Legendary)|TftJC}"
+        "{@item Enchanting Catalogue Vol. I|TftJC}",
+        "{@item Enchanting Catalogue Vol. II|TftJC}",
+        "{@item Enchanting Catalogue Vol. III|TftJC}",
+        "{@item Enchanting Catalogue Vol. IV|TftJC}"
       ]
     }
   ]
