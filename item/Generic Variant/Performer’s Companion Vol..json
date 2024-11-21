@@ -9,10 +9,10 @@
     {
       "type": "list",
       "items": [
-        "{@item Performer’s Companion Vol. (Uncommon)|TftJC}",
-        "{@item Performer’s Companion Vol. (Rare)|TftJC}",
-        "{@item Performer’s Companion Vol. (Very Rare)|TftJC}",
-        "{@item Performer’s Companion Vol. (Legendary)|TftJC}"
+        "{@item Performer’s Companion Vol. I|TftJC}",
+        "{@item Performer’s Companion Vol. II|TftJC}",
+        "{@item Performer’s Companion Vol. III|TftJC}",
+        "{@item Performer’s Companion Vol. IV|TftJC}"
       ]
     }
   ]

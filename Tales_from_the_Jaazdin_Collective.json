@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson"],
-        "version": "0.1.42"
+        "version": "0.1.43"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1731793481
+    "dateLastModified": 1732153373
   },
   "background": [
     {
@@ -1872,58 +1872,63 @@
         {
           "type": "list",
           "items": [
-            "{@item Enchanting Catalogue Vol. (Uncommon)|TftJC}",
-            "{@item Enchanting Catalogue Vol. (Rare)|TftJC}",
-            "{@item Enchanting Catalogue Vol. (Very Rare)|TftJC}",
-            "{@item Enchanting Catalogue Vol. (Legendary)|TftJC}"
+            "{@item Enchanting Catalogue Vol. I|TftJC}",
+            "{@item Enchanting Catalogue Vol. II|TftJC}",
+            "{@item Enchanting Catalogue Vol. III|TftJC}",
+            "{@item Enchanting Catalogue Vol. IV|TftJC}"
           ]
         }
       ]
     },
     {
-      "name": "Enchanting Catalogue Vol. (Legendary)",
-      "source": "TftJC",
-      "rarity": "legendary",
-      "wondrous": true,
-      "charges": 4,
-      "entries": [
-        "This tome contains the secrets to enchanting magical objects.",
-        "It can be read over 1 week to learn the recipe for one legendary or lower magical item, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Tinkering, Teaching, or Arcanist labor tier by 4.",
-        "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
-      ]
-    },
-    {
-      "name": "Enchanting Catalogue Vol. (Rare)",
-      "source": "TftJC",
-      "rarity": "rare",
-      "wondrous": true,
-      "charges": 3,
-      "entries": [
-        "This tome contains the secrets to enchanting magical objects.",
-        "It can be read over 1 week to learn the recipe for one rare or lower magical item, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Tinkering, Teaching, or Arcanist labor tier by 2.",
-        "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
-      ]
-    },
-    {
-      "name": "Enchanting Catalogue Vol. (Uncommon)",
+      "name": "Enchanting Catalogue Vol. I",
       "source": "TftJC",
       "rarity": "uncommon",
       "wondrous": true,
       "charges": 2,
       "entries": [
         "This tome contains the secrets to enchanting magical objects.",
-        "It can be read over 1 week to learn the recipe for one uncommon or lower magical item, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Tinkering, Teaching, or Arcanist labor tier by 1.",
+        "It can be read over 1 week to learn the recipe for one magical item of the books rarity or lower, determined randomly, or gain a +2 bonus to an Arcana check in downtime.",
+        "Alternatively, a creature reading it can instead read the book to increase their Arcanist, Appraisal Shop, Jeweler, or Weaver Wage Progression by 1",
         "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
       ]
     },
     {
-      "name": "Enchanting Catalogue Vol. (Very Rare)",
+      "name": "Enchanting Catalogue Vol. II",
+      "source": "TftJC",
+      "rarity": "rare",
+      "wondrous": true,
+      "charges": 3,
+      "entries": [
+        "This tome contains the secrets to enchanting magical objects.",
+        "It can be read over 1 week to learn the recipe for one magical item of the books rarity or lower, determined randomly, or gain a +3 bonus to an Arcana check in downtime.",
+        "Alternatively, a creature reading it can instead read the book to increase their Arcanist, Appraisal Shop, Jeweler, or Weaver Wage Progression by 2",
+        "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+      ]
+    },
+    {
+      "name": "Enchanting Catalogue Vol. III",
       "source": "TftJC",
       "rarity": "very rare",
       "wondrous": true,
+      "charges": 4,
       "entries": [
         "This tome contains the secrets to enchanting magical objects.",
-        "It can be read over 1 week to learn the recipe for one very rare or lower magical item, determined randomly. Alternatively, a creature reading it can instead read the book to increase their Tinkering, Teaching, or Arcanist labor tier by 3.",
+        "It can be read over 1 week to learn the recipe for one magical item of the books rarity or lower, determined randomly, or gain a +4 bonus to an Arcana check in downtime.",
+        "Alternatively, a creature reading it can instead read the book to increase their Arcanist, Appraisal Shop, Jeweler, or Weaver Wage Progression by 3",
+        "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+      ]
+    },
+    {
+      "name": "Enchanting Catalogue Vol. IV",
+      "source": "TftJC",
+      "rarity": "legendary",
+      "wondrous": true,
+      "charges": 4,
+      "entries": [
+        "This tome contains the secrets to enchanting magical objects.",
+        "It can be read over 1 week to learn the recipe for one magical item of the books rarity or lower, determined randomly, or gain a +5 bonus to an Arcana check in downtime.",
+        "Alternatively, a creature reading it can instead read the book to increase their Arcanist, Appraisal Shop, Jeweler, or Weaver Wage Progression by 4",
         "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
       ]
     },
@@ -2336,6 +2341,77 @@
       "entries": [
         "A creature can use an action to inject this mutagen into their brain stem. The creature doing the injection must make a DC 30 Medicine check on a failure the injected creature suffers one level of exhaustion and an additional level for every 5 below the DC.",
         "Once injected the creatures Intelligence, Wisdom, and Charisma scores all increase by 1 up to 20. The creature also has disadvantage on Strength saving throws. The effect lasts until removed by a wish or magic that remakes a creature's body such as Reincarnate or Wish."
+      ]
+    },
+    {
+      "name": "Guileless’ Guide Vol.",
+      "source": "TftJC",
+      "rarity": "varies",
+      "wondrous": true,
+      "type": "GV",
+      "entries": [
+        "This guide contains self-help tricks on improving your charisma and social standing.",
+        {
+          "type": "list",
+          "items": [
+            "{@item Guileless’ Guide Vol. I|TftJC}",
+            "{@item Guileless’ Guide Vol. II|TftJC}",
+            "{@item Guileless’ Guide Vol. III|TftJC}",
+            "{@item Guileless’ Guide Vol. IV|TftJC}"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guileless’ Guide Vol. I",
+      "source": "TftJC",
+      "rarity": "uncommon",
+      "wondrous": true,
+      "charges": 2,
+      "entries": [
+        "This guide contains self-help tricks on improving your charisma and social standing.",
+        "It can be read over 1 week to grant a creature a 10% discount to one purchase in downtime, provided it is an object of the same or lower rarity as this tome. ",
+        "Alternatively, a creature reading it can instead read the book to increase their General Store, Stablehand, or Taxi/Landlord Wage Progression by 1.",
+        "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+      ]
+    },
+    {
+      "name": "Guileless’ Guide Vol. II",
+      "source": "TftJC",
+      "rarity": "rare",
+      "wondrous": true,
+      "charges": 3,
+      "entries": [
+        "This guide contains self-help tricks on improving your charisma and social standing.",
+        "It can be read over 1 week to grant a creature a 10% discount to one purchase in downtime, provided it is an object of the same or lower rarity as this tome. ",
+        "Alternatively, a creature reading it can instead read the book to increase their General Store, Stablehand, or Taxi/Landlord Wage Progression by 2.",
+        "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+      ]
+    },
+    {
+      "name": "Guileless’ Guide Vol. III",
+      "source": "TftJC",
+      "rarity": "very rare",
+      "wondrous": true,
+      "charges": 4,
+      "entries": [
+        "This guide contains self-help tricks on improving your charisma and social standing.",
+        "It can be read over 1 week to grant a creature a 10% discount to one purchase in downtime, provided it is an object of the same or lower rarity as this tome. ",
+        "Alternatively, a creature reading it can instead read the book to increase their General Store, Stablehand, or Taxi/Landlord Wage Progression by 3.",
+        "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+      ]
+    },
+    {
+      "name": "Guileless’ Guide Vol. IV",
+      "source": "TftJC",
+      "rarity": "legendary",
+      "wondrous": true,
+      "charges": 4,
+      "entries": [
+        "This guide contains self-help tricks on improving your charisma and social standing.",
+        "It can be read over 1 week to grant a creature a 10% discount to one purchase in downtime, provided it is an object of the same or lower rarity as this tome. ",
+        "Alternatively, a creature reading it can instead read the book to increase their General Store, Stablehand, or Taxi/Landlord Wage Progression by 4.",
+        "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
       ]
     },
     {
@@ -3013,6 +3089,77 @@
       ]
     },
     {
+      "name": "Muscle Magazine Vol.",
+      "source": "TftJC",
+      "rarity": "varies",
+      "wondrous": true,
+      "type": "GV",
+      "entries": [
+        "This magazine contains tips, tricks, and hacks for improving ones body and physical form.",
+        {
+          "type": "list",
+          "items": [
+            "{@item Muscle Magazine Vol. I|TftJC}",
+            "{@item Muscle Magazine Vol. II|TftJC}",
+            "{@item Muscle Magazine Vol. III|TftJC}",
+            "{@item Muscle Magazine Vol. IV|TftJC}"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Muscle Magazine Vol. I",
+      "source": "TftJC",
+      "rarity": "uncommon",
+      "wondrous": true,
+      "charges": 2,
+      "entries": [
+        "This tome contains tips, tricks, and hacks for improving ones body and physical form.",
+        "It can be read over 1 week to grant a creature an extra {@dice 2d4}’s to an Athletics or Acrobatics check made during downtime.",
+        "Alternatively, a creature reading it can instead read the book to increase their General Laborer, Guard/Bouncer, Barkeep, or Dock Worker Wage Progression by 1",
+        "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+      ]
+    },
+    {
+      "name": "Muscle Magazine Vol. II",
+      "source": "TftJC",
+      "rarity": "rare",
+      "wondrous": true,
+      "charges": 3,
+      "entries": [
+        "This tome contains tips, tricks, and hacks for improving ones body and physical form.",
+        "It can be read over 1 week to grant a creature an extra {@dice 4d4}’s to an Athletics or Acrobatics check made during downtime.",
+        "Alternatively, a creature reading it can instead read the book to increase their General Laborer, Guard/Bouncer, Barkeep, or Dock Worker Wage Progression by 2",
+        "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+      ]
+    },
+    {
+      "name": "Muscle Magazine Vol. III",
+      "source": "TftJC",
+      "rarity": "very rare",
+      "wondrous": true,
+      "charges": 4,
+      "entries": [
+        "This tome contains tips, tricks, and hacks for improving ones body and physical form.",
+        "It can be read over 1 week to grant a creature an extra {@dice 7d4}’s to an Athletics or Acrobatics check made during downtime.",
+        "Alternatively, a creature reading it can instead read the book to increase their General Laborer, Guard/Bouncer, Barkeep, or Dock Worker Wage Progression by 3",
+        "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+      ]
+    },
+    {
+      "name": "Muscle Magazine Vol. IV",
+      "source": "TftJC",
+      "rarity": "legendary",
+      "wondrous": true,
+      "charges": 4,
+      "entries": [
+        "This tome contains tips, tricks, and hacks for improving ones body and physical form.",
+        "It can be read over 1 week to grant a creature an extra {@dice 10d4}’s to an Athletics or Acrobatics check made during downtime.",
+        "Alternatively, a creature reading it can instead read the book to increase their General Laborer, Guard/Bouncer, Barkeep, or Dock Worker Wage Progression by 4",
+        "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+      ]
+    },
+    {
       "name": "Musket",
       "source": "TftJC",
       "type": "R",
@@ -3112,59 +3259,63 @@
         {
           "type": "list",
           "items": [
-            "{@item Performer’s Companion Vol. (Uncommon)|TftJC}",
-            "{@item Performer’s Companion Vol. (Rare)|TftJC}",
-            "{@item Performer’s Companion Vol. (Very Rare)|TftJC}",
-            "{@item Performer’s Companion Vol. (Legendary)|TftJC}"
+            "{@item Performer’s Companion Vol. I|TftJC}",
+            "{@item Performer’s Companion Vol. II|TftJC}",
+            "{@item Performer’s Companion Vol. III|TftJC}",
+            "{@item Performer’s Companion Vol. IV|TftJC}"
           ]
         }
       ]
     },
     {
-      "name": "Performer’s Companion Vol. (Legendary)",
-      "source": "TftJC",
-      "rarity": "legendary",
-      "wondrous": true,
-      "charges": 4,
-      "entries": [
-        "This tome contains the secrets to performance and writing.",
-        "It can be read over 1 week to grant a creature a {@dice 1d12} to one roll during their downtime. Alternatively, a creature reading it can instead read the book to increase their Journalism, Performance, or Theft labor tier by 4.",
-        "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
-      ]
-    },
-    {
-      "name": "Performer’s Companion Vol. (Rare)",
-      "source": "TftJC",
-      "rarity": "rare",
-      "wondrous": true,
-      "charges": 3,
-      "entries": [
-        "This tome contains the secrets to performance and writing.",
-        "It can be read over 1 week to grant a creature a {@dice 1d8} to one roll during their downtime. Alternatively, a creature reading it can instead read the book to increase their Journalism, Performance, or Theft labor tier by 2.",
-        "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
-      ]
-    },
-    {
-      "name": "Performer’s Companion Vol. (Uncommon)",
+      "name": "Performer’s Companion Vol. I",
       "source": "TftJC",
       "rarity": "uncommon",
       "wondrous": true,
       "charges": 2,
       "entries": [
         "This tome contains the secrets to performance and writing.",
-        "It can be read over 1 week to grant a creature a {@dice 1d6} to one roll during their downtime. Alternatively, a creature reading it can instead read the book to increase their Journalism, Performance, or Theft labor tier by 1.",
+        "It can be read over 1 week to grant a creature a {@dice 1d6} to one roll during their downtime.",
+        "Alternatively, a creature reading it can instead read the book to increase their Artist, Journalism, Performance, or Cook Wage Progression by 4",
         "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
       ]
     },
     {
-      "name": "Performer’s Companion Vol. (Very Rare)",
+      "name": "Performer’s Companion Vol. II",
+      "source": "TftJC",
+      "rarity": "rare",
+      "wondrous": true,
+      "charges": 3,
+      "entries": [
+        "This tome contains the secrets to performance and writing.",
+        "It can be read over 1 week to grant a creature a {@dice 1d8} to one roll during their downtime",
+        "Alternatively, a creature reading it can instead read the book to increase their Artist, Journalism, Performance, or Cook Wage Progression by 4",
+        "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+      ]
+    },
+    {
+      "name": "Performer’s Companion Vol. III",
       "source": "TftJC",
       "rarity": "very rare",
       "wondrous": true,
       "charges": 4,
       "entries": [
         "This tome contains the secrets to performance and writing.",
-        "It can be read over 1 week to grant a creature a {@dice 1d10} to one roll during their downtime. Alternatively, a creature reading it can instead read the book to increase their Journalism, Performance, or Theft labor tier by 3.",
+        "It can be read over 1 week to grant a creature a {@dice 1d10} to one roll during their downtime.",
+        "Alternatively, a creature reading it can instead read the book to increase their Artist, Journalism, Performance, or Cook Wage Progression by 4",
+        "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+      ]
+    },
+    {
+      "name": "Performer’s Companion Vol. IV",
+      "source": "TftJC",
+      "rarity": "legendary",
+      "wondrous": true,
+      "charges": 4,
+      "entries": [
+        "This tome contains the secrets to performance and writing.",
+        "It can be read over 1 week to grant a creature a {@dice 1d12} to one roll during their downtime.",
+        "Alternatively, a creature reading it can instead read the book to increase their Artist, Journalism, Performance, or Cook Wage Progression by 4",
         "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
       ]
     },
@@ -4247,59 +4398,63 @@
         {
           "type": "list",
           "items": [
-            "{@item Thieves Almanac Vol. (Uncommon)|TftJC}",
-            "{@item Thieves Almanac Vol. (Rare)|TftJC}",
-            "{@item Thieves Almanac Vol. (Very Rare)|TftJC}",
-            "{@item Thieves Almanac Vol. (Legendary)|TftJC}"
+            "{@item Thieves Almanac Vol. I|TftJC}",
+            "{@item Thieves Almanac Vol. II|TftJC}",
+            "{@item Thieves Almanac Vol. III|TftJC}",
+            "{@item Thieves Almanac Vol. IV|TftJC}"
           ]
         }
       ]
     },
     {
-      "name": "Thieves Almanac Vol. (Legendary)",
-      "source": "TftJC",
-      "rarity": "legendary",
-      "wondrous": true,
-      "charges": 4,
-      "entries": [
-        "This tome contains the secrets to skullduggery and crime.",
-        "It can be read over 1 week to reduce the heat of a creature to 0. Alternatively, a creature reading it can instead read the book to increase their Theft, Guard Duty, or Gambling labor tier by 4.",
-        "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
-      ]
-    },
-    {
-      "name": "Thieves Almanac Vol. (Rare)",
-      "source": "TftJC",
-      "rarity": "rare",
-      "wondrous": true,
-      "charges": 3,
-      "entries": [
-        "This tome contains the secrets to skullduggery and crime.",
-        "It can be read over 1 week to reduce the heat of a creature to 0. Alternatively, a creature reading it can instead read the book to increase their Theft, Guard Duty, or Gambling labor tier by 2.",
-        "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
-      ]
-    },
-    {
-      "name": "Thieves Almanac Vol. (Uncommon)",
+      "name": "Thieves Almanac Vol. I",
       "source": "TftJC",
       "rarity": "uncommon",
       "wondrous": true,
       "charges": 2,
       "entries": [
         "This tome contains the secrets to skullduggery and crime.",
-        "It can be read over 1 week to reduce the heat of a creature to 0. Alternatively, a creature reading it can instead read the book to increase their Theft, Guard Duty, or Gambling labor tier by 1.",
+        "It can be read over 1 week to reduce the heat of a creature to 0 or reduce a buildings heat by 3. Additionally it can be read to gain a +1 bonus to on roll to avoid gaining heat. ",
+        "Alternatively, a creature reading it can instead read the book to increase their Theft, Forger, Spy, or Gambling Wage Progression by 1.",
         "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
       ]
     },
     {
-      "name": "Thieves Almanac Vol. (Very Rare)",
+      "name": "Thieves Almanac Vol. II",
+      "source": "TftJC",
+      "rarity": "rare",
+      "wondrous": true,
+      "charges": 3,
+      "entries": [
+        "This tome contains the secrets to skullduggery and crime.",
+        "It can be read over 1 week to reduce the heat of a creature to 0 or reduce a buildings heat by 3. Additionally it can be read to gain a +3 bonus to on roll to avoid gaining heat. ",
+        "Alternatively, a creature reading it can instead read the book to increase their Theft, Forger, Spy, or Gambling Wage Progression by 2.",
+        "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+      ]
+    },
+    {
+      "name": "Thieves Almanac Vol. III",
       "source": "TftJC",
       "rarity": "very rare",
       "wondrous": true,
       "charges": 4,
       "entries": [
         "This tome contains the secrets to skullduggery and crime.",
-        "It can be read over 1 week to reduce the heat of a creature to 0. Alternatively, a creature reading it can instead read the book to increase their Theft, Guard Duty, or Gambling labor tier by 3.",
+        "It can be read over 1 week to reduce the heat of a creature to 0 or reduce a buildings heat by 3. Additionally it can be read to gain a +5 bonus to on roll to avoid gaining heat. ",
+        "Alternatively, a creature reading it can instead read the book to increase their Theft, Forger, Spy, or Gambling Wage Progression by 3.",
+        "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+      ]
+    },
+    {
+      "name": "Thieves Almanac Vol. IV",
+      "source": "TftJC",
+      "rarity": "legendary",
+      "wondrous": true,
+      "charges": 4,
+      "entries": [
+        "This tome contains the secrets to skullduggery and crime.",
+        "It can be read over 1 week to reduce the heat of a creature to 0 or reduce a buildings heat by 3. Additionally it can be read to gain a +7 bonus to on roll to avoid gaining heat. ",
+        "Alternatively, a creature reading it can instead read the book to increase their Theft, Forger, Spy, or Gambling Wage Progression by 4.",
         "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
       ]
     },

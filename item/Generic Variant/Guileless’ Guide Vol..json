@@ -1,0 +1,19 @@
+{
+  "name": "Guileless’ Guide Vol.",
+  "source": "TftJC",
+  "rarity": "varies",
+  "wondrous": true,
+  "type": "GV",
+  "entries": [
+    "This guide contains self-help tricks on improving your charisma and social standing.",
+    {
+      "type": "list",
+      "items": [
+        "{@item Guileless’ Guide Vol. I|TftJC}",
+        "{@item Guileless’ Guide Vol. II|TftJC}",
+        "{@item Guileless’ Guide Vol. III|TftJC}",
+        "{@item Guileless’ Guide Vol. IV|TftJC}"
+      ]
+    }
+  ]
+}
