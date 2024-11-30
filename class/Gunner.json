@@ -8,9 +8,11 @@
       "classFeature": "Gunner Archetype|Gunner|TftJC|2",
       "gainSubclassFeature": true
     },
+    "MacGyver’d|Gunner|TftJC|1",
     "Gun Modifications|Gunner|TftJC|3",
     "Ability Score Improvement|Gunner|TftJC|4",
     "Extra Attack|Gunner|TftJC|5",
+    "Life Trajectory|Gunner|TftJC|5",
     {
       "classFeature": "Gunner Archetype Feature|Gunner|TftJC|6",
       "gainSubclassFeature": true
@@ -24,6 +26,7 @@
       "gainSubclassFeature": true
     },
     "Defense Piercing|Gunner|TftJC|11",
+    "Life Trajectory Improvement|Gunner|TftJC|11",
     "Ability Score Improvement|Gunner|TftJC|12",
     "Dodge and Roll Improvement|Gunner|TftJC|13",
     {

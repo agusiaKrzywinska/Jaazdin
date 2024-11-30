@@ -4,6 +4,7 @@
   "rarity": "very rare",
   "reqAttune": "by a creature with Intelligence, Wisdom, or Charisma greater than or equal to 15",
   "wondrous": true,
+  "charges": 3,
   "entries": [
     "This combination Armbrace and belt depicts the visage of a grand astral dragon with amethyst inlays. This brace was once made for elite warriors of Vlaakith, but have since been lost or are not in production, although it is still possible to create new ones with materials from various planes of existence.",
     "This item was blessed through Vlaakith, and she would not want this to be muddled in any other way. You cannot combine this item.",
