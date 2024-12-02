@@ -8,12 +8,12 @@
   "weaponCategory": "martial",
   "property": ["AF"],
   "charges": 1,
-  "dmg1": "2d8",
+  "dmg1": "2d4",
   "dmgType": "F",
   "range": "80/320",
   "entries": [
     "<b><i>Tier 2.</i></b>",
-    "<b><i>Explosive 5.</i></b> Upon a hit, everything within a radius determined by its explosive value of the target must make a Dexterity saving throw (DC equal to 8 + the firearm's tier x2) or take an additional 1d4 fire damage x the firearm's Tier. If the weapon attack misses, the explosive ammunition fails to detonate. Explosive weapons have their misfire score increased by 1.",
+    "<b><i>Explosive 5.</i></b> Upon a hit, everything within a radius determined by its explosive value of the target must make a Dexterity saving throw (DC equal to 8 + the firearm's tier x2) or take an additional damage equal to the damage roll. Explosive weapons have their misfire score increased by 1.",
     "<b><i>Barrel 1.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
   ]
 }

@@ -8,7 +8,7 @@
   "weaponCategory": "martial",
   "property": ["AF"],
   "charges": 90,
-  "dmg1": "4d4",
+  "dmg1": "3d4",
   "dmgType": "P",
   "range": "30/120",
   "entries": [
