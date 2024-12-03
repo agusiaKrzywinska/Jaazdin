@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson"],
-        "version": "0.1.51"
+        "version": "0.1.52"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1732999746
+    "dateLastModified": 1733191939
   },
   "background": [
     {
@@ -2066,12 +2066,12 @@
       "weaponCategory": "martial",
       "property": ["AF"],
       "charges": 1,
-      "dmg1": "2d8",
+      "dmg1": "2d4",
       "dmgType": "F",
       "range": "80/320",
       "entries": [
         "<b><i>Tier 2.</i></b>",
-        "<b><i>Explosive 5.</i></b> Upon a hit, everything within a radius determined by its explosive value of the target must make a Dexterity saving throw (DC equal to 8 + the firearm's tier x2) or take an additional 1d4 fire damage x the firearm's Tier. If the weapon attack misses, the explosive ammunition fails to detonate. Explosive weapons have their misfire score increased by 1.",
+        "<b><i>Explosive 5.</i></b> Upon a hit, everything within a radius determined by its explosive value of the target must make a Dexterity saving throw (DC equal to 8 + the firearm's tier x2) or take an additional damage equal to the damage roll. Explosive weapons have their misfire score increased by 1.",
         "<b><i>Barrel 1.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
       ]
     },
@@ -2191,7 +2191,7 @@
       "entries": [
         "<b><i>Tier 2.</i></b>",
         "<b><i>Gas 5.</i></b> Gas weapons do not require to be loaded, rather attached to them is a tank of fuel. A gas weapon uses one unit of gas per attack, and can attack until the tank is depleted. A Gas tank can be refilled by spending 1 minute per unit refilled. You cannot store additional units of Gas, except within the weapon itself.",
-        "<b><i>Cone 5.</i></b> Cone weapons attack in a cone with a length equal to their value, using the attack roll rolled on all creatures within its cone area."
+        "<b><i>Cone 10.</i></b> Cone weapons attack in a cone with a length equal to their value, using the attack roll rolled on all creatures within its cone area."
       ]
     },
     {
@@ -3046,7 +3046,7 @@
       "weaponCategory": "martial",
       "property": ["AF"],
       "charges": 90,
-      "dmg1": "4d4",
+      "dmg1": "3d4",
       "dmgType": "P",
       "range": "30/120",
       "entries": [
@@ -3100,7 +3100,7 @@
       "weaponCategory": "martial",
       "property": ["AF"],
       "charges": 90,
-      "dmg1": "4d4",
+      "dmg1": "3d4",
       "dmgType": "P",
       "range": "30/120",
       "entries": [
@@ -3800,12 +3800,12 @@
       "weaponCategory": "martial",
       "property": ["AF"],
       "charges": 1,
-      "dmg1": "4d8",
+      "dmg1": "4d4",
       "dmgType": "F",
       "range": "100/400",
       "entries": [
         "<b><i>Tier 4.</i></b>",
-        "<b><i>Explosive 10.</i></b> Upon a hit, everything within a radius determined by its explosive value of the target must make a Dexterity saving throw (DC equal to 8 + the firearm's tier x2) or take an additional 1d4 fire damage x the firearm's Tier. If the weapon attack misses, the explosive ammunition fails to detonate. Explosive weapons have their misfire score increased by 1.",
+        "<b><i>Explosive 10.</i></b> Upon a hit, everything within a radius determined by its explosive value of the target must make a Dexterity saving throw (DC equal to 8 + the firearm's tier x2) or take an additional damage equal to the damage roll. If the weapon attack misses, the explosive ammunition fails to detonate. Explosive weapons have their misfire score increased by 1.",
         "<b><i>Barrel 1.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
       ]
     },
