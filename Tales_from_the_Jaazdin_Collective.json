@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson"],
-        "version": "0.1.52"
+        "version": "0.1.53"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1733191939
+    "dateLastModified": 1733694063
   },
   "background": [
     {
@@ -2815,6 +2815,26 @@
         "<b><i>Effect.</i></b> The firearm's misfire score is reduced by 1.",
         "<b><i>Restrictions.</i></b> Requires the Belt property.",
         "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+      ]
+    },
+    {
+      "name": "Indara’s Fall",
+      "source": "TftJC",
+      "rarity": "Artifact",
+      "baseItem": "Lance|PHB",
+      "reqAttune": true,
+      "type": "M",
+      "weight": 6,
+      "weaponCategory": "martial",
+      "property": ["R", "S"],
+      "dmg1": "1d12",
+      "dmgType": "P",
+      "entries": [
+        "This magical golden lance is adorned with etching of horses dashing through a rising dawn. Attacks made with this lace gain a +3 to attack and damage rolls.",
+        "In addition, they deal an extra {@dice 1d10} fire damage on hit. When this lance is used against a Dragon it deals an addition weapon die of damage, and on a critical it adds {@dice 3d6} additional damage.",
+        "Once per day, the wielder can hold aloft the lance and use an action to cast {@spell Find Greater Steed|XGE}. When cast in this way, it specifically summons the spirit bonded to the weapon, Rasharam. Rasharam has the statistics of a {@creature nightmare|MM}, but is of type celestial and only the ability to convoy its summoner. When he appears, he is equipped with a saddle and set of plate barding, which vanish with him when he is dismissed or slain. Rasharam remains until dismissed or slain.",
+        "Indara’s Fall can only be attuned, identified, and wielded by one who has slain a Dragon of CR 11 or higher. A creature can perform a bonding ritual with the blade by anointing it with CR 11 or high Dragon’s blood. Once this ritual is performed, that creature can always attune to Indara’s Fall.",
+        "<b><i>Special.</i></b> You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."
       ]
     },
     {
@@ -9037,7 +9057,6 @@
       "shortName": "Hexlock",
       "subclassFeatures": [
         "Hexlock Archetype|Gunner|TftJC|Hexlock|TftJC|2",
-        "Hexed Bullets|Gunner|TftJC|Hexlock|TftJC|2",
         "Firearm Enchanter|Gunner|TftJC|Hexlock|TftJC|6",
         "Hexlock Modifications|Gunner|TftJC|Hexlock|TftJC|6",
         "Spellshot Combo|Gunner|TftJC|Hexlock|TftJC|10",
