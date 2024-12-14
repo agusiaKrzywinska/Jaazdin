@@ -1,0 +1,11 @@
+{
+  "name": "Beast's Bane",
+  "source": "TftJC",
+  "rarity": "very rare",
+  "type": "M",
+  "entries": [
+    "+2 magic weapon.",
+    "Damage dealt to beasts and monstrosities (including lycanthropes in their hybrid or beast forms) cannot be resisted or reduced in any way.",
+    "While within 60 feet of a monstrosity or lycanthrope in their humanoid form, the blade glows a sickly green. The intensity of the glow increases as your proximity to the target does."
+  ]
+}

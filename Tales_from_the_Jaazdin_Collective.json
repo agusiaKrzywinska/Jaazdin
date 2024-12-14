@@ -13,7 +13,7 @@
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1733694063
+    "dateLastModified": 1734213816
   },
   "background": [
     {
@@ -752,6 +752,19 @@
   ],
   "item": [
     {
+      "name": "Alchemic Claret",
+      "rarity": "rare",
+      "type": "P",
+      "source": "TftJC",
+      "entries": [
+        "This vial of blood-like substance emits a otherworldly power like nothing seen before. You can choose to imbibe this substance or apply it to a weapon.",
+        "If ingested, you gain the following benefits: For one hour, as a bonus action you can roll a hit dice + your level to gain that much HP. You then lose that Hit Dice until the end of a Long Rest. Once this feature is used the potion’s effect is gone.",
+        "If applied to a weapon you gain the following benefits: For one hour your weapon becomes magical. Additionally, you can choose to expend a Hit Dice to add the number rolled to the damage of any attack. Once you do so, you take Psychic damage equal to the number on the Hit Dice rolled. Once this feature is used the potion’s effect is gone.",
+        "This substance can also be used to Runesmith Blood Steel into Sanguine Steel instantly.",
+        "When a creature uses this consumable, they must make a DC:10 Wisdom save, on a fail you are Blood Starved."
+      ]
+    },
+    {
       "name": "Amulet of Average",
       "source": "TftJC",
       "rarity": "uncommon",
@@ -957,6 +970,17 @@
         "<b><i>Effect.</i></b> You attach a blade at the end of the weapon, which can be used as a martial melee weapon that deals 1d8 piercing damage on a hit. The Bayonet is not considered a firearm.",
         "<b><i>Restrictions.</i></b> Requires the Two Handed property.",
         "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+      ]
+    },
+    {
+      "name": "Beast's Bane",
+      "source": "TftJC",
+      "rarity": "very rare",
+      "type": "M",
+      "entries": [
+        "+2 magic weapon.",
+        "Damage dealt to beasts and monstrosities (including lycanthropes in their hybrid or beast forms) cannot be resisted or reduced in any way.",
+        "While within 60 feet of a monstrosity or lycanthrope in their humanoid form, the blade glows a sickly green. The intensity of the glow increases as your proximity to the target does."
       ]
     },
     {
@@ -1583,6 +1607,24 @@
         "While wearing this crown, you gain +1 max Hit Points for each tool or language proficiency you have.",
         "<b><i>Cursed.</i></b> This crown is imbued with the Thilask’s lust for knowledge, which infects the wearer. You will go to great lengths to learn and hoard secrets. Gaps in your knowledge irritate you and you will try to fill them whenever possible.",
         "Whenever you fail a History, Nature, Arcana, or Religion check, one of the seven sapphires on the crown will light up. When all seven gems light up, you suffer 20d10 psychic damage and have disadvantage on any Intelligence saving throws, attack rolls, and ability checks for one week. If this damage reduces a creature to zero hit points they turn into a Nothic. If the crown ever leaves your person, your Intelligence becomes 1, this lasts until you have the Crown again or a 9th level Remove Curse removes the curse."
+      ]
+    },
+    {
+      "name": "Cursed Catalyst",
+      "source": "TftJC",
+      "rarity": "very rare",
+      "wondrous": true,
+      "reqAttune": true,
+      "entries": [
+        "Once per week, you can invoke the Catalyst's power to attempt to alter a Cursed object, and can perform one of the two effects. Both effects take an hour to complete the ritual.",
+        "Extraction - Touch a Cursed Object, and based on its rarity, make an Arcana Check (DC 11 for Common, DC 13 for Uncommon, DC 15 for Rare, DC 17 for Very Rare, DC 19 for Legendary, DC 30 for Artifact). On a success, you can remove a Curse from that object. The Curse is then placed into the Catalyst, and now affects the Catalyst.",
+        "Malediction - You can place Curses on Magic Items. Make an Arcana check based on the items rarity (Same scaling as before, must be done on an already magical item), and on a success, you may either place a Curse you have absorbed into the Catalyst onto that object, or place a Curse from this list onto the object. If you remove a Curse from a Magic Item that was created by the Catalyst, it is destroyed.",
+        "Curse of Loyalty - You are unwilling to part with this item, and grow hostile to anyone that would try to take it from you.",
+        "Curse of Withering - Each time you finish a Long Rest attuned to this item, your Maximum HP is reduced by 3.",
+        "Curse of Burning Soul - If you were to die, your soul is sent to the Nine Hells.",
+        "Curse of Ill-Luck - You gain a -1 to all ability checks.",
+        "Curse of Vulnerability - You are Vulnerable to either Fire, Cold, Lightning, Acid or Poison damage (you decide what type when applying this curse).",
+        "Curse of Undead Attraction - Undead Creatures with an intelligence of 8 or lower will instinctively attack you if they are within 60ft of you."
       ]
     },
     {
@@ -2772,6 +2814,25 @@
         "<i><b>Innovative Invention.</i></b>",
         "This bracer contains a retractable three-pronged climbing tool.",
         "As a bonus action, the wearer can deploy (or retract) the climbing tool by pressing a button (this is considered using an item). While deployed, the wearer gains a climb speed equal to their walking speed. Additionally, the wearer can hang from a wall they are climbing with only the hookblade secured into the wall, freeing up a hand."
+      ]
+    },
+    {
+      "name": "Hunter's Pistol",
+      "source": "TftJC",
+      "type": "R",
+      "rarity": "none",
+      "weight": 1,
+      "value": 1000,
+      "weaponCategory": "martial",
+      "property": ["L", "AF"],
+      "charges": 1,
+      "dmg1": "1d6",
+      "dmgType": "P",
+      "range": "30/90",
+      "entries": [
+        "<b><i>Tier 1.</i></b>",
+        "<b><i>Barrel 1.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel.",
+        "While in the off-hand, the wielder can use a reaction when targeted by a melee attack to fire the pistol at the attacker, granting a bonus to their AC equal to a roll of the pistol's damage die. (this deals no damage and expends the ammunition)"
       ]
     },
     {
@@ -4305,6 +4366,20 @@
         "10 - ??",
         "To regain hit dice consumed by the blade, you must cast a remove curse or similar spell on the blade. Each time this is cast, you regain one lost hit die. The creature casting the remove curse (or similar spell) must make a DC 13 + the number of held hit dice Charisma saving throw or have their alignment shifted down by one row, if it is already evil it is shifted one towards chaotic, if they are already chaotic evil                                                 .",
         "The blade can hold a total of 20 hit dice."
+      ]
+    },
+    {
+      "name": "Temporal Stabilizer",
+      "source": "TftJC",
+      "type": "T",
+      "rarity": "none",
+      "weight": 0,
+      "value": 10000,
+      "entries": [
+        "<i><b>Groundbreaking Invention.</i></b>",
+        "<i><b>Requires Tinkers Tools + 1 Tinker's Brass + 1 Absintium</i></b>",
+        "This bracer allows the wearer to stabilize themselves in Time. Using the innate power within the Absintium, the wearer becomes immune to spells and magical effects that alter ones time, perception of time, or placement within time (Chronurgy magic, as well as spells such as Haste, Slow, Memento Poison, etc). The Bracer is considered magical, and can be dispelled by casting Dispel magic at 7th level or higher, removing its effects for 1 hour, as well as Anti Magic Fields nullify this effect.",
+        "Additionally, the Absintium can attune itself to a Time Rift within 30ft of it after completing a 10 minute ritual. The Absintium is then Entangled with the Time Rift, allowing the wearer to pass through at a predetermined point of their choosing. After which, the Time Rift creates a passageway from that point to the present, and that point cannot be changed. Time that passes within the present passes concurrently in the determined point for 1 year, after which time the Absintium is fully consumed and the Entanglement ends. Any and all changes within time happen simultaneously at once after the year ends."
       ]
     },
     {

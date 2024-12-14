@@ -1,0 +1,19 @@
+{
+  "name": "Hunter's Pistol",
+  "source": "TftJC",
+  "type": "R",
+  "rarity": "none",
+  "weight": 1,
+  "value": 1000,
+  "weaponCategory": "martial",
+  "property": ["L", "AF"],
+  "charges": 1,
+  "dmg1": "1d6",
+  "dmgType": "P",
+  "range": "30/90",
+  "entries": [
+    "<b><i>Tier 1.</i></b>",
+    "<b><i>Barrel 1.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel.",
+    "While in the off-hand, the wielder can use a reaction when targeted by a melee attack to fire the pistol at the attacker, granting a bonus to their AC equal to a roll of the pistol's damage die. (this deals no damage and expends the ammunition)"
+  ]
+}
