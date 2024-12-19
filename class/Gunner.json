@@ -4,11 +4,11 @@
   "classFeatures": [
     "Shoot to Thrill|Gunner|TftJC|1",
     "Firearm Crafter|Gunner|TftJC|1",
+    "MacGyver’d|Gunner|TftJC|1",
     {
       "classFeature": "Gunner Archetype|Gunner|TftJC|2",
       "gainSubclassFeature": true
     },
-    "MacGyver’d|Gunner|TftJC|1",
     "Gun Modifications|Gunner|TftJC|3",
     "Ability Score Improvement|Gunner|TftJC|4",
     "Extra Attack|Gunner|TftJC|5",
