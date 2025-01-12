@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson"],
-        "version": "0.1.54"
+        "version": "0.1.56"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1736694571
+    "dateLastModified": 1736696358
   },
   "background": [
     {
@@ -3325,6 +3325,20 @@
       ]
     },
     {
+      "name": "Muzzlebreaker",
+      "source": "TftJC",
+      "type": "T",
+      "rarity": "none",
+      "value": 25000,
+      "entries": [
+        "<i><b>Innovative Invention.</i></b>",
+        "<i><b>Requires a Firearm with a Long Range</i></b>",
+        "The Firearm's range is reduced to half of its short range (before any other range modifiers), and cannot use its long range. It deals an additional {@dice 1d6} damage on a hit.",
+        "Its misfire score is increased by 1.",
+        "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+      ]
+    },
+    {
       "name": "Naginata",
       "source": "TftJC",
       "page": 50,
@@ -3392,6 +3406,16 @@
       "entries": [
         "<b><i>Effect.</i></b> When the firearm is used for intimidation, you have advantage on the check.",
         "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
+      ]
+    },
+    {
+      "name": "Penman's Encyclopedia",
+      "source": "TftJC",
+      "rarity": "very rare",
+      "wondrous": true,
+      "entries": [
+        "This book contains space for one to jot down their own notes. The book can be used to record ones thoughts for a total of 40 hours, after which the user can choose 1 skill or tool that they are proficient in and gain a permanent +1 to that skill.",
+        "Once used twice the book becomes non-magical."
       ]
     },
     {
@@ -4792,6 +4816,16 @@
             "{@item Guileless’ Guide Vol.|TftJC}"
           ]
         }
+      ]
+    },
+    {
+      "name": "Traveler's Encyclopedia",
+      "source": "TftJC",
+      "rarity": "rare",
+      "wondrous": true,
+      "entries": [
+        "This book contains space for one to jot down their own notes. The book can be used to record ones thoughts for a total of 40 hours, after which the user can choose 1 skill or tool that they are proficient in and gain a permanent +1 to that skill.",
+        "Once used the book becomes non-magical."
       ]
     },
     {

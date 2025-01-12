@@ -1,0 +1,14 @@
+{
+  "name": "Muzzlebreaker",
+  "source": "TftJC",
+  "type": "T",
+  "rarity": "none",
+  "value": 25000,
+  "entries": [
+    "<i><b>Innovative Invention.</i></b>",
+    "<i><b>Requires a Firearm with a Long Range</i></b>",
+    "The Firearm's range is reduced to half of its short range (before any other range modifiers), and cannot use its long range. It deals an additional {@dice 1d6} damage on a hit.",
+    "Its misfire score is increased by 1.",
+    "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
+  ]
+}
