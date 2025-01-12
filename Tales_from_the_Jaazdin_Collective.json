@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson"],
-        "version": "0.1.53"
+        "version": "0.1.54"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1734570410
+    "dateLastModified": 1736694571
   },
   "background": [
     {
@@ -3422,7 +3422,7 @@
       "entries": [
         "This tome contains the secrets to performance and writing.",
         "It can be read over 1 week to grant a creature a {@dice 1d6} to one roll during their downtime.",
-        "Alternatively, a creature reading it can instead read the book to increase their Artist, Journalism, Performance, or Cook Wage Progression by 4",
+        "Alternatively, a creature reading it can instead read the book to increase their Artist, Journalism, Performance, or Cook Wage Progression by 1",
         "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
       ]
     },
@@ -3435,7 +3435,7 @@
       "entries": [
         "This tome contains the secrets to performance and writing.",
         "It can be read over 1 week to grant a creature a {@dice 1d8} to one roll during their downtime",
-        "Alternatively, a creature reading it can instead read the book to increase their Artist, Journalism, Performance, or Cook Wage Progression by 4",
+        "Alternatively, a creature reading it can instead read the book to increase their Artist, Journalism, Performance, or Cook Wage Progression by 2",
         "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
       ]
     },
@@ -3448,7 +3448,7 @@
       "entries": [
         "This tome contains the secrets to performance and writing.",
         "It can be read over 1 week to grant a creature a {@dice 1d10} to one roll during their downtime.",
-        "Alternatively, a creature reading it can instead read the book to increase their Artist, Journalism, Performance, or Cook Wage Progression by 4",
+        "Alternatively, a creature reading it can instead read the book to increase their Artist, Journalism, Performance, or Cook Wage Progression by 3",
         "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
       ]
     },
@@ -4787,7 +4787,9 @@
             "{@item Herbalist Helper Vol.|TftJC}",
             "{@item Enchanting Catalogue Vol.|TftJC}",
             "{@item Thieves Almanac Vol.|TftJC}",
-            "{@item Performer’s Companion Vol.|TftJC}"
+            "{@item Performer’s Companion Vol.|TftJC}",
+            "{@item Muscle Magazine Vol.|TftJC}",
+            "{@item Guileless’ Guide Vol.|TftJC}"
           ]
         }
       ]
