@@ -14,7 +14,7 @@
       "items": [
         "Your walk speed is increased by 5 at 5th level, 10 at 9th level, 15 at 13th level, and 20 at 17th level.",
         "You can use your Derby Blades as an Arcane Focus for your Artificer Spells.",
-        "For every 5ft you move before making a melee attack, you deal 1 additional damage. You must have moved closer to the enemy than you started, and only spaces in which you move closer to the attack target add to the damage."
+        "For every 5ft you move in a straight line without turning before making a melee attack with a Derby Dasher weapon, you deal an additional 1 Damage, capping the maximum damage up to your Artificer level."
       ]
     }
   ]

@@ -7,7 +7,7 @@
   "subclassSource": "TftJC",
   "level": 3,
   "entries": [
-    "Additionally at 3rd level, you gain access to two different types of weapons. Working for one minute, you can imbue a pair of shortswords or a pair of whips with your Artificer magic transforming them into either the Flip Swords or Silver Tethers, respectfully (you are proficient in these weapons). You can only either have one of these options active at a time. While these weapons are imbued with your magic, they use your Intelligence Modifier to calculate the to hit bonus and damage rolls. If you would imbue one of these weapons with an Infusion, both are affected by the same infusion (this only counts as one infusion being active).",
+    "Additionally at 3rd level, you gain access to two different types of weapons. Working for one minute, you can imbue a pair of shortswords or a pair of whips with your Artificer magic transforming them into either the Flip Swords or Silver Tethers, respectfully (you are proficient in these weapons). You can only either have one of these options active at a time. If you would imbue one of these weapons with an Infusion, both are affected by the same infusion (this only counts as one infusion being active).",
     {
       "type": "inset",
       "name": "Flip Swords",

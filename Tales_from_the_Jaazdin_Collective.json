@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson"],
-        "version": "0.1.57"
+        "version": "0.1.58"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1738286709
+    "dateLastModified": 1738287065
   },
   "background": [
     {
@@ -9560,7 +9560,7 @@
       "subclassSource": "TftJC",
       "level": 3,
       "entries": [
-        "Additionally at 3rd level, you gain access to two different types of weapons. Working for one minute, you can imbue a pair of shortswords or a pair of whips with your Artificer magic transforming them into either the Flip Swords or Silver Tethers, respectfully (you are proficient in these weapons). You can only either have one of these options active at a time. While these weapons are imbued with your magic, they use your Intelligence Modifier to calculate the to hit bonus and damage rolls. If you would imbue one of these weapons with an Infusion, both are affected by the same infusion (this only counts as one infusion being active).",
+        "Additionally at 3rd level, you gain access to two different types of weapons. Working for one minute, you can imbue a pair of shortswords or a pair of whips with your Artificer magic transforming them into either the Flip Swords or Silver Tethers, respectfully (you are proficient in these weapons). You can only either have one of these options active at a time. If you would imbue one of these weapons with an Infusion, both are affected by the same infusion (this only counts as one infusion being active).",
         {
           "type": "inset",
           "name": "Flip Swords",
@@ -9609,7 +9609,7 @@
           "items": [
             "Your walk speed is increased by 5 at 5th level, 10 at 9th level, 15 at 13th level, and 20 at 17th level.",
             "You can use your Derby Blades as an Arcane Focus for your Artificer Spells.",
-            "For every 5ft you move before making a melee attack, you deal 1 additional damage. You must have moved closer to the enemy than you started, and only spaces in which you move closer to the attack target add to the damage."
+            "For every 5ft you move in a straight line without turning before making a melee attack with a Derby Dasher weapon, you deal an additional 1 Damage, capping the maximum damage up to your Artificer level."
           ]
         }
       ]
@@ -9712,7 +9712,7 @@
           "type": "inset",
           "name": "Silver Tethers",
           "entries": [
-            "Creatures hit by two attacks made by your Tethers in one turn must make a Strength saving throw against your DC, and on a fail are restrained until the end of your next turn."
+            "Creatures hit by your main and and off hand Silver Tethers in one turn must make a Strength Save against your DC, and on a fail are restrained until the end of your next turn, or you move beyond your Tethers Maximum reach."
           ]
         }
       ]

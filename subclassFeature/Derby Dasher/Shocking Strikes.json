@@ -19,7 +19,7 @@
       "type": "inset",
       "name": "Silver Tethers",
       "entries": [
-        "Creatures hit by two attacks made by your Tethers in one turn must make a Strength saving throw against your DC, and on a fail are restrained until the end of your next turn."
+        "Creatures hit by your main and and off hand Silver Tethers in one turn must make a Strength Save against your DC, and on a fail are restrained until the end of your next turn, or you move beyond your Tethers Maximum reach."
       ]
     }
   ]
