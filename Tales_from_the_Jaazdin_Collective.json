@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson"],
-        "version": "0.1.59"
+        "version": "0.1.6"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1738287827
+    "dateLastModified": 1738288052
   },
   "background": [
     {
@@ -9982,11 +9982,11 @@
       "subclassSource": "TftJC",
       "level": 3,
       "entries": [
-        "Starting at 3rd level, you gain the ability to magically sabotage mechanisms or arcane equipment within 30 feet. As a reaction, you can target one crossbow or firearm, arcane focus, or magic item within range. The wielder of the object must make an Intelligence saving throw against your spell save DC, on a failure the object is sabotaged and one of the following effects takes place, depending on what the target is:",
+        "Starting at 3rd level, you gain the ability to magically sabotage mechanisms or arcane equipment within 60 feet. As a reaction, you can target one weapon, arcane focus, or magic item within range. The wielder of the object must make an Intelligence saving throw against your spell save DC, on a failure the object is sabotaged and one of the following effects takes place, depending on what the target is:",
         {
           "type": "list",
           "items": [
-            "A crossbow or firearm malfunctions, whenever it is fired the creature must roll a 1d4, on a 1 the attack fired hits them instead, dealing the weapons normal damage to them. This effect persists until the creature uses an action to fix the weapon, no check is required.",
+            "A weapon malfunctions or breaks, whenever it is used to make an attack the attacking creature must roll {@dice 1d4}, and on a 1 the attack hits them instead, dealing the weapons normal damage to them. This effect persists until the creature rolls a 1 or they use an action to fix the weapon, no check is required.",
             "An arcane focus becomes unstable, spell attack rolls made with it have disadvantage, and creatures have advantage on saving throws against spells cast from it. This effect persists until the creature uses an action to fix the focus, no check is required.",
             "A magic item becomes suppressed and stops functioning until the end of your next turn."
           ]
@@ -10093,7 +10093,7 @@
         {
           "type": "list",
           "items": [
-            "When a crossbow or firearm malfunctions because of your Magical Sabator ability the wielder and each creature within 5 feet take 2d8 force damage.",
+            "When a weapon malfunctions because of your Magical Sabator ability the wielder and each creature within 5 feet take {@dice 2d8} force damage.",
             "When a spell is cast from a focus affected by your Magical Sabator ability the caster suffers magical backlash of force damage equal to twice the spell's level (1 damage for a cantrip).",
             "A magic item becomes suppressed and stops functioning until an action is used to restart it."
           ]
