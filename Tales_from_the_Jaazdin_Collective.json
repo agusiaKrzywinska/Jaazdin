@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson"],
-        "version": "0.1.6"
+        "version": "0.1.61"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1738288052
+    "dateLastModified": 1738289102
   },
   "background": [
     {
@@ -10267,7 +10267,10 @@
       "subclassSource": "TftJC",
       "level": 10,
       "entries": [
-        "At 10th level, you become a master of the night. As an Action while raging, you and your equipment can transform into a bat. You return to your normal form either once you drop to 0 hit points, you dismiss it as a Bonus Action, or your rage ends. You retain your mental statistics, and can use your Vampiric Fangs while in this form."
+        "At 10th level, you become a master of the night. While Raging, you can use an Action to transform into a Bat.",
+        "While in your Bat form, you do not need to take/deal damage to maintain your Rage. While you are a Bat, your hp is equal to your Barbarian level + your original Constitution Bonus, and you are resistant to all Damage except for Radiant.",
+        "You return to your normal form when your Rage Ends or when it is dismissed as a Bonus Action, or when the bat drops to 0 hit points. Any additional Damage taken is dealt to you.",
+        "You retain your mental statistics and your Strength, and can use your Vampiric Fangs while in this form."
       ]
     },
     {
@@ -10891,7 +10894,7 @@
       "subclassSource": "TftJC",
       "level": 10,
       "entries": [
-        "At 10th level, your Wild Shape list now includes Dragons, and you can expend two uses of your Wild shape to transform into a Young Dragon of your choice. Also, you can cast {@spell Polymorph|PHB} on yourself once per short rest, but can only select a Dragon as a possible form."
+        "At 10th level, your Wild Shape list now includes Dragons, and you can expend two uses of your Wild Shape to transform into a Wyrmling Dragon of your choice, and at 14th level this becomes a Young Dragon. Also, you can cast {@spell Polymorph|PHB} on yourself once per short rest, but can only select a Dragon as a possible form."
       ]
     },
     {
@@ -11270,7 +11273,7 @@
       "subclassSource": "TftJC",
       "level": 14,
       "entries": [
-        "At 14th level, your Titanic might is at its peak. Your Wild Shapes now heal a number of missing hit points equal to their Constitution Modifier + your Proficiency Bonus at the beginning of your turn, and their Strength Minimum now becomes 22. All creatures of your choice that are smaller than your Wild Shape forms must make a Wisdom Saving throw when they either start their turn within 30ft of you, or enter that space. On a Fail, they are Frightened until they leave this area."
+        "At 14th level, your Titanic might is at its peak. Your Wild Shapes now heal a number of missing hit points equal to their Constitution Modifier + your Proficiency Bonus at the beginning of your turn while you are under half of your maximum hit points, and their Strength Minimum now becomes 22. All creatures of your choice that are smaller than your Wild Shape forms must make a Wisdom Saving throw against your Druid DC when they either start their turn within 30ft of you, or enter that space. On a Fail, they are Frightened until they leave this area, and on a success they are immune to the effect for 24 hours."
       ]
     },
     {
@@ -12862,7 +12865,8 @@
       "level": 3,
       "entries": [
         "Starting at 3rd level, you learn mastery of all forms of ranged weaponry. You gain proficiency in all simple or martial weapons that have the Range property, as well as proficiency in firearms. Any ranged weapon that does not have the heavy property can be a monk weapon for you.",
-        "In addition, you learn the mage hand cantrip and can cast it as a bonus action. As an action you can command the hand to make an unarmed attack, using your bonus, but using Wisdom instead of Strength or Dexterity."
+        "In addition, you learn the {@spell mage hand|PHB} cantrip and can cast it as a bonus action.",
+        "Once per turn, you can replace one of your unarmed attacks to be made at a creature within 5ft of your Mage Hand, but using Wisdom instead of Strength or Dexterity. The Mage Hand can also be used to make attacks of opportunity, using your reaction."
       ]
     },
     {
@@ -13303,7 +13307,7 @@
       "subclassSource": "TftJC",
       "level": 15,
       "entries": [
-        "At 15th level, your strikes break the foundations. Any weapon you are wielding is treated as having the siege property."
+        "At 15th level, your strikes break the foundations. Any weapon you are wielding is treated as having the siege property. Additionally, after you or a friendly creature within 30ft of you succeeds on a Saving Throw against having their movement reduced or set to 0, they gain advantage on weapon attack rolls until the end of their turn."
       ]
     },
     {
@@ -13960,8 +13964,8 @@
       "subclassSource": "TftJC",
       "level": 3,
       "entries": [
-        "At 3rd level, you gain the ability to cut away the luck of your enemies and use it for yourself. When you hit a creature and use your Sneak Attack roll 1d4 and deal additional damage equal to the number rolled, in addition subtract it from that creatures next attack roll or saving throw and you add the number rolled to the first attack roll or saving throw you make. You can use this ability a number of times equal to your proficency bonus, regaining all uses when you finish a long rest.",
-        "The bonus from this ability increases to 1d6 at level 5, 1d8 at level 9, 1d10 at level 13, and 1d12 at level 17."
+        "At 3rd level, you gain the ability to cut away the luck of your enemies and use it for yourself. When you hit a creature and use your Sneak Attack roll {@dice 2d4} and deal additional damage equal to the number rolled, in addition subtract it from that creatures next attack roll or saving throw and you add the number rolled to the first attack roll or saving throw you make. You can use this ability a number of times equal to your proficiency bonus, regaining all uses when you finish a long rest.",
+        "The bonus from this ability increases to {@dice 2d6} at level 5, {@dice 2d8} at level 9, {@dice 2d10} at level 13, and {@dice 2d12} at level 17."
       ]
     },
     {
@@ -15437,7 +15441,7 @@
       "subclassSource": "TftJC",
       "level": 2,
       "entries": [
-        "At 2nd level, you become a savant in cramming in spells into your spellbook. When you prepare your Wizard spell, you can also shorthand a number of spells into your spellbook equal to half of your Wizard level, in total Spell Levels (rounded down). You cannot Shorthand the same spell twice, nor can you have a prepared spell also Shorthanded. These Shorthanded spells can be casted once each without using a spell slot, but cannot be cast using your normal spell slots. You can only Shorthand spells equal to or lower than 5th level.",
+        "At 2nd level, you become a savant in cramming in spells into your spellbook. When you prepare your Wizard spell, you can also shorthand a number of spells into your spellbook equal to half of your Wizard level, in total Spell Levels (rounded down). You cannot Shorthand the same spell twice, nor can you have a prepared spell also Shorthanded. You can cast these Shorthanded spells once each without using a spell slot, but cannot be cast again as a Wizard Spell. You can only Shorthand spells equal to or lower than 5th level.",
         "Additionally, when copying spells into your spellbook, you can do so 10x faster."
       ]
     },
