@@ -14,7 +14,7 @@
       "colLabels": ["Virus", "Effect", "Spell School"],
       "colStyles": ["col- text-", "col- text- ", "col- text- "],
       "rows": [
-        ["Wither", "The creature takes 1d6 necrotic damage.", "Any"],
+        ["Wither", "The creature takes {@dice 1d6} necrotic damage.", "Any"],
         [
           "Augmentation",
           "The creature has advantage on the next ability check or attack roll they make this minute.",
@@ -22,12 +22,12 @@
         ],
         [
           "Mindhack",
-          "The creature subtracts 1d6 from their next ability check or attack roll they make this minute.",
+          "The creature subtracts {@dice 1d6} from their next ability check or attack roll they make this minute.",
           "Enchantment"
         ],
         [
           "Fortitude",
-          "The creature gains 1d8 temporary hit points.",
+          "The creature gains {@dice 1d8} temporary hit points.",
           "Necromancy"
         ],
         [

@@ -14,6 +14,27 @@
       "colLabels": ["Virus", "Effect", "Spell School"],
       "colStyles": ["col- text-", "col- text- ", "col- text- "],
       "rows": [
+        ["Wither", "The creature takes {@dice 2d6} necrotic damage.", "Any"],
+        [
+          "Augmentation",
+          "The creature has advantage on the next ability check or attack roll they make this minute.",
+          "Any"
+        ],
+        [
+          "Mindhack",
+          "The creature subtracts {@dice 1d12} from their next ability check or attack roll they make this minute.",
+          "Enchantment"
+        ],
+        [
+          "Fortitude",
+          "The creature gains {@dice 2d8} temporary hit points.",
+          "Necromancy"
+        ],
+        [
+          "Potency",
+          "You can reroll a number of die rolled as a part of the spell up half of your proficiency bonus and add +1 to each of the die rerolled (rounded down)",
+          "Evocation"
+        ],
         [
           "Fragility",
           "The creature has any damage resistances removed until the end of your next turn.",

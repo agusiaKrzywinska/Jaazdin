@@ -1,0 +1,35 @@
+{
+  "name": "Special Infected",
+  "source": "TftJC",
+  "className": "Artificer",
+  "classSource": "TCE",
+  "subclassShortName": "Necro Virus",
+  "subclassSource": "TftJC",
+  "level": 5,
+  "entries": [
+    "At 5th level, you begin tinkering with your Undead to make them more virulent. As a Bonus Action, you can expend a use of your Infected Spells to target a number of Undead under your control within 60ft of you equal to half your proficiency bonus (rounded down), they become juiced by your Virus. You can only have a maximum Special Infected under your control at a time equal to half of your Proficiency Bonus (rounded down) Each Undead becomes one of the following types of Special Infected. You can select multiple different types of Infected when using this action.",
+    {
+      "type": "inset",
+      "name": "Hunter",
+      "entries": [
+        "The Undead gains +20 walking speed, a climb speed equal to it walking speed, and Expertise in Stealth.",
+        "The Hunter deals an additional {@dice 1d6} Damage on its attacks that it has advantage on."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Bloater",
+      "entries": [
+        "The Undead gains +20 maximum and current Hit points. When the Bloater takes damage from a melee source, all creatures within 5ft of it take Poison damage equal to the Artificer's Intelligence Modifier. When the Bloater Dies, each creature within 15ft of it must make a Dexterity Saving Throw against your Spell Save DC, taking 3d6 Poison damage on a fail."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Spitter",
+      "entries": [
+        "The Undead gains a new Ranged Attack, as detailed below. The Spitter additionally gains 30ft of Blindsight.",
+        "<b><i>Venom Spit</b></i> Ranged Attack, your Intelligence + the Undead's Proficiency Bonus to hit. Range 60/120ft. Hit 2d4 Acid Damage + The Undead’s Constitution Modifier."
+      ]
+    }
+  ]
+}

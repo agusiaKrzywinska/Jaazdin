@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson"],
-        "version": "0.1.58"
+        "version": "0.1.59"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1738287065
+    "dateLastModified": 1738287827
   },
   "background": [
     {
@@ -9745,7 +9745,11 @@
           "colLabels": ["Virus", "Effect", "Spell School"],
           "colStyles": ["col- text-", "col- text- ", "col- text- "],
           "rows": [
-            ["Wither", "The creature takes 1d6 necrotic damage.", "Any"],
+            [
+              "Wither",
+              "The creature takes {@dice 1d6} necrotic damage.",
+              "Any"
+            ],
             [
               "Augmentation",
               "The creature has advantage on the next ability check or attack roll they make this minute.",
@@ -9753,12 +9757,12 @@
             ],
             [
               "Mindhack",
-              "The creature subtracts 1d6 from their next ability check or attack roll they make this minute.",
+              "The creature subtracts {@dice 1d6} from their next ability check or attack roll they make this minute.",
               "Enchantment"
             ],
             [
               "Fortitude",
-              "The creature gains 1d8 temporary hit points.",
+              "The creature gains {@dice 1d8} temporary hit points.",
               "Necromancy"
             ],
             [
@@ -9840,7 +9844,42 @@
       "subclassSource": "TftJC",
       "level": 5,
       "entries": [
-        "At 5th level, you can spread your Virus to the dead. If a humanoid creature would die to a spell infected by your Virus or damage dealt by your Virus, you can use your Reaction to spread the virus to their body. They arise as a Zombie under your control in 1d4+1 rounds. You can have a number of Zombies equal to your proficiency bonus under your control at one time from this feature."
+        "At 5th level, you can spread your Virus to the dead. If a creature would die to a spell infected by your Virus, damage dealt by your Virus or to your Special Infected, you can use your Reaction to spread the virus to their body. Their flesh coagulates and reforms, and they arise as a Zombie under your control in 1d4 + 1 rounds. You can have a number of Zombies equal to your proficiency bonus under your control at one time from this feature."
+      ]
+    },
+    {
+      "name": "Special Infected",
+      "source": "TftJC",
+      "className": "Artificer",
+      "classSource": "TCE",
+      "subclassShortName": "Necro Virus",
+      "subclassSource": "TftJC",
+      "level": 5,
+      "entries": [
+        "At 5th level, you begin tinkering with your Undead to make them more virulent. As a Bonus Action, you can expend a use of your Infected Spells to target a number of Undead under your control within 60ft of you equal to half your proficiency bonus (rounded down), they become juiced by your Virus. You can only have a maximum Special Infected under your control at a time equal to half of your Proficiency Bonus (rounded down) Each Undead becomes one of the following types of Special Infected. You can select multiple different types of Infected when using this action.",
+        {
+          "type": "inset",
+          "name": "Hunter",
+          "entries": [
+            "The Undead gains +20 walking speed, a climb speed equal to it walking speed, and Expertise in Stealth.",
+            "The Hunter deals an additional {@dice 1d6} Damage on its attacks that it has advantage on."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Bloater",
+          "entries": [
+            "The Undead gains +20 maximum and current Hit points. When the Bloater takes damage from a melee source, all creatures within 5ft of it take Poison damage equal to the Artificer's Intelligence Modifier. When the Bloater Dies, each creature within 15ft of it must make a Dexterity Saving Throw against your Spell Save DC, taking 3d6 Poison damage on a fail."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Spitter",
+          "entries": [
+            "The Undead gains a new Ranged Attack, as detailed below. The Spitter additionally gains 30ft of Blindsight.",
+            "<b><i>Venom Spit</b></i> Ranged Attack, your Intelligence + the Undead's Proficiency Bonus to hit. Range 60/120ft. Hit 2d4 Acid Damage + The Undead’s Constitution Modifier."
+          ]
+        }
       ]
     },
     {
@@ -9859,6 +9898,31 @@
           "colLabels": ["Virus", "Effect", "Spell School"],
           "colStyles": ["col- text-", "col- text- ", "col- text- "],
           "rows": [
+            [
+              "Wither",
+              "The creature takes {@dice 2d6} necrotic damage.",
+              "Any"
+            ],
+            [
+              "Augmentation",
+              "The creature has advantage on the next ability check or attack roll they make this minute.",
+              "Any"
+            ],
+            [
+              "Mindhack",
+              "The creature subtracts {@dice 1d12} from their next ability check or attack roll they make this minute.",
+              "Enchantment"
+            ],
+            [
+              "Fortitude",
+              "The creature gains {@dice 2d8} temporary hit points.",
+              "Necromancy"
+            ],
+            [
+              "Potency",
+              "You can reroll a number of die rolled as a part of the spell up half of your proficiency bonus and add +1 to each of the die rerolled (rounded down)",
+              "Evocation"
+            ],
             [
               "Fragility",
               "The creature has any damage resistances removed until the end of your next turn.",
@@ -9906,7 +9970,7 @@
       "subclassSource": "TftJC",
       "level": 15,
       "entries": [
-        "At 15th level, your Virus becomes flesh melting. When a Zombie under your control dies, their body melts. All creatures within 10ft of the Zombie take 2d10 acid damage, and they leave behind a puddle of Necrosis, which appears in a 5ft puddle directly under them. If a creature steps on it, you can immediately have them be affected by a Virus of your choice. The puddle lasts for 1 minute, or until someone steps in it."
+        "At 15th level, your Virus becomes flesh melting. When an Undead under your control dies, their body melts. All creatures within 10ft of the Undead take {@dice 2d10} acid damage, and they leave behind a puddle of Necrosis, which appears in a 5ft puddle directly under them. If a creature steps on it, you can immediately have them be affected by a Virus of your choice (ignoring spell school restrictions). The puddle lasts for 1 minute, or until someone steps in it."
       ]
     },
     {
