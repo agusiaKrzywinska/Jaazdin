@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson"],
-        "version": "0.1.61"
+        "version": "0.1.62"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1738289102
+    "dateLastModified": 1738289331
   },
   "background": [
     {
@@ -14689,8 +14689,9 @@
       "subclassSource": "TftJC",
       "level": 1,
       "entries": [
-        "At 1st level, the runes inside your body activate when you are actively channeling magic. While you are concentrating on a spell you gain temporary hit points equal to the spells level + your proficiency bonus at the start of each of your turns and once per turn when you deal damage with a weapon or spell attack you deal bonus force damage equal to your proficiency modifier.",
-        "When you fail a concentration check you can spend a hit die, roll it and add it to the result, potentially allowing you to maintain concentration."
+        "At 1st level, the runes inside your body activate when you are actively channeling magic. Once per turn when you deal damage with a weapon or spell attack you deal bonus force damage equal to your proficiency bonus.",
+        "When you fail a concentration check you can spend a hit die, roll it and add it to the result, potentially allowing you to maintain concentration.",
+        "Additionally at 6th level, while you are concentrating on a sorcerer spell you gain temporary hit points equal to the spells level + your proficiency bonus at the start of each of your turns"
       ]
     },
     {
@@ -14739,9 +14740,8 @@
         {
           "type": "list",
           "items": [
-            "You deal 2d8 extra damage of your choice from fire, cold, lightning, acid, or thunder damage.",
-            "The creature must make a Strength saving throw or be knocked back up to 30 feet.",
-            "If the target is concentrating on a spell you can force them to make their concentration check with disadvantage and if they fail the save they suffer extra psychic damage equal to 3 x the level of the spell."
+            "You deal {@dice 2d8} extra damage of your choice from fire, cold, lightning, acid, or thunder damage.",
+            "The creature must make a Strength saving throw or be knocked back up to 30 feet."
           ]
         }
       ]
