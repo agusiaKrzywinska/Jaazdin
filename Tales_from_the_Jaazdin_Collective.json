@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson"],
-        "version": "0.1.56"
+        "version": "0.1.57"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1736696358
+    "dateLastModified": 1738286709
   },
   "background": [
     {
@@ -579,6 +579,21 @@
           "items": [
             "You ignore half or 3/4 cover attacking a creature with ranged weapon attacks within 30ft",
             "Being within 5 feet or otherwise too close to a hostile creature doesn't impose disadvantage on your ranged weapon attacks"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crafty",
+      "source": "TftJC",
+      "entries": [
+        {
+          "type": "list",
+          "items": [
+            "Gain proficiency in one artisan tool of your choice and any other tool of your choice.",
+            "You gain expertise in one tool of your choice that you are currently proficient in.",
+            "Choose one Artificer infusion. Once per long rest, you can place that infusion on an object. You can only have one Infusion from this feature placed on an object at once. You may only pick infusions that require a level requirement if you have the artificer levels required.",
+            "Whenever you gain a level, you may replace the Infusion known with a different one."
           ]
         }
       ]
