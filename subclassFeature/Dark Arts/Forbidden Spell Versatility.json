@@ -7,7 +7,7 @@
   "subclassSource": "TftJC",
   "level": 2,
   "entries": [
-    "At 2th level, you learn more ways to utilize the Forbidden Spell. You gain access to two Forbidden Arcana. You gain more Forbidden Arcana as you progress in this class. Each time you take a level in this class, you can replace up to one Forbidden Arcana with another available. You can only learn Forbidden Arcana within your tier, which is determined by your level in this class. Each time you cast The Forbidden Spell, you can select a number of Forbidden Arcana to apply to that spell up to the spell slot level used in casting.",
+    "At 2nd level, you learn more ways to utilize the Forbidden Spell. You gain access to two Forbidden Arcana. You gain more Forbidden Arcana as you progress in this class. Each time you take a level in this class, you can replace up to one Forbidden Arcana with another available. You can only learn Forbidden Arcana within your tier, which is determined by your level in this class. Each time you cast The Forbidden Spell, you can select a number of Forbidden Arcana to apply to that spell up to the spell slot level used in its casting. Additionally, the Tier of the Arcana cannot total more than the level at which the Spell is cast at (Favoured Arcana excludes this)",
     {
       "type": "table",
       "caption": "Forbidden Arcana Scaling",

@@ -7,6 +7,6 @@
   "subclassSource": "TftJC",
   "level": 14,
   "entries": [
-    "At 14th level, your Titanic might is at its peak. Your Wild Shapes now heal a number of missing hit points equal to their Constitution Modifier + your Proficiency Bonus at the beginning of your turn, and their Strength Minimum now becomes 22. All creatures of your choice that are smaller than your Wild Shape forms must make a Wisdom Saving throw when they either start their turn within 30ft of you, or enter that space. On a Fail, they are Frightened until they leave this area."
+    "At 14th level, your Titanic might is at its peak. Your Wild Shapes now heal a number of missing hit points equal to their Constitution Modifier + your Proficiency Bonus at the beginning of your turn while you are under half of your maximum hit points, and their Strength Minimum now becomes 22. All creatures of your choice that are smaller than your Wild Shape forms must make a Wisdom Saving throw against your Druid DC when they either start their turn within 30ft of you, or enter that space. On a Fail, they are Frightened until they leave this area, and on a success they are immune to the effect for 24 hours."
   ]
 }

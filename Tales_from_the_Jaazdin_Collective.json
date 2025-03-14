@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson"],
-        "version": "0.1.70"
+        "version": "0.1.67"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1737133053
+    "dateLastModified": 1739324309
   },
   "background": [
     {
@@ -1074,6 +1074,21 @@
       ]
     },
     {
+      "name": "Crafty",
+      "source": "TftJC",
+      "entries": [
+        {
+          "type": "list",
+          "items": [
+            "Gain proficiency in one artisan tool of your choice and any other tool of your choice.",
+            "You gain expertise in one tool of your choice that you are currently proficient in.",
+            "Choose one Artificer infusion. Once per long rest, you can place that infusion on an object. You can only have one Infusion from this feature placed on an object at once. You may only pick infusions that require a level requirement if you have the artificer levels required.",
+            "Whenever you gain a level, you may replace the Infusion known with a different one."
+          ]
+        }
+      ]
+    },
+    {
       "name": "Druid Initiate",
       "source": "TftJC",
       "entries": [
@@ -1687,6 +1702,23 @@
         },
         "If a creature meets these conditions, you can Hunt them. Upon killing the target of your Hunt, a piece of them is magically added to the necklace.",
         "You gain a +1 to attack rolls per trophy collected. At 5 Trophies, the item changes."
+      ]
+    },
+    {
+      "name": "Boomerang",
+      "source": "TftJC",
+      "type": "M",
+      "rarity": "none",
+      "weight": 2,
+      "value": 1000,
+      "weaponCategory": "simple",
+      "property": ["F", "L", "T"],
+      "range": "30/90",
+      "dmg1": "1d4",
+      "dmgType": "B",
+      "entries": [
+        "<i><b>Simple Invention.</i></b>",
+        "If the Boomerang Misses, make a DC 15 Sleight of Hand Check, and on a success, it returns back to your hand successfully. Otherwise it lands in a random area within 15ft of the original target."
       ]
     },
     {
@@ -3562,6 +3594,26 @@
       ]
     },
     {
+      "name": "Malkin's Fluxbinder",
+      "source": "TftJC",
+      "type": "R",
+      "rarity": "none",
+      "baseItem": "heavy crossbow|PHB",
+      "weight": 18,
+      "weaponCategory": "martial",
+      "property": ["A", "H", "LD", "2H"],
+      "range": "100/400",
+      "dmg1": "1d10",
+      "dmgType": "P",
+      "foundryType": "weapon",
+      "ammoType": "crossbow bolt|phb",
+      "bonusWeapon": "+2",
+      "entries": [
+        "This magical crossbow is fitted with six gemstone lenses at the end of it. Attacks made with this magical weapon have a +2 to their to hit and damage rolls. When fired it deals an additional 1d8 damage depending on the focused gemstone, fire for ruby, acid for emerald, lightning for sapphire, cold for diamond, thunder for quartz, and acid for topaz. Changing the focused lens takes a bonus action.",
+        "In addition this crossbow can be used as an arcane focus. When used as an arcane focus you can change the damage of any spell cast through it to the damage type of the currently focused lens."
+      ]
+    },
+    {
       "name": "Man Catcher",
       "source": "TftJC",
       "page": 50,
@@ -4037,6 +4089,26 @@
       "wondrous": true,
       "entries": [
         "This black slate of stone has been enchanted with minor magic to heat or cool food. As an action it can be touched and either heated to a temperature hot enough to boil water or cooled to a temperature enough to freeze water. The effect remains until it is touched again and turned off."
+      ]
+    },
+    {
+      "name": "Potion of Past Memory",
+      "rarity": "legendary",
+      "type": "P",
+      "source": "TftJC",
+      "entries": [
+        "This Deep brown potion is filled with concentrated Memento beans, providing the Drinker a deep connection to Time. Before ingesting the Potion, a hair, nail or other small piece of a creature is to be mixed in with the completed Potion, after which time it glows with Chronurgic Magic. Ingesting the potion allows you to peer through that creature's life. You experience any event they would have from their point of view.",
+        "This potion's duration is based on the current amount of time the selected creature's life has lasted. 1 hour is equivalent of 1 year of that creature's life, if the creature has lived for 36 years the potion's effects remain active for 36 hours as you experience their life. Within that time, you are {@condition blinded}, {@condition deafened} and {@condition incapacitated}. A creature can resist these effects if they do not want to be under the potion's effects, making a DC 19 INT save, repeating this saving throw each hour that passes or when they take damage. The events are played out backwards, meaning more recent events happen in the first hours, and the beginning of the creature's life happens at the end of the vision. This potion's effects cannot be ended early, unless with a 9th level {@spell Dispel Magic|PHB} or by making the above saving throw. The potion provides no effect to creatures that are dead or undead."
+      ]
+    },
+    {
+      "name": "Potion of Perfection",
+      "rarity": "legendary",
+      "type": "P",
+      "source": "TftJC",
+      "entries": [
+        "This potion looks to be made from liquid gold. Drinking this potion grants the creature near Perfection in everything it does. Any d20 roll on a Skill check that is 7 or lower is treated as an 8. Your Proficiency Bonus is treated as 2 Higher. You gain 1 Legendary Resistance, which is lost after the duration runs out.",
+        "These effects last for 1 hour. The potion's remaining duration is halved each time you fail a skill check/saving throw."
       ]
     },
     {
@@ -10095,7 +10167,7 @@
       "subclassSource": "TftJC",
       "level": 3,
       "entries": [
-        "Additionally at 3rd level, you gain access to two different types of weapons. Working for one minute, you can imbue a pair of shortswords or a pair of whips with your Artificer magic transforming them into either the Flip Swords or Silver Tethers, respectfully (you are proficient in these weapons). You can only either have one of these options active at a time. While these weapons are imbued with your magic, they use your Intelligence Modifier to calculate the to hit bonus and damage rolls. If you would imbue one of these weapons with an Infusion, both are affected by the same infusion (this only counts as one infusion being active).",
+        "Additionally at 3rd level, you gain access to two different types of weapons. Working for one minute, you can imbue a pair of shortswords or a pair of whips with your Artificer magic transforming them into either the Flip Swords or Silver Tethers, respectfully (you are proficient in these weapons). You can only either have one of these options active at a time. If you would imbue one of these weapons with an Infusion, both are affected by the same infusion (this only counts as one infusion being active).",
         {
           "type": "inset",
           "name": "Flip Swords",
@@ -10144,7 +10216,7 @@
           "items": [
             "Your walk speed is increased by 5 at 5th level, 10 at 9th level, 15 at 13th level, and 20 at 17th level.",
             "You can use your Derby Blades as an Arcane Focus for your Artificer Spells.",
-            "For every 5ft you move before making a melee attack, you deal 1 additional damage. You must have moved closer to the enemy than you started, and only spaces in which you move closer to the attack target add to the damage."
+            "For every 5ft you move in a straight line without turning before making a melee attack with a Derby Dasher weapon, you deal an additional 1 Damage, capping the maximum damage up to your Artificer level."
           ]
         }
       ]
@@ -10247,7 +10319,7 @@
           "type": "inset",
           "name": "Silver Tethers",
           "entries": [
-            "Creatures hit by two attacks made by your Tethers in one turn must make a Strength saving throw against your DC, and on a fail are restrained until the end of your next turn."
+            "Creatures hit by your main and and off hand Silver Tethers in one turn must make a Strength Save against your DC, and on a fail are restrained until the end of your next turn, or you move beyond your Tethers Maximum reach."
           ]
         }
       ]
@@ -10280,7 +10352,11 @@
           "colLabels": ["Virus", "Effect", "Spell School"],
           "colStyles": ["col- text-", "col- text- ", "col- text- "],
           "rows": [
-            ["Wither", "The creature takes 1d6 necrotic damage.", "Any"],
+            [
+              "Wither",
+              "The creature takes {@dice 1d6} necrotic damage.",
+              "Any"
+            ],
             [
               "Augmentation",
               "The creature has advantage on the next ability check or attack roll they make this minute.",
@@ -10288,12 +10364,12 @@
             ],
             [
               "Mindhack",
-              "The creature subtracts 1d6 from their next ability check or attack roll they make this minute.",
+              "The creature subtracts {@dice 1d6} from their next ability check or attack roll they make this minute.",
               "Enchantment"
             ],
             [
               "Fortitude",
-              "The creature gains 1d8 temporary hit points.",
+              "The creature gains {@dice 1d8} temporary hit points.",
               "Necromancy"
             ],
             [
@@ -10375,7 +10451,42 @@
       "subclassSource": "TftJC",
       "level": 5,
       "entries": [
-        "At 5th level, you can spread your Virus to the dead. If a humanoid creature would die to a spell infected by your Virus or damage dealt by your Virus, you can use your Reaction to spread the virus to their body. They arise as a Zombie under your control in 1d4+1 rounds. You can have a number of Zombies equal to your proficiency bonus under your control at one time from this feature."
+        "At 5th level, you can spread your Virus to the dead. If a creature would die to a spell infected by your Virus, damage dealt by your Virus or to your Special Infected, you can use your Reaction to spread the virus to their body. Their flesh coagulates and reforms, and they arise as a Zombie under your control in 1d4 + 1 rounds. You can have a number of Zombies equal to your proficiency bonus under your control at one time from this feature."
+      ]
+    },
+    {
+      "name": "Special Infected",
+      "source": "TftJC",
+      "className": "Artificer",
+      "classSource": "TCE",
+      "subclassShortName": "Necro Virus",
+      "subclassSource": "TftJC",
+      "level": 5,
+      "entries": [
+        "At 5th level, you begin tinkering with your Undead to make them more virulent. As a Bonus Action, you can expend a use of your Infected Spells to target a number of Undead under your control within 60ft of you equal to half your proficiency bonus (rounded down), they become juiced by your Virus. You can only have a maximum Special Infected under your control at a time equal to half of your Proficiency Bonus (rounded down) Each Undead becomes one of the following types of Special Infected. You can select multiple different types of Infected when using this action.",
+        {
+          "type": "inset",
+          "name": "Hunter",
+          "entries": [
+            "The Undead gains +20 walking speed, a climb speed equal to it walking speed, and Expertise in Stealth.",
+            "The Hunter deals an additional {@dice 1d6} Damage on its attacks that it has advantage on."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Bloater",
+          "entries": [
+            "The Undead gains +20 maximum and current Hit points. When the Bloater takes damage from a melee source, all creatures within 5ft of it take Poison damage equal to the Artificer's Intelligence Modifier. When the Bloater Dies, each creature within 15ft of it must make a Dexterity Saving Throw against your Spell Save DC, taking 3d6 Poison damage on a fail."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Spitter",
+          "entries": [
+            "The Undead gains a new Ranged Attack, as detailed below. The Spitter additionally gains 30ft of Blindsight.",
+            "<b><i>Venom Spit</b></i> Ranged Attack, your Intelligence + the Undead's Proficiency Bonus to hit. Range 60/120ft. Hit 2d4 Acid Damage + The Undead’s Constitution Modifier."
+          ]
+        }
       ]
     },
     {
@@ -10394,6 +10505,31 @@
           "colLabels": ["Virus", "Effect", "Spell School"],
           "colStyles": ["col- text-", "col- text- ", "col- text- "],
           "rows": [
+            [
+              "Wither",
+              "The creature takes {@dice 2d6} necrotic damage.",
+              "Any"
+            ],
+            [
+              "Augmentation",
+              "The creature has advantage on the next ability check or attack roll they make this minute.",
+              "Any"
+            ],
+            [
+              "Mindhack",
+              "The creature subtracts {@dice 1d12} from their next ability check or attack roll they make this minute.",
+              "Enchantment"
+            ],
+            [
+              "Fortitude",
+              "The creature gains {@dice 2d8} temporary hit points.",
+              "Necromancy"
+            ],
+            [
+              "Potency",
+              "You can reroll a number of die rolled as a part of the spell up half of your proficiency bonus and add +1 to each of the die rerolled (rounded down)",
+              "Evocation"
+            ],
             [
               "Fragility",
               "The creature has any damage resistances removed until the end of your next turn.",
@@ -10441,7 +10577,7 @@
       "subclassSource": "TftJC",
       "level": 15,
       "entries": [
-        "At 15th level, your Virus becomes flesh melting. When a Zombie under your control dies, their body melts. All creatures within 10ft of the Zombie take 2d10 acid damage, and they leave behind a puddle of Necrosis, which appears in a 5ft puddle directly under them. If a creature steps on it, you can immediately have them be affected by a Virus of your choice. The puddle lasts for 1 minute, or until someone steps in it."
+        "At 15th level, your Virus becomes flesh melting. When an Undead under your control dies, their body melts. All creatures within 10ft of the Undead take {@dice 2d10} acid damage, and they leave behind a puddle of Necrosis, which appears in a 5ft puddle directly under them. If a creature steps on it, you can immediately have them be affected by a Virus of your choice (ignoring spell school restrictions). The puddle lasts for 1 minute, or until someone steps in it."
       ]
     },
     {
@@ -10453,11 +10589,11 @@
       "subclassSource": "TftJC",
       "level": 3,
       "entries": [
-        "Starting at 3rd level, you gain the ability to magically sabotage mechanisms or arcane equipment within 30 feet. As a reaction, you can target one crossbow or firearm, arcane focus, or magic item within range. The wielder of the object must make an Intelligence saving throw against your spell save DC, on a failure the object is sabotaged and one of the following effects takes place, depending on what the target is:",
+        "Starting at 3rd level, you gain the ability to magically sabotage mechanisms or arcane equipment within 60 feet. As a reaction, you can target one weapon, arcane focus, or magic item within range. The wielder of the object must make an Intelligence saving throw against your spell save DC, on a failure the object is sabotaged and one of the following effects takes place, depending on what the target is:",
         {
           "type": "list",
           "items": [
-            "A crossbow or firearm malfunctions, whenever it is fired the creature must roll a 1d4, on a 1 the attack fired hits them instead, dealing the weapons normal damage to them. This effect persists until the creature uses an action to fix the weapon, no check is required.",
+            "A weapon malfunctions or breaks, whenever it is used to make an attack the attacking creature must roll {@dice 1d4}, and on a 1 the attack hits them instead, dealing the weapons normal damage to them. This effect persists until the creature rolls a 1 or they use an action to fix the weapon, no check is required.",
             "An arcane focus becomes unstable, spell attack rolls made with it have disadvantage, and creatures have advantage on saving throws against spells cast from it. This effect persists until the creature uses an action to fix the focus, no check is required.",
             "A magic item becomes suppressed and stops functioning until the end of your next turn."
           ]
@@ -10564,7 +10700,7 @@
         {
           "type": "list",
           "items": [
-            "When a crossbow or firearm malfunctions because of your Magical Sabator ability the wielder and each creature within 5 feet take 2d8 force damage.",
+            "When a weapon malfunctions because of your Magical Sabator ability the wielder and each creature within 5 feet take {@dice 2d8} force damage.",
             "When a spell is cast from a focus affected by your Magical Sabator ability the caster suffers magical backlash of force damage equal to twice the spell's level (1 damage for a cantrip).",
             "A magic item becomes suppressed and stops functioning until an action is used to restart it."
           ]
@@ -10738,7 +10874,10 @@
       "subclassSource": "TftJC",
       "level": 10,
       "entries": [
-        "At 10th level, you become a master of the night. As an Action while raging, you and your equipment can transform into a bat. You return to your normal form either once you drop to 0 hit points, you dismiss it as a Bonus Action, or your rage ends. You retain your mental statistics, and can use your Vampiric Fangs while in this form."
+        "At 10th level, you become a master of the night. While Raging, you can use an Action to transform into a Bat.",
+        "While in your Bat form, you do not need to take/deal damage to maintain your Rage. While you are a Bat, your hp is equal to your Barbarian level + your original Constitution Bonus, and you are resistant to all Damage except for Radiant.",
+        "You return to your normal form when your Rage Ends or when it is dismissed as a Bonus Action, or when the bat drops to 0 hit points. Any additional Damage taken is dealt to you.",
+        "You retain your mental statistics and your Strength, and can use your Vampiric Fangs while in this form."
       ]
     },
     {
@@ -11362,7 +11501,7 @@
       "subclassSource": "TftJC",
       "level": 10,
       "entries": [
-        "At 10th level, your Wild Shape list now includes Dragons, and you can expend two uses of your Wild shape to transform into a Young Dragon of your choice. Also, you can cast {@spell Polymorph|PHB} on yourself once per short rest, but can only select a Dragon as a possible form."
+        "At 10th level, your Wild Shape list now includes Dragons, and you can expend two uses of your Wild Shape to transform into a Wyrmling Dragon of your choice, and at 14th level this becomes a Young Dragon. Also, you can cast {@spell Polymorph|PHB} on yourself once per short rest, but can only select a Dragon as a possible form."
       ]
     },
     {
@@ -11741,7 +11880,7 @@
       "subclassSource": "TftJC",
       "level": 14,
       "entries": [
-        "At 14th level, your Titanic might is at its peak. Your Wild Shapes now heal a number of missing hit points equal to their Constitution Modifier + your Proficiency Bonus at the beginning of your turn, and their Strength Minimum now becomes 22. All creatures of your choice that are smaller than your Wild Shape forms must make a Wisdom Saving throw when they either start their turn within 30ft of you, or enter that space. On a Fail, they are Frightened until they leave this area."
+        "At 14th level, your Titanic might is at its peak. Your Wild Shapes now heal a number of missing hit points equal to their Constitution Modifier + your Proficiency Bonus at the beginning of your turn while you are under half of your maximum hit points, and their Strength Minimum now becomes 22. All creatures of your choice that are smaller than your Wild Shape forms must make a Wisdom Saving throw against your Druid DC when they either start their turn within 30ft of you, or enter that space. On a Fail, they are Frightened until they leave this area, and on a success they are immune to the effect for 24 hours."
       ]
     },
     {
@@ -13333,7 +13472,8 @@
       "level": 3,
       "entries": [
         "Starting at 3rd level, you learn mastery of all forms of ranged weaponry. You gain proficiency in all simple or martial weapons that have the Range property, as well as proficiency in firearms. Any ranged weapon that does not have the heavy property can be a monk weapon for you.",
-        "In addition, you learn the mage hand cantrip and can cast it as a bonus action. As an action you can command the hand to make an unarmed attack, using your bonus, but using Wisdom instead of Strength or Dexterity."
+        "In addition, you learn the {@spell mage hand|PHB} cantrip and can cast it as a bonus action.",
+        "Once per turn, you can replace one of your unarmed attacks to be made at a creature within 5ft of your Mage Hand, but using Wisdom instead of Strength or Dexterity. The Mage Hand can also be used to make attacks of opportunity, using your reaction."
       ]
     },
     {
@@ -13774,7 +13914,7 @@
       "subclassSource": "TftJC",
       "level": 15,
       "entries": [
-        "At 15th level, your strikes break the foundations. Any weapon you are wielding is treated as having the siege property."
+        "At 15th level, your strikes break the foundations. Any weapon you are wielding is treated as having the siege property. Additionally, after you or a friendly creature within 30ft of you succeeds on a Saving Throw against having their movement reduced or set to 0, they gain advantage on weapon attack rolls until the end of their turn."
       ]
     },
     {
@@ -14431,8 +14571,8 @@
       "subclassSource": "TftJC",
       "level": 3,
       "entries": [
-        "At 3rd level, you gain the ability to cut away the luck of your enemies and use it for yourself. When you hit a creature and use your Sneak Attack roll 1d4 and deal additional damage equal to the number rolled, in addition subtract it from that creatures next attack roll or saving throw and you add the number rolled to the first attack roll or saving throw you make. You can use this ability a number of times equal to your proficency bonus, regaining all uses when you finish a long rest.",
-        "The bonus from this ability increases to 1d6 at level 5, 1d8 at level 9, 1d10 at level 13, and 1d12 at level 17."
+        "At 3rd level, you gain the ability to cut away the luck of your enemies and use it for yourself. When you hit a creature and use your Sneak Attack roll {@dice 2d4} and deal additional damage equal to the number rolled, in addition subtract it from that creatures next attack roll or saving throw and you add the number rolled to the first attack roll or saving throw you make. You can use this ability a number of times equal to your proficiency bonus, regaining all uses when you finish a long rest.",
+        "The bonus from this ability increases to {@dice 2d6} at level 5, {@dice 2d8} at level 9, {@dice 2d10} at level 13, and {@dice 2d12} at level 17."
       ]
     },
     {
@@ -15156,8 +15296,9 @@
       "subclassSource": "TftJC",
       "level": 1,
       "entries": [
-        "At 1st level, the runes inside your body activate when you are actively channeling magic. While you are concentrating on a spell you gain temporary hit points equal to the spells level + your proficiency bonus at the start of each of your turns and once per turn when you deal damage with a weapon or spell attack you deal bonus force damage equal to your proficiency modifier.",
-        "When you fail a concentration check you can spend a hit die, roll it and add it to the result, potentially allowing you to maintain concentration."
+        "At 1st level, the runes inside your body activate when you are actively channeling magic. Once per turn when you deal damage with a weapon or spell attack you deal bonus force damage equal to your proficiency bonus.",
+        "When you fail a concentration check you can spend a hit die, roll it and add it to the result, potentially allowing you to maintain concentration.",
+        "Additionally at 6th level, while you are concentrating on a sorcerer spell you gain temporary hit points equal to the spells level + your proficiency bonus at the start of each of your turns"
       ]
     },
     {
@@ -15206,9 +15347,8 @@
         {
           "type": "list",
           "items": [
-            "You deal 2d8 extra damage of your choice from fire, cold, lightning, acid, or thunder damage.",
-            "The creature must make a Strength saving throw or be knocked back up to 30 feet.",
-            "If the target is concentrating on a spell you can force them to make their concentration check with disadvantage and if they fail the save they suffer extra psychic damage equal to 3 x the level of the spell."
+            "You deal {@dice 2d8} extra damage of your choice from fire, cold, lightning, acid, or thunder damage.",
+            "The creature must make a Strength saving throw or be knocked back up to 30 feet."
           ]
         }
       ]
@@ -16345,7 +16485,7 @@
       "subclassSource": "TftJC",
       "level": 2,
       "entries": [
-        "At 2th level, you learn more ways to utilize the Forbidden Spell. You gain access to two Forbidden Arcana. You gain more Forbidden Arcana as you progress in this class. Each time you take a level in this class, you can replace up to one Forbidden Arcana with another available. You can only learn Forbidden Arcana within your tier, which is determined by your level in this class. Each time you cast The Forbidden Spell, you can select a number of Forbidden Arcana to apply to that spell up to the spell slot level used in casting.",
+        "At 2nd level, you learn more ways to utilize the Forbidden Spell. You gain access to two Forbidden Arcana. You gain more Forbidden Arcana as you progress in this class. Each time you take a level in this class, you can replace up to one Forbidden Arcana with another available. You can only learn Forbidden Arcana within your tier, which is determined by your level in this class. Each time you cast The Forbidden Spell, you can select a number of Forbidden Arcana to apply to that spell up to the spell slot level used in its casting. Additionally, the Tier of the Arcana cannot total more than the level at which the Spell is cast at (Favoured Arcana excludes this)",
         {
           "type": "table",
           "caption": "Forbidden Arcana Scaling",
@@ -16385,7 +16525,7 @@
       "subclassSource": "TftJC",
       "level": 6,
       "entries": [
-        "At 6th level, you learn to twist other spells in your favor. When casting a spell that makes a Spell Attack roll, you can apply 1 Forbidden Arcana that you know to it."
+        "At 6th level, you learn to twist other spells in your favor. When casting a spell that uses a spell slot that makes a Spell Attack roll other than The Forbidden Spell, you can apply 1 Forbidden Arcana that you know to it. All other rules of Applying Arcana to spells apply for this spell."
       ]
     },
     {
@@ -16421,7 +16561,7 @@
       "subclassSource": "TftJC",
       "level": 2,
       "entries": [
-        "At 2nd level, you become a savant in cramming in spells into your spellbook. When you prepare your Wizard spell, you can also shorthand a number of spells into your spellbook equal to half of your Wizard level, in total Spell Levels (rounded down). You cannot Shorthand the same spell twice, nor can you have a prepared spell also Shorthanded. These Shorthanded spells can be casted once each without using a spell slot, but cannot be cast using your normal spell slots. You can only Shorthand spells equal to or lower than 5th level.",
+        "At 2nd level, you become a savant in cramming in spells into your spellbook. When you prepare your Wizard spell, you can also shorthand a number of spells into your spellbook equal to half of your Wizard level, in total Spell Levels (rounded down). You cannot Shorthand the same spell twice, nor can you have a prepared spell also Shorthanded. You can cast these Shorthanded spells once each without using a spell slot, but cannot be cast again as a Wizard Spell. You can only Shorthand spells equal to or lower than 5th level.",
         "Additionally, when copying spells into your spellbook, you can do so 10x faster."
       ]
     },
@@ -16637,6 +16777,78 @@
             "1": ["frostbite|XGE#c"]
           }
         }
+      ]
+    }
+  ],
+  "vehicle": [
+    {
+      "name": "Arcycle",
+      "source": "TftJC",
+      "page": 0,
+      "vehicleType": "SHIP",
+      "terrain": ["land"],
+      "size": "M",
+      "capCrew": 1,
+      "capPassenger": 1,
+      "capCargo": 0.1,
+      "pace": 4,
+      "action": [
+        "This magical machine can be fueled with Arcane Magic to become a quick and reliable vehicle. While riding this vehicle you have 90 feet of speed. This speed is reduced to 45 on any terrain that isn’t flat. The vehicle requires magic to function. A creature can touch the Arcycle’s battery and use an action to expend a spell slot. The Arcycle then gains charges equal to the spell level x3.",
+        "Charges can be expended to do any of the following actions, which require a bonus action by the crew:",
+        {
+          "type": "list",
+          "style": "list-hang-notitle",
+          "items": [
+            {
+              "type": "item",
+              "name": "Engage (1 charge)",
+              "entry": "The Arcycle turns on, allowing all other features to be used. Once engaged, it remains engaged until an hour has passed, at which point the Arcycle must be rengaged."
+            },
+            {
+              "type": "item",
+              "name": "Nitro (2 charge)",
+              "entry": "The Arcycle’s speed is tripled, but any checks to steer have a -5 penalty."
+            },
+            {
+              "type": "item",
+              "name": "Wheelie (1 charge)",
+              "entry": "Ignore the penalty to uneven terrain until the end of your next turn."
+            },
+            {
+              "type": "item",
+              "name": "Shield (3 charges)",
+              "entry": "The Arcycle and all crew or passengers have resistance to all damage until the start of your next turn."
+            },
+            {
+              "type": "item",
+              "name": "Lightbreak (2 charges)",
+              "entry": "The Arcycle gains a climb speed equal to its land speed and can climb up flat surfaces, including ceilings. "
+            }
+          ]
+        },
+        "Due to the Arcyle’s size and shape, checks to steer while there is at least one passenger on it have disadvantage.",
+        "The number of charges that an Arcycle can hold is determined by the Spell Gem used in crafting it. 10 charges for an Uncommon Spell Gem, 30 Charges for a Rare Spell Gem, 50 Charges for a Very Rare Spell Gem, 100 Charges for a Legendary Spell Chem. An installed spell gem can be replaced with a DT 50 Tinkering Tools check.",
+        "An Arcyle has room for two modifications. Modifications can be added with a DT 50 Tinkering Tools check. Removing a modification takes 1 hour, with no check."
+      ],
+      "hull": {
+        "ac": 14,
+        "hp": 50,
+        "dt": 5
+      },
+      "immune": ["poison", "psychic", "lightning"],
+      "conditionImmune": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "incapacitated",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "stunned",
+        "unconscious"
       ]
     }
   ]

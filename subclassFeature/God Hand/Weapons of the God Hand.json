@@ -8,6 +8,7 @@
   "level": 3,
   "entries": [
     "Starting at 3rd level, you learn mastery of all forms of ranged weaponry. You gain proficiency in all simple or martial weapons that have the Range property, as well as proficiency in firearms. Any ranged weapon that does not have the heavy property can be a monk weapon for you.",
-    "In addition, you learn the mage hand cantrip and can cast it as a bonus action. As an action you can command the hand to make an unarmed attack, using your bonus, but using Wisdom instead of Strength or Dexterity."
+    "In addition, you learn the {@spell mage hand|PHB} cantrip and can cast it as a bonus action.",
+    "Once per turn, you can replace one of your unarmed attacks to be made at a creature within 5ft of your Mage Hand, but using Wisdom instead of Strength or Dexterity. The Mage Hand can also be used to make attacks of opportunity, using your reaction."
   ]
 }

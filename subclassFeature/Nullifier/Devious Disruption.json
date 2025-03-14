@@ -11,7 +11,7 @@
     {
       "type": "list",
       "items": [
-        "When a crossbow or firearm malfunctions because of your Magical Sabator ability the wielder and each creature within 5 feet take 2d8 force damage.",
+        "When a weapon malfunctions because of your Magical Sabator ability the wielder and each creature within 5 feet take {@dice 2d8} force damage.",
         "When a spell is cast from a focus affected by your Magical Sabator ability the caster suffers magical backlash of force damage equal to twice the spell's level (1 damage for a cantrip).",
         "A magic item becomes suppressed and stops functioning until an action is used to restart it."
       ]

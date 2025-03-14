@@ -7,6 +7,6 @@
   "subclassSource": "TftJC",
   "level": 15,
   "entries": [
-    "At 15th level, your strikes break the foundations. Any weapon you are wielding is treated as having the siege property."
+    "At 15th level, your strikes break the foundations. Any weapon you are wielding is treated as having the siege property. Additionally, after you or a friendly creature within 30ft of you succeeds on a Saving Throw against having their movement reduced or set to 0, they gain advantage on weapon attack rolls until the end of their turn."
   ]
 }
