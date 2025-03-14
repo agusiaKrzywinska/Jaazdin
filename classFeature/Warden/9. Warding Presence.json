@@ -1,0 +1,10 @@
+{
+  "name": "Warding Presence",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "level": 9,
+  "entries": [
+    "At 9th level, you become a bulwark of defense on the battlefield, shielding your allies from harm. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to choose to fail the save before you roll to protect your allies from the danger. If you choose to fail the save, choose a number of creatures within 15 feet up to your Constitution modifier that also have to make a Dexterity saving throw against the same effect. If they succeed, they instead take no damage, and only half if they fail."
+  ]
+}

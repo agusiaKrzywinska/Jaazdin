@@ -1,0 +1,12 @@
+{
+  "name": "Unshackled",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Juggernaut",
+  "subclassSource": "TftJC",
+  "level": 15,
+  "entries": [
+    "At 15th level, your body refuses to submit to the shackles of others, be they physical or magical. When you are subjected to a Paralyzed, Petrified, Restrained, or Stunned condition, you may immediately end the effect on yourself and can move your full movement towards the creature that prompted the condition on you. Once you use this ability, you cannot use it again until you finish a long rest."
+  ]
+}

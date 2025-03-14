@@ -1,0 +1,15 @@
+{
+  "name": "Martial Techniques",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "At 2nd level, you learn techniques that allow you to maneuver yourself and allies on the battlefield. Techniques. You learn two techniques of your choice, which are detailed under “Techniques” below. Techniques can replace attacks gained through the attack action and allow you and your allies to gain advantages against your opponents.",
+    "You learn an additional technique of your choice at 5th, 9th, 13th, and 17th level.",
+    "You can use your techniques a number of times equal to your Strength or Dexterity modifier (minimum 1). You regain all your Techniques on a short or long rest. The number of techniques you can use before resting increases to 1 + your STR or DEX mod at 10th level, and 2 + your STR or DEX mod at 17th level.",
+    "If you use a Technique, you cannot use the same Technique again on the same turn.",
+    "Saving Throws. Some of your techniques require your target to make a saving throw to resist the techniques effects. The saving throw DC is calculated as follows:",
+    "Technique save DC = 8 + your proficiency bonus + your Strength or Dexterity modifier."
+  ]
+}

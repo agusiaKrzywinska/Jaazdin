@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson"],
-        "version": "0.1.56"
+        "version": "0.1.70"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1736696358
+    "dateLastModified": 1737133053
   },
   "background": [
     {
@@ -254,6 +254,131 @@
         "proficienciesGained": {
           "weapons": ["firearms"],
           "tools": ["gunsmithing tools"]
+        }
+      }
+    },
+    {
+      "name": "Warden",
+      "source": "TftJC",
+      "classFeatures": [
+        "Heat of Battle|Warden|TftJC|1",
+        "Fighting Style|Warden|TftJC|1",
+        "Martial Techniques|Warden|TftJC|2",
+        "Inspiring Aura|Warden|TftJC|3",
+        {
+          "classFeature": "Warrior Tracts|Warden|TftJC|3",
+          "gainSubclassFeature": true
+        },
+        "Ability Score Improvement|Warden|TftJC|4",
+        "Martial Versatility|Warden|TftJC|4",
+        "Extra Attack|Warden|TftJC|5",
+        "Art of War|Warden|TftJC|5",
+        "Tactical Might|Warden|TftJC|6",
+        "Heat of Battle Improvement|Warden|TftJC|6",
+        {
+          "classFeature": "Warrior Tract Feature|Warden|TftJC|7",
+          "gainSubclassFeature": true
+        },
+        "Ability Score Improvement|Warden|TftJC|8",
+        "Warding Presence|Warden|TftJC|9",
+        "Ability Score Improvement|Warden|TftJC|10",
+        "Martial Technique Improvement|Warden|TftJC|10",
+        "Inspiring Aura Improvement|Warden|TftJC|11",
+        "Ability Score Improvement|Warden|TftJC|12",
+        "Undying Resolve|Warden|TftJC|13",
+        "Ability Score Improvement|Warden|TftJC|14",
+        {
+          "classFeature": "Warrior Tract Feature|Warden|TftJC|15",
+          "gainSubclassFeature": true
+        },
+        "Ability Score Improvement|Warden|TftJC|16",
+        "Martial Technique Improvement|Warden|TftJC|17",
+        "Advanced Preparedness|Warden|TftJC|18",
+        "Heat of Battle Improvement|Warden|TftJC|18",
+        "Ability Score Improvement|Warden|TftJC|19",
+        {
+          "classFeature": "Warrior Tract Feature|Warden|TftJC|20",
+          "gainSubclassFeature": true
+        }
+      ],
+      "hd": {
+        "number": 1,
+        "faces": 12
+      },
+      "proficiency": ["con", "str"],
+      "classTableGroups": [
+        {
+          "title": "",
+          "colLabels": ["Techniques Known"],
+          "rows": [
+            ["-"],
+            ["2"],
+            ["3"],
+            ["3"],
+            ["4"],
+            ["4"],
+            ["4"],
+            ["4"],
+            ["5"],
+            ["5"],
+            ["5"],
+            ["5"],
+            ["6"],
+            ["6"],
+            ["6"],
+            ["6"],
+            ["7"],
+            ["7"],
+            ["7"],
+            ["7"]
+          ]
+        }
+      ],
+      "startingProficiencies": {
+        "armor": ["light", "medium", "heavy", "shield"],
+        "weapons": ["simple", "martial"],
+        "tools": [
+          "one from Navigator's Tools, Vehicles (land), or Vehicles (water)"
+        ],
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "acrobatics",
+                "animal handling",
+                "athletics",
+                "intimidation",
+                "medicine",
+                "persuasion",
+                "perception",
+                "survival"
+              ],
+              "count": 2
+            }
+          }
+        ]
+      },
+      "startingEquipment": {
+        "default": [
+          "chainmail or leather armor and 3 javelins",
+          "a martial weapon and a shield or two martial weapons",
+          "a light crossbow and 20 bolts or 3 daggers",
+          "a diplomat's or dungeoneer's pack"
+        ]
+      },
+      "multiclassing": {
+        "requirements": {
+          "con": 13,
+          "or": [
+            {
+              "str": 13,
+              "dex": 13
+            }
+          ]
+        },
+        "proficienciesGained": {
+          "weapons": ["martial"],
+          "armor": ["medium", "shield"]
         }
       }
     }
@@ -552,6 +677,371 @@
       "level": 20,
       "entries": [
         "At 20th level, you are so adept with firearms that they are second nature to you. You cannot misfire with a firearm, and you can ignore half cover, and treat 3/4 cover as half cover when making a ranged attack with a firearm."
+      ]
+    },
+    {
+      "name": "Fighting Style",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 1,
+      "entries": [
+        "At 1st level, you adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.",
+        {
+          "type": "inset",
+          "name": "Battle Herald",
+          "entries": [
+            "You’ve learned to fight by leading the charge and inspiring your allies. When you succeed on a saving throw or score a critical hit, you use your reaction to grant a number of allies equal to your proficiency bonus within 30 feet of you temporary hit points equal to your proficiency modifier + your Charisma modifier."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Blessed Warrior",
+          "entries": [
+            "You learn two cantrips of your choice from the cleric spell list. They count as paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Blind Fighting",
+          "entries": [
+            "You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in total darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Dueling",
+          "entries": [
+            "When you are wielding a melee weapon in one hand and on other weapon, you gain a +2 bonus to damage rolls with that weapon."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Defense",
+          "entries": ["While you are wearing armor, you gain a +1 bonus to AC."]
+        },
+        {
+          "type": "inset",
+          "name": "Interception",
+          "entries": [
+            "When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Protection",
+          "entries": [
+            "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Superior Technique",
+          "entries": [
+            "You learn one maneuver of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).",
+            "You gain one superiority die, which is a d6 (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heat of Battle",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 1,
+      "entries": [
+        "At 1st level, you are able to keep a calm mind even in the direst of circumstance. When you fail a saving throw, are hit by a critical hit, or use a technique on your turn, you can use your reaction to do one of the following things:",
+        {
+          "type": "list",
+          "items": [
+            "Move up to half your movement without provoking attacks of opportunity, or allow one creature within 30ft of you to move half their movement.",
+            "Make one attack or let one creature within 30ft of you make one attack."
+          ]
+        },
+        "You resolve your effect after the effect that provoked it. You must be able to take your type of action after the effect that prompted it, meaning that if you are subjected to a condition that prevents you from moving or attacking, you cannot select those options.",
+        "You can use this ability once per short or long rest. At 6th level you can use it twice, and at 18th level you can use it three times before needing a short or long rest."
+      ]
+    },
+    {
+      "name": "Martial Techniques",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 2,
+      "entries": [
+        "At 2nd level, you learn techniques that allow you to maneuver yourself and allies on the battlefield. Techniques. You learn two techniques of your choice, which are detailed under “Techniques” below. Techniques can replace attacks gained through the attack action and allow you and your allies to gain advantages against your opponents.",
+        "You learn an additional technique of your choice at 5th, 9th, 13th, and 17th level.",
+        "You can use your techniques a number of times equal to your Strength or Dexterity modifier (minimum 1). You regain all your Techniques on a short or long rest. The number of techniques you can use before resting increases to 1 + your STR or DEX mod at 10th level, and 2 + your STR or DEX mod at 17th level.",
+        "If you use a Technique, you cannot use the same Technique again on the same turn.",
+        "Saving Throws. Some of your techniques require your target to make a saving throw to resist the techniques effects. The saving throw DC is calculated as follows:",
+        "Technique save DC = 8 + your proficiency bonus + your Strength or Dexterity modifier."
+      ]
+    },
+    {
+      "name": "Inspiring Aura",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "At 3rd level, you become an inspiring figure on the battlefield. As a bonus action, you can activate your aura. At the start of your turn while the aura is active, you can grant one ally within 10ft of you one of the following effects:",
+        {
+          "type": "list",
+          "items": [
+            "You grant them advantage on one skill check they make before the end of their next turn.",
+            "You grant them temporary hit points equal to your proficiency bonus. These disappear at the end of their next turn.",
+            "You grant them a bonus on one saving throw equal to your Constitution modifier that they make before the end of their next turn."
+          ]
+        },
+        "Your Inspiring Aura lasts for one minute or until you fall unconscious. You can use this aura a number of times equal to your proficiency bonus, regaining all uses when you finish a long rest.",
+        "A creature can only benefit from one Inspiring Aura at a time, even if they grant different effects. At 11th level, the range of your aura increases to 30 feet, and you can affect two creatures instead of one."
+      ]
+    },
+    {
+      "name": "Warrior Tracts",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "At 3rd level, you choose a tract to follow while you stride through the battlefield. Choose Commander, Conduit, Juggernaut, or Protector, all detailed at the end of the class description. The Archetype you choose grants you features at 3rd, 7th, 15th, and 20th level."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 4,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+        "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+      ]
+    },
+    {
+      "name": "Martial Versatility",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 4,
+      "entries": [
+        "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, as you shift the focus of your martial practice:",
+        {
+          "type": "list",
+          "items": [
+            "Replace a fighting style you know with another fighting style available to wardens.",
+            "You can replace one technique you know with a different technique."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Art of War",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 5,
+      "entries": [
+        "At 5th level you gain proficiency in one artisan's tool, language, instrument, or vehicle of your choice."
+      ]
+    },
+    {
+      "name": "Extra Attack",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 5,
+      "entries": [
+        "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+      ]
+    },
+    {
+      "name": "Heat of Battle Improvement",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 6,
+      "entries": [
+        "At 6th level, you can use Heat of Battle twice times instead of once per short or long rest."
+      ]
+    },
+    {
+      "name": "Tactical Might",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 6,
+      "entries": [
+        "At 6th level, you’ve learned to leverage your techniques to deal even deadlier blows. When you hit with an attack as part of a Technique or hit with a weapon attack on the same turn in which you’ve used a technique, you deal additional weapon damage equal to your proficiency bonus.",
+        "Additionally, when you use a Technique on your turn, you can use your reaction to use Heat of Battle."
+      ]
+    },
+    {
+      "name": "Warrior Tract Feature",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 7,
+      "entries": [
+        "At 7th level, you gain a feature granted by your Warrior Tract."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 8,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+        "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+      ]
+    },
+    {
+      "name": "Warding Presence",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 9,
+      "entries": [
+        "At 9th level, you become a bulwark of defense on the battlefield, shielding your allies from harm. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to choose to fail the save before you roll to protect your allies from the danger. If you choose to fail the save, choose a number of creatures within 15 feet up to your Constitution modifier that also have to make a Dexterity saving throw against the same effect. If they succeed, they instead take no damage, and only half if they fail."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 10,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+        "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+      ]
+    },
+    {
+      "name": "Martial Technique Improvement",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 10,
+      "entries": [
+        "At 10th level, the number of techniques you can use before resting increases to 1 + Strength or Dexterity modifier."
+      ]
+    },
+    {
+      "name": "Inspiring Aura Improvement",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 11,
+      "entries": [
+        "At 11th level, size of your inspiring aura increase to 30ft and you can effect two creature instead of one."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 12,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+        "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+      ]
+    },
+    {
+      "name": "Undying Resolve",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 13,
+      "entries": [
+        "At 13th level, even death is unable to shake your resolve on the battlefield. When you drop to zero hit points you do not immediately fall unconscious, instead you remain conscious until you fail one death saving throw. Additionally, you gain advantage on death saving throws and regain one hit point on a 19 or 20 on a death save."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 14,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+        "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+      ]
+    },
+    {
+      "name": "Warrior Tract Feature",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 15,
+      "entries": [
+        "At 15th level, you gain a feature granted by your Warrior Tract."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 16,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+        "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+      ]
+    },
+    {
+      "name": "Martial Technique Improvement",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 17,
+      "entries": [
+        "At 17th level, the number of techniques you can use before resting increases to 2 + Strength or Dexterity modifier."
+      ]
+    },
+    {
+      "name": "Advanced Preparedness",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 18,
+      "entries": [
+        "When you reach 18th level in this class, you gain the ability to always be prepared for conflict no matter the cause. When you finish a long rest, roll 1d8. You can add the result of that roll to any initiative check before your next long rest. You can add the bonus after you make the roll but before you know the result. Once you add this bonus you cannot do it again until you finish a long rest.",
+        "In addition, if you ever start initiative without any uses of your Techniques remaining you regain one use."
+      ]
+    },
+    {
+      "name": "Heat of Battle Improvement",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 18,
+      "entries": [
+        "At 18th level, you can use Heat of Battle three times instead of twice per short or long rest."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 19,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 10th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.",
+        "Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead."
+      ]
+    },
+    {
+      "name": "Warrior Tract Feature",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "level": 20,
+      "entries": [
+        "At 20th level, you gain a feature granted by your Warrior Tract."
       ]
     }
   ],
@@ -2881,7 +3371,7 @@
     {
       "name": "Indara’s Fall",
       "source": "TftJC",
-      "rarity": "Artifact",
+      "rarity": "artifact",
       "baseItem": "Lance|PHB",
       "reqAttune": true,
       "type": "M",
@@ -9450,6 +9940,66 @@
       ]
     },
     {
+      "name": "The Commander",
+      "source": "TftJC",
+      "page": 300,
+      "className": "Warden",
+      "classSource": "TftJC",
+      "shortName": "Commander",
+      "subclassFeatures": [
+        "The Commander|Warden|TftJC|Commander|TftJC|3",
+        "Peace in War|Warden|TftJC|Commander|TftJC|7",
+        "Commander's Mind|Warden|TftJC|Commander|TftJC|7",
+        "Beneficial Cooperation|Warden|TftJC|Commander|TftJC|15",
+        "Masterful Tactician|Warden|TftJC|Commander|TftJC|20"
+      ]
+    },
+    {
+      "name": "The Conduit",
+      "source": "TftJC",
+      "page": 300,
+      "className": "Warden",
+      "classSource": "TftJC",
+      "shortName": "Conduit",
+      "subclassFeatures": [
+        "The Conduit|Warden|TftJC|Conduit|TftJC|3",
+        "Battlefield Casting|Warden|TftJC|Conduit|TftJC|7",
+        "Conduit's Mind|Warden|TftJC|Conduit|TftJC|7",
+        "Arcane Conduit|Warden|TftJC|Conduit|TftJC|15",
+        "Spell Breaker|Warden|TftJC|Conduit|TftJC|20"
+      ]
+    },
+    {
+      "name": "The Juggernaut",
+      "source": "TftJC",
+      "page": 300,
+      "className": "Warden",
+      "classSource": "TftJC",
+      "shortName": "Juggernaut",
+      "subclassFeatures": [
+        "The Juggernaut|Warden|TftJC|Juggernaut|TftJC|3",
+        "Unyielding Body|Warden|TftJC|Juggernaut|TftJC|7",
+        "Unyielding Mind|Warden|TftJC|Juggernaut|TftJC|7",
+        "Unshackled|Warden|TftJC|Juggernaut|TftJC|15",
+        "Furious Overlord|Warden|TftJC|Juggernaut|TftJC|20"
+      ]
+    },
+    {
+      "name": "The Protector",
+      "source": "TftJC",
+      "page": 300,
+      "className": "Warden",
+      "classSource": "TftJC",
+      "shortName": "Protector",
+      "subclassFeatures": [
+        "The Protector|Warden|TftJC|Protector|TftJC|3",
+        "Ward's Charge|Warden|TftJC|Protector|TftJC|7",
+        "Protector's Mind|Warden|TftJC|Protector|TftJC|7",
+        "Line of Defense|Warden|TftJC|Protector|TftJC|15",
+        "Last Bastion|Warden|TftJC|Protector|TftJC|20"
+      ]
+    },
+    {
       "name": "The Fleshwarper",
       "source": "TftJC",
       "page": 45,
@@ -14685,6 +15235,519 @@
       "level": 18,
       "entries": [
         "At 18th level, your runes have grown to cover large areas of your body. If you are concentrating on a spell and cast another spell that requires concentration you can spend 3 sorcery points to store the second spell in your runes, allowing you to concentrate on both at once. When you take damage you must make a saving throw for both spells and the DC increases for both by an amount equal to the highest spell level you are concentrating on. Each round you must spend one sorcery point to continue concentrating on the spells, if you cannot or do not spend a sorcery point one spell of your choice ends. You can only ever concentrate on two spells at once."
+      ]
+    },
+    {
+      "name": "Best Laid Plans",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Commander",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "When you take this tract at 3rd level, you gain the careful insight and planning needed to prepare for battle. When you finish a long rest, you can make battle plans to grant yourself and your allies a boon for the coming day. Choose from one of the following effects which last until you finish a long rest or are used:",
+        {
+          "type": "list",
+          "items": [
+            "You grant one ally of your choice that finished the long rest with you the ability to use one of your techniques. They use their own Ability Scores when determining the DC or bonuses granted. Once they use the technique, they cannot use it again.",
+            "The first time you roll initiative, you and all your allies may move up to 10ft before combat begins, provided you are not surprised.",
+            "One ally of your choice that finished the long rest with you gains proficiency in a saving throw they are not already proficient in. Once they make a successful save of that type, they lose the proficiency."
+          ]
+        },
+        "If a creature with one of these abilities finishes a long rest, they lose their current ability."
+      ]
+    },
+    {
+      "name": "Bonus Techniques",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Commander",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "When you take this tract at 3rd level, you gain one technique from the list below. Whenever you gain a new technique, you can choose from this list as well.",
+        {
+          "type": "inset",
+          "name": "Mark of Denial",
+          "entries": [
+            "As part of an attack, you mark one creature and protect your allies from it. When you use this technique to attack a creature, that creature must make a Wisdom saving throw even if the attack misses. If the target fails the saving throw, it cannot take reactions until the end of your next turn, and any creature leaving its threat range can move an extra 10ft on their turn."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "A Change of Plans",
+          "entries": [
+            "You can forgo one attack to give an ally nearby the chance to push their advantage on their next turn. Choose one ally within 30ft, on their next turn they can use a bonus action to make one weapon attack, disengage, dash, or use an item."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Befuddling Strike",
+          "entries": [
+            "Befuddling Strike. As part of an attack, you strike a creature and confuse its senses. When you use this technique to attack a creature, that creature must make an Intelligence saving throw even if the attack misses. If the target fails, they become confused and on their next turn take one of the following actions of your choice.",
+            {
+              "type": "list",
+              "items": [
+                "Make one attack against a creature of your choice within range.",
+                "Use all their movement and use the dash action to move in a direction of your choice, avoiding obvious dangers.",
+                " Drop what it's holding and end its turn."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Commander",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Commander",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "Trained in the command of people these wardens lead those that follow them towards war, battle, and victory. A commander is often formally trained, either by an institution, a family mentor, or a rite of passage. For a commander victory is the final goal, but not at any cost. The protection of their allies is just as important as victory in the field.",
+        "Commanders learn that careful preparation is as important if not more so than strength in the field. In order to better protect themselves and their allies they must use whatever means necessary, every ounce of strength and every bit of wit. A commander is defined just as much by their losses as their victories, for every loss is another lesson learned.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Best Laid Plans|Warden|TftJC|Commander|TftJC|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Bonus Techniques|Warden|TftJC|Commander|TftJC|3"
+        }
+      ]
+    },
+    {
+      "name": "Commander's Mind",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Commander",
+      "subclassSource": "TftJC",
+      "level": 7,
+      "entries": [
+        "At 7th level, you reinforce your mind against assaults on the battlefield. You gain proficiency in a Charisma saving throws."
+      ]
+    },
+    {
+      "name": "Peace in War",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Commander",
+      "subclassSource": "TftJC",
+      "level": 7,
+      "entries": [
+        "At 7th level, you become a masterful negotiator when it comes to violence, either causing it or stopping it. You gain proficiency in either Persuasion or Intimidation. When you make a Persuasion or Intimidation check to prevent violence or to convince someone to commit a violent act, you can add your Strength or Constitution modifier to the roll."
+      ]
+    },
+    {
+      "name": "Beneficial Cooperation",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Commander",
+      "subclassSource": "TftJC",
+      "level": 15,
+      "entries": [
+        "Starting at 15th level, you have learned to bolster those that aid you on the battlefield. When a creature is involved in one of your Techniques you can choose to restore a number of hit points equal to your Constitution modifier to them. Additionally, you can choose to forgo the healing and instead end one condition affecting them from the following list: prone, stunned, charmed, or frightened."
+      ]
+    },
+    {
+      "name": "Masterful Tactician",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Commander",
+      "subclassSource": "TftJC",
+      "level": 20,
+      "entries": [
+        "Starting at 20th level, you have mastered your skills for planning to get the most out of your battle preparations. You can now apply the first and third benefits of Best Laid Plans to a number of creatures equal to your Charisma modifier + 1 (minimum 1). When your allies use the techniques granted by this ability, they regain hit points as per your Beneficial Cooperation ability. Additionally, any creatures that benefit from the second point of Best Laid Plans also gains advantage on all attacks made in their first round of combat."
+      ]
+    },
+    {
+      "name": "Bonus Techniques",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Conduit",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "When you take this tract at 3rd level, you gain one technique from the list below. Whenever you gain a new technique, you can choose from this list as well.",
+        {
+          "type": "inset",
+          "name": "Spell Sharing",
+          "entries": [
+            "When you cast a spell that targets only you, you can use this Technique to grant one other creature the effects of the spell. If the spell lasts for a duration, it lasts on the secondary creature for a number of rounds equal to the duration of the spell or equal to half your proficiency modifier (rounded down) whichever is lower."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Enhanced Healing",
+          "entries": [
+            "When you cast a spell that restores hit points, you can use this technique to increase the potency of the healing. The targeted creature regains additional hit points equal to your Constitution modifier, and you regain hit points equal to your Constitution modifier plus the spells level."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Arcane Battery",
+          "entries": [
+            "When a creature casts a spell within 30ft of you that deals damage, you can further enhance it with your own magic. Using your reaction to expend a spell slot you add additional force damage to one of the damage rolls of the spell equal to 2d8 per spell slot expended + half your warden levels. This is added to the spell's damage, meaning spells that save for half damage also halve this additional force damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spellcasting",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Conduit",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "When you reach 3rd level, through either sheer luck, careful study, or heavy modifications your body has become a conduit for errant magical energies. See Spells rules for the general rules of spellcasting and the Spells Listing for the wizard and paladin spell list. ",
+        "<b>Spell Slots.</b>The Conduit Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest. For example, if you know the 1st-level spell shield and have a 1st-level and 2nd-level spell slot available, you can cast shield using either slot.",
+        "<b>Spells Known of 1st-Level and Higher.</b> You know three 1st level wizard or paladin spells of your choice, you must choose from the abjuration, transmutation, or evocation spells on the wizard spell list or any paladin spell. The Spells Known column of the Conduit Spellcasting table shows when you learn more spells of 1st level or higher. Each of these spells must be an abjuration, transmutation, or evocation spell of your choice if you are choosing a wizard spell or any paladin spell and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level. Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the wizard or paladin spell list. The new spell must be of a level for which you have spell slots, and it must be an abjuration, evocation, or transmutation spell if it is a wizard spell.",
+        "<b>Spellcasting Ability.</b> Intelligence is your spellcasting ability for your spells, by channeling raw energies through your body. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a spell you cast and when making an attack roll with one.",
+        "Spell save DC = 8 + your proficiency bonus + your Intelligence modifier Spell attack modifier = your proficiency bonus + your Intelligence modifier"
+      ]
+    },
+    {
+      "name": "The Conduit",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Conduit",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "A conduit is a bastion of protection against errant magical energies. Your ability to control magical energy comes from perhaps the luck of your birth, careful study, or heavy modification done to your body through other magical or scientific forces. A conduit is an expert at protecting their allies from harmful magic, while also using their latent magical abilities to bolster themselves and other spellcasters. ",
+        "To a conduit, magic is a neutral force, an energy neither good nor evil. It is how the magic is used that defines if a being is good or ill. A conduit's magic is focused towards the reinforcement, defense, and restoration of their allies, although some use their magic for much more destructive pursuits.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Spellcasting|Warden|TftJC|Conduit|TftJC|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Bonus Techniques|Warden|TftJC|Conduit|TftJC|3"
+        }
+      ]
+    },
+    {
+      "name": "Battlefield Casting",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Conduit",
+      "subclassSource": "TftJC",
+      "level": 7,
+      "entries": [
+        "At 7th level, you become a master at dealing with magic while in the thick of battle. When you make a Concentration check, you add twice your Constitution modifier to the roll. In addition, if you lose concentration on a spell as the result of failing a Concentration check the spell instead ends at the start of your next turn, or the end of the spell's duration whichever is shorter."
+      ]
+    },
+    {
+      "name": "Conduit's Mind",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Conduit",
+      "subclassSource": "TftJC",
+      "level": 7,
+      "entries": [
+        "At 7th level, you reinforce your mind against assaults on the battlefield. You gain proficiency in a Intelligence saving throws."
+      ]
+    },
+    {
+      "name": "Arcane Conduit",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Conduit",
+      "subclassSource": "TftJC",
+      "level": 15,
+      "entries": [
+        "At 15th level, you become a lightning rod for arcane energies, causing them to arc towards you rather than your allies. You can use your Warding Presence ability on any spell that deals damage to multiple creatures, when you use the ability in this way you automatically fail the spell's saving throw to grant a number of creatures within 10 feet, up to your Constitution modifier, resistance to the spell's damage."
+      ]
+    },
+    {
+      "name": "Spell Breaker",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Conduit",
+      "subclassSource": "TftJC",
+      "level": 20,
+      "entries": [
+        "At 20th level, you become an expert at rebuking harmful magical effects from yourself and allies. Once per day, you can burn your magical energies to create a powerful nullifying field around yourself. Using an action to expend one spell slot, you gain the following effects for a number of rounds equal to the level of the spell slot expended.",
+        {
+          "type": "list",
+          "items": [
+            "You and creatures within 30ft of you of your choice gain advantage on saving throws against spells and other magical effects.",
+            "When a creature within 30ft of you takes damage from a spell, you can reduce the damage they take by an amount equal to your Constitution modifier.",
+            "If you succeed on a saving throw against a spell that only targets you, you gain temporary hit points equal to twice that spell's level."
+          ]
+        },
+        "While in this state, you can use a bonus action to expend another spell slot to extend the duration of the effects. When the effect ends, you deal force damage to any creatures of your choice within 30ft of you equal to four times the number of rounds it was active."
+      ]
+    },
+    {
+      "name": "Bonus Techniques",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Juggernaut",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "When you take this tract at 3rd level, you gain one technique from the list below. Whenever you gain a new technique, you can choose from this list as well.",
+        {
+          "type": "inset",
+          "name": "Crushing Pursuit",
+          "entries": [
+            "As a bonus action, you can Dash. When you finish your movement on this turn, each creature of your choice within 10 feet of you must make a Strength saving throw or take bludgeoning damage equal to your Proficiency Bonus + 1/20th of your Maximum Hit points. On a successful save they take half damage."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Relentless Vigor",
+          "entries": [
+            "As a reaction to failing a saving throw, expend 1 hit die and roll it. You take necrotic damage equal to twice the number rolled which cannot be reduced in any way. You may then reattempt the saving throw with advantage. You may still use Heat of Battle even if after using this Technique, even if you succeed on the saving throw on the reattempt."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Subjugation",
+          "entries": [
+            "You forgo one attack to instead intimidate one target. Select 1 creature within 60ft of you, they must make a Wisdom saving throw. On a failure, they are Frightened of you. As long as the creature is frightened, their movement speed is halved, and you gain Temporary Hit Points at the start of your turn equal to your Proficiency Bonus. On a success, their movement speed is halved until the end of their next turn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Juggernaut",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Juggernaut",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Unstoppable Force|Warden|TftJC|Juggernaut|TftJC|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Bonus Techniques|Warden|TftJC|Juggernaut|TftJC|3"
+        }
+      ]
+    },
+    {
+      "name": "Unstoppable Force",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Juggernaut",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "When you take this tract at 3rd level, you gain an unrelenting anger just waiting to be unleashed. After taking damage, the next weapon attack you hit with in the next minute does extra weapon damage equal to your Constitution modifier. "
+      ]
+    },
+    {
+      "name": "Unyielding Body",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Juggernaut",
+      "subclassSource": "TftJC",
+      "level": 7,
+      "entries": [
+        "At 7th level, your unyielding mind extends to your body as well. After taking damage, your movement speed cannot be reduced in any way (except to 0) until the end of your next turn.",
+        "In addition, whenever you critically strike a creature, that creature becomes frightened of you until the start of your next turn."
+      ]
+    },
+    {
+      "name": "Unyielding Mind",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Juggernaut",
+      "subclassSource": "TftJC",
+      "level": 7,
+      "entries": [
+        "At 7th level, your mind has grown so accustomed to battle, it refuses to yield to it. Whenever you have to remake a saving throw against the Charmed or Frightened conditions, you can choose to make the saving throw with Constitution, regardless of the original saving throw. You can use this ability a number of times per long rest equal to your Proficiency Bonus."
+      ]
+    },
+    {
+      "name": "Unshackled",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Juggernaut",
+      "subclassSource": "TftJC",
+      "level": 15,
+      "entries": [
+        "At 15th level, your body refuses to submit to the shackles of others, be they physical or magical. When you are subjected to a Paralyzed, Petrified, Restrained, or Stunned condition, you may immediately end the effect on yourself and can move your full movement towards the creature that prompted the condition on you. Once you use this ability, you cannot use it again until you finish a long rest."
+      ]
+    },
+    {
+      "name": "Furious Overlord",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Juggernaut",
+      "subclassSource": "TftJC",
+      "level": 20,
+      "entries": [
+        "At 20th level, your hatred can bolster your body turning you into an unstoppable juggernaut. As an action, you can become enraged for 1 minute. While enraged, you gain the following effects:",
+        {
+          "type": "list",
+          "items": [
+            "The effects of Unstoppable Force and Unyielding Body are always active during that minute. ",
+            "Any damage you take is reduced by your Proficiency Bonus.",
+            "You gain an additional 15 feet of movement speed.",
+            "You are immune to the charmed and frightened conditions."
+          ]
+        },
+        "These effects last for 1 minute or until you fall unconscious. After this ability ends, you gain two levels of exhaustion and cannot use it again until you finish a long rest."
+      ]
+    },
+    {
+      "name": "Bonus Techniques",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Protector",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "When you take this tract at 3rd level, you gain one technique from the list below. Whenever you gain a new technique, you can choose from this list as well.",
+        {
+          "type": "inset",
+          "name": "Interceding Strike",
+          "entries": [
+            "As a reaction, when a creature hits the subject of your Honor Bond with an attack, and you are within 5ft of the attacker, you can make an attack against them. If the attack hits, you reduce the damage of the offending attack by the damage you deal."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Shield Wall",
+          "entries": [
+            "You forgo one attack to instead brace your charge for incoming attacks. To use this technique, you must be wielding a shield. For the next minute, whenever your charge is within 5ft of you, they gain the AC benefits of your shield and can add your shield bonus to any Dexterity saving throws they make."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Team Strike",
+          "entries": [
+            "When you make an attack roll, you can allow the subject of your Honor Bond to also make an attack. Your Honor Bound can use its reaction to immediately make one attack, adding 1d4 to the to hit roll."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Honor Bond",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Protector",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "When you take this tract at 3rd level, you gain the ability to make a vow of protection towards one creature. As a bonus action you vow to protect one creature within 30ft of you making them your Honor Bound. Until you choose another target, you and the subject of your oath gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "Whenever you use the Help action on that creature, they roll 1d4 and add it to the result.",
+            "When within 30ft of each other, you both gain a +1 bonus to AC and saving throws.",
+            "If you finish a short rest and have access to that creature for the full duration of the rest, they can add half your proficiency modifier to any hit dice they spend during that rest."
+          ]
+        },
+        "Once you use a bonus action to designate a target, you cannot do so again until you finish a long rest. If a creature is already part of an Honor Bond, they cannot benefit from a second one."
+      ]
+    },
+    {
+      "name": "The Protector",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Protector",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "To the protector, their bond of protection is the most important thing in the world. To the one they vow to protect they are a guardian and a mentor, not just a protector in battle but a teacher and a friend. Proper guidance in life is as important as a strong shield to protect them in combat. When a protector vows to keep one safe, that bond is unshakable as a mountain.",
+        "The longer one serves to protect the same creature, the greater their ability to work together with that creature becomes. A protector and their charge in time become a well-oiled machine, working seamlessly together both in combat and outside it. For a protector, the greatest sin is to let the one they protect die.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Honor Bond|Warden|TftJC|Protector|TftJC|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Bonus Techniques|Warden|TftJC|Protector|TftJC|3"
+        }
+      ]
+    },
+    {
+      "name": "Protector's Mind",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Protector",
+      "subclassSource": "TftJC",
+      "level": 7,
+      "entries": [
+        "At 7th level, you reinforce your mind against assaults on the battlefield. You gain proficiency in a Wisdon saving throws."
+      ]
+    },
+    {
+      "name": "Ward's Charge",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Protector",
+      "subclassSource": "TftJC",
+      "level": 7,
+      "entries": [
+        "At 7th level, you gain the ability to support your Honor Bound not just inside combat but in all areas of their life. When you finish a short rest with a subject of your Honor Bond, you can choose to grant them proficiency in one skill or tool of your choice that you are proficient in. They retain the proficiency until you choose another Honor Bound or grant them a different proficiency with this feature."
+      ]
+    },
+    {
+      "name": "Line of Defense",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Protector",
+      "subclassSource": "TftJC",
+      "level": 15,
+      "entries": [
+        "At 15th level, your bond with your Honor Bound has grown strong enough that the two of you can work together in perfect fluidity. When you use a Technique gained through the Protectors Bonus Techniques that involves the subject of your Honor Bond, and no other allies, you do not need to expend a use of your Technique."
+      ]
+    },
+    {
+      "name": "Last Bastion",
+      "source": "TftJC",
+      "className": "Warden",
+      "classSource": "TftJC",
+      "subclassShortName": "Protector",
+      "subclassSource": "TftJC",
+      "level": 20,
+      "entries": [
+        "At 20th level, you become an unyielding guardian when it comes to protecting your charge. While you have the subject of your Honor Bond within 30ft, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You gain resistance to bludgeoning, slashing, and piercing damage.",
+            "Whenever you make a saving throw, you can add 1d6 to the roll.",
+            "If the subject of your Honor Bond drops to 0 hit points, you can immediately take a full turn. Once you use this ability, you cannot use it again until you finish a long rest."
+          ]
+        }
       ]
     },
     {

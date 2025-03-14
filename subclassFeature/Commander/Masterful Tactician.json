@@ -1,0 +1,12 @@
+{
+  "name": "Masterful Tactician",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Commander",
+  "subclassSource": "TftJC",
+  "level": 20,
+  "entries": [
+    "Starting at 20th level, you have mastered your skills for planning to get the most out of your battle preparations. You can now apply the first and third benefits of Best Laid Plans to a number of creatures equal to your Charisma modifier + 1 (minimum 1). When your allies use the techniques granted by this ability, they regain hit points as per your Beneficial Cooperation ability. Additionally, any creatures that benefit from the second point of Best Laid Plans also gains advantage on all attacks made in their first round of combat."
+  ]
+}

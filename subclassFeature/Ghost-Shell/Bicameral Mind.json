@@ -1,0 +1,14 @@
+{
+    "name": "Bicameral Mind",
+    "source": "TftJC",
+    "className": "Artificer",
+    "classSource": "TCE",
+    "subclassShortName": "Ghost-Shell",
+    "subclassSource": "TftJC",
+    "level": 5,
+    "entries": [
+      "At 5th level, you learn to place a small portion of your mind into your shell at all times. Your Shell can both move and take an action while in combat. In addition, it can take the attack action without requiring empowering, making a single attack.",
+      "As long as both you and your Shell are not charmed or frightened, the other has advantage on saving throws against those effects."
+    ]
+  }
+  

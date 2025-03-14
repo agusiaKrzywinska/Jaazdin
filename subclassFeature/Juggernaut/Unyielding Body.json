@@ -1,0 +1,13 @@
+{
+  "name": "Unyielding Body",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Juggernaut",
+  "subclassSource": "TftJC",
+  "level": 7,
+  "entries": [
+    "At 7th level, your unyielding mind extends to your body as well. After taking damage, your movement speed cannot be reduced in any way (except to 0) until the end of your next turn.",
+    "In addition, whenever you critically strike a creature, that creature becomes frightened of you until the start of your next turn."
+  ]
+}

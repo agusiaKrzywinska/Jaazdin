@@ -1,0 +1,48 @@
+{
+    "name": "College of the War Poet",
+    "source": "TftJC",
+    "className": "Bard",
+    "classSource": "PHB",
+    "subclassShortName": "War Poet",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "Starting at 3rd level, you can use your inspiring words to turn the tide of battle for your allies. As an action on your turn, you can expend a use of your Bardic Inspiration and activate one of your Poet Dictations. Multiple Poet Dictations reference your Bardic dice, when used in a Poetic Dictation they are counted as one die lower. D4 instead of D6, D6 instead of D8, etc. In order for a creature to be effected by a Poetic Dictation, they must be able to hear you and within 30 feet of you. A creatue can only be effected by one Poet Dictation a turn.",
+        "The following are the Poetic Dictations available to you:",
+        {
+            "type": "inset",
+            "name": "War",
+            "entries": [
+                "Until the start of your next turn, creature of your choice can add bonus damage to a weapon attack equal to a roll of your Poetic Dictation die."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Peace",
+            "entries": [
+                "Until the start of your next turn, creatures within range regain hit points equal to a roll of your Poetic Dictation die."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Valor",
+            "entries": [
+                "Until the start of your next turn creature of your choice within range, gain 5ft of movement speed, this bonus increases by 5ft each time your Bardic die increases."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Warding",
+            "entries": [
+                "Roll your Poetic Dictation die, each creature of your choice that starts their turn within range gains a bonus to their AC equal to the roll until the start of your next turn."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Focus",
+            "entries": [
+                "Until the start of your next turn, each creature of your choice within range can add a bonus to Intelligence, Wisdom, and Charisma saving throws equal to a roll of your Poetic Dictation die."
+            ]
+        }
+    ]
+}

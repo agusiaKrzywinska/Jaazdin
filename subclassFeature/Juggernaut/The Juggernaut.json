@@ -1,0 +1,20 @@
+{
+  "name": "The Juggernaut",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Juggernaut",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Unstoppable Force|Warden|TftJC|Juggernaut|TftJC|3"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Bonus Techniques|Warden|TftJC|Juggernaut|TftJC|3"
+    }
+  ]
+}

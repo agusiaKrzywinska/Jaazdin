@@ -1,0 +1,10 @@
+{
+  "name": "Extra Attack",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "level": 5,
+  "entries": [
+    "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+  ]
+}

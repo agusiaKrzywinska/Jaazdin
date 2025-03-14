@@ -1,0 +1,12 @@
+{
+  "name": "Battlefield Casting",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Conduit",
+  "subclassSource": "TftJC",
+  "level": 7,
+  "entries": [
+    "At 7th level, you become a master at dealing with magic while in the thick of battle. When you make a Concentration check, you add twice your Constitution modifier to the roll. In addition, if you lose concentration on a spell as the result of failing a Concentration check the spell instead ends at the start of your next turn, or the end of the spell's duration whichever is shorter."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Arcane Conduit",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Conduit",
+  "subclassSource": "TftJC",
+  "level": 15,
+  "entries": [
+    "At 15th level, you become a lightning rod for arcane energies, causing them to arc towards you rather than your allies. You can use your Warding Presence ability on any spell that deals damage to multiple creatures, when you use the ability in this way you automatically fail the spell's saving throw to grant a number of creatures within 10 feet, up to your Constitution modifier, resistance to the spell's damage."
+  ]
+}

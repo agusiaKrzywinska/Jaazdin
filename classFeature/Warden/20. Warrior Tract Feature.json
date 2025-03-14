@@ -1,0 +1,10 @@
+{
+  "name": "Warrior Tract Feature",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "level": 20,
+  "entries": [
+    "At 20th level, you gain a feature granted by your Warrior Tract."
+  ]
+}

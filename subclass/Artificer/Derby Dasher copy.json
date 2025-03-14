@@ -1,0 +1,15 @@
+{
+  "name": "Ghost-Shell",
+  "source": "TftJC",
+  "page": 7,
+  "className": "Artificer",
+  "classSource": "TCE",
+  "shortName": "Ghost-Shell",
+  "subclassFeatures": [
+    "Ghost-Shell|Artificer|TCE|Ghost-Shell|TftJC|3",
+    "Bicameral Mind|Artificer|TCE|Ghost-Shell|TftJC|5",
+    "Ghost Touched Spells|Artificer|TCE|Ghost-Shell|TftJC|5",
+    "False Consciousness|Artificer|TCE|Ghost-Shell|TftJC|9",
+    "Enhanced Frame|Artificer|TCE|Ghost-Shell|TftJC|15"
+  ]
+}

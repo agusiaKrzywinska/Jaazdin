@@ -1,0 +1,12 @@
+{
+  "name": "Unyielding Mind",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Juggernaut",
+  "subclassSource": "TftJC",
+  "level": 7,
+  "entries": [
+    "At 7th level, your mind has grown so accustomed to battle, it refuses to yield to it. Whenever you have to remake a saving throw against the Charmed or Frightened conditions, you can choose to make the saving throw with Constitution, regardless of the original saving throw. You can use this ability a number of times per long rest equal to your Proficiency Bonus."
+  ]
+}

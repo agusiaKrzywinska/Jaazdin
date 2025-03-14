@@ -1,0 +1,12 @@
+{
+  "name": "Protector's Mind",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Protector",
+  "subclassSource": "TftJC",
+  "level": 7,
+  "entries": [
+    "At 7th level, you reinforce your mind against assaults on the battlefield. You gain proficiency in a Wisdon saving throws."
+  ]
+}

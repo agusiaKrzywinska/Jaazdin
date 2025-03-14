@@ -1,0 +1,20 @@
+{
+  "name": "Inspiring Aura",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "At 3rd level, you become an inspiring figure on the battlefield. As a bonus action, you can activate your aura. At the start of your turn while the aura is active, you can grant one ally within 10ft of you one of the following effects:",
+    {
+      "type": "list",
+      "items": [
+        "You grant them advantage on one skill check they make before the end of their next turn.",
+        "You grant them temporary hit points equal to your proficiency bonus. These disappear at the end of their next turn.",
+        "You grant them a bonus on one saving throw equal to your Constitution modifier that they make before the end of their next turn."
+      ]
+    },
+    "Your Inspiring Aura lasts for one minute or until you fall unconscious. You can use this aura a number of times equal to your proficiency bonus, regaining all uses when you finish a long rest.",
+    "A creature can only benefit from one Inspiring Aura at a time, even if they grant different effects. At 11th level, the range of your aura increases to 30 feet, and you can affect two creatures instead of one."
+  ]
+}

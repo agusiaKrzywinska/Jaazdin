@@ -1,0 +1,21 @@
+{
+  "name": "Best Laid Plans",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Commander",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "When you take this tract at 3rd level, you gain the careful insight and planning needed to prepare for battle. When you finish a long rest, you can make battle plans to grant yourself and your allies a boon for the coming day. Choose from one of the following effects which last until you finish a long rest or are used:",
+    {
+      "type": "list",
+      "items": [
+        "You grant one ally of your choice that finished the long rest with you the ability to use one of your techniques. They use their own Ability Scores when determining the DC or bonuses granted. Once they use the technique, they cannot use it again.",
+        "The first time you roll initiative, you and all your allies may move up to 10ft before combat begins, provided you are not surprised.",
+        "One ally of your choice that finished the long rest with you gains proficiency in a saving throw they are not already proficient in. Once they make a successful save of that type, they lose the proficiency."
+      ]
+    },
+    "If a creature with one of these abilities finishes a long rest, they lose their current ability."
+  ]
+}

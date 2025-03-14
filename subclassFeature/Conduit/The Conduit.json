@@ -1,0 +1,21 @@
+{
+  "name": "The Conduit",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Conduit",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "A conduit is a bastion of protection against errant magical energies. Your ability to control magical energy comes from perhaps the luck of your birth, careful study, or heavy modification done to your body through other magical or scientific forces. A conduit is an expert at protecting their allies from harmful magic, while also using their latent magical abilities to bolster themselves and other spellcasters. ",
+    "To a conduit, magic is a neutral force, an energy neither good nor evil. It is how the magic is used that defines if a being is good or ill. A conduit's magic is focused towards the reinforcement, defense, and restoration of their allies, although some use their magic for much more destructive pursuits.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Spellcasting|Warden|TftJC|Conduit|TftJC|3"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Bonus Techniques|Warden|TftJC|Conduit|TftJC|3"
+    }
+  ]
+}
