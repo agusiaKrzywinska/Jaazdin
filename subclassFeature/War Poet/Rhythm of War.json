@@ -1,12 +1,12 @@
 {
-    "name": "Rhythm of War",
-    "source": "TftJC",
-    "className": "Bard",
-    "classSource": "PHB",
-    "subclassShortName": "War Poet",
-    "subclassSource": "TftJC",
-    "level": 6,
-    "entries": [
-        "At 6th level, once per long rest when you activate a Poetic Dictation, you can choose to activate your Rhythm of War which lasts 1 minute or until your concentrating ends (as if concentrating on a spell). Once activated, you can activate a Poetic Dictation on each of the turns without expending a use of your Bardic Inspiration. When in your Rhythm of War, you cannot activate the same Poetic Dictation twice in a row."
-    ]
+  "name": "Rhythm of War",
+  "source": "TftJC",
+  "className": "Bard",
+  "classSource": "PHB",
+  "subclassShortName": "War Poet",
+  "subclassSource": "TftJC",
+  "level": 6,
+  "entries": [
+    "At 6th level, once per long rest when you activate a Poetic Dictation, you can choose to activate your Rhythm of War which lasts 1 minute or until your concentrating ends (as if concentrating on a spell). Once activated, you can activate a Poetic Dictation on each of the turns without expending a use of your Bardic Inspiration. When in your Rhythm of War, you cannot activate the same Poetic Dictation twice in a row."
+  ]
 }
