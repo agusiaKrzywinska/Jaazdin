@@ -1,13 +1,12 @@
 {
-    "name": "Bicameral Mind",
-    "source": "TftJC",
-    "className": "Artificer",
-    "classSource": "TCE",
-    "subclassShortName": "Ghost-Shell",
-    "subclassSource": "TftJC",
-    "level": 5,
-    "entries": [
-      "At 5th level, when you cast a spell that deal lightning, necrotic, psychic, or force damage, you can expend a Psionic Energy die to empower the spell. An empowered spell deals additional damage equal to a roll of your Psionic Energy die."
-    ]
-  }
-  
+  "name": "Ghost Touched Spells",
+  "source": "TftJC",
+  "className": "Artificer",
+  "classSource": "TCE",
+  "subclassShortName": "Ghost-Shell",
+  "subclassSource": "TftJC",
+  "level": 5,
+  "entries": [
+    "At 5th level, when you cast a spell that deal lightning, necrotic, psychic, or force damage, you can expend a Psionic Energy die to empower the spell. An empowered spell deals additional damage equal to a roll of your Psionic Energy die."
+  ]
+}

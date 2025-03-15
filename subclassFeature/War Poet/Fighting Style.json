@@ -1,54 +1,54 @@
 {
-    "name": "Fighting Style",
-    "source": "TftJC",
-    "className": "Bard",
-    "classSource": "PHB",
-    "subclassShortName": "War Poet",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "At 3rd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if something in the game lets you choose again.",
-        {
-            "type": "inset",
-            "name": "Dueling",
-            "entries": [
-                "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Two-Weapon Fighting",
-            "entries": [
-                "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Archery",
-            "entries": [
-                "You gain a +2 bonus to attack rolls you make with ranged weapons."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Thrown Weapon Fighting",
-            "entries": [
-                "You can draw a weapon that has the thrown property aspart of the attack you make with the weapon. Inaddition, when you hit with a ranged attack using athrown weapon, you gain a +2 bonus to the damage roll."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Raskish Fighting",
-            "entries": [
-                "You learned to fight on the streets and use everything you can to your advantage. As a bonus action you can attempt a dirty trick. One creature within 10 feet of you must make a Wisdom saving throw equal to 8 + your proficiency bonus + your Str or Dex, or become blinded until the start of their next turn. In addition, whenever you hit a creature you have advantage on you deal 1d6 extra damage."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Battle Herald",
-            "entries": [
-                "You’ve learned to fight by leading the charge and inspiring your allies. While allies are within 30 feet of you and you succeed on a saving throw or score a critical hit you can use your reaction to grant a number of allies equal to your proficiency bonus temporary hit points equal to your proficiency modifier + your Charisma modifier."
-            ]
-        }
-    ]
+  "name": "Fighting Style",
+  "source": "TftJC",
+  "className": "Bard",
+  "classSource": "PHB",
+  "subclassShortName": "War Poet",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "At 3rd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if something in the game lets you choose again.",
+    {
+      "type": "inset",
+      "name": "Dueling",
+      "entries": [
+        "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Two-Weapon Fighting",
+      "entries": [
+        "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Archery",
+      "entries": [
+        "You gain a +2 bonus to attack rolls you make with ranged weapons."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Thrown Weapon Fighting",
+      "entries": [
+        "You can draw a weapon that has the thrown property aspart of the attack you make with the weapon. Inaddition, when you hit with a ranged attack using athrown weapon, you gain a +2 bonus to the damage roll."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Raskish Fighting",
+      "entries": [
+        "You learned to fight on the streets and use everything you can to your advantage. As a bonus action you can attempt a dirty trick. One creature within 10 feet of you must make a Wisdom saving throw equal to 8 + your proficiency bonus + your Str or Dex, or become blinded until the start of their next turn. In addition, whenever you hit a creature you have advantage on you deal 1d6 extra damage."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Battle Herald",
+      "entries": [
+        "You’ve learned to fight by leading the charge and inspiring your allies. While allies are within 30 feet of you and you succeed on a saving throw or score a critical hit you can use your reaction to grant a number of allies equal to your proficiency bonus temporary hit points equal to your proficiency modifier + your Charisma modifier."
+      ]
+    }
+  ]
 }

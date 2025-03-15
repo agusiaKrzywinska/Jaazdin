@@ -1,21 +1,20 @@
 {
-    "name": "Ghost-Shell",
-    "source": "TftJC",
-    "className": "Artificer",
-    "classSource": "TCE",
-    "subclassShortName": "Ghost-Shell",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-      "In a flurry of Psionis Blasts and shining metal, a duo fight in Tandem with perfect prescision. The Inventor who readies plans and their ultimate creation, an extention of their newfound powers and will. Combining the innovations in modern Construct Creations with latent Psionic ability, Ghost-Shell Artificers' connection to their creations is their most powerful asset. Seen as an extention of Body and Mind, these innovators come equiped with a powerful mechanical force tied to its master's brainwaves.",
-      {
-        "type": "refSubclassFeature",
-        "subclassFeature": "Psionic Shell|Artificer|TCE|Ghost-Shell|TftJC|3|TftJC"
-      },
-      {
-        "type": "refSubclassFeature",
-        "subclassFeature": "Psionic Power|Artificer|TCE|Ghost-Shell|TftJC|3|TftJC"
-      }
-    ]
-  }
-  
+  "name": "Ghost-Shell",
+  "source": "TftJC",
+  "className": "Artificer",
+  "classSource": "TCE",
+  "subclassShortName": "Ghost-Shell",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "In a flurry of Psionis Blasts and shining metal, a duo fight in Tandem with perfect prescision. The Inventor who readies plans and their ultimate creation, an extention of their newfound powers and will. Combining the innovations in modern Construct Creations with latent Psionic ability, Ghost-Shell Artificers' connection to their creations is their most powerful asset. Seen as an extention of Body and Mind, these innovators come equiped with a powerful mechanical force tied to its master's brainwaves.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Psionic Shell|Artificer|TCE|Ghost-Shell|TftJC|3|TftJC"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Psionic Power|Artificer|TCE|Ghost-Shell|TftJC|3|TftJC"
+    }
+  ]
+}

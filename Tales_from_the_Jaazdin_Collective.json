@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson"],
-        "version": "0.1.67"
+        "version": "0.2.0"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1739324309
+    "dateLastModified": 1742043114
   },
   "background": [
     {
@@ -9433,6 +9433,21 @@
       ]
     },
     {
+      "name": "Ghost-Shell",
+      "source": "TftJC",
+      "page": 7,
+      "className": "Artificer",
+      "classSource": "TCE",
+      "shortName": "Ghost-Shell",
+      "subclassFeatures": [
+        "Ghost-Shell|Artificer|TCE|Ghost-Shell|TftJC|3",
+        "Bicameral Mind|Artificer|TCE|Ghost-Shell|TftJC|5",
+        "Ghost Touched Spells|Artificer|TCE|Ghost-Shell|TftJC|5",
+        "False Consciousness|Artificer|TCE|Ghost-Shell|TftJC|9",
+        "Enhanced Frame|Artificer|TCE|Ghost-Shell|TftJC|15"
+      ]
+    },
+    {
       "name": "Necro Virus",
       "source": "TftJC",
       "page": 9,
@@ -9537,6 +9552,20 @@
         "College of Conducting|Bard|PHB|Conducting|TftJC|3",
         "Duet|Bard|PHB|Conducting|TftJC|6",
         "Quickened Conducting|Bard|PHB|Conducting|TftJC|14"
+      ]
+    },
+    {
+      "name": "College of the War Poet",
+      "source": "TftJC",
+      "page": 14,
+      "className": "Bard",
+      "classSource": "PHB",
+      "shortName": "War Poet",
+      "subclassFeatures": [
+        "College of the War Poet|Bard|PHB|War Poet|TftJC|3",
+        "Rhythm of War|Bard|PHB|War Poet|TftJC|6",
+        "Extra Attack|Bard|PHB|War Poet|TftJC|6",
+        "Herald of War|Bard|PHB|War Poet|TftJC|14"
       ]
     },
     {
@@ -10337,6 +10366,148 @@
       ]
     },
     {
+      "name": "Ghost-Shell",
+      "source": "TftJC",
+      "className": "Artificer",
+      "classSource": "TCE",
+      "subclassShortName": "Ghost-Shell",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "In a flurry of Psionis Blasts and shining metal, a duo fight in Tandem with perfect prescision. The Inventor who readies plans and their ultimate creation, an extention of their newfound powers and will. Combining the innovations in modern Construct Creations with latent Psionic ability, Ghost-Shell Artificers' connection to their creations is their most powerful asset. Seen as an extention of Body and Mind, these innovators come equiped with a powerful mechanical force tied to its master's brainwaves.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Psionic Shell|Artificer|TCE|Ghost-Shell|TftJC|3|TftJC"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Psionic Power|Artificer|TCE|Ghost-Shell|TftJC|3|TftJC"
+        }
+      ]
+    },
+    {
+      "name": "Psionic Power",
+      "source": "TftJC",
+      "className": "Artificer",
+      "classSource": "TCE",
+      "subclassShortName": "Ghost-Shell",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "You harbor a wellspring of psionic energy within yourself. This energy is represented by Psionic Energy dice, which are each a d6. You have a number of these dice equal to twice times your proficiency bonus, and they fuel various psionic powers you have, which are detailed below.",
+        "Some of your powers expend the Psionic Energy die they use, as specified in a power’s description, and you can’t use a power if it requires you to use a die when your dice are all expended. You regain all your expended Psionic Energy dice when you finish a long rest. In addition, as a bonus action you can regain two expended Psionic Energy dice, but you can’t do so again until you finish a long rest.",
+        "When you reach certain levels in this class, the size of your Psionic Energy dice increases: at 5th level (1d8), 11th level(1d10), and 17th level (1d12). The powers below use your Psionic Energy dice.",
+        {
+          "type": "inset",
+          "name": "Shell Walk",
+          "entries": [
+            "As a bonus action you can pull your shell 30ft closer to yourself or pull yourself closer to your shell. When you move in this way you do not provoke attacks of opportunity and your shell emites a burst of lightning either before or after it moves or before or after you move towards it. Each creature other than yourself must make a Dexterity saving throw or take lightning damage equal to your Psionic Energy die + your intelligence modifier."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Psi-Tool",
+          "entries": [
+            "As an action, you can summon a set of tools made of psychic force. When you summon these tools that act as a set of artisan tools and can be a part of your shell if you wish. You are proficient in the summoned tools even if you are not normally. When you use these tools for a skill check you can expend one Psionic Energy die to add the number rolled to the check. The tools exist of one hour or until you summon a new set of Psi-tools."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Ghost Projection",
+          "entries": [
+            "As an action, you can project yourself into your Shell. While in your Shell you are blind and deafened but can perceive using the senses of your Shell. While in your Shell you can use all your class abilities using your Intelligence, Charisma, and Wisdom but your Shells Strength, Dexterity, and Constitution. This includes casting spells and using class features. If your Shell is destroyed while you are in it, you must make a DC 8 + the CR of your Shell (rounded up) Constitution saving throw or instantly drop to 0 HP. On a success, you instead drop to 1 HP. You can return to your own body as an action. You can use this ability once before needing a long rest, or until you expend a Psionic Energy die to do so again."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Psionic Shell",
+      "source": "TftJC",
+      "className": "Artificer",
+      "classSource": "TCE",
+      "subclassShortName": "Ghost-Shell",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "At 3rd level, you create a Psionic Shell a mixture of mechanical prowess, arcane formula, and psychic reinforcement. This shell can take the form of any unnamed humanoid or beast with a CR less than your proficiency bonus. The Shell has all the statistics of that creature but cannot cast spells, has an Intelligence, Wisdom, and Charisma of 1, and is of type Construct. The Shell cannot regain hit points normally, instead regaining hit points if you spend up to 8 hours repairing it or regaining 5 times your proficiency bonus on a short rest.",
+        "Your Shell naturally follows you to the best of its ability, unless otherwise directed. It can take the Help, Dodge, Dash, and Disengage actions. In combat your Shell acts on your turn and can either move or take an action. As a bonus action on your turn you can grant your shell additional sentience by expending one Psionic Energy die. Once empowered, the Shell can take the Attack Action, use a Multiattack feature, or use a feature it has. The Shell then gains Temporary hit points equal to the number rolled on the Psionic Energy die + your Intelligence modifier.",
+        "As your expertise in creating Shells grows, you can access new schema at certain levels of this class. At 5th level you can create shells using the forms of Monstrosities, at 9th level you can use the forms of Dragons, at 11th level you can use the forms of celestials and fiends, and at 17th level you can use the forms of Aberrations."
+      ]
+    },
+    {
+      "name": "Bicameral Mind",
+      "source": "TftJC",
+      "className": "Artificer",
+      "classSource": "TCE",
+      "subclassShortName": "Ghost-Shell",
+      "subclassSource": "TftJC",
+      "level": 5,
+      "entries": [
+        "At 5th level, you learn to place a small portion of your mind into your shell at all times. Your Shell can both move and take an action while in combat. In addition, it can take the attack action without requiring empowering, making a single attack.",
+        "As long as both you and your Shell are not charmed or frightened, the other has advantage on saving throws against those effects."
+      ]
+    },
+    {
+      "name": "Ghost Touched Spells",
+      "source": "TftJC",
+      "className": "Artificer",
+      "classSource": "TCE",
+      "subclassShortName": "Ghost-Shell",
+      "subclassSource": "TftJC",
+      "level": 5,
+      "entries": [
+        "At 5th level, when you cast a spell that deal lightning, necrotic, psychic, or force damage, you can expend a Psionic Energy die to empower the spell. An empowered spell deals additional damage equal to a roll of your Psionic Energy die."
+      ]
+    },
+    {
+      "name": "Enhanced Frame",
+      "source": "TftJC",
+      "className": "Artificer",
+      "classSource": "TCE",
+      "subclassShortName": "Ghost-Shell",
+      "subclassSource": "TftJC",
+      "level": 9,
+      "entries": [
+        "At 15th level, you have learned a better way of constructing your Shell. Your shell can gain one of the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "Resistance to one type of damage from fire, lightning, thunder, force, acid, or cold.",
+            "Reduce any bludgeoning, slashing, or piercing damage taken by 3.",
+            "Any attack dealt by the Shell deals additional damage equal to your Psionic Energy die."
+          ]
+        },
+        "You can change which of these the Shell benefits from at the end of a short rest.",
+        "In addition, when you are using your Ghost Projection, you can expend one Psionic Energy die at the start of each of your turns to restore hit points to the Shell equal to the number rolled + your Intelligence modifier. Each turn you do this, you deal lightning damage to any creatures of your choice within 15ft of the Shell equal to your proficiency modifier."
+      ]
+    },
+    {
+      "name": "False Consciousness",
+      "source": "TftJC",
+      "className": "Artificer",
+      "classSource": "TCE",
+      "subclassShortName": "Ghost-Shell",
+      "subclassSource": "TftJC",
+      "level": 9,
+      "entries": [
+        "At 9th level, you have learned how to create temporary modes of consciousness and implant them into your shell. You gain access to the following abilities:",
+        {
+          "type": "inset",
+          "name": "Route Command",
+          "entries": [
+            "You expend one Psionic Energy die and insert a routine command into your Shell, such as hold this door or patrol this area. The Shell performs this action autonomously for you for a number of minutes equal to the roll of the die + your intelligence modifier. If something would prevent it from carrying out this command, it will go into a dormant state until you give it a new command. If it's time expires, and you are not immediately visible it will go into a dormant state until you give it a new command, otherwise it returns to following you. "
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Contingent Thought",
+          "entries": [
+            "You can place a command in your Shell that activates at a given time. For example, grab me if I fall off the bridge or protect me if I fall unconscious. When the contingent event happens the Shell acts out the planned thought, gaining a bonus to any skill checks involved equal to your intelligence modifier. You can place one command at once and can do so once per long rest, or expend one Psionic Energy die to place a new one. "
+          ]
+        }
+      ]
+    },
+    {
       "name": "Infected Spells",
       "source": "TftJC",
       "className": "Artificer",
@@ -11100,6 +11271,179 @@
       "level": 14,
       "entries": [
         "At 14th level, your spellcasting becomes difficult for enemies to keep track of. After an enemy succeeds a Saving Throw against one of your Bard Spells you have casted using a spell slot, that enemy has disadvantage on the next saving throw they make within a minute using that ability score. If that enemy fails the next saving throw they would make using that ability score, they take Psychic Damage equal to your Charisma Modifier x 2."
+      ]
+    },
+    {
+      "name": "College of the War Poet",
+      "source": "TftJC",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "War Poet",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "Through the fire and smoke raging over fields, a piercing voice echoes through the darkness.",
+        "'The lands will not stay quiet, not while we draw breath. Silence is only earned in victory, or in death.'",
+        "War Poets are known for their powerful voices, words and mids. They are often seen as leaders in rebel causes, voices of reason in times of uncertainty and steadfast spirits when darkness grows.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "War's Voice|Bard|PHB|War Poet|TftJC|3|TftJC"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Pentameter of Battle|Bard|PHB|War Poet|TftJC|3|TftJC"
+        }
+      ]
+    },
+    {
+      "name": "Fighting Style",
+      "source": "TftJC",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "War Poet",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "At 3rd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if something in the game lets you choose again.",
+        {
+          "type": "inset",
+          "name": "Dueling",
+          "entries": [
+            "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Two-Weapon Fighting",
+          "entries": [
+            "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Archery",
+          "entries": [
+            "You gain a +2 bonus to attack rolls you make with ranged weapons."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Thrown Weapon Fighting",
+          "entries": [
+            "You can draw a weapon that has the thrown property aspart of the attack you make with the weapon. Inaddition, when you hit with a ranged attack using athrown weapon, you gain a +2 bonus to the damage roll."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Raskish Fighting",
+          "entries": [
+            "You learned to fight on the streets and use everything you can to your advantage. As a bonus action you can attempt a dirty trick. One creature within 10 feet of you must make a Wisdom saving throw equal to 8 + your proficiency bonus + your Str or Dex, or become blinded until the start of their next turn. In addition, whenever you hit a creature you have advantage on you deal 1d6 extra damage."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Battle Herald",
+          "entries": [
+            "You’ve learned to fight by leading the charge and inspiring your allies. While allies are within 30 feet of you and you succeed on a saving throw or score a critical hit you can use your reaction to grant a number of allies equal to your proficiency bonus temporary hit points equal to your proficiency modifier + your Charisma modifier."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pentameter of Battle",
+      "source": "TftJC",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "War Poet",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "At 3rd level, you gain proficiency in medium armors, shields, and the longsword, longbow, and scimitar. In addition, you learn Calligraphy tools, if you already have proficiency in Calligraphy tools you gain a different artisan tool instead.",
+        "You ignore the spell list restrictions to cast spells from spell scrolls, and it takes you 10% less time to craft spell scrolls."
+      ]
+    },
+    {
+      "name": "War's Voice",
+      "source": "TftJC",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "War Poet",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "Starting at 3rd level, you can use your inspiring words to turn the tide of battle for your allies. As an action on your turn, you can expend a use of your Bardic Inspiration and activate one of your Poet Dictations. Multiple Poet Dictations reference your Bardic dice, when used in a Poetic Dictation they are counted as one die lower. D4 instead of D6, D6 instead of D8, etc. In order for a creature to be effected by a Poetic Dictation, they must be able to hear you and within 30 feet of you. A creatue can only be effected by one Poet Dictation a turn.",
+        "The following are the Poetic Dictations available to you:",
+        {
+          "type": "inset",
+          "name": "War",
+          "entries": [
+            "Until the start of your next turn, creature of your choice can add bonus damage to a weapon attack equal to a roll of your Poetic Dictation die."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Peace",
+          "entries": [
+            "Until the start of your next turn, creatures within range regain hit points equal to a roll of your Poetic Dictation die."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Valor",
+          "entries": [
+            "Until the start of your next turn creature of your choice within range, gain 5ft of movement speed, this bonus increases by 5ft each time your Bardic die increases."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Warding",
+          "entries": [
+            "Roll your Poetic Dictation die, each creature of your choice that starts their turn within range gains a bonus to their AC equal to the roll until the start of your next turn."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Focus",
+          "entries": [
+            "Until the start of your next turn, each creature of your choice within range can add a bonus to Intelligence, Wisdom, and Charisma saving throws equal to a roll of your Poetic Dictation die."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Extra Attack",
+      "source": "TftJC",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "War Poet",
+      "subclassSource": "TftJC",
+      "level": 6,
+      "entries": [
+        "At 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. In addition, you can now replace an attack with a use of your Poetic Dictation."
+      ]
+    },
+    {
+      "name": "Rhythm of War",
+      "source": "TftJC",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "War Poet",
+      "subclassSource": "TftJC",
+      "level": 6,
+      "entries": [
+        "At 6th level, once per long rest when you activate a Poetic Dictation, you can choose to activate your Rhythm of War which lasts 1 minute or until your concentrating ends (as if concentrating on a spell). Once activated, you can activate a Poetic Dictation on each of the turns without expending a use of your Bardic Inspiration. When in your Rhythm of War, you cannot activate the same Poetic Dictation twice in a row."
+      ]
+    },
+    {
+      "name": "Herald of War",
+      "source": "TftJC",
+      "className": "Bard",
+      "classSource": "PHB",
+      "subclassShortName": "War Poet",
+      "subclassSource": "TftJC",
+      "level": 14,
+      "entries": [
+        "At 14th level, whenever an ally is effected by your Poetic Dictations, they also gain temporary hit points equal to your proficiency bonus. In addition, the time it takes you to craft scrolls is reduced by 50%, and you ignore both spell list and spell level restrictions for spell scrolls."
       ]
     },
     {
