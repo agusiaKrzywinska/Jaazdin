@@ -10245,7 +10245,7 @@
           "items": [
             "Your walk speed is increased by 5 at 5th level, 10 at 9th level, 15 at 13th level, and 20 at 17th level.",
             "You can use your Derby Blades as an Arcane Focus for your Artificer Spells.",
-            "For every 5ft you move in a straight line without turning before making a melee attack with a Derby Dasher weapon, you deal an additional 1 Damage, capping the maximum damage up to your Artificer level."
+            "For every 5ft you move in a straight line without turning before making a melee attack with a Derby Dasher weapon, you deal an additional 1 Damage, capping the maximum damage up to your Artificer level + your INT Modifier."
           ]
         }
       ]
@@ -10752,7 +10752,7 @@
       ]
     },
     {
-      "name": "Magical Sabator",
+      "name": "Magical Saboteur",
       "source": "TftJC",
       "className": "Artificer",
       "classSource": "TCE",
@@ -10817,7 +10817,7 @@
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Magical Sabator|Artificer|TCE|Nullifier|TftJC|3|TftJC"
+          "subclassFeature": "Magical Saboteur|Artificer|TCE|Nullifier|TftJC|3|TftJC"
         }
       ]
     },
@@ -13815,7 +13815,7 @@
       "subclassSource": "TftJC",
       "level": 3,
       "entries": [
-        "Starting at 3rd level, you learn mastery of all forms of ranged weaponry. You gain proficiency in all simple or martial weapons that have the Range property, as well as proficiency in firearms. Any ranged weapon that does not have the heavy property can be a monk weapon for you.",
+        "Starting at 3rd level, you learn mastery of all forms of ranged weaponry. You gain proficiency in all simple or martial weapons that have the Range property, as well as proficiency in firearms. Any ranged weapon (excluding the longbow) that does not have the heavy property can be a monk weapon for you.",
         "In addition, you learn the {@spell mage hand|PHB} cantrip and can cast it as a bonus action.",
         "Once per turn, you can replace one of your unarmed attacks to be made at a creature within 5ft of your Mage Hand, but using Wisdom instead of Strength or Dexterity. The Mage Hand can also be used to make attacks of opportunity, using your reaction."
       ]
