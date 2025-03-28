@@ -1,0 +1,56 @@
+{
+  "name": "Grasp of the Interred",
+  "source": "TftJC",
+  "page": 61,
+  "level": 4,
+  "school": "N",
+  "time": [
+    {
+      "number": 1,
+      "unit": "action"
+    }
+  ],
+  "range": {
+    "type": "point",
+    "distance": {
+      "type": "feet",
+      "amount": 60
+    }
+  },
+  "components": {
+    "v": true,
+    "s": true,
+    "m": "graveyard dirt"
+  },
+  "duration": [
+    {
+      "type": "timed",
+      "duration": {
+        "type": "minute",
+        "amount": 1,
+        "upTo": true
+      },
+      "concentration": true
+    }
+  ],
+  "entries": [
+    "Skeletal hands erupt from the ground and grasp at creatures in the radius of the spell. Each creature must make a Constitution saving throw or take {@dice 4d12} necrotic damage and become restrained. On a success, they take half damage and are not restrained. For the duration of the spell, the area becomes difficult terrain and a creature that ends its turn inside must make a Constitution saving throw or take {@dice 2d12} necrotic damage, half as much on a success. When the spell ends, the difficult terrain vanishes and any restrained creatures are released."
+  ],
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Cleric",
+        "source": "PHB"
+      },
+      {
+        "name": "Paladin",
+        "source": "PHB"
+      },
+      {
+        "name": "Warlock",
+        "source": "PHB"
+      }
+    ]
+  },
+  "savingThrow": ["constitution"]
+}

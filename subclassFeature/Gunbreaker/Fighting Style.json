@@ -1,0 +1,38 @@
+{
+  "name": "Fighting Style",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Gunbreaker",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "When you choose this archetype at 2nd level, you adopt a particular style of fighting as your specialty, Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.",
+    {
+      "type": "inset",
+      "name": "Defense",
+      "entries": ["While you are wearing armor, you gain a +1 bonus to AC."]
+    },
+    {
+      "type": "inset",
+      "name": "Dueling",
+      "entries": [
+        "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Blind Fighting",
+      "entries": [
+        "You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn’t behind total cover, even if you’re blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Rakish Fighting",
+      "entries": [
+        "You learned to fight on the streets and use everything you can to your advantage. As a bonus action you can attempt a dirty trick. One creature within 10 feet of you must make a Wisdom saving throw equal to 8 + your proficiency bonus + your Str or Dex, or become blinded until the start of their next turn. In addition, whenever you hit a creature you have advantage on you deal 1d6 extra damage."
+      ]
+    }
+  ]
+}

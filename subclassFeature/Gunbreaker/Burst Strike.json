@@ -1,0 +1,12 @@
+{
+  "name": "Burst Strike",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Gunbreaker",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "When you choose this archetype at 2nd level, you can use the cartridges loaded in your Gunblade to bolster your attacks. As a part of a melee weapon attack on your turn, you can expend 1 cartridge from your Gunblade’s barrel to deal an additional 1d10 Fire damage, in addition to the weapons normal damage. If you miss your attack, the cartridge is still consumed. This feature can only be used when using a Gunblade. This damage increases as you gain levels in this class, growing to 2d10 at level 11."
+  ]
+}
