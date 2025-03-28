@@ -1,0 +1,63 @@
+{
+  "name": "Imp",
+  "source": "TftJC",
+  "page": 10,
+  "size": ["S"],
+  "speed": {
+    "walk": 20,
+    "fly": 40
+  },
+  "ability": [
+    {
+      "dex": 2,
+      "cha": 1
+    }
+  ],
+  "age": {
+    "mature": 0.33,
+    "max": 50
+  },
+  "darkvision": 60,
+  "languageProficiencies": [
+    {
+      "common": true,
+      "infernal": true
+    }
+  ],
+  "entries": [
+    {
+      "name": "Age",
+      "type": "entries",
+      "entries": ["Imps mature after 3 months and can live for up to 50 years."]
+    },
+    {
+      "type": "entries",
+      "name": "Size",
+      "entries": ["Imps grow up to 1ft in height. Your Size is small."]
+    },
+    {
+      "type": "entries",
+      "name": "Speed",
+      "entries": [
+        "Your walking speed is 20ft, and you have a flying speed of 40ft."
+      ]
+    },
+    {
+      "name": "Creature Type",
+      "entries": ["Imps are Fiends."],
+      "type": "entries"
+    },
+    {
+      "name": "Language",
+      "entries": ["Imps speak, read and write Common and Infernal."],
+      "type": "entries"
+    },
+    {
+      "name": "Darkvision",
+      "entries": [
+        "Imps have 60ft of Darkvision, and see in shades of crimson."
+      ],
+      "type": "entries"
+    }
+  ]
+}
