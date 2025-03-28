@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson"],
-        "version": "0.2.1"
+        "version": "0.2.21"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1742056496
+    "dateLastModified": 1743123621
   },
   "background": [
     {
@@ -7276,6 +7276,59 @@
       }
     },
     {
+      "name": "Dying Gasp",
+      "source": "TftJC",
+      "page": 57,
+      "level": 1,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "reaction"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a piece of spider silk."
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "When a creature dies, you can grasp its dying energies to force it to make an attack against one creature within its reach. If it has a weapon the attack deals that weapon’s damage but uses your Spell Attack bonus for the attack and damage roll, if it does not have a weapon it deals 1d4 for a Tiny creature, 1d6 for small, 1d8 for medium, 1d10 for large, 1d12 for huge, and 2d8 for gargantuan."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
       "name": "Elvinus' Ward of Conflux",
       "source": "TftJC",
       "page": 62,
@@ -7646,6 +7699,62 @@
       "savingThrow": ["charisma"]
     },
     {
+      "name": "Grasp of the Interred",
+      "source": "TftJC",
+      "page": 61,
+      "level": 4,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "graveyard dirt"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1,
+            "upTo": true
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Skeletal hands erupt from the ground and grasp at creatures in the radius of the spell. Each creature must make a Constitution saving throw or take {@dice 4d12} necrotic damage and become restrained. On a success, they take half damage and are not restrained. For the duration of the spell, the area becomes difficult terrain and a creature that ends its turn inside must make a Constitution saving throw or take {@dice 2d12} necrotic damage, half as much on a success. When the spell ends, the difficult terrain vanishes and any restrained creatures are released."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          }
+        ]
+      },
+      "savingThrow": ["constitution"]
+    },
+    {
       "name": "Headlong Rush",
       "source": "TftJC",
       "page": 56,
@@ -7785,6 +7894,67 @@
         "fromClassList": [
           {
             "name": "Bard",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Knox's Devious Door",
+      "source": "TftJC",
+      "page": 56,
+      "level": 1,
+      "school": "A",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 10
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "amount": 10,
+            "type": "minutes"
+          }
+        }
+      ],
+      "entries": [
+        "You conjure a plane of force into existence that fills one door or passageway within range. If the passageway or doorway is more than 15 feet in any dimension, the spell fails. Otherwise, the plane of force fills the space and is 1 inch thick. Any creatures you designate when you cast the spell can pass through the plane but other creatures cannot.",
+        "The plane has 50 hit points with 5 AC and vulnerability to force damage, immunity to poison and psychic and resistance to all other forms of damage. A creature can attempt a DC 20 Strength check to force their way through the plane. On a success, they pass through the plane."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Artificer",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
             "source": "PHB"
           }
         ]
@@ -8818,6 +8988,54 @@
       }
     },
     {
+      "name": "Shadow Self",
+      "source": "TftJC",
+      "page": 58,
+      "level": 2,
+      "school": "I",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "self"
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "amount": 10,
+            "type": "minute"
+          }
+        }
+      ],
+      "entries": [
+        "You create a shadowy duplicate of yourself that appears within 5ft of you. As a bonus action, you can perceive through the duplicate’s senses, causing your body to go blind and deaf until you use another bonus action to switch back. The duplicate can move 30ft on your turn, but must remain within 60ft of you, or the spell ends. Once, while the spell is in effect, you can swap places with the duplicate as a reaction. You can also take this reaction when you are hit with an attack, causing the attack to miss. Once you swap with the duplicate, it disappears and the spell ends."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          }
+        ]
+      }
+    },
+    {
       "name": "Sinister Return",
       "source": "TftJC",
       "page": 60,
@@ -9748,6 +9966,22 @@
         "Rocket Jump|Gunner|TftJC|Demolitionist|TftJC|10",
         "Shoot to Thrill Improvement|Gunner|TftJC|Demolitionist|TftJC|10",
         "Fear No Flame|Gunner|TftJC|Demolitionist|TftJC|14"
+      ]
+    },
+    {
+      "name": "Gunbreaker",
+      "source": "TftJC",
+      "page": 16,
+      "className": "Gunner",
+      "classSource": "TftJC",
+      "shortName": "Gunbreaker",
+      "subclassFeatures": [
+        "Gunbreaker Archetype|Gunner|TftJC|Gunbreaker|TftJC|2",
+        "Rough Divide|Gunner|TftJC|Gunbreaker|TftJC|6",
+        "Gunbreaker Modifications|Gunner|TftJC|Gunbreaker|TftJC|6",
+        "Draw and Junction|Gunner|TftJC|Gunbreaker|TftJC|10",
+        "Shoot to Thrill Improvement|Gunner|TftJC|Gunbreaker|TftJC|10",
+        "Renzokuken|Gunner|TftJC|Gunbreaker|TftJC|14"
       ]
     },
     {
@@ -12972,6 +13206,167 @@
       "level": 14,
       "entries": [
         "At 14th level, you learn to bear the damage you cause. You gain resistance to Fire damage, and creatures of your choice have advantage on explosive saving throws you impose on them. You take no damage from Demolitionist Firearms you attack with."
+      ]
+    },
+    {
+      "name": "Burst Strike",
+      "source": "TftJC",
+      "className": "Gunner",
+      "classSource": "TftJC",
+      "subclassShortName": "Gunbreaker",
+      "subclassSource": "TftJC",
+      "level": 2,
+      "entries": [
+        "When you choose this archetype at 2nd level, you can use the cartridges loaded in your Gunblade to bolster your attacks. As a part of a melee weapon attack on your turn, you can expend 1 cartridge from your Gunblade’s barrel to deal an additional 1d10 Fire damage, in addition to the weapons normal damage. If you miss your attack, the cartridge is still consumed. This feature can only be used when using a Gunblade. This damage increases as you gain levels in this class, growing to 2d10 at level 11."
+      ]
+    },
+    {
+      "name": "Fighting Style",
+      "source": "TftJC",
+      "className": "Gunner",
+      "classSource": "TftJC",
+      "subclassShortName": "Gunbreaker",
+      "subclassSource": "TftJC",
+      "level": 2,
+      "entries": [
+        "When you choose this archetype at 2nd level, you adopt a particular style of fighting as your specialty, Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.",
+        {
+          "type": "inset",
+          "name": "Defense",
+          "entries": ["While you are wearing armor, you gain a +1 bonus to AC."]
+        },
+        {
+          "type": "inset",
+          "name": "Dueling",
+          "entries": [
+            "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Blind Fighting",
+          "entries": [
+            "You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn’t behind total cover, even if you’re blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Rakish Fighting",
+          "entries": [
+            "You learned to fight on the streets and use everything you can to your advantage. As a bonus action you can attempt a dirty trick. One creature within 10 feet of you must make a Wisdom saving throw equal to 8 + your proficiency bonus + your Str or Dex, or become blinded until the start of their next turn. In addition, whenever you hit a creature you have advantage on you deal 1d6 extra damage."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gunblade Progression",
+      "source": "TftJC",
+      "className": "Gunner",
+      "classSource": "TftJC",
+      "subclassShortName": "Gunbreaker",
+      "subclassSource": "TftJC",
+      "level": 2,
+      "entries": [
+        "As your skills improve, you learn to modify your Gunblade. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith’s Tools. If you lose or need to replace your special firearm, you can spend 1 hour per Tier it was by crafting a new Gunblade, and the combined gold cost."
+      ]
+    },
+    {
+      "name": "Gunbreaker Archetype",
+      "source": "TftJC",
+      "className": "Gunner",
+      "classSource": "TftJC",
+      "subclassShortName": "Gunbreaker",
+      "subclassSource": "TftJC",
+      "level": 2,
+      "entries": [
+        "Moving faster than a speeding bullet, this warrior combines steel and gunpowder to eviscerate his foes. As a Gunbreaker, you specialize in close range combat while weaving in bullets and flaming strikes with your Gunblade, a perfect marriage of blade and gun.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Burst Strike|Gunner|TftJC|Gunbreaker|TftJC|2"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Fighting Style|Gunner|TftJC|Gunbreaker|TftJC|2"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Gunblade Progression|Gunner|TftJC|Gunbreaker|TftJC|2"
+        }
+      ]
+    },
+    {
+      "name": "Gunbreaker Modifications",
+      "source": "TftJC",
+      "className": "Gunner",
+      "classSource": "TftJC",
+      "subclassShortName": "Gunbreaker",
+      "subclassSource": "TftJC",
+      "level": 6,
+      "entries": [
+        "At 6th level, Gunbreakers gain access to new modifications which do not count against their known Modifications. You gain the Tier 2 modification at 10th level, and the Tier 3 modification at 15th level."
+      ]
+    },
+    {
+      "name": "Rough Divide",
+      "source": "TftJC",
+      "className": "Gunner",
+      "classSource": "TftJC",
+      "subclassShortName": "Gunbreaker",
+      "subclassSource": "TftJC",
+      "level": 6,
+      "entries": [
+        "Beginning at 6th level, as a bonus action on your turn, you may expend one cartridge from your barrel to increase your movement speed by 15ft, or triple your jump distance (your choice when using this feature) until the start of your next turn."
+      ]
+    },
+    {
+      "name": "Draw and Junction",
+      "source": "TftJC",
+      "className": "Gunner",
+      "classSource": "TftJC",
+      "subclassShortName": "Gunbreaker",
+      "subclassSource": "TftJC",
+      "level": 10,
+      "entries": [
+        "Beginning at 10th level you new ways to fire your Gunblade:",
+        {
+          "type": "inset",
+          "name": "Danger Zone",
+          "entries": [
+            "As an action on your turn, you may expend any number of cartridges from your Gunblade, creating an explosion centered on you with a 10ft radius. All other creatures in range must make a Dexterity saving throw (DC is equal to 8 + the tier of your firearm x 2), taking 2d8 Fire damage for each cartridge spent on a failure, and half as much on a success."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Royal Guard",
+          "entries": [
+            "When you or an ally within your reach or the short range of your weapon takes damage, you can use your reaction to expend a bullet to reinforce the creatures body. The creature takes reduced damage from that source equal to a roll of your Burst Strike + your Proficiency Bonus."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shoot to Thrill Improvement",
+      "source": "TftJC",
+      "className": "Gunner",
+      "classSource": "TftJC",
+      "subclassShortName": "Gunbreaker",
+      "subclassSource": "TftJC",
+      "level": 10,
+      "entries": [
+        "At 10th level, your Shoot to Thrill feature is enhanced. Using Shoot to Thrill also activates your Burst Strike without expending a bullet."
+      ]
+    },
+    {
+      "name": "Renzokuken",
+      "source": "TftJC",
+      "className": "Gunner",
+      "classSource": "TftJC",
+      "subclassShortName": "Gunbreaker",
+      "subclassSource": "TftJC",
+      "level": 14,
+      "entries": [
+        "Beginning at 14th level, as an action on your turn, you may expend all cartridges remaining in your Gunblade, and make an attack against a creature within range for each cartridge expended in this way (you cannot select the same creature twice). Each of these attacks is treated as being a Burst Strike attack. Each attack made in succession while using this feature increases your Gunblades Misfire score by 1 until the end of your turn.",
+        "Once you’ve used this feature, you cannot use it again until you finish a Long Rest."
       ]
     },
     {
