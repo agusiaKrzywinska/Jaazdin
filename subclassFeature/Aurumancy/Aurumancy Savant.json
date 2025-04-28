@@ -1,0 +1,12 @@
+{
+  "name": "Aurumancy Savant",
+  "source": "TftJC",
+  "className": "Wizard",
+  "classSource": "PHB",
+  "subclassShortName": "Aurumancy",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "At 2nd level, your magic can combine with Gold in new ways. Wizard spells that detail a material reagent with a gold cost, can now be cast simply by paying the Gold cost using coins, rather than having that spell exact material."
+  ]
+}

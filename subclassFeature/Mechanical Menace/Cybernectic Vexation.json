@@ -1,0 +1,21 @@
+{
+  "name": "Cybernetic Vexation",
+  "source": "TftJC",
+  "className": "Barbarian",
+  "classSource": "PHB",
+  "subclassShortName": "Mechanical Menace",
+  "subclassSource": "TftJC",
+  "level": 6,
+  "entries": [
+    "At 6th level, you learn to modify your cybernetic body on the fly. You gain proficiency in Tinker's Tools, or if you already have that you can select another Artisan Tool of your choice. You also gain a Bonus to Intelligence based Skills equal to your Rage damage bonus.",
+    "You can use a set of Tinker's Tools on yourself to rapidly recharge your Exo-Suit. As a Bonus Action, you can activate one of these two effects.",
+    {
+      "type": "list",
+      "items": [
+        "You can remove your resistance granted through Exo-Suit and instead increase the damage granted from it to 1d8 for a number of roundds equal to your Rage Bonus.",
+        "You gain a +3 to your Strength Score, but gain disadvantage on Wisdom Saving Throws. This lasts for a number of rounds equal to your Rage Bonus."
+      ]
+    },
+    "You can use this ability a number of times per Long Rest equal to your Proficiency Bonus."
+  ]
+}

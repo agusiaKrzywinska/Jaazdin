@@ -1,0 +1,19 @@
+{
+  "name": "Exo-Suit",
+  "source": "TftJC",
+  "className": "Barbarian",
+  "classSource": "PHB",
+  "subclassShortName": "Mechanical Menace",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "Starting at 3rd level, your body is upgraded with magical technology. It can come in the form of mechanical enhancements, microscopic robots, or a gruseome combination of flesh and metal. It grants you enchanced fortitudes, and other benefits.",
+    {
+      "type": "list",
+      "items": [
+        "You can replace your Dexterity with your Intelligence when calculating your Unarmored Defense.",
+        "Select from either Force, Poison, Acid, Lightning, or Thunder. You gain resistance to that damage type and deal an additional 1d4 of that type on a melee attack hit."
+      ]
+    }
+  ]
+}

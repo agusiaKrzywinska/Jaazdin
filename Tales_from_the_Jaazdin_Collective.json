@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson"],
-        "version": "0.2.21"
+        "version": "0.3.13"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1743123621
+    "dateLastModified": 1745807300
   },
   "background": [
     {
@@ -1067,8 +1067,8 @@
         {
           "type": "list",
           "items": [
-            "You ignore half or 3/4 cover attacking a creature with ranged weapon attacks within 30ft",
-            "Being within 5 feet or otherwise too close to a hostile creature doesn't impose disadvantage on your ranged weapon attacks"
+            "You ignore half or 3/4 cover attacking a creature with ranged weapon attacks within 30ft.",
+            "Being within 5 feet or otherwise too close to a hostile creature doesn't impose disadvantage on your ranged weapon attacks."
           ]
         }
       ]
@@ -1118,15 +1118,15 @@
         {
           "type": "list",
           "items": [
-            "You learn 3 Tier 1 or 2 Gun Modifications, or 1 Tier 1 Gun Modification from a Gunner Subclass",
-            "You gain expertise in Gunsmith's Tools",
-            "You learn how to craft a Tier 1 weapon from a Gunner Subclass, and gain proficiency with that type of weapon"
+            "You learn 3 Tier 1 or 2 Gun Modifications, or 1 Tier 1 Gun Modification from a Gunner Subclass.",
+            "You gain expertise in Gunsmith's Tools.",
+            "Firearms with 0 modification slots gain 1 modification slot."
           ]
         }
       ],
       "prerequisite": [
         {
-          "other": "Knowing at least 1 Gun Modification"
+          "other": "Gunsmithing tools"
         }
       ]
     },
@@ -1141,11 +1141,6 @@
             "You gain proficiency in Gunsmith's Tools",
             "You learn 3 Tier 1 Gun Modifications"
           ]
-        }
-      ],
-      "ability": [
-        {
-          "dex": 1
         }
       ],
       "weaponProficiencies": [
@@ -9719,6 +9714,20 @@
       ]
     },
     {
+      "name": "Path of the Mechanical Menace",
+      "source": "TftJC",
+      "page": 12,
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "shortName": "Mechanical Menace",
+      "subclassFeatures": [
+        "Path of the Mechanical Menace|Barbarian|PHB|Mechanical Menace|TftJC|3",
+        "Cybernetic Vexation|Barbarian|PHB|Mechanical Menace|TftJC|6",
+        "Integrated Mind|Barbarian|PHB|Mechanical Menace|TftJC|10",
+        "Resilient Casing|Barbarian|PHB|Mechanical Menace|TftJC|14"
+      ]
+    },
+    {
       "name": "Path of the Pugilist",
       "source": "TftJC",
       "page": 12,
@@ -10030,6 +10039,20 @@
         "Piercing Rounds|Gunner|TftJC|Sniper|TftJC|10",
         "Shoot to Thrill Improvement|Gunner|TftJC|Sniper|TftJC|10",
         "Headshot|Gunner|TftJC|Sniper|TftJC|14"
+      ]
+    },
+    {
+      "name": "Way of the Divergent Body",
+      "source": "TftJC",
+      "page": 28,
+      "className": "Monk",
+      "classSource": "PHB",
+      "shortName": "Divergent Body",
+      "subclassFeatures": [
+        "Way of the Divergent Body|Monk|PHB|Divergent Body|TftJC|3",
+        "Anatomical Marvel|Monk|PHB|Divergent Body|TftJC|6",
+        "Gear Shift|Monk|PHB|Divergent Body|TftJC|11",
+        "Warrior of Liberation|Monk|PHB|Divergent Body|TftJC|17"
       ]
     },
     {
@@ -10404,6 +10427,20 @@
         "Unleashed|Wizard|PHB|Dark Arts|TftJC|14"
       ],
       "subclassSpells": ["The Forbidden Spell|TftJC"]
+    },
+    {
+      "name": "School of Aurumancy",
+      "source": "TftJC",
+      "page": 49,
+      "className": "Wizard",
+      "classSource": "PHB",
+      "shortName": "Aurumancy",
+      "subclassFeatures": [
+        "School of Aurumancy|Wizard|PHB|Aurumancy|TftJC|2",
+        "Extended Transmission|Wizard|PHB|Aurumancy|TftJC|6",
+        "Golden Magic|Wizard|PHB|Aurumancy|TftJC|10",
+        "Multi Transmission|Wizard|PHB|Aurumancy|TftJC|14"
+      ]
     },
     {
       "name": "Spellthief",
@@ -11111,6 +11148,103 @@
           ]
         },
         "In addition, whenever you cast an enchantment or transmutation spell using a spell slot of 1st level or higher, you regain one use of Magical Sabator."
+      ]
+    },
+    {
+      "name": "Exo-Skills",
+      "source": "TftJC",
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "Mechanical Menace",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "At 3rd level, your suit empowers you mind with new abilities. You gain proficiency in either Arcana, Investigaion, History or Religion (your choice)."
+      ]
+    },
+    {
+      "name": "Exo-Suit",
+      "source": "TftJC",
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "Mechanical Menace",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "Starting at 3rd level, your body is upgraded with magical technology. It can come in the form of mechanical enhancements, microscopic robots, or a gruseome combination of flesh and metal. It grants you enchanced fortitudes, and other benefits.",
+        {
+          "type": "list",
+          "items": [
+            "You can replace your Dexterity with your Intelligence when calculating your Unarmored Defense.",
+            "Select from either Force, Poison, Acid, Lightning, or Thunder. You gain resistance to that damage type and deal an additional 1d4 of that type on a melee attack hit."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Path of the Mechanical Menace",
+      "source": "TftJC",
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "Mechanical Menace",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "Behind a carapace of metal and technology lies the unwavering anger of a mortal trapped within their own body. If this will be your prison, it will be your enemies' graveyard.",
+        "A form equal in the might of Muscle and Machine, your body is enchanced with powerful metal to improve your raw might. Through either inhumane experiements, or for warriors open to machine modifcations, your body is a perfect blend of muscle and metal.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Exo-Suit|Barbarian|PHB|Mechanical Menace|TftJC|3|TftJC"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Exo-Skills|Barbarian|PHB|Mechanical Menace|TftJC|3|TftJC"
+        }
+      ]
+    },
+    {
+      "name": "Cybernetic Vexation",
+      "source": "TftJC",
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "Mechanical Menace",
+      "subclassSource": "TftJC",
+      "level": 6,
+      "entries": [
+        "At 6th level, you learn to modify your cybernetic body on the fly. You gain proficiency in Tinker's Tools, or if you already have that you can select another Artisan Tool of your choice. You also gain a Bonus to Intelligence based Skills equal to your Rage damage bonus.",
+        "You can use a set of Tinker's Tools on yourself to rapidly recharge your Exo-Suit. As a Bonus Action, you can activate one of these two effects.",
+        {
+          "type": "list",
+          "items": [
+            "You can remove your resistance granted through Exo-Suit and instead increase the damage granted from it to 1d8 for a number of roundds equal to your Rage Bonus.",
+            "You gain a +3 to your Strength Score, but gain disadvantage on Wisdom Saving Throws. This lasts for a number of rounds equal to your Rage Bonus."
+          ]
+        },
+        "You can use this ability a number of times per Long Rest equal to your Proficiency Bonus."
+      ]
+    },
+    {
+      "name": "Integrated Mind",
+      "source": "TftJC",
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "Mechanical Menace",
+      "subclassSource": "TftJC",
+      "level": 10,
+      "entries": [
+        "At 10th level, your mind becomes honed to all attacks. You gain proficiency in Intelligence Saving Throws. When you succeed an Intelligence Saving Throw, you deal additional damage equal to your Intellignce modifier on melee weapon attacks until the end of your next turn."
+      ]
+    },
+    {
+      "name": "Resilient Casing",
+      "source": "TftJC",
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "Mechanical Menace",
+      "subclassSource": "TftJC",
+      "level": 14,
+      "entries": [
+        "At 14th level, your Exo-Suit protects you from all magic. You gain resistance against damage dealt by spells and magical effects. When you take damage damage from a spell, you add your Intelligcence modifier to melee attack rolls until the end of your next turn."
       ]
     },
     {
@@ -14065,6 +14199,137 @@
       "level": 14,
       "entries": [
         "At 14th level, your sniper skills are immaculately accurate and deadly. When using your Hidden Perch, your first ranged attack with a firearm against each creature deals double damage. This extra damage can be applied to the same creature once per hour."
+      ]
+    },
+    {
+      "name": "Extraordinary Body",
+      "source": "TftJC",
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Divergent Body",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "Through intense focus, you have gained the ability to change the structure of your own body. Whenever you expend ki to fuel certain monk features, you may activate one of your Body forms and gain additional bonuses as detailed below. These bonuses last for a number of rounds equal to your Constitution modifier (minimum 1), or until you activate a different Body.",
+        {
+          "type": "inset",
+          "name": "Adamant Body",
+          "entries": [
+            "When you use your Flurry of Blows feature, you can cause your body to become as dense and tough as an iron wall. While this Body is active you have advantage on saving throws and ability checks against effects that would move you against your will. If you fail anyways, you are moved only half the distance you normally would be. You additionally reduce all bludgeoning, piercing and slashing damage taken by half the maximum value of your Martial Arts die."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Fluid Body",
+          "entries": [
+            "When you use your Patient Defense feature, you can cause your body to become as loose and malleable as clay, gaining the ability to contort with serpentine precision. While this Body is active, you (including any equipment you're wearing or carrying) can move through spaces as narrow as 6 inches wide without squeezing. Additionally, your melee weapon attack rolls gain 5 feet of reach."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Cloud Body",
+          "entries": [
+            "When you use your Step of the Wind feature, you can cause your body to become light, able to float upon the breeze like a bubble. While this Body remains active you gain a hover speed equal to your walking speed. Your maximum height while hovering is a number of feet equal to 5 x a roll of your Martial Arts Die (rolled each time you activate this Body), and so long as you remain in Cloud Body, you descend safely at a rate of 20 feet per round."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Optimal Physique",
+      "source": "TftJC",
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Divergent Body",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "Starting when you choose this subclass at Level 3, the ki coursing through your body has diffused itself into the fibers of your muscles and the marrow of your skeleton.  You may use your Constitution in place of your Wisdom when determining your armor class and the DC of your monk features."
+      ]
+    },
+    {
+      "name": "Way of the Divergent Body",
+      "source": "TftJC",
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Divergent Body",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "Monks of the Way of the Divergent Body are privy to ancient secrets that some would consider to be unnatural. The training these monasteries prescribe is physically demanding, their flesh and bone being broken only to build back stronger. These rigorous methods enlighten students of the biomechanical capabilities of their own body, and thereby how to ignore them, resulting in a fighting style that is both unwavering and uninhibited.",
+        "Subclass added by Ridley McCart.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Optimal Physique|Monk|PHB|Divergent Body|TftJC|3"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Extraordinary Body|Monk|PHB|Divergent Body|TftJC|3"
+        }
+      ]
+    },
+    {
+      "name": "Anatomical Marvel",
+      "source": "TftJC",
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Divergent Body",
+      "subclassSource": "TftJC",
+      "level": 6,
+      "entries": [
+        "Beginning at 6th level, your growth has inspired new ways to integrate your unique talents into combat, evolving your techniques further. You gain new benefits while one of your Extraordinary Body forms is active. You additionally gain new ways to activate a Body, detailed in the features below.",
+        {
+          "type": "inset",
+          "name": "Adamant Body",
+          "entries": [
+            "When you apply Stunning Strike to a creature, you can enter Adamant Body. Your Stunning Strikes can instead cause the target to be paralyzed for the duration. This effect ends immediately if the paralyzed creature takes any damage."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Fluid Body",
+          "entries": [
+            "When you use your Focused Aim feature, you may enter Fluid Body. You may use Focused Aim on melee attack rolls even when you don’t miss, and any time you use Focused Aim on a melee attack, you can deal 2 damage per ki point spent to all creatures of your choice within your reach, using the same damage type as your attack roll. Additionally while in Fluid Body, you can use a bonus action on your turn to end the grappled condition on yourself, or spend a ki point to end the restrained condition instead."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Cloud Body",
+          "entries": [
+            "When you use your Deflect Missiles feature you may enter Cloud Body. When you use Deflect Missiles and spend ki to make the ranged attack, you can propel yourself along with the projectile as part of the same reaction. Whether your attack hits or misses, you can move up to your movement towards the creature that attacked you without provoking opportunity attacks. Additionally, while in Cloud Body, your maximum hover height increases to 10 x a roll of your Martial Arts die."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gear Shift",
+      "source": "TftJC",
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Divergent Body",
+      "subclassSource": "TftJC",
+      "level": 11,
+      "entries": [
+        "At 11th level, you have become adept at molding yourself to fit any circumstances. When a hostile creature hits you with an attack roll or subjects you to a saving throw, you can spend 2 ki points and use your reaction to perform Flurry of Blows, Patient Defense or Step of the Wind. You may enter the corresponding Body (as detailed in your Extraordinary Body feature) as part of this reaction."
+      ]
+    },
+    {
+      "name": "Warrior of Liberation",
+      "source": "TftJC",
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Divergent Body",
+      "subclassSource": "TftJC",
+      "level": 17,
+      "entries": [
+        "At 17th level, your manipulation of your own body is at its peak, allowing you to mimic other creatures entirely. As an action on your turn, you can expend 8 ki points to replicate the effect of the shapechange spell without providing material components. When you do so, you must abide by the following restrictions, in addition to the spell’s existing restrictions.",
+        {
+          "type": "list",
+          "items": [
+            "The creature you choose must be no more than one size category larger or smaller than you.",
+            "Using your action to assume a different form during the effect’s duration costs 1 ki point."
+          ]
+        },
+        "Once you’ve used this feature, you can’t use it again until you finish a long rest."
       ]
     },
     {
@@ -17176,6 +17441,121 @@
             "The range of your Stepping Umbra ability is doubled to 60 and during the duration of this ability it does not consume uses."
           ]
         }
+      ]
+    },
+    {
+      "name": "Aurumancy Savant",
+      "source": "TftJC",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "Aurumancy",
+      "subclassSource": "TftJC",
+      "level": 2,
+      "entries": [
+        "At 2nd level, your magic can combine with Gold in new ways. Wizard spells that detail a material reagent with a gold cost, can now be cast simply by paying the Gold cost using coins, rather than having that spell exact material."
+      ]
+    },
+    {
+      "name": "Pyramid of Power",
+      "source": "TftJC",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "Aurumancy",
+      "subclassSource": "TftJC",
+      "level": 2,
+      "entries": [
+        "At 2nd level, you can create an Aurumancy Transmitter by completing a 1 hour ritual and expending 100gp. The Aurumancy Transmitter is a tiny Golden Pyramid which hovers around you. Its Armor Class is equal to 12 + your Intelligcence Modifer + Proficiency Bonus, with hitpoints equal to twice your Wizard Level and resistance to all damage. You can expend a spell slot to heal it a number of hitpoints equal to the spell's level x5.",
+        "It can move up to 30ft on your turn without requiring an action to command it. It hovers no further than 15ft from you, and will begin to follow you if it gets further than that. Until it returns to your proximity, it cannot grant any benefits. If its path is blocked and you leave its range, it becomes inert, falling to the ground and losing its magic until you return to its proximity or create a new one, at which time the original transmitter is destroyed.",
+        "Your transmitter allows you to cast spells from its location. You can also see and hear through it.",
+        "When you cast a spell that expends a spell slot, your Transmitter activates for a number of rounds equal to half of your Prof Bonus (rounded down), or full Prof Bonus if you casted a Transmutation spell, and provides the following benefits:",
+        {
+          "type": "inset",
+          "name": "Aurum Boost",
+          "entries": [
+            "Creatures of your choice within 5ft of it add half your proficiency bonus (rounded down) to one of either Strength, Dexterity, Intelligence or Wisdom checks. As a Bonus Action, you can change which benefit it provides."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "School of Aurumancy",
+      "source": "TftJC",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "Aurumancy",
+      "subclassSource": "TftJC",
+      "level": 2,
+      "entries": [
+        "The magic found within gold was a part of everyday life within the Golden Empire, but since its ruination, their arts have been lost. Through dedicated study and ample amounts of the metal, Aurumancy has been reborn.",
+        "You carry a legacy of an empire. Your magic, ancient and forgotten. Upon your gilded shoulders rests the knowledge of Kima-at, and their most beloved art.",
+        "*Origato wer Aurix zhren*.",
+        "Let the Gold flow.",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Aurumancy Savant|Wizard|PHB|Aurumancy|TftJC|2"
+        },
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Pyramid of Power|Wizard|PHB|Aurumancy|TftJC|2"
+        }
+      ]
+    },
+    {
+      "name": "Extended Transmission",
+      "source": "TftJC",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "Aurumancy",
+      "subclassSource": "TftJC",
+      "level": 6,
+      "entries": [
+        "At 6th level, you can operate your Transmitter with increased range. Its maximum range becomes 30ft, and its movement increases to 45ft per turn. Your Aurumany Transmitter also gains new features it can use (following other rules in Pyramid of Power). Only one of these features can be active at a time, which can be changed as a Bonus Action:",
+        {
+          "type": "inset",
+          "name": "Aurum Barrier",
+          "entries": [
+            "Creatures of your choice within 5ft of it gain advantage on saving throws from magical effects and spells of a lower level used to activate the transmitter."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Aurum Strike",
+          "entries": [
+            "Creatures of your choice within 5ft of it can add your Proficiency Bonus in Force damage to their weapon or spell damage rolls, once per turn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Golden Magic",
+      "source": "TftJC",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "Aurumancy",
+      "subclassSource": "TftJC",
+      "level": 10,
+      "entries": [
+        "At 10th level, your connection with Gold empowers your spells. You can expend Gold in order to empower your spells, and can spend 100gp to upcast a spell by 1 level. This can only be done once per spell, per round.",
+        "Additionally, yout Transmitter gains a new feature (following other rules in Pyramid of Power).",
+        {
+          "type": "inset",
+          "name": "Aurum Replication",
+          "entries": [
+            "You can cast a Wizard spell that takes an action to cast into your transmitter, allowing it to absorb it. When The Transmitter activates or you use a Bonus Action to change its function, it casts that spell using your Spell Save DC and Spell attack bonus. If it requires concentration, you begin concentrating on it. If the spell absorbed in the Trasmitter isn't cast after 24hrs, it is lost."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Multi Transmission",
+      "source": "TftJC",
+      "className": "Wizard",
+      "classSource": "PHB",
+      "subclassShortName": "Aurumancy",
+      "subclassSource": "TftJC",
+      "level": 14,
+      "entries": [
+        "At 14th level, you are able to operate multiple Transmitters. You can control up to 2 transmitters at once. When you expend a spell slot, you select which Transmitter activates. Both transmitters can be active at the same time, but each require their own spell slot expended. When using a Bonus Action to change the benefits they grant, that action can change both Transmitters effects to unique effects. No creature can gain the benefits from both of your transmitters at once."
       ]
     },
     {

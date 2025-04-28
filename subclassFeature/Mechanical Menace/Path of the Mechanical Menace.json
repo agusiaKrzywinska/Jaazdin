@@ -1,0 +1,21 @@
+{
+  "name": "Path of the Mechanical Menace",
+  "source": "TftJC",
+  "className": "Barbarian",
+  "classSource": "PHB",
+  "subclassShortName": "Mechanical Menace",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "Behind a carapace of metal and technology lies the unwavering anger of a mortal trapped within their own body. If this will be your prison, it will be your enemies' graveyard.",
+    "A form equal in the might of Muscle and Machine, your body is enchanced with powerful metal to improve your raw might. Through either inhumane experiements, or for warriors open to machine modifcations, your body is a perfect blend of muscle and metal.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Exo-Suit|Barbarian|PHB|Mechanical Menace|TftJC|3|TftJC"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Exo-Skills|Barbarian|PHB|Mechanical Menace|TftJC|3|TftJC"
+    }
+  ]
+}
