@@ -1,0 +1,75 @@
+{
+  "name": "Hellfire",
+  "source": "TftJC",
+  "page": 10,
+  "size": ["S"],
+  "speed": {
+    "walk": 20,
+    "fly": 40
+  },
+  "ability": [
+    {
+      "dex": 2,
+      "cha": 1
+    }
+  ],
+  "age": {
+    "mature": 0.33,
+    "max": 50
+  },
+  "darkvision": 60,
+  "resist": ["fire"],
+  "entries": [
+    {
+      "name": "Hellfire Imp",
+      "entries": [
+        "Hellfire Imps embody the Nine Hell’s natural affinity to Fire, and empower themselves with it."
+      ],
+      "type": "entries"
+    },
+    {
+      "name": "Infernal Resilience",
+      "entries": [
+        "Imps are durable creatures, and gain resistance to Fire damage."
+      ],
+      "type": "entries"
+    },
+    {
+      "name": "Invisibility",
+      "entries": [
+        "As an Action, an Imp can magically turn invisible (along with anything its carrying) for up to 1 minute, or casting another spell or making an attack roll, or until its concentration is broken. It can do this a number of times per Long Rest equal to your Proficiency Bonus."
+      ],
+      "type": "entries"
+    },
+    {
+      "name": "Spellcasting",
+      "entries": [
+        "Imps have a natural affinity with magic, and can cast the following spells. You know the {@spell Produce Flame|XGE} Cantrip. At 3rd level, you learn the {@spell Hellish Rebuke|PHB} spell and can cast it once per Long Rest without expending a spell slot for it. At 5th level, you learn {@spell Knock|PHB} and can cast it once per Long Rest without expending a spell slot for it.",
+        "Charisma is your spellcasting ability for these spells."
+      ],
+      "type": "entries"
+    }
+  ],
+  "raceName": "Imp",
+  "raceSource": "TftJC",
+  "additionalSpells": [
+    {
+      "innate": {
+        "3": {
+          "daily": {
+            "1": ["hellish rebuke|PHB"]
+          }
+        },
+        "5": {
+          "daily": {
+            "1": ["knock|PHB"]
+          }
+        }
+      },
+      "ability": "cha",
+      "known": {
+        "1": ["produce flame|XGE"]
+      }
+    }
+  ]
+}

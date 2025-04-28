@@ -1,0 +1,26 @@
+{
+  "name": "Quadrone",
+  "source": "TftJC",
+  "page": 9,
+  "size": ["M"],
+  "speed": 30,
+  "ability": [
+    {
+      "choose": {
+        "from": ["str", "dex", "con", "int", "wis"],
+        "count": 4
+      }
+    }
+  ],
+  "entries": [
+    {
+      "name": "Quadrone",
+      "entries": [
+        "Instead of taking your Ability Score Increase from this racial option, four of your ability scores are increased by 1. Your size becomes Medium."
+      ],
+      "type": "entries"
+    }
+  ],
+  "raceName": "Modron",
+  "raceSource": "TftJC"
+}

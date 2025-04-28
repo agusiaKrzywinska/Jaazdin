@@ -6400,6 +6400,146 @@
       ]
     },
     {
+      "name": "Imp",
+      "source": "TftJC",
+      "page": 10,
+      "size": ["S"],
+      "speed": {
+        "walk": 20,
+        "fly": 40
+      },
+      "ability": [
+        {
+          "dex": 2,
+          "cha": 1
+        }
+      ],
+      "age": {
+        "mature": 0.33,
+        "max": 50
+      },
+      "darkvision": 60,
+      "languageProficiencies": [
+        {
+          "common": true,
+          "infernal": true
+        }
+      ],
+      "entries": [
+        {
+          "name": "Age",
+          "type": "entries",
+          "entries": [
+            "Imps mature after 3 months and can live for up to 50 years."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Size",
+          "entries": ["Imps grow up to 1ft in height. Your Size is small."]
+        },
+        {
+          "type": "entries",
+          "name": "Speed",
+          "entries": [
+            "Your walking speed is 20ft, and you have a flying speed of 40ft."
+          ]
+        },
+        {
+          "name": "Creature Type",
+          "entries": ["Imps are Fiends."],
+          "type": "entries"
+        },
+        {
+          "name": "Language",
+          "entries": ["Imps speak, read and write Common and Infernal."],
+          "type": "entries"
+        },
+        {
+          "name": "Darkvision",
+          "entries": [
+            "Imps have 60ft of Darkvision, and see in shades of crimson."
+          ],
+          "type": "entries"
+        }
+      ]
+    },
+    {
+      "name": "Modron",
+      "source": "TftJC",
+      "page": 9,
+      "size": ["M"],
+      "speed": {
+        "walk": 30
+      },
+      "ability": [
+        {
+          "int": 2,
+          "con": 1
+        }
+      ],
+      "age": {
+        "mature": 0,
+        "max": 298
+      },
+      "languageProficiencies": [
+        {
+          "common": true,
+          "modron": true
+        }
+      ],
+      "entries": [
+        {
+          "name": "Age",
+          "type": "entries",
+          "entries": [
+            "Modrons are born fully mature. Modrons die after exactly 298 years, to the nanosecond."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Size",
+          "entries": [
+            "Modron vary precisely in size, depending on their classification. Your Size is determined by your number of sides."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Speed",
+          "entries": ["Your walking speed is 30ft."]
+        },
+        {
+          "name": "Creature Type",
+          "entries": ["Modrons are Constructs."],
+          "type": "entries"
+        },
+        {
+          "name": "Language",
+          "entries": ["Modron speak, read and write Common and Modron."],
+          "type": "entries"
+        },
+        {
+          "name": "Skills",
+          "entries": ["Modrons are Proficient in Tinker’s Tools."],
+          "type": "entries"
+        },
+        {
+          "name": "Axiomatic Mind",
+          "entries": [
+            "Modron’s minds are regimented, granting them advantage on Saving Throws against being Charmed. Creatures also have disadvantage on Deception checks against you to lie."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Primus’ Legacy",
+          "entries": [
+            "Modrons can be made in various ways, and depending on the type of Modron you are, you gain different features. When you select this race, select one of the below options. Additionally, when your Proficiency Bonus Increases as a part of leveling up, you can choose another option and replace these features with that."
+          ],
+          "type": "entries"
+        }
+      ]
+    },
+    {
       "name": "Myconid",
       "source": "TftJC",
       "page": 4,
@@ -17819,6 +17959,121 @@
       ]
     },
     {
+      "name": "Duodrone",
+      "source": "TftJC",
+      "page": 9,
+      "size": ["M"],
+      "speed": 30,
+      "ability": [
+        {
+          "int": 2,
+          "con": 1
+        }
+      ],
+      "entries": [
+        {
+          "name": "Duodrone",
+          "entries": [
+            "At 1st level, you learn the {@spell Detect Magic} Spell. At 3rd level, you learn the {@spell See Invisibility} Spell. You can cast these each without requiring a Spell Slot or material components once per Long Rest. Your size becomes Medium."
+          ],
+          "type": "entries"
+        }
+      ],
+      "raceName": "Modron",
+      "raceSource": "TftJC",
+      "additionalSpells": [
+        {
+          "innate": {
+            "1": {
+              "daily": {
+                "1": ["detect magic|PHB"]
+              }
+            },
+            "3": {
+              "daily": {
+                "1": ["see invisibility|PHB"]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hellfire",
+      "source": "TftJC",
+      "page": 10,
+      "size": ["S"],
+      "speed": {
+        "walk": 20,
+        "fly": 40
+      },
+      "ability": [
+        {
+          "dex": 2,
+          "cha": 1
+        }
+      ],
+      "age": {
+        "mature": 0.33,
+        "max": 50
+      },
+      "darkvision": 60,
+      "resist": ["fire"],
+      "entries": [
+        {
+          "name": "Hellfire Imp",
+          "entries": [
+            "Hellfire Imps embody the Nine Hell’s natural affinity to Fire, and empower themselves with it."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Infernal Resilience",
+          "entries": [
+            "Imps are durable creatures, and gain resistance to Fire damage."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Invisibility",
+          "entries": [
+            "As an Action, an Imp can magically turn invisible (along with anything its carrying) for up to 1 minute, or casting another spell or making an attack roll, or until its concentration is broken. It can do this a number of times per Long Rest equal to your Proficiency Bonus."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Spellcasting",
+          "entries": [
+            "Imps have a natural affinity with magic, and can cast the following spells. You know the {@spell Produce Flame|XGE} Cantrip. At 3rd level, you learn the {@spell Hellish Rebuke|PHB} spell and can cast it once per Long Rest without expending a spell slot for it. At 5th level, you learn {@spell Knock|PHB} and can cast it once per Long Rest without expending a spell slot for it.",
+            "Charisma is your spellcasting ability for these spells."
+          ],
+          "type": "entries"
+        }
+      ],
+      "raceName": "Imp",
+      "raceSource": "TftJC",
+      "additionalSpells": [
+        {
+          "innate": {
+            "3": {
+              "daily": {
+                "1": ["hellish rebuke|PHB"]
+              }
+            },
+            "5": {
+              "daily": {
+                "1": ["knock|PHB"]
+              }
+            }
+          },
+          "ability": "cha",
+          "known": {
+            "1": ["produce flame|XGE"]
+          }
+        }
+      ]
+    },
+    {
       "name": "Ice",
       "source": "TftJC",
       "page": 5,
@@ -17897,6 +18152,182 @@
           }
         }
       ]
+    },
+    {
+      "name": "Monodrone",
+      "source": "TftJC",
+      "page": 9,
+      "size": ["S"],
+      "speed": {
+        "walk": 20,
+        "fly": 30
+      },
+      "ability": [
+        {
+          "int": 2,
+          "con": 1
+        }
+      ],
+      "entries": [
+        {
+          "name": "Monodrone",
+          "entries": [
+            "Monodrones have a Flying speed of 30ft, and their walking speed is reduced to 20ft. Your size is small."
+          ],
+          "type": "entries"
+        }
+      ],
+      "raceName": "Modron",
+      "raceSource": "TftJC"
+    },
+    {
+      "name": "Pentadrone",
+      "source": "TftJC",
+      "page": 9,
+      "size": ["L"],
+      "speed": 30,
+      "ability": [
+        {
+          "int": 2,
+          "con": 1
+        }
+      ],
+      "entries": [
+        {
+          "name": "Pentadrone",
+          "entries": [
+            "Your size becomes Large. Once per Short Rest, you can exhale a 15ft cone of prismatic Energy as an Action. Creatures within it must make a Constitution Saving Throw (DC 8 + prof + INT), and creatures who fail are incapacitated until the start of your next turn. Creatures who pass have their speed halved for this time instead."
+          ],
+          "type": "entries"
+        }
+      ],
+      "raceName": "Modron",
+      "raceSource": "TftJC"
+    },
+    {
+      "name": "Quadrone",
+      "source": "TftJC",
+      "page": 9,
+      "size": ["M"],
+      "speed": 30,
+      "ability": [
+        {
+          "choose": {
+            "from": ["str", "dex", "con", "int", "wis"],
+            "count": 4
+          }
+        }
+      ],
+      "entries": [
+        {
+          "name": "Quadrone",
+          "entries": [
+            "Instead of taking your Ability Score Increase from this racial option, four of your ability scores are increased by 1. Your size becomes Medium."
+          ],
+          "type": "entries"
+        }
+      ],
+      "raceName": "Modron",
+      "raceSource": "TftJC"
+    },
+    {
+      "name": "Tricksy",
+      "source": "TftJC",
+      "page": 10,
+      "size": ["S"],
+      "speed": {
+        "walk": 20,
+        "fly": 40
+      },
+      "ability": [
+        {
+          "dex": 2,
+          "cha": 1
+        }
+      ],
+      "age": {
+        "mature": 0.33,
+        "max": 50
+      },
+      "darkvision": 60,
+      "resist": ["poison"],
+      "entries": [
+        {
+          "name": "Tricksy",
+          "entries": [
+            "Tricksy Imps are known for their cunning and mischievous ways, shapeshifting and spying on unsuspecting prey."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Infernal Resilience",
+          "entries": [
+            "Imps are durable creatures, and gain resistance to Poison damage, and have advantage on saving throws against the {@condition Poisoned} Condition."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Imp Shapeshifting",
+          "entries": [
+            "Imps have the ability to reshape their bodies. As an action, you can polymorph yourself into a Rat, Raven or a Spider. You can use your action to revert to your Imp form. Any equipment carried transforms into your new form or is dropped. You retain your Mental Statistics, health and other features granted by your Race. You can do so a number of times per Long Rest equal to your Proficiency Bonus."
+          ],
+          "type": "entries"
+        },
+        {
+          "name": "Spellcasting",
+          "entries": [
+            "Imps have a natural affinity with magic, and can cast the following spells. You know the {@spell Message|PHB} Cantrip. At 3rd level, you learn the {@spell Faerie Fire|PHB} spell and can cast it once per Long Rest without expending a spell slot for it. At 5th level, you learn {@spell Nathair’s Mischief|TftJC} and can cast it once per Long Rest without expending a spell slot for it.",
+            "Charisma is your spellcasting ability for these spells."
+          ],
+          "type": "entries"
+        }
+      ],
+      "raceName": "Imp",
+      "raceSource": "TftJC",
+      "additionalSpells": [
+        {
+          "innate": {
+            "3": {
+              "daily": {
+                "1": ["faerie fire|PHB"]
+              }
+            },
+            "5": {
+              "daily": {
+                "1": ["nathair's mischief|TftJC"]
+              }
+            }
+          },
+          "ability": "cha",
+          "known": {
+            "1": ["message|PHB"]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tridrone",
+      "source": "TftJC",
+      "page": 9,
+      "size": ["M"],
+      "speed": 30,
+      "ability": [
+        {
+          "int": 2,
+          "con": 1
+        }
+      ],
+      "entries": [
+        {
+          "name": "Tridrone",
+          "entries": [
+            "You can no longer be surprised, nor can other creatures benefit from flanking you. Your size becomes Medium."
+          ],
+          "type": "entries"
+        }
+      ],
+      "raceName": "Modron",
+      "raceSource": "TftJC"
     }
   ],
   "vehicle": [

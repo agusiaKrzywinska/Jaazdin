@@ -1,0 +1,75 @@
+{
+  "name": "Tricksy",
+  "source": "TftJC",
+  "page": 10,
+  "size": ["S"],
+  "speed": {
+    "walk": 20,
+    "fly": 40
+  },
+  "ability": [
+    {
+      "dex": 2,
+      "cha": 1
+    }
+  ],
+  "age": {
+    "mature": 0.33,
+    "max": 50
+  },
+  "darkvision": 60,
+  "resist": ["poison"],
+  "entries": [
+    {
+      "name": "Tricksy",
+      "entries": [
+        "Tricksy Imps are known for their cunning and mischievous ways, shapeshifting and spying on unsuspecting prey."
+      ],
+      "type": "entries"
+    },
+    {
+      "name": "Infernal Resilience",
+      "entries": [
+        "Imps are durable creatures, and gain resistance to Poison damage, and have advantage on saving throws against the {@condition Poisoned} Condition."
+      ],
+      "type": "entries"
+    },
+    {
+      "name": "Imp Shapeshifting",
+      "entries": [
+        "Imps have the ability to reshape their bodies. As an action, you can polymorph yourself into a Rat, Raven or a Spider. You can use your action to revert to your Imp form. Any equipment carried transforms into your new form or is dropped. You retain your Mental Statistics, health and other features granted by your Race. You can do so a number of times per Long Rest equal to your Proficiency Bonus."
+      ],
+      "type": "entries"
+    },
+    {
+      "name": "Spellcasting",
+      "entries": [
+        "Imps have a natural affinity with magic, and can cast the following spells. You know the {@spell Message|PHB} Cantrip. At 3rd level, you learn the {@spell Faerie Fire|PHB} spell and can cast it once per Long Rest without expending a spell slot for it. At 5th level, you learn {@spell Nathair’s Mischief|TftJC} and can cast it once per Long Rest without expending a spell slot for it.",
+        "Charisma is your spellcasting ability for these spells."
+      ],
+      "type": "entries"
+    }
+  ],
+  "raceName": "Imp",
+  "raceSource": "TftJC",
+  "additionalSpells": [
+    {
+      "innate": {
+        "3": {
+          "daily": {
+            "1": ["faerie fire|PHB"]
+          }
+        },
+        "5": {
+          "daily": {
+            "1": ["nathair's mischief|TftJC"]
+          }
+        }
+      },
+      "ability": "cha",
+      "known": {
+        "1": ["message|PHB"]
+      }
+    }
+  ]
+}
