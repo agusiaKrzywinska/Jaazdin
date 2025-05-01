@@ -5,60 +5,43 @@
   "classSource": "TftJC",
   "level": 1,
   "entries": [
-    "At 1st level, you adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.",
+    "You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.",
     {
-      "type": "inset",
-      "name": "Battle Herald",
+      "type": "options",
+      "count": 1,
       "entries": [
-        "You’ve learned to fight by leading the charge and inspiring your allies. When you succeed on a saving throw or score a critical hit, you use your reaction to grant a number of allies equal to your proficiency bonus within 30 feet of you temporary hit points equal to your proficiency modifier + your Charisma modifier."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Blessed Warrior",
-      "entries": [
-        "You learn two cantrips of your choice from the cleric spell list. They count as paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Blind Fighting",
-      "entries": [
-        "You have blindsight with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in total darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Dueling",
-      "entries": [
-        "When you are wielding a melee weapon in one hand and on other weapon, you gain a +2 bonus to damage rolls with that weapon."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Defense",
-      "entries": ["While you are wearing armor, you gain a +1 bonus to AC."]
-    },
-    {
-      "type": "inset",
-      "name": "Interception",
-      "entries": [
-        "When a creature you can see hits a target, other than you, within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Protection",
-      "entries": [
-        "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Superior Technique",
-      "entries": [
-        "You learn one maneuver of your choice from among those available to the Battle Master archetype. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).",
-        "You gain one superiority die, which is a d6 (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest."
+        {
+          "type": "refOptionalfeature",
+          "optionalfeature": "Battle Herald|TftJC"
+        },
+        {
+          "type": "refOptionalfeature",
+          "optionalfeature": "Blessed Warrior|TCE"
+        },
+        {
+          "type": "refOptionalfeature",
+          "optionalfeature": "Blind Fighting|TCE"
+        },
+        {
+          "type": "refOptionalfeature",
+          "optionalfeature": "Defense"
+        },
+        {
+          "type": "refOptionalfeature",
+          "optionalfeature": "Dueling"
+        },
+        {
+          "type": "refOptionalfeature",
+          "optionalfeature": "Interception|TCE"
+        },
+        {
+          "type": "refOptionalfeature",
+          "optionalfeature": "Protection"
+        },
+        {
+          "type": "refOptionalfeature",
+          "optionalfeature": "Superior Technique|TCE"
+        }
       ]
     }
   ]

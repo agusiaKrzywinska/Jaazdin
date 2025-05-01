@@ -77,6 +77,9 @@ prompt.get(
       edition: "classic",
       dateAdded: 0,
       dateLastModified: Math.round(Date.now() / 1000),
+      optionalFeatureTypes: {
+        "FS:W": "Fighting Style: Warden",
+      },
     };
     newJson["_meta"] = _meta;
     FOLDERS.forEach((folder) => {

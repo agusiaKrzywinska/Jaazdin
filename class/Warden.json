@@ -121,5 +121,15 @@
       "weapons": ["martial"],
       "armor": ["medium", "shield"]
     }
-  }
+  },
+  "optionalfeatureProgression": [
+    {
+      "name": "Fighting Style",
+      "featureType": ["FS:W"],
+      "progression": {
+        "1": 1
+      }
+    }
+  ],
+  "subclassTitle": "Warrior Tracts"
 }
