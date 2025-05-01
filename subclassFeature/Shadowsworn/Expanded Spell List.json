@@ -12,13 +12,13 @@
       "type": "table",
       "caption": "Shadowsworn Expanded Spells",
       "colLabels": ["Spell Level", "Spells"],
-      "colStyles": ["col- text-", "col- text- "],
+      "colStyles": ["col-2 text-center", "col-10"],
       "rows": [
-        ["1st", "last light, inflict wounds"],
-        ["2nd", "blur, silence"],
-        ["3rd", "bestow curse, life transference"],
-        ["4th", "black tentacles, death ward"],
-        ["5th", "antilife shell, steel wind strike"]
+        ["1st", "{@spell last light|TftJC}, {@spell inflict wounds}"],
+        ["2nd", "{@spell blur}, {@spell silence}"],
+        ["3rd", "{@spell bestow curse}, {@spell life transference|XGE}"],
+        ["4th", "{@spell evard's black tentacles}, {@spell death ward}"],
+        ["5th", "{@spell antilife shell}, {@spell steel wind strike|XGE}"]
       ]
     }
   ]

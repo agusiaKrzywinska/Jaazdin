@@ -11,13 +11,13 @@
       "type": "table",
       "caption": "Masked Rider Spells",
       "colLabels": ["Paladin Level", "Spell"],
-      "colStyles": ["col- text-", "col- text- "],
+      "colStyles": ["col-2 text-center", "col-10"],
       "rows": [
-        ["3rd", "Thunderwave, Zephyr Strike"],
-        ["5th", "Enthrall, Shatter"],
-        ["9th", "Ashardalon's Stride, Thunder Step"],
-        ["13th", "Freedom of Movement, Wall of Fire"],
-        ["17th", "Dawn, Steel Wind Strike"]
+        ["3rd", "{@spell thunderwave}, {@spell zephyr strike|XGE}"],
+        ["5th", "{@spell enthrall}, {@spell shatter}"],
+        ["9th", "{@spell ashardalon's stride|FTD}, {@spell thunder step|XGE}"],
+        ["13th", "{@spell freedom of movement}, {@spell wall of fire}"],
+        ["17th", "{@spell dawn|XGE}, {@spell steel wind strike|XGE}"]
       ]
     }
   ]

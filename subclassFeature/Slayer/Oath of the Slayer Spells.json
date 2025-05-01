@@ -11,13 +11,13 @@
       "type": "table",
       "caption": "Slayer Spells",
       "colLabels": ["Paladin Level", "Spell"],
-      "colStyles": ["col- text-", "col- text- "],
+      "colStyles": ["col-2 text-center", "col-10"],
       "rows": [
-        ["3rd", "absorb elements, hunter's mark"],
-        ["5th", "locate plants or animals, see invisibility"],
-        ["9th", "phantom steed, protection from energy"],
-        ["13th", "locate creature, dimension door"],
-        ["17th", "hold monster, steel wind strike"]
+        ["3rd", "{@spell absorb elements|XGE}, {@spell hunter's mark}"],
+        ["5th", "{@spell locate animals or plants}, {@spell see invisibility}"],
+        ["9th", "{@spell phantom steed}, {@spell protection from energy}"],
+        ["13th", "{@spell locate creature}, {@spell dimension door}"],
+        ["17th", "{@spell hold monster}, {@spell steel wind strike|XGE}"]
       ]
     }
   ]

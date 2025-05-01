@@ -12,13 +12,13 @@
       "type": "table",
       "caption": "Necro Virus Spells",
       "colLabels": ["Artificer Level", "Spell"],
-      "colStyles": ["col- text-", "col- text- "],
+      "colStyles": ["col-2 text-center", "col-10"],
       "rows": [
-        ["3rd", "command, guiding bolt"],
-        ["5th", "crown of madness, ray of enfeeblement"],
-        ["9th", "animate dead, pulse wave"],
-        ["13th", "blight, confusion"],
-        ["17th", "enervation, mass cure wounds"]
+        ["3rd", "{@spell command}, {@spell guiding bolt}"],
+        ["5th", "{@spell crown of madness}, {@spell ray of enfeeblement}"],
+        ["9th", "{@spell animate dead}, {@spell pulse wave|EGW}"],
+        ["13th", "{@spell blight}, {@spell confusion}"],
+        ["17th", "{@spell enervation|XGE}, {@spell mass cure wounds}"]
       ]
     }
   ]

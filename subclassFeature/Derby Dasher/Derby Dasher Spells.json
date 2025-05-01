@@ -12,13 +12,16 @@
       "type": "table",
       "caption": "Derby Dasher Spells",
       "colLabels": ["Artificer Level", "Spell"],
-      "colStyles": ["col- text-", "col- text- "],
+      "colStyles": ["col-2 text-center", "col-10"],
       "rows": [
-        ["3rd", "headlong rush, zephyr strike"],
-        ["5th", "gust of wind, mirror image"],
-        ["9th", "nondetection, thunderstep"],
-        ["13th", "greater invisibility, lightning rush"],
-        ["17th", "control winds, mislead"]
+        ["3rd", "{@spell headlong rush|TftJC}, {@spell zephyr strike|XGE}"],
+        ["5th", "{@spell gust of wind}, {@spell mirror image}"],
+        ["9th", "{@spell nondetection}, {@spell thunder step|XGE}"],
+        [
+          "13th",
+          "{@spell greater invisibility}, {@spell lightning rush|TftJC}"
+        ],
+        ["17th", "{@spell control winds|XGE}, {@spell mislead}"]
       ]
     }
   ]

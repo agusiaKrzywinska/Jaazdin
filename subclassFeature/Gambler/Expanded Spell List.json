@@ -12,13 +12,13 @@
       "type": "table",
       "caption": "Gambler Expanded Spells",
       "colLabels": ["Spell Level", "Spells"],
-      "colStyles": ["col- text-", "col- text- "],
+      "colStyles": ["col-2 text-center", "col-10"],
       "rows": [
-        ["1st", "deja vu, silvery barbs"],
-        ["2nd", "enthrall, suggestion"],
-        ["3rd", "feign death, nondetection"],
-        ["4th", "divination, greater invisibility"],
-        ["5th", "geas, mislead"]
+        ["1st", "{@spell deja vu|TftJC}, {@spell silvery barbs|SCC}"],
+        ["2nd", "{@spell enthrall}, {@spell suggestion}"],
+        ["3rd", "{@spell feign death}, {@spell nondetection}"],
+        ["4th", "{@spell divination}, {@spell greater invisibility}"],
+        ["5th", "{@spell geas}, {@spell mislead}"]
       ]
     }
   ]

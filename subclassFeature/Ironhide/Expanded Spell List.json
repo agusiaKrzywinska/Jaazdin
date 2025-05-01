@@ -12,13 +12,13 @@
       "type": "table",
       "caption": "Ironhide Expanded Spells",
       "colLabels": ["Spell Level", "Spells"],
-      "colStyles": ["col- text-", "col- text- "],
+      "colStyles": ["col-2 text-center", "col-10"],
       "rows": [
-        ["1st", "armor of agathys, sanctuary"],
-        ["2nd", "hold person, spiritual weapon"],
-        ["3rd", "call lightning, pulse wave"],
-        ["4th", "gravity sinkhole, storm sphere"],
-        ["5th", "wall of force, magnetic sphere"]
+        ["1st", "{@spell armor of agathys}, {@spell sanctuary}"],
+        ["2nd", "{@spell hold person}, {@spell spiritual weapon}"],
+        ["3rd", "{@spell call lightning}, {@spell pulse wave|EGW}"],
+        ["4th", "{@spell gravity sinkhole|EGW}, {@spell storm sphere|XGE}"],
+        ["5th", "{@spell wall of force}, {@spell magnetic sphere|TftJC}"]
       ]
     }
   ]

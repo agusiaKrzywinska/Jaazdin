@@ -12,13 +12,13 @@
       "type": "table",
       "caption": "Opulent Expanded Spells",
       "colLabels": ["Spell Level", "Spells"],
-      "colStyles": ["col- text-", "col- text- "],
+      "colStyles": ["col-2 text-center", "col-10"],
       "rows": [
-        ["1st", "chromatic orb, ceremony"],
-        ["2nd", "arcane lock, warding bond"],
-        ["3rd", "glyph of warding, non-detection"],
-        ["4th", "divination, secrect chest"],
-        ["5th", "dawn, teleportation circle"]
+        ["1st", "{@spell chromatic orb}, {@spell ceremony|XGE}"],
+        ["2nd", "{@spell arcane lock}, {@spell warding bond}"],
+        ["3rd", "{@spell glyph of warding}, {@spell nondetection}"],
+        ["4th", "{@spell divination}, {@spell leomund's secret chest}"],
+        ["5th", "{@spell dawn|XGE}, {@spell teleportation circle}"]
       ]
     }
   ]

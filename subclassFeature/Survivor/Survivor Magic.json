@@ -12,13 +12,13 @@
       "type": "table",
       "caption": "Survivor Spells",
       "colLabels": ["Ranger Level", "Spell"],
-      "colStyles": ["col- text-", "col- text- "],
+      "colStyles": ["col-2 text-center", "col-10"],
       "rows": [
-        ["3rd", "Shield"],
-        ["5th", "Rope Trick"],
-        ["9th", "Nondetection"],
-        ["13th", "Death Ward"],
-        ["17th", "Mass Cure Wounds"]
+        ["3rd", "{@spell shield}"],
+        ["5th", "{@spell rope trick}"],
+        ["9th", "{@spell nondetection}"],
+        ["13th", "{@spell death ward}"],
+        ["17th", "{@spell mass cure wounds}"]
       ]
     }
   ]

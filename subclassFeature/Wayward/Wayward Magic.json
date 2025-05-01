@@ -12,13 +12,13 @@
       "type": "table",
       "caption": "Wayward Spells",
       "colLabels": ["Ranger Level", "Spell"],
-      "colStyles": ["col- text-", "col- text- "],
+      "colStyles": ["col-2 text-center", "col-10"],
       "rows": [
-        ["3rd", "Longstrider, Jump"],
-        ["5th", "Misty Step"],
-        ["9th", "Catnap"],
-        ["13th", "Dimension Door"],
-        ["17th", "Teleportation Circle"]
+        ["3rd", "{@spell longstrider}, {@spell jump}"],
+        ["5th", "{@spell misty step}"],
+        ["9th", "{@spell catnap|XGE}"],
+        ["13th", "{@spell dimension door}"],
+        ["17th", "{@spell teleportation circle}"]
       ]
     }
   ]

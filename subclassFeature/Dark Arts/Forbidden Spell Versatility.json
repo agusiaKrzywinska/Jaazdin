@@ -12,7 +12,7 @@
       "type": "table",
       "caption": "Forbidden Arcana Scaling",
       "colLabels": ["Level", "Forbidden Arcana Known", "Tier"],
-      "colStyles": ["col- text-", "col- text- ", "col- text- "],
+      "colStyles": ["col-2 text-center", "col-2 text-center ", "col-8"],
       "rows": [
         ["2", "2", "1"],
         ["5", "4", "1"],

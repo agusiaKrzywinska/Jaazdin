@@ -11,14 +11,14 @@
     {
       "type": "table",
       "caption": "Fate Domain Spells",
-      "colLabels": ["Artificer Level", "Spell"],
-      "colStyles": ["col- text-", "col- text- "],
+      "colLabels": ["Cleric Level", "Spell"],
+      "colStyles": ["col-2 text-center", "col-10"],
       "rows": [
-        ["1st", "identify, shield"],
-        ["3rd", "augury, locate object"],
-        ["5th", "nondetection, tiny hut"],
-        ["7th", "aura of purity, divination"],
-        ["9th", "commune, legend lore"]
+        ["1st", "{@spell identify}, {@spell shield}"],
+        ["3rd", "{@spell augury}, {@spell locate object}"],
+        ["5th", "{@spell nondetection}, {@spell leomund's tiny hut}"],
+        ["7th", "{@spell aura of purity}, {@spell divination}"],
+        ["9th", "{@spell commune}, {@spell legend lore}"]
       ]
     }
   ]

@@ -12,13 +12,13 @@
       "type": "table",
       "caption": "Master Expanded Spells",
       "colLabels": ["Spell Level", "Spells"],
-      "colStyles": ["col- text-", "col- text- "],
+      "colStyles": ["col-2 text-center", "col-10"],
       "rows": [
-        ["1st", "shield of faith, sanctuary"],
-        ["2nd", "summon beast, find steed"],
-        ["3rd", "tiny servant, spirit guardians"],
-        ["4th", "summon construct, summon elemental"],
-        ["5th", "conjure elemental, find greater steed"]
+        ["1st", "{@spell shield of faith}, {@spell sanctuary}"],
+        ["2nd", "{@spell summon beast|TCE}, {@spell find steed}"],
+        ["3rd", "{@spell tiny servant|XGE}, {@spell spirit guardians}"],
+        ["4th", "{@spell summon construct|TCE}, {@spell summon elemental|TCE}"],
+        ["5th", "{@spell conjure elemental}, {@spell find greater steed|XGE}"]
       ]
     }
   ]

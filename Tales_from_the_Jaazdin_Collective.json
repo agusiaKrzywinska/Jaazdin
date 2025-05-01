@@ -7,13 +7,13 @@
         "abbreviation": "TftJC",
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
-        "convertedBy": ["Agusia Krzywinska", "Adam Henderson"],
-        "version": "0.3.14"
+        "convertedBy": ["Agusia Krzywinska", "Adam Henderson", "Malcolm Keefe"],
+        "version": "0.2.23"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1746063381,
+    "dateLastModified": 1746066667,
     "optionalFeatureTypes": {
       "FS:W": "Fighting Style: Warden"
     }
@@ -10671,13 +10671,16 @@
           "type": "table",
           "caption": "Derby Dasher Spells",
           "colLabels": ["Artificer Level", "Spell"],
-          "colStyles": ["col- text-", "col- text- "],
+          "colStyles": ["col-2 text-center", "col-10"],
           "rows": [
-            ["3rd", "headlong rush, zephyr strike"],
-            ["5th", "gust of wind, mirror image"],
-            ["9th", "nondetection, thunderstep"],
-            ["13th", "greater invisibility, lightning rush"],
-            ["17th", "control winds, mislead"]
+            ["3rd", "{@spell headlong rush|TftJC}, {@spell zephyr strike|XGE}"],
+            ["5th", "{@spell gust of wind}, {@spell mirror image}"],
+            ["9th", "{@spell nondetection}, {@spell thunder step|XGE}"],
+            [
+              "13th",
+              "{@spell greater invisibility}, {@spell lightning rush|TftJC}"
+            ],
+            ["17th", "{@spell control winds|XGE}, {@spell mislead}"]
           ]
         }
       ]
@@ -10973,13 +10976,13 @@
           "type": "table",
           "caption": "Necro Virus Spells",
           "colLabels": ["Artificer Level", "Spell"],
-          "colStyles": ["col- text-", "col- text- "],
+          "colStyles": ["col-2 text-center", "col-10"],
           "rows": [
-            ["3rd", "command, guiding bolt"],
-            ["5th", "crown of madness, ray of enfeeblement"],
-            ["9th", "animate dead, pulse wave"],
-            ["13th", "blight, confusion"],
-            ["17th", "enervation, mass cure wounds"]
+            ["3rd", "{@spell command}, {@spell guiding bolt}"],
+            ["5th", "{@spell crown of madness}, {@spell ray of enfeeblement}"],
+            ["9th", "{@spell animate dead}, {@spell pulse wave|EGW}"],
+            ["13th", "{@spell blight}, {@spell confusion}"],
+            ["17th", "{@spell enervation|XGE}, {@spell mass cure wounds}"]
           ]
         }
       ]
@@ -11963,14 +11966,14 @@
         {
           "type": "table",
           "caption": "Fate Domain Spells",
-          "colLabels": ["Artificer Level", "Spell"],
-          "colStyles": ["col- text-", "col- text- "],
+          "colLabels": ["Cleric Level", "Spell"],
+          "colStyles": ["col-2 text-center", "col-10"],
           "rows": [
-            ["1st", "identify, shield"],
-            ["3rd", "augury, locate object"],
-            ["5th", "nondetection, tiny hut"],
-            ["7th", "aura of purity, divination"],
-            ["9th", "commune, legend lore"]
+            ["1st", "{@spell identify}, {@spell shield}"],
+            ["3rd", "{@spell augury}, {@spell locate object}"],
+            ["5th", "{@spell nondetection}, {@spell leomund's tiny hut}"],
+            ["7th", "{@spell aura of purity}, {@spell divination}"],
+            ["9th", "{@spell commune}, {@spell legend lore}"]
           ]
         }
       ]
@@ -12108,8 +12111,8 @@
         {
           "type": "table",
           "caption": "Polyglot Domain Spells",
-          "colLabels": ["Artificer Level", "Spell"],
-          "colStyles": ["col- text-", "col- text- "],
+          "colLabels": ["Cleric Level", "Spell"],
+          "colStyles": ["col-2 text-center", "col-10"],
           "rows": [
             [
               "1st",
@@ -12375,17 +12378,20 @@
       "level": 2,
       "entries": [
         "Your relationship with metal grants you the ability to tap into magic forbidden to other druids. At 2nd level, you learn one of the following cantrips: booming blade, green flame blade, or sword burst. At 3rd, 5th, 7th, and 9th levels you gain access to the spells listed for that level in the Circle of the Iron Heretic Spells table.",
-        "Once you gain access to one of these spells, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+        "Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
         {
           "type": "table",
           "caption": "Iron Heretic Spells",
           "colLabels": ["Druid Level", "Spells"],
-          "colStyles": ["col- text-", "col- text- "],
+          "colStyles": ["col-2 text-center", "col-10"],
           "rows": [
-            ["3rd", "Aganazzar’s Scorcher, Dragon’s Breath"],
-            ["5th", "Wall of sand, Molten Cascade"],
-            ["7th", "Fabricate, Fire Shield"],
-            ["9th", "Animate Objects, Steel Wind Strike"]
+            [
+              "3rd",
+              "{@spell aganazzar's scorcher|XGE}, {@spell dragon's breath|XGE}"
+            ],
+            ["5th", "{@spell wall of sand|XGE}, {@spell molten cascade|TftJC}"],
+            ["7th", "{@spell fabricate}, {@spell fire shield}"],
+            ["9th", "{@spell animate objects}, {@spell steel wind strike|XGE}"]
           ]
         }
       ]
@@ -14846,13 +14852,13 @@
           "type": "table",
           "caption": "Divine Justice Spells",
           "colLabels": ["Paladin Level", "Spell"],
-          "colStyles": ["col- text-", "col- text- "],
+          "colStyles": ["col-2 text-center", "col-10"],
           "rows": [
-            ["3rd", "Guiding Bolt, Hunter's Mark"],
-            ["5th", "Flame Blade, Hold Person"],
-            ["9th", "Crusader's Mantle, Enemies Abound"],
-            ["13th", "Fire Shield, Locate Creature"],
-            ["17th", "Destructive Wave, Immolation"]
+            ["3rd", "{@spell guiding bolt}, {@spell hunter's mark}"],
+            ["5th", "{@spell flame blade}, {@spell hold person}"],
+            ["9th", "{@spell crusader's mantle}, {@spell enemies abound|XGE}"],
+            ["13th", "{@spell fire shield}, {@spell locate creature}"],
+            ["17th", "{@spell destructive wave}, {@spell immolation|XGE}"]
           ]
         }
       ]
@@ -14982,13 +14988,16 @@
           "type": "table",
           "caption": "Liberation Spells",
           "colLabels": ["Paladin Level", "Spell"],
-          "colStyles": ["col- text-", "col- text- "],
+          "colStyles": ["col-2 text-center", "col-10"],
           "rows": [
-            ["3rd", "Expeditious Retreat, Sanctuary"],
-            ["5th", "Knock, Shatter"],
-            ["9th", "Fly, Nondetection"],
-            ["13th", "Dimension Door, Freedom of Movement"],
-            ["17th", "Greater Restoration, Passwall"]
+            ["3rd", "{@spell expeditious retreat|PHB}, {@spell sanctuary|PHB}"],
+            ["5th", "{@spell knock|PHB}, {@spell shatter|PHB}"],
+            ["9th", "{@spell fly|PHB}, {@spell nondetection|PHB}"],
+            [
+              "13th",
+              "{@spell dimension door|PHB}, {@spell freedom of movement|PHB}"
+            ],
+            ["17th", "{@spell greater restoration|PHB}, {@spell passwall|PHB}"]
           ]
         }
       ]
@@ -15118,13 +15127,16 @@
           "type": "table",
           "caption": "Masked Rider Spells",
           "colLabels": ["Paladin Level", "Spell"],
-          "colStyles": ["col- text-", "col- text- "],
+          "colStyles": ["col-2 text-center", "col-10"],
           "rows": [
-            ["3rd", "Thunderwave, Zephyr Strike"],
-            ["5th", "Enthrall, Shatter"],
-            ["9th", "Ashardalon's Stride, Thunder Step"],
-            ["13th", "Freedom of Movement, Wall of Fire"],
-            ["17th", "Dawn, Steel Wind Strike"]
+            ["3rd", "{@spell thunderwave}, {@spell zephyr strike|XGE}"],
+            ["5th", "{@spell enthrall}, {@spell shatter}"],
+            [
+              "9th",
+              "{@spell ashardalon's stride|FTD}, {@spell thunder step|XGE}"
+            ],
+            ["13th", "{@spell freedom of movement}, {@spell wall of fire}"],
+            ["17th", "{@spell dawn|XGE}, {@spell steel wind strike|XGE}"]
           ]
         }
       ]
@@ -15253,13 +15265,16 @@
           "type": "table",
           "caption": "Slayer Spells",
           "colLabels": ["Paladin Level", "Spell"],
-          "colStyles": ["col- text-", "col- text- "],
+          "colStyles": ["col-2 text-center", "col-10"],
           "rows": [
-            ["3rd", "absorb elements, hunter's mark"],
-            ["5th", "locate plants or animals, see invisibility"],
-            ["9th", "phantom steed, protection from energy"],
-            ["13th", "locate creature, dimension door"],
-            ["17th", "hold monster, steel wind strike"]
+            ["3rd", "{@spell absorb elements|XGE}, {@spell hunter's mark}"],
+            [
+              "5th",
+              "{@spell locate animals or plants}, {@spell see invisibility}"
+            ],
+            ["9th", "{@spell phantom steed}, {@spell protection from energy}"],
+            ["13th", "{@spell locate creature}, {@spell dimension door}"],
+            ["17th", "{@spell hold monster}, {@spell steel wind strike|XGE}"]
           ]
         }
       ]
@@ -15512,13 +15527,13 @@
           "type": "table",
           "caption": "Survivor Spells",
           "colLabels": ["Ranger Level", "Spell"],
-          "colStyles": ["col- text-", "col- text- "],
+          "colStyles": ["col-2 text-center", "col-10"],
           "rows": [
-            ["3rd", "Shield"],
-            ["5th", "Rope Trick"],
-            ["9th", "Nondetection"],
-            ["13th", "Death Ward"],
-            ["17th", "Mass Cure Wounds"]
+            ["3rd", "{@spell shield}"],
+            ["5th", "{@spell rope trick}"],
+            ["9th", "{@spell nondetection}"],
+            ["13th", "{@spell death ward}"],
+            ["17th", "{@spell mass cure wounds}"]
           ]
         }
       ]
@@ -15654,13 +15669,13 @@
           "type": "table",
           "caption": "Wayward Spells",
           "colLabels": ["Ranger Level", "Spell"],
-          "colStyles": ["col- text-", "col- text- "],
+          "colStyles": ["col-2 text-center", "col-10"],
           "rows": [
-            ["3rd", "Longstrider, Jump"],
-            ["5th", "Misty Step"],
-            ["9th", "Catnap"],
-            ["13th", "Dimension Door"],
-            ["17th", "Teleportation Circle"]
+            ["3rd", "{@spell longstrider}, {@spell jump}"],
+            ["5th", "{@spell misty step}"],
+            ["9th", "{@spell catnap|XGE}"],
+            ["13th", "{@spell dimension door}"],
+            ["17th", "{@spell teleportation circle}"]
           ]
         }
       ]
@@ -16010,13 +16025,13 @@
           "type": "table",
           "caption": "Gambler Expanded Spells",
           "colLabels": ["Spell Level", "Spells"],
-          "colStyles": ["col- text-", "col- text- "],
+          "colStyles": ["col-2 text-center", "col-10"],
           "rows": [
-            ["1st", "deja vu, silvery barbs"],
-            ["2nd", "enthrall, suggestion"],
-            ["3rd", "feign death, nondetection"],
-            ["4th", "divination, greater invisibility"],
-            ["5th", "geas, mislead"]
+            ["1st", "{@spell deja vu|TftJC}, {@spell silvery barbs|SCC}"],
+            ["2nd", "{@spell enthrall}, {@spell suggestion}"],
+            ["3rd", "{@spell feign death}, {@spell nondetection}"],
+            ["4th", "{@spell divination}, {@spell greater invisibility}"],
+            ["5th", "{@spell geas}, {@spell mislead}"]
           ]
         }
       ]
@@ -16146,13 +16161,13 @@
           "type": "table",
           "caption": "Ironhide Expanded Spells",
           "colLabels": ["Spell Level", "Spells"],
-          "colStyles": ["col- text-", "col- text- "],
+          "colStyles": ["col-2 text-center", "col-10"],
           "rows": [
-            ["1st", "armor of agathys, sanctuary"],
-            ["2nd", "hold person, spiritual weapon"],
-            ["3rd", "call lightning, pulse wave"],
-            ["4th", "gravity sinkhole, storm sphere"],
-            ["5th", "wall of force, magnetic sphere"]
+            ["1st", "{@spell armor of agathys}, {@spell sanctuary}"],
+            ["2nd", "{@spell hold person}, {@spell spiritual weapon}"],
+            ["3rd", "{@spell call lightning}, {@spell pulse wave|EGW}"],
+            ["4th", "{@spell gravity sinkhole|EGW}, {@spell storm sphere|XGE}"],
+            ["5th", "{@spell wall of force}, {@spell magnetic sphere|TftJC}"]
           ]
         }
       ]
@@ -16319,16 +16334,16 @@
           "type": "table",
           "caption": "Fabric of Night Spells",
           "colLabels": ["Sorcerer Level", "Spells"],
-          "colStyles": ["col- text-", "col- text- "],
+          "colStyles": ["col-2 text-center", "col-10"],
           "rows": [
-            ["3rd", "moonbeam"],
-            ["5th", "fear"],
-            ["7th", "greater invisibility"],
-            ["9th", "dream"],
-            ["11th", "programmed illusion"],
-            ["13th", "simulacrum"],
-            ["15th", "dominate monster"],
-            ["17th", "weird"]
+            ["3rd", "{@spell moonbeam}"],
+            ["5th", "{@spell fear}"],
+            ["7th", "{@spell greater invisibility}"],
+            ["9th", "{@spell dream}"],
+            ["11th", "{@spell programmed illusion}"],
+            ["13th", "{@spell simulacrum}"],
+            ["15th", "{@spell dominate monster}"],
+            ["17th", "{@spell weird}"]
           ]
         }
       ]
@@ -17044,13 +17059,13 @@
           "type": "table",
           "caption": "Fleshwarper Expanded Spells",
           "colLabels": ["Spell Level", "Spells"],
-          "colStyles": ["col- text-", "col- text- "],
+          "colStyles": ["col-2 text-center", "col-10"],
           "rows": [
-            ["1st", "absorb elements, zephyr strike"],
-            ["2nd", "alter self, spiritual weapon"],
-            ["3rd", "elemental weapon, haste"],
-            ["4th", "evard's black tentacles, stoneskin"],
-            ["5th", "bigby's hand, mislead"]
+            ["1st", "{@spell absorb elements|XGE}, {@spell zephyr strike|XGE}"],
+            ["2nd", "{@spell alter self}, {@spell spiritual weapon}"],
+            ["3rd", "{@spell elemental weapon}, {@spell haste}"],
+            ["4th", "{@spell evard's black tentacles}, {@spell stoneskin}"],
+            ["5th", "{@spell bigby's hand}, {@spell mislead}"]
           ]
         }
       ]
@@ -17207,13 +17222,19 @@
           "type": "table",
           "caption": "Master Expanded Spells",
           "colLabels": ["Spell Level", "Spells"],
-          "colStyles": ["col- text-", "col- text- "],
+          "colStyles": ["col-2 text-center", "col-10"],
           "rows": [
-            ["1st", "shield of faith, sanctuary"],
-            ["2nd", "summon beast, find steed"],
-            ["3rd", "tiny servant, spirit guardians"],
-            ["4th", "summon construct, summon elemental"],
-            ["5th", "conjure elemental, find greater steed"]
+            ["1st", "{@spell shield of faith}, {@spell sanctuary}"],
+            ["2nd", "{@spell summon beast|TCE}, {@spell find steed}"],
+            ["3rd", "{@spell tiny servant|XGE}, {@spell spirit guardians}"],
+            [
+              "4th",
+              "{@spell summon construct|TCE}, {@spell summon elemental|TCE}"
+            ],
+            [
+              "5th",
+              "{@spell conjure elemental}, {@spell find greater steed|XGE}"
+            ]
           ]
         }
       ]
@@ -17375,13 +17396,13 @@
           "type": "table",
           "caption": "Opulent Expanded Spells",
           "colLabels": ["Spell Level", "Spells"],
-          "colStyles": ["col- text-", "col- text- "],
+          "colStyles": ["col-2 text-center", "col-10"],
           "rows": [
-            ["1st", "chromatic orb, ceremony"],
-            ["2nd", "arcane lock, warding bond"],
-            ["3rd", "glyph of warding, non-detection"],
-            ["4th", "divination, secrect chest"],
-            ["5th", "dawn, teleportation circle"]
+            ["1st", "{@spell chromatic orb}, {@spell ceremony|XGE}"],
+            ["2nd", "{@spell arcane lock}, {@spell warding bond}"],
+            ["3rd", "{@spell glyph of warding}, {@spell nondetection}"],
+            ["4th", "{@spell divination}, {@spell leomund's secret chest}"],
+            ["5th", "{@spell dawn|XGE}, {@spell teleportation circle}"]
           ]
         }
       ]
@@ -17473,13 +17494,13 @@
           "type": "table",
           "caption": "Shadowsworn Expanded Spells",
           "colLabels": ["Spell Level", "Spells"],
-          "colStyles": ["col- text-", "col- text- "],
+          "colStyles": ["col-2 text-center", "col-10"],
           "rows": [
-            ["1st", "last light, inflict wounds"],
-            ["2nd", "blur, silence"],
-            ["3rd", "bestow curse, life transference"],
-            ["4th", "black tentacles, death ward"],
-            ["5th", "antilife shell, steel wind strike"]
+            ["1st", "{@spell last light|TftJC}, {@spell inflict wounds}"],
+            ["2nd", "{@spell blur}, {@spell silence}"],
+            ["3rd", "{@spell bestow curse}, {@spell life transference|XGE}"],
+            ["4th", "{@spell evard's black tentacles}, {@spell death ward}"],
+            ["5th", "{@spell antilife shell}, {@spell steel wind strike|XGE}"]
           ]
         }
       ]
@@ -17745,7 +17766,7 @@
           "type": "table",
           "caption": "Forbidden Arcana Scaling",
           "colLabels": ["Level", "Forbidden Arcana Known", "Tier"],
-          "colStyles": ["col- text-", "col- text- ", "col- text- "],
+          "colStyles": ["col-2 text-center", "col-2 text-center ", "col-8"],
           "rows": [
             ["2", "2", "1"],
             ["5", "4", "1"],

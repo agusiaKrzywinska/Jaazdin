@@ -11,8 +11,8 @@
     {
       "type": "table",
       "caption": "Polyglot Domain Spells",
-      "colLabels": ["Artificer Level", "Spell"],
-      "colStyles": ["col- text-", "col- text- "],
+      "colLabels": ["Cleric Level", "Spell"],
+      "colStyles": ["col-2 text-center", "col-10"],
       "rows": [
         [
           "1st",

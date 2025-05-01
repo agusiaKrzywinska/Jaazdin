@@ -70,7 +70,7 @@ prompt.get(
           abbreviation: "TftJC",
           full: "Tales from the Jaazdin Collective",
           authors: ["Nicholas McCarthy", "Adam Henderson"],
-          convertedBy: ["Agusia Krzywinska", "Adam Henderson"],
+          convertedBy: ["Agusia Krzywinska", "Adam Henderson", "Malcolm Keefe"],
           version: version,
         },
       ],

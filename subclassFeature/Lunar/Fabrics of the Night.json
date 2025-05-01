@@ -12,16 +12,16 @@
       "type": "table",
       "caption": "Fabric of Night Spells",
       "colLabels": ["Sorcerer Level", "Spells"],
-      "colStyles": ["col- text-", "col- text- "],
+      "colStyles": ["col-2 text-center", "col-10"],
       "rows": [
-        ["3rd", "moonbeam"],
-        ["5th", "fear"],
-        ["7th", "greater invisibility"],
-        ["9th", "dream"],
-        ["11th", "programmed illusion"],
-        ["13th", "simulacrum"],
-        ["15th", "dominate monster"],
-        ["17th", "weird"]
+        ["3rd", "{@spell moonbeam}"],
+        ["5th", "{@spell fear}"],
+        ["7th", "{@spell greater invisibility}"],
+        ["9th", "{@spell dream}"],
+        ["11th", "{@spell programmed illusion}"],
+        ["13th", "{@spell simulacrum}"],
+        ["15th", "{@spell dominate monster}"],
+        ["17th", "{@spell weird}"]
       ]
     }
   ]

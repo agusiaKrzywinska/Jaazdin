@@ -11,13 +11,13 @@
       "type": "table",
       "caption": "Divine Justice Spells",
       "colLabels": ["Paladin Level", "Spell"],
-      "colStyles": ["col- text-", "col- text- "],
+      "colStyles": ["col-2 text-center", "col-10"],
       "rows": [
-        ["3rd", "Guiding Bolt, Hunter's Mark"],
-        ["5th", "Flame Blade, Hold Person"],
-        ["9th", "Crusader's Mantle, Enemies Abound"],
-        ["13th", "Fire Shield, Locate Creature"],
-        ["17th", "Destructive Wave, Immolation"]
+        ["3rd", "{@spell guiding bolt}, {@spell hunter's mark}"],
+        ["5th", "{@spell flame blade}, {@spell hold person}"],
+        ["9th", "{@spell crusader's mantle}, {@spell enemies abound|XGE}"],
+        ["13th", "{@spell fire shield}, {@spell locate creature}"],
+        ["17th", "{@spell destructive wave}, {@spell immolation|XGE}"]
       ]
     }
   ]
