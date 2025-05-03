@@ -1,0 +1,23 @@
+{
+  "name": "Foregrip",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 5,
+        "class": {
+          "name": "Gunner"
+        }
+      },
+      "feature": ["Cannot be used on Two-Handed"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "200gp"
+  },
+  "entries": [
+    "You can wield this weapon with two hands, increasing its damage die by 1 step."
+  ]
+}

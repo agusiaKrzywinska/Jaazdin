@@ -1,0 +1,9 @@
+{
+  "name": "Shuffle the Board",
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["TECH"],
+  "entries": [
+    "You forgo an attack to move up to five other creatures within 30ft of you 5ft. If the creature does not want to move and is within 5ft of you, they must make a Strength saving throw to resist the effect. Creatures that aren’t within 5ft of you cannot be forced to move, but can willing move."
+  ]
+}

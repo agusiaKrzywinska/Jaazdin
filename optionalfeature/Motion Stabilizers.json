@@ -1,0 +1,23 @@
+{
+  "name": "Motion Stabilizers",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 5,
+        "class": {
+          "name": "Gunner"
+        }
+      },
+      "feature": ["Gunner: Deadeye"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "200gp"
+  },
+  "entries": [
+    "So long as you don't move on your turn, you can add your Wisdom Modifer to the to hit bonus of this weapon."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Gunblade",
+  "source": "TftJC",
+  "type": "M",
+  "rarity": "none",
+  "weight": 2,
+  "value": 5000,
+  "weaponCategory": "martial",
+  "property": ["F", "AF"],
+  "charges": 2,
+  "dmg1": "1d8",
+  "dmgType": "S",
+  "range": "30/120",
+  "entries": [
+    "<b><i>Barrel 2.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel.",
+    "<b><i>Gunblade.</i></b> A Gunblade is a melee bladed weapon that additionally has the capacity to have bullets stored within it. It is treated as a martial melee weapon that is also a firearm. The Gunblade can be used to make melee attack, or ranged attacks that instead deal piercing damage. It only has a misfire score and expends bullets when used as a ranged weapon. When a Gunblades barrel is empty, it can continue to be used like a standard melee weapon. In addition, you may use Gunner features that require ranged attacks (such as Shoot to Thrill) with melee weapon attacks as well, so long as you are using a Gunblade."
+  ]
+}

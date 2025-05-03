@@ -1,0 +1,14 @@
+{
+  "name": "Crushing Pursuit",
+  "prerequisite": [
+    {
+      "feature": ["Warden: The Juggernaut"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["TECH"],
+  "entries": [
+    "As a bonus action, you can Dash. When you finish your movement on this turn, each creature of your choice within 10 feet of you must make a Strength saving throw or take bludgeoning damage equal to your Proficiency Bonus + 1/20th of your Maximum Hit points. On a successful save, they take half damage."
+  ]
+}

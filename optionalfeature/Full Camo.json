@@ -1,0 +1,23 @@
+{
+  "name": "Full Camo",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 13,
+        "class": {
+          "name": "Gunner"
+        }
+      },
+      "feature": ["Gunner: Deadeye"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "650gp"
+  },
+  "entries": [
+    "As an Action, you turn Invisible until the end of your next turn. When the invisibility ends, you can immediately make a Stealth check to create a new Hidden Perch."
+  ]
+}

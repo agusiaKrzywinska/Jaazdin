@@ -1,0 +1,23 @@
+{
+  "name": "Birdshot",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 17,
+        "class": {
+          "name": "Gunner"
+        }
+      },
+      "feature": ["Gunner: Rambo"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "85gp"
+  },
+  "entries": [
+    "You gain a +2 to hit and gain 20 normal range when attacking flying creatures."
+  ]
+}

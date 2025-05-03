@@ -1,0 +1,23 @@
+{
+  "name": "Support Strap",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 3,
+        "class": {
+          "name": "Gunner"
+        }
+      },
+      "feature": ["Heavy"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "75gp"
+  },
+  "entries": [
+    "The heavy weapon can be used by small sized creatures with no issue."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Nightscope",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 5,
+        "class": {
+          "name": "Gunner"
+        }
+      }
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "300gp"
+  },
+  "entries": ["The firearm can be used in darkness without disadvantage."]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "White Phosphorous",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 9,
+        "class": {
+          "name": "Gunner"
+        }
+      }
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "400gp"
+  },
+  "entries": ["Fire damage dealt by this weapon ignores Fire resistance."]
+}

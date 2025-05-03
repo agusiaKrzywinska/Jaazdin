@@ -1,0 +1,22 @@
+{
+  "name": "Overheat",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 17,
+        "class": {
+          "name": "Gunner"
+        }
+      }
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "900gp"
+  },
+  "entries": [
+    "When using Shoot to Thrill, your Proficiency Bonus is considered 2 higher for both your to hit bonus and damage. +1 Misfire score."
+  ]
+}

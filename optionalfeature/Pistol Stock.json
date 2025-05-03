@@ -1,0 +1,21 @@
+{
+  "name": "Pistol Stock",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 3,
+        "class": {
+          "name": "Gunner"
+        }
+      },
+      "feature": ["Light, cannot be used with Hidden"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "60gp"
+  },
+  "entries": ["The pistol gains 20 normal range."]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Reliability",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 9,
+        "class": {
+          "name": "Gunner"
+        }
+      }
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "500gp"
+  },
+  "entries": [
+    "The firearm gains the reliable property, lowering its misfire by 1."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Blockade",
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["TECH"],
+  "entries": [
+    "You forgo an attack to instead brace yourself and up to one other creature, allowing them to use their reaction to use the dodge action, as well as taking the Dodge action yourself. Until the end of your next turn, you and an ally that takes the dodge action using their reaction gains advantage against any effects that would physically force that creature's movement. Any creature that enters your or your affected allies threat range immediately provokes an attack of opportunity without using your reaction."
+  ]
+}

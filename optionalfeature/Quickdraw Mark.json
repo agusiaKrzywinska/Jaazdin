@@ -1,0 +1,23 @@
+{
+  "name": "Quickdraw Mark",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 17,
+        "class": {
+          "name": "Gunner"
+        }
+      },
+      "feature": ["Gunner: Quickdraw"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "800gp"
+  },
+  "entries": [
+    "Attacking a creature Marks them, making each subsequent attack deal 1 additional damage. The Mark lasts until the end of your turn."
+  ]
+}

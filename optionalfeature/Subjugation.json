@@ -1,0 +1,14 @@
+{
+  "name": "Subjagation",
+  "prerequisite": [
+    {
+      "feature": ["Warden: The Juggernaut"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["TECH"],
+  "entries": [
+    "You forgo one attack to instead intimidate one target. Select 1 creature within 60ft of you, they must make a Wisdom saving throw. On a failure, they are Frightened of you. As long as the creature is frightened, their movement speed is halved, and you gain Temporary Hit Points at the start of your turn equal to your Proficiency Bonus. On a success, their movement speed is halved until the end of their next turn. The frightened creature can remake the saving throw at the end of each of its turns."
+  ]
+}

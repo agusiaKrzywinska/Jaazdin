@@ -1,0 +1,23 @@
+{
+  "name": "Sawed Off",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 5,
+        "class": {
+          "name": "Gunner"
+        }
+      },
+      "feature": ["Shotgun"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "175gp"
+  },
+  "entries": [
+    "Reduces the range for the firearm by 10, but increases the shotgun cone by 5 feet. Misfire is also increased by 1."
+  ]
+}

@@ -79,6 +79,9 @@ prompt.get(
       dateLastModified: Math.round(Date.now() / 1000),
       optionalFeatureTypes: {
         "FS:W": "Fighting Style: Warden",
+        TECH: "Technique",
+        ARC: "Arcana",
+        MOD: "Firearm Modification",
       },
     };
     newJson["_meta"] = _meta;

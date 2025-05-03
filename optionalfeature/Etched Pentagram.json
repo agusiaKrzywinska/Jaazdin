@@ -1,0 +1,23 @@
+{
+  "name": "Etched Pentagram",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 3,
+        "class": {
+          "name": "Gunner"
+        }
+      },
+      "feature": ["Gunner: Hexlock"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "85gp"
+  },
+  "entries": [
+    "As a bonus action, you can summon this firearm into your hand. As a bonus action, you can dismiss the firearm into a pocket dimension."
+  ]
+}

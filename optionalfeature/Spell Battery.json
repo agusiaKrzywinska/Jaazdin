@@ -1,0 +1,23 @@
+{
+  "name": "Spell Battery",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 17,
+        "class": {
+          "name": "Gunner"
+        }
+      },
+      "feature": ["Gunner: Hexlock"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "800gp"
+  },
+  "entries": [
+    "When you critically hit with this weapon, you regain an expended Pact Slot."
+  ]
+}

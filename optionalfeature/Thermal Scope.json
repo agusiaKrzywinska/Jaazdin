@@ -1,0 +1,23 @@
+{
+  "name": "Thermal Scope",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 9,
+        "class": {
+          "name": "Gunner"
+        }
+      },
+      "feature": ["Gunner: Deadeye"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "400gp"
+  },
+  "entries": [
+    "Looking through this scope allows you to see all creatures within your firearm's short range, even hidden behind cover so long as that creature produces heat."
+  ]
+}

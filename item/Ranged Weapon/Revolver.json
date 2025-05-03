@@ -4,15 +4,14 @@
   "type": "R",
   "rarity": "none",
   "weight": 1,
-  "value": 5000,
+  "value": 2500,
   "weaponCategory": "martial",
   "property": ["L", "AF"],
   "charges": 6,
-  "dmg1": "1d6",
+  "dmg1": "1d8",
   "dmgType": "P",
-  "range": "40/160",
+  "range": "30/120",
   "entries": [
-    "<b><i>Tier 1.</i></b>",
     "<b><i>Barrel 6.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "name": "Larger Barrel",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 3,
+        "class": {
+          "name": "Gunner"
+        }
+      },
+      "feature": ["Barrel"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "100gp"
+  },
+  "entries": ["The barrel can hold an additional 2 rounds."]
+}

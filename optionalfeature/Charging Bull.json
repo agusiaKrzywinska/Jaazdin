@@ -1,0 +1,9 @@
+{
+  "name": "Charging Bull",
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["TECH"],
+  "entries": [
+    "You forgo an attack to move in a straight line, up to 15ft towards a creature, for each ally that you pass within 5ft of they gain 10ft of movement on their next turn, each enemy that you pass within 5ft of losses 10ft of movement on their next turn. At the end of the charge you can make a shove action against a creature within range. If you succeed on the shove, the target is pushed up to 15ft away from you and knocked prone."
+  ]
+}

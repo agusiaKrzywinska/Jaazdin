@@ -1,0 +1,21 @@
+{
+  "name": "Full Metal Jacket",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 17,
+        "class": {
+          "name": "Gunner"
+        }
+      },
+      "feature": ["Cannot be used wtih Gas"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "1000gp"
+  },
+  "entries": ["Increases the firearm's Damage Die by 1 step."]
+}

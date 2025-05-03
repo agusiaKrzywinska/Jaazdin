@@ -1,0 +1,23 @@
+{
+  "name": "Riot Blast Shield",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 9,
+        "class": {
+          "name": "Gunner"
+        }
+      },
+      "feature": ["Gunner: Demolitionist, Heavy, Two-handed"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "400gp"
+  },
+  "entries": [
+    "While wielding the Firearm, you gain a +2 to your AC and Dexterity Saving Throws."
+  ]
+}

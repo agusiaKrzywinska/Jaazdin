@@ -1,0 +1,23 @@
+{
+  "name": "Gold Standard",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 17,
+        "class": {
+          "name": "Gunner"
+        }
+      },
+      "feature": ["Gunner: Deadeye"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "800gp"
+  },
+  "entries": [
+    "Once per turn, when you hit with a firearm but before you roll damage, you can double the weapon's damage dice you would deal."
+  ]
+}

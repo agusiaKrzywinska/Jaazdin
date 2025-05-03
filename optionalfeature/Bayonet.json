@@ -1,0 +1,23 @@
+{
+  "name": "Bayonet",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 3,
+        "class": {
+          "name": "Gunner"
+        }
+      },
+      "feature": ["Two-Handed, cannot be used with Gunblade"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "125gp"
+  },
+  "entries": [
+    "You attach a blade at the end of the weapon, which can be used as a martial melee weapon that deals 1d8 piercing damage on a hit. The Bayonet is not considered a firearm."
+  ]
+}

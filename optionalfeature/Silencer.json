@@ -1,0 +1,23 @@
+{
+  "name": "Silencer",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 5,
+        "class": {
+          "name": "Gunner"
+        }
+      },
+      "feature": ["Cannot be used on an Explosive or Gas firearm"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "200gp"
+  },
+  "entries": [
+    "The firearm produces a quarter of its normal noise. For the average firearm, it becomes nearly silent. Removes the Loud Trait."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Full Auto",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 13,
+        "class": {
+          "name": "Gunner"
+        }
+      }
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "750gp"
+  },
+  "entries": [
+    " The Fiream gains the Auto feature, allowing it to make an additional attack each turn."
+  ]
+}

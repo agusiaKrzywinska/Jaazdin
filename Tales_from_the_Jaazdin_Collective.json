@@ -8,14 +8,17 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson", "Malcolm Keefe"],
-        "version": "0.2.23"
+        "version": "0.3.3"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1746066667,
+    "dateLastModified": 1746302770,
     "optionalFeatureTypes": {
-      "FS:W": "Fighting Style: Warden"
+      "FS:W": "Fighting Style: Warden",
+      "TECH": "Technique",
+      "ARC": "Arcana",
+      "MOD": "Firearm Modification"
     }
   },
   "background": [
@@ -1338,46 +1341,6 @@
       ]
     },
     {
-      "name": "Assault Shotgun",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 10,
-      "value": 100000,
-      "weaponCategory": "martial",
-      "property": ["2H", "AF"],
-      "firearm": true,
-      "charges": 8,
-      "dmg1": "2d6",
-      "dmgType": "P",
-      "range": "15/40",
-      "entries": [
-        "<b><i>Tier 5.</i></b>",
-        "<b><i>Loud</i></b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
-        "<b><i>Pump 8.</i></b> A pump ammo system stores a number of shots directly in the gun. You can reload the barrel with up to 2 slugs as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two shots as a part of the same attack. The first target takes additional damage equal to the weapon's damage die. Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
-      ]
-    },
-    {
-      "name": "Automatic Rifle",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 9,
-      "value": 120000,
-      "weaponCategory": "martial",
-      "property": ["2H", "AF"],
-      "charges": 30,
-      "dmg1": "3d6",
-      "dmgType": "P",
-      "range": "80/320",
-      "entries": [
-        "<b><i>Tier 5.</i></b>",
-        "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
-        "<b><i>Auto</i><b> Auto firearms can make an additional attack as a part of the Attack Action.",
-        "<b><i>Clip 30.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
-      ]
-    },
-    {
       "name": "Bag of Shiny Bait",
       "source": "TftJC",
       "rarity": "uncommon",
@@ -1625,7 +1588,7 @@
       ]
     },
     {
-      "name": "Blast Cannon",
+      "name": "Blast Gun",
       "source": "TftJC",
       "type": "R",
       "rarity": "none",
@@ -1634,29 +1597,10 @@
       "weaponCategory": "martial",
       "property": ["H", "2H", "AF"],
       "charges": 1,
-      "dmg1": "3d6",
-      "dmgType": "P",
-      "range": "30/120",
-      "entries": [
-        "<b><i>Tier 3.</i></b>",
-        "<b><i>Barrel 1.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
-      ]
-    },
-    {
-      "name": "Blast Gun",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 15,
-      "value": 5000,
-      "weaponCategory": "martial",
-      "property": ["H", "2H", "AF"],
-      "charges": 1,
       "dmg1": "2d6",
       "dmgType": "P",
       "range": "30/120",
       "entries": [
-        "<b><i>Tier 1.</i></b>",
         "<b><i>Barrel 1.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
       ]
     },
@@ -1857,44 +1801,6 @@
             ["Silver, or White", "Cold"]
           ]
         }
-      ]
-    },
-    {
-      "name": "Bren",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 15,
-      "value": 100000,
-      "weaponCategory": "martial",
-      "property": ["2H", "H", "AF"],
-      "charges": 20,
-      "dmg1": "2d10",
-      "dmgType": "P",
-      "range": "120/480",
-      "entries": [
-        "<b><i>Tier 5.</i></b>",
-        "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
-        "<b><i>Reliable</i><b> Reliable firearms have their misfire score lowered by 1.",
-        "<b><i>Clip 20.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
-      ]
-    },
-    {
-      "name": "Broomhandle Pistol",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 2,
-      "value": 8000,
-      "weaponCategory": "martial",
-      "property": ["L", "AF"],
-      "charges": 6,
-      "dmg1": "1d8",
-      "dmgType": "P",
-      "range": "60/240",
-      "entries": [
-        "<b><i>Tier 2.</i></b>",
-        "<b><i>Clip 8.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
       ]
     },
     {
@@ -2291,25 +2197,6 @@
       "attachedSpells": ["detect evil and good", "detect magic"]
     },
     {
-      "name": "Double Barrel",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 8,
-      "value": 7500,
-      "weaponCategory": "martial",
-      "property": ["2H", "AF"],
-      "charges": 2,
-      "dmg1": "1d10",
-      "dmgType": "P",
-      "range": "10/30",
-      "entries": [
-        "<b><i>Tier 2.</i></b>",
-        "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
-        "<b><i>Pump 2.</i></b> A pump ammo system stores a number of shots directly in the gun. You can reload the barrel with up to 2 slugs as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two shots as a part of the same attack. The first target takes additional damage equal to the weapon's damage die. Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
-      ]
-    },
-    {
       "name": "Double-Barrel",
       "source": "TftJC",
       "page": 12,
@@ -2382,25 +2269,6 @@
         "These dual doors where wielded by a fire giant dread naught who *hated* doors. he hated them so much that he ripped the seal off a cloud giant hoard room and used them are his shields. ",
         "+2 magic weapon AND +2 shield. You must be wielding both items to gain their benefits. {@dice 2d6} bludgeoning, cast {@spell knock|PHB} once per LR, can target up to 9th level magics that are considered \"locking\" or \"sealing\".",
         "<b><i>Paired.</i></b> Paired weapons has special features that only activate when you are wielding two of the same weapon with the paired property."
-      ]
-    },
-    {
-      "name": "Dusty Falcon",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 4.5,
-      "value": 100000,
-      "weaponCategory": "martial",
-      "property": ["L", "AF"],
-      "charges": 8,
-      "dmg1": "2d6",
-      "dmgType": "P",
-      "range": "80/320",
-      "entries": [
-        "<b><i>Tier 5.</i></b>",
-        "<b><i>Auto</i><b> Auto firearms can make an additional attack as a part of the Attack Action.",
-        "<b><i>Clip 8.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
       ]
     },
     {
@@ -2927,27 +2795,6 @@
       ]
     },
     {
-      "name": "Gold Standard",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 18,
-      "value": 100000,
-      "weaponCategory": "martial",
-      "property": ["2H", "AF"],
-      "charges": 12,
-      "dmg1": "2d12",
-      "dmgType": "P",
-      "range": "150/600",
-      "entries": [
-        "<b><i>Tier 5.</i></b>",
-        "<b><i>Semi Auto.</i></b> As a Bonus Action, you can activate or deactivate your Semi Auto. Semi Auto overrides the Sniper's restriction to Extra Attack and Multiattack.",
-        "<b><i>Standard.</i></b> Standard weapons gain two additional damage die per Extra Attack or Multiattack the wielder can make, and cannot make the Extra Attack or Multiattack action.",
-        "<b><i>Sniper</i></b> When you make an attack action with this weapon, each attack you could have made with that action is instead consolidated into one attack, where each attack you could have made instead increases the weapon's damage die per attack. Snipers also have disadvantage to hit a creature within 15ft of them.",
-        "<b><i>Clip 12.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
-      ]
-    },
-    {
       "name": "Grand Intelligence Mutagen",
       "source": "TftJC",
       "rarity": "very rare",
@@ -3032,6 +2879,41 @@
         "It can be read over 1 week to grant a creature a 10% discount to one purchase in downtime, provided it is an object of the same or lower rarity as this tome. ",
         "Alternatively, a creature reading it can instead read the book to increase their General Store, Stablehand, or Taxi/Landlord Wage Progression by 4.",
         "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+      ]
+    },
+    {
+      "name": "Gunblade",
+      "source": "TftJC",
+      "type": "M",
+      "rarity": "none",
+      "weight": 2,
+      "value": 5000,
+      "weaponCategory": "martial",
+      "property": ["F", "AF"],
+      "charges": 2,
+      "dmg1": "1d8",
+      "dmgType": "S",
+      "range": "30/120",
+      "entries": [
+        "<b><i>Barrel 2.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel.",
+        "<b><i>Gunblade.</i></b> A Gunblade is a melee bladed weapon that additionally has the capacity to have bullets stored within it. It is treated as a martial melee weapon that is also a firearm. The Gunblade can be used to make melee attack, or ranged attacks that instead deal piercing damage. It only has a misfire score and expends bullets when used as a ranged weapon. When a Gunblades barrel is empty, it can continue to be used like a standard melee weapon. In addition, you may use Gunner features that require ranged attacks (such as Shoot to Thrill) with melee weapon attacks as well, so long as you are using a Gunblade."
+      ]
+    },
+    {
+      "name": "Gunblade",
+      "source": "TftJC",
+      "type": "R",
+      "rarity": "none",
+      "weight": 2,
+      "value": 15000,
+      "weaponCategory": "martial",
+      "property": ["H", "2H"],
+      "charges": 2,
+      "dmg1": "2d4",
+      "dmgType": "P",
+      "range": "30/120",
+      "entries": [
+        "<b><i>Belt 20.</i></b> Upon crafting a Belt fed firearm, you additonally gain 1 Belt. Belt fed firearms can make 2 attacks per attack they can make, but do not add your Dexterity Modifier to the damage. Each subsequent attack made with this weapon in one round recieves a -1 to hit. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1."
       ]
     },
     {
@@ -3555,24 +3437,6 @@
       ]
     },
     {
-      "name": "Long-Barrel Revolver",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 1.5,
-      "value": 12500,
-      "weaponCategory": "martial",
-      "property": ["L", "AF"],
-      "charges": 6,
-      "dmg1": "1d8",
-      "dmgType": "P",
-      "range": "60/240",
-      "entries": [
-        "<b><i>Tier 2.</i></b>",
-        "<b><i>Barrel 6.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
-      ]
-    },
-    {
       "name": "Magic Capacitor",
       "source": "TftJC",
       "type": "OTH",
@@ -3622,25 +3486,6 @@
       ]
     },
     {
-      "name": "Maxim",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 25,
-      "value": 32500,
-      "weaponCategory": "martial",
-      "property": ["2H", "H", "AF"],
-      "charges": 40,
-      "dmg1": "4d4",
-      "dmgType": "P",
-      "range": "60/240",
-      "entries": [
-        "<b><i>Tier 3.</i></b>",
-        "<b><i>Belt 40.</i></b> Upon crafting a Belt fed firearm, you additionally gain 1 Belt. Belt fed firearms use a number of rounds equal to how many damage die they roll with their attack. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1.",
-        "<b><i>Loud</i></b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away."
-      ]
-    },
-    {
       "name": "Medal of Muscle (Uncommon)",
       "source": "TftJC",
       "charges": 3,
@@ -3648,43 +3493,6 @@
       "wondrous": true,
       "entries": [
         "You can squeeze this medal tightly in the palm of your hand as an action. Doing so gives you advantage on Strength checks and Strength saving throws for 1 hour. Once this property has been used 3 times, it can't be used again, and the medal becomes nonmagical."
-      ]
-    },
-    {
-      "name": "MEGA!!!gun",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 10,
-      "value": 50000,
-      "weaponCategory": "martial",
-      "property": ["AF"],
-      "charges": 90,
-      "dmg1": "3d4",
-      "dmgType": "P",
-      "range": "30/120",
-      "entries": [
-        "<b><i>Tier 4.</i></b>",
-        "<b><i>Belt 90.</i></b> Upon crafting a Belt fed firearm, you additionally gain 1 Belt. Belt fed firearms use a number of rounds equal to how many damage die they roll with their attack. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1.",
-        "<b><i>Auto</i></b> Auto firearms can make an additional attack as a part of the Attack Action."
-      ]
-    },
-    {
-      "name": "Meteor Cannon",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 2,
-      "value": 100000,
-      "weaponCategory": "martial",
-      "property": ["H", "2H", "AF"],
-      "charges": 1,
-      "dmg1": "4d6",
-      "dmgType": "P",
-      "range": "30/120",
-      "entries": [
-        "<b><i>Tier 5.</i></b>",
-        "<b><i>Barrel 1.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
       ]
     },
     {
@@ -3705,24 +3513,6 @@
       ]
     },
     {
-      "name": "Minigun",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 10,
-      "value": 10000,
-      "weaponCategory": "martial",
-      "property": ["AF"],
-      "charges": 90,
-      "dmg1": "3d4",
-      "dmgType": "P",
-      "range": "30/120",
-      "entries": [
-        "<b><i>Tier 2.</i></b>",
-        "<b><i>Belt 90.</i></b> Upon crafting a Belt fed firearm, you additionally gain 1 Belt. Belt fed firearms use a number of rounds equal to how many damage die they roll with their attack. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1."
-      ]
-    },
-    {
       "name": "Mirror of Makora",
       "source": "TftJC",
       "rarity": "artifact",
@@ -3734,25 +3524,6 @@
         "This magical mirror is three feet in diameter and decorated with carvings of monkeys holding the mirror aloft. The mirror is unbreakable and can be used as a shield, granting the wearing +3 AC and advantage on saving throws against spells that deal fire, lightning, radiant, or force damage.",
         "As a bonus action the wielder can throw the shield up to 30 feet at which point it stops, hanging in the air. The wielder can then target the mirror with ranged weapon or spell attacks. When hit, the mirror reflects the attack at a perfect 90 degrees from itself, increasing the damage and the hit of the attack by +1 when it does so and resetting the attack's range. If the attack hit, another mirror is created from the first, also hovering in place. For each subsequent mirror your attack hits, it gains an additional +1 to attack and damage, up to a maximum of +3. You can never have more than three total mirrors at once.",
         "As a bonus action on your turn, you can move any number of your active mirrors up to 30 feet. Your main mirror is immune to all damage however the magically created ones are not, having 16 AC and 5 HP with immunity to fire, lightning, radiant, and force damage. When you return the main mirror to yourself, all remaining mirrors shatter and vanish."
-      ]
-    },
-    {
-      "name": "Modular Sniper",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 15,
-      "value": 125000,
-      "weaponCategory": "martial",
-      "property": ["2H", "AF"],
-      "charges": 10,
-      "dmg1": "2d10",
-      "dmgType": "P",
-      "range": "120/480",
-      "entries": [
-        "<b><i>Tier 3.</i></b>",
-        "<b><i>Sniper</i></b> When you make an attack action with this weapon, each attack you could have made with that action is instead consolidated into one attack, where each attack you could have made instead increases the weapon's damage die per attack. Snipers also have disadvantage to hit a creature within 15ft of them.",
-        "<b><i>Clip 10.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
       ]
     },
     {
@@ -3836,25 +3607,6 @@
         "It can be read over 1 week to grant a creature an extra {@dice 10d4}’s to an Athletics or Acrobatics check made during downtime.",
         "Alternatively, a creature reading it can instead read the book to increase their General Laborer, Guard/Bouncer, Barkeep, or Dock Worker Wage Progression by 4",
         "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
-      ]
-    },
-    {
-      "name": "Musket",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 5,
-      "value": 5000,
-      "weaponCategory": "martial",
-      "property": ["2H", "AF"],
-      "charges": 1,
-      "dmg1": "1d8",
-      "dmgType": "P",
-      "range": "50/200",
-      "entries": [
-        "<b><i>Tier 31.</i></b>",
-        "<b><i>Barrel 1.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel.",
-        "<b><i>Loud.</i></b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away."
       ]
     },
     {
@@ -4023,31 +3775,12 @@
       ]
     },
     {
-      "name": "Phoenix Force",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 25,
-      "value": 50000,
-      "weaponCategory": "martial",
-      "property": ["AF"],
-      "charges": 7,
-      "dmg1": "2d12",
-      "dmgType": "F",
-      "range": "30/60",
-      "entries": [
-        "<b><i>Tier 2.</i></b>",
-        "<b><i>Gas 7.</i></b> Gas weapons do not require to be loaded, rather attached to them is a tank of fuel. A gas weapon uses one unit of gas per attack, and can attack until the tank is depleted. A Gas tank can be refilled by spending 1 minute per unit refilled. You cannot store additional units of Gas, except within the weapon itself.",
-        "<b><i>Cone 10.</i></b> Cone weapons attack in a cone with a length equal to their value, using the attack roll rolled on all creatures within its cone area."
-      ]
-    },
-    {
       "name": "Pistol",
       "source": "TftJC",
       "type": "R",
       "rarity": "none",
       "weight": 1,
-      "value": 3500,
+      "value": 2500,
       "weaponCategory": "martial",
       "property": ["L", "AF"],
       "charges": 6,
@@ -4055,7 +3788,6 @@
       "dmgType": "P",
       "range": "40/160",
       "entries": [
-        "<b><i>Tier 1.</i></b>",
         "<b><i>Clip 6.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
       ]
     },
@@ -4163,58 +3895,20 @@
       ]
     },
     {
-      "name": "Remy",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 8,
-      "value": 12500,
-      "weaponCategory": "martial",
-      "property": ["2H", "AF"],
-      "charges": 2,
-      "dmg1": "2d6",
-      "dmgType": "P",
-      "range": "15/30",
-      "entries": [
-        "<b><i>Tier 2.</i></b>",
-        "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
-        "<b><i>Pump 2.</i></b> A pump ammo system stores a number of shots directly in the gun. You can reload the barrel with up to 2 slugs as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two shots as a part of the same attack. The first target takes additional damage equal to the weapon's damage die. Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
-      ]
-    },
-    {
       "name": "Revolver",
       "source": "TftJC",
       "type": "R",
       "rarity": "none",
       "weight": 1,
-      "value": 5000,
+      "value": 2500,
       "weaponCategory": "martial",
       "property": ["L", "AF"],
       "charges": 6,
-      "dmg1": "1d6",
+      "dmg1": "1d8",
       "dmgType": "P",
-      "range": "40/160",
+      "range": "30/120",
       "entries": [
-        "<b><i>Tier 1.</i></b>",
         "<b><i>Barrel 6.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
-      ]
-    },
-    {
-      "name": "Revolving Rifle",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 6,
-      "value": 10000,
-      "weaponCategory": "martial",
-      "property": ["2H", "AF"],
-      "charges": 5,
-      "dmg1": "1d10",
-      "dmgType": "P",
-      "range": "80/320",
-      "entries": [
-        "<b><i>Tier 2.</i></b>",
-        "<b><i>Barrel 5.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
       ]
     },
     {
@@ -4223,15 +3917,14 @@
       "type": "R",
       "rarity": "none",
       "weight": 8,
-      "value": 25000,
+      "value": 5000,
       "weaponCategory": "martial",
       "property": ["2H", "AF"],
       "charges": 5,
-      "dmg1": "2d6",
+      "dmg1": "1d10",
       "dmgType": "P",
       "range": "80/320",
       "entries": [
-        "<b><i>Tier 3.</i></b>",
         "<b><i>Clip 8.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
       ]
     },
@@ -4449,25 +4142,6 @@
       ]
     },
     {
-      "name": "Rocket Launcher",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 10,
-      "value": 50000,
-      "weaponCategory": "martial",
-      "property": ["AF"],
-      "charges": 1,
-      "dmg1": "4d4",
-      "dmgType": "F",
-      "range": "100/400",
-      "entries": [
-        "<b><i>Tier 4.</i></b>",
-        "<b><i>Explosive 10.</i></b> Upon a hit, everything within a radius determined by its explosive value of the target must make a Dexterity saving throw (DC equal to 8 + the firearm's tier x2) or take an additional damage equal to the damage roll. If the weapon attack misses, the explosive ammunition fails to detonate. Explosive weapons have their misfire score increased by 1.",
-        "<b><i>Barrel 1.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
-      ]
-    },
-    {
       "name": "Runick Chamber",
       "source": "TftJC",
       "page": 25,
@@ -4585,26 +4259,6 @@
       ]
     },
     {
-      "name": "Semi-Auto Sniper",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 18,
-      "value": 500000,
-      "weaponCategory": "martial",
-      "property": ["2H", "AF"],
-      "charges": 10,
-      "dmg1": "2d10",
-      "dmgType": "P",
-      "range": "150/600",
-      "entries": [
-        "<b><i>Tier 4.</i></b>",
-        "<b><i>Semi Auto.</i></b> As a Bonus Action, you can activate or deactivate your Semi Auto. Semi Auto overrides the Sniper's restriction to Extra Attack and Multiattack.",
-        "<b><i>Sniper</i></b> When you make an attack action with this weapon, each attack you could have made with that action is instead consolidated into one attack, where each attack you could have made instead increases the weapon's damage die per attack. Snipers also have disadvantage to hit a creature within 15ft of them.",
-        "<b><i>Clip 10.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
-      ]
-    },
-    {
       "name": "Sending Stones (Rare)",
       "source": "TftJC",
       "charges": 3,
@@ -4719,17 +4373,16 @@
       "type": "R",
       "rarity": "none",
       "weight": 6,
-      "value": 5000,
+      "value": 4000,
       "weaponCategory": "martial",
       "property": ["2H", "AF"],
-      "charges": 1,
+      "charges": 2,
       "dmg1": "1d10",
       "dmgType": "P",
-      "range": "10/20",
+      "range": "20/X",
       "entries": [
-        "<b><i>Tier 1.</i></b>",
         "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
-        "<b><i>Pump 1.</i></b> A pump ammo system stores a number of shots directly in the gun. You can reload the barrel with up to 2 slugs as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two shots as a part of the same attack. The first target takes additional damage equal to the weapon's damage die. Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
+        "<b><i>Pump 2.</i></b> A pump ammo system stores a number of shots directly in the gun. You can reload the barrel with up to 2 slugs as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two shots as a part of the same attack. The first target takes additional damage equal to the weapon's damage die. Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
       ]
     },
     {
@@ -4794,21 +4447,19 @@
       ]
     },
     {
-      "name": "Sniper Rifle",
+      "name": "Sniper",
       "source": "TftJC",
       "type": "R",
       "rarity": "none",
       "weight": 10,
-      "value": 5000,
+      "value": 100000,
       "weaponCategory": "martial",
       "property": ["2H", "AF"],
       "charges": 6,
       "dmg1": "1d12",
       "dmgType": "P",
-      "range": "120/480",
+      "range": "150/600",
       "entries": [
-        "<b><i>Tier 1.</i></b>",
-        "<b><i>Sniper</i></b> When you make an attack action with this weapon, each attack you could have made with that action is instead consolidated into one attack, where each attack you could have made instead increases the weapon's damage die per attack. Snipers also have disadvantage to hit a creature within 15ft of them.",
         "<b><i>Clip 6.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
       ]
     },
@@ -4864,44 +4515,6 @@
         "While holding the staff, the wielder can use an action target to any arachnid within 60 feet. The target must make a Wisdom saving throw against a DC of 15 or be charmed by the wielder for 1 hour. The wielder can use their bonus action on subsequent rounds to maintain control over the charmed creature, causing it to take any actions they desire.",
         "Additionally, once per day, Target up to three creatures within 60 feet. The affected creatures must make a Wisdom saving throw against a DC of 15 or be magically {@condition restrained} for 1 minute while they struggle to untangle themselves from the web of lies and deceit. The affected creatures can make the save again at the end of their turn.",
         "While attuned to the staff, the wielder gains resistance to poison damage and advantage on saving throws against poison effects."
-      ]
-    },
-    {
-      "name": "Stench Pistol",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 3,
-      "value": 65000,
-      "weaponCategory": "martial",
-      "property": ["L", "AF"],
-      "charges": 20,
-      "dmg1": "1d10",
-      "dmgType": "P",
-      "range": "40/160",
-      "entries": [
-        "<b><i>Tier 4.</i></b>",
-        "<b><i>Auto</i></b> Auto firearms can make an additional attack as a part of the Attack Action.",
-        "<b><i>Clip 20.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
-      ]
-    },
-    {
-      "name": "Stinger",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 0.5,
-      "value": 3000,
-      "weaponCategory": "charges",
-      "property": ["L", "AF"],
-      "charges": 4,
-      "dmg1": "1d4",
-      "dmgType": "P",
-      "range": "15/60",
-      "entries": [
-        "<b><i>Tier 1.</i></b>",
-        "<b><i>Barrel 4.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel.",
-        "<b><i>Hidden.</i></b> Hidden Firearms are small enough to tuck into a sleeve without it showing an outline and are made for assassinations. Hidden firearms come with a small track that can be mounted to the wielders wrist. As an interaction, they can slide the firearm hidden in their sleeve down the track and right into their hand. Creatures searching you for weapons have disadvantage on finding a Hidden firearm, and you have advantage on Sleight of Hand checks to hide it."
       ]
     },
     {
@@ -5043,25 +4656,6 @@
             "The Creature must make a CON Save, and on a fail their damage resistances are removed until the end of your next turn."
           ]
         }
-      ]
-    },
-    {
-      "name": "The Fozz",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 2,
-      "value": 7500,
-      "weaponCategory": "martial",
-      "property": ["L", "AF"],
-      "charges": 6,
-      "dmg1": "1d10",
-      "dmgType": "P",
-      "range": "60/240",
-      "entries": [
-        "<b><i>Tier 3.</i></b>",
-        "<b><i>Auto</i><b> Auto firearms can make an additional attack as a part of the Attack Action.",
-        "<b><i>Barrel 6.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
       ]
     },
     {
@@ -5313,25 +4907,6 @@
       ]
     },
     {
-      "name": "Tommy",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 10,
-      "value": 75000,
-      "weaponCategory": "martial",
-      "property": ["2H", "AF"],
-      "charges": 40,
-      "dmg1": "2d8",
-      "dmgType": "P",
-      "range": "60/240",
-      "entries": [
-        "<b><i>Tier 4.</i></b>",
-        "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
-        "<b><i>Drum 40.</i></b> A drum operates the same as a clip, but can store much more rounds. A drum can be loaded with its maximum number of rounds by spending 10 minutes. Drum weapons are prone to jam, and have their misfire score increased by 1."
-      ]
-    },
-    {
       "name": "Tonfa",
       "source": "TftJC",
       "page": 50,
@@ -5454,44 +5029,6 @@
       ]
     },
     {
-      "name": "Wind Chest",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 8,
-      "value": 50000,
-      "weaponCategory": "martial",
-      "property": ["2H", "AF"],
-      "charges": 4,
-      "dmg1": "2d6",
-      "dmgType": "P",
-      "range": "15/40",
-      "entries": [
-        "<b><i>Tier 4.</i></b>",
-        "<b><i>Loud</i><b> Loud weapons produce more noise than the average firearm, which may attract or scare other creatures from distances up to 300ft away.",
-        "<b><i>Pump 4.</i></b> A pump ammo system stores a number of shots directly in the gun. You can reload the barrel with up to 2 slugs as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two shots as a part of the same attack. The first target takes additional damage equal to the weapon's damage die. Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
-      ]
-    },
-    {
-      "name": "Windchaser Sniper",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 13,
-      "value": 75000,
-      "weaponCategory": "martial",
-      "property": ["2H", "AF"],
-      "charges": 8,
-      "dmg1": "2d8",
-      "dmgType": "P",
-      "range": "120/480",
-      "entries": [
-        "<b><i>Tier 2.</i></b>",
-        "<b><i>Sniper</i></b> When you make an attack action with this weapon, each attack you could have made with that action is instead consolidated into one attack, where each attack you could have made instead increases the weapon's damage die per attack. Snipers also have disadvantage to hit a creature within 15ft of them.",
-        "<b><i>Clip 8.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
-      ]
-    },
-    {
       "name": "Wirelauncher",
       "source": "TftJC",
       "rarity": "none",
@@ -5542,25 +5079,6 @@
         "A creature can spend 1 minute attaching a javelin to this device. The javelin retains any properties it had before, such as enchantments and rare metal abilities. While attached, the javelin now connects to a canister containing 75ft of thick rope.",
         "The javelin's maximum range cannot exceed how many ft of rope the canister contains. Additionally, as a Bonus Action, you can set a maximum length limit to the rope, so that the rope only goes out a number of feet up to this amount. You can change or remove the length limit as a Bonus Action on a subsequent turn.",
         "Hitting a creature with the javelin carries the rope with it, allowing you to hold a rope on that creature so long as the javelin remains stuck in the creature. The creature can remove the javelin as an action by making a DC 15 Strength Check. While the javelin remains embedded in the creature, their walking/swim/flying speeds are lowered by 10."
-      ]
-    },
-    {
-      "name": "Wolverine",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 2,
-      "value": 50000,
-      "weaponCategory": "martial",
-      "property": ["L", "AF"],
-      "charges": 6,
-      "dmg1": "1d10",
-      "dmgType": "P",
-      "range": "80/320",
-      "entries": [
-        "<b><i>Tier 4.</i></b>",
-        "<b><i>Auto</i><b> Auto firearms can make an additional attack as a part of the Attack Action.",
-        "<b><i>Clip 6.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
       ]
     },
     {
@@ -5727,6 +5245,20 @@
   ],
   "optionalfeature": [
     {
+      "name": "A Change of Plans",
+      "prerequisite": [
+        {
+          "feature": ["Warden: The Commander"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["TECH"],
+      "entries": [
+        "You can forgo one attack to give an ally nearby the chance to push their advantage on their next turn. Choose one ally within 30ft, on their next turn they can use a bonus action to make one weapon attack, Disengage, Dash, or Use an Item."
+      ]
+    },
+    {
       "name": "Adept",
       "prerequisite": [
         {
@@ -5735,9 +5267,46 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 1 Arcana. You may add your Intelligence Modifier + the spell level to the damage of The Forbidden Spell."
+      ]
+    },
+    {
+      "name": "Arcane Battery",
+      "prerequisite": [
+        {
+          "feature": ["Warden: The Conduit"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["TECH"],
+      "entries": [
+        "When a creature casts a spell within 30ft of you that deals damage, you can further enhance it with your own magic. Using your reaction to expend a spell slot you add additional force damage to one of the damage rolls of the spell equal to 2d8 per spell slot expended + half your warden levels. This is added to the spell's damage, meaning spells that save for half damage also halve this additional force damage."
+      ]
+    },
+    {
+      "name": "Armor Piercing Rounds",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Cannot be used with Explosive or Gas"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "350gp"
+      },
+      "entries": [
+        "The firearm gains a +2 to-hit against creatures wearing armor, wielding a shield or using cover."
       ]
     },
     {
@@ -5749,7 +5318,7 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 1 Arcana. After casting The Forbidden Spell, you gain temporary hit points equal to your Intelligence Modifier + the spell level."
       ]
@@ -5765,6 +5334,74 @@
       ]
     },
     {
+      "name": "Bayonet",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Two-Handed, cannot be used with Gunblade"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "125gp"
+      },
+      "entries": [
+        "You attach a blade at the end of the weapon, which can be used as a martial melee weapon that deals 1d8 piercing damage on a hit. The Bayonet is not considered a firearm."
+      ]
+    },
+    {
+      "name": "Befuddling Strike",
+      "prerequisite": [
+        {
+          "feature": ["Warden: The Commander"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["TECH"],
+      "entries": [
+        "As part of an attack, you strike a creature and confuse its senses. When you use this technique to attack a creature, that creature must make an Intelligence saving throw even if the attack misses. If the target fails, they become confused and on their next turn take one of the following actions of your choice.",
+        {
+          "type": "list",
+          "items": [
+            "Make one attack against a creature of your choice within range.",
+            "Use all their movement and use the dash action to move in a direction of your choice, avoiding obvious dangers.",
+            "Drop what it's holding and end its turn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Birdshot",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 17,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Rambo"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "85gp"
+      },
+      "entries": [
+        "You gain a +2 to hit and gain 20 normal range when attacking flying creatures."
+      ]
+    },
+    {
       "name": "Blade Guard",
       "prerequisite": [
         {
@@ -5776,6 +5413,38 @@
       "featureType": ["EI"],
       "entries": [
         "You and your minion can cast warding bond once per long rest. When you cast it using this evocation the target must be either the minion or master and you do not need to provide the material component."
+      ]
+    },
+    {
+      "name": "Blasting Parry",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Flameburster"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "400gp"
+      },
+      "entries": [
+        "As a Reaction, you can use this weapon to parry incoming damage, rolling its weapon damage and reducing damage taken by that amount (consumes a bullet)."
+      ]
+    },
+    {
+      "name": "Blockade",
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["TECH"],
+      "entries": [
+        "You forgo an attack to instead brace yourself and up to one other creature, allowing them to use their reaction to use the dodge action, as well as taking the Dodge action yourself. Until the end of your next turn, you and an ally that takes the dodge action using their reaction gains advantage against any effects that would physically force that creature's movement. Any creature that enters your or your affected allies threat range immediately provokes an attack of opportunity without using your reaction."
       ]
     },
     {
@@ -5807,9 +5476,50 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 3 Arcana. Creatures affected by The Forbidden Spell explode with its power, dealing half of its damage to creatures within a 5ft radius of it (excluding itself)."
+      ]
+    },
+    {
+      "name": "Call the Pack",
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["TECH"],
+      "entries": [
+        "As part of an attack that hits a single creature, you can call your allies to join in on the fight. Until the start of your next turn, each creature of your choice within 5 ft. of you gains advantage against the target you struck and the first attack from a creature other than you deal extra damage equal to your proficiency bonus."
+      ]
+    },
+    {
+      "name": "Charging Bull",
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["TECH"],
+      "entries": [
+        "You forgo an attack to move in a straight line, up to 15ft towards a creature, for each ally that you pass within 5ft of they gain 10ft of movement on their next turn, each enemy that you pass within 5ft of losses 10ft of movement on their next turn. At the end of the charge you can make a shove action against a creature within range. If you succeed on the shove, the target is pushed up to 15ft away from you and knocked prone."
+      ]
+    },
+    {
+      "name": "Concussive Round",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 17,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Rambo"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "800gp"
+      },
+      "entries": [
+        "Once per turn, your firearm can concussively Stun a creature you hit with it. They must make a Constitution Saving Throw (DC = 8 + prof + DEX) and on a fail are stunned until the start of your next turn."
       ]
     },
     {
@@ -5821,7 +5531,7 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 1 Arcana. The Forbidden Spell's range is reduced to touch, and for every 30ft of range the Forbidden Spell would have had instead grants one additional damage die."
       ]
@@ -5835,9 +5545,123 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 3 Arcana. The Forbidden Spell is upcasted by two levels, and then your maximum hit points are reduced by 3d6 until you complete a long rest."
+      ]
+    },
+    {
+      "name": "Countershot",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 13,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Hexlock"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "650gp"
+      },
+      "entries": [
+        "As a reaction to a spell being cast that you can see within your firearm's short range, you can attempt to counterspell it by making a Dexterity check with your firearm. You can do so a number of times per long rest equal to your Proficiency Bonus."
+      ]
+    },
+    {
+      "name": "Covering Fire",
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["TECH"],
+      "entries": [
+        "You forgo an attack to lay down a command of covering fire over an area. Choose a 15ft cube within your ranged weapon's short range. Until the start of your next turn, whenever a creature moves into or exits that area, you or any of your allies within 60ft of the cube can use their reaction to make a single ranged attack against that creature."
+      ]
+    },
+    {
+      "name": "Crippling Shot",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 13,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Cannot be used with Explosive"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "600gp"
+      },
+      "entries": [
+        "Hitting a creature with this weapon causes them to lose 5ft of their movement speed until the start of your next turn."
+      ]
+    },
+    {
+      "name": "Crushing Pursuit",
+      "prerequisite": [
+        {
+          "feature": ["Warden: The Juggernaut"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["TECH"],
+      "entries": [
+        "As a bonus action, you can Dash. When you finish your movement on this turn, each creature of your choice within 10 feet of you must make a Strength saving throw or take bludgeoning damage equal to your Proficiency Bonus + 1/20th of your Maximum Hit points. On a successful save, they take half damage."
+      ]
+    },
+    {
+      "name": "Custom Gunblade",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 13,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Melee Weapon"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "700gp"
+      },
+      "entries": [
+        "Can be applied to any Melee Weapon, which grants it the Gunblade feature and considers it a firearm."
+      ]
+    },
+    {
+      "name": "Damascene",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Gunner"
+            }
+          }
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "150gp"
+      },
+      "entries": [
+        "When using the firearm for a Charisma check, you have advantage."
       ]
     },
     {
@@ -5849,7 +5673,7 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 1 Arcana. The Forbidden Spell's range is increased by 10 per Spell Slot it is cast at."
       ]
@@ -5883,9 +5707,76 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 2 Arcana. You can cast The Forbidden Spell again this turn as a Bonus Action, but it must be cast using a lower level spell slot (which is still spent)."
+      ]
+    },
+    {
+      "name": "Double Barrel",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 13,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Quickdraw, Light"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "650gp"
+      },
+      "entries": [
+        "When using your bonus action to make an attack with a light firearm, you can make two attacks as a part of the same bonus action."
+      ]
+    },
+    {
+      "name": "Double Chamber",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Shotgun"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "450gp"
+      },
+      "entries": ["Increases Pump by 2."]
+    },
+    {
+      "name": "Dragon's Breath",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 13,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Rambo"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "650gp"
+      },
+      "entries": [
+        "The fiream deals an additional 1d8 fire damage. If the firearm activates pump, this damage is doubled."
       ]
     },
     {
@@ -5897,7 +5788,7 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 1 Arcana. Creatures hit by The Forbidden Spell have their speed reduced by 10ft until the end of their next turn."
       ]
@@ -5911,9 +5802,32 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 2 Arcana. Immediately after or before casting The Forbidden Spell, you may teleport up to 15ft to an unoccupied space you can see."
+      ]
+    },
+    {
+      "name": "Drum Upgrade",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Clip"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "350gp"
+      },
+      "entries": [
+        "All of this firearm's clips are converted into drums, which each triple their ammunition capacity."
       ]
     },
     {
@@ -5925,9 +5839,32 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 1 Arcana. The Forbidden Spell's damage type becomes either Fire, Cold, Acid, Lightning or Poison (you choose when you select this Arcana)."
+      ]
+    },
+    {
+      "name": "Elemental Munitions",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Flameburster, Barrel"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "85gp"
+      },
+      "entries": [
+        "When you use your Burst Strike feature, you may choose the damage type of the extra damage. Your choices are Acid, Cold, Fire, Lightning, or Thunder."
       ]
     },
     {
@@ -5939,9 +5876,23 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 3 Arcana. The Forbidden Spell's damage die uses d8s instead of d6s."
+      ]
+    },
+    {
+      "name": "Enhanced Healing",
+      "prerequisite": [
+        {
+          "feature": ["Warden: The Conduit"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["TECH"],
+      "entries": [
+        "When you cast a spell that restores hit points, you can use this technique to increase the potency of the healing. The targeted creature regains additional hit points equal to your Constitution modifier, and you regain hit points equal to your Constitution modifier plus the spells level."
       ]
     },
     {
@@ -5953,9 +5904,145 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 2 Arcana. The Forbidden Spell's damage die is lowered by 2, but it becomes a Dexterity Saving Throws affecting creatures in a 15ft radius."
+      ]
+    },
+    {
+      "name": "Etched Pentagram",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Hexlock"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "85gp"
+      },
+      "entries": [
+        "As a bonus action, you can summon this firearm into your hand. As a bonus action, you can dismiss the firearm into a pocket dimension."
+      ]
+    },
+    {
+      "name": "Exhaust Engine",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 17,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Flameburster"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "800gp"
+      },
+      "entries": [
+        "Your Burst Strike damage is increased by 1d10. +1 Misfire Score."
+      ]
+    },
+    {
+      "name": "Expolsive Rounds",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 17,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Demolitionist, Cannot be used with Gas"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "800gp"
+      },
+      "entries": [
+        "This weapon's attacks gain Explosive 10, or add 10 explosive to their value."
+      ]
+    },
+    {
+      "name": "Extended Barrel",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Two-Handed"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "125gp"
+      },
+      "entries": [
+        "The firearm's normal range increases by 10, and its long range increases by 40."
+      ]
+    },
+    {
+      "name": "Extended Belt",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Belt"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "450gp"
+      },
+      "entries": ["Belt capacity is increased by 20."]
+    },
+    {
+      "name": "Extended Clip",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Clip"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "175gp"
+      },
+      "entries": [
+        "The firearm's clips can store twice the normal amount of rounds."
       ]
     },
     {
@@ -5967,10 +6054,145 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 3 Arcana. Creatures affected have disadvantage on the next saving throw they would make until the end of your next turn."
       ]
+    },
+    {
+      "name": "Flintlocked",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Flameburster"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "200gp"
+      },
+      "entries": [
+        "Your weapon attacks deal additional Fire damage on a hit equal to half of the number of Modifications on this weapon (rounded down)."
+      ]
+    },
+    {
+      "name": "Foregrip",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Cannot be used on Two-Handed"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "200gp"
+      },
+      "entries": [
+        "You can wield this weapon with two hands, increasing its damage die by 1 step."
+      ]
+    },
+    {
+      "name": "Friction Holster",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Quickdraw, Light"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "85gp"
+      },
+      "entries": [
+        "When drawing this light firearm, you can draw another one as a part of the same action."
+      ]
+    },
+    {
+      "name": "Full Auto",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 13,
+            "class": {
+              "name": "Gunner"
+            }
+          }
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "750gp"
+      },
+      "entries": [
+        " The Fiream gains the Auto feature, allowing it to make an additional attack each turn."
+      ]
+    },
+    {
+      "name": "Full Camo",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 13,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Deadeye"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "650gp"
+      },
+      "entries": [
+        "As an Action, you turn Invisible until the end of your next turn. When the invisibility ends, you can immediately make a Stealth check to create a new Hidden Perch."
+      ]
+    },
+    {
+      "name": "Full Metal Jacket",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 17,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Cannot be used wtih Gas"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "1000gp"
+      },
+      "entries": ["Increases the firearm's Damage Die by 1 step."]
     },
     {
       "name": "Gift of Darkness",
@@ -6001,9 +6223,32 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 2 Arcana. Creatures affected by The Forbidden Spell must instead make a Wisdom saving throw, and on a fail are frightened rather than subtracting 1d4, for 1 minute or until they succeed the saving throw by repeating it at the end of their turns."
+      ]
+    },
+    {
+      "name": "Gold Standard",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 17,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Deadeye"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "800gp"
+      },
+      "entries": [
+        "Once per turn, when you hit with a firearm but before you roll damage, you can double the weapon's damage dice you would deal."
       ]
     },
     {
@@ -6015,9 +6260,101 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 3 Arcana. Creatures affected by The Forbidden Spell are no longer subtract 1d4, but now they must instead then make a Strength Saving Throw, and on a fail become Restrained for 1 minute, or until they succeed on the saving throw by repeating it at the end of their turns."
+      ]
+    },
+    {
+      "name": "Hexed Cylinder",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": [
+            "Gunner: Hexlock, Other Hexed Bullets cannot be loaded into this weapon. Cannot be restricted by your spellcasting option."
+          ]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "400gp"
+      },
+      "entries": [
+        "When you install this modification, choose one known Tier 1 Hexed Bullet. Bullets fired from this gun always apply that effect."
+      ]
+    },
+    {
+      "name": "Hidden Track",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Light"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "50gp"
+      },
+      "entries": ["The firearm gains the hidden property."]
+    },
+    {
+      "name": "High Velocity Rounds",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 17,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Cannot be used wtih Gas"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "900gp"
+      },
+      "entries": [
+        "You can attack creatures through walls up to 5ft thick, so long as you know they are there."
+      ]
+    },
+    {
+      "name": "Hollow Point Rounds",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Quickdraw, Cannot be used with Explosive or Gas"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "200gp"
+      },
+      "entries": [
+        "When you critically hit with the firearm, you can roll one additional weapon damage die when determining the extra damage for a critical hit."
       ]
     },
     {
@@ -6029,9 +6366,196 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 2 Arcana. The Forbidden Spell's range is doubled, but it deals one less damage die."
+      ]
+    },
+    {
+      "name": "Improved Belt Feed",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Belt"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "225gp"
+      },
+      "entries": ["The firearm's misfire score is reduced by 1."]
+    },
+    {
+      "name": "Incindiary Rounds",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Demolitionist"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "85gp"
+      },
+      "entries": [
+        "When you hit a creature with this weapon, they are lit on fire for a number of rounds equal to your Prof bonus, and take 1d6 Fire damage at the start of each of their turns. They can be doused in water or use an action to put themselves out."
+      ]
+    },
+    {
+      "name": "Incindiary Rounds",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Demolitionist, Cannot be used with Gas"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "200gp"
+      },
+      "entries": [
+        "This weapon deals an additional 2 piercing damage to other creatures within 5ft of it."
+      ]
+    },
+    {
+      "name": "Interceding Strike",
+      "prerequisite": [
+        {
+          "feature": ["Warden: The Protector"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["TECH"],
+      "entries": [
+        "As a reaction, when a creature hits the subject of your Honor Bond with an attack, and you are within 5ft of the attacker, you can make an attack against them. If the attack hits, you reduce the damage of the offending attack by the damage you deal."
+      ]
+    },
+    {
+      "name": "Ironsight",
+      "source": "TftJC",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Gunner"
+            }
+          }
+        }
+      ],
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "125gp"
+      },
+      "entries": ["The firearm gains a +1 to-hit."]
+    },
+    {
+      "name": "Kevlar Strap",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 13,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Two-Handed"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "550gp"
+      },
+      "entries": ["Removes the Two Handed property."]
+    },
+    {
+      "name": "Larger Barrel",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Barrel"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "100gp"
+      },
+      "entries": ["The barrel can hold an additional 2 rounds."]
+    },
+    {
+      "name": "Laser Sight",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Deadeye"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "85gp"
+      },
+      "entries": ["You gain a +3 to hit against creatures not in direct light."]
+    },
+    {
+      "name": "Leaded Rounds",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 17,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Cannot be used wtih Explosive or Gas"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "800gp"
+      },
+      "entries": [
+        "Creatures hit by this weapon cannot heal until the start of your next turn."
       ]
     },
     {
@@ -6063,6 +6587,43 @@
       ]
     },
     {
+      "name": "Mark of Denial",
+      "prerequisite": [
+        {
+          "feature": ["Warden: The Commander"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["TECH"],
+      "entries": [
+        "As part of an attack, you mark one creature and protect your allies from it. When you use this technique to attack a creature, that creature must make a Wisdom saving throw even if the attack misses. If the target fails the saving throw, it cannot take reactions until the end of your next turn, and any creature leaving its threat range for the first time can move an extra 10ft on their turn."
+      ]
+    },
+    {
+      "name": "Modularity",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Two-Handed"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "400gp"
+      },
+      "entries": [
+        "The Firearm can be dissassembled and reassmebled within 1 minute for concealed carry."
+      ]
+    },
+    {
       "name": "Money Talks",
       "prerequisite": [
         {
@@ -6082,6 +6643,49 @@
       ]
     },
     {
+      "name": "Motion Stabilizers",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Deadeye"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "200gp"
+      },
+      "entries": [
+        "So long as you don't move on your turn, you can add your Wisdom Modifer to the to hit bonus of this weapon."
+      ]
+    },
+    {
+      "name": "Nightscope",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Gunner"
+            }
+          }
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "300gp"
+      },
+      "entries": ["The firearm can be used in darkness without disadvantage."]
+    },
+    {
       "name": "Origin",
       "prerequisite": [
         {
@@ -6090,7 +6694,7 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 2 Arcana. The Forbidden Spell's damage type becomes either Necrotic, Radiant or Thunder (you choose when you select this Arcana)."
       ]
@@ -6115,6 +6719,51 @@
       ]
     },
     {
+      "name": "Overheat",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 17,
+            "class": {
+              "name": "Gunner"
+            }
+          }
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "900gp"
+      },
+      "entries": [
+        "When using Shoot to Thrill, your Proficiency Bonus is considered 2 higher for both your to hit bonus and damage. +1 Misfire score."
+      ]
+    },
+    {
+      "name": "Overpressure",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Cannot be used with Explosive or Gas"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "500gp"
+      },
+      "entries": [
+        "The firearm's attacks deal an additional 1d6 damage. +1 Misfire score."
+      ]
+    },
+    {
       "name": "Overwhelm",
       "prerequisite": [
         {
@@ -6123,7 +6772,7 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 1 Arcana. Creatures affected by The Forbidden Spell must make a Strength saving throw or be knocked prone."
       ]
@@ -6137,7 +6786,7 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 1 Arcana. The Forbidden Spell's range is halved, but it becomes a Dexterity Saving throw affecting creatures in a 5ft line."
       ]
@@ -6151,9 +6800,162 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 2 Arcana. Creatures affected by The Forbidden Spell gain a -1 penalty to its Armor Class until the end of your their next turn."
+      ]
+    },
+    {
+      "name": "Pin Them Down",
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["TECH"],
+      "entries": [
+        "You can forgo one attack to instead make a grapple check. When you do this, you can choose one ally within 5ft of the target, if that creature has proficiency in Athletics you add twice your Strength bonus to your Athletics check to grapple the target. If you successfully grapple the target and the target is Large or smaller, you instead pin the creature, Restraining it until you move more than 5ft from the target. The creature can use an action to attempt to break free from the restraint, making a Strength saving throw against your Technique save DC."
+      ]
+    },
+    {
+      "name": "Pistol Stock",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Light, cannot be used with Hidden"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "60gp"
+      },
+      "entries": ["The pistol gains 20 normal range."]
+    },
+    {
+      "name": "Potato Cannon",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Demolitionist"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "650gp"
+      },
+      "entries": [
+        "You can fire objects of up to 6\" in diameter that are not ammunition with this weapon. Objects instead deal 1d4 + your dexterity modifier in bludgeoning damage on a hit, and may apply other effects based on the object's effects."
+      ]
+    },
+    {
+      "name": "Provoking Strike",
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["TECH"],
+      "entries": [
+        "As part of an attack, you goad one creature into paying attention to you. When you use this technique, the creature must make a Charisma saving throw even if the attack misses. If the target fails the saving throw, the creature makes all attacks against targets other than you with disadvantage until the end of the creature's next turn. This effect ends if you move more than 10 ft from the creature."
+      ]
+    },
+    {
+      "name": "Pump Charge",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Gunner"
+            }
+          }
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "200gp"
+      },
+      "entries": [
+        " When you take the attack action, you can forgo an attack to overpressure your firearm, causing its next attack to deal double damage die."
+      ]
+    },
+    {
+      "name": "Quick Mag",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 13,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Clip"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "600gp"
+      },
+      "entries": [
+        "Once per turn, you can replace a Clip in this weapon as a Free Action."
+      ]
+    },
+    {
+      "name": "Quickdraw Mark",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 17,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Quickdraw"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "800gp"
+      },
+      "entries": [
+        "Attacking a creature Marks them, making each subsequent attack deal 1 additional damage. The Mark lasts until the end of your turn."
+      ]
+    },
+    {
+      "name": "Quickened Belt Feed",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 17,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Belt"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "950gp"
+      },
+      "entries": [
+        "The Belt firearm makes three attacks instead of two per each attack it could make. +1 Misfire score."
       ]
     },
     {
@@ -6167,6 +6969,15 @@
       ]
     },
     {
+      "name": "Rallying Call",
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["TECH"],
+      "entries": [
+        "You forgo an attack to rally your allies within 30ft of you, granting them temporary hp equal to half your warden level + your Constitution modifier."
+      ]
+    },
+    {
       "name": "Recovery",
       "prerequisite": [
         {
@@ -6175,7 +6986,7 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 2 Arcana. The Forbidden Spell deals one less damage die, and one ally within range of the Forbidden Spell's attack range regains half of the damage roll."
       ]
@@ -6189,9 +7000,45 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 2 Arcana. Creatures affected by The Forbidden Spell instead subtract 2d4 from their next roll."
+      ]
+    },
+    {
+      "name": "Relentless Vigor",
+      "prerequisite": [
+        {
+          "feature": ["Warden: The Juggernaut"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["TECH"],
+      "entries": [
+        "As a reaction to failing a saving throw, expend 1 hit die and roll it. You take necrotic damage equal to twice the number rolled which cannot be reduced in any way. You may then reattempt the saving throw with advantage. You may still use Heat of Battle after using this Technique, even if you succeed on the saving throw on the reattempt."
+      ]
+    },
+    {
+      "name": "Reliability",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Gunner"
+            }
+          }
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "500gp"
+      },
+      "entries": [
+        "The firearm gains the reliable property, lowering its misfire by 1."
       ]
     },
     {
@@ -6203,7 +7050,7 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 3 Arcana. The Forbidden Spell's damage die is lowered by 2, but you regain an expended spell slot of 3rd or lower. This must be cast with a spell slot of 4th or higher to use this Arcana."
       ]
@@ -6217,9 +7064,167 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 3 Arcana. You make an additional attack with this spell at another creature within range."
+      ]
+    },
+    {
+      "name": "Riot Blast Shield",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Demolitionist, Heavy, Two-handed"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "400gp"
+      },
+      "entries": [
+        "While wielding the Firearm, you gain a +2 to your AC and Dexterity Saving Throws."
+      ]
+    },
+    {
+      "name": "Roulette Barrel",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Quickdraw"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "400gp"
+      },
+      "entries": [
+        "Once per turn, when you attack with this weapon you can roll 1d6. On a 6, you can make an additional attack with this weapon."
+      ]
+    },
+    {
+      "name": "Runick Chamber",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Hexlock"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "200gp"
+      },
+      "entries": [
+        "As a bonus action you can attune damage type, from Force, Radiant, or Necrotic. Once per turn when you hit with this firearm, the weapon deals extra damage of that type equal to your Intelligence Modifier."
+      ]
+    },
+    {
+      "name": "Sawed Off",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Shotgun"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "175gp"
+      },
+      "entries": [
+        "Reduces the range for the firearm by 10, but increases the shotgun cone by 5 feet. Misfire is also increased by 1."
+      ]
+    },
+    {
+      "name": "Scatterslug",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 17,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Shotgun"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "800gp"
+      },
+      "entries": ["Creatures within your Shotgun's cone take full damage."]
+    },
+    {
+      "name": "Scope",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Gunner"
+            }
+          }
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "250gp"
+      },
+      "entries": [
+        "The firearm does not pose disadvantage when firing at long range."
+      ]
+    },
+    {
+      "name": "Semi Auto",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 13,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Sniper"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "650gp"
+      },
+      "entries": [
+        "Allows the Sniper to override its restriction to extra attack, can be turned off/on as a Bonus Action."
       ]
     },
     {
@@ -6234,6 +7239,184 @@
       "featureType": ["EI"],
       "entries": [
         "Your minion can cast the cantrips you have in your Book of Shadows. If you gain the ability to cast rituals your minion can also cast those rituals and together you can both cast the same ritual to lower the time it takes to complete by half."
+      ]
+    },
+    {
+      "name": "Sharpened Edge",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 13,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Flameburster"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "650gp"
+      },
+      "entries": ["Attacks made have their critical hit range expanded by 1."]
+    },
+    {
+      "name": "Shield Wall",
+      "prerequisite": [
+        {
+          "feature": ["Warden: The Protector"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["TECH"],
+      "entries": [
+        "You forgo one attack to instead brace your charge for incoming attacks. To use this technique, you must be wielding a shield. For the next minute, whenever your Honor Bound is within 5ft of you, they gain the AC benefits of your shield and can add your shield bonus to any Dexterity saving throws they make. "
+      ]
+    },
+    {
+      "name": "Shuffle the Board",
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["TECH"],
+      "entries": [
+        "You forgo an attack to move up to five other creatures within 30ft of you 5ft. If the creature does not want to move and is within 5ft of you, they must make a Strength saving throw to resist the effect. Creatures that aren’t within 5ft of you cannot be forced to move, but can willing move."
+      ]
+    },
+    {
+      "name": "Silencer",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Cannot be used on an Explosive or Gas firearm"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "200gp"
+      },
+      "entries": [
+        "The firearm produces a quarter of its normal noise. For the average firearm, it becomes nearly silent. Removes the Loud Trait."
+      ]
+    },
+    {
+      "name": "Smoke Cannister Launcher",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Rambo, Two-Handed"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "400gp"
+      },
+      "entries": [
+        "You can forgo an attack on your turn with a Smoke Cannister, firing it within your firearm's short range. It then explodes, dealing no damage but heavily obscurring a 10ft radius around it. Can be used a number of times per Short rest equal to your Prof Bonus."
+      ]
+    },
+    {
+      "name": "Spell Battery",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 17,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Hexlock"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "800gp"
+      },
+      "entries": [
+        "When you critically hit with this weapon, you regain an expended Pact Slot."
+      ]
+    },
+    {
+      "name": "Spell Sharing",
+      "prerequisite": [
+        {
+          "feature": ["Warden: The Conduit"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["TECH"],
+      "entries": [
+        "When you cast a spell that targets only you, you can use this Technique to grant one other creature the effects of the spell. If the spell lasts for a duration, it lasts on the secondary creature for a number of rounds equal to the duration of the spell or equal to half your proficiency modifier (rounded down) whichever is lower."
+      ]
+    },
+    {
+      "name": "Subjagation",
+      "prerequisite": [
+        {
+          "feature": ["Warden: The Juggernaut"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["TECH"],
+      "entries": [
+        "You forgo one attack to instead intimidate one target. Select 1 creature within 60ft of you, they must make a Wisdom saving throw. On a failure, they are Frightened of you. As long as the creature is frightened, their movement speed is halved, and you gain Temporary Hit Points at the start of your turn equal to your Proficiency Bonus. On a success, their movement speed is halved until the end of their next turn. The frightened creature can remake the saving throw at the end of each of its turns."
+      ]
+    },
+    {
+      "name": "Support Strap",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 3,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Heavy"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "75gp"
+      },
+      "entries": [
+        "The heavy weapon can be used by small sized creatures with no issue."
+      ]
+    },
+    {
+      "name": "Team Strike",
+      "prerequisite": [
+        {
+          "feature": ["Warden: The Protector"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["TECH"],
+      "entries": [
+        "When you make an attack roll, you can allow the subject of your Honor Bond to also make an attack. Your Honor Bound can use its reaction to immediately make one attack, adding 1d4 to the to hit roll."
       ]
     },
     {
@@ -6271,6 +7454,52 @@
       ]
     },
     {
+      "name": "Thermal Scope",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Deadeye"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "400gp"
+      },
+      "entries": [
+        "Looking through this scope allows you to see all creatures within your firearm's short range, even hidden behind cover so long as that creature produces heat."
+      ]
+    },
+    {
+      "name": "Tripod",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Two-Handed"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "250gp"
+      },
+      "entries": [
+        "You can deploy this as a Bonus Action on a surface. If you do not move on this turn, the Firearm gains a +3 to hit if attacking a target who did not move in their last round."
+      ]
+    },
+    {
       "name": "Umbral Armour",
       "source": "TftJC",
       "page": 44,
@@ -6278,6 +7507,26 @@
       "entries": [
         "When you begin combat while wearing medium armour you gain {@dice 1d4} + Charisma modifier temporary hit points. This bonus increases to {@dice 1d6} at 9th level, {@dice 1d8} at 13th, {@dice 1d10} at 17th level, and 1d12 at 20th level."
       ]
+    },
+    {
+      "name": "White Phosphorous",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 9,
+            "class": {
+              "name": "Gunner"
+            }
+          }
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "400gp"
+      },
+      "entries": ["Fire damage dealt by this weapon ignores Fire resistance."]
     },
     {
       "name": "Wither",
@@ -6288,7 +7537,7 @@
       ],
       "source": "TftJC",
       "page": 48,
-      "featureType": ["Other"],
+      "featureType": ["ARC"],
       "entries": [
         "Tier 3 Arcana. Creatures affected by The Forbidden Spell have their Strength and Dexterity scores halved until the start of your next turn."
       ]
@@ -12369,34 +13618,6 @@
       ]
     },
     {
-      "name": "Circle Spells",
-      "source": "TftJC",
-      "className": "Druid",
-      "classSource": "PHB",
-      "subclassShortName": "Iron Heretic",
-      "subclassSource": "TftJC",
-      "level": 2,
-      "entries": [
-        "Your relationship with metal grants you the ability to tap into magic forbidden to other druids. At 2nd level, you learn one of the following cantrips: booming blade, green flame blade, or sword burst. At 3rd, 5th, 7th, and 9th levels you gain access to the spells listed for that level in the Circle of the Iron Heretic Spells table.",
-        "Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
-        {
-          "type": "table",
-          "caption": "Iron Heretic Spells",
-          "colLabels": ["Druid Level", "Spells"],
-          "colStyles": ["col-2 text-center", "col-10"],
-          "rows": [
-            [
-              "3rd",
-              "{@spell aganazzar's scorcher|XGE}, {@spell dragon's breath|XGE}"
-            ],
-            ["5th", "{@spell wall of sand|XGE}, {@spell molten cascade|TftJC}"],
-            ["7th", "{@spell fabricate}, {@spell fire shield}"],
-            ["9th", "{@spell animate objects}, {@spell steel wind strike|XGE}"]
-          ]
-        }
-      ]
-    },
-    {
       "name": "Circle of the Iron Heretic",
       "source": "TftJC",
       "className": "Druid",
@@ -12423,6 +13644,34 @@
         {
           "type": "refSubclassFeature",
           "subclassFeature": "Metallic Carapace|Druid|PHB|Iron Heretic|TftJC|2"
+        }
+      ]
+    },
+    {
+      "name": "Circle Spells",
+      "source": "TftJC",
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Iron Heretic",
+      "subclassSource": "TftJC",
+      "level": 2,
+      "entries": [
+        "Your relationship with metal grants you the ability to tap into magic forbidden to other druids. At 2nd level, you learn one of the following cantrips: booming blade, green flame blade, or sword burst. At 3rd, 5th, 7th, and 9th levels you gain access to the spells listed for that level in the Circle of the Iron Heretic Spells table.",
+        "Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+        {
+          "type": "table",
+          "caption": "Iron Heretic Spells",
+          "colLabels": ["Druid Level", "Spells"],
+          "colStyles": ["col-2 text-center", "col-10"],
+          "rows": [
+            [
+              "3rd",
+              "{@spell aganazzar's scorcher|XGE}, {@spell dragon's breath|XGE}"
+            ],
+            ["5th", "{@spell wall of sand|XGE}, {@spell molten cascade|TftJC}"],
+            ["7th", "{@spell fabricate}, {@spell fire shield}"],
+            ["9th", "{@spell animate objects}, {@spell steel wind strike|XGE}"]
+          ]
         }
       ]
     },

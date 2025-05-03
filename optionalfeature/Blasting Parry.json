@@ -1,0 +1,23 @@
+{
+  "name": "Blasting Parry",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 9,
+        "class": {
+          "name": "Gunner"
+        }
+      },
+      "feature": ["Gunner: Flameburster"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "400gp"
+  },
+  "entries": [
+    "As a Reaction, you can use this weapon to parry incoming damage, rolling its weapon damage and reducing damage taken by that amount (consumes a bullet)."
+  ]
+}
