@@ -19,7 +19,7 @@
       "type": "inset",
       "name": "Throwing Star",
       "entries": [
-        "Throwing Stars cost 5sp for a group of 10 and has the following stat block: thrown, light, range 30/90, special, 1d4 piercing. They weight 0.25lbs.",
+        "Throwing Stars cost 5sp for a group of 10 and has the following stat block: thrown, light, finesse, range 30/90, special, 1d4 piercing. They weight 0.25lbs.",
         {
           "type": "list",
           "items": [

@@ -5,7 +5,7 @@
   "type": "M",
   "rarity": "none",
   "weight": 0.25,
-  "value": 5,
+  "value": 50,
   "weaponCategory": "martial",
   "property": ["F", "L", "T"],
   "dmg1": "1d4",

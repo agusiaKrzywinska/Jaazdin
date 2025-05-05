@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson", "Malcolm Keefe"],
-        "version": "0.3.3"
+        "version": "0.3.4"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1746302770,
+    "dateLastModified": 1746415997,
     "optionalFeatureTypes": {
       "FS:W": "Fighting Style: Warden",
       "TECH": "Technique",
@@ -4452,7 +4452,7 @@
       "type": "R",
       "rarity": "none",
       "weight": 10,
-      "value": 100000,
+      "value": 10000,
       "weaponCategory": "martial",
       "property": ["2H", "AF"],
       "charges": 6,
@@ -4807,7 +4807,7 @@
       "type": "M",
       "rarity": "none",
       "weight": 0.25,
-      "value": 5,
+      "value": 50,
       "weaponCategory": "martial",
       "property": ["F", "L", "T"],
       "dmg1": "1d4",
@@ -4824,7 +4824,7 @@
       "rarity": "none",
       "page": 36,
       "weight": 2.5,
-      "value": 50,
+      "value": 500,
       "entries": [
         "Most commonly sold in bundles of 10 {@item throwing star|TftJC}."
       ],
@@ -13618,6 +13618,34 @@
       ]
     },
     {
+      "name": "Circle Spells",
+      "source": "TftJC",
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Iron Heretic",
+      "subclassSource": "TftJC",
+      "level": 2,
+      "entries": [
+        "Your relationship with metal grants you the ability to tap into magic forbidden to other druids. At 2nd level, you learn one of the following cantrips: booming blade, green flame blade, or sword burst. At 3rd, 5th, 7th, and 9th levels you gain access to the spells listed for that level in the Circle of the Iron Heretic Spells table.",
+        "Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+        {
+          "type": "table",
+          "caption": "Iron Heretic Spells",
+          "colLabels": ["Druid Level", "Spells"],
+          "colStyles": ["col-2 text-center", "col-10"],
+          "rows": [
+            [
+              "3rd",
+              "{@spell aganazzar's scorcher|XGE}, {@spell dragon's breath|XGE}"
+            ],
+            ["5th", "{@spell wall of sand|XGE}, {@spell molten cascade|TftJC}"],
+            ["7th", "{@spell fabricate}, {@spell fire shield}"],
+            ["9th", "{@spell animate objects}, {@spell steel wind strike|XGE}"]
+          ]
+        }
+      ]
+    },
+    {
       "name": "Circle of the Iron Heretic",
       "source": "TftJC",
       "className": "Druid",
@@ -13644,34 +13672,6 @@
         {
           "type": "refSubclassFeature",
           "subclassFeature": "Metallic Carapace|Druid|PHB|Iron Heretic|TftJC|2"
-        }
-      ]
-    },
-    {
-      "name": "Circle Spells",
-      "source": "TftJC",
-      "className": "Druid",
-      "classSource": "PHB",
-      "subclassShortName": "Iron Heretic",
-      "subclassSource": "TftJC",
-      "level": 2,
-      "entries": [
-        "Your relationship with metal grants you the ability to tap into magic forbidden to other druids. At 2nd level, you learn one of the following cantrips: booming blade, green flame blade, or sword burst. At 3rd, 5th, 7th, and 9th levels you gain access to the spells listed for that level in the Circle of the Iron Heretic Spells table.",
-        "Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
-        {
-          "type": "table",
-          "caption": "Iron Heretic Spells",
-          "colLabels": ["Druid Level", "Spells"],
-          "colStyles": ["col-2 text-center", "col-10"],
-          "rows": [
-            [
-              "3rd",
-              "{@spell aganazzar's scorcher|XGE}, {@spell dragon's breath|XGE}"
-            ],
-            ["5th", "{@spell wall of sand|XGE}, {@spell molten cascade|TftJC}"],
-            ["7th", "{@spell fabricate}, {@spell fire shield}"],
-            ["9th", "{@spell animate objects}, {@spell steel wind strike|XGE}"]
-          ]
         }
       ]
     },
@@ -17188,7 +17188,7 @@
           "type": "inset",
           "name": "Throwing Star",
           "entries": [
-            "Throwing Stars cost 5sp for a group of 10 and has the following stat block: thrown, light, range 30/90, special, 1d4 piercing. They weight 0.25lbs.",
+            "Throwing Stars cost 5sp for a group of 10 and has the following stat block: thrown, light, finesse, range 30/90, special, 1d4 piercing. They weight 0.25lbs.",
             {
               "type": "list",
               "items": [
