@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson", "Malcolm Keefe"],
-        "version": "0.3.5"
+        "version": "0.3.6"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1746489589,
+    "dateLastModified": 1746490720,
     "optionalFeatureTypes": {
       "FS:W": "Fighting Style: Warden",
       "TECH": "Technique",
@@ -2745,23 +2745,6 @@
       ]
     },
     {
-      "name": "Gunblade",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 2,
-      "value": 15000,
-      "weaponCategory": "martial",
-      "property": ["H", "2H"],
-      "charges": 2,
-      "dmg1": "2d4",
-      "dmgType": "P",
-      "range": "30/120",
-      "entries": [
-        "<b><i>Belt 20.</i></b> Upon crafting a Belt fed firearm, you additonally gain 1 Belt. Belt fed firearms can make 2 attacks per attack they can make, but do not add your Dexterity Modifier to the damage. Each subsequent attack made with this weapon in one round recieves a -1 to hit. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1."
-      ]
-    },
-    {
       "name": "Hand-Bomb",
       "type": "R",
       "source": "TftJC",
@@ -3195,6 +3178,23 @@
         },
         "You only gain these benefits based on the CR of the Reagent placed within the locket for creatures within its CR range or lower, and can only select Conditions based on the Reagents CR.",
         "The Reagent inside the Locket can be replaced by a different reagent, but this consumes the first reagent."
+      ]
+    },
+    {
+      "name": "Machine Gun",
+      "source": "TftJC",
+      "type": "R",
+      "rarity": "none",
+      "weight": 2,
+      "value": 15000,
+      "weaponCategory": "martial",
+      "property": ["H", "2H"],
+      "charges": 2,
+      "dmg1": "2d4",
+      "dmgType": "P",
+      "range": "30/120",
+      "entries": [
+        "<b><i>Belt 20.</i></b> Upon crafting a Belt fed firearm, you additionally gain 1 Belt. Belt fed firearms can make 2 attacks per attack they can make, but do not add your Dexterity Modifier to the damage. Each subsequent attack made with this weapon in one round recieves a -1 to hit. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1."
       ]
     },
     {
@@ -5344,7 +5344,7 @@
         "name": "650gp"
       },
       "entries": [
-        "The fiream deals an additional 1d8 fire damage. If the firearm activates pump, this damage is doubled."
+        "The firearm deals an additional 1d8 fire damage. If the firearm activates pump, this damage is doubled."
       ]
     },
     {
@@ -5524,7 +5524,7 @@
       ]
     },
     {
-      "name": "Expolsive Rounds",
+      "name": "Explosive Rounds",
       "prerequisite": [
         {
           "level": {
@@ -5715,7 +5715,7 @@
         "name": "750gp"
       },
       "entries": [
-        " The Fiream gains the Auto feature, allowing it to make an additional attack each turn."
+        " The Firearm gains the Auto feature, allowing it to make an additional attack each turn."
       ]
     },
     {
@@ -5751,7 +5751,7 @@
               "name": "Gunner"
             }
           },
-          "feature": ["Cannot be used wtih Gas"]
+          "feature": ["Cannot be used with Gas"]
         }
       ],
       "source": "TftJC",
@@ -5889,7 +5889,7 @@
               "name": "Gunner"
             }
           },
-          "feature": ["Cannot be used wtih Gas"]
+          "feature": ["Cannot be used with Gas"]
         }
       ],
       "source": "TftJC",
@@ -5961,7 +5961,7 @@
       "entries": ["The firearm's misfire score is reduced by 1."]
     },
     {
-      "name": "Incindiary Rounds",
+      "name": "Incendiary Rounds",
       "prerequisite": [
         {
           "level": {
@@ -5981,29 +5981,6 @@
       },
       "entries": [
         "When you hit a creature with this weapon, they are lit on fire for a number of rounds equal to your Prof bonus, and take 1d6 Fire damage at the start of each of their turns. They can be doused in water or use an action to put themselves out."
-      ]
-    },
-    {
-      "name": "Incindiary Rounds",
-      "prerequisite": [
-        {
-          "level": {
-            "level": 5,
-            "class": {
-              "name": "Gunner"
-            }
-          },
-          "feature": ["Gunner: Demolitionist, Cannot be used with Gas"]
-        }
-      ],
-      "source": "TftJC",
-      "page": 48,
-      "featureType": ["MOD"],
-      "consumes": {
-        "name": "200gp"
-      },
-      "entries": [
-        "This weapon deals an additional 2 piercing damage to other creatures within 5ft of it."
       ]
     },
     {
@@ -6234,7 +6211,7 @@
       ]
     },
     {
-      "name": "Nightscope",
+      "name": "Night Scope",
       "prerequisite": [
         {
           "level": {
@@ -6770,6 +6747,29 @@
       },
       "entries": [
         "The firearm does not pose disadvantage when firing at long range."
+      ]
+    },
+    {
+      "name": "Scrap Shrapnel",
+      "prerequisite": [
+        {
+          "level": {
+            "level": 5,
+            "class": {
+              "name": "Gunner"
+            }
+          },
+          "feature": ["Gunner: Demolitionist, Cannot be used with Gas"]
+        }
+      ],
+      "source": "TftJC",
+      "page": 48,
+      "featureType": ["MOD"],
+      "consumes": {
+        "name": "200gp"
+      },
+      "entries": [
+        "This weapon deals an additional 2 piercing damage to other creatures within 5ft of it."
       ]
     },
     {
@@ -11601,7 +11601,7 @@
       "subclassSource": "TftJC",
       "level": 3,
       "entries": [
-        "In a flurry of Psionis Blasts and shining metal, a duo fight in Tandem with perfect prescision. The Inventor who readies plans and their ultimate creation, an extention of their newfound powers and will. Combining the innovations in modern Construct Creations with latent Psionic ability, Ghost-Shell Artificers' connection to their creations is their most powerful asset. Seen as an extention of Body and Mind, these innovators come equiped with a powerful mechanical force tied to its master's brainwaves.",
+        "In a flurry of Psionic Blasts and shining metal, a duo fight in Tandem with perfect precision. The Inventor who readies plans and their ultimate creation, an extension of their newfound powers and will. Combining the innovations in modern Construct Creations with latent Psionic ability, Ghost-Shell Artificers' connection to their creations is their most powerful asset. Seen as an extension of Body and Mind, these innovators come equipped with a powerful mechanical force tied to its master's brainwaves.",
         {
           "type": "refSubclassFeature",
           "subclassFeature": "Psionic Shell|Artificer|TCE|Ghost-Shell|TftJC|3|TftJC"
@@ -11628,7 +11628,7 @@
           "type": "inset",
           "name": "Shell Walk",
           "entries": [
-            "As a bonus action you can pull your shell 30ft closer to yourself or pull yourself closer to your shell. When you move in this way you do not provoke attacks of opportunity and your shell emites a burst of lightning either before or after it moves or before or after you move towards it. Each creature other than yourself must make a Dexterity saving throw or take lightning damage equal to your Psionic Energy die + your intelligence modifier."
+            "As a bonus action you can pull your shell 30ft closer to yourself or pull yourself closer to your shell. When you move in this way you do not provoke attacks of opportunity and your shell emits a burst of lightning either before or after it moves or before or after you move towards it. Each creature other than yourself must make a Dexterity saving throw or take lightning damage equal to your Psionic Energy die + your intelligence modifier."
           ]
         },
         {
@@ -12115,7 +12115,7 @@
       "subclassSource": "TftJC",
       "level": 3,
       "entries": [
-        "At 3rd level, your suit empowers you mind with new abilities. You gain proficiency in either Arcana, Investigaion, History or Religion (your choice)."
+        "At 3rd level, your suit empowers you mind with new abilities. You gain proficiency in either Arcana, Investigation, History or Religion (your choice)."
       ]
     },
     {
@@ -12127,7 +12127,7 @@
       "subclassSource": "TftJC",
       "level": 3,
       "entries": [
-        "Starting at 3rd level, your body is upgraded with magical technology. It can come in the form of mechanical enhancements, microscopic robots, or a gruseome combination of flesh and metal. It grants you enchanced fortitudes, and other benefits.",
+        "Starting at 3rd level, your body is upgraded with magical technology. It can come in the form of mechanical enhancements, microscopic robots, or a gruesome combination of flesh and metal. It grants you enhanced fortitude, and other benefits.",
         {
           "type": "list",
           "items": [
@@ -12147,7 +12147,7 @@
       "level": 3,
       "entries": [
         "Behind a carapace of metal and technology lies the unwavering anger of a mortal trapped within their own body. If this will be your prison, it will be your enemies' graveyard.",
-        "A form equal in the might of Muscle and Machine, your body is enchanced with powerful metal to improve your raw might. Through either inhumane experiements, or for warriors open to machine modifcations, your body is a perfect blend of muscle and metal.",
+        "A form equal in the might of Muscle and Machine, your body is enhanced with powerful metal to improve your raw might. Through either inhumane experiments, or for warriors open to machine modifications, your body is a perfect blend of muscle and metal.",
         {
           "type": "refSubclassFeature",
           "subclassFeature": "Exo-Suit|Barbarian|PHB|Mechanical Menace|TftJC|3|TftJC"
@@ -12172,7 +12172,7 @@
         {
           "type": "list",
           "items": [
-            "You can remove your resistance granted through Exo-Suit and instead increase the damage granted from it to 1d8 for a number of roundds equal to your Rage Bonus.",
+            "You can remove your resistance granted through Exo-Suit and instead increase the damage granted from it to 1d8 for a number of rounds equal to your Rage Bonus.",
             "You gain a +3 to your Strength Score, but gain disadvantage on Wisdom Saving Throws. This lasts for a number of rounds equal to your Rage Bonus."
           ]
         },
@@ -12188,7 +12188,7 @@
       "subclassSource": "TftJC",
       "level": 10,
       "entries": [
-        "At 10th level, your mind becomes honed to all attacks. You gain proficiency in Intelligence Saving Throws. When you succeed an Intelligence Saving Throw, you deal additional damage equal to your Intellignce modifier on melee weapon attacks until the end of your next turn."
+        "At 10th level, your mind becomes honed to all attacks. You gain proficiency in Intelligence Saving Throws. When you succeed an Intelligence Saving Throw, you deal additional damage equal to your Intelligence modifier on melee weapon attacks until the end of your next turn."
       ]
     },
     {
@@ -12200,7 +12200,7 @@
       "subclassSource": "TftJC",
       "level": 14,
       "entries": [
-        "At 14th level, your Exo-Suit protects you from all magic. You gain resistance against damage dealt by spells and magical effects. When you take damage damage from a spell, you add your Intelligcence modifier to melee attack rolls until the end of your next turn."
+        "At 14th level, your Exo-Suit protects you from all magic. You gain resistance against damage dealt by spells and magical effects. When you take damage damage from a spell, you add your Intelligence modifier to melee attack rolls until the end of your next turn."
       ]
     },
     {
@@ -12654,7 +12654,7 @@
           "type": "inset",
           "name": "Thrown Weapon Fighting",
           "entries": [
-            "You can draw a weapon that has the thrown property aspart of the attack you make with the weapon. Inaddition, when you hit with a ranged attack using athrown weapon, you gain a +2 bonus to the damage roll."
+            "You can draw a weapon that has the thrown property as part of the attack you make with the weapon. In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll."
           ]
         },
         {
