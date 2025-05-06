@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson", "Malcolm Keefe"],
-        "version": "0.3.4"
+        "version": "0.3.5"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1746415997,
+    "dateLastModified": 1746489589,
     "optionalFeatureTypes": {
       "FS:W": "Fighting Style: Warden",
       "TECH": "Technique",
@@ -1327,20 +1327,6 @@
       ]
     },
     {
-      "name": "Armor Piercing Rounds",
-      "source": "TftJC",
-      "page": 10,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 150000,
-      "entries": [
-        "<b><i>Effect.</i></b> The firearm gains a +2 to-hit against creatures wearing armor, wielding a shield or using cover.",
-        "<b><i>Restrictions.</i></b> Cannot be used on an Explosive or Gas firearm.",
-        "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
-      ]
-    },
-    {
       "name": "Bag of Shiny Bait",
       "source": "TftJC",
       "rarity": "uncommon",
@@ -1415,20 +1401,6 @@
         "<b><i>Hidden.</i></b> A creature gains advantage on Sleight of Hand checks to hide a hidden weapon on their person. In addition, spotting a Hidden weapon on a person requires a DC 15 Perception check.",
         "<b><i>Unarmed.</i></b> Unarmed weapons replace your unarmed damage with the weapon damage listed. If you have other options for unarmed damage, such as a Fighting Style or Martial Arts monk feature you can choose which damage die applies. A value written as +X as opposed to X adds to unarmed damage rather than replacing it.",
         "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
-      ]
-    },
-    {
-      "name": "Bayonet",
-      "source": "TftJC",
-      "page": 10,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 25000,
-      "entries": [
-        "<b><i>Effect.</i></b> You attach a blade at the end of the weapon, which can be used as a martial melee weapon that deals 1d8 piercing damage on a hit. The Bayonet is not considered a firearm.",
-        "<b><i>Restrictions.</i></b> Requires the Two Handed property.",
-        "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
       ]
     },
     {
@@ -2047,19 +2019,6 @@
       ]
     },
     {
-      "name": "Damascene",
-      "source": "TftJC",
-      "page": 10,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 25000,
-      "entries": [
-        "<b><i>Effect.</i></b> When using the firearm for a performance check, you have advantage.",
-        "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
-      ]
-    },
-    {
       "name": "Dark Storm's Voice",
       "source": "TftJC",
       "rarity": "legendary",
@@ -2195,64 +2154,6 @@
         }
       ],
       "attachedSpells": ["detect evil and good", "detect magic"]
-    },
-    {
-      "name": "Double-Barrel",
-      "source": "TftJC",
-      "page": 12,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 150000,
-      "entries": [
-        "<b><i>Effect.</i></b> When using your bonus action to make an attack with a light firearm, you can make two attacks as a part of the same bonus action.",
-        "<b><i>Restrictions.</i></b> Requires the Light property.",
-        "<b><i>Archetype.</i></b> Only Quickdraws can use this modification.",
-        "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
-      ]
-    },
-    {
-      "name": "Dragon's Breath",
-      "source": "TftJC",
-      "page": 12,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 175000,
-      "entries": [
-        "<b><i>Effect.</i></b> The firearm deals an additional 1d8 fire damage. If the firearm activates pump, this damage is doubled.",
-        "<b><i>Archetype.</i></b> Only Buckshots can use this modification.",
-        "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
-      ]
-    },
-    {
-      "name": "Drilling",
-      "source": "TftJC",
-      "page": 12,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 50000,
-      "entries": [
-        "<b><i>Effect.</i></b> Can declare attacks as Drilling, ignoring the shotgun feature. The range is doubled and the cone is removed.",
-        "<b><i>Restrictions.</i></b> Requires the Shotgun property.",
-        "<b><i>Archetype.</i></b> Only Buckshots can use this modification.",
-        "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
-      ]
-    },
-    {
-      "name": "Drum Upgrade",
-      "source": "TftJC",
-      "page": 10,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 120000,
-      "entries": [
-        "<b><i>Effect.</i></b> All of this firearm's clips are converted into drums, which each triple their ammunition capacity.",
-        "<b><i>Restrictions.</i></b> Requires the Clip property.",
-        "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
-      ]
     },
     {
       "name": "Dual Doors of Knox",
@@ -2457,20 +2358,6 @@
       ]
     },
     {
-      "name": "Etched Pentagram",
-      "source": "TftJC",
-      "page": 25,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 10000,
-      "entries": [
-        "<b><i>Effect.</i></b> As a bonus action, you can summon this firearm into your hand. As a bonus action, you can dismiss the firearm into a pocket dimension.",
-        "<b><i>Archetype.</i></b> Only Hexlock can use this modification.",
-        "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-      ]
-    },
-    {
       "name": "Evercure Potion",
       "rarity": "rare",
       "type": "P",
@@ -2496,34 +2383,6 @@
         "<b><i>Tier 2.</i></b>",
         "<b><i>Explosive 5.</i></b> Upon a hit, everything within a radius determined by its explosive value of the target must make a Dexterity saving throw (DC equal to 8 + the firearm's tier x2) or take an additional damage equal to the damage roll. Explosive weapons have their misfire score increased by 1.",
         "<b><i>Barrel 1.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
-      ]
-    },
-    {
-      "name": "Extended Barrel",
-      "source": "TftJC",
-      "page": 10,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 20000,
-      "entries": [
-        "<b><i>Effect.</i></b> The firearm's normal range increases by 10, and its long range increases by 40.",
-        "<b><i>Restrictions.</i></b> Requires the Two Handed property.",
-        "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-      ]
-    },
-    {
-      "name": "Extended Clip",
-      "source": "TftJC",
-      "page": 10,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 30000,
-      "entries": [
-        "<b><i>Effect.</i></b> The firearm's clips can now store twice the normal amount of rounds.",
-        "<b><i>Restrictions.</i></b> Requires the Clip property.",
-        "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
       ]
     },
     {
@@ -2649,20 +2508,6 @@
         "Carvings of decapitated mind flayers adorn this greataxe’s metal blade. You gain a +2 bonus to attack and damage rolls made with this magic greataxe.",
         "An Aberration hit with this greataxe takes an extra 1d12 slashing damage. If the Aberration is currently grappling a creature, the Aberration must succeed on a DC 15 Strength saving throw or release each creature it is grappling.",
         "If a flying creature you can see within 30 feet of you makes an attack roll against you, you can use your reaction to hold the greataxe aloft and cause it to flare with light. The attacker has disadvantage on the attack roll, and it must succeed on a DC 15 Constitution saving throw or be blinded until the start of its next turn."
-      ]
-    },
-    {
-      "name": "Friction Holster",
-      "source": "TftJC",
-      "page": 10,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 7500,
-      "entries": [
-        "<b><i>Effect.</i></b> When drawing this light firearm, you can draw another one as a part of the same action.",
-        "<b><i>Restrictions.</i></b> Requires the Light property.",
-        "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
       ]
     },
     {
@@ -3144,35 +2989,6 @@
       ]
     },
     {
-      "name": "Hidden Track",
-      "source": "TftJC",
-      "page": 10,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 10000,
-      "entries": [
-        "<b><i>Effect.</i></b> The firearm gains the hidden property.",
-        "<b><i>Restrictions.</i></b> Requires the Light property.",
-        "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-      ]
-    },
-    {
-      "name": "Hollow Point Rounds",
-      "source": "TftJC",
-      "page": 12,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 30000,
-      "entries": [
-        "<b><i>Effect.</i></b> When you critically hit with the firearm, you can roll one additional weapon damage die when determining the extra damage for a critical hit.",
-        "<b><i>Restrictions.</i></b> Cannot be used on an Explosive or Gas firearm.",
-        "<b><i>Archetype.</i></b> Only Quickdraws can use this modification.",
-        "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
-      ]
-    },
-    {
       "name": "Hookblade",
       "source": "TftJC",
       "rarity": "none",
@@ -3260,20 +3076,6 @@
       ]
     },
     {
-      "name": "Improved Belt Feed",
-      "source": "TftJC",
-      "page": 10,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 40000,
-      "entries": [
-        "<b><i>Effect.</i></b> The firearm's misfire score is reduced by 1.",
-        "<b><i>Restrictions.</i></b> Requires the Belt property.",
-        "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
-      ]
-    },
-    {
       "name": "Indara’s Fall",
       "source": "TftJC",
       "rarity": "artifact",
@@ -3310,19 +3112,6 @@
         "<b><i>Special.</i></b> These heavy gauntlets require immense strength to use effectively. A creature must have 15 Strength or they make all attacks with this weapon with disadvantage.",
         "<b><i>Unarmed.</i></b> Unarmed weapons replace your unarmed damage with the weapon damage listed. If you have other options for unarmed damage, such as a Fighting Style or Martial Arts monk feature you can choose which damage die applies. A value written as +X as opposed to X adds to unarmed damage rather than replacing it.",
         "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
-      ]
-    },
-    {
-      "name": "Ironsight",
-      "source": "TftJC",
-      "page": 10,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 20000,
-      "entries": [
-        "<b><i>Effect.</i></b> The firearm gains a +1 to-hit.",
-        "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
       ]
     },
     {
@@ -3381,34 +3170,6 @@
       ]
     },
     {
-      "name": "Larger Barrel",
-      "source": "TftJC",
-      "page": 10,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 20000,
-      "entries": [
-        "<b><i>Effect.</i></b> The barrel can hold an additional 2 rounds.",
-        "<b><i>Restrictions.</i></b> Requires the Barrel property.",
-        "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-      ]
-    },
-    {
-      "name": "Laser Sight",
-      "source": "TftJC",
-      "page": 12,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 25000,
-      "entries": [
-        "<b><i>Effect.</i></b> Before you roll, you can gain a +3 to hit, unless your target is in direct sunlight. If you use the bonus from this and hit a creature, you are revealed to that creature.",
-        "<b><i>Archetype.</i></b> Only Snipers can use this modification.",
-        "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
-      ]
-    },
-    {
       "name": "Locket of Warding",
       "source": "TftJC",
       "rarity": "rare",
@@ -3434,18 +3195,6 @@
         },
         "You only gain these benefits based on the CR of the Reagent placed within the locket for creatures within its CR range or lower, and can only select Conditions based on the Reagents CR.",
         "The Reagent inside the Locket can be replaced by a different reagent, but this consumes the first reagent."
-      ]
-    },
-    {
-      "name": "Magic Capacitor",
-      "source": "TftJC",
-      "type": "OTH",
-      "rarity": "uncommon",
-      "weight": 0,
-      "entries": [
-        "This magical modification can be slotted into a gun to grant it the magical effects placed on it. Any enchantment that can be placed on a weapon can be placed on a magic capacitor. Once installed on a gun, it grants that gun the enchantment. A magic capacitor can only be placed on a non-magical gun, otherwise it has no effect.",
-        "An unenchanted magical capacitor can be crafting using Arcstone based on the rarity and requires two plates, requiring Gunsmithing tools check.",
-        "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
       ]
     },
     {
@@ -3642,19 +3391,6 @@
       ]
     },
     {
-      "name": "Night Scope",
-      "source": "TftJC",
-      "page": 10,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 100000,
-      "entries": [
-        "<b><i>Effect.</i></b> The firearm can be used in darkness without disadvantage.",
-        "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
-      ]
-    },
-    {
       "name": "Oiled Ballbearings",
       "source": "TftJC",
       "rarity": "none",
@@ -3664,33 +3400,6 @@
         "<i><b>Simple Invention.</i></b>",
         "These ballbearings have been coated in slippery oil. As an Action, you can apply 3 Flasks of Oil to Ball Bearings.",
         "As an action, you can spill these tiny metal balls from their pouch to cover a level, square area that is 10 feet on a side. A creature moving across the covered area must succeed on a DC 13 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn’t need to make the save."
-      ]
-    },
-    {
-      "name": "Overpressure",
-      "source": "TftJC",
-      "page": 10,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 120000,
-      "entries": [
-        "<b><i>Effect.</i></b> The firearm's attacks deal an additional 1d6 damage, but its misfire score is increased by 1.",
-        "<b><i>Restrictions.</i></b> Cannot be used on an Explosive or Gas firearm.",
-        "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
-      ]
-    },
-    {
-      "name": "Paint Job",
-      "source": "TftJC",
-      "page": 10,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 3500,
-      "entries": [
-        "<b><i>Effect.</i></b> When the firearm is used for intimidation, you have advantage on the check.",
-        "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
       ]
     },
     {
@@ -3792,20 +3501,6 @@
       ]
     },
     {
-      "name": "Pistol Stock",
-      "source": "TftJC",
-      "page": 10,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 15000,
-      "entries": [
-        "<b><i>Effect.</i></b> The pistol gains 20 normal range.",
-        "<b><i>Restrictions.</i></b> Requires the Light property, cannot be used with the Hidden property.",
-        "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-      ]
-    },
-    {
       "name": "Plate of Heating and Cooling",
       "source": "TftJC",
       "rarity": "common",
@@ -3879,19 +3574,6 @@
         "A back strap can hold a thrown weapon, like a spear or dagger, and the front pouches can hold objects such as potions, caltrops, acid vials and other small handheld trinkets.",
         "Items in the bandolier can be drawn as a free action. Placing an Item in the bandolier uses an Item interaction.",
         "Each Pouch can only contain one type of item but can hold up to 5 lbs."
-      ]
-    },
-    {
-      "name": "Reliability",
-      "source": "TftJC",
-      "page": 10,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 200000,
-      "entries": [
-        "<b><i>Effect.</i></b> The firearm gains the reliable property.",
-        "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
       ]
     },
     {
@@ -4142,20 +3824,6 @@
       ]
     },
     {
-      "name": "Runick Chamber",
-      "source": "TftJC",
-      "page": 25,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 35000,
-      "entries": [
-        "<b><i>Effect.</i></b> As a bonus action, you can summon this firearm into your hand. As a bonus action, you can dismiss the firearm into a pocket dimension.",
-        "<b><i>Archetype.</i></b> Only Hexlock can use this modification.",
-        "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-      ]
-    },
-    {
       "name": "Sanguinity",
       "source": "TftJC",
       "rarity": "very rare",
@@ -4218,34 +3886,6 @@
         "As a bonus action, a creature can remove one piece of bait and throw it up to 30 feet away. Alternatively, they can use their bonus action to attach it to a piece of ammunition, due to the Shinier Bait's higher durability.",
         "If it lands within 30 feet of another creature, that creature must make a DC15 Wisdom saving throw at the start of their next turn. Beasts have disadvantage on this saving throw. On a fail, they must move up to their speed towards the bait and pick it up. The creature is not compelled to move in a way that obviously endangers them; for instance, over a cliff or through a known hazard. If the creature picks it up, succeeds on their saving throw, or if the bait is unreachable, they immediately discern it as a worthless item and are immune to this effect until the next dawn.",
         "The bag contains up to 5 pieces of bait. {@dice 1d4+1} pieces of bait reappear in the bag each day at dawn."
-      ]
-    },
-    {
-      "name": "Sawed Off",
-      "source": "TftJC",
-      "page": 12,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 8500,
-      "entries": [
-        "<b><i>Effect.</i></b> Reduces the range for the firearm by 10, but increases the shotgun cone by 5 feet. Misfire is also increased by 1.",
-        "<b><i>Restrictions.</i></b> Requires the Shotgun property.",
-        "<b><i>Archetype.</i></b> Only Buckshots can use this modification.",
-        "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-      ]
-    },
-    {
-      "name": "Scope",
-      "source": "TftJC",
-      "page": 10,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 40000,
-      "entries": [
-        "<b><i>Effect.</i></b> The firearm does not pose disadvantage when firing at long range.",
-        "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
       ]
     },
     {
@@ -4406,20 +4046,6 @@
       ]
     },
     {
-      "name": "Silencer",
-      "source": "TftJC",
-      "page": 10,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 35000,
-      "entries": [
-        "<b><i>Effect.</i></b> The firearm produces a quarter of its normal noise. For the average firearm, it becomes nearly silent. Removes the Loud property.",
-        "<b><i>Restrictions.</i></b> Cannot be used on an Explosive or Gas firearm.",
-        "<b><i>Tier.</i></b> This is a Tier 2 Firearm modification."
-      ]
-    },
-    {
       "name": "Slingsword",
       "source": "TftJC",
       "page": 50,
@@ -4483,21 +4109,6 @@
       ]
     },
     {
-      "name": "Speed Loader",
-      "source": "TftJC",
-      "page": 12,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 7500,
-      "entries": [
-        "<b><i>Effect.</i></b> Converts a barrel to be loaded as if it were a clip, but the firearm is still classified as a barrel.",
-        "<b><i>Restrictions.</i></b> Requires the Barrel property.",
-        "<b><i>Archetype.</i></b> Only Quickdraws can use this modification.",
-        "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
-      ]
-    },
-    {
       "name": "Staff of Arachnid Domination",
       "source": "TftJC",
       "rarity": "rare",
@@ -4515,20 +4126,6 @@
         "While holding the staff, the wielder can use an action target to any arachnid within 60 feet. The target must make a Wisdom saving throw against a DC of 15 or be charmed by the wielder for 1 hour. The wielder can use their bonus action on subsequent rounds to maintain control over the charmed creature, causing it to take any actions they desire.",
         "Additionally, once per day, Target up to three creatures within 60 feet. The affected creatures must make a Wisdom saving throw against a DC of 15 or be magically {@condition restrained} for 1 minute while they struggle to untangle themselves from the web of lies and deceit. The affected creatures can make the save again at the end of their turn.",
         "While attuned to the staff, the wielder gains resistance to poison damage and advantage on saving throws against poison effects."
-      ]
-    },
-    {
-      "name": "Support Strap",
-      "source": "TftJC",
-      "page": 10,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 15000,
-      "entries": [
-        "<b><i>Effect.</i></b> The heavy weapon can be used by small sized creatures with no issue.",
-        "<b><i>Restrictions.</i></b> Requires the Heavy property.",
-        "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
       ]
     },
     {
@@ -4702,20 +4299,6 @@
         "Additionally, you no longer need to drink water, and have advantage on Constitution saving throws against overheating.",
         "When you hit with a melee attack using this sword and reduce the target to 0 hit points, you gain 2d6 temporary hit points.",
         "Your theft shall not be forgotten, and my vengeance shall be swift."
-      ]
-    },
-    {
-      "name": "Thermal Scope",
-      "source": "TftJC",
-      "page": 12,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 200000,
-      "entries": [
-        "<b><i>Effect.</i></b> Looking through this scope allows you to see all creatures within your firearm's short range, even hidden behind cover so long as that creature produces heat.",
-        "<b><i>Archetype.</i></b> Only Snipers can use this modification.",
-        "<b><i>Tier.</i></b> This is a Tier 3 Firearm modification."
       ]
     },
     {
@@ -4954,21 +4537,6 @@
       "entries": [
         "This book contains space for one to jot down their own notes. The book can be used to record ones thoughts for a total of 40 hours, after which the user can choose 1 skill or tool that they are proficient in and gain a permanent +1 to that skill.",
         "Once used the book becomes non-magical."
-      ]
-    },
-    {
-      "name": "Tripod",
-      "source": "TftJC",
-      "page": 12,
-      "type": "OTH",
-      "rarity": "none",
-      "weight": 0,
-      "value": 7500,
-      "entries": [
-        "<b><i>Effect.</i></b> You can deploy this as a Bonus Action on a surface. If you do not move on this turn, the Firearm gains a bonus to hit equal to its Tier if shooting a target who did not move in their last round.",
-        "<b><i>Restrictions.</i></b> Requires the Two Handed property.",
-        "<b><i>Archetype.</i></b> Only Snipers can use this modification.",
-        "<b><i>Tier.</i></b> This is a Tier 1 Firearm modification."
       ]
     },
     {
@@ -13618,34 +13186,6 @@
       ]
     },
     {
-      "name": "Circle Spells",
-      "source": "TftJC",
-      "className": "Druid",
-      "classSource": "PHB",
-      "subclassShortName": "Iron Heretic",
-      "subclassSource": "TftJC",
-      "level": 2,
-      "entries": [
-        "Your relationship with metal grants you the ability to tap into magic forbidden to other druids. At 2nd level, you learn one of the following cantrips: booming blade, green flame blade, or sword burst. At 3rd, 5th, 7th, and 9th levels you gain access to the spells listed for that level in the Circle of the Iron Heretic Spells table.",
-        "Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
-        {
-          "type": "table",
-          "caption": "Iron Heretic Spells",
-          "colLabels": ["Druid Level", "Spells"],
-          "colStyles": ["col-2 text-center", "col-10"],
-          "rows": [
-            [
-              "3rd",
-              "{@spell aganazzar's scorcher|XGE}, {@spell dragon's breath|XGE}"
-            ],
-            ["5th", "{@spell wall of sand|XGE}, {@spell molten cascade|TftJC}"],
-            ["7th", "{@spell fabricate}, {@spell fire shield}"],
-            ["9th", "{@spell animate objects}, {@spell steel wind strike|XGE}"]
-          ]
-        }
-      ]
-    },
-    {
       "name": "Circle of the Iron Heretic",
       "source": "TftJC",
       "className": "Druid",
@@ -13672,6 +13212,34 @@
         {
           "type": "refSubclassFeature",
           "subclassFeature": "Metallic Carapace|Druid|PHB|Iron Heretic|TftJC|2"
+        }
+      ]
+    },
+    {
+      "name": "Circle Spells",
+      "source": "TftJC",
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Iron Heretic",
+      "subclassSource": "TftJC",
+      "level": 2,
+      "entries": [
+        "Your relationship with metal grants you the ability to tap into magic forbidden to other druids. At 2nd level, you learn one of the following cantrips: booming blade, green flame blade, or sword burst. At 3rd, 5th, 7th, and 9th levels you gain access to the spells listed for that level in the Circle of the Iron Heretic Spells table.",
+        "Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+        {
+          "type": "table",
+          "caption": "Iron Heretic Spells",
+          "colLabels": ["Druid Level", "Spells"],
+          "colStyles": ["col-2 text-center", "col-10"],
+          "rows": [
+            [
+              "3rd",
+              "{@spell aganazzar's scorcher|XGE}, {@spell dragon's breath|XGE}"
+            ],
+            ["5th", "{@spell wall of sand|XGE}, {@spell molten cascade|TftJC}"],
+            ["7th", "{@spell fabricate}, {@spell fire shield}"],
+            ["9th", "{@spell animate objects}, {@spell steel wind strike|XGE}"]
+          ]
         }
       ]
     },
