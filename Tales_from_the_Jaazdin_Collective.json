@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson", "Malcolm Keefe"],
-        "version": "0.3.6"
+        "version": "0.3.61"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1747413736,
+    "dateLastModified": 1747748174,
     "optionalFeatureTypes": {
       "FS:W": "Fighting Style: Warden",
       "TECH": "Technique",
@@ -153,6 +153,10 @@
           "gainSubclassFeature": true
         },
         "Gun Modifications|Gunner|TftJC|3",
+        {
+          "classFeature": "Gunner Archetype Feature|Gunner|TftJC|3",
+          "gainSubclassFeature": true
+        },
         "Ability Score Improvement|Gunner|TftJC|4",
         "Extra Attack|Gunner|TftJC|5",
         "Life Trajectory|Gunner|TftJC|5",
@@ -418,7 +422,7 @@
       "level": 1,
       "entries": [
         "At 1st level, you become skilled at putting together ramshackle tools to get the job done.",
-        "As an action, you can use a set of artisan tools to create a one time use object for a specific ability check, choosing either Strength, Dexterity, Constitution, Wisdom, Intelligence, or Charisma when it is created. When this object is used as part of an ability check, the user of the tool gets advantage on the check and adds a bonus to the roll equal to half your proficiency bonus.",
+        "As an action, you can use a set of artisan tools to create a one time use object for a specific ability check, choosing either Strength, Dexterity, Constitution, Wisdom, Intelligence, or Charisma when it is created. As an interaction, this object can be used to assist an ability check. The creature using it gains advantage on the check, and adds a bonus to the roll equal to half your proficiency bonus.",
         "After this object is used as part of a check or 1 hour passes, it falls apart. You can create objects in this way a number of times equal to your proficiency bonus, regaining all charges on a rest."
       ]
     },
@@ -439,7 +443,7 @@
       "classSource": "TftJC",
       "level": 2,
       "entries": [
-        "At 2nd level, you select a style of shooting in which to excel. Select either the Quickdraw, Sniper, Demolitionist, Buckshot or Hexlock. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level. Your Archetype is unique to you, and only you or another character with the same Archetype can utilize a special Firearm detailed in your Subclass."
+        "At 2nd level, you select a style of shooting in which to excel. Select either the Quickdraw, Deadeye, Demolitionist, Buckshot or Hexlock. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level. Your Archetype is unique to you, and only you or another character with the same Archetype can utilize a special Firearm detailed in your Subclass."
       ]
     },
     {
@@ -449,8 +453,8 @@
       "classSource": "TftJC",
       "level": 3,
       "entries": [
-        "At 3rd level, you learn how to craft modifications for your guns. Firearms may be able to have modifications applied to them, which is detailed in the Firearms list. It takes 1 minute to apply or remove a Modification from a Firearm. You learn 4 modifications, and learn more as you progress in the class.",
-        "If you apply modifications to a Firearm, only you (or another player that knows how to craft those modifications) can benefit from them. Below are your possible modifications."
+        "At 3rd level, you learn how to craft modifications for your guns. Firearms can have varying numbers of modifications applied to them, which is detailed in the Firearms list. It takes 1 minute to apply or remove a Modification from a Firearm. You learn 4 modifications, and learn more as you progress in the class. Each Firearm you wield can benefit from an additional number of Modifications equal to your Proficiency Bonus.",
+        "If you apply modifications to a Firearm, only you (or another creature that knows how to craft those modifications) can benefit from them. Below are your possible modifications."
       ]
     },
     {
@@ -482,8 +486,9 @@
       "entries": [
         "At 5th level, your relationship with the world is further defined by the weapons you carry. Choose one of the paths below and gain that feature, you gain a second feature at level 11 based on your selection.",
         "<b>Desperado.</b> Your recklessness is your greatest asset. When you make an intimidation or stealth check, you gain advantage on the roll as long as there are no allies within 30ft of you. Succeeding on the check grants you temp hit points equal to your levels in Gunner.",
-        "<b>Wanderer.</b> You are at home on the road. You have advantage on saving throws to resist the effects of hot or cold environments, you confer this bonus to your steed. In addition, you suffer no penalties for firing firearms due to being on vehicles or mounts.",
-        "<b>Soldier.</b> You serve to protect the innocent. You have advantage on persuasion or intimidation checks to protect others. In addition, if an ally within 60ft of you is hit by a weapon attack, you can use your reaction and expend a use of your Shoot to Thrill to make an attack roll against the attacker."
+        "<b>Wanderer.</b> You are at home on the road. You have advantage on saving throws to resist the effects of hot or cold environments, you confer this bonus to your steed. You and your mount ignore the effects of non-magical difficult terrain.",
+        "<b>Soldier.</b> You serve to protect the innocent. You have advantage on persuasion or intimidation checks to protect others. In addition, if an ally within 60ft of you is hit by a weapon attack, you can use your reaction and expend a use of your Shoot to Thrill to make an attack roll against the attacker.",
+        "<b>Craftsman.</b> You gain proficiency in an Artisan Tool of your choice. As a Bonus Action, you can expend a use of MacGyver’d to allow a firearm of your choice to gain the benefits of a Gun Modification until the start of your next turn."
       ]
     },
     {
@@ -591,8 +596,9 @@
       "entries": [
         "At 11th level, you gain additional features based on your earlier selection.",
         "<b>Desperado.</b> When you make an Insight or Perception check and fail, you can expend a use of MacGyver’d to reroll the attempt.",
-        "<b>Wanderer.</b> You ignore the effects of non-magical difficult terrain, and you gain a swim and climb speed equal to your walking speed.",
-        "<b>Soldier.</b> Allies within 15ft of you have advantage on save to resist being frightened."
+        "<b>Wanderer.</b> You ignore the effects of non-magical difficult terrain, and you gain a swim and climb speed equal to your walking speed, and add Wisdom to your Initiative Rolls",
+        "<b>Soldier.</b> Allies within 15ft of you have advantage on save to resist being frightened.",
+        "<b>Craftsman.</b> You gain expertise in the Artisan Tool you selected at level 5 or Gunsmithing Tools."
       ]
     },
     {
@@ -2036,6 +2042,23 @@
         "As an action, you can make one melee weapon attack which increases your reach by 30 feet and deals thunder damage instead of bludgeoning damage.",
         "While in darkness or dim light, the maul becomes shrouded in shadow becoming nearly unperceivable. While shrouded in shadow this maul's bludgeoning damage ignores damage resistances.",
         "Additionally, you can use the hammer to cast {@spell thunderwave|PHB} with a DC of 14."
+      ]
+    },
+    {
+      "name": "Deadeye",
+      "source": "TftJC",
+      "type": "R",
+      "rarity": "none",
+      "weight": 10,
+      "value": 10000,
+      "weaponCategory": "martial",
+      "property": ["2H", "AF"],
+      "charges": 6,
+      "dmg1": "1d12",
+      "dmgType": "P",
+      "range": "150/600",
+      "entries": [
+        "<b><i>Clip 6.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
       ]
     },
     {
@@ -4070,23 +4093,6 @@
         "Fluffy and warm, these slippers add 10 feet to the base jump distance of the wearer, even from a standing position. Additionally, they grant the user +1 to all acrobatics checks.",
         "<b><i>Good Hare Day.</i></b> Once per day, the wearer of the Slippers of Hopping may boop the noses of their footwear as a bonus action. When this happens, wearer casts Jump upon themselves and triples their jump distance for one minute. For the duration, long rabbit-like ears sprout from the head of the wearer, though the ears may be slicked back if the wearer has a receding hareline. Additionally, every jump is accompanied by a loud “BOING”!",
         "Unfortunately, while wearing the Slippers of Hopping, the user is compelled to do the embarrassing action that bunnies are known for...twitch their nose."
-      ]
-    },
-    {
-      "name": "Sniper",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 10,
-      "value": 10000,
-      "weaponCategory": "martial",
-      "property": ["2H", "AF"],
-      "charges": 6,
-      "dmg1": "1d12",
-      "dmgType": "P",
-      "range": "150/600",
-      "entries": [
-        "<b><i>Clip 6.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
       ]
     },
     {
@@ -6782,7 +6788,7 @@
               "name": "Gunner"
             }
           },
-          "feature": ["Sniper"]
+          "feature": ["Deadeye"]
         }
       ],
       "source": "TftJC",
@@ -6792,7 +6798,7 @@
         "name": "650gp"
       },
       "entries": [
-        "Allows the Sniper to override its restriction to extra attack, can be turned off/on as a Bonus Action."
+        "Allows the Deadeye to override its restriction to extra attack, can be turned off/on as a Bonus Action."
       ]
     },
     {
@@ -10899,25 +10905,25 @@
       ]
     },
     {
-      "name": "Buckshot",
+      "name": "Deadeye",
       "source": "TftJC",
-      "page": 15,
+      "page": 16,
       "className": "Gunner",
       "classSource": "TftJC",
-      "shortName": "Buckshot",
+      "shortName": "Deadeye",
       "subclassFeatures": [
-        "Buckshot Archetype|Gunner|TftJC|Buckshot|TftJC|2",
-        "Smokescreen|Gunner|TftJC|Buckshot|TftJC|6",
-        "Buckshot Modifications|Gunner|TftJC|Buckshot|TftJC|6",
-        "Push 'em Off|Gunner|TftJC|Buckshot|TftJC|10",
-        "Shoot to Thrill Improvement|Gunner|TftJC|Buckshot|TftJC|10",
-        "Scatterslug|Gunner|TftJC|Buckshot|TftJC|14"
+        "Deadeye Archetype|Gunner|TftJC|Deadeye|TftJC|2",
+        "Deadeye Modifications|Gunner|TftJC|Deadeye|TftJC|3",
+        "Pinpoint Accuracy|Gunner|TftJC|Deadeye|TftJC|6",
+        "Piercing Rounds|Gunner|TftJC|Deadeye|TftJC|10",
+        "Shoot to Thrill Improvement|Gunner|TftJC|Deadeye|TftJC|10",
+        "Headshot|Gunner|TftJC|Deadeye|TftJC|14"
       ]
     },
     {
       "name": "Demolitionist",
       "source": "TftJC",
-      "page": 19,
+      "page": 25,
       "className": "Gunner",
       "classSource": "TftJC",
       "shortName": "Demolitionist",
@@ -10971,27 +10977,27 @@
       "shortName": "Quickdraw",
       "subclassFeatures": [
         "Quickdraw Archetype|Gunner|TftJC|Quickdraw|TftJC|2",
+        "Quickdraw Modifications|Gunner|TftJC|Quickdraw|TftJC|3",
         "Quickdraw Showdown|Gunner|TftJC|Quickdraw|TftJC|6",
-        "Quickdraw Modifications|Gunner|TftJC|Quickdraw|TftJC|6",
         "Lightning Round|Gunner|TftJC|Quickdraw|TftJC|10",
         "Shoot to Thrill Improvement|Gunner|TftJC|Quickdraw|TftJC|10",
         "Drop N' Dance|Gunner|TftJC|Quickdraw|TftJC|14"
       ]
     },
     {
-      "name": "Sniper",
+      "name": "Rambo",
       "source": "TftJC",
-      "page": 16,
+      "page": 15,
       "className": "Gunner",
       "classSource": "TftJC",
-      "shortName": "Sniper",
+      "shortName": "Rambo",
       "subclassFeatures": [
-        "Sniper Archetype|Gunner|TftJC|Sniper|TftJC|2",
-        "Calm Mind|Gunner|TftJC|Sniper|TftJC|6",
-        "Sniper Modifications|Gunner|TftJC|Sniper|TftJC|6",
-        "Piercing Rounds|Gunner|TftJC|Sniper|TftJC|10",
-        "Shoot to Thrill Improvement|Gunner|TftJC|Sniper|TftJC|10",
-        "Headshot|Gunner|TftJC|Sniper|TftJC|14"
+        "Rambo Archetype|Gunner|TftJC|Rambo|TftJC|2",
+        "Rambo Modifications|Gunner|TftJC|Rambo|TftJC|3",
+        "Unphased|Gunner|TftJC|Rambo|TftJC|6",
+        "Push 'em Off|Gunner|TftJC|Rambo|TftJC|10",
+        "Shoot to Thrill Improvement|Gunner|TftJC|Rambo|TftJC|10",
+        "True Grit|Gunner|TftJC|Rambo|TftJC|14"
       ]
     },
     {
@@ -13779,182 +13785,84 @@
       ]
     },
     {
-      "name": "Buckshot Archetype",
+      "name": "Deadeye Archetype",
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Buckshot",
+      "subclassShortName": "Deadeye",
       "subclassSource": "TftJC",
       "level": 2,
       "entries": [
-        "The sound of a heavy gun cocking echoes through the streets. A gas canister flies though the air, as fog obscures the area, the only thing that can be heard is the sound of a loud boom. As the smoke clears, a lone gunner walks off, with their boomstick proudly slung over their shoulder.",
+        "Sitting at the highest point, a slender barrel watches its target. A single shot tears through their sky, as the target falls. The barrel slinks back into the shadows, away from sight.",
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Shrug It Off|Gunner|TftJC|Buckshot|TftJC|2"
+          "subclassFeature": "Hidden Perch|Gunner|TftJC|Deadeye|TftJC|2"
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Raw Muscle|Gunner|TftJC|Buckshot|TftJC|2"
-        },
-        {
-          "type": "refSubclassFeature",
-          "subclassFeature": "Shotgun Progression|Gunner|TftJC|Buckshot|TftJC|2"
+          "subclassFeature": "The Hunter's Eye|Gunner|TftJC|Deadeye|TftJC|2"
         }
       ]
     },
     {
-      "name": "Raw Muscle",
+      "name": "Hidden Perch",
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Buckshot",
+      "subclassShortName": "Deadeye",
       "subclassSource": "TftJC",
       "level": 2,
       "entries": [
-        "At 2nd level, You gain proficiency in Athletics, and you gain proficiency in Medium Armor. If you already have this proficiency, you instead gain another from the Gunner's skill list."
+        "At 2nd level, you become adept at hiding your position. By spending a minute preparing your position and making a Stealth check, you are not automatically revealed to enemy creatures after attacking them with a ranged firearm. You remain hidden from enemies that are further than 30ft away from you as long as you do not move from this position.",
+        "You can also take the Hide Action as a Bonus Action. "
       ]
     },
     {
-      "name": "Shotgun Progression",
+      "name": "The Hunter's Eye",
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Buckshot",
+      "subclassShortName": "Deadeye",
       "subclassSource": "TftJC",
       "level": 2,
       "entries": [
-        "As your skills improve, you learn to modify your Shotgun. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. If you lose or need to replace your special firearm, you can spend 1 hour per Tier it was crafting a new one, and the combined gold cost.",
-        {
-          "caption": "Buckshot Firearms",
-          "type": "table",
-          "colLabels": [
-            "Firearm",
-            "Tier",
-            "Cost",
-            "Ammo",
-            "Damage",
-            "Weight",
-            "Range",
-            "Properties",
-            "Modification Slots"
-          ],
-          "colStyles": [
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center"
-          ],
-          "rows": [
-            [
-              "Shotgun",
-              "1",
-              "50gp",
-              "3gp/10",
-              "1d10 piercing",
-              "6lb.",
-              "20",
-              "two handed, shotgun 10, loud, pump 1",
-              "1"
-            ],
-            [
-              "Double Barrel",
-              "2",
-              "75gp",
-              "3gp/10",
-              "1d10 piercing",
-              "8lbs",
-              "30",
-              "two handed, shotgun 10, loud, pump 2",
-              "2"
-            ],
-            [
-              "Remy",
-              "3",
-              "125gp",
-              "3gp/10",
-              "2d6 piercing",
-              "8lbs",
-              "30",
-              "two handed, shotgun 15, loud, pump 2",
-              "3"
-            ],
-            [
-              "Wind Chest",
-              "4",
-              "500gp",
-              "3gp/10",
-              "2d6 piercing",
-              "8lbs",
-              "40",
-              "two handed, shotgun 15, loud, pump 4",
-              "3"
-            ],
-            [
-              "Assault Shotgun",
-              "5",
-              "1000gp",
-              "3gp/10",
-              "2d8 piercing",
-              "10lbs",
-              "40",
-              "two handed, shotgun 15, loud, pump 8",
-              "4"
-            ]
-          ]
-        }
+        "When you choose this archetype at 2nd level, your accuracy is enhanced. You gain proficiency in Perception, or if you already have this, you gain proficiency in another skill from the Gunner’s skill list."
       ]
     },
     {
-      "name": "Shrug It Off",
+      "name": "Deadeye Modifications",
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Buckshot",
+      "subclassShortName": "Deadeye",
       "subclassSource": "TftJC",
-      "level": 2,
+      "level": 3,
       "entries": [
-        "When you choose this archetype at 2nd level, you learn to shake off damage. You can forgo an attack on your turn to instead gain a number of temporary hit points equal to half of your level in this class + your Strength modifier + half your proficiency bonus (rounded down) per hostile creature within 5ft of you. You lose all temporary hit points granted by this feature outside of combat, and can only use this feature whenever you are below half of your maximum hit points. "
+        "At 3rd level, Deadeyes gain access to new modifications which do not count against their known Modifications. You gain the modifications below when you unlock new modification tiers in your Gunner class progression, which do not count against your known modifications."
       ]
     },
     {
-      "name": "Buckshot Modifications",
+      "name": "Pinpoint Accuracy",
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Buckshot",
+      "subclassShortName": "Deadeye",
       "subclassSource": "TftJC",
       "level": 6,
       "entries": [
-        "At 6th level, Buckshots gain access to new modifications which do not count against their known Modifications. You gain the Tier 2 modification at 10th level, and the Tier 3 modification at 15th level."
+        "At 6th level, you learn to remain calm in the heat of battle, which aids your aim. Once per turn, when you attack with advantage with a firearm, you can increase the damage die of your weapon by one step."
       ]
     },
     {
-      "name": "Smokescreen",
+      "name": "Piercing Rounds",
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Buckshot",
-      "subclassSource": "TftJC",
-      "level": 6,
-      "entries": [
-        "At 6th level, you learn to craft smokebombs. You craft a number of smokebombs equal to your Proficiency Bonus per Long Rest, and can have a number of Smokebombs equal to your Proficiency Bonus. You can replace a ranged attack with a Shotgun firearm with a smokebomb, firing it out of your Shotgun a distance up to its range. The smokebomb then detonates and fills a 10ft radius area with smoke, heavily obscuring it. The smoke remains for a number of rounds equal to your Proficiency Bonus, or until blown away by a strong wind."
-      ]
-    },
-    {
-      "name": "Push 'em Off",
-      "source": "TftJC",
-      "className": "Gunner",
-      "classSource": "TftJC",
-      "subclassShortName": "Buckshot",
+      "subclassShortName": "Deadeye",
       "subclassSource": "TftJC",
       "level": 10,
       "entries": [
-        "At 10th level, you gain the ability to get foes out of your space. After you use Shrug it Off, if there is a creature within your melee attack range, you can bodycheck them. You expend a use of Shoot to Thrill, and the target creature makes a Strength Saving throw (DC equal to 8 + the firearm you are currently wielding's tier x2). On a fail, they are shoved back up to 10 feet, and then you can immediately make a ranged attack with a firearm against that creature as a part of this action. "
+        "At 10th level, your bullets can pierce through creatures. You can expend a use of Shoot to Thrill as a Bonus Action, and for this turn if you hit a creature with a ranged attack with a firearm, the attack continues in a line beyond the target. You use your initial attack roll, add 10 and then subtract the enemy’s AC. If this attack hits a creature behind them, they take the same damage as the initial target. This continues in a line until the bullet reaches a wall or enters its long range."
       ]
     },
     {
@@ -13962,23 +13870,23 @@
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Buckshot",
+      "subclassShortName": "Deadeye",
       "subclassSource": "TftJC",
       "level": 10,
       "entries": [
-        "At 10th level, your Shoot to Thrill feature is enhanced. When making a ranged attack with a Shotgun that is enhanced by Shoot to Thrill, if the attack hits the length of its cone is doubled."
+        "At 10th level, your Shoot to Thrill feature is enhanced. When you use Shoot to Thrill, after the attack is made you can make a stealth check to make a new Hidden Perch."
       ]
     },
     {
-      "name": "Scatterslug",
+      "name": "Headshot",
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Buckshot",
+      "subclassShortName": "Deadeye",
       "subclassSource": "TftJC",
       "level": 14,
       "entries": [
-        "At 14th level, your Buckshot is more deadly. Creatures immediately behind your initial target of ranged attacks made by your shotgun firearms no longer have the damage dealt to them by the cone halved."
+        "At 14th level, your skills are immaculately accurate and deadly. While using your Hidden Perch, your first ranged attack with a firearm against each creature deals double damage. This extra damage can be applied to the same creature once per hour."
       ]
     },
     {
@@ -14425,7 +14333,7 @@
           "type": "inset",
           "name": "Danger Zone",
           "entries": [
-            "As an action on your turn, you may expend any number of cartridges from your Gunblade, creating an explosion centered on you with a 10ft radius. All other creatures in range must make a Dexterity saving throw (DC is equal to 8 + the tier of your firearm x 2), taking 2d8 Fire damage for each cartridge spent on a failure, and half as much on a success."
+            "As an action on your turn, you may expend any number of cartridges from your Gunblade, creating an explosion centered on you with a 10ft radius. All other creatures in range must make a Dexterity saving throw (DC is equal to 8 + Prof + Dex), taking 2d8 Fire damage for each cartridge spent on a failure, and half as much on a success."
           ]
         },
         {
@@ -14756,10 +14664,6 @@
         {
           "type": "refSubclassFeature",
           "subclassFeature": "The Travelling Gun|Gunner|TftJC|Quickdraw|TftJC|2"
-        },
-        {
-          "type": "refSubclassFeature",
-          "subclassFeature": "Revolver Progression|Gunner|TftJC|Quickdraw|TftJC|2"
         }
       ]
     },
@@ -14772,102 +14676,7 @@
       "subclassSource": "TftJC",
       "level": 2,
       "entries": [
-        "When you choose this archetype at 2nd level, you become adept in the Quickdraw style. While wielding two Light firearms, you can engage in two-weapon fighting and add your Dexterity Modifier to the damage of your off hand firearm. For each ranged attack you make with a firearm on your turn, your movement speed is increased by 5ft until the end of the turn. You can reload one handed ranged weapons while your hands are full."
-      ]
-    },
-    {
-      "name": "Revolver Progression",
-      "source": "TftJC",
-      "className": "Gunner",
-      "classSource": "TftJC",
-      "subclassShortName": "Quickdraw",
-      "subclassSource": "TftJC",
-      "level": 2,
-      "entries": [
-        "As your skills improve, you learn to modify your Revolvers. As your Gun Tier levels up, both of your weapons are upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. If you lose or need to replace your special firearms, you can spend 1 hour per Tier it was by crafting a new pair, and the combined gold cost. Both of the dual firearms the Quickdraw gains from this class can be equipped with unique Modifications. Though Revolvers can be crafted together, they are treated as individual weapons for things such as Rare Metal Crafting, Enchanting, etc.",
-        {
-          "caption": "Quickdraw Firearms",
-          "type": "table",
-          "colLabels": [
-            "Firearm",
-            "Tier",
-            "Cost",
-            "Ammo",
-            "Damage",
-            "Weight",
-            "Range",
-            "Properties",
-            "Modification Slots"
-          ],
-          "colStyles": [
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center"
-          ],
-          "rows": [
-            [
-              "Revolver",
-              "1",
-              "50gp",
-              "1gp/10",
-              "1d6 piercing",
-              "1lb.",
-              "40/160",
-              "light, barrel 6",
-              "1"
-            ],
-            [
-              "Long-Barrel Revolver",
-              "2",
-              "75gp",
-              "1gp/10",
-              "1d8 piercing",
-              "1.5lbs",
-              "60/240",
-              "light, barrel 6",
-              "2"
-            ],
-            [
-              "The Fozz",
-              "3",
-              "125gp",
-              "1gp/10",
-              "1d10 piercing",
-              "2lbs",
-              "60/240",
-              "light,auto,barrel 6",
-              "3"
-            ],
-            [
-              "Wolverine",
-              "4",
-              "500gp",
-              "1gp/10",
-              "1d10 piercing",
-              "2lbs",
-              "80/320",
-              "light, auto, clip 6",
-              "3"
-            ],
-            [
-              "Dusty Falcon",
-              "5",
-              "1000gp",
-              "1gp/10",
-              "2d6 piercing",
-              "4.5lbs",
-              "80/320",
-              "light, auto, clip 8",
-              "4"
-            ]
-          ]
-        }
+        "When you choose this archetype at 2nd level, you become adept in the Quickdraw style. While wielding two firearms, you can engage in two-weapon fighting and add your Dexterity Modifier to the damage of your off hand firearm. For each ranged attack you make with a firearm on your turn, your movement speed is increased by 5ft until the end of the turn. You can reload one handed ranged weapons while your hands are full."
       ]
     },
     {
@@ -14889,9 +14698,9 @@
       "classSource": "TftJC",
       "subclassShortName": "Quickdraw",
       "subclassSource": "TftJC",
-      "level": 6,
+      "level": 3,
       "entries": [
-        "At 6th level, Quickdraws gain access to new modifications which do not count against their known Modifications. You gain the Tier 2 modification at 10th level, and the Tier 3 modification at 15th level. "
+        "At 3rd level, Quickdraws gain access to new modifications which do not count against their known Modifications. You gain the modifications below when you unlock new modification tiers in your Gunner class progression, which do not count against your known modifications. "
       ]
     },
     {
@@ -14915,7 +14724,7 @@
       "subclassSource": "TftJC",
       "level": 10,
       "entries": [
-        "At 10th level, your Quickdraw skills are impeccable. When initiative is rolled, you can expend a use of Shoot to Thrill, and then immediately equip a Light firearm make one ranged firearm attack with that weapon at a creature within range. If the attack hits, it is treated as a critical hit."
+        "At 10th level, your Quickdraw skills are impeccable. When initiative is rolled, you can expend a use of Shoot to Thrill, and then immediately equip a firearm and make one ranged firearm attack with that weapon at a creature within range. If the attack hits, it is treated as a critical hit."
       ]
     },
     {
@@ -14927,7 +14736,7 @@
       "subclassSource": "TftJC",
       "level": 10,
       "entries": [
-        "At 10th level, your Shoot to Thrill feature is enhanced. It can now be used as a Free Action."
+        "At 10th level, your Shoot to Thrill feature is enhanced. You can now ricochet your attacks off walls. When you use Shoot To Thrill, you can make an attack at an object within your short range, then make an attack at a creature as if you were shooting from that position."
       ]
     },
     {
@@ -14944,196 +14753,97 @@
           "type": "inset",
           "name": "Make It Drop",
           "entries": [
-            "If the attack hits, the target suffers no damage, but instead drops a held item in their possession of your choice. Additionally, the hit creature must make a Constitution saving throw (DC is equal to 8 + the Tier of the firearm you are using x2), and on a fail, the hit limb is injured and cannot be used until the end of that creature's next turn. "
+            "If the attack hits, the target suffers no damage, but instead drops a held item in their possession of your choice. Additionally, the hit creature must make a Constitution saving throw (DC is equal to 8 + Prof + Dex), and on a fail, the hit limb is injured and cannot be used until the end of that creature's next turn. "
           ]
         },
         {
           "type": "inset",
           "name": "Make it Dance",
           "entries": [
-            "If the attack hits, you fire at the target creature's feet. The target must make a Wisdom Saving throw (DC is equal to 8 + the Tier of the firearm you are using x2), and on a fail are forced to Dance in place until the end of their next turn. Creatures immune to the frightened condition are immune to this feature. Using this ability empties all bullets loaded in a weapon you are holding.",
+            "If the attack hits, you fire at the target creature's feet. The target must make a Wisdom Saving throw (DC is equal to 8 + Prof + Dex), and on a fail are forced to Dance in place until the end of their next turn. Creatures immune to the frightened condition are immune to this feature. Using this ability empties all bullets loaded in a weapon you are holding.",
             "A dancing creature must use all its movement to dance without leaving its space and has disadvantage on Dexterity saving throws and attack rolls."
           ]
         }
       ]
     },
     {
-      "name": "Hidden Perch",
+      "name": "Rambo Archetype",
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Sniper",
+      "subclassShortName": "Rambo",
       "subclassSource": "TftJC",
       "level": 2,
       "entries": [
-        "At 2nd level, you become adept at hiding your position. By spending a minute preparing your position and making a Stealth check, you are not automatically revealed to enemy creatures after attacking them with a Sniper firearm. You remain hidden from enemies that are further than 30ft away from you as long as you do not move from this position. You can also take the Hide Action as a Bonus Action. "
-      ]
-    },
-    {
-      "name": "Sniper Archetype",
-      "source": "TftJC",
-      "className": "Gunner",
-      "classSource": "TftJC",
-      "subclassShortName": "Sniper",
-      "subclassSource": "TftJC",
-      "level": 2,
-      "entries": [
-        "Sitting at the highest point, a slender barrel watches its target. A single shot tears through their sky, as the target falls. The barrel slinks back into the shadows, away from sight.",
+        "The sound of a heavy gun cocking echoes through the streets. A gas canister flies though the air, as fog obscures the area, the only thing that can be heard is the sound of a loud boom. As the smoke clears, a lone gunner walks off, with their boomstick proudly slung over their shoulder.",
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Hidden Perch|Gunner|TftJC|Sniper|TftJC|2"
+          "subclassFeature": "Shrug It Off|Gunner|TftJC|Rambo|TftJC|2"
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Sniper's Eye|Gunner|TftJC|Sniper|TftJC|2"
-        },
-        {
-          "type": "refSubclassFeature",
-          "subclassFeature": "Sniper Progression|Gunner|TftJC|Sniper|TftJC|2"
+          "subclassFeature": "Raw Muscle|Gunner|TftJC|Rambo|TftJC|2"
         }
       ]
     },
     {
-      "name": "Sniper Progression",
+      "name": "Raw Muscle",
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Sniper",
+      "subclassShortName": "Rambo",
       "subclassSource": "TftJC",
       "level": 2,
       "entries": [
-        "As your skills improve, you learn to modify your Sniper. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. If you lose or need to replace your special firearm, you can spend 1 hour per Tier it was crafting a new one, and the combined gold cost.",
-        {
-          "caption": "Sniper Firearms",
-          "type": "table",
-          "colLabels": [
-            "Firearm",
-            "Tier",
-            "Cost",
-            "Ammo",
-            "Damage",
-            "Weight",
-            "Range",
-            "Properties",
-            "Modification Slots"
-          ],
-          "colStyles": [
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center"
-          ],
-          "rows": [
-            [
-              "Sniper Rifle",
-              "1",
-              "50gp",
-              "2gp/10",
-              "1d12 piercing",
-              "10lbs",
-              "120/480",
-              "two handed, sniper, clip 6",
-              "1"
-            ],
-            [
-              "Windchaster Sniper",
-              "2",
-              "75gp",
-              "2gp/10",
-              "2d8 piercing",
-              "15lbs",
-              "120/480",
-              "two handed, sniper, clip 8",
-              "2"
-            ],
-            [
-              "Modular Sniper",
-              "3",
-              "125gp",
-              "2gp/10",
-              "2d10 piercing",
-              "15lbs",
-              "120/480",
-              "two handed, sniper, clip 10",
-              "4"
-            ],
-            [
-              "Semi-Auto Sniper",
-              "4",
-              "500gp",
-              "2gp/10",
-              "2d10 piercing",
-              "18lbs",
-              "150/600",
-              "two handed, semi auto, sniper, clip 10",
-              "4"
-            ],
-            [
-              "Gold Standard",
-              "5",
-              "1000gp",
-              "2gp/10",
-              "2d12 piercing",
-              "18lbs",
-              "150/600",
-              "two handed, semi auto, standard, sniper, clip 12",
-              "5"
-            ]
-          ]
-        }
+        "At 2nd level, You gain proficiency in Athletics, and you gain proficiency in Medium Armor. If you are already proficient in Athletics, you can choose another skill from the Gunner list. Your hit point maximum also increases by 2 and increases by 1 again whenever you gain a level in this class."
       ]
     },
     {
-      "name": "Sniper's Eye",
+      "name": "Shrug It Off",
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Sniper",
+      "subclassShortName": "Rambo",
       "subclassSource": "TftJC",
       "level": 2,
       "entries": [
-        "When you choose this archetype at 2nd level, your accuracy is enhanced. You gain proficiency in Perception, or if you already have this, you gain proficiency in another skill from the Gunner's skill list."
+        "When you choose this archetype at 2nd level, you learn to shake off damage. When you take the attack action, you can forgo an attack on your turn to instead gain a number of temporary hit points equal to half of your level in this class + your Strength modifier + half your proficiency bonus (rounded down) per hostile creature within 5ft of you. You lose all temporary hit points granted by this feature at the start of your next turn, and can only use this feature whenever you are below half of your maximum hit points."
       ]
     },
     {
-      "name": "Calm Mind",
+      "name": "Rambo Modifications",
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Sniper",
+      "subclassShortName": "Rambo",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "At 3rd level, Rambos gain access to new modifications which do not count against their known Modifications. You gain the modifications below when you unlock new modification tiers in your Gunner class progression, which do not count against your known modifications."
+      ]
+    },
+    {
+      "name": "Unphased",
+      "source": "TftJC",
+      "className": "Gunner",
+      "classSource": "TftJC",
+      "subclassShortName": "Rambo",
       "subclassSource": "TftJC",
       "level": 6,
       "entries": [
-        "At 6th level, you learn to remain calm in the heat of battle, which aids your aim. You may add your Wisdom Modifier to your to-hit bonus of Sniper firearms. You can use this ability only if you do not move during your turn. "
+        "At 6th level, your grit allows you to push past injury. While below half of your maximum hit points, you take less damage from all sources except for psychic equal to your Strength Modifier."
       ]
     },
     {
-      "name": "Sniper Modifications",
+      "name": "Push 'em Off",
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Sniper",
-      "subclassSource": "TftJC",
-      "level": 6,
-      "entries": [
-        "At 6th level, Snipers gain access to new modifications which do not count against their known Modifications. You gain the Tier 2 modification at 10th level, and the Tier 3 modification at 15th level."
-      ]
-    },
-    {
-      "name": "Piercing Rounds",
-      "source": "TftJC",
-      "className": "Gunner",
-      "classSource": "TftJC",
-      "subclassShortName": "Sniper",
+      "subclassShortName": "Rambo",
       "subclassSource": "TftJC",
       "level": 10,
       "entries": [
-        "At 10th level, your bullets can pierce through creatures. You can expend a use of Shoot to Thrill as a Bonus Action, and for this turn if you hit a creature with a ranged attack with a firearm, the attack continues in a line beyond the target. You use your initial attack roll, add 10 and then subtract the enemy's AC. If this attack hits a creature behind them, they take the same damage as the initial target. This continues in a line until the bullet reaches a wall or enters its long range. "
+        "At 10th level, you gain the ability to get foes out of your space. After you use Shrug it Off, if there is a creature within your melee attack range, you can bodycheck them. You expend a use of Shoot to Thrill, and the target creature makes a Strength Saving throw (DC equal to 8 + Prof Bonus + Strength). On a fail, they are shoved back up to 10 feet, and then you can immediately make a ranged attack with a firearm against that creature as a part of this action."
       ]
     },
     {
@@ -15141,23 +14851,23 @@
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Sniper",
+      "subclassShortName": "Rambo",
       "subclassSource": "TftJC",
       "level": 10,
       "entries": [
-        "At 10th level, your Shoot to Thrill feature is enchanced. When you use Shoot to Thrill, you immediately gain the benefits of Calm Mind or your Hidden Perch, ignoring its prerequisite. You can only select Hidden perch if you are already hiding or hidden."
+        "At 10th level, your Shoot to Thrill feature is enhanced. When using Shoot To Thrill, you can immediately make use of an ability that details you must forgo an attack to use it as a part of that Attack (you do not have to forgo the attack)."
       ]
     },
     {
-      "name": "Headshot",
+      "name": "True Grit",
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Sniper",
+      "subclassShortName": "Rambo",
       "subclassSource": "TftJC",
       "level": 14,
       "entries": [
-        "At 14th level, your sniper skills are immaculately accurate and deadly. When using your Hidden Perch, your first ranged attack with a firearm against each creature deals double damage. This extra damage can be applied to the same creature once per hour."
+        "At 14th level, your determination is unwavering. When you take the attack action, you can forgo an attack on your turn to end a Grapple, Restrain or Frightened condition on yourself. Additionally, while under half of your maximum hit points, you gain resistance to Bludgeoning, Slashing and Piercing damage."
       ]
     },
     {

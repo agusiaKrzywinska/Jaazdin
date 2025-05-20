@@ -1,0 +1,12 @@
+{
+  "name": "The Hunter's Eye",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Deadeye",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "When you choose this archetype at 2nd level, your accuracy is enhanced. You gain proficiency in Perception, or if you already have this, you gain proficiency in another skill from the Gunner’s skill list."
+  ]
+}

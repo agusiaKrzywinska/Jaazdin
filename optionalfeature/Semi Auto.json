@@ -8,7 +8,7 @@
           "name": "Gunner"
         }
       },
-      "feature": ["Sniper"]
+      "feature": ["Deadeye"]
     }
   ],
   "source": "TftJC",
@@ -18,6 +18,6 @@
     "name": "650gp"
   },
   "entries": [
-    "Allows the Sniper to override its restriction to extra attack, can be turned off/on as a Bonus Action."
+    "Allows the Deadeye to override its restriction to extra attack, can be turned off/on as a Bonus Action."
   ]
 }

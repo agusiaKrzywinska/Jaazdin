@@ -1,0 +1,16 @@
+{
+  "name": "Deadeye",
+  "source": "TftJC",
+  "page": 16,
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "shortName": "Deadeye",
+  "subclassFeatures": [
+    "Deadeye Archetype|Gunner|TftJC|Deadeye|TftJC|2",
+    "Deadeye Modifications|Gunner|TftJC|Deadeye|TftJC|3",
+    "Pinpoint Accuracy|Gunner|TftJC|Deadeye|TftJC|6",
+    "Piercing Rounds|Gunner|TftJC|Deadeye|TftJC|10",
+    "Shoot to Thrill Improvement|Gunner|TftJC|Deadeye|TftJC|10",
+    "Headshot|Gunner|TftJC|Deadeye|TftJC|14"
+  ]
+}

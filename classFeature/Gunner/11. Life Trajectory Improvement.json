@@ -7,7 +7,8 @@
   "entries": [
     "At 11th level, you gain additional features based on your earlier selection.",
     "<b>Desperado.</b> When you make an Insight or Perception check and fail, you can expend a use of MacGyver’d to reroll the attempt.",
-    "<b>Wanderer.</b> You ignore the effects of non-magical difficult terrain, and you gain a swim and climb speed equal to your walking speed.",
-    "<b>Soldier.</b> Allies within 15ft of you have advantage on save to resist being frightened."
+    "<b>Wanderer.</b> You ignore the effects of non-magical difficult terrain, and you gain a swim and climb speed equal to your walking speed, and add Wisdom to your Initiative Rolls",
+    "<b>Soldier.</b> Allies within 15ft of you have advantage on save to resist being frightened.",
+    "<b>Craftsman.</b> You gain expertise in the Artisan Tool you selected at level 5 or Gunsmithing Tools."
   ]
 }

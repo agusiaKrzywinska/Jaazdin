@@ -1,0 +1,12 @@
+{
+  "name": "Headshot",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Deadeye",
+  "subclassSource": "TftJC",
+  "level": 14,
+  "entries": [
+    "At 14th level, your skills are immaculately accurate and deadly. While using your Hidden Perch, your first ranged attack with a firearm against each creature deals double damage. This extra damage can be applied to the same creature once per hour."
+  ]
+}

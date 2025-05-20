@@ -12,7 +12,7 @@
       "type": "inset",
       "name": "Danger Zone",
       "entries": [
-        "As an action on your turn, you may expend any number of cartridges from your Gunblade, creating an explosion centered on you with a 10ft radius. All other creatures in range must make a Dexterity saving throw (DC is equal to 8 + the tier of your firearm x 2), taking 2d8 Fire damage for each cartridge spent on a failure, and half as much on a success."
+        "As an action on your turn, you may expend any number of cartridges from your Gunblade, creating an explosion centered on you with a 10ft radius. All other creatures in range must make a Dexterity saving throw (DC is equal to 8 + Prof + Dex), taking 2d8 Fire damage for each cartridge spent on a failure, and half as much on a success."
       ]
     },
     {

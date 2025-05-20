@@ -1,0 +1,12 @@
+{
+  "name": "Raw Muscle",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Rambo",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "At 2nd level, You gain proficiency in Athletics, and you gain proficiency in Medium Armor. If you are already proficient in Athletics, you can choose another skill from the Gunner list. Your hit point maximum also increases by 2 and increases by 1 again whenever you gain a level in this class."
+  ]
+}

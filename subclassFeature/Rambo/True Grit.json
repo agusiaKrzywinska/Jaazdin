@@ -1,0 +1,12 @@
+{
+  "name": "True Grit",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Rambo",
+  "subclassSource": "TftJC",
+  "level": 14,
+  "entries": [
+    "At 14th level, your determination is unwavering. When you take the attack action, you can forgo an attack on your turn to end a Grapple, Restrain or Frightened condition on yourself. Additionally, while under half of your maximum hit points, you gain resistance to Bludgeoning, Slashing and Piercing damage."
+  ]
+}

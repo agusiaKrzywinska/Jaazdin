@@ -10,6 +10,10 @@
       "gainSubclassFeature": true
     },
     "Gun Modifications|Gunner|TftJC|3",
+    {
+      "classFeature": "Gunner Archetype Feature|Gunner|TftJC|3",
+      "gainSubclassFeature": true
+    },
     "Ability Score Improvement|Gunner|TftJC|4",
     "Extra Attack|Gunner|TftJC|5",
     "Life Trajectory|Gunner|TftJC|5",
