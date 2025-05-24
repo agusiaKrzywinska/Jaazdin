@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson", "Malcolm Keefe"],
-        "version": "0.3.65"
+        "version": "0.3.66"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1748048405,
+    "dateLastModified": 1748048936,
     "optionalFeatureTypes": {
       "FS:W": "Fighting Style: Warden",
       "TECH": "Technique",
@@ -154,7 +154,7 @@
         },
         "Gun Modifications|Gunner|TftJC|3",
         {
-          "classFeature": "Gunner Archetype Feature|Gunner|TftJC|3",
+          "classFeature": "Gun Modifications|Gunner|TftJC|3",
           "gainSubclassFeature": true
         },
         "Ability Score Improvement|Gunner|TftJC|4",
@@ -10923,8 +10923,8 @@
       "shortName": "Flameburster",
       "subclassFeatures": [
         "Flameburster Archetype|Gunner|TftJC|Flameburster|TftJC|2",
+        "Flameburster Modifications|Gunner|TftJC|Flameburster|TftJC|3",
         "Rough Divide|Gunner|TftJC|Flameburster|TftJC|6",
-        "Flameburster Modifications|Gunner|TftJC|Flameburster|TftJC|6",
         "Draw and Junction|Gunner|TftJC|Flameburster|TftJC|10",
         "Shoot to Thrill Improvement|Gunner|TftJC|Flameburster|TftJC|10",
         "Renzokuken|Gunner|TftJC|Flameburster|TftJC|14"
@@ -14042,10 +14042,6 @@
         {
           "type": "refSubclassFeature",
           "subclassFeature": "Fighting Style|Gunner|TftJC|Flameburster|TftJC|2"
-        },
-        {
-          "type": "refSubclassFeature",
-          "subclassFeature": "Gunblade Progression|Gunner|TftJC|Flameburster|TftJC|2"
         }
       ]
     },
