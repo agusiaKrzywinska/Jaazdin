@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson", "Malcolm Keefe"],
-        "version": "0.3.62"
+        "version": "0.3.63"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1748045996,
+    "dateLastModified": 1748046956,
     "optionalFeatureTypes": {
       "FS:W": "Fighting Style: Warden",
       "TECH": "Technique",
@@ -10939,8 +10939,8 @@
       "shortName": "Hexlock",
       "subclassFeatures": [
         "Hexlock Archetype|Gunner|TftJC|Hexlock|TftJC|2",
+        "Hexlock Modifications|Gunner|TftJC|Hexlock|TftJC|3",
         "Firearm Enchanter|Gunner|TftJC|Hexlock|TftJC|6",
-        "Hexlock Modifications|Gunner|TftJC|Hexlock|TftJC|6",
         "Spellshot Combo|Gunner|TftJC|Hexlock|TftJC|10",
         "Shoot to Thrill Improvement|Gunner|TftJC|Hexlock|TftJC|10",
         "Hex Master|Gunner|TftJC|Hexlock|TftJC|14"
@@ -14160,7 +14160,7 @@
       "subclassSource": "TftJC",
       "level": 2,
       "entries": [
-        "When you choose this archetype at 2nd level, you gain the ability to magically enchant bullets to produce deadly effects. You learn three Hexed Bullets, as listed in the Hexed Bullets Progression Table, and can produce up to twice your proficiency bonus of those bullets when you finish a long rest. Whenever you finish a long rest, all the Hexed Bullets you have enchanted lose their potency. You learn an additional Hexed Bullet whenever you learn a new tier of firearm.",
+        "When you choose this archetype at 2nd level, you gain the ability to magically enchant bullets to produce deadly effects. You learn three Hexed Bullets, as listed in the Hexed Bullets Progression Table, and can produce up to twice your proficiency bonus of those bullets when you finish a long rest. Whenever you finish a long rest, all the Hexed Bullets you have enchanted lose their potency. You learn an additional Hexed Bullet whenever you learn a new tier of modifications.",
         "Prepared Hexed Bullets are placed in a magical receptacle, such as an enchanted bandolier, a special clip, or other magical storage device. As a free action once per turn when you make a ranged weapon attack with a firearm, you can cause one of the prepared Hexed Bullets to teleport into your firearm, enhancing your next attack with that Hexed Bullets effects, and consuming one use of your Hexed Bullets.",
         "Whenever you gain another Gunner level, you can replace a known Hexed Bullet option with another.",
         {
@@ -14177,7 +14177,7 @@
             [
               "Element",
               "1",
-              "The shot deals additional damage of either fire, lightning, cold, acid, or thunder (chosen when created) equal to 1d6+the tier of the gun.",
+              "The shot deals additional damage of either fire, lightning, cold, acid, or thunder (chosen when created) equal to {@dice 1d6} + the tier of the highest modification on it.",
               "-"
             ],
             [
@@ -14231,7 +14231,7 @@
             [
               "Rally",
               "3",
-              "You fire your gun into the air, bolstering allies within 30ft of you. Each ally gains temporary hit points equal to the firearm’s tier + your INT modifier and has advantage on the next attack roll they make.",
+              "You fire your gun into the air, bolstering allies within 30ft of you. Each ally gains temporary hit points equal to your proficiency bonus + your INT modifier and has advantage on the next attack roll they make.",
               "Religion from Magical Acolyte"
             ],
             [
@@ -14366,6 +14366,18 @@
       ]
     },
     {
+      "name": "Hexlock Modifications",
+      "source": "TftJC",
+      "className": "Gunner",
+      "classSource": "TftJC",
+      "subclassShortName": "Hexlock",
+      "subclassSource": "TftJC",
+      "level": 3,
+      "entries": [
+        "At 3rd level, Hexlocks gain access to new modifications which do not count against their Modifications known. You gain the modifications below when you unlock new modification tiers in your Gunner class progression, which do not count against your known modifications."
+      ]
+    },
+    {
       "name": "Firearm Enchanter",
       "source": "TftJC",
       "className": "Gunner",
@@ -14374,20 +14386,8 @@
       "subclassSource": "TftJC",
       "level": 6,
       "entries": [
-        "At 6th level, you have mastered placing arcane enhancements on firearms. The first Hexlock modification placed on a firearm does not count against the number of modifications on a weapon.",
+        "At 6th level, your firearms are intertwined with your magic. You can use a Firearm as an Arcane Focus.",
         "Firearms with at least one Hexlock modification count as magical when overcoming damage resistances."
-      ]
-    },
-    {
-      "name": "Hexlock Modifications",
-      "source": "TftJC",
-      "className": "Gunner",
-      "classSource": "TftJC",
-      "subclassShortName": "Hexlock",
-      "subclassSource": "TftJC",
-      "level": 6,
-      "entries": [
-        "At 6th level, Hexlocks gain access to new modifications which do not count against their Modifications known. You gain the Tier 2 modification at 10th level, and the Tier 3 modification at 15th level."
       ]
     },
     {
