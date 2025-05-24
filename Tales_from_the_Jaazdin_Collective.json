@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson", "Malcolm Keefe"],
-        "version": "0.3.61"
+        "version": "0.3.62"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1747748174,
+    "dateLastModified": 1748045996,
     "optionalFeatureTypes": {
       "FS:W": "Fighting Style: Warden",
       "TECH": "Technique",
@@ -1934,7 +1934,6 @@
         "You gain a bonus +1 bonus to attack and damage rolls made with this magical firearm.",
         "On hit, the weapon deals {@dice 1d4} extra necrotic.",
         "If this weapon kills a target, that target returns as a {@creature zombie|MM} under your control. You can only have one zombie under your control from this weapon at a time.",
-        "<b><i>Tier 1.</i></b>",
         "<b><i>Clip 6.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
       ]
     },
@@ -2395,17 +2394,16 @@
       "type": "R",
       "rarity": "none",
       "weight": 10,
-      "value": 10000,
+      "value": 15000,
       "weaponCategory": "martial",
-      "property": ["AF"],
-      "charges": 1,
+      "property": ["AF", "H", "2H"],
+      "charges": 3,
       "dmg1": "2d4",
       "dmgType": "F",
       "range": "80/320",
       "entries": [
-        "<b><i>Tier 2.</i></b>",
-        "<b><i>Explosive 5.</i></b> Upon a hit, everything within a radius determined by its explosive value of the target must make a Dexterity saving throw (DC equal to 8 + the firearm's tier x2) or take an additional damage equal to the damage roll. Explosive weapons have their misfire score increased by 1.",
-        "<b><i>Barrel 1.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
+        "<b><i>Explosive 5.</i></b> Upon a hit, everything within a radius determined by its explosive value of the target must make a Dexterity saving throw (DC equal to 8 + Prof + Dex) or take additional damage equal to the weapon’s damage roll. If the weapon attack misses, the explosive ammunition fails to detonate. Explosive weapons have their misfire score increased by 1.",
+        "<b><i>Barrel 3.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
       ]
     },
     {
@@ -2485,18 +2483,17 @@
       "source": "TftJC",
       "type": "R",
       "rarity": "none",
-      "weight": 25,
-      "value": 10000,
+      "weight": 40,
+      "value": 15000,
       "weaponCategory": "martial",
-      "property": ["AF"],
+      "property": ["AF", "2H", "H"],
       "charges": 5,
       "dmg1": "1d12",
       "dmgType": "F",
       "range": "30/60",
       "entries": [
-        "<b><i>Tier 2.</i></b>",
-        "<b><i>Gas 5.</i></b> Gas weapons do not require to be loaded, rather attached to them is a tank of fuel. A gas weapon uses one unit of gas per attack, and can attack until the tank is depleted. A Gas tank can be refilled by spending 1 minute per unit refilled. You cannot store additional units of Gas, except within the weapon itself.",
-        "<b><i>Cone 10.</i></b> Cone weapons attack in a cone with a length equal to their value, using the attack roll rolled on all creatures within its cone area."
+        "<b><i>Gas 7.</i></b> Gas weapons do not need to be loaded, rather attached to them is a tank of fuel. A gas weapon uses one unit of gas per attack, and can be fired until the tank is depleted. A Gas tank can be refilled by spending 1 minute per unit expended. You cannot store additional units of Gas, except within the weapon itself.",
+        "<b><i>Cone 10.</i></b> Cone weapons attack in a cone with a length equal to their value, using the attack roll rolled on all creatures within its cone area behind the initial target."
       ]
     },
     {
@@ -3031,25 +3028,6 @@
         "<i><b>Innovative Invention.</i></b>",
         "This bracer contains a retractable three-pronged climbing tool.",
         "As a bonus action, the wearer can deploy (or retract) the climbing tool by pressing a button (this is considered using an item). While deployed, the wearer gains a climb speed equal to their walking speed. Additionally, the wearer can hang from a wall they are climbing with only the hookblade secured into the wall, freeing up a hand."
-      ]
-    },
-    {
-      "name": "Hunter's Pistol",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 1,
-      "value": 1000,
-      "weaponCategory": "martial",
-      "property": ["L", "AF"],
-      "charges": 1,
-      "dmg1": "1d6",
-      "dmgType": "P",
-      "range": "30/90",
-      "entries": [
-        "<b><i>Tier 1.</i></b>",
-        "<b><i>Barrel 1.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel.",
-        "While in the off-hand, the wielder can use a reaction when targeted by a melee attack to fire the pistol at the attacker, granting a bonus to their AC equal to a roll of the pistol's damage die. (this deals no damage and expends the ammunition)"
       ]
     },
     {
@@ -10929,8 +10907,8 @@
       "shortName": "Demolitionist",
       "subclassFeatures": [
         "Demolitionist Archetype|Gunner|TftJC|Demolitionist|TftJC|2",
+        "Demolitionist Modifications|Gunner|TftJC|Demolitionist|TftJC|3",
         "Overcustomized Firearms|Gunner|TftJC|Demolitionist|TftJC|6",
-        "Demolitionist Modifications|Gunner|TftJC|Demolitionist|TftJC|6",
         "Rocket Jump|Gunner|TftJC|Demolitionist|TftJC|10",
         "Shoot to Thrill Improvement|Gunner|TftJC|Demolitionist|TftJC|10",
         "Fear No Flame|Gunner|TftJC|Demolitionist|TftJC|14"
@@ -13890,217 +13868,6 @@
       ]
     },
     {
-      "name": "Blast Gun Progression",
-      "source": "TftJC",
-      "className": "Gunner",
-      "classSource": "TftJC",
-      "subclassShortName": "Demolitionist",
-      "subclassSource": "TftJC",
-      "level": 2,
-      "entries": [
-        "As your skills improve, you learn to modify your Blast Gun. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith's Tools. The Blast Gun has unique modifications, which are unlocked at level 5, and these modifications can be upgraded at level 13 by paying the gold cost and spending 4 hours of work. These modifications can be attacked to the Blast Gun to allow it to perform new attacks. These new attacks have separate ranges, damage types, and use their own ammunition.",
-        {
-          "caption": "Demolitionist Firearms",
-          "type": "table",
-          "colLabels": [
-            "Firearm",
-            "Tier",
-            "Cost",
-            "Ammo",
-            "Damage",
-            "Weight",
-            "Range",
-            "Properties",
-            "Modification Slots"
-          ],
-          "colStyles": [
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center"
-          ],
-          "rows": [
-            [
-              "Blast Gun",
-              "1",
-              "50gp",
-              "1gp/10",
-              "2d6 piercing",
-              "15lbs",
-              "30/120",
-              "heavy, two handed, barrel 1",
-              "2"
-            ],
-            [
-              "Blast Cannon",
-              "3",
-              "125gp",
-              "1gp/10",
-              "3d6 piercing",
-              "15lbs",
-              "30/120",
-              "heavy, two handed, barrel 1",
-              "3"
-            ],
-            [
-              "Meteor Cannon",
-              "5",
-              "1000gp",
-              "1gp/10",
-              "4d6 piercing",
-              "15lbs",
-              "30/120",
-              "heavy, two handed, barrel 1",
-              "5"
-            ]
-          ]
-        },
-        {
-          "caption": "Blast Gun Modifications - Minigun",
-          "type": "table",
-          "colLabels": [
-            "Firearm",
-            "Level Unlocked",
-            "Cost",
-            "Ammo",
-            "Damage",
-            "Extra Weight",
-            "Range",
-            "Properties"
-          ],
-          "colStyles": [
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center"
-          ],
-          "rows": [
-            [
-              "Minigun",
-              "5",
-              "100gp",
-              "1gp/10",
-              "4d4 piercing",
-              "+10lbs",
-              "30/120",
-              "belt 90"
-            ],
-            [
-              "MEGA!!!gun",
-              "13",
-              "500gp",
-              "1gp/10",
-              "4d4 piercing",
-              "+10lbs",
-              "30/120",
-              "belt 90, auto"
-            ]
-          ]
-        },
-        {
-          "caption": "Blast Gun Modifications - Explosive Lobber",
-          "type": "table",
-          "colLabels": [
-            "Firearm",
-            "Level Unlocked",
-            "Cost",
-            "Ammo",
-            "Damage",
-            "Extra Weight",
-            "Range",
-            "Properties"
-          ],
-          "colStyles": [
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center"
-          ],
-          "rows": [
-            [
-              "Explosive Lobber",
-              "5",
-              "100gp",
-              "5gp/10",
-              "2d8 fire",
-              "+15lbs",
-              "80/320",
-              "explosive 5"
-            ],
-            [
-              "Rocket Launcher",
-              "13",
-              "500gp",
-              "5gp/10",
-              "4d4 piercing",
-              "+15lbs",
-              "100/400",
-              "explosive 10"
-            ]
-          ]
-        },
-        {
-          "caption": "Blast Gun Modifications - Flamethrower",
-          "type": "table",
-          "colLabels": [
-            "Firearm",
-            "Level Unlocked",
-            "Cost",
-            "Ammo",
-            "Damage",
-            "Extra Weight",
-            "Range",
-            "Properties"
-          ],
-          "colStyles": [
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center",
-            "col-1 text-center"
-          ],
-          "rows": [
-            [
-              "Flamethrower",
-              "5",
-              "100gp",
-              "5gp/1",
-              "1d12 fire",
-              "+25lbs",
-              "30/60",
-              "gas 5"
-            ],
-            [
-              "Phoenix Force",
-              "13",
-              "500gp",
-              "5gp/1",
-              "2d12 fire",
-              "+25lbs",
-              "30/60",
-              "gas 7, cone 10"
-            ]
-          ]
-        }
-      ]
-    },
-    {
       "name": "Demolitionist Archetype",
       "source": "TftJC",
       "className": "Gunner",
@@ -14121,7 +13888,7 @@
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Blast Gun Progression|Gunner|TftJC|Demolitionist|TftJC|2"
+          "subclassFeature": "Tools of Destruction|Gunner|TftJC|Demolitionist|TftJC|2"
         }
       ]
     },
@@ -14134,7 +13901,8 @@
       "subclassSource": "TftJC",
       "level": 2,
       "entries": [
-        "When you choose this archetype at 2nd level, your attacks become lethally savage. Your firearms gain an additional range, equal to half of its normal range. Attacking an enemy in this range with a Firearm allows you to reroll a number of the damage die up to your Constitution Modifier once per turn. You also gain proficiency in Medium Armor."
+        "When you choose this archetype at 2nd level, your attacks become lethally savage. Attacking an enemy with a ranged firearm that is 20ft away from you or closer causes the explosives in your firearm to flare out at your enemies, allowing to you to roll the weapon’s damage dice twice and take the higher result. This damage can only be done once per turn.",
+        "You also gain proficiency in Medium Armor."
       ]
     },
     {
@@ -14146,7 +13914,20 @@
       "subclassSource": "TftJC",
       "level": 2,
       "entries": [
-        "At 2nd level, your firearms blow up the neighbourhood. Your Demolitionist Firearms deal double damage to structures and buildings."
+        "At 2nd level, your firearms blow up the neighbourhood. Your Firearms deal double damage to structures and buildings."
+      ]
+    },
+    {
+      "name": "Tools of Destruction",
+      "source": "TftJC",
+      "className": "Gunner",
+      "classSource": "TftJC",
+      "subclassShortName": "Demolitionist",
+      "subclassSource": "TftJC",
+      "level": 2,
+      "entries": [
+        "At 2nd level, Demolitionists gain access to powerful new tools; The {@item Explosive Lobber|TftJC} and {@item Flamethrower|TftJC}. Only Demolitionists can use them.",
+        "They use unique ammo instead of bullets, and have their own resource for such. A number of times per short rest equal to your Proficiency Bonus, you can empower your Tools of Destruction. As a Bonus Action or as a part of Shoot to Thrill, you can double the explosive or cone value for your Tools of Destruction until the end of your turn."
       ]
     },
     {
@@ -14156,9 +13937,9 @@
       "classSource": "TftJC",
       "subclassShortName": "Demolitionist",
       "subclassSource": "TftJC",
-      "level": 6,
+      "level": 3,
       "entries": [
-        "At 6th level, Demolitionists gain access to new modifications which do not count against their known Modifications. You gain the Tier 2 modification at 10th level, and the Tier 3 modification at 15th level."
+        "At 3rd level, Demolitionists gain access to new modifications which do not count against their known Modifications. You gain the modifications below when you unlock new modification tiers in your Gunner class progression, which do not count against your known modifications."
       ]
     },
     {
@@ -14182,7 +13963,7 @@
       "subclassSource": "TftJC",
       "level": 10,
       "entries": [
-        "At 10th level, you can use your firearms to make a narrow escape. You can expend a use of Shoot to Thrill, and then replace one of your attacks with your Blast Gun with a Rocket Jump, which allows you to immediately fly up to 30ft in an arc in a direction of your choice. This does not provoke opportunity attacks. If there were creatures within 5ft of your starting pointCreatures within 5ft must make a Dexterity Saving Throw (DC equal to 8 + the firearm's tier x2) all creatures hit then take the Blast Gun's damage. You still take falling damage as normal."
+        "At 10th level, you can use your firearms to make a narrow escape. You can expend a use of Shoot to Thrill, and then replace one of your attacks with a firearm with a Rocket Jump, which allows you to immediately fly up to 30ft in an arc in a direction of your choice. This does not provoke opportunity attacks. If there were creatures within 5ft of your starting point, Creatures within 5ft must make a Dexterity Saving Throw (DC equal to 8 + Proficiency Bonus + Dexterity) all creatures hit then take the firearm’s damage. You still take falling damage as normal."
       ]
     },
     {
@@ -14194,7 +13975,7 @@
       "subclassSource": "TftJC",
       "level": 10,
       "entries": [
-        "At 10th level, your Shoot to Thrill feature is enhanced. When Shoot to Thrill is used to an enhance a ranged attack made with a Blast Gun or one of its Modified weapon attacks, the attack gains explosive 15 (or if the attack already has explosive, 15 is added to the radius). This attack deals maximum damage to structures. "
+        "At 10th level, your Shoot to Thrill feature is enhanced. When Shoot to Thrill is used to an enhance a ranged firearm attack, the attack gains explosive 15 (or if the attack already has explosive, 15 is added to the radius). This attack deals maximum damage to structures."
       ]
     },
     {
@@ -14206,7 +13987,7 @@
       "subclassSource": "TftJC",
       "level": 14,
       "entries": [
-        "At 14th level, you learn to bear the damage you cause. You gain resistance to Fire damage, and creatures of your choice have advantage on explosive saving throws you impose on them. You take no damage from Demolitionist Firearms you attack with."
+        "At 14th level, you learn to bear the damage you cause. You gain resistance to Fire damage, and you and creatures of your choice take no damage from Fire Damage dealt by firearms you attack with."
       ]
     },
     {
