@@ -1,0 +1,13 @@
+{
+  "name": "Renzokuken",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Flameburster",
+  "subclassSource": "TftJC",
+  "level": 14,
+  "entries": [
+    "Beginning at 14th level, as an action on your turn, you may expend all bullets remaining in your Barrel Firearm, and make an attack against a creature within range for each bullet expended in this way (you cannot select the same creature twice). Each of these attacks is treated as being a Burst Strike attack. Each attack made in succession while using this feature increases your Firearm’s Misfire score by 1 until the end of your turn.",
+    "Once you’ve used this feature, you cannot use it again until you finish a Long Rest."
+  ]
+}

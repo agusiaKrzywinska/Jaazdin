@@ -1,0 +1,16 @@
+{
+  "name": "Flameburster",
+  "source": "TftJC",
+  "page": 16,
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "shortName": "Flameburster",
+  "subclassFeatures": [
+    "Flameburster Archetype|Gunner|TftJC|Flameburster|TftJC|2",
+    "Rough Divide|Gunner|TftJC|Flameburster|TftJC|6",
+    "Flameburster Modifications|Gunner|TftJC|Flameburster|TftJC|6",
+    "Draw and Junction|Gunner|TftJC|Flameburster|TftJC|10",
+    "Shoot to Thrill Improvement|Gunner|TftJC|Flameburster|TftJC|10",
+    "Renzokuken|Gunner|TftJC|Flameburster|TftJC|14"
+  ]
+}

@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson", "Malcolm Keefe"],
-        "version": "0.3.63"
+        "version": "0.3.64"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1748046956,
+    "dateLastModified": 1748047714,
     "optionalFeatureTypes": {
       "FS:W": "Fighting Style: Warden",
       "TECH": "Technique",
@@ -10915,19 +10915,19 @@
       ]
     },
     {
-      "name": "Gunbreaker",
+      "name": "Flameburster",
       "source": "TftJC",
       "page": 16,
       "className": "Gunner",
       "classSource": "TftJC",
-      "shortName": "Gunbreaker",
+      "shortName": "Flameburster",
       "subclassFeatures": [
-        "Gunbreaker Archetype|Gunner|TftJC|Gunbreaker|TftJC|2",
-        "Rough Divide|Gunner|TftJC|Gunbreaker|TftJC|6",
-        "Gunbreaker Modifications|Gunner|TftJC|Gunbreaker|TftJC|6",
-        "Draw and Junction|Gunner|TftJC|Gunbreaker|TftJC|10",
-        "Shoot to Thrill Improvement|Gunner|TftJC|Gunbreaker|TftJC|10",
-        "Renzokuken|Gunner|TftJC|Gunbreaker|TftJC|14"
+        "Flameburster Archetype|Gunner|TftJC|Flameburster|TftJC|2",
+        "Rough Divide|Gunner|TftJC|Flameburster|TftJC|6",
+        "Flameburster Modifications|Gunner|TftJC|Flameburster|TftJC|6",
+        "Draw and Junction|Gunner|TftJC|Flameburster|TftJC|10",
+        "Shoot to Thrill Improvement|Gunner|TftJC|Flameburster|TftJC|10",
+        "Renzokuken|Gunner|TftJC|Flameburster|TftJC|14"
       ]
     },
     {
@@ -13995,11 +13995,12 @@
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Gunbreaker",
+      "subclassShortName": "Flameburster",
       "subclassSource": "TftJC",
       "level": 2,
       "entries": [
-        "When you choose this archetype at 2nd level, you can use the cartridges loaded in your Gunblade to bolster your attacks. As a part of a melee weapon attack on your turn, you can expend 1 cartridge from your Gunblade’s barrel to deal an additional 1d10 Fire damage, in addition to the weapons normal damage. If you miss your attack, the cartridge is still consumed. This feature can only be used when using a Gunblade. This damage increases as you gain levels in this class, growing to 2d10 at level 11."
+        "When you choose this archetype at 2nd level, you can use the bullets loaded in your firearms to bolster your attacks. As a part of an attack on your turn with a barrel firearm, you can expend 1 bullet from your firearm’s barrel to deal an additional {@dice 1d10} Fire damage, in addition to the weapons normal damage. If you miss your attack, the bullet is still consumed.",
+        "This damage increases as you gain levels in this class,growing to {@dice 2d10} at level 11."
       ]
     },
     {
@@ -14007,7 +14008,7 @@
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Gunbreaker",
+      "subclassShortName": "Flameburster",
       "subclassSource": "TftJC",
       "level": 2,
       "entries": [
@@ -14041,51 +14042,39 @@
       ]
     },
     {
-      "name": "Gunblade Progression",
+      "name": "Flameburster Archetype",
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Gunbreaker",
+      "subclassShortName": "Flameburster",
       "subclassSource": "TftJC",
       "level": 2,
       "entries": [
-        "As your skills improve, you learn to modify your Gunblade. As your Gun Tier levels up, your weapon is upgraded into its next tier by paying for the upgrade cost and spending 1 hour using your Gunsmith’s Tools. If you lose or need to replace your special firearm, you can spend 1 hour per Tier it was by crafting a new Gunblade, and the combined gold cost."
-      ]
-    },
-    {
-      "name": "Gunbreaker Archetype",
-      "source": "TftJC",
-      "className": "Gunner",
-      "classSource": "TftJC",
-      "subclassShortName": "Gunbreaker",
-      "subclassSource": "TftJC",
-      "level": 2,
-      "entries": [
-        "Moving faster than a speeding bullet, this warrior combines steel and gunpowder to eviscerate his foes. As a Gunbreaker, you specialize in close range combat while weaving in bullets and flaming strikes with your Gunblade, a perfect marriage of blade and gun.",
+        "Moving faster than a speeding bullet, this warrior combines steel and gunpowder to eviscerate his foes. As a Flameburster, you specialize in close range combat while weaving in bullets and flaming strikes with your Gunblade, a perfect marriage of blade and gun.",
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Burst Strike|Gunner|TftJC|Gunbreaker|TftJC|2"
+          "subclassFeature": "Burst Strike|Gunner|TftJC|Flameburster|TftJC|2"
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Fighting Style|Gunner|TftJC|Gunbreaker|TftJC|2"
+          "subclassFeature": "Fighting Style|Gunner|TftJC|Flameburster|TftJC|2"
         },
         {
           "type": "refSubclassFeature",
-          "subclassFeature": "Gunblade Progression|Gunner|TftJC|Gunbreaker|TftJC|2"
+          "subclassFeature": "Gunblade Progression|Gunner|TftJC|Flameburster|TftJC|2"
         }
       ]
     },
     {
-      "name": "Gunbreaker Modifications",
+      "name": "Flameburster Modifications",
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Gunbreaker",
+      "subclassShortName": "Flameburster",
       "subclassSource": "TftJC",
-      "level": 6,
+      "level": 3,
       "entries": [
-        "At 6th level, Gunbreakers gain access to new modifications which do not count against their known Modifications. You gain the Tier 2 modification at 10th level, and the Tier 3 modification at 15th level."
+        "At 3rd level, Flamebursters gain access to new modifications which do not count against their known Modifications. You gain the modifications below when you unlock new modification tiers in your Gunner class progression, which do not count against your known modifications."
       ]
     },
     {
@@ -14093,11 +14082,11 @@
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Gunbreaker",
+      "subclassShortName": "Flameburster",
       "subclassSource": "TftJC",
       "level": 6,
       "entries": [
-        "Beginning at 6th level, as a bonus action on your turn, you may expend one cartridge from your barrel to increase your movement speed by 15ft, or triple your jump distance (your choice when using this feature) until the start of your next turn."
+        "Beginning at 6th level, as a bonus action on your turn, you may expend one bullet from your barrel to increase your movement speed by 15ft, or triple your jump distance (your choice when using this feature) until the start of your next turn."
       ]
     },
     {
@@ -14105,23 +14094,23 @@
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Gunbreaker",
+      "subclassShortName": "Flameburster",
       "subclassSource": "TftJC",
       "level": 10,
       "entries": [
-        "Beginning at 10th level you new ways to fire your Gunblade:",
+        "Beginning at 10th level you new ways to fire your firearms:",
         {
           "type": "inset",
           "name": "Danger Zone",
           "entries": [
-            "As an action on your turn, you may expend any number of cartridges from your Gunblade, creating an explosion centered on you with a 10ft radius. All other creatures in range must make a Dexterity saving throw (DC is equal to 8 + Prof + Dex), taking 2d8 Fire damage for each cartridge spent on a failure, and half as much on a success."
+            "As an action on your turn, you may expend any number of bullets from a barrel firearm you are wielding, creating an explosion centered on you with a 10ft radius. All other creatures in range must make a Dexterity saving throw (DC is equal to 8 + Prof + Dex), taking {@dice 2d8} Fire damage for each bullet spent on a failure, and half as much on a success."
           ]
         },
         {
           "type": "inset",
           "name": "Royal Guard",
           "entries": [
-            "When you or an ally within your reach or the short range of your weapon takes damage, you can use your reaction to expend a bullet to reinforce the creatures body. The creature takes reduced damage from that source equal to a roll of your Burst Strike + your Proficiency Bonus."
+            "When you or an ally within your the short range of your firearm takes damage, you can use your reaction to expend a bullet to reinforce the creatures body. The creature takes reduced damage from that source equal to a roll of your Burst Strike + your Proficiency Bonus."
           ]
         }
       ]
@@ -14131,7 +14120,7 @@
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Gunbreaker",
+      "subclassShortName": "Flameburster",
       "subclassSource": "TftJC",
       "level": 10,
       "entries": [
@@ -14143,11 +14132,11 @@
       "source": "TftJC",
       "className": "Gunner",
       "classSource": "TftJC",
-      "subclassShortName": "Gunbreaker",
+      "subclassShortName": "Flameburster",
       "subclassSource": "TftJC",
       "level": 14,
       "entries": [
-        "Beginning at 14th level, as an action on your turn, you may expend all cartridges remaining in your Gunblade, and make an attack against a creature within range for each cartridge expended in this way (you cannot select the same creature twice). Each of these attacks is treated as being a Burst Strike attack. Each attack made in succession while using this feature increases your Gunblades Misfire score by 1 until the end of your turn.",
+        "Beginning at 14th level, as an action on your turn, you may expend all bullets remaining in your Barrel Firearm, and make an attack against a creature within range for each bullet expended in this way (you cannot select the same creature twice). Each of these attacks is treated as being a Burst Strike attack. Each attack made in succession while using this feature increases your Firearm’s Misfire score by 1 until the end of your turn.",
         "Once you’ve used this feature, you cannot use it again until you finish a Long Rest."
       ]
     },
