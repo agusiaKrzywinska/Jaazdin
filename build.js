@@ -1,5 +1,6 @@
 const prompt = require("prompt");
 const fs = require("fs");
+const josnData = require("./Tales_from_the_Jaazdin_Collective.json");
 
 const EXCLUDED_FOLDERS = ["node_modules", ".git", ".vscode"];
 
@@ -43,7 +44,7 @@ prompt.get(
   {
     properties: {
       version: {
-        description: "Enter new version number",
+        description: `Enter new version number (Current: ${josnData._meta.sources[0].version})`,
         type: "string",
         pattern: /^\d+\.\d+\.\d+$/,
         message:
