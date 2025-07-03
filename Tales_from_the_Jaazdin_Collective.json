@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson", "Malcolm Keefe"],
-        "version": "0.3.66"
+        "version": "0.3.67"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1748048936,
+    "dateLastModified": 1751566958,
     "optionalFeatureTypes": {
       "FS:W": "Fighting Style: Warden",
       "TECH": "Technique",
@@ -2044,23 +2044,6 @@
       ]
     },
     {
-      "name": "Deadeye",
-      "source": "TftJC",
-      "type": "R",
-      "rarity": "none",
-      "weight": 10,
-      "value": 10000,
-      "weaponCategory": "martial",
-      "property": ["2H", "AF"],
-      "charges": 6,
-      "dmg1": "1d12",
-      "dmgType": "P",
-      "range": "150/600",
-      "entries": [
-        "<b><i>Clip 6.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
-      ]
-    },
-    {
       "name": "Deneith Cave Gemstone Fragment",
       "source": "TftJC",
       "rarity": "uncommon",
@@ -4071,6 +4054,23 @@
         "Fluffy and warm, these slippers add 10 feet to the base jump distance of the wearer, even from a standing position. Additionally, they grant the user +1 to all acrobatics checks.",
         "<b><i>Good Hare Day.</i></b> Once per day, the wearer of the Slippers of Hopping may boop the noses of their footwear as a bonus action. When this happens, wearer casts Jump upon themselves and triples their jump distance for one minute. For the duration, long rabbit-like ears sprout from the head of the wearer, though the ears may be slicked back if the wearer has a receding hareline. Additionally, every jump is accompanied by a loud “BOING”!",
         "Unfortunately, while wearing the Slippers of Hopping, the user is compelled to do the embarrassing action that bunnies are known for...twitch their nose."
+      ]
+    },
+    {
+      "name": "Sniper Rifle",
+      "source": "TftJC",
+      "type": "R",
+      "rarity": "none",
+      "weight": 10,
+      "value": 10000,
+      "weaponCategory": "martial",
+      "property": ["2H", "AF"],
+      "charges": 6,
+      "dmg1": "1d12",
+      "dmgType": "P",
+      "range": "150/600",
+      "entries": [
+        "<b><i>Clip 6.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
       ]
     },
     {
@@ -13158,6 +13158,34 @@
       ]
     },
     {
+      "name": "Circle Spells",
+      "source": "TftJC",
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Iron Heretic",
+      "subclassSource": "TftJC",
+      "level": 2,
+      "entries": [
+        "Your relationship with metal grants you the ability to tap into magic forbidden to other druids. At 2nd level, you learn one of the following cantrips: booming blade, green flame blade, or sword burst. At 3rd, 5th, 7th, and 9th levels you gain access to the spells listed for that level in the Circle of the Iron Heretic Spells table.",
+        "Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+        {
+          "type": "table",
+          "caption": "Iron Heretic Spells",
+          "colLabels": ["Druid Level", "Spells"],
+          "colStyles": ["col-2 text-center", "col-10"],
+          "rows": [
+            [
+              "3rd",
+              "{@spell aganazzar's scorcher|XGE}, {@spell dragon's breath|XGE}"
+            ],
+            ["5th", "{@spell wall of sand|XGE}, {@spell molten cascade|TftJC}"],
+            ["7th", "{@spell fabricate}, {@spell fire shield}"],
+            ["9th", "{@spell animate objects}, {@spell steel wind strike|XGE}"]
+          ]
+        }
+      ]
+    },
+    {
       "name": "Circle of the Iron Heretic",
       "source": "TftJC",
       "className": "Druid",
@@ -13184,34 +13212,6 @@
         {
           "type": "refSubclassFeature",
           "subclassFeature": "Metallic Carapace|Druid|PHB|Iron Heretic|TftJC|2"
-        }
-      ]
-    },
-    {
-      "name": "Circle Spells",
-      "source": "TftJC",
-      "className": "Druid",
-      "classSource": "PHB",
-      "subclassShortName": "Iron Heretic",
-      "subclassSource": "TftJC",
-      "level": 2,
-      "entries": [
-        "Your relationship with metal grants you the ability to tap into magic forbidden to other druids. At 2nd level, you learn one of the following cantrips: booming blade, green flame blade, or sword burst. At 3rd, 5th, 7th, and 9th levels you gain access to the spells listed for that level in the Circle of the Iron Heretic Spells table.",
-        "Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
-        {
-          "type": "table",
-          "caption": "Iron Heretic Spells",
-          "colLabels": ["Druid Level", "Spells"],
-          "colStyles": ["col-2 text-center", "col-10"],
-          "rows": [
-            [
-              "3rd",
-              "{@spell aganazzar's scorcher|XGE}, {@spell dragon's breath|XGE}"
-            ],
-            ["5th", "{@spell wall of sand|XGE}, {@spell molten cascade|TftJC}"],
-            ["7th", "{@spell fabricate}, {@spell fire shield}"],
-            ["9th", "{@spell animate objects}, {@spell steel wind strike|XGE}"]
-          ]
         }
       ]
     },
