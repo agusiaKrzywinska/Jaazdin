@@ -6,7 +6,8 @@
   "scripts": {
     "destructure": "node destructure.js && npm run format",
     "build": "node build.js && npm run format",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "stringify": "node stringify.js"
   },
   "author": "Mkeefeus",
   "dependencies": {
