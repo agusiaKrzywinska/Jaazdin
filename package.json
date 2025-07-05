@@ -4,8 +4,8 @@
   "description": "Tales from the Jaazdin Collective Homebrew Management Scripts",
   "main": "build.js",
   "scripts": {
-    "destructure": "node destructure.js && npm run format",
-    "build": "node build.js && npm run format",
+    "destructure": "npm run format && node destructure.js",
+    "build": "npm run format && node build.js",
     "format": "prettier --write .",
     "stringify": "node stringify.js"
   },
