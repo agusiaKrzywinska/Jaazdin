@@ -1,0 +1,21 @@
+{
+  "name": "Drum Mag",
+  "source": "TftJC",
+  "type": "G",
+  "rarity": "none",
+  "entries": [
+    "A drum mag operates the same as a clip, but can store much more rounds. A drum mag can be loaded with its maximum number of rounds by spending 5 minutes. Drum mag weapons are prone to jam, and have their misfire score increased by 1."
+  ],
+  "foundryFlags": {
+    "TftJC": {
+      "isAmmoContainer": true
+    }
+  },
+  "foundryType": "equipment",
+  "foundrySystem": {
+    "uses": {
+      "max": "12",
+      "spent": 0
+    }
+  }
+}

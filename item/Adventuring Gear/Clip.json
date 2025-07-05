@@ -1,0 +1,21 @@
+{
+  "name": "Clip",
+  "source": "TftJC",
+  "type": "G",
+  "rarity": "none",
+  "entries": [
+    "Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of bullets detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+  ],
+  "foundryFlags": {
+    "TftJC": {
+      "isAmmoContainer": true
+    }
+  },
+  "foundryType": "equipment",
+  "foundrySystem": {
+    "uses": {
+      "max": "6",
+      "spent": 0
+    }
+  }
+}

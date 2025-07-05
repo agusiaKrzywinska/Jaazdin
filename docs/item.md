@@ -425,6 +425,92 @@ Items that are part of a set:
 }
 ```
 
+## Custom Equipment and Foundry Integration
+
+### Custom Properties
+
+The `customProperties` field allows homebrew items to store custom data:
+
+```json
+"customProperties": {
+  "containerType": "Ammunition Container",
+  "reloadable": true,
+  "clipCapacity": 6
+}
+```
+
+This is an object with string, number, integer, or boolean values for custom attributes.
+
+### Foundry VTT Integration
+
+5eTools provides built-in support for Foundry VTT through specific properties:
+
+#### foundryType
+
+Manually specify the exact Foundry item type:
+
+```json
+"foundryType": "consumable"
+```
+
+Valid types: `"weapon"`, `"equipment"`, `"consumable"`, `"tool"`, `"loot"`, `"class"`, `"spell"`, `"feat"`, `"backpack"`
+
+#### foundrySystem
+
+Configure Foundry-specific system data:
+
+```json
+"foundrySystem": {
+  "consumableType": "ammo",
+  "uses": {
+    "max": 6,
+    "per": "charges"
+  }
+}
+```
+
+#### foundryFlags
+
+Set Foundry module flags:
+
+```json
+"foundryFlags": {
+  "midi-qol": {
+    "onUseMacroName": "ItemMacro"
+  }
+}
+```
+
+### Creating Custom Equipment Types
+
+For custom equipment not covered by standard types:
+
+1. Use `"type": "OTH"` for "Other" items
+2. Add `customProperties` to define custom behavior
+3. Use `foundryType` to specify how it imports into Foundry
+4. Include clear descriptions in `entries`
+
+Example custom ammunition container:
+
+```json
+{
+  "name": "Clip",
+  "source": "TftJC",
+  "type": "OTH",
+  "rarity": "none",
+  "weight": 0.5,
+  "value": 50,
+  "customProperties": {
+    "containerType": "Ammunition Container",
+    "reloadable": true,
+    "clipCapacity": 6
+  },
+  "foundryType": "consumable",
+  "packContents": ["6 rounds"],
+  "entries": ["A metal container designed to hold ammunition for firearms."]
+}
+```
+
 ## Best Practices
 
 1. **Clear Descriptions**: Write item descriptions that clearly explain mechanics and flavor
@@ -434,5 +520,8 @@ Items that are part of a set:
 5. **Cross-References**: Use `{@spell}`, `{@condition}`, etc. for proper linking
 6. **Attunement Logic**: Consider whether powerful items should require attunement
 7. **Charge Systems**: Use charges for limited-use items to prevent abuse
+8. **Schema Compliance**: Always validate against the official 5eTools schema
+9. **Custom Properties**: Use `customProperties` object for homebrew-specific data
+10. **Foundry Integration**: Leverage `foundryType`, `foundrySystem`, and `foundryFlags` for VTT compatibility
 
 This documentation provides comprehensive guidance for creating items that integrate seamlessly with 5eTools and enhance gameplay.

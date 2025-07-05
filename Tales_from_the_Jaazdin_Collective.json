@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson", "Malcolm Keefe"],
-        "version": "0.3.68"
+        "version": "0.3.70"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1751593612,
+    "dateLastModified": 1751759237,
     "optionalFeatureTypes": {
       "FS:W": "Fighting Style: Warden",
       "TECH": "Technique",
@@ -25,7 +25,7 @@
     {
       "name": "Reload",
       "source": "TftJC",
-      "page": 1,
+      "page": 17,
       "time": [
         {
           "number": 1,
@@ -75,7 +75,58 @@
             "A pump ammo system stores a number of bullets directly in the gun. You can reload the barrel with up to 2 bullets as a Bonus Action. Before making an attack with a pump weapon that has more than 1 pump, you can choose to fire up to two bullets as a part of the same attack. Your initial target takes additional damage equal to the weapon’s damage die (this damage isn’t done to creatures within the cone). Pump firearms require a strength score of 13 to reload properly, without this reloading the Firearm is an Action."
           ]
         }
-      ]
+      ],
+      "foundryFlags": {
+        "midi-qol": {
+          "onUseMacroName": "[postActiveEffects]ItemMacro"
+        },
+        "dae": {
+          "macro": {
+            "name": "Reload",
+            "img": "systems/dnd5e/icons/svg/items/feature.svg",
+            "type": "script",
+            "scope": "global",
+            "command": "const { dialogUtils, genericUtils } = chrisPremades.utils;\n\nconst ammoWeapons = workflow.actor.items.filter((item) => {\n    if (!item.type === \"weapon\") {\n        return false;\n    }\n    if (!item.system?.properties) {\n        return false;\n    }\n    if (!item.system.properties.has(\"amm\")) {\n        return false;\n    }\n    if (item.system?.uses?.value === null) {\n        return false;\n    }\n    return true;\n});\n\nif (ammoWeapons.length === 0) {\n    genericUtils.notify('Reload | No weapons found to reload', 'warn')\n    return;\n}\n\nconst weaponId = await dialogUtils.selectDialog(\"Select Weapon\", \"Reload\", {\n    label: \"Select a weapon to reload\",\n    name: \"selectedWeapon\",\n    options: {\n        options: ammoWeapons.map((item) => {\n            return {\n                label: `${item.name} (${item.system.uses.value}/${item.system.uses.max})`,\n                value: item._id,\n            };\n        }),\n    },\n});\n\nif (!weaponId && weaponId !== 0) {\n    genericUtils.notify('Reload | No weapon selected', 'warn');\n    return;\n}\n\nconst ammo = workflow.actor.items.filter((item) => {\n    if (item.type !== \"consumable\") {\n        return false;\n    }\n    if (item.system?.type?.value !== \"ammo\") {\n        return false;\n    }\n    if (!item.system?.quantity || item.system.quantity <= 0) {\n        return false;\n    }\n    return true;\n});\n\nif (!ammo || ammo.length === 0) {\n    genericUtils.notify('Reload | No ammo found', 'warn');\n    return;\n}\n\nconst ammoId = await dialogUtils.selectDialog(\"Select Ammo\", \"Reload\", {\n    label: \"Select ammo to use\",\n    name: \"selectedAmmo\",\n    options: {\n        options: ammo.map((item) => {\n            return {\n                label: `${item.name} (${item.system.quantity})`,\n                value: item._id,\n            };\n        }),\n    },\n});\n\nif (!ammoId) {\n    genericUtils.notify('Reload | No ammo selected', 'warn');\n    return;\n}\n\nselectedWeapon = workflow.actor.items.get(weaponId);\nselectedAmmo = workflow.actor.items.get(ammoId);\n\nconst clipSize = selectedWeapon.system.uses.max;\nconst loadedAmmo = selectedWeapon.system.uses.value;\nconst unloadedAmmo = selectedAmmo.system.quantity;\nif (unloadedAmmo <= 0) {\n    genericUtils.notify('Reload | No ammo available to load', 'warn');\n    return;\n}\nif (loadedAmmo >= clipSize) {\n    genericUtils.notify('Reload | Weapon is already fully loaded', 'warn');\n    return;\n}\nconst ammoToLoad = Math.min(clipSize - loadedAmmo, unloadedAmmo);\nawait selectedWeapon.update({\n    \"system.uses.value\": loadedAmmo + ammoToLoad,\n});\nawait selectedAmmo.update({\n    \"system.quantity\": unloadedAmmo - ammoToLoad,\n});\nawait workflow.actor.sheet.render(true);"
+          }
+        }
+      },
+      "foundryActivities": [
+        {
+          "type": "utility",
+          "foundryId": "reloadAction",
+          "description": {
+            "chatFlavor": "Reload a firearm with ammunition"
+          },
+          "consumption": {
+            "targets": [
+              {
+                "target": "charges",
+                "value": "1"
+              }
+            ]
+          }
+        }
+      ],
+      "foundrySystem": {
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "target": {
+          "prompt": true
+        },
+        "uses": {
+          "prompt": true
+        },
+        "consume": {
+          "type": "charges",
+          "amount": 1,
+          "scale": false
+        },
+        "actionType": "utility"
+      },
+      "foundryImg": "icons/weapons/ammunition/bullets-cartridge-shell-gray.webp"
     }
   ],
   "background": [
@@ -1312,96 +1363,6 @@
       ]
     }
   ],
-  "foundryAction": [
-    {
-      "source": "TftJC",
-      "name": "Reload",
-      "img": "icons/weapons/ammunition/bullets-cartridge-shell-gray.webp",
-      "system": {
-        "description": {
-          "value": "As a bonus action, you can reload a firearm by expending appropriate ammunition from your inventory.",
-          "chat": ""
-        },
-        "activation": {
-          "type": "bonus",
-          "cost": 1,
-          "condition": ""
-        },
-        "target": {
-          "prompt": true
-        },
-        "uses": {
-          "prompt": true
-        },
-        "consume": {
-          "type": "charges",
-          "amount": 1,
-          "scale": false
-        },
-        "actionType": "utility"
-      },
-      "activities": [
-        {
-          "type": "utility",
-          "foundryId": "reloadAction",
-          "description": {
-            "chatFlavor": "Reload a firearm with ammunition"
-          },
-          "consumption": {
-            "targets": [
-              {
-                "target": "charges",
-                "value": "1"
-              }
-            ]
-          }
-        }
-      ],
-      "flags": {
-        "midiProperties": {
-          "confirmTargets": "default",
-          "autoFailFriendly": false,
-          "autoSaveFriendly": false,
-          "critOther": false,
-          "offHandWeapon": false,
-          "magicdam": false,
-          "magiceffect": false,
-          "noConcentrationCheck": false,
-          "toggleEffect": false,
-          "ignoreTotalCover": false,
-          "idr": false,
-          "idi": false,
-          "idv": false,
-          "ida": false
-        },
-        "midi-qol": {
-          "rollAttackPerTarget": "default",
-          "itemCondition": "",
-          "effectCondition": "",
-          "onUseMacroName": "[postActiveEffects]ItemMacro"
-        },
-        "dae": {
-          "macro": {
-            "name": "Reload",
-            "img": "systems/dnd5e/icons/svg/items/feature.svg",
-            "type": "script",
-            "scope": "global",
-            "command": "const { dialogUtils, genericUtils } = chrisPremades.utils;\n\nconst ammoWeapons = workflow.actor.items.filter((item) => {\n    if (!item.type === \"weapon\") {\n        return false;\n    }\n    if (!item.system?.properties) {\n        return false;\n    }\n    if (!item.system.properties.has(\"amm\")) {\n        return false;\n    }\n    if (item.system?.uses?.value === null) {\n        return false;\n    }\n    return true;\n});\n\nif (ammoWeapons.length === 0) {\n    genericUtils.notify('Reload | No weapons found to reload', 'warn')\n    return;\n}\n\nconst weaponId = await dialogUtils.selectDialog(\"Select Weapon\", \"Reload\", {\n    label: \"Select a weapon to reload\",\n    name: \"selectedWeapon\",\n    options: {\n        options: ammoWeapons.map((item) => {\n            return {\n                label: `${item.name} (${item.system.uses.value}/${item.system.uses.max})`,\n                value: item._id,\n            };\n        }),\n    },\n});\n\nif (!weaponId && weaponId !== 0) {\n    genericUtils.notify('Reload | No weapon selected', 'warn');\n    return;\n}\n\nconst ammo = workflow.actor.items.filter((item) => {\n    if (item.type !== \"consumable\") {\n        return false;\n    }\n    if (item.system?.type?.value !== \"ammo\") {\n        return false;\n    }\n    if (!item.system?.quantity || item.system.quantity <= 0) {\n        return false;\n    }\n    return true;\n});\n\nif (!ammo || ammo.length === 0) {\n    genericUtils.notify('Reload | No ammo found', 'warn');\n    return;\n}\n\nconst ammoId = await dialogUtils.selectDialog(\"Select Ammo\", \"Reload\", {\n    label: \"Select ammo to use\",\n    name: \"selectedAmmo\",\n    options: {\n        options: ammo.map((item) => {\n            return {\n                label: `${item.name} (${item.system.quantity})`,\n                value: item._id,\n            };\n        }),\n    },\n});\n\nif (!ammoId) {\n    genericUtils.notify('Reload | No ammo selected', 'warn');\n    return;\n}\n\nselectedWeapon = workflow.actor.items.get(weaponId);\nselectedAmmo = workflow.actor.items.get(ammoId);\n\nconst clipSize = selectedWeapon.system.uses.max;\nconst loadedAmmo = selectedWeapon.system.uses.value;\nconst unloadedAmmo = selectedAmmo.system.quantity;\nif (unloadedAmmo <= 0) {\n    genericUtils.notify('Reload | No ammo available to load', 'warn');\n    return;\n}\nif (loadedAmmo >= clipSize) {\n    genericUtils.notify('Reload | Weapon is already fully loaded', 'warn');\n    return;\n}\nconst ammoToLoad = Math.min(clipSize - loadedAmmo, unloadedAmmo);\nawait selectedWeapon.update({\n    \"system.uses.value\": loadedAmmo + ammoToLoad,\n});\nawait selectedAmmo.update({\n    \"system.quantity\": unloadedAmmo - ammoToLoad,\n});\nawait workflow.actor.sheet.render(true);"
-          }
-        },
-        "tftjc": {
-          "originalFoundryId": "a19mUU7O1la4al7k",
-          "isFirearmAction": true,
-          "automatedReloading": true
-        }
-      },
-      "_merge": {
-        "system": true,
-        "activities": true,
-        "flags": true
-      }
-    }
-  ],
   "item": [
     {
       "name": "Alchemic Claret",
@@ -1566,6 +1527,27 @@
         "Damage dealt to beasts and monstrosities (including lycanthropes in their hybrid or beast forms) cannot be resisted or reduced in any way.",
         "While within 60 feet of a monstrosity or lycanthrope in their humanoid form, the blade glows a sickly green. The intensity of the glow increases as your proximity to the target does."
       ]
+    },
+    {
+      "name": "Belt",
+      "source": "TftJC",
+      "type": "G",
+      "rarity": "none",
+      "entries": [
+        "Upon crafting a Belt fed firearm, you additionally gain 1 Belt. Belt fed firearms can make 2 attacks per attack they can make, but do not add your Dexterity Modifier to the damage. Each subsequent attack made with this weapon in one round receives a -1 to hit. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1."
+      ],
+      "foundryFlags": {
+        "TftJC": {
+          "isAmmoContainer": true
+        }
+      },
+      "foundryType": "equipment",
+      "foundrySystem": {
+        "uses": {
+          "max": "6",
+          "spent": 0
+        }
+      }
     },
     {
       "name": "Big Dipper",
@@ -2038,6 +2020,27 @@
       ]
     },
     {
+      "name": "Clip",
+      "source": "TftJC",
+      "type": "G",
+      "rarity": "none",
+      "entries": [
+        "Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of bullets detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+      ],
+      "foundryFlags": {
+        "TftJC": {
+          "isAmmoContainer": true
+        }
+      },
+      "foundryType": "equipment",
+      "foundrySystem": {
+        "uses": {
+          "max": "6",
+          "spent": 0
+        }
+      }
+    },
+    {
       "name": "Compass of Seeking",
       "source": "TftJC",
       "type": "T",
@@ -2306,6 +2309,27 @@
         }
       ],
       "attachedSpells": ["detect evil and good", "detect magic"]
+    },
+    {
+      "name": "Drum Mag",
+      "source": "TftJC",
+      "type": "G",
+      "rarity": "none",
+      "entries": [
+        "A drum mag operates the same as a clip, but can store much more rounds. A drum mag can be loaded with its maximum number of rounds by spending 5 minutes. Drum mag weapons are prone to jam, and have their misfire score increased by 1."
+      ],
+      "foundryFlags": {
+        "TftJC": {
+          "isAmmoContainer": true
+        }
+      },
+      "foundryType": "equipment",
+      "foundrySystem": {
+        "uses": {
+          "max": "12",
+          "spent": 0
+        }
+      }
     },
     {
       "name": "Dual Doors of Knox",

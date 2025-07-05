@@ -1,0 +1,21 @@
+{
+  "name": "Belt",
+  "source": "TftJC",
+  "type": "G",
+  "rarity": "none",
+  "entries": [
+    "Upon crafting a Belt fed firearm, you additionally gain 1 Belt. Belt fed firearms can make 2 attacks per attack they can make, but do not add your Dexterity Modifier to the damage. Each subsequent attack made with this weapon in one round receives a -1 to hit. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1."
+  ],
+  "foundryFlags": {
+    "TftJC": {
+      "isAmmoContainer": true
+    }
+  },
+  "foundryType": "equipment",
+  "foundrySystem": {
+    "uses": {
+      "max": "6",
+      "spent": 0
+    }
+  }
+}
