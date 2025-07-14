@@ -15,12 +15,12 @@
                     "Adam Henderson",
                     "Malcolm Keefe"
                 ],
-                "version": "0.3.72"
+                "version": "0.3.73"
             }
         ],
         "edition": "classic",
         "dateAdded": 0,
-        "dateLastModified": 1752527404,
+        "dateLastModified": 1752535958,
         "optionalFeatureTypes": {
             "FS:W": "Fighting Style: Warden",
             "TECH": "Technique",
@@ -3496,7 +3496,7 @@
             "entries": [
                 "This guide contains self-help tricks on improving your charisma and social standing.",
                 "It can be read over 1 week to grant a creature a 10% discount to one purchase in downtime, provided it is an object of the same or lower rarity as this tome. ",
-                "Alternatively, a creature reading it can instead read the book to increase their General Store, Stablehand, or Taxi/Landlord Wage Progression by 1.",
+                "Alternatively, a creature reading it can instead read the book to increase their General Store, Stablehand, Taxi/Landlord, or Tour Guide Wage Progression by 1.",
                 "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
@@ -3509,7 +3509,7 @@
             "entries": [
                 "This guide contains self-help tricks on improving your charisma and social standing.",
                 "It can be read over 1 week to grant a creature a 10% discount to one purchase in downtime, provided it is an object of the same or lower rarity as this tome. ",
-                "Alternatively, a creature reading it can instead read the book to increase their General Store, Stablehand, or Taxi/Landlord Wage Progression by 2.",
+                "Alternatively, a creature reading it can instead read the book to increase their General Store, Stablehand, Taxi/Landlord, or Tour Guide Wage Progression by 2.",
                 "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
@@ -3522,7 +3522,7 @@
             "entries": [
                 "This guide contains self-help tricks on improving your charisma and social standing.",
                 "It can be read over 1 week to grant a creature a 10% discount to one purchase in downtime, provided it is an object of the same or lower rarity as this tome. ",
-                "Alternatively, a creature reading it can instead read the book to increase their General Store, Stablehand, or Taxi/Landlord Wage Progression by 3.",
+                "Alternatively, a creature reading it can instead read the book to increase their General Store, Stablehand, Taxi/Landlord, or Tour Guide Wage Progression by 3.",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
@@ -3535,7 +3535,7 @@
             "entries": [
                 "This guide contains self-help tricks on improving your charisma and social standing.",
                 "It can be read over 1 week to grant a creature a 10% discount to one purchase in downtime, provided it is an object of the same or lower rarity as this tome. ",
-                "Alternatively, a creature reading it can instead read the book to increase their General Store, Stablehand, or Taxi/Landlord Wage Progression by 4.",
+                "Alternatively, a creature reading it can instead read the book to increase their General Store, Stablehand, Taxi/Landlord, or Tour Guide Wage Progression by 4.",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
@@ -4505,7 +4505,7 @@
             "entries": [
                 "This tome contains tips, tricks, and hacks for improving ones body and physical form.",
                 "It can be read over 1 week to grant a creature an extra {@dice 2d4}’s to an Athletics or Acrobatics check made during downtime.",
-                "Alternatively, a creature reading it can instead read the book to increase their General Laborer, Guard/Bouncer, Barkeep, or Dock Worker Wage Progression by 1",
+                "Alternatively, a creature reading it can instead read the book to increase their General Laborer, Guard/Bouncer, Barkeep, Docks, or Instructor Wage Progression by 1",
                 "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
@@ -4518,7 +4518,7 @@
             "entries": [
                 "This tome contains tips, tricks, and hacks for improving ones body and physical form.",
                 "It can be read over 1 week to grant a creature an extra {@dice 4d4}’s to an Athletics or Acrobatics check made during downtime.",
-                "Alternatively, a creature reading it can instead read the book to increase their General Laborer, Guard/Bouncer, Barkeep, or Dock Worker Wage Progression by 2",
+                "Alternatively, a creature reading it can instead read the book to increase their General Laborer, Guard/Bouncer, Barkeep, Docks, or Instructor Wage Progression by 2",
                 "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
@@ -4531,7 +4531,7 @@
             "entries": [
                 "This tome contains tips, tricks, and hacks for improving ones body and physical form.",
                 "It can be read over 1 week to grant a creature an extra {@dice 7d4}’s to an Athletics or Acrobatics check made during downtime.",
-                "Alternatively, a creature reading it can instead read the book to increase their General Laborer, Guard/Bouncer, Barkeep, or Dock Worker Wage Progression by 3",
+                "Alternatively, a creature reading it can instead read the book to increase their General Laborer, Guard/Bouncer, Barkeep, Docks, or Instructor Wage Progression by 3",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
@@ -4544,7 +4544,7 @@
             "entries": [
                 "This tome contains tips, tricks, and hacks for improving ones body and physical form.",
                 "It can be read over 1 week to grant a creature an extra {@dice 10d4}’s to an Athletics or Acrobatics check made during downtime.",
-                "Alternatively, a creature reading it can instead read the book to increase their General Laborer, Guard/Bouncer, Barkeep, or Dock Worker Wage Progression by 4",
+                "Alternatively, a creature reading it can instead read the book to increase their General Laborer, Guard/Bouncer, Barkeep, Docks, or Instructor Wage Progression by 4",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
@@ -6006,7 +6006,7 @@
             "entries": [
                 "This tome contains the secrets of invention and innovation.",
                 "It can be read over 1 week to gain +10 towards any tool check made in downtime.",
-                "Alternatively, a creature reading it can instead read the book to increase their Teaching, Tinkering, Carpentry, or Smithing Wage Progression by 1",
+                "Alternatively, a creature reading it can instead read the book to increase their Teaching, Tinkering, Carpentry, Smithing, or Sculptor Wage Progression by 1",
                 "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
@@ -6019,7 +6019,7 @@
             "entries": [
                 "This tome contains the secrets of invention and innovation.",
                 "It can be read over 1 week to gain +15 towards any tool check made in downtime.",
-                "Alternatively, a creature reading it can instead read the book to increase their Teaching, Tinkering, Carpentry, or Smithing Wage Progression by 2",
+                "Alternatively, a creature reading it can instead read the book to increase their Teaching, Tinkering, Carpentry, Smithing, or Sculptor Wage Progression by 2",
                 "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
@@ -6032,7 +6032,7 @@
             "entries": [
                 "This tome contains the secrets of invention and innovation.",
                 "It can be read over 1 week to gain +20 towards any tool check made in downtime.",
-                "Alternatively, a creature reading it can instead read the book to increase their Teaching, Tinkering, Carpentry, or Smithing Wage Progression by 3",
+                "Alternatively, a creature reading it can instead read the book to increase their Teaching, Tinkering, Carpentry, Smithing, or Sculptor Wage Progression by 3",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },
@@ -6045,7 +6045,7 @@
             "entries": [
                 "This tome contains the secrets of invention and innovation.",
                 "It can be read over 1 week to gain +25 towards any tool check made in downtime.",
-                "Alternatively, a creature reading it can instead read the book to increase their Teaching, Tinkering, Carpentry, or Smithing Wage Progression by 4",
+                "Alternatively, a creature reading it can instead read the book to increase their Teaching, Tinkering, Carpentry, Smithing, or Sculptor Wage Progression by 4",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
             ]
         },

@@ -1,10 +1,10 @@
 {
-    "name": "Potion of Perfection",
-    "rarity": "legendary",
-    "type": "P",
-    "source": "TftJC",
-    "entries": [
-        "This potion looks to be made from liquid gold. Drinking this potion grants the creature near Perfection in everything it does. Any d20 roll on a Skill check that is 7 or lower is treated as an 8. Your Proficiency Bonus is treated as 2 Higher. You gain 1 Legendary Resistance, which is lost after the duration runs out.",
-        "These effects last for 1 hour. The potion's remaining duration is halved each time you fail a skill check/saving throw."
-    ]
+  "name": "Potion of Perfection",
+  "rarity": "legendary",
+  "type": "P",
+  "source": "TftJC",
+  "entries": [
+    "This potion looks to be made from liquid gold. Drinking this potion grants the creature near Perfection in everything it does. Any d20 roll on a Skill check that is 7 or lower is treated as an 8. Your Proficiency Bonus is treated as 2 Higher. You gain 1 Legendary Resistance, which is lost after the duration runs out.",
+    "These effects last for 1 hour. The potion's remaining duration is halved each time you fail a skill check/saving throw."
+  ]
 }
