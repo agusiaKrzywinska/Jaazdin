@@ -1,11 +1,9 @@
 {
-    "name": "Covering Fire",
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "TECH"
-    ],
-    "entries": [
-        "You forgo an attack to lay down a command of covering fire over an area. Choose a 15ft cube within your ranged weapon's short range. Until the start of your next turn, whenever a creature moves into or exits that area, you or any of your allies within 60ft of the cube can use their reaction to make a single ranged attack against that creature."
-    ]
+  "name": "Covering Fire",
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["TECH"],
+  "entries": [
+    "You forgo an attack to lay down a command of covering fire over an area. Choose a 15ft cube within your ranged weapon's short range. Until the start of your next turn, whenever a creature moves into or exits that area, you or any of your allies within 60ft of the cube can use their reaction to make a single ranged attack against that creature."
+  ]
 }

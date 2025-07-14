@@ -1,14 +1,14 @@
 {
-    "name": "Wayward Conclave",
-    "source": "TftJC",
-    "page": 35,
-    "className": "Ranger",
-    "classSource": "PHB",
-    "shortName": "Wayward",
-    "subclassFeatures": [
-        "Wayward Conclave|Ranger|PHB|Wayward|TftJC|3",
-        "Can't Be Tied Down|Ranger|PHB|Wayward|TftJC|7",
-        "A New Adventure Awaits|Ranger|PHB|Wayward|TftJC|11",
-        "Places to be|Ranger|PHB|Wayward|TftJC|15"
-    ]
+  "name": "Wayward Conclave",
+  "source": "TftJC",
+  "page": 35,
+  "className": "Ranger",
+  "classSource": "PHB",
+  "shortName": "Wayward",
+  "subclassFeatures": [
+    "Wayward Conclave|Ranger|PHB|Wayward|TftJC|3",
+    "Can't Be Tied Down|Ranger|PHB|Wayward|TftJC|7",
+    "A New Adventure Awaits|Ranger|PHB|Wayward|TftJC|11",
+    "Places to be|Ranger|PHB|Wayward|TftJC|15"
+  ]
 }

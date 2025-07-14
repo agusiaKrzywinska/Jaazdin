@@ -1,10 +1,10 @@
 {
-    "name": "Firearm Crafter",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "level": 1,
-    "entries": [
-        "At 1st level, you learn how to craft firearms. You can determine what firearm you can craft by its Tier. You gain access to new firearms as you level up in this class, and gain access to special firearms based on your Subclass. You can craft additional firearms on this table so long as you meet its Tier. A firearm takes a number of hours to craft equal to its Tier x 2. Its cost is shown in the Firearms table."
-    ]
+  "name": "Firearm Crafter",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "level": 1,
+  "entries": [
+    "At 1st level, you learn how to craft firearms. You can determine what firearm you can craft by its Tier. You gain access to new firearms as you level up in this class, and gain access to special firearms based on your Subclass. You can craft additional firearms on this table so long as you meet its Tier. A firearm takes a number of hours to craft equal to its Tier x 2. Its cost is shown in the Firearms table."
+  ]
 }

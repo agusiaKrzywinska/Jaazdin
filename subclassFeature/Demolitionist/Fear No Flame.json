@@ -1,12 +1,12 @@
 {
-    "name": "Fear No Flame",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Demolitionist",
-    "subclassSource": "TftJC",
-    "level": 14,
-    "entries": [
-        "At 14th level, you learn to bear the damage you cause. You gain resistance to Fire damage, and you and creatures of your choice take no damage from Fire Damage dealt by firearms you attack with."
-    ]
+  "name": "Fear No Flame",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Demolitionist",
+  "subclassSource": "TftJC",
+  "level": 14,
+  "entries": [
+    "At 14th level, you learn to bear the damage you cause. You gain resistance to Fire damage, and you and creatures of your choice take no damage from Fire Damage dealt by firearms you attack with."
+  ]
 }

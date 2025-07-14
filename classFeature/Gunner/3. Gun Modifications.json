@@ -1,11 +1,11 @@
 {
-    "name": "Gun Modifications",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "At 3rd level, you learn how to craft modifications for your guns. Firearms can have varying numbers of modifications applied to them, which is detailed in the Firearms list. It takes 1 minute to apply or remove a Modification from a Firearm. You learn 4 modifications, and learn more as you progress in the class. Each Firearm you wield can benefit from an additional number of Modifications equal to your Proficiency Bonus.",
-        "If you apply modifications to a Firearm, only you (or another creature that knows how to craft those modifications) can benefit from them. Below are your possible modifications."
-    ]
+  "name": "Gun Modifications",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "At 3rd level, you learn how to craft modifications for your guns. Firearms can have varying numbers of modifications applied to them, which is detailed in the Firearms list. It takes 1 minute to apply or remove a Modification from a Firearm. You learn 4 modifications, and learn more as you progress in the class. Each Firearm you wield can benefit from an additional number of Modifications equal to your Proficiency Bonus.",
+    "If you apply modifications to a Firearm, only you (or another creature that knows how to craft those modifications) can benefit from them. Below are your possible modifications."
+  ]
 }

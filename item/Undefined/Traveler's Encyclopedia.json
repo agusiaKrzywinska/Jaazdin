@@ -1,10 +1,10 @@
 {
-    "name": "Traveler's Encyclopedia",
-    "source": "TftJC",
-    "rarity": "rare",
-    "wondrous": true,
-    "entries": [
-        "This book contains space for one to jot down their own notes. The book can be used to record ones thoughts for a total of 40 hours, after which the user can choose 1 skill or tool that they are proficient in and gain a permanent +1 to that skill.",
-        "Once used the book becomes non-magical."
-    ]
+  "name": "Traveler's Encyclopedia",
+  "source": "TftJC",
+  "rarity": "rare",
+  "wondrous": true,
+  "entries": [
+    "This book contains space for one to jot down their own notes. The book can be used to record ones thoughts for a total of 40 hours, after which the user can choose 1 skill or tool that they are proficient in and gain a permanent +1 to that skill.",
+    "Once used the book becomes non-magical."
+  ]
 }

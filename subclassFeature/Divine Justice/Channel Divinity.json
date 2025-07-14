@@ -1,26 +1,26 @@
 {
-    "name": "Channel Divinity",
-    "source": "TftJC",
-    "className": "Paladin",
-    "classSource": "PHB",
-    "subclassShortName": "Divine Justice",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "When you take this Oath at 3rd level, you gain access to two new channel divinity options.",
-        {
-            "type": "inset",
-            "name": "Fervor",
-            "entries": [
-                "As an Action, you ignite a weapon you are holding with Holy Fervor. It becomes magical for purposes of damage against other creatures. Select either Fire or Radiant damage. For the next minute, at the start of your turn your weapon grows in power. It deals an additional 1 Radiant or Fire damage (your choice when you first activate this ability). This bonus continues to add on at the start of each of your turns (up to a maximum of 10), and is lost when you fall unconscious or after a minute passes."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Leaping Flames",
-            "entries": [
-                "As a Bonus Action, you imbue a melee weapon within 30ft of you that you can see with Flames. For the next minute, the wielder's body is engulfed in flames, granting them a +10 to all Intimidation (Charisma) checks they make. The wielder can end this effect early if they choose by using the flames to empower a weapon attack. The next melee weapon attack they make with the flaming weapon gains an additional 30 ft of reach. Then, all creatures within 5ft of the target creature (including the target creature) take fire damage equal to your Charisma Modifier. The adjacent creatures also take additional Fire damage equal to the weapon's damage die.The flames are ended after the attack is made, the weapon is dropped or stowed, or a minute passes."
-            ]
-        }
-    ]
+  "name": "Channel Divinity",
+  "source": "TftJC",
+  "className": "Paladin",
+  "classSource": "PHB",
+  "subclassShortName": "Divine Justice",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "When you take this Oath at 3rd level, you gain access to two new channel divinity options.",
+    {
+      "type": "inset",
+      "name": "Fervor",
+      "entries": [
+        "As an Action, you ignite a weapon you are holding with Holy Fervor. It becomes magical for purposes of damage against other creatures. Select either Fire or Radiant damage. For the next minute, at the start of your turn your weapon grows in power. It deals an additional 1 Radiant or Fire damage (your choice when you first activate this ability). This bonus continues to add on at the start of each of your turns (up to a maximum of 10), and is lost when you fall unconscious or after a minute passes."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Leaping Flames",
+      "entries": [
+        "As a Bonus Action, you imbue a melee weapon within 30ft of you that you can see with Flames. For the next minute, the wielder's body is engulfed in flames, granting them a +10 to all Intimidation (Charisma) checks they make. The wielder can end this effect early if they choose by using the flames to empower a weapon attack. The next melee weapon attack they make with the flaming weapon gains an additional 30 ft of reach. Then, all creatures within 5ft of the target creature (including the target creature) take fire damage equal to your Charisma Modifier. The adjacent creatures also take additional Fire damage equal to the weapon's damage die.The flames are ended after the attack is made, the weapon is dropped or stowed, or a minute passes."
+      ]
+    }
+  ]
 }

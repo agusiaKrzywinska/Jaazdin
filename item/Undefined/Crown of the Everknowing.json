@@ -1,16 +1,16 @@
 {
-    "name": "Crown of the Everknowing",
-    "source": "TftJC",
-    "rarity": "artifact",
-    "wondrous": true,
-    "curse": true,
-    "ability": {
-        "int": 2
-    },
-    "entries": [
-        "This crown once belonged to the Golden Empress of Mere’su’ra who hungered to know everything in the world. This crown is inset with nine sapphires that glow with a soft blue light. A creature wearing this crown gains +2 to their Intelligence and increases their maximum Intelligence to 22.",
-        "While wearing this crown, you gain +1 max Hit Points for each tool or language proficiency you have.",
-        "<b><i>Cursed.</i></b> This crown is imbued with the Thilask’s lust for knowledge, which infects the wearer. You will go to great lengths to learn and hoard secrets. Gaps in your knowledge irritate you and you will try to fill them whenever possible.",
-        "Whenever you fail a History, Nature, Arcana, or Religion check, one of the seven sapphires on the crown will light up. When all seven gems light up, you suffer 20d10 psychic damage and have disadvantage on any Intelligence saving throws, attack rolls, and ability checks for one week. If this damage reduces a creature to zero hit points they turn into a Nothic. If the crown ever leaves your person, your Intelligence becomes 1, this lasts until you have the Crown again or a 9th level Remove Curse removes the curse."
-    ]
+  "name": "Crown of the Everknowing",
+  "source": "TftJC",
+  "rarity": "artifact",
+  "wondrous": true,
+  "curse": true,
+  "ability": {
+    "int": 2
+  },
+  "entries": [
+    "This crown once belonged to the Golden Empress of Mere’su’ra who hungered to know everything in the world. This crown is inset with nine sapphires that glow with a soft blue light. A creature wearing this crown gains +2 to their Intelligence and increases their maximum Intelligence to 22.",
+    "While wearing this crown, you gain +1 max Hit Points for each tool or language proficiency you have.",
+    "<b><i>Cursed.</i></b> This crown is imbued with the Thilask’s lust for knowledge, which infects the wearer. You will go to great lengths to learn and hoard secrets. Gaps in your knowledge irritate you and you will try to fill them whenever possible.",
+    "Whenever you fail a History, Nature, Arcana, or Religion check, one of the seven sapphires on the crown will light up. When all seven gems light up, you suffer 20d10 psychic damage and have disadvantage on any Intelligence saving throws, attack rolls, and ability checks for one week. If this damage reduces a creature to zero hit points they turn into a Nothic. If the crown ever leaves your person, your Intelligence becomes 1, this lasts until you have the Crown again or a 9th level Remove Curse removes the curse."
+  ]
 }

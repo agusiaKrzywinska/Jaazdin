@@ -1,27 +1,23 @@
 {
-    "name": "Explosive Rounds",
-    "prerequisite": [
-        {
-            "level": {
-                "level": 17,
-                "class": {
-                    "name": "Gunner"
-                }
-            },
-            "feature": [
-                "Gunner: Demolitionist, Cannot be used with Gas"
-            ]
+  "name": "Explosive Rounds",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 17,
+        "class": {
+          "name": "Gunner"
         }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "MOD"
-    ],
-    "consumes": {
-        "name": "800gp"
-    },
-    "entries": [
-        "This weapon's attacks gain Explosive 10, or add 10 explosive to their value."
-    ]
+      },
+      "feature": ["Gunner: Demolitionist, Cannot be used with Gas"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "800gp"
+  },
+  "entries": [
+    "This weapon's attacks gain Explosive 10, or add 10 explosive to their value."
+  ]
 }

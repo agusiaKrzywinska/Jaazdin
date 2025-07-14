@@ -1,22 +1,18 @@
 {
-    "name": "Throwing Star",
-    "source": "TftJC",
-    "page": 36,
-    "type": "M",
-    "rarity": "none",
-    "weight": 0.25,
-    "value": 50,
-    "weaponCategory": "martial",
-    "property": [
-        "F",
-        "L",
-        "T"
-    ],
-    "dmg1": "1d4",
-    "dmgType": "P",
-    "range": "30/90",
-    "entries": [
-        "<b><i>Special.</i></b> After using a Throwing Star for your Attack Action, you can use your Bonus Action to throw an additional Star, provided you have another. You can hold up to three Stars in one hand at a time.",
-        "<b><i>Special.</i></b> Only Ninjutsu Rogues are able to gain proficiency with this weapon."
-    ]
+  "name": "Throwing Star",
+  "source": "TftJC",
+  "page": 36,
+  "type": "M",
+  "rarity": "none",
+  "weight": 0.25,
+  "value": 50,
+  "weaponCategory": "martial",
+  "property": ["F", "L", "T"],
+  "dmg1": "1d4",
+  "dmgType": "P",
+  "range": "30/90",
+  "entries": [
+    "<b><i>Special.</i></b> After using a Throwing Star for your Attack Action, you can use your Bonus Action to throw an additional Star, provided you have another. You can hold up to three Stars in one hand at a time.",
+    "<b><i>Special.</i></b> Only Ninjutsu Rogues are able to gain proficiency with this weapon."
+  ]
 }

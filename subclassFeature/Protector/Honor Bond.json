@@ -1,21 +1,21 @@
 {
-    "name": "Honor Bond",
-    "source": "TftJC",
-    "className": "Warden",
-    "classSource": "TftJC",
-    "subclassShortName": "Protector",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "When you take this tract at 3rd level, you gain the ability to make a vow of protection towards one creature. As a bonus action you vow to protect one creature within 30ft of you making them your Honor Bound. Until you choose another target, you and the subject of your oath gain the following benefits:",
-        {
-            "type": "list",
-            "items": [
-                "Whenever you use the Help action on that creature, they roll 1d4 and add it to the result.",
-                "When within 30ft of each other, you both gain a +1 bonus to AC and saving throws.",
-                "If you finish a short rest and have access to that creature for the full duration of the rest, they can add half your proficiency modifier to any hit dice they spend during that rest."
-            ]
-        },
-        "Once you use a bonus action to designate a target, you cannot do so again until you finish a long rest. If a creature is already part of an Honor Bond, they cannot benefit from a second one."
-    ]
+  "name": "Honor Bond",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Protector",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "When you take this tract at 3rd level, you gain the ability to make a vow of protection towards one creature. As a bonus action you vow to protect one creature within 30ft of you making them your Honor Bound. Until you choose another target, you and the subject of your oath gain the following benefits:",
+    {
+      "type": "list",
+      "items": [
+        "Whenever you use the Help action on that creature, they roll 1d4 and add it to the result.",
+        "When within 30ft of each other, you both gain a +1 bonus to AC and saving throws.",
+        "If you finish a short rest and have access to that creature for the full duration of the rest, they can add half your proficiency modifier to any hit dice they spend during that rest."
+      ]
+    },
+    "Once you use a bonus action to designate a target, you cannot do so again until you finish a long rest. If a creature is already part of an Honor Bond, they cannot benefit from a second one."
+  ]
 }

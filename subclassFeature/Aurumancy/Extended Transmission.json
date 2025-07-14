@@ -1,26 +1,26 @@
 {
-    "name": "Extended Transmission",
-    "source": "TftJC",
-    "className": "Wizard",
-    "classSource": "PHB",
-    "subclassShortName": "Aurumancy",
-    "subclassSource": "TftJC",
-    "level": 6,
-    "entries": [
-        "At 6th level, you can operate your Transmitter with increased range. Its maximum range becomes 30ft, and its movement increases to 45ft per turn. Your Aurumany Transmitter also gains new features it can use (following other rules in Pyramid of Power). Only one of these features can be active at a time, which can be changed as a Bonus Action:",
-        {
-            "type": "inset",
-            "name": "Aurum Barrier",
-            "entries": [
-                "Creatures of your choice within 5ft of it gain advantage on saving throws from magical effects and spells of a lower level used to activate the transmitter."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Aurum Strike",
-            "entries": [
-                "Creatures of your choice within 5ft of it can add your Proficiency Bonus in Force damage to their weapon or spell damage rolls, once per turn."
-            ]
-        }
-    ]
+  "name": "Extended Transmission",
+  "source": "TftJC",
+  "className": "Wizard",
+  "classSource": "PHB",
+  "subclassShortName": "Aurumancy",
+  "subclassSource": "TftJC",
+  "level": 6,
+  "entries": [
+    "At 6th level, you can operate your Transmitter with increased range. Its maximum range becomes 30ft, and its movement increases to 45ft per turn. Your Aurumany Transmitter also gains new features it can use (following other rules in Pyramid of Power). Only one of these features can be active at a time, which can be changed as a Bonus Action:",
+    {
+      "type": "inset",
+      "name": "Aurum Barrier",
+      "entries": [
+        "Creatures of your choice within 5ft of it gain advantage on saving throws from magical effects and spells of a lower level used to activate the transmitter."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Aurum Strike",
+      "entries": [
+        "Creatures of your choice within 5ft of it can add your Proficiency Bonus in Force damage to their weapon or spell damage rolls, once per turn."
+      ]
+    }
+  ]
 }

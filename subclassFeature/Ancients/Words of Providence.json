@@ -1,13 +1,13 @@
 {
-    "name": "Words of Providence",
-    "source": "TftJC",
-    "className": "Bard",
-    "classSource": "PHB",
-    "subclassShortName": "Ancients",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "Also at 3rd level, you learn to use your vast knowledge of history to warn others of incoming danger. When a creature you can see uses a spell or an ability that forces another creature to make a saving throw you can expend a use of your Bardic Inspiration to attempt to ward your allies from the spell. Roll your Bardic Inspiration die and add 8 + your Charisma Modifier. If the total is higher than the DC of the ability or spell all creatures that would be affected make the saving throws with advantage.",
-        "You learn the cantrip word of radiance cantrip. Additionally you automatically learn the following spells when you gain spell slots for them: healing word, invigorating word, mass healing word, word of recall, divine word, power word pain, power word stun, power word heal, power word kill."
-    ]
+  "name": "Words of Providence",
+  "source": "TftJC",
+  "className": "Bard",
+  "classSource": "PHB",
+  "subclassShortName": "Ancients",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "Also at 3rd level, you learn to use your vast knowledge of history to warn others of incoming danger. When a creature you can see uses a spell or an ability that forces another creature to make a saving throw you can expend a use of your Bardic Inspiration to attempt to ward your allies from the spell. Roll your Bardic Inspiration die and add 8 + your Charisma Modifier. If the total is higher than the DC of the ability or spell all creatures that would be affected make the saving throws with advantage.",
+    "You learn the cantrip word of radiance cantrip. Additionally you automatically learn the following spells when you gain spell slots for them: healing word, invigorating word, mass healing word, word of recall, divine word, power word pain, power word stun, power word heal, power word kill."
+  ]
 }

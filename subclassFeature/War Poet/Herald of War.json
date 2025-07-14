@@ -1,12 +1,12 @@
 {
-    "name": "Herald of War",
-    "source": "TftJC",
-    "className": "Bard",
-    "classSource": "PHB",
-    "subclassShortName": "War Poet",
-    "subclassSource": "TftJC",
-    "level": 14,
-    "entries": [
-        "At 14th level, whenever an ally is effected by your Poetic Dictations, they also gain temporary hit points equal to your proficiency bonus. In addition, the time it takes you to craft scrolls is reduced by 50%, and you ignore both spell list and spell level restrictions for spell scrolls."
-    ]
+  "name": "Herald of War",
+  "source": "TftJC",
+  "className": "Bard",
+  "classSource": "PHB",
+  "subclassShortName": "War Poet",
+  "subclassSource": "TftJC",
+  "level": 14,
+  "entries": [
+    "At 14th level, whenever an ally is effected by your Poetic Dictations, they also gain temporary hit points equal to your proficiency bonus. In addition, the time it takes you to craft scrolls is reduced by 50%, and you ignore both spell list and spell level restrictions for spell scrolls."
+  ]
 }

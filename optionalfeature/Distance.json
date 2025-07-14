@@ -1,18 +1,14 @@
 {
-    "name": "Distance",
-    "prerequisite": [
-        {
-            "feature": [
-                "Dark Arts Wizard"
-            ]
-        }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "ARC"
-    ],
-    "entries": [
-        "Tier 1 Arcana. The Forbidden Spell's range is increased by 10 per Spell Slot it is cast at."
-    ]
+  "name": "Distance",
+  "prerequisite": [
+    {
+      "feature": ["Dark Arts Wizard"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["ARC"],
+  "entries": [
+    "Tier 1 Arcana. The Forbidden Spell's range is increased by 10 per Spell Slot it is cast at."
+  ]
 }

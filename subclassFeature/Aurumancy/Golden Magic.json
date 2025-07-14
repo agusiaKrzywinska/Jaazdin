@@ -1,20 +1,20 @@
 {
-    "name": "Golden Magic",
-    "source": "TftJC",
-    "className": "Wizard",
-    "classSource": "PHB",
-    "subclassShortName": "Aurumancy",
-    "subclassSource": "TftJC",
-    "level": 10,
-    "entries": [
-        "At 10th level, your connection with Gold empowers your spells. You can expend Gold in order to empower your spells, and can spend 100gp to upcast a spell by 1 level. This can only be done once per spell, per round.",
-        "Additionally, yout Transmitter gains a new feature (following other rules in Pyramid of Power).",
-        {
-            "type": "inset",
-            "name": "Aurum Replication",
-            "entries": [
-                "You can cast a Wizard spell that takes an action to cast into your transmitter, allowing it to absorb it. When The Transmitter activates or you use a Bonus Action to change its function, it casts that spell using your Spell Save DC and Spell attack bonus. If it requires concentration, you begin concentrating on it. If the spell absorbed in the Trasmitter isn't cast after 24hrs, it is lost."
-            ]
-        }
-    ]
+  "name": "Golden Magic",
+  "source": "TftJC",
+  "className": "Wizard",
+  "classSource": "PHB",
+  "subclassShortName": "Aurumancy",
+  "subclassSource": "TftJC",
+  "level": 10,
+  "entries": [
+    "At 10th level, your connection with Gold empowers your spells. You can expend Gold in order to empower your spells, and can spend 100gp to upcast a spell by 1 level. This can only be done once per spell, per round.",
+    "Additionally, yout Transmitter gains a new feature (following other rules in Pyramid of Power).",
+    {
+      "type": "inset",
+      "name": "Aurum Replication",
+      "entries": [
+        "You can cast a Wizard spell that takes an action to cast into your transmitter, allowing it to absorb it. When The Transmitter activates or you use a Bonus Action to change its function, it casts that spell using your Spell Save DC and Spell attack bonus. If it requires concentration, you begin concentrating on it. If the spell absorbed in the Trasmitter isn't cast after 24hrs, it is lost."
+      ]
+    }
+  ]
 }

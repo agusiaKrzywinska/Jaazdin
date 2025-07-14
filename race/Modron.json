@@ -1,85 +1,75 @@
 {
-    "name": "Modron",
-    "source": "TftJC",
-    "page": 9,
-    "size": [
-        "M"
-    ],
-    "speed": {
-        "walk": 30
+  "name": "Modron",
+  "source": "TftJC",
+  "page": 9,
+  "size": ["M"],
+  "speed": {
+    "walk": 30
+  },
+  "ability": [
+    {
+      "int": 2,
+      "con": 1
+    }
+  ],
+  "age": {
+    "mature": 0,
+    "max": 298
+  },
+  "languageProficiencies": [
+    {
+      "common": true,
+      "modron": true
+    }
+  ],
+  "entries": [
+    {
+      "name": "Age",
+      "type": "entries",
+      "entries": [
+        "Modrons are born fully mature. Modrons die after exactly 298 years, to the nanosecond."
+      ]
     },
-    "ability": [
-        {
-            "int": 2,
-            "con": 1
-        }
-    ],
-    "age": {
-        "mature": 0,
-        "max": 298
+    {
+      "type": "entries",
+      "name": "Size",
+      "entries": [
+        "Modron vary precisely in size, depending on their classification. Your Size is determined by your number of sides."
+      ]
     },
-    "languageProficiencies": [
-        {
-            "common": true,
-            "modron": true
-        }
-    ],
-    "entries": [
-        {
-            "name": "Age",
-            "type": "entries",
-            "entries": [
-                "Modrons are born fully mature. Modrons die after exactly 298 years, to the nanosecond."
-            ]
-        },
-        {
-            "type": "entries",
-            "name": "Size",
-            "entries": [
-                "Modron vary precisely in size, depending on their classification. Your Size is determined by your number of sides."
-            ]
-        },
-        {
-            "type": "entries",
-            "name": "Speed",
-            "entries": [
-                "Your walking speed is 30ft."
-            ]
-        },
-        {
-            "name": "Creature Type",
-            "entries": [
-                "Modrons are Constructs."
-            ],
-            "type": "entries"
-        },
-        {
-            "name": "Language",
-            "entries": [
-                "Modron speak, read and write Common and Modron."
-            ],
-            "type": "entries"
-        },
-        {
-            "name": "Skills",
-            "entries": [
-                "Modrons are Proficient in Tinker’s Tools."
-            ],
-            "type": "entries"
-        },
-        {
-            "name": "Axiomatic Mind",
-            "entries": [
-                "Modron’s minds are regimented, granting them advantage on Saving Throws against being Charmed. Creatures also have disadvantage on Deception checks against you to lie."
-            ],
-            "type": "entries"
-        },
-        {
-            "name": "Primus’ Legacy",
-            "entries": [
-                "Modrons can be made in various ways, and depending on the type of Modron you are, you gain different features. When you select this race, select one of the below options. Additionally, when your Proficiency Bonus Increases as a part of leveling up, you can choose another option and replace these features with that."
-            ],
-            "type": "entries"
-        }
-    ]
+    {
+      "type": "entries",
+      "name": "Speed",
+      "entries": ["Your walking speed is 30ft."]
+    },
+    {
+      "name": "Creature Type",
+      "entries": ["Modrons are Constructs."],
+      "type": "entries"
+    },
+    {
+      "name": "Language",
+      "entries": ["Modron speak, read and write Common and Modron."],
+      "type": "entries"
+    },
+    {
+      "name": "Skills",
+      "entries": ["Modrons are Proficient in Tinker’s Tools."],
+      "type": "entries"
+    },
+    {
+      "name": "Axiomatic Mind",
+      "entries": [
+        "Modron’s minds are regimented, granting them advantage on Saving Throws against being Charmed. Creatures also have disadvantage on Deception checks against you to lie."
+      ],
+      "type": "entries"
+    },
+    {
+      "name": "Primus’ Legacy",
+      "entries": [
+        "Modrons can be made in various ways, and depending on the type of Modron you are, you gain different features. When you select this race, select one of the below options. Additionally, when your Proficiency Bonus Increases as a part of leveling up, you can choose another option and replace these features with that."
+      ],
+      "type": "entries"
+    }
+  ]
 }

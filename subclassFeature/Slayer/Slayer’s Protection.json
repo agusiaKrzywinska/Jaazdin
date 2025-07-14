@@ -1,13 +1,13 @@
 {
-    "name": "Slayer’s Protection",
-    "source": "TftJC",
-    "className": "Paladin",
-    "classSource": "PHB",
-    "subclassShortName": "Slayer",
-    "subclassSource": "TftJC",
-    "level": 7,
-    "entries": [
-        "Starting at 7th level, you project an aura that protects those around you from the attacks from your Slayer's Quarry.Whenever a fiend, undead, or your Slayer’s Quarry forces a creature that benefits from your Aura of Protection class feature to make a saving throw they can add a 1d4 to the roll.A number of creatures equal to your Charisma modifier can benefit from this effect at once.",
-        "At 18th level, the d4 increases to a d6."
-    ]
+  "name": "Slayer’s Protection",
+  "source": "TftJC",
+  "className": "Paladin",
+  "classSource": "PHB",
+  "subclassShortName": "Slayer",
+  "subclassSource": "TftJC",
+  "level": 7,
+  "entries": [
+    "Starting at 7th level, you project an aura that protects those around you from the attacks from your Slayer's Quarry.Whenever a fiend, undead, or your Slayer’s Quarry forces a creature that benefits from your Aura of Protection class feature to make a saving throw they can add a 1d4 to the roll.A number of creatures equal to your Charisma modifier can benefit from this effect at once.",
+    "At 18th level, the d4 increases to a d6."
+  ]
 }

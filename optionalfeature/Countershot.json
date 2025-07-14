@@ -1,27 +1,23 @@
 {
-    "name": "Countershot",
-    "prerequisite": [
-        {
-            "level": {
-                "level": 13,
-                "class": {
-                    "name": "Gunner"
-                }
-            },
-            "feature": [
-                "Gunner: Hexlock"
-            ]
+  "name": "Countershot",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 13,
+        "class": {
+          "name": "Gunner"
         }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "MOD"
-    ],
-    "consumes": {
-        "name": "650gp"
-    },
-    "entries": [
-        "As a reaction to a spell being cast that you can see within your firearm's short range, you can attempt to counterspell it by making a Dexterity check with your firearm. You can do so a number of times per long rest equal to your Proficiency Bonus."
-    ]
+      },
+      "feature": ["Gunner: Hexlock"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "650gp"
+  },
+  "entries": [
+    "As a reaction to a spell being cast that you can see within your firearm's short range, you can attempt to counterspell it by making a Dexterity check with your firearm. You can do so a number of times per long rest equal to your Proficiency Bonus."
+  ]
 }

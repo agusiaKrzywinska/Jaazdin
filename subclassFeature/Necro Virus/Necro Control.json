@@ -1,14 +1,14 @@
 {
-    "name": "Necro Control",
-    "source": "TftJC",
-    "className": "Artificer",
-    "classSource": "TCE",
-    "subclassShortName": "Necro Virus",
-    "subclassSource": "TftJC",
-    "level": 9,
-    "entries": [
-        "At 9th level, you gain the ability to infect the undead with your virus. As an Action, you can target a number of undead within 60ft of you equal to your INT Modifier with a challenge rating or level no greater than your Proficiency Bonus. They must make an Intelligence Saving Throw, and on a fail they become friendly to you and obey your commands until you use this feature again.",
-        "Intelligent undead are harder to control in this way. If the target has an Intelligence of 8 or higher, it has advantage on the saving throw. If it fails the saving throw and has an Intelligence of 12 or higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free. You can use this feature a number of times equal to your Proficiency Bonus per long rest.",
-        "Furthermore, Undead under your control are bolstered by your Virus. They can be healed by your Artificer Spells while under your control, and you can have zombies under your control automatically fail saving throws of your choice."
-    ]
+  "name": "Necro Control",
+  "source": "TftJC",
+  "className": "Artificer",
+  "classSource": "TCE",
+  "subclassShortName": "Necro Virus",
+  "subclassSource": "TftJC",
+  "level": 9,
+  "entries": [
+    "At 9th level, you gain the ability to infect the undead with your virus. As an Action, you can target a number of undead within 60ft of you equal to your INT Modifier with a challenge rating or level no greater than your Proficiency Bonus. They must make an Intelligence Saving Throw, and on a fail they become friendly to you and obey your commands until you use this feature again.",
+    "Intelligent undead are harder to control in this way. If the target has an Intelligence of 8 or higher, it has advantage on the saving throw. If it fails the saving throw and has an Intelligence of 12 or higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free. You can use this feature a number of times equal to your Proficiency Bonus per long rest.",
+    "Furthermore, Undead under your control are bolstered by your Virus. They can be healed by your Artificer Spells while under your control, and you can have zombies under your control automatically fail saving throws of your choice."
+  ]
 }

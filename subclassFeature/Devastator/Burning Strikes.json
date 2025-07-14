@@ -1,12 +1,12 @@
 {
-    "name": "Burning Strikes",
-    "source": "TftJC",
-    "className": "Ranger",
-    "classSource": "PHB",
-    "subclassShortName": "Devastator",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "At 3rd level, your strikes have been enhanced with a divine cleansing flame. Once per turn you can deal 1d8 extra fire damage on one of your attacks or spells. This damage ignores resistance if the target is also your favored foe/enemy. When you reach level 11 in this class the extra damage increases to 2d8."
-    ]
+  "name": "Burning Strikes",
+  "source": "TftJC",
+  "className": "Ranger",
+  "classSource": "PHB",
+  "subclassShortName": "Devastator",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "At 3rd level, your strikes have been enhanced with a divine cleansing flame. Once per turn you can deal 1d8 extra fire damage on one of your attacks or spells. This damage ignores resistance if the target is also your favored foe/enemy. When you reach level 11 in this class the extra damage increases to 2d8."
+  ]
 }

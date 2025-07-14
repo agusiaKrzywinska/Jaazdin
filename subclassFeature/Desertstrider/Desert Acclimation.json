@@ -1,12 +1,12 @@
 {
-    "name": "Desert Acclimation",
-    "source": "TftJC",
-    "className": "Fighter",
-    "classSource": "PHB",
-    "subclassShortName": "Desertstrider",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "Beginning at 3rd level, you are accustomed to battling within a sandy terrain. You are not affected by difficult terrain on uneven ground, or shifting sands. You have advantage on Constitution based saving throws against overheating. You can hold 4 times the amount of water in your body than the average person. Finally, you know the {@spell Mold Earth|XGE} cantrip which increases in size to a 10ft cube at 7th level, and a 2oft cube at 10th level, and a 100ft cube at 18th level, and can use it as a Bonus Action if using it on sand."
-    ]
+  "name": "Desert Acclimation",
+  "source": "TftJC",
+  "className": "Fighter",
+  "classSource": "PHB",
+  "subclassShortName": "Desertstrider",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "Beginning at 3rd level, you are accustomed to battling within a sandy terrain. You are not affected by difficult terrain on uneven ground, or shifting sands. You have advantage on Constitution based saving throws against overheating. You can hold 4 times the amount of water in your body than the average person. Finally, you know the {@spell Mold Earth|XGE} cantrip which increases in size to a 10ft cube at 7th level, and a 2oft cube at 10th level, and a 100ft cube at 18th level, and can use it as a Bonus Action if using it on sand."
+  ]
 }

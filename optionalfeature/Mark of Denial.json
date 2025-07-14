@@ -1,18 +1,14 @@
 {
-    "name": "Mark of Denial",
-    "prerequisite": [
-        {
-            "feature": [
-                "Warden: The Commander"
-            ]
-        }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "TECH"
-    ],
-    "entries": [
-        "As part of an attack, you mark one creature and protect your allies from it. When you use this technique to attack a creature, that creature must make a Wisdom saving throw even if the attack misses. If the target fails the saving throw, it cannot take reactions until the end of your next turn, and any creature leaving its threat range for the first time can move an extra 10ft on their turn."
-    ]
+  "name": "Mark of Denial",
+  "prerequisite": [
+    {
+      "feature": ["Warden: The Commander"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["TECH"],
+  "entries": [
+    "As part of an attack, you mark one creature and protect your allies from it. When you use this technique to attack a creature, that creature must make a Wisdom saving throw even if the attack misses. If the target fails the saving throw, it cannot take reactions until the end of your next turn, and any creature leaving its threat range for the first time can move an extra 10ft on their turn."
+  ]
 }

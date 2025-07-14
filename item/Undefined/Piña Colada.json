@@ -1,21 +1,21 @@
 {
-    "name": "Piña Colada",
-    "source": "TftJC",
-    "type": "FD",
-    "rarity": "rare",
-    "value": 15000,
-    "weight": 0,
-    "entries": [
-        "<b>Preparation:</b> Requires Brewer's Tools to prepare.",
-        "<b>Ingredients:</b> x1 Rare Water Elemental Meat, x1 Siren's Cap",
-        "<b>Effect:</b> Whenever you make a Charisma check, treat a roll of 4 or lower on the d20 as an 5."
-    ],
-    "foundryType": "consumable",
-    "foundrySystem": {
-        "consumableType": "food",
-        "uses": {
-            "max": 1,
-            "per": "charges"
-        }
+  "name": "Piña Colada",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "rare",
+  "value": 15000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Brewer's Tools to prepare.",
+    "<b>Ingredients:</b> x1 Rare Water Elemental Meat, x1 Siren's Cap",
+    "<b>Effect:</b> Whenever you make a Charisma check, treat a roll of 4 or lower on the d20 as an 5."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
     }
+  }
 }

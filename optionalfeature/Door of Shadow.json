@@ -1,24 +1,20 @@
 {
-    "name": "Door of Shadow",
-    "prerequisite": [
-        {
-            "level": {
-                "level": 9,
-                "class": {
-                    "name": "Warlock"
-                }
-            },
-            "feature": [
-                "Shadowsworn Warlock"
-            ]
+  "name": "Door of Shadow",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 9,
+        "class": {
+          "name": "Warlock"
         }
-    ],
-    "source": "TftJC",
-    "page": 44,
-    "featureType": [
-        "EI"
-    ],
-    "entries": [
-        "You may cast the dimension door spell once per day without expending a spell slot."
-    ]
+      },
+      "feature": ["Shadowsworn Warlock"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 44,
+  "featureType": ["EI"],
+  "entries": [
+    "You may cast the dimension door spell once per day without expending a spell slot."
+  ]
 }

@@ -1,19 +1,19 @@
 {
-    "name": "Expert Custom Gunsmith",
-    "source": "TftJC",
-    "entries": [
-        {
-            "type": "list",
-            "items": [
-                "You learn 3 Tier 1 or 2 Gun Modifications, or 1 Tier 1 Gun Modification from a Gunner Subclass.",
-                "You gain expertise in Gunsmith's Tools.",
-                "Firearms with 0 modification slots gain 1 modification slot."
-            ]
-        }
-    ],
-    "prerequisite": [
-        {
-            "other": "Gunsmithing tools"
-        }
-    ]
+  "name": "Expert Custom Gunsmith",
+  "source": "TftJC",
+  "entries": [
+    {
+      "type": "list",
+      "items": [
+        "You learn 3 Tier 1 or 2 Gun Modifications, or 1 Tier 1 Gun Modification from a Gunner Subclass.",
+        "You gain expertise in Gunsmith's Tools.",
+        "Firearms with 0 modification slots gain 1 modification slot."
+      ]
+    }
+  ],
+  "prerequisite": [
+    {
+      "other": "Gunsmithing tools"
+    }
+  ]
 }

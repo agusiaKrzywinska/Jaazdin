@@ -1,46 +1,25 @@
 {
-    "name": "Expanded Spell List",
-    "source": "TftJC",
-    "className": "Warlock",
-    "classSource": "PHB",
-    "subclassShortName": "Fleshwarper",
-    "subclassSource": "TftJC",
-    "level": 1,
-    "entries": [
-        "The Fleshwarper lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
-        {
-            "type": "table",
-            "caption": "Fleshwarper Expanded Spells",
-            "colLabels": [
-                "Spell Level",
-                "Spells"
-            ],
-            "colStyles": [
-                "col-2 text-center",
-                "col-10"
-            ],
-            "rows": [
-                [
-                    "1st",
-                    "{@spell absorb elements|XGE}, {@spell zephyr strike|XGE}"
-                ],
-                [
-                    "2nd",
-                    "{@spell alter self}, {@spell spiritual weapon}"
-                ],
-                [
-                    "3rd",
-                    "{@spell elemental weapon}, {@spell haste}"
-                ],
-                [
-                    "4th",
-                    "{@spell evard's black tentacles}, {@spell stoneskin}"
-                ],
-                [
-                    "5th",
-                    "{@spell bigby's hand}, {@spell mislead}"
-                ]
-            ]
-        }
-    ]
+  "name": "Expanded Spell List",
+  "source": "TftJC",
+  "className": "Warlock",
+  "classSource": "PHB",
+  "subclassShortName": "Fleshwarper",
+  "subclassSource": "TftJC",
+  "level": 1,
+  "entries": [
+    "The Fleshwarper lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+    {
+      "type": "table",
+      "caption": "Fleshwarper Expanded Spells",
+      "colLabels": ["Spell Level", "Spells"],
+      "colStyles": ["col-2 text-center", "col-10"],
+      "rows": [
+        ["1st", "{@spell absorb elements|XGE}, {@spell zephyr strike|XGE}"],
+        ["2nd", "{@spell alter self}, {@spell spiritual weapon}"],
+        ["3rd", "{@spell elemental weapon}, {@spell haste}"],
+        ["4th", "{@spell evard's black tentacles}, {@spell stoneskin}"],
+        ["5th", "{@spell bigby's hand}, {@spell mislead}"]
+      ]
+    }
+  ]
 }

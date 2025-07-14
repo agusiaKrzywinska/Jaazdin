@@ -1,20 +1,17 @@
 {
-    "name": "Chakram",
-    "source": "TftJC",
-    "page": 50,
-    "type": "M",
-    "rarity": "none",
-    "weight": 1,
-    "value": 300,
-    "weaponCategory": "martial",
-    "property": [
-        "F",
-        "T"
-    ],
-    "range": "40/80",
-    "dmg1": "1d4",
-    "dmgType": "S",
-    "entries": [
-        "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
-    ]
+  "name": "Chakram",
+  "source": "TftJC",
+  "page": 50,
+  "type": "M",
+  "rarity": "none",
+  "weight": 1,
+  "value": 300,
+  "weaponCategory": "martial",
+  "property": ["F", "T"],
+  "range": "40/80",
+  "dmg1": "1d4",
+  "dmgType": "S",
+  "entries": [
+    "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+  ]
 }

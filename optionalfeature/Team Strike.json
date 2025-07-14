@@ -1,18 +1,14 @@
 {
-    "name": "Team Strike",
-    "prerequisite": [
-        {
-            "feature": [
-                "Warden: The Protector"
-            ]
-        }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "TECH"
-    ],
-    "entries": [
-        "When you make an attack roll, you can allow the subject of your Honor Bond to also make an attack. Your Honor Bound can use its reaction to immediately make one attack, adding 1d4 to the to hit roll."
-    ]
+  "name": "Team Strike",
+  "prerequisite": [
+    {
+      "feature": ["Warden: The Protector"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["TECH"],
+  "entries": [
+    "When you make an attack roll, you can allow the subject of your Honor Bond to also make an attack. Your Honor Bound can use its reaction to immediately make one attack, adding 1d4 to the to hit roll."
+  ]
 }

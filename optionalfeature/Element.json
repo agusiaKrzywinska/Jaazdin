@@ -1,18 +1,14 @@
 {
-    "name": "Element",
-    "prerequisite": [
-        {
-            "feature": [
-                "Dark Arts Wizard"
-            ]
-        }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "ARC"
-    ],
-    "entries": [
-        "Tier 1 Arcana. The Forbidden Spell's damage type becomes either Fire, Cold, Acid, Lightning or Poison (you choose when you select this Arcana)."
-    ]
+  "name": "Element",
+  "prerequisite": [
+    {
+      "feature": ["Dark Arts Wizard"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["ARC"],
+  "entries": [
+    "Tier 1 Arcana. The Forbidden Spell's damage type becomes either Fire, Cold, Acid, Lightning or Poison (you choose when you select this Arcana)."
+  ]
 }

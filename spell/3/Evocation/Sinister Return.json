@@ -1,66 +1,64 @@
 {
-    "name": "Sinister Return",
-    "source": "TftJC",
-    "page": 60,
-    "level": 3,
-    "school": "V",
-    "time": [
-        {
-            "number": 1,
-            "unit": "action"
-        }
-    ],
-    "range": {
-        "type": "point",
-        "distance": {
-            "type": "touch"
-        }
+  "name": "Sinister Return",
+  "source": "TftJC",
+  "page": 60,
+  "level": 3,
+  "school": "V",
+  "time": [
+    {
+      "number": 1,
+      "unit": "action"
+    }
+  ],
+  "range": {
+    "type": "point",
+    "distance": {
+      "type": "touch"
+    }
+  },
+  "components": {
+    "v": true,
+    "s": true
+  },
+  "duration": [
+    {
+      "type": "instant"
     },
-    "components": {
-        "v": true,
-        "s": true
-    },
-    "duration": [
-        {
-            "type": "instant"
-        },
-        {
-            "type": "special"
-        }
-    ],
-    "entries": [
-        "You touch a creature with Necromantic energy. Make a spell attack roll, and on a hit the creature takes {@dice 6d6} Necrotic Damage. A hit humanoid must then make a Constitution saving throw, and on a fail become cursed. If the cursed creature dies before completing three Long Rests, they rise as a zombie under your control."
-    ],
-    "entriesHigherLevel": [
-        {
-            "type": "entries",
-            "name": "At Higher Levels",
-            "entries": [
-                "If you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each spell slot beyond 3rd."
-            ]
-        }
-    ],
-    "classes": {
-        "fromClassList": [
-            {
-                "name": "Artificer",
-                "source": "PHB"
-            },
-            {
-                "name": "Druid",
-                "source": "PHB"
-            },
-            {
-                "name": "Warlock",
-                "source": "PHB"
-            },
-            {
-                "name": "Wizard",
-                "source": "PHB"
-            }
-        ]
-    },
-    "savingThrow": [
-        "constitution"
+    {
+      "type": "special"
+    }
+  ],
+  "entries": [
+    "You touch a creature with Necromantic energy. Make a spell attack roll, and on a hit the creature takes {@dice 6d6} Necrotic Damage. A hit humanoid must then make a Constitution saving throw, and on a fail become cursed. If the cursed creature dies before completing three Long Rests, they rise as a zombie under your control."
+  ],
+  "entriesHigherLevel": [
+    {
+      "type": "entries",
+      "name": "At Higher Levels",
+      "entries": [
+        "If you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each spell slot beyond 3rd."
+      ]
+    }
+  ],
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Artificer",
+        "source": "PHB"
+      },
+      {
+        "name": "Druid",
+        "source": "PHB"
+      },
+      {
+        "name": "Warlock",
+        "source": "PHB"
+      },
+      {
+        "name": "Wizard",
+        "source": "PHB"
+      }
     ]
+  },
+  "savingThrow": ["constitution"]
 }

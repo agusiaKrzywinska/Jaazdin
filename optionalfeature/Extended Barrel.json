@@ -1,27 +1,23 @@
 {
-    "name": "Extended Barrel",
-    "prerequisite": [
-        {
-            "level": {
-                "level": 3,
-                "class": {
-                    "name": "Gunner"
-                }
-            },
-            "feature": [
-                "Two-Handed"
-            ]
+  "name": "Extended Barrel",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 3,
+        "class": {
+          "name": "Gunner"
         }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "MOD"
-    ],
-    "consumes": {
-        "name": "125gp"
-    },
-    "entries": [
-        "The firearm's normal range increases by 10, and its long range increases by 40."
-    ]
+      },
+      "feature": ["Two-Handed"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "125gp"
+  },
+  "entries": [
+    "The firearm's normal range increases by 10, and its long range increases by 40."
+  ]
 }

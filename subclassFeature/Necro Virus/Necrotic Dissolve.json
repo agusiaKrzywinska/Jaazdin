@@ -1,12 +1,12 @@
 {
-    "name": "Necrotic Dissolve",
-    "source": "TftJC",
-    "className": "Artificer",
-    "classSource": "TCE",
-    "subclassShortName": "Necro Virus",
-    "subclassSource": "TftJC",
-    "level": 15,
-    "entries": [
-        "At 15th level, your Virus becomes flesh melting. When an Undead under your control dies, their body melts. All creatures within 10ft of the Undead take {@dice 2d10} acid damage, and they leave behind a puddle of Necrosis, which appears in a 5ft puddle directly under them. If a creature steps on it, you can immediately have them be affected by a Virus of your choice (ignoring spell school restrictions). The puddle lasts for 1 minute, or until someone steps in it."
-    ]
+  "name": "Necrotic Dissolve",
+  "source": "TftJC",
+  "className": "Artificer",
+  "classSource": "TCE",
+  "subclassShortName": "Necro Virus",
+  "subclassSource": "TftJC",
+  "level": 15,
+  "entries": [
+    "At 15th level, your Virus becomes flesh melting. When an Undead under your control dies, their body melts. All creatures within 10ft of the Undead take {@dice 2d10} acid damage, and they leave behind a puddle of Necrosis, which appears in a 5ft puddle directly under them. If a creature steps on it, you can immediately have them be affected by a Virus of your choice (ignoring spell school restrictions). The puddle lasts for 1 minute, or until someone steps in it."
+  ]
 }

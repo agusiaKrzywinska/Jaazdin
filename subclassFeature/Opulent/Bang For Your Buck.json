@@ -1,12 +1,12 @@
 {
-    "name": "Bang For Your Buck",
-    "source": "TftJC",
-    "className": "Warlock",
-    "classSource": "PHB",
-    "subclassShortName": "Opulent",
-    "subclassSource": "TftJC",
-    "level": 6,
-    "entries": [
-        "Starting at 6th level, whenever you cast a spell that requires a material component that has a GP cost of greater than 1gp you can double all dice rolled as part of that spell, however the spell consumes twice the material component even if it does not regularly. You can use this feature a number of times per long rest equal to your Proficiency Bonus."
-    ]
+  "name": "Bang For Your Buck",
+  "source": "TftJC",
+  "className": "Warlock",
+  "classSource": "PHB",
+  "subclassShortName": "Opulent",
+  "subclassSource": "TftJC",
+  "level": 6,
+  "entries": [
+    "Starting at 6th level, whenever you cast a spell that requires a material component that has a GP cost of greater than 1gp you can double all dice rolled as part of that spell, however the spell consumes twice the material component even if it does not regularly. You can use this feature a number of times per long rest equal to your Proficiency Bonus."
+  ]
 }

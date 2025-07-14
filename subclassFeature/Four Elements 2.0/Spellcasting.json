@@ -1,21 +1,21 @@
 {
-    "name": "Spellcasting",
-    "source": "TftJC",
-    "className": "Monk",
-    "classSource": "PHB",
-    "subclassShortName": "Four Elements 2.0",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "When you reach 3rd level, you augment your martial arts with the ability to cast spells. See Spells Rules for the general rules of spellcasting and the Spells Listing for this subclass' spell list.",
-        "You learn two cantrips of your choice from the Four Elements spell list. You learn an additional cantrip at 10th level. Additionally, you learn two of the following cantrips: Shape Water, Mold Earth, Gust or Produce Flame.",
-        "The Four Elements Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.",
-        "For example, if you know a 1st-level spell and have a 1st level and a 2nd-level spell slot available, you can cast that spell using either slot.",
-        "You know three 1st-level Elemental spells of your choice.",
-        "The Spells Known column of the Four Elements Spellcasting table shows when you learn more wizard spells of 1st level or higher. These spells must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
-        "Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the Four Elements spell list. The new spell must be of a level for which you have spell slots.",
-        "Wisdom is your spellcasting ability for your spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a spell you cast and when making an attack roll with one.",
-        "Spell save DC = 8 + your proficiency bonus + your Wisdom modifier.",
-        "Spell attack modifier = your proficiency bonus + your Wisdom modifier."
-    ]
+  "name": "Spellcasting",
+  "source": "TftJC",
+  "className": "Monk",
+  "classSource": "PHB",
+  "subclassShortName": "Four Elements 2.0",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "When you reach 3rd level, you augment your martial arts with the ability to cast spells. See Spells Rules for the general rules of spellcasting and the Spells Listing for this subclass' spell list.",
+    "You learn two cantrips of your choice from the Four Elements spell list. You learn an additional cantrip at 10th level. Additionally, you learn two of the following cantrips: Shape Water, Mold Earth, Gust or Produce Flame.",
+    "The Four Elements Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.",
+    "For example, if you know a 1st-level spell and have a 1st level and a 2nd-level spell slot available, you can cast that spell using either slot.",
+    "You know three 1st-level Elemental spells of your choice.",
+    "The Spells Known column of the Four Elements Spellcasting table shows when you learn more wizard spells of 1st level or higher. These spells must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
+    "Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the Four Elements spell list. The new spell must be of a level for which you have spell slots.",
+    "Wisdom is your spellcasting ability for your spells. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a spell you cast and when making an attack roll with one.",
+    "Spell save DC = 8 + your proficiency bonus + your Wisdom modifier.",
+    "Spell attack modifier = your proficiency bonus + your Wisdom modifier."
+  ]
 }

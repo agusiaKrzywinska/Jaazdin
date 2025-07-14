@@ -1,92 +1,80 @@
 {
-    "name": "Ice",
-    "source": "TftJC",
-    "page": 5,
-    "size": [
-        "M"
-    ],
-    "speed": 30,
-    "ability": [
-        {
-            "dex": 2,
-            "con": 1
-        }
-    ],
-    "age": {
-        "mature": 100,
-        "max": 750
+  "name": "Ice",
+  "source": "TftJC",
+  "page": 5,
+  "size": ["M"],
+  "speed": 30,
+  "ability": [
+    {
+      "dex": 2,
+      "con": 1
+    }
+  ],
+  "age": {
+    "mature": 100,
+    "max": 750
+  },
+  "darkvision": 60,
+  "traitTags": ["Improved Resting"],
+  "skillProficiencies": [
+    {
+      "perception": true
+    }
+  ],
+  "resist": ["cold"],
+  "languageProficiencies": [
+    {
+      "common": true,
+      "elvish": true
+    }
+  ],
+  "soundClip": {
+    "type": "internal",
+    "path": "races/elf.mp3"
+  },
+  "entries": [
+    {
+      "name": "Cold Adaptation",
+      "entries": [
+        "You have advantage on Constitution Saving Throws against cold weather, and have resistance to Cold Damage."
+      ],
+      "type": "entries"
     },
-    "darkvision": 60,
-    "traitTags": [
-        "Improved Resting"
-    ],
-    "skillProficiencies": [
-        {
-            "perception": true
-        }
-    ],
-    "resist": [
-        "cold"
-    ],
-    "languageProficiencies": [
-        {
-            "common": true,
-            "elvish": true
-        }
-    ],
-    "soundClip": {
-        "type": "internal",
-        "path": "races/elf.mp3"
-    },
-    "entries": [
-        {
-            "name": "Cold Adaptation",
-            "entries": [
-                "You have advantage on Constitution Saving Throws against cold weather, and have resistance to Cold Damage."
-            ],
-            "type": "entries"
+    {
+      "name": "Frost Magic",
+      "entries": [
+        "You know the {@spell Frostbite|XGE} Cantrip. At 3rd level, you learn the {@spell Ice Knife|XGE} spell and can cast it once per Long Rest without expending a spell slot for it. At 5th level, you learn {@spell Snilloc's Snowball Swarm|XGE} and can cast it once per Long Rest without expending a spell slot for it."
+      ],
+      "type": "entries"
+    }
+  ],
+  "raceName": "Elf",
+  "raceSource": "PHB",
+  "basicRules": true,
+  "heightAndWeight": {
+    "baseHeight": 54,
+    "heightMod": "2d10",
+    "baseWeight": 90,
+    "weightMod": "1d4"
+  },
+  "additionalSpells": [
+    {
+      "innate": {
+        "3": {
+          "daily": {
+            "1": ["ice knife|XGE"]
+          }
         },
-        {
-            "name": "Frost Magic",
-            "entries": [
-                "You know the {@spell Frostbite|XGE} Cantrip. At 3rd level, you learn the {@spell Ice Knife|XGE} spell and can cast it once per Long Rest without expending a spell slot for it. At 5th level, you learn {@spell Snilloc's Snowball Swarm|XGE} and can cast it once per Long Rest without expending a spell slot for it."
-            ],
-            "type": "entries"
+        "5": {
+          "daily": {
+            "1": ["snilloc's snowball swarm|XGE"]
+          }
         }
-    ],
-    "raceName": "Elf",
-    "raceSource": "PHB",
-    "basicRules": true,
-    "heightAndWeight": {
-        "baseHeight": 54,
-        "heightMod": "2d10",
-        "baseWeight": 90,
-        "weightMod": "1d4"
-    },
-    "additionalSpells": [
-        {
-            "innate": {
-                "3": {
-                    "daily": {
-                        "1": [
-                            "ice knife|XGE"
-                        ]
-                    }
-                },
-                "5": {
-                    "daily": {
-                        "1": [
-                            "snilloc's snowball swarm|XGE"
-                        ]
-                    }
-                }
-            },
-            "ability": "con",
-            "known": {
-                "1": [
-                    "frostbite|XGE#c"
-                ]
-            }
-        }
-    ]
+      },
+      "ability": "con",
+      "known": {
+        "1": ["frostbite|XGE#c"]
+      }
+    }
+  ]
 }

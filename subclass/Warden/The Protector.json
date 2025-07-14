@@ -1,15 +1,15 @@
 {
-    "name": "The Protector",
-    "source": "TftJC",
-    "page": 300,
-    "className": "Warden",
-    "classSource": "TftJC",
-    "shortName": "Protector",
-    "subclassFeatures": [
-        "The Protector|Warden|TftJC|Protector|TftJC|3",
-        "Ward's Charge|Warden|TftJC|Protector|TftJC|7",
-        "Protector's Mind|Warden|TftJC|Protector|TftJC|7",
-        "Line of Defense|Warden|TftJC|Protector|TftJC|15",
-        "Last Bastion|Warden|TftJC|Protector|TftJC|20"
-    ]
+  "name": "The Protector",
+  "source": "TftJC",
+  "page": 300,
+  "className": "Warden",
+  "classSource": "TftJC",
+  "shortName": "Protector",
+  "subclassFeatures": [
+    "The Protector|Warden|TftJC|Protector|TftJC|3",
+    "Ward's Charge|Warden|TftJC|Protector|TftJC|7",
+    "Protector's Mind|Warden|TftJC|Protector|TftJC|7",
+    "Line of Defense|Warden|TftJC|Protector|TftJC|15",
+    "Last Bastion|Warden|TftJC|Protector|TftJC|20"
+  ]
 }

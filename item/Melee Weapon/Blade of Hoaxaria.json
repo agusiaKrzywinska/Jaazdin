@@ -1,17 +1,17 @@
 {
-    "name": "Blade of Hoaxaria",
-    "source": "TftJC",
-    "rarity": "artifact",
-    "reqAttune": "by a child of Hoaxaria",
-    "type": "M",
-    "entries": [
-        "This weapon provides a +3 to Attack Rolls and Damage Rolls.",
-        "This weapon can only be attuned by a child of Hoaxaria/Cedaris.",
-        "As an Action, the wielder can change this into any melee weapon they are proficient with.",
-        "After making an attack with this weapon, you can teleport to an unoccupied space you can see within 30ft of you.",
-        "You gain Immunity to Poison Damage.",
-        "Your Wisdom Score becomes 20 if it is lower than that.",
-        "This weapon deals an additional {@dice 3d8} damage against Dragons.",
-        "This weapon is also considered a {@item Vorpal Sword|DMG} against Dragons, so long as they are at 100 hit points or fewer. If they are above this value, they instead take an additional 6d8 damage."
-    ]
+  "name": "Blade of Hoaxaria",
+  "source": "TftJC",
+  "rarity": "artifact",
+  "reqAttune": "by a child of Hoaxaria",
+  "type": "M",
+  "entries": [
+    "This weapon provides a +3 to Attack Rolls and Damage Rolls.",
+    "This weapon can only be attuned by a child of Hoaxaria/Cedaris.",
+    "As an Action, the wielder can change this into any melee weapon they are proficient with.",
+    "After making an attack with this weapon, you can teleport to an unoccupied space you can see within 30ft of you.",
+    "You gain Immunity to Poison Damage.",
+    "Your Wisdom Score becomes 20 if it is lower than that.",
+    "This weapon deals an additional {@dice 3d8} damage against Dragons.",
+    "This weapon is also considered a {@item Vorpal Sword|DMG} against Dragons, so long as they are at 100 hit points or fewer. If they are above this value, they instead take an additional 6d8 damage."
+  ]
 }

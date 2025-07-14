@@ -1,9 +1,9 @@
 {
-    "name": "Dragon's Claws",
-    "source": "TftJC",
-    "type": "Dragon Jelly",
-    "entries": [
-        "Your unarmed attacks deal {@dice 1d6} + STR slashing damage.",
-        "You gain a climbing speed equal to your walking speed."
-    ]
+  "name": "Dragon's Claws",
+  "source": "TftJC",
+  "type": "Dragon Jelly",
+  "entries": [
+    "Your unarmed attacks deal {@dice 1d6} + STR slashing damage.",
+    "You gain a climbing speed equal to your walking speed."
+  ]
 }

@@ -1,25 +1,25 @@
 {
-    "name": "Ninjutsu",
-    "source": "TftJC",
-    "className": "Rogue",
-    "classSource": "PHB",
-    "subclassShortName": "Ninjutsu",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "A branch into the days of old, practicians of the Art of Ninjutsu hone their skills and mind though rigorous training, day and night.",
-        "You have studied the ways of the Ninja. Your abilities of stealth and reconnaissance are unparalleled. Whether it be in a clan of fellow Ninja or that of a lone warrior, nothing will stop you from completing your mission",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Weapon Specialist|Rogue|PHB|Ninjutsu|TftJC|3"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Fighting Style|Rogue|PHB|Ninjutsu|TftJC|3"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Ninjutsu Techniques|Rogue|PHB|Ninjutsu|TftJC|3"
-        }
-    ]
+  "name": "Ninjutsu",
+  "source": "TftJC",
+  "className": "Rogue",
+  "classSource": "PHB",
+  "subclassShortName": "Ninjutsu",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "A branch into the days of old, practicians of the Art of Ninjutsu hone their skills and mind though rigorous training, day and night.",
+    "You have studied the ways of the Ninja. Your abilities of stealth and reconnaissance are unparalleled. Whether it be in a clan of fellow Ninja or that of a lone warrior, nothing will stop you from completing your mission",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Weapon Specialist|Rogue|PHB|Ninjutsu|TftJC|3"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Fighting Style|Rogue|PHB|Ninjutsu|TftJC|3"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Ninjutsu Techniques|Rogue|PHB|Ninjutsu|TftJC|3"
+    }
+  ]
 }

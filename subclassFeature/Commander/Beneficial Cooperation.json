@@ -1,12 +1,12 @@
 {
-    "name": "Beneficial Cooperation",
-    "source": "TftJC",
-    "className": "Warden",
-    "classSource": "TftJC",
-    "subclassShortName": "Commander",
-    "subclassSource": "TftJC",
-    "level": 15,
-    "entries": [
-        "Starting at 15th level, you have learned to bolster those that aid you on the battlefield. When a creature is involved in one of your Techniques you can choose to restore a number of hit points equal to your Constitution modifier to them. Additionally, you can choose to forgo the healing and instead end one condition affecting them from the following list: prone, stunned, charmed, or frightened."
-    ]
+  "name": "Beneficial Cooperation",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Commander",
+  "subclassSource": "TftJC",
+  "level": 15,
+  "entries": [
+    "Starting at 15th level, you have learned to bolster those that aid you on the battlefield. When a creature is involved in one of your Techniques you can choose to restore a number of hit points equal to your Constitution modifier to them. Additionally, you can choose to forgo the healing and instead end one condition affecting them from the following list: prone, stunned, charmed, or frightened."
+  ]
 }

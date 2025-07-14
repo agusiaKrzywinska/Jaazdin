@@ -1,12 +1,12 @@
 {
-    "name": "Nobility of Court",
-    "source": "TftJC",
-    "className": "Druid",
-    "classSource": "PHB",
-    "subclassShortName": "Seasons",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "Starting when you take this circle at 2nd level, you gain knowledge of the proceedings and etiquette of the Season Courts. You learn Sylvan and gain proficiency in Persuasion, your proficiency bonus for Persuasion is doubled when dealing with fey."
-    ]
+  "name": "Nobility of Court",
+  "source": "TftJC",
+  "className": "Druid",
+  "classSource": "PHB",
+  "subclassShortName": "Seasons",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "Starting when you take this circle at 2nd level, you gain knowledge of the proceedings and etiquette of the Season Courts. You learn Sylvan and gain proficiency in Persuasion, your proficiency bonus for Persuasion is doubled when dealing with fey."
+  ]
 }

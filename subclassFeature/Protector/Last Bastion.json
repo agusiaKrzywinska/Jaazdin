@@ -1,20 +1,20 @@
 {
-    "name": "Last Bastion",
-    "source": "TftJC",
-    "className": "Warden",
-    "classSource": "TftJC",
-    "subclassShortName": "Protector",
-    "subclassSource": "TftJC",
-    "level": 20,
-    "entries": [
-        "At 20th level, you become an unyielding guardian when it comes to protecting your charge. While you have the subject of your Honor Bond within 30ft, you gain the following benefits:",
-        {
-            "type": "list",
-            "items": [
-                "You gain resistance to bludgeoning, slashing, and piercing damage.",
-                "Whenever you make a saving throw, you can add 1d6 to the roll.",
-                "If the subject of your Honor Bond drops to 0 hit points, you can immediately take a full turn. Once you use this ability, you cannot use it again until you finish a long rest."
-            ]
-        }
-    ]
+  "name": "Last Bastion",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Protector",
+  "subclassSource": "TftJC",
+  "level": 20,
+  "entries": [
+    "At 20th level, you become an unyielding guardian when it comes to protecting your charge. While you have the subject of your Honor Bond within 30ft, you gain the following benefits:",
+    {
+      "type": "list",
+      "items": [
+        "You gain resistance to bludgeoning, slashing, and piercing damage.",
+        "Whenever you make a saving throw, you can add 1d6 to the roll.",
+        "If the subject of your Honor Bond drops to 0 hit points, you can immediately take a full turn. Once you use this ability, you cannot use it again until you finish a long rest."
+      ]
+    }
+  ]
 }

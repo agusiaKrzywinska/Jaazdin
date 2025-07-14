@@ -1,66 +1,66 @@
 {
-    "name": "Wishing Star",
-    "source": "TftJC",
-    "page": 62,
-    "level": 4,
-    "school": "D",
-    "time": [
-        {
-            "number": 1,
-            "unit": "action"
-        }
-    ],
-    "range": {
-        "type": "point",
-        "distance": {
-            "type": "feet",
-            "amount": 150
-        }
-    },
-    "components": {
-        "v": true,
-        "s": true,
-        "m": "a sprinkling of stardust"
-    },
-    "duration": [
-        {
-            "type": "timed",
-            "duration": {
-                "type": "round",
-                "amount": 3
-            }
-        }
-    ],
-    "entries": [
-        "You utter a magical prayer. At the beginning of your second turn after casting this spell, select up to 3 creatures within range. A comet flies by them, as they heal 45 hit points split between them."
-    ],
-    "entriesHigherLevel": [
-        {
-            "type": "entries",
-            "name": "At Higher Levels",
-            "entries": [
-                "If you cast this spell using a spell slot of 5th level slot or higher, it takes one less turn to complete."
-            ]
-        }
-    ],
-    "classes": {
-        "fromClassList": [
-            {
-                "name": "Bard",
-                "source": "PHB"
-            },
-            {
-                "name": "Cleric",
-                "source": "PHB"
-            },
-            {
-                "name": "Druid",
-                "source": "PHB"
-            },
-            {
-                "name": "Paladin",
-                "source": "PHB"
-            }
-        ]
+  "name": "Wishing Star",
+  "source": "TftJC",
+  "page": 62,
+  "level": 4,
+  "school": "D",
+  "time": [
+    {
+      "number": 1,
+      "unit": "action"
     }
+  ],
+  "range": {
+    "type": "point",
+    "distance": {
+      "type": "feet",
+      "amount": 150
+    }
+  },
+  "components": {
+    "v": true,
+    "s": true,
+    "m": "a sprinkling of stardust"
+  },
+  "duration": [
+    {
+      "type": "timed",
+      "duration": {
+        "type": "round",
+        "amount": 3
+      }
+    }
+  ],
+  "entries": [
+    "You utter a magical prayer. At the beginning of your second turn after casting this spell, select up to 3 creatures within range. A comet flies by them, as they heal 45 hit points split between them."
+  ],
+  "entriesHigherLevel": [
+    {
+      "type": "entries",
+      "name": "At Higher Levels",
+      "entries": [
+        "If you cast this spell using a spell slot of 5th level slot or higher, it takes one less turn to complete."
+      ]
+    }
+  ],
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Bard",
+        "source": "PHB"
+      },
+      {
+        "name": "Cleric",
+        "source": "PHB"
+      },
+      {
+        "name": "Druid",
+        "source": "PHB"
+      },
+      {
+        "name": "Paladin",
+        "source": "PHB"
+      }
+    ]
+  }
 }

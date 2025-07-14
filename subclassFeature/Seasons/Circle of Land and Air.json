@@ -1,21 +1,21 @@
 {
-    "name": "Circle of Land and Air",
-    "source": "TftJC",
-    "className": "Druid",
-    "classSource": "PHB",
-    "subclassShortName": "Seasons",
-    "subclassSource": "TftJC",
-    "level": 14,
-    "entries": [
-        "Starting at 14th level your Seasonal forms change the world around you. While in your Seasonal Form or Seasonal Warden form you create a 15ft aura around you with effects depending on your form:",
-        {
-            "type": "list",
-            "items": [
-                "Summer: Friendly creatures have resistance to fire damage and hostile creatures take fire damage equal to your proficiency modifier at the start of their turns.",
-                "Spring:  Friendly creatures have resistance to acid damage and regain the maximum hit points possible from healing spells",
-                "Autumn: Friendly creatures have resistance to lightning damage and hostile creatures that cast spells in the radius take lightning damage equal to half your druid level.",
-                "Winter: Friendly creatures have resistance to cold damage and hostile creatures have their movement speed reduced by 10"
-            ]
-        }
-    ]
+  "name": "Circle of Land and Air",
+  "source": "TftJC",
+  "className": "Druid",
+  "classSource": "PHB",
+  "subclassShortName": "Seasons",
+  "subclassSource": "TftJC",
+  "level": 14,
+  "entries": [
+    "Starting at 14th level your Seasonal forms change the world around you. While in your Seasonal Form or Seasonal Warden form you create a 15ft aura around you with effects depending on your form:",
+    {
+      "type": "list",
+      "items": [
+        "Summer: Friendly creatures have resistance to fire damage and hostile creatures take fire damage equal to your proficiency modifier at the start of their turns.",
+        "Spring:  Friendly creatures have resistance to acid damage and regain the maximum hit points possible from healing spells",
+        "Autumn: Friendly creatures have resistance to lightning damage and hostile creatures that cast spells in the radius take lightning damage equal to half your druid level.",
+        "Winter: Friendly creatures have resistance to cold damage and hostile creatures have their movement speed reduced by 10"
+      ]
+    }
+  ]
 }

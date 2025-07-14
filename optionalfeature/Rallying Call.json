@@ -1,11 +1,9 @@
 {
-    "name": "Rallying Call",
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "TECH"
-    ],
-    "entries": [
-        "You forgo an attack to rally your allies within 30ft of you, granting them temporary hp equal to half your warden level + your Constitution modifier."
-    ]
+  "name": "Rallying Call",
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["TECH"],
+  "entries": [
+    "You forgo an attack to rally your allies within 30ft of you, granting them temporary hp equal to half your warden level + your Constitution modifier."
+  ]
 }

@@ -1,27 +1,23 @@
 {
-    "name": "Modularity",
-    "prerequisite": [
-        {
-            "level": {
-                "level": 9,
-                "class": {
-                    "name": "Gunner"
-                }
-            },
-            "feature": [
-                "Two-Handed"
-            ]
+  "name": "Modularity",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 9,
+        "class": {
+          "name": "Gunner"
         }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "MOD"
-    ],
-    "consumes": {
-        "name": "400gp"
-    },
-    "entries": [
-        "The Firearm can be disassembled and reassembled within 1 minute for concealed carry."
-    ]
+      },
+      "feature": ["Two-Handed"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "400gp"
+  },
+  "entries": [
+    "The Firearm can be disassembled and reassembled within 1 minute for concealed carry."
+  ]
 }

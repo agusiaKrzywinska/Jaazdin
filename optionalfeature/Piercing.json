@@ -1,18 +1,14 @@
 {
-    "name": "Piercing",
-    "prerequisite": [
-        {
-            "feature": [
-                "Dark Arts Wizard"
-            ]
-        }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "ARC"
-    ],
-    "entries": [
-        "Tier 2 Arcana. Creatures affected by The Forbidden Spell gain a -1 penalty to its Armor Class until the end of your their next turn."
-    ]
+  "name": "Piercing",
+  "prerequisite": [
+    {
+      "feature": ["Dark Arts Wizard"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["ARC"],
+  "entries": [
+    "Tier 2 Arcana. Creatures affected by The Forbidden Spell gain a -1 penalty to its Armor Class until the end of their next turn."
+  ]
 }

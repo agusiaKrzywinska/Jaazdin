@@ -1,24 +1,24 @@
 {
-    "name": "Harvester",
-    "source": "TftJC",
-    "rarity": "none",
-    "type": "T",
-    "entries": [
-        "<i><b>Complex Invention.</i></b>",
-        "Using 4 hours of time, you can carefully extract sap from plant matter. To extract things, one must place the correct amount of a crop's harvest into the machine and monitor its extraction. Below are the current crops that it can use and their production rates. Additionally, for all plants and those without unique options, they are granted an option based on their rarity.",
-        "4 Rusty Spriggs -> 1 Random Uncommon Seed",
-        "1 Dead Kelpglider -> 1 Aquatic Companion Seed",
-        "10 3-leaf False Clovers -> 1 Reroll with advantage",
-        "10 Rock Gum Roots -> 1 Weakened Sovereign Glue (must be used within 1 week, loses stick after 1 day)",
-        "1 Gem Root Seed -> 50 gp diamond",
-        "10 3-leaf Golden Clovers -> 1 Reroll with advantage",
-        "40 Ironoak Berries -> 1 Ironoak Seed",
-        "16 Noble Willow Leaves -> 1 Noble Willow Sap",
-        "",
-        "8 Common plants product -> {@dice 1d4} enriching fertilizer",
-        "8 Uncommon plants product -> {@dice 1d4} robust fertilizer",
-        "8 rare plants product -> {@dice 1d4} fortifying fertilizer",
-        "8 very rare plants product -> 1 Permanent Robust fertilizer",
-        "8 legendary plants product -> 1 Permanent Fortifying fertilizer"
-    ]
+  "name": "Harvester",
+  "source": "TftJC",
+  "rarity": "none",
+  "type": "T",
+  "entries": [
+    "<i><b>Complex Invention.</i></b>",
+    "Using 4 hours of time, you can carefully extract sap from plant matter. To extract things, one must place the correct amount of a crop's harvest into the machine and monitor its extraction. Below are the current crops that it can use and their production rates. Additionally, for all plants and those without unique options, they are granted an option based on their rarity.",
+    "4 Rusty Spriggs -> 1 Random Uncommon Seed",
+    "1 Dead Kelpglider -> 1 Aquatic Companion Seed",
+    "10 3-leaf False Clovers -> 1 Reroll with advantage",
+    "10 Rock Gum Roots -> 1 Weakened Sovereign Glue (must be used within 1 week, loses stick after 1 day)",
+    "1 Gem Root Seed -> 50 gp diamond",
+    "10 3-leaf Golden Clovers -> 1 Reroll with advantage",
+    "40 Ironoak Berries -> 1 Ironoak Seed",
+    "16 Noble Willow Leaves -> 1 Noble Willow Sap",
+    "",
+    "8 Common plants product -> {@dice 1d4} enriching fertilizer",
+    "8 Uncommon plants product -> {@dice 1d4} robust fertilizer",
+    "8 rare plants product -> {@dice 1d4} fortifying fertilizer",
+    "8 very rare plants product -> 1 Permanent Robust fertilizer",
+    "8 legendary plants product -> 1 Permanent Fortifying fertilizer"
+  ]
 }

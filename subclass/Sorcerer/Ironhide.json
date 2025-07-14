@@ -1,14 +1,14 @@
 {
-    "name": "Ironhide",
-    "source": "TftJC",
-    "page": 38,
-    "className": "Sorcerer",
-    "classSource": "PHB",
-    "shortName": "Ironhide",
-    "subclassFeatures": [
-        "Ironhide|Sorcerer|PHB|Ironhide|TftJC|1",
-        "Power Core|Sorcerer|PHB|Ironhide|TftJC|6",
-        "Magnetic Hover|Sorcerer|PHB|Ironhide|TftJC|14",
-        "Magnetic Singularity|Sorcerer|PHB|Ironhide|TftJC|18"
-    ]
+  "name": "Ironhide",
+  "source": "TftJC",
+  "page": 38,
+  "className": "Sorcerer",
+  "classSource": "PHB",
+  "shortName": "Ironhide",
+  "subclassFeatures": [
+    "Ironhide|Sorcerer|PHB|Ironhide|TftJC|1",
+    "Power Core|Sorcerer|PHB|Ironhide|TftJC|6",
+    "Magnetic Hover|Sorcerer|PHB|Ironhide|TftJC|14",
+    "Magnetic Singularity|Sorcerer|PHB|Ironhide|TftJC|18"
+  ]
 }

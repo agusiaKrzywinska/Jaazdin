@@ -1,12 +1,12 @@
 {
-    "name": "Integrated Mind",
-    "source": "TftJC",
-    "className": "Barbarian",
-    "classSource": "PHB",
-    "subclassShortName": "Mechanical Menace",
-    "subclassSource": "TftJC",
-    "level": 10,
-    "entries": [
-        "At 10th level, your mind becomes honed to all attacks. You gain proficiency in Intelligence Saving Throws. When you succeed an Intelligence Saving Throw, you deal additional damage equal to your Intelligence modifier on melee weapon attacks until the end of your next turn."
-    ]
+  "name": "Integrated Mind",
+  "source": "TftJC",
+  "className": "Barbarian",
+  "classSource": "PHB",
+  "subclassShortName": "Mechanical Menace",
+  "subclassSource": "TftJC",
+  "level": 10,
+  "entries": [
+    "At 10th level, your mind becomes honed to all attacks. You gain proficiency in Intelligence Saving Throws. When you succeed an Intelligence Saving Throw, you deal additional damage equal to your Intelligence modifier on melee weapon attacks until the end of your next turn."
+  ]
 }

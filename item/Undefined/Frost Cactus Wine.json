@@ -1,21 +1,21 @@
 {
-    "name": "Frost Cactus Wine",
-    "source": "TftJC",
-    "type": "FD",
-    "rarity": "common",
-    "value": 1500,
-    "weight": 0,
-    "entries": [
-        "<b>Preparation:</b> Requires Cook's Tools or Brewer's Tools to prepare.",
-        "<b>Ingredients:</b> x1 Common Dragon Meat, x1 Trailvine.",
-        "<b>Effect:</b> You have advantage on all saving throws to resist the effects of hot climates."
-    ],
-    "foundryType": "consumable",
-    "foundrySystem": {
-        "consumableType": "food",
-        "uses": {
-            "max": 1,
-            "per": "charges"
-        }
+  "name": "Frost Cactus Wine",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "common",
+  "value": 1500,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook's Tools or Brewer's Tools to prepare.",
+    "<b>Ingredients:</b> x1 Common Dragon Meat, x1 Trailvine.",
+    "<b>Effect:</b> You have advantage on all saving throws to resist the effects of hot climates."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
     }
+  }
 }

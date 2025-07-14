@@ -1,24 +1,22 @@
 {
-    "name": "Scope",
-    "prerequisite": [
-        {
-            "level": {
-                "level": 5,
-                "class": {
-                    "name": "Gunner"
-                }
-            }
+  "name": "Scope",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 5,
+        "class": {
+          "name": "Gunner"
         }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "MOD"
-    ],
-    "consumes": {
-        "name": "250gp"
-    },
-    "entries": [
-        "The firearm does not pose disadvantage when firing at long range."
-    ]
+      }
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "250gp"
+  },
+  "entries": [
+    "The firearm does not pose disadvantage when firing at long range."
+  ]
 }

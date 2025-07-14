@@ -1,18 +1,14 @@
 {
-    "name": "Empower",
-    "prerequisite": [
-        {
-            "feature": [
-                "Dark Arts Wizard"
-            ]
-        }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "ARC"
-    ],
-    "entries": [
-        "Tier 3 Arcana. The Forbidden Spell's damage die uses d8s instead of d6s."
-    ]
+  "name": "Empower",
+  "prerequisite": [
+    {
+      "feature": ["Dark Arts Wizard"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["ARC"],
+  "entries": [
+    "Tier 3 Arcana. The Forbidden Spell's damage die uses d8s instead of d6s."
+  ]
 }

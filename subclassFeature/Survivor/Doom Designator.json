@@ -1,13 +1,13 @@
 {
-    "name": "Doom Designator",
-    "source": "TftJC",
-    "className": "Ranger",
-    "classSource": "PHB",
-    "subclassShortName": "Survivor",
-    "subclassSource": "TftJC",
-    "level": 15,
-    "entries": [
-        "At 15th level, you have escaped death so many times that it has left a supernatural effect on you. As an action, designate a creature within 60ft of you that you can see. That creature must make a Charisma saving throw against your Spell SaveDC. On a fail, they are doomed. The world around them begins to react to their impending doom, with things such as buzzards flocking around them or clerics adverting their eyes.If the creature has more than 100 hit points, they gain a point of exhaustion for every hour that passes, ending after the 6th hour. If they have fewer than 100 hit points, they instantly reach 6 points of exhaustion. A creature that dies by this ability becomes dust.",
-        "If a creature passes this saving throw, they are immune to you using this ability on them for the next 2d4+4 days. This ability can be used once per long rest. A Doomed creature can be saved by having Remove Curse cast on them anywhere at or above 7th level."
-    ]
+  "name": "Doom Designator",
+  "source": "TftJC",
+  "className": "Ranger",
+  "classSource": "PHB",
+  "subclassShortName": "Survivor",
+  "subclassSource": "TftJC",
+  "level": 15,
+  "entries": [
+    "At 15th level, you have escaped death so many times that it has left a supernatural effect on you. As an action, designate a creature within 60ft of you that you can see. That creature must make a Charisma saving throw against your Spell SaveDC. On a fail, they are doomed. The world around them begins to react to their impending doom, with things such as buzzards flocking around them or clerics adverting their eyes.If the creature has more than 100 hit points, they gain a point of exhaustion for every hour that passes, ending after the 6th hour. If they have fewer than 100 hit points, they instantly reach 6 points of exhaustion. A creature that dies by this ability becomes dust.",
+    "If a creature passes this saving throw, they are immune to you using this ability on them for the next 2d4+4 days. This ability can be used once per long rest. A Doomed creature can be saved by having Remove Curse cast on them anywhere at or above 7th level."
+  ]
 }

@@ -1,12 +1,12 @@
 {
-    "name": "Property Damage",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Demolitionist",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "At 2nd level, your firearms blow up the neighbourhood. Your Firearms deal double damage to structures and buildings."
-    ]
+  "name": "Property Damage",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Demolitionist",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "At 2nd level, your firearms blow up the neighbourhood. Your Firearms deal double damage to structures and buildings."
+  ]
 }

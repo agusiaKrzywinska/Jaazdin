@@ -1,12 +1,12 @@
 {
-    "name": "Bonus Proficiency",
-    "source": "TftJC",
-    "className": "Cleric",
-    "classSource": "PHB",
-    "subclassShortName": "Polyglot",
-    "subclassSource": "TftJC",
-    "level": 1,
-    "entries": [
-        "You gain proficiency in one skill of your choice, one language of your choice, as well as Calligraphy an  Painter's tools."
-    ]
+  "name": "Bonus Proficiency",
+  "source": "TftJC",
+  "className": "Cleric",
+  "classSource": "PHB",
+  "subclassShortName": "Polyglot",
+  "subclassSource": "TftJC",
+  "level": 1,
+  "entries": [
+    "You gain proficiency in one skill of your choice, one language of your choice, as well as Calligraphy an  Painter's tools."
+  ]
 }

@@ -1,15 +1,15 @@
 {
-    "name": "The Juggernaut",
-    "source": "TftJC",
-    "page": 300,
-    "className": "Warden",
-    "classSource": "TftJC",
-    "shortName": "Juggernaut",
-    "subclassFeatures": [
-        "The Juggernaut|Warden|TftJC|Juggernaut|TftJC|3",
-        "Unyielding Body|Warden|TftJC|Juggernaut|TftJC|7",
-        "Unyielding Mind|Warden|TftJC|Juggernaut|TftJC|7",
-        "Unshackled|Warden|TftJC|Juggernaut|TftJC|15",
-        "Furious Overlord|Warden|TftJC|Juggernaut|TftJC|20"
-    ]
+  "name": "The Juggernaut",
+  "source": "TftJC",
+  "page": 300,
+  "className": "Warden",
+  "classSource": "TftJC",
+  "shortName": "Juggernaut",
+  "subclassFeatures": [
+    "The Juggernaut|Warden|TftJC|Juggernaut|TftJC|3",
+    "Unyielding Body|Warden|TftJC|Juggernaut|TftJC|7",
+    "Unyielding Mind|Warden|TftJC|Juggernaut|TftJC|7",
+    "Unshackled|Warden|TftJC|Juggernaut|TftJC|15",
+    "Furious Overlord|Warden|TftJC|Juggernaut|TftJC|20"
+  ]
 }

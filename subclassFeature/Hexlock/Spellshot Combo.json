@@ -1,12 +1,12 @@
 {
-    "name": "Spellshot Combo",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Hexlock",
-    "subclassSource": "TftJC",
-    "level": 10,
-    "entries": [
-        "At 10th level, after casting a spell or cantrip you can make one ranged weapon attack with a bonus action."
-    ]
+  "name": "Spellshot Combo",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Hexlock",
+  "subclassSource": "TftJC",
+  "level": 10,
+  "entries": [
+    "At 10th level, after casting a spell or cantrip you can make one ranged weapon attack with a bonus action."
+  ]
 }

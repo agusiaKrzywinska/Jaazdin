@@ -1,33 +1,33 @@
 {
-    "name": "Bonus Techniques",
-    "source": "TftJC",
-    "className": "Warden",
-    "classSource": "TftJC",
-    "subclassShortName": "Juggernaut",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "When you take this tract at 3rd level, you gain one technique from the list below. Whenever you gain a new technique, you can choose from this list as well.",
-        {
-            "type": "inset",
-            "name": "Crushing Pursuit",
-            "entries": [
-                "As a bonus action, you can Dash. When you finish your movement on this turn, each creature of your choice within 10 feet of you must make a Strength saving throw or take bludgeoning damage equal to your Proficiency Bonus + 1/20th of your Maximum Hit points. On a successful save they take half damage."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Relentless Vigor",
-            "entries": [
-                "As a reaction to failing a saving throw, expend 1 hit die and roll it. You take necrotic damage equal to twice the number rolled which cannot be reduced in any way. You may then reattempt the saving throw with advantage. You may still use Heat of Battle even if after using this Technique, even if you succeed on the saving throw on the reattempt."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Subjugation",
-            "entries": [
-                "You forgo one attack to instead intimidate one target. Select 1 creature within 60ft of you, they must make a Wisdom saving throw. On a failure, they are Frightened of you. As long as the creature is frightened, their movement speed is halved, and you gain Temporary Hit Points at the start of your turn equal to your Proficiency Bonus. On a success, their movement speed is halved until the end of their next turn."
-            ]
-        }
-    ]
+  "name": "Bonus Techniques",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Juggernaut",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "When you take this tract at 3rd level, you gain one technique from the list below. Whenever you gain a new technique, you can choose from this list as well.",
+    {
+      "type": "inset",
+      "name": "Crushing Pursuit",
+      "entries": [
+        "As a bonus action, you can Dash. When you finish your movement on this turn, each creature of your choice within 10 feet of you must make a Strength saving throw or take bludgeoning damage equal to your Proficiency Bonus + 1/20th of your Maximum Hit points. On a successful save they take half damage."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Relentless Vigor",
+      "entries": [
+        "As a reaction to failing a saving throw, expend 1 hit die and roll it. You take necrotic damage equal to twice the number rolled which cannot be reduced in any way. You may then reattempt the saving throw with advantage. You may still use Heat of Battle even if after using this Technique, even if you succeed on the saving throw on the reattempt."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Subjugation",
+      "entries": [
+        "You forgo one attack to instead intimidate one target. Select 1 creature within 60ft of you, they must make a Wisdom saving throw. On a failure, they are Frightened of you. As long as the creature is frightened, their movement speed is halved, and you gain Temporary Hit Points at the start of your turn equal to your Proficiency Bonus. On a success, their movement speed is halved until the end of their next turn."
+      ]
+    }
+  ]
 }

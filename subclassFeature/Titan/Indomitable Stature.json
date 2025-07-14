@@ -1,12 +1,12 @@
 {
-    "name": "Indomitable Stature",
-    "source": "TftJC",
-    "className": "Druid",
-    "classSource": "PHB",
-    "subclassShortName": "Titan",
-    "subclassSource": "TftJC",
-    "level": 10,
-    "entries": [
-        "At 10th level, your Menacing Stature is improved. When you cast Enlarge/Reduce, you now grow the target two size categories. Your Titanic Wild Shapes also grow two Size categories. Your Wild Shapes are considered Monstrosities now when you choose to make them a Titan"
-    ]
+  "name": "Indomitable Stature",
+  "source": "TftJC",
+  "className": "Druid",
+  "classSource": "PHB",
+  "subclassShortName": "Titan",
+  "subclassSource": "TftJC",
+  "level": 10,
+  "entries": [
+    "At 10th level, your Menacing Stature is improved. When you cast Enlarge/Reduce, you now grow the target two size categories. Your Titanic Wild Shapes also grow two Size categories. Your Wild Shapes are considered Monstrosities now when you choose to make them a Titan"
+  ]
 }

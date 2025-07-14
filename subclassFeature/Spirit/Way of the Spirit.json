@@ -1,17 +1,17 @@
 {
-    "name": "Way of the Spirit",
-    "source": "TftJC",
-    "className": "Monk",
-    "classSource": "PHB",
-    "subclassShortName": "Spirit",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "As the lands grow older and the people move further away from the ancient ways, those who practise the Way of the Spirit hang behind and preserve their sacred stances. They channel the powers of long forgotten spirits, who guide their techniques.",
-        "Practitioners of the Way of the Spirit are masters of Spirit Stances, powerful cumulation of Spirit energy that embolden their physical abilities. Monks of this Tradition may have spiritual animals guide their movements, or even powerful demons who may be bound to the order.",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Spirit Stance|Monk|PHB|Spirit|TftJC|3"
-        }
-    ]
+  "name": "Way of the Spirit",
+  "source": "TftJC",
+  "className": "Monk",
+  "classSource": "PHB",
+  "subclassShortName": "Spirit",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "As the lands grow older and the people move further away from the ancient ways, those who practise the Way of the Spirit hang behind and preserve their sacred stances. They channel the powers of long forgotten spirits, who guide their techniques.",
+    "Practitioners of the Way of the Spirit are masters of Spirit Stances, powerful cumulation of Spirit energy that embolden their physical abilities. Monks of this Tradition may have spiritual animals guide their movements, or even powerful demons who may be bound to the order.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Spirit Stance|Monk|PHB|Spirit|TftJC|3"
+    }
+  ]
 }

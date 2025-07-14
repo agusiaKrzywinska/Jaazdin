@@ -1,21 +1,18 @@
 {
-    "name": "Frostwail",
-    "source": "TftJC",
-    "rarity": "rare",
-    "baseItem": "Maul|PHB",
-    "reqAttune": true,
-    "weight": 10,
-    "type": "M",
-    "weaponCategory": "martial",
-    "dmg1": "2d6",
-    "dmgType": "B",
-    "property": [
-        "H",
-        "2H"
-    ],
-    "entries": [
-        "This maul of ice and ivory bears a never melting heavy head.",
-        "You gain a +2 bonus to attack and damage rolls made with this magical weapon. When you hit a creature with this weapon you deal {@dice 2d6} cold damage.",
-        "When you land a critical hit the maul head explodes dealing {@dice 3d12} cold damage to each creature of your choice within 10ft of you. The maul head then takes {@dice 1d4} rounds to reform, during this time the maul cannot deal damage."
-    ]
+  "name": "Frostwail",
+  "source": "TftJC",
+  "rarity": "rare",
+  "baseItem": "Maul|PHB",
+  "reqAttune": true,
+  "weight": 10,
+  "type": "M",
+  "weaponCategory": "martial",
+  "dmg1": "2d6",
+  "dmgType": "B",
+  "property": ["H", "2H"],
+  "entries": [
+    "This maul of ice and ivory bears a never melting heavy head.",
+    "You gain a +2 bonus to attack and damage rolls made with this magical weapon. When you hit a creature with this weapon you deal {@dice 2d6} cold damage.",
+    "When you land a critical hit the maul head explodes dealing {@dice 3d12} cold damage to each creature of your choice within 10ft of you. The maul head then takes {@dice 1d4} rounds to reform, during this time the maul cannot deal damage."
+  ]
 }

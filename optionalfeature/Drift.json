@@ -1,18 +1,14 @@
 {
-    "name": "Drift",
-    "prerequisite": [
-        {
-            "feature": [
-                "Dark Arts Wizard"
-            ]
-        }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "ARC"
-    ],
-    "entries": [
-        "Tier 2 Arcana. Immediately after or before casting The Forbidden Spell, you may teleport up to 15ft to an unoccupied space you can see."
-    ]
+  "name": "Drift",
+  "prerequisite": [
+    {
+      "feature": ["Dark Arts Wizard"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["ARC"],
+  "entries": [
+    "Tier 2 Arcana. Immediately after or before casting The Forbidden Spell, you may teleport up to 15ft to an unoccupied space you can see."
+  ]
 }

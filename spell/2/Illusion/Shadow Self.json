@@ -1,48 +1,48 @@
 {
-    "name": "Shadow Self",
-    "source": "TftJC",
-    "page": 58,
-    "level": 2,
-    "school": "I",
-    "time": [
-        {
-            "number": 1,
-            "unit": "action"
-        }
-    ],
-    "range": {
-        "type": "self"
-    },
-    "components": {
-        "v": true,
-        "s": true
-    },
-    "duration": [
-        {
-            "type": "timed",
-            "duration": {
-                "amount": 10,
-                "type": "minute"
-            }
-        }
-    ],
-    "entries": [
-        "You create a shadowy duplicate of yourself that appears within 5ft of you. As a bonus action, you can perceive through the duplicate’s senses, causing your body to go blind and deaf until you use another bonus action to switch back. The duplicate can move 30ft on your turn, but must remain within 60ft of you, or the spell ends. Once, while the spell is in effect, you can swap places with the duplicate as a reaction. You can also take this reaction when you are hit with an attack, causing the attack to miss. Once you swap with the duplicate, it disappears and the spell ends."
-    ],
-    "classes": {
-        "fromClassList": [
-            {
-                "name": "Bard",
-                "source": "PHB"
-            },
-            {
-                "name": "Druid",
-                "source": "PHB"
-            },
-            {
-                "name": "Warlock",
-                "source": "PHB"
-            }
-        ]
+  "name": "Shadow Self",
+  "source": "TftJC",
+  "page": 58,
+  "level": 2,
+  "school": "I",
+  "time": [
+    {
+      "number": 1,
+      "unit": "action"
     }
+  ],
+  "range": {
+    "type": "self"
+  },
+  "components": {
+    "v": true,
+    "s": true
+  },
+  "duration": [
+    {
+      "type": "timed",
+      "duration": {
+        "amount": 10,
+        "type": "minute"
+      }
+    }
+  ],
+  "entries": [
+    "You create a shadowy duplicate of yourself that appears within 5ft of you. As a bonus action, you can perceive through the duplicate’s senses, causing your body to go blind and deaf until you use another bonus action to switch back. The duplicate can move 30ft on your turn, but must remain within 60ft of you, or the spell ends. Once, while the spell is in effect, you can swap places with the duplicate as a reaction. You can also take this reaction when you are hit with an attack, causing the attack to miss. Once you swap with the duplicate, it disappears and the spell ends."
+  ],
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Bard",
+        "source": "PHB"
+      },
+      {
+        "name": "Druid",
+        "source": "PHB"
+      },
+      {
+        "name": "Warlock",
+        "source": "PHB"
+      }
+    ]
+  }
 }

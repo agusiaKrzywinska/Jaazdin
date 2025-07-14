@@ -1,45 +1,24 @@
 {
-    "name": "Oath of the Masked Rider Spells",
-    "source": "TftJC",
-    "className": "Paladin",
-    "classSource": "PHB",
-    "subclassShortName": "Masked Rider",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        {
-            "type": "table",
-            "caption": "Masked Rider Spells",
-            "colLabels": [
-                "Paladin Level",
-                "Spell"
-            ],
-            "colStyles": [
-                "col-2 text-center",
-                "col-10"
-            ],
-            "rows": [
-                [
-                    "3rd",
-                    "{@spell thunderwave}, {@spell zephyr strike|XGE}"
-                ],
-                [
-                    "5th",
-                    "{@spell enthrall}, {@spell shatter}"
-                ],
-                [
-                    "9th",
-                    "{@spell ashardalon's stride|FTD}, {@spell thunder step|XGE}"
-                ],
-                [
-                    "13th",
-                    "{@spell freedom of movement}, {@spell wall of fire}"
-                ],
-                [
-                    "17th",
-                    "{@spell dawn|XGE}, {@spell steel wind strike|XGE}"
-                ]
-            ]
-        }
-    ]
+  "name": "Oath of the Masked Rider Spells",
+  "source": "TftJC",
+  "className": "Paladin",
+  "classSource": "PHB",
+  "subclassShortName": "Masked Rider",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    {
+      "type": "table",
+      "caption": "Masked Rider Spells",
+      "colLabels": ["Paladin Level", "Spell"],
+      "colStyles": ["col-2 text-center", "col-10"],
+      "rows": [
+        ["3rd", "{@spell thunderwave}, {@spell zephyr strike|XGE}"],
+        ["5th", "{@spell enthrall}, {@spell shatter}"],
+        ["9th", "{@spell ashardalon's stride|FTD}, {@spell thunder step|XGE}"],
+        ["13th", "{@spell freedom of movement}, {@spell wall of fire}"],
+        ["17th", "{@spell dawn|XGE}, {@spell steel wind strike|XGE}"]
+      ]
+    }
+  ]
 }

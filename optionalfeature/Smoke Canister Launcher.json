@@ -1,27 +1,23 @@
 {
-    "name": "Smoke Canister Launcher",
-    "prerequisite": [
-        {
-            "level": {
-                "level": 9,
-                "class": {
-                    "name": "Gunner"
-                }
-            },
-            "feature": [
-                "Gunner: Rambo, Two-Handed"
-            ]
+  "name": "Smoke Canister Launcher",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 9,
+        "class": {
+          "name": "Gunner"
         }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "MOD"
-    ],
-    "consumes": {
-        "name": "400gp"
-    },
-    "entries": [
-        "You can forgo an attack on your turn with a Smoke Canister, firing it within your firearm's short range. It then explodes, dealing no damage but heavily obscuring a 10ft radius around it. Can be used a number of times per Short rest equal to your Prof Bonus."
-    ]
+      },
+      "feature": ["Gunner: Rambo, Two-Handed"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "400gp"
+  },
+  "entries": [
+    "You can forgo an attack on your turn with a Smoke Canister, firing it within your firearm's short range. It then explodes, dealing no damage but heavily obscuring a 10ft radius around it. Can be used a number of times per Short rest equal to your Prof Bonus."
+  ]
 }

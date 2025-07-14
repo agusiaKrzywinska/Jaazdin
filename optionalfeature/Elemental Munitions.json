@@ -1,27 +1,23 @@
 {
-    "name": "Elemental Munitions",
-    "prerequisite": [
-        {
-            "level": {
-                "level": 3,
-                "class": {
-                    "name": "Gunner"
-                }
-            },
-            "feature": [
-                "Gunner: Flameburster, Barrel"
-            ]
+  "name": "Elemental Munitions",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 3,
+        "class": {
+          "name": "Gunner"
         }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "MOD"
-    ],
-    "consumes": {
-        "name": "85gp"
-    },
-    "entries": [
-        "When you use your Burst Strike feature, you may choose the damage type of the extra damage. Your choices are Acid, Cold, Fire, Lightning, or Thunder."
-    ]
+      },
+      "feature": ["Gunner: Flameburster, Barrel"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "85gp"
+  },
+  "entries": [
+    "When you use your Burst Strike feature, you may choose the damage type of the extra damage. Your choices are Acid, Cold, Fire, Lightning, or Thunder."
+  ]
 }

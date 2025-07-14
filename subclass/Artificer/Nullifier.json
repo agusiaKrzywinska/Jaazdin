@@ -1,26 +1,26 @@
 {
-    "name": "Nullifier",
-    "source": "TftJC",
-    "page": 11,
-    "className": "Artificer",
-    "classSource": "TCE",
-    "shortName": "Nullifier",
-    "subclassFeatures": [
-        "Nullifier|Artificer|TCE|Nullifier|TftJC|3",
-        "Stupefying Spells|Artificer|TCE|Nullifier|TftJC|5",
-        "Disruptive Genius|Artificer|TCE|Nullifier|TftJC|9",
-        "Devious Disruption|Artificer|TCE|Nullifier|TftJC|15"
-    ],
-    "subclassSpells": [
-        "Catapult|XgtE",
-        "Protection from Evil and Good",
-        "Knock",
-        "Hold Person",
-        "Counter Spell",
-        "Dispel Magic",
-        "Aura of Purity",
-        "Death Ward",
-        "Dispel Evil and Good",
-        "Hold Monster"
-    ]
+  "name": "Nullifier",
+  "source": "TftJC",
+  "page": 11,
+  "className": "Artificer",
+  "classSource": "TCE",
+  "shortName": "Nullifier",
+  "subclassFeatures": [
+    "Nullifier|Artificer|TCE|Nullifier|TftJC|3",
+    "Stupefying Spells|Artificer|TCE|Nullifier|TftJC|5",
+    "Disruptive Genius|Artificer|TCE|Nullifier|TftJC|9",
+    "Devious Disruption|Artificer|TCE|Nullifier|TftJC|15"
+  ],
+  "subclassSpells": [
+    "Catapult|XgtE",
+    "Protection from Evil and Good",
+    "Knock",
+    "Hold Person",
+    "Counter Spell",
+    "Dispel Magic",
+    "Aura of Purity",
+    "Death Ward",
+    "Dispel Evil and Good",
+    "Hold Monster"
+  ]
 }

@@ -1,27 +1,21 @@
 {
-    "name": "Double Chamber",
-    "prerequisite": [
-        {
-            "level": {
-                "level": 9,
-                "class": {
-                    "name": "Gunner"
-                }
-            },
-            "feature": [
-                "Shotgun"
-            ]
+  "name": "Double Chamber",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 9,
+        "class": {
+          "name": "Gunner"
         }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "MOD"
-    ],
-    "consumes": {
-        "name": "450gp"
-    },
-    "entries": [
-        "Increases Pump by 2."
-    ]
+      },
+      "feature": ["Shotgun"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "450gp"
+  },
+  "entries": ["Increases Pump by 2."]
 }

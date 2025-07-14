@@ -1,27 +1,23 @@
 {
-    "name": "Drum Upgrade",
-    "prerequisite": [
-        {
-            "level": {
-                "level": 9,
-                "class": {
-                    "name": "Gunner"
-                }
-            },
-            "feature": [
-                "Clip"
-            ]
+  "name": "Drum Upgrade",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 9,
+        "class": {
+          "name": "Gunner"
         }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "MOD"
-    ],
-    "consumes": {
-        "name": "350gp"
-    },
-    "entries": [
-        "All of this firearm's clips are converted into drums, which each triple their ammunition capacity."
-    ]
+      },
+      "feature": ["Clip"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "350gp"
+  },
+  "entries": [
+    "All of this firearm's clips are converted into drums, which each triple their ammunition capacity."
+  ]
 }

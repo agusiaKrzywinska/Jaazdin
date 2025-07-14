@@ -1,21 +1,17 @@
 {
-    "name": "Katana",
-    "source": "TftJC",
-    "page": 36,
-    "type": "M",
-    "rarity": "none",
-    "weight": 2,
-    "value": 3000,
-    "weaponCategory": "martial",
-    "property": [
-        "F",
-        "S",
-        "V"
-    ],
-    "dmg1": "1d8",
-    "dmg2": "1d10",
-    "dmgType": "S",
-    "entries": [
-        "<b><i>Special.</i></b> Only Ninjutsu Rogues are able to gain proficiency with this weapon."
-    ]
+  "name": "Katana",
+  "source": "TftJC",
+  "page": 36,
+  "type": "M",
+  "rarity": "none",
+  "weight": 2,
+  "value": 3000,
+  "weaponCategory": "martial",
+  "property": ["F", "S", "V"],
+  "dmg1": "1d8",
+  "dmg2": "1d10",
+  "dmgType": "S",
+  "entries": [
+    "<b><i>Special.</i></b> Only Ninjutsu Rogues are able to gain proficiency with this weapon."
+  ]
 }

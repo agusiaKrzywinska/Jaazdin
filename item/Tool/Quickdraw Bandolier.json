@@ -1,25 +1,17 @@
 {
-    "name": "Quickdraw Bandolier",
-    "source": "TftJC",
-    "rarity": "none",
-    "type": "T",
-    "containerCapacity": {
-        "weight": [
-            4,
-            4,
-            5,
-            5,
-            5,
-            5,
-            5
-        ],
-        "weightless": true
-    },
-    "entries": [
-        "<i><b>Innovative Invention.</i></b>",
-        "This multi-pouch strap can be worn over the chest. The Bandolier contains 5 front pouches and two back straps.",
-        "A back strap can hold a thrown weapon, like a spear or dagger, and the front pouches can hold objects such as potions, caltrops, acid vials and other small handheld trinkets.",
-        "Items in the bandolier can be drawn as a free action. Placing an Item in the bandolier uses an Item interaction.",
-        "Each Pouch can only contain one type of item but can hold up to 5 lbs."
-    ]
+  "name": "Quickdraw Bandolier",
+  "source": "TftJC",
+  "rarity": "none",
+  "type": "T",
+  "containerCapacity": {
+    "weight": [4, 4, 5, 5, 5, 5, 5],
+    "weightless": true
+  },
+  "entries": [
+    "<i><b>Innovative Invention.</i></b>",
+    "This multi-pouch strap can be worn over the chest. The Bandolier contains 5 front pouches and two back straps.",
+    "A back strap can hold a thrown weapon, like a spear or dagger, and the front pouches can hold objects such as potions, caltrops, acid vials and other small handheld trinkets.",
+    "Items in the bandolier can be drawn as a free action. Placing an Item in the bandolier uses an Item interaction.",
+    "Each Pouch can only contain one type of item but can hold up to 5 lbs."
+  ]
 }

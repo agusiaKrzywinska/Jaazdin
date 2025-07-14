@@ -1,21 +1,21 @@
 {
-    "name": "Spell Breaker",
-    "source": "TftJC",
-    "className": "Warden",
-    "classSource": "TftJC",
-    "subclassShortName": "Conduit",
-    "subclassSource": "TftJC",
-    "level": 20,
-    "entries": [
-        "At 20th level, you become an expert at rebuking harmful magical effects from yourself and allies. Once per day, you can burn your magical energies to create a powerful nullifying field around yourself. Using an action to expend one spell slot, you gain the following effects for a number of rounds equal to the level of the spell slot expended.",
-        {
-            "type": "list",
-            "items": [
-                "You and creatures within 30ft of you of your choice gain advantage on saving throws against spells and other magical effects.",
-                "When a creature within 30ft of you takes damage from a spell, you can reduce the damage they take by an amount equal to your Constitution modifier.",
-                "If you succeed on a saving throw against a spell that only targets you, you gain temporary hit points equal to twice that spell's level."
-            ]
-        },
-        "While in this state, you can use a bonus action to expend another spell slot to extend the duration of the effects. When the effect ends, you deal force damage to any creatures of your choice within 30ft of you equal to four times the number of rounds it was active."
-    ]
+  "name": "Spell Breaker",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Conduit",
+  "subclassSource": "TftJC",
+  "level": 20,
+  "entries": [
+    "At 20th level, you become an expert at rebuking harmful magical effects from yourself and allies. Once per day, you can burn your magical energies to create a powerful nullifying field around yourself. Using an action to expend one spell slot, you gain the following effects for a number of rounds equal to the level of the spell slot expended.",
+    {
+      "type": "list",
+      "items": [
+        "You and creatures within 30ft of you of your choice gain advantage on saving throws against spells and other magical effects.",
+        "When a creature within 30ft of you takes damage from a spell, you can reduce the damage they take by an amount equal to your Constitution modifier.",
+        "If you succeed on a saving throw against a spell that only targets you, you gain temporary hit points equal to twice that spell's level."
+      ]
+    },
+    "While in this state, you can use a bonus action to expend another spell slot to extend the duration of the effects. When the effect ends, you deal force damage to any creatures of your choice within 30ft of you equal to four times the number of rounds it was active."
+  ]
 }

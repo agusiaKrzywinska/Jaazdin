@@ -1,24 +1,20 @@
 {
-    "name": "The Bank",
-    "prerequisite": [
-        {
-            "level": {
-                "level": 11,
-                "class": {
-                    "name": "Warlock"
-                }
-            },
-            "feature": [
-                "Opulent Warlock"
-            ]
+  "name": "The Bank",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 11,
+        "class": {
+          "name": "Warlock"
         }
-    ],
-    "source": "TftJC",
-    "page": 43,
-    "featureType": [
-        "EI"
-    ],
-    "entries": [
-        "You gain a sapphire worth 1,000gp that can be used as a material component for the spell instant summons, which you learn when you take this invocations. This sapphire is not consumed when you end the spell, instead, the spell simply ends, and you can reuse the sapphire on another cast of instant summons.If you lose this sapphire you can expend 1,000gp from your Deep Pockets to produce a new one, doing so causes the other to vanish."
-    ]
+      },
+      "feature": ["Opulent Warlock"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 43,
+  "featureType": ["EI"],
+  "entries": [
+    "You gain a sapphire worth 1,000gp that can be used as a material component for the spell instant summons, which you learn when you take this invocations. This sapphire is not consumed when you end the spell, instead, the spell simply ends, and you can reuse the sapphire on another cast of instant summons.If you lose this sapphire you can expend 1,000gp from your Deep Pockets to produce a new one, doing so causes the other to vanish."
+  ]
 }

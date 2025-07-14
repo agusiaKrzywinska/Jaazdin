@@ -1,15 +1,15 @@
 {
-    "name": "The Commander",
-    "source": "TftJC",
-    "page": 300,
-    "className": "Warden",
-    "classSource": "TftJC",
-    "shortName": "Commander",
-    "subclassFeatures": [
-        "The Commander|Warden|TftJC|Commander|TftJC|3",
-        "Peace in War|Warden|TftJC|Commander|TftJC|7",
-        "Commander's Mind|Warden|TftJC|Commander|TftJC|7",
-        "Beneficial Cooperation|Warden|TftJC|Commander|TftJC|15",
-        "Masterful Tactician|Warden|TftJC|Commander|TftJC|20"
-    ]
+  "name": "The Commander",
+  "source": "TftJC",
+  "page": 300,
+  "className": "Warden",
+  "classSource": "TftJC",
+  "shortName": "Commander",
+  "subclassFeatures": [
+    "The Commander|Warden|TftJC|Commander|TftJC|3",
+    "Peace in War|Warden|TftJC|Commander|TftJC|7",
+    "Commander's Mind|Warden|TftJC|Commander|TftJC|7",
+    "Beneficial Cooperation|Warden|TftJC|Commander|TftJC|15",
+    "Masterful Tactician|Warden|TftJC|Commander|TftJC|20"
+  ]
 }

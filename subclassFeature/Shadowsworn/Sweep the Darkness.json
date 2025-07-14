@@ -1,13 +1,13 @@
 {
-    "name": "Sweep the Darkness",
-    "source": "TftJC",
-    "className": "Warlock",
-    "classSource": "PHB",
-    "subclassShortName": "Shadowsworn",
-    "subclassSource": "TftJC",
-    "level": 1,
-    "entries": [
-        "Starting at 1st level, your patron bestows upon you the power to control light and darkness. You gain the {@spell light} cantrip. In addition, as an action you can target any number of light sources within 30 feet of you. If they are fires or other natural sources of light they are extinguished. If they are magical sources and if their spell level is less than 1/3 of your current total level, they are dispelled.",
-        "While your target is in dim light or darkness, your weapon and spell attacks deal additional damage equal to your Proficiency Bonus."
-    ]
+  "name": "Sweep the Darkness",
+  "source": "TftJC",
+  "className": "Warlock",
+  "classSource": "PHB",
+  "subclassShortName": "Shadowsworn",
+  "subclassSource": "TftJC",
+  "level": 1,
+  "entries": [
+    "Starting at 1st level, your patron bestows upon you the power to control light and darkness. You gain the {@spell light} cantrip. In addition, as an action you can target any number of light sources within 30 feet of you. If they are fires or other natural sources of light they are extinguished. If they are magical sources and if their spell level is less than 1/3 of your current total level, they are dispelled.",
+    "While your target is in dim light or darkness, your weapon and spell attacks deal additional damage equal to your Proficiency Bonus."
+  ]
 }

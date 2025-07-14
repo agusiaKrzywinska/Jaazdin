@@ -1,14 +1,14 @@
 {
-    "name": "Psionic Shell",
-    "source": "TftJC",
-    "className": "Artificer",
-    "classSource": "TCE",
-    "subclassShortName": "Ghost-Shell",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "At 3rd level, you create a Psionic Shell a mixture of mechanical prowess, arcane formula, and psychic reinforcement. This shell can take the form of any unnamed humanoid or beast with a CR less than your proficiency bonus. The Shell has all the statistics of that creature but cannot cast spells, has an Intelligence, Wisdom, and Charisma of 1, and is of type Construct. The Shell cannot regain hit points normally, instead regaining hit points if you spend up to 8 hours repairing it or regaining 5 times your proficiency bonus on a short rest.",
-        "Your Shell naturally follows you to the best of its ability, unless otherwise directed. It can take the Help, Dodge, Dash, and Disengage actions. In combat your Shell acts on your turn and can either move or take an action. As a bonus action on your turn you can grant your shell additional sentience by expending one Psionic Energy die. Once empowered, the Shell can take the Attack Action, use a Multiattack feature, or use a feature it has. The Shell then gains Temporary hit points equal to the number rolled on the Psionic Energy die + your Intelligence modifier.",
-        "As your expertise in creating Shells grows, you can access new schema at certain levels of this class. At 5th level you can create shells using the forms of Monstrosities, at 9th level you can use the forms of Dragons, at 11th level you can use the forms of celestials and fiends, and at 17th level you can use the forms of Aberrations."
-    ]
+  "name": "Psionic Shell",
+  "source": "TftJC",
+  "className": "Artificer",
+  "classSource": "TCE",
+  "subclassShortName": "Ghost-Shell",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "At 3rd level, you create a Psionic Shell a mixture of mechanical prowess, arcane formula, and psychic reinforcement. This shell can take the form of any unnamed humanoid or beast with a CR less than your proficiency bonus. The Shell has all the statistics of that creature but cannot cast spells, has an Intelligence, Wisdom, and Charisma of 1, and is of type Construct. The Shell cannot regain hit points normally, instead regaining hit points if you spend up to 8 hours repairing it or regaining 5 times your proficiency bonus on a short rest.",
+    "Your Shell naturally follows you to the best of its ability, unless otherwise directed. It can take the Help, Dodge, Dash, and Disengage actions. In combat your Shell acts on your turn and can either move or take an action. As a bonus action on your turn you can grant your shell additional sentience by expending one Psionic Energy die. Once empowered, the Shell can take the Attack Action, use a Multiattack feature, or use a feature it has. The Shell then gains Temporary hit points equal to the number rolled on the Psionic Energy die + your Intelligence modifier.",
+    "As your expertise in creating Shells grows, you can access new schema at certain levels of this class. At 5th level you can create shells using the forms of Monstrosities, at 9th level you can use the forms of Dragons, at 11th level you can use the forms of celestials and fiends, and at 17th level you can use the forms of Aberrations."
+  ]
 }

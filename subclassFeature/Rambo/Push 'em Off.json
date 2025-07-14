@@ -1,12 +1,12 @@
 {
-    "name": "Push 'em Off",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Rambo",
-    "subclassSource": "TftJC",
-    "level": 10,
-    "entries": [
-        "At 10th level, you gain the ability to get foes out of your space. After you use Shrug it Off, if there is a creature within your melee attack range, you can bodycheck them. You expend a use of Shoot to Thrill, and the target creature makes a Strength Saving throw (DC equal to 8 + Prof Bonus + Strength). On a fail, they are shoved back up to 10 feet, and then you can immediately make a ranged attack with a firearm against that creature as a part of this action."
-    ]
+  "name": "Push 'em Off",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Rambo",
+  "subclassSource": "TftJC",
+  "level": 10,
+  "entries": [
+    "At 10th level, you gain the ability to get foes out of your space. After you use Shrug it Off, if there is a creature within your melee attack range, you can bodycheck them. You expend a use of Shoot to Thrill, and the target creature makes a Strength Saving throw (DC equal to 8 + Prof Bonus + Strength). On a fail, they are shoved back up to 10 feet, and then you can immediately make a ranged attack with a firearm against that creature as a part of this action."
+  ]
 }

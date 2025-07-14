@@ -1,13 +1,13 @@
 {
-    "name": "Burst Strike",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Flameburster",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "When you choose this archetype at 2nd level, you can use the bullets loaded in your firearms to bolster your attacks. As a part of an attack on your turn with a barrel firearm, you can expend 1 bullet from your firearm’s barrel to deal an additional {@dice 1d10} Fire damage, in addition to the weapons normal damage. If you miss your attack, the bullet is still consumed.",
-        "This damage increases as you gain levels in this class,growing to {@dice 2d10} at level 11."
-    ]
+  "name": "Burst Strike",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Flameburster",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "When you choose this archetype at 2nd level, you can use the bullets loaded in your firearms to bolster your attacks. As a part of an attack on your turn with a barrel firearm, you can expend 1 bullet from your firearm’s barrel to deal an additional {@dice 1d10} Fire damage, in addition to the weapons normal damage. If you miss your attack, the bullet is still consumed.",
+    "This damage increases as you gain levels in this class,growing to {@dice 2d10} at level 11."
+  ]
 }

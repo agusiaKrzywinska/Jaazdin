@@ -1,13 +1,13 @@
 {
-    "name": "Spiritual Connection",
-    "source": "TftJC",
-    "className": "Monk",
-    "classSource": "PHB",
-    "subclassShortName": "Spirit",
-    "subclassSource": "TftJC",
-    "level": 11,
-    "entries": [
-        "At 11th level, you connect further to the spirit realm. You learn the {@spell Speak With Dead|PHB} spell, and can cast it by expending 2 Ki points.",
-        "Furthermore, each time you complete a long rest, you can channel the power of the spirits to protect you from harm. Select either Radiant, Necrotic, Psychic or Force damage.You gain resistance to that damage type until you complete your next long rest. As an Action, you can also spend 2 Ki points to change this resistance."
-    ]
+  "name": "Spiritual Connection",
+  "source": "TftJC",
+  "className": "Monk",
+  "classSource": "PHB",
+  "subclassShortName": "Spirit",
+  "subclassSource": "TftJC",
+  "level": 11,
+  "entries": [
+    "At 11th level, you connect further to the spirit realm. You learn the {@spell Speak With Dead|PHB} spell, and can cast it by expending 2 Ki points.",
+    "Furthermore, each time you complete a long rest, you can channel the power of the spirits to protect you from harm. Select either Radiant, Necrotic, Psychic or Force damage.You gain resistance to that damage type until you complete your next long rest. As an Action, you can also spend 2 Ki points to change this resistance."
+  ]
 }

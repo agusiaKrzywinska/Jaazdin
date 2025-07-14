@@ -1,9 +1,9 @@
 {
-    "name": "Evercure Potion",
-    "rarity": "rare",
-    "type": "P",
-    "source": "TftJC",
-    "entries": [
-        "This Golden potion swirls with small strands of light seemingly flowing within it. As an action, a creature can drink or administer the potion to another creature. Their body is refreshed, as they are affected by the Greater Restoration Spell."
-    ]
+  "name": "Evercure Potion",
+  "rarity": "rare",
+  "type": "P",
+  "source": "TftJC",
+  "entries": [
+    "This Golden potion swirls with small strands of light seemingly flowing within it. As an action, a creature can drink or administer the potion to another creature. Their body is refreshed, as they are affected by the Greater Restoration Spell."
+  ]
 }

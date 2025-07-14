@@ -1,0 +1,11 @@
+{
+  "name": "Potion of Foggy Escape",
+  "rarity": "common",
+  "type": "P",
+  "source": "TftJC",
+  "entries": [
+    "This swirling potion has strange spiraling grey patterns flowing through it. Drinking or breaking the potion will incur different effects.",
+    "<b>Thrown</b>: You can throw the potion bottle up to 20ft. It breaks open, releasing billowing smoke. This creates the effects of the Fog Cloud spell, but is not considered magical and requires no concentration. It lasts for 1 minute.",
+    "<b>Consumed</b>: You begin expelling smoke from your mouth, ears, nostrils and eyes. Until the end of your next turn, creatures have disadvantage on attacks they make against you."
+  ]
+}

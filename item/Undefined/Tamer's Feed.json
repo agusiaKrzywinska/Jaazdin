@@ -1,21 +1,21 @@
 {
-    "name": "Tamer's Feed",
-    "source": "TftJC",
-    "type": "FD",
-    "rarity": "common",
-    "value": 1000,
-    "weight": 0,
-    "entries": [
-        "<b>Preparation:</b> Requires Cook's Tools to prepare.",
-        "<b>Ingredients:</b> x1 Trailvine, x1 Common Meat.",
-        "<b>Effect:</b> Can only be fed to a creature with an intelligence of 3 or lower. When fed as an action it gives them disadvantage on checks to resist being charmed. When used in downtime, it grants a +1 bonus to the taming/training roll."
-    ],
-    "foundryType": "consumable",
-    "foundrySystem": {
-        "consumableType": "food",
-        "uses": {
-            "max": 1,
-            "per": "charges"
-        }
+  "name": "Tamer's Feed",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "common",
+  "value": 1000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook's Tools to prepare.",
+    "<b>Ingredients:</b> x1 Trailvine, x1 Common Meat.",
+    "<b>Effect:</b> Can only be fed to a creature with an intelligence of 3 or lower. When fed as an action it gives them disadvantage on checks to resist being charmed. When used in downtime, it grants a +1 bonus to the taming/training roll."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
     }
+  }
 }

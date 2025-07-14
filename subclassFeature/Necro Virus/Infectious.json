@@ -1,12 +1,12 @@
 {
-    "name": "Infectious",
-    "source": "TftJC",
-    "className": "Artificer",
-    "classSource": "TCE",
-    "subclassShortName": "Necro Virus",
-    "subclassSource": "TftJC",
-    "level": 5,
-    "entries": [
-        "At 5th level, you can spread your Virus to the dead. If a creature would die to a spell infected by your Virus, damage dealt by your Virus or to your Special Infected, you can use your Reaction to spread the virus to their body. Their flesh coagulates and reforms, and they arise as a Zombie under your control in 1d4 + 1 rounds. You can have a number of Zombies equal to your proficiency bonus under your control at one time from this feature."
-    ]
+  "name": "Infectious",
+  "source": "TftJC",
+  "className": "Artificer",
+  "classSource": "TCE",
+  "subclassShortName": "Necro Virus",
+  "subclassSource": "TftJC",
+  "level": 5,
+  "entries": [
+    "At 5th level, you can spread your Virus to the dead. If a creature would die to a spell infected by your Virus, damage dealt by your Virus or to your Special Infected, you can use your Reaction to spread the virus to their body. Their flesh coagulates and reforms, and they arise as a Zombie under your control in 1d4 + 1 rounds. You can have a number of Zombies equal to your proficiency bonus under your control at one time from this feature."
+  ]
 }

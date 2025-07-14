@@ -1,15 +1,15 @@
 {
-    "name": "The Conduit",
-    "source": "TftJC",
-    "page": 300,
-    "className": "Warden",
-    "classSource": "TftJC",
-    "shortName": "Conduit",
-    "subclassFeatures": [
-        "The Conduit|Warden|TftJC|Conduit|TftJC|3",
-        "Battlefield Casting|Warden|TftJC|Conduit|TftJC|7",
-        "Conduit's Mind|Warden|TftJC|Conduit|TftJC|7",
-        "Arcane Conduit|Warden|TftJC|Conduit|TftJC|15",
-        "Spell Breaker|Warden|TftJC|Conduit|TftJC|20"
-    ]
+  "name": "The Conduit",
+  "source": "TftJC",
+  "page": 300,
+  "className": "Warden",
+  "classSource": "TftJC",
+  "shortName": "Conduit",
+  "subclassFeatures": [
+    "The Conduit|Warden|TftJC|Conduit|TftJC|3",
+    "Battlefield Casting|Warden|TftJC|Conduit|TftJC|7",
+    "Conduit's Mind|Warden|TftJC|Conduit|TftJC|7",
+    "Arcane Conduit|Warden|TftJC|Conduit|TftJC|15",
+    "Spell Breaker|Warden|TftJC|Conduit|TftJC|20"
+  ]
 }

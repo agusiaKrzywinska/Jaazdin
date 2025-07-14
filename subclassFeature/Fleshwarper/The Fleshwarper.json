@@ -1,20 +1,20 @@
 {
-    "name": "The Fleshwarper",
-    "source": "TftJC",
-    "className": "Warlock",
-    "classSource": "PHB",
-    "subclassShortName": "Fleshwarper",
-    "subclassSource": "TftJC",
-    "level": 1,
-    "entries": [
-        "Some Patrons want influence, some want chaos. But the most truly twisted Patrons want a level of devotion like no other. One so powerful that a mortal would give up a part of their being for a well of their powers.",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Expanded Spell List|Warlock|PHB|Fleshwarper|TftJC|1"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "The Cost of the Fleshwarper|Warlock|PHB|Fleshwarper|TftJC|1"
-        }
-    ]
+  "name": "The Fleshwarper",
+  "source": "TftJC",
+  "className": "Warlock",
+  "classSource": "PHB",
+  "subclassShortName": "Fleshwarper",
+  "subclassSource": "TftJC",
+  "level": 1,
+  "entries": [
+    "Some Patrons want influence, some want chaos. But the most truly twisted Patrons want a level of devotion like no other. One so powerful that a mortal would give up a part of their being for a well of their powers.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Expanded Spell List|Warlock|PHB|Fleshwarper|TftJC|1"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "The Cost of the Fleshwarper|Warlock|PHB|Fleshwarper|TftJC|1"
+    }
+  ]
 }

@@ -1,27 +1,23 @@
 {
-    "name": "Flintlocked",
-    "prerequisite": [
-        {
-            "level": {
-                "level": 5,
-                "class": {
-                    "name": "Gunner"
-                }
-            },
-            "feature": [
-                "Gunner: Flameburster"
-            ]
+  "name": "Flintlocked",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 5,
+        "class": {
+          "name": "Gunner"
         }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "MOD"
-    ],
-    "consumes": {
-        "name": "200gp"
-    },
-    "entries": [
-        "Your weapon attacks deal additional Fire damage on a hit equal to half of the number of Modifications on this weapon (rounded down)."
-    ]
+      },
+      "feature": ["Gunner: Flameburster"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "200gp"
+  },
+  "entries": [
+    "Your weapon attacks deal additional Fire damage on a hit equal to half of the number of Modifications on this weapon (rounded down)."
+  ]
 }

@@ -1,45 +1,24 @@
 {
-    "name": "Oath of the Slayer Spells",
-    "source": "TftJC",
-    "className": "Paladin",
-    "classSource": "PHB",
-    "subclassShortName": "Slayer",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        {
-            "type": "table",
-            "caption": "Slayer Spells",
-            "colLabels": [
-                "Paladin Level",
-                "Spell"
-            ],
-            "colStyles": [
-                "col-2 text-center",
-                "col-10"
-            ],
-            "rows": [
-                [
-                    "3rd",
-                    "{@spell absorb elements|XGE}, {@spell hunter's mark}"
-                ],
-                [
-                    "5th",
-                    "{@spell locate animals or plants}, {@spell see invisibility}"
-                ],
-                [
-                    "9th",
-                    "{@spell phantom steed}, {@spell protection from energy}"
-                ],
-                [
-                    "13th",
-                    "{@spell locate creature}, {@spell dimension door}"
-                ],
-                [
-                    "17th",
-                    "{@spell hold monster}, {@spell steel wind strike|XGE}"
-                ]
-            ]
-        }
-    ]
+  "name": "Oath of the Slayer Spells",
+  "source": "TftJC",
+  "className": "Paladin",
+  "classSource": "PHB",
+  "subclassShortName": "Slayer",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    {
+      "type": "table",
+      "caption": "Slayer Spells",
+      "colLabels": ["Paladin Level", "Spell"],
+      "colStyles": ["col-2 text-center", "col-10"],
+      "rows": [
+        ["3rd", "{@spell absorb elements|XGE}, {@spell hunter's mark}"],
+        ["5th", "{@spell locate animals or plants}, {@spell see invisibility}"],
+        ["9th", "{@spell phantom steed}, {@spell protection from energy}"],
+        ["13th", "{@spell locate creature}, {@spell dimension door}"],
+        ["17th", "{@spell hold monster}, {@spell steel wind strike|XGE}"]
+      ]
+    }
+  ]
 }

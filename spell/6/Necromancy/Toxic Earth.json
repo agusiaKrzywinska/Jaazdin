@@ -1,48 +1,46 @@
 {
-    "name": "Toxic Earth",
-    "source": "TftJC",
-    "page": 98,
-    "level": 6,
-    "school": "N",
-    "time": [
-        {
-            "number": 1,
-            "unit": "action"
-        }
-    ],
-    "range": {
-        "type": "point",
-        "distance": {
-            "type": "feet",
-            "amount": 90
-        }
-    },
-    "components": {
-        "v": true,
-        "s": true
-    },
-    "duration": [
-        {
-            "type": "timed",
-            "duration": {
-                "type": "minute",
-                "amount": 10
-            },
-            "concentration": true
-        }
-    ],
-    "entries": [
-        "You place your hand on the ground and pour corruptive energies into it turning the very earth toxic to those that touch it. The poisoned area consists of up to 5 15ft cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. The area inside each cube is difficult terrain and each time a creature starts its turn inside one of the cubes it must make a Constitution saving throw or take {@dice 4d10} poison damage and become poisoned until the start of its next turn, while poisoned in this way the creature’s speed is halved. On a successful save it takes half as much damage and is not poisoned."
-    ],
-    "savingThrow": [
-        "constitution"
-    ],
-    "classes": {
-        "fromClassList": [
-            {
-                "name": "Druid",
-                "source": "PHB"
-            }
-        ]
+  "name": "Toxic Earth",
+  "source": "TftJC",
+  "page": 98,
+  "level": 6,
+  "school": "N",
+  "time": [
+    {
+      "number": 1,
+      "unit": "action"
     }
+  ],
+  "range": {
+    "type": "point",
+    "distance": {
+      "type": "feet",
+      "amount": 90
+    }
+  },
+  "components": {
+    "v": true,
+    "s": true
+  },
+  "duration": [
+    {
+      "type": "timed",
+      "duration": {
+        "type": "minute",
+        "amount": 10
+      },
+      "concentration": true
+    }
+  ],
+  "entries": [
+    "You place your hand on the ground and pour corruptive energies into it turning the very earth toxic to those that touch it. The poisoned area consists of up to 5 15ft cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. The area inside each cube is difficult terrain and each time a creature starts its turn inside one of the cubes it must make a Constitution saving throw or take {@dice 4d10} poison damage and become poisoned until the start of its next turn, while poisoned in this way the creature’s speed is halved. On a successful save it takes half as much damage and is not poisoned."
+  ],
+  "savingThrow": ["constitution"],
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Druid",
+        "source": "PHB"
+      }
+    ]
+  }
 }

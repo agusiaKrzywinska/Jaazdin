@@ -1,12 +1,12 @@
 {
-    "name": "Peace in War",
-    "source": "TftJC",
-    "className": "Warden",
-    "classSource": "TftJC",
-    "subclassShortName": "Commander",
-    "subclassSource": "TftJC",
-    "level": 7,
-    "entries": [
-        "At 7th level, you become a masterful negotiator when it comes to violence, either causing it or stopping it. You gain proficiency in either Persuasion or Intimidation. When you make a Persuasion or Intimidation check to prevent violence or to convince someone to commit a violent act, you can add your Strength or Constitution modifier to the roll."
-    ]
+  "name": "Peace in War",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Commander",
+  "subclassSource": "TftJC",
+  "level": 7,
+  "entries": [
+    "At 7th level, you become a masterful negotiator when it comes to violence, either causing it or stopping it. You gain proficiency in either Persuasion or Intimidation. When you make a Persuasion or Intimidation check to prevent violence or to convince someone to commit a violent act, you can add your Strength or Constitution modifier to the roll."
+  ]
 }

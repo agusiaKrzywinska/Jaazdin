@@ -1,22 +1,18 @@
 {
-    "name": "Flamethrower",
-    "source": "TftJC",
-    "type": "R",
-    "rarity": "none",
-    "weight": 40,
-    "value": 15000,
-    "weaponCategory": "martial",
-    "property": [
-        "AF",
-        "2H",
-        "H"
-    ],
-    "charges": 5,
-    "dmg1": "1d12",
-    "dmgType": "F",
-    "range": "30/60",
-    "entries": [
-        "<b><i>Gas 7.</i></b> Gas weapons do not need to be loaded, rather attached to them is a tank of fuel. A gas weapon uses one unit of gas per attack, and can be fired until the tank is depleted. A Gas tank can be refilled by spending 1 minute per unit expended. You cannot store additional units of Gas, except within the weapon itself.",
-        "<b><i>Cone 10.</i></b> Cone weapons attack in a cone with a length equal to their value, using the attack roll rolled on all creatures within its cone area behind the initial target."
-    ]
+  "name": "Flamethrower",
+  "source": "TftJC",
+  "type": "R",
+  "rarity": "none",
+  "weight": 40,
+  "value": 15000,
+  "weaponCategory": "martial",
+  "property": ["AF", "2H", "H"],
+  "charges": 5,
+  "dmg1": "1d12",
+  "dmgType": "F",
+  "range": "30/60",
+  "entries": [
+    "<b><i>Gas 7.</i></b> Gas weapons do not need to be loaded, rather attached to them is a tank of fuel. A gas weapon uses one unit of gas per attack, and can be fired until the tank is depleted. A Gas tank can be refilled by spending 1 minute per unit expended. You cannot store additional units of Gas, except within the weapon itself.",
+    "<b><i>Cone 10.</i></b> Cone weapons attack in a cone with a length equal to their value, using the attack roll rolled on all creatures within its cone area behind the initial target."
+  ]
 }

@@ -1,11 +1,11 @@
 {
-    "name": "Shade Goggles",
-    "source": "TftJC",
-    "rarity": "none",
-    "type": "T",
-    "entries": [
-        "<i><b>Simple Invention.</i></b>",
-        "While wearing these Goggles, the strain of bright lights is diminished. Creatures with Sunlight Sensitivity and Sunlight Sickness no longer have the negative effects of sunlight affect their vision.",
-        "Additionally, creatures with Sunlight Sensitivity and Sunlight Sickness that wear these goggles during the day have a Brightvision now, with a range of 60ft. This acts the same way Darkvision allows creatures to see in darkness, but works for Sunlight instead. Seeing beyond your Brightvision incurs the same negative effects as detailed in your Sunlight Sickness or Sunlight Sensitivity."
-    ]
+  "name": "Shade Goggles",
+  "source": "TftJC",
+  "rarity": "none",
+  "type": "T",
+  "entries": [
+    "<i><b>Simple Invention.</i></b>",
+    "While wearing these Goggles, the strain of bright lights is diminished. Creatures with Sunlight Sensitivity and Sunlight Sickness no longer have the negative effects of sunlight affect their vision.",
+    "Additionally, creatures with Sunlight Sensitivity and Sunlight Sickness that wear these goggles during the day have a Brightvision now, with a range of 60ft. This acts the same way Darkvision allows creatures to see in darkness, but works for Sunlight instead. Seeing beyond your Brightvision incurs the same negative effects as detailed in your Sunlight Sickness or Sunlight Sensitivity."
+  ]
 }

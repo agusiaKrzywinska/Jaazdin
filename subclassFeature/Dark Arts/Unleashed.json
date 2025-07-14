@@ -1,12 +1,12 @@
 {
-    "name": "Unleashed",
-    "source": "TftJC",
-    "className": "Wizard",
-    "classSource": "PHB",
-    "subclassShortName": "Dark Arts",
-    "subclassSource": "TftJC",
-    "level": 14,
-    "entries": [
-        "At 14th level, The Forbidden Spell becomes unstable. Once per long rest, when you cast The Forbidden Spell, you can apply as many Forbidden Arcanas that you know as you wish to it."
-    ]
+  "name": "Unleashed",
+  "source": "TftJC",
+  "className": "Wizard",
+  "classSource": "PHB",
+  "subclassShortName": "Dark Arts",
+  "subclassSource": "TftJC",
+  "level": 14,
+  "entries": [
+    "At 14th level, The Forbidden Spell becomes unstable. Once per long rest, when you cast The Forbidden Spell, you can apply as many Forbidden Arcanas that you know as you wish to it."
+  ]
 }

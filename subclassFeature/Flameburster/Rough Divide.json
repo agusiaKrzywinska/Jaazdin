@@ -1,12 +1,12 @@
 {
-    "name": "Rough Divide",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Flameburster",
-    "subclassSource": "TftJC",
-    "level": 6,
-    "entries": [
-        "Beginning at 6th level, as a bonus action on your turn, you may expend one bullet from your barrel to increase your movement speed by 15ft, or triple your jump distance (your choice when using this feature) until the start of your next turn."
-    ]
+  "name": "Rough Divide",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Flameburster",
+  "subclassSource": "TftJC",
+  "level": 6,
+  "entries": [
+    "Beginning at 6th level, as a bonus action on your turn, you may expend one bullet from your barrel to increase your movement speed by 15ft, or triple your jump distance (your choice when using this feature) until the start of your next turn."
+  ]
 }

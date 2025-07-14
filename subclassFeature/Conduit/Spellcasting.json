@@ -1,16 +1,16 @@
 {
-    "name": "Spellcasting",
-    "source": "TftJC",
-    "className": "Warden",
-    "classSource": "TftJC",
-    "subclassShortName": "Conduit",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "When you reach 3rd level, through either sheer luck, careful study, or heavy modifications your body has become a conduit for errant magical energies. See Spells rules for the general rules of spellcasting and the Spells Listing for the wizard and paladin spell list. ",
-        "<b>Spell Slots.</b>The Conduit Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest. For example, if you know the 1st-level spell shield and have a 1st-level and 2nd-level spell slot available, you can cast shield using either slot.",
-        "<b>Spells Known of 1st-Level and Higher.</b> You know three 1st level wizard or paladin spells of your choice, you must choose from the abjuration, transmutation, or evocation spells on the wizard spell list or any paladin spell. The Spells Known column of the Conduit Spellcasting table shows when you learn more spells of 1st level or higher. Each of these spells must be an abjuration, transmutation, or evocation spell of your choice if you are choosing a wizard spell or any paladin spell and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level. Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the wizard or paladin spell list. The new spell must be of a level for which you have spell slots, and it must be an abjuration, evocation, or transmutation spell if it is a wizard spell.",
-        "<b>Spellcasting Ability.</b> Intelligence is your spellcasting ability for your spells, by channeling raw energies through your body. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a spell you cast and when making an attack roll with one.",
-        "Spell save DC = 8 + your proficiency bonus + your Intelligence modifier Spell attack modifier = your proficiency bonus + your Intelligence modifier"
-    ]
+  "name": "Spellcasting",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Conduit",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "When you reach 3rd level, through either sheer luck, careful study, or heavy modifications your body has become a conduit for errant magical energies. See Spells rules for the general rules of spellcasting and the Spells Listing for the wizard and paladin spell list. ",
+    "<b>Spell Slots.</b>The Conduit Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest. For example, if you know the 1st-level spell shield and have a 1st-level and 2nd-level spell slot available, you can cast shield using either slot.",
+    "<b>Spells Known of 1st-Level and Higher.</b> You know three 1st level wizard or paladin spells of your choice, you must choose from the abjuration, transmutation, or evocation spells on the wizard spell list or any paladin spell. The Spells Known column of the Conduit Spellcasting table shows when you learn more spells of 1st level or higher. Each of these spells must be an abjuration, transmutation, or evocation spell of your choice if you are choosing a wizard spell or any paladin spell and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level. Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the wizard or paladin spell list. The new spell must be of a level for which you have spell slots, and it must be an abjuration, evocation, or transmutation spell if it is a wizard spell.",
+    "<b>Spellcasting Ability.</b> Intelligence is your spellcasting ability for your spells, by channeling raw energies through your body. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a spell you cast and when making an attack roll with one.",
+    "Spell save DC = 8 + your proficiency bonus + your Intelligence modifier Spell attack modifier = your proficiency bonus + your Intelligence modifier"
+  ]
 }

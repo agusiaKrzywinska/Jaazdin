@@ -1,52 +1,49 @@
 {
-    "name": "Docent (Combat Morph)",
-    "source": "TftJC",
-    "rarity": "rare",
-    "reqAttune": "by a warforged",
-    "reqAttuneTags": [
-        {
-            "race": "warforged|ERLW"
-        }
-    ],
-    "wondrous": true,
-    "sentient": true,
-    "entries": [
-        "To attune to a docent, you must embed the item somewhere on your body, such as your chest or your eye socket.",
-        "This docent can be merged onto a second docent, allowing the owner to switch between any possible morphs with an action.",
-        {
-            "type": "entries",
-            "name": "Sentience",
-            "entries": [
-                "A docent is a sentient item of any alignment with an Intelligence of 16, a Wisdom of 14, and a Charisma of 14. It perceives the world through your senses. It communicates telepathically with you and can speak, read, and understand any language it knows (see \"Random Properties\" below)."
-            ]
-        },
-        {
-            "type": "entries",
-            "name": "Combat Support",
-            "entries": [
-                "Whenever you end your turn without making use of the docent’s abilities your AC is increased by 1 until the start of your next turn, in addition it has several random abilities."
-            ]
-        },
-        {
-            "type": "entries",
-            "name": "Random Properties",
-            "entries": [
-                "A docent has the following properties:",
-                "{@b Damage Types}. Damage Types. As a bonus action, the docent can fire a beam of energy of either fire or radiant, as well as {@dice 1d4} additional damage types: (1) cold, (2) acid, (3) thunder, (4) force. This beam uses your spell casting bonus (if you have one) or your Intelligence + proficiency. On hit it deals {@dice 1d10}+1 of your chosen damage type.",
-                "{@b Skills}. As a bonus action, the docent can Help you with one of the skills it knows. It knows up two skills (roll a {@dice d4}): (1) {@skill Athletics}, (2) {@skill Acrobatics}, (3) {@skill Stealth}, or (4) {@skill Perception}.",
-                "{@b Spells}. The docent knows up two of the following spells and can cast each once per long rest, requiring no components (roll a {@dice 2d6}): (1–2) {@spell hellish rebuke}, (3–4) {@spell shield} or (5–6) {@spell absorb elements}. The docent can cast the spell without requiring your reaction."
-            ]
-        },
-        {
-            "type": "entries",
-            "name": "Personality",
-            "entries": [
-                "A docent is designed to advise and assist the warforged it's attached to. One of the simple functions of a docent is to serve as a translator. The docent's properties are under its control, and if you have a bad relationship with your docent, it might refuse to assist you."
-            ]
-        }
-    ],
-    "attachedSpells": [
-        "detect evil and good",
-        "detect magic"
-    ]
+  "name": "Docent (Combat Morph)",
+  "source": "TftJC",
+  "rarity": "rare",
+  "reqAttune": "by a warforged",
+  "reqAttuneTags": [
+    {
+      "race": "warforged|ERLW"
+    }
+  ],
+  "wondrous": true,
+  "sentient": true,
+  "entries": [
+    "To attune to a docent, you must embed the item somewhere on your body, such as your chest or your eye socket.",
+    "This docent can be merged onto a second docent, allowing the owner to switch between any possible morphs with an action.",
+    {
+      "type": "entries",
+      "name": "Sentience",
+      "entries": [
+        "A docent is a sentient item of any alignment with an Intelligence of 16, a Wisdom of 14, and a Charisma of 14. It perceives the world through your senses. It communicates telepathically with you and can speak, read, and understand any language it knows (see \"Random Properties\" below)."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Combat Support",
+      "entries": [
+        "Whenever you end your turn without making use of the docent’s abilities your AC is increased by 1 until the start of your next turn, in addition it has several random abilities."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Random Properties",
+      "entries": [
+        "A docent has the following properties:",
+        "{@b Damage Types}. Damage Types. As a bonus action, the docent can fire a beam of energy of either fire or radiant, as well as {@dice 1d4} additional damage types: (1) cold, (2) acid, (3) thunder, (4) force. This beam uses your spell casting bonus (if you have one) or your Intelligence + proficiency. On hit it deals {@dice 1d10}+1 of your chosen damage type.",
+        "{@b Skills}. As a bonus action, the docent can Help you with one of the skills it knows. It knows up two skills (roll a {@dice d4}): (1) {@skill Athletics}, (2) {@skill Acrobatics}, (3) {@skill Stealth}, or (4) {@skill Perception}.",
+        "{@b Spells}. The docent knows up two of the following spells and can cast each once per long rest, requiring no components (roll a {@dice 2d6}): (1–2) {@spell hellish rebuke}, (3–4) {@spell shield} or (5–6) {@spell absorb elements}. The docent can cast the spell without requiring your reaction."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Personality",
+      "entries": [
+        "A docent is designed to advise and assist the warforged it's attached to. One of the simple functions of a docent is to serve as a translator. The docent's properties are under its control, and if you have a bad relationship with your docent, it might refuse to assist you."
+      ]
+    }
+  ],
+  "attachedSpells": ["detect evil and good", "detect magic"]
 }

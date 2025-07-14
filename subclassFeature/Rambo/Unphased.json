@@ -1,12 +1,12 @@
 {
-    "name": "Unphased",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Rambo",
-    "subclassSource": "TftJC",
-    "level": 6,
-    "entries": [
-        "At 6th level, your grit allows you to push past injury. While below half of your maximum hit points, you take less damage from all sources except for psychic equal to your Strength Modifier."
-    ]
+  "name": "Unphased",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Rambo",
+  "subclassSource": "TftJC",
+  "level": 6,
+  "entries": [
+    "At 6th level, your grit allows you to push past injury. While below half of your maximum hit points, you take less damage from all sources except for psychic equal to your Strength Modifier."
+  ]
 }

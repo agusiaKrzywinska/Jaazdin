@@ -1,21 +1,21 @@
 {
-    "name": "Circle of the Dragon",
-    "source": "TftJC",
-    "className": "Druid",
-    "classSource": "PHB",
-    "subclassShortName": "Dragon",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "The Dragon's Tail is not shockingly home to powerful scaled beasts. The settlers that have shared the islands with these beasts have adapted to their might, and even taken on some of their characteristics.",
-        "Druids of the Circle of Dragon embody the unbridled power of a Dragon within them. From toughened scales to powerful breath weapons, their grace and might shall be known to all.",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "The Dragon's Soul|Druid|PHB|Dragon|TftJC|2"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Draconic Companion|Druid|PHB|Dragon|TftJC|2"
-        }
-    ]
+  "name": "Circle of the Dragon",
+  "source": "TftJC",
+  "className": "Druid",
+  "classSource": "PHB",
+  "subclassShortName": "Dragon",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "The Dragon's Tail is not shockingly home to powerful scaled beasts. The settlers that have shared the islands with these beasts have adapted to their might, and even taken on some of their characteristics.",
+    "Druids of the Circle of Dragon embody the unbridled power of a Dragon within them. From toughened scales to powerful breath weapons, their grace and might shall be known to all.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "The Dragon's Soul|Druid|PHB|Dragon|TftJC|2"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Draconic Companion|Druid|PHB|Dragon|TftJC|2"
+    }
+  ]
 }

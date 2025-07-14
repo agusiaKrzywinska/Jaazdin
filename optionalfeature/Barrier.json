@@ -1,18 +1,14 @@
 {
-    "name": "Barrier",
-    "prerequisite": [
-        {
-            "feature": [
-                "Dark Arts Wizard"
-            ]
-        }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "ARC"
-    ],
-    "entries": [
-        "Tier 1 Arcana. After casting The Forbidden Spell, you gain temporary hit points equal to your Intelligence Modifier + the spell level."
-    ]
+  "name": "Barrier",
+  "prerequisite": [
+    {
+      "feature": ["Dark Arts Wizard"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["ARC"],
+  "entries": [
+    "Tier 1 Arcana. After casting The Forbidden Spell, you gain temporary hit points equal to your Intelligence Modifier + the spell level."
+  ]
 }

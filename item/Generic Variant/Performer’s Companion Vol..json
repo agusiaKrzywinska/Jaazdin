@@ -1,19 +1,19 @@
 {
-    "name": "Performer’s Companion Vol.",
-    "source": "TftJC",
-    "rarity": "varies",
-    "wondrous": true,
-    "type": "GV",
-    "entries": [
-        "These tome contains the secrets to performance and writing.",
-        {
-            "type": "list",
-            "items": [
-                "{@item Performer’s Companion Vol. I|TftJC}",
-                "{@item Performer’s Companion Vol. II|TftJC}",
-                "{@item Performer’s Companion Vol. III|TftJC}",
-                "{@item Performer’s Companion Vol. IV|TftJC}"
-            ]
-        }
-    ]
+  "name": "Performer’s Companion Vol.",
+  "source": "TftJC",
+  "rarity": "varies",
+  "wondrous": true,
+  "type": "GV",
+  "entries": [
+    "These tome contains the secrets to performance and writing.",
+    {
+      "type": "list",
+      "items": [
+        "{@item Performer’s Companion Vol. I|TftJC}",
+        "{@item Performer’s Companion Vol. II|TftJC}",
+        "{@item Performer’s Companion Vol. III|TftJC}",
+        "{@item Performer’s Companion Vol. IV|TftJC}"
+      ]
+    }
+  ]
 }

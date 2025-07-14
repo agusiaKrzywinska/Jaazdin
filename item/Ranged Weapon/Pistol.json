@@ -1,20 +1,17 @@
 {
-    "name": "Pistol",
-    "source": "TftJC",
-    "type": "R",
-    "rarity": "none",
-    "weight": 1,
-    "value": 2500,
-    "weaponCategory": "martial",
-    "property": [
-        "L",
-        "AF"
-    ],
-    "charges": 6,
-    "dmg1": "1d6",
-    "dmgType": "P",
-    "range": "40/160",
-    "entries": [
-        "<b><i>Clip 6.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
-    ]
+  "name": "Pistol",
+  "source": "TftJC",
+  "type": "R",
+  "rarity": "none",
+  "weight": 1,
+  "value": 2500,
+  "weaponCategory": "martial",
+  "property": ["L", "AF"],
+  "charges": 6,
+  "dmg1": "1d6",
+  "dmgType": "P",
+  "range": "40/160",
+  "entries": [
+    "<b><i>Clip 6.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+  ]
 }

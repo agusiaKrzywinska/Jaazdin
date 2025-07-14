@@ -1,33 +1,33 @@
 {
-    "name": "Anatomical Marvel",
-    "source": "TftJC",
-    "className": "Monk",
-    "classSource": "PHB",
-    "subclassShortName": "Divergent Body",
-    "subclassSource": "TftJC",
-    "level": 6,
-    "entries": [
-        "Beginning at 6th level, your growth has inspired new ways to integrate your unique talents into combat, evolving your techniques further. You gain new benefits while one of your Extraordinary Body forms is active. You additionally gain new ways to activate a Body, detailed in the features below.",
-        {
-            "type": "inset",
-            "name": "Adamant Body",
-            "entries": [
-                "When you apply Stunning Strike to a creature, you can enter Adamant Body. Your Stunning Strikes can instead cause the target to be paralyzed for the duration. This effect ends immediately if the paralyzed creature takes any damage."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Fluid Body",
-            "entries": [
-                "When you use your Focused Aim feature, you may enter Fluid Body. You may use Focused Aim on melee attack rolls even when you don’t miss, and any time you use Focused Aim on a melee attack, you can deal 2 damage per ki point spent to all creatures of your choice within your reach, using the same damage type as your attack roll. Additionally while in Fluid Body, you can use a bonus action on your turn to end the grappled condition on yourself, or spend a ki point to end the restrained condition instead."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Cloud Body",
-            "entries": [
-                "When you use your Deflect Missiles feature you may enter Cloud Body. When you use Deflect Missiles and spend ki to make the ranged attack, you can propel yourself along with the projectile as part of the same reaction. Whether your attack hits or misses, you can move up to your movement towards the creature that attacked you without provoking opportunity attacks. Additionally, while in Cloud Body, your maximum hover height increases to 10 x a roll of your Martial Arts die."
-            ]
-        }
-    ]
+  "name": "Anatomical Marvel",
+  "source": "TftJC",
+  "className": "Monk",
+  "classSource": "PHB",
+  "subclassShortName": "Divergent Body",
+  "subclassSource": "TftJC",
+  "level": 6,
+  "entries": [
+    "Beginning at 6th level, your growth has inspired new ways to integrate your unique talents into combat, evolving your techniques further. You gain new benefits while one of your Extraordinary Body forms is active. You additionally gain new ways to activate a Body, detailed in the features below.",
+    {
+      "type": "inset",
+      "name": "Adamant Body",
+      "entries": [
+        "When you apply Stunning Strike to a creature, you can enter Adamant Body. Your Stunning Strikes can instead cause the target to be paralyzed for the duration. This effect ends immediately if the paralyzed creature takes any damage."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Fluid Body",
+      "entries": [
+        "When you use your Focused Aim feature, you may enter Fluid Body. You may use Focused Aim on melee attack rolls even when you don’t miss, and any time you use Focused Aim on a melee attack, you can deal 2 damage per ki point spent to all creatures of your choice within your reach, using the same damage type as your attack roll. Additionally while in Fluid Body, you can use a bonus action on your turn to end the grappled condition on yourself, or spend a ki point to end the restrained condition instead."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Cloud Body",
+      "entries": [
+        "When you use your Deflect Missiles feature you may enter Cloud Body. When you use Deflect Missiles and spend ki to make the ranged attack, you can propel yourself along with the projectile as part of the same reaction. Whether your attack hits or misses, you can move up to your movement towards the creature that attacked you without provoking opportunity attacks. Additionally, while in Cloud Body, your maximum hover height increases to 10 x a roll of your Martial Arts die."
+      ]
+    }
+  ]
 }

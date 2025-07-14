@@ -1,26 +1,22 @@
 {
-    "name": "Befuddling Strike",
-    "prerequisite": [
-        {
-            "feature": [
-                "Warden: The Commander"
-            ]
-        }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "TECH"
-    ],
-    "entries": [
-        "As part of an attack, you strike a creature and confuse its senses. When you use this technique to attack a creature, that creature must make an Intelligence saving throw even if the attack misses. If the target fails, they become confused and on their next turn take one of the following actions of your choice.",
-        {
-            "type": "list",
-            "items": [
-                "Make one attack against a creature of your choice within range.",
-                "Use all their movement and use the dash action to move in a direction of your choice, avoiding obvious dangers.",
-                "Drop what it's holding and end its turn."
-            ]
-        }
-    ]
+  "name": "Befuddling Strike",
+  "prerequisite": [
+    {
+      "feature": ["Warden: The Commander"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["TECH"],
+  "entries": [
+    "As part of an attack, you strike a creature and confuse its senses. When you use this technique to attack a creature, that creature must make an Intelligence saving throw even if the attack misses. If the target fails, they become confused and on their next turn take one of the following actions of your choice.",
+    {
+      "type": "list",
+      "items": [
+        "Make one attack against a creature of your choice within range.",
+        "Use all their movement and use the dash action to move in a direction of your choice, avoiding obvious dangers.",
+        "Drop what it's holding and end its turn."
+      ]
+    }
+  ]
 }

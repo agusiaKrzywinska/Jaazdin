@@ -1,13 +1,13 @@
 {
-    "name": "Muscle Magazine Vol. I",
-    "source": "TftJC",
-    "rarity": "uncommon",
-    "wondrous": true,
-    "charges": 2,
-    "entries": [
-        "This tome contains tips, tricks, and hacks for improving ones body and physical form.",
-        "It can be read over 1 week to grant a creature an extra {@dice 2d4}’s to an Athletics or Acrobatics check made during downtime.",
-        "Alternatively, a creature reading it can instead read the book to increase their General Laborer, Guard/Bouncer, Barkeep, or Dock Worker Wage Progression by 1",
-        "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
-    ]
+  "name": "Muscle Magazine Vol. I",
+  "source": "TftJC",
+  "rarity": "uncommon",
+  "wondrous": true,
+  "charges": 2,
+  "entries": [
+    "This tome contains tips, tricks, and hacks for improving ones body and physical form.",
+    "It can be read over 1 week to grant a creature an extra {@dice 2d4}’s to an Athletics or Acrobatics check made during downtime.",
+    "Alternatively, a creature reading it can instead read the book to increase their General Laborer, Guard/Bouncer, Barkeep, or Dock Worker Wage Progression by 1",
+    "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+  ]
 }

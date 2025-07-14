@@ -1,21 +1,19 @@
 {
-    "name": "Otherworldly Summons",
-    "prerequisite": [
-        {
-            "level": {
-                "level": 9,
-                "class": {
-                    "name": "Warlock"
-                }
-            }
+  "name": "Otherworldly Summons",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 9,
+        "class": {
+          "name": "Warlock"
         }
-    ],
-    "source": "TftJC",
-    "page": 43,
-    "featureType": [
-        "EI"
-    ],
-    "entries": [
-        "You can cast summon celestial using a warlock spell slot. Once you do so you can’t cast the spell again until you finish a long rest. While the celestial is summoned, creatures of your choice within 10 feet of it gains +1 to all saving throws."
-    ]
+      }
+    }
+  ],
+  "source": "TftJC",
+  "page": 43,
+  "featureType": ["EI"],
+  "entries": [
+    "You can cast summon celestial using a warlock spell slot. Once you do so you can’t cast the spell again until you finish a long rest. While the celestial is summoned, creatures of your choice within 10 feet of it gains +1 to all saving throws."
+  ]
 }

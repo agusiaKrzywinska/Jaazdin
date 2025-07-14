@@ -1,20 +1,20 @@
 {
-    "name": "Warrior of Liberation",
-    "source": "TftJC",
-    "className": "Monk",
-    "classSource": "PHB",
-    "subclassShortName": "Divergent Body",
-    "subclassSource": "TftJC",
-    "level": 17,
-    "entries": [
-        "At 17th level, your manipulation of your own body is at its peak, allowing you to mimic other creatures entirely. As an action on your turn, you can expend 8 ki points to replicate the effect of the shapechange spell without providing material components. When you do so, you must abide by the following restrictions, in addition to the spell’s existing restrictions.",
-        {
-            "type": "list",
-            "items": [
-                "The creature you choose must be no more than one size category larger or smaller than you.",
-                "Using your action to assume a different form during the effect’s duration costs 1 ki point."
-            ]
-        },
-        "Once you’ve used this feature, you can’t use it again until you finish a long rest."
-    ]
+  "name": "Warrior of Liberation",
+  "source": "TftJC",
+  "className": "Monk",
+  "classSource": "PHB",
+  "subclassShortName": "Divergent Body",
+  "subclassSource": "TftJC",
+  "level": 17,
+  "entries": [
+    "At 17th level, your manipulation of your own body is at its peak, allowing you to mimic other creatures entirely. As an action on your turn, you can expend 8 ki points to replicate the effect of the shapechange spell without providing material components. When you do so, you must abide by the following restrictions, in addition to the spell’s existing restrictions.",
+    {
+      "type": "list",
+      "items": [
+        "The creature you choose must be no more than one size category larger or smaller than you.",
+        "Using your action to assume a different form during the effect’s duration costs 1 ki point."
+      ]
+    },
+    "Once you’ve used this feature, you can’t use it again until you finish a long rest."
+  ]
 }

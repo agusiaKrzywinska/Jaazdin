@@ -1,20 +1,17 @@
 {
-    "name": "Sniper Rifle",
-    "source": "TftJC",
-    "type": "R",
-    "rarity": "none",
-    "weight": 10,
-    "value": 10000,
-    "weaponCategory": "martial",
-    "property": [
-        "2H",
-        "AF"
-    ],
-    "charges": 6,
-    "dmg1": "1d12",
-    "dmgType": "P",
-    "range": "150/600",
-    "entries": [
-        "<b><i>Clip 6.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
-    ]
+  "name": "Sniper Rifle",
+  "source": "TftJC",
+  "type": "R",
+  "rarity": "none",
+  "weight": 10,
+  "value": 10000,
+  "weaponCategory": "martial",
+  "property": ["2H", "AF"],
+  "charges": 6,
+  "dmg1": "1d12",
+  "dmgType": "P",
+  "range": "150/600",
+  "entries": [
+    "<b><i>Clip 6.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+  ]
 }

@@ -1,18 +1,14 @@
 {
-    "name": "Burst",
-    "prerequisite": [
-        {
-            "feature": [
-                "Dark Arts Wizard"
-            ]
-        }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "ARC"
-    ],
-    "entries": [
-        "Tier 3 Arcana. Creatures affected by The Forbidden Spell explode with its power, dealing half of its damage to creatures within a 5ft radius of it (excluding itself)."
-    ]
+  "name": "Burst",
+  "prerequisite": [
+    {
+      "feature": ["Dark Arts Wizard"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["ARC"],
+  "entries": [
+    "Tier 3 Arcana. Creatures affected by The Forbidden Spell explode with its power, dealing half of its damage to creatures within a 5ft radius of it (excluding itself)."
+  ]
 }

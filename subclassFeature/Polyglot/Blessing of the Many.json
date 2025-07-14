@@ -1,12 +1,12 @@
 {
-    "name": "Blessing of the Many",
-    "source": "TftJC",
-    "className": "Cleric",
-    "classSource": "PHB",
-    "subclassShortName": "Polyglot",
-    "subclassSource": "TftJC",
-    "level": 17,
-    "entries": [
-        "At 17th level, when you use your Beseech the Divine Channel Divinity you can roll twice and have two effects manifest. If you roll the same effect twice, reroll one of the effects."
-    ]
+  "name": "Blessing of the Many",
+  "source": "TftJC",
+  "className": "Cleric",
+  "classSource": "PHB",
+  "subclassShortName": "Polyglot",
+  "subclassSource": "TftJC",
+  "level": 17,
+  "entries": [
+    "At 17th level, when you use your Beseech the Divine Channel Divinity you can roll twice and have two effects manifest. If you roll the same effect twice, reroll one of the effects."
+  ]
 }

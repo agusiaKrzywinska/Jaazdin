@@ -1,12 +1,12 @@
 {
-    "name": "Woven Fate",
-    "source": "TftJC",
-    "className": "Cleric",
-    "classSource": "PHB",
-    "subclassShortName": "Fate",
-    "subclassSource": "TftJC",
-    "level": 1,
-    "entries": [
-        "At 1st level, whenever you expend a Spell Slot to cast aDivination spell, you gain a number of points of Woven Fate equal to the spell slot level expended. You can expend a number of points of Woven Fate to increase or decrease the value of an attack roll or ability check of a creature within 30ft of you, up to a maximum equal to your Cleric Level. You lose all points of Woven Fate after you complete a Long Rest."
-    ]
+  "name": "Woven Fate",
+  "source": "TftJC",
+  "className": "Cleric",
+  "classSource": "PHB",
+  "subclassShortName": "Fate",
+  "subclassSource": "TftJC",
+  "level": 1,
+  "entries": [
+    "At 1st level, whenever you expend a Spell Slot to cast aDivination spell, you gain a number of points of Woven Fate equal to the spell slot level expended. You can expend a number of points of Woven Fate to increase or decrease the value of an attack roll or ability check of a creature within 30ft of you, up to a maximum equal to your Cleric Level. You lose all points of Woven Fate after you complete a Long Rest."
+  ]
 }

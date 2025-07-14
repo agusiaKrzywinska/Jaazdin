@@ -1,27 +1,23 @@
 {
-    "name": "Leaded Rounds",
-    "prerequisite": [
-        {
-            "level": {
-                "level": 17,
-                "class": {
-                    "name": "Gunner"
-                }
-            },
-            "feature": [
-                "Cannot be used with Explosive or Gas"
-            ]
+  "name": "Leaded Rounds",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 17,
+        "class": {
+          "name": "Gunner"
         }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "MOD"
-    ],
-    "consumes": {
-        "name": "800gp"
-    },
-    "entries": [
-        "Creatures hit by this weapon cannot heal until the start of your next turn."
-    ]
+      },
+      "feature": ["Cannot be used with Explosive or Gas"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "800gp"
+  },
+  "entries": [
+    "Creatures hit by this weapon cannot heal until the start of your next turn."
+  ]
 }

@@ -1,12 +1,12 @@
 {
-    "name": "Steady Path",
-    "source": "TftJC",
-    "className": "Monk",
-    "classSource": "PHB",
-    "subclassShortName": "God Hand",
-    "subclassSource": "TftJC",
-    "level": 6,
-    "entries": [
-        "At 6th level, you learn to manipulate the path of projectiles you fire. Once per turn, when you hit with a ranged weapon attack, you deal additional damage on the attack equal to a roll of your martial arts die. In addition, when you make a ranged weapon attack, you can spend 1 ki to make the attack ignore 1⁄2 or 3⁄4 cover or 2 ki to ignore total cover and remove any disadvantage that would affect the attack."
-    ]
+  "name": "Steady Path",
+  "source": "TftJC",
+  "className": "Monk",
+  "classSource": "PHB",
+  "subclassShortName": "God Hand",
+  "subclassSource": "TftJC",
+  "level": 6,
+  "entries": [
+    "At 6th level, you learn to manipulate the path of projectiles you fire. Once per turn, when you hit with a ranged weapon attack, you deal additional damage on the attack equal to a roll of your martial arts die. In addition, when you make a ranged weapon attack, you can spend 1 ki to make the attack ignore 1⁄2 or 3⁄4 cover or 2 ki to ignore total cover and remove any disadvantage that would affect the attack."
+  ]
 }

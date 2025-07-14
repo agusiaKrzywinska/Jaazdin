@@ -1,195 +1,135 @@
 {
-    "name": "Warden",
-    "source": "TftJC",
-    "classFeatures": [
-        "Heat of Battle|Warden|TftJC|1",
-        "Fighting Style|Warden|TftJC|1",
-        "Martial Techniques|Warden|TftJC|2",
-        "Inspiring Aura|Warden|TftJC|3",
-        {
-            "classFeature": "Warrior Tracts|Warden|TftJC|3",
-            "gainSubclassFeature": true
-        },
-        "Ability Score Improvement|Warden|TftJC|4",
-        "Martial Versatility|Warden|TftJC|4",
-        "Extra Attack|Warden|TftJC|5",
-        "Art of War|Warden|TftJC|5",
-        "Tactical Might|Warden|TftJC|6",
-        "Heat of Battle Improvement|Warden|TftJC|6",
-        {
-            "classFeature": "Warrior Tract Feature|Warden|TftJC|7",
-            "gainSubclassFeature": true
-        },
-        "Ability Score Improvement|Warden|TftJC|8",
-        "Warding Presence|Warden|TftJC|9",
-        "Ability Score Improvement|Warden|TftJC|10",
-        "Martial Technique Improvement|Warden|TftJC|10",
-        "Inspiring Aura Improvement|Warden|TftJC|11",
-        "Ability Score Improvement|Warden|TftJC|12",
-        "Undying Resolve|Warden|TftJC|13",
-        "Ability Score Improvement|Warden|TftJC|14",
-        {
-            "classFeature": "Warrior Tract Feature|Warden|TftJC|15",
-            "gainSubclassFeature": true
-        },
-        "Ability Score Improvement|Warden|TftJC|16",
-        "Martial Technique Improvement|Warden|TftJC|17",
-        "Advanced Preparedness|Warden|TftJC|18",
-        "Heat of Battle Improvement|Warden|TftJC|18",
-        "Ability Score Improvement|Warden|TftJC|19",
-        {
-            "classFeature": "Warrior Tract Feature|Warden|TftJC|20",
-            "gainSubclassFeature": true
-        }
-    ],
-    "hd": {
-        "number": 1,
-        "faces": 12
+  "name": "Warden",
+  "source": "TftJC",
+  "classFeatures": [
+    "Heat of Battle|Warden|TftJC|1",
+    "Fighting Style|Warden|TftJC|1",
+    "Martial Techniques|Warden|TftJC|2",
+    "Inspiring Aura|Warden|TftJC|3",
+    {
+      "classFeature": "Warrior Tracts|Warden|TftJC|3",
+      "gainSubclassFeature": true
     },
-    "proficiency": [
-        "con",
-        "str"
+    "Ability Score Improvement|Warden|TftJC|4",
+    "Martial Versatility|Warden|TftJC|4",
+    "Extra Attack|Warden|TftJC|5",
+    "Art of War|Warden|TftJC|5",
+    "Tactical Might|Warden|TftJC|6",
+    "Heat of Battle Improvement|Warden|TftJC|6",
+    {
+      "classFeature": "Warrior Tract Feature|Warden|TftJC|7",
+      "gainSubclassFeature": true
+    },
+    "Ability Score Improvement|Warden|TftJC|8",
+    "Warding Presence|Warden|TftJC|9",
+    "Ability Score Improvement|Warden|TftJC|10",
+    "Martial Technique Improvement|Warden|TftJC|10",
+    "Inspiring Aura Improvement|Warden|TftJC|11",
+    "Ability Score Improvement|Warden|TftJC|12",
+    "Undying Resolve|Warden|TftJC|13",
+    "Ability Score Improvement|Warden|TftJC|14",
+    {
+      "classFeature": "Warrior Tract Feature|Warden|TftJC|15",
+      "gainSubclassFeature": true
+    },
+    "Ability Score Improvement|Warden|TftJC|16",
+    "Martial Technique Improvement|Warden|TftJC|17",
+    "Advanced Preparedness|Warden|TftJC|18",
+    "Heat of Battle Improvement|Warden|TftJC|18",
+    "Ability Score Improvement|Warden|TftJC|19",
+    {
+      "classFeature": "Warrior Tract Feature|Warden|TftJC|20",
+      "gainSubclassFeature": true
+    }
+  ],
+  "hd": {
+    "number": 1,
+    "faces": 12
+  },
+  "proficiency": ["con", "str"],
+  "classTableGroups": [
+    {
+      "title": "",
+      "colLabels": ["Techniques Known"],
+      "rows": [
+        ["-"],
+        ["2"],
+        ["3"],
+        ["3"],
+        ["4"],
+        ["4"],
+        ["4"],
+        ["4"],
+        ["5"],
+        ["5"],
+        ["5"],
+        ["5"],
+        ["6"],
+        ["6"],
+        ["6"],
+        ["6"],
+        ["7"],
+        ["7"],
+        ["7"],
+        ["7"]
+      ]
+    }
+  ],
+  "startingProficiencies": {
+    "armor": ["light", "medium", "heavy", "shield"],
+    "weapons": ["simple", "martial"],
+    "tools": [
+      "one from Navigator's Tools, Vehicles (land), or Vehicles (water)"
     ],
-    "classTableGroups": [
+    "skills": [
+      {
+        "choose": {
+          "from": [
+            "acrobatics",
+            "animal handling",
+            "athletics",
+            "intimidation",
+            "medicine",
+            "persuasion",
+            "perception",
+            "survival"
+          ],
+          "count": 2
+        }
+      }
+    ]
+  },
+  "startingEquipment": {
+    "default": [
+      "chainmail or leather armor and 3 javelins",
+      "a martial weapon and a shield or two martial weapons",
+      "a light crossbow and 20 bolts or 3 daggers",
+      "a diplomat's or dungeoneer's pack"
+    ]
+  },
+  "multiclassing": {
+    "requirements": {
+      "con": 13,
+      "or": [
         {
-            "title": "",
-            "colLabels": [
-                "Techniques Known"
-            ],
-            "rows": [
-                [
-                    "-"
-                ],
-                [
-                    "2"
-                ],
-                [
-                    "3"
-                ],
-                [
-                    "3"
-                ],
-                [
-                    "4"
-                ],
-                [
-                    "4"
-                ],
-                [
-                    "4"
-                ],
-                [
-                    "4"
-                ],
-                [
-                    "5"
-                ],
-                [
-                    "5"
-                ],
-                [
-                    "5"
-                ],
-                [
-                    "5"
-                ],
-                [
-                    "6"
-                ],
-                [
-                    "6"
-                ],
-                [
-                    "6"
-                ],
-                [
-                    "6"
-                ],
-                [
-                    "7"
-                ],
-                [
-                    "7"
-                ],
-                [
-                    "7"
-                ],
-                [
-                    "7"
-                ]
-            ]
+          "str": 13,
+          "dex": 13
         }
-    ],
-    "startingProficiencies": {
-        "armor": [
-            "light",
-            "medium",
-            "heavy",
-            "shield"
-        ],
-        "weapons": [
-            "simple",
-            "martial"
-        ],
-        "tools": [
-            "one from Navigator's Tools, Vehicles (land), or Vehicles (water)"
-        ],
-        "skills": [
-            {
-                "choose": {
-                    "from": [
-                        "acrobatics",
-                        "animal handling",
-                        "athletics",
-                        "intimidation",
-                        "medicine",
-                        "persuasion",
-                        "perception",
-                        "survival"
-                    ],
-                    "count": 2
-                }
-            }
-        ]
+      ]
     },
-    "startingEquipment": {
-        "default": [
-            "chainmail or leather armor and 3 javelins",
-            "a martial weapon and a shield or two martial weapons",
-            "a light crossbow and 20 bolts or 3 daggers",
-            "a diplomat's or dungeoneer's pack"
-        ]
-    },
-    "multiclassing": {
-        "requirements": {
-            "con": 13,
-            "or": [
-                {
-                    "str": 13,
-                    "dex": 13
-                }
-            ]
-        },
-        "proficienciesGained": {
-            "weapons": [
-                "martial"
-            ],
-            "armor": [
-                "medium",
-                "shield"
-            ]
-        }
-    },
-    "optionalfeatureProgression": [
-        {
-            "name": "Fighting Style",
-            "featureType": [
-                "FS:W"
-            ],
-            "progression": {
-                "1": 1
-            }
-        }
-    ],
-    "subclassTitle": "Warrior Tracts"
+    "proficienciesGained": {
+      "weapons": ["martial"],
+      "armor": ["medium", "shield"]
+    }
+  },
+  "optionalfeatureProgression": [
+    {
+      "name": "Fighting Style",
+      "featureType": ["FS:W"],
+      "progression": {
+        "1": 1
+      }
+    }
+  ],
+  "subclassTitle": "Warrior Tracts"
 }

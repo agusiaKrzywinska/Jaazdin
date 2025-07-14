@@ -1,27 +1,23 @@
 {
-    "name": "Quick Mag",
-    "prerequisite": [
-        {
-            "level": {
-                "level": 13,
-                "class": {
-                    "name": "Gunner"
-                }
-            },
-            "feature": [
-                "Clip"
-            ]
+  "name": "Quick Mag",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 13,
+        "class": {
+          "name": "Gunner"
         }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "MOD"
-    ],
-    "consumes": {
-        "name": "600gp"
-    },
-    "entries": [
-        "Once per turn, you can replace a Clip in this weapon as a Free Action."
-    ]
+      },
+      "feature": ["Clip"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "600gp"
+  },
+  "entries": [
+    "Once per turn, you can replace a Clip in this weapon as a Free Action."
+  ]
 }

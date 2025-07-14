@@ -1,11 +1,11 @@
 {
-    "name": "Thought Forge",
-    "source": "TftJC",
-    "rarity": "rare",
-    "wondrous": true,
-    "entries": [
-        "Thought Forges are installed in pairs, directly into the brains of two different creatures.",
-        "While those creatures are within 60 ft of them, the Thought Forges remain active. When either of the creatures makes an Intelligence saving throw or uses Intelligence to resist a harmful effect, they use the bonus of the creature with higher Intelligence. Whenever a creature makes an Intelligence saving throw in this manner, both creatures suffer psychic damage equal the difference in their Intelligence scores. ",
-        "If both creatures have the same Intelligence, then instead they make Intelligence saving throws with advantage while within 60 ft of each other. If one of the characters fails the saving throw, both suffer the saving throw's negative effects, although not damage."
-    ]
+  "name": "Thought Forge",
+  "source": "TftJC",
+  "rarity": "rare",
+  "wondrous": true,
+  "entries": [
+    "Thought Forges are installed in pairs, directly into the brains of two different creatures.",
+    "While those creatures are within 60 ft of them, the Thought Forges remain active. When either of the creatures makes an Intelligence saving throw or uses Intelligence to resist a harmful effect, they use the bonus of the creature with higher Intelligence. Whenever a creature makes an Intelligence saving throw in this manner, both creatures suffer psychic damage equal the difference in their Intelligence scores. ",
+    "If both creatures have the same Intelligence, then instead they make Intelligence saving throws with advantage while within 60 ft of each other. If one of the characters fails the saving throw, both suffer the saving throw's negative effects, although not damage."
+  ]
 }

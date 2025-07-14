@@ -1,14 +1,14 @@
 {
-    "name": "Way of the Divergent Body",
-    "source": "TftJC",
-    "page": 28,
-    "className": "Monk",
-    "classSource": "PHB",
-    "shortName": "Divergent Body",
-    "subclassFeatures": [
-        "Way of the Divergent Body|Monk|PHB|Divergent Body|TftJC|3",
-        "Anatomical Marvel|Monk|PHB|Divergent Body|TftJC|6",
-        "Gear Shift|Monk|PHB|Divergent Body|TftJC|11",
-        "Warrior of Liberation|Monk|PHB|Divergent Body|TftJC|17"
-    ]
+  "name": "Way of the Divergent Body",
+  "source": "TftJC",
+  "page": 28,
+  "className": "Monk",
+  "classSource": "PHB",
+  "shortName": "Divergent Body",
+  "subclassFeatures": [
+    "Way of the Divergent Body|Monk|PHB|Divergent Body|TftJC|3",
+    "Anatomical Marvel|Monk|PHB|Divergent Body|TftJC|6",
+    "Gear Shift|Monk|PHB|Divergent Body|TftJC|11",
+    "Warrior of Liberation|Monk|PHB|Divergent Body|TftJC|17"
+  ]
 }

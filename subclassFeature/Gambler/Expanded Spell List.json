@@ -1,46 +1,25 @@
 {
-    "name": "Expanded Spell List",
-    "source": "TftJC",
-    "className": "Sorcerer",
-    "classSource": "PHB",
-    "subclassShortName": "Gambler",
-    "subclassSource": "TftJC",
-    "level": 1,
-    "entries": [
-        "You learn additional spells when you reach certain levels in this class, as shown on the Gambler Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know.",
-        {
-            "type": "table",
-            "caption": "Gambler Expanded Spells",
-            "colLabels": [
-                "Spell Level",
-                "Spells"
-            ],
-            "colStyles": [
-                "col-2 text-center",
-                "col-10"
-            ],
-            "rows": [
-                [
-                    "1st",
-                    "{@spell deja vu|TftJC}, {@spell silvery barbs|SCC}"
-                ],
-                [
-                    "2nd",
-                    "{@spell enthrall}, {@spell suggestion}"
-                ],
-                [
-                    "3rd",
-                    "{@spell feign death}, {@spell nondetection}"
-                ],
-                [
-                    "4th",
-                    "{@spell divination}, {@spell greater invisibility}"
-                ],
-                [
-                    "5th",
-                    "{@spell geas}, {@spell mislead}"
-                ]
-            ]
-        }
-    ]
+  "name": "Expanded Spell List",
+  "source": "TftJC",
+  "className": "Sorcerer",
+  "classSource": "PHB",
+  "subclassShortName": "Gambler",
+  "subclassSource": "TftJC",
+  "level": 1,
+  "entries": [
+    "You learn additional spells when you reach certain levels in this class, as shown on the Gambler Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn’t count against the number of sorcerer spells you know.",
+    {
+      "type": "table",
+      "caption": "Gambler Expanded Spells",
+      "colLabels": ["Spell Level", "Spells"],
+      "colStyles": ["col-2 text-center", "col-10"],
+      "rows": [
+        ["1st", "{@spell deja vu|TftJC}, {@spell silvery barbs|SCC}"],
+        ["2nd", "{@spell enthrall}, {@spell suggestion}"],
+        ["3rd", "{@spell feign death}, {@spell nondetection}"],
+        ["4th", "{@spell divination}, {@spell greater invisibility}"],
+        ["5th", "{@spell geas}, {@spell mislead}"]
+      ]
+    }
+  ]
 }

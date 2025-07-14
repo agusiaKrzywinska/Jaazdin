@@ -1,12 +1,12 @@
 {
-    "name": "Dark Modifications",
-    "source": "TftJC",
-    "className": "Wizard",
-    "classSource": "PHB",
-    "subclassShortName": "Dark Arts",
-    "subclassSource": "TftJC",
-    "level": 6,
-    "entries": [
-        "At 6th level, you learn to twist other spells in your favor. When casting a spell that uses a spell slot that makes a Spell Attack roll other than The Forbidden Spell, you can apply 1 Forbidden Arcana that you know to it. All other rules of Applying Arcana to spells apply for this spell."
-    ]
+  "name": "Dark Modifications",
+  "source": "TftJC",
+  "className": "Wizard",
+  "classSource": "PHB",
+  "subclassShortName": "Dark Arts",
+  "subclassSource": "TftJC",
+  "level": 6,
+  "entries": [
+    "At 6th level, you learn to twist other spells in your favor. When casting a spell that uses a spell slot that makes a Spell Attack roll other than The Forbidden Spell, you can apply 1 Forbidden Arcana that you know to it. All other rules of Applying Arcana to spells apply for this spell."
+  ]
 }

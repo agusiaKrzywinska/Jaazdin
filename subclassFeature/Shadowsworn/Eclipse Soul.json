@@ -1,21 +1,21 @@
 {
-    "name": "Eclipse Soul",
-    "source": "TftJC",
-    "className": "Warlock",
-    "classSource": "PHB",
-    "subclassShortName": "Shadowsworn",
-    "subclassSource": "TftJC",
-    "level": 14,
-    "entries": [
-        "Starting at 14th level, you can use your action to burn necrotic and radiant energies within your own body. When you activate this ability, you take damage equal to your level in this class, this damage cannot be reduced in any way, and for the next minute you gain the following benefits:",
-        {
-            "type": "list",
-            "items": [
-                "You have resistance to necrotic and radiant damage.",
-                "Whenever you deal damage with a spell or attack you deal additional radiant or necrotic damage equal to your Charisma modifier. This damage can only apply to one damage roll per spell or attack.",
-                "Creatures that hit you with melee attacks take {@dice 1d8} necrotic or radiant damage.",
-                "The range of your Stepping Umbra ability is doubled to 60 and during the duration of this ability it does not consume uses."
-            ]
-        }
-    ]
+  "name": "Eclipse Soul",
+  "source": "TftJC",
+  "className": "Warlock",
+  "classSource": "PHB",
+  "subclassShortName": "Shadowsworn",
+  "subclassSource": "TftJC",
+  "level": 14,
+  "entries": [
+    "Starting at 14th level, you can use your action to burn necrotic and radiant energies within your own body. When you activate this ability, you take damage equal to your level in this class, this damage cannot be reduced in any way, and for the next minute you gain the following benefits:",
+    {
+      "type": "list",
+      "items": [
+        "You have resistance to necrotic and radiant damage.",
+        "Whenever you deal damage with a spell or attack you deal additional radiant or necrotic damage equal to your Charisma modifier. This damage can only apply to one damage roll per spell or attack.",
+        "Creatures that hit you with melee attacks take {@dice 1d8} necrotic or radiant damage.",
+        "The range of your Stepping Umbra ability is doubled to 60 and during the duration of this ability it does not consume uses."
+      ]
+    }
+  ]
 }

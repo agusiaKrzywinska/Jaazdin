@@ -1,20 +1,20 @@
 {
-    "name": "Circle of Titans",
-    "source": "TftJC",
-    "className": "Druid",
-    "classSource": "PHB",
-    "subclassShortName": "Titan",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "Meek and meager beasts have inhabited the lands today, but deep beneath the ground lay the bones of Titans who once ruled over all. Some Druids channel these dead beasts to return their might to the puny world above. Channeling the energy of ancient beasts, Druids of the Circle of Titans empower themselves with long forgotten colossi.",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Titanic Form|Druid|PHB|Titan|TftJC|2"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Knowledge of Ancient Beasts|Druid|PHB|Titan|TftJC|2"
-        }
-    ]
+  "name": "Circle of Titans",
+  "source": "TftJC",
+  "className": "Druid",
+  "classSource": "PHB",
+  "subclassShortName": "Titan",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "Meek and meager beasts have inhabited the lands today, but deep beneath the ground lay the bones of Titans who once ruled over all. Some Druids channel these dead beasts to return their might to the puny world above. Channeling the energy of ancient beasts, Druids of the Circle of Titans empower themselves with long forgotten colossi.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Titanic Form|Druid|PHB|Titan|TftJC|2"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Knowledge of Ancient Beasts|Druid|PHB|Titan|TftJC|2"
+    }
+  ]
 }

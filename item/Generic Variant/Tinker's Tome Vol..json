@@ -1,19 +1,19 @@
 {
-    "name": "Tinker's Tome Vol.",
-    "source": "TftJC",
-    "rarity": "varies",
-    "wondrous": true,
-    "type": "GV",
-    "entries": [
-        "These tomes contains the secrets of invention and innovation.",
-        {
-            "type": "list",
-            "items": [
-                "{@item Tinker's Tome Vol. I|TftJC}",
-                "{@item Tinker's Tome Vol. II|TftJC}",
-                "{@item Tinker's Tome Vol. III|TftJC}",
-                "{@item Tinker's Tome Vol. IV|TftJC}"
-            ]
-        }
-    ]
+  "name": "Tinker's Tome Vol.",
+  "source": "TftJC",
+  "rarity": "varies",
+  "wondrous": true,
+  "type": "GV",
+  "entries": [
+    "These tomes contains the secrets of invention and innovation.",
+    {
+      "type": "list",
+      "items": [
+        "{@item Tinker's Tome Vol. I|TftJC}",
+        "{@item Tinker's Tome Vol. II|TftJC}",
+        "{@item Tinker's Tome Vol. III|TftJC}",
+        "{@item Tinker's Tome Vol. IV|TftJC}"
+      ]
+    }
+  ]
 }

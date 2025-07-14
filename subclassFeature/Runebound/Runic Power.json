@@ -1,19 +1,19 @@
 {
-    "name": "Runic Power",
-    "source": "TftJC",
-    "className": "Sorcerer",
-    "classSource": "PHB",
-    "subclassShortName": "Runebound",
-    "subclassSource": "TftJC",
-    "level": 6,
-    "entries": [
-        "At 6th level, you gain the ability to imbue your strikes with powerful magical impacts. When you hit with a melee weapon attack or melee spell attack you can expend two sorcery points to manifest one of the following effects:",
-        {
-            "type": "list",
-            "items": [
-                "You deal {@dice 2d8} extra damage of your choice from fire, cold, lightning, acid, or thunder damage.",
-                "The creature must make a Strength saving throw or be knocked back up to 30 feet."
-            ]
-        }
-    ]
+  "name": "Runic Power",
+  "source": "TftJC",
+  "className": "Sorcerer",
+  "classSource": "PHB",
+  "subclassShortName": "Runebound",
+  "subclassSource": "TftJC",
+  "level": 6,
+  "entries": [
+    "At 6th level, you gain the ability to imbue your strikes with powerful magical impacts. When you hit with a melee weapon attack or melee spell attack you can expend two sorcery points to manifest one of the following effects:",
+    {
+      "type": "list",
+      "items": [
+        "You deal {@dice 2d8} extra damage of your choice from fire, cold, lightning, acid, or thunder damage.",
+        "The creature must make a Strength saving throw or be knocked back up to 30 feet."
+      ]
+    }
+  ]
 }

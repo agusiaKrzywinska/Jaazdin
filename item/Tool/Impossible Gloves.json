@@ -1,11 +1,11 @@
 {
-    "name": "Impossible Gloves",
-    "source": "TftJC",
-    "rarity": "none",
-    "type": "T",
-    "entries": [
-        "<i><b>Simple Invention.</i></b>",
-        "This set of gloves is coated with Boggle Oil. They are flame resistant and hydrophobic.",
-        "They must be kept in water for 8 hours per hour of use to maintain their potency. Touching a creature with the gloves gives you advantage on Strength based Grapple checks."
-    ]
+  "name": "Impossible Gloves",
+  "source": "TftJC",
+  "rarity": "none",
+  "type": "T",
+  "entries": [
+    "<i><b>Simple Invention.</i></b>",
+    "This set of gloves is coated with Boggle Oil. They are flame resistant and hydrophobic.",
+    "They must be kept in water for 8 hours per hour of use to maintain their potency. Touching a creature with the gloves gives you advantage on Strength based Grapple checks."
+  ]
 }

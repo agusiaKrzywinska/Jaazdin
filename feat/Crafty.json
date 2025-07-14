@@ -1,15 +1,15 @@
 {
-    "name": "Crafty",
-    "source": "TftJC",
-    "entries": [
-        {
-            "type": "list",
-            "items": [
-                "Gain proficiency in one artisan tool of your choice and any other tool of your choice.",
-                "You gain expertise in one tool of your choice that you are currently proficient in.",
-                "Choose one Artificer infusion. Once per long rest, you can place that infusion on an object. You can only have one Infusion from this feature placed on an object at once. You may only pick infusions that require a level requirement if you have the artificer levels required.",
-                "Whenever you gain a level, you may replace the Infusion known with a different one."
-            ]
-        }
-    ]
+  "name": "Crafty",
+  "source": "TftJC",
+  "entries": [
+    {
+      "type": "list",
+      "items": [
+        "Gain proficiency in one artisan tool of your choice and any other tool of your choice.",
+        "You gain expertise in one tool of your choice that you are currently proficient in.",
+        "Choose one Artificer infusion. Once per long rest, you can place that infusion on an object. You can only have one Infusion from this feature placed on an object at once. You may only pick infusions that require a level requirement if you have the artificer levels required.",
+        "Whenever you gain a level, you may replace the Infusion known with a different one."
+      ]
+    }
+  ]
 }

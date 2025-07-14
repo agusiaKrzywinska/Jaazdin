@@ -1,20 +1,20 @@
 {
-    "name": "College of Tomfoolery",
-    "source": "TftJC",
-    "className": "Bard",
-    "classSource": "PHB",
-    "subclassShortName": "Tomfoolery",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "Tripping over their feet dashes a prankster, ready to take all of the attention. Behind these simple eyes lies that of a crafty trickster, for the more they fail, the more they are loved. Bards in the college of Tomfoolery are masters at spinning their misfortunes into beneficial situations. As they duck, dive and fail upwards, performers of this variety have egos of steel and surprisingly cunning minds",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Distracting Spells|Bard|PHB|Tomfoolery|TftJC|3|TftJC"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "An Advantageous Disadvantage|Bard|PHB|Tomfoolery|TftJC|3|TftJC"
-        }
-    ]
+  "name": "College of Tomfoolery",
+  "source": "TftJC",
+  "className": "Bard",
+  "classSource": "PHB",
+  "subclassShortName": "Tomfoolery",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "Tripping over their feet dashes a prankster, ready to take all of the attention. Behind these simple eyes lies that of a crafty trickster, for the more they fail, the more they are loved. Bards in the college of Tomfoolery are masters at spinning their misfortunes into beneficial situations. As they duck, dive and fail upwards, performers of this variety have egos of steel and surprisingly cunning minds",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Distracting Spells|Bard|PHB|Tomfoolery|TftJC|3|TftJC"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "An Advantageous Disadvantage|Bard|PHB|Tomfoolery|TftJC|3|TftJC"
+    }
+  ]
 }

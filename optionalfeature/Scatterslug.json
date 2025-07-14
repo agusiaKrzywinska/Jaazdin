@@ -1,27 +1,21 @@
 {
-    "name": "Scatterslug",
-    "prerequisite": [
-        {
-            "level": {
-                "level": 17,
-                "class": {
-                    "name": "Gunner"
-                }
-            },
-            "feature": [
-                "Shotgun"
-            ]
+  "name": "Scatterslug",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 17,
+        "class": {
+          "name": "Gunner"
         }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "MOD"
-    ],
-    "consumes": {
-        "name": "800gp"
-    },
-    "entries": [
-        "Creatures within your Shotgun's cone take full damage."
-    ]
+      },
+      "feature": ["Shotgun"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "800gp"
+  },
+  "entries": ["Creatures within your Shotgun's cone take full damage."]
 }

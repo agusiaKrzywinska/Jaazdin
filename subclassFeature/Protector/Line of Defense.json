@@ -1,12 +1,12 @@
 {
-    "name": "Line of Defense",
-    "source": "TftJC",
-    "className": "Warden",
-    "classSource": "TftJC",
-    "subclassShortName": "Protector",
-    "subclassSource": "TftJC",
-    "level": 15,
-    "entries": [
-        "At 15th level, your bond with your Honor Bound has grown strong enough that the two of you can work together in perfect fluidity. When you use a Technique gained through the Protectors Bonus Techniques that involves the subject of your Honor Bond, and no other allies, you do not need to expend a use of your Technique."
-    ]
+  "name": "Line of Defense",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Protector",
+  "subclassSource": "TftJC",
+  "level": 15,
+  "entries": [
+    "At 15th level, your bond with your Honor Bound has grown strong enough that the two of you can work together in perfect fluidity. When you use a Technique gained through the Protectors Bonus Techniques that involves the subject of your Honor Bond, and no other allies, you do not need to expend a use of your Technique."
+  ]
 }

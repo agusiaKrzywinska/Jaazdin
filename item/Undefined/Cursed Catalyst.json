@@ -1,18 +1,18 @@
 {
-    "name": "Cursed Catalyst",
-    "source": "TftJC",
-    "rarity": "very rare",
-    "wondrous": true,
-    "reqAttune": true,
-    "entries": [
-        "Once per week, you can invoke the Catalyst's power to attempt to alter a Cursed object, and can perform one of the two effects. Both effects take an hour to complete the ritual.",
-        "Extraction - Touch a Cursed Object, and based on its rarity, make an Arcana Check (DC 11 for Common, DC 13 for Uncommon, DC 15 for Rare, DC 17 for Very Rare, DC 19 for Legendary, DC 30 for Artifact). On a success, you can remove a Curse from that object. The Curse is then placed into the Catalyst, and now affects the Catalyst.",
-        "Malediction - You can place Curses on Magic Items. Make an Arcana check based on the items rarity (Same scaling as before, must be done on an already magical item), and on a success, you may either place a Curse you have absorbed into the Catalyst onto that object, or place a Curse from this list onto the object. If you remove a Curse from a Magic Item that was created by the Catalyst, it is destroyed.",
-        "Curse of Loyalty - You are unwilling to part with this item, and grow hostile to anyone that would try to take it from you.",
-        "Curse of Withering - Each time you finish a Long Rest attuned to this item, your Maximum HP is reduced by 3.",
-        "Curse of Burning Soul - If you were to die, your soul is sent to the Nine Hells.",
-        "Curse of Ill-Luck - You gain a -1 to all ability checks.",
-        "Curse of Vulnerability - You are Vulnerable to either Fire, Cold, Lightning, Acid or Poison damage (you decide what type when applying this curse).",
-        "Curse of Undead Attraction - Undead Creatures with an intelligence of 8 or lower will instinctively attack you if they are within 60ft of you."
-    ]
+  "name": "Cursed Catalyst",
+  "source": "TftJC",
+  "rarity": "very rare",
+  "wondrous": true,
+  "reqAttune": true,
+  "entries": [
+    "Once per week, you can invoke the Catalyst's power to attempt to alter a Cursed object, and can perform one of the two effects. Both effects take an hour to complete the ritual.",
+    "Extraction - Touch a Cursed Object, and based on its rarity, make an Arcana Check (DC 11 for Common, DC 13 for Uncommon, DC 15 for Rare, DC 17 for Very Rare, DC 19 for Legendary, DC 30 for Artifact). On a success, you can remove a Curse from that object. The Curse is then placed into the Catalyst, and now affects the Catalyst.",
+    "Malediction - You can place Curses on Magic Items. Make an Arcana check based on the items rarity (Same scaling as before, must be done on an already magical item), and on a success, you may either place a Curse you have absorbed into the Catalyst onto that object, or place a Curse from this list onto the object. If you remove a Curse from a Magic Item that was created by the Catalyst, it is destroyed.",
+    "Curse of Loyalty - You are unwilling to part with this item, and grow hostile to anyone that would try to take it from you.",
+    "Curse of Withering - Each time you finish a Long Rest attuned to this item, your Maximum HP is reduced by 3.",
+    "Curse of Burning Soul - If you were to die, your soul is sent to the Nine Hells.",
+    "Curse of Ill-Luck - You gain a -1 to all ability checks.",
+    "Curse of Vulnerability - You are Vulnerable to either Fire, Cold, Lightning, Acid or Poison damage (you decide what type when applying this curse).",
+    "Curse of Undead Attraction - Undead Creatures with an intelligence of 8 or lower will instinctively attack you if they are within 60ft of you."
+  ]
 }

@@ -1,27 +1,25 @@
 {
-    "name": "Hexed Cylinder",
-    "prerequisite": [
-        {
-            "level": {
-                "level": 9,
-                "class": {
-                    "name": "Gunner"
-                }
-            },
-            "feature": [
-                "Gunner: Hexlock, Other Hexed Bullets cannot be loaded into this weapon. Cannot be restricted by your spellcasting option."
-            ]
+  "name": "Hexed Cylinder",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 9,
+        "class": {
+          "name": "Gunner"
         }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "MOD"
-    ],
-    "consumes": {
-        "name": "400gp"
-    },
-    "entries": [
-        "When you install this modification, choose one known Tier 1 Hexed Bullet. Bullets fired from this gun always apply that effect."
-    ]
+      },
+      "feature": [
+        "Gunner: Hexlock, Other Hexed Bullets cannot be loaded into this weapon. Cannot be restricted by your spellcasting option."
+      ]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "400gp"
+  },
+  "entries": [
+    "When you install this modification, choose one known Tier 1 Hexed Bullet. Bullets fired from this gun always apply that effect."
+  ]
 }

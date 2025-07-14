@@ -1,13 +1,13 @@
 {
-    "name": "Frontloaded Savagery",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Demolitionist",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "When you choose this archetype at 2nd level, your attacks become lethally savage. Attacking an enemy with a ranged firearm that is 20ft away from you or closer causes the explosives in your firearm to flare out at your enemies, allowing to you to roll the weapon’s damage dice twice and take the higher result. This damage can only be done once per turn.",
-        "You also gain proficiency in Medium Armor."
-    ]
+  "name": "Frontloaded Savagery",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Demolitionist",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "When you choose this archetype at 2nd level, your attacks become lethally savage. Attacking an enemy with a ranged firearm that is 20ft away from you or closer causes the explosives in your firearm to flare out at your enemies, allowing to you to roll the weapon’s damage dice twice and take the higher result. This damage can only be done once per turn.",
+    "You also gain proficiency in Medium Armor."
+  ]
 }

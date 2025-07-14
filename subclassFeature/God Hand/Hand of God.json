@@ -1,12 +1,12 @@
 {
-    "name": "Hand of God",
-    "source": "TftJC",
-    "className": "Monk",
-    "classSource": "PHB",
-    "subclassShortName": "God Hand",
-    "subclassSource": "TftJC",
-    "level": 17,
-    "entries": [
-        "At 17th level, once per turn when you hit a creature with a ranged weapon attack you may immediately make one unarmed attack roll against them, as long as they are within the ranged weapon’s range, and you can see them."
-    ]
+  "name": "Hand of God",
+  "source": "TftJC",
+  "className": "Monk",
+  "classSource": "PHB",
+  "subclassShortName": "God Hand",
+  "subclassSource": "TftJC",
+  "level": 17,
+  "entries": [
+    "At 17th level, once per turn when you hit a creature with a ranged weapon attack you may immediately make one unarmed attack roll against them, as long as they are within the ranged weapon’s range, and you can see them."
+  ]
 }

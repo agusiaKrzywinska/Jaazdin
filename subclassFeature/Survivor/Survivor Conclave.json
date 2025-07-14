@@ -1,24 +1,24 @@
 {
-    "name": "Survivor Conclave",
-    "source": "TftJC",
-    "className": "Ranger",
-    "classSource": "PHB",
-    "subclassShortName": "Survivor",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "Wandering alone in the wastelands, a warrior who has faced death countless times persists.Though resources are scares, the light fades and hope looks grim, they know they will survive. Rangers of the Survivor Conclave do everything in their power to persist through unthinkable dangers and ridiculous conditions.",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Survivor Magic|Ranger|PHB|Survivor|TftJC|3"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Miraculous Recovery|Ranger|PHB|Survivor|TftJC|3"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Wasteland Diet|Ranger|PHB|Survivor|TftJC|3"
-        }
-    ]
+  "name": "Survivor Conclave",
+  "source": "TftJC",
+  "className": "Ranger",
+  "classSource": "PHB",
+  "subclassShortName": "Survivor",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "Wandering alone in the wastelands, a warrior who has faced death countless times persists.Though resources are scares, the light fades and hope looks grim, they know they will survive. Rangers of the Survivor Conclave do everything in their power to persist through unthinkable dangers and ridiculous conditions.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Survivor Magic|Ranger|PHB|Survivor|TftJC|3"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Miraculous Recovery|Ranger|PHB|Survivor|TftJC|3"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Wasteland Diet|Ranger|PHB|Survivor|TftJC|3"
+    }
+  ]
 }

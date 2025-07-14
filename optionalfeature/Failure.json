@@ -1,18 +1,14 @@
 {
-    "name": "Failure",
-    "prerequisite": [
-        {
-            "feature": [
-                "Dark Arts Wizard"
-            ]
-        }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "ARC"
-    ],
-    "entries": [
-        "Tier 3 Arcana. Creatures affected have disadvantage on the next saving throw they would make until the end of your next turn."
-    ]
+  "name": "Failure",
+  "prerequisite": [
+    {
+      "feature": ["Dark Arts Wizard"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["ARC"],
+  "entries": [
+    "Tier 3 Arcana. Creatures affected have disadvantage on the next saving throw they would make until the end of your next turn."
+  ]
 }

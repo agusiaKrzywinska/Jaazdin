@@ -1,24 +1,24 @@
 {
-    "name": "Path of the Pugilist",
-    "source": "TftJC",
-    "className": "Barbarian",
-    "classSource": "PHB",
-    "subclassShortName": "Pugilist",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "Not weighed down by unwieldy swords and pathetic armor, the Pugilist knows that the best weapons they own are the ones they were born with. Pugilists are just as skilled in Boxing as they are in their showmanship. A Pugilist not only wants to defeat their enemies hand to hand, but prove time and time again to their adoring fans how powerful they are.",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Honorable Combatant|Barbarian|PHB|Pugilist|TftJC|3|TftJC"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "The Ol' One Two|Barbarian|PHB|Pugilist|TftJC|3|TftJC"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Boastful|Barbarian|PHB|Pugilist|TftJC|3|TftJC"
-        }
-    ]
+  "name": "Path of the Pugilist",
+  "source": "TftJC",
+  "className": "Barbarian",
+  "classSource": "PHB",
+  "subclassShortName": "Pugilist",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "Not weighed down by unwieldy swords and pathetic armor, the Pugilist knows that the best weapons they own are the ones they were born with. Pugilists are just as skilled in Boxing as they are in their showmanship. A Pugilist not only wants to defeat their enemies hand to hand, but prove time and time again to their adoring fans how powerful they are.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Honorable Combatant|Barbarian|PHB|Pugilist|TftJC|3|TftJC"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "The Ol' One Two|Barbarian|PHB|Pugilist|TftJC|3|TftJC"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Boastful|Barbarian|PHB|Pugilist|TftJC|3|TftJC"
+    }
+  ]
 }

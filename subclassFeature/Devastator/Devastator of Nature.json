@@ -1,13 +1,13 @@
 {
-    "name": "Devastator of Nature",
-    "source": "TftJC",
-    "className": "Ranger",
-    "classSource": "PHB",
-    "subclassShortName": "Devastator",
-    "subclassSource": "TftJC",
-    "level": 11,
-    "entries": [
-        "At 11th level you’ve become a flaming visage of destruction against natural forces. When you reduce a creature to 0 hit points with a spell or attack that creature explodes in a flurry of fire, dealing 2d8 + your proficiency modifier to all creatures other than you in 10 feet.",
-        "In addition, difficult terrain caused by plants, magical or otherwise, disappears permanently if you move into its square as the plants shrivel and die in your presence. You gain immunity to spells of levels under your proficiency bonus that use plants, such as entangle or thorn whip."
-    ]
+  "name": "Devastator of Nature",
+  "source": "TftJC",
+  "className": "Ranger",
+  "classSource": "PHB",
+  "subclassShortName": "Devastator",
+  "subclassSource": "TftJC",
+  "level": 11,
+  "entries": [
+    "At 11th level you’ve become a flaming visage of destruction against natural forces. When you reduce a creature to 0 hit points with a spell or attack that creature explodes in a flurry of fire, dealing 2d8 + your proficiency modifier to all creatures other than you in 10 feet.",
+    "In addition, difficult terrain caused by plants, magical or otherwise, disappears permanently if you move into its square as the plants shrivel and die in your presence. You gain immunity to spells of levels under your proficiency bonus that use plants, such as entangle or thorn whip."
+  ]
 }

@@ -1,33 +1,33 @@
 {
-    "name": "Bonus Techniques",
-    "source": "TftJC",
-    "className": "Warden",
-    "classSource": "TftJC",
-    "subclassShortName": "Protector",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "When you take this tract at 3rd level, you gain one technique from the list below. Whenever you gain a new technique, you can choose from this list as well.",
-        {
-            "type": "inset",
-            "name": "Interceding Strike",
-            "entries": [
-                "As a reaction, when a creature hits the subject of your Honor Bond with an attack, and you are within 5ft of the attacker, you can make an attack against them. If the attack hits, you reduce the damage of the offending attack by the damage you deal."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Shield Wall",
-            "entries": [
-                "You forgo one attack to instead brace your charge for incoming attacks. To use this technique, you must be wielding a shield. For the next minute, whenever your charge is within 5ft of you, they gain the AC benefits of your shield and can add your shield bonus to any Dexterity saving throws they make."
-            ]
-        },
-        {
-            "type": "inset",
-            "name": "Team Strike",
-            "entries": [
-                "When you make an attack roll, you can allow the subject of your Honor Bond to also make an attack. Your Honor Bound can use its reaction to immediately make one attack, adding 1d4 to the to hit roll."
-            ]
-        }
-    ]
+  "name": "Bonus Techniques",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Protector",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "When you take this tract at 3rd level, you gain one technique from the list below. Whenever you gain a new technique, you can choose from this list as well.",
+    {
+      "type": "inset",
+      "name": "Interceding Strike",
+      "entries": [
+        "As a reaction, when a creature hits the subject of your Honor Bond with an attack, and you are within 5ft of the attacker, you can make an attack against them. If the attack hits, you reduce the damage of the offending attack by the damage you deal."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Shield Wall",
+      "entries": [
+        "You forgo one attack to instead brace your charge for incoming attacks. To use this technique, you must be wielding a shield. For the next minute, whenever your charge is within 5ft of you, they gain the AC benefits of your shield and can add your shield bonus to any Dexterity saving throws they make."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Team Strike",
+      "entries": [
+        "When you make an attack roll, you can allow the subject of your Honor Bond to also make an attack. Your Honor Bound can use its reaction to immediately make one attack, adding 1d4 to the to hit roll."
+      ]
+    }
+  ]
 }

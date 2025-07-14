@@ -1,14 +1,14 @@
 {
-    "name": "The Fleshwarper",
-    "source": "TftJC",
-    "page": 45,
-    "className": "Warlock",
-    "classSource": "PHB",
-    "shortName": "Fleshwarper",
-    "subclassFeatures": [
-        "The Fleshwarper|Warlock|PHB|Fleshwarper|TftJC|1",
-        "Bodily Enhancements|Warlock|PHB|Fleshwarper|TftJC|6",
-        "Larger Arsenal|Warlock|PHB|Fleshwarper|TftJC|10",
-        "Dual Wield|Warlock|PHB|Fleshwarper|TftJC|14"
-    ]
+  "name": "The Fleshwarper",
+  "source": "TftJC",
+  "page": 45,
+  "className": "Warlock",
+  "classSource": "PHB",
+  "shortName": "Fleshwarper",
+  "subclassFeatures": [
+    "The Fleshwarper|Warlock|PHB|Fleshwarper|TftJC|1",
+    "Bodily Enhancements|Warlock|PHB|Fleshwarper|TftJC|6",
+    "Larger Arsenal|Warlock|PHB|Fleshwarper|TftJC|10",
+    "Dual Wield|Warlock|PHB|Fleshwarper|TftJC|14"
+  ]
 }

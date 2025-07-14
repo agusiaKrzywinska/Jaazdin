@@ -1,20 +1,20 @@
 {
-    "name": "The Master",
-    "source": "TftJC",
-    "className": "Warlock",
-    "classSource": "PHB",
-    "subclassShortName": "Master",
-    "subclassSource": "TftJC",
-    "level": 1,
-    "entries": [
-        "The relationship between a Warlock and their patron is a two way street, one granting power and the other service. For some , however, through some great fortune, or misfortune, they have been haphazardly granted the title of patron without the means to back it up. These warlocks have been the recipients of some cosmic misunderstanding that has caused a creature or group of creatures to believe that they can grant them otherworldly power. Most warlocks in this circumstance find themselves in an uneasy position. Either use the blind faith of their minions to their advantage and hope they don’t see through the deception or hope that you can somehow convince them you aren’t who they think you are and that when they do they don’t turn their ire on you.",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Expanded Spell List|Warlock|PHB|Master|TftJC|1"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Master of Minions|Warlock|PHB|Master|TftJC|1"
-        }
-    ]
+  "name": "The Master",
+  "source": "TftJC",
+  "className": "Warlock",
+  "classSource": "PHB",
+  "subclassShortName": "Master",
+  "subclassSource": "TftJC",
+  "level": 1,
+  "entries": [
+    "The relationship between a Warlock and their patron is a two way street, one granting power and the other service. For some , however, through some great fortune, or misfortune, they have been haphazardly granted the title of patron without the means to back it up. These warlocks have been the recipients of some cosmic misunderstanding that has caused a creature or group of creatures to believe that they can grant them otherworldly power. Most warlocks in this circumstance find themselves in an uneasy position. Either use the blind faith of their minions to their advantage and hope they don’t see through the deception or hope that you can somehow convince them you aren’t who they think you are and that when they do they don’t turn their ire on you.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Expanded Spell List|Warlock|PHB|Master|TftJC|1"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Master of Minions|Warlock|PHB|Master|TftJC|1"
+    }
+  ]
 }

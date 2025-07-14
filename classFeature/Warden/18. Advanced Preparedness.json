@@ -1,11 +1,11 @@
 {
-    "name": "Advanced Preparedness",
-    "source": "TftJC",
-    "className": "Warden",
-    "classSource": "TftJC",
-    "level": 18,
-    "entries": [
-        "When you reach 18th level in this class, you gain the ability to always be prepared for conflict no matter the cause. When you finish a long rest, roll 1d8. You can add the result of that roll to any initiative check before your next long rest. You can add the bonus after you make the roll but before you know the result. Once you add this bonus you cannot do it again until you finish a long rest.",
-        "In addition, if you ever start initiative without any uses of your Techniques remaining you regain one use."
-    ]
+  "name": "Advanced Preparedness",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "level": 18,
+  "entries": [
+    "When you reach 18th level in this class, you gain the ability to always be prepared for conflict no matter the cause. When you finish a long rest, roll 1d8. You can add the result of that roll to any initiative check before your next long rest. You can add the bonus after you make the roll but before you know the result. Once you add this bonus you cannot do it again until you finish a long rest.",
+    "In addition, if you ever start initiative without any uses of your Techniques remaining you regain one use."
+  ]
 }

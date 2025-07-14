@@ -1,10 +1,10 @@
 {
-    "name": "Heat of Battle Improvement",
-    "source": "TftJC",
-    "className": "Warden",
-    "classSource": "TftJC",
-    "level": 18,
-    "entries": [
-        "At 18th level, you can use Heat of Battle three times instead of twice per short or long rest."
-    ]
+  "name": "Heat of Battle Improvement",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "level": 18,
+  "entries": [
+    "At 18th level, you can use Heat of Battle three times instead of twice per short or long rest."
+  ]
 }

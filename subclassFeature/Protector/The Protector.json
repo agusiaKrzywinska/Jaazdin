@@ -1,21 +1,21 @@
 {
-    "name": "The Protector",
-    "source": "TftJC",
-    "className": "Warden",
-    "classSource": "TftJC",
-    "subclassShortName": "Protector",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "To the protector, their bond of protection is the most important thing in the world. To the one they vow to protect they are a guardian and a mentor, not just a protector in battle but a teacher and a friend. Proper guidance in life is as important as a strong shield to protect them in combat. When a protector vows to keep one safe, that bond is unshakable as a mountain.",
-        "The longer one serves to protect the same creature, the greater their ability to work together with that creature becomes. A protector and their charge in time become a well-oiled machine, working seamlessly together both in combat and outside it. For a protector, the greatest sin is to let the one they protect die.",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Honor Bond|Warden|TftJC|Protector|TftJC|3"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Bonus Techniques|Warden|TftJC|Protector|TftJC|3"
-        }
-    ]
+  "name": "The Protector",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Protector",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "To the protector, their bond of protection is the most important thing in the world. To the one they vow to protect they are a guardian and a mentor, not just a protector in battle but a teacher and a friend. Proper guidance in life is as important as a strong shield to protect them in combat. When a protector vows to keep one safe, that bond is unshakable as a mountain.",
+    "The longer one serves to protect the same creature, the greater their ability to work together with that creature becomes. A protector and their charge in time become a well-oiled machine, working seamlessly together both in combat and outside it. For a protector, the greatest sin is to let the one they protect die.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Honor Bond|Warden|TftJC|Protector|TftJC|3"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Bonus Techniques|Warden|TftJC|Protector|TftJC|3"
+    }
+  ]
 }

@@ -1,12 +1,12 @@
 {
-    "name": "The Travelling Gun",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Quickdraw",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "At 2nd level, you become a showboat for your skills. You gain proficiency with Performance or Land Vehicles, or if you already have this, you instead gain proficiency with another skill from the Gunner class skill list."
-    ]
+  "name": "The Travelling Gun",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Quickdraw",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "At 2nd level, you become a showboat for your skills. You gain proficiency with Performance or Land Vehicles, or if you already have this, you instead gain proficiency with another skill from the Gunner class skill list."
+  ]
 }

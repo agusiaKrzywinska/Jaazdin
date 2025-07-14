@@ -1,10 +1,10 @@
 {
-    "name": "Art of War",
-    "source": "TftJC",
-    "className": "Warden",
-    "classSource": "TftJC",
-    "level": 5,
-    "entries": [
-        "At 5th level you gain proficiency in one artisan's tool, language, instrument, or vehicle of your choice."
-    ]
+  "name": "Art of War",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "level": 5,
+  "entries": [
+    "At 5th level you gain proficiency in one artisan's tool, language, instrument, or vehicle of your choice."
+  ]
 }

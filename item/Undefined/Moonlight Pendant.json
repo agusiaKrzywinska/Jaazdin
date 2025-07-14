@@ -1,12 +1,12 @@
 {
-    "name": "Moonlight Pendant",
-    "source": "TftJC",
-    "rarity": "rare",
-    "wondrous": true,
-    "reqAttune": "by a creature with Lycanthropy",
-    "charges": "10",
-    "entries": [
-        "This pendant can store moonlight. If left out in the moonlight for 1 hour, it gains a charge. It can hold up to 10 charges at a time. You can expend a charge to be treated as in moonlight for your Lycanthropy.",
-        "Additionally, during a full moon, you can now make a DC 17 WIS save to control your cravings."
-    ]
+  "name": "Moonlight Pendant",
+  "source": "TftJC",
+  "rarity": "rare",
+  "wondrous": true,
+  "reqAttune": "by a creature with Lycanthropy",
+  "charges": "10",
+  "entries": [
+    "This pendant can store moonlight. If left out in the moonlight for 1 hour, it gains a charge. It can hold up to 10 charges at a time. You can expend a charge to be treated as in moonlight for your Lycanthropy.",
+    "Additionally, during a full moon, you can now make a DC 17 WIS save to control your cravings."
+  ]
 }

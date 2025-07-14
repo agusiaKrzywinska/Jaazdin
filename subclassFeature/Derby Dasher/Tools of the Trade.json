@@ -1,12 +1,12 @@
 {
-    "name": "Tools of the Trade",
-    "source": "TftJC",
-    "className": "Artificer",
-    "classSource": "TCE",
-    "subclassShortName": "Derby Dasher",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "You gain proficiency in Cobbler's Tools. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice."
-    ]
+  "name": "Tools of the Trade",
+  "source": "TftJC",
+  "className": "Artificer",
+  "classSource": "TCE",
+  "subclassShortName": "Derby Dasher",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "You gain proficiency in Cobbler's Tools. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice."
+  ]
 }

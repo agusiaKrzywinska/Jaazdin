@@ -1,81 +1,79 @@
 {
-    "name": "Frozen Winds of the Tomb",
-    "source": "TftJC",
-    "page": 59,
-    "level": 3,
-    "school": "T",
-    "time": [
-        {
-            "number": 1,
-            "unit": "action"
-        }
-    ],
-    "range": {
-        "type": "cone",
-        "distance": {
-            "type": "feet",
-            "amount": 15
-        }
-    },
-    "components": {
-        "v": true,
-        "s": true,
-        "m": "silver dust"
-    },
-    "duration": [
-        {
-            "type": "timed",
-            "duration": {
-                "type": "minute",
-                "amount": 1,
-                "upTo": true
-            },
-            "concentration": true
-        }
-    ],
-    "entries": [
-        "You blow a freezing wind which envelops creatures in a 15 ft cone in front of you. All creatures but those with resistance or immunity to Cold Damage must make a Constitution Saving Throw. On a failed save, ice begins to grow around their body. As an action, you can blow more freezing wind during the spell's duration. Creatures that fail subsequent saving throws have the freezing effect amplified. If a creature leaves the spell's cone, all effects of the spell are removed from them",
-        {
-            "type": "list",
-            "items": [
-                "(1 fail) Their speed is halved until the start of your next turn.",
-                "(2 fails) Previous effects, and the creature has disadvantage on all skill checks.",
-                "(3 fails) Previous effects, and attack rolls they make before the start of your next turn have disadvantage.",
-                "(4 fails) Previous effects, and the creature becomes restrained until the start of your next turn.",
-                "(5 fails) The creature becomes petrified in ice for 10 minutes. Any physical changes that occur while petrified carry over once they return to their original state."
-            ]
-        }
-    ],
-    "entriesHigherLevel": [
-        {
-            "type": "entries",
-            "name": "At Higher Levels",
-            "entries": [
-                "If you cast this spell using a spell slot of 4th level or higher, the length of the cone increases by 5 feet for every spell slot above 3rd."
-            ]
-        }
-    ],
-    "classes": {
-        "fromClassList": [
-            {
-                "name": "Druid",
-                "source": "PHB"
-            },
-            {
-                "name": "Ranger",
-                "source": "PHB"
-            },
-            {
-                "name": "Warlock",
-                "source": "PHB"
-            },
-            {
-                "name": "Wizard",
-                "source": "PHB"
-            }
-        ]
-    },
-    "savingThrow": [
-        "constitution"
+  "name": "Frozen Winds of the Tomb",
+  "source": "TftJC",
+  "page": 59,
+  "level": 3,
+  "school": "T",
+  "time": [
+    {
+      "number": 1,
+      "unit": "action"
+    }
+  ],
+  "range": {
+    "type": "cone",
+    "distance": {
+      "type": "feet",
+      "amount": 15
+    }
+  },
+  "components": {
+    "v": true,
+    "s": true,
+    "m": "silver dust"
+  },
+  "duration": [
+    {
+      "type": "timed",
+      "duration": {
+        "type": "minute",
+        "amount": 1,
+        "upTo": true
+      },
+      "concentration": true
+    }
+  ],
+  "entries": [
+    "You blow a freezing wind which envelops creatures in a 15 ft cone in front of you. All creatures but those with resistance or immunity to Cold Damage must make a Constitution Saving Throw. On a failed save, ice begins to grow around their body. As an action, you can blow more freezing wind during the spell's duration. Creatures that fail subsequent saving throws have the freezing effect amplified. If a creature leaves the spell's cone, all effects of the spell are removed from them",
+    {
+      "type": "list",
+      "items": [
+        "(1 fail) Their speed is halved until the start of your next turn.",
+        "(2 fails) Previous effects, and the creature has disadvantage on all skill checks.",
+        "(3 fails) Previous effects, and attack rolls they make before the start of your next turn have disadvantage.",
+        "(4 fails) Previous effects, and the creature becomes restrained until the start of your next turn.",
+        "(5 fails) The creature becomes petrified in ice for 10 minutes. Any physical changes that occur while petrified carry over once they return to their original state."
+      ]
+    }
+  ],
+  "entriesHigherLevel": [
+    {
+      "type": "entries",
+      "name": "At Higher Levels",
+      "entries": [
+        "If you cast this spell using a spell slot of 4th level or higher, the length of the cone increases by 5 feet for every spell slot above 3rd."
+      ]
+    }
+  ],
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Druid",
+        "source": "PHB"
+      },
+      {
+        "name": "Ranger",
+        "source": "PHB"
+      },
+      {
+        "name": "Warlock",
+        "source": "PHB"
+      },
+      {
+        "name": "Wizard",
+        "source": "PHB"
+      }
     ]
+  },
+  "savingThrow": ["constitution"]
 }

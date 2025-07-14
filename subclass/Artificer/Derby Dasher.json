@@ -1,26 +1,26 @@
 {
-    "name": "Derby Dasher",
-    "source": "TftJC",
-    "page": 7,
-    "className": "Artificer",
-    "classSource": "TCE",
-    "shortName": "Derby Dasher",
-    "subclassFeatures": [
-        "Derby Dasher|Artificer|TCE|Derby Dasher|TftJC|3",
-        "Extra Attack|Artificer|TCE|Derby Dasher|TftJC|5",
-        "Shocking Strikes|Artificer|TCE|Derby Dasher|TftJC|9",
-        "Rapid Instincts|Artificer|TCE|Derby Dasher|TftJC|15"
-    ],
-    "subclassSpells": [
-        "Headlong Rush|TftJC",
-        "Zephyr Strike|XgtE",
-        "Gust of Wind",
-        "Mirror Image",
-        "Nondetection",
-        "Thunderstep|XgtE",
-        "Greater Invisibility",
-        "Lightning Rush|TftJC",
-        "Control Winds",
-        "Mislead"
-    ]
+  "name": "Derby Dasher",
+  "source": "TftJC",
+  "page": 7,
+  "className": "Artificer",
+  "classSource": "TCE",
+  "shortName": "Derby Dasher",
+  "subclassFeatures": [
+    "Derby Dasher|Artificer|TCE|Derby Dasher|TftJC|3",
+    "Extra Attack|Artificer|TCE|Derby Dasher|TftJC|5",
+    "Shocking Strikes|Artificer|TCE|Derby Dasher|TftJC|9",
+    "Rapid Instincts|Artificer|TCE|Derby Dasher|TftJC|15"
+  ],
+  "subclassSpells": [
+    "Headlong Rush|TftJC",
+    "Zephyr Strike|XgtE",
+    "Gust of Wind",
+    "Mirror Image",
+    "Nondetection",
+    "Thunderstep|XgtE",
+    "Greater Invisibility",
+    "Lightning Rush|TftJC",
+    "Control Winds",
+    "Mislead"
+  ]
 }

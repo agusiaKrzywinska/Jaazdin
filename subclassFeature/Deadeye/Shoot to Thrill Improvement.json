@@ -1,12 +1,12 @@
 {
-    "name": "Shoot to Thrill Improvement",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Deadeye",
-    "subclassSource": "TftJC",
-    "level": 10,
-    "entries": [
-        "At 10th level, your Shoot to Thrill feature is enhanced. When you use Shoot to Thrill, after the attack is made you can make a stealth check to make a new Hidden Perch."
-    ]
+  "name": "Shoot to Thrill Improvement",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Deadeye",
+  "subclassSource": "TftJC",
+  "level": 10,
+  "entries": [
+    "At 10th level, your Shoot to Thrill feature is enhanced. When you use Shoot to Thrill, after the attack is made you can make a stealth check to make a new Hidden Perch."
+  ]
 }

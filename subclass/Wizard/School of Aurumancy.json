@@ -1,14 +1,14 @@
 {
-    "name": "School of Aurumancy",
-    "source": "TftJC",
-    "page": 49,
-    "className": "Wizard",
-    "classSource": "PHB",
-    "shortName": "Aurumancy",
-    "subclassFeatures": [
-        "School of Aurumancy|Wizard|PHB|Aurumancy|TftJC|2",
-        "Extended Transmission|Wizard|PHB|Aurumancy|TftJC|6",
-        "Golden Magic|Wizard|PHB|Aurumancy|TftJC|10",
-        "Multi Transmission|Wizard|PHB|Aurumancy|TftJC|14"
-    ]
+  "name": "School of Aurumancy",
+  "source": "TftJC",
+  "page": 49,
+  "className": "Wizard",
+  "classSource": "PHB",
+  "shortName": "Aurumancy",
+  "subclassFeatures": [
+    "School of Aurumancy|Wizard|PHB|Aurumancy|TftJC|2",
+    "Extended Transmission|Wizard|PHB|Aurumancy|TftJC|6",
+    "Golden Magic|Wizard|PHB|Aurumancy|TftJC|10",
+    "Multi Transmission|Wizard|PHB|Aurumancy|TftJC|14"
+  ]
 }

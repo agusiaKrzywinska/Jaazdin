@@ -1,25 +1,25 @@
 {
-    "name": "Oath of Divine Justice",
-    "source": "TftJC",
-    "className": "Paladin",
-    "classSource": "PHB",
-    "subclassShortName": "Divine Justice",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "Following the belief that all creatures fall under one law, Paladins of Divine Justice act as Judge,Jury and Executioner for those who dare break said law.",
-        "Paladins under the Oath of Divine Justice strike forth with Holy Fire, burning all evil in their path to a perfect world, at any cost.",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Tenets of Divine Justice|Paladin|PHB|Divine Justice|TftJC|3"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Channel Divinity|Paladin|PHB|Divine Justice|TftJC|3"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Oath of Divine Justice Spells|Paladin|PHB|Divine Justice|TftJC|3"
-        }
-    ]
+  "name": "Oath of Divine Justice",
+  "source": "TftJC",
+  "className": "Paladin",
+  "classSource": "PHB",
+  "subclassShortName": "Divine Justice",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "Following the belief that all creatures fall under one law, Paladins of Divine Justice act as Judge,Jury and Executioner for those who dare break said law.",
+    "Paladins under the Oath of Divine Justice strike forth with Holy Fire, burning all evil in their path to a perfect world, at any cost.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Tenets of Divine Justice|Paladin|PHB|Divine Justice|TftJC|3"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Channel Divinity|Paladin|PHB|Divine Justice|TftJC|3"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Oath of Divine Justice Spells|Paladin|PHB|Divine Justice|TftJC|3"
+    }
+  ]
 }

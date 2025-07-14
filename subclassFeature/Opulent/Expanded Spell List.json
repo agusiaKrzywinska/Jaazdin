@@ -1,46 +1,25 @@
 {
-    "name": "Expanded Spell List",
-    "source": "TftJC",
-    "className": "Warlock",
-    "classSource": "PHB",
-    "subclassShortName": "Opulent",
-    "subclassSource": "TftJC",
-    "level": 1,
-    "entries": [
-        "Opulent lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
-        {
-            "type": "table",
-            "caption": "Opulent Expanded Spells",
-            "colLabels": [
-                "Spell Level",
-                "Spells"
-            ],
-            "colStyles": [
-                "col-2 text-center",
-                "col-10"
-            ],
-            "rows": [
-                [
-                    "1st",
-                    "{@spell chromatic orb}, {@spell ceremony|XGE}"
-                ],
-                [
-                    "2nd",
-                    "{@spell arcane lock}, {@spell warding bond}"
-                ],
-                [
-                    "3rd",
-                    "{@spell glyph of warding}, {@spell nondetection}"
-                ],
-                [
-                    "4th",
-                    "{@spell divination}, {@spell leomund's secret chest}"
-                ],
-                [
-                    "5th",
-                    "{@spell dawn|XGE}, {@spell teleportation circle}"
-                ]
-            ]
-        }
-    ]
+  "name": "Expanded Spell List",
+  "source": "TftJC",
+  "className": "Warlock",
+  "classSource": "PHB",
+  "subclassShortName": "Opulent",
+  "subclassSource": "TftJC",
+  "level": 1,
+  "entries": [
+    "Opulent lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+    {
+      "type": "table",
+      "caption": "Opulent Expanded Spells",
+      "colLabels": ["Spell Level", "Spells"],
+      "colStyles": ["col-2 text-center", "col-10"],
+      "rows": [
+        ["1st", "{@spell chromatic orb}, {@spell ceremony|XGE}"],
+        ["2nd", "{@spell arcane lock}, {@spell warding bond}"],
+        ["3rd", "{@spell glyph of warding}, {@spell nondetection}"],
+        ["4th", "{@spell divination}, {@spell leomund's secret chest}"],
+        ["5th", "{@spell dawn|XGE}, {@spell teleportation circle}"]
+      ]
+    }
+  ]
 }

@@ -1,17 +1,17 @@
 {
-    "name": "Blade of Darkinix",
-    "source": "TftJC",
-    "rarity": "artifact",
-    "type": "M",
-    "reqAttune": "by a child of Darkinix",
-    "range": "20/60",
-    "entries": [
-        "This weapon provides a +3 to Attack Rolls and Damage Rolls.",
-        "As an Action, the wielder can change this into any melee weapon they are proficient with.",
-        "In all forms, it has the thrown property with a normal range of 20 feet and a long range of 60 feet. Immediately after the attack, the weapon flies back to your hand.",
-        "You gain Immunity to Fire Damage.",
-        "Your Charisma Score becomes 20 if it is lower than that.",
-        "This weapon deals an additional {@dice 3d6} damage against Dragons.",
-        "This weapon is also considered a {@item Vorpal Sword|DMG} against Dragons, so long as they are at 100 hit points or fewer. If they are above this value, they instead take an additional {@dice 6d8} damage."
-    ]
+  "name": "Blade of Darkinix",
+  "source": "TftJC",
+  "rarity": "artifact",
+  "type": "M",
+  "reqAttune": "by a child of Darkinix",
+  "range": "20/60",
+  "entries": [
+    "This weapon provides a +3 to Attack Rolls and Damage Rolls.",
+    "As an Action, the wielder can change this into any melee weapon they are proficient with.",
+    "In all forms, it has the thrown property with a normal range of 20 feet and a long range of 60 feet. Immediately after the attack, the weapon flies back to your hand.",
+    "You gain Immunity to Fire Damage.",
+    "Your Charisma Score becomes 20 if it is lower than that.",
+    "This weapon deals an additional {@dice 3d6} damage against Dragons.",
+    "This weapon is also considered a {@item Vorpal Sword|DMG} against Dragons, so long as they are at 100 hit points or fewer. If they are above this value, they instead take an additional {@dice 6d8} damage."
+  ]
 }

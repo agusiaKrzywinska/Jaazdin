@@ -1,21 +1,21 @@
 {
-    "name": "Masked Champion",
-    "source": "TftJC",
-    "className": "Paladin",
-    "classSource": "PHB",
-    "subclassShortName": "Masked Rider",
-    "subclassSource": "TftJC",
-    "level": 20,
-    "entries": [
-        "At 20th level, you can assume the form of a Masked Champion. Your armor may become golden, your strikes moving faster than the eye can see, or your explosions shine off golden light. As an Action, you gain the following features.This lasts for 1 minute, or until knocked unconscious.",
-        {
-            "type": "list",
-            "items": [
-                "Upon activating the ability, you can immediately use your Mask Change Channel Divinity (this does not expend the use of your Channel Divinity). If you are already wearing your armor, it remains and instead you only deal the damage and the shove effect. When used in this way, it deals double the damage die.",
-                "Using your Explosive Finisher Channel Divinity does not expend your Channel Divinity if that attack would finish the creature hit.",
-                "Whenever you would deal Thunder Damage to a single creature, all other creatures within 10ft of that creature take the same amount of damage. This effect cannot activate off of itself."
-            ]
-        },
-        "You can use this feature once per Long Rest, or by expending a 5th level spell slot."
-    ]
+  "name": "Masked Champion",
+  "source": "TftJC",
+  "className": "Paladin",
+  "classSource": "PHB",
+  "subclassShortName": "Masked Rider",
+  "subclassSource": "TftJC",
+  "level": 20,
+  "entries": [
+    "At 20th level, you can assume the form of a Masked Champion. Your armor may become golden, your strikes moving faster than the eye can see, or your explosions shine off golden light. As an Action, you gain the following features.This lasts for 1 minute, or until knocked unconscious.",
+    {
+      "type": "list",
+      "items": [
+        "Upon activating the ability, you can immediately use your Mask Change Channel Divinity (this does not expend the use of your Channel Divinity). If you are already wearing your armor, it remains and instead you only deal the damage and the shove effect. When used in this way, it deals double the damage die.",
+        "Using your Explosive Finisher Channel Divinity does not expend your Channel Divinity if that attack would finish the creature hit.",
+        "Whenever you would deal Thunder Damage to a single creature, all other creatures within 10ft of that creature take the same amount of damage. This effect cannot activate off of itself."
+      ]
+    },
+    "You can use this feature once per Long Rest, or by expending a 5th level spell slot."
+  ]
 }

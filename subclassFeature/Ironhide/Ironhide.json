@@ -1,25 +1,25 @@
 {
-    "name": "Ironhide",
-    "source": "TftJC",
-    "className": "Sorcerer",
-    "classSource": "PHB",
-    "subclassShortName": "Ironhide",
-    "subclassSource": "TftJC",
-    "level": 1,
-    "entries": [
-        "Swords crash down on invisible forces, halting their strikes. Armor clad infantry are sent through the air with just a thought. As the world of mortals modernized, covering themselves in metal, so did some rare Sorcerers.  Let their reliance on Iron be their downfall.",
-        "You have a magical affinity to metals. You bend and control magnetic forces with ease. Ironhide Sorcerers have become a rare and valuable member to any front line, with their ability to bend barriers, crush armorclad soldiers and launch waves of jagged metal at their enemies.",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Expanded Spell List|Sorcerer|PHB|Ironhide|TftJC|1"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Metallic Defenses|Sorcerer|PHB|Ironhide|TftJC|1"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Magnetic Surge|Sorcerer|PHB|Ironhide|TftJC|1"
-        }
-    ]
+  "name": "Ironhide",
+  "source": "TftJC",
+  "className": "Sorcerer",
+  "classSource": "PHB",
+  "subclassShortName": "Ironhide",
+  "subclassSource": "TftJC",
+  "level": 1,
+  "entries": [
+    "Swords crash down on invisible forces, halting their strikes. Armor clad infantry are sent through the air with just a thought. As the world of mortals modernized, covering themselves in metal, so did some rare Sorcerers.  Let their reliance on Iron be their downfall.",
+    "You have a magical affinity to metals. You bend and control magnetic forces with ease. Ironhide Sorcerers have become a rare and valuable member to any front line, with their ability to bend barriers, crush armorclad soldiers and launch waves of jagged metal at their enemies.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Expanded Spell List|Sorcerer|PHB|Ironhide|TftJC|1"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Metallic Defenses|Sorcerer|PHB|Ironhide|TftJC|1"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Magnetic Surge|Sorcerer|PHB|Ironhide|TftJC|1"
+    }
+  ]
 }

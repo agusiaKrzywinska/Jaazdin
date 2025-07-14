@@ -1,15 +1,15 @@
 {
-    "name": "Take Flight",
-    "source": "TftJC",
-    "className": "Barbarian",
-    "classSource": "PHB",
-    "subclassShortName": "Vampire",
-    "subclassSource": "TftJC",
-    "level": 10,
-    "entries": [
-        "At 10th level, you become a master of the night. While Raging, you can use an Action to transform into a Bat.",
-        "While in your Bat form, you do not need to take/deal damage to maintain your Rage. While you are a Bat, your hp is equal to your Barbarian level + your original Constitution Bonus, and you are resistant to all Damage except for Radiant.",
-        "You return to your normal form when your Rage Ends or when it is dismissed as a Bonus Action, or when the bat drops to 0 hit points. Any additional Damage taken is dealt to you.",
-        "You retain your mental statistics and your Strength, and can use your Vampiric Fangs while in this form."
-    ]
+  "name": "Take Flight",
+  "source": "TftJC",
+  "className": "Barbarian",
+  "classSource": "PHB",
+  "subclassShortName": "Vampire",
+  "subclassSource": "TftJC",
+  "level": 10,
+  "entries": [
+    "At 10th level, you become a master of the night. While Raging, you can use an Action to transform into a Bat.",
+    "While in your Bat form, you do not need to take/deal damage to maintain your Rage. While you are a Bat, your hp is equal to your Barbarian level + your original Constitution Bonus, and you are resistant to all Damage except for Radiant.",
+    "You return to your normal form when your Rage Ends or when it is dismissed as a Bonus Action, or when the bat drops to 0 hit points. Any additional Damage taken is dealt to you.",
+    "You retain your mental statistics and your Strength, and can use your Vampiric Fangs while in this form."
+  ]
 }

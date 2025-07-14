@@ -1,12 +1,12 @@
 {
-    "name": "Magnetic Singularity",
-    "source": "TftJC",
-    "className": "Sorcerer",
-    "classSource": "PHB",
-    "subclassShortName": "Ironhide",
-    "subclassSource": "TftJC",
-    "level": 18,
-    "entries": [
-        "At 18th level, your control over magnetism is at its peak. The weight moved by your Magnetic Surge Feature is tripled. As an Action, you can create a field of powerful magnetism in a 15ft radius centred around you. No metal objects can enter that field under any circumstances. If a metal object is teleported inside of the field, it is immediately pushed outwards past the end of your radius. While this is active, you can select one object composed of metal within 100ft of you as a Bonus Action and launch it with your magnetism. The object can weigh no more that 100 lbs. It is launched 100ft in a direction you choose, and all creatures in its path must make a Dexterity Saving throw, or take 3d10 Bludgeoning damage. This lasts for 1 minute, and can only be used once per Long Rest, or by spending 5 Sorcery Points."
-    ]
+  "name": "Magnetic Singularity",
+  "source": "TftJC",
+  "className": "Sorcerer",
+  "classSource": "PHB",
+  "subclassShortName": "Ironhide",
+  "subclassSource": "TftJC",
+  "level": 18,
+  "entries": [
+    "At 18th level, your control over magnetism is at its peak. The weight moved by your Magnetic Surge Feature is tripled. As an Action, you can create a field of powerful magnetism in a 15ft radius centred around you. No metal objects can enter that field under any circumstances. If a metal object is teleported inside of the field, it is immediately pushed outwards past the end of your radius. While this is active, you can select one object composed of metal within 100ft of you as a Bonus Action and launch it with your magnetism. The object can weigh no more that 100 lbs. It is launched 100ft in a direction you choose, and all creatures in its path must make a Dexterity Saving throw, or take 3d10 Bludgeoning damage. This lasts for 1 minute, and can only be used once per Long Rest, or by spending 5 Sorcery Points."
+  ]
 }

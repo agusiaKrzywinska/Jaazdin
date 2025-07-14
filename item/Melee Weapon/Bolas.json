@@ -1,18 +1,15 @@
 {
-    "name": "Bolas",
-    "source": "TftJC",
-    "page": 50,
-    "type": "M",
-    "rarity": "none",
-    "weight": 2,
-    "value": 3,
-    "weaponCategory": "simple",
-    "property": [
-        "S",
-        "T"
-    ],
-    "range": "15/40",
-    "entries": [
-        "<b><i>Special.</i></b> A Large or smaller creature hit by a bola must make a Strength (Athletics) or Dexterity (Acrobatics) check verse the attack roll. If they failed, they are knocked prone. A bola has no effect on creatures that are form lessor that don't have legs. Creatures with more than four legs have advantage on the check."
-    ]
+  "name": "Bolas",
+  "source": "TftJC",
+  "page": 50,
+  "type": "M",
+  "rarity": "none",
+  "weight": 2,
+  "value": 3,
+  "weaponCategory": "simple",
+  "property": ["S", "T"],
+  "range": "15/40",
+  "entries": [
+    "<b><i>Special.</i></b> A Large or smaller creature hit by a bola must make a Strength (Athletics) or Dexterity (Acrobatics) check verse the attack roll. If they failed, they are knocked prone. A bola has no effect on creatures that are form lessor that don't have legs. Creatures with more than four legs have advantage on the check."
+  ]
 }

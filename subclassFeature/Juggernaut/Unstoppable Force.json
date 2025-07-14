@@ -1,12 +1,12 @@
 {
-    "name": "Unstoppable Force",
-    "source": "TftJC",
-    "className": "Warden",
-    "classSource": "TftJC",
-    "subclassShortName": "Juggernaut",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "When you take this tract at 3rd level, you gain an unrelenting anger just waiting to be unleashed. After taking damage, the next weapon attack you hit with in the next minute does extra weapon damage equal to your Constitution modifier. "
-    ]
+  "name": "Unstoppable Force",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Juggernaut",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "When you take this tract at 3rd level, you gain an unrelenting anger just waiting to be unleashed. After taking damage, the next weapon attack you hit with in the next minute does extra weapon damage equal to your Constitution modifier. "
+  ]
 }

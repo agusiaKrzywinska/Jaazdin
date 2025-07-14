@@ -1,14 +1,14 @@
 {
-    "name": "Oath of the Slayer",
-    "source": "TftJC",
-    "page": 32,
-    "className": "Paladin",
-    "classSource": "PHB",
-    "shortName": "Slayer",
-    "subclassFeatures": [
-        "Oath of the Slayer|Paladin|PHB|Slayer|TftJC|3",
-        "Slayer’s Protection|Paladin|PHB|Slayer|TftJC|7",
-        "Blood of the Hunt|Paladin|PHB|Slayer|TftJC|15",
-        "Perfect Slayer|Paladin|PHB|Slayer|TftJC|20"
-    ]
+  "name": "Oath of the Slayer",
+  "source": "TftJC",
+  "page": 32,
+  "className": "Paladin",
+  "classSource": "PHB",
+  "shortName": "Slayer",
+  "subclassFeatures": [
+    "Oath of the Slayer|Paladin|PHB|Slayer|TftJC|3",
+    "Slayer’s Protection|Paladin|PHB|Slayer|TftJC|7",
+    "Blood of the Hunt|Paladin|PHB|Slayer|TftJC|15",
+    "Perfect Slayer|Paladin|PHB|Slayer|TftJC|20"
+  ]
 }

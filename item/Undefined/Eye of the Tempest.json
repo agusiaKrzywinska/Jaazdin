@@ -1,13 +1,13 @@
 {
-    "name": "Eye of the Tempest",
-    "source": "TftJC",
-    "rarity": "artifact",
-    "wondrous": true,
-    "curse": true,
-    "focus": true,
-    "entries": [
-        "This sapphire eye houses the remaining spiritual energies of Laradrin, the Ascendant Tempest. Any creature with the Spellcasting or Pact Magic feature that touches the eye must make a DC 20 Wisdom saving throw or be compelled to replace one of their eyes with this one. While within an eye socket this eye functions as a regular eye. However, it can also perceive magic, while you have the eye with the Eye of the Tempest in it open you are under the effects of the Detect Magic spell. Due to the confusing nature of only perceiving this through one eye, if you have both eyes open you have disadvantage on Perception and Investigation checks.",
-        "While within an eye socket the host creature can draw on its energies. They learn the Empower and Transmute Metamagics, adding these to their known Metamagics if they have them. Once per long rest they can use the Empower Metamagic on a spell dealing Lightning damage without expending any Sorcery Points. Once per long rest they may use the Transmute Metamagic to transmute any spell into Lightning damage without expending any Sorcery Points.",
-        "The Eye of the Tempest is cursed and cannot be willing removed. A remove curse allows it to be removed for 1 minute, during which time a creature must succeed a DC 15 Medicine(Dexterity) check to successfully remove the eye. On a failure, the host takes {@dice 2d4} slashing damage and {@dice 4d10} psychic damage."
-    ]
+  "name": "Eye of the Tempest",
+  "source": "TftJC",
+  "rarity": "artifact",
+  "wondrous": true,
+  "curse": true,
+  "focus": true,
+  "entries": [
+    "This sapphire eye houses the remaining spiritual energies of Laradrin, the Ascendant Tempest. Any creature with the Spellcasting or Pact Magic feature that touches the eye must make a DC 20 Wisdom saving throw or be compelled to replace one of their eyes with this one. While within an eye socket this eye functions as a regular eye. However, it can also perceive magic, while you have the eye with the Eye of the Tempest in it open you are under the effects of the Detect Magic spell. Due to the confusing nature of only perceiving this through one eye, if you have both eyes open you have disadvantage on Perception and Investigation checks.",
+    "While within an eye socket the host creature can draw on its energies. They learn the Empower and Transmute Metamagics, adding these to their known Metamagics if they have them. Once per long rest they can use the Empower Metamagic on a spell dealing Lightning damage without expending any Sorcery Points. Once per long rest they may use the Transmute Metamagic to transmute any spell into Lightning damage without expending any Sorcery Points.",
+    "The Eye of the Tempest is cursed and cannot be willing removed. A remove curse allows it to be removed for 1 minute, during which time a creature must succeed a DC 15 Medicine(Dexterity) check to successfully remove the eye. On a failure, the host takes {@dice 2d4} slashing damage and {@dice 4d10} psychic damage."
+  ]
 }

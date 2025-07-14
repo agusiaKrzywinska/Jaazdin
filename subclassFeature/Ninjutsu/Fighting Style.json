@@ -1,34 +1,34 @@
 {
-    "name": "Fighting Style",
-    "source": "TftJC",
-    "className": "Rogue",
-    "classSource": "PHB",
-    "subclassShortName": "Ninjutsu",
-    "subclassSource": "TftJC",
-    "level": 3,
-    "entries": [
-        "At 3rd level, you also adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.",
+  "name": "Fighting Style",
+  "source": "TftJC",
+  "className": "Rogue",
+  "classSource": "PHB",
+  "subclassShortName": "Ninjutsu",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "At 3rd level, you also adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.",
+    {
+      "type": "options",
+      "count": 1,
+      "entries": [
         {
-            "type": "options",
-            "count": 1,
-            "entries": [
-                {
-                    "type": "refOptionalfeature",
-                    "optionalfeature": "Archery"
-                },
-                {
-                    "type": "refOptionalfeature",
-                    "optionalfeature": "Dueling"
-                },
-                {
-                    "type": "refOptionalfeature",
-                    "optionalfeature": "Blind Fighting|TCE"
-                },
-                {
-                    "type": "refOptionalfeature",
-                    "optionalfeature": "Thrown Weapon Fighting|TCE"
-                }
-            ]
+          "type": "refOptionalfeature",
+          "optionalfeature": "Archery"
+        },
+        {
+          "type": "refOptionalfeature",
+          "optionalfeature": "Dueling"
+        },
+        {
+          "type": "refOptionalfeature",
+          "optionalfeature": "Blind Fighting|TCE"
+        },
+        {
+          "type": "refOptionalfeature",
+          "optionalfeature": "Thrown Weapon Fighting|TCE"
         }
-    ]
+      ]
+    }
+  ]
 }

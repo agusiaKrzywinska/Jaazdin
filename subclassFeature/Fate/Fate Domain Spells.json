@@ -1,46 +1,25 @@
 {
-    "name": "Fate Domain Spells",
-    "source": "TftJC",
-    "className": "Cleric",
-    "classSource": "PHB",
-    "subclassShortName": "Fate",
-    "subclassSource": "TftJC",
-    "level": 1,
-    "entries": [
-        "At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.",
-        {
-            "type": "table",
-            "caption": "Fate Domain Spells",
-            "colLabels": [
-                "Cleric Level",
-                "Spell"
-            ],
-            "colStyles": [
-                "col-2 text-center",
-                "col-10"
-            ],
-            "rows": [
-                [
-                    "1st",
-                    "{@spell identify}, {@spell shield}"
-                ],
-                [
-                    "3rd",
-                    "{@spell augury}, {@spell locate object}"
-                ],
-                [
-                    "5th",
-                    "{@spell nondetection}, {@spell leomund's tiny hut}"
-                ],
-                [
-                    "7th",
-                    "{@spell aura of purity}, {@spell divination}"
-                ],
-                [
-                    "9th",
-                    "{@spell commune}, {@spell legend lore}"
-                ]
-            ]
-        }
-    ]
+  "name": "Fate Domain Spells",
+  "source": "TftJC",
+  "className": "Cleric",
+  "classSource": "PHB",
+  "subclassShortName": "Fate",
+  "subclassSource": "TftJC",
+  "level": 1,
+  "entries": [
+    "At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.",
+    {
+      "type": "table",
+      "caption": "Fate Domain Spells",
+      "colLabels": ["Cleric Level", "Spell"],
+      "colStyles": ["col-2 text-center", "col-10"],
+      "rows": [
+        ["1st", "{@spell identify}, {@spell shield}"],
+        ["3rd", "{@spell augury}, {@spell locate object}"],
+        ["5th", "{@spell nondetection}, {@spell leomund's tiny hut}"],
+        ["7th", "{@spell aura of purity}, {@spell divination}"],
+        ["9th", "{@spell commune}, {@spell legend lore}"]
+      ]
+    }
+  ]
 }

@@ -1,31 +1,29 @@
 {
-    "name": "Big Dipper",
-    "source": "TftJC",
-    "rarity": "rare",
-    "reqAttune": true,
-    "baseItem": "quarterstaff|PHB",
-    "type": "M",
-    "weight": 4,
-    "weaponCategory": "simple",
-    "property": [
-        "V"
-    ],
-    "dmg1": "1d6",
-    "dmgType": "B",
-    "dmg2": "1d8",
-    "entries": [
-        "This heavy-duty fishing rod is a magic weapon only suited for the most enthusiastic of fishermen. While you are attuned to this weapon, you have the following benefits.",
-        "You can cast the following spells without providing material components:",
-        {
-            "type": "list",
-            "style": "list-hang",
-            "items": [
-                "{@spell druidcraft|PHB} (at will)",
-                "{@spell locate animals or plants|PHB} within an aquatic environment (3/day)",
-                "{@spell dominate beast|PHB} (save DC 15) on a beast with an innate swim speed (1/day)"
-            ]
-        },
-        "When you take the Attack action and attack with this weapon on your turn, you can replace one of your attacks with a cast of the Big Dipper's hook. The hook targets another creature of your choice, your size or smaller, within 40 feet. An unwilling creature must make a DC 15 strength saving throw to resist being moved; otherwise, hooked creatures can be moved up to 10 feet in any direction. The hook detaches from a creature at the end of your turn.",
-        "Proficiency with a quarterstaff allows you to add your proficiency bonus to the attack roll for any attack you make with it."
-    ]
+  "name": "Big Dipper",
+  "source": "TftJC",
+  "rarity": "rare",
+  "reqAttune": true,
+  "baseItem": "quarterstaff|PHB",
+  "type": "M",
+  "weight": 4,
+  "weaponCategory": "simple",
+  "property": ["V"],
+  "dmg1": "1d6",
+  "dmgType": "B",
+  "dmg2": "1d8",
+  "entries": [
+    "This heavy-duty fishing rod is a magic weapon only suited for the most enthusiastic of fishermen. While you are attuned to this weapon, you have the following benefits.",
+    "You can cast the following spells without providing material components:",
+    {
+      "type": "list",
+      "style": "list-hang",
+      "items": [
+        "{@spell druidcraft|PHB} (at will)",
+        "{@spell locate animals or plants|PHB} within an aquatic environment (3/day)",
+        "{@spell dominate beast|PHB} (save DC 15) on a beast with an innate swim speed (1/day)"
+      ]
+    },
+    "When you take the Attack action and attack with this weapon on your turn, you can replace one of your attacks with a cast of the Big Dipper's hook. The hook targets another creature of your choice, your size or smaller, within 40 feet. An unwilling creature must make a DC 15 strength saving throw to resist being moved; otherwise, hooked creatures can be moved up to 10 feet in any direction. The hook detaches from a creature at the end of your turn.",
+    "Proficiency with a quarterstaff allows you to add your proficiency bonus to the attack roll for any attack you make with it."
+  ]
 }

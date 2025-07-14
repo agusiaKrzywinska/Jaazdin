@@ -1,12 +1,12 @@
 {
-    "name": "From Fur to Scales",
-    "source": "TftJC",
-    "className": "Druid",
-    "classSource": "PHB",
-    "subclassShortName": "Dragon",
-    "subclassSource": "TftJC",
-    "level": 10,
-    "entries": [
-        "At 10th level, your Wild Shape list now includes Dragons, and you can expend two uses of your Wild Shape to transform into a Wyrmling Dragon of your choice, and at 14th level this becomes a Young Dragon. Also, you can cast {@spell Polymorph|PHB} on yourself once per short rest, but can only select a Dragon as a possible form."
-    ]
+  "name": "From Fur to Scales",
+  "source": "TftJC",
+  "className": "Druid",
+  "classSource": "PHB",
+  "subclassShortName": "Dragon",
+  "subclassSource": "TftJC",
+  "level": 10,
+  "entries": [
+    "At 10th level, your Wild Shape list now includes Dragons, and you can expend two uses of your Wild Shape to transform into a Wyrmling Dragon of your choice, and at 14th level this becomes a Young Dragon. Also, you can cast {@spell Polymorph|PHB} on yourself once per short rest, but can only select a Dragon as a possible form."
+  ]
 }

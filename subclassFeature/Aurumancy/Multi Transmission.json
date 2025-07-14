@@ -1,12 +1,12 @@
 {
-    "name": "Multi Transmission",
-    "source": "TftJC",
-    "className": "Wizard",
-    "classSource": "PHB",
-    "subclassShortName": "Aurumancy",
-    "subclassSource": "TftJC",
-    "level": 14,
-    "entries": [
-        "At 14th level, you are able to operate multiple Transmitters. You can control up to 2 transmitters at once. When you expend a spell slot, you select which Transmitter activates. Both transmitters can be active at the same time, but each require their own spell slot expended. When using a Bonus Action to change the benefits they grant, that action can change both Transmitters effects to unique effects. No creature can gain the benefits from both of your transmitters at once."
-    ]
+  "name": "Multi Transmission",
+  "source": "TftJC",
+  "className": "Wizard",
+  "classSource": "PHB",
+  "subclassShortName": "Aurumancy",
+  "subclassSource": "TftJC",
+  "level": 14,
+  "entries": [
+    "At 14th level, you are able to operate multiple Transmitters. You can control up to 2 transmitters at once. When you expend a spell slot, you select which Transmitter activates. Both transmitters can be active at the same time, but each require their own spell slot expended. When using a Bonus Action to change the benefits they grant, that action can change both Transmitters effects to unique effects. No creature can gain the benefits from both of your transmitters at once."
+  ]
 }

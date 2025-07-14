@@ -1,21 +1,21 @@
 {
-    "name": "Metallic Carapace",
-    "source": "TftJC",
-    "className": "Druid",
-    "classSource": "PHB",
-    "subclassShortName": "Iron Heretic",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "At 2nd level, you gain the ability to make use of metal and shape it into natural shapes. As an action, while wearing metal armor, you can expend a use of your Wild Shape feature to shape both your body and the metal into a new form. You Wild Shape into a Beast as normal but your new form has the following difference: Your AC in your new form is equal to the AC of the armor you were wearing in your normal form, and you benefit from all additional effects granted by your armor.",
-        {
-            "type": "list",
-            "items": [
-                "Your creature type is Construct and you cannot regain hit points in your new form.",
-                "Your speed in all forms decreases by 10ft.",
-                "Your attacks in this form deal {@dice 1d6} extra fire damage from your super-heated metal. This damage increases to {@dice 2d6} at level 9 and {@dice 3d6} at level 16."
-            ]
-        },
-        "While wearing heavy armor you cannot Wild Shape into a non-metallic version of your Wild Shape."
-    ]
+  "name": "Metallic Carapace",
+  "source": "TftJC",
+  "className": "Druid",
+  "classSource": "PHB",
+  "subclassShortName": "Iron Heretic",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "At 2nd level, you gain the ability to make use of metal and shape it into natural shapes. As an action, while wearing metal armor, you can expend a use of your Wild Shape feature to shape both your body and the metal into a new form. You Wild Shape into a Beast as normal but your new form has the following difference: Your AC in your new form is equal to the AC of the armor you were wearing in your normal form, and you benefit from all additional effects granted by your armor.",
+    {
+      "type": "list",
+      "items": [
+        "Your creature type is Construct and you cannot regain hit points in your new form.",
+        "Your speed in all forms decreases by 10ft.",
+        "Your attacks in this form deal {@dice 1d6} extra fire damage from your super-heated metal. This damage increases to {@dice 2d6} at level 9 and {@dice 3d6} at level 16."
+      ]
+    },
+    "While wearing heavy armor you cannot Wild Shape into a non-metallic version of your Wild Shape."
+  ]
 }

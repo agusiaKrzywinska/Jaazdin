@@ -1,12 +1,12 @@
 {
-    "name": "Pinpoint Accuracy",
-    "source": "TftJC",
-    "className": "Gunner",
-    "classSource": "TftJC",
-    "subclassShortName": "Deadeye",
-    "subclassSource": "TftJC",
-    "level": 6,
-    "entries": [
-        "At 6th level, you learn to remain calm in the heat of battle, which aids your aim. Once per turn, when you attack with advantage with a firearm, you can increase the damage die of your weapon by one step."
-    ]
+  "name": "Pinpoint Accuracy",
+  "source": "TftJC",
+  "className": "Gunner",
+  "classSource": "TftJC",
+  "subclassShortName": "Deadeye",
+  "subclassSource": "TftJC",
+  "level": 6,
+  "entries": [
+    "At 6th level, you learn to remain calm in the heat of battle, which aids your aim. Once per turn, when you attack with advantage with a firearm, you can increase the damage die of your weapon by one step."
+  ]
 }

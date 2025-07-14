@@ -1,21 +1,21 @@
 {
-    "name": "Spellthief",
-    "source": "TftJC",
-    "className": "Wizard",
-    "classSource": "PHB",
-    "subclassShortName": "Spellthief",
-    "subclassSource": "TftJC",
-    "level": 2,
-    "entries": [
-        "A spellthief on the surface may seem to other Wizards like a scoundrel, only gaining value off other's merit. But the true Spellthieves know that their craft is the most difficult in the Wizarding world. Sneaking into libraries late at night to add more knowledge to their repertoire, climbing into the magical castles of powerful mages to collect a new rare spell.",
-        "One is more likely to find a budding Spellthief trained by the streets rather than a college. Spellthieves bring the cunning of rogues into the world of Magic, making them unpredictable and powerful allies, or formidable foes.",
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Shorthand Spells|Wizard|PHB|Spellthief|TftJC|2"
-        },
-        {
-            "type": "refSubclassFeature",
-            "subclassFeature": "Spellthief's Skills|Wizard|PHB|Spellthief|TftJC|2"
-        }
-    ]
+  "name": "Spellthief",
+  "source": "TftJC",
+  "className": "Wizard",
+  "classSource": "PHB",
+  "subclassShortName": "Spellthief",
+  "subclassSource": "TftJC",
+  "level": 2,
+  "entries": [
+    "A spellthief on the surface may seem to other Wizards like a scoundrel, only gaining value off other's merit. But the true Spellthieves know that their craft is the most difficult in the Wizarding world. Sneaking into libraries late at night to add more knowledge to their repertoire, climbing into the magical castles of powerful mages to collect a new rare spell.",
+    "One is more likely to find a budding Spellthief trained by the streets rather than a college. Spellthieves bring the cunning of rogues into the world of Magic, making them unpredictable and powerful allies, or formidable foes.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Shorthand Spells|Wizard|PHB|Spellthief|TftJC|2"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Spellthief's Skills|Wizard|PHB|Spellthief|TftJC|2"
+    }
+  ]
 }

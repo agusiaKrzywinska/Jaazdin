@@ -1,27 +1,23 @@
 {
-    "name": "Crippling Shot",
-    "prerequisite": [
-        {
-            "level": {
-                "level": 13,
-                "class": {
-                    "name": "Gunner"
-                }
-            },
-            "feature": [
-                "Cannot be used with Explosive"
-            ]
+  "name": "Crippling Shot",
+  "prerequisite": [
+    {
+      "level": {
+        "level": 13,
+        "class": {
+          "name": "Gunner"
         }
-    ],
-    "source": "TftJC",
-    "page": 48,
-    "featureType": [
-        "MOD"
-    ],
-    "consumes": {
-        "name": "600gp"
-    },
-    "entries": [
-        "Hitting a creature with this weapon causes them to lose 5ft of their movement speed until the start of your next turn."
-    ]
+      },
+      "feature": ["Cannot be used with Explosive"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["MOD"],
+  "consumes": {
+    "name": "600gp"
+  },
+  "entries": [
+    "Hitting a creature with this weapon causes them to lose 5ft of their movement speed until the start of your next turn."
+  ]
 }
