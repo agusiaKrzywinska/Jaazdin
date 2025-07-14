@@ -1,25 +1,25 @@
 {
-  "name": "Gambler",
-  "source": "TftJC",
-  "className": "Sorcerer",
-  "classSource": "PHB",
-  "subclassShortName": "Gambler",
-  "subclassSource": "TftJC",
-  "level": 1,
-  "entries": [
-    "A suave mage sits down at a table and opens a coin pouch. The buy in is high today, but the mage knows they have already won today, as magic flicks through their hands.",
-    "A Gambler specializes in utilizing their magic to shift things subtly in their favour, from battle to bets. Some choose to let fate take control of their fate, hedging their bets on their lady luck. Others bend these games to their wills, making sure its never fair when they place their bets.",
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Expanded Spell List|Sorcerer|PHB|Gambler|TftJC|1"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Natural Cheat|Sorcerer|PHB|Gambler|TftJC|1"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Game of Choice|Sorcerer|PHB|Gambler|TftJC|1"
-    }
-  ]
+    "name": "Gambler",
+    "source": "TftJC",
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "subclassShortName": "Gambler",
+    "subclassSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "A suave mage sits down at a table and opens a coin pouch. The buy in is high today, but the mage knows they have already won today, as magic flicks through their hands.",
+        "A Gambler specializes in utilizing their magic to shift things subtly in their favour, from battle to bets. Some choose to let fate take control of their fate, hedging their bets on their lady luck. Others bend these games to their wills, making sure its never fair when they place their bets.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Expanded Spell List|Sorcerer|PHB|Gambler|TftJC|1"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Natural Cheat|Sorcerer|PHB|Gambler|TftJC|1"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Game of Choice|Sorcerer|PHB|Gambler|TftJC|1"
+        }
+    ]
 }

@@ -1,23 +1,27 @@
 {
-  "name": "Roulette Barrel",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 9,
-        "class": {
-          "name": "Gunner"
+    "name": "Roulette Barrel",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 9,
+                "class": {
+                    "name": "Gunner"
+                }
+            },
+            "feature": [
+                "Gunner: Quickdraw"
+            ]
         }
-      },
-      "feature": ["Gunner: Quickdraw"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["MOD"],
-  "consumes": {
-    "name": "400gp"
-  },
-  "entries": [
-    "Once per turn, when you attack with this weapon you can roll 1d6. On a 6, you can make an additional attack with this weapon."
-  ]
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "MOD"
+    ],
+    "consumes": {
+        "name": "400gp"
+    },
+    "entries": [
+        "Once per turn, when you attack with this weapon you can roll 1d6. On a 6, you can make an additional attack with this weapon."
+    ]
 }

@@ -1,20 +1,25 @@
 {
-  "name": "Malkin's Fluxbinder",
-  "source": "TftJC",
-  "type": "R",
-  "rarity": "none",
-  "baseItem": "heavy crossbow|PHB",
-  "weight": 18,
-  "weaponCategory": "martial",
-  "property": ["A", "H", "LD", "2H"],
-  "range": "100/400",
-  "dmg1": "1d10",
-  "dmgType": "P",
-  "foundryType": "weapon",
-  "ammoType": "crossbow bolt|phb",
-  "bonusWeapon": "+2",
-  "entries": [
-    "This magical crossbow is fitted with six gemstone lenses at the end of it. Attacks made with this magical weapon have a +2 to their to hit and damage rolls. When fired it deals an additional 1d8 damage depending on the focused gemstone, fire for ruby, acid for emerald, lightning for sapphire, cold for diamond, thunder for quartz, and acid for topaz. Changing the focused lens takes a bonus action.",
-    "In addition this crossbow can be used as an arcane focus. When used as an arcane focus you can change the damage of any spell cast through it to the damage type of the currently focused lens."
-  ]
+    "name": "Malkin's Fluxbinder",
+    "source": "TftJC",
+    "type": "R",
+    "rarity": "none",
+    "baseItem": "heavy crossbow|PHB",
+    "weight": 18,
+    "weaponCategory": "martial",
+    "property": [
+        "A",
+        "H",
+        "LD",
+        "2H"
+    ],
+    "range": "100/400",
+    "dmg1": "1d10",
+    "dmgType": "P",
+    "foundryType": "weapon",
+    "ammoType": "crossbow bolt|phb",
+    "bonusWeapon": "+2",
+    "entries": [
+        "This magical crossbow is fitted with six gemstone lenses at the end of it. Attacks made with this magical weapon have a +2 to their to hit and damage rolls. When fired it deals an additional 1d8 damage depending on the focused gemstone, fire for ruby, acid for emerald, lightning for sapphire, cold for diamond, thunder for quartz, and acid for topaz. Changing the focused lens takes a bonus action.",
+        "In addition this crossbow can be used as an arcane focus. When used as an arcane focus you can change the damage of any spell cast through it to the damage type of the currently focused lens."
+    ]
 }

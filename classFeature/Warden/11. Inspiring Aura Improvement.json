@@ -1,10 +1,10 @@
 {
-  "name": "Inspiring Aura Improvement",
-  "source": "TftJC",
-  "className": "Warden",
-  "classSource": "TftJC",
-  "level": 11,
-  "entries": [
-    "At 11th level, size of your inspiring aura increase to 30ft and you can effect two creature instead of one."
-  ]
+    "name": "Inspiring Aura Improvement",
+    "source": "TftJC",
+    "className": "Warden",
+    "classSource": "TftJC",
+    "level": 11,
+    "entries": [
+        "At 11th level, size of your inspiring aura increase to 30ft and you can effect two creature instead of one."
+    ]
 }

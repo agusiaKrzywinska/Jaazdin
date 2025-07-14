@@ -1,30 +1,30 @@
 {
-  "name": "Circle of the Iron Heretic",
-  "source": "TftJC",
-  "className": "Druid",
-  "classSource": "PHB",
-  "subclassShortName": "Iron Heretic",
-  "subclassSource": "TftJC",
-  "level": 2,
-  "entries": [
-    "Druids of the Circle of the Iron Heretic find their calling not in the preservation of nature, but in the advancement of it. They see nature as the perfect mechanism for the advancement of intelligent races but unlike their brethren, they do not shy away from the exploitation of natural resources into valuable tools.",
-    "These druids use their magic to twist metal and stone into cold lifeless mimicry of natural life and push their own power forward by consuming natural material. Their disregard for nature for progress often puts them at odds with other druidic circles, hence their branding as heretics.",
-    "Druids in this circle do not necessarily see natural life as different from that created through construct magic, treating both as useful tools to advance intelligent life forwards. These druids believe that progress and destruction are a natural part of life, embracing modernity as opposed to rejecting it.",
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Circle Spells|Druid|PHB|Iron Heretic|TftJC|2"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Shell of Iron|Druid|PHB|Iron Heretic|TftJC|2"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Construct Creation|Druid|PHB|Iron Heretic|TftJC|2"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Metallic Carapace|Druid|PHB|Iron Heretic|TftJC|2"
-    }
-  ]
+    "name": "Circle of the Iron Heretic",
+    "source": "TftJC",
+    "className": "Druid",
+    "classSource": "PHB",
+    "subclassShortName": "Iron Heretic",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "Druids of the Circle of the Iron Heretic find their calling not in the preservation of nature, but in the advancement of it. They see nature as the perfect mechanism for the advancement of intelligent races but unlike their brethren, they do not shy away from the exploitation of natural resources into valuable tools.",
+        "These druids use their magic to twist metal and stone into cold lifeless mimicry of natural life and push their own power forward by consuming natural material. Their disregard for nature for progress often puts them at odds with other druidic circles, hence their branding as heretics.",
+        "Druids in this circle do not necessarily see natural life as different from that created through construct magic, treating both as useful tools to advance intelligent life forwards. These druids believe that progress and destruction are a natural part of life, embracing modernity as opposed to rejecting it.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Circle Spells|Druid|PHB|Iron Heretic|TftJC|2"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Shell of Iron|Druid|PHB|Iron Heretic|TftJC|2"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Construct Creation|Druid|PHB|Iron Heretic|TftJC|2"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Metallic Carapace|Druid|PHB|Iron Heretic|TftJC|2"
+        }
+    ]
 }

@@ -1,0 +1,21 @@
+{
+  "name": "Carnivore's Delight",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "rare",
+  "value": 10000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook's Tools to prepare.",
+    "<b>Ingredients:</b> x1 Rare Beast Meat, x1 Rare Monstrosity Meat, x1 Humanoid Meat",
+    "<b>Effect:</b> When you reduce a creature to 0 hit points you regain 1d8 hit points."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
+    }
+  }
+}

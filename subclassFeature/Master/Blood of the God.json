@@ -1,41 +1,41 @@
 {
-  "name": "Blood of the God",
-  "source": "TftJC",
-  "className": "Warlock",
-  "classSource": "PHB",
-  "subclassShortName": "Master",
-  "subclassSource": "TftJC",
-  "level": 10,
-  "entries": [
-    "At 10th level, you can sacrifice your minion to save your own life. When you fail a death saving throw and your minion is within 60 feet of you they can use their reaction to sacrifice themselves and save you. You do not fail the death save and instead regain a number of hit points equal to your Warlock level, your minion immediately dies.",
-    "In addition, your minion gains a benefit based on its type:",
-    {
-      "type": "inset",
-      "name": "Pact of the Blade",
-      "entries": [
-        "While your minion is within 10 feet of you both gain a +1 bonus to AC and saving throws."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Pact of the Tome",
-      "entries": [
-        "Your minion gains a 3rd and 4th level spell from the Warlock spell list, they can cast these once per long rest"
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Pact of the Chain",
-      "entries": [
-        "When your minion makes an attack they can attack twice instead of once."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Pact of the Talisman",
-      "entries": [
-        "Your minion gains the ability to use the Help action with a range of 30 feet. In addition, when it uses its action to help its master the master can add 1d4 extra to the roll."
-      ]
-    }
-  ]
+    "name": "Blood of the God",
+    "source": "TftJC",
+    "className": "Warlock",
+    "classSource": "PHB",
+    "subclassShortName": "Master",
+    "subclassSource": "TftJC",
+    "level": 10,
+    "entries": [
+        "At 10th level, you can sacrifice your minion to save your own life. When you fail a death saving throw and your minion is within 60 feet of you they can use their reaction to sacrifice themselves and save you. You do not fail the death save and instead regain a number of hit points equal to your Warlock level, your minion immediately dies.",
+        "In addition, your minion gains a benefit based on its type:",
+        {
+            "type": "inset",
+            "name": "Pact of the Blade",
+            "entries": [
+                "While your minion is within 10 feet of you both gain a +1 bonus to AC and saving throws."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Pact of the Tome",
+            "entries": [
+                "Your minion gains a 3rd and 4th level spell from the Warlock spell list, they can cast these once per long rest"
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Pact of the Chain",
+            "entries": [
+                "When your minion makes an attack they can attack twice instead of once."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Pact of the Talisman",
+            "entries": [
+                "Your minion gains the ability to use the Help action with a range of 30 feet. In addition, when it uses its action to help its master the master can add 1d4 extra to the roll."
+            ]
+        }
+    ]
 }

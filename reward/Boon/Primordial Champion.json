@@ -1,8 +1,8 @@
 {
-  "name": "Primordial Champion",
-  "source": "TftJC",
-  "type": "Boon",
-  "entries": [
-    "While within 60ft of another champion, you gain a +1 to all saving throws for each additional champion besides yourself. In addition, once per turn when you deal damage with a spell or weapon attack you deal additional damage equal {@dice 1d6} of the damage type of each other champion (fire for Pyfrita, cold for Doluna, acid for Cavalkal, lightning for Elitanith)."
-  ]
+    "name": "Primordial Champion",
+    "source": "TftJC",
+    "type": "Boon",
+    "entries": [
+        "While within 60ft of another champion, you gain a +1 to all saving throws for each additional champion besides yourself. In addition, once per turn when you deal damage with a spell or weapon attack you deal additional damage equal {@dice 1d6} of the damage type of each other champion (fire for Pyfrita, cold for Doluna, acid for Cavalkal, lightning for Elitanith)."
+    ]
 }

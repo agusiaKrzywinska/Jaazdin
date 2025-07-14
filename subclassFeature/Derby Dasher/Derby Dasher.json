@@ -1,28 +1,28 @@
 {
-  "name": "Derby Dasher",
-  "source": "TftJC",
-  "className": "Artificer",
-  "classSource": "TCE",
-  "subclassShortName": "Derby Dasher",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "Derby Dasher is a newer specialization found in the world of inventing, who specializes in hi-tech mobility and movement. Their ability for generating high velocity strikes and quick escapes makes them powerful infiltrators and skirmishers. To help with their abilities, they have invented new pieces of gear to help them get in, and dash out.",
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Derby Dasher Spells|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Tools of the Trade|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Derby Blades|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Dasher Weapons|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
-    }
-  ]
+    "name": "Derby Dasher",
+    "source": "TftJC",
+    "className": "Artificer",
+    "classSource": "TCE",
+    "subclassShortName": "Derby Dasher",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "Derby Dasher is a newer specialization found in the world of inventing, who specializes in hi-tech mobility and movement. Their ability for generating high velocity strikes and quick escapes makes them powerful infiltrators and skirmishers. To help with their abilities, they have invented new pieces of gear to help them get in, and dash out.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Derby Dasher Spells|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Tools of the Trade|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Derby Blades|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Dasher Weapons|Artificer|TCE|Derby Dasher|TftJC|3|TftJC"
+        }
+    ]
 }

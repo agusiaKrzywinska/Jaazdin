@@ -1,17 +1,19 @@
 {
-  "name": "Gloom",
-  "source": "TftJC",
-  "rarity": "very rare",
-  "baseItem": "Rapier|PHB",
-  "reqAttune": true,
-  "weight": 2,
-  "type": "M",
-  "weaponCategory": "martial",
-  "dmg1": "1d8",
-  "dmgType": "P",
-  "property": ["F"],
-  "entries": [
-    "This blood-soaked rapier has taken countless lives and is suffused with its previous wielder's malice. Attacks with this magical rapier gain a +1 to attack and damage rolls.",
-    "While in darkness or dim light, the blade becomes shrouded in shadow becoming nearly unperceivable. While shrouded in shadow this blade's damage ignores damage resistances."
-  ]
+    "name": "Gloom",
+    "source": "TftJC",
+    "rarity": "very rare",
+    "baseItem": "Rapier|PHB",
+    "reqAttune": true,
+    "weight": 2,
+    "type": "M",
+    "weaponCategory": "martial",
+    "dmg1": "1d8",
+    "dmgType": "P",
+    "property": [
+        "F"
+    ],
+    "entries": [
+        "This blood-soaked rapier has taken countless lives and is suffused with its previous wielder's malice. Attacks with this magical rapier gain a +1 to attack and damage rolls.",
+        "While in darkness or dim light, the blade becomes shrouded in shadow becoming nearly unperceivable. While shrouded in shadow this blade's damage ignores damage resistances."
+    ]
 }

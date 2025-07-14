@@ -1,12 +1,12 @@
 {
-  "name": "Holy Fire",
-  "source": "TftJC",
-  "className": "Paladin",
-  "classSource": "PHB",
-  "subclassShortName": "Divine Justice",
-  "subclassSource": "TftJC",
-  "level": 15,
-  "entries": [
-    "At 15th level, your strikes intertwine in Holy Fire. Whenever you would deal Fire Damage, you deal additional radiant damage equal to your Charisma Modifier. Also, whenever you deal Radiant Damage, you deal additional Fire Damage equal to your Charisma Modifier. This effect cannot activate off of itself."
-  ]
+    "name": "Holy Fire",
+    "source": "TftJC",
+    "className": "Paladin",
+    "classSource": "PHB",
+    "subclassShortName": "Divine Justice",
+    "subclassSource": "TftJC",
+    "level": 15,
+    "entries": [
+        "At 15th level, your strikes intertwine in Holy Fire. Whenever you would deal Fire Damage, you deal additional radiant damage equal to your Charisma Modifier. Also, whenever you deal Radiant Damage, you deal additional Fire Damage equal to your Charisma Modifier. This effect cannot activate off of itself."
+    ]
 }

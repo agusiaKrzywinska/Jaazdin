@@ -1,17 +1,17 @@
 {
-  "name": "Ceatus",
-  "source": "TftJC",
-  "page": 50,
-  "type": "M",
-  "rarity": "none",
-  "weight": 1,
-  "value": 20,
-  "weaponCategory": "martial",
-  "property": [],
-  "dmg1": "3",
-  "dmgType": "B",
-  "entries": [
-    "<b><i>Unarmed.</i></b> Unarmed weapons replace your unarmed damage with the weapon damage listed. If you have other options for unarmed damage, such as a Fighting Style or Martial Arts monk feature you can choose which damage die applies. A value written as +X as opposed to X adds to unarmed damage rather than replacing it.",
-    "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
-  ]
+    "name": "Ceatus",
+    "source": "TftJC",
+    "page": 50,
+    "type": "M",
+    "rarity": "none",
+    "weight": 1,
+    "value": 20,
+    "weaponCategory": "martial",
+    "property": [],
+    "dmg1": "3",
+    "dmgType": "B",
+    "entries": [
+        "<b><i>Unarmed.</i></b> Unarmed weapons replace your unarmed damage with the weapon damage listed. If you have other options for unarmed damage, such as a Fighting Style or Martial Arts monk feature you can choose which damage die applies. A value written as +X as opposed to X adds to unarmed damage rather than replacing it.",
+        "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+    ]
 }

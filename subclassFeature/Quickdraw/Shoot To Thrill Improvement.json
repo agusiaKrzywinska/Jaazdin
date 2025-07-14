@@ -1,12 +1,12 @@
 {
-  "name": "Shoot To Thrill Improvement",
-  "source": "TftJC",
-  "className": "Gunner",
-  "classSource": "TftJC",
-  "subclassShortName": "Quickdraw",
-  "subclassSource": "TftJC",
-  "level": 10,
-  "entries": [
-    "At 10th level, your Shoot to Thrill feature is enhanced. You can now ricochet your attacks off walls. When you use Shoot To Thrill, you can make an attack at an object within your short range, then make an attack at a creature as if you were shooting from that position."
-  ]
+    "name": "Shoot To Thrill Improvement",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "subclassShortName": "Quickdraw",
+    "subclassSource": "TftJC",
+    "level": 10,
+    "entries": [
+        "At 10th level, your Shoot to Thrill feature is enhanced. You can now ricochet your attacks off walls. When you use Shoot To Thrill, you can make an attack at an object within your short range, then make an attack at a creature as if you were shooting from that position."
+    ]
 }

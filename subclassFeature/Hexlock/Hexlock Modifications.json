@@ -1,12 +1,12 @@
 {
-  "name": "Hexlock Modifications",
-  "source": "TftJC",
-  "className": "Gunner",
-  "classSource": "TftJC",
-  "subclassShortName": "Hexlock",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "At 3rd level, Hexlocks gain access to new modifications which do not count against their Modifications known. You gain the modifications below when you unlock new modification tiers in your Gunner class progression, which do not count against your known modifications."
-  ]
+    "name": "Hexlock Modifications",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "subclassShortName": "Hexlock",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, Hexlocks gain access to new modifications which do not count against their Modifications known. You gain the modifications below when you unlock new modification tiers in your Gunner class progression, which do not count against your known modifications."
+    ]
 }

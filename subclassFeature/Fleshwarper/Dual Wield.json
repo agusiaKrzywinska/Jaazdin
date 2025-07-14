@@ -1,19 +1,19 @@
 {
-  "name": "Dual Wield",
-  "source": "TftJC",
-  "className": "Warlock",
-  "classSource": "PHB",
-  "subclassShortName": "Fleshwarper",
-  "subclassSource": "TftJC",
-  "level": 14,
-  "entries": [
-    "At 14th level, when you conjure a Weapon, you can replace your other arm with a different weapon than the first conjured. Conjuring multiple weapons is a painful process, and thus gives a point of Exhaustion once the weapons are dismissed. You also gain one final form to conjure.",
-    {
-      "type": "inset",
-      "name": "Dark Flesh",
-      "entries": [
-        "You create an arm. While conjured, you retain your resistance to Necrotic Damage from your Bodily Enhancements feature. Furthermore, you have advantage on Death Saving Throws. This form can remain conjured for up to 8 hours."
-      ]
-    }
-  ]
+    "name": "Dual Wield",
+    "source": "TftJC",
+    "className": "Warlock",
+    "classSource": "PHB",
+    "subclassShortName": "Fleshwarper",
+    "subclassSource": "TftJC",
+    "level": 14,
+    "entries": [
+        "At 14th level, when you conjure a Weapon, you can replace your other arm with a different weapon than the first conjured. Conjuring multiple weapons is a painful process, and thus gives a point of Exhaustion once the weapons are dismissed. You also gain one final form to conjure.",
+        {
+            "type": "inset",
+            "name": "Dark Flesh",
+            "entries": [
+                "You create an arm. While conjured, you retain your resistance to Necrotic Damage from your Bodily Enhancements feature. Furthermore, you have advantage on Death Saving Throws. This form can remain conjured for up to 8 hours."
+            ]
+        }
+    ]
 }

@@ -1,14 +1,14 @@
 {
-  "name": "Oath of Liberation",
-  "source": "TftJC",
-  "page": 30,
-  "className": "Paladin",
-  "classSource": "PHB",
-  "shortName": "Liberation",
-  "subclassFeatures": [
-    "Oath of Liberation|Paladin|PHB|Liberation|TftJC|3",
-    "Aura of the Juggernaut|Paladin|PHB|Liberation|TftJC|7",
-    "Strike the Foundations|Paladin|PHB|Liberation|TftJC|15",
-    "Arbiter of Freedom|Paladin|PHB|Liberation|TftJC|20"
-  ]
+    "name": "Oath of Liberation",
+    "source": "TftJC",
+    "page": 30,
+    "className": "Paladin",
+    "classSource": "PHB",
+    "shortName": "Liberation",
+    "subclassFeatures": [
+        "Oath of Liberation|Paladin|PHB|Liberation|TftJC|3",
+        "Aura of the Juggernaut|Paladin|PHB|Liberation|TftJC|7",
+        "Strike the Foundations|Paladin|PHB|Liberation|TftJC|15",
+        "Arbiter of Freedom|Paladin|PHB|Liberation|TftJC|20"
+    ]
 }

@@ -1,22 +1,22 @@
 {
-  "name": "Pyramid of Power",
-  "source": "TftJC",
-  "className": "Wizard",
-  "classSource": "PHB",
-  "subclassShortName": "Aurumancy",
-  "subclassSource": "TftJC",
-  "level": 2,
-  "entries": [
-    "At 2nd level, you can create an Aurumancy Transmitter by completing a 1 hour ritual and expending 100gp. The Aurumancy Transmitter is a tiny Golden Pyramid which hovers around you. Its Armor Class is equal to 12 + your Intelligcence Modifer + Proficiency Bonus, with hitpoints equal to twice your Wizard Level and resistance to all damage. You can expend a spell slot to heal it a number of hitpoints equal to the spell's level x5.",
-    "It can move up to 30ft on your turn without requiring an action to command it. It hovers no further than 15ft from you, and will begin to follow you if it gets further than that. Until it returns to your proximity, it cannot grant any benefits. If its path is blocked and you leave its range, it becomes inert, falling to the ground and losing its magic until you return to its proximity or create a new one, at which time the original transmitter is destroyed.",
-    "Your transmitter allows you to cast spells from its location. You can also see and hear through it.",
-    "When you cast a spell that expends a spell slot, your Transmitter activates for a number of rounds equal to half of your Prof Bonus (rounded down), or full Prof Bonus if you casted a Transmutation spell, and provides the following benefits:",
-    {
-      "type": "inset",
-      "name": "Aurum Boost",
-      "entries": [
-        "Creatures of your choice within 5ft of it add half your proficiency bonus (rounded down) to one of either Strength, Dexterity, Intelligence or Wisdom checks. As a Bonus Action, you can change which benefit it provides."
-      ]
-    }
-  ]
+    "name": "Pyramid of Power",
+    "source": "TftJC",
+    "className": "Wizard",
+    "classSource": "PHB",
+    "subclassShortName": "Aurumancy",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "At 2nd level, you can create an Aurumancy Transmitter by completing a 1 hour ritual and expending 100gp. The Aurumancy Transmitter is a tiny Golden Pyramid which hovers around you. Its Armor Class is equal to 12 + your Intelligcence Modifer + Proficiency Bonus, with hitpoints equal to twice your Wizard Level and resistance to all damage. You can expend a spell slot to heal it a number of hitpoints equal to the spell's level x5.",
+        "It can move up to 30ft on your turn without requiring an action to command it. It hovers no further than 15ft from you, and will begin to follow you if it gets further than that. Until it returns to your proximity, it cannot grant any benefits. If its path is blocked and you leave its range, it becomes inert, falling to the ground and losing its magic until you return to its proximity or create a new one, at which time the original transmitter is destroyed.",
+        "Your transmitter allows you to cast spells from its location. You can also see and hear through it.",
+        "When you cast a spell that expends a spell slot, your Transmitter activates for a number of rounds equal to half of your Prof Bonus (rounded down), or full Prof Bonus if you casted a Transmutation spell, and provides the following benefits:",
+        {
+            "type": "inset",
+            "name": "Aurum Boost",
+            "entries": [
+                "Creatures of your choice within 5ft of it add half your proficiency bonus (rounded down) to one of either Strength, Dexterity, Intelligence or Wisdom checks. As a Bonus Action, you can change which benefit it provides."
+            ]
+        }
+    ]
 }

@@ -1,20 +1,24 @@
 {
-  "name": "Ironsight",
-  "source": "TftJC",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 3,
-        "class": {
-          "name": "Gunner"
+    "name": "Ironsight",
+    "source": "TftJC",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 3,
+                "class": {
+                    "name": "Gunner"
+                }
+            }
         }
-      }
-    }
-  ],
-  "page": 48,
-  "featureType": ["MOD"],
-  "consumes": {
-    "name": "125gp"
-  },
-  "entries": ["The firearm gains a +1 to-hit."]
+    ],
+    "page": 48,
+    "featureType": [
+        "MOD"
+    ],
+    "consumes": {
+        "name": "125gp"
+    },
+    "entries": [
+        "The firearm gains a +1 to-hit."
+    ]
 }

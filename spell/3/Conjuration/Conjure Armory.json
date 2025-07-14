@@ -1,68 +1,68 @@
 {
-  "name": "Conjure Armory",
-  "source": "TftJC",
-  "page": 59,
-  "level": 3,
-  "school": "C",
-  "time": [
-    {
-      "number": 1,
-      "unit": "action"
+    "name": "Conjure Armory",
+    "source": "TftJC",
+    "page": 59,
+    "level": 3,
+    "school": "C",
+    "time": [
+        {
+            "number": 1,
+            "unit": "action"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "feet",
+            "amount": 15
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true
+    },
+    "duration": [
+        {
+            "type": "timed",
+            "duration": {
+                "type": "hour",
+                "amount": 1
+            }
+        }
+    ],
+    "entries": [
+        "You pull forth a magical weapon rack. You additionally create up to 5 magical weapons of your choice and one suit of armor of your choice. If you create a weapon that requires ammunition, you also create 20 pieces of its type of ammunition. The rack, weapons, armor, and ammunition last for the duration, after which they vanish into dust."
+    ],
+    "entriesHigherLevel": [
+        {
+            "type": "entries",
+            "name": "At Higher Levels",
+            "entries": [
+                "If you cast this spell using a spell slot of 4th level or higher, you create one additional weapon per slot above 3rd, and 1 additional set of armor for every two slots above 3rd.",
+                "If you cast this spell using a spell slot of 5th or higher, the weapons are +1.",
+                "If you cast this spell using a spell slot of 7th or higher, the weapons are +2.",
+                "If you cast this spell using a spell slot of 9th or higher, the weapons are +3."
+            ]
+        }
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Bard",
+                "source": "PHB"
+            },
+            {
+                "name": "Cleric",
+                "source": "PHB"
+            },
+            {
+                "name": "Warlock",
+                "source": "PHB"
+            },
+            {
+                "name": "Wizard",
+                "source": "PHB"
+            }
+        ]
     }
-  ],
-  "range": {
-    "type": "point",
-    "distance": {
-      "type": "feet",
-      "amount": 15
-    }
-  },
-  "components": {
-    "v": true,
-    "s": true
-  },
-  "duration": [
-    {
-      "type": "timed",
-      "duration": {
-        "type": "hour",
-        "amount": 1
-      }
-    }
-  ],
-  "entries": [
-    "You pull forth a magical weapon rack. You additionally create up to 5 magical weapons of your choice and one suit of armor of your choice. If you create a weapon that requires ammunition, you also create 20 pieces of its type of ammunition. The rack, weapons, armor, and ammunition last for the duration, after which they vanish into dust."
-  ],
-  "entriesHigherLevel": [
-    {
-      "type": "entries",
-      "name": "At Higher Levels",
-      "entries": [
-        "If you cast this spell using a spell slot of 4th level or higher, you create one additional weapon per slot above 3rd, and 1 additional set of armor for every two slots above 3rd.",
-        "If you cast this spell using a spell slot of 5th or higher, the weapons are +1.",
-        "If you cast this spell using a spell slot of 7th or higher, the weapons are +2.",
-        "If you cast this spell using a spell slot of 9th or higher, the weapons are +3."
-      ]
-    }
-  ],
-  "classes": {
-    "fromClassList": [
-      {
-        "name": "Bard",
-        "source": "PHB"
-      },
-      {
-        "name": "Cleric",
-        "source": "PHB"
-      },
-      {
-        "name": "Warlock",
-        "source": "PHB"
-      },
-      {
-        "name": "Wizard",
-        "source": "PHB"
-      }
-    ]
-  }
 }

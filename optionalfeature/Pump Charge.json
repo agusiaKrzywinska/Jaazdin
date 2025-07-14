@@ -1,22 +1,24 @@
 {
-  "name": "Pump Charge",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 5,
-        "class": {
-          "name": "Gunner"
+    "name": "Pump Charge",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 5,
+                "class": {
+                    "name": "Gunner"
+                }
+            }
         }
-      }
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["MOD"],
-  "consumes": {
-    "name": "200gp"
-  },
-  "entries": [
-    " When you take the attack action, you can forgo an attack to overpressure your firearm, causing its next attack to deal double damage die."
-  ]
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "MOD"
+    ],
+    "consumes": {
+        "name": "200gp"
+    },
+    "entries": [
+        " When you take the attack action, you can forgo an attack to overpressure your firearm, causing its next attack to deal double damage die."
+    ]
 }

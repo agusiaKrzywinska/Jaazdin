@@ -1,23 +1,23 @@
 {
-  "name": "Unfair Advantage",
-  "source": "TftJC",
-  "className": "Sorcerer",
-  "classSource": "PHB",
-  "subclassShortName": "Gambler",
-  "subclassSource": "TftJC",
-  "level": 6,
-  "entries": [
-    "At 6th level, you learn to intertwine your cheating magic with your Sorcerer abilities. Whenever you would cast a Divination, Enchantment or Illusion spell that is bolstered by your Metamagic, you can use one of the below features",
-    {
-      "type": "list",
-      "items": [
-        "Read their Eyes. You cast the Detect Thoughts spell as a free action and without expending a spell slot. You cannot probe deeper into the target's mind.",
-        "Stack you Hand. You gain advantage on the next skill check you would make in the next minute.",
-        "Call it. Before the next time you would roll a d20 in the next minute, you can call its value. If you are correct, you gain a Luck point, as detailed in the Lucky feat. This point goes away after completing a long rest.",
-        "Counting Cards (Cards). Within the next minute, you can grant up to a +3 bonus on the next skill check, spell attack roll or saving throw you would make (after the die is rolled, but before its result is known), so long as the next check of that type (attack roll, saving throw, skill check) gains a penalty equal to the value you selected.",
-        "Low Roller (Dice). As a reaction to a creature rolling d4s, d6s, d8s, d10s or d12s within the next minute, you can have them reroll those die and take the lower value.",
-        "Calculated Gambit (Dragon's Chess). You move yourself 15ft directly closer to a hostile creature, then you have advantage on the next spell attack roll you make against them within this minute."
-      ]
-    }
-  ]
+    "name": "Unfair Advantage",
+    "source": "TftJC",
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "subclassShortName": "Gambler",
+    "subclassSource": "TftJC",
+    "level": 6,
+    "entries": [
+        "At 6th level, you learn to intertwine your cheating magic with your Sorcerer abilities. Whenever you would cast a Divination, Enchantment or Illusion spell that is bolstered by your Metamagic, you can use one of the below features",
+        {
+            "type": "list",
+            "items": [
+                "Read their Eyes. You cast the Detect Thoughts spell as a free action and without expending a spell slot. You cannot probe deeper into the target's mind.",
+                "Stack you Hand. You gain advantage on the next skill check you would make in the next minute.",
+                "Call it. Before the next time you would roll a d20 in the next minute, you can call its value. If you are correct, you gain a Luck point, as detailed in the Lucky feat. This point goes away after completing a long rest.",
+                "Counting Cards (Cards). Within the next minute, you can grant up to a +3 bonus on the next skill check, spell attack roll or saving throw you would make (after the die is rolled, but before its result is known), so long as the next check of that type (attack roll, saving throw, skill check) gains a penalty equal to the value you selected.",
+                "Low Roller (Dice). As a reaction to a creature rolling d4s, d6s, d8s, d10s or d12s within the next minute, you can have them reroll those die and take the lower value.",
+                "Calculated Gambit (Dragon's Chess). You move yourself 15ft directly closer to a hostile creature, then you have advantage on the next spell attack roll you make against them within this minute."
+            ]
+        }
+    ]
 }

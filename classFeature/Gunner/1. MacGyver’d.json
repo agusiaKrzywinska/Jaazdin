@@ -1,12 +1,12 @@
 {
-  "name": "MacGyver’d",
-  "source": "TftJC",
-  "className": "Gunner",
-  "classSource": "TftJC",
-  "level": 1,
-  "entries": [
-    "At 1st level, you become skilled at putting together ramshackle tools to get the job done.",
-    "As an action, you can use a set of artisan tools to create a one time use object for a specific ability check, choosing either Strength, Dexterity, Constitution, Wisdom, Intelligence, or Charisma when it is created. As an interaction, this object can be used to assist an ability check. The creature using it gains advantage on the check, and adds a bonus to the roll equal to half your proficiency bonus.",
-    "After this object is used as part of a check or 1 hour passes, it falls apart. You can create objects in this way a number of times equal to your proficiency bonus, regaining all charges on a rest."
-  ]
+    "name": "MacGyver’d",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "At 1st level, you become skilled at putting together ramshackle tools to get the job done.",
+        "As an action, you can use a set of artisan tools to create a one time use object for a specific ability check, choosing either Strength, Dexterity, Constitution, Wisdom, Intelligence, or Charisma when it is created. As an interaction, this object can be used to assist an ability check. The creature using it gains advantage on the check, and adds a bonus to the roll equal to half your proficiency bonus.",
+        "After this object is used as part of a check or 1 hour passes, it falls apart. You can create objects in this way a number of times equal to your proficiency bonus, regaining all charges on a rest."
+    ]
 }

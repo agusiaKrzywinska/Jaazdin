@@ -1,26 +1,26 @@
 {
-  "name": "False Consciousness",
-  "source": "TftJC",
-  "className": "Artificer",
-  "classSource": "TCE",
-  "subclassShortName": "Ghost-Shell",
-  "subclassSource": "TftJC",
-  "level": 9,
-  "entries": [
-    "At 9th level, you have learned how to create temporary modes of consciousness and implant them into your shell. You gain access to the following abilities:",
-    {
-      "type": "inset",
-      "name": "Route Command",
-      "entries": [
-        "You expend one Psionic Energy die and insert a routine command into your Shell, such as hold this door or patrol this area. The Shell performs this action autonomously for you for a number of minutes equal to the roll of the die + your intelligence modifier. If something would prevent it from carrying out this command, it will go into a dormant state until you give it a new command. If it's time expires, and you are not immediately visible it will go into a dormant state until you give it a new command, otherwise it returns to following you. "
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Contingent Thought",
-      "entries": [
-        "You can place a command in your Shell that activates at a given time. For example, grab me if I fall off the bridge or protect me if I fall unconscious. When the contingent event happens the Shell acts out the planned thought, gaining a bonus to any skill checks involved equal to your intelligence modifier. You can place one command at once and can do so once per long rest, or expend one Psionic Energy die to place a new one. "
-      ]
-    }
-  ]
+    "name": "False Consciousness",
+    "source": "TftJC",
+    "className": "Artificer",
+    "classSource": "TCE",
+    "subclassShortName": "Ghost-Shell",
+    "subclassSource": "TftJC",
+    "level": 9,
+    "entries": [
+        "At 9th level, you have learned how to create temporary modes of consciousness and implant them into your shell. You gain access to the following abilities:",
+        {
+            "type": "inset",
+            "name": "Route Command",
+            "entries": [
+                "You expend one Psionic Energy die and insert a routine command into your Shell, such as hold this door or patrol this area. The Shell performs this action autonomously for you for a number of minutes equal to the roll of the die + your intelligence modifier. If something would prevent it from carrying out this command, it will go into a dormant state until you give it a new command. If it's time expires, and you are not immediately visible it will go into a dormant state until you give it a new command, otherwise it returns to following you. "
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Contingent Thought",
+            "entries": [
+                "You can place a command in your Shell that activates at a given time. For example, grab me if I fall off the bridge or protect me if I fall unconscious. When the contingent event happens the Shell acts out the planned thought, gaining a bonus to any skill checks involved equal to your intelligence modifier. You can place one command at once and can do so once per long rest, or expend one Psionic Energy die to place a new one. "
+            ]
+        }
+    ]
 }

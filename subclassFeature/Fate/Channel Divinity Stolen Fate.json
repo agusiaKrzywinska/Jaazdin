@@ -1,12 +1,12 @@
 {
-  "name": "Channel Divinity: Stolen Fate",
-  "source": "TftJC",
-  "className": "Cleric",
-  "classSource": "PHB",
-  "subclassShortName": "Fate",
-  "subclassSource": "TftJC",
-  "level": 2,
-  "entries": [
-    "At 2nd level, you can use your Channel Divinity to fix a negative outcome in the potential future. As an Reaction, whenever a creature within 60 ft of you makes an Attack Roll or Saving Throw, you can store that value rolled on the die and replace the die roll with a 10. If you use this Channel Divinity again, you can use the value stored instead of setting it to a 10, replacing their roll with the die value stored. You can only store a die up until you complete a Long Rest."
-  ]
+    "name": "Channel Divinity: Stolen Fate",
+    "source": "TftJC",
+    "className": "Cleric",
+    "classSource": "PHB",
+    "subclassShortName": "Fate",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "At 2nd level, you can use your Channel Divinity to fix a negative outcome in the potential future. As an Reaction, whenever a creature within 60 ft of you makes an Attack Roll or Saving Throw, you can store that value rolled on the die and replace the die roll with a 10. If you use this Channel Divinity again, you can use the value stored instead of setting it to a 10, replacing their roll with the die value stored. You can only store a die up until you complete a Long Rest."
+    ]
 }

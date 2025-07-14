@@ -1,16 +1,16 @@
 {
-  "name": "Rambo",
-  "source": "TftJC",
-  "page": 15,
-  "className": "Gunner",
-  "classSource": "TftJC",
-  "shortName": "Rambo",
-  "subclassFeatures": [
-    "Rambo Archetype|Gunner|TftJC|Rambo|TftJC|2",
-    "Rambo Modifications|Gunner|TftJC|Rambo|TftJC|3",
-    "Unphased|Gunner|TftJC|Rambo|TftJC|6",
-    "Push 'em Off|Gunner|TftJC|Rambo|TftJC|10",
-    "Shoot to Thrill Improvement|Gunner|TftJC|Rambo|TftJC|10",
-    "True Grit|Gunner|TftJC|Rambo|TftJC|14"
-  ]
+    "name": "Rambo",
+    "source": "TftJC",
+    "page": 15,
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "shortName": "Rambo",
+    "subclassFeatures": [
+        "Rambo Archetype|Gunner|TftJC|Rambo|TftJC|2",
+        "Rambo Modifications|Gunner|TftJC|Rambo|TftJC|3",
+        "Unphased|Gunner|TftJC|Rambo|TftJC|6",
+        "Push 'em Off|Gunner|TftJC|Rambo|TftJC|10",
+        "Shoot to Thrill Improvement|Gunner|TftJC|Rambo|TftJC|10",
+        "True Grit|Gunner|TftJC|Rambo|TftJC|14"
+    ]
 }

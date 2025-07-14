@@ -1,14 +1,14 @@
 {
-  "name": "Path of the Mechanical Menace",
-  "source": "TftJC",
-  "page": 12,
-  "className": "Barbarian",
-  "classSource": "PHB",
-  "shortName": "Mechanical Menace",
-  "subclassFeatures": [
-    "Path of the Mechanical Menace|Barbarian|PHB|Mechanical Menace|TftJC|3",
-    "Cybernetic Vexation|Barbarian|PHB|Mechanical Menace|TftJC|6",
-    "Integrated Mind|Barbarian|PHB|Mechanical Menace|TftJC|10",
-    "Resilient Casing|Barbarian|PHB|Mechanical Menace|TftJC|14"
-  ]
+    "name": "Path of the Mechanical Menace",
+    "source": "TftJC",
+    "page": 12,
+    "className": "Barbarian",
+    "classSource": "PHB",
+    "shortName": "Mechanical Menace",
+    "subclassFeatures": [
+        "Path of the Mechanical Menace|Barbarian|PHB|Mechanical Menace|TftJC|3",
+        "Cybernetic Vexation|Barbarian|PHB|Mechanical Menace|TftJC|6",
+        "Integrated Mind|Barbarian|PHB|Mechanical Menace|TftJC|10",
+        "Resilient Casing|Barbarian|PHB|Mechanical Menace|TftJC|14"
+    ]
 }

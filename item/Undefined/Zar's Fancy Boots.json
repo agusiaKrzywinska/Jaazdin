@@ -1,13 +1,13 @@
 {
-  "name": "Zar's Fancy Boots",
-  "source": "TftJC",
-  "rarity": "none",
-  "modifySpeed": {
-    "bonus": {
-      "walk": 5
-    }
-  },
-  "entries": [
-    "These boots were hand made to your specification by Zar'ryath. While wearing these boots, your walking speed increases by 5 feet."
-  ]
+    "name": "Zar's Fancy Boots",
+    "source": "TftJC",
+    "rarity": "none",
+    "modifySpeed": {
+        "bonus": {
+            "walk": 5
+        }
+    },
+    "entries": [
+        "These boots were hand made to your specification by Zar'ryath. While wearing these boots, your walking speed increases by 5 feet."
+    ]
 }

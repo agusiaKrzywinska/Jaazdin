@@ -1,30 +1,74 @@
 {
-  "name": "Magnetic Surge",
-  "source": "TftJC",
-  "className": "Sorcerer",
-  "classSource": "PHB",
-  "subclassShortName": "Ironhide",
-  "subclassSource": "TftJC",
-  "level": 1,
-  "entries": [
-    "At 1st level, after expending a spell slot to cast a Sorcerer spell, you can use your Bonus Action to move an object made of metal, creature wearing metal, or a creature holding a metal object, up to 10ft. The spell slot spent determines its weight, and the range of the spell determines how far away you can affect an object from (minimum 30ft.). If the target is a creature or an object held by a creature, they must make a Strength Saving throw and on a fail are affected. If you use a higher level spell slot to move something in a lower weight category, you can move it an additional 5ft per tier of difference. You can throw a metal object at a creature with this feature, and they must make a Dexterity Saving throw, and on a fail take 1d4 x the spell slot level used in bludgeoning damage.",
-    "You can ignore the weight maximum and instead target yourself with this ability, even without wearing/wielding metal.",
-    {
-      "type": "table",
-      "caption": "Magnetic Surge Table",
-      "colLabels": ["Spell Level", "Weight Moved", "Armor/Item Affected"],
-      "colStyles": ["col- text-", "col- text- ", "col- text- "],
-      "rows": [
-        ["1st", "15lbs", "One held item, Light armor"],
-        ["2nd", "30lbs", "One heavy held item, Medium armor"],
-        ["3rd", "50lbs", "Heavy armor"],
-        ["4th", "80lbs", "-"],
-        ["5th", "120lbs", "-"],
-        ["6th", "175lbs", "-"],
-        ["7th", "250lbs", "-"],
-        ["8th", "400lbs", "-"],
-        ["9th", "700lbs", "-"]
-      ]
-    }
-  ]
+    "name": "Magnetic Surge",
+    "source": "TftJC",
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "subclassShortName": "Ironhide",
+    "subclassSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "At 1st level, after expending a spell slot to cast a Sorcerer spell, you can use your Bonus Action to move an object made of metal, creature wearing metal, or a creature holding a metal object, up to 10ft. The spell slot spent determines its weight, and the range of the spell determines how far away you can affect an object from (minimum 30ft.). If the target is a creature or an object held by a creature, they must make a Strength Saving throw and on a fail are affected. If you use a higher level spell slot to move something in a lower weight category, you can move it an additional 5ft per tier of difference. You can throw a metal object at a creature with this feature, and they must make a Dexterity Saving throw, and on a fail take 1d4 x the spell slot level used in bludgeoning damage.",
+        "You can ignore the weight maximum and instead target yourself with this ability, even without wearing/wielding metal.",
+        {
+            "type": "table",
+            "caption": "Magnetic Surge Table",
+            "colLabels": [
+                "Spell Level",
+                "Weight Moved",
+                "Armor/Item Affected"
+            ],
+            "colStyles": [
+                "col- text-",
+                "col- text- ",
+                "col- text- "
+            ],
+            "rows": [
+                [
+                    "1st",
+                    "15lbs",
+                    "One held item, Light armor"
+                ],
+                [
+                    "2nd",
+                    "30lbs",
+                    "One heavy held item, Medium armor"
+                ],
+                [
+                    "3rd",
+                    "50lbs",
+                    "Heavy armor"
+                ],
+                [
+                    "4th",
+                    "80lbs",
+                    "-"
+                ],
+                [
+                    "5th",
+                    "120lbs",
+                    "-"
+                ],
+                [
+                    "6th",
+                    "175lbs",
+                    "-"
+                ],
+                [
+                    "7th",
+                    "250lbs",
+                    "-"
+                ],
+                [
+                    "8th",
+                    "400lbs",
+                    "-"
+                ],
+                [
+                    "9th",
+                    "700lbs",
+                    "-"
+                ]
+            ]
+        }
+    ]
 }

@@ -1,14 +1,18 @@
 {
-  "name": "Enhanced Healing",
-  "prerequisite": [
-    {
-      "feature": ["Warden: The Conduit"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["TECH"],
-  "entries": [
-    "When you cast a spell that restores hit points, you can use this technique to increase the potency of the healing. The targeted creature regains additional hit points equal to your Constitution modifier, and you regain hit points equal to your Constitution modifier plus the spells level."
-  ]
+    "name": "Enhanced Healing",
+    "prerequisite": [
+        {
+            "feature": [
+                "Warden: The Conduit"
+            ]
+        }
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "TECH"
+    ],
+    "entries": [
+        "When you cast a spell that restores hit points, you can use this technique to increase the potency of the healing. The targeted creature regains additional hit points equal to your Constitution modifier, and you regain hit points equal to your Constitution modifier plus the spells level."
+    ]
 }

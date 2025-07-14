@@ -1,11 +1,11 @@
 {
-  "name": "Tactical Might",
-  "source": "TftJC",
-  "className": "Warden",
-  "classSource": "TftJC",
-  "level": 6,
-  "entries": [
-    "At 6th level, you’ve learned to leverage your techniques to deal even deadlier blows. When you hit with an attack as part of a Technique or hit with a weapon attack on the same turn in which you’ve used a technique, you deal additional weapon damage equal to your proficiency bonus.",
-    "Additionally, when you use a Technique on your turn, you can use your reaction to use Heat of Battle."
-  ]
+    "name": "Tactical Might",
+    "source": "TftJC",
+    "className": "Warden",
+    "classSource": "TftJC",
+    "level": 6,
+    "entries": [
+        "At 6th level, you’ve learned to leverage your techniques to deal even deadlier blows. When you hit with an attack as part of a Technique or hit with a weapon attack on the same turn in which you’ve used a technique, you deal additional weapon damage equal to your proficiency bonus.",
+        "Additionally, when you use a Technique on your turn, you can use your reaction to use Heat of Battle."
+    ]
 }

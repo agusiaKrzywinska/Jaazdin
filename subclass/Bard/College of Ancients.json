@@ -1,13 +1,13 @@
 {
-  "name": "College of Ancients",
-  "source": "TftJC",
-  "page": 14,
-  "className": "Bard",
-  "classSource": "PHB",
-  "shortName": "Ancients",
-  "subclassFeatures": [
-    "College of the Ancients|Bard|PHB|Ancients|TftJC|3",
-    "Truth Seeker|Bard|PHB|Ancients|TftJC|6",
-    "Secret Pilferer|Bard|PHB|Ancients|TftJC|14"
-  ]
+    "name": "College of Ancients",
+    "source": "TftJC",
+    "page": 14,
+    "className": "Bard",
+    "classSource": "PHB",
+    "shortName": "Ancients",
+    "subclassFeatures": [
+        "College of the Ancients|Bard|PHB|Ancients|TftJC|3",
+        "Truth Seeker|Bard|PHB|Ancients|TftJC|6",
+        "Secret Pilferer|Bard|PHB|Ancients|TftJC|14"
+    ]
 }

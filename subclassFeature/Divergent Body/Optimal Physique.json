@@ -1,12 +1,12 @@
 {
-  "name": "Optimal Physique",
-  "source": "TftJC",
-  "className": "Monk",
-  "classSource": "PHB",
-  "subclassShortName": "Divergent Body",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "Starting when you choose this subclass at Level 3, the ki coursing through your body has diffused itself into the fibers of your muscles and the marrow of your skeleton.  You may use your Constitution in place of your Wisdom when determining your armor class and the DC of your monk features."
-  ]
+    "name": "Optimal Physique",
+    "source": "TftJC",
+    "className": "Monk",
+    "classSource": "PHB",
+    "subclassShortName": "Divergent Body",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "Starting when you choose this subclass at Level 3, the ki coursing through your body has diffused itself into the fibers of your muscles and the marrow of your skeleton.  You may use your Constitution in place of your Wisdom when determining your armor class and the DC of your monk features."
+    ]
 }

@@ -1,12 +1,12 @@
 {
-  "name": "An Advantageous Disadvantage",
-  "source": "TftJC",
-  "className": "Bard",
-  "classSource": "PHB",
-  "subclassShortName": "Tomfoolery",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "At 3rd level, you can help allies twist a situation back in their favour. Whenever a creature inspired by you rolls with disadvantage, they can expend the Bardic Inspiration die to instead roll with advantage."
-  ]
+    "name": "An Advantageous Disadvantage",
+    "source": "TftJC",
+    "className": "Bard",
+    "classSource": "PHB",
+    "subclassShortName": "Tomfoolery",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, you can help allies twist a situation back in their favour. Whenever a creature inspired by you rolls with disadvantage, they can expend the Bardic Inspiration die to instead roll with advantage."
+    ]
 }

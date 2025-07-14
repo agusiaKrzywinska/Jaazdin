@@ -1,12 +1,12 @@
 {
-  "name": "Natural Cheat",
-  "source": "TftJC",
-  "className": "Sorcerer",
-  "classSource": "PHB",
-  "subclassShortName": "Gambler",
-  "subclassSource": "TftJC",
-  "level": 1,
-  "entries": [
-    "Starting at 1st level, you gain proficiency in the Deception or Sleight of Hand, or another skill from the Sorcerer's skill list if you already have these proficiencies."
-  ]
+    "name": "Natural Cheat",
+    "source": "TftJC",
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "subclassShortName": "Gambler",
+    "subclassSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "Starting at 1st level, you gain proficiency in the Deception or Sleight of Hand, or another skill from the Sorcerer's skill list if you already have these proficiencies."
+    ]
 }

@@ -1,0 +1,21 @@
+{
+  "name": "Ice Spring Wine",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "uncommon",
+  "value": 6000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook's Tools or Brewer's Tools to prepare.",
+    "<b>Ingredients:</b> x1 Bubblepod, x1 Drow’s Wine Glass, x3 Red Winterberry.",
+    "<b>Effect:</b> When you take a short rest you gain +2 Hit Points per Hit Die spent."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
+    }
+  }
+}

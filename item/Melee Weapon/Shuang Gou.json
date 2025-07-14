@@ -1,20 +1,22 @@
 {
-  "name": "Shuang Gou",
-  "source": "TftJC",
-  "page": 50,
-  "type": "M",
-  "rarity": "none",
-  "weight": 2,
-  "value": 1000,
-  "weaponCategory": "martial",
-  "property": ["L"],
-  "dmg1": "1d6",
-  "dmgType": "S",
-  "entries": [
-    "<b><i>Paired.</i></b> Paired weapons has special features that only activate when you are wielding two of the same weapon with the paired property.",
-    "When you are wielding two Shuang Gou you are considered to have reach.",
-    "If you use the reach property you can’t make an offhand attack that turn.",
-    "Additionally, you have advantage on attack rolls made to disarm opponents if you are wielding two Shuang Gou.",
-    "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
-  ]
+    "name": "Shuang Gou",
+    "source": "TftJC",
+    "page": 50,
+    "type": "M",
+    "rarity": "none",
+    "weight": 2,
+    "value": 1000,
+    "weaponCategory": "martial",
+    "property": [
+        "L"
+    ],
+    "dmg1": "1d6",
+    "dmgType": "S",
+    "entries": [
+        "<b><i>Paired.</i></b> Paired weapons has special features that only activate when you are wielding two of the same weapon with the paired property.",
+        "When you are wielding two Shuang Gou you are considered to have reach.",
+        "If you use the reach property you can’t make an offhand attack that turn.",
+        "Additionally, you have advantage on attack rolls made to disarm opponents if you are wielding two Shuang Gou.",
+        "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+    ]
 }

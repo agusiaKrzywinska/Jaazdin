@@ -1,10 +1,10 @@
 {
-  "name": "Heat of Battle Improvement",
-  "source": "TftJC",
-  "className": "Warden",
-  "classSource": "TftJC",
-  "level": 6,
-  "entries": [
-    "At 6th level, you can use Heat of Battle twice times instead of once per short or long rest."
-  ]
+    "name": "Heat of Battle Improvement",
+    "source": "TftJC",
+    "className": "Warden",
+    "classSource": "TftJC",
+    "level": 6,
+    "entries": [
+        "At 6th level, you can use Heat of Battle twice times instead of once per short or long rest."
+    ]
 }

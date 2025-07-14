@@ -1,12 +1,12 @@
 {
-  "name": "Deflecting Hand",
-  "source": "TftJC",
-  "className": "Monk",
-  "classSource": "PHB",
-  "subclassShortName": "God Hand",
-  "subclassSource": "TftJC",
-  "level": 6,
-  "entries": [
-    "At 6th level, while you have your mage hand active you can use your Deflect Missiles feature when any ally is hit within the range of your mage hand. When you deflect missiles in this way you reduce the damage by 1d4+your Wisdom modifier+your monk level. If the damage is reduced to zero, you can spend ki as normal to redirect the attack."
-  ]
+    "name": "Deflecting Hand",
+    "source": "TftJC",
+    "className": "Monk",
+    "classSource": "PHB",
+    "subclassShortName": "God Hand",
+    "subclassSource": "TftJC",
+    "level": 6,
+    "entries": [
+        "At 6th level, while you have your mage hand active you can use your Deflect Missiles feature when any ally is hit within the range of your mage hand. When you deflect missiles in this way you reduce the damage by 1d4+your Wisdom modifier+your monk level. If the damage is reduced to zero, you can spend ki as normal to redirect the attack."
+    ]
 }

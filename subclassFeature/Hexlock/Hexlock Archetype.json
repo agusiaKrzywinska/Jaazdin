@@ -1,21 +1,21 @@
 {
-  "name": "Hexlock Archetype",
-  "source": "TftJC",
-  "className": "Gunner",
-  "classSource": "TftJC",
-  "subclassShortName": "Hexlock",
-  "subclassSource": "TftJC",
-  "level": 2,
-  "entries": [
-    "As bullets fly from the chamber, runes along the bullet suddenly burst to life, casting a golden tail behind the bullet as it flies forth. The bullet lands true between the ghast's head and for a second the undead monstrosity merely recoils from the impact before a burst of gold blasts out its eyes and mouth, the creature slumps to the ground, dead.",
-    "As a Hexlock you merge the complex machinery of firearms with the equally complex nature of magic. You possess a multitude of magical enhancements that can be placed on ammunition, turning your bullets into sanctified missiles, explosive ordinance, or bolts of lightning.",
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Magical Acolyte|Gunner|TftJC|Hexlock|TftJC|2"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Hexed Bullets|Gunner|TftJC|Hexlock|TftJC|2"
-    }
-  ]
+    "name": "Hexlock Archetype",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "subclassShortName": "Hexlock",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "As bullets fly from the chamber, runes along the bullet suddenly burst to life, casting a golden tail behind the bullet as it flies forth. The bullet lands true between the ghast's head and for a second the undead monstrosity merely recoils from the impact before a burst of gold blasts out its eyes and mouth, the creature slumps to the ground, dead.",
+        "As a Hexlock you merge the complex machinery of firearms with the equally complex nature of magic. You possess a multitude of magical enhancements that can be placed on ammunition, turning your bullets into sanctified missiles, explosive ordinance, or bolts of lightning.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Magical Acolyte|Gunner|TftJC|Hexlock|TftJC|2"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Hexed Bullets|Gunner|TftJC|Hexlock|TftJC|2"
+        }
+    ]
 }

@@ -1,58 +1,58 @@
 {
-  "name": "Reveal",
-  "source": "TftJC",
-  "page": 58,
-  "level": 2,
-  "school": "A",
-  "time": [
-    {
-      "number": 1,
-      "unit": "action"
+    "name": "Reveal",
+    "source": "TftJC",
+    "page": 58,
+    "level": 2,
+    "school": "A",
+    "time": [
+        {
+            "number": 1,
+            "unit": "action"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "feet",
+            "amount": 50
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true,
+        "m": "a silk handkerchief"
+    },
+    "duration": [
+        {
+            "type": "instant"
+        }
+    ],
+    "entries": [
+        "With a wave of the hand and a magic word you bring to light that which is hidden. When you cast the spell choose one creature, object, or 10-foot cube within range. Any illusion spell of 2nd level or lower inside that area or effecting a creature or object immediately ends, if the spell is Invisibility or Greater Invisibility the spell ends regardless of level. For each spell of 3rd level or higher in the area, make an ability check with your spell casting ability. The DC for this check is 10 + spell's level. On a success the spell ends."
+    ],
+    "entriesHigherLevel": [
+        {
+            "type": "entries",
+            "name": "At Higher Levels",
+            "entries": [
+                "When you cast this spell using a spell slot of 3rd level or higher, automatically end the effects of a spell on the target if the spell's level is equal to or less than the leave of the spell slot you used."
+            ]
+        }
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Cleric",
+                "source": "PHB"
+            },
+            {
+                "name": "Druid",
+                "source": "PHB"
+            },
+            {
+                "name": "Ranger",
+                "source": "PHB"
+            }
+        ]
     }
-  ],
-  "range": {
-    "type": "point",
-    "distance": {
-      "type": "feet",
-      "amount": 50
-    }
-  },
-  "components": {
-    "v": true,
-    "s": true,
-    "m": "a silk handkerchief"
-  },
-  "duration": [
-    {
-      "type": "instant"
-    }
-  ],
-  "entries": [
-    "With a wave of the hand and a magic word you bring to light that which is hidden. When you cast the spell choose one creature, object, or 10-foot cube within range. Any illusion spell of 2nd level or lower inside that area or effecting a creature or object immediately ends, if the spell is Invisibility or Greater Invisibility the spell ends regardless of level. For each spell of 3rd level or higher in the area, make an ability check with your spell casting ability. The DC for this check is 10 + spell's level. On a success the spell ends."
-  ],
-  "entriesHigherLevel": [
-    {
-      "type": "entries",
-      "name": "At Higher Levels",
-      "entries": [
-        "When you cast this spell using a spell slot of 3rd level or higher, automatically end the effects of a spell on the target if the spell's level is equal to or less than the leave of the spell slot you used."
-      ]
-    }
-  ],
-  "classes": {
-    "fromClassList": [
-      {
-        "name": "Cleric",
-        "source": "PHB"
-      },
-      {
-        "name": "Druid",
-        "source": "PHB"
-      },
-      {
-        "name": "Ranger",
-        "source": "PHB"
-      }
-    ]
-  }
 }

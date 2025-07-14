@@ -1,12 +1,12 @@
 {
-  "name": "Fancy Footwork",
-  "source": "TftJC",
-  "className": "Barbarian",
-  "classSource": "PHB",
-  "subclassShortName": "Pugilist",
-  "subclassSource": "TftJC",
-  "level": 10,
-  "entries": [
-    "At 10th level, you can distract your foes with your moves. As a Bonus Action, you can showcase your footwork. Creatures attacking you until the start of your next turn have disadvantage, and you can add your Charisma Modifier to Dexterity saving throws."
-  ]
+    "name": "Fancy Footwork",
+    "source": "TftJC",
+    "className": "Barbarian",
+    "classSource": "PHB",
+    "subclassShortName": "Pugilist",
+    "subclassSource": "TftJC",
+    "level": 10,
+    "entries": [
+        "At 10th level, you can distract your foes with your moves. As a Bonus Action, you can showcase your footwork. Creatures attacking you until the start of your next turn have disadvantage, and you can add your Charisma Modifier to Dexterity saving throws."
+    ]
 }

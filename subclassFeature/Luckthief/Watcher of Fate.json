@@ -1,12 +1,12 @@
 {
-  "name": "Watcher of Fate",
-  "source": "TftJC",
-  "className": "Rogue",
-  "classSource": "PHB",
-  "subclassShortName": "Luckthief",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "When you take this archetype at 3rd level, you gain the bless and bane spells and can cast each of them once without expending a spell slot before having a long rest. Your Wisdom is your spell save ability for these spells."
-  ]
+    "name": "Watcher of Fate",
+    "source": "TftJC",
+    "className": "Rogue",
+    "classSource": "PHB",
+    "subclassShortName": "Luckthief",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "When you take this archetype at 3rd level, you gain the bless and bane spells and can cast each of them once without expending a spell slot before having a long rest. Your Wisdom is your spell save ability for these spells."
+    ]
 }

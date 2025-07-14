@@ -1,13 +1,13 @@
 {
-  "name": "Skilled Breaker",
-  "source": "TftJC",
-  "className": "Artificer",
-  "classSource": "TCE",
-  "subclassShortName": "Nullifier",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "When you adopt this specialization at 3rd level, you gain the ability to quickly sabotage non-magical inventions, machines, and mechanisms. You can use a bonus action to make a tinkerer’s tools check to sabotage one non-magical mechanism or disarm one trap within range.",
-    "In addition, when you use a tool you are proficient in to deconstruct, damage, or disarm an object you gain a bonus to that roll equal to 1d4."
-  ]
+    "name": "Skilled Breaker",
+    "source": "TftJC",
+    "className": "Artificer",
+    "classSource": "TCE",
+    "subclassShortName": "Nullifier",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "When you adopt this specialization at 3rd level, you gain the ability to quickly sabotage non-magical inventions, machines, and mechanisms. You can use a bonus action to make a tinkerer’s tools check to sabotage one non-magical mechanism or disarm one trap within range.",
+        "In addition, when you use a tool you are proficient in to deconstruct, damage, or disarm an object you gain a bonus to that roll equal to 1d4."
+    ]
 }

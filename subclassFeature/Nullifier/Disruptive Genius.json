@@ -1,12 +1,12 @@
 {
-  "name": "Disruptive Genius",
-  "source": "TftJC",
-  "className": "Artificer",
-  "classSource": "TCE",
-  "subclassShortName": "Nullifier",
-  "subclassSource": "TftJC",
-  "level": 9,
-  "entries": [
-    "At 9th level, you can disrupt spells and attacks with your mind. You can use your Flash of Genius ability to subtract from one attack roll you can see within 30 feet. In addition, you can attempt to counter a spell using your mind. When you see a spell being cast within 30 feet of you can expend one use of your Flash of Genius to use your reaction to attempt to counter. Make an Intelligence check, if you roll higher than 10 + the level of the spell, the spell fails."
-  ]
+    "name": "Disruptive Genius",
+    "source": "TftJC",
+    "className": "Artificer",
+    "classSource": "TCE",
+    "subclassShortName": "Nullifier",
+    "subclassSource": "TftJC",
+    "level": 9,
+    "entries": [
+        "At 9th level, you can disrupt spells and attacks with your mind. You can use your Flash of Genius ability to subtract from one attack roll you can see within 30 feet. In addition, you can attempt to counter a spell using your mind. When you see a spell being cast within 30 feet of you can expend one use of your Flash of Genius to use your reaction to attempt to counter. Make an Intelligence check, if you roll higher than 10 + the level of the spell, the spell fails."
+    ]
 }

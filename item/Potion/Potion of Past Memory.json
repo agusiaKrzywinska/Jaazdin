@@ -1,10 +1,10 @@
 {
-  "name": "Potion of Past Memory",
-  "rarity": "legendary",
-  "type": "P",
-  "source": "TftJC",
-  "entries": [
-    "This Deep brown potion is filled with concentrated Memento beans, providing the Drinker a deep connection to Time. Before ingesting the Potion, a hair, nail or other small piece of a creature is to be mixed in with the completed Potion, after which time it glows with Chronurgic Magic. Ingesting the potion allows you to peer through that creature's life. You experience any event they would have from their point of view.",
-    "This potion's duration is based on the current amount of time the selected creature's life has lasted. 1 hour is equivalent of 1 year of that creature's life, if the creature has lived for 36 years the potion's effects remain active for 36 hours as you experience their life. Within that time, you are {@condition blinded}, {@condition deafened} and {@condition incapacitated}. A creature can resist these effects if they do not want to be under the potion's effects, making a DC 19 INT save, repeating this saving throw each hour that passes or when they take damage. The events are played out backwards, meaning more recent events happen in the first hours, and the beginning of the creature's life happens at the end of the vision. This potion's effects cannot be ended early, unless with a 9th level {@spell Dispel Magic|PHB} or by making the above saving throw. The potion provides no effect to creatures that are dead or undead."
-  ]
+    "name": "Potion of Past Memory",
+    "rarity": "legendary",
+    "type": "P",
+    "source": "TftJC",
+    "entries": [
+        "This Deep brown potion is filled with concentrated Memento beans, providing the Drinker a deep connection to Time. Before ingesting the Potion, a hair, nail or other small piece of a creature is to be mixed in with the completed Potion, after which time it glows with Chronurgic Magic. Ingesting the potion allows you to peer through that creature's life. You experience any event they would have from their point of view.",
+        "This potion's duration is based on the current amount of time the selected creature's life has lasted. 1 hour is equivalent of 1 year of that creature's life, if the creature has lived for 36 years the potion's effects remain active for 36 hours as you experience their life. Within that time, you are {@condition blinded}, {@condition deafened} and {@condition incapacitated}. A creature can resist these effects if they do not want to be under the potion's effects, making a DC 19 INT save, repeating this saving throw each hour that passes or when they take damage. The events are played out backwards, meaning more recent events happen in the first hours, and the beginning of the creature's life happens at the end of the vision. This potion's effects cannot be ended early, unless with a 9th level {@spell Dispel Magic|PHB} or by making the above saving throw. The potion provides no effect to creatures that are dead or undead."
+    ]
 }

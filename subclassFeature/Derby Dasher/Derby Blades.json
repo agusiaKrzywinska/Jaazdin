@@ -1,21 +1,21 @@
 {
-  "name": "Derby Blades",
-  "source": "TftJC",
-  "className": "Artificer",
-  "classSource": "TCE",
-  "subclassShortName": "Derby Dasher",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "At 3rd level, you learn to invent Derby Blades. Derby Blades are a magical set of shoes that you can create as an action on any set of shoes you are currently wearing, provided you have your Cobbler's Tools in hand.",
-    "You gain the following benefits while wearing the Derby Blades:",
-    {
-      "type": "list",
-      "items": [
-        "Your walk speed is increased by 5 at 5th level, 10 at 9th level, 15 at 13th level, and 20 at 17th level.",
-        "You can use your Derby Blades as an Arcane Focus for your Artificer Spells.",
-        "For every 5ft you move in a straight line without turning before making a melee attack with a Derby Dasher weapon, you deal an additional 1 Damage, capping the maximum damage up to your Artificer level + your INT Modifier."
-      ]
-    }
-  ]
+    "name": "Derby Blades",
+    "source": "TftJC",
+    "className": "Artificer",
+    "classSource": "TCE",
+    "subclassShortName": "Derby Dasher",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, you learn to invent Derby Blades. Derby Blades are a magical set of shoes that you can create as an action on any set of shoes you are currently wearing, provided you have your Cobbler's Tools in hand.",
+        "You gain the following benefits while wearing the Derby Blades:",
+        {
+            "type": "list",
+            "items": [
+                "Your walk speed is increased by 5 at 5th level, 10 at 9th level, 15 at 13th level, and 20 at 17th level.",
+                "You can use your Derby Blades as an Arcane Focus for your Artificer Spells.",
+                "For every 5ft you move in a straight line without turning before making a melee attack with a Derby Dasher weapon, you deal an additional 1 Damage, capping the maximum damage up to your Artificer level + your INT Modifier."
+            ]
+        }
+    ]
 }

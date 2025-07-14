@@ -1,61 +1,61 @@
 {
-  "name": "Orb of Recall",
-  "source": "TftJC",
-  "page": 57,
-  "level": 1,
-  "school": "V",
-  "time": [
-    {
-      "number": 1,
-      "unit": "action"
+    "name": "Orb of Recall",
+    "source": "TftJC",
+    "page": 57,
+    "level": 1,
+    "school": "V",
+    "time": [
+        {
+            "number": 1,
+            "unit": "action"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "feet",
+            "amount": 20
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true
+    },
+    "duration": [
+        {
+            "type": "timed",
+            "duration": {
+                "type": "round",
+                "amount": 1
+            }
+        }
+    ],
+    "entries": [
+        "You conjure an arcane orb that flies out in a straight line. All creatures that the orb passes through must make a DEX Save, and on a fail take {@dice 2d6} force damage. At the end of your turn, the orb flies back to your position, then dissipates. If the orb would pass through the same creature twice, they are unaffected by the 2nd pass"
+    ],
+    "entriesHigherLevel": [
+        {
+            "type": "entries",
+            "name": "At Higher Levels",
+            "entries": [
+                "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d6} for every slot above 1st."
+            ]
+        }
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Bard",
+                "source": "PHB"
+            },
+            {
+                "name": "Sorcerer",
+                "source": "PHB"
+            },
+            {
+                "name": "Wizard",
+                "source": "PHB"
+            }
+        ]
     }
-  ],
-  "range": {
-    "type": "point",
-    "distance": {
-      "type": "feet",
-      "amount": 20
-    }
-  },
-  "components": {
-    "v": true,
-    "s": true
-  },
-  "duration": [
-    {
-      "type": "timed",
-      "duration": {
-        "type": "round",
-        "amount": 1
-      }
-    }
-  ],
-  "entries": [
-    "You conjure an arcane orb that flies out in a straight line. All creatures that the orb passes through must make a DEX Save, and on a fail take {@dice 2d6} force damage. At the end of your turn, the orb flies back to your position, then dissipates. If the orb would pass through the same creature twice, they are unaffected by the 2nd pass"
-  ],
-  "entriesHigherLevel": [
-    {
-      "type": "entries",
-      "name": "At Higher Levels",
-      "entries": [
-        "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d6} for every slot above 1st."
-      ]
-    }
-  ],
-  "classes": {
-    "fromClassList": [
-      {
-        "name": "Bard",
-        "source": "PHB"
-      },
-      {
-        "name": "Sorcerer",
-        "source": "PHB"
-      },
-      {
-        "name": "Wizard",
-        "source": "PHB"
-      }
-    ]
-  }
 }

@@ -1,22 +1,24 @@
 {
-  "name": "Damascene",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 3,
-        "class": {
-          "name": "Gunner"
+    "name": "Damascene",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 3,
+                "class": {
+                    "name": "Gunner"
+                }
+            }
         }
-      }
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["MOD"],
-  "consumes": {
-    "name": "150gp"
-  },
-  "entries": [
-    "When using the firearm for a Charisma check, you have advantage."
-  ]
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "MOD"
+    ],
+    "consumes": {
+        "name": "150gp"
+    },
+    "entries": [
+        "When using the firearm for a Charisma check, you have advantage."
+    ]
 }

@@ -1,14 +1,14 @@
 {
-  "name": "Temporal Stabilizer",
-  "source": "TftJC",
-  "type": "T",
-  "rarity": "none",
-  "weight": 0,
-  "value": 10000,
-  "entries": [
-    "<i><b>Groundbreaking Invention.</i></b>",
-    "<i><b>Requires Tinkers Tools + 1 Tinker's Brass + 1 Absintium</i></b>",
-    "This bracer allows the wearer to stabilize themselves in Time. Using the innate power within the Absintium, the wearer becomes immune to spells and magical effects that alter ones time, perception of time, or placement within time (Chronurgy magic, as well as spells such as Haste, Slow, Memento Poison, etc). The Bracer is considered magical, and can be dispelled by casting Dispel magic at 7th level or higher, removing its effects for 1 hour, as well as Anti Magic Fields nullify this effect.",
-    "Additionally, the Absintium can attune itself to a Time Rift within 30ft of it after completing a 10 minute ritual. The Absintium is then Entangled with the Time Rift, allowing the wearer to pass through at a predetermined point of their choosing. After which, the Time Rift creates a passageway from that point to the present, and that point cannot be changed. Time that passes within the present passes concurrently in the determined point for 1 year, after which time the Absintium is fully consumed and the Entanglement ends. Any and all changes within time happen simultaneously at once after the year ends."
-  ]
+    "name": "Temporal Stabilizer",
+    "source": "TftJC",
+    "type": "T",
+    "rarity": "none",
+    "weight": 0,
+    "value": 10000,
+    "entries": [
+        "<i><b>Groundbreaking Invention.</i></b>",
+        "<i><b>Requires Tinkers Tools + 1 Tinker's Brass + 1 Absintium</i></b>",
+        "This bracer allows the wearer to stabilize themselves in Time. Using the innate power within the Absintium, the wearer becomes immune to spells and magical effects that alter ones time, perception of time, or placement within time (Chronurgy magic, as well as spells such as Haste, Slow, Memento Poison, etc). The Bracer is considered magical, and can be dispelled by casting Dispel magic at 7th level or higher, removing its effects for 1 hour, as well as Anti Magic Fields nullify this effect.",
+        "Additionally, the Absintium can attune itself to a Time Rift within 30ft of it after completing a 10 minute ritual. The Absintium is then Entangled with the Time Rift, allowing the wearer to pass through at a predetermined point of their choosing. After which, the Time Rift creates a passageway from that point to the present, and that point cannot be changed. Time that passes within the present passes concurrently in the determined point for 1 year, after which time the Absintium is fully consumed and the Entanglement ends. Any and all changes within time happen simultaneously at once after the year ends."
+    ]
 }

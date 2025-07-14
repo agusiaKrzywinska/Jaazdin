@@ -1,12 +1,12 @@
 {
-  "name": "Seasonal Warden",
-  "source": "TftJC",
-  "className": "Druid",
-  "classSource": "PHB",
-  "subclassShortName": "Seasons",
-  "subclassSource": "TftJC",
-  "level": 10,
-  "entries": [
-    "Starting at 10th level, when you use your Seasonal Forms wild shape you can choose to remain in your normal form while gaining the benefits of the Seasonal Form you choose. In addition, you deal extra damage on your spells based on your current Season Form. You add your Wisdom modifier to spells that deal fire for summer, cold for winter, acid for spring, and lightning for autumn while you are in that form. You still gain the aforementioned Temporary hit points from your Seasonal Forms feature, and when these temporary hit points are lost, you lose the bonuses from this feature."
-  ]
+    "name": "Seasonal Warden",
+    "source": "TftJC",
+    "className": "Druid",
+    "classSource": "PHB",
+    "subclassShortName": "Seasons",
+    "subclassSource": "TftJC",
+    "level": 10,
+    "entries": [
+        "Starting at 10th level, when you use your Seasonal Forms wild shape you can choose to remain in your normal form while gaining the benefits of the Seasonal Form you choose. In addition, you deal extra damage on your spells based on your current Season Form. You add your Wisdom modifier to spells that deal fire for summer, cold for winter, acid for spring, and lightning for autumn while you are in that form. You still gain the aforementioned Temporary hit points from your Seasonal Forms feature, and when these temporary hit points are lost, you lose the bonuses from this feature."
+    ]
 }

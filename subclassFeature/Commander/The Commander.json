@@ -1,21 +1,21 @@
 {
-  "name": "The Commander",
-  "source": "TftJC",
-  "className": "Warden",
-  "classSource": "TftJC",
-  "subclassShortName": "Commander",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "Trained in the command of people these wardens lead those that follow them towards war, battle, and victory. A commander is often formally trained, either by an institution, a family mentor, or a rite of passage. For a commander victory is the final goal, but not at any cost. The protection of their allies is just as important as victory in the field.",
-    "Commanders learn that careful preparation is as important if not more so than strength in the field. In order to better protect themselves and their allies they must use whatever means necessary, every ounce of strength and every bit of wit. A commander is defined just as much by their losses as their victories, for every loss is another lesson learned.",
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Best Laid Plans|Warden|TftJC|Commander|TftJC|3"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Bonus Techniques|Warden|TftJC|Commander|TftJC|3"
-    }
-  ]
+    "name": "The Commander",
+    "source": "TftJC",
+    "className": "Warden",
+    "classSource": "TftJC",
+    "subclassShortName": "Commander",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "Trained in the command of people these wardens lead those that follow them towards war, battle, and victory. A commander is often formally trained, either by an institution, a family mentor, or a rite of passage. For a commander victory is the final goal, but not at any cost. The protection of their allies is just as important as victory in the field.",
+        "Commanders learn that careful preparation is as important if not more so than strength in the field. In order to better protect themselves and their allies they must use whatever means necessary, every ounce of strength and every bit of wit. A commander is defined just as much by their losses as their victories, for every loss is another lesson learned.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Best Laid Plans|Warden|TftJC|Commander|TftJC|3"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Bonus Techniques|Warden|TftJC|Commander|TftJC|3"
+        }
+    ]
 }

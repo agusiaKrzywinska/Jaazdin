@@ -1,18 +1,18 @@
 {
-  "name": "Rigged Game",
-  "source": "TftJC",
-  "className": "Sorcerer",
-  "classSource": "PHB",
-  "subclassShortName": "Gambler",
-  "subclassSource": "TftJC",
-  "level": 14,
-  "entries": [
-    "At 14th level, you learn to efficiently rig any game in your favour. You gain expertise in your game proficiency selected with Game of Choice. Furthermore, you learn a new ability you can use as a part of Unfair Advantage.",
-    {
-      "type": "list",
-      "items": [
-        "Rig the Game. The next time within the minute you or another creature would roll d4s, d6s, d8s, d10s or d12s, before the roll, you can change a number of those die up to your Proficiency Bonus into 1s or their maximum value."
-      ]
-    }
-  ]
+    "name": "Rigged Game",
+    "source": "TftJC",
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "subclassShortName": "Gambler",
+    "subclassSource": "TftJC",
+    "level": 14,
+    "entries": [
+        "At 14th level, you learn to efficiently rig any game in your favour. You gain expertise in your game proficiency selected with Game of Choice. Furthermore, you learn a new ability you can use as a part of Unfair Advantage.",
+        {
+            "type": "list",
+            "items": [
+                "Rig the Game. The next time within the minute you or another creature would roll d4s, d6s, d8s, d10s or d12s, before the roll, you can change a number of those die up to your Proficiency Bonus into 1s or their maximum value."
+            ]
+        }
+    ]
 }

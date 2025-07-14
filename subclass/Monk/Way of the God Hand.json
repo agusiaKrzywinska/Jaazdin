@@ -1,16 +1,16 @@
 {
-  "name": "Way of the God Hand",
-  "source": "TftJC",
-  "page": 28,
-  "className": "Monk",
-  "classSource": "PHB",
-  "shortName": "God Hand",
-  "subclassFeatures": [
-    "Way of the God Hand|Monk|PHB|God Hand|TftJC|3",
-    "Steady Path|Monk|PHB|God Hand|TftJC|6",
-    "Deflecting Hand|Monk|PHB|God Hand|TftJC|6",
-    "Flurry of Bullets|Monk|PHB|God Hand|TftJC|11",
-    "Fist of the Gods|Monk|PHB|God Hand|TftJC|11",
-    "Hand of God|Monk|PHB|God Hand|TftJC|17"
-  ]
+    "name": "Way of the God Hand",
+    "source": "TftJC",
+    "page": 28,
+    "className": "Monk",
+    "classSource": "PHB",
+    "shortName": "God Hand",
+    "subclassFeatures": [
+        "Way of the God Hand|Monk|PHB|God Hand|TftJC|3",
+        "Steady Path|Monk|PHB|God Hand|TftJC|6",
+        "Deflecting Hand|Monk|PHB|God Hand|TftJC|6",
+        "Flurry of Bullets|Monk|PHB|God Hand|TftJC|11",
+        "Fist of the Gods|Monk|PHB|God Hand|TftJC|11",
+        "Hand of God|Monk|PHB|God Hand|TftJC|17"
+    ]
 }

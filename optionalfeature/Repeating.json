@@ -1,14 +1,18 @@
 {
-  "name": "Repeating",
-  "prerequisite": [
-    {
-      "feature": ["Dark Arts Wizard"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["ARC"],
-  "entries": [
-    "Tier 3 Arcana. You make an additional attack with this spell at another creature within range."
-  ]
+    "name": "Repeating",
+    "prerequisite": [
+        {
+            "feature": [
+                "Dark Arts Wizard"
+            ]
+        }
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "ARC"
+    ],
+    "entries": [
+        "Tier 3 Arcana. You make an additional attack with this spell at another creature within range."
+    ]
 }

@@ -1,20 +1,20 @@
 {
-  "name": "Zyrial, Heart of the Sea",
-  "source": "TftJC",
-  "rarity": "artifact",
-  "wondrous": true,
-  "reqAttune": true,
-  "charges": 1,
-  "recharge": "restLong",
-  "rechargeAmount": 1,
-  "entries": [
-    "While wearing or holding this magical gem you can commune with the spirit trapped within to create a powerful magical implement. As an action, you can target one non-magical weapon, armor, or spellcasting focus that you are holding and wearing and cause it to become encrusted with magical gemstones.",
-    "<b><i>Encrusted Weapon.</i></b> You gain a +2 bonus to attack and damage rolls made with this now magical weapon. In addition, you deal {@dice 1d6} cold damage on a hit. On scoring a critical hit you deal {@dice 3d6} cold damage to each creature of your choice within 5 feet of the original target.",
-    "<b><i>Bejeweled Armor.</i></b> You gain a +2 bonus to your AC while wearing the bejeweled armor. In addition, when you take radiant or force damage you take {@dice 1d6} less of that damage. Upon dropping to zero hp points you instead drop to zero and regain {@dice 2d6} hit points. Once this feature has been used the armor becomes non-magical and Zyrial ceases to function for 1 week.",
-    "<b><i>Dazzling Focus.</i></b> A spell cast with this spell-casting focus gains a +2 to spell attack rolls and your spell save DC. In addition, when you deal cold, force, or radiant damage you deal an additional {@dice 1d6} slashing damage. Spells that deal cold, force, or radiant damage to a single target score a critical hit on a 19 or 20.",
-    "<b><i>Crystal of the Sea.</i></b> As an action or as a reaction to taking cold damage, you can cause Zyrial to manifest a suit of crystal armor that engulfs your entire body. This armor sets your AC to 18, 20 if Zyrial was active as Bejeweled Armor, and imposes disadvantage on stealth checks, this armor counts as heavy armor and you are proficient with it while wearing it. This armor lasts for 10 minutes or until you use an action to dismiss it. While active you are immune to cold damage. After using this feature you cannot manifest this armor again until you finish a long rest.",
-    "If you use your action to encrust another object the enchantment on a currently encrusted object fades as the crystals fall away.",
-    "<b><i>Sentience.</i></b> Zyrial is a sentient neutral good object with an Intelligence of 12, Wisdom of 12, and a Charisma of 16. It has hearing and blindsight out to a range of 30 feet.",
-    "This object can speak, read, and understand Common and Aquan, and can communicate with its wielder telepathically."
-  ]
+    "name": "Zyrial, Heart of the Sea",
+    "source": "TftJC",
+    "rarity": "artifact",
+    "wondrous": true,
+    "reqAttune": true,
+    "charges": 1,
+    "recharge": "restLong",
+    "rechargeAmount": 1,
+    "entries": [
+        "While wearing or holding this magical gem you can commune with the spirit trapped within to create a powerful magical implement. As an action, you can target one non-magical weapon, armor, or spellcasting focus that you are holding and wearing and cause it to become encrusted with magical gemstones.",
+        "<b><i>Encrusted Weapon.</i></b> You gain a +2 bonus to attack and damage rolls made with this now magical weapon. In addition, you deal {@dice 1d6} cold damage on a hit. On scoring a critical hit you deal {@dice 3d6} cold damage to each creature of your choice within 5 feet of the original target.",
+        "<b><i>Bejeweled Armor.</i></b> You gain a +2 bonus to your AC while wearing the bejeweled armor. In addition, when you take radiant or force damage you take {@dice 1d6} less of that damage. Upon dropping to zero hp points you instead drop to zero and regain {@dice 2d6} hit points. Once this feature has been used the armor becomes non-magical and Zyrial ceases to function for 1 week.",
+        "<b><i>Dazzling Focus.</i></b> A spell cast with this spell-casting focus gains a +2 to spell attack rolls and your spell save DC. In addition, when you deal cold, force, or radiant damage you deal an additional {@dice 1d6} slashing damage. Spells that deal cold, force, or radiant damage to a single target score a critical hit on a 19 or 20.",
+        "<b><i>Crystal of the Sea.</i></b> As an action or as a reaction to taking cold damage, you can cause Zyrial to manifest a suit of crystal armor that engulfs your entire body. This armor sets your AC to 18, 20 if Zyrial was active as Bejeweled Armor, and imposes disadvantage on stealth checks, this armor counts as heavy armor and you are proficient with it while wearing it. This armor lasts for 10 minutes or until you use an action to dismiss it. While active you are immune to cold damage. After using this feature you cannot manifest this armor again until you finish a long rest.",
+        "If you use your action to encrust another object the enchantment on a currently encrusted object fades as the crystals fall away.",
+        "<b><i>Sentience.</i></b> Zyrial is a sentient neutral good object with an Intelligence of 12, Wisdom of 12, and a Charisma of 16. It has hearing and blindsight out to a range of 30 feet.",
+        "This object can speak, read, and understand Common and Aquan, and can communicate with its wielder telepathically."
+    ]
 }

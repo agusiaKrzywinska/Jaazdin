@@ -1,23 +1,27 @@
 {
-  "name": "Exhaust Engine",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 17,
-        "class": {
-          "name": "Gunner"
+    "name": "Exhaust Engine",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 17,
+                "class": {
+                    "name": "Gunner"
+                }
+            },
+            "feature": [
+                "Gunner: Flameburster"
+            ]
         }
-      },
-      "feature": ["Gunner: Flameburster"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["MOD"],
-  "consumes": {
-    "name": "800gp"
-  },
-  "entries": [
-    "Your Burst Strike damage is increased by 1d10. +1 Misfire Score."
-  ]
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "MOD"
+    ],
+    "consumes": {
+        "name": "800gp"
+    },
+    "entries": [
+        "Your Burst Strike damage is increased by 1d10. +1 Misfire Score."
+    ]
 }

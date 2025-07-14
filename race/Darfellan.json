@@ -1,100 +1,111 @@
 {
-  "name": "Darfellan",
-  "source": "TftJC",
-  "page": 3,
-  "size": ["M"],
-  "speed": {
-    "walk": 30,
-    "swim": 30
-  },
-  "ability": [
-    {
-      "str": 2,
-      "con": 1
-    }
-  ],
-  "age": {
-    "mature": 25,
-    "max": 130
-  },
-  "darkvision": 60,
-  "languageProficiencies": [
-    {
-      "common": true,
-      "aquan": true
-    }
-  ],
-  "traitTags": ["Natural Armor"],
-  "skillProficiencies": [
-    {
-      "choose": {
-        "from": ["athletics", "intimidation", "perception", "survival"],
-        "count": 1
-      }
-    }
-  ],
-  "weaponProficiencies": [
-    {
-      "net|phb": true,
-      "trident|phb": true,
-      "javelin|phb": true,
-      "spear|phb": true
-    }
-  ],
-  "entries": [
-    {
-      "name": "Age",
-      "type": "entries",
-      "entries": [
-        "Darfellan can grow to be 130 years old, reaching maturity around 25."
-      ]
+    "name": "Darfellan",
+    "source": "TftJC",
+    "page": 3,
+    "size": [
+        "M"
+    ],
+    "speed": {
+        "walk": 30,
+        "swim": 30
     },
-    {
-      "type": "entries",
-      "name": "Size",
-      "entries": [
-        "Darfellan are 6-7ft on average, being quite bulky. Your Size is medium."
-      ]
+    "ability": [
+        {
+            "str": 2,
+            "con": 1
+        }
+    ],
+    "age": {
+        "mature": 25,
+        "max": 130
     },
-    {
-      "type": "entries",
-      "name": "Speed",
-      "entries": [
-        "Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed."
-      ]
-    },
-    {
-      "name": "Darkvision",
-      "entries": [
-        "Darfellan have darkvision in a range of 60ft, seeing things in darkness in shades of deep blues."
-      ],
-      "type": "entries"
-    },
-    {
-      "name": "Language",
-      "entries": ["Darfellan speak, read and write Common and Aquan."],
-      "type": "entries"
-    },
-    {
-      "name": "Darfellan Skills",
-      "entries": [
-        "You gain proficiency in one of the following skills: {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, or {@skill Survival}. Darfellan are all also proficient the {@item net|phb}, {@item trident|phb}, {@item javelin|phb}, and {@item spear|phb}."
-      ],
-      "type": "entries"
-    },
-    {
-      "name": "Natural Armor",
-      "entries": [
-        "Your tough skin provides you a Natural Armor Class of 13 + Your Dexterity Bonus. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield’s benefits apply as normal while you use your natural armor."
-      ],
-      "type": "entries"
-    },
-    {
-      "name": "Ice Diver",
-      "entries": [
-        "You take no penalties from swimming in freezing water. Additionally, you can hold your breath a number of hours equal to their Constitution Modifier + 1 (minimum 1)."
-      ],
-      "type": "entries"
-    }
-  ]
+    "darkvision": 60,
+    "languageProficiencies": [
+        {
+            "common": true,
+            "aquan": true
+        }
+    ],
+    "traitTags": [
+        "Natural Armor"
+    ],
+    "skillProficiencies": [
+        {
+            "choose": {
+                "from": [
+                    "athletics",
+                    "intimidation",
+                    "perception",
+                    "survival"
+                ],
+                "count": 1
+            }
+        }
+    ],
+    "weaponProficiencies": [
+        {
+            "net|phb": true,
+            "trident|phb": true,
+            "javelin|phb": true,
+            "spear|phb": true
+        }
+    ],
+    "entries": [
+        {
+            "name": "Age",
+            "type": "entries",
+            "entries": [
+                "Darfellan can grow to be 130 years old, reaching maturity around 25."
+            ]
+        },
+        {
+            "type": "entries",
+            "name": "Size",
+            "entries": [
+                "Darfellan are 6-7ft on average, being quite bulky. Your Size is medium."
+            ]
+        },
+        {
+            "type": "entries",
+            "name": "Speed",
+            "entries": [
+                "Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed."
+            ]
+        },
+        {
+            "name": "Darkvision",
+            "entries": [
+                "Darfellan have darkvision in a range of 60ft, seeing things in darkness in shades of deep blues."
+            ],
+            "type": "entries"
+        },
+        {
+            "name": "Language",
+            "entries": [
+                "Darfellan speak, read and write Common and Aquan."
+            ],
+            "type": "entries"
+        },
+        {
+            "name": "Darfellan Skills",
+            "entries": [
+                "You gain proficiency in one of the following skills: {@skill Athletics}, {@skill Intimidation}, {@skill Perception}, or {@skill Survival}. Darfellan are all also proficient the {@item net|phb}, {@item trident|phb}, {@item javelin|phb}, and {@item spear|phb}."
+            ],
+            "type": "entries"
+        },
+        {
+            "name": "Natural Armor",
+            "entries": [
+                "Your tough skin provides you a Natural Armor Class of 13 + Your Dexterity Bonus. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield’s benefits apply as normal while you use your natural armor."
+            ],
+            "type": "entries"
+        },
+        {
+            "name": "Ice Diver",
+            "entries": [
+                "You take no penalties from swimming in freezing water. Additionally, you can hold your breath a number of hours equal to their Constitution Modifier + 1 (minimum 1)."
+            ],
+            "type": "entries"
+        }
+    ]
 }

@@ -1,12 +1,12 @@
 {
-  "name": "Dodge and Roll",
-  "source": "TftJC",
-  "className": "Gunner",
-  "classSource": "TftJC",
-  "level": 9,
-  "entries": [
-    "At 9th level, your reflexes can save you from harm. As a Reaction, when you would be hit by a ranged weapon attack (and can see the attacker), you can move up to half of your movement. As a part of this reaction, you can expend a use of Shoot to Thrill to make an attack with a ranged weapon attack.",
-    "At 13th level, you additionally gain the benefits of Shoot to Thrill if you decide to attack.",
-    "At 17th level, you can now move your full movement with this reaction."
-  ]
+    "name": "Dodge and Roll",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "level": 9,
+    "entries": [
+        "At 9th level, your reflexes can save you from harm. As a Reaction, when you would be hit by a ranged weapon attack (and can see the attacker), you can move up to half of your movement. As a part of this reaction, you can expend a use of Shoot to Thrill to make an attack with a ranged weapon attack.",
+        "At 13th level, you additionally gain the benefits of Shoot to Thrill if you decide to attack.",
+        "At 17th level, you can now move your full movement with this reaction."
+    ]
 }

@@ -1,20 +1,20 @@
 {
-  "name": "Game of Choice",
-  "source": "TftJC",
-  "className": "Sorcerer",
-  "classSource": "PHB",
-  "subclassShortName": "Gambler",
-  "subclassSource": "TftJC",
-  "level": 1,
-  "entries": [
-    "At 1st level, you become skilled in games. You gain proficiency in either cards, dice or dragon's chess. You can use game pieces from your selected game as an arcane focus. Additionally, based on your game selection, you gain an associated feature.",
-    {
-      "type": "list",
-      "items": [
-        "Blackjack (Cards).  Whenever you would roll a d20 for an attack roll, skill check or saving throw and after applying modifiers the result would be 21, you can immediately cast the Catapult Spell as a free action without requiring it known, prepared or without expending a spell slot. The object thrown must be a playing card",
-        "Weighted Die (Dice). Once per turn, whenever you would roll a d4, d6, d8, d10 or d12 as a part of a Sorcerer Spell of 1st level or higher, you can maximize the value on one of those die before the die is rolled.",
-        "Superior Strategist (Dragon's Chess). After casting a Divination, Enchantment or Illusion spell, you can immediately move a creature up to 10ft in a direction of your choice. If the creature is not willing, they must make a Strength Saving Throw against your Spell Save DC, and on a success are not moved."
-      ]
-    }
-  ]
+    "name": "Game of Choice",
+    "source": "TftJC",
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "subclassShortName": "Gambler",
+    "subclassSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "At 1st level, you become skilled in games. You gain proficiency in either cards, dice or dragon's chess. You can use game pieces from your selected game as an arcane focus. Additionally, based on your game selection, you gain an associated feature.",
+        {
+            "type": "list",
+            "items": [
+                "Blackjack (Cards).  Whenever you would roll a d20 for an attack roll, skill check or saving throw and after applying modifiers the result would be 21, you can immediately cast the Catapult Spell as a free action without requiring it known, prepared or without expending a spell slot. The object thrown must be a playing card",
+                "Weighted Die (Dice). Once per turn, whenever you would roll a d4, d6, d8, d10 or d12 as a part of a Sorcerer Spell of 1st level or higher, you can maximize the value on one of those die before the die is rolled.",
+                "Superior Strategist (Dragon's Chess). After casting a Divination, Enchantment or Illusion spell, you can immediately move a creature up to 10ft in a direction of your choice. If the creature is not willing, they must make a Strength Saving Throw against your Spell Save DC, and on a success are not moved."
+            ]
+        }
+    ]
 }

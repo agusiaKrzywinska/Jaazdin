@@ -1,64 +1,66 @@
 {
-  "name": "Tempest",
-  "source": "TftJC",
-  "page": 63,
-  "level": 5,
-  "school": "T",
-  "time": [
-    {
-      "number": 1,
-      "unit": "action"
-    }
-  ],
-  "range": {
-    "type": "point",
-    "distance": {
-      "type": "feet",
-      "amount": 150
-    }
-  },
-  "components": {
-    "v": true,
-    "s": true
-  },
-  "duration": [
-    {
-      "type": "timed",
-      "duration": {
-        "type": "minute",
-        "amount": 1,
-        "upTo": true
-      },
-      "concentration": true
-    }
-  ],
-  "entries": [
-    "You create a raging tornado within range. The tornado has a diameter of 20ft, and a height of 100ft. As a Bonus Action on your turn, you can move the tornado up to 30ft in a straight line. Creatures that enter the tornado or start their turn within the tornado must make a Strength Saving throw, and on a fail are flung up into the air inside of the tornado. Creatures affected by the tornado take {@dice 5d4} bludgeoning damage when they fail the saving throw, and cannot concentrate on spells, fail dexterity saving throws, cannot use a fly speed if they have one and are deafened. Creatures affected are flung a number of feet into the air equal to 1d10 x 10 when they start their turn. If a creature goes higher than the top of the tornado, they are shot out of the top of the tornado in a random direction and fall. They fly a number of feet equal to the remaining distance they would have travelled upwards."
-  ],
-  "entriesHigherLevel": [
-    {
-      "type": "entries",
-      "name": "At Higher Levels",
-      "entries": [
-        "If you cast this spell using a spell slot of 6th level slot or higher, the cube size is increased by 5ft per spell slot above 5th level."
-      ]
-    }
-  ],
-  "classes": {
-    "fromClassList": [
-      {
-        "name": "Druid",
-        "source": "PHB"
-      },
-      {
-        "name": "Sorcerer",
-        "source": "PHB"
-      },
-      {
-        "name": "Wizard",
-        "source": "PHB"
-      }
+    "name": "Tempest",
+    "source": "TftJC",
+    "page": 63,
+    "level": 5,
+    "school": "T",
+    "time": [
+        {
+            "number": 1,
+            "unit": "action"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "feet",
+            "amount": 150
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true
+    },
+    "duration": [
+        {
+            "type": "timed",
+            "duration": {
+                "type": "minute",
+                "amount": 1,
+                "upTo": true
+            },
+            "concentration": true
+        }
+    ],
+    "entries": [
+        "You create a raging tornado within range. The tornado has a diameter of 20ft, and a height of 100ft. As a Bonus Action on your turn, you can move the tornado up to 30ft in a straight line. Creatures that enter the tornado or start their turn within the tornado must make a Strength Saving throw, and on a fail are flung up into the air inside of the tornado. Creatures affected by the tornado take {@dice 5d4} bludgeoning damage when they fail the saving throw, and cannot concentrate on spells, fail dexterity saving throws, cannot use a fly speed if they have one and are deafened. Creatures affected are flung a number of feet into the air equal to 1d10 x 10 when they start their turn. If a creature goes higher than the top of the tornado, they are shot out of the top of the tornado in a random direction and fall. They fly a number of feet equal to the remaining distance they would have travelled upwards."
+    ],
+    "entriesHigherLevel": [
+        {
+            "type": "entries",
+            "name": "At Higher Levels",
+            "entries": [
+                "If you cast this spell using a spell slot of 6th level slot or higher, the cube size is increased by 5ft per spell slot above 5th level."
+            ]
+        }
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Druid",
+                "source": "PHB"
+            },
+            {
+                "name": "Sorcerer",
+                "source": "PHB"
+            },
+            {
+                "name": "Wizard",
+                "source": "PHB"
+            }
+        ]
+    },
+    "savingThrow": [
+        "strength"
     ]
-  },
-  "savingThrow": ["strength"]
 }

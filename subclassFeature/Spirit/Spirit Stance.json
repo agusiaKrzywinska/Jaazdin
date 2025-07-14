@@ -1,33 +1,33 @@
 {
-  "name": "Spirit Stance",
-  "source": "TftJC",
-  "className": "Monk",
-  "classSource": "PHB",
-  "subclassShortName": "Spirit",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "At 3rd level, you can enter various stances to augment your combat. As a Bonus Action, you can enter a stance. A Stance ends after a minute without taking or dealing damage. Once per turn on your turn, you can expend one Ki point to enter a stance or switch your stance as a Free Action.",
-    {
-      "type": "inset",
-      "name": "Hunter Stance",
-      "entries": [
-        "Your first attack you make each turn has advantage.Creatures have disadvantage on Opportunity attacks made against you when you move out of their reach."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Graceful Stance",
-      "entries": [
-        "You gain a bonus to your Dexterity Saving Throws equal to your Wisdom Modifier. When Dodging, you can add your proficiency Bonus to your Armor Class."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Titan Stance",
-      "entries": [
-        "Once per turn, when dealing damage to a creature with an unarmed strike or a Monk weapon, you can force that creature to make a Wisdom Saving Throw against your Monk DC, and on a fail, they are frightened of you until the end of their next turn."
-      ]
-    }
-  ]
+    "name": "Spirit Stance",
+    "source": "TftJC",
+    "className": "Monk",
+    "classSource": "PHB",
+    "subclassShortName": "Spirit",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, you can enter various stances to augment your combat. As a Bonus Action, you can enter a stance. A Stance ends after a minute without taking or dealing damage. Once per turn on your turn, you can expend one Ki point to enter a stance or switch your stance as a Free Action.",
+        {
+            "type": "inset",
+            "name": "Hunter Stance",
+            "entries": [
+                "Your first attack you make each turn has advantage.Creatures have disadvantage on Opportunity attacks made against you when you move out of their reach."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Graceful Stance",
+            "entries": [
+                "You gain a bonus to your Dexterity Saving Throws equal to your Wisdom Modifier. When Dodging, you can add your proficiency Bonus to your Armor Class."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Titan Stance",
+            "entries": [
+                "Once per turn, when dealing damage to a creature with an unarmed strike or a Monk weapon, you can force that creature to make a Wisdom Saving Throw against your Monk DC, and on a fail, they are frightened of you until the end of their next turn."
+            ]
+        }
+    ]
 }

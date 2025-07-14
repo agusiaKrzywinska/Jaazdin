@@ -1,25 +1,46 @@
 {
-  "name": "Expanded Spell List",
-  "source": "TftJC",
-  "className": "Warlock",
-  "classSource": "PHB",
-  "subclassShortName": "Master",
-  "subclassSource": "TftJC",
-  "level": 1,
-  "entries": [
-    "Master lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
-    {
-      "type": "table",
-      "caption": "Master Expanded Spells",
-      "colLabels": ["Spell Level", "Spells"],
-      "colStyles": ["col-2 text-center", "col-10"],
-      "rows": [
-        ["1st", "{@spell shield of faith}, {@spell sanctuary}"],
-        ["2nd", "{@spell summon beast|TCE}, {@spell find steed}"],
-        ["3rd", "{@spell tiny servant|XGE}, {@spell spirit guardians}"],
-        ["4th", "{@spell summon construct|TCE}, {@spell summon elemental|TCE}"],
-        ["5th", "{@spell conjure elemental}, {@spell find greater steed|XGE}"]
-      ]
-    }
-  ]
+    "name": "Expanded Spell List",
+    "source": "TftJC",
+    "className": "Warlock",
+    "classSource": "PHB",
+    "subclassShortName": "Master",
+    "subclassSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "Master lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+        {
+            "type": "table",
+            "caption": "Master Expanded Spells",
+            "colLabels": [
+                "Spell Level",
+                "Spells"
+            ],
+            "colStyles": [
+                "col-2 text-center",
+                "col-10"
+            ],
+            "rows": [
+                [
+                    "1st",
+                    "{@spell shield of faith}, {@spell sanctuary}"
+                ],
+                [
+                    "2nd",
+                    "{@spell summon beast|TCE}, {@spell find steed}"
+                ],
+                [
+                    "3rd",
+                    "{@spell tiny servant|XGE}, {@spell spirit guardians}"
+                ],
+                [
+                    "4th",
+                    "{@spell summon construct|TCE}, {@spell summon elemental|TCE}"
+                ],
+                [
+                    "5th",
+                    "{@spell conjure elemental}, {@spell find greater steed|XGE}"
+                ]
+            ]
+        }
+    ]
 }

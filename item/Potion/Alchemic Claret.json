@@ -1,13 +1,13 @@
 {
-  "name": "Alchemic Claret",
-  "rarity": "rare",
-  "type": "P",
-  "source": "TftJC",
-  "entries": [
-    "This vial of blood-like substance emits a otherworldly power like nothing seen before. You can choose to imbibe this substance or apply it to a weapon.",
-    "If ingested, you gain the following benefits: For one hour, as a bonus action you can roll a hit dice + your level to gain that much HP. You then lose that Hit Dice until the end of a Long Rest. Once this feature is used the potion’s effect is gone.",
-    "If applied to a weapon you gain the following benefits: For one hour your weapon becomes magical. Additionally, you can choose to expend a Hit Dice to add the number rolled to the damage of any attack. Once you do so, you take Psychic damage equal to the number on the Hit Dice rolled. Once this feature is used the potion’s effect is gone.",
-    "This substance can also be used to Runesmith Blood Steel into Sanguine Steel instantly.",
-    "When a creature uses this consumable, they must make a DC:10 Wisdom save, on a fail you are Blood Starved."
-  ]
+    "name": "Alchemic Claret",
+    "rarity": "rare",
+    "type": "P",
+    "source": "TftJC",
+    "entries": [
+        "This vial of blood-like substance emits a otherworldly power like nothing seen before. You can choose to imbibe this substance or apply it to a weapon.",
+        "If ingested, you gain the following benefits: For one hour, as a bonus action you can roll a hit dice + your level to gain that much HP. You then lose that Hit Dice until the end of a Long Rest. Once this feature is used the potion’s effect is gone.",
+        "If applied to a weapon you gain the following benefits: For one hour your weapon becomes magical. Additionally, you can choose to expend a Hit Dice to add the number rolled to the damage of any attack. Once you do so, you take Psychic damage equal to the number on the Hit Dice rolled. Once this feature is used the potion’s effect is gone.",
+        "This substance can also be used to Runesmith Blood Steel into Sanguine Steel instantly.",
+        "When a creature uses this consumable, they must make a DC:10 Wisdom save, on a fail you are Blood Starved."
+    ]
 }

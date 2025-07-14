@@ -1,19 +1,19 @@
 {
-  "name": "Muscle Magazine Vol.",
-  "source": "TftJC",
-  "rarity": "varies",
-  "wondrous": true,
-  "type": "GV",
-  "entries": [
-    "This magazine contains tips, tricks, and hacks for improving ones body and physical form.",
-    {
-      "type": "list",
-      "items": [
-        "{@item Muscle Magazine Vol. I|TftJC}",
-        "{@item Muscle Magazine Vol. II|TftJC}",
-        "{@item Muscle Magazine Vol. III|TftJC}",
-        "{@item Muscle Magazine Vol. IV|TftJC}"
-      ]
-    }
-  ]
+    "name": "Muscle Magazine Vol.",
+    "source": "TftJC",
+    "rarity": "varies",
+    "wondrous": true,
+    "type": "GV",
+    "entries": [
+        "This magazine contains tips, tricks, and hacks for improving ones body and physical form.",
+        {
+            "type": "list",
+            "items": [
+                "{@item Muscle Magazine Vol. I|TftJC}",
+                "{@item Muscle Magazine Vol. II|TftJC}",
+                "{@item Muscle Magazine Vol. III|TftJC}",
+                "{@item Muscle Magazine Vol. IV|TftJC}"
+            ]
+        }
+    ]
 }

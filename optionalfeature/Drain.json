@@ -1,14 +1,18 @@
 {
-  "name": "Drain",
-  "prerequisite": [
-    {
-      "feature": ["Dark Arts Wizard"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["ARC"],
-  "entries": [
-    "Tier 1 Arcana. Creatures hit by The Forbidden Spell have their speed reduced by 10ft until the end of their next turn."
-  ]
+    "name": "Drain",
+    "prerequisite": [
+        {
+            "feature": [
+                "Dark Arts Wizard"
+            ]
+        }
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "ARC"
+    ],
+    "entries": [
+        "Tier 1 Arcana. Creatures hit by The Forbidden Spell have their speed reduced by 10ft until the end of their next turn."
+    ]
 }

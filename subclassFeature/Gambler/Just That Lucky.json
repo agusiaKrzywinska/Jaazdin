@@ -1,13 +1,13 @@
 {
-  "name": "Just That Lucky",
-  "source": "TftJC",
-  "className": "Sorcerer",
-  "classSource": "PHB",
-  "subclassShortName": "Gambler",
-  "subclassSource": "TftJC",
-  "level": 18,
-  "entries": [
-    "At 18th level, your ability to influence luck is at its peak. As an Action, you can pull forth all of your magical power and transform it into pure Luck. For the next minute, you cannot gain disadvantage from any source and each time you would roll with advantage you can select a creature you can see within 120ft of you, they have disadvantage on the next saving throw they would make in the next minute. This effect can stack.",
-    "Once you use this feature, you cannot do so again until you complete a long rest, unless you spend 5 sorcery points to use it again."
-  ]
+    "name": "Just That Lucky",
+    "source": "TftJC",
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "subclassShortName": "Gambler",
+    "subclassSource": "TftJC",
+    "level": 18,
+    "entries": [
+        "At 18th level, your ability to influence luck is at its peak. As an Action, you can pull forth all of your magical power and transform it into pure Luck. For the next minute, you cannot gain disadvantage from any source and each time you would roll with advantage you can select a creature you can see within 120ft of you, they have disadvantage on the next saving throw they would make in the next minute. This effect can stack.",
+        "Once you use this feature, you cannot do so again until you complete a long rest, unless you spend 5 sorcery points to use it again."
+    ]
 }

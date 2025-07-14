@@ -1,12 +1,12 @@
 {
-  "name": "Gear Shift",
-  "source": "TftJC",
-  "className": "Monk",
-  "classSource": "PHB",
-  "subclassShortName": "Divergent Body",
-  "subclassSource": "TftJC",
-  "level": 11,
-  "entries": [
-    "At 11th level, you have become adept at molding yourself to fit any circumstances. When a hostile creature hits you with an attack roll or subjects you to a saving throw, you can spend 2 ki points and use your reaction to perform Flurry of Blows, Patient Defense or Step of the Wind. You may enter the corresponding Body (as detailed in your Extraordinary Body feature) as part of this reaction."
-  ]
+    "name": "Gear Shift",
+    "source": "TftJC",
+    "className": "Monk",
+    "classSource": "PHB",
+    "subclassShortName": "Divergent Body",
+    "subclassSource": "TftJC",
+    "level": 11,
+    "entries": [
+        "At 11th level, you have become adept at molding yourself to fit any circumstances. When a hostile creature hits you with an attack roll or subjects you to a saving throw, you can spend 2 ki points and use your reaction to perform Flurry of Blows, Patient Defense or Step of the Wind. You may enter the corresponding Body (as detailed in your Extraordinary Body feature) as part of this reaction."
+    ]
 }

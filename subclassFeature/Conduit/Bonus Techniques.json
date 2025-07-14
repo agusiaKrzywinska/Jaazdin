@@ -1,33 +1,33 @@
 {
-  "name": "Bonus Techniques",
-  "source": "TftJC",
-  "className": "Warden",
-  "classSource": "TftJC",
-  "subclassShortName": "Conduit",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "When you take this tract at 3rd level, you gain one technique from the list below. Whenever you gain a new technique, you can choose from this list as well.",
-    {
-      "type": "inset",
-      "name": "Spell Sharing",
-      "entries": [
-        "When you cast a spell that targets only you, you can use this Technique to grant one other creature the effects of the spell. If the spell lasts for a duration, it lasts on the secondary creature for a number of rounds equal to the duration of the spell or equal to half your proficiency modifier (rounded down) whichever is lower."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Enhanced Healing",
-      "entries": [
-        "When you cast a spell that restores hit points, you can use this technique to increase the potency of the healing. The targeted creature regains additional hit points equal to your Constitution modifier, and you regain hit points equal to your Constitution modifier plus the spells level."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Arcane Battery",
-      "entries": [
-        "When a creature casts a spell within 30ft of you that deals damage, you can further enhance it with your own magic. Using your reaction to expend a spell slot you add additional force damage to one of the damage rolls of the spell equal to 2d8 per spell slot expended + half your warden levels. This is added to the spell's damage, meaning spells that save for half damage also halve this additional force damage."
-      ]
-    }
-  ]
+    "name": "Bonus Techniques",
+    "source": "TftJC",
+    "className": "Warden",
+    "classSource": "TftJC",
+    "subclassShortName": "Conduit",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "When you take this tract at 3rd level, you gain one technique from the list below. Whenever you gain a new technique, you can choose from this list as well.",
+        {
+            "type": "inset",
+            "name": "Spell Sharing",
+            "entries": [
+                "When you cast a spell that targets only you, you can use this Technique to grant one other creature the effects of the spell. If the spell lasts for a duration, it lasts on the secondary creature for a number of rounds equal to the duration of the spell or equal to half your proficiency modifier (rounded down) whichever is lower."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Enhanced Healing",
+            "entries": [
+                "When you cast a spell that restores hit points, you can use this technique to increase the potency of the healing. The targeted creature regains additional hit points equal to your Constitution modifier, and you regain hit points equal to your Constitution modifier plus the spells level."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Arcane Battery",
+            "entries": [
+                "When a creature casts a spell within 30ft of you that deals damage, you can further enhance it with your own magic. Using your reaction to expend a spell slot you add additional force damage to one of the damage rolls of the spell equal to 2d8 per spell slot expended + half your warden levels. This is added to the spell's damage, meaning spells that save for half damage also halve this additional force damage."
+            ]
+        }
+    ]
 }

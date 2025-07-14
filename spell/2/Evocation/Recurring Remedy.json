@@ -1,54 +1,54 @@
 {
-  "name": "Recurring Remedy",
-  "source": "TftJC",
-  "page": 58,
-  "level": 2,
-  "school": "V",
-  "time": [
-    {
-      "number": 1,
-      "unit": "action"
+    "name": "Recurring Remedy",
+    "source": "TftJC",
+    "page": 58,
+    "level": 2,
+    "school": "V",
+    "time": [
+        {
+            "number": 1,
+            "unit": "action"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "feet",
+            "amount": 30
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true
+    },
+    "duration": [
+        {
+            "type": "timed",
+            "duration": {
+                "amount": 1,
+                "type": "minute",
+                "upTo": true
+            },
+            "concentration": true
+        }
+    ],
+    "entries": [
+        "You generate a consistent stream of healing. Select a creature within range. For the duration, at the start of each of their turns they heal {@dice 1d4} hit points so long as they are conscious."
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Cleric",
+                "source": "PHB"
+            },
+            {
+                "name": "Druid",
+                "source": "PHB"
+            },
+            {
+                "name": "Ranger",
+                "source": "PHB"
+            }
+        ]
     }
-  ],
-  "range": {
-    "type": "point",
-    "distance": {
-      "type": "feet",
-      "amount": 30
-    }
-  },
-  "components": {
-    "v": true,
-    "s": true
-  },
-  "duration": [
-    {
-      "type": "timed",
-      "duration": {
-        "amount": 1,
-        "type": "minute",
-        "upTo": true
-      },
-      "concentration": true
-    }
-  ],
-  "entries": [
-    "You generate a consistent stream of healing. Select a creature within range. For the duration, at the start of each of their turns they heal {@dice 1d4} hit points so long as they are conscious."
-  ],
-  "classes": {
-    "fromClassList": [
-      {
-        "name": "Cleric",
-        "source": "PHB"
-      },
-      {
-        "name": "Druid",
-        "source": "PHB"
-      },
-      {
-        "name": "Ranger",
-        "source": "PHB"
-      }
-    ]
-  }
 }

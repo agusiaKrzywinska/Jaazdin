@@ -1,28 +1,68 @@
 {
-  "name": "Forbidden Spell Versatility",
-  "source": "TftJC",
-  "className": "Wizard",
-  "classSource": "PHB",
-  "subclassShortName": "Dark Arts",
-  "subclassSource": "TftJC",
-  "level": 2,
-  "entries": [
-    "At 2nd level, you learn more ways to utilize the Forbidden Spell. You gain access to two Forbidden Arcana. You gain more Forbidden Arcana as you progress in this class. Each time you take a level in this class, you can replace up to one Forbidden Arcana with another available. You can only learn Forbidden Arcana within your tier, which is determined by your level in this class. Each time you cast The Forbidden Spell, you can select a number of Forbidden Arcana to apply to that spell up to the spell slot level used in its casting. Additionally, the Tier of the Arcana cannot total more than the level at which the Spell is cast at (Favoured Arcana excludes this)",
-    {
-      "type": "table",
-      "caption": "Forbidden Arcana Scaling",
-      "colLabels": ["Level", "Forbidden Arcana Known", "Tier"],
-      "colStyles": ["col-2 text-center", "col-2 text-center ", "col-8"],
-      "rows": [
-        ["2", "2", "1"],
-        ["5", "4", "1"],
-        ["7", "6", "2"],
-        ["10", "8", "2"],
-        ["12", "10", "2"],
-        ["15", "12", "3"],
-        ["17", "14", "3"],
-        ["20", "16", "3"]
-      ]
-    }
-  ]
+    "name": "Forbidden Spell Versatility",
+    "source": "TftJC",
+    "className": "Wizard",
+    "classSource": "PHB",
+    "subclassShortName": "Dark Arts",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "At 2nd level, you learn more ways to utilize the Forbidden Spell. You gain access to two Forbidden Arcana. You gain more Forbidden Arcana as you progress in this class. Each time you take a level in this class, you can replace up to one Forbidden Arcana with another available. You can only learn Forbidden Arcana within your tier, which is determined by your level in this class. Each time you cast The Forbidden Spell, you can select a number of Forbidden Arcana to apply to that spell up to the spell slot level used in its casting. Additionally, the Tier of the Arcana cannot total more than the level at which the Spell is cast at (Favoured Arcana excludes this)",
+        {
+            "type": "table",
+            "caption": "Forbidden Arcana Scaling",
+            "colLabels": [
+                "Level",
+                "Forbidden Arcana Known",
+                "Tier"
+            ],
+            "colStyles": [
+                "col-2 text-center",
+                "col-2 text-center ",
+                "col-8"
+            ],
+            "rows": [
+                [
+                    "2",
+                    "2",
+                    "1"
+                ],
+                [
+                    "5",
+                    "4",
+                    "1"
+                ],
+                [
+                    "7",
+                    "6",
+                    "2"
+                ],
+                [
+                    "10",
+                    "8",
+                    "2"
+                ],
+                [
+                    "12",
+                    "10",
+                    "2"
+                ],
+                [
+                    "15",
+                    "12",
+                    "3"
+                ],
+                [
+                    "17",
+                    "14",
+                    "3"
+                ],
+                [
+                    "20",
+                    "16",
+                    "3"
+                ]
+            ]
+        }
+    ]
 }

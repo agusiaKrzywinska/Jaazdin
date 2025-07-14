@@ -1,12 +1,12 @@
 {
-  "name": "Hidden Talents",
-  "source": "TftJC",
-  "className": "Wizard",
-  "classSource": "PHB",
-  "subclassShortName": "Spellthief",
-  "subclassSource": "TftJC",
-  "level": 14,
-  "entries": [
-    "At 14th level, your ability to stay hidden is perfected. You can choose to ignore either the Somatic or the Verbal component of a spell, and always have {@spell Invisibility} and {@spell Greater Invisibility} shorthanded (these do not count against your number of shorthanded spells, and these spells cannot be replaced by Quickened Copying)."
-  ]
+    "name": "Hidden Talents",
+    "source": "TftJC",
+    "className": "Wizard",
+    "classSource": "PHB",
+    "subclassShortName": "Spellthief",
+    "subclassSource": "TftJC",
+    "level": 14,
+    "entries": [
+        "At 14th level, your ability to stay hidden is perfected. You can choose to ignore either the Somatic or the Verbal component of a spell, and always have {@spell Invisibility} and {@spell Greater Invisibility} shorthanded (these do not count against your number of shorthanded spells, and these spells cannot be replaced by Quickened Copying)."
+    ]
 }

@@ -1,0 +1,21 @@
+{
+    "name": "Drake Egg Nog",
+    "source": "TftJC",
+    "type": "FD",
+    "rarity": "uncommon",
+    "value": 8000,
+    "weight": 0,
+    "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools or Brewer's Tools to prepare.",
+        "<b>Ingredients:</b> x1 Uncommon Dragon Meat (Type determines resistance).",
+        "<b>Effect:</b> The first time you take the damage type of the meal reduce the damage by 2d8 to a minimum of 1. The effect then ends."
+    ],
+    "foundryType": "consumable",
+    "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+            "max": 1,
+            "per": "charges"
+        }
+    }
+}

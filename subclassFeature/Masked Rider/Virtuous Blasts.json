@@ -1,12 +1,12 @@
 {
-  "name": "Virtuous Blasts",
-  "source": "TftJC",
-  "className": "Paladin",
-  "classSource": "PHB",
-  "subclassShortName": "Masked Rider",
-  "subclassSource": "TftJC",
-  "level": 15,
-  "entries": [
-    "At 15th level, your resolve causes explosive force to emanate from you. Whenever you would succeed on a Saving Throw, you can make all creatures within 5ft of you take Thunder damage equal to your Charisma Modifier."
-  ]
+    "name": "Virtuous Blasts",
+    "source": "TftJC",
+    "className": "Paladin",
+    "classSource": "PHB",
+    "subclassShortName": "Masked Rider",
+    "subclassSource": "TftJC",
+    "level": 15,
+    "entries": [
+        "At 15th level, your resolve causes explosive force to emanate from you. Whenever you would succeed on a Saving Throw, you can make all creatures within 5ft of you take Thunder damage equal to your Charisma Modifier."
+    ]
 }

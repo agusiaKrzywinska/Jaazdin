@@ -1,19 +1,21 @@
 {
-  "name": "Money Talks",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 3,
-        "class": {
-          "name": "Warlock"
+    "name": "Money Talks",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 3,
+                "class": {
+                    "name": "Warlock"
+                }
+            }
         }
-      }
-    }
-  ],
-  "source": "TftJC",
-  "page": 43,
-  "featureType": ["EI"],
-  "entries": [
-    "You can cast the magic mouth spell once per day without expending a spell slot or requiring a material component. The object of the spell must be a coin."
-  ]
+    ],
+    "source": "TftJC",
+    "page": 43,
+    "featureType": [
+        "EI"
+    ],
+    "entries": [
+        "You can cast the magic mouth spell once per day without expending a spell slot or requiring a material component. The object of the spell must be a coin."
+    ]
 }

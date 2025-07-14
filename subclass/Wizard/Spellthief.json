@@ -1,14 +1,14 @@
 {
-  "name": "Spellthief",
-  "source": "TftJC",
-  "page": 49,
-  "className": "Wizard",
-  "classSource": "PHB",
-  "shortName": "Spellthief",
-  "subclassFeatures": [
-    "Spellthief|Wizard|PHB|Spellthief|TftJC|2",
-    "Quickened Copying|Wizard|PHB|Spellthief|TftJC|6",
-    "Personalized Notes|Wizard|PHB|Spellthief|TftJC|10",
-    "Hidden Talents|Wizard|PHB|Spellthief|TftJC|14"
-  ]
+    "name": "Spellthief",
+    "source": "TftJC",
+    "page": 49,
+    "className": "Wizard",
+    "classSource": "PHB",
+    "shortName": "Spellthief",
+    "subclassFeatures": [
+        "Spellthief|Wizard|PHB|Spellthief|TftJC|2",
+        "Quickened Copying|Wizard|PHB|Spellthief|TftJC|6",
+        "Personalized Notes|Wizard|PHB|Spellthief|TftJC|10",
+        "Hidden Talents|Wizard|PHB|Spellthief|TftJC|14"
+    ]
 }

@@ -1,27 +1,27 @@
 {
-  "name": "Drop N' Dance",
-  "source": "TftJC",
-  "className": "Gunner",
-  "classSource": "TftJC",
-  "subclassShortName": "Quickdraw",
-  "subclassSource": "TftJC",
-  "level": 14,
-  "entries": [
-    "At 14th level, you gain superhuman accuracy to bully your foes. Before making a ranged firearm attack, you can declare it as Make it Drop or Make it Dance.",
-    {
-      "type": "inset",
-      "name": "Make It Drop",
-      "entries": [
-        "If the attack hits, the target suffers no damage, but instead drops a held item in their possession of your choice. Additionally, the hit creature must make a Constitution saving throw (DC is equal to 8 + Prof + Dex), and on a fail, the hit limb is injured and cannot be used until the end of that creature's next turn. "
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Make it Dance",
-      "entries": [
-        "If the attack hits, you fire at the target creature's feet. The target must make a Wisdom Saving throw (DC is equal to 8 + Prof + Dex), and on a fail are forced to Dance in place until the end of their next turn. Creatures immune to the frightened condition are immune to this feature. Using this ability empties all bullets loaded in a weapon you are holding.",
-        "A dancing creature must use all its movement to dance without leaving its space and has disadvantage on Dexterity saving throws and attack rolls."
-      ]
-    }
-  ]
+    "name": "Drop N' Dance",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "subclassShortName": "Quickdraw",
+    "subclassSource": "TftJC",
+    "level": 14,
+    "entries": [
+        "At 14th level, you gain superhuman accuracy to bully your foes. Before making a ranged firearm attack, you can declare it as Make it Drop or Make it Dance.",
+        {
+            "type": "inset",
+            "name": "Make It Drop",
+            "entries": [
+                "If the attack hits, the target suffers no damage, but instead drops a held item in their possession of your choice. Additionally, the hit creature must make a Constitution saving throw (DC is equal to 8 + Prof + Dex), and on a fail, the hit limb is injured and cannot be used until the end of that creature's next turn. "
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Make it Dance",
+            "entries": [
+                "If the attack hits, you fire at the target creature's feet. The target must make a Wisdom Saving throw (DC is equal to 8 + Prof + Dex), and on a fail are forced to Dance in place until the end of their next turn. Creatures immune to the frightened condition are immune to this feature. Using this ability empties all bullets loaded in a weapon you are holding.",
+                "A dancing creature must use all its movement to dance without leaving its space and has disadvantage on Dexterity saving throws and attack rolls."
+            ]
+        }
+    ]
 }

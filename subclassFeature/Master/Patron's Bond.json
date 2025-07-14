@@ -1,13 +1,13 @@
 {
-  "name": "Patron's Bond",
-  "source": "TftJC",
-  "className": "Warlock",
-  "classSource": "PHB",
-  "subclassShortName": "Master",
-  "subclassSource": "TftJC",
-  "level": 6,
-  "entries": [
-    "At 6th level, the bond between you and your minion is strengthened to the point where you can share magical effects. When you heal hit points through the casting of a spell your minion regains an equal amount and vice versa. Likewise when you cast a spell that targets only self, it affects your minion as well if they are within 30 feet when you cast it.",
-    "Your minion can become medium and any future minions you summon can be medium as well."
-  ]
+    "name": "Patron's Bond",
+    "source": "TftJC",
+    "className": "Warlock",
+    "classSource": "PHB",
+    "subclassShortName": "Master",
+    "subclassSource": "TftJC",
+    "level": 6,
+    "entries": [
+        "At 6th level, the bond between you and your minion is strengthened to the point where you can share magical effects. When you heal hit points through the casting of a spell your minion regains an equal amount and vice versa. Likewise when you cast a spell that targets only self, it affects your minion as well if they are within 30 feet when you cast it.",
+        "Your minion can become medium and any future minions you summon can be medium as well."
+    ]
 }

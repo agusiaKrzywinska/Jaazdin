@@ -1,12 +1,12 @@
 {
-  "name": "Deadeye Modifications",
-  "source": "TftJC",
-  "className": "Gunner",
-  "classSource": "TftJC",
-  "subclassShortName": "Deadeye",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "At 3rd level, Deadeyes gain access to new modifications which do not count against their known Modifications. You gain the modifications below when you unlock new modification tiers in your Gunner class progression, which do not count against your known modifications."
-  ]
+    "name": "Deadeye Modifications",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "subclassShortName": "Deadeye",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, Deadeyes gain access to new modifications which do not count against their known Modifications. You gain the modifications below when you unlock new modification tiers in your Gunner class progression, which do not count against your known modifications."
+    ]
 }

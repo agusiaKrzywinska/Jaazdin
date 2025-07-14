@@ -1,14 +1,18 @@
 {
-  "name": "Leader's Venir",
-  "prerequisite": [
-    {
-      "feature": ["Master Warlock"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 43,
-  "featureType": ["EI"],
-  "entries": [
-    "Your minion’s attacks become magical for the purposes of overcoming damage resistance and deal additional damage equal to your Charisma modifier if you have hit the target this turn."
-  ]
+    "name": "Leader's Venir",
+    "prerequisite": [
+        {
+            "feature": [
+                "Master Warlock"
+            ]
+        }
+    ],
+    "source": "TftJC",
+    "page": 43,
+    "featureType": [
+        "EI"
+    ],
+    "entries": [
+        "Your minion’s attacks become magical for the purposes of overcoming damage resistance and deal additional damage equal to your Charisma modifier if you have hit the target this turn."
+    ]
 }

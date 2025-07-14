@@ -1,12 +1,12 @@
 {
-  "name": "Shoot to Thrill Improvement",
-  "source": "TftJC",
-  "className": "Gunner",
-  "classSource": "TftJC",
-  "subclassShortName": "Rambo",
-  "subclassSource": "TftJC",
-  "level": 10,
-  "entries": [
-    "At 10th level, your Shoot to Thrill feature is enhanced. When using Shoot To Thrill, you can immediately make use of an ability that details you must forgo an attack to use it as a part of that Attack (you do not have to forgo the attack)."
-  ]
+    "name": "Shoot to Thrill Improvement",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "subclassShortName": "Rambo",
+    "subclassSource": "TftJC",
+    "level": 10,
+    "entries": [
+        "At 10th level, your Shoot to Thrill feature is enhanced. When using Shoot To Thrill, you can immediately make use of an ability that details you must forgo an attack to use it as a part of that Attack (you do not have to forgo the attack)."
+    ]
 }

@@ -1,41 +1,53 @@
 {
-  "name": "Infected Spells",
-  "source": "TftJC",
-  "className": "Artificer",
-  "classSource": "TCE",
-  "subclassShortName": "Necro Virus",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "At 3rd level, you gain the power to infect others with your spells. As a Bonus Action, you can add your Virus to an Enchantment, Evocation or Necromancy spell of 1st level or higher you cast using your Poisoner's Tools.If the creature is affected by the spell, select a Virus from the Virus list, and they are affected by it and then by the spell. If the spell has a saving throw and the creature succeeds, the virus does not affect them. If the spell affects multiple creatures, they are affected by the same Virus. This feature can be used as a Free Action a number of times per Long Rest equal to your Proficiency Bonus.",
-    {
-      "type": "table",
-      "caption": "Virus Types",
-      "colLabels": ["Virus", "Effect", "Spell School"],
-      "colStyles": ["col- text-", "col- text- ", "col- text- "],
-      "rows": [
-        ["Wither", "The creature takes {@dice 1d6} necrotic damage.", "Any"],
-        [
-          "Augmentation",
-          "The creature has advantage on the next ability check or attack roll they make this minute.",
-          "Any"
-        ],
-        [
-          "Mindhack",
-          "The creature subtracts {@dice 1d6} from their next ability check or attack roll they make this minute.",
-          "Enchantment"
-        ],
-        [
-          "Fortitude",
-          "The creature gains {@dice 1d8} temporary hit points.",
-          "Necromancy"
-        ],
-        [
-          "Potency",
-          "You can reroll a number of die rolled as a part of the spell up to half of your proficiency bonus (rounded down).",
-          "Evocation"
-        ]
-      ]
-    }
-  ]
+    "name": "Infected Spells",
+    "source": "TftJC",
+    "className": "Artificer",
+    "classSource": "TCE",
+    "subclassShortName": "Necro Virus",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, you gain the power to infect others with your spells. As a Bonus Action, you can add your Virus to an Enchantment, Evocation or Necromancy spell of 1st level or higher you cast using your Poisoner's Tools.If the creature is affected by the spell, select a Virus from the Virus list, and they are affected by it and then by the spell. If the spell has a saving throw and the creature succeeds, the virus does not affect them. If the spell affects multiple creatures, they are affected by the same Virus. This feature can be used as a Free Action a number of times per Long Rest equal to your Proficiency Bonus.",
+        {
+            "type": "table",
+            "caption": "Virus Types",
+            "colLabels": [
+                "Virus",
+                "Effect",
+                "Spell School"
+            ],
+            "colStyles": [
+                "col- text-",
+                "col- text- ",
+                "col- text- "
+            ],
+            "rows": [
+                [
+                    "Wither",
+                    "The creature takes {@dice 1d6} necrotic damage.",
+                    "Any"
+                ],
+                [
+                    "Augmentation",
+                    "The creature has advantage on the next ability check or attack roll they make this minute.",
+                    "Any"
+                ],
+                [
+                    "Mindhack",
+                    "The creature subtracts {@dice 1d6} from their next ability check or attack roll they make this minute.",
+                    "Enchantment"
+                ],
+                [
+                    "Fortitude",
+                    "The creature gains {@dice 1d8} temporary hit points.",
+                    "Necromancy"
+                ],
+                [
+                    "Potency",
+                    "You can reroll a number of die rolled as a part of the spell up to half of your proficiency bonus (rounded down).",
+                    "Evocation"
+                ]
+            ]
+        }
+    ]
 }

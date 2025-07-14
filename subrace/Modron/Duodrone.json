@@ -1,40 +1,46 @@
 {
-  "name": "Duodrone",
-  "source": "TftJC",
-  "page": 9,
-  "size": ["M"],
-  "speed": 30,
-  "ability": [
-    {
-      "int": 2,
-      "con": 1
-    }
-  ],
-  "entries": [
-    {
-      "name": "Duodrone",
-      "entries": [
-        "At 1st level, you learn the {@spell Detect Magic} Spell. At 3rd level, you learn the {@spell See Invisibility} Spell. You can cast these each without requiring a Spell Slot or material components once per Long Rest. Your size becomes Medium."
-      ],
-      "type": "entries"
-    }
-  ],
-  "raceName": "Modron",
-  "raceSource": "TftJC",
-  "additionalSpells": [
-    {
-      "innate": {
-        "1": {
-          "daily": {
-            "1": ["detect magic|PHB"]
-          }
-        },
-        "3": {
-          "daily": {
-            "1": ["see invisibility|PHB"]
-          }
+    "name": "Duodrone",
+    "source": "TftJC",
+    "page": 9,
+    "size": [
+        "M"
+    ],
+    "speed": 30,
+    "ability": [
+        {
+            "int": 2,
+            "con": 1
         }
-      }
-    }
-  ]
+    ],
+    "entries": [
+        {
+            "name": "Duodrone",
+            "entries": [
+                "At 1st level, you learn the {@spell Detect Magic} Spell. At 3rd level, you learn the {@spell See Invisibility} Spell. You can cast these each without requiring a Spell Slot or material components once per Long Rest. Your size becomes Medium."
+            ],
+            "type": "entries"
+        }
+    ],
+    "raceName": "Modron",
+    "raceSource": "TftJC",
+    "additionalSpells": [
+        {
+            "innate": {
+                "1": {
+                    "daily": {
+                        "1": [
+                            "detect magic|PHB"
+                        ]
+                    }
+                },
+                "3": {
+                    "daily": {
+                        "1": [
+                            "see invisibility|PHB"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
 }

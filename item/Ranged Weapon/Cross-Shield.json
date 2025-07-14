@@ -1,20 +1,25 @@
 {
-  "name": "Cross-Shield",
-  "source": "TftJC",
-  "type": "R",
-  "rarity": "none",
-  "baseItem": "heavy crossbow|PHB",
-  "weight": 25,
-  "value": 15000,
-  "weaponCategory": "martial",
-  "property": ["A", "H", "LD", "2H"],
-  "range": "100/400",
-  "dmg1": "1d10",
-  "dmgType": "P",
-  "foundryType": "weapon",
-  "ammoType": "crossbow bolt|phb",
-  "entries": [
-    "<i><b>Simple Invention.</i></b>",
-    "If you do not move on your turn you benefit from the AC of the shield until the start of your next turn."
-  ]
+    "name": "Cross-Shield",
+    "source": "TftJC",
+    "type": "R",
+    "rarity": "none",
+    "baseItem": "heavy crossbow|PHB",
+    "weight": 25,
+    "value": 15000,
+    "weaponCategory": "martial",
+    "property": [
+        "A",
+        "H",
+        "LD",
+        "2H"
+    ],
+    "range": "100/400",
+    "dmg1": "1d10",
+    "dmgType": "P",
+    "foundryType": "weapon",
+    "ammoType": "crossbow bolt|phb",
+    "entries": [
+        "<i><b>Simple Invention.</i></b>",
+        "If you do not move on your turn you benefit from the AC of the shield until the start of your next turn."
+    ]
 }

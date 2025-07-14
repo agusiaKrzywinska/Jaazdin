@@ -1,14 +1,14 @@
 {
-  "name": "Life Trajectory",
-  "source": "TftJC",
-  "className": "Gunner",
-  "classSource": "TftJC",
-  "level": 5,
-  "entries": [
-    "At 5th level, your relationship with the world is further defined by the weapons you carry. Choose one of the paths below and gain that feature, you gain a second feature at level 11 based on your selection.",
-    "<b>Desperado.</b> Your recklessness is your greatest asset. When you make an intimidation or stealth check, you gain advantage on the roll as long as there are no allies within 30ft of you. Succeeding on the check grants you temp hit points equal to your levels in Gunner.",
-    "<b>Wanderer.</b> You are at home on the road. You have advantage on saving throws to resist the effects of hot or cold environments, you confer this bonus to your steed. You and your mount ignore the effects of non-magical difficult terrain.",
-    "<b>Soldier.</b> You serve to protect the innocent. You have advantage on persuasion or intimidation checks to protect others. In addition, if an ally within 60ft of you is hit by a weapon attack, you can use your reaction and expend a use of your Shoot to Thrill to make an attack roll against the attacker.",
-    "<b>Craftsman.</b> You gain proficiency in an Artisan Tool of your choice. As a Bonus Action, you can expend a use of MacGyver’d to allow a firearm of your choice to gain the benefits of a Gun Modification until the start of your next turn."
-  ]
+    "name": "Life Trajectory",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "level": 5,
+    "entries": [
+        "At 5th level, your relationship with the world is further defined by the weapons you carry. Choose one of the paths below and gain that feature, you gain a second feature at level 11 based on your selection.",
+        "<b>Desperado.</b> Your recklessness is your greatest asset. When you make an intimidation or stealth check, you gain advantage on the roll as long as there are no allies within 30ft of you. Succeeding on the check grants you temp hit points equal to your levels in Gunner.",
+        "<b>Wanderer.</b> You are at home on the road. You have advantage on saving throws to resist the effects of hot or cold environments, you confer this bonus to your steed. You and your mount ignore the effects of non-magical difficult terrain.",
+        "<b>Soldier.</b> You serve to protect the innocent. You have advantage on persuasion or intimidation checks to protect others. In addition, if an ally within 60ft of you is hit by a weapon attack, you can use your reaction and expend a use of your Shoot to Thrill to make an attack roll against the attacker.",
+        "<b>Craftsman.</b> You gain proficiency in an Artisan Tool of your choice. As a Bonus Action, you can expend a use of MacGyver’d to allow a firearm of your choice to gain the benefits of a Gun Modification until the start of your next turn."
+    ]
 }

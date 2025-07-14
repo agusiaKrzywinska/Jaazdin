@@ -1,27 +1,27 @@
 {
-  "name": "Channel Divinity",
-  "source": "TftJC",
-  "className": "Paladin",
-  "classSource": "PHB",
-  "subclassShortName": "Masked Rider",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "When you take this Oath at 3rd level, you gain access to two new channel divinity options.",
-    {
-      "type": "inset",
-      "name": "Mask Change",
-      "entries": [
-        "You can conduct a 1 hour Ritual with a set of Armor you are wearing, a weapon and optionally a shield. These items then disappear and are stored inside a pocket dimension inside of your Holy Symbol. Then as a Bonus Action, you can expend a use of your Channel Divinity to summon these items and immediately equip them. After doing so, all creatures within10ft of you must make a Constitution Saving Throw, and on a fail take 2d8 Thunder Damage and are shoved 10ft away from you, or half as much on a successful save and are not moved. This damage increases by 1d8 at 5th, 9th, 13th and17th level. You can dismiss these items back into your Holy Symbol as a Free Action.",
-        "You can use this ability without expending a use of ChannelDivinity, but it then requires an Action to use, and deals no damage nor does it push away nearby creatures."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Explosive Finisher",
-      "entries": [
-        "After dealing Thunder or Force Damage, you can use your Reaction to expend a use of Channel Divinity to finish your opponent. You move your movement to a creature that took the damage, without provoking attacks of opportunity, then immediately make a melee attack against them. If that attack hits, it is treated as a Divine Smite at the highest level for which you have spell slots. If this damage leaves the creature with hit points equal to or less than your Paladin Level, they are finished off (you can decide lethal or non lethal). Regardless of hitting the target or not, the target is knocked prone."
-      ]
-    }
-  ]
+    "name": "Channel Divinity",
+    "source": "TftJC",
+    "className": "Paladin",
+    "classSource": "PHB",
+    "subclassShortName": "Masked Rider",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "When you take this Oath at 3rd level, you gain access to two new channel divinity options.",
+        {
+            "type": "inset",
+            "name": "Mask Change",
+            "entries": [
+                "You can conduct a 1 hour Ritual with a set of Armor you are wearing, a weapon and optionally a shield. These items then disappear and are stored inside a pocket dimension inside of your Holy Symbol. Then as a Bonus Action, you can expend a use of your Channel Divinity to summon these items and immediately equip them. After doing so, all creatures within10ft of you must make a Constitution Saving Throw, and on a fail take 2d8 Thunder Damage and are shoved 10ft away from you, or half as much on a successful save and are not moved. This damage increases by 1d8 at 5th, 9th, 13th and17th level. You can dismiss these items back into your Holy Symbol as a Free Action.",
+                "You can use this ability without expending a use of ChannelDivinity, but it then requires an Action to use, and deals no damage nor does it push away nearby creatures."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Explosive Finisher",
+            "entries": [
+                "After dealing Thunder or Force Damage, you can use your Reaction to expend a use of Channel Divinity to finish your opponent. You move your movement to a creature that took the damage, without provoking attacks of opportunity, then immediately make a melee attack against them. If that attack hits, it is treated as a Divine Smite at the highest level for which you have spell slots. If this damage leaves the creature with hit points equal to or less than your Paladin Level, they are finished off (you can decide lethal or non lethal). Regardless of hitting the target or not, the target is knocked prone."
+            ]
+        }
+    ]
 }

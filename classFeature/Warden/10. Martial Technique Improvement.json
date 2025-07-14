@@ -1,10 +1,10 @@
 {
-  "name": "Martial Technique Improvement",
-  "source": "TftJC",
-  "className": "Warden",
-  "classSource": "TftJC",
-  "level": 10,
-  "entries": [
-    "At 10th level, the number of techniques you can use before resting increases to 1 + Strength or Dexterity modifier."
-  ]
+    "name": "Martial Technique Improvement",
+    "source": "TftJC",
+    "className": "Warden",
+    "classSource": "TftJC",
+    "level": 10,
+    "entries": [
+        "At 10th level, the number of techniques you can use before resting increases to 1 + Strength or Dexterity modifier."
+    ]
 }

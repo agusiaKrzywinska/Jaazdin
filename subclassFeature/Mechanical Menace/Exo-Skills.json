@@ -1,12 +1,12 @@
 {
-  "name": "Exo-Skills",
-  "source": "TftJC",
-  "className": "Barbarian",
-  "classSource": "PHB",
-  "subclassShortName": "Mechanical Menace",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "At 3rd level, your suit empowers you mind with new abilities. You gain proficiency in either Arcana, Investigation, History or Religion (your choice)."
-  ]
+    "name": "Exo-Skills",
+    "source": "TftJC",
+    "className": "Barbarian",
+    "classSource": "PHB",
+    "subclassShortName": "Mechanical Menace",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, your suit empowers you mind with new abilities. You gain proficiency in either Arcana, Investigation, History or Religion (your choice)."
+    ]
 }

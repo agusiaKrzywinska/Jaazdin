@@ -1,0 +1,21 @@
+{
+  "name": "Harvest Sauce",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "common",
+  "value": 3500,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook's Tools or Brewer's Tools to prepare.",
+    "<b>Ingredients:</b> x3 Red Winter Berries, x1 Remedial Herb, x1 Bubblepod.",
+    "<b>Effect:</b> Must be eaten with another meal, whenever you gain temporary hit points, increase the amount gained by 1."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
+    }
+  }
+}

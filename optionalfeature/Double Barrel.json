@@ -1,23 +1,27 @@
 {
-  "name": "Double Barrel",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 13,
-        "class": {
-          "name": "Gunner"
+    "name": "Double Barrel",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 13,
+                "class": {
+                    "name": "Gunner"
+                }
+            },
+            "feature": [
+                "Gunner: Quickdraw, Light"
+            ]
         }
-      },
-      "feature": ["Gunner: Quickdraw, Light"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["MOD"],
-  "consumes": {
-    "name": "650gp"
-  },
-  "entries": [
-    "When using your bonus action to make an attack with a light firearm, you can make two attacks as a part of the same bonus action."
-  ]
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "MOD"
+    ],
+    "consumes": {
+        "name": "650gp"
+    },
+    "entries": [
+        "When using your bonus action to make an attack with a light firearm, you can make two attacks as a part of the same bonus action."
+    ]
 }

@@ -1,21 +1,21 @@
 {
-  "name": "Way of the God Hand",
-  "source": "TftJC",
-  "className": "Monk",
-  "classSource": "PHB",
-  "subclassShortName": "God Hand",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "A crack of gunpowder and smoke briefly illuminate a figure draped in gray and red. As the bullet leave the figure's firearm, it whizzes towards the bandit hiding behind the overturned carriage. A sigh of relief leaves the bandit’s lungs as the bullet passes them by. Suddenly there is a flash of gold from behind them. They turn just in time to see a golden spectral hand slam into the bullet's path, deflecting it right back into the bandit. Reeling from the impact, the bandit stragglers back, right into the gray figure that has approached in the interim. With a swift chop of their hand, the bandit crumples to the ground.",
-    "Those trained in the techniques of the God Hand can extend their fists and feet beyond their body, using it to guide and deflect projectiles. While most monks focus on being up close and personal, those of the God Hand command the battlefield from any position with deadly projectiles and waiting fists.",
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Weapons of the God Hand|Monk|PHB|God Hand|TftJC|3"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Guide Thy Hand|Monk|PHB|God Hand|TftJC|3"
-    }
-  ]
+    "name": "Way of the God Hand",
+    "source": "TftJC",
+    "className": "Monk",
+    "classSource": "PHB",
+    "subclassShortName": "God Hand",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "A crack of gunpowder and smoke briefly illuminate a figure draped in gray and red. As the bullet leave the figure's firearm, it whizzes towards the bandit hiding behind the overturned carriage. A sigh of relief leaves the bandit’s lungs as the bullet passes them by. Suddenly there is a flash of gold from behind them. They turn just in time to see a golden spectral hand slam into the bullet's path, deflecting it right back into the bandit. Reeling from the impact, the bandit stragglers back, right into the gray figure that has approached in the interim. With a swift chop of their hand, the bandit crumples to the ground.",
+        "Those trained in the techniques of the God Hand can extend their fists and feet beyond their body, using it to guide and deflect projectiles. While most monks focus on being up close and personal, those of the God Hand command the battlefield from any position with deadly projectiles and waiting fists.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Weapons of the God Hand|Monk|PHB|God Hand|TftJC|3"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Guide Thy Hand|Monk|PHB|God Hand|TftJC|3"
+        }
+    ]
 }

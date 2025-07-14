@@ -1,14 +1,14 @@
 {
-  "name": "Path of the Pugilist",
-  "source": "TftJC",
-  "page": 12,
-  "className": "Barbarian",
-  "classSource": "PHB",
-  "shortName": "Pugilist",
-  "subclassFeatures": [
-    "Path of the Pugilist|Barbarian|PHB|Pugilist|TftJC|3",
-    "Showstopper|Barbarian|PHB|Pugilist|TftJC|6",
-    "Fancy Footwork|Barbarian|PHB|Pugilist|TftJC|10",
-    "Stubborn|Barbarian|PHB|Pugilist|TftJC|14"
-  ]
+    "name": "Path of the Pugilist",
+    "source": "TftJC",
+    "page": 12,
+    "className": "Barbarian",
+    "classSource": "PHB",
+    "shortName": "Pugilist",
+    "subclassFeatures": [
+        "Path of the Pugilist|Barbarian|PHB|Pugilist|TftJC|3",
+        "Showstopper|Barbarian|PHB|Pugilist|TftJC|6",
+        "Fancy Footwork|Barbarian|PHB|Pugilist|TftJC|10",
+        "Stubborn|Barbarian|PHB|Pugilist|TftJC|14"
+    ]
 }

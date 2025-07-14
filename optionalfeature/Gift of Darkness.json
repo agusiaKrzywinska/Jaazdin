@@ -1,20 +1,24 @@
 {
-  "name": "Gift of Darkness",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 5,
-        "class": {
-          "name": "Warlock"
+    "name": "Gift of Darkness",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 5,
+                "class": {
+                    "name": "Warlock"
+                }
+            },
+            "feature": [
+                "Shadowsworn Warlock"
+            ]
         }
-      },
-      "feature": ["Shadowsworn Warlock"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 44,
-  "featureType": ["EI"],
-  "entries": [
-    "You learn the darkvision spell and can cast it once per day without expending a spell slot. In addition, when cast in this way the darkvision granted by the spell allows the target to see through magical darkness."
-  ]
+    ],
+    "source": "TftJC",
+    "page": 44,
+    "featureType": [
+        "EI"
+    ],
+    "entries": [
+        "You learn the darkvision spell and can cast it once per day without expending a spell slot. In addition, when cast in this way the darkvision granted by the spell allows the target to see through magical darkness."
+    ]
 }

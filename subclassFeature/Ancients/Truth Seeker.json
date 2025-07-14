@@ -1,13 +1,13 @@
 {
-  "name": "Truth Seeker",
-  "source": "TftJC",
-  "className": "Bard",
-  "classSource": "PHB",
-  "subclassShortName": "Ancients",
-  "subclassSource": "TftJC",
-  "level": 6,
-  "entries": [
-    "At 6th level, you gain spells that help you access deeply guarded secrets and long forgotten lore. You learn the zone of truth and speak with dead spells which don’t count against your known spells and you can cast each once per day without expending a spell slot.",
-    "In addition when you grant a creature that is charmed or frightened your Bardic Inspiration they may immediately remake the saving throw against the effect if applicable."
-  ]
+    "name": "Truth Seeker",
+    "source": "TftJC",
+    "className": "Bard",
+    "classSource": "PHB",
+    "subclassShortName": "Ancients",
+    "subclassSource": "TftJC",
+    "level": 6,
+    "entries": [
+        "At 6th level, you gain spells that help you access deeply guarded secrets and long forgotten lore. You learn the zone of truth and speak with dead spells which don’t count against your known spells and you can cast each once per day without expending a spell slot.",
+        "In addition when you grant a creature that is charmed or frightened your Bardic Inspiration they may immediately remake the saving throw against the effect if applicable."
+    ]
 }

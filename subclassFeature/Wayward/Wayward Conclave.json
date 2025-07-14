@@ -1,25 +1,25 @@
 {
-  "name": "Wayward Conclave",
-  "source": "TftJC",
-  "className": "Ranger",
-  "classSource": "PHB",
-  "subclassShortName": "Wayward",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "With a gleam in their eye and adventure on the horizon, a traveler sets out on an epic quest. Monsters to be encountered and friends to be met, oh the fun you will have!",
-    "Rangers in the Wayward Conclave explore the open road and refuse to be tied down. With their rapid teleportation and eagerness to brave the unknown, a Wayward Conclave Ranger makes sure the journey matters just as much as the destination.",
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Wayward Magic|Ranger|PHB|Wayward|TftJC|3"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "On the Go!|Ranger|PHB|Wayward|TftJC|3"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Bonus Proficiency|Ranger|PHB|Wayward|TftJC|3"
-    }
-  ]
+    "name": "Wayward Conclave",
+    "source": "TftJC",
+    "className": "Ranger",
+    "classSource": "PHB",
+    "subclassShortName": "Wayward",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "With a gleam in their eye and adventure on the horizon, a traveler sets out on an epic quest. Monsters to be encountered and friends to be met, oh the fun you will have!",
+        "Rangers in the Wayward Conclave explore the open road and refuse to be tied down. With their rapid teleportation and eagerness to brave the unknown, a Wayward Conclave Ranger makes sure the journey matters just as much as the destination.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Wayward Magic|Ranger|PHB|Wayward|TftJC|3"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "On the Go!|Ranger|PHB|Wayward|TftJC|3"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Bonus Proficiency|Ranger|PHB|Wayward|TftJC|3"
+        }
+    ]
 }

@@ -1,0 +1,21 @@
+{
+  "name": "Road Tack",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "common",
+  "value": 500,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook's Tools to prepare.",
+    "<b>Ingredients:</b> x1 Common meat, x2 Hiker's Bounty.",
+    "<b>Effect:</b> Road Tack prepares eight meals worth. A character that eats Road Tack is filled for the day."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
+    }
+  }
+}

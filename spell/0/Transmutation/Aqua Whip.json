@@ -1,53 +1,57 @@
 {
-  "name": "Aqua Whip",
-  "source": "TftJC",
-  "page": 55,
-  "level": 0,
-  "school": "T",
-  "time": [
-    {
-      "number": 1,
-      "unit": "action"
+    "name": "Aqua Whip",
+    "source": "TftJC",
+    "page": 55,
+    "level": 0,
+    "school": "T",
+    "time": [
+        {
+            "number": 1,
+            "unit": "action"
+        }
+    ],
+    "range": {
+        "type": "line",
+        "distance": {
+            "type": "feet",
+            "amount": 15
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true
+    },
+    "duration": [
+        {
+            "type": "instant"
+        }
+    ],
+    "entries": [
+        "You lash out with a watery strike 5 feet wide and 15 feet long. Creatures within the line must make a Dexterity saving throw, and on a fail take {@dice 1d4} bludgeoning damage and are knocked prone. You can also use this to pull a loose object that isn't worn or carried within the spell's range to you"
+    ],
+    "entriesHigherLevel": [
+        "This spell’s damage increases by {@dice 1d4} when you reach 5th level {@dice 2d4}, 11th level {@dice 3d4}, and 17th level {@dice 4d4}."
+    ],
+    "scalingLevelDice": {
+        "scaling": {
+            "1": "1d4",
+            "5": "2d4",
+            "11": "3d4",
+            "17": "4d4"
+        }
+    },
+    "damageInflict": [
+        "bludgeoning"
+    ],
+    "savingThrow": [
+        "dexterity"
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Druid",
+                "source": "PHB"
+            }
+        ]
     }
-  ],
-  "range": {
-    "type": "line",
-    "distance": {
-      "type": "feet",
-      "amount": 15
-    }
-  },
-  "components": {
-    "v": true,
-    "s": true
-  },
-  "duration": [
-    {
-      "type": "instant"
-    }
-  ],
-  "entries": [
-    "You lash out with a watery strike 5 feet wide and 15 feet long. Creatures within the line must make a Dexterity saving throw, and on a fail take {@dice 1d4} bludgeoning damage and are knocked prone. You can also use this to pull a loose object that isn't worn or carried within the spell's range to you"
-  ],
-  "entriesHigherLevel": [
-    "This spell’s damage increases by {@dice 1d4} when you reach 5th level {@dice 2d4}, 11th level {@dice 3d4}, and 17th level {@dice 4d4}."
-  ],
-  "scalingLevelDice": {
-    "scaling": {
-      "1": "1d4",
-      "5": "2d4",
-      "11": "3d4",
-      "17": "4d4"
-    }
-  },
-  "damageInflict": ["bludgeoning"],
-  "savingThrow": ["dexterity"],
-  "classes": {
-    "fromClassList": [
-      {
-        "name": "Druid",
-        "source": "PHB"
-      }
-    ]
-  }
 }

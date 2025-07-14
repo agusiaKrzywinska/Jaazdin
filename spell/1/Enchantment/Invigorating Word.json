@@ -1,39 +1,39 @@
 {
-  "name": "Invigorating Word",
-  "source": "TftJC",
-  "page": 56,
-  "level": 1,
-  "school": "E",
-  "time": [
-    {
-      "number": 1,
-      "unit": "bonus action"
+    "name": "Invigorating Word",
+    "source": "TftJC",
+    "page": 56,
+    "level": 1,
+    "school": "E",
+    "time": [
+        {
+            "number": 1,
+            "unit": "bonus action"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "feet",
+            "amount": 60
+        }
+    },
+    "components": {
+        "v": true
+    },
+    "duration": [
+        {
+            "type": "instant"
+        }
+    ],
+    "entries": [
+        "You speak a magical word that fills a creature with strength and energy. Choose one creature other than yourself within range that can hear you and understands at least one language you speak. Immediately after you cast the spell, that creature can use its reaction to make one action. This action can only be used to take the Attack action (one weapon attack only), Dash, Disengage (and move 5 feet), or Use an Object."
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Bard",
+                "source": "PHB"
+            }
+        ]
     }
-  ],
-  "range": {
-    "type": "point",
-    "distance": {
-      "type": "feet",
-      "amount": 60
-    }
-  },
-  "components": {
-    "v": true
-  },
-  "duration": [
-    {
-      "type": "instant"
-    }
-  ],
-  "entries": [
-    "You speak a magical word that fills a creature with strength and energy. Choose one creature other than yourself within range that can hear you and understands at least one language you speak. Immediately after you cast the spell, that creature can use its reaction to make one action. This action can only be used to take the Attack action (one weapon attack only), Dash, Disengage (and move 5 feet), or Use an Object."
-  ],
-  "classes": {
-    "fromClassList": [
-      {
-        "name": "Bard",
-        "source": "PHB"
-      }
-    ]
-  }
 }

@@ -1,13 +1,13 @@
 {
-  "name": "Affinity",
-  "source": "TftJC",
-  "className": "Druid",
-  "classSource": "PHB",
-  "subclassShortName": "Dragon",
-  "subclassSource": "TftJC",
-  "level": 14,
-  "entries": [
-    "At 14th level, you fully embrace your Draconic abilities. As an Action, you can unleash a pair of Draconic Wings from your body. You gain a flying speed of 80 feet. This lasts for 10 minutes, and you can do this once per long rest.",
-    "Furthermore, all beasts you Wild Shape into are treated as Dragons. Whenever you use your Wild Shape, they also gain the aforementioned wings and flying speed. If they already have a flying speed that is slower than 80 ft, it becomes that."
-  ]
+    "name": "Affinity",
+    "source": "TftJC",
+    "className": "Druid",
+    "classSource": "PHB",
+    "subclassShortName": "Dragon",
+    "subclassSource": "TftJC",
+    "level": 14,
+    "entries": [
+        "At 14th level, you fully embrace your Draconic abilities. As an Action, you can unleash a pair of Draconic Wings from your body. You gain a flying speed of 80 feet. This lasts for 10 minutes, and you can do this once per long rest.",
+        "Furthermore, all beasts you Wild Shape into are treated as Dragons. Whenever you use your Wild Shape, they also gain the aforementioned wings and flying speed. If they already have a flying speed that is slower than 80 ft, it becomes that."
+    ]
 }

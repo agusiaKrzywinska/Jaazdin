@@ -1,9 +1,9 @@
 {
-  "name": "Puck",
-  "source": "TftJC",
-  "rarity": "common",
-  "wondrous": true,
-  "entries": [
-    "This brightly colored disk is made of some sort of wondrous material and can bend easily. When inverted it will quickly spring itself back to its normal shape, propelling objects on top of it 30 feet into the air. It is an action to arm the Puck and it detonates whenever someone steps onto it or at the start of your next turn. After being used, roll {@dice 1d20}. On a roll of 1 or 2, the Puck snaps and becomes useless."
-  ]
+    "name": "Puck",
+    "source": "TftJC",
+    "rarity": "common",
+    "wondrous": true,
+    "entries": [
+        "This brightly colored disk is made of some sort of wondrous material and can bend easily. When inverted it will quickly spring itself back to its normal shape, propelling objects on top of it 30 feet into the air. It is an action to arm the Puck and it detonates whenever someone steps onto it or at the start of your next turn. After being used, roll {@dice 1d20}. On a roll of 1 or 2, the Puck snaps and becomes useless."
+    ]
 }

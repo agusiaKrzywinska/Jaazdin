@@ -1,70 +1,76 @@
 {
-  "name": "Arcycle",
-  "source": "TftJC",
-  "page": 0,
-  "vehicleType": "SHIP",
-  "terrain": ["land"],
-  "size": "M",
-  "capCrew": 1,
-  "capPassenger": 1,
-  "capCargo": 0.1,
-  "pace": 4,
-  "action": [
-    "This magical machine can be fueled with Arcane Magic to become a quick and reliable vehicle. While riding this vehicle you have 90 feet of speed. This speed is reduced to 45 on any terrain that isn’t flat. The vehicle requires magic to function. A creature can touch the Arcycle’s battery and use an action to expend a spell slot. The Arcycle then gains charges equal to the spell level x3.",
-    "Charges can be expended to do any of the following actions, which require a bonus action by the crew:",
-    {
-      "type": "list",
-      "style": "list-hang-notitle",
-      "items": [
+    "name": "Arcycle",
+    "source": "TftJC",
+    "page": 0,
+    "vehicleType": "SHIP",
+    "terrain": [
+        "land"
+    ],
+    "size": "M",
+    "capCrew": 1,
+    "capPassenger": 1,
+    "capCargo": 0.1,
+    "pace": 4,
+    "action": [
+        "This magical machine can be fueled with Arcane Magic to become a quick and reliable vehicle. While riding this vehicle you have 90 feet of speed. This speed is reduced to 45 on any terrain that isn’t flat. The vehicle requires magic to function. A creature can touch the Arcycle’s battery and use an action to expend a spell slot. The Arcycle then gains charges equal to the spell level x3.",
+        "Charges can be expended to do any of the following actions, which require a bonus action by the crew:",
         {
-          "type": "item",
-          "name": "Engage (1 charge)",
-          "entry": "The Arcycle turns on, allowing all other features to be used. Once engaged, it remains engaged until an hour has passed, at which point the Arcycle must be rengaged."
+            "type": "list",
+            "style": "list-hang-notitle",
+            "items": [
+                {
+                    "type": "item",
+                    "name": "Engage (1 charge)",
+                    "entry": "The Arcycle turns on, allowing all other features to be used. Once engaged, it remains engaged until an hour has passed, at which point the Arcycle must be rengaged."
+                },
+                {
+                    "type": "item",
+                    "name": "Nitro (2 charge)",
+                    "entry": "The Arcycle’s speed is tripled, but any checks to steer have a -5 penalty."
+                },
+                {
+                    "type": "item",
+                    "name": "Wheelie (1 charge)",
+                    "entry": "Ignore the penalty to uneven terrain until the end of your next turn."
+                },
+                {
+                    "type": "item",
+                    "name": "Shield (3 charges)",
+                    "entry": "The Arcycle and all crew or passengers have resistance to all damage until the start of your next turn."
+                },
+                {
+                    "type": "item",
+                    "name": "Lightbreak (2 charges)",
+                    "entry": "The Arcycle gains a climb speed equal to its land speed and can climb up flat surfaces, including ceilings. "
+                }
+            ]
         },
-        {
-          "type": "item",
-          "name": "Nitro (2 charge)",
-          "entry": "The Arcycle’s speed is tripled, but any checks to steer have a -5 penalty."
-        },
-        {
-          "type": "item",
-          "name": "Wheelie (1 charge)",
-          "entry": "Ignore the penalty to uneven terrain until the end of your next turn."
-        },
-        {
-          "type": "item",
-          "name": "Shield (3 charges)",
-          "entry": "The Arcycle and all crew or passengers have resistance to all damage until the start of your next turn."
-        },
-        {
-          "type": "item",
-          "name": "Lightbreak (2 charges)",
-          "entry": "The Arcycle gains a climb speed equal to its land speed and can climb up flat surfaces, including ceilings. "
-        }
-      ]
+        "Due to the Arcyle’s size and shape, checks to steer while there is at least one passenger on it have disadvantage.",
+        "The number of charges that an Arcycle can hold is determined by the Spell Gem used in crafting it. 10 charges for an Uncommon Spell Gem, 30 Charges for a Rare Spell Gem, 50 Charges for a Very Rare Spell Gem, 100 Charges for a Legendary Spell Chem. An installed spell gem can be replaced with a DT 50 Tinkering Tools check.",
+        "An Arcyle has room for two modifications. Modifications can be added with a DT 50 Tinkering Tools check. Removing a modification takes 1 hour, with no check."
+    ],
+    "hull": {
+        "ac": 14,
+        "hp": 50,
+        "dt": 5
     },
-    "Due to the Arcyle’s size and shape, checks to steer while there is at least one passenger on it have disadvantage.",
-    "The number of charges that an Arcycle can hold is determined by the Spell Gem used in crafting it. 10 charges for an Uncommon Spell Gem, 30 Charges for a Rare Spell Gem, 50 Charges for a Very Rare Spell Gem, 100 Charges for a Legendary Spell Chem. An installed spell gem can be replaced with a DT 50 Tinkering Tools check.",
-    "An Arcyle has room for two modifications. Modifications can be added with a DT 50 Tinkering Tools check. Removing a modification takes 1 hour, with no check."
-  ],
-  "hull": {
-    "ac": 14,
-    "hp": 50,
-    "dt": 5
-  },
-  "immune": ["poison", "psychic", "lightning"],
-  "conditionImmune": [
-    "blinded",
-    "charmed",
-    "deafened",
-    "exhaustion",
-    "frightened",
-    "incapacitated",
-    "paralyzed",
-    "petrified",
-    "poisoned",
-    "prone",
-    "stunned",
-    "unconscious"
-  ]
+    "immune": [
+        "poison",
+        "psychic",
+        "lightning"
+    ],
+    "conditionImmune": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "incapacitated",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "stunned",
+        "unconscious"
+    ]
 }

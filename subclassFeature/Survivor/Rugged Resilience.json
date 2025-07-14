@@ -1,12 +1,12 @@
 {
-  "name": "Rugged Resilience",
-  "source": "TftJC",
-  "className": "Ranger",
-  "classSource": "PHB",
-  "subclassShortName": "Survivor",
-  "subclassSource": "TftJC",
-  "level": 7,
-  "entries": [
-    "At 7th level, your body adapts to harsher environments. You gain proficiency in Constitution Saving Throws. If you already have this, then you can become proficient in either Strength or Dexterity saving throws (your choice)."
-  ]
+    "name": "Rugged Resilience",
+    "source": "TftJC",
+    "className": "Ranger",
+    "classSource": "PHB",
+    "subclassShortName": "Survivor",
+    "subclassSource": "TftJC",
+    "level": 7,
+    "entries": [
+        "At 7th level, your body adapts to harsher environments. You gain proficiency in Constitution Saving Throws. If you already have this, then you can become proficient in either Strength or Dexterity saving throws (your choice)."
+    ]
 }

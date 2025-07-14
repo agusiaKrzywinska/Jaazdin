@@ -1,12 +1,12 @@
 {
-  "name": "Distracting Spells",
-  "source": "TftJC",
-  "className": "Bard",
-  "classSource": "PHB",
-  "subclassShortName": "Tomfoolery",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "At 3rd level, you can turn your misfortunes into opportunities. Whenever a hostile creature would succeed against a Saving Throw against one of your Bard Spells, you can use your Reaction to allow an ally that can hear you to make one weapon attack against that creature. You can do so a number of times per short rest equal to your proficiency bonus."
-  ]
+    "name": "Distracting Spells",
+    "source": "TftJC",
+    "className": "Bard",
+    "classSource": "PHB",
+    "subclassShortName": "Tomfoolery",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, you can turn your misfortunes into opportunities. Whenever a hostile creature would succeed against a Saving Throw against one of your Bard Spells, you can use your Reaction to allow an ally that can hear you to make one weapon attack against that creature. You can do so a number of times per short rest equal to your proficiency bonus."
+    ]
 }

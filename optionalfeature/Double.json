@@ -1,14 +1,18 @@
 {
-  "name": "Double",
-  "prerequisite": [
-    {
-      "feature": ["Dark Arts Wizard"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["ARC"],
-  "entries": [
-    "Tier 2 Arcana. You can cast The Forbidden Spell again this turn as a Bonus Action, but it must be cast using a lower level spell slot (which is still spent)."
-  ]
+    "name": "Double",
+    "prerequisite": [
+        {
+            "feature": [
+                "Dark Arts Wizard"
+            ]
+        }
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "ARC"
+    ],
+    "entries": [
+        "Tier 2 Arcana. You can cast The Forbidden Spell again this turn as a Bonus Action, but it must be cast using a lower level spell slot (which is still spent)."
+    ]
 }

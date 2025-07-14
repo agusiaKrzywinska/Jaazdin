@@ -1,53 +1,61 @@
 {
-  "name": "Desert",
-  "source": "TftJC",
-  "page": 6,
-  "size": ["S"],
-  "speed": 25,
-  "ability": [
-    {
-      "int": 2,
-      "con": 1
-    }
-  ],
-  "entries": [
-    {
-      "name": "Desert's Guide",
-      "entries": [
-        "You can see small details within the Desert's landscape. You cannot get lost except by magical means while traveling through deserts, canyons, mesas or badlands. You can spend10 minutes to gather enough water from underground deposits to fill a waterskin."
-      ],
-      "type": "entries"
-    },
-    {
-      "name": "Dunish Magic",
-      "entries": [
-        "You have learned magic to aid in your survival. You learn the {@spell Druidcraft|phb} cantrip. At 3rd level, you learn the {@spell Create or Destroy Water|phb} spell and can cast it once per Long Rest without expending a spell slot for it. At 5th level, you learn {@spell Dust Devil|XGE} and can cast it once per Long Rest without expending a spell slot for it.",
-        "Constitution is your spellcasting ability for these spells."
-      ],
-      "type": "entries"
-    }
-  ],
-  "raceName": "Gnome",
-  "raceSource": "PHB",
-  "basicRules": true,
-  "additionalSpells": [
-    {
-      "innate": {
-        "3": {
-          "daily": {
-            "1": ["create or destroy water|PHB"]
-          }
-        },
-        "5": {
-          "daily": {
-            "1": ["dust devil|XGE"]
-          }
+    "name": "Desert",
+    "source": "TftJC",
+    "page": 6,
+    "size": [
+        "S"
+    ],
+    "speed": 25,
+    "ability": [
+        {
+            "int": 2,
+            "con": 1
         }
-      },
-      "ability": "con",
-      "known": {
-        "1": ["druidcraft#c"]
-      }
-    }
-  ]
+    ],
+    "entries": [
+        {
+            "name": "Desert's Guide",
+            "entries": [
+                "You can see small details within the Desert's landscape. You cannot get lost except by magical means while traveling through deserts, canyons, mesas or badlands. You can spend10 minutes to gather enough water from underground deposits to fill a waterskin."
+            ],
+            "type": "entries"
+        },
+        {
+            "name": "Dunish Magic",
+            "entries": [
+                "You have learned magic to aid in your survival. You learn the {@spell Druidcraft|phb} cantrip. At 3rd level, you learn the {@spell Create or Destroy Water|phb} spell and can cast it once per Long Rest without expending a spell slot for it. At 5th level, you learn {@spell Dust Devil|XGE} and can cast it once per Long Rest without expending a spell slot for it.",
+                "Constitution is your spellcasting ability for these spells."
+            ],
+            "type": "entries"
+        }
+    ],
+    "raceName": "Gnome",
+    "raceSource": "PHB",
+    "basicRules": true,
+    "additionalSpells": [
+        {
+            "innate": {
+                "3": {
+                    "daily": {
+                        "1": [
+                            "create or destroy water|PHB"
+                        ]
+                    }
+                },
+                "5": {
+                    "daily": {
+                        "1": [
+                            "dust devil|XGE"
+                        ]
+                    }
+                }
+            },
+            "ability": "con",
+            "known": {
+                "1": [
+                    "druidcraft#c"
+                ]
+            }
+        }
+    ]
 }

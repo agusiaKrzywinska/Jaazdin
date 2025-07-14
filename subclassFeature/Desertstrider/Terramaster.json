@@ -1,13 +1,13 @@
 {
-  "name": "Terramaster",
-  "source": "TftJC",
-  "className": "Fighter",
-  "classSource": "PHB",
-  "subclassShortName": "Desertstrider",
-  "subclassSource": "TftJC",
-  "level": 18,
-  "entries": [
-    "At 18th level, your earth shaping abilities are at their peak. Your {@spell Mold Earth|XGE} Cantrip can now affect a 100ft cube.",
-    "You learn the {@spell Earthquake|PHB} spell, and can cast it without expending a spell slot once per long rest (DC = 8 + prof + CON)."
-  ]
+    "name": "Terramaster",
+    "source": "TftJC",
+    "className": "Fighter",
+    "classSource": "PHB",
+    "subclassShortName": "Desertstrider",
+    "subclassSource": "TftJC",
+    "level": 18,
+    "entries": [
+        "At 18th level, your earth shaping abilities are at their peak. Your {@spell Mold Earth|XGE} Cantrip can now affect a 100ft cube.",
+        "You learn the {@spell Earthquake|PHB} spell, and can cast it without expending a spell slot once per long rest (DC = 8 + prof + CON)."
+    ]
 }

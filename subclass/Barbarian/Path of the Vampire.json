@@ -1,14 +1,14 @@
 {
-  "name": "Path of the Vampire",
-  "source": "TftJC",
-  "page": 13,
-  "className": "Barbarian",
-  "classSource": "PHB",
-  "shortName": "Vampire",
-  "subclassFeatures": [
-    "Path of the Vampire|Barbarian|PHB|Vampire|TftJC|3",
-    "Bloodthirsty|Barbarian|PHB|Vampire|TftJC|6",
-    "Take Flight|Barbarian|PHB|Vampire|TftJC|10",
-    "Life Consumption|Barbarian|PHB|Vampire|TftJC|14"
-  ]
+    "name": "Path of the Vampire",
+    "source": "TftJC",
+    "page": 13,
+    "className": "Barbarian",
+    "classSource": "PHB",
+    "shortName": "Vampire",
+    "subclassFeatures": [
+        "Path of the Vampire|Barbarian|PHB|Vampire|TftJC|3",
+        "Bloodthirsty|Barbarian|PHB|Vampire|TftJC|6",
+        "Take Flight|Barbarian|PHB|Vampire|TftJC|10",
+        "Life Consumption|Barbarian|PHB|Vampire|TftJC|14"
+    ]
 }

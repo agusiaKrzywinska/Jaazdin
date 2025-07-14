@@ -1,0 +1,21 @@
+{
+  "name": "Rainbow Fillet",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "common",
+  "value": 500,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires cook's tools to prepare.",
+    "<b>Ingredients:</b> 3× Common meat (swim speed), 1× Hiker’s Bounty.",
+    "<b>Effect:</b> Gain a +1 bonus to all ability checks related to swimming or exploring underwater."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
+    }
+  }
+}

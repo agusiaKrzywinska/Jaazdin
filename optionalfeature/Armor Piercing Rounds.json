@@ -1,23 +1,27 @@
 {
-  "name": "Armor Piercing Rounds",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 9,
-        "class": {
-          "name": "Gunner"
+    "name": "Armor Piercing Rounds",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 9,
+                "class": {
+                    "name": "Gunner"
+                }
+            },
+            "feature": [
+                "Cannot be used with Explosive or Gas"
+            ]
         }
-      },
-      "feature": ["Cannot be used with Explosive or Gas"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["MOD"],
-  "consumes": {
-    "name": "350gp"
-  },
-  "entries": [
-    "The firearm gains a +2 to-hit against creatures wearing armor, wielding a shield or using cover."
-  ]
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "MOD"
+    ],
+    "consumes": {
+        "name": "350gp"
+    },
+    "entries": [
+        "The firearm gains a +2 to-hit against creatures wearing armor, wielding a shield or using cover."
+    ]
 }

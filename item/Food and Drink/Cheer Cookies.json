@@ -1,0 +1,21 @@
+{
+  "name": "Cheer Cookies",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "common",
+  "value": 500,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook's Tools to prepare.",
+    "<b>Ingredients:</b> x1 Shaded Milkweed, x1 Trailvine.",
+    "<b>Effect:</b> The next time you use the help action or have the help action used on you for a Charisma check add {@dice 1d6} to the roll. The effect then ends."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
+    }
+  }
+}

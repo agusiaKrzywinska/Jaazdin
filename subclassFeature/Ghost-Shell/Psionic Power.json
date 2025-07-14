@@ -1,35 +1,35 @@
 {
-  "name": "Psionic Power",
-  "source": "TftJC",
-  "className": "Artificer",
-  "classSource": "TCE",
-  "subclassShortName": "Ghost-Shell",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "You harbor a wellspring of psionic energy within yourself. This energy is represented by Psionic Energy dice, which are each a d6. You have a number of these dice equal to twice times your proficiency bonus, and they fuel various psionic powers you have, which are detailed below.",
-    "Some of your powers expend the Psionic Energy die they use, as specified in a power’s description, and you can’t use a power if it requires you to use a die when your dice are all expended. You regain all your expended Psionic Energy dice when you finish a long rest. In addition, as a bonus action you can regain two expended Psionic Energy dice, but you can’t do so again until you finish a long rest.",
-    "When you reach certain levels in this class, the size of your Psionic Energy dice increases: at 5th level (1d8), 11th level(1d10), and 17th level (1d12). The powers below use your Psionic Energy dice.",
-    {
-      "type": "inset",
-      "name": "Shell Walk",
-      "entries": [
-        "As a bonus action you can pull your shell 30ft closer to yourself or pull yourself closer to your shell. When you move in this way you do not provoke attacks of opportunity and your shell emits a burst of lightning either before or after it moves or before or after you move towards it. Each creature other than yourself must make a Dexterity saving throw or take lightning damage equal to your Psionic Energy die + your intelligence modifier."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Psi-Tool",
-      "entries": [
-        "As an action, you can summon a set of tools made of psychic force. When you summon these tools that act as a set of artisan tools and can be a part of your shell if you wish. You are proficient in the summoned tools even if you are not normally. When you use these tools for a skill check you can expend one Psionic Energy die to add the number rolled to the check. The tools exist of one hour or until you summon a new set of Psi-tools."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Ghost Projection",
-      "entries": [
-        "As an action, you can project yourself into your Shell. While in your Shell you are blind and deafened but can perceive using the senses of your Shell. While in your Shell you can use all your class abilities using your Intelligence, Charisma, and Wisdom but your Shells Strength, Dexterity, and Constitution. This includes casting spells and using class features. If your Shell is destroyed while you are in it, you must make a DC 8 + the CR of your Shell (rounded up) Constitution saving throw or instantly drop to 0 HP. On a success, you instead drop to 1 HP. You can return to your own body as an action. You can use this ability once before needing a long rest, or until you expend a Psionic Energy die to do so again."
-      ]
-    }
-  ]
+    "name": "Psionic Power",
+    "source": "TftJC",
+    "className": "Artificer",
+    "classSource": "TCE",
+    "subclassShortName": "Ghost-Shell",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "You harbor a wellspring of psionic energy within yourself. This energy is represented by Psionic Energy dice, which are each a d6. You have a number of these dice equal to twice times your proficiency bonus, and they fuel various psionic powers you have, which are detailed below.",
+        "Some of your powers expend the Psionic Energy die they use, as specified in a power’s description, and you can’t use a power if it requires you to use a die when your dice are all expended. You regain all your expended Psionic Energy dice when you finish a long rest. In addition, as a bonus action you can regain two expended Psionic Energy dice, but you can’t do so again until you finish a long rest.",
+        "When you reach certain levels in this class, the size of your Psionic Energy dice increases: at 5th level (1d8), 11th level(1d10), and 17th level (1d12). The powers below use your Psionic Energy dice.",
+        {
+            "type": "inset",
+            "name": "Shell Walk",
+            "entries": [
+                "As a bonus action you can pull your shell 30ft closer to yourself or pull yourself closer to your shell. When you move in this way you do not provoke attacks of opportunity and your shell emits a burst of lightning either before or after it moves or before or after you move towards it. Each creature other than yourself must make a Dexterity saving throw or take lightning damage equal to your Psionic Energy die + your intelligence modifier."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Psi-Tool",
+            "entries": [
+                "As an action, you can summon a set of tools made of psychic force. When you summon these tools that act as a set of artisan tools and can be a part of your shell if you wish. You are proficient in the summoned tools even if you are not normally. When you use these tools for a skill check you can expend one Psionic Energy die to add the number rolled to the check. The tools exist of one hour or until you summon a new set of Psi-tools."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Ghost Projection",
+            "entries": [
+                "As an action, you can project yourself into your Shell. While in your Shell you are blind and deafened but can perceive using the senses of your Shell. While in your Shell you can use all your class abilities using your Intelligence, Charisma, and Wisdom but your Shells Strength, Dexterity, and Constitution. This includes casting spells and using class features. If your Shell is destroyed while you are in it, you must make a DC 8 + the CR of your Shell (rounded up) Constitution saving throw or instantly drop to 0 HP. On a success, you instead drop to 1 HP. You can return to your own body as an action. You can use this ability once before needing a long rest, or until you expend a Psionic Energy die to do so again."
+            ]
+        }
+    ]
 }

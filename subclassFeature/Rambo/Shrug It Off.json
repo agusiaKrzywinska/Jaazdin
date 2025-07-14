@@ -1,12 +1,12 @@
 {
-  "name": "Shrug It Off",
-  "source": "TftJC",
-  "className": "Gunner",
-  "classSource": "TftJC",
-  "subclassShortName": "Rambo",
-  "subclassSource": "TftJC",
-  "level": 2,
-  "entries": [
-    "When you choose this archetype at 2nd level, you learn to shake off damage. When you take the attack action, you can forgo an attack on your turn to instead gain a number of temporary hit points equal to half of your level in this class + your Strength modifier + half your proficiency bonus (rounded down) per hostile creature within 5ft of you. You lose all temporary hit points granted by this feature at the start of your next turn, and can only use this feature whenever you are below half of your maximum hit points."
-  ]
+    "name": "Shrug It Off",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "subclassShortName": "Rambo",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "When you choose this archetype at 2nd level, you learn to shake off damage. When you take the attack action, you can forgo an attack on your turn to instead gain a number of temporary hit points equal to half of your level in this class + your Strength modifier + half your proficiency bonus (rounded down) per hostile creature within 5ft of you. You lose all temporary hit points granted by this feature at the start of your next turn, and can only use this feature whenever you are below half of your maximum hit points."
+    ]
 }

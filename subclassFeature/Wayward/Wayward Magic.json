@@ -1,25 +1,46 @@
 {
-  "name": "Wayward Magic",
-  "source": "TftJC",
-  "className": "Ranger",
-  "classSource": "PHB",
-  "subclassShortName": "Wayward",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the WaywardSpells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.",
-    {
-      "type": "table",
-      "caption": "Wayward Spells",
-      "colLabels": ["Ranger Level", "Spell"],
-      "colStyles": ["col-2 text-center", "col-10"],
-      "rows": [
-        ["3rd", "{@spell longstrider}, {@spell jump}"],
-        ["5th", "{@spell misty step}"],
-        ["9th", "{@spell catnap|XGE}"],
-        ["13th", "{@spell dimension door}"],
-        ["17th", "{@spell teleportation circle}"]
-      ]
-    }
-  ]
+    "name": "Wayward Magic",
+    "source": "TftJC",
+    "className": "Ranger",
+    "classSource": "PHB",
+    "subclassShortName": "Wayward",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the WaywardSpells table. The spell counts as a ranger spell for you, but it doesn’t count against the number of ranger spells you know.",
+        {
+            "type": "table",
+            "caption": "Wayward Spells",
+            "colLabels": [
+                "Ranger Level",
+                "Spell"
+            ],
+            "colStyles": [
+                "col-2 text-center",
+                "col-10"
+            ],
+            "rows": [
+                [
+                    "3rd",
+                    "{@spell longstrider}, {@spell jump}"
+                ],
+                [
+                    "5th",
+                    "{@spell misty step}"
+                ],
+                [
+                    "9th",
+                    "{@spell catnap|XGE}"
+                ],
+                [
+                    "13th",
+                    "{@spell dimension door}"
+                ],
+                [
+                    "17th",
+                    "{@spell teleportation circle}"
+                ]
+            ]
+        }
+    ]
 }

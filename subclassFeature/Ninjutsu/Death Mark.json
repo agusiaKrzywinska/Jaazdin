@@ -1,12 +1,12 @@
 {
-  "name": "Death Mark",
-  "source": "TftJC",
-  "className": "Rogue",
-  "classSource": "PHB",
-  "subclassShortName": "Ninjutsu",
-  "subclassSource": "TftJC",
-  "level": 13,
-  "entries": [
-    "At 13th level, you can mark your targets for death. After dealing damage to a creature with your Sneak Attack, you can Death Mark them. While Death Marked, you know where your target is at all times (even if they are behind full cover) so long as they are within a mile of you. Additionally, attacking a target that is Death Marked can apply Sneak Attack, even without advantage or a nearby ally. Only one creature can be Death Marked at a time."
-  ]
+    "name": "Death Mark",
+    "source": "TftJC",
+    "className": "Rogue",
+    "classSource": "PHB",
+    "subclassShortName": "Ninjutsu",
+    "subclassSource": "TftJC",
+    "level": 13,
+    "entries": [
+        "At 13th level, you can mark your targets for death. After dealing damage to a creature with your Sneak Attack, you can Death Mark them. While Death Marked, you know where your target is at all times (even if they are behind full cover) so long as they are within a mile of you. Additionally, attacking a target that is Death Marked can apply Sneak Attack, even without advantage or a nearby ally. Only one creature can be Death Marked at a time."
+    ]
 }

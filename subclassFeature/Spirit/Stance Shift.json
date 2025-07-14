@@ -1,33 +1,33 @@
 {
-  "name": "Stance Shift",
-  "source": "TftJC",
-  "className": "Monk",
-  "classSource": "PHB",
-  "subclassShortName": "Spirit",
-  "subclassSource": "TftJC",
-  "level": 6,
-  "entries": [
-    "Starting at 6th level, you can more fluidly change stances. After using your Flurry of Blows, you can immediately change or enter a stance. Upon exiting a stance, you gain a bonus based on the stance you have exited.",
-    {
-      "type": "inset",
-      "name": "Hunter Stance",
-      "entries": [
-        "Until the end of your next turn, your walking speed is increased by 15 ft, and you have advantage on Dexterity based Stealth Checks."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Graceful Stance",
-      "entries": [
-        "You can remove one of the following effects on yourself: Blinded, Restrained, Grappled, Poisoned."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Titan Stance",
-      "entries": [
-        "Your next attack with an Unarmed Strike or a Monk Weapon deals additional damage equal to your Monk Level."
-      ]
-    }
-  ]
+    "name": "Stance Shift",
+    "source": "TftJC",
+    "className": "Monk",
+    "classSource": "PHB",
+    "subclassShortName": "Spirit",
+    "subclassSource": "TftJC",
+    "level": 6,
+    "entries": [
+        "Starting at 6th level, you can more fluidly change stances. After using your Flurry of Blows, you can immediately change or enter a stance. Upon exiting a stance, you gain a bonus based on the stance you have exited.",
+        {
+            "type": "inset",
+            "name": "Hunter Stance",
+            "entries": [
+                "Until the end of your next turn, your walking speed is increased by 15 ft, and you have advantage on Dexterity based Stealth Checks."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Graceful Stance",
+            "entries": [
+                "You can remove one of the following effects on yourself: Blinded, Restrained, Grappled, Poisoned."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Titan Stance",
+            "entries": [
+                "Your next attack with an Unarmed Strike or a Monk Weapon deals additional damage equal to your Monk Level."
+            ]
+        }
+    ]
 }

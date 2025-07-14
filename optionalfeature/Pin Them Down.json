@@ -1,9 +1,11 @@
 {
-  "name": "Pin Them Down",
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["TECH"],
-  "entries": [
-    "You can forgo one attack to instead make a grapple check. When you do this, you can choose one ally within 5ft of the target, if that creature has proficiency in Athletics you add twice your Strength bonus to your Athletics check to grapple the target. If you successfully grapple the target and the target is Large or smaller, you instead pin the creature, Restraining it until you move more than 5ft from the target. The creature can use an action to attempt to break free from the restraint, making a Strength saving throw against your Technique save DC."
-  ]
+    "name": "Pin Them Down",
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "TECH"
+    ],
+    "entries": [
+        "You can forgo one attack to instead make a grapple check. When you do this, you can choose one ally within 5ft of the target, if that creature has proficiency in Athletics you add twice your Strength bonus to your Athletics check to grapple the target. If you successfully grapple the target and the target is Large or smaller, you instead pin the creature, Restraining it until you move more than 5ft from the target. The creature can use an action to attempt to break free from the restraint, making a Strength saving throw against your Technique save DC."
+    ]
 }

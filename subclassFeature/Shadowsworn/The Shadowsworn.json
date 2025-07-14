@@ -1,25 +1,25 @@
 {
-  "name": "The Shadowsworn",
-  "source": "TftJC",
-  "className": "Warlock",
-  "classSource": "PHB",
-  "subclassShortName": "Shadowsworn",
-  "subclassSource": "TftJC",
-  "level": 1,
-  "entries": [
-    "Lurking in the recesses of the universe where no light ever shines are creatures of such vile ambition that many shudders at the mere thought of their existence. Some of these creatures' bare known names, Shades, Nightwalkers, Raven Queens, Vachninos, and Skull Lords. Others are beyond knowing, as old as darkness itself.",
-    "For whatever reason you have bound your fate with one of these creatures, vile as it might be. Many give their power freely seizing any chance to spread their darkness and death. Others hold greater machinations, dreams of endless nights and a still dead world. Those that serve the shadows will often find their own lives growing dark, the toll of taking life and living in shadows wearing upon even the firmest of souls.",
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Expanded Spell List|Warlock|PHB|Shadowsworn|TftJC|1"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Gifted Prowess|Warlock|PHB|Shadowsworn|TftJC|1"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Sweep the Darkness|Warlock|PHB|Shadowsworn|TftJC|1"
-    }
-  ]
+    "name": "The Shadowsworn",
+    "source": "TftJC",
+    "className": "Warlock",
+    "classSource": "PHB",
+    "subclassShortName": "Shadowsworn",
+    "subclassSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "Lurking in the recesses of the universe where no light ever shines are creatures of such vile ambition that many shudders at the mere thought of their existence. Some of these creatures' bare known names, Shades, Nightwalkers, Raven Queens, Vachninos, and Skull Lords. Others are beyond knowing, as old as darkness itself.",
+        "For whatever reason you have bound your fate with one of these creatures, vile as it might be. Many give their power freely seizing any chance to spread their darkness and death. Others hold greater machinations, dreams of endless nights and a still dead world. Those that serve the shadows will often find their own lives growing dark, the toll of taking life and living in shadows wearing upon even the firmest of souls.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Expanded Spell List|Warlock|PHB|Shadowsworn|TftJC|1"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Gifted Prowess|Warlock|PHB|Shadowsworn|TftJC|1"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Sweep the Darkness|Warlock|PHB|Shadowsworn|TftJC|1"
+        }
+    ]
 }

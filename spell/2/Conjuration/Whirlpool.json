@@ -1,63 +1,65 @@
 {
-  "name": "Whirlpool",
-  "source": "TftJC",
-  "page": 58,
-  "level": 2,
-  "school": "C",
-  "time": [
-    {
-      "number": 1,
-      "unit": "action"
-    }
-  ],
-  "range": {
-    "type": "point",
-    "distance": {
-      "type": "feet",
-      "amount": 90
-    }
-  },
-  "components": {
-    "v": true,
-    "s": true,
-    "m": "a fresh calm"
-  },
-  "duration": [
-    {
-      "type": "instant"
-    }
-  ],
-  "entries": [
-    "You conjure a rapid pool of twisting water at a point within range. Creatures within a 15ft cube must make a strength saving throw. On a fail, they take {@dice 3d10} bludgeoning damage and are moved as close to the centre of the cube as they can. If they would knock into another creature, both creatures take {@dice 1d6} bludgeoning damage. If this spell is cast affecting creatures in water, they have disadvantage on the saving throw."
-  ],
-  "entriesHigherLevel": [
-    {
-      "type": "entries",
-      "name": "At Higher Levels",
-      "entries": [
-        "When you cast this spell using a spell slot of 3rd level or higher, the spell deals an additional {@dice 1d10} damager per spell slot above 2nd level."
-      ]
-    }
-  ],
-  "classes": {
-    "fromClassList": [
-      {
-        "name": "Druid",
-        "source": "PHB"
-      },
-      {
-        "name": "Sorcerer",
-        "source": "PHB"
-      },
-      {
-        "name": "Warlock",
-        "source": "PHB"
-      },
-      {
-        "name": "Wizard",
-        "source": "PHB"
-      }
+    "name": "Whirlpool",
+    "source": "TftJC",
+    "page": 58,
+    "level": 2,
+    "school": "C",
+    "time": [
+        {
+            "number": 1,
+            "unit": "action"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "feet",
+            "amount": 90
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true,
+        "m": "a fresh calm"
+    },
+    "duration": [
+        {
+            "type": "instant"
+        }
+    ],
+    "entries": [
+        "You conjure a rapid pool of twisting water at a point within range. Creatures within a 15ft cube must make a strength saving throw. On a fail, they take {@dice 3d10} bludgeoning damage and are moved as close to the centre of the cube as they can. If they would knock into another creature, both creatures take {@dice 1d6} bludgeoning damage. If this spell is cast affecting creatures in water, they have disadvantage on the saving throw."
+    ],
+    "entriesHigherLevel": [
+        {
+            "type": "entries",
+            "name": "At Higher Levels",
+            "entries": [
+                "When you cast this spell using a spell slot of 3rd level or higher, the spell deals an additional {@dice 1d10} damager per spell slot above 2nd level."
+            ]
+        }
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Druid",
+                "source": "PHB"
+            },
+            {
+                "name": "Sorcerer",
+                "source": "PHB"
+            },
+            {
+                "name": "Warlock",
+                "source": "PHB"
+            },
+            {
+                "name": "Wizard",
+                "source": "PHB"
+            }
+        ]
+    },
+    "savingThrow": [
+        "strength"
     ]
-  },
-  "savingThrow": ["strength"]
 }

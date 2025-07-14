@@ -1,21 +1,27 @@
 {
-  "name": "Extended Belt",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 9,
-        "class": {
-          "name": "Gunner"
+    "name": "Extended Belt",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 9,
+                "class": {
+                    "name": "Gunner"
+                }
+            },
+            "feature": [
+                "Belt"
+            ]
         }
-      },
-      "feature": ["Belt"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["MOD"],
-  "consumes": {
-    "name": "450gp"
-  },
-  "entries": ["Belt capacity is increased by 20."]
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "MOD"
+    ],
+    "consumes": {
+        "name": "450gp"
+    },
+    "entries": [
+        "Belt capacity is increased by 20."
+    ]
 }

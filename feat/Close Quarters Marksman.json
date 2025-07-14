@@ -1,13 +1,13 @@
 {
-  "name": "Close Quarters Marksman",
-  "source": "TftJC",
-  "entries": [
-    {
-      "type": "list",
-      "items": [
-        "You ignore half or 3/4 cover attacking a creature with ranged weapon attacks within 30ft.",
-        "Being within 5 feet or otherwise too close to a hostile creature doesn't impose disadvantage on your ranged weapon attacks."
-      ]
-    }
-  ]
+    "name": "Close Quarters Marksman",
+    "source": "TftJC",
+    "entries": [
+        {
+            "type": "list",
+            "items": [
+                "You ignore half or 3/4 cover attacking a creature with ranged weapon attacks within 30ft.",
+                "Being within 5 feet or otherwise too close to a hostile creature doesn't impose disadvantage on your ranged weapon attacks."
+            ]
+        }
+    ]
 }

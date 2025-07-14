@@ -1,67 +1,67 @@
 {
-  "name": "Epoch Shift",
-  "source": "TftJC",
-  "level": 6,
-  "school": "T",
-  "time": [
-    {
-      "number": 1,
-      "unit": "action"
-    }
-  ],
-  "range": {
-    "type": "point",
-    "distance": {
-      "type": "feet",
-      "amount": 90
-    }
-  },
-  "components": {
-    "v": true,
-    "s": true,
-    "m": "an egg, ashes of a creature, and an hourglass worth at least 250gp all of which the spell consumes"
-  },
-  "duration": [
-    {
-      "type": "timed",
-      "duration": {
-        "type": "hour",
-        "amount": 1
-      },
-      "concentration": true
-    }
-  ],
-  "entries": [
-    "You pick a point within range and in a 20ft radius around that point you wrest control of the time there. Choose one of the following effects from below to take effect:",
-    {
-      "type": "entries",
-      "name": "Accelerate",
-      "entries": [
-        "Each creature in the radius has its speed doubled. It gains an additional action on each of its turns which can only be used to Attack (one weapon attack), Dash, Disengage, Hide, or Use and Object. In addition any effects on the creature progress their durations twice at the start of their turns, including effects that would damage them such as being on fire or poisoned. Creatures age twice as fast while in the area."
-      ]
+    "name": "Epoch Shift",
+    "source": "TftJC",
+    "level": 6,
+    "school": "T",
+    "time": [
+        {
+            "number": 1,
+            "unit": "action"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "feet",
+            "amount": 90
+        }
     },
-    {
-      "type": "entries",
-      "name": "Arrest",
-      "entries": [
-        "   Arrest: You halt the natural flow of time in the area. Effect that would take place at the start or end of a creatures turn do not take effect. Creatures do not age in the area. If you use this effect on an area where time does not normally flow, such as the Astral Sea, or an area effected by this spell or Time Lock you can return time to its normal flow."
-      ]
+    "components": {
+        "v": true,
+        "s": true,
+        "m": "an egg, ashes of a creature, and an hourglass worth at least 250gp all of which the spell consumes"
     },
-    {
-      "type": "entries",
-      "name": "Decelerate",
-      "entries": [
-        "Each creature in the radius has its movement speed halved. They receive a -2 penalty to AC and Dexterity saving throws, and can’t use reactions. At the start and end of a creatures turn roll 1d2, on a 2 effects that would normally occur at that point do not occur. Creatures in the radius age at half the normal rate."
-      ]
-    },
-    "As a bonus action on your turn after the initial casting, you can alter the effect to one of the other effects. When changed any creature in the radius can make a Wisdom saving throw, on a success the new effect does not take effect until they end their turn in the radius."
-  ],
-  "classes": {
-    "fromClassList": [
-      {
-        "name": "Wizard",
-        "source": "PHB"
-      }
-    ]
-  }
+    "duration": [
+        {
+            "type": "timed",
+            "duration": {
+                "type": "hour",
+                "amount": 1
+            },
+            "concentration": true
+        }
+    ],
+    "entries": [
+        "You pick a point within range and in a 20ft radius around that point you wrest control of the time there. Choose one of the following effects from below to take effect:",
+        {
+            "type": "entries",
+            "name": "Accelerate",
+            "entries": [
+                "Each creature in the radius has its speed doubled. It gains an additional action on each of its turns which can only be used to Attack (one weapon attack), Dash, Disengage, Hide, or Use and Object. In addition any effects on the creature progress their durations twice at the start of their turns, including effects that would damage them such as being on fire or poisoned. Creatures age twice as fast while in the area."
+            ]
+        },
+        {
+            "type": "entries",
+            "name": "Arrest",
+            "entries": [
+                "   Arrest: You halt the natural flow of time in the area. Effect that would take place at the start or end of a creatures turn do not take effect. Creatures do not age in the area. If you use this effect on an area where time does not normally flow, such as the Astral Sea, or an area effected by this spell or Time Lock you can return time to its normal flow."
+            ]
+        },
+        {
+            "type": "entries",
+            "name": "Decelerate",
+            "entries": [
+                "Each creature in the radius has its movement speed halved. They receive a -2 penalty to AC and Dexterity saving throws, and can’t use reactions. At the start and end of a creatures turn roll 1d2, on a 2 effects that would normally occur at that point do not occur. Creatures in the radius age at half the normal rate."
+            ]
+        },
+        "As a bonus action on your turn after the initial casting, you can alter the effect to one of the other effects. When changed any creature in the radius can make a Wisdom saving throw, on a success the new effect does not take effect until they end their turn in the radius."
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Wizard",
+                "source": "PHB"
+            }
+        ]
+    }
 }

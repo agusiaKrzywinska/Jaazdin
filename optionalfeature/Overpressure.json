@@ -1,23 +1,27 @@
 {
-  "name": "Overpressure",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 9,
-        "class": {
-          "name": "Gunner"
+    "name": "Overpressure",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 9,
+                "class": {
+                    "name": "Gunner"
+                }
+            },
+            "feature": [
+                "Cannot be used with Explosive or Gas"
+            ]
         }
-      },
-      "feature": ["Cannot be used with Explosive or Gas"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["MOD"],
-  "consumes": {
-    "name": "500gp"
-  },
-  "entries": [
-    "The firearm's attacks deal an additional 1d6 damage. +1 Misfire score."
-  ]
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "MOD"
+    ],
+    "consumes": {
+        "name": "500gp"
+    },
+    "entries": [
+        "The firearm's attacks deal an additional 1d6 damage. +1 Misfire score."
+    ]
 }

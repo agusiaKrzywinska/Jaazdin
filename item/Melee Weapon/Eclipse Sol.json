@@ -1,21 +1,24 @@
 {
-  "name": "Eclipse Sol",
-  "source": "TftJC",
-  "rarity": "legendary",
-  "baseItem": "Slingsword|TftJC",
-  "reqAttune": true,
-  "type": "M",
-  "weight": 2,
-  "weaponCategory": "martial",
-  "property": ["R", "F"],
-  "dmg1": "1d10",
-  "dmgType": "R",
-  "entries": [
-    "This simple blackened sword hilt is covered with delicate Celestial runes.",
-    "As a bonus action, the wielder can bring the blade to life, if it is currently day a vibrant golden blade of light springs to life from the hilt, if it is currently night a dark blade of shadow appears instead. The light blade deals {@dice 1d10} Radiant damage and the shadow blade deals {@dice 1d10} necrotic damage. If the blade is summoned during an eclipse, or on a plane that does not have a day or night cycle it instead summons a twilight blade of light and shadow. This blade deals {@dice 1d8} necrotic and {@dice 1d8} radiant.",
-    "The blades summoned gain a +3 bonus to attack and damage rolls.",
-    "When a creature is reduced to zero hit points with this blade a small mote of light breaks off from the blade and orbits the wielders head. This mote can be grasped as a bonus action, allowing the wielder to make a ranged spell attack (+9 to hit) against one creature within 120 feet. The beam deals {@dice 3d12} radiant damage on hit. Up to 4 motes can orbit the wielder at once. If the blade is deactivated or dropped all motes vanish. ",
-    "While the blade is active the wielder can teleport at will. Teleporting requires two feet of movement for every foot traveled.",
-    "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
-  ]
+    "name": "Eclipse Sol",
+    "source": "TftJC",
+    "rarity": "legendary",
+    "baseItem": "Slingsword|TftJC",
+    "reqAttune": true,
+    "type": "M",
+    "weight": 2,
+    "weaponCategory": "martial",
+    "property": [
+        "R",
+        "F"
+    ],
+    "dmg1": "1d10",
+    "dmgType": "R",
+    "entries": [
+        "This simple blackened sword hilt is covered with delicate Celestial runes.",
+        "As a bonus action, the wielder can bring the blade to life, if it is currently day a vibrant golden blade of light springs to life from the hilt, if it is currently night a dark blade of shadow appears instead. The light blade deals {@dice 1d10} Radiant damage and the shadow blade deals {@dice 1d10} necrotic damage. If the blade is summoned during an eclipse, or on a plane that does not have a day or night cycle it instead summons a twilight blade of light and shadow. This blade deals {@dice 1d8} necrotic and {@dice 1d8} radiant.",
+        "The blades summoned gain a +3 bonus to attack and damage rolls.",
+        "When a creature is reduced to zero hit points with this blade a small mote of light breaks off from the blade and orbits the wielders head. This mote can be grasped as a bonus action, allowing the wielder to make a ranged spell attack (+9 to hit) against one creature within 120 feet. The beam deals {@dice 3d12} radiant damage on hit. Up to 4 motes can orbit the wielder at once. If the blade is deactivated or dropped all motes vanish. ",
+        "While the blade is active the wielder can teleport at will. Teleporting requires two feet of movement for every foot traveled.",
+        "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+    ]
 }

@@ -1,54 +1,58 @@
 {
-  "name": "The Forbidden Spell",
-  "source": "TftJC",
-  "page": 48,
-  "level": 0,
-  "school": "V",
-  "time": [
-    {
-      "number": 1,
-      "unit": "action"
-    }
-  ],
-  "range": {
-    "type": "point",
-    "distance": {
-      "type": "feet",
-      "amount": 60
-    }
-  },
-  "components": {
-    "v": true,
-    "s": true
-  },
-  "duration": [
-    {
-      "type": "instant"
-    }
-  ],
-  "scalingLevelDice": {
-    "scaling": {
-      "1": "1d6",
-      "5": "2d6",
-      "11": "3d6",
-      "17": "4d6"
-    }
-  },
-  "entries": [
-    "You lash out with magical energy at a creature within range. Make a spell attack roll against them, and on a hit they take {@dice 1d6} Force Damage. That creature also removes {@dice 1d4} from their next attack roll, ability check, or saving throw.",
-    "This spell can also be cast as a leveled spell, dealing an additional {@dice 2d6} per casting slot level used.",
-    "This spell's base damage increases by {@dice 1d6} at 5th level, 11th, and 17th level.",
-    "If someone casts Wish and attempts to recreate this spell it is cast at 9th level, and the caster incurs the penalties described in using Wish to do anything but cast a spell."
-  ],
-  "entriesHigherLevel": [
-    {
-      "type": "entries",
-      "name": "At Higher Levels",
-      "entries": [
-        "This spell can also be cast as a leveled spell, dealing an additional {@dice 2d6} per casting slot level used."
-      ]
-    }
-  ],
-  "savingThrow": ["constitution"],
-  "damageInflict": ["force"]
+    "name": "The Forbidden Spell",
+    "source": "TftJC",
+    "page": 48,
+    "level": 0,
+    "school": "V",
+    "time": [
+        {
+            "number": 1,
+            "unit": "action"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "feet",
+            "amount": 60
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true
+    },
+    "duration": [
+        {
+            "type": "instant"
+        }
+    ],
+    "scalingLevelDice": {
+        "scaling": {
+            "1": "1d6",
+            "5": "2d6",
+            "11": "3d6",
+            "17": "4d6"
+        }
+    },
+    "entries": [
+        "You lash out with magical energy at a creature within range. Make a spell attack roll against them, and on a hit they take {@dice 1d6} Force Damage. That creature also removes {@dice 1d4} from their next attack roll, ability check, or saving throw.",
+        "This spell can also be cast as a leveled spell, dealing an additional {@dice 2d6} per casting slot level used.",
+        "This spell's base damage increases by {@dice 1d6} at 5th level, 11th, and 17th level.",
+        "If someone casts Wish and attempts to recreate this spell it is cast at 9th level, and the caster incurs the penalties described in using Wish to do anything but cast a spell."
+    ],
+    "entriesHigherLevel": [
+        {
+            "type": "entries",
+            "name": "At Higher Levels",
+            "entries": [
+                "This spell can also be cast as a leveled spell, dealing an additional {@dice 2d6} per casting slot level used."
+            ]
+        }
+    ],
+    "savingThrow": [
+        "constitution"
+    ],
+    "damageInflict": [
+        "force"
+    ]
 }

@@ -1,12 +1,12 @@
 {
-  "name": "Guide Thy Hand",
-  "source": "TftJC",
-  "className": "Monk",
-  "classSource": "PHB",
-  "subclassShortName": "God Hand",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "At 3rd level, you learn how to seamlessly weave unarmed strikes and ranged attacks. When you make an unarmed attack on your turn, you don’t suffer disadvantage on ranged attacks if a creature is within 5ft of you until the end of your turn. In addition, when you take the Flurry of Blows bonus action, you can replace the two unarmed strikes with one ranged weapon attack."
-  ]
+    "name": "Guide Thy Hand",
+    "source": "TftJC",
+    "className": "Monk",
+    "classSource": "PHB",
+    "subclassShortName": "God Hand",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, you learn how to seamlessly weave unarmed strikes and ranged attacks. When you make an unarmed attack on your turn, you don’t suffer disadvantage on ranged attacks if a creature is within 5ft of you until the end of your turn. In addition, when you take the Flurry of Blows bonus action, you can replace the two unarmed strikes with one ranged weapon attack."
+    ]
 }

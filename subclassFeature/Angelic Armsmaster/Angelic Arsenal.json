@@ -1,12 +1,12 @@
 {
-  "name": "Angelic Arsenal",
-  "source": "TftJC",
-  "className": "Fighter",
-  "classSource": "PHB",
-  "subclassShortName": "Angelic Armsmaster",
-  "subclassSource": "TftJC",
-  "level": 18,
-  "entries": [
-    "At 18th level, you can unleash your entire arsenal. As an Action, select a point within 60ft that you can see. Creatures within a 15 ft radius of this point must make a Dexterity Saving throw, using your Wisdom Modifier to calculate the DC. Creatures that fail take {@dice 12d6} radiant damage, as weapons rain down on them, or half as much on a successful save. Creatures of your choice are immune to this damage. You can use this ability once per long rest."
-  ]
+    "name": "Angelic Arsenal",
+    "source": "TftJC",
+    "className": "Fighter",
+    "classSource": "PHB",
+    "subclassShortName": "Angelic Armsmaster",
+    "subclassSource": "TftJC",
+    "level": 18,
+    "entries": [
+        "At 18th level, you can unleash your entire arsenal. As an Action, select a point within 60ft that you can see. Creatures within a 15 ft radius of this point must make a Dexterity Saving throw, using your Wisdom Modifier to calculate the DC. Creatures that fail take {@dice 12d6} radiant damage, as weapons rain down on them, or half as much on a successful save. Creatures of your choice are immune to this damage. You can use this ability once per long rest."
+    ]
 }

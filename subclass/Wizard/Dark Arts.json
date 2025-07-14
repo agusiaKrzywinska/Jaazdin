@@ -1,15 +1,17 @@
 {
-  "name": "Dark Arts",
-  "source": "TftJC",
-  "page": 47,
-  "className": "Wizard",
-  "classSource": "PHB",
-  "shortName": "Dark Arts",
-  "subclassFeatures": [
-    "Dark Arts|Wizard|PHB|Dark Arts|TftJC|2",
-    "Dark Modifications|Wizard|PHB|Dark Arts|TftJC|6",
-    "Favoured Arcana|Wizard|PHB|Dark Arts|TftJC|10",
-    "Unleashed|Wizard|PHB|Dark Arts|TftJC|14"
-  ],
-  "subclassSpells": ["The Forbidden Spell|TftJC"]
+    "name": "Dark Arts",
+    "source": "TftJC",
+    "page": 47,
+    "className": "Wizard",
+    "classSource": "PHB",
+    "shortName": "Dark Arts",
+    "subclassFeatures": [
+        "Dark Arts|Wizard|PHB|Dark Arts|TftJC|2",
+        "Dark Modifications|Wizard|PHB|Dark Arts|TftJC|6",
+        "Favoured Arcana|Wizard|PHB|Dark Arts|TftJC|10",
+        "Unleashed|Wizard|PHB|Dark Arts|TftJC|14"
+    ],
+    "subclassSpells": [
+        "The Forbidden Spell|TftJC"
+    ]
 }

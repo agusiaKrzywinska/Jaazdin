@@ -1,23 +1,27 @@
 {
-  "name": "Extended Clip",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 5,
-        "class": {
-          "name": "Gunner"
+    "name": "Extended Clip",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 5,
+                "class": {
+                    "name": "Gunner"
+                }
+            },
+            "feature": [
+                "Clip"
+            ]
         }
-      },
-      "feature": ["Clip"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["MOD"],
-  "consumes": {
-    "name": "175gp"
-  },
-  "entries": [
-    "The firearm's clips can store twice the normal amount of rounds."
-  ]
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "MOD"
+    ],
+    "consumes": {
+        "name": "175gp"
+    },
+    "entries": [
+        "The firearm's clips can store twice the normal amount of rounds."
+    ]
 }

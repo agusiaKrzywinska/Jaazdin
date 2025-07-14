@@ -1,18 +1,18 @@
 {
-  "name": "Heart of the Empire",
-  "source": "TftJC",
-  "rarity": "artifact",
-  "wondrous": true,
-  "curse": true,
-  "ability": {
-    "con": 2
-  },
-  "entries": [
-    "This golden amulet is in the shape of the monumental pyramids of Mere’su’ra, a favored piece of jewelry of its tragic empress. When in direct sunlight it glows a soft golden.",
-    "Golden Heart. Your Constitution score increases by 2 and your maximum increases by 2 as well.",
-    "<b><i>Heart of the Mind.</i></b> When you fail a Death Save instead of marking a failure, you reduce your Intelligence by 1, this intelligence drop cannot be mitigated through any means. If this drops your Intelligence to 0, you die instantly. Intelligence lost in this way is regained on the last day of the month.",
-    "<b><i>Greater Diviner.</i></b> While on your person, Divination spells of 5th level or lower do not require spell slots to cast.",
-    "<b><i>Cursed.</i></b> Cursed. Upon touching this amulet a creature becomes cursed. While cursed, they gain boundless compassion similar to Thilask the Empress of Mere’su’ra. You instinctively trust people and cannot think about lying, answering openly and honestly to those you encounter. You automatically fail Deception and Insight checks and the saving throws of any effects that would force you to tell the truth.",
-    "You are unable to benefit from any illusions that would obscure your appearance or effects that would shape change you, such as polymorph or wild shape and similarly magic items or spells that prevent creatures from reading your thoughts or learning your creature type don’t work on you. Should you ever take off the amulet or lose it your Constitution becomes 1, this lasts until you have the amulet again or a 9th level Remove Curse removes the curse."
-  ]
+    "name": "Heart of the Empire",
+    "source": "TftJC",
+    "rarity": "artifact",
+    "wondrous": true,
+    "curse": true,
+    "ability": {
+        "con": 2
+    },
+    "entries": [
+        "This golden amulet is in the shape of the monumental pyramids of Mere’su’ra, a favored piece of jewelry of its tragic empress. When in direct sunlight it glows a soft golden.",
+        "Golden Heart. Your Constitution score increases by 2 and your maximum increases by 2 as well.",
+        "<b><i>Heart of the Mind.</i></b> When you fail a Death Save instead of marking a failure, you reduce your Intelligence by 1, this intelligence drop cannot be mitigated through any means. If this drops your Intelligence to 0, you die instantly. Intelligence lost in this way is regained on the last day of the month.",
+        "<b><i>Greater Diviner.</i></b> While on your person, Divination spells of 5th level or lower do not require spell slots to cast.",
+        "<b><i>Cursed.</i></b> Cursed. Upon touching this amulet a creature becomes cursed. While cursed, they gain boundless compassion similar to Thilask the Empress of Mere’su’ra. You instinctively trust people and cannot think about lying, answering openly and honestly to those you encounter. You automatically fail Deception and Insight checks and the saving throws of any effects that would force you to tell the truth.",
+        "You are unable to benefit from any illusions that would obscure your appearance or effects that would shape change you, such as polymorph or wild shape and similarly magic items or spells that prevent creatures from reading your thoughts or learning your creature type don’t work on you. Should you ever take off the amulet or lose it your Constitution becomes 1, this lasts until you have the amulet again or a 9th level Remove Curse removes the curse."
+    ]
 }

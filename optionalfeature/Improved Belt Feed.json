@@ -1,21 +1,27 @@
 {
-  "name": "Improved Belt Feed",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 5,
-        "class": {
-          "name": "Gunner"
+    "name": "Improved Belt Feed",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 5,
+                "class": {
+                    "name": "Gunner"
+                }
+            },
+            "feature": [
+                "Belt"
+            ]
         }
-      },
-      "feature": ["Belt"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["MOD"],
-  "consumes": {
-    "name": "225gp"
-  },
-  "entries": ["The firearm's misfire score is reduced by 1."]
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "MOD"
+    ],
+    "consumes": {
+        "name": "225gp"
+    },
+    "entries": [
+        "The firearm's misfire score is reduced by 1."
+    ]
 }

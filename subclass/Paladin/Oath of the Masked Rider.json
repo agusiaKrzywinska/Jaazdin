@@ -1,14 +1,14 @@
 {
-  "name": "Oath of the Masked Rider",
-  "source": "TftJC",
-  "page": 31,
-  "className": "Paladin",
-  "classSource": "PHB",
-  "shortName": "Masked Rider",
-  "subclassFeatures": [
-    "Oath of the Masked Rider|Paladin|PHB|Masked Rider|TftJC|3",
-    "Aura of Blasting|Paladin|PHB|Masked Rider|TftJC|7",
-    "Virtuous Blasts|Paladin|PHB|Masked Rider|TftJC|15",
-    "Masked Champion|Paladin|PHB|Masked Rider|TftJC|20"
-  ]
+    "name": "Oath of the Masked Rider",
+    "source": "TftJC",
+    "page": 31,
+    "className": "Paladin",
+    "classSource": "PHB",
+    "shortName": "Masked Rider",
+    "subclassFeatures": [
+        "Oath of the Masked Rider|Paladin|PHB|Masked Rider|TftJC|3",
+        "Aura of Blasting|Paladin|PHB|Masked Rider|TftJC|7",
+        "Virtuous Blasts|Paladin|PHB|Masked Rider|TftJC|15",
+        "Masked Champion|Paladin|PHB|Masked Rider|TftJC|20"
+    ]
 }

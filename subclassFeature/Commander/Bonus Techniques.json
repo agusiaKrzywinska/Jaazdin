@@ -1,41 +1,41 @@
 {
-  "name": "Bonus Techniques",
-  "source": "TftJC",
-  "className": "Warden",
-  "classSource": "TftJC",
-  "subclassShortName": "Commander",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "When you take this tract at 3rd level, you gain one technique from the list below. Whenever you gain a new technique, you can choose from this list as well.",
-    {
-      "type": "inset",
-      "name": "Mark of Denial",
-      "entries": [
-        "As part of an attack, you mark one creature and protect your allies from it. When you use this technique to attack a creature, that creature must make a Wisdom saving throw even if the attack misses. If the target fails the saving throw, it cannot take reactions until the end of your next turn, and any creature leaving its threat range can move an extra 10ft on their turn."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "A Change of Plans",
-      "entries": [
-        "You can forgo one attack to give an ally nearby the chance to push their advantage on their next turn. Choose one ally within 30ft, on their next turn they can use a bonus action to make one weapon attack, disengage, dash, or use an item."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Befuddling Strike",
-      "entries": [
-        "Befuddling Strike. As part of an attack, you strike a creature and confuse its senses. When you use this technique to attack a creature, that creature must make an Intelligence saving throw even if the attack misses. If the target fails, they become confused and on their next turn take one of the following actions of your choice.",
+    "name": "Bonus Techniques",
+    "source": "TftJC",
+    "className": "Warden",
+    "classSource": "TftJC",
+    "subclassShortName": "Commander",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "When you take this tract at 3rd level, you gain one technique from the list below. Whenever you gain a new technique, you can choose from this list as well.",
         {
-          "type": "list",
-          "items": [
-            "Make one attack against a creature of your choice within range.",
-            "Use all their movement and use the dash action to move in a direction of your choice, avoiding obvious dangers.",
-            " Drop what it's holding and end its turn."
-          ]
+            "type": "inset",
+            "name": "Mark of Denial",
+            "entries": [
+                "As part of an attack, you mark one creature and protect your allies from it. When you use this technique to attack a creature, that creature must make a Wisdom saving throw even if the attack misses. If the target fails the saving throw, it cannot take reactions until the end of your next turn, and any creature leaving its threat range can move an extra 10ft on their turn."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "A Change of Plans",
+            "entries": [
+                "You can forgo one attack to give an ally nearby the chance to push their advantage on their next turn. Choose one ally within 30ft, on their next turn they can use a bonus action to make one weapon attack, disengage, dash, or use an item."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Befuddling Strike",
+            "entries": [
+                "Befuddling Strike. As part of an attack, you strike a creature and confuse its senses. When you use this technique to attack a creature, that creature must make an Intelligence saving throw even if the attack misses. If the target fails, they become confused and on their next turn take one of the following actions of your choice.",
+                {
+                    "type": "list",
+                    "items": [
+                        "Make one attack against a creature of your choice within range.",
+                        "Use all their movement and use the dash action to move in a direction of your choice, avoiding obvious dangers.",
+                        " Drop what it's holding and end its turn."
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

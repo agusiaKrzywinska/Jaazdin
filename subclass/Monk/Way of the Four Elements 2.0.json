@@ -1,26 +1,26 @@
 {
-  "name": "Way of the Four Elements 2.0",
-  "source": "TftJC",
-  "page": 26,
-  "className": "Monk",
-  "classSource": "PHB",
-  "shortName": "Four Elements 2.0",
-  "subclassFeatures": [
-    "Way of the Four Elements 2.0|Monk|PHB|Four Elements 2.0|TftJC|3",
-    "Balance|Monk|PHB|Four Elements 2.0|TftJC|6",
-    "Devastating Force|Monk|PHB|Four Elements 2.0|TftJC|11",
-    "Cataclysm of Nature|Monk|PHB|Four Elements 2.0|TftJC|17"
-  ],
-  "subclassSpells": [
-    "Aqua Whip|TftJC",
-    "Control Flame|PHB",
-    "Druidcraft|PHB",
-    "Firebolt|PHB",
-    "Gust|PHB",
-    "Mold Earth|PHB",
-    "Produce Flame|PHB",
-    "Ray of Frost|PHB",
-    "Shape Water|PHB",
-    "Thunderclap|PHB"
-  ]
+    "name": "Way of the Four Elements 2.0",
+    "source": "TftJC",
+    "page": 26,
+    "className": "Monk",
+    "classSource": "PHB",
+    "shortName": "Four Elements 2.0",
+    "subclassFeatures": [
+        "Way of the Four Elements 2.0|Monk|PHB|Four Elements 2.0|TftJC|3",
+        "Balance|Monk|PHB|Four Elements 2.0|TftJC|6",
+        "Devastating Force|Monk|PHB|Four Elements 2.0|TftJC|11",
+        "Cataclysm of Nature|Monk|PHB|Four Elements 2.0|TftJC|17"
+    ],
+    "subclassSpells": [
+        "Aqua Whip|TftJC",
+        "Control Flame|PHB",
+        "Druidcraft|PHB",
+        "Firebolt|PHB",
+        "Gust|PHB",
+        "Mold Earth|PHB",
+        "Produce Flame|PHB",
+        "Ray of Frost|PHB",
+        "Shape Water|PHB",
+        "Thunderclap|PHB"
+    ]
 }

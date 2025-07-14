@@ -1,21 +1,27 @@
 {
-  "name": "Laser Sight",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 3,
-        "class": {
-          "name": "Gunner"
+    "name": "Laser Sight",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 3,
+                "class": {
+                    "name": "Gunner"
+                }
+            },
+            "feature": [
+                "Gunner: Deadeye"
+            ]
         }
-      },
-      "feature": ["Gunner: Deadeye"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["MOD"],
-  "consumes": {
-    "name": "85gp"
-  },
-  "entries": ["You gain a +3 to hit against creatures not in direct light."]
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "MOD"
+    ],
+    "consumes": {
+        "name": "85gp"
+    },
+    "entries": [
+        "You gain a +3 to hit against creatures not in direct light."
+    ]
 }

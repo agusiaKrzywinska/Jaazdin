@@ -1,12 +1,12 @@
 {
-  "name": "Glider",
-  "source": "TftJC",
-  "rarity": "none",
-  "type": "T",
-  "entries": [
-    "<i><b>Complex Invention.</i></b>",
-    "This folding device contains a flexible cloth that is able to take on the weight of 1 Medium or smaller creature. This device is stored on the wearer's back, and metal rods connect to the apparatus that run down the wearer's arms. As an Action, the wearer can Prime the Glider. While Primed the wearer's range of motion is slightly more limited, causing disadvantage on making melee attacks, sleight of hand checks, and preventing the use of a Shield.",
-    "While primed, the wearer can use a reaction when falling more than 10ft to begin to glide. The Glider allows the wielder to fall harmlessly down, gliding a number of feet forwards equal to the distance they would have fallen. A creature using the Glider can only fall a maximum of 60ft in a round, as it slows descent.",
-    "If you take 5 or more fire damage while using the glider, the cloth burns up causing the wielder to begin falling. A new cloth can be replaced onto the glider for 25gp."
-  ]
+    "name": "Glider",
+    "source": "TftJC",
+    "rarity": "none",
+    "type": "T",
+    "entries": [
+        "<i><b>Complex Invention.</i></b>",
+        "This folding device contains a flexible cloth that is able to take on the weight of 1 Medium or smaller creature. This device is stored on the wearer's back, and metal rods connect to the apparatus that run down the wearer's arms. As an Action, the wearer can Prime the Glider. While Primed the wearer's range of motion is slightly more limited, causing disadvantage on making melee attacks, sleight of hand checks, and preventing the use of a Shield.",
+        "While primed, the wearer can use a reaction when falling more than 10ft to begin to glide. The Glider allows the wielder to fall harmlessly down, gliding a number of feet forwards equal to the distance they would have fallen. A creature using the Glider can only fall a maximum of 60ft in a round, as it slows descent.",
+        "If you take 5 or more fire damage while using the glider, the cloth burns up causing the wielder to begin falling. A new cloth can be replaced onto the glider for 25gp."
+    ]
 }

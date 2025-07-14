@@ -1,16 +1,16 @@
 {
-  "name": "Quickdraw",
-  "source": "TftJC",
-  "page": 12,
-  "className": "Gunner",
-  "classSource": "TftJC",
-  "shortName": "Quickdraw",
-  "subclassFeatures": [
-    "Quickdraw Archetype|Gunner|TftJC|Quickdraw|TftJC|2",
-    "Quickdraw Modifications|Gunner|TftJC|Quickdraw|TftJC|3",
-    "Quickdraw Showdown|Gunner|TftJC|Quickdraw|TftJC|6",
-    "Lightning Round|Gunner|TftJC|Quickdraw|TftJC|10",
-    "Shoot to Thrill Improvement|Gunner|TftJC|Quickdraw|TftJC|10",
-    "Drop N' Dance|Gunner|TftJC|Quickdraw|TftJC|14"
-  ]
+    "name": "Quickdraw",
+    "source": "TftJC",
+    "page": 12,
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "shortName": "Quickdraw",
+    "subclassFeatures": [
+        "Quickdraw Archetype|Gunner|TftJC|Quickdraw|TftJC|2",
+        "Quickdraw Modifications|Gunner|TftJC|Quickdraw|TftJC|3",
+        "Quickdraw Showdown|Gunner|TftJC|Quickdraw|TftJC|6",
+        "Lightning Round|Gunner|TftJC|Quickdraw|TftJC|10",
+        "Shoot to Thrill Improvement|Gunner|TftJC|Quickdraw|TftJC|10",
+        "Drop N' Dance|Gunner|TftJC|Quickdraw|TftJC|14"
+    ]
 }

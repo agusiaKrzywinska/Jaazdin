@@ -1,23 +1,27 @@
 {
-  "name": "Quickened Belt Feed",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 17,
-        "class": {
-          "name": "Gunner"
+    "name": "Quickened Belt Feed",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 17,
+                "class": {
+                    "name": "Gunner"
+                }
+            },
+            "feature": [
+                "Belt"
+            ]
         }
-      },
-      "feature": ["Belt"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["MOD"],
-  "consumes": {
-    "name": "950gp"
-  },
-  "entries": [
-    "The Belt firearm makes three attacks instead of two per each attack it could make. +1 Misfire score."
-  ]
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "MOD"
+    ],
+    "consumes": {
+        "name": "950gp"
+    },
+    "entries": [
+        "The Belt firearm makes three attacks instead of two per each attack it could make. +1 Misfire score."
+    ]
 }

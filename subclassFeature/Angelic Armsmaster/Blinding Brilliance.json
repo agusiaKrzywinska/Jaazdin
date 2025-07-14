@@ -1,13 +1,13 @@
 {
-  "name": "Blinding Brilliance",
-  "source": "TftJC",
-  "className": "Fighter",
-  "classSource": "PHB",
-  "subclassShortName": "Angelic Armsmaster",
-  "subclassSource": "TftJC",
-  "level": 10,
-  "entries": [
-    "At 10th level, you can perform a Blinding Attack. After hitting a creature with a Weapon of the Gods, you can force that creature and all other creatures within a 10ft radius of it to make a Constitution Saving Throw, using your Wisdom Modifier to calculate the DC (8 + prof + WIS). Creatures that fail are blinded until the end of your next turn. You can use this ability a number of times equal to your proficiency bonus per short rest.",
-    "Additionally, you are immune to the blinded condition when the source would be from a powerful light."
-  ]
+    "name": "Blinding Brilliance",
+    "source": "TftJC",
+    "className": "Fighter",
+    "classSource": "PHB",
+    "subclassShortName": "Angelic Armsmaster",
+    "subclassSource": "TftJC",
+    "level": 10,
+    "entries": [
+        "At 10th level, you can perform a Blinding Attack. After hitting a creature with a Weapon of the Gods, you can force that creature and all other creatures within a 10ft radius of it to make a Constitution Saving Throw, using your Wisdom Modifier to calculate the DC (8 + prof + WIS). Creatures that fail are blinded until the end of your next turn. You can use this ability a number of times equal to your proficiency bonus per short rest.",
+        "Additionally, you are immune to the blinded condition when the source would be from a powerful light."
+    ]
 }

@@ -1,42 +1,42 @@
 {
-  "name": "Fighting Style",
-  "source": "TftJC",
-  "className": "Bard",
-  "classSource": "PHB",
-  "subclassShortName": "War Poet",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "At 3rd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if something in the game lets you choose again.",
-    {
-      "type": "options",
-      "count": 1,
-      "entries": [
+    "name": "Fighting Style",
+    "source": "TftJC",
+    "className": "Bard",
+    "classSource": "PHB",
+    "subclassShortName": "War Poet",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if something in the game lets you choose again.",
         {
-          "type": "refOptionalfeature",
-          "optionalfeature": "Archery"
-        },
-        {
-          "type": "refOptionalfeature",
-          "optionalfeature": "Dueling"
-        },
-        {
-          "type": "refOptionalfeature",
-          "optionalfeature": "Two-Weapon Fighting"
-        },
-        {
-          "type": "refOptionalfeature",
-          "optionalfeature": "Battle Herald|TftJC"
-        },
-        {
-          "type": "refOptionalfeature",
-          "optionalfeature": "Thrown Weapon Fighting|TCE"
-        },
-        {
-          "type": "refOptionalfeature",
-          "optionalfeature": "Rakish Fighting|TftJC"
+            "type": "options",
+            "count": 1,
+            "entries": [
+                {
+                    "type": "refOptionalfeature",
+                    "optionalfeature": "Archery"
+                },
+                {
+                    "type": "refOptionalfeature",
+                    "optionalfeature": "Dueling"
+                },
+                {
+                    "type": "refOptionalfeature",
+                    "optionalfeature": "Two-Weapon Fighting"
+                },
+                {
+                    "type": "refOptionalfeature",
+                    "optionalfeature": "Battle Herald|TftJC"
+                },
+                {
+                    "type": "refOptionalfeature",
+                    "optionalfeature": "Thrown Weapon Fighting|TCE"
+                },
+                {
+                    "type": "refOptionalfeature",
+                    "optionalfeature": "Rakish Fighting|TftJC"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

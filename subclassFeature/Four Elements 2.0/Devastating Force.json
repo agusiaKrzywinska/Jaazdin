@@ -1,12 +1,12 @@
 {
-  "name": "Devastating Force",
-  "source": "TftJC",
-  "className": "Monk",
-  "classSource": "PHB",
-  "subclassShortName": "Four Elements 2.0",
-  "subclassSource": "TftJC",
-  "level": 11,
-  "entries": [
-    "At 11th level, your magic can be enhanced with your Ki. Whenever you would cast a spell, you can expend a Ki point to upcast the spell by a level."
-  ]
+    "name": "Devastating Force",
+    "source": "TftJC",
+    "className": "Monk",
+    "classSource": "PHB",
+    "subclassShortName": "Four Elements 2.0",
+    "subclassSource": "TftJC",
+    "level": 11,
+    "entries": [
+        "At 11th level, your magic can be enhanced with your Ki. Whenever you would cast a spell, you can expend a Ki point to upcast the spell by a level."
+    ]
 }

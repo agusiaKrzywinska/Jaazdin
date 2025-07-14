@@ -1,20 +1,20 @@
 {
-  "name": "Handcannon",
-  "source": "TftJC",
-  "type": "GV",
-  "rarity": "none",
-  "entries": [
-    "This miniature cannon can be wielded effectively with two hands, like a heavy crossbow.",
-    "Proficiency in the Heavy Crossbow allows you to add your proficiency bonus with this weapon.",
-    "It uses small cannonballs as ammunition, 10 of which can be bought for 5gp.",
-    "There are the following versions:",
-    {
-      "type": "list",
-      "items": [
-        "{@item Handcannon MK I|TftJC}",
-        "{@item Handcannon MK II|TftJC}",
-        "{@item Handcannon MK III|TftJC}"
-      ]
-    }
-  ]
+    "name": "Handcannon",
+    "source": "TftJC",
+    "type": "GV",
+    "rarity": "none",
+    "entries": [
+        "This miniature cannon can be wielded effectively with two hands, like a heavy crossbow.",
+        "Proficiency in the Heavy Crossbow allows you to add your proficiency bonus with this weapon.",
+        "It uses small cannonballs as ammunition, 10 of which can be bought for 5gp.",
+        "There are the following versions:",
+        {
+            "type": "list",
+            "items": [
+                "{@item Handcannon MK I|TftJC}",
+                "{@item Handcannon MK II|TftJC}",
+                "{@item Handcannon MK III|TftJC}"
+            ]
+        }
+    ]
 }

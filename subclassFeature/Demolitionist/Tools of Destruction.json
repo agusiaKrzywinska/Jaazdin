@@ -1,13 +1,13 @@
 {
-  "name": "Tools of Destruction",
-  "source": "TftJC",
-  "className": "Gunner",
-  "classSource": "TftJC",
-  "subclassShortName": "Demolitionist",
-  "subclassSource": "TftJC",
-  "level": 2,
-  "entries": [
-    "At 2nd level, Demolitionists gain access to powerful new tools; The {@item Explosive Lobber|TftJC} and {@item Flamethrower|TftJC}. Only Demolitionists can use them.",
-    "They use unique ammo instead of bullets, and have their own resource for such. A number of times per short rest equal to your Proficiency Bonus, you can empower your Tools of Destruction. As a Bonus Action or as a part of Shoot to Thrill, you can double the explosive or cone value for your Tools of Destruction until the end of your turn."
-  ]
+    "name": "Tools of Destruction",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "subclassShortName": "Demolitionist",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "At 2nd level, Demolitionists gain access to powerful new tools; The {@item Explosive Lobber|TftJC} and {@item Flamethrower|TftJC}. Only Demolitionists can use them.",
+        "They use unique ammo instead of bullets, and have their own resource for such. A number of times per short rest equal to your Proficiency Bonus, you can empower your Tools of Destruction. As a Bonus Action or as a part of Shoot to Thrill, you can double the explosive or cone value for your Tools of Destruction until the end of your turn."
+    ]
 }

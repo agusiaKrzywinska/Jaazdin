@@ -8,12 +8,12 @@
         "full": "Tales from the Jaazdin Collective",
         "authors": ["Nicholas McCarthy", "Adam Henderson"],
         "convertedBy": ["Agusia Krzywinska", "Adam Henderson", "Malcolm Keefe"],
-        "version": "0.3.70"
+        "version": "0.3.71"
       }
     ],
     "edition": "classic",
     "dateAdded": 0,
-    "dateLastModified": 1751759237,
+    "dateLastModified": 1752523195,
     "optionalFeatureTypes": {
       "FS:W": "Fighting Style: Warden",
       "TECH": "Technique",
@@ -1946,6 +1946,27 @@
       ]
     },
     {
+      "name": "Carnivore's Delight",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "rare",
+      "value": 10000,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools to prepare.",
+        "<b>Ingredients:</b> x1 Rare Beast Meat, x1 Rare Monstrosity Meat, x1 Humanoid Meat",
+        "<b>Effect:</b> When you reduce a creature to 0 hit points you regain 1d8 hit points."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
+        }
+      }
+    },
+    {
       "name": "Ceatus",
       "source": "TftJC",
       "page": 50,
@@ -1978,6 +1999,27 @@
       "entries": [
         "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
       ]
+    },
+    {
+      "name": "Cheer Cookies",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "common",
+      "value": 500,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools to prepare.",
+        "<b>Ingredients:</b> x1 Shaded Milkweed, x1 Trailvine.",
+        "<b>Effect:</b> The next time you use the help action or have the help action used on you for a Charisma check add {@dice 1d6} to the roll. The effect then ends."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
+        }
+      }
     },
     {
       "name": "Claws of the Blue Dragon",
@@ -2037,6 +2079,27 @@
         "uses": {
           "max": "6",
           "spent": 0
+        }
+      }
+    },
+    {
+      "name": "Coffee",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "common",
+      "value": 200,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools or Brewer's Tools to prepare.",
+        "<b>Ingredients:</b> x1 Remedial herb, x1 Trailvine.",
+        "<b>Effect:</b> You ignore one level of exhaustion but cannot benefit from a short or long rest for the next 8 hours."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
         }
       }
     },
@@ -2309,6 +2372,27 @@
         }
       ],
       "attachedSpells": ["detect evil and good", "detect magic"]
+    },
+    {
+      "name": "Drake Egg Nog",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "uncommon",
+      "value": 8000,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools or Brewer's Tools to prepare.",
+        "<b>Ingredients:</b> x1 Uncommon Dragon Meat (Type determines resistance).",
+        "<b>Effect:</b> The first time you take the damage type of the meal reduce the damage by 2d8 to a minimum of 1. The effect then ends."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
+        }
+      }
     },
     {
       "name": "Drum Mag",
@@ -2615,6 +2699,27 @@
       ]
     },
     {
+      "name": "Fire Belly Mead",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "common",
+      "value": 2000,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools or Brewer's Tools to prepare.",
+        "<b>Ingredients:</b> x1 Common Dragon Meat, x1 Trailvine.",
+        "<b>Effect:</b> You have advantage on all saving throws to resist the effects of cold climates."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
+        }
+      }
+    },
+    {
       "name": "Flail of Disruption",
       "source": "TftJC",
       "type": "M",
@@ -2683,6 +2788,27 @@
         "An Aberration hit with this greataxe takes an extra 1d12 slashing damage. If the Aberration is currently grappling a creature, the Aberration must succeed on a DC 15 Strength saving throw or release each creature it is grappling.",
         "If a flying creature you can see within 30 feet of you makes an attack roll against you, you can use your reaction to hold the greataxe aloft and cause it to flare with light. The attacker has disadvantage on the attack roll, and it must succeed on a DC 15 Constitution saving throw or be blinded until the start of its next turn."
       ]
+    },
+    {
+      "name": "Frost Cactus Wine",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "common",
+      "value": 1500,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools or Brewer's Tools to prepare.",
+        "<b>Ingredients:</b> x1 Common Dragon Meat, x1 Trailvine.",
+        "<b>Effect:</b> You have advantage on all saving throws to resist the effects of hot climates."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
+        }
+      }
     },
     {
       "name": "Frostwail",
@@ -3021,6 +3147,48 @@
       ]
     },
     {
+      "name": "Harmony Tea",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "common",
+      "value": 1000,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools or Brewer's Tools to prepare.",
+        "<b>Ingredients:</b> x2 Harmony Caps.",
+        "<b>Effect:</b> Gain +1 to all concentration checks until you fail one."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
+        }
+      }
+    },
+    {
+      "name": "Harvest Sauce",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "common",
+      "value": 3500,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools or Brewer's Tools to prepare.",
+        "<b>Ingredients:</b> x3 Red Winter Berries, x1 Remedial Herb, x1 Bubblepod.",
+        "<b>Effect:</b> Must be eaten with another meal, whenever you gain temporary hit points, increase the amount gained by 1."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
+        }
+      }
+    },
+    {
       "name": "Harvester",
       "source": "TftJC",
       "rarity": "none",
@@ -3185,6 +3353,27 @@
       ]
     },
     {
+      "name": "Ice Spring Wine",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "uncommon",
+      "value": 6000,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools or Brewer's Tools to prepare.",
+        "<b>Ingredients:</b> x1 Bubblepod, x1 Drow’s Wine Glass, x3 Red Winterberry.",
+        "<b>Effect:</b> When you take a short rest you gain +2 Hit Points per Hit Die spent."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
+        }
+      }
+    },
+    {
       "name": "Icebreaker",
       "source": "TftJC",
       "rarity": "very rare",
@@ -3201,6 +3390,27 @@
         "When you cast a spell that deals Cold Damage, you can apply this sword's bonus to the Spell Attack Roll, or increase its saving throw by 2 (whichever applies).",
         "If you make an attack with this weapon after dealing Cold Damage in the past minute, this weapon’s Critical Hit Range is increased by 1."
       ]
+    },
+    {
+      "name": "Iceflower Flakey",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "uncommon",
+      "value": 5000,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools to prepare.",
+        "<b>Ingredients:</b> x1 Drow’s Wine Glass, x1 Uncommon Meat (cold resistance)",
+        "<b>Effect:</b> You gain a +1 bonus to Intelligence saves and when you take psychic damage you can use your reaction to reduce the psychic damage to 1. Once you use this reaction you lose all the bonuses of this meal."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
+        }
+      }
     },
     {
       "name": "Impossible Gloves",
@@ -3289,6 +3499,27 @@
       ]
     },
     {
+      "name": "Kelp Brittle",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "common",
+      "value": 500,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires cook's tools to prepare.",
+        "<b>Ingredients:</b> x1 Mist Creeper, x1 Bubblepod.",
+        "<b>Effect:</b> Triples the duration you can remain underwater before you begin drowning."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
+        }
+      }
+    },
+    {
       "name": "Lance of the Steadfast Prince",
       "source": "TftJC",
       "rarity": "legendary",
@@ -3306,6 +3537,27 @@
         "Additionally, your walking speed is increased by 10, and if you are mounted this walking speed is bonus is instead applied to your mount.",
         "<b><i>Special.</i></b> You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."
       ]
+    },
+    {
+      "name": "Lemon Salt Crackers",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "common",
+      "value": 500,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools to prepare.",
+        "<b>Ingredients:</b> x1 Common Elemental Meat, x2 Trailvine.",
+        "<b>Effect:</b> You gain a +1 bonus to all Strength, Dexterity, and Constitution ability checks."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
+        }
+      }
     },
     {
       "name": "Locket of Warding",
@@ -3349,7 +3601,7 @@
       "dmgType": "P",
       "range": "30/120",
       "entries": [
-        "<b><i>Belt 20.</i></b> Upon crafting a Belt fed firearm, you additionally gain 1 Belt. Belt fed firearms can make 2 attacks per attack they can make, but do not add your Dexterity Modifier to the damage. Each subsequent attack made with this weapon in one round recieves a -1 to hit. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1."
+        "<b><i>Belt 20.</i></b> Upon crafting a Belt fed firearm, you additionally gain 1 Belt. Belt fed firearms can make 2 attacks per attack they can make, but do not add your Dexterity Modifier to the damage. Each subsequent attack made with this weapon in one round receives a -1 to hit. Once a belt is out of ammunition, you can replace and reload the firearm with another loaded belt as an Action. To reload the ammunition in a belt, it requires 1 minute per 10 rounds you are reloading. Belt weapons are prone to jam, and have their misfire score increased by 1."
       ]
     },
     {
@@ -3431,6 +3683,27 @@
       ]
     },
     {
+      "name": "Mooncloud Jelly",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "uncommon",
+      "value": 5000,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools to prepare.",
+        "<b>Ingredients:</b> x1 Uncommon Aberration Meat",
+        "<b>Effect:</b> You have advantage on your next Strength, Dexterity, and Constitution saving throw."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
+        }
+      }
+    },
+    {
       "name": "Moonlight Pendant",
       "source": "TftJC",
       "rarity": "rare",
@@ -3441,6 +3714,27 @@
         "This pendant can store moonlight. If left out in the moonlight for 1 hour, it gains a charge. It can hold up to 10 charges at a time. You can expend a charge to be treated as in moonlight for your Lycanthropy.",
         "Additionally, during a full moon, you can now make a DC 17 WIS save to control your cravings."
       ]
+    },
+    {
+      "name": "Moonspring Skittles",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "common",
+      "value": 3000,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools to prepare.",
+        "<b>Ingredients:</b> x2 Bubblepod, x1 Common Aberration meat",
+        "<b>Effect:</b> You gain a +1 bonus to all Intelligence, Charisma, or Wisdom ability checks."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
+        }
+      }
     },
     {
       "name": "Muscle Magazine Vol.",
@@ -3639,6 +3933,27 @@
       ]
     },
     {
+      "name": "Piña Colada",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "rare",
+      "value": 15000,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires Brewer's Tools to prepare.",
+        "<b>Ingredients:</b> x1 Rare Water Elemental Meat, x1 Siren's Cap",
+        "<b>Effect:</b> Whenever you make a Charisma check, treat a roll of 4 or lower on the d20 as an 5."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
+        }
+      }
+    },
+    {
       "name": "Pistol",
       "source": "TftJC",
       "type": "R",
@@ -3683,6 +3998,27 @@
         "This potion looks to be made from liquid gold. Drinking this potion grants the creature near Perfection in everything it does. Any d20 roll on a Skill check that is 7 or lower is treated as an 8. Your Proficiency Bonus is treated as 2 Higher. You gain 1 Legendary Resistance, which is lost after the duration runs out.",
         "These effects last for 1 hour. The potion's remaining duration is halved each time you fail a skill check/saving throw."
       ]
+    },
+    {
+      "name": "Powdered Butterfly Wings",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "uncommon",
+      "value": 5000,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools to prepare.",
+        "<b>Ingredients:</b> x1 Uncommon Fey Meat, x2 Foggy Leaf.",
+        "<b>Effect:</b> You gain a +1 bonus to Charisma saves and can double your proficiency bonus to one Charisma checks. Once you double your proficiency bonus you lose all the bonuses of this meal."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
+        }
+      }
     },
     {
       "name": "Prism of the Moon",
@@ -3730,6 +4066,27 @@
         "Items in the bandolier can be drawn as a free action. Placing an Item in the bandolier uses an Item interaction.",
         "Each Pouch can only contain one type of item but can hold up to 5 lbs."
       ]
+    },
+    {
+      "name": "Rainbow Fillet",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "common",
+      "value": 500,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires cook's tools to prepare.",
+        "<b>Ingredients:</b> 3× Common meat (swim speed), 1× Hiker’s Bounty.",
+        "<b>Effect:</b> Gain a +1 bonus to all ability checks related to swimming or exploring underwater."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
+        }
+      }
     },
     {
       "name": "Revolver",
@@ -3977,6 +4334,48 @@
         "The Ring of *Splat* contains five charges and regains {@dice 1d4} charges every day at dawn.",
         "Ghost pie can only be eaten by ghosts. It goes well with ghost vanilla ice cream."
       ]
+    },
+    {
+      "name": "Road Syrup",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "common",
+      "value": 1000,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools to prepare.",
+        "<b>Ingredients:</b> X1 Common Meat, x1 Remedial Herb.",
+        "<b>Effect:</b> When you travel you can travel 50% longer before suffering any ill effects."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
+        }
+      }
+    },
+    {
+      "name": "Road Tack",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "common",
+      "value": 500,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools to prepare.",
+        "<b>Ingredients:</b> x1 Common meat, x2 Hiker's Bounty.",
+        "<b>Effect:</b> Road Tack prepares eight meals worth. A character that eats Road Tack is filled for the day."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
+        }
+      }
     },
     {
       "name": "Sanguinity",
@@ -4309,6 +4708,27 @@
         "To regain hit dice consumed by the blade, you must cast a remove curse or similar spell on the blade. Each time this is cast, you regain one lost hit die. The creature casting the remove curse (or similar spell) must make a DC 13 + the number of held hit dice Charisma saving throw or have their alignment shifted down by one row, if it is already evil it is shifted one towards chaotic, if they are already chaotic evil                                                 .",
         "The blade can hold a total of 20 hit dice."
       ]
+    },
+    {
+      "name": "Tamer's Feed",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "common",
+      "value": 1000,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools to prepare.",
+        "<b>Ingredients:</b> x1 Trailvine, x1 Common Meat.",
+        "<b>Effect:</b> Can only be fed to a creature with an intelligence of 3 or lower. When fed as an action it gives them disadvantage on checks to resist being charmed. When used in downtime, it grants a +1 bonus to the taming/training roll."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
+        }
+      }
     },
     {
       "name": "Temporal Stabilizer",
@@ -4803,6 +5223,27 @@
         "The javelin's maximum range cannot exceed how many ft of rope the canister contains. Additionally, as a Bonus Action, you can set a maximum length limit to the rope, so that the rope only goes out a number of feet up to this amount. You can change or remove the length limit as a Bonus Action on a subsequent turn.",
         "Hitting a creature with the javelin carries the rope with it, allowing you to hold a rope on that creature so long as the javelin remains stuck in the creature. The creature can remove the javelin as an action by making a DC 15 Strength Check. While the javelin remains embedded in the creature, their walking/swim/flying speeds are lowered by 10."
       ]
+    },
+    {
+      "name": "Yushanti's Secret Sauce",
+      "source": "TftJC",
+      "type": "FD",
+      "rarity": "legendary",
+      "value": 25000,
+      "weight": 0,
+      "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools to prepare.",
+        "<b>Ingredients:</b> x3 Golden Clover, x10 Ironoak Berries, x1 Solar Harpflower, x1 Rock Gum Root, x2 Draconic Ivy, x1 Rusty Sprig, x5 Shaded Milkweed",
+        "<b>Effect:</b> Must be eaten with another meal, grants both its effect and the other meals effects. When consumed you gain one use of a Legendary resistance."
+      ],
+      "foundryType": "consumable",
+      "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+          "max": 1,
+          "per": "charges"
+        }
+      }
     },
     {
       "name": "Zar's Fancy Boots",
@@ -6245,7 +6686,7 @@
               "name": "Gunner"
             }
           },
-          "feature": ["Cannot be used wtih Explosive or Gas"]
+          "feature": ["Cannot be used with Explosive or Gas"]
         }
       ],
       "source": "TftJC",
@@ -6320,7 +6761,7 @@
         "name": "400gp"
       },
       "entries": [
-        "The Firearm can be dissassembled and reassmebled within 1 minute for concealed carry."
+        "The Firearm can be disassembled and reassembled within 1 minute for concealed carry."
       ]
     },
     {
@@ -6362,7 +6803,7 @@
         "name": "200gp"
       },
       "entries": [
-        "So long as you don't move on your turn, you can add your Wisdom Modifer to the to hit bonus of this weapon."
+        "So long as you don't move on your turn, you can add your Wisdom Modifier to the to hit bonus of this weapon."
       ]
     },
     {
@@ -7032,7 +7473,7 @@
       ]
     },
     {
-      "name": "Smoke Cannister Launcher",
+      "name": "Smoke Canister Launcher",
       "prerequisite": [
         {
           "level": {
@@ -7051,7 +7492,7 @@
         "name": "400gp"
       },
       "entries": [
-        "You can forgo an attack on your turn with a Smoke Cannister, firing it within your firearm's short range. It then explodes, dealing no damage but heavily obscurring a 10ft radius around it. Can be used a number of times per Short rest equal to your Prof Bonus."
+        "You can forgo an attack on your turn with a Smoke Canister, firing it within your firearm's short range. It then explodes, dealing no damage but heavily obscuring a 10ft radius around it. Can be used a number of times per Short rest equal to your Prof Bonus."
       ]
     },
     {
@@ -13329,34 +13770,6 @@
       ]
     },
     {
-      "name": "Circle Spells",
-      "source": "TftJC",
-      "className": "Druid",
-      "classSource": "PHB",
-      "subclassShortName": "Iron Heretic",
-      "subclassSource": "TftJC",
-      "level": 2,
-      "entries": [
-        "Your relationship with metal grants you the ability to tap into magic forbidden to other druids. At 2nd level, you learn one of the following cantrips: booming blade, green flame blade, or sword burst. At 3rd, 5th, 7th, and 9th levels you gain access to the spells listed for that level in the Circle of the Iron Heretic Spells table.",
-        "Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
-        {
-          "type": "table",
-          "caption": "Iron Heretic Spells",
-          "colLabels": ["Druid Level", "Spells"],
-          "colStyles": ["col-2 text-center", "col-10"],
-          "rows": [
-            [
-              "3rd",
-              "{@spell aganazzar's scorcher|XGE}, {@spell dragon's breath|XGE}"
-            ],
-            ["5th", "{@spell wall of sand|XGE}, {@spell molten cascade|TftJC}"],
-            ["7th", "{@spell fabricate}, {@spell fire shield}"],
-            ["9th", "{@spell animate objects}, {@spell steel wind strike|XGE}"]
-          ]
-        }
-      ]
-    },
-    {
       "name": "Circle of the Iron Heretic",
       "source": "TftJC",
       "className": "Druid",
@@ -13383,6 +13796,34 @@
         {
           "type": "refSubclassFeature",
           "subclassFeature": "Metallic Carapace|Druid|PHB|Iron Heretic|TftJC|2"
+        }
+      ]
+    },
+    {
+      "name": "Circle Spells",
+      "source": "TftJC",
+      "className": "Druid",
+      "classSource": "PHB",
+      "subclassShortName": "Iron Heretic",
+      "subclassSource": "TftJC",
+      "level": 2,
+      "entries": [
+        "Your relationship with metal grants you the ability to tap into magic forbidden to other druids. At 2nd level, you learn one of the following cantrips: booming blade, green flame blade, or sword burst. At 3rd, 5th, 7th, and 9th levels you gain access to the spells listed for that level in the Circle of the Iron Heretic Spells table.",
+        "Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+        {
+          "type": "table",
+          "caption": "Iron Heretic Spells",
+          "colLabels": ["Druid Level", "Spells"],
+          "colStyles": ["col-2 text-center", "col-10"],
+          "rows": [
+            [
+              "3rd",
+              "{@spell aganazzar's scorcher|XGE}, {@spell dragon's breath|XGE}"
+            ],
+            ["5th", "{@spell wall of sand|XGE}, {@spell molten cascade|TftJC}"],
+            ["7th", "{@spell fabricate}, {@spell fire shield}"],
+            ["9th", "{@spell animate objects}, {@spell steel wind strike|XGE}"]
+          ]
         }
       ]
     },

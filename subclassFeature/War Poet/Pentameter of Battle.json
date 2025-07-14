@@ -1,13 +1,13 @@
 {
-  "name": "Pentameter of Battle",
-  "source": "TftJC",
-  "className": "Bard",
-  "classSource": "PHB",
-  "subclassShortName": "War Poet",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "At 3rd level, you gain proficiency in medium armors, shields, and the longsword, longbow, and scimitar. In addition, you learn Calligraphy tools, if you already have proficiency in Calligraphy tools you gain a different artisan tool instead.",
-    "You ignore the spell list restrictions to cast spells from spell scrolls, and it takes you 10% less time to craft spell scrolls."
-  ]
+    "name": "Pentameter of Battle",
+    "source": "TftJC",
+    "className": "Bard",
+    "classSource": "PHB",
+    "subclassShortName": "War Poet",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, you gain proficiency in medium armors, shields, and the longsword, longbow, and scimitar. In addition, you learn Calligraphy tools, if you already have proficiency in Calligraphy tools you gain a different artisan tool instead.",
+        "You ignore the spell list restrictions to cast spells from spell scrolls, and it takes you 10% less time to craft spell scrolls."
+    ]
 }

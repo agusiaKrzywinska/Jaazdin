@@ -1,21 +1,27 @@
 {
-  "name": "Sharpened Edge",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 13,
-        "class": {
-          "name": "Gunner"
+    "name": "Sharpened Edge",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 13,
+                "class": {
+                    "name": "Gunner"
+                }
+            },
+            "feature": [
+                "Gunner: Flameburster"
+            ]
         }
-      },
-      "feature": ["Gunner: Flameburster"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["MOD"],
-  "consumes": {
-    "name": "650gp"
-  },
-  "entries": ["Attacks made have their critical hit range expanded by 1."]
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "MOD"
+    ],
+    "consumes": {
+        "name": "650gp"
+    },
+    "entries": [
+        "Attacks made have their critical hit range expanded by 1."
+    ]
 }

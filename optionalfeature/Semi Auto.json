@@ -1,23 +1,27 @@
 {
-  "name": "Semi Auto",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 13,
-        "class": {
-          "name": "Gunner"
+    "name": "Semi Auto",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 13,
+                "class": {
+                    "name": "Gunner"
+                }
+            },
+            "feature": [
+                "Deadeye"
+            ]
         }
-      },
-      "feature": ["Deadeye"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["MOD"],
-  "consumes": {
-    "name": "650gp"
-  },
-  "entries": [
-    "Allows the Deadeye to override its restriction to extra attack, can be turned off/on as a Bonus Action."
-  ]
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "MOD"
+    ],
+    "consumes": {
+        "name": "650gp"
+    },
+    "entries": [
+        "Allows the Deadeye to override its restriction to extra attack, can be turned off/on as a Bonus Action."
+    ]
 }

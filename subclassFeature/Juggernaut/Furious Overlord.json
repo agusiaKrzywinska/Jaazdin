@@ -1,22 +1,22 @@
 {
-  "name": "Furious Overlord",
-  "source": "TftJC",
-  "className": "Warden",
-  "classSource": "TftJC",
-  "subclassShortName": "Juggernaut",
-  "subclassSource": "TftJC",
-  "level": 20,
-  "entries": [
-    "At 20th level, your hatred can bolster your body turning you into an unstoppable juggernaut. As an action, you can become enraged for 1 minute. While enraged, you gain the following effects:",
-    {
-      "type": "list",
-      "items": [
-        "The effects of Unstoppable Force and Unyielding Body are always active during that minute. ",
-        "Any damage you take is reduced by your Proficiency Bonus.",
-        "You gain an additional 15 feet of movement speed.",
-        "You are immune to the charmed and frightened conditions."
-      ]
-    },
-    "These effects last for 1 minute or until you fall unconscious. After this ability ends, you gain two levels of exhaustion and cannot use it again until you finish a long rest."
-  ]
+    "name": "Furious Overlord",
+    "source": "TftJC",
+    "className": "Warden",
+    "classSource": "TftJC",
+    "subclassShortName": "Juggernaut",
+    "subclassSource": "TftJC",
+    "level": 20,
+    "entries": [
+        "At 20th level, your hatred can bolster your body turning you into an unstoppable juggernaut. As an action, you can become enraged for 1 minute. While enraged, you gain the following effects:",
+        {
+            "type": "list",
+            "items": [
+                "The effects of Unstoppable Force and Unyielding Body are always active during that minute. ",
+                "Any damage you take is reduced by your Proficiency Bonus.",
+                "You gain an additional 15 feet of movement speed.",
+                "You are immune to the charmed and frightened conditions."
+            ]
+        },
+        "These effects last for 1 minute or until you fall unconscious. After this ability ends, you gain two levels of exhaustion and cannot use it again until you finish a long rest."
+    ]
 }

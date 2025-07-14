@@ -1,19 +1,23 @@
 {
-  "name": "Katana of Astral Speed",
-  "source": "TftJC",
-  "rarity": "very rare",
-  "baseItem": "Katana|TftJC",
-  "type": "M",
-  "weight": 2,
-  "weaponCategory": "martial",
-  "property": ["F", "S", "V"],
-  "dmg1": "1d8",
-  "dmg2": "1d10",
-  "dmgType": "S",
-  "entries": [
-    "You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
-    " In addition, you can make one attack with it as a bonus action on each of your turns.",
-    "You gain a fly speed of 60ft while in the Astral Sea.",
-    "<b><i>Special.</i></b> Only Ninjutsu Rogues are able to gain proficiency with this weapon."
-  ]
+    "name": "Katana of Astral Speed",
+    "source": "TftJC",
+    "rarity": "very rare",
+    "baseItem": "Katana|TftJC",
+    "type": "M",
+    "weight": 2,
+    "weaponCategory": "martial",
+    "property": [
+        "F",
+        "S",
+        "V"
+    ],
+    "dmg1": "1d8",
+    "dmg2": "1d10",
+    "dmgType": "S",
+    "entries": [
+        "You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+        " In addition, you can make one attack with it as a bonus action on each of your turns.",
+        "You gain a fly speed of 60ft while in the Astral Sea.",
+        "<b><i>Special.</i></b> Only Ninjutsu Rogues are able to gain proficiency with this weapon."
+    ]
 }

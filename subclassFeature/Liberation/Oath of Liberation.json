@@ -1,25 +1,25 @@
 {
-  "name": "Oath of Liberation",
-  "source": "TftJC",
-  "className": "Paladin",
-  "classSource": "PHB",
-  "subclassShortName": "Liberation",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "Rumors travel of a lone warrior fighting corruption chain by chain. Freeing slaves ,destroying prisons, all in a days work for those under the Oath of Liberation",
-    "Paladins under the Oath of Liberation detest anything that would prevent their freedom with a burning passion, destroying walls, blockades and soldiers that would stand in their way with impunity.",
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Tenets of Liberation|Paladin|PHB|Liberation|TftJC|3"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Channel Divinity|Paladin|PHB|Liberation|TftJC|3"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Oath of Liberation Spells|Paladin|PHB|Liberation|TftJC|3"
-    }
-  ]
+    "name": "Oath of Liberation",
+    "source": "TftJC",
+    "className": "Paladin",
+    "classSource": "PHB",
+    "subclassShortName": "Liberation",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "Rumors travel of a lone warrior fighting corruption chain by chain. Freeing slaves ,destroying prisons, all in a days work for those under the Oath of Liberation",
+        "Paladins under the Oath of Liberation detest anything that would prevent their freedom with a burning passion, destroying walls, blockades and soldiers that would stand in their way with impunity.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Tenets of Liberation|Paladin|PHB|Liberation|TftJC|3"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Channel Divinity|Paladin|PHB|Liberation|TftJC|3"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Oath of Liberation Spells|Paladin|PHB|Liberation|TftJC|3"
+        }
+    ]
 }

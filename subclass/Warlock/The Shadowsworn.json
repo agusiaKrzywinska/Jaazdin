@@ -1,14 +1,14 @@
 {
-  "name": "The Shadowsworn",
-  "source": "TftJC",
-  "page": 44,
-  "className": "Warlock",
-  "classSource": "PHB",
-  "shortName": "Shadowsworn",
-  "subclassFeatures": [
-    "The Shadowsworn|Warlock|PHB|Shadowsworn|TftJC|1",
-    "Shadow's Edge|Warlock|PHB|Shadowsworn|TftJC|6",
-    "Stepping Umbra|Warlock|PHB|Shadowsworn|TftJC|10",
-    "Eclipse Soul|Warlock|PHB|Shadowsworn|TftJC|14"
-  ]
+    "name": "The Shadowsworn",
+    "source": "TftJC",
+    "page": 44,
+    "className": "Warlock",
+    "classSource": "PHB",
+    "shortName": "Shadowsworn",
+    "subclassFeatures": [
+        "The Shadowsworn|Warlock|PHB|Shadowsworn|TftJC|1",
+        "Shadow's Edge|Warlock|PHB|Shadowsworn|TftJC|6",
+        "Stepping Umbra|Warlock|PHB|Shadowsworn|TftJC|10",
+        "Eclipse Soul|Warlock|PHB|Shadowsworn|TftJC|14"
+    ]
 }

@@ -1,14 +1,18 @@
 {
-  "name": "A Change of Plans",
-  "prerequisite": [
-    {
-      "feature": ["Warden: The Commander"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["TECH"],
-  "entries": [
-    "You can forgo one attack to give an ally nearby the chance to push their advantage on their next turn. Choose one ally within 30ft, on their next turn they can use a bonus action to make one weapon attack, Disengage, Dash, or Use an Item."
-  ]
+    "name": "A Change of Plans",
+    "prerequisite": [
+        {
+            "feature": [
+                "Warden: The Commander"
+            ]
+        }
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "TECH"
+    ],
+    "entries": [
+        "You can forgo one attack to give an ally nearby the chance to push their advantage on their next turn. Choose one ally within 30ft, on their next turn they can use a bonus action to make one weapon attack, Disengage, Dash, or Use an Item."
+    ]
 }

@@ -1,0 +1,21 @@
+{
+    "name": "Lemon Salt Crackers",
+    "source": "TftJC",
+    "type": "FD",
+    "rarity": "common",
+    "value": 500,
+    "weight": 0,
+    "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools to prepare.",
+        "<b>Ingredients:</b> x1 Common Elemental Meat, x2 Trailvine.",
+        "<b>Effect:</b> You gain a +1 bonus to all Strength, Dexterity, and Constitution ability checks."
+    ],
+    "foundryType": "consumable",
+    "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+            "max": 1,
+            "per": "charges"
+        }
+    }
+}

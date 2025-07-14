@@ -1,12 +1,12 @@
 {
-  "name": "Blood of the Hunt",
-  "source": "TftJC",
-  "className": "Paladin",
-  "classSource": "PHB",
-  "subclassShortName": "Slayer",
-  "subclassSource": "TftJC",
-  "level": 15,
-  "entries": [
-    "At 15th level, whenever you reduce a creature to 0 hit points you gain temporary hit points equal to your Charisma modifier. In addition, when you reduce a fiend, undead, or your Slayer’s Quarry to 0 hit points you may take an additional action. Once you use this secondary effect you cannot use it again until you finish a long rest."
-  ]
+    "name": "Blood of the Hunt",
+    "source": "TftJC",
+    "className": "Paladin",
+    "classSource": "PHB",
+    "subclassShortName": "Slayer",
+    "subclassSource": "TftJC",
+    "level": 15,
+    "entries": [
+        "At 15th level, whenever you reduce a creature to 0 hit points you gain temporary hit points equal to your Charisma modifier. In addition, when you reduce a fiend, undead, or your Slayer’s Quarry to 0 hit points you may take an additional action. Once you use this secondary effect you cannot use it again until you finish a long rest."
+    ]
 }

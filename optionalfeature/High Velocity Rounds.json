@@ -1,23 +1,27 @@
 {
-  "name": "High Velocity Rounds",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 17,
-        "class": {
-          "name": "Gunner"
+    "name": "High Velocity Rounds",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 17,
+                "class": {
+                    "name": "Gunner"
+                }
+            },
+            "feature": [
+                "Cannot be used with Gas"
+            ]
         }
-      },
-      "feature": ["Cannot be used with Gas"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["MOD"],
-  "consumes": {
-    "name": "900gp"
-  },
-  "entries": [
-    "You can attack creatures through walls up to 5ft thick, so long as you know they are there."
-  ]
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "MOD"
+    ],
+    "consumes": {
+        "name": "900gp"
+    },
+    "entries": [
+        "You can attack creatures through walls up to 5ft thick, so long as you know they are there."
+    ]
 }

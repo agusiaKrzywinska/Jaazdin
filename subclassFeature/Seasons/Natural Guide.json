@@ -1,12 +1,12 @@
 {
-  "name": "Natural Guide",
-  "source": "TftJC",
-  "className": "Druid",
-  "classSource": "PHB",
-  "subclassShortName": "Seasons",
-  "subclassSource": "TftJC",
-  "level": 6,
-  "entries": [
-    "Starting at 6th level, you become an expert at leading groups of people through dangerous areas. While creatures are within 30 ft of you, they benefit from the following effects: They have advantage on Constitution Saving throws to resist the effects of extreme cold or heat, they ignore the effects of difficult terrain caused by natural or magical plants, and have advantage on saving throws to resist being grappled or restrained by natural or magical plants."
-  ]
+    "name": "Natural Guide",
+    "source": "TftJC",
+    "className": "Druid",
+    "classSource": "PHB",
+    "subclassShortName": "Seasons",
+    "subclassSource": "TftJC",
+    "level": 6,
+    "entries": [
+        "Starting at 6th level, you become an expert at leading groups of people through dangerous areas. While creatures are within 30 ft of you, they benefit from the following effects: They have advantage on Constitution Saving throws to resist the effects of extreme cold or heat, they ignore the effects of difficult terrain caused by natural or magical plants, and have advantage on saving throws to resist being grappled or restrained by natural or magical plants."
+    ]
 }

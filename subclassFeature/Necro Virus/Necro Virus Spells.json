@@ -1,25 +1,46 @@
 {
-  "name": "Necro Virus Spells",
-  "source": "TftJC",
-  "className": "Artificer",
-  "classSource": "TCE",
-  "subclassShortName": "Necro Virus",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "You always have certain spells prepared after you reach particular levels in this class, as shown in the Necro Virus Spells table. These spells count as artificer spells for you, and they don’t count against the number of artificer spells you prepare.",
-    {
-      "type": "table",
-      "caption": "Necro Virus Spells",
-      "colLabels": ["Artificer Level", "Spell"],
-      "colStyles": ["col-2 text-center", "col-10"],
-      "rows": [
-        ["3rd", "{@spell command}, {@spell guiding bolt}"],
-        ["5th", "{@spell crown of madness}, {@spell ray of enfeeblement}"],
-        ["9th", "{@spell animate dead}, {@spell pulse wave|EGW}"],
-        ["13th", "{@spell blight}, {@spell confusion}"],
-        ["17th", "{@spell enervation|XGE}, {@spell mass cure wounds}"]
-      ]
-    }
-  ]
+    "name": "Necro Virus Spells",
+    "source": "TftJC",
+    "className": "Artificer",
+    "classSource": "TCE",
+    "subclassShortName": "Necro Virus",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "You always have certain spells prepared after you reach particular levels in this class, as shown in the Necro Virus Spells table. These spells count as artificer spells for you, and they don’t count against the number of artificer spells you prepare.",
+        {
+            "type": "table",
+            "caption": "Necro Virus Spells",
+            "colLabels": [
+                "Artificer Level",
+                "Spell"
+            ],
+            "colStyles": [
+                "col-2 text-center",
+                "col-10"
+            ],
+            "rows": [
+                [
+                    "3rd",
+                    "{@spell command}, {@spell guiding bolt}"
+                ],
+                [
+                    "5th",
+                    "{@spell crown of madness}, {@spell ray of enfeeblement}"
+                ],
+                [
+                    "9th",
+                    "{@spell animate dead}, {@spell pulse wave|EGW}"
+                ],
+                [
+                    "13th",
+                    "{@spell blight}, {@spell confusion}"
+                ],
+                [
+                    "17th",
+                    "{@spell enervation|XGE}, {@spell mass cure wounds}"
+                ]
+            ]
+        }
+    ]
 }

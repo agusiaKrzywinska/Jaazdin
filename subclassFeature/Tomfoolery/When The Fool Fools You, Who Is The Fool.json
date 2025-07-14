@@ -1,12 +1,12 @@
 {
-  "name": "When The Fool Fools You, Who Is The Fool?",
-  "source": "TftJC",
-  "className": "Bard",
-  "classSource": "PHB",
-  "subclassShortName": "Tomfoolery",
-  "subclassSource": "TftJC",
-  "level": 6,
-  "entries": [
-    "At 6th level, you gain the ability to trick your enemies with your foolery. Immediately after you would fail an ability check using either INT, WIS or CHA while interacting with another creature, you can attempt to confuse that creature. That creature must make a Wisdom saving throw against your Spell Save DC, and on a fail, your rolled value on the d20 becomes inverted (1s become 20s, 2s become 19s, etc). Creatures that are able to detect lies are immune to this feature, and you cannot use this feature when you cannot lie, like while in a Zone of Truth. You can use this feature a number of times per long rest equal to your Charisma modifier."
-  ]
+    "name": "When The Fool Fools You, Who Is The Fool?",
+    "source": "TftJC",
+    "className": "Bard",
+    "classSource": "PHB",
+    "subclassShortName": "Tomfoolery",
+    "subclassSource": "TftJC",
+    "level": 6,
+    "entries": [
+        "At 6th level, you gain the ability to trick your enemies with your foolery. Immediately after you would fail an ability check using either INT, WIS or CHA while interacting with another creature, you can attempt to confuse that creature. That creature must make a Wisdom saving throw against your Spell Save DC, and on a fail, your rolled value on the d20 becomes inverted (1s become 20s, 2s become 19s, etc). Creatures that are able to detect lies are immune to this feature, and you cannot use this feature when you cannot lie, like while in a Zone of Truth. You can use this feature a number of times per long rest equal to your Charisma modifier."
+    ]
 }

@@ -1,15 +1,15 @@
 {
-  "name": "Survivor Conclave",
-  "source": "TftJC",
-  "page": 34,
-  "className": "Ranger",
-  "classSource": "PHB",
-  "shortName": "Survivor",
-  "subclassFeatures": [
-    "Survivor Conclave|Ranger|PHB|Survivor|TftJC|3",
-    "Rugged Resilience|Ranger|PHB|Survivor|TftJC|7",
-    "Scrap Crafting|Ranger|PHB|Survivor|TftJC|7",
-    "Battle Medic|Ranger|PHB|Survivor|TftJC|11",
-    "Doom Designator|Ranger|PHB|Survivor|TftJC|15"
-  ]
+    "name": "Survivor Conclave",
+    "source": "TftJC",
+    "page": 34,
+    "className": "Ranger",
+    "classSource": "PHB",
+    "shortName": "Survivor",
+    "subclassFeatures": [
+        "Survivor Conclave|Ranger|PHB|Survivor|TftJC|3",
+        "Rugged Resilience|Ranger|PHB|Survivor|TftJC|7",
+        "Scrap Crafting|Ranger|PHB|Survivor|TftJC|7",
+        "Battle Medic|Ranger|PHB|Survivor|TftJC|11",
+        "Doom Designator|Ranger|PHB|Survivor|TftJC|15"
+    ]
 }

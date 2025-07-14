@@ -1,12 +1,12 @@
 {
-  "name": "Favoured Arcana",
-  "source": "TftJC",
-  "className": "Wizard",
-  "classSource": "PHB",
-  "subclassShortName": "Dark Arts",
-  "subclassSource": "TftJC",
-  "level": 10,
-  "entries": [
-    "At 10th level, you become adept in using your favourite Forbidden Arcana. Select one Tier 1 Forbidden Arcana you know, it is now applied each time you cast The Forbidden Spell without it using one of your Forbidden Arcana slots. Whenever you take another level in this class, you may change your Favourite Arcana."
-  ]
+    "name": "Favoured Arcana",
+    "source": "TftJC",
+    "className": "Wizard",
+    "classSource": "PHB",
+    "subclassShortName": "Dark Arts",
+    "subclassSource": "TftJC",
+    "level": 10,
+    "entries": [
+        "At 10th level, you become adept in using your favourite Forbidden Arcana. Select one Tier 1 Forbidden Arcana you know, it is now applied each time you cast The Forbidden Spell without it using one of your Forbidden Arcana slots. Whenever you take another level in this class, you may change your Favourite Arcana."
+    ]
 }

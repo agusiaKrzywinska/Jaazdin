@@ -1,14 +1,18 @@
 {
-  "name": "Shared Comprehension",
-  "prerequisite": [
-    {
-      "feature": ["Pact of the Tome and Master Warlock"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 43,
-  "featureType": ["EI"],
-  "entries": [
-    "Your minion can cast the cantrips you have in your Book of Shadows. If you gain the ability to cast rituals your minion can also cast those rituals and together you can both cast the same ritual to lower the time it takes to complete by half."
-  ]
+    "name": "Shared Comprehension",
+    "prerequisite": [
+        {
+            "feature": [
+                "Pact of the Tome and Master Warlock"
+            ]
+        }
+    ],
+    "source": "TftJC",
+    "page": 43,
+    "featureType": [
+        "EI"
+    ],
+    "entries": [
+        "Your minion can cast the cantrips you have in your Book of Shadows. If you gain the ability to cast rituals your minion can also cast those rituals and together you can both cast the same ritual to lower the time it takes to complete by half."
+    ]
 }

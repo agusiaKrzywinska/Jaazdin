@@ -1,19 +1,22 @@
 {
-  "name": "Flayer Slayer (Very Rare)",
-  "baseItem": "greataxe|PHB",
-  "source": "TftJC",
-  "type": "M",
-  "rarity": "rare",
-  "reqAttune": true,
-  "weight": 7,
-  "weaponCategory": "martial",
-  "property": ["H", "2H"],
-  "dmg1": "1d12",
-  "dmgType": "S",
-  "bonusWeapon": "+2",
-  "entries": [
-    "Carvings of decapitated mind flayers adorn this greataxe’s metal blade. You gain a +2 bonus to attack and damage rolls made with this magic greataxe.",
-    "An Aberration hit with this greataxe takes an extra 1d12 slashing damage. If the Aberration is currently grappling a creature, the Aberration must succeed on a DC 15 Strength saving throw or release each creature it is grappling.",
-    "If a flying creature you can see within 30 feet of you makes an attack roll against you, you can use your reaction to hold the greataxe aloft and cause it to flare with light. The attacker has disadvantage on the attack roll, and it must succeed on a DC 15 Constitution saving throw or be blinded until the start of its next turn."
-  ]
+    "name": "Flayer Slayer (Very Rare)",
+    "baseItem": "greataxe|PHB",
+    "source": "TftJC",
+    "type": "M",
+    "rarity": "rare",
+    "reqAttune": true,
+    "weight": 7,
+    "weaponCategory": "martial",
+    "property": [
+        "H",
+        "2H"
+    ],
+    "dmg1": "1d12",
+    "dmgType": "S",
+    "bonusWeapon": "+2",
+    "entries": [
+        "Carvings of decapitated mind flayers adorn this greataxe’s metal blade. You gain a +2 bonus to attack and damage rolls made with this magic greataxe.",
+        "An Aberration hit with this greataxe takes an extra 1d12 slashing damage. If the Aberration is currently grappling a creature, the Aberration must succeed on a DC 15 Strength saving throw or release each creature it is grappling.",
+        "If a flying creature you can see within 30 feet of you makes an attack roll against you, you can use your reaction to hold the greataxe aloft and cause it to flare with light. The attacker has disadvantage on the attack roll, and it must succeed on a DC 15 Constitution saving throw or be blinded until the start of its next turn."
+    ]
 }

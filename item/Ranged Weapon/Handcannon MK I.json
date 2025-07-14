@@ -1,21 +1,23 @@
 {
-  "name": "Handcannon MK I",
-  "source": "TftJC",
-  "type": "R",
-  "rarity": "none",
-  "weight": 0.5,
-  "value": 25000,
-  "weaponCategory": "martial",
-  "property": ["2H"],
-  "range": "120",
-  "dmg1": "4d10",
-  "dmgType": "B",
-  "entries": [
-    "<i><b>Innovative Invention.</i></b>",
-    "This miniature cannon can be wielded effectively with two hands, like a heavy crossbow.",
-    "Proficiency in the Heavy Crossbow allows you to add your proficiency bonus with this weapon.",
-    "It uses small cannonballs as ammunition, 10 of which can be bought for 5gp.",
-    "As an Action, the wielder can ignite the fuse on the end of the cannon and fire it. Make a ranged attack roll (range 120ft, with no long range). It travels in that line until it hits a creature's AC, or it reaches the end of its range. A Creature hit by this attack takes {@dice 4d10} + DEX Bludgeoning Damage.",
-    "It requires 3 Actions to Reload. If the wielder has the Crossbow Master Feat, this is lowered to 2."
-  ]
+    "name": "Handcannon MK I",
+    "source": "TftJC",
+    "type": "R",
+    "rarity": "none",
+    "weight": 0.5,
+    "value": 25000,
+    "weaponCategory": "martial",
+    "property": [
+        "2H"
+    ],
+    "range": "120",
+    "dmg1": "4d10",
+    "dmgType": "B",
+    "entries": [
+        "<i><b>Innovative Invention.</i></b>",
+        "This miniature cannon can be wielded effectively with two hands, like a heavy crossbow.",
+        "Proficiency in the Heavy Crossbow allows you to add your proficiency bonus with this weapon.",
+        "It uses small cannonballs as ammunition, 10 of which can be bought for 5gp.",
+        "As an Action, the wielder can ignite the fuse on the end of the cannon and fire it. Make a ranged attack roll (range 120ft, with no long range). It travels in that line until it hits a creature's AC, or it reaches the end of its range. A Creature hit by this attack takes {@dice 4d10} + DEX Bludgeoning Damage.",
+        "It requires 3 Actions to Reload. If the wielder has the Crossbow Master Feat, this is lowered to 2."
+    ]
 }

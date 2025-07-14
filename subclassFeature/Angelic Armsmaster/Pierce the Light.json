@@ -1,12 +1,12 @@
 {
-  "name": "Pierce the Light",
-  "source": "TftJC",
-  "className": "Fighter",
-  "classSource": "PHB",
-  "subclassShortName": "Angelic Armsmaster",
-  "subclassSource": "TftJC",
-  "level": 15,
-  "entries": [
-    "At 15th level, you can weaken your foes to your Light. As a part of conjuring a weapon through Weapon of the Gods, you can select a creature you can see within 60 ft of you. Until the start of your next turn, they become vulnerable to Radiant damage. You can only do so once per long rest."
-  ]
+    "name": "Pierce the Light",
+    "source": "TftJC",
+    "className": "Fighter",
+    "classSource": "PHB",
+    "subclassShortName": "Angelic Armsmaster",
+    "subclassSource": "TftJC",
+    "level": 15,
+    "entries": [
+        "At 15th level, you can weaken your foes to your Light. As a part of conjuring a weapon through Weapon of the Gods, you can select a creature you can see within 60 ft of you. Until the start of your next turn, they become vulnerable to Radiant damage. You can only do so once per long rest."
+    ]
 }

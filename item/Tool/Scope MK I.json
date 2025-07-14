@@ -1,10 +1,10 @@
 {
-  "name": "Scope MK I",
-  "source": "TftJC",
-  "type": "T",
-  "rarity": "none",
-  "entries": [
-    "<i><b>Simple Invention.</i></b>",
-    "the basic version of the scope is an attachment that can pe built and placed on a ranged weapon that allows the wielder to use a spyglass wile still holding the weapon (so the spyglass uses no hands) and can be used in tandem with the weapon to see far away targets"
-  ]
+    "name": "Scope MK I",
+    "source": "TftJC",
+    "type": "T",
+    "rarity": "none",
+    "entries": [
+        "<i><b>Simple Invention.</i></b>",
+        "the basic version of the scope is an attachment that can pe built and placed on a ranged weapon that allows the wielder to use a spyglass wile still holding the weapon (so the spyglass uses no hands) and can be used in tandem with the weapon to see far away targets"
+    ]
 }

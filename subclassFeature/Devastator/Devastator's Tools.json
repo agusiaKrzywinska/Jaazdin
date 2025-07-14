@@ -1,13 +1,13 @@
 {
-  "name": "Devastator's Tools",
-  "source": "TftJC",
-  "className": "Ranger",
-  "classSource": "PHB",
-  "subclassShortName": "Devastator",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "At 3rd level, you’ve been trained with the tools needed to cleanse nature. You gain proficiency in firearms (if they exist in your setting) in addition, you learn the firebolt and produce flame cantrips, and they are ranger spells for you.",
-    "You learn the spell burning hands and can cast it once per day without expending a spell slot. When you cast it using this feature, it is cast with a spell slot equal to your proficiency modifier."
-  ]
+    "name": "Devastator's Tools",
+    "source": "TftJC",
+    "className": "Ranger",
+    "classSource": "PHB",
+    "subclassShortName": "Devastator",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, you’ve been trained with the tools needed to cleanse nature. You gain proficiency in firearms (if they exist in your setting) in addition, you learn the firebolt and produce flame cantrips, and they are ranger spells for you.",
+        "You learn the spell burning hands and can cast it once per day without expending a spell slot. When you cast it using this feature, it is cast with a spell slot equal to your proficiency modifier."
+    ]
 }

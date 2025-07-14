@@ -1,23 +1,27 @@
 {
-  "name": "Tripod",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 5,
-        "class": {
-          "name": "Gunner"
+    "name": "Tripod",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 5,
+                "class": {
+                    "name": "Gunner"
+                }
+            },
+            "feature": [
+                "Two-Handed"
+            ]
         }
-      },
-      "feature": ["Two-Handed"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["MOD"],
-  "consumes": {
-    "name": "250gp"
-  },
-  "entries": [
-    "You can deploy this as a Bonus Action on a surface. If you do not move on this turn, the Firearm gains a +3 to hit if attacking a target who did not move in their last round."
-  ]
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "MOD"
+    ],
+    "consumes": {
+        "name": "250gp"
+    },
+    "entries": [
+        "You can deploy this as a Bonus Action on a surface. If you do not move on this turn, the Firearm gains a +3 to hit if attacking a target who did not move in their last round."
+    ]
 }

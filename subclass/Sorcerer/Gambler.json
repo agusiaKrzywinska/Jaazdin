@@ -1,14 +1,14 @@
 {
-  "name": "Gambler",
-  "source": "TftJC",
-  "page": 37,
-  "className": "Sorcerer",
-  "classSource": "PHB",
-  "shortName": "Gambler",
-  "subclassFeatures": [
-    "Gambler|Sorcerer|PHB|Gambler|TftJC|1",
-    "Unfair Advantage|Sorcerer|PHB|Gambler|TftJC|6",
-    "Rigged Game|Sorcerer|PHB|Gambler|TftJC|14",
-    "Just That Lucky|Sorcerer|PHB|Gambler|TftJC|18"
-  ]
+    "name": "Gambler",
+    "source": "TftJC",
+    "page": 37,
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "shortName": "Gambler",
+    "subclassFeatures": [
+        "Gambler|Sorcerer|PHB|Gambler|TftJC|1",
+        "Unfair Advantage|Sorcerer|PHB|Gambler|TftJC|6",
+        "Rigged Game|Sorcerer|PHB|Gambler|TftJC|14",
+        "Just That Lucky|Sorcerer|PHB|Gambler|TftJC|18"
+    ]
 }

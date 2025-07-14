@@ -1,12 +1,12 @@
 {
-  "name": "Extra Attack",
-  "source": "TftJC",
-  "className": "Artificer",
-  "classSource": "TCE",
-  "subclassShortName": "Derby Dasher",
-  "subclassSource": "TftJC",
-  "level": 5,
-  "entries": [
-    "At 5th level, you can attack twice rather than once whenever you take the Attack action on you turn."
-  ]
+    "name": "Extra Attack",
+    "source": "TftJC",
+    "className": "Artificer",
+    "classSource": "TCE",
+    "subclassShortName": "Derby Dasher",
+    "subclassSource": "TftJC",
+    "level": 5,
+    "entries": [
+        "At 5th level, you can attack twice rather than once whenever you take the Attack action on you turn."
+    ]
 }

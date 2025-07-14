@@ -1,14 +1,18 @@
 {
-  "name": "Interceding Strike",
-  "prerequisite": [
-    {
-      "feature": ["Warden: The Protector"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["TECH"],
-  "entries": [
-    "As a reaction, when a creature hits the subject of your Honor Bond with an attack, and you are within 5ft of the attacker, you can make an attack against them. If the attack hits, you reduce the damage of the offending attack by the damage you deal."
-  ]
+    "name": "Interceding Strike",
+    "prerequisite": [
+        {
+            "feature": [
+                "Warden: The Protector"
+            ]
+        }
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "TECH"
+    ],
+    "entries": [
+        "As a reaction, when a creature hits the subject of your Honor Bond with an attack, and you are within 5ft of the attacker, you can make an attack against them. If the attack hits, you reduce the damage of the offending attack by the damage you deal."
+    ]
 }

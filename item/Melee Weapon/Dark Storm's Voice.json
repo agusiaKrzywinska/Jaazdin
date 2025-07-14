@@ -1,20 +1,23 @@
 {
-  "name": "Dark Storm's Voice",
-  "source": "TftJC",
-  "rarity": "legendary",
-  "baseItem": "Maul|PHB",
-  "reqAttune": true,
-  "weight": 10,
-  "type": "M",
-  "weaponCategory": "martial",
-  "dmg1": "2d6",
-  "dmgType": "B",
-  "property": ["H", "2H"],
-  "entries": [
-    "This magical hammer grants a +2 bonus to attack and damage rolls.",
-    "The hammer constantly hums with the power of the storm and is cloaked in a dark shadow and when called upon can unleash the fury of the storm.",
-    "As an action, you can make one melee weapon attack which increases your reach by 30 feet and deals thunder damage instead of bludgeoning damage.",
-    "While in darkness or dim light, the maul becomes shrouded in shadow becoming nearly unperceivable. While shrouded in shadow this maul's bludgeoning damage ignores damage resistances.",
-    "Additionally, you can use the hammer to cast {@spell thunderwave|PHB} with a DC of 14."
-  ]
+    "name": "Dark Storm's Voice",
+    "source": "TftJC",
+    "rarity": "legendary",
+    "baseItem": "Maul|PHB",
+    "reqAttune": true,
+    "weight": 10,
+    "type": "M",
+    "weaponCategory": "martial",
+    "dmg1": "2d6",
+    "dmgType": "B",
+    "property": [
+        "H",
+        "2H"
+    ],
+    "entries": [
+        "This magical hammer grants a +2 bonus to attack and damage rolls.",
+        "The hammer constantly hums with the power of the storm and is cloaked in a dark shadow and when called upon can unleash the fury of the storm.",
+        "As an action, you can make one melee weapon attack which increases your reach by 30 feet and deals thunder damage instead of bludgeoning damage.",
+        "While in darkness or dim light, the maul becomes shrouded in shadow becoming nearly unperceivable. While shrouded in shadow this maul's bludgeoning damage ignores damage resistances.",
+        "Additionally, you can use the hammer to cast {@spell thunderwave|PHB} with a DC of 14."
+    ]
 }

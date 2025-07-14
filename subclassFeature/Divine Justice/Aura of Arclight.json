@@ -1,13 +1,13 @@
 {
-  "name": "Aura of Arclight",
-  "source": "TftJC",
-  "className": "Paladin",
-  "classSource": "PHB",
-  "subclassShortName": "Divine Justice",
-  "subclassSource": "TftJC",
-  "level": 7,
-  "entries": [
-    "Starting at 7th level, you and friendly creatures within 10 feet of you gain 60ft of darkvision that can see through magical darkness.",
-    "At 18th level, the range of this aura increases to 30 feet."
-  ]
+    "name": "Aura of Arclight",
+    "source": "TftJC",
+    "className": "Paladin",
+    "classSource": "PHB",
+    "subclassShortName": "Divine Justice",
+    "subclassSource": "TftJC",
+    "level": 7,
+    "entries": [
+        "Starting at 7th level, you and friendly creatures within 10 feet of you gain 60ft of darkvision that can see through magical darkness.",
+        "At 18th level, the range of this aura increases to 30 feet."
+    ]
 }

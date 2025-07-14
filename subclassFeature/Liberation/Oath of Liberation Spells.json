@@ -1,27 +1,45 @@
 {
-  "name": "Oath of Liberation Spells",
-  "source": "TftJC",
-  "className": "Paladin",
-  "classSource": "PHB",
-  "subclassShortName": "Liberation",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    {
-      "type": "table",
-      "caption": "Liberation Spells",
-      "colLabels": ["Paladin Level", "Spell"],
-      "colStyles": ["col-2 text-center", "col-10"],
-      "rows": [
-        ["3rd", "{@spell expeditious retreat|PHB}, {@spell sanctuary|PHB}"],
-        ["5th", "{@spell knock|PHB}, {@spell shatter|PHB}"],
-        ["9th", "{@spell fly|PHB}, {@spell nondetection|PHB}"],
-        [
-          "13th",
-          "{@spell dimension door|PHB}, {@spell freedom of movement|PHB}"
-        ],
-        ["17th", "{@spell greater restoration|PHB}, {@spell passwall|PHB}"]
-      ]
-    }
-  ]
+    "name": "Oath of Liberation Spells",
+    "source": "TftJC",
+    "className": "Paladin",
+    "classSource": "PHB",
+    "subclassShortName": "Liberation",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        {
+            "type": "table",
+            "caption": "Liberation Spells",
+            "colLabels": [
+                "Paladin Level",
+                "Spell"
+            ],
+            "colStyles": [
+                "col-2 text-center",
+                "col-10"
+            ],
+            "rows": [
+                [
+                    "3rd",
+                    "{@spell expeditious retreat|PHB}, {@spell sanctuary|PHB}"
+                ],
+                [
+                    "5th",
+                    "{@spell knock|PHB}, {@spell shatter|PHB}"
+                ],
+                [
+                    "9th",
+                    "{@spell fly|PHB}, {@spell nondetection|PHB}"
+                ],
+                [
+                    "13th",
+                    "{@spell dimension door|PHB}, {@spell freedom of movement|PHB}"
+                ],
+                [
+                    "17th",
+                    "{@spell greater restoration|PHB}, {@spell passwall|PHB}"
+                ]
+            ]
+        }
+    ]
 }

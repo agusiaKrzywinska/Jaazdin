@@ -1,23 +1,23 @@
 {
-  "name": "School of Aurumancy",
-  "source": "TftJC",
-  "className": "Wizard",
-  "classSource": "PHB",
-  "subclassShortName": "Aurumancy",
-  "subclassSource": "TftJC",
-  "level": 2,
-  "entries": [
-    "The magic found within gold was a part of everyday life within the Golden Empire, but since its ruination, their arts have been lost. Through dedicated study and ample amounts of the metal, Aurumancy has been reborn.",
-    "You carry a legacy of an empire. Your magic, ancient and forgotten. Upon your gilded shoulders rests the knowledge of Kima-at, and their most beloved art.",
-    "*Origato wer Aurix zhren*.",
-    "Let the Gold flow.",
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Aurumancy Savant|Wizard|PHB|Aurumancy|TftJC|2"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Pyramid of Power|Wizard|PHB|Aurumancy|TftJC|2"
-    }
-  ]
+    "name": "School of Aurumancy",
+    "source": "TftJC",
+    "className": "Wizard",
+    "classSource": "PHB",
+    "subclassShortName": "Aurumancy",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "The magic found within gold was a part of everyday life within the Golden Empire, but since its ruination, their arts have been lost. Through dedicated study and ample amounts of the metal, Aurumancy has been reborn.",
+        "You carry a legacy of an empire. Your magic, ancient and forgotten. Upon your gilded shoulders rests the knowledge of Kima-at, and their most beloved art.",
+        "*Origato wer Aurix zhren*.",
+        "Let the Gold flow.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Aurumancy Savant|Wizard|PHB|Aurumancy|TftJC|2"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Pyramid of Power|Wizard|PHB|Aurumancy|TftJC|2"
+        }
+    ]
 }

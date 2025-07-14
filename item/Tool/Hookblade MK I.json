@@ -1,11 +1,11 @@
 {
-  "name": "Hookblade MK I",
-  "source": "TftJC",
-  "type": "T",
-  "rarity": "none",
-  "entries": [
-    "<i><b>Simple Invention.</i></b>",
-    "This bracer contains a retractable two-pronged climbing tool.",
-    "As an action, the wearer can deploy (or retract) the climbing tool by pressing a button (this is considered using an item). While deployed, the wearer had advantage on ability checks made to climb surfaces. Additionally, the wearer can hang from a wall they are climbing with only the hookblade secured into the wall, freeing up a hand."
-  ]
+    "name": "Hookblade MK I",
+    "source": "TftJC",
+    "type": "T",
+    "rarity": "none",
+    "entries": [
+        "<i><b>Simple Invention.</i></b>",
+        "This bracer contains a retractable two-pronged climbing tool.",
+        "As an action, the wearer can deploy (or retract) the climbing tool by pressing a button (this is considered using an item). While deployed, the wearer had advantage on ability checks made to climb surfaces. Additionally, the wearer can hang from a wall they are climbing with only the hookblade secured into the wall, freeing up a hand."
+    ]
 }

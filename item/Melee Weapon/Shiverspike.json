@@ -1,17 +1,19 @@
 {
-  "name": "Shiverspike",
-  "source": "TftJC",
-  "rarity": "rare",
-  "baseItem": "longsword|PHB",
-  "type": "M",
-  "reqAttune": true,
-  "weaponCategory": "martial",
-  "property": ["V"],
-  "dmg1": "1d8",
-  "dmgType": "S",
-  "dmg2": "1d10",
-  "entries": [
-    "You gain a +1 to attack rolls and damage rolls with this weapon.",
-    "Whenever you would take or deal Cold damage, you gain Temporary Hit points equal to your Proficiency Bonus, as Ice crystals coalesce around you. Whenever you would hit a creature this weapon, you can remove any Temporary Hit points you have to cause the attack to deal additional cold damage equal to the temporary hit points removed."
-  ]
+    "name": "Shiverspike",
+    "source": "TftJC",
+    "rarity": "rare",
+    "baseItem": "longsword|PHB",
+    "type": "M",
+    "reqAttune": true,
+    "weaponCategory": "martial",
+    "property": [
+        "V"
+    ],
+    "dmg1": "1d8",
+    "dmgType": "S",
+    "dmg2": "1d10",
+    "entries": [
+        "You gain a +1 to attack rolls and damage rolls with this weapon.",
+        "Whenever you would take or deal Cold damage, you gain Temporary Hit points equal to your Proficiency Bonus, as Ice crystals coalesce around you. Whenever you would hit a creature this weapon, you can remove any Temporary Hit points you have to cause the attack to deal additional cold damage equal to the temporary hit points removed."
+    ]
 }

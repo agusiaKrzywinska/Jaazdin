@@ -1,13 +1,13 @@
 {
-  "name": "Aura of the Juggernaut",
-  "source": "TftJC",
-  "className": "Paladin",
-  "classSource": "PHB",
-  "subclassShortName": "Liberation",
-  "subclassSource": "TftJC",
-  "level": 7,
-  "entries": [
-    "Starting at 7th level, you and any friendly creatures within 10 feet of you have advantage on Strength saving throws, and can spend 5 feet of movement on their turn to escape an effect that has them grappled or restrained.",
-    "At 18th level, the range of this aura increases to 30 feet."
-  ]
+    "name": "Aura of the Juggernaut",
+    "source": "TftJC",
+    "className": "Paladin",
+    "classSource": "PHB",
+    "subclassShortName": "Liberation",
+    "subclassSource": "TftJC",
+    "level": 7,
+    "entries": [
+        "Starting at 7th level, you and any friendly creatures within 10 feet of you have advantage on Strength saving throws, and can spend 5 feet of movement on their turn to escape an effect that has them grappled or restrained.",
+        "At 18th level, the range of this aura increases to 30 feet."
+    ]
 }

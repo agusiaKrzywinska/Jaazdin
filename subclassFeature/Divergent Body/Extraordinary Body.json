@@ -1,33 +1,33 @@
 {
-  "name": "Extraordinary Body",
-  "source": "TftJC",
-  "className": "Monk",
-  "classSource": "PHB",
-  "subclassShortName": "Divergent Body",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "Through intense focus, you have gained the ability to change the structure of your own body. Whenever you expend ki to fuel certain monk features, you may activate one of your Body forms and gain additional bonuses as detailed below. These bonuses last for a number of rounds equal to your Constitution modifier (minimum 1), or until you activate a different Body.",
-    {
-      "type": "inset",
-      "name": "Adamant Body",
-      "entries": [
-        "When you use your Flurry of Blows feature, you can cause your body to become as dense and tough as an iron wall. While this Body is active you have advantage on saving throws and ability checks against effects that would move you against your will. If you fail anyways, you are moved only half the distance you normally would be. You additionally reduce all bludgeoning, piercing and slashing damage taken by half the maximum value of your Martial Arts die."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Fluid Body",
-      "entries": [
-        "When you use your Patient Defense feature, you can cause your body to become as loose and malleable as clay, gaining the ability to contort with serpentine precision. While this Body is active, you (including any equipment you're wearing or carrying) can move through spaces as narrow as 6 inches wide without squeezing. Additionally, your melee weapon attack rolls gain 5 feet of reach."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Cloud Body",
-      "entries": [
-        "When you use your Step of the Wind feature, you can cause your body to become light, able to float upon the breeze like a bubble. While this Body remains active you gain a hover speed equal to your walking speed. Your maximum height while hovering is a number of feet equal to 5 x a roll of your Martial Arts Die (rolled each time you activate this Body), and so long as you remain in Cloud Body, you descend safely at a rate of 20 feet per round."
-      ]
-    }
-  ]
+    "name": "Extraordinary Body",
+    "source": "TftJC",
+    "className": "Monk",
+    "classSource": "PHB",
+    "subclassShortName": "Divergent Body",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "Through intense focus, you have gained the ability to change the structure of your own body. Whenever you expend ki to fuel certain monk features, you may activate one of your Body forms and gain additional bonuses as detailed below. These bonuses last for a number of rounds equal to your Constitution modifier (minimum 1), or until you activate a different Body.",
+        {
+            "type": "inset",
+            "name": "Adamant Body",
+            "entries": [
+                "When you use your Flurry of Blows feature, you can cause your body to become as dense and tough as an iron wall. While this Body is active you have advantage on saving throws and ability checks against effects that would move you against your will. If you fail anyways, you are moved only half the distance you normally would be. You additionally reduce all bludgeoning, piercing and slashing damage taken by half the maximum value of your Martial Arts die."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Fluid Body",
+            "entries": [
+                "When you use your Patient Defense feature, you can cause your body to become as loose and malleable as clay, gaining the ability to contort with serpentine precision. While this Body is active, you (including any equipment you're wearing or carrying) can move through spaces as narrow as 6 inches wide without squeezing. Additionally, your melee weapon attack rolls gain 5 feet of reach."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Cloud Body",
+            "entries": [
+                "When you use your Step of the Wind feature, you can cause your body to become light, able to float upon the breeze like a bubble. While this Body remains active you gain a hover speed equal to your walking speed. Your maximum height while hovering is a number of feet equal to 5 x a roll of your Martial Arts Die (rolled each time you activate this Body), and so long as you remain in Cloud Body, you descend safely at a rate of 20 feet per round."
+            ]
+        }
+    ]
 }

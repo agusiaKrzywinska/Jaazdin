@@ -1,24 +1,26 @@
 {
-  "name": "Pentadrone",
-  "source": "TftJC",
-  "page": 9,
-  "size": ["L"],
-  "speed": 30,
-  "ability": [
-    {
-      "int": 2,
-      "con": 1
-    }
-  ],
-  "entries": [
-    {
-      "name": "Pentadrone",
-      "entries": [
-        "Your size becomes Large. Once per Short Rest, you can exhale a 15ft cone of prismatic Energy as an Action. Creatures within it must make a Constitution Saving Throw (DC 8 + prof + INT), and creatures who fail are incapacitated until the start of your next turn. Creatures who pass have their speed halved for this time instead."
-      ],
-      "type": "entries"
-    }
-  ],
-  "raceName": "Modron",
-  "raceSource": "TftJC"
+    "name": "Pentadrone",
+    "source": "TftJC",
+    "page": 9,
+    "size": [
+        "L"
+    ],
+    "speed": 30,
+    "ability": [
+        {
+            "int": 2,
+            "con": 1
+        }
+    ],
+    "entries": [
+        {
+            "name": "Pentadrone",
+            "entries": [
+                "Your size becomes Large. Once per Short Rest, you can exhale a 15ft cone of prismatic Energy as an Action. Creatures within it must make a Constitution Saving Throw (DC 8 + prof + INT), and creatures who fail are incapacitated until the start of your next turn. Creatures who pass have their speed halved for this time instead."
+            ],
+            "type": "entries"
+        }
+    ],
+    "raceName": "Modron",
+    "raceSource": "TftJC"
 }

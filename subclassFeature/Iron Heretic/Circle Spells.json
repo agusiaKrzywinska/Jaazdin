@@ -1,28 +1,43 @@
 {
-  "name": "Circle Spells",
-  "source": "TftJC",
-  "className": "Druid",
-  "classSource": "PHB",
-  "subclassShortName": "Iron Heretic",
-  "subclassSource": "TftJC",
-  "level": 2,
-  "entries": [
-    "Your relationship with metal grants you the ability to tap into magic forbidden to other druids. At 2nd level, you learn one of the following cantrips: booming blade, green flame blade, or sword burst. At 3rd, 5th, 7th, and 9th levels you gain access to the spells listed for that level in the Circle of the Iron Heretic Spells table.",
-    "Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
-    {
-      "type": "table",
-      "caption": "Iron Heretic Spells",
-      "colLabels": ["Druid Level", "Spells"],
-      "colStyles": ["col-2 text-center", "col-10"],
-      "rows": [
-        [
-          "3rd",
-          "{@spell aganazzar's scorcher|XGE}, {@spell dragon's breath|XGE}"
-        ],
-        ["5th", "{@spell wall of sand|XGE}, {@spell molten cascade|TftJC}"],
-        ["7th", "{@spell fabricate}, {@spell fire shield}"],
-        ["9th", "{@spell animate objects}, {@spell steel wind strike|XGE}"]
-      ]
-    }
-  ]
+    "name": "Circle Spells",
+    "source": "TftJC",
+    "className": "Druid",
+    "classSource": "PHB",
+    "subclassShortName": "Iron Heretic",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "Your relationship with metal grants you the ability to tap into magic forbidden to other druids. At 2nd level, you learn one of the following cantrips: booming blade, green flame blade, or sword burst. At 3rd, 5th, 7th, and 9th levels you gain access to the spells listed for that level in the Circle of the Iron Heretic Spells table.",
+        "Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+        {
+            "type": "table",
+            "caption": "Iron Heretic Spells",
+            "colLabels": [
+                "Druid Level",
+                "Spells"
+            ],
+            "colStyles": [
+                "col-2 text-center",
+                "col-10"
+            ],
+            "rows": [
+                [
+                    "3rd",
+                    "{@spell aganazzar's scorcher|XGE}, {@spell dragon's breath|XGE}"
+                ],
+                [
+                    "5th",
+                    "{@spell wall of sand|XGE}, {@spell molten cascade|TftJC}"
+                ],
+                [
+                    "7th",
+                    "{@spell fabricate}, {@spell fire shield}"
+                ],
+                [
+                    "9th",
+                    "{@spell animate objects}, {@spell steel wind strike|XGE}"
+                ]
+            ]
+        }
+    ]
 }

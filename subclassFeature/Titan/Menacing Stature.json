@@ -1,12 +1,12 @@
 {
-  "name": "Menacing Stature",
-  "source": "TftJC",
-  "className": "Druid",
-  "classSource": "PHB",
-  "subclassShortName": "Titan",
-  "subclassSource": "TftJC",
-  "level": 6,
-  "entries": [
-    "At 6th level your body gains the ability to grow as well. You learn the {@spell Enlarge/Reduce} spell, and always have it prepared as a Druid spell for you. You can only cast the Enlarge portion of the spell. Whenever you would attack a creature that is at least a size category smaller than you, you deal an additional {@dice 1d6} damage equal to how many size categories smaller that creature is compared to you."
-  ]
+    "name": "Menacing Stature",
+    "source": "TftJC",
+    "className": "Druid",
+    "classSource": "PHB",
+    "subclassShortName": "Titan",
+    "subclassSource": "TftJC",
+    "level": 6,
+    "entries": [
+        "At 6th level your body gains the ability to grow as well. You learn the {@spell Enlarge/Reduce} spell, and always have it prepared as a Druid spell for you. You can only cast the Enlarge portion of the spell. Whenever you would attack a creature that is at least a size category smaller than you, you deal an additional {@dice 1d6} damage equal to how many size categories smaller that creature is compared to you."
+    ]
 }

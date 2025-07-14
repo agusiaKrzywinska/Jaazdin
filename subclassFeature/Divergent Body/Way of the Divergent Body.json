@@ -1,21 +1,21 @@
 {
-  "name": "Way of the Divergent Body",
-  "source": "TftJC",
-  "className": "Monk",
-  "classSource": "PHB",
-  "subclassShortName": "Divergent Body",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "Monks of the Way of the Divergent Body are privy to ancient secrets that some would consider to be unnatural. The training these monasteries prescribe is physically demanding, their flesh and bone being broken only to build back stronger. These rigorous methods enlighten students of the biomechanical capabilities of their own body, and thereby how to ignore them, resulting in a fighting style that is both unwavering and uninhibited.",
-    "Subclass added by Ridley McCart.",
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Optimal Physique|Monk|PHB|Divergent Body|TftJC|3"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Extraordinary Body|Monk|PHB|Divergent Body|TftJC|3"
-    }
-  ]
+    "name": "Way of the Divergent Body",
+    "source": "TftJC",
+    "className": "Monk",
+    "classSource": "PHB",
+    "subclassShortName": "Divergent Body",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "Monks of the Way of the Divergent Body are privy to ancient secrets that some would consider to be unnatural. The training these monasteries prescribe is physically demanding, their flesh and bone being broken only to build back stronger. These rigorous methods enlighten students of the biomechanical capabilities of their own body, and thereby how to ignore them, resulting in a fighting style that is both unwavering and uninhibited.",
+        "Subclass added by Ridley McCart.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Optimal Physique|Monk|PHB|Divergent Body|TftJC|3"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Extraordinary Body|Monk|PHB|Divergent Body|TftJC|3"
+        }
+    ]
 }

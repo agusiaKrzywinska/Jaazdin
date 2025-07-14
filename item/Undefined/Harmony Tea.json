@@ -1,0 +1,21 @@
+{
+    "name": "Harmony Tea",
+    "source": "TftJC",
+    "type": "FD",
+    "rarity": "common",
+    "value": 1000,
+    "weight": 0,
+    "entries": [
+        "<b>Preparation:</b> Requires Cook's Tools or Brewer's Tools to prepare.",
+        "<b>Ingredients:</b> x2 Harmony Caps.",
+        "<b>Effect:</b> Gain +1 to all concentration checks until you fail one."
+    ],
+    "foundryType": "consumable",
+    "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+            "max": 1,
+            "per": "charges"
+        }
+    }
+}

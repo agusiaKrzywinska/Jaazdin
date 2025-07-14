@@ -1,12 +1,12 @@
 {
-  "name": "Shoot to Thrill Improvement",
-  "source": "TftJC",
-  "className": "Gunner",
-  "classSource": "TftJC",
-  "subclassShortName": "Flameburster",
-  "subclassSource": "TftJC",
-  "level": 10,
-  "entries": [
-    "At 10th level, your Shoot to Thrill feature is enhanced. Using Shoot to Thrill also activates your Burst Strike without expending a bullet."
-  ]
+    "name": "Shoot to Thrill Improvement",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "subclassShortName": "Flameburster",
+    "subclassSource": "TftJC",
+    "level": 10,
+    "entries": [
+        "At 10th level, your Shoot to Thrill feature is enhanced. Using Shoot to Thrill also activates your Burst Strike without expending a bullet."
+    ]
 }

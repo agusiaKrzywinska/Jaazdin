@@ -1,19 +1,19 @@
 {
-  "name": "Shape Earth",
-  "source": "TftJC",
-  "className": "Fighter",
-  "classSource": "PHB",
-  "subclassShortName": "Desertstrider",
-  "subclassSource": "TftJC",
-  "level": 10,
-  "entries": [
-    "At 10th level, you Mold Earth cantrip is enhanced. It now affects a 30 ft cube. Mold Earth also gains the following effect.",
-    {
-      "type": "list",
-      "style": "list-hang",
-      "items": [
-        "If you target an area of earth, you can transform it into sand."
-      ]
-    }
-  ]
+    "name": "Shape Earth",
+    "source": "TftJC",
+    "className": "Fighter",
+    "classSource": "PHB",
+    "subclassShortName": "Desertstrider",
+    "subclassSource": "TftJC",
+    "level": 10,
+    "entries": [
+        "At 10th level, you Mold Earth cantrip is enhanced. It now affects a 30 ft cube. Mold Earth also gains the following effect.",
+        {
+            "type": "list",
+            "style": "list-hang",
+            "items": [
+                "If you target an area of earth, you can transform it into sand."
+            ]
+        }
+    ]
 }

@@ -1,0 +1,21 @@
+{
+  "name": "Powdered Butterfly Wings",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "uncommon",
+  "value": 5000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook's Tools to prepare.",
+    "<b>Ingredients:</b> x1 Uncommon Fey Meat, x2 Foggy Leaf.",
+    "<b>Effect:</b> You gain a +1 bonus to Charisma saves and can double your proficiency bonus to one Charisma checks. Once you double your proficiency bonus you lose all the bonuses of this meal."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
+    }
+  }
+}

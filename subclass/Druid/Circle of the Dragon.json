@@ -1,14 +1,14 @@
 {
-  "name": "Circle of the Dragon",
-  "source": "TftJC",
-  "page": 21,
-  "className": "Druid",
-  "classSource": "PHB",
-  "shortName": "Dragon",
-  "subclassFeatures": [
-    "Circle of the Dragon|Druid|PHB|Dragon|TftJC|2",
-    "Dragon's Breath|Druid|PHB|Dragon|TftJC|6",
-    "From Fur to Scales|Druid|PHB|Dragon|TftJC|10",
-    "Affinity|Druid|PHB|Dragon|TftJC|14"
-  ]
+    "name": "Circle of the Dragon",
+    "source": "TftJC",
+    "page": 21,
+    "className": "Druid",
+    "classSource": "PHB",
+    "shortName": "Dragon",
+    "subclassFeatures": [
+        "Circle of the Dragon|Druid|PHB|Dragon|TftJC|2",
+        "Dragon's Breath|Druid|PHB|Dragon|TftJC|6",
+        "From Fur to Scales|Druid|PHB|Dragon|TftJC|10",
+        "Affinity|Druid|PHB|Dragon|TftJC|14"
+    ]
 }

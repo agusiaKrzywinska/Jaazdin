@@ -1,14 +1,18 @@
 {
-  "name": "Overwhelm",
-  "prerequisite": [
-    {
-      "feature": ["Dark Arts Wizard"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["ARC"],
-  "entries": [
-    "Tier 1 Arcana. Creatures affected by The Forbidden Spell must make a Strength saving throw or be knocked prone."
-  ]
+    "name": "Overwhelm",
+    "prerequisite": [
+        {
+            "feature": [
+                "Dark Arts Wizard"
+            ]
+        }
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "ARC"
+    ],
+    "entries": [
+        "Tier 1 Arcana. Creatures affected by The Forbidden Spell must make a Strength saving throw or be knocked prone."
+    ]
 }

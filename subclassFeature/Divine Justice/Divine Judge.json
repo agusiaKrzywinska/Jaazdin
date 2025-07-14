@@ -1,22 +1,22 @@
 {
-  "name": "Divine Judge",
-  "source": "TftJC",
-  "className": "Paladin",
-  "classSource": "PHB",
-  "subclassShortName": "Divine Justice",
-  "subclassSource": "TftJC",
-  "level": 20,
-  "entries": [
-    "At 20th level, you can assume the form of a Divine Judge.Your form becomes cloaked in Holy Light that burns to the eye, and may adopt other features such as a Flaming Halo or Golden Armor.",
-    "As an Action, you undergo a transformation and gain the following benefits. This transformation lasts a minute, or until you fall unconscious.",
-    {
-      "type": "list",
-      "items": [
-        "You become under the effects of Fervor and LeapingFlames. If you are already under one or both effects, they end first and afterwards are applied. All creatures of your choice within your Aura of Arclight also gain the benefits of Leaping Flames.",
-        "You gain a Hover Speed equal to your walking speed.",
-        "You can use the Dash Action as a Bonus Action, provided you are approaching a hostile creature."
-      ]
-    },
-    "Once you use this feature, you can’t use it again until you finish a long rest."
-  ]
+    "name": "Divine Judge",
+    "source": "TftJC",
+    "className": "Paladin",
+    "classSource": "PHB",
+    "subclassShortName": "Divine Justice",
+    "subclassSource": "TftJC",
+    "level": 20,
+    "entries": [
+        "At 20th level, you can assume the form of a Divine Judge.Your form becomes cloaked in Holy Light that burns to the eye, and may adopt other features such as a Flaming Halo or Golden Armor.",
+        "As an Action, you undergo a transformation and gain the following benefits. This transformation lasts a minute, or until you fall unconscious.",
+        {
+            "type": "list",
+            "items": [
+                "You become under the effects of Fervor and LeapingFlames. If you are already under one or both effects, they end first and afterwards are applied. All creatures of your choice within your Aura of Arclight also gain the benefits of Leaping Flames.",
+                "You gain a Hover Speed equal to your walking speed.",
+                "You can use the Dash Action as a Bonus Action, provided you are approaching a hostile creature."
+            ]
+        },
+        "Once you use this feature, you can’t use it again until you finish a long rest."
+    ]
 }

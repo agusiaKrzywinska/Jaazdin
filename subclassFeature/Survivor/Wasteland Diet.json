@@ -1,15 +1,15 @@
 {
-  "name": "Wasteland Diet",
-  "source": "TftJC",
-  "className": "Ranger",
-  "classSource": "PHB",
-  "subclassShortName": "Survivor",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "At 3rd level, your magic helps feed you and others. You learn {@spell Goodberry} (it does not count against your spells known), at the end of a Long Rest you generate a number of berries equal to your Ranger Level. You can also consume a number of goodberries as a free action each turn equal to your proficiency bonus. If you eat a goodberry and your health is full, you instead gain temporary hit points equal to your Wisdom Modifier. Once on your turn, when you would make an attack and you currently have temporary hit points, you can remove all of them to have that attack deal an additional {@dice 1d6} of damage.",
-    "At 7th level, when you cast {@spell Goodberry} in this way, one berry in the bunch becomes golden. A golden berry cures a disease or the poisoned condition affecting the creature of your choice.",
-    "At 11th level, a golden berry can remove a point of exhaustion instead.",
-    "A creature can only benefit from a golden goodberry once per day."
-  ]
+    "name": "Wasteland Diet",
+    "source": "TftJC",
+    "className": "Ranger",
+    "classSource": "PHB",
+    "subclassShortName": "Survivor",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, your magic helps feed you and others. You learn {@spell Goodberry} (it does not count against your spells known), at the end of a Long Rest you generate a number of berries equal to your Ranger Level. You can also consume a number of goodberries as a free action each turn equal to your proficiency bonus. If you eat a goodberry and your health is full, you instead gain temporary hit points equal to your Wisdom Modifier. Once on your turn, when you would make an attack and you currently have temporary hit points, you can remove all of them to have that attack deal an additional {@dice 1d6} of damage.",
+        "At 7th level, when you cast {@spell Goodberry} in this way, one berry in the bunch becomes golden. A golden berry cures a disease or the poisoned condition affecting the creature of your choice.",
+        "At 11th level, a golden berry can remove a point of exhaustion instead.",
+        "A creature can only benefit from a golden goodberry once per day."
+    ]
 }

@@ -1,61 +1,61 @@
 {
-  "name": "Knox's Devious Door",
-  "source": "TftJC",
-  "page": 56,
-  "level": 1,
-  "school": "A",
-  "time": [
-    {
-      "number": 1,
-      "unit": "action"
+    "name": "Knox's Devious Door",
+    "source": "TftJC",
+    "page": 56,
+    "level": 1,
+    "school": "A",
+    "time": [
+        {
+            "number": 1,
+            "unit": "action"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "feet",
+            "amount": 10
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true
+    },
+    "duration": [
+        {
+            "type": "timed",
+            "duration": {
+                "amount": 10,
+                "type": "minutes"
+            }
+        }
+    ],
+    "entries": [
+        "You conjure a plane of force into existence that fills one door or passageway within range. If the passageway or doorway is more than 15 feet in any dimension, the spell fails. Otherwise, the plane of force fills the space and is 1 inch thick. Any creatures you designate when you cast the spell can pass through the plane but other creatures cannot.",
+        "The plane has 50 hit points with 5 AC and vulnerability to force damage, immunity to poison and psychic and resistance to all other forms of damage. A creature can attempt a DC 20 Strength check to force their way through the plane. On a success, they pass through the plane."
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Artificer",
+                "source": "PHB"
+            },
+            {
+                "name": "Bard",
+                "source": "PHB"
+            },
+            {
+                "name": "Sorcerer",
+                "source": "PHB"
+            },
+            {
+                "name": "Warlock",
+                "source": "PHB"
+            },
+            {
+                "name": "Wizard",
+                "source": "PHB"
+            }
+        ]
     }
-  ],
-  "range": {
-    "type": "point",
-    "distance": {
-      "type": "feet",
-      "amount": 10
-    }
-  },
-  "components": {
-    "v": true,
-    "s": true
-  },
-  "duration": [
-    {
-      "type": "timed",
-      "duration": {
-        "amount": 10,
-        "type": "minutes"
-      }
-    }
-  ],
-  "entries": [
-    "You conjure a plane of force into existence that fills one door or passageway within range. If the passageway or doorway is more than 15 feet in any dimension, the spell fails. Otherwise, the plane of force fills the space and is 1 inch thick. Any creatures you designate when you cast the spell can pass through the plane but other creatures cannot.",
-    "The plane has 50 hit points with 5 AC and vulnerability to force damage, immunity to poison and psychic and resistance to all other forms of damage. A creature can attempt a DC 20 Strength check to force their way through the plane. On a success, they pass through the plane."
-  ],
-  "classes": {
-    "fromClassList": [
-      {
-        "name": "Artificer",
-        "source": "PHB"
-      },
-      {
-        "name": "Bard",
-        "source": "PHB"
-      },
-      {
-        "name": "Sorcerer",
-        "source": "PHB"
-      },
-      {
-        "name": "Warlock",
-        "source": "PHB"
-      },
-      {
-        "name": "Wizard",
-        "source": "PHB"
-      }
-    ]
-  }
 }

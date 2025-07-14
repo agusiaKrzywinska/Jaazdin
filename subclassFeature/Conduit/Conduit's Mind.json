@@ -1,12 +1,12 @@
 {
-  "name": "Conduit's Mind",
-  "source": "TftJC",
-  "className": "Warden",
-  "classSource": "TftJC",
-  "subclassShortName": "Conduit",
-  "subclassSource": "TftJC",
-  "level": 7,
-  "entries": [
-    "At 7th level, you reinforce your mind against assaults on the battlefield. You gain proficiency in a Intelligence saving throws."
-  ]
+    "name": "Conduit's Mind",
+    "source": "TftJC",
+    "className": "Warden",
+    "classSource": "TftJC",
+    "subclassShortName": "Conduit",
+    "subclassSource": "TftJC",
+    "level": 7,
+    "entries": [
+        "At 7th level, you reinforce your mind against assaults on the battlefield. You gain proficiency in a Intelligence saving throws."
+    ]
 }

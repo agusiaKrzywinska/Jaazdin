@@ -1,12 +1,12 @@
 {
-  "name": "Ancient Knowledge",
-  "source": "TftJC",
-  "className": "Wizard",
-  "classSource": "PHB",
-  "subclassShortName": "Dark Arts",
-  "subclassSource": "TftJC",
-  "level": 2,
-  "entries": [
-    "At 2nd level, you have acquired once forgotten knowledge. You gain proficiency in the History skill, and whenever you make a History or Arcana check with advantage, you can roll {@dice 3d20} and take the highest result"
-  ]
+    "name": "Ancient Knowledge",
+    "source": "TftJC",
+    "className": "Wizard",
+    "classSource": "PHB",
+    "subclassShortName": "Dark Arts",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "At 2nd level, you have acquired once forgotten knowledge. You gain proficiency in the History skill, and whenever you make a History or Arcana check with advantage, you can roll {@dice 3d20} and take the highest result"
+    ]
 }

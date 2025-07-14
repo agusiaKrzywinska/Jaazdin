@@ -1,19 +1,19 @@
 {
-  "name": "Herbalist Helper Vol.",
-  "source": "TftJC",
-  "rarity": "varies",
-  "type": "GV",
-  "wondrous": true,
-  "entries": [
-    "These tomes contains the secrets of medical knowledge, plants, and poultices.",
-    {
-      "type": "list",
-      "items": [
-        "{@item Herbalist Helper Vol. I|TftJC}",
-        "{@item Herbalist Helper Vol. II|TftJC}",
-        "{@item Herbalist Helper Vol. III|TftJC}",
-        "{@item Herbalist Helper Vol. IV|TftJC}"
-      ]
-    }
-  ]
+    "name": "Herbalist Helper Vol.",
+    "source": "TftJC",
+    "rarity": "varies",
+    "type": "GV",
+    "wondrous": true,
+    "entries": [
+        "These tomes contains the secrets of medical knowledge, plants, and poultices.",
+        {
+            "type": "list",
+            "items": [
+                "{@item Herbalist Helper Vol. I|TftJC}",
+                "{@item Herbalist Helper Vol. II|TftJC}",
+                "{@item Herbalist Helper Vol. III|TftJC}",
+                "{@item Herbalist Helper Vol. IV|TftJC}"
+            ]
+        }
+    ]
 }

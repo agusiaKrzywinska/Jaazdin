@@ -1,55 +1,55 @@
 {
-  "name": "Knox's Numerous Platforms",
-  "source": "TftJC",
-  "page": 62,
-  "level": 5,
-  "school": "A",
-  "time": [
-    {
-      "number": 1,
-      "unit": "action"
+    "name": "Knox's Numerous Platforms",
+    "source": "TftJC",
+    "page": 62,
+    "level": 5,
+    "school": "A",
+    "time": [
+        {
+            "number": 1,
+            "unit": "action"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "feet",
+            "amount": 90
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true
+    },
+    "duration": [
+        {
+            "type": "timed",
+            "duration": {
+                "type": "minute",
+                "amount": 10,
+                "upTo": true
+            },
+            "concentration": true
+        }
+    ],
+    "entries": [
+        "You summon a pane of magical force 10ftx10ft and 1 inch thick. The pane can appear in an unoccupied space within range and be oriented in any direction. The pane can be opaque or transparent or somewhere in the middle. For the duration of the spell you can summon another pane as an action or move up to three summoned platforms up to 30ft. If you summon more panes than the spell slot used to cast the spell one pane of your choice vanishes. The panes can support 1000lbs of weight each, if more weight than this is applied to one it shatters",
+        "Nothing can physically pass through the panes. They are immune to all damage but force and cannot be dispelled by dispel magic. Each pane has an AC of 10 and 25 hit points. If a platform is destroyed it does not count against the number of summoned platforms."
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Artificer",
+                "source": "PHB"
+            },
+            {
+                "name": "Bard",
+                "source": "PHB"
+            },
+            {
+                "name": "Sorcerer",
+                "source": "PHB"
+            }
+        ]
     }
-  ],
-  "range": {
-    "type": "point",
-    "distance": {
-      "type": "feet",
-      "amount": 90
-    }
-  },
-  "components": {
-    "v": true,
-    "s": true
-  },
-  "duration": [
-    {
-      "type": "timed",
-      "duration": {
-        "type": "minute",
-        "amount": 10,
-        "upTo": true
-      },
-      "concentration": true
-    }
-  ],
-  "entries": [
-    "You summon a pane of magical force 10ftx10ft and 1 inch thick. The pane can appear in an unoccupied space within range and be oriented in any direction. The pane can be opaque or transparent or somewhere in the middle. For the duration of the spell you can summon another pane as an action or move up to three summoned platforms up to 30ft. If you summon more panes than the spell slot used to cast the spell one pane of your choice vanishes. The panes can support 1000lbs of weight each, if more weight than this is applied to one it shatters",
-    "Nothing can physically pass through the panes. They are immune to all damage but force and cannot be dispelled by dispel magic. Each pane has an AC of 10 and 25 hit points. If a platform is destroyed it does not count against the number of summoned platforms."
-  ],
-  "classes": {
-    "fromClassList": [
-      {
-        "name": "Artificer",
-        "source": "PHB"
-      },
-      {
-        "name": "Bard",
-        "source": "PHB"
-      },
-      {
-        "name": "Sorcerer",
-        "source": "PHB"
-      }
-    ]
-  }
 }

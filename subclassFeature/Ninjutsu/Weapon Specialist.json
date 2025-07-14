@@ -1,32 +1,32 @@
 {
-  "name": "Weapon Specialist",
-  "source": "TftJC",
-  "className": "Rogue",
-  "classSource": "PHB",
-  "subclassShortName": "Ninjutsu",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "At 3rd level, you can pull from a larger set of weapons compared to most Rogues. You gain proficiency in Martial Weapons. You also gain proficiency in two special weapons, the Katana and the Throwing Star.",
-    {
-      "type": "inset",
-      "name": "Katana",
-      "entries": [
-        "A Katana costs 30gp and has the following stat block: melee, reach 5ft, finesse, special, 1d8 slashing, versatile. It weights 2lbs."
-      ]
-    },
-    {
-      "type": "inset",
-      "name": "Throwing Star",
-      "entries": [
-        "Throwing Stars cost 5sp for a group of 10 and has the following stat block: thrown, light, finesse, range 30/90, special, 1d4 piercing. They weight 0.25lbs.",
+    "name": "Weapon Specialist",
+    "source": "TftJC",
+    "className": "Rogue",
+    "classSource": "PHB",
+    "subclassShortName": "Ninjutsu",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "At 3rd level, you can pull from a larger set of weapons compared to most Rogues. You gain proficiency in Martial Weapons. You also gain proficiency in two special weapons, the Katana and the Throwing Star.",
         {
-          "type": "list",
-          "items": [
-            "After using a Throwing Star for your Attack Action, you can use your Bonus Action to throw an additional Star, provided you have another. You can hold up to three Stars in one hand at a time."
-          ]
+            "type": "inset",
+            "name": "Katana",
+            "entries": [
+                "A Katana costs 30gp and has the following stat block: melee, reach 5ft, finesse, special, 1d8 slashing, versatile. It weights 2lbs."
+            ]
+        },
+        {
+            "type": "inset",
+            "name": "Throwing Star",
+            "entries": [
+                "Throwing Stars cost 5sp for a group of 10 and has the following stat block: thrown, light, finesse, range 30/90, special, 1d4 piercing. They weight 0.25lbs.",
+                {
+                    "type": "list",
+                    "items": [
+                        "After using a Throwing Star for your Attack Action, you can use your Bonus Action to throw an additional Star, provided you have another. You can hold up to three Stars in one hand at a time."
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

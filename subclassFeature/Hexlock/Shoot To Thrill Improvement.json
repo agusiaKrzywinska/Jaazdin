@@ -1,12 +1,12 @@
 {
-  "name": "Shoot To Thrill Improvement",
-  "source": "TftJC",
-  "className": "Gunner",
-  "classSource": "TftJC",
-  "subclassShortName": "Hexlock",
-  "subclassSource": "TftJC",
-  "level": 10,
-  "entries": [
-    "At 10th level, your Shoot to Thrill feature is enhanced. When Shoot to Thrill is used to enhance a ranged weapon attack, you can choose to immediately apply one Hexed Bullet to the attack, following the normal restrictions of that bullet."
-  ]
+    "name": "Shoot To Thrill Improvement",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "subclassShortName": "Hexlock",
+    "subclassSource": "TftJC",
+    "level": 10,
+    "entries": [
+        "At 10th level, your Shoot to Thrill feature is enhanced. When Shoot to Thrill is used to enhance a ranged weapon attack, you can choose to immediately apply one Hexed Bullet to the attack, following the normal restrictions of that bullet."
+    ]
 }

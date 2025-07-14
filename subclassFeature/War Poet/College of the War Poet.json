@@ -1,22 +1,22 @@
 {
-  "name": "College of the War Poet",
-  "source": "TftJC",
-  "className": "Bard",
-  "classSource": "PHB",
-  "subclassShortName": "War Poet",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "Through the fire and smoke raging over fields, a piercing voice echoes through the darkness.",
-    "'The lands will not stay quiet, not while we draw breath. Silence is only earned in victory, or in death.'",
-    "War Poets are known for their powerful voices, words and mids. They are often seen as leaders in rebel causes, voices of reason in times of uncertainty and steadfast spirits when darkness grows.",
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "War's Voice|Bard|PHB|War Poet|TftJC|3|TftJC"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Pentameter of Battle|Bard|PHB|War Poet|TftJC|3|TftJC"
-    }
-  ]
+    "name": "College of the War Poet",
+    "source": "TftJC",
+    "className": "Bard",
+    "classSource": "PHB",
+    "subclassShortName": "War Poet",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "Through the fire and smoke raging over fields, a piercing voice echoes through the darkness.",
+        "'The lands will not stay quiet, not while we draw breath. Silence is only earned in victory, or in death.'",
+        "War Poets are known for their powerful voices, words and mids. They are often seen as leaders in rebel causes, voices of reason in times of uncertainty and steadfast spirits when darkness grows.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "War's Voice|Bard|PHB|War Poet|TftJC|3|TftJC"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Pentameter of Battle|Bard|PHB|War Poet|TftJC|3|TftJC"
+        }
+    ]
 }

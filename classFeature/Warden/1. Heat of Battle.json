@@ -1,19 +1,19 @@
 {
-  "name": "Heat of Battle",
-  "source": "TftJC",
-  "className": "Warden",
-  "classSource": "TftJC",
-  "level": 1,
-  "entries": [
-    "At 1st level, you are able to keep a calm mind even in the direst of circumstance. When you fail a saving throw, are hit by a critical hit, or use a technique on your turn, you can use your reaction to do one of the following things:",
-    {
-      "type": "list",
-      "items": [
-        "Move up to half your movement without provoking attacks of opportunity, or allow one creature within 30ft of you to move half their movement.",
-        "Make one attack or let one creature within 30ft of you make one attack."
-      ]
-    },
-    "You resolve your effect after the effect that provoked it. You must be able to take your type of action after the effect that prompted it, meaning that if you are subjected to a condition that prevents you from moving or attacking, you cannot select those options.",
-    "You can use this ability once per short or long rest. At 6th level you can use it twice, and at 18th level you can use it three times before needing a short or long rest."
-  ]
+    "name": "Heat of Battle",
+    "source": "TftJC",
+    "className": "Warden",
+    "classSource": "TftJC",
+    "level": 1,
+    "entries": [
+        "At 1st level, you are able to keep a calm mind even in the direst of circumstance. When you fail a saving throw, are hit by a critical hit, or use a technique on your turn, you can use your reaction to do one of the following things:",
+        {
+            "type": "list",
+            "items": [
+                "Move up to half your movement without provoking attacks of opportunity, or allow one creature within 30ft of you to move half their movement.",
+                "Make one attack or let one creature within 30ft of you make one attack."
+            ]
+        },
+        "You resolve your effect after the effect that provoked it. You must be able to take your type of action after the effect that prompted it, meaning that if you are subjected to a condition that prevents you from moving or attacking, you cannot select those options.",
+        "You can use this ability once per short or long rest. At 6th level you can use it twice, and at 18th level you can use it three times before needing a short or long rest."
+    ]
 }

@@ -1,14 +1,14 @@
 {
-  "name": "The Master",
-  "source": "TftJC",
-  "page": 41,
-  "className": "Warlock",
-  "classSource": "PHB",
-  "shortName": "Master",
-  "subclassFeatures": [
-    "The Master|Warlock|PHB|Master|TftJC|1",
-    "Patron's Bond|Warlock|PHB|Master|TftJC|6",
-    "Blood of the God|Warlock|PHB|Master|TftJC|10",
-    "Might of the Master|Warlock|PHB|Master|TftJC|14"
-  ]
+    "name": "The Master",
+    "source": "TftJC",
+    "page": 41,
+    "className": "Warlock",
+    "classSource": "PHB",
+    "shortName": "Master",
+    "subclassFeatures": [
+        "The Master|Warlock|PHB|Master|TftJC|1",
+        "Patron's Bond|Warlock|PHB|Master|TftJC|6",
+        "Blood of the God|Warlock|PHB|Master|TftJC|10",
+        "Might of the Master|Warlock|PHB|Master|TftJC|14"
+    ]
 }

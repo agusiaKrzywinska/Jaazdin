@@ -1,14 +1,14 @@
 {
-  "name": "Tenets of Masked Rider",
-  "source": "TftJC",
-  "className": "Paladin",
-  "classSource": "PHB",
-  "subclassShortName": "Masked Rider",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "<b>Masked Identity.</b> Many Masked Riders keep their identity hidden, as they are meant to be a symbol to the people.",
-    "<b>Inspire Hope</b>. Your feats are meant to inspire those around you to one day take up the Mask and carry on your legacy.",
-    "<b>Heroics are all but Silent</b>. Defeating a foe should be a spectacle, marked with explosions and high flying stunts."
-  ]
+    "name": "Tenets of Masked Rider",
+    "source": "TftJC",
+    "className": "Paladin",
+    "classSource": "PHB",
+    "subclassShortName": "Masked Rider",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "<b>Masked Identity.</b> Many Masked Riders keep their identity hidden, as they are meant to be a symbol to the people.",
+        "<b>Inspire Hope</b>. Your feats are meant to inspire those around you to one day take up the Mask and carry on your legacy.",
+        "<b>Heroics are all but Silent</b>. Defeating a foe should be a spectacle, marked with explosions and high flying stunts."
+    ]
 }

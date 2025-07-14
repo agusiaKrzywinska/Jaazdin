@@ -1,21 +1,21 @@
 {
-  "name": "Angelic Armsmaster",
-  "source": "TftJC",
-  "className": "Fighter",
-  "classSource": "PHB",
-  "subclassShortName": "Angelic Armsmaster",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "A Divine solider, gifted a weapon from the heavens. Slicing down foes, with the might of Celestials, the Angelic Armsmaster unleashes Divine Fury.",
-    "Angelic Armsmasters can summon weapons of light to adapt to any situation and destroy any foe.",
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Weapon of the Gods|Fighter|PHB|Angelic Armsmaster|TftJC|3"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Language of the Gods|Fighter|PHB|Angelic Armsmaster|TftJC|3"
-    }
-  ]
+    "name": "Angelic Armsmaster",
+    "source": "TftJC",
+    "className": "Fighter",
+    "classSource": "PHB",
+    "subclassShortName": "Angelic Armsmaster",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "A Divine solider, gifted a weapon from the heavens. Slicing down foes, with the might of Celestials, the Angelic Armsmaster unleashes Divine Fury.",
+        "Angelic Armsmasters can summon weapons of light to adapt to any situation and destroy any foe.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Weapon of the Gods|Fighter|PHB|Angelic Armsmaster|TftJC|3"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Language of the Gods|Fighter|PHB|Angelic Armsmaster|TftJC|3"
+        }
+    ]
 }

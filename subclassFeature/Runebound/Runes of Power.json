@@ -1,12 +1,12 @@
 {
-  "name": "Runes of Power",
-  "source": "TftJC",
-  "className": "Sorcerer",
-  "classSource": "PHB",
-  "subclassShortName": "Runebound",
-  "subclassSource": "TftJC",
-  "level": 18,
-  "entries": [
-    "At 18th level, your runes have grown to cover large areas of your body. If you are concentrating on a spell and cast another spell that requires concentration you can spend 3 sorcery points to store the second spell in your runes, allowing you to concentrate on both at once. When you take damage you must make a saving throw for both spells and the DC increases for both by an amount equal to the highest spell level you are concentrating on. Each round you must spend one sorcery point to continue concentrating on the spells, if you cannot or do not spend a sorcery point one spell of your choice ends. You can only ever concentrate on two spells at once."
-  ]
+    "name": "Runes of Power",
+    "source": "TftJC",
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "subclassShortName": "Runebound",
+    "subclassSource": "TftJC",
+    "level": 18,
+    "entries": [
+        "At 18th level, your runes have grown to cover large areas of your body. If you are concentrating on a spell and cast another spell that requires concentration you can spend 3 sorcery points to store the second spell in your runes, allowing you to concentrate on both at once. When you take damage you must make a saving throw for both spells and the DC increases for both by an amount equal to the highest spell level you are concentrating on. Each round you must spend one sorcery point to continue concentrating on the spells, if you cannot or do not spend a sorcery point one spell of your choice ends. You can only ever concentrate on two spells at once."
+    ]
 }

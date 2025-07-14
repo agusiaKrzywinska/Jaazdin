@@ -1,12 +1,12 @@
 {
-  "name": "Ward's Charge",
-  "source": "TftJC",
-  "className": "Warden",
-  "classSource": "TftJC",
-  "subclassShortName": "Protector",
-  "subclassSource": "TftJC",
-  "level": 7,
-  "entries": [
-    "At 7th level, you gain the ability to support your Honor Bound not just inside combat but in all areas of their life. When you finish a short rest with a subject of your Honor Bond, you can choose to grant them proficiency in one skill or tool of your choice that you are proficient in. They retain the proficiency until you choose another Honor Bound or grant them a different proficiency with this feature."
-  ]
+    "name": "Ward's Charge",
+    "source": "TftJC",
+    "className": "Warden",
+    "classSource": "TftJC",
+    "subclassShortName": "Protector",
+    "subclassSource": "TftJC",
+    "level": 7,
+    "entries": [
+        "At 7th level, you gain the ability to support your Honor Bound not just inside combat but in all areas of their life. When you finish a short rest with a subject of your Honor Bond, you can choose to grant them proficiency in one skill or tool of your choice that you are proficient in. They retain the proficiency until you choose another Honor Bound or grant them a different proficiency with this feature."
+    ]
 }

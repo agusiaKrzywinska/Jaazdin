@@ -1,14 +1,14 @@
 {
-  "name": "Compass of the Guiding Arrow",
-  "source": "TftJC",
-  "type": "T",
-  "rarity": "rare",
-  "wondrous": true,
-  "reqAttune": true,
-  "entries": [
-    "The Compass of the Guiding Arrow is a finely crafted magical compass that aids adventurers in locating specific items of significance. This compass is currently linked. This compass is treated as +1 {@item navigator's tools|PHB}.",
-    "<b><i>Linking.</b></i> To link or unlink to a specific item, the attuned user must be within 5 ft of the item and spend 1 minute concentrating on severing/connecting the connection. As if they were concentrating on a spell. You cannot link a new item if it is already linked.",
-    "<b><i>Guiding Arrow.</b></i> the compass's arrow constantly points in the direction of the chosen item. It provides a reliable guide, even if the item is hidden, obscured, but must be on the same plane of existence. The arrow adjusts its direction as the user moves, always pointing towards the desired object.",
-    "<b><i>Protection from Interference.</i></b> The Compass of the Guiding Arrow possesses a magical shielding that prevents external forces from manipulating or disrupting its guidance. It cannot be affected by spells or abilities that alter the accuracy of directional devices."
-  ]
+    "name": "Compass of the Guiding Arrow",
+    "source": "TftJC",
+    "type": "T",
+    "rarity": "rare",
+    "wondrous": true,
+    "reqAttune": true,
+    "entries": [
+        "The Compass of the Guiding Arrow is a finely crafted magical compass that aids adventurers in locating specific items of significance. This compass is currently linked. This compass is treated as +1 {@item navigator's tools|PHB}.",
+        "<b><i>Linking.</b></i> To link or unlink to a specific item, the attuned user must be within 5 ft of the item and spend 1 minute concentrating on severing/connecting the connection. As if they were concentrating on a spell. You cannot link a new item if it is already linked.",
+        "<b><i>Guiding Arrow.</b></i> the compass's arrow constantly points in the direction of the chosen item. It provides a reliable guide, even if the item is hidden, obscured, but must be on the same plane of existence. The arrow adjusts its direction as the user moves, always pointing towards the desired object.",
+        "<b><i>Protection from Interference.</i></b> The Compass of the Guiding Arrow possesses a magical shielding that prevents external forces from manipulating or disrupting its guidance. It cannot be affected by spells or abilities that alter the accuracy of directional devices."
+    ]
 }

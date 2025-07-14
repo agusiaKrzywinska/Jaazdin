@@ -1,14 +1,18 @@
 {
-  "name": "Blade Guard",
-  "prerequisite": [
-    {
-      "feature": ["Pact of the Blade and Master Warlock"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 43,
-  "featureType": ["EI"],
-  "entries": [
-    "You and your minion can cast warding bond once per long rest. When you cast it using this evocation the target must be either the minion or master and you do not need to provide the material component."
-  ]
+    "name": "Blade Guard",
+    "prerequisite": [
+        {
+            "feature": [
+                "Pact of the Blade and Master Warlock"
+            ]
+        }
+    ],
+    "source": "TftJC",
+    "page": 43,
+    "featureType": [
+        "EI"
+    ],
+    "entries": [
+        "You and your minion can cast warding bond once per long rest. When you cast it using this evocation the target must be either the minion or master and you do not need to provide the material component."
+    ]
 }

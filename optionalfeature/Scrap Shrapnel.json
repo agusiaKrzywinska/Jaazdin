@@ -1,23 +1,27 @@
 {
-  "name": "Scrap Shrapnel",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 5,
-        "class": {
-          "name": "Gunner"
+    "name": "Scrap Shrapnel",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 5,
+                "class": {
+                    "name": "Gunner"
+                }
+            },
+            "feature": [
+                "Gunner: Demolitionist, Cannot be used with Gas"
+            ]
         }
-      },
-      "feature": ["Gunner: Demolitionist, Cannot be used with Gas"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["MOD"],
-  "consumes": {
-    "name": "200gp"
-  },
-  "entries": [
-    "This weapon deals an additional 2 piercing damage to other creatures within 5ft of it."
-  ]
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "MOD"
+    ],
+    "consumes": {
+        "name": "200gp"
+    },
+    "entries": [
+        "This weapon deals an additional 2 piercing damage to other creatures within 5ft of it."
+    ]
 }

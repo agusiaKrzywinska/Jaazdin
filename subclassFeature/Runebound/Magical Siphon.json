@@ -1,12 +1,12 @@
 {
-  "name": "Magical Siphon",
-  "source": "TftJC",
-  "className": "Sorcerer",
-  "classSource": "PHB",
-  "subclassShortName": "Runebound",
-  "subclassSource": "TftJC",
-  "level": 14,
-  "entries": [
-    "At 14th level, your runic power has manifested fully as a physical rune on your body. You can choose where the rune appears. Your rune becomes a siphon for magical power, as a reaction when you are hit with a spell of 1st level or higher you can use your reaction to draw power from the spell. Make a Spell Casting ability check with a DC equal to 10 + twice the spells level. On a success you regain sorcery points equal to half the spells level, minimum 1."
-  ]
+    "name": "Magical Siphon",
+    "source": "TftJC",
+    "className": "Sorcerer",
+    "classSource": "PHB",
+    "subclassShortName": "Runebound",
+    "subclassSource": "TftJC",
+    "level": 14,
+    "entries": [
+        "At 14th level, your runic power has manifested fully as a physical rune on your body. You can choose where the rune appears. Your rune becomes a siphon for magical power, as a reaction when you are hit with a spell of 1st level or higher you can use your reaction to draw power from the spell. Make a Spell Casting ability check with a DC equal to 10 + twice the spells level. On a success you regain sorcery points equal to half the spells level, minimum 1."
+    ]
 }

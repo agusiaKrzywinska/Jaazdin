@@ -1,22 +1,22 @@
 {
-  "name": "Enhanced Frame",
-  "source": "TftJC",
-  "className": "Artificer",
-  "classSource": "TCE",
-  "subclassShortName": "Ghost-Shell",
-  "subclassSource": "TftJC",
-  "level": 15,
-  "entries": [
-    "At 15th level, you have learned a better way of constructing your Shell. Your shell can gain one of the following benefits:",
-    {
-      "type": "list",
-      "items": [
-        "Resistance to one type of damage from fire, lightning, thunder, force, acid, or cold.",
-        "Reduce any bludgeoning, slashing, or piercing damage taken by 3.",
-        "Any attack dealt by the Shell deals additional damage equal to your Psionic Energy die."
-      ]
-    },
-    "You can change which of these the Shell benefits from at the end of a short rest.",
-    "In addition, when you are using your Ghost Projection, you can expend one Psionic Energy die at the start of each of your turns to restore hit points to the Shell equal to the number rolled + your Intelligence modifier. Each turn you do this, you deal lightning damage to any creatures of your choice within 15ft of the Shell equal to your proficiency modifier."
-  ]
+    "name": "Enhanced Frame",
+    "source": "TftJC",
+    "className": "Artificer",
+    "classSource": "TCE",
+    "subclassShortName": "Ghost-Shell",
+    "subclassSource": "TftJC",
+    "level": 15,
+    "entries": [
+        "At 15th level, you have learned a better way of constructing your Shell. Your shell can gain one of the following benefits:",
+        {
+            "type": "list",
+            "items": [
+                "Resistance to one type of damage from fire, lightning, thunder, force, acid, or cold.",
+                "Reduce any bludgeoning, slashing, or piercing damage taken by 3.",
+                "Any attack dealt by the Shell deals additional damage equal to your Psionic Energy die."
+            ]
+        },
+        "You can change which of these the Shell benefits from at the end of a short rest.",
+        "In addition, when you are using your Ghost Projection, you can expend one Psionic Energy die at the start of each of your turns to restore hit points to the Shell equal to the number rolled + your Intelligence modifier. Each turn you do this, you deal lightning damage to any creatures of your choice within 15ft of the Shell equal to your proficiency modifier."
+    ]
 }

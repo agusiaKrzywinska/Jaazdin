@@ -1,23 +1,27 @@
 {
-  "name": "Custom Gunblade",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 13,
-        "class": {
-          "name": "Gunner"
+    "name": "Custom Gunblade",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 13,
+                "class": {
+                    "name": "Gunner"
+                }
+            },
+            "feature": [
+                "Melee Weapon"
+            ]
         }
-      },
-      "feature": ["Melee Weapon"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["MOD"],
-  "consumes": {
-    "name": "700gp"
-  },
-  "entries": [
-    "Can be applied to any Melee Weapon, which grants it the Gunblade feature and considers it a firearm."
-  ]
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "MOD"
+    ],
+    "consumes": {
+        "name": "700gp"
+    },
+    "entries": [
+        "Can be applied to any Melee Weapon, which grants it the Gunblade feature and considers it a firearm."
+    ]
 }

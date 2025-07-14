@@ -1,12 +1,12 @@
 {
-  "name": "Places to be",
-  "source": "TftJC",
-  "className": "Ranger",
-  "classSource": "PHB",
-  "subclassShortName": "Wayward",
-  "subclassSource": "TftJC",
-  "level": 15,
-  "entries": [
-    "At 15th level, you can easily get to where ever you need to be in a battle. As a Bonus Action, you can teleport up to 150ft. Your next attack this turn has advantage. You can do this a number of times equal to your Proficiency Bonus per Long Rest."
-  ]
+    "name": "Places to be",
+    "source": "TftJC",
+    "className": "Ranger",
+    "classSource": "PHB",
+    "subclassShortName": "Wayward",
+    "subclassSource": "TftJC",
+    "level": 15,
+    "entries": [
+        "At 15th level, you can easily get to where ever you need to be in a battle. As a Bonus Action, you can teleport up to 150ft. Your next attack this turn has advantage. You can do this a number of times equal to your Proficiency Bonus per Long Rest."
+    ]
 }

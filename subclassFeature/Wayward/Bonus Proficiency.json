@@ -1,12 +1,12 @@
 {
-  "name": "Bonus Proficiency",
-  "source": "TftJC",
-  "className": "Ranger",
-  "classSource": "PHB",
-  "subclassShortName": "Wayward",
-  "subclassSource": "TftJC",
-  "level": 3,
-  "entries": [
-    "When you choose this Conclave at 3rd level, you gain proficiency in one of the following skills of your choice: Investigation, Perception, Nature, Sleight of Hand, Survival. You also learn a Language of your choice."
-  ]
+    "name": "Bonus Proficiency",
+    "source": "TftJC",
+    "className": "Ranger",
+    "classSource": "PHB",
+    "subclassShortName": "Wayward",
+    "subclassSource": "TftJC",
+    "level": 3,
+    "entries": [
+        "When you choose this Conclave at 3rd level, you gain proficiency in one of the following skills of your choice: Investigation, Perception, Nature, Sleight of Hand, Survival. You also learn a Language of your choice."
+    ]
 }

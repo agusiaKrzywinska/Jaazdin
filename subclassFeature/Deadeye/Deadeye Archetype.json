@@ -1,20 +1,20 @@
 {
-  "name": "Deadeye Archetype",
-  "source": "TftJC",
-  "className": "Gunner",
-  "classSource": "TftJC",
-  "subclassShortName": "Deadeye",
-  "subclassSource": "TftJC",
-  "level": 2,
-  "entries": [
-    "Sitting at the highest point, a slender barrel watches its target. A single shot tears through their sky, as the target falls. The barrel slinks back into the shadows, away from sight.",
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "Hidden Perch|Gunner|TftJC|Deadeye|TftJC|2"
-    },
-    {
-      "type": "refSubclassFeature",
-      "subclassFeature": "The Hunter's Eye|Gunner|TftJC|Deadeye|TftJC|2"
-    }
-  ]
+    "name": "Deadeye Archetype",
+    "source": "TftJC",
+    "className": "Gunner",
+    "classSource": "TftJC",
+    "subclassShortName": "Deadeye",
+    "subclassSource": "TftJC",
+    "level": 2,
+    "entries": [
+        "Sitting at the highest point, a slender barrel watches its target. A single shot tears through their sky, as the target falls. The barrel slinks back into the shadows, away from sight.",
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "Hidden Perch|Gunner|TftJC|Deadeye|TftJC|2"
+        },
+        {
+            "type": "refSubclassFeature",
+            "subclassFeature": "The Hunter's Eye|Gunner|TftJC|Deadeye|TftJC|2"
+        }
+    ]
 }

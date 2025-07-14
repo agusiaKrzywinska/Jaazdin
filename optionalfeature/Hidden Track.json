@@ -1,21 +1,27 @@
 {
-  "name": "Hidden Track",
-  "prerequisite": [
-    {
-      "level": {
-        "level": 3,
-        "class": {
-          "name": "Gunner"
+    "name": "Hidden Track",
+    "prerequisite": [
+        {
+            "level": {
+                "level": 3,
+                "class": {
+                    "name": "Gunner"
+                }
+            },
+            "feature": [
+                "Light"
+            ]
         }
-      },
-      "feature": ["Light"]
-    }
-  ],
-  "source": "TftJC",
-  "page": 48,
-  "featureType": ["MOD"],
-  "consumes": {
-    "name": "50gp"
-  },
-  "entries": ["The firearm gains the hidden property."]
+    ],
+    "source": "TftJC",
+    "page": 48,
+    "featureType": [
+        "MOD"
+    ],
+    "consumes": {
+        "name": "50gp"
+    },
+    "entries": [
+        "The firearm gains the hidden property."
+    ]
 }

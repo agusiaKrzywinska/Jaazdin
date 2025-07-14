@@ -1,8 +1,10 @@
 {
-  "name": "Warrior Tract Feature",
-  "source": "TftJC",
-  "className": "Warden",
-  "classSource": "TftJC",
-  "level": 7,
-  "entries": ["At 7th level, you gain a feature granted by your Warrior Tract."]
+    "name": "Warrior Tract Feature",
+    "source": "TftJC",
+    "className": "Warden",
+    "classSource": "TftJC",
+    "level": 7,
+    "entries": [
+        "At 7th level, you gain a feature granted by your Warrior Tract."
+    ]
 }

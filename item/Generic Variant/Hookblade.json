@@ -1,14 +1,17 @@
 {
-  "name": "Hookblade",
-  "source": "TftJC",
-  "rarity": "none",
-  "type": "GV",
-  "entries": [
-    "This bracer contains a retractable two-pronged climbing tool.",
-    "There are the following versions:",
-    {
-      "type": "list",
-      "items": ["{@item Hookblade MK I|TftJC}", "{@item Hookblade MK II|TftJC}"]
-    }
-  ]
+    "name": "Hookblade",
+    "source": "TftJC",
+    "rarity": "none",
+    "type": "GV",
+    "entries": [
+        "This bracer contains a retractable two-pronged climbing tool.",
+        "There are the following versions:",
+        {
+            "type": "list",
+            "items": [
+                "{@item Hookblade MK I|TftJC}",
+                "{@item Hookblade MK II|TftJC}"
+            ]
+        }
+    ]
 }

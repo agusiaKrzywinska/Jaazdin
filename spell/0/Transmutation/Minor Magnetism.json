@@ -1,55 +1,55 @@
 {
-  "name": "Minor Magnetism",
-  "source": "TftJC",
-  "page": 55,
-  "level": 0,
-  "school": "T",
-  "time": [
-    {
-      "number": 1,
-      "unit": "action"
-    }
-  ],
-  "range": {
-    "type": "point",
-    "distance": {
-      "type": "feet",
-      "amount": 60
-    }
-  },
-  "components": {
-    "s": true
-  },
-  "duration": [
-    {
-      "type": "instant"
-    }
-  ],
-  "entries": [
-    "You affect an item made of metal that you can see with a small magnetic force. You generate one of the following effects:",
-    {
-      "type": "list",
-      "items": [
-        "You move the object up to 30 feet.",
-        "You bend a piece of non magical metal up to 45 degrees."
-      ]
+    "name": "Minor Magnetism",
+    "source": "TftJC",
+    "page": 55,
+    "level": 0,
+    "school": "T",
+    "time": [
+        {
+            "number": 1,
+            "unit": "action"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "feet",
+            "amount": 60
+        }
     },
-    "Creatures cannot be damaged by the movement of the object affected by the spell, nor can the spell move more than 15 pounds at a time. This cannot affect an item currently wielded by a creature, unless the creature willingly allows it to be moved or the item is not."
-  ],
-  "classes": {
-    "fromClassList": [
-      {
-        "name": "Artificer",
-        "source": "TCE"
-      },
-      {
-        "name": "Bard",
-        "source": "PHB"
-      },
-      {
-        "name": "Sorcerer",
-        "source": "PHB"
-      }
-    ]
-  }
+    "components": {
+        "s": true
+    },
+    "duration": [
+        {
+            "type": "instant"
+        }
+    ],
+    "entries": [
+        "You affect an item made of metal that you can see with a small magnetic force. You generate one of the following effects:",
+        {
+            "type": "list",
+            "items": [
+                "You move the object up to 30 feet.",
+                "You bend a piece of non magical metal up to 45 degrees."
+            ]
+        },
+        "Creatures cannot be damaged by the movement of the object affected by the spell, nor can the spell move more than 15 pounds at a time. This cannot affect an item currently wielded by a creature, unless the creature willingly allows it to be moved or the item is not."
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Artificer",
+                "source": "TCE"
+            },
+            {
+                "name": "Bard",
+                "source": "PHB"
+            },
+            {
+                "name": "Sorcerer",
+                "source": "PHB"
+            }
+        ]
+    }
 }

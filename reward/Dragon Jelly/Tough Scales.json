@@ -1,9 +1,9 @@
 {
-  "name": "Tough Scales",
-  "source": "TftJC",
-  "type": "Dragon Jelly",
-  "entries": [
-    "While Unarmored, your AC is equal to 10 + DEX + Proficiency Bonus.",
-    "Creatures grappling you take damage equal to your Proficiency Bonus in piercing damage at the start of their turns."
-  ]
+    "name": "Tough Scales",
+    "source": "TftJC",
+    "type": "Dragon Jelly",
+    "entries": [
+        "While Unarmored, your AC is equal to 10 + DEX + Proficiency Bonus.",
+        "Creatures grappling you take damage equal to your Proficiency Bonus in piercing damage at the start of their turns."
+    ]
 }

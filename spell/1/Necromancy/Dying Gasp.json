@@ -1,53 +1,53 @@
 {
-  "name": "Dying Gasp",
-  "source": "TftJC",
-  "page": 57,
-  "level": 1,
-  "school": "N",
-  "time": [
-    {
-      "number": 1,
-      "unit": "reaction"
+    "name": "Dying Gasp",
+    "source": "TftJC",
+    "page": 57,
+    "level": 1,
+    "school": "N",
+    "time": [
+        {
+            "number": 1,
+            "unit": "reaction"
+        }
+    ],
+    "range": {
+        "type": "point",
+        "distance": {
+            "type": "feet",
+            "amount": 60
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true,
+        "m": "a piece of spider silk."
+    },
+    "duration": [
+        {
+            "type": "instant"
+        }
+    ],
+    "entries": [
+        "When a creature dies, you can grasp its dying energies to force it to make an attack against one creature within its reach. If it has a weapon the attack deals that weapon’s damage but uses your Spell Attack bonus for the attack and damage roll, if it does not have a weapon it deals 1d4 for a Tiny creature, 1d6 for small, 1d8 for medium, 1d10 for large, 1d12 for huge, and 2d8 for gargantuan."
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Cleric",
+                "source": "PHB"
+            },
+            {
+                "name": "Paladin",
+                "source": "PHB"
+            },
+            {
+                "name": "Warlock",
+                "source": "PHB"
+            },
+            {
+                "name": "Wizard",
+                "source": "PHB"
+            }
+        ]
     }
-  ],
-  "range": {
-    "type": "point",
-    "distance": {
-      "type": "feet",
-      "amount": 60
-    }
-  },
-  "components": {
-    "v": true,
-    "s": true,
-    "m": "a piece of spider silk."
-  },
-  "duration": [
-    {
-      "type": "instant"
-    }
-  ],
-  "entries": [
-    "When a creature dies, you can grasp its dying energies to force it to make an attack against one creature within its reach. If it has a weapon the attack deals that weapon’s damage but uses your Spell Attack bonus for the attack and damage roll, if it does not have a weapon it deals 1d4 for a Tiny creature, 1d6 for small, 1d8 for medium, 1d10 for large, 1d12 for huge, and 2d8 for gargantuan."
-  ],
-  "classes": {
-    "fromClassList": [
-      {
-        "name": "Cleric",
-        "source": "PHB"
-      },
-      {
-        "name": "Paladin",
-        "source": "PHB"
-      },
-      {
-        "name": "Warlock",
-        "source": "PHB"
-      },
-      {
-        "name": "Wizard",
-        "source": "PHB"
-      }
-    ]
-  }
 }

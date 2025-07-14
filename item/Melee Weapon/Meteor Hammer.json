@@ -1,17 +1,20 @@
 {
-  "name": "Meteor Hammer",
-  "source": "TftJC",
-  "page": 50,
-  "type": "M",
-  "rarity": "none",
-  "weight": 12,
-  "value": 10000,
-  "weaponCategory": "martial",
-  "property": ["H", "2H"],
-  "dmg1": "1d10",
-  "dmgType": "B",
-  "entries": [
-    "<b><i>Reach.(10ft)<b><i> This weapon adds 10 feet to your reach when you attack with it. This property also determines your reach for opportunity attacks with a reach weapon.",
-    "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
-  ]
+    "name": "Meteor Hammer",
+    "source": "TftJC",
+    "page": 50,
+    "type": "M",
+    "rarity": "none",
+    "weight": 12,
+    "value": 10000,
+    "weaponCategory": "martial",
+    "property": [
+        "H",
+        "2H"
+    ],
+    "dmg1": "1d10",
+    "dmgType": "B",
+    "entries": [
+        "<b><i>Reach.(10ft)<b><i> This weapon adds 10 feet to your reach when you attack with it. This property also determines your reach for opportunity attacks with a reach weapon.",
+        "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+    ]
 }

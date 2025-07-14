@@ -1,12 +1,12 @@
 {
-  "name": "Titanic Might",
-  "source": "TftJC",
-  "className": "Druid",
-  "classSource": "PHB",
-  "subclassShortName": "Titan",
-  "subclassSource": "TftJC",
-  "level": 6,
-  "entries": [
-    "At 6th level, your Titanic Forms grow even stronger. When you enter a Wild Shape, if the creature's strength score is less than 18 after entering a Titan Form, it becomes 18. Additionally, Titanic Wild Shapes have resistance to non magical Bludgeoning, Slashing and Piercing Damage."
-  ]
+    "name": "Titanic Might",
+    "source": "TftJC",
+    "className": "Druid",
+    "classSource": "PHB",
+    "subclassShortName": "Titan",
+    "subclassSource": "TftJC",
+    "level": 6,
+    "entries": [
+        "At 6th level, your Titanic Forms grow even stronger. When you enter a Wild Shape, if the creature's strength score is less than 18 after entering a Titan Form, it becomes 18. Additionally, Titanic Wild Shapes have resistance to non magical Bludgeoning, Slashing and Piercing Damage."
+    ]
 }

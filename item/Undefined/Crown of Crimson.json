@@ -1,15 +1,15 @@
 {
-  "name": "Crown of Crimson",
-  "source": "TftJC",
-  "rarity": "artifact",
-  "wondrous": true,
-  "reqAttune": "by a creature with spellcasting that uses their Charisma",
-  "reqAttuneTags": [
-    {
-      "spellcasting": true
-    }
-  ],
-  "entries": [
-    "You gain a +2 to spell attack rolls and your spell save DC. When you would cast a spell that requires Gemstones as an expended material component, the cost of the gemstones is lowered by 100 for you."
-  ]
+    "name": "Crown of Crimson",
+    "source": "TftJC",
+    "rarity": "artifact",
+    "wondrous": true,
+    "reqAttune": "by a creature with spellcasting that uses their Charisma",
+    "reqAttuneTags": [
+        {
+            "spellcasting": true
+        }
+    ],
+    "entries": [
+        "You gain a +2 to spell attack rolls and your spell save DC. When you would cast a spell that requires Gemstones as an expended material component, the cost of the gemstones is lowered by 100 for you."
+    ]
 }

@@ -1,16 +1,16 @@
 {
-  "name": "Desertstrider",
-  "source": "TftJC",
-  "page": 25,
-  "className": "Fighter",
-  "classSource": "PHB",
-  "shortName": "Desertstrider",
-  "subclassFeatures": [
-    "Desertstrider|Fighter|PHB|Desertstrider|TftJC|3",
-    "Pitfall|Fighter|PHB|Desertstrider|TftJC|7",
-    "Shape Earth|Fighter|PHB|Desertstrider|TftJC|10",
-    "Sand Blast|Fighter|PHB|Desertstrider|TftJC|10",
-    "Land Shark|Fighter|PHB|Desertstrider|TftJC|15",
-    "Terramaster|Fighter|PHB|Desertstrider|TftJC|18"
-  ]
+    "name": "Desertstrider",
+    "source": "TftJC",
+    "page": 25,
+    "className": "Fighter",
+    "classSource": "PHB",
+    "shortName": "Desertstrider",
+    "subclassFeatures": [
+        "Desertstrider|Fighter|PHB|Desertstrider|TftJC|3",
+        "Pitfall|Fighter|PHB|Desertstrider|TftJC|7",
+        "Shape Earth|Fighter|PHB|Desertstrider|TftJC|10",
+        "Sand Blast|Fighter|PHB|Desertstrider|TftJC|10",
+        "Land Shark|Fighter|PHB|Desertstrider|TftJC|15",
+        "Terramaster|Fighter|PHB|Desertstrider|TftJC|18"
+    ]
 }
