@@ -29,7 +29,6 @@
   ],
   "raceName": "Gnome",
   "raceSource": "PHB",
-  "basicRules": true,
   "additionalSpells": [
     {
       "innate": {

@@ -22,6 +22,7 @@ const ITEM_TYPES = {
   A: "Ammunition",
   AF: "Ammunition (futuristic)",
   AT: "Artisan Tool",
+  FD: "Food and Drink",
   EM: "Eldritch Machine",
   EXP: "Explosive",
   G: "Adventuring Gear",

@@ -50,7 +50,6 @@
   ],
   "raceName": "Elf",
   "raceSource": "PHB",
-  "basicRules": true,
   "heightAndWeight": {
     "baseHeight": 54,
     "heightMod": "2d10",
