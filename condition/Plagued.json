@@ -1,0 +1,11 @@
+{
+  "name": "Plagued",
+  "source": "TftJC",
+  "color": "748500",
+  "entries": [
+    "Affected Creature gains a -1 to Constitution Saving Throws per stack.",
+    "Upon reaching 3 Plagued, the creature becomes Vulnerable to Poison Damage until the end of your next turn, then all Plagued is removed.",
+    "Creatures immune to Poison damage can’t receive Plagued.",
+    "Succeeding a Saving Throw against a Poison removes Plagued."
+  ]
+}

@@ -11,7 +11,10 @@
     }
   ],
   "range": {
-    "type": "self"
+    "type": "point",
+    "distance": {
+      "type": "self"
+    }
   },
   "components": {
     "v": true,

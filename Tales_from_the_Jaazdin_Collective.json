@@ -15,12 +15,12 @@
                     "Adam Henderson",
                     "Malcolm Keefe"
                 ],
-                "version": "0.3.74"
+                "version": "0.3.76"
             }
         ],
         "edition": "classic",
         "dateAdded": 0,
-        "dateLastModified": 1752538161,
+        "dateLastModified": 1752696767,
         "optionalFeatureTypes": {
             "FS:W": "Fighting Style: Warden",
             "TECH": "Technique",
@@ -1311,6 +1311,71 @@
             ]
         }
     ],
+    "condition": [
+        {
+            "name": "Arcanergy",
+            "source": "TftJC",
+            "color": "fff000",
+            "entries": [
+                "You gain a +1 to your weapon damage rolls and spell attack damage rolls per stack.",
+                "Upon reaching 3 Arcanergy, your next weapon attack adds your Casting Modifier to hit and to damage rolls, then all Arcanergy is removed.",
+                "Being affected by Dispel Magic/ Counterspell/ Anti-Magic Field/ Losing Concentration on a spell removes Arcanergy."
+            ]
+        },
+        {
+            "name": "Burning",
+            "source": "TftJC",
+            "color": "ff0000",
+            "entries": [
+                "Affected Creature takes 2 Fire Damage at the start of its turns per stack.",
+                "Upon reaching 3 Burning, it bursts with flame causing all creatures within 5ft of it to take {@dice 2d6} fire damage, then all Burning is removed.",
+                "Creatures immune to Fire can’t receive Burning.",
+                "Being doused in water removes Burning."
+            ]
+        },
+        {
+            "name": "Charged",
+            "source": "TftJC",
+            "color": "ffff00",
+            "entries": [
+                "Lightning courses through you. You gain a +1 to Weapon/Spell Attack Rolls and deal an additional 1 Lightning Damage on a hit with a Weapon/Spell Attack per stack.",
+                "Upon reaching 3 Charged, the next instance of damage you deal deals an additional 1d10 Lightning Damage and consumes all charges."
+            ]
+        },
+        {
+            "name": "Frosted",
+            "source": "TftJC",
+            "color": "00ffff",
+            "entries": [
+                "Affected Creature gains a -1 to Dexterity Saving Throws per stack.",
+                "Upon reaching 3 turns of Frosted, the creature becomes Restrained until the end of your next turn, then all Frosted is removed.",
+                "Creatures immune to Cold damage can’t receive Frosted.",
+                "Taking Fire Damage removes Frosted."
+            ]
+        },
+        {
+            "name": "Plagued",
+            "source": "TftJC",
+            "color": "748500",
+            "entries": [
+                "Affected Creature gains a -1 to Constitution Saving Throws per stack.",
+                "Upon reaching 3 Plagued, the creature becomes Vulnerable to Poison Damage until the end of your next turn, then all Plagued is removed.",
+                "Creatures immune to Poison damage can’t receive Plagued.",
+                "Succeeding a Saving Throw against a Poison removes Plagued."
+            ]
+        },
+        {
+            "name": "Radiance",
+            "source": "TftJC",
+            "color": "ffff00",
+            "entries": [
+                "Creature has a -1 to Weapon Attack Rolls per stack. It also sheds bright light in a 5ft radius, and dim light in a 5ft radius.",
+                "Upon reaching 3 Radiance, the creature becomes Blinded until the end of the next round, then all Radiance is removed.",
+                "Creatures immune to Radiant can’t be affected by Radiance.",
+                "Being in Magical darkness removes Radiance."
+            ]
+        }
+    ],
     "feat": [
         {
             "name": "Bounce Master",
@@ -2205,6 +2270,27 @@
             ]
         },
         {
+            "name": "Bright Orb",
+            "source": "TftJC",
+            "rarity": "none",
+            "type": "OTH",
+            "wondrous": true,
+            "charges": 10,
+            "recharge": "dawn",
+            "rechargeAmount": 10,
+            "customProperties": {
+                "orbType": "Orb"
+            },
+            "entries": [
+                "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+                "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+                "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+                "<b>Weapon Effect:</b> Hit creatures gain 1 {@condition Radiance|TftJC}.",
+                "<b>Armor Effect:</b> -2 Radiant Damage, you can spend a charge when you gain a stack of Radiance to not gain it.",
+                "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw gain 1 Radiance, or 2 if the spell cast matches the Orb's element."
+            ]
+        },
+        {
             "name": "Bulwark",
             "source": "TftJC",
             "rarity": "legendary",
@@ -2298,6 +2384,27 @@
             ]
         },
         {
+            "name": "Charging Orb",
+            "source": "TftJC",
+            "rarity": "none",
+            "type": "OTH",
+            "wondrous": true,
+            "charges": 10,
+            "recharge": "dawn",
+            "rechargeAmount": 10,
+            "customProperties": {
+                "orbType": "Orb"
+            },
+            "entries": [
+                "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+                "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+                "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+                "<b>Weapon Effect:</b> Hitting a creature successfully with a weapon grants 1 {@condition Arcanergy|TftJC}.",
+                "<b>Armor Effect:</b> -2 Force Damage, when you take force damage you can spend a charge to gain a stack of Arcanergy.",
+                "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw grant you 1 Arcanergy, or 2 if the spell cast matches the Orb's element."
+            ]
+        },
+        {
             "name": "Cheer Cookies",
             "source": "TftJC",
             "type": "FD",
@@ -2317,6 +2424,27 @@
                     "per": "charges"
                 }
             }
+        },
+        {
+            "name": "Chilling Orb",
+            "source": "TftJC",
+            "rarity": "none",
+            "type": "OTH",
+            "wondrous": true,
+            "charges": 10,
+            "recharge": "dawn",
+            "rechargeAmount": 10,
+            "customProperties": {
+                "orbType": "Orb"
+            },
+            "entries": [
+                "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+                "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+                "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+                "<b>Weapon Effect:</b> Hit creatures gain 1 {@condition Frosted|TftJC}.",
+                "<b>Armor Effect:</b> -2 Cold Damage, you can spend a charge when you gain a stack of Frosted to not gain it.",
+                "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw gain 1 Frosted, or 2 if the spell cast matches the Orb's element."
+            ]
         },
         {
             "name": "Claws of the Blue Dragon",
@@ -3147,6 +3275,27 @@
                 "As an Action, you can ignite the Blade with fire. While lit, they deal an additional {@dice 1d6} Fire Damage.",
                 "They stay lit per a number of successful attacks landed equal to how many doses of lantern's oil they have inside, which is stored in the pommel. They can store 5 doses worth. It takes 1 minute to fully refill the pommels with oil.",
                 "These weapons also make for great tools for performers looking to spice up their act."
+            ]
+        },
+        {
+            "name": "Flaming Orb",
+            "source": "TftJC",
+            "rarity": "none",
+            "type": "OTH",
+            "wondrous": true,
+            "charges": 10,
+            "recharge": "dawn",
+            "rechargeAmount": 10,
+            "customProperties": {
+                "orbType": "Orb"
+            },
+            "entries": [
+                "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+                "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+                "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+                "<b>Weapon Effect:</b> Hit creatures gain 1 {@condition Burning|TftJC}.",
+                "<b>Armor Effect:</b> -2 Fire Damage, you can spend a charge when you gain a stack of Burning to not gain it.",
+                "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw gain 1 Burning, or 2 if the spell cast matches the Orb's element."
             ]
         },
         {
@@ -4304,6 +4453,35 @@
             ]
         },
         {
+            "name": "Orb",
+            "source": "TftJC",
+            "rarity": "none",
+            "type": "GV",
+            "wondrous": true,
+            "charges": 10,
+            "recharge": "dawn",
+            "rechargeAmount": 10,
+            "customProperties": {
+                "orbType": "Orb"
+            },
+            "entries": [
+                "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+                "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+                "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@item Flaming Orb|TftJC}",
+                        "{@item Static Orb|TftJC}",
+                        "{@item Toxic Orb|TftJC}",
+                        "{@item Charging Orb|TftJC}",
+                        "{@item Chilling Orb|TftJC}",
+                        "{@item Bright Orb|TftJC}"
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Penman's Encyclopedia",
             "source": "TftJC",
             "rarity": "very rare",
@@ -5237,6 +5415,27 @@
             ]
         },
         {
+            "name": "Static Orb",
+            "source": "TftJC",
+            "rarity": "none",
+            "type": "OTH",
+            "wondrous": true,
+            "charges": 10,
+            "recharge": "dawn",
+            "rechargeAmount": 10,
+            "customProperties": {
+                "orbType": "Orb"
+            },
+            "entries": [
+                "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+                "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+                "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+                "<b>Weapon Effect:</b> Hitting a creature successfully with a weapon grants 1 {@condition Charged|TftJC}.",
+                "<b>Armor Effect:</b> -2 Lightning Damage, when you take lightning damage you can spend a charge to gain a stack of Charged.",
+                "<b>Focus Effect:</b> Hitting a creature successfully with a weapon grants 1 Charged, or 2 if the spell cast matches the Orb's element."
+            ]
+        },
+        {
             "name": "Sword of Hate",
             "baseItem": "longsword|PHB",
             "source": "TftJC",
@@ -5647,6 +5846,27 @@
                 "<b><i>Paired.</i></b> Paired weapons has special features that only activate when you are wielding two of the same weapon with the paired property.",
                 "When you are wielding two tonfa you gain a +1 bonus to your AC. If you make an attack with both Tonfa on your turn you lose the bonus to AC until the start of your next turn.",
                 "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+            ]
+        },
+        {
+            "name": "Toxic Orb",
+            "source": "TftJC",
+            "rarity": "none",
+            "type": "OTH",
+            "wondrous": true,
+            "charges": 10,
+            "recharge": "dawn",
+            "rechargeAmount": 10,
+            "customProperties": {
+                "orbType": "Orb"
+            },
+            "entries": [
+                "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+                "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+                "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+                "<b>Weapon Effect:</b> Hit creatures gain 1 {@condition Plagued|TftJC}.",
+                "<b>Armor Effect:</b> -2 Poison Damage, you can spend a charge when you gain a stack of Plagued to not gain it.",
+                "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw gain 1 Plagued, or 2 if the spell cast matches the Orb's element."
             ]
         },
         {
@@ -11704,7 +11924,10 @@
                 }
             ],
             "range": {
-                "type": "self"
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
             },
             "components": {
                 "v": true,

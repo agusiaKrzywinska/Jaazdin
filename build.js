@@ -2,7 +2,14 @@ const prompt = require("prompt");
 const fs = require("fs");
 const josnData = require("./Tales_from_the_Jaazdin_Collective.json");
 
-const EXCLUDED_FOLDERS = ["node_modules", ".git", ".vscode", "macros", "docs"];
+const EXCLUDED_FOLDERS = [
+  "node_modules",
+  ".git",
+  ".vscode",
+  "macros",
+  "docs",
+  "hidden",
+];
 
 const FOLDERS = fs
   .readdirSync("./")

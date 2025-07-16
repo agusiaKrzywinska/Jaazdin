@@ -1,0 +1,21 @@
+{
+  "name": "Charging Orb",
+  "source": "TftJC",
+  "rarity": "none",
+  "type": "OTH",
+  "wondrous": true,
+  "charges": 10,
+  "recharge": "dawn",
+  "rechargeAmount": 10,
+  "customProperties": {
+    "orbType": "Orb"
+  },
+  "entries": [
+    "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+    "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+    "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+    "<b>Weapon Effect:</b> Hitting a creature successfully with a weapon grants 1 {@condition Arcanergy|TftJC}.",
+    "<b>Armor Effect:</b> -2 Force Damage, when you take force damage you can spend a charge to gain a stack of Arcanergy.",
+    "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw grant you 1 Arcanergy, or 2 if the spell cast matches the Orb's element."
+  ]
+}

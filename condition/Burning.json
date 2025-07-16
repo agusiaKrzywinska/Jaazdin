@@ -1,0 +1,11 @@
+{
+  "name": "Burning",
+  "source": "TftJC",
+  "color": "ff0000",
+  "entries": [
+    "Affected Creature takes 2 Fire Damage at the start of its turns per stack.",
+    "Upon reaching 3 Burning, it bursts with flame causing all creatures within 5ft of it to take {@dice 2d6} fire damage, then all Burning is removed.",
+    "Creatures immune to Fire can’t receive Burning.",
+    "Being doused in water removes Burning."
+  ]
+}
