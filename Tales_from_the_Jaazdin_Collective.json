@@ -15,12 +15,12 @@
                     "Adam Henderson",
                     "Malcolm Keefe"
                 ],
-                "version": "0.3.76"
+                "version": "0.3.77"
             }
         ],
         "edition": "classic",
         "dateAdded": 0,
-        "dateLastModified": 1752696767,
+        "dateLastModified": 1752697828,
         "optionalFeatureTypes": {
             "FS:W": "Fighting Style: Warden",
             "TECH": "Technique",
@@ -1669,6 +1669,28 @@
             "entries": [
                 "The Anchor of the Deep appears to be an old, rusted anchor covered in intricate, weathered runes. When this anchor is used, it triggers a powerful magical effect that causes the entire ship to sink rapidly to the bottom of the sea. However, rather than resulting in tragedy, the occupants of the ship find themselves under the effect of the water breathing spell.",
                 "<b><i>Breath of the Depths.</i></b> Once per long rest, as an action, you can embed the Anchor of the Deep into the deck of a ship or a similar structure. When activated, the anchor triggers a powerful enchantment that causes the ship to sink quickly to the ocean floor, also everyone currently on the ship will gain the effects of the {@spell water breathing|PHB} spell as if the spell was casted on them. This lasts for 24 hours or until the anchor is retrieved and the ship resurfaces. To resurface the ship, as an action the user attuned to it must retrieve the anchor. Once the anchor is lifted, the ship ascends back to the surface, breaking the water's surface and returning to its normal state. It takes 1 minute to sink to the bottom or to float back up. The ship is unharmed from when it sinks."
+            ]
+        },
+        {
+            "name": "Arcing Orb",
+            "source": "TftJC",
+            "rarity": "none",
+            "type": "OTH",
+            "wondrous": true,
+            "charges": 10,
+            "recharge": "dawn",
+            "rechargeAmount": 10,
+            "customProperties": {
+                "orbType": "Orb"
+            },
+            "entries": [
+                "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+                "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+                "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+                "<b>Combined Orbs:</b> {@item Bright Orb|TftJC} + {@item Static Orb|TftJC}",
+                "<b>Weapon Effect:</b> Hit creatures take an additional {@dice 1d8} Lightning damage.",
+                "<b>Armor Effect:</b> Gain proficiency on DEX Saves until the start of your next turn.",
+                "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw take an additional {@dice 1d8} Lightning damage."
             ]
         },
         {
@@ -3394,6 +3416,28 @@
             ]
         },
         {
+            "name": "Generator Orb",
+            "source": "TftJC",
+            "rarity": "none",
+            "type": "OTH",
+            "wondrous": true,
+            "charges": 10,
+            "recharge": "dawn",
+            "rechargeAmount": 10,
+            "customProperties": {
+                "orbType": "Orb"
+            },
+            "entries": [
+                "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+                "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+                "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+                "<b>Combined Orbs:</b> {@item Static Orb|TftJC} + {@item Charging Orb|TftJC}",
+                "<b>Weapon Effect:</b> Hitting a creature successfully grants +15 walking speed until the end of your next turn.",
+                "<b>Armor Effect:</b> Gain +15ft walking speed this turn.",
+                "<b>Focus Effect:</b> If a creature is hit by or fail a saving throw, that grants +15 walking speed until the end of your next turn."
+            ]
+        },
+        {
             "name": "Githyanki Warbrace (Astral Dragon)",
             "source": "TftJC",
             "rarity": "very rare",
@@ -4245,6 +4289,28 @@
             ]
         },
         {
+            "name": "Mercury Orb",
+            "source": "TftJC",
+            "rarity": "none",
+            "type": "OTH",
+            "wondrous": true,
+            "charges": 10,
+            "recharge": "dawn",
+            "rechargeAmount": 10,
+            "customProperties": {
+                "orbType": "Orb"
+            },
+            "entries": [
+                "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+                "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+                "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+                "<b>Combined Orbs:</b> {@item Static Orb|TftJC} + {@item Toxic Orb|TftJC}",
+                "<b>Weapon Effect:</b> Hit creatures take lightning damage on their turn if they cast a spell, with the damage equal to 2x the spell's level. This effect lasts for 1 minute or until they cast a spell of 1st level or higher.",
+                "<b>Armor Effect:</b> When you succeed on a saving throw, you can cause the creature/source of the effect to take lightning damage equal to the DC of the saving throw.",
+                "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw take lightning damage on their turn if they cast a spell, with the damage equal to 2x the spell's level. This effect lasts for 1 minute or until they cast a spell of 1st level or higher."
+            ]
+        },
+        {
             "name": "Meteor Hammer",
             "source": "TftJC",
             "page": 50,
@@ -4468,15 +4534,28 @@
                 "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
                 "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
                 "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+                "<b>Base Orbs:</b>",
                 {
                     "type": "list",
                     "items": [
                         "{@item Flaming Orb|TftJC}",
+                        "{@item Chilling Orb|TftJC}",
+                        "{@item Bright Orb|TftJC}",
                         "{@item Static Orb|TftJC}",
                         "{@item Toxic Orb|TftJC}",
-                        "{@item Charging Orb|TftJC}",
-                        "{@item Chilling Orb|TftJC}",
-                        "{@item Bright Orb|TftJC}"
+                        "{@item Charging Orb|TftJC}"
+                    ]
+                },
+                "<b>Combined Orbs:</b>",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@item Scintillating Orb|TftJC}",
+                        "{@item Transmitting Orb|TftJC}",
+                        "{@item Storming Orb|TftJC}",
+                        "{@item Arcing Orb|TftJC}",
+                        "{@item Mercury Orb|TftJC}",
+                        "{@item Generator Orb|TftJC}"
                     ]
                 }
             ]
@@ -5146,6 +5225,28 @@
             ]
         },
         {
+            "name": "Scintillating Orb",
+            "source": "TftJC",
+            "rarity": "none",
+            "type": "OTH",
+            "wondrous": true,
+            "charges": 10,
+            "recharge": "dawn",
+            "rechargeAmount": 10,
+            "customProperties": {
+                "orbType": "Orb"
+            },
+            "entries": [
+                "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+                "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+                "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+                "<b>Combined Orbs:</b> {@item Flaming Orb|TftJC} + {@item Bright Orb|TftJC}",
+                "<b>Weapon Effect:</b> Hit creatures have any {@condition Radiance|TftJC} doubled.",
+                "<b>Armor Effect:</b> You can end the Blinded Condition on yourself, and gain a +5 to Perception/Investigation checks for 1 minute.",
+                "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw have any {@condition Radiance|TftJC} doubled."
+            ]
+        },
+        {
             "name": "Scope MK I",
             "source": "TftJC",
             "type": "T",
@@ -5433,6 +5534,28 @@
                 "<b>Weapon Effect:</b> Hitting a creature successfully with a weapon grants 1 {@condition Charged|TftJC}.",
                 "<b>Armor Effect:</b> -2 Lightning Damage, when you take lightning damage you can spend a charge to gain a stack of Charged.",
                 "<b>Focus Effect:</b> Hitting a creature successfully with a weapon grants 1 Charged, or 2 if the spell cast matches the Orb's element."
+            ]
+        },
+        {
+            "name": "Storming Orb",
+            "source": "TftJC",
+            "rarity": "none",
+            "type": "OTH",
+            "wondrous": true,
+            "charges": 10,
+            "recharge": "dawn",
+            "rechargeAmount": 10,
+            "customProperties": {
+                "orbType": "Orb"
+            },
+            "entries": [
+                "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+                "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+                "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+                "<b>Combined Orbs:</b> {@item Chilling Orb|TftJC} + {@item Static Orb|TftJC}",
+                "<b>Weapon Effect:</b> Hit creatures have disadvantage on DEX saves until the end of your next turn.",
+                "<b>Armor Effect:</b> If you would lose Concentration on a Spell from damage, you can remake the Concentration saving throw with a +5.",
+                "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw have disadvantage on DEX saves until the end of your next turn."
             ]
         },
         {
@@ -5889,6 +6012,28 @@
                         "{@item Guileless’ Guide Vol.|TftJC}"
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Transmitting Orb",
+            "source": "TftJC",
+            "rarity": "none",
+            "type": "OTH",
+            "wondrous": true,
+            "charges": 10,
+            "recharge": "dawn",
+            "rechargeAmount": 10,
+            "customProperties": {
+                "orbType": "Orb"
+            },
+            "entries": [
+                "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+                "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+                "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+                "<b>Combined Orbs:</b> {@item Flaming Orb|TftJC} + {@item Static Orb|TftJC}",
+                "<b>Weapon Effect:</b> Removes 1 point of a condition applied by an Orb and applies it to the creature you hit.",
+                "<b>Armor Effect:</b> You can transfer up to 2 stacks of Orb effects to another creature within 15ft of you that is wielding/wearing an item imbued with an orb.",
+                "<b>Focus Effect:</b> Hitting a creature or having the fail a saving throw removes 1 point of a condition applied by an Orb and applies it to the creature you hit."
             ]
         },
         {

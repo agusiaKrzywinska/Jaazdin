@@ -1,8 +1,8 @@
 {
-  "name": "Orb",
+  "name": "Scintillating Orb",
   "source": "TftJC",
   "rarity": "none",
-  "type": "GV",
+  "type": "OTH",
   "wondrous": true,
   "charges": 10,
   "recharge": "dawn",
@@ -14,29 +14,9 @@
     "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
     "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
     "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
-    "<b>Base Orbs:</b>",
-    {
-      "type": "list",
-      "items": [
-        "{@item Flaming Orb|TftJC}",
-        "{@item Chilling Orb|TftJC}",
-        "{@item Bright Orb|TftJC}",
-        "{@item Static Orb|TftJC}",
-        "{@item Toxic Orb|TftJC}",
-        "{@item Charging Orb|TftJC}"
-      ]
-    },
-    "<b>Combined Orbs:</b>",
-    {
-      "type": "list",
-      "items": [
-        "{@item Scintillating Orb|TftJC}",
-        "{@item Transmitting Orb|TftJC}",
-        "{@item Storming Orb|TftJC}",
-        "{@item Arcing Orb|TftJC}",
-        "{@item Mercury Orb|TftJC}",
-        "{@item Generator Orb|TftJC}"
-      ]
-    }
+    "<b>Combined Orbs:</b> {@item Flaming Orb|TftJC} + {@item Bright Orb|TftJC}",
+    "<b>Weapon Effect:</b> Hit creatures have any {@condition Radiance|TftJC} doubled.",
+    "<b>Armor Effect:</b> You can end the Blinded Condition on yourself, and gain a +5 to Perception/Investigation checks for 1 minute.",
+    "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw have any {@condition Radiance|TftJC} doubled."
   ]
 }

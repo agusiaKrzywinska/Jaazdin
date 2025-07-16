@@ -1,8 +1,8 @@
 {
-  "name": "Orb",
+  "name": "Generator Orb",
   "source": "TftJC",
   "rarity": "none",
-  "type": "GV",
+  "type": "OTH",
   "wondrous": true,
   "charges": 10,
   "recharge": "dawn",
@@ -14,29 +14,9 @@
     "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
     "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
     "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
-    "<b>Base Orbs:</b>",
-    {
-      "type": "list",
-      "items": [
-        "{@item Flaming Orb|TftJC}",
-        "{@item Chilling Orb|TftJC}",
-        "{@item Bright Orb|TftJC}",
-        "{@item Static Orb|TftJC}",
-        "{@item Toxic Orb|TftJC}",
-        "{@item Charging Orb|TftJC}"
-      ]
-    },
-    "<b>Combined Orbs:</b>",
-    {
-      "type": "list",
-      "items": [
-        "{@item Scintillating Orb|TftJC}",
-        "{@item Transmitting Orb|TftJC}",
-        "{@item Storming Orb|TftJC}",
-        "{@item Arcing Orb|TftJC}",
-        "{@item Mercury Orb|TftJC}",
-        "{@item Generator Orb|TftJC}"
-      ]
-    }
+    "<b>Combined Orbs:</b> {@item Static Orb|TftJC} + {@item Charging Orb|TftJC}",
+    "<b>Weapon Effect:</b> Hitting a creature successfully grants +15 walking speed until the end of your next turn.",
+    "<b>Armor Effect:</b> Gain +15ft walking speed this turn.",
+    "<b>Focus Effect:</b> If a creature is hit by or fail a saving throw, that grants +15 walking speed until the end of your next turn."
   ]
 }

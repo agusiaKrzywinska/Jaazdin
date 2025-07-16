@@ -1,0 +1,22 @@
+{
+  "name": "Mercury Orb",
+  "source": "TftJC",
+  "rarity": "none",
+  "type": "OTH",
+  "wondrous": true,
+  "charges": 10,
+  "recharge": "dawn",
+  "rechargeAmount": 10,
+  "customProperties": {
+    "orbType": "Orb"
+  },
+  "entries": [
+    "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+    "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+    "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+    "<b>Combined Orbs:</b> {@item Static Orb|TftJC} + {@item Toxic Orb|TftJC}",
+    "<b>Weapon Effect:</b> Hit creatures take lightning damage on their turn if they cast a spell, with the damage equal to 2x the spell's level. This effect lasts for 1 minute or until they cast a spell of 1st level or higher.",
+    "<b>Armor Effect:</b> When you succeed on a saving throw, you can cause the creature/source of the effect to take lightning damage equal to the DC of the saving throw.",
+    "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw take lightning damage on their turn if they cast a spell, with the damage equal to 2x the spell's level. This effect lasts for 1 minute or until they cast a spell of 1st level or higher."
+  ]
+}
