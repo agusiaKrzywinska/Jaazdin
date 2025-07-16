@@ -1,0 +1,21 @@
+{
+  "name": "Lionmane Tea",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "uncommon",
+  "value": 4000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook's or Brewer's Tools to prepare.",
+    "<b>Ingredients:</b> x3 Uncommon Crops",
+    "<b>Effect:</b> You gain a +1 bonus to Wisdom saving throws and can use your reaction to automatically succeed on one saving throw to resist fear. Once you use this reaction you lose all the bonuses of this meal."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
+    }
+  }
+}

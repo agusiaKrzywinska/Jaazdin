@@ -1,0 +1,21 @@
+{
+  "name": "Stardust Shellfish",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "uncommon",
+  "value": 5000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook's Tools to prepare.",
+    "<b>Ingredients:</b> x2 Uncommon Meat (swim speed), x1 Bubblepod",
+    "<b>Effect:</b> You have advantage on the next Wisdom, Intelligence, or Charisma saving throw you make."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
+    }
+  }
+}

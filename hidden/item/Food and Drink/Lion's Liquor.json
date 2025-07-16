@@ -1,0 +1,21 @@
+{
+  "name": "Lion's Liquor",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "uncommon",
+  "value": 3000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Brewer's Tools to prepare.",
+    "<b>Ingredients:</b> x1 Red Winter Berry, x1 Devils Cactus",
+    "<b>Effect:</b> You have advantage on any saving throws made to resist fear not caused by spells."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
+    }
+  }
+}

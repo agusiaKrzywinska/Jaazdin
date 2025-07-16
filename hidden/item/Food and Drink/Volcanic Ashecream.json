@@ -1,0 +1,21 @@
+{
+  "name": "Volcanic Ashecream",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "uncommon",
+  "value": 4000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook's Tools to prepare.",
+    "<b>Ingredients:</b> x1 Uncommon Meat(cold resistance), x1 Harmony Cap, x1 Remedial Herb",
+    "<b>Effect:</b> You gain a +1 bonus to Strength saves and can use your reaction to increase a Strength attack or ability check by +5 bonus. Once you use this reaction you lose all the bonuses of this meal."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
+    }
+  }
+}
