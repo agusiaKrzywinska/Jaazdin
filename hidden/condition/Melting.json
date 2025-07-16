@@ -1,0 +1,11 @@
+{
+  "name": "Melting",
+  "source": "TftJC",
+  "color": "ffff00",
+  "entries": [
+    "Creature has a -1 to Weapon Attack Rolls per stack. It also sheds bright light in a 5ft radius, and dim light in a 5ft radius.",
+    "Upon reaching 3 Radiance, the creature becomes Blinded until the end of the next round, then all Radiance is removed.",
+    "Creatures immune to Radiant can’t be affected by Radiance.",
+    "Being in Magical darkness removes Radiance."
+  ]
+}
