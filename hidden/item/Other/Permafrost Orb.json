@@ -1,0 +1,22 @@
+{
+  "name": "Permafrost Orb",
+  "source": "TftJC",
+  "rarity": "none",
+  "type": "OTH",
+  "wondrous": true,
+  "charges": 10,
+  "recharge": "dawn",
+  "rechargeAmount": 10,
+  "customProperties": {
+    "orbType": "Orb"
+  },
+  "entries": [
+    "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+    "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+    "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+    "<b>Combined Orbs:</b> {@item Chilling Orb|TftJC} + {@item Toxic Orb|TftJC}",
+    "<b>Weapon Effect:</b> Hit creatures lose 5ft of walking speed for a number of rounds equal to your Prof Bonus. This can stack. If their walking speed is reduced to 0, they are restrained until the start of your next turn, at which time their speed returns to normal.",
+    "<b>Armor Effect:</b> All creatures (excluding yourself) in a 5ft radius of you lose 10ft of walking speed until the end of your next turn.",
+    "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw lose 5ft of walking speed for a number of rounds equal to your Prof Bonus. This can stack. If their walking speed is reduced to 0, they are restrained until the start of your next turn, at which time their speed returns to normal."
+  ]
+}

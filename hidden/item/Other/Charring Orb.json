@@ -1,0 +1,22 @@
+{
+  "name": "Charring Orb",
+  "source": "TftJC",
+  "rarity": "none",
+  "type": "OTH",
+  "wondrous": true,
+  "charges": 10,
+  "recharge": "dawn",
+  "rechargeAmount": 10,
+  "customProperties": {
+    "orbType": "Orb"
+  },
+  "entries": [
+    "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+    "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+    "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+    "<b>Combined Orbs:</b> {@item Flaming Orb|TftJC} + {@item Decaying Orb|TftJC}",
+    "<b>Weapon Effect:</b> Hit creatures take an additional {@dice 1d8} Necrotic damage.",
+    "<b>Armor Effect:</b> When you deal Fire damage, it is increased by 2. You can expend 2 charges to light a creature on fire when you deal fire damage to them, causing them to take {@dice 1d6} fire damage until the use an action to put it out or are doused.",
+    "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw take an additional {@dice 1d8} Necrotic damage."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Capsaicing Orb",
+  "source": "TftJC",
+  "rarity": "none",
+  "type": "OTH",
+  "wondrous": true,
+  "charges": 10,
+  "recharge": "dawn",
+  "rechargeAmount": 10,
+  "customProperties": {
+    "orbType": "Orb"
+  },
+  "entries": [
+    "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+    "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+    "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+    "<b>Combined Orbs:</b> {@item Flaming Orb|TftJC} + {@item Toxic Orb|TftJC}",
+    "<b>Weapon Effect:</b> Hit creature becomes vulnerable to Fire damage until the end of your next turn.",
+    "<b>Armor Effect:</b> Creatures that hit you with a melee weapon/melee spell attack take 4 Fire Damage, or you can expend 2 charges to have them become {@condition blinded} until the start of your next turn.",
+    "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw become vulnerable to Fire damage until the end of your next turn."
+  ]
+}
