@@ -1,0 +1,22 @@
+{
+  "name": "Brilliance Orb",
+  "source": "TftJC",
+  "rarity": "none",
+  "type": "OTH",
+  "wondrous": true,
+  "charges": 10,
+  "recharge": "dawn",
+  "rechargeAmount": 10,
+  "customProperties": {
+    "orbType": "Orb"
+  },
+  "entries": [
+    "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+    "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+    "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+    "<b>Combined Orbs:</b> {@item Bright Orb|TftJC} + {@item Thinking Orb|TftJC}",
+    "<b>Weapon Effect:</b> Hit creatures have disadvantage on WIS saves until the end of your next turn.",
+    "<b>Armor Effect:</b> You gain a fly speed of 30ft until the end of your turn.",
+    "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw have disadvantage on WIS saves until the end of your next turn."
+  ]
+}

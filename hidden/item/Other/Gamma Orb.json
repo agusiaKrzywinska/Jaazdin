@@ -1,0 +1,22 @@
+{
+  "name": "Gamma Orb",
+  "source": "TftJC",
+  "rarity": "none",
+  "type": "OTH",
+  "wondrous": true,
+  "charges": 10,
+  "recharge": "dawn",
+  "rechargeAmount": 10,
+  "customProperties": {
+    "orbType": "Orb"
+  },
+  "entries": [
+    "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+    "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+    "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+    "<b>Combined Orbs:</b> {@item Bright Orb|TftJC} + {@item Charging Orb|TftJC}",
+    "<b>Weapon Effect:</b> Hit creatures take an additional {@dice 1d8} Force damage.",
+    "<b>Armor Effect:</b> Advantage on the next saving throw against magic or a spell within the next minute.",
+    "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw take an additional {@dice 1d8} Force damage."
+  ]
+}
