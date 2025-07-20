@@ -1,0 +1,22 @@
+{
+  "name": "Withering Orb",
+  "source": "TftJC",
+  "rarity": "none",
+  "type": "OTH",
+  "wondrous": true,
+  "charges": 10,
+  "recharge": "dawn",
+  "rechargeAmount": 10,
+  "customProperties": {
+    "orbType": "Orb"
+  },
+  "entries": [
+    "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+    "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+    "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+    "<b>Combined Orbs:</b> {@item Decaying Orb|TftJC} + {@item Decaying Orb|TftJC}",
+    "<b>Weapon Effect:</b> Hit creatures gain 2 {@condition Withered|TftJC}.",
+    "<b>Armor Effect:</b> -4 Necrotic Damage, as a Reaction to taking Necrotic Damage you can expend 2 charges to gain resistance to Necrotic damage until the start of your next turn.",
+    "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw gain 2 {@condition Withered|TftJC}, or 3 if the spell cast matches the Orb's element."
+  ]
+}
