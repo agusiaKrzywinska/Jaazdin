@@ -1,0 +1,21 @@
+{
+    "name": "Blood Cookies",
+    "source": "TftJC",
+    "type": "FD",
+    "rarity": "legendary",
+    "value": 25000,
+    "weight": 0,
+    "entries": [
+        "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
+        "<b>Ingredients:</b> x2 Very Rare Fiend Meat, x3 Wireweed",
+        "<b>Effect:</b> Melee weapon attacks that use Strength or Dexterity deal an additional 1d6 damage of their type, or 1d10 additional damage if they are heavy."
+    ],
+    "foundryType": "consumable",
+    "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+            "max": 1,
+            "per": "charges"
+        }
+    }
+}

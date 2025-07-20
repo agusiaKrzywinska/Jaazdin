@@ -1,0 +1,21 @@
+{
+    "name": "Devil’s Skewer",
+    "source": "TftJC",
+    "type": "FD",
+    "rarity": "very rare",
+    "value": 15000,
+    "weight": 0,
+    "entries": [
+        "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
+        "<b>Ingredients:</b> x1 Rare Fiend Meat, x1 Uncommon Fiend Meat, x1 Devil’s Cactus",
+        "<b>Effect:</b> Your alignment becomes lawful evil."
+    ],
+    "foundryType": "consumable",
+    "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+            "max": 1,
+            "per": "charges"
+        }
+    }
+}

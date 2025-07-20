@@ -1,0 +1,21 @@
+{
+    "name": "Ocean’s Bounty",
+    "source": "TftJC",
+    "type": "FD",
+    "rarity": "rare",
+    "value": 10000,
+    "weight": 0,
+    "entries": [
+        "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
+        "<b>Ingredients:</b> x1 Rare Meat (Swim speed), x1 Ocean’s Lily, x2 Bubble Pod",
+        "<b>Effect:</b> You gain a swim speed equal to your land speed and do not suffer disadvantage on attacking underwater."
+    ],
+    "foundryType": "consumable",
+    "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+            "max": 1,
+            "per": "charges"
+        }
+    }
+}

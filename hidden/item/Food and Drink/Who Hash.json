@@ -1,0 +1,21 @@
+{
+    "name": "Who Hash",
+    "source": "TftJC",
+    "type": "FD",
+    "rarity": "legendary",
+    "value": 25000,
+    "weight": 0,
+    "entries": [
+        "<b>Preparation:</b> Requires Cook’s Utensils or Brewer’s Supplies to prepare.",
+        "<b>Ingredients:</b> x2 Legendary Humanoid Meat, x2 Golden Clovers",
+        "<b>Effect:</b> You become happy. You cannot be charmed, frightened, or have your emotions controlled by magic. You also gain access to three Luck Points that vanish when this meal ends. While in this state you have advantage on all Persuasion checks and disadvantage on all Deception or Intimidation checks as you find it difficult to justify lying or being mean."
+    ],
+    "foundryType": "consumable",
+    "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+            "max": 1,
+            "per": "charges"
+        }
+    }
+}

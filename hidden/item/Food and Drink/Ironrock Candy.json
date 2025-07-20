@@ -1,0 +1,21 @@
+{
+    "name": "Ironrock Candy",
+    "source": "TftJC",
+    "type": "FD",
+    "rarity": "legendary",
+    "value": 35000,
+    "weight": 0,
+    "entries": [
+        "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
+        "<b>Ingredients:</b> x1 Rare or higher earth elemental meat, x9 Ironoak Berries",
+        "<b>Effect:</b> Grants 18 AC and resistance to non-magical bludgeoning, piercing, and slashing damage."
+    ],
+    "foundryType": "consumable",
+    "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+            "max": 1,
+            "per": "charges"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Divine Cream",
+    "source": "TftJC",
+    "type": "FD",
+    "rarity": "very rare",
+    "value": 30000,
+    "weight": 0,
+    "entries": [
+        "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
+        "<b>Ingredients:</b> x2 Very Rare Celestial Meat",
+        "<b>Effect:</b> Whenever you make an attack roll or saving throw, roll 1d4 and add it to the roll."
+    ],
+    "foundryType": "consumable",
+    "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+            "max": 1,
+            "per": "charges"
+        }
+    }
+}

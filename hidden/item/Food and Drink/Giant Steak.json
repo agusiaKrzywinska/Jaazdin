@@ -1,0 +1,21 @@
+{
+    "name": "Giant Steak",
+    "source": "TftJC",
+    "type": "FD",
+    "rarity": "very rare",
+    "value": 20000,
+    "weight": 0,
+    "entries": [
+        "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
+        "<b>Ingredients:</b> x1 Very Rare Giant Meat, x2 Memento Bean",
+        "<b>Effect:</b> Your carrying capacity, lift, and push capacities are treated as if your Strength was 30."
+    ],
+    "foundryType": "consumable",
+    "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+            "max": 1,
+            "per": "charges"
+        }
+    }
+}

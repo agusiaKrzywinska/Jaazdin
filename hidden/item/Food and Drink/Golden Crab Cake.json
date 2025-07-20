@@ -1,0 +1,21 @@
+{
+    "name": "Golden Crab Cake",
+    "source": "TftJC",
+    "type": "FD",
+    "rarity": "legendary",
+    "value": 1000,
+    "weight": 0,
+    "entries": [
+        "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
+        "<b>Ingredients:</b> x1 Common Meat (swim speed), 1000gp",
+        "<b>Effect:</b> You gain immunity to the frightened and charmed conditions."
+    ],
+    "foundryType": "consumable",
+    "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+            "max": 1,
+            "per": "charges"
+        }
+    }
+}

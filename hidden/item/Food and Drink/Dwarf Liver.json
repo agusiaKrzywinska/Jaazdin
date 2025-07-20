@@ -1,0 +1,21 @@
+{
+    "name": "Dwarf Liver",
+    "source": "TftJC",
+    "type": "FD",
+    "rarity": "rare",
+    "value": 8000,
+    "weight": 0,
+    "entries": [
+        "<b>Preparation:</b> Requires Cook’s Utensils or Brewer’s Tools to prepare.",
+        "<b>Ingredients:</b> x2 Hiker's Bounty ???",
+        "<b>Effect:</b> You become immune to the effects of alcohol and have advantage on saving throws to resist poison."
+    ],
+    "foundryType": "consumable",
+    "foundrySystem": {
+        "consumableType": "food",
+        "uses": {
+            "max": 1,
+            "per": "charges"
+        }
+    }
+}
