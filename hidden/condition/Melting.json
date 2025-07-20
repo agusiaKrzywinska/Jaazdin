@@ -3,6 +3,11 @@
   "source": "TftJC",
   "color": "7FFF00",
   "entries": [
-    ""
+    {
+      "type": "list",
+      "items": [
+        ""
+      ]
+    }
   ]
 }

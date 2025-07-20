@@ -3,8 +3,13 @@
   "source": "TftJC",
   "color": "fff000",
   "entries": [
-    "You gain a +1 to your weapon damage rolls and spell attack damage rolls per stack.",
-    "Upon reaching 3 Arcanergy, your next weapon attack adds your Casting Modifier to hit and to damage rolls, then all Arcanergy is removed.",
-    "Being affected by Dispel Magic/ Counterspell/ Anti-Magic Field/ Losing Concentration on a spell removes Arcanergy."
+    {
+      "type": "list",
+      "items": [
+        "You gain a +1 to your weapon damage rolls and spell attack damage rolls per stack.",
+        "Upon reaching 3 Arcanergy, your next weapon attack adds your Casting Modifier to hit and to damage rolls, then all Arcanergy is removed.",
+        "Being affected by Dispel Magic/ Counterspell/ Anti-Magic Field/ Losing Concentration on a spell removes Arcanergy."
+      ]
+    }
   ]
 }

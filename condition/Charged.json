@@ -3,7 +3,12 @@
   "source": "TftJC",
   "color": "ffff00",
   "entries": [
-    "Lightning courses through you. You gain a +1 to Weapon/Spell Attack Rolls and deal an additional 1 Lightning Damage on a hit with a Weapon/Spell Attack per stack.",
-    "Upon reaching 3 Charged, the next instance of damage you deal deals an additional 1d10 Lightning Damage and consumes all charges."
+    {
+      "type": "list",
+      "items": [
+        "Lightning courses through you. You gain a +1 to Weapon/Spell Attack Rolls and deal an additional 1 Lightning Damage on a hit with a Weapon/Spell Attack per stack.",
+        "Upon reaching 3 Charged, the next instance of damage you deal deals an additional 1d10 Lightning Damage and consumes all charges."
+      ]
+    }
   ]
 }

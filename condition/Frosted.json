@@ -3,9 +3,14 @@
   "source": "TftJC",
   "color": "00ffff",
   "entries": [
-    "Affected Creature gains a -1 to Dexterity Saving Throws per stack.",
-    "Upon reaching 3 turns of Frosted, the creature becomes Restrained until the end of your next turn, then all Frosted is removed.",
-    "Creatures immune to Cold damage can’t receive Frosted.",
-    "Taking Fire Damage removes Frosted."
+    {
+      "type": "list",
+      "items": [
+        "Affected Creature gains a -1 to Dexterity Saving Throws per stack.",
+        "Upon reaching 3 turns of Frosted, the creature becomes Restrained until the end of your next turn, then all Frosted is removed.",
+        "Creatures immune to Cold damage can’t receive Frosted.",
+        "Taking Fire Damage removes Frosted."
+      ]
+    }
   ]
 }
