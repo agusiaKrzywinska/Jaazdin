@@ -4,11 +4,11 @@
   "type": "TG",
   "rarity": "legendary",
   "customProperties": {
-    "baseMetal": "Clockwork Bronze",
+    "baseMetal": "Cosmium",
     "requiredTool": "Smith's Tools",
     "forgingConditions": "Must be forged in a place where time flows differently.",
-    "armorEffects": "You age at half the normal rate and have advantage on saving throws against effects that would age you.",
-    "weaponEffects": "When you hit with this weapon, you can choose to delay the damage until the start of the target's next turn.",
+    "armorEffects": "You gain resistance to force damage. You gain a fly speed of 10 feet, if you already have a fly speed it is increased by 20 feet.",
+    "weaponEffects": "Eternium weapons roll double the damage die, and take the highest result. Once per turn, if you roll maximum on a damage die you may roll an additional damage die (which is also rolled at advantage).",
     "additionalEffects": "You can cast Slow once per day without using a spell slot.",
     "druidUseable": false
   },
@@ -18,11 +18,11 @@
       "type": "entries",
       "name": "Properties",
       "entries": [
-        "<b>Base Metal:</b> {@item Clockwork Bronze|TftJC}",
+        "<b>Base Metal:</b> {@item Cosmium|TftJC}",
         "<b>Required Tool:</b> Smith's Tools",
         "<b>Forging Conditions:</b> Must be forged in a place where time flows differently.",
-        "<b>Armor Effects:</b> You age at half the normal rate and have advantage on saving throws against effects that would age you.",
-        "<b>Weapon Effects:</b> When you hit with this weapon, you can choose to delay the damage until the start of the target's next turn.",
+        "<b>Armor Effects:</b> You gain resistance to force damage. You gain a fly speed of 10 feet, if you already have a fly speed it is increased by 20 feet.",
+        "<b>Weapon Effects:</b> Eternium weapons roll double the damage die, and take the highest result. Once per turn, if you roll maximum on a damage die you may roll an additional damage die (which is also rolled at advantage).",
         "<b>Additional Effects:</b> You can cast Slow once per day without using a spell slot.",
         "<b>Druid Useable:</b> No"
       ]

@@ -2,15 +2,15 @@
   "name": "Loadstone",
   "source": "TftJC",
   "type": "TG",
-  "rarity": "rare",
+  "rarity": "very rare",
   "customProperties": {
-    "baseMetal": "Meteoric Iron",
+    "baseMetal": "Keystone",
     "requiredTool": "Smith's Tools",
-    "forgingConditions": "Must be magnetized during forging.",
-    "armorEffects": "Metal objects within 10 feet are drawn toward you, giving attackers with metal weapons disadvantage on ranged attacks.",
-    "weaponEffects": "This weapon has a +1 bonus to attack rolls against creatures wearing metal armor.",
-    "additionalEffects": "You can cast Magnify Gravity once per day without using a spell slot.",
-    "druidUseable": false
+    "forgingConditions": "???",
+    "armorEffects": "???",
+    "weaponEffects": "???",
+    "additionalEffects": "???",
+    "druidUseable": true
   },
   "entries": [
     "Runesmithed",
@@ -18,13 +18,13 @@
       "type": "entries",
       "name": "Properties",
       "entries": [
-        "<b>Base Metal:</b> Meteoric Iron",
+        "<b>Base Metal:</b> {@item Keystone|TftJC}",
         "<b>Required Tool:</b> Smith's Tools",
-        "<b>Forging Conditions:</b> Must be magnetized during forging.",
-        "<b>Armor Effects:</b> Metal objects within 10 feet are drawn toward you, giving attackers with metal weapons disadvantage on ranged attacks.",
-        "<b>Weapon Effects:</b> This weapon has a +1 bonus to attack rolls against creatures wearing metal armor.",
-        "<b>Additional Effects:</b> You can cast Magnify Gravity once per day without using a spell slot.",
-        "<b>Druid Useable:</b> No"
+        "<b>Forging Conditions:</b> ???",
+        "<b>Armor Effects:</b> ???",
+        "<b>Weapon Effects:</b> ???",
+        "<b>Additional Effects:</b> ???",
+        "<b>Druid Useable:</b> Yes"
       ]
     }
   ]

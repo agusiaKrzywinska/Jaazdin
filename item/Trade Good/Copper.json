@@ -10,7 +10,7 @@
     "weaponEffects": "-",
     "additionalEffects": "-",
     "runesmithing": "???",
-    "druidUseable": true
+    "druidUseable": false
   },
   "entries": [
     {
@@ -23,7 +23,7 @@
         "<b>Weapon Effects:</b> -",
         "<b>Additional Effects:</b> -",
         "<b>Runesmithing:</b> ???",
-        "<b>Druid Useable:</b> Yes"
+        "<b>Druid Useable:</b> No"
       ]
     }
   ]

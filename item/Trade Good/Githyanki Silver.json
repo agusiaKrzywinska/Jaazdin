@@ -2,14 +2,14 @@
   "name": "Githyanki Silver",
   "source": "TftJC",
   "type": "TG",
-  "rarity": "common",
+  "rarity": "uncommon",
   "customProperties": {
     "baseMetal": "Silver",
     "requiredTool": "Smith's Tools",
-    "armorEffects": "-",
-    "weaponEffects": "Bypasses some damage resistances.",
-    "additionalEffects": "-",
-    "druidUseable": true
+    "armorEffects": "The Dexterity Bonus Medium armor can provide is increased by 1.",
+    "weaponEffects": "Can be used to sever a Silver Cord. All Slashing weapons gain the Finesse Property.",
+    "additionalEffects": "Treated as Silver for overcoming Resistances.",
+    "druidUseable": false
   },
   "entries": [
     "Runesmithed",
@@ -19,10 +19,10 @@
       "entries": [
         "<b>Base Metal:</b> {@item Silver|TftJC}",
         "<b>Required Tool:</b> Smith's Tools",
-        "<b>Armor Effects:</b> -",
-        "<b>Weapon Effects:</b> Bypasses some damage resistances.",
-        "<b>Additional Effects:</b> -",
-        "<b>Druid Useable:</b> Yes"
+        "<b>Armor Effects:</b> The Dexterity Bonus Medium armor can provide is increased by 1.",
+        "<b>Weapon Effects:</b> Can be used to sever a Silver Cord. All Slashing weapons gain the Finesse Property.",
+        "<b>Additional Effects:</b> Treated as Silver for overcoming Resistances.",
+        "<b>Druid Useable:</b> No"
       ]
     }
   ]

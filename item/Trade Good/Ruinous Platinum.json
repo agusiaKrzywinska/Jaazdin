@@ -18,9 +18,9 @@
       "type": "entries",
       "name": "Properties",
       "entries": [
-        "<b>Base Metal:</b> {@item Stabilized Uranium|TftJC}",
+        "<b>Base Metal:</b> {@item Dark Platinum|TftJC}",
         "<b>Required Tool:</b> Smith's Tools",
-        "<b>Forging Conditions:</b> Must be forged in a place of great destruction or by someone who has witnessed apocalypse.",
+        "<b>Forging Conditions:</b> Can only be forged by a creature of a Lawful Alignment.",
         "<b>Armor Effects:</b> You have resistance to force damage and immunity to being {@condition frightened}.",
         "<b>Weapon Effects:</b> This weapon deals an additional {@dice 2d6} force damage, but you take {@dice 1d4} force damage each time you attack.",
         "<b>Additional Effects:</b> You can cast Disintegrate once per week without using a spell slot.",

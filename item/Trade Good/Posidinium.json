@@ -12,7 +12,7 @@
     "armorEffects": "You gain a swim speed equal to your walking speed. You can breathe underwater, and incur no penalties from rough waves, crushing pressure or other penalties caused naturally by bodies of large water (this excludes magical effects).",
     "weaponEffects": "The weapon gains no penalties when used underwater. While swimming, this weapon gains a +2 to hit and damage rolls that are also in water. You gain a +1 to Charisma Checks against creatures with a swim speed for every 10ft of swim speed you have.",
     "additionalEffects": "?",
-    "druidUseable": false
+    "druidUseable": "???"
   },
   "entries": [
     {

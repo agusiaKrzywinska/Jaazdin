@@ -2,13 +2,13 @@
   "name": "Lolth Cashmere",
   "source": "TftJC",
   "type": "TG",
-  "rarity": "uncommon",
+  "rarity": "rare",
   "customProperties": {
     "baseMetal": "Chromed Silk",
     "requiredTool": "Weaver's Tools",
     "forgingConditions": "15 DEX",
-    "armorEffects": "Chromed Silk requires half of the gold cost to Enchant it. Can only be used for Light Armor.",
-    "weaponEffects": "Chromed Silk requires half of the gold cost to Enchant it. Chromed Silk weapons always deal Slashing damage.",
+    "armorEffects": "Lolth Cashmere requires half of the gold cost to Enchant it. Can only be used for Light Armor. While wearing this armor the creature is under the effects of the spider climb spell.",
+    "weaponEffects": "Lolth Cashmere requires half of the gold cost to Enchant it. Lolth Cashmere weapons always deal Slashing damage. If a weapon has Finesse it also gains the Reach property. If it has Reach its reach is increased by 5ft.",
     "additionalEffects": "Material for +1 Cobbler's, Leatherworker's, or Weaver's Tools (2 Plates).",
     "druidUseable": true
   },
@@ -21,8 +21,8 @@
         "<b>Base Metal:</b> {@item Chromed Silk|TftJC}",
         "<b>Required Tool:</b> Weaver's Tools",
         "<b>Forging Conditions:</b> 15 DEX",
-        "<b>Armor Effects:</b> Chromed Silk requires half of the gold cost to Enchant it. Can only be used for Light Armor.",
-        "<b>Weapon Effects:</b> Chromed Silk requires half of the gold cost to Enchant it. Chromed Silk weapons always deal Slashing damage.",
+        "<b>Armor Effects:</b> Lolth Cashmere requires half of the gold cost to Enchant it. Can only be used for Light Armor. While wearing this armor the creature is under the effects of the spider climb spell.",
+        "<b>Weapon Effects:</b> Lolth Cashmere requires half of the gold cost to Enchant it. Lolth Cashmere weapons always deal Slashing damage. If a weapon has Finesse it also gains the Reach property. If it has Reach its reach is increased by 5ft.",
         "<b>Additional Effects:</b> Material for +1 Cobbler's, Leatherworker's, or Weaver's Tools (2 Plates).",
         "<b>Druid Useable:</b> Yes"
       ]

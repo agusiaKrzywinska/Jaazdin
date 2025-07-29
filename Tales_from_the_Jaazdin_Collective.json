@@ -15,12 +15,12 @@
                     "Adam Henderson",
                     "Malcolm Keefe"
                 ],
-                "version": "0.3.80"
+                "version": "0.3.82"
             }
         ],
         "edition": "classic",
         "dateAdded": 0,
-        "dateLastModified": 1753754914,
+        "dateLastModified": 1753758912,
         "optionalFeatureTypes": {
             "FS:W": "Fighting Style: Warden",
             "TECH": "Technique",
@@ -1803,14 +1803,14 @@
             "name": "Arc-Platinum",
             "source": "TftJC",
             "type": "TG",
-            "rarity": "common",
+            "rarity": "uncommon",
             "customProperties": {
                 "baseMetal": "Platinum",
                 "requiredTool": "Smith's Tools",
-                "armorEffects": "-",
-                "weaponEffects": "-",
+                "armorEffects": "Once per short rest, when you make an ability check or saving throw you can add +2 to it (after the roll but before you know the results).",
+                "weaponEffects": "Once per short rest, when you make an attack roll with this weapon you can add +2 to its to hit (and if that attack hits) the damage roll as well. You must do this after you roll, but before you know the result.",
                 "additionalEffects": "",
-                "druidUseable": true
+                "druidUseable": false
             },
             "entries": [
                 "Runesmithed",
@@ -1820,10 +1820,10 @@
                     "entries": [
                         "<b>Base Metal:</b> {@item Platinum|TftJC}",
                         "<b>Required Tool:</b> Smith's Tools",
-                        "<b>Armor Effects:</b> -",
-                        "<b>Weapon Effects:</b> -",
+                        "<b>Armor Effects:</b> Once per short rest, when you make an ability check or saving throw you can add +2 to it (after the roll but before you know the results).",
+                        "<b>Weapon Effects:</b> Once per short rest, when you make an attack roll with this weapon you can add +2 to its to hit (and if that attack hits) the damage roll as well. You must do this after you roll, but before you know the result.",
                         "<b>Additional Effects:</b> ",
-                        "<b>Druid Useable:</b> Yes"
+                        "<b>Druid Useable:</b> No"
                     ]
                 }
             ]
@@ -2816,7 +2816,7 @@
                 "weaponEffects": "Weapons deal an additional 1 acid damage on hit.",
                 "additionalEffects": "-",
                 "runesmithing": "???",
-                "druidUseable": false
+                "druidUseable": "???"
             },
             "entries": [
                 {
@@ -2830,7 +2830,7 @@
                         "<b>Weapon Effects:</b> Weapons deal an additional 1 acid damage on hit.",
                         "<b>Additional Effects:</b> -",
                         "<b>Runesmithing:</b> ???",
-                        "<b>Druid Useable:</b> No"
+                        "<b>Druid Useable:</b> ???"
                     ]
                 }
             ]
@@ -3258,7 +3258,7 @@
                 "weaponEffects": "-",
                 "additionalEffects": "-",
                 "runesmithing": "???",
-                "druidUseable": true
+                "druidUseable": false
             },
             "entries": [
                 {
@@ -3271,7 +3271,7 @@
                         "<b>Weapon Effects:</b> -",
                         "<b>Additional Effects:</b> -",
                         "<b>Runesmithing:</b> ???",
-                        "<b>Druid Useable:</b> Yes"
+                        "<b>Druid Useable:</b> No"
                     ]
                 }
             ]
@@ -3282,12 +3282,12 @@
             "type": "TG",
             "rarity": "rare",
             "customProperties": {
-                "baseMetal": "Silvered Wood",
-                "requiredTool": "Woodcarver's Tools",
+                "baseMetal": "Void Ash",
+                "requiredTool": "Mason's Tools",
                 "forgingConditions": "Must be carved under starlight.",
-                "armorEffects": "You have resistance to necrotic damage.",
-                "weaponEffects": "This weapon deals an additional 1d4 necrotic damage to celestials and fiends.",
-                "additionalEffects": "You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.",
+                "armorEffects": "Your armor provides no AC to physical attacks but is treated as 4 AC higher against spell attacks. In addition you gain resistance to psychic damage.",
+                "weaponEffects": "Weapons ignore AC granted through Armor or Shields.",
+                "additionalEffects": "-",
                 "druidUseable": true
             },
             "entries": [
@@ -3296,12 +3296,12 @@
                     "type": "entries",
                     "name": "Properties",
                     "entries": [
-                        "<b>Base Metal:</b> Silvered Wood",
-                        "<b>Required Tool:</b> Woodcarver's Tools",
+                        "<b>Base Metal:</b> {@item Void Ash|TftJC}",
+                        "<b>Required Tool:</b> Mason's Tools",
                         "<b>Forging Conditions:</b> Must be carved under starlight.",
-                        "<b>Armor Effects:</b> You have resistance to necrotic damage.",
-                        "<b>Weapon Effects:</b> This weapon deals an additional {@dice 1d4} necrotic damage to celestials and fiends.",
-                        "<b>Additional Effects:</b> You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.",
+                        "<b>Armor Effects:</b> Your armor provides no AC to physical attacks but is treated as 4 AC higher against spell attacks. In addition you gain resistance to psychic damage.",
+                        "<b>Weapon Effects:</b> Weapons ignore AC granted through Armor or Shields.",
+                        "<b>Additional Effects:</b> -",
                         "<b>Druid Useable:</b> Yes"
                     ]
                 }
@@ -3858,13 +3858,13 @@
             "type": "TG",
             "rarity": "very rare",
             "customProperties": {
-                "baseMetal": "Cold Titan",
-                "requiredTool": "Smith's Tools",
+                "baseMetal": "Malcanthym",
+                "requiredTool": "Jeweler's Tools",
                 "forgingConditions": "Must be forged in absolute darkness.",
-                "armorEffects": "You have blindsight out to 60 feet and resistance to cold damage.",
-                "weaponEffects": "This weapon deals an additional 1d6 cold damage and creates a 5-foot radius of darkness on impact.",
-                "additionalEffects": "You can cast Darkness once per day without using a spell slot.",
-                "druidUseable": false
+                "armorEffects": "Armor made from this metal reduces Thunder and Lightning damage by 2d6. Additionally, you are immune to Thunder and Lightning Damage from non-magical sources.",
+                "weaponEffects": "Dealing or taking Thunder/Lightning damage causes your weapons reach increases by 5 feet until the end of your next turn. Attacks that hit deal 1d8 extra Thunder or Lightning damage if you use the reach granted by this metal to hit the attack.",
+                "additionalEffects": "-",
+                "druidUseable": true
             },
             "entries": [
                 "Runesmithed",
@@ -3872,13 +3872,13 @@
                     "type": "entries",
                     "name": "Properties",
                     "entries": [
-                        "<b>Base Metal:</b> Cold Titan",
-                        "<b>Required Tool:</b> Smith's Tools",
+                        "<b>Base Metal:</b> {@item Malcanthym|TftJC}",
+                        "<b>Required Tool:</b> Jeweler's Tools",
                         "<b>Forging Conditions:</b> Must be forged in absolute darkness.",
-                        "<b>Armor Effects:</b> You have blindsight out to 60 feet and resistance to cold damage.",
-                        "<b>Weapon Effects:</b> This weapon deals an additional {@dice 1d6} cold damage and creates a 5-foot radius of darkness on impact.",
-                        "<b>Additional Effects:</b> You can cast Darkness once per day without using a spell slot.",
-                        "<b>Druid Useable:</b> No"
+                        "<b>Armor Effects:</b> Armor made from this metal reduces Thunder and Lightning damage by {@dice 2d6}. Additionally, you are immune to Thunder and Lightning Damage from non-magical sources.",
+                        "<b>Weapon Effects:</b> Dealing or taking Thunder/Lightning damage causes your weapons reach increases by 5 feet until the end of your next turn. Attacks that hit deal 1d8 extra Thunder or Lightning damage if you use the reach granted by this metal to hit the attack.",
+                        "<b>Additional Effects:</b> -",
+                        "<b>Druid Useable:</b> Yes"
                     ]
                 }
             ]
@@ -4328,11 +4328,11 @@
             "type": "TG",
             "rarity": "legendary",
             "customProperties": {
-                "baseMetal": "Clockwork Bronze",
+                "baseMetal": "Cosmium",
                 "requiredTool": "Smith's Tools",
                 "forgingConditions": "Must be forged in a place where time flows differently.",
-                "armorEffects": "You age at half the normal rate and have advantage on saving throws against effects that would age you.",
-                "weaponEffects": "When you hit with this weapon, you can choose to delay the damage until the start of the target's next turn.",
+                "armorEffects": "You gain resistance to force damage. You gain a fly speed of 10 feet, if you already have a fly speed it is increased by 20 feet.",
+                "weaponEffects": "Eternium weapons roll double the damage die, and take the highest result. Once per turn, if you roll maximum on a damage die you may roll an additional damage die (which is also rolled at advantage).",
                 "additionalEffects": "You can cast Slow once per day without using a spell slot.",
                 "druidUseable": false
             },
@@ -4342,11 +4342,11 @@
                     "type": "entries",
                     "name": "Properties",
                     "entries": [
-                        "<b>Base Metal:</b> {@item Clockwork Bronze|TftJC}",
+                        "<b>Base Metal:</b> {@item Cosmium|TftJC}",
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> Must be forged in a place where time flows differently.",
-                        "<b>Armor Effects:</b> You age at half the normal rate and have advantage on saving throws against effects that would age you.",
-                        "<b>Weapon Effects:</b> When you hit with this weapon, you can choose to delay the damage until the start of the target's next turn.",
+                        "<b>Armor Effects:</b> You gain resistance to force damage. You gain a fly speed of 10 feet, if you already have a fly speed it is increased by 20 feet.",
+                        "<b>Weapon Effects:</b> Eternium weapons roll double the damage die, and take the highest result. Once per turn, if you roll maximum on a damage die you may roll an additional damage die (which is also rolled at advantage).",
                         "<b>Additional Effects:</b> You can cast Slow once per day without using a spell slot.",
                         "<b>Druid Useable:</b> No"
                     ]
@@ -4723,14 +4723,14 @@
             "name": "Githyanki Silver",
             "source": "TftJC",
             "type": "TG",
-            "rarity": "common",
+            "rarity": "uncommon",
             "customProperties": {
                 "baseMetal": "Silver",
                 "requiredTool": "Smith's Tools",
-                "armorEffects": "-",
-                "weaponEffects": "Bypasses some damage resistances.",
-                "additionalEffects": "-",
-                "druidUseable": true
+                "armorEffects": "The Dexterity Bonus Medium armor can provide is increased by 1.",
+                "weaponEffects": "Can be used to sever a Silver Cord. All Slashing weapons gain the Finesse Property.",
+                "additionalEffects": "Treated as Silver for overcoming Resistances.",
+                "druidUseable": false
             },
             "entries": [
                 "Runesmithed",
@@ -4740,10 +4740,10 @@
                     "entries": [
                         "<b>Base Metal:</b> {@item Silver|TftJC}",
                         "<b>Required Tool:</b> Smith's Tools",
-                        "<b>Armor Effects:</b> -",
-                        "<b>Weapon Effects:</b> Bypasses some damage resistances.",
-                        "<b>Additional Effects:</b> -",
-                        "<b>Druid Useable:</b> Yes"
+                        "<b>Armor Effects:</b> The Dexterity Bonus Medium armor can provide is increased by 1.",
+                        "<b>Weapon Effects:</b> Can be used to sever a Silver Cord. All Slashing weapons gain the Finesse Property.",
+                        "<b>Additional Effects:</b> Treated as Silver for overcoming Resistances.",
+                        "<b>Druid Useable:</b> No"
                     ]
                 }
             ]
@@ -4874,7 +4874,7 @@
                 "weaponEffects": "-",
                 "additionalEffects": "",
                 "runesmithing": "Purity",
-                "druidUseable": true
+                "druidUseable": false
             },
             "entries": [
                 {
@@ -4887,7 +4887,7 @@
                         "<b>Weapon Effects:</b> -",
                         "<b>Additional Effects:</b> ",
                         "<b>Runesmithing:</b> {@item Purity|TftJC}",
-                        "<b>Druid Useable:</b> Yes"
+                        "<b>Druid Useable:</b> No"
                     ]
                 }
             ]
@@ -5752,8 +5752,8 @@
                 "armorEffects": "-",
                 "weaponEffects": "-",
                 "additionalEffects": "-",
-                "runesmithing": "-",
-                "druidUseable": true
+                "runesmithing": "X",
+                "druidUseable": false
             },
             "entries": [
                 {
@@ -5765,8 +5765,8 @@
                         "<b>Armor Effects:</b> -",
                         "<b>Weapon Effects:</b> -",
                         "<b>Additional Effects:</b> -",
-                        "<b>Runesmithing:</b> -",
-                        "<b>Druid Useable:</b> Yes"
+                        "<b>Runesmithing:</b> X",
+                        "<b>Druid Useable:</b> No"
                     ]
                 }
             ]
@@ -5968,11 +5968,11 @@
             "name": "Leviathan",
             "source": "TftJC",
             "type": "TG",
-            "rarity": "legendary",
+            "rarity": "very rare",
             "customProperties": {
-                "baseMetal": "Soulsteel",
+                "baseMetal": "Cold Titan",
                 "requiredTool": "Smith's Tools",
-                "forgingConditions": "Must be forged underwater at crushing depths.",
+                "forgingConditions": "Divine Strike or Divine Smite Feature",
                 "armorEffects": "You have a swimming speed equal to your walking speed and can breathe underwater. You have resistance to cold damage.",
                 "weaponEffects": "This weapon deals an additional 1d8 cold damage and can function normally underwater.",
                 "additionalEffects": "You can cast Water Breathing once per day without using a spell slot.",
@@ -5984,9 +5984,9 @@
                     "type": "entries",
                     "name": "Properties",
                     "entries": [
-                        "<b>Base Metal:</b> {@item Soulsteel|TftJC}",
+                        "<b>Base Metal:</b> {@item Cold Titan|TftJC}",
                         "<b>Required Tool:</b> Smith's Tools",
-                        "<b>Forging Conditions:</b> Must be forged underwater at crushing depths.",
+                        "<b>Forging Conditions:</b> Divine Strike or Divine Smite Feature",
                         "<b>Armor Effects:</b> You have a swimming speed equal to your walking speed and can breathe underwater. You have resistance to cold damage.",
                         "<b>Weapon Effects:</b> This weapon deals an additional {@dice 1d8} cold damage and can function normally underwater.",
                         "<b>Additional Effects:</b> You can cast Water Breathing once per day without using a spell slot.",
@@ -6065,15 +6065,15 @@
             "name": "Loadstone",
             "source": "TftJC",
             "type": "TG",
-            "rarity": "rare",
+            "rarity": "very rare",
             "customProperties": {
-                "baseMetal": "Meteoric Iron",
+                "baseMetal": "Keystone",
                 "requiredTool": "Smith's Tools",
-                "forgingConditions": "Must be magnetized during forging.",
-                "armorEffects": "Metal objects within 10 feet are drawn toward you, giving attackers with metal weapons disadvantage on ranged attacks.",
-                "weaponEffects": "This weapon has a +1 bonus to attack rolls against creatures wearing metal armor.",
-                "additionalEffects": "You can cast Magnify Gravity once per day without using a spell slot.",
-                "druidUseable": false
+                "forgingConditions": "???",
+                "armorEffects": "???",
+                "weaponEffects": "???",
+                "additionalEffects": "???",
+                "druidUseable": true
             },
             "entries": [
                 "Runesmithed",
@@ -6081,13 +6081,13 @@
                     "type": "entries",
                     "name": "Properties",
                     "entries": [
-                        "<b>Base Metal:</b> Meteoric Iron",
+                        "<b>Base Metal:</b> {@item Keystone|TftJC}",
                         "<b>Required Tool:</b> Smith's Tools",
-                        "<b>Forging Conditions:</b> Must be magnetized during forging.",
-                        "<b>Armor Effects:</b> Metal objects within 10 feet are drawn toward you, giving attackers with metal weapons disadvantage on ranged attacks.",
-                        "<b>Weapon Effects:</b> This weapon has a +1 bonus to attack rolls against creatures wearing metal armor.",
-                        "<b>Additional Effects:</b> You can cast Magnify Gravity once per day without using a spell slot.",
-                        "<b>Druid Useable:</b> No"
+                        "<b>Forging Conditions:</b> ???",
+                        "<b>Armor Effects:</b> ???",
+                        "<b>Weapon Effects:</b> ???",
+                        "<b>Additional Effects:</b> ???",
+                        "<b>Druid Useable:</b> Yes"
                     ]
                 }
             ]
@@ -6139,13 +6139,13 @@
             "name": "Lolth Cashmere",
             "source": "TftJC",
             "type": "TG",
-            "rarity": "uncommon",
+            "rarity": "rare",
             "customProperties": {
                 "baseMetal": "Chromed Silk",
                 "requiredTool": "Weaver's Tools",
                 "forgingConditions": "15 DEX",
-                "armorEffects": "Chromed Silk requires half of the gold cost to Enchant it. Can only be used for Light Armor.",
-                "weaponEffects": "Chromed Silk requires half of the gold cost to Enchant it. Chromed Silk weapons always deal Slashing damage.",
+                "armorEffects": "Lolth Cashmere requires half of the gold cost to Enchant it. Can only be used for Light Armor. While wearing this armor the creature is under the effects of the spider climb spell.",
+                "weaponEffects": "Lolth Cashmere requires half of the gold cost to Enchant it. Lolth Cashmere weapons always deal Slashing damage. If a weapon has Finesse it also gains the Reach property. If it has Reach its reach is increased by 5ft.",
                 "additionalEffects": "Material for +1 Cobbler's, Leatherworker's, or Weaver's Tools (2 Plates).",
                 "druidUseable": true
             },
@@ -6158,8 +6158,8 @@
                         "<b>Base Metal:</b> {@item Chromed Silk|TftJC}",
                         "<b>Required Tool:</b> Weaver's Tools",
                         "<b>Forging Conditions:</b> 15 DEX",
-                        "<b>Armor Effects:</b> Chromed Silk requires half of the gold cost to Enchant it. Can only be used for Light Armor.",
-                        "<b>Weapon Effects:</b> Chromed Silk requires half of the gold cost to Enchant it. Chromed Silk weapons always deal Slashing damage.",
+                        "<b>Armor Effects:</b> Lolth Cashmere requires half of the gold cost to Enchant it. Can only be used for Light Armor. While wearing this armor the creature is under the effects of the spider climb spell.",
+                        "<b>Weapon Effects:</b> Lolth Cashmere requires half of the gold cost to Enchant it. Lolth Cashmere weapons always deal Slashing damage. If a weapon has Finesse it also gains the Reach property. If it has Reach its reach is increased by 5ft.",
                         "<b>Additional Effects:</b> Material for +1 Cobbler's, Leatherworker's, or Weaver's Tools (2 Plates).",
                         "<b>Druid Useable:</b> Yes"
                     ]
@@ -6312,13 +6312,13 @@
             "name": "Mentallite",
             "source": "TftJC",
             "type": "TG",
-            "rarity": "legendary",
+            "rarity": "very rare",
             "customProperties": {
-                "baseMetal": "Truemetal",
+                "baseMetal": "Illithidium",
                 "requiredTool": "Smith's Tools",
-                "forgingConditions": "Must be forged by someone with telepathic abilities.",
-                "armorEffects": "You have resistance to psychic damage and advantage on saving throws against being charmed.",
-                "weaponEffects": "When you hit with this weapon, you can communicate telepathically with the target for 1 minute.",
+                "forgingConditions": "17 INT",
+                "armorEffects": "You gain resistance to Psychic Damage. Illithids wearing this have advantage on Wisdom Saves. Light and Medium Armor made from this metal uses the wearer's Intelligence instead of Dexterity to calculate AC.",
+                "weaponEffects": "Weapons that Critically hit grant the target vulnerability to Psychic damage for a number of rounds equal to your Prof Bonus. You can use your Intelligence Modifier to calculate your To-Hit and damage bonuses. Illithids using these deal an additional 1d6 psychic damage on a hit.",
                 "additionalEffects": "You can cast Detect Thoughts once per day without using a spell slot.",
                 "druidUseable": false
             },
@@ -6328,12 +6328,12 @@
                     "type": "entries",
                     "name": "Properties",
                     "entries": [
-                        "<b>Base Metal:</b> {@item Truemetal|TftJC}",
+                        "<b>Base Metal:</b> {@item Illithidium|TftJC}",
                         "<b>Required Tool:</b> Smith's Tools",
-                        "<b>Forging Conditions:</b> Must be forged by someone with telepathic abilities.",
-                        "<b>Armor Effects:</b> You have resistance to psychic damage and advantage on saving throws against being {@condition charmed}.",
-                        "<b>Weapon Effects:</b> When you hit with this weapon, you can communicate telepathically with the target for 1 minute.",
-                        "<b>Additional Effects:</b> You can cast Detect Thoughts once per day without using a spell slot.",
+                        "<b>Forging Conditions:</b> 17 INT",
+                        "<b>Armor Effects:</b> You gain resistance to Psychic Damage. Illithids wearing this have advantage on Wisdom Saves. Light and Medium Armor made from this metal uses the wearer's Intelligence instead of Dexterity to calculate AC.",
+                        "<b>Weapon Effects:</b> Weapons that Critically hit grant the target vulnerability to Psychic damage for a number of rounds equal to your Prof Bonus. You can use your Intelligence Modifier to calculate your To-Hit and damage bonuses. Illithids using these deal an additional 1d6 psychic damage on a hit.",
+                        "<b>Additional Effects:</b> -",
                         "<b>Druid Useable:</b> No"
                     ]
                 }
@@ -6343,13 +6343,13 @@
             "name": "Mercurial Sludge",
             "source": "TftJC",
             "type": "TG",
-            "rarity": "legendary",
+            "rarity": "very rare",
             "customProperties": {
-                "baseMetal": "God-Shell",
+                "baseMetal": "Devil's Mercury",
                 "requiredTool": "Alchemist's Supplies",
                 "forgingConditions": "Must be processed using divine alchemy.",
-                "armorEffects": "You can change the armor's AC as a bonus action, choosing any value between 11 and 18.",
-                "weaponEffects": "As a bonus action, you can change this weapon's damage type to any type of your choice.",
+                "armorEffects": "Heavy Armor is treated as Medium Armor, and Medium armor is treated as Light. Light Armor requires no proficiency to wear. This armor can be absorbed into your body or expunged as a Free Action, allowing you to instantly don or doff it.",
+                "weaponEffects": "Weapon attacks that hit a creature force a DC 17 Con save (poison effect), and on a fail the target suffers 1d6 Necrotic damage at the start of their turn. This lasts for 1 minute, and the target can repeat this saving throw to end the effect early. This weapon can be absorbed into your body or expunged as a Free Action, allowing you to instantly wield or hide it.",
                 "additionalEffects": "You can cast Polymorph on yourself once per day without using a spell slot.",
                 "druidUseable": false
             },
@@ -6359,11 +6359,11 @@
                     "type": "entries",
                     "name": "Properties",
                     "entries": [
-                        "<b>Base Metal:</b> {@item God-Shell|TftJC}",
+                        "<b>Base Metal:</b> {@item Devil's Mercury|TftJC}",
                         "<b>Required Tool:</b> Alchemist's Supplies",
                         "<b>Forging Conditions:</b> Must be processed using divine alchemy.",
-                        "<b>Armor Effects:</b> You can change the armor's AC as a bonus action, choosing any value between 11 and 18.",
-                        "<b>Weapon Effects:</b> As a bonus action, you can change this weapon's damage type to any type of your choice.",
+                        "<b>Armor Effects:</b> Heavy Armor is treated as Medium Armor, and Medium armor is treated as Light. Light Armor requires no proficiency to wear. This armor can be absorbed into your body or expunged as a Free Action, allowing you to instantly don or doff it.",
+                        "<b>Weapon Effects:</b> Weapon attacks that hit a creature force a DC 17 Con save (poison effect), and on a fail the target suffers 1d6 Necrotic damage at the start of their turn. This lasts for 1 minute, and the target can repeat this saving throw to end the effect early. This weapon can be absorbed into your body or expunged as a Free Action, allowing you to instantly wield or hide it.",
                         "<b>Additional Effects:</b> You can cast Polymorph on yourself once per day without using a spell slot.",
                         "<b>Druid Useable:</b> No"
                     ]
@@ -6701,7 +6701,7 @@
             "type": "TG",
             "rarity": "legendary",
             "customProperties": {
-                "baseMetal": "Celestial Gold",
+                "baseMetal": "Alacriver",
                 "requiredTool": "Smith's Tools",
                 "forgingConditions": "Must be blessed by a deity or celestial being.",
                 "armorEffects": "You have resistance to radiant damage and advantage on saving throws against being frightened.",
@@ -6715,7 +6715,7 @@
                     "type": "entries",
                     "name": "Properties",
                     "entries": [
-                        "<b>Base Metal:</b> {@item Celestial Gold|TftJC}",
+                        "<b>Base Metal:</b> {@item Alacriver|TftJC}",
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> Must be blessed by a deity or celestial being.",
                         "<b>Armor Effects:</b> You have resistance to radiant damage and advantage on saving throws against being {@condition frightened}.",
@@ -7041,7 +7041,7 @@
                 "weaponEffects": "-",
                 "additionalEffects": "",
                 "runesmithing": "Arc-Platinum",
-                "druidUseable": true
+                "druidUseable": false
             },
             "entries": [
                 {
@@ -7054,7 +7054,7 @@
                         "<b>Weapon Effects:</b> -",
                         "<b>Additional Effects:</b> ",
                         "<b>Runesmithing:</b> {@item Arc-Platinum|TftJC}",
-                        "<b>Druid Useable:</b> Yes"
+                        "<b>Druid Useable:</b> No"
                     ]
                 }
             ]
@@ -7105,7 +7105,7 @@
                 "armorEffects": "You gain a swim speed equal to your walking speed. You can breathe underwater, and incur no penalties from rough waves, crushing pressure or other penalties caused naturally by bodies of large water (this excludes magical effects).",
                 "weaponEffects": "The weapon gains no penalties when used underwater. While swimming, this weapon gains a +2 to hit and damage rolls that are also in water. You gain a +1 to Charisma Checks against creatures with a swim speed for every 10ft of swim speed you have.",
                 "additionalEffects": "?",
-                "druidUseable": false
+                "druidUseable": "???"
             },
             "entries": [
                 {
@@ -7308,14 +7308,14 @@
             "name": "Purity",
             "source": "TftJC",
             "type": "TG",
-            "rarity": "common",
+            "rarity": "uncommon",
             "customProperties": {
                 "baseMetal": "Gold",
                 "requiredTool": "Smith's Tools",
                 "armorEffects": "Increases Charisma by 1, up to 30.",
                 "weaponEffects": "Gains a +1 to damage rolls equal to half of your Charisma Bonus (rounded down, +2 CHA = +1 damage, +4 CHA = +2 damage, so on).",
                 "additionalEffects": "",
-                "druidUseable": true
+                "druidUseable": false
             },
             "entries": [
                 "Runesmithed",
@@ -7328,7 +7328,7 @@
                         "<b>Armor Effects:</b> Increases Charisma by 1, up to 30.",
                         "<b>Weapon Effects:</b> Gains a +1 to damage rolls equal to half of your Charisma Bonus (rounded down, +2 CHA = +1 damage, +4 CHA = +2 damage, so on).",
                         "<b>Additional Effects:</b> ",
-                        "<b>Druid Useable:</b> Yes"
+                        "<b>Druid Useable:</b> No"
                     ]
                 }
             ]
@@ -7448,12 +7448,12 @@
             "type": "TG",
             "rarity": "uncommon",
             "customProperties": {
-                "baseMetal": "Ironbark",
+                "baseMetal": "Ironoak",
                 "requiredTool": "Woodcarver's Tools",
                 "forgingConditions": "None",
-                "armorEffects": "When a creature hits you with a melee weapon attack, the attacker takes 1 piercing damage.",
-                "weaponEffects": "Weapon Attacks made with this weapon deal Slashing damage instead of their normal damage type.",
-                "additionalEffects": "When crafting or repairing an item made from Razorwood, the time to craft it is reduced by half.",
+                "armorEffects": "This material can be used by Druids for armor, and is non magnetic. Razorwood provides excellent resistance to bludgeoning and piercing damage, reducing all bludgeoning and piercing damage taken by 2. However, whenever you take slashing damage you take 1 more slashing damage.",
+                "weaponEffects": "This material can be used by Druids for armor, and is non magnetic. Razorwood weapon's are sharpened by magic. When you cast a spell that effects your weapon or requires a weapon attack as part of it, such as Shillelagh or Booming Blade, the weapon gains a bonus to damage equal to the spells level (minimum 1) until the end of your next turn.",
+                "additionalEffects": "Calligraphers tools made from Razorwood decrease the cost of writing spell scrolls by 5%, both gold and time. One must be proficient in Calligraphers to gain this benefit.",
                 "druidUseable": true
             },
             "entries": [
@@ -7462,12 +7462,12 @@
                     "type": "entries",
                     "name": "Properties",
                     "entries": [
-                        "<b>Base Metal:</b> Ironbark",
+                        "<b>Base Metal:</b> {@item Ironoak|TftJC}",
                         "<b>Required Tool:</b> Woodcarver's Tools",
                         "<b>Forging Conditions:</b> None",
-                        "<b>Armor Effects:</b> When a creature hits you with a melee weapon attack, the attacker takes 1 piercing damage.",
-                        "<b>Weapon Effects:</b> Weapon Attacks made with this weapon deal Slashing damage instead of their normal damage type.",
-                        "<b>Additional Effects:</b> When crafting or repairing an item made from Razorwood, the time to craft it is reduced by half.",
+                        "<b>Armor Effects:</b> This material can be used by Druids for armor, and is non magnetic. Razorwood provides excellent resistance to bludgeoning and piercing damage, reducing all bludgeoning and piercing damage taken by 2. However, whenever you take slashing damage you take 1 more slashing damage.",
+                        "<b>Weapon Effects:</b> This material can be used by Druids for armor, and is non magnetic. Razorwood weapon's are sharpened by magic. When you cast a spell that effects your weapon or requires a weapon attack as part of it, such as Shillelagh or Booming Blade, the weapon gains a bonus to damage equal to the spells level (minimum 1) until the end of your next turn.",
+                        "<b>Additional Effects:</b> Calligraphers tools made from Razorwood decrease the cost of writing spell scrolls by 5%, both gold and time. One must be proficient in Calligraphers to gain this benefit.",
                         "<b>Druid Useable:</b> Yes"
                     ]
                 }
@@ -7963,9 +7963,9 @@
                     "type": "entries",
                     "name": "Properties",
                     "entries": [
-                        "<b>Base Metal:</b> {@item Stabilized Uranium|TftJC}",
+                        "<b>Base Metal:</b> {@item Dark Platinum|TftJC}",
                         "<b>Required Tool:</b> Smith's Tools",
-                        "<b>Forging Conditions:</b> Must be forged in a place of great destruction or by someone who has witnessed apocalypse.",
+                        "<b>Forging Conditions:</b> Can only be forged by a creature of a Lawful Alignment.",
                         "<b>Armor Effects:</b> You have resistance to force damage and immunity to being {@condition frightened}.",
                         "<b>Weapon Effects:</b> This weapon deals an additional {@dice 2d6} force damage, but you take {@dice 1d4} force damage each time you attack.",
                         "<b>Additional Effects:</b> You can cast Disintegrate once per week without using a spell slot.",
@@ -8311,7 +8311,7 @@
                 "weaponEffects": "Bypasses some damage resistances.",
                 "additionalEffects": "-",
                 "runesmithing": "Githyanki Silver",
-                "druidUseable": true
+                "druidUseable": false
             },
             "entries": [
                 {
@@ -8324,7 +8324,7 @@
                         "<b>Weapon Effects:</b> Bypasses some damage resistances.",
                         "<b>Additional Effects:</b> -",
                         "<b>Runesmithing:</b> {@item Githyanki Silver|TftJC}",
-                        "<b>Druid Useable:</b> Yes"
+                        "<b>Druid Useable:</b> No"
                     ]
                 }
             ]
@@ -8355,7 +8355,7 @@
                         "<b>Armor Effects:</b> Skaier always hovers an inch off earth. While flying, your speed is increased by 20. You have advantage on saving throws against strong winds that would move you.",
                         "<b>Weapon Effects:</b> Thrown and Ranged weapons do not pose disadvantage at their long range, and have advantage to hit flying targets while in their normal range. Skaier always hovers an inch off earth.",
                         "<b>Additional Effects:</b> -",
-                        "<b>Runesmithing:</b> {@item Sky Steel|TftJC}",
+                        "<b>Runesmithing:</b> ???",
                         "<b>Druid Useable:</b> No"
                     ]
                 }
@@ -9365,8 +9365,8 @@
                 "planeOfOrigin": "Material",
                 "requiredTool": "Alchemist's Supplies",
                 "forgingConditions": "Attempting to forge/smelt/refine Unstable Uranium causes the forger to take Necrotic Damage equal to their Tools check x5. If this reduces the forger to 0 hit points, their body turns to ash.",
-                "armorEffects": "Cannot be crafted into a shield or Light armor. While wearing this armor, your maximum Hit points are Reduced by 50, and are reduced by another 50 for each consecutive week of use (these hit points return after a week without wearing the armor). You gain Immunity to Poison, Acid and Necrotic Damage. If you would take over 20 points of Thunder/Fire Damage, all creatures within 10ft of you (including yourself) must make a DC 19 CON Save or have their Maximum Hit points reduced by the same amount. If this effect would kill a creature, they turn to ash.",
-                "weaponEffects": "Cannot be made into Ammunition or Light Weapons. While wielding this weapon, your Maximum hit points are reduced by 25, and are reduced by another 25 for each consecutive week of use (these hit points return after a week without wielding the weapon). This weapon doubles the effectiveness of any enchantment that increases its to hit and damage roll bonus (up to a +6). On a hit, this weapon reduces a creatures maximum hit points by half of the damage it dealt (bludgeoning/piercing/slashing only). Creatures killed by this weapon turn to ash.",
+                "armorEffects": "Cannot be crafted into a shield or Light armor. While wearing this armor, your maximum Hit points are Reduced by 25, and are reduced by another 25 for each consecutive week of use (these hit points return after a week without wearing the armor). You gain Immunity to Poison, Acid and Necrotic Damage. If you would take over 20 points of Thunder/Fire Damage, all creatures within 10ft of you (not including yourself) must make a DC 19 CON Save or have their Maximum Hit points reduced by the same amount. If this effect would kill a creature, they turn to ash.",
+                "weaponEffects": "Cannot be made into Ammunition or Light Weapons. While wielding this weapon, your Maximum hit points are reduced by 13, and are reduced by another 13 for each consecutive week of use (these hit points return after a week without wielding the weapon). This weapon doubles the effectiveness of any enchantment that increases its to hit and damage roll bonus (up to a +6). On a hit, this weapon reduces a creatures maximum hit points by half of the damage it dealt (bludgeoning/piercing/slashing only). Creatures killed by this weapon turn to ash.",
                 "additionalEffects": "-",
                 "runesmithing": "Stabilized Uranium",
                 "druidUseable": true
@@ -9379,8 +9379,8 @@
                         "<b>Plane of Origin:</b> Material",
                         "<b>Required Tool:</b> Alchemist's Supplies",
                         "<b>Forging Conditions:</b> Attempting to forge/smelt/refine Unstable Uranium causes the forger to take Necrotic Damage equal to their Tools check x5. If this reduces the forger to 0 hit points, their body turns to ash.",
-                        "<b>Armor Effects:</b> Cannot be crafted into a shield or Light armor. While wearing this armor, your maximum Hit points are Reduced by 50, and are reduced by another 50 for each consecutive week of use (these hit points return after a week without wearing the armor). You gain Immunity to Poison, Acid and Necrotic Damage. If you would take over 20 points of Thunder/Fire Damage, all creatures within 10ft of you (including yourself) must make a DC 19 CON Save or have their Maximum Hit points reduced by the same amount. If this effect would kill a creature, they turn to ash.",
-                        "<b>Weapon Effects:</b> Cannot be made into Ammunition or Light Weapons. While wielding this weapon, your Maximum hit points are reduced by 25, and are reduced by another 25 for each consecutive week of use (these hit points return after a week without wielding the weapon). This weapon doubles the effectiveness of any enchantment that increases its to hit and damage roll bonus (up to a +6). On a hit, this weapon reduces a creatures maximum hit points by half of the damage it dealt (bludgeoning/piercing/slashing only). Creatures killed by this weapon turn to ash.",
+                        "<b>Armor Effects:</b> Cannot be crafted into a shield or Light armor. While wearing this armor, your maximum Hit points are Reduced by 25, and are reduced by another 25 for each consecutive week of use (these hit points return after a week without wearing the armor). You gain Immunity to Poison, Acid and Necrotic Damage. If you would take over 20 points of Thunder/Fire Damage, all creatures within 10ft of you (not including yourself) must make a DC 19 CON Save or have their Maximum Hit points reduced by the same amount. If this effect would kill a creature, they turn to ash.",
+                        "<b>Weapon Effects:</b> Cannot be made into Ammunition or Light Weapons. While wielding this weapon, your Maximum hit points are reduced by 13, and are reduced by another 13 for each consecutive week of use (these hit points return after a week without wielding the weapon). This weapon doubles the effectiveness of any enchantment that increases its to hit and damage roll bonus (up to a +6). On a hit, this weapon reduces a creatures maximum hit points by half of the damage it dealt (bludgeoning/piercing/slashing only). Creatures killed by this weapon turn to ash.",
                         "<b>Additional Effects:</b> -",
                         "<b>Runesmithing:</b> {@item Stabilized Uranium|TftJC}",
                         "<b>Druid Useable:</b> Yes"
@@ -9509,7 +9509,7 @@
             "name": "Volcanic Quartz",
             "source": "TftJC",
             "type": "TG",
-            "rarity": "uncommon",
+            "rarity": "rare",
             "customProperties": {
                 "baseMetal": "Ash Quartz",
                 "requiredTool": "Jeweler's Tools",
@@ -9654,13 +9654,13 @@
             "name": "Wyrm Platinum",
             "source": "TftJC",
             "type": "TG",
-            "rarity": "uncommon",
+            "rarity": "rare",
             "customProperties": {
                 "baseMetal": "Dragon's Gold",
                 "requiredTool": "Smith's Tools",
                 "forgingConditions": "15 CHA, 20 if smith is Draconic.",
-                "armorEffects": "You have advantage on Charisma checks when bartering. Dragons will be innately more aggressive towards you.",
-                "weaponEffects": "Once per turn, when you hit with this weapon you can add your Proficiency Bonus to the Damage. Dragons will be innately more aggressive towards you.",
+                "armorEffects": "Dragons will be innately more aggressive towards you and have advantage on attack rolls against you. You have advantage on Charisma checks when bartering. The price for material components for spells is discounted by 10% while wearing this armor.",
+                "weaponEffects": "Once per turn, when you hit with this weapon you can add your Proficiency Bonus to the Damage, or twice your Proficiency Bonus to damage against dragons. Dragons will be innately more aggressive towards you and you have disadvantage on attack rolls against dragons.",
                 "additionalEffects": "Dragon's gold Cartographer's tool can be used to create spell scroll of Locate Object, or Locate Creature. When used in this way the gold cost to make such scroll is reduced by 75%. You can make and cast these scrolls even if they aren't on your spell list or you don't have the spell slot.",
                 "druidUseable": false
             },
@@ -9673,8 +9673,8 @@
                         "<b>Base Metal:</b> {@item Dragon's Gold|TftJC}",
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> 15 CHA, 20 if smith is Draconic.",
-                        "<b>Armor Effects:</b> You have advantage on Charisma checks when bartering. Dragons will be innately more aggressive towards you.",
-                        "<b>Weapon Effects:</b> Once per turn, when you hit with this weapon you can add your Proficiency Bonus to the Damage. Dragons will be innately more aggressive towards you.",
+                        "<b>Armor Effects:</b> Dragons will be innately more aggressive towards you and have advantage on attack rolls against you. You have advantage on Charisma checks when bartering. The price for material components for spells is discounted by 10% while wearing this armor.",
+                        "<b>Weapon Effects:</b> Once per turn, when you hit with this weapon you can add your Proficiency Bonus to the Damage, or twice your Proficiency Bonus to damage against dragons. Dragons will be innately more aggressive towards you and you have disadvantage on attack rolls against dragons.",
                         "<b>Additional Effects:</b> Dragon's gold Cartographer's tool can be used to create spell scroll of Locate Object, or Locate Creature. When used in this way the gold cost to make such scroll is reduced by 75%. You can make and cast these scrolls even if they aren't on your spell list or you don't have the spell slot.",
                         "<b>Druid Useable:</b> No"
                     ]

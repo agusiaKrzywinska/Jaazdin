@@ -2,14 +2,14 @@
   "name": "Arc-Platinum",
   "source": "TftJC",
   "type": "TG",
-  "rarity": "common",
+  "rarity": "uncommon",
   "customProperties": {
     "baseMetal": "Platinum",
     "requiredTool": "Smith's Tools",
-    "armorEffects": "-",
-    "weaponEffects": "-",
+    "armorEffects": "Once per short rest, when you make an ability check or saving throw you can add +2 to it (after the roll but before you know the results).",
+    "weaponEffects": "Once per short rest, when you make an attack roll with this weapon you can add +2 to its to hit (and if that attack hits) the damage roll as well. You must do this after you roll, but before you know the result.",
     "additionalEffects": "",
-    "druidUseable": true
+    "druidUseable": false
   },
   "entries": [
     "Runesmithed",
@@ -19,10 +19,10 @@
       "entries": [
         "<b>Base Metal:</b> {@item Platinum|TftJC}",
         "<b>Required Tool:</b> Smith's Tools",
-        "<b>Armor Effects:</b> -",
-        "<b>Weapon Effects:</b> -",
+        "<b>Armor Effects:</b> Once per short rest, when you make an ability check or saving throw you can add +2 to it (after the roll but before you know the results).",
+        "<b>Weapon Effects:</b> Once per short rest, when you make an attack roll with this weapon you can add +2 to its to hit (and if that attack hits) the damage roll as well. You must do this after you roll, but before you know the result.",
         "<b>Additional Effects:</b> ",
-        "<b>Druid Useable:</b> Yes"
+        "<b>Druid Useable:</b> No"
       ]
     }
   ]

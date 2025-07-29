@@ -2,13 +2,13 @@
   "name": "Mercurial Sludge",
   "source": "TftJC",
   "type": "TG",
-  "rarity": "legendary",
+  "rarity": "very rare",
   "customProperties": {
-    "baseMetal": "God-Shell",
+    "baseMetal": "Devil's Mercury",
     "requiredTool": "Alchemist's Supplies",
     "forgingConditions": "Must be processed using divine alchemy.",
-    "armorEffects": "You can change the armor's AC as a bonus action, choosing any value between 11 and 18.",
-    "weaponEffects": "As a bonus action, you can change this weapon's damage type to any type of your choice.",
+    "armorEffects": "Heavy Armor is treated as Medium Armor, and Medium armor is treated as Light. Light Armor requires no proficiency to wear. This armor can be absorbed into your body or expunged as a Free Action, allowing you to instantly don or doff it.",
+    "weaponEffects": "Weapon attacks that hit a creature force a DC 17 Con save (poison effect), and on a fail the target suffers 1d6 Necrotic damage at the start of their turn. This lasts for 1 minute, and the target can repeat this saving throw to end the effect early. This weapon can be absorbed into your body or expunged as a Free Action, allowing you to instantly wield or hide it.",
     "additionalEffects": "You can cast Polymorph on yourself once per day without using a spell slot.",
     "druidUseable": false
   },
@@ -18,11 +18,11 @@
       "type": "entries",
       "name": "Properties",
       "entries": [
-        "<b>Base Metal:</b> {@item God-Shell|TftJC}",
+        "<b>Base Metal:</b> {@item Devil's Mercury|TftJC}",
         "<b>Required Tool:</b> Alchemist's Supplies",
         "<b>Forging Conditions:</b> Must be processed using divine alchemy.",
-        "<b>Armor Effects:</b> You can change the armor's AC as a bonus action, choosing any value between 11 and 18.",
-        "<b>Weapon Effects:</b> As a bonus action, you can change this weapon's damage type to any type of your choice.",
+        "<b>Armor Effects:</b> Heavy Armor is treated as Medium Armor, and Medium armor is treated as Light. Light Armor requires no proficiency to wear. This armor can be absorbed into your body or expunged as a Free Action, allowing you to instantly don or doff it.",
+        "<b>Weapon Effects:</b> Weapon attacks that hit a creature force a DC 17 Con save (poison effect), and on a fail the target suffers 1d6 Necrotic damage at the start of their turn. This lasts for 1 minute, and the target can repeat this saving throw to end the effect early. This weapon can be absorbed into your body or expunged as a Free Action, allowing you to instantly wield or hide it.",
         "<b>Additional Effects:</b> You can cast Polymorph on yourself once per day without using a spell slot.",
         "<b>Druid Useable:</b> No"
       ]

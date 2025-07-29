@@ -2,13 +2,13 @@
   "name": "Wyrm Platinum",
   "source": "TftJC",
   "type": "TG",
-  "rarity": "uncommon",
+  "rarity": "rare",
   "customProperties": {
     "baseMetal": "Dragon's Gold",
     "requiredTool": "Smith's Tools",
     "forgingConditions": "15 CHA, 20 if smith is Draconic.",
-    "armorEffects": "You have advantage on Charisma checks when bartering. Dragons will be innately more aggressive towards you.",
-    "weaponEffects": "Once per turn, when you hit with this weapon you can add your Proficiency Bonus to the Damage. Dragons will be innately more aggressive towards you.",
+    "armorEffects": "Dragons will be innately more aggressive towards you and have advantage on attack rolls against you. You have advantage on Charisma checks when bartering. The price for material components for spells is discounted by 10% while wearing this armor.",
+    "weaponEffects": "Once per turn, when you hit with this weapon you can add your Proficiency Bonus to the Damage, or twice your Proficiency Bonus to damage against dragons. Dragons will be innately more aggressive towards you and you have disadvantage on attack rolls against dragons.",
     "additionalEffects": "Dragon's gold Cartographer's tool can be used to create spell scroll of Locate Object, or Locate Creature. When used in this way the gold cost to make such scroll is reduced by 75%. You can make and cast these scrolls even if they aren't on your spell list or you don't have the spell slot.",
     "druidUseable": false
   },
@@ -21,8 +21,8 @@
         "<b>Base Metal:</b> {@item Dragon's Gold|TftJC}",
         "<b>Required Tool:</b> Smith's Tools",
         "<b>Forging Conditions:</b> 15 CHA, 20 if smith is Draconic.",
-        "<b>Armor Effects:</b> You have advantage on Charisma checks when bartering. Dragons will be innately more aggressive towards you.",
-        "<b>Weapon Effects:</b> Once per turn, when you hit with this weapon you can add your Proficiency Bonus to the Damage. Dragons will be innately more aggressive towards you.",
+        "<b>Armor Effects:</b> Dragons will be innately more aggressive towards you and have advantage on attack rolls against you. You have advantage on Charisma checks when bartering. The price for material components for spells is discounted by 10% while wearing this armor.",
+        "<b>Weapon Effects:</b> Once per turn, when you hit with this weapon you can add your Proficiency Bonus to the Damage, or twice your Proficiency Bonus to damage against dragons. Dragons will be innately more aggressive towards you and you have disadvantage on attack rolls against dragons.",
         "<b>Additional Effects:</b> Dragon's gold Cartographer's tool can be used to create spell scroll of Locate Object, or Locate Creature. When used in this way the gold cost to make such scroll is reduced by 75%. You can make and cast these scrolls even if they aren't on your spell list or you don't have the spell slot.",
         "<b>Druid Useable:</b> No"
       ]

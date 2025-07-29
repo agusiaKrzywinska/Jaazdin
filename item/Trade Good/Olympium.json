@@ -4,7 +4,7 @@
   "type": "TG",
   "rarity": "legendary",
   "customProperties": {
-    "baseMetal": "Celestial Gold",
+    "baseMetal": "Alacriver",
     "requiredTool": "Smith's Tools",
     "forgingConditions": "Must be blessed by a deity or celestial being.",
     "armorEffects": "You have resistance to radiant damage and advantage on saving throws against being frightened.",
@@ -18,7 +18,7 @@
       "type": "entries",
       "name": "Properties",
       "entries": [
-        "<b>Base Metal:</b> {@item Celestial Gold|TftJC}",
+        "<b>Base Metal:</b> {@item Alacriver|TftJC}",
         "<b>Required Tool:</b> Smith's Tools",
         "<b>Forging Conditions:</b> Must be blessed by a deity or celestial being.",
         "<b>Armor Effects:</b> You have resistance to radiant damage and advantage on saving throws against being {@condition frightened}.",

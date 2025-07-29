@@ -2,14 +2,14 @@
   "name": "Purity",
   "source": "TftJC",
   "type": "TG",
-  "rarity": "common",
+  "rarity": "uncommon",
   "customProperties": {
     "baseMetal": "Gold",
     "requiredTool": "Smith's Tools",
     "armorEffects": "Increases Charisma by 1, up to 30.",
     "weaponEffects": "Gains a +1 to damage rolls equal to half of your Charisma Bonus (rounded down, +2 CHA = +1 damage, +4 CHA = +2 damage, so on).",
     "additionalEffects": "",
-    "druidUseable": true
+    "druidUseable": false
   },
   "entries": [
     "Runesmithed",
@@ -22,7 +22,7 @@
         "<b>Armor Effects:</b> Increases Charisma by 1, up to 30.",
         "<b>Weapon Effects:</b> Gains a +1 to damage rolls equal to half of your Charisma Bonus (rounded down, +2 CHA = +1 damage, +4 CHA = +2 damage, so on).",
         "<b>Additional Effects:</b> ",
-        "<b>Druid Useable:</b> Yes"
+        "<b>Druid Useable:</b> No"
       ]
     }
   ]

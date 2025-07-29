@@ -4,12 +4,12 @@
   "type": "TG",
   "rarity": "uncommon",
   "customProperties": {
-    "baseMetal": "Ironbark",
+    "baseMetal": "Ironoak",
     "requiredTool": "Woodcarver's Tools",
     "forgingConditions": "None",
-    "armorEffects": "When a creature hits you with a melee weapon attack, the attacker takes 1 piercing damage.",
-    "weaponEffects": "Weapon Attacks made with this weapon deal Slashing damage instead of their normal damage type.",
-    "additionalEffects": "When crafting or repairing an item made from Razorwood, the time to craft it is reduced by half.",
+    "armorEffects": "This material can be used by Druids for armor, and is non magnetic. Razorwood provides excellent resistance to bludgeoning and piercing damage, reducing all bludgeoning and piercing damage taken by 2. However, whenever you take slashing damage you take 1 more slashing damage.",
+    "weaponEffects": "This material can be used by Druids for armor, and is non magnetic. Razorwood weapon's are sharpened by magic. When you cast a spell that effects your weapon or requires a weapon attack as part of it, such as Shillelagh or Booming Blade, the weapon gains a bonus to damage equal to the spells level (minimum 1) until the end of your next turn.",
+    "additionalEffects": "Calligraphers tools made from Razorwood decrease the cost of writing spell scrolls by 5%, both gold and time. One must be proficient in Calligraphers to gain this benefit.",
     "druidUseable": true
   },
   "entries": [
@@ -18,12 +18,12 @@
       "type": "entries",
       "name": "Properties",
       "entries": [
-        "<b>Base Metal:</b> Ironbark",
+        "<b>Base Metal:</b> {@item Ironoak|TftJC}",
         "<b>Required Tool:</b> Woodcarver's Tools",
         "<b>Forging Conditions:</b> None",
-        "<b>Armor Effects:</b> When a creature hits you with a melee weapon attack, the attacker takes 1 piercing damage.",
-        "<b>Weapon Effects:</b> Weapon Attacks made with this weapon deal Slashing damage instead of their normal damage type.",
-        "<b>Additional Effects:</b> When crafting or repairing an item made from Razorwood, the time to craft it is reduced by half.",
+        "<b>Armor Effects:</b> This material can be used by Druids for armor, and is non magnetic. Razorwood provides excellent resistance to bludgeoning and piercing damage, reducing all bludgeoning and piercing damage taken by 2. However, whenever you take slashing damage you take 1 more slashing damage.",
+        "<b>Weapon Effects:</b> This material can be used by Druids for armor, and is non magnetic. Razorwood weapon's are sharpened by magic. When you cast a spell that effects your weapon or requires a weapon attack as part of it, such as Shillelagh or Booming Blade, the weapon gains a bonus to damage equal to the spells level (minimum 1) until the end of your next turn.",
+        "<b>Additional Effects:</b> Calligraphers tools made from Razorwood decrease the cost of writing spell scrolls by 5%, both gold and time. One must be proficient in Calligraphers to gain this benefit.",
         "<b>Druid Useable:</b> Yes"
       ]
     }

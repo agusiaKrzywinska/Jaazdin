@@ -10,7 +10,7 @@
     "weaponEffects": "Bypasses some damage resistances.",
     "additionalEffects": "-",
     "runesmithing": "Githyanki Silver",
-    "druidUseable": true
+    "druidUseable": false
   },
   "entries": [
     {
@@ -23,7 +23,7 @@
         "<b>Weapon Effects:</b> Bypasses some damage resistances.",
         "<b>Additional Effects:</b> -",
         "<b>Runesmithing:</b> {@item Githyanki Silver|TftJC}",
-        "<b>Druid Useable:</b> Yes"
+        "<b>Druid Useable:</b> No"
       ]
     }
   ]

@@ -4,12 +4,12 @@
   "type": "TG",
   "rarity": "rare",
   "customProperties": {
-    "baseMetal": "Silvered Wood",
-    "requiredTool": "Woodcarver's Tools",
+    "baseMetal": "Void Ash",
+    "requiredTool": "Mason's Tools",
     "forgingConditions": "Must be carved under starlight.",
-    "armorEffects": "You have resistance to necrotic damage.",
-    "weaponEffects": "This weapon deals an additional 1d4 necrotic damage to celestials and fiends.",
-    "additionalEffects": "You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.",
+    "armorEffects": "Your armor provides no AC to physical attacks but is treated as 4 AC higher against spell attacks. In addition you gain resistance to psychic damage.",
+    "weaponEffects": "Weapons ignore AC granted through Armor or Shields.",
+    "additionalEffects": "-",
     "druidUseable": true
   },
   "entries": [
@@ -18,12 +18,12 @@
       "type": "entries",
       "name": "Properties",
       "entries": [
-        "<b>Base Metal:</b> Silvered Wood",
-        "<b>Required Tool:</b> Woodcarver's Tools",
+        "<b>Base Metal:</b> {@item Void Ash|TftJC}",
+        "<b>Required Tool:</b> Mason's Tools",
         "<b>Forging Conditions:</b> Must be carved under starlight.",
-        "<b>Armor Effects:</b> You have resistance to necrotic damage.",
-        "<b>Weapon Effects:</b> This weapon deals an additional {@dice 1d4} necrotic damage to celestials and fiends.",
-        "<b>Additional Effects:</b> You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.",
+        "<b>Armor Effects:</b> Your armor provides no AC to physical attacks but is treated as 4 AC higher against spell attacks. In addition you gain resistance to psychic damage.",
+        "<b>Weapon Effects:</b> Weapons ignore AC granted through Armor or Shields.",
+        "<b>Additional Effects:</b> -",
         "<b>Druid Useable:</b> Yes"
       ]
     }

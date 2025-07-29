@@ -4,13 +4,13 @@
   "type": "TG",
   "rarity": "very rare",
   "customProperties": {
-    "baseMetal": "Cold Titan",
-    "requiredTool": "Smith's Tools",
+    "baseMetal": "Malcanthym",
+    "requiredTool": "Jeweler's Tools",
     "forgingConditions": "Must be forged in absolute darkness.",
-    "armorEffects": "You have blindsight out to 60 feet and resistance to cold damage.",
-    "weaponEffects": "This weapon deals an additional 1d6 cold damage and creates a 5-foot radius of darkness on impact.",
-    "additionalEffects": "You can cast Darkness once per day without using a spell slot.",
-    "druidUseable": false
+    "armorEffects": "Armor made from this metal reduces Thunder and Lightning damage by 2d6. Additionally, you are immune to Thunder and Lightning Damage from non-magical sources.",
+    "weaponEffects": "Dealing or taking Thunder/Lightning damage causes your weapons reach increases by 5 feet until the end of your next turn. Attacks that hit deal 1d8 extra Thunder or Lightning damage if you use the reach granted by this metal to hit the attack.",
+    "additionalEffects": "-",
+    "druidUseable": true
   },
   "entries": [
     "Runesmithed",
@@ -18,13 +18,13 @@
       "type": "entries",
       "name": "Properties",
       "entries": [
-        "<b>Base Metal:</b> Cold Titan",
-        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Base Metal:</b> {@item Malcanthym|TftJC}",
+        "<b>Required Tool:</b> Jeweler's Tools",
         "<b>Forging Conditions:</b> Must be forged in absolute darkness.",
-        "<b>Armor Effects:</b> You have blindsight out to 60 feet and resistance to cold damage.",
-        "<b>Weapon Effects:</b> This weapon deals an additional {@dice 1d6} cold damage and creates a 5-foot radius of darkness on impact.",
-        "<b>Additional Effects:</b> You can cast Darkness once per day without using a spell slot.",
-        "<b>Druid Useable:</b> No"
+        "<b>Armor Effects:</b> Armor made from this metal reduces Thunder and Lightning damage by {@dice 2d6}. Additionally, you are immune to Thunder and Lightning Damage from non-magical sources.",
+        "<b>Weapon Effects:</b> Dealing or taking Thunder/Lightning damage causes your weapons reach increases by 5 feet until the end of your next turn. Attacks that hit deal 1d8 extra Thunder or Lightning damage if you use the reach granted by this metal to hit the attack.",
+        "<b>Additional Effects:</b> -",
+        "<b>Druid Useable:</b> Yes"
       ]
     }
   ]
