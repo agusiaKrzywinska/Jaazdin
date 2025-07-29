@@ -1,0 +1,32 @@
+{
+  "name": "Adamantine",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "17 STR",
+    "armorEffects": "Critical Hits against you become normal hits.",
+    "weaponEffects": "Weapons have the Siege Property.",
+    "additionalEffects": "Material for +2 Smith's, Jeweler's, Cook's, Carpenter's, or Thieves' Tools (2 Plates)",
+    "runesmithing": "Mizzium",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> 17 STR",
+        "<b>Armor Effects:</b> Critical Hits against you become normal hits.",
+        "<b>Weapon Effects:</b> Weapons have the Siege Property.",
+        "<b>Additional Effects:</b> Material for +2 Smith's, Jeweler's, Cook's, Carpenter's, or Thieves' Tools (2 Plates)",
+        "<b>Runesmithing:</b> {@item Mizzium|TftJC}",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

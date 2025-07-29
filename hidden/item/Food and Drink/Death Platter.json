@@ -1,21 +1,21 @@
 {
-    "name": "Death Platter",
-    "source": "TftJC",
-    "type": "FD",
-    "rarity": "rare",
-    "value": 1000,
-    "weight": 0,
-    "entries": [
-        "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
-        "<b>Ingredients:</b> x2 Rare Undead Meat, x1 Deathrose",
-        "<b>Effect:</b> When you eat this meal you must make a DC 10 Constitution saving throw or die instantly. If you succeed on the save, your life signs become undetectable for the duration of the meal."
-    ],
-    "foundryType": "consumable",
-    "foundrySystem": {
-        "consumableType": "food",
-        "uses": {
-            "max": 1,
-            "per": "charges"
-        }
+  "name": "Death Platter",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "rare",
+  "value": 1000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
+    "<b>Ingredients:</b> x2 Rare Undead Meat, x1 Deathrose",
+    "<b>Effect:</b> When you eat this meal you must make a DC 10 Constitution saving throw or die instantly. If you succeed on the save, your life signs become undetectable for the duration of the meal."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
     }
+  }
 }

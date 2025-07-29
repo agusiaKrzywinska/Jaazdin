@@ -1,0 +1,31 @@
+{
+  "name": "Dirythym",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "baseMetal": "Cold Titan",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Must be forged in absolute darkness.",
+    "armorEffects": "You have blindsight out to 60 feet and resistance to cold damage.",
+    "weaponEffects": "This weapon deals an additional 1d6 cold damage and creates a 5-foot radius of darkness on impact.",
+    "additionalEffects": "You can cast Darkness once per day without using a spell slot.",
+    "druidUseable": false
+  },
+  "entries": [
+    "Runesmithed",
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Base Metal:</b> Cold Titan",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Must be forged in absolute darkness.",
+        "<b>Armor Effects:</b> You have blindsight out to 60 feet and resistance to cold damage.",
+        "<b>Weapon Effects:</b> This weapon deals an additional 1d6 cold damage and creates a 5-foot radius of darkness on impact.",
+        "<b>Additional Effects:</b> You can cast Darkness once per day without using a spell slot.",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

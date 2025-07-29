@@ -1,0 +1,32 @@
+{
+  "name": "Cosmium",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "Astral Sea",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "6th Lvl Radiant Spell",
+    "armorEffects": "You gain resistance to Force Damage, any fly speed you have is increased by 10ft.",
+    "weaponEffects": "Cosmium weapons roll double the damage die, and take the highest result.",
+    "additionalEffects": "Cosmium Painters tools can create real life objects by painting them. Objects last for 1 minute and cannot have a value greater than 10gp.",
+    "runesmithing": "Eternium",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Astral Sea",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> 6th Lvl Radiant Spell",
+        "<b>Armor Effects:</b> You gain resistance to Force Damage, any fly speed you have is increased by 10ft.",
+        "<b>Weapon Effects:</b> Cosmium weapons roll double the damage die, and take the highest result.",
+        "<b>Additional Effects:</b> Cosmium Painters tools can create real life objects by painting them. Objects last for 1 minute and cannot have a value greater than 10gp.",
+        "<b>Runesmithing:</b> {@item Eternium|TftJC}",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

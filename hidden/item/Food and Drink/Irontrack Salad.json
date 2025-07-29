@@ -1,21 +1,21 @@
 {
-    "name": "Irontrack Salad",
-    "source": "TftJC",
-    "type": "FD",
-    "rarity": "very rare",
-    "value": 15000,
-    "weight": 0,
-    "entries": [
-        "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
-        "<b>Ingredients:</b> x4 Remedial Herbs, x3 ???, x2 Red Winter Berry, x2 Harmony Cap, x1 ???, x3 Hiker's Bounty",
-        "<b>Effect:</b> You ignore the effects of the first 5 levels of exhaustion."
-    ],
-    "foundryType": "consumable",
-    "foundrySystem": {
-        "consumableType": "food",
-        "uses": {
-            "max": 1,
-            "per": "charges"
-        }
+  "name": "Irontrack Salad",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "very rare",
+  "value": 15000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
+    "<b>Ingredients:</b> x4 Remedial Herbs, x3 ???, x2 Red Winter Berry, x2 Harmony Cap, x1 ???, x3 Hiker's Bounty",
+    "<b>Effect:</b> You ignore the effects of the first 5 levels of exhaustion."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
     }
+  }
 }

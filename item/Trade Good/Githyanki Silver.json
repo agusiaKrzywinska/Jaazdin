@@ -1,0 +1,29 @@
+{
+  "name": "Githyanki Silver",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "common",
+  "customProperties": {
+    "baseMetal": "Silver",
+    "requiredTool": "Smith's Tools",
+    "armorEffects": "-",
+    "weaponEffects": "Bypasses some damage resistances.",
+    "additionalEffects": "-",
+    "druidUseable": true
+  },
+  "entries": [
+    "Runesmithed",
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Base Metal:</b> {@item Silver|TftJC}",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Armor Effects:</b> -",
+        "<b>Weapon Effects:</b> Bypasses some damage resistances.",
+        "<b>Additional Effects:</b> -",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Malcanthym",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "Elemental Chaos",
+    "requiredTool": "Jeweler's Tools",
+    "forgingConditions": "6th level Lightning Spell",
+    "armorEffects": "Armor made from this metal reduces Thunder and Lightning damage by 2d4.",
+    "weaponEffects": "Dealing or taking Thunder/Lightning damage causes your weapons reach increases by 5 feet until the end of your next turn.",
+    "additionalEffects": "-",
+    "runesmithing": "Dirythym",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Elemental Chaos",
+        "<b>Required Tool:</b> Jeweler's Tools",
+        "<b>Forging Conditions:</b> 6th level Lightning Spell",
+        "<b>Armor Effects:</b> Armor made from this metal reduces Thunder and Lightning damage by 2d4.",
+        "<b>Weapon Effects:</b> Dealing or taking Thunder/Lightning damage causes your weapons reach increases by 5 feet until the end of your next turn.",
+        "<b>Additional Effects:</b> -",
+        "<b>Runesmithing:</b> {@item Dirythym|TftJC}",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

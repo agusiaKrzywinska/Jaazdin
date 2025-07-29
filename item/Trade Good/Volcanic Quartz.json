@@ -1,0 +1,31 @@
+{
+  "name": "Volcanic Quartz",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "baseMetal": "Ash Quartz",
+    "requiredTool": "Jeweler's Tools",
+    "forgingConditions": "3rd level or higher Evocation Spell that deals fire damage and Smith's Tools Proficiency",
+    "armorEffects": "Can only be made into Heavy Armor. Requires 23+ Strength to wear. Grants 1 more AC than normal armor of the same type.",
+    "weaponEffects": "Can only be made into heavy weapons. Deals 1 step higher damage dice. Requires 23+ Strength to wield.",
+    "additionalEffects": "Material for +1 Alchemist, Brewer's, or Glassblower's Tools (2 Plates).",
+    "druidUseable": true
+  },
+  "entries": [
+    "Runesmithed",
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Base Metal:</b> {@item Ash Quartz|TftJC}",
+        "<b>Required Tool:</b> Jeweler's Tools",
+        "<b>Forging Conditions:</b> 3rd level or higher Evocation Spell that deals fire damage and Smith's Tools Proficiency",
+        "<b>Armor Effects:</b> Can only be made into Heavy Armor. Requires 23+ Strength to wear. Grants 1 more AC than normal armor of the same type.",
+        "<b>Weapon Effects:</b> Can only be made into heavy weapons. Deals 1 step higher damage dice. Requires 23+ Strength to wield.",
+        "<b>Additional Effects:</b> Material for +1 Alchemist, Brewer's, or Glassblower's Tools (2 Plates).",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

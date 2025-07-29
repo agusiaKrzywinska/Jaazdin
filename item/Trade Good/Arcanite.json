@@ -1,0 +1,31 @@
+{
+  "name": "Arcanite",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "baseMetal": "Mithral",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Smith's Tools Bonus of +10 or higher",
+    "armorEffects": "Armor does not pose disadvantage on stealth checks. Arcanite requires half of the gold cost to Enchant it. Arcanite can hold a spell inside it, of up to 3rd level. Any spell that is an action can be placed inside the armor and kept, until the wearer uses an action to cast it. Once cast the spell is lost until a new one is placed inside it. The spell save/attack for stored spells is DC 12 or +4, plus any enchantments on the armor (ie, +1 armor would have a DC 13 save) Activating Arcanite drains you, a creature cannot activate an Arcanite weapon or armor more than once without finishing a long rest.",
+    "weaponEffects": "Arcanite requires half of the gold cost to Enchant it. Arcanite weapon can hold a spell inside it, of up to 3rd level. Any spell that is an action can be placed inside the weapon and kept, until the wielder uses an action to cast it. Once cast the spell is lost until a new one is placed inside it. The spell save/attack for stored spells is DC 12 or +4, plus any enchantments on the weapon (ie, +1 weapon would have a DC 13 save). Activating Arcanite drains you, a creature cannot activate an Arcanite weapon or armor more than once without finishing a long rest.",
+    "additionalEffects": "Treated as {@item Silver|TftJC} for overcoming Resistances, Arcanite Leatherworker's tools provide an additional +1 bonus when crafting magic item with the tools.",
+    "druidUseable": false
+  },
+  "entries": [
+    "Runesmithed",
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Base Metal:</b> {@item Mithral|TftJC}",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Smith's Tools Bonus of +10 or higher",
+        "<b>Armor Effects:</b> Armor does not pose disadvantage on stealth checks. Arcanite requires half of the gold cost to Enchant it. Arcanite can hold a spell inside it, of up to 3rd level. Any spell that is an action can be placed inside the armor and kept, until the wearer uses an action to cast it. Once cast the spell is lost until a new one is placed inside it. The spell save/attack for stored spells is DC 12 or +4, plus any enchantments on the armor (ie, +1 armor would have a DC 13 save) Activating Arcanite drains you, a creature cannot activate an Arcanite weapon or armor more than once without finishing a long rest.",
+        "<b>Weapon Effects:</b> Arcanite requires half of the gold cost to Enchant it. Arcanite weapon can hold a spell inside it, of up to 3rd level. Any spell that is an action can be placed inside the weapon and kept, until the wielder uses an action to cast it. Once cast the spell is lost until a new one is placed inside it. The spell save/attack for stored spells is DC 12 or +4, plus any enchantments on the weapon (ie, +1 weapon would have a DC 13 save). Activating Arcanite drains you, a creature cannot activate an Arcanite weapon or armor more than once without finishing a long rest.",
+        "<b>Additional Effects:</b> Treated as {@item Silver|TftJC} for overcoming Resistances, Arcanite Leatherworker's tools provide an additional +1 bonus when crafting magic item with the tools.",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

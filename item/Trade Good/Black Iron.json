@@ -1,0 +1,32 @@
+{
+  "name": "Black Iron",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Uncommon or Better Smith's Tools",
+    "armorEffects": "Armor has its weight multiplied by 1.5x. Crafting Armor besides Titanic Platemail or greater requires half the plates (rounded up).",
+    "weaponEffects": "Attacking a creature concentrating on a spell gives them disadvantage on the saving throw to maintain concentration.",
+    "additionalEffects": "Material for +1 Smith's, Jeweler's, Cook's, Carpenter's, or Thieves' Tools (2 Plates). Can be used to make Titanic Platemail (10 Plates)",
+    "runesmithing": "???",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Uncommon or Better Smith's Tools",
+        "<b>Armor Effects:</b> Armor has its weight multiplied by 1.5x. Crafting Armor besides Titanic Platemail or greater requires half the plates (rounded up).",
+        "<b>Weapon Effects:</b> Attacking a creature concentrating on a spell gives them disadvantage on the saving throw to maintain concentration.",
+        "<b>Additional Effects:</b> Material for +1 Smith's, Jeweler's, Cook's, Carpenter's, or Thieves' Tools (2 Plates). Can be used to make Titanic Platemail (10 Plates)",
+        "<b>Runesmithing:</b> ???",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

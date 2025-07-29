@@ -1,21 +1,21 @@
 {
-    "name": "Flare du Fluer",
-    "source": "TftJC",
-    "type": "FD",
-    "rarity": "very rare",
-    "value": 16000,
-    "weight": 0,
-    "entries": [
-        "<b>Preparation:</b> Requires Cook’s Utensils or Brewer’s Supplies to prepare.",
-        "<b>Ingredients:</b> x1 Flaming Lily, x1 Rare Elemental Meat",
-        "<b>Effect:</b> Fire breath."
-    ],
-    "foundryType": "consumable",
-    "foundrySystem": {
-        "consumableType": "food",
-        "uses": {
-            "max": 1,
-            "per": "charges"
-        }
+  "name": "Flare du Fluer",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "very rare",
+  "value": 16000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook’s Utensils or Brewer’s Supplies to prepare.",
+    "<b>Ingredients:</b> x1 Flaming Lily, x1 Rare Elemental Meat",
+    "<b>Effect:</b> Fire breath."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
     }
+  }
 }

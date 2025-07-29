@@ -1,0 +1,32 @@
+{
+  "name": "Unstable Uranium",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "legendary",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Alchemist's Supplies",
+    "forgingConditions": "Attempting to forge/smelt/refine Unstable Uranium causes the forger to take Necrotic Damage equal to their Tools check x5. If this reduces the forger to 0 hit points, their body turns to ash.",
+    "armorEffects": "Cannot be crafted into a shield or Light armor. While wearing this armor, your maximum Hit points are Reduced by 50, and are reduced by another 50 for each consecutive week of use (these hit points return after a week without wearing the armor). You gain Immunity to Poison, Acid and Necrotic Damage. If you would take over 20 points of Thunder/Fire Damage, all creatures within 10ft of you (including yourself) must make a DC 19 CON Save or have their Maximum Hit points reduced by the same amount. If this effect would kill a creature, they turn to ash.",
+    "weaponEffects": "Cannot be made into Ammunition or Light Weapons. While wielding this weapon, your Maximum hit points are reduced by 25, and are reduced by another 25 for each consecutive week of use (these hit points return after a week without wielding the weapon). This weapon doubles the effectiveness of any enchantment that increases its to hit and damage roll bonus (up to a +6). On a hit, this weapon reduces a creatures maximum hit points by half of the damage it dealt (bludgeoning/piercing/slashing only). Creatures killed by this weapon turn to ash.",
+    "additionalEffects": "-",
+    "runesmithing": "Stabilized Uranium",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Alchemist's Supplies",
+        "<b>Forging Conditions:</b> Attempting to forge/smelt/refine Unstable Uranium causes the forger to take Necrotic Damage equal to their Tools check x5. If this reduces the forger to 0 hit points, their body turns to ash.",
+        "<b>Armor Effects:</b> Cannot be crafted into a shield or Light armor. While wearing this armor, your maximum Hit points are Reduced by 50, and are reduced by another 50 for each consecutive week of use (these hit points return after a week without wearing the armor). You gain Immunity to Poison, Acid and Necrotic Damage. If you would take over 20 points of Thunder/Fire Damage, all creatures within 10ft of you (including yourself) must make a DC 19 CON Save or have their Maximum Hit points reduced by the same amount. If this effect would kill a creature, they turn to ash.",
+        "<b>Weapon Effects:</b> Cannot be made into Ammunition or Light Weapons. While wielding this weapon, your Maximum hit points are reduced by 25, and are reduced by another 25 for each consecutive week of use (these hit points return after a week without wielding the weapon). This weapon doubles the effectiveness of any enchantment that increases its to hit and damage roll bonus (up to a +6). On a hit, this weapon reduces a creatures maximum hit points by half of the damage it dealt (bludgeoning/piercing/slashing only). Creatures killed by this weapon turn to ash.",
+        "<b>Additional Effects:</b> -",
+        "<b>Runesmithing:</b> {@item Stabilized Uranium|TftJC}",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

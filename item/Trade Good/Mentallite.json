@@ -1,0 +1,31 @@
+{
+  "name": "Mentallite",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "legendary",
+  "customProperties": {
+    "baseMetal": "Truemetal",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Must be forged by someone with telepathic abilities.",
+    "armorEffects": "You have resistance to psychic damage and advantage on saving throws against being charmed.",
+    "weaponEffects": "When you hit with this weapon, you can communicate telepathically with the target for 1 minute.",
+    "additionalEffects": "You can cast Detect Thoughts once per day without using a spell slot.",
+    "druidUseable": false
+  },
+  "entries": [
+    "Runesmithed",
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Base Metal:</b> {@item Truemetal|TftJC}",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Must be forged by someone with telepathic abilities.",
+        "<b>Armor Effects:</b> You have resistance to psychic damage and advantage on saving throws against being charmed.",
+        "<b>Weapon Effects:</b> When you hit with this weapon, you can communicate telepathically with the target for 1 minute.",
+        "<b>Additional Effects:</b> You can cast Detect Thoughts once per day without using a spell slot.",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

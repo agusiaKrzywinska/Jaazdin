@@ -1,0 +1,32 @@
+{
+  "name": "Cobalt",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Bury underground for a week + 6th Lvl Earth Spell",
+    "armorEffects": "Armor made from this metal gives you immunity to the effects of Cantrips.",
+    "weaponEffects": "The damage dealt by this weapon is force. Once per turn, you can apply the weapon bonuses on this weapon to a single spell attack roll. Bonuses granted in this way are halved.",
+    "additionalEffects": "Cobalt Arcane focuses require half as much gold to enchant.",
+    "runesmithing": "Prismium",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Bury underground for a week + 6th Lvl Earth Spell",
+        "<b>Armor Effects:</b> Armor made from this metal gives you immunity to the effects of Cantrips.",
+        "<b>Weapon Effects:</b> The damage dealt by this weapon is force. Once per turn, you can apply the weapon bonuses on this weapon to a single spell attack roll. Bonuses granted in this way are halved.",
+        "<b>Additional Effects:</b> Cobalt Arcane focuses require half as much gold to enchant.",
+        "<b>Runesmithing:</b> {@item Prismium|TftJC}",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

@@ -1,21 +1,21 @@
 {
-    "name": "Roast Beast",
-    "source": "TftJC",
-    "type": "FD",
-    "rarity": "very rare",
-    "value": 18000,
-    "weight": 0,
-    "entries": [
-        "<b>Preparation:</b> Requires Cook's Utensils to prepare.",
-        "<b>Ingredients:</b> x2 Rare Beast Meat, x1 Rare Celestial Meat",
-        "<b>Effect:</b> When making Strength ability checks your Strength is considered to be 30."
-    ],
-    "foundryType": "consumable",
-    "foundrySystem": {
-        "consumableType": "food",
-        "uses": {
-            "max": 1,
-            "per": "charges"
-        }
+  "name": "Roast Beast",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "very rare",
+  "value": 18000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook's Utensils to prepare.",
+    "<b>Ingredients:</b> x2 Rare Beast Meat, x1 Rare Celestial Meat",
+    "<b>Effect:</b> When making Strength ability checks your Strength is considered to be 30."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
     }
+  }
 }

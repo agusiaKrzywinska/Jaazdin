@@ -1,21 +1,21 @@
 {
-    "name": "Grand Panacea",
-    "source": "TftJC",
-    "type": "FD",
-    "rarity": "legendary",
-    "value": 50000,
-    "weight": 0,
-    "entries": [
-        "<b>Preparation:</b> Requires Brewer’s Supplies to prepare.",
-        "<b>Ingredients:</b> ???",
-        "<b>Effect:</b> Removes the poisoned condition, any curses, and diseases."
-    ],
-    "foundryType": "consumable",
-    "foundrySystem": {
-        "consumableType": "food",
-        "uses": {
-            "max": 1,
-            "per": "charges"
-        }
+  "name": "Grand Panacea",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "legendary",
+  "value": 50000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Brewer’s Supplies to prepare.",
+    "<b>Ingredients:</b> ???",
+    "<b>Effect:</b> Removes the poisoned condition, any curses, and diseases."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
     }
+  }
 }

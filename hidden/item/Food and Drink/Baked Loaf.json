@@ -1,21 +1,21 @@
 {
-    "name": "Baked Loaf",
-    "source": "TftJC",
-    "type": "FD",
-    "rarity": "rare",
-    "value": 6000,
-    "weight": 0,
-    "entries": [
-        "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
-        "<b>Ingredients:</b> x1 Rare Meat, x2 Shaishen Herb",
-        "<b>Effect:</b> Calming Effect."
-    ],
-    "foundryType": "consumable",
-    "foundrySystem": {
-        "consumableType": "food",
-        "uses": {
-            "max": 1,
-            "per": "charges"
-        }
+  "name": "Baked Loaf",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "rare",
+  "value": 6000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
+    "<b>Ingredients:</b> x1 Rare Meat, x2 Shaishen Herb",
+    "<b>Effect:</b> Calming Effect."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
     }
+  }
 }

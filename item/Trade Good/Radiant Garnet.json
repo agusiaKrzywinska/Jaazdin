@@ -1,0 +1,31 @@
+{
+  "name": "Radiant Garnet",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "baseMetal": "Gor'shorot",
+    "requiredTool": "Jeweler's Tools",
+    "forgingConditions": "3rd Lvl Graviturgy Spell",
+    "armorEffects": "???",
+    "weaponEffects": "???",
+    "additionalEffects": "???",
+    "druidUseable": true
+  },
+  "entries": [
+    "Runesmithed",
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Base Metal:</b> {@item Gor'shorot|TftJC}",
+        "<b>Required Tool:</b> Jeweler's Tools",
+        "<b>Forging Conditions:</b> 3rd Lvl Graviturgy Spell",
+        "<b>Armor Effects:</b> ???",
+        "<b>Weapon Effects:</b> ???",
+        "<b>Additional Effects:</b> ???",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

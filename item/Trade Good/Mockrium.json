@@ -1,0 +1,32 @@
+{
+  "name": "Mockrium",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "legendary",
+  "customProperties": {
+    "planeOfOrigin": "Limbo",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Smith's tools made from a Legendary Metal.",
+    "armorEffects": "Takes on the properties of the last metal to strike it, that is of a lower rarity than it.",
+    "weaponEffects": "Takes on the properties of the last metal it struck, that is of a lower rarity than it.",
+    "additionalEffects": "Smith's tools made from Mockrium when used to craft objects from metal produce an extra plate of the metal used when the object is finished being crafted. The extra plate is only produced if the amount of plates used in the construction is 5 or greater.",
+    "runesmithing": "???",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Limbo",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Smith's tools made from a Legendary Metal.",
+        "<b>Armor Effects:</b> Takes on the properties of the last metal to strike it, that is of a lower rarity than it.",
+        "<b>Weapon Effects:</b> Takes on the properties of the last metal it struck, that is of a lower rarity than it.",
+        "<b>Additional Effects:</b> Smith's tools made from Mockrium when used to craft objects from metal produce an extra plate of the metal used when the object is finished being crafted. The extra plate is only produced if the amount of plates used in the construction is 5 or greater.",
+        "<b>Runesmithing:</b> ???",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

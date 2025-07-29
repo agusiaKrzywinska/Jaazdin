@@ -1,0 +1,32 @@
+{
+  "name": "Prismatic Ice",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "planeOfOrigin": "Water",
+    "requiredTool": "Jeweler's Tools",
+    "forgingConditions": "3rd Lvl Ice/Water spell, 15 DEX",
+    "armorEffects": "You gain 5 damage reduction to cold damage, and each time you take cold damage, this increases by 1 (to a maximum of 10). This is lost after 1 minute of not taking cold damage.",
+    "weaponEffects": "Each time you take cold damage, this weapon deals an additional 1 cold damage, stacking up to a maximum of 5. This is lost after 1 minute of not taking cold dmg.",
+    "additionalEffects": "Material for +2 Alchemist, Brewers, or Glassblower's Tools (2).",
+    "runesmithing": "???",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Water",
+        "<b>Required Tool:</b> Jeweler's Tools",
+        "<b>Forging Conditions:</b> 3rd Lvl Ice/Water spell, 15 DEX",
+        "<b>Armor Effects:</b> You gain 5 damage reduction to cold damage, and each time you take cold damage, this increases by 1 (to a maximum of 10). This is lost after 1 minute of not taking cold damage.",
+        "<b>Weapon Effects:</b> Each time you take cold damage, this weapon deals an additional 1 cold damage, stacking up to a maximum of 5. This is lost after 1 minute of not taking cold dmg.",
+        "<b>Additional Effects:</b> Material for +2 Alchemist, Brewers, or Glassblower's Tools (2).",
+        "<b>Runesmithing:</b> ???",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

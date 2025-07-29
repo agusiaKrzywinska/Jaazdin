@@ -1,0 +1,32 @@
+{
+  "name": "Living Lava",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "planeOfOrigin": "9 Hells (Phlegethos)",
+    "requiredTool": "Glassblower's Tools",
+    "forgingConditions": "Proficiency in Persuasion.",
+    "armorEffects": "This armor is sentient, with an INT of 2, WIS of 8 and CHA of 12 (LE). When you would be subjected to taking fire damage, you can use your reaction to try and convince the armor to absorb it. Make a Persuasion check, and on a success, the damage is reduced by an amount equal to your check.",
+    "weaponEffects": "The weapon is sentient, with an INT of 2, WIS of 8 and CHA of 12 (LE). If you would make an attack roll with this weapon and roll 1 under your Critical hit range, you can try and convince the weapon to hit a bit harder. Make a DC 20 Persuasion check, and on a success, your critical hit threshold for that attack is increased by 1. On a fail of 10 or more, the attack misses as the weapon forces you to whiff your strike.",
+    "additionalEffects": "",
+    "runesmithing": "X",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> 9 Hells (Phlegethos)",
+        "<b>Required Tool:</b> Glassblower's Tools",
+        "<b>Forging Conditions:</b> Proficiency in Persuasion.",
+        "<b>Armor Effects:</b> This armor is sentient, with an INT of 2, WIS of 8 and CHA of 12 (LE). When you would be subjected to taking fire damage, you can use your reaction to try and convince the armor to absorb it. Make a Persuasion check, and on a success, the damage is reduced by an amount equal to your check.",
+        "<b>Weapon Effects:</b> The weapon is sentient, with an INT of 2, WIS of 8 and CHA of 12 (LE). If you would make an attack roll with this weapon and roll 1 under your Critical hit range, you can try and convince the weapon to hit a bit harder. Make a DC 20 Persuasion check, and on a success, your critical hit threshold for that attack is increased by 1. On a fail of 10 or more, the attack misses as the weapon forces you to whiff your strike.",
+        "<b>Additional Effects:</b> ",
+        "<b>Runesmithing:</b> X",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

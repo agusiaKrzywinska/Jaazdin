@@ -1,0 +1,32 @@
+{
+  "name": "Cubic Granite",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "planeOfOrigin": "Acheron",
+    "requiredTool": "Mason's Tools",
+    "forgingConditions": "???",
+    "armorEffects": "Cubic Granite can only be made into shields. Cubic Granite shields grant half cover against ranged weapon attacks.",
+    "weaponEffects": "Cubic Granite can only be made into ammunition. Cubic Granite ammunition ignores half cover and deals bludgeoning damage.",
+    "additionalEffects": "",
+    "runesmithing": "???",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Acheron",
+        "<b>Required Tool:</b> Mason's Tools",
+        "<b>Forging Conditions:</b> ???",
+        "<b>Armor Effects:</b> Cubic Granite can only be made into shields. Cubic Granite shields grant half cover against ranged weapon attacks.",
+        "<b>Weapon Effects:</b> Cubic Granite can only be made into ammunition. Cubic Granite ammunition ignores half cover and deals bludgeoning damage.",
+        "<b>Additional Effects:</b> ",
+        "<b>Runesmithing:</b> ???",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

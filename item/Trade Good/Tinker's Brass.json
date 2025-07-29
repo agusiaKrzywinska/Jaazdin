@@ -1,0 +1,32 @@
+{
+  "name": "Tinker's Brass",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "planeOfOrigin": "Mechanius",
+    "requiredTool": "Tinker's Tools",
+    "forgingConditions": "15 INT",
+    "armorEffects": "When hit by a critical hit the attack deals average damage instead of rolling.",
+    "weaponEffects": "Weapons always deal average damage (2,3,4,5, or 6 for D4, D6, D8, D10, and D12)",
+    "additionalEffects": "Material for Clockwork Amulet (1) or +1 Tinker's Tools (2).",
+    "runesmithing": "X",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Mechanius",
+        "<b>Required Tool:</b> Tinker's Tools",
+        "<b>Forging Conditions:</b> 15 INT",
+        "<b>Armor Effects:</b> When hit by a critical hit the attack deals average damage instead of rolling.",
+        "<b>Weapon Effects:</b> Weapons always deal average damage (2,3,4,5, or 6 for D4, D6, D8, D10, and D12)",
+        "<b>Additional Effects:</b> Material for Clockwork Amulet (1) or +1 Tinker's Tools (2).",
+        "<b>Runesmithing:</b> X",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Hunter's Iron",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Forged by a Human with hate in their heart",
+    "armorEffects": "Can only be made into light armor. Taking the dodge action grants a bonus to AC equal to prof bonus. Fey will be more aggressive towards you.",
+    "weaponEffects": "Can only be made into Slashing weapons. Deals one step lower damage dice. Targets lose 1d4 hp (untyped) if they can bleed. Counts as silver for resistances and immunities. Fey will be more aggressive towards you.",
+    "additionalEffects": "F",
+    "runesmithing": "???",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Forged by a Human with hate in their heart",
+        "<b>Armor Effects:</b> Can only be made into light armor. Taking the dodge action grants a bonus to AC equal to prof bonus. Fey will be more aggressive towards you.",
+        "<b>Weapon Effects:</b> Can only be made into Slashing weapons. Deals one step lower damage dice. Targets lose 1d4 hp (untyped) if they can bleed. Counts as silver for resistances and immunities. Fey will be more aggressive towards you.",
+        "<b>Additional Effects:</b> F",
+        "<b>Runesmithing:</b> ???",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

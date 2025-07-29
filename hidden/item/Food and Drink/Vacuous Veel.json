@@ -1,21 +1,21 @@
 {
-    "name": "Vacuous Veel",
-    "source": "TftJC",
-    "type": "FD",
-    "rarity": "rare",
-    "value": 5000,
-    "weight": 0,
-    "entries": [
-        "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
-        "<b>Ingredients:</b> x2 Rare Meat (swim speed)",
-        "<b>Effect:</b> You gain a +1 bonus to Constitution saves and can use your reaction to automatically succeed on a saving throw. Once you use this reaction you lose all the bonuses of this meal."
-    ],
-    "foundryType": "consumable",
-    "foundrySystem": {
-        "consumableType": "food",
-        "uses": {
-            "max": 1,
-            "per": "charges"
-        }
+  "name": "Vacuous Veel",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "rare",
+  "value": 5000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
+    "<b>Ingredients:</b> x2 Rare Meat (swim speed)",
+    "<b>Effect:</b> You gain a +1 bonus to Constitution saves and can use your reaction to automatically succeed on a saving throw. Once you use this reaction you lose all the bonuses of this meal."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
     }
+  }
 }

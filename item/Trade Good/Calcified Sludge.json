@@ -1,0 +1,32 @@
+{
+  "name": "Calcified Sludge",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Alchemist's Tools",
+    "forgingConditions": "13 INT, 3rd level Transmutation Spell",
+    "armorEffects": "Armor made of Calcified Sludge grants resistance to Acid damage.",
+    "weaponEffects": "Weapons deal an additional 1 acid damage on hit.",
+    "additionalEffects": "-",
+    "runesmithing": "???",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Alchemist's Tools",
+        "<b>Forging Conditions:</b> 13 INT, 3rd level Transmutation Spell",
+        "<b>Armor Effects:</b> Armor made of Calcified Sludge grants resistance to Acid damage.",
+        "<b>Weapon Effects:</b> Weapons deal an additional 1 acid damage on hit.",
+        "<b>Additional Effects:</b> -",
+        "<b>Runesmithing:</b> ???",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

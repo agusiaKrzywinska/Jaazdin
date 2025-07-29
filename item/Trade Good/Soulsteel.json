@@ -1,0 +1,32 @@
+{
+  "name": "Soulsteel",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "legendary",
+  "customProperties": {
+    "planeOfOrigin": "Shadowfell",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Must be forged by someone with a total of 50+ points between INT, WIS and CHA.",
+    "armorEffects": "Soulsteel armor protects the wearing from instant death. If you are wearing soulsteel you are immune to effects that would instantly kill you, such a power word kill or finger of death. Soulsteel can only be made into armor and give no benefits as a shield.",
+    "weaponEffects": "Soulsteel weapons obliterate the slain's soul. A creature killed by a soulsteel weapon cannot be revived through any means short of the wish spell. Likewise, spells that influence the souls after death, such as soul cage, soul jar, or speak with dead do not work on a creature killed with a Soulsteel weapon",
+    "additionalEffects": "-",
+    "runesmithing": "X",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Shadowfell",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Must be forged by someone with a total of 50+ points between INT, WIS and CHA.",
+        "<b>Armor Effects:</b> Soulsteel armor protects the wearing from instant death. If you are wearing soulsteel you are immune to effects that would instantly kill you, such a power word kill or finger of death. Soulsteel can only be made into armor and give no benefits as a shield.",
+        "<b>Weapon Effects:</b> Soulsteel weapons obliterate the slain's soul. A creature killed by a soulsteel weapon cannot be revived through any means short of the wish spell. Likewise, spells that influence the souls after death, such as soul cage, soul jar, or speak with dead do not work on a creature killed with a Soulsteel weapon",
+        "<b>Additional Effects:</b> -",
+        "<b>Runesmithing:</b> X",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

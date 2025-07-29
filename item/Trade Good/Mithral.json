@@ -1,0 +1,32 @@
+{
+  "name": "Mithral",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Smith's Tools Bonus of +10 or higher",
+    "armorEffects": "Armor does not pose disadvantage on stealth checks. Mithral requires half of the gold cost to Enchant it.",
+    "weaponEffects": "Mithral Requires half of the gold cost to enchant it.",
+    "additionalEffects": "Treated as {@item Silver|TftJC} for overcoming Resistances.",
+    "runesmithing": "Arcanite",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Smith's Tools Bonus of +10 or higher",
+        "<b>Armor Effects:</b> Armor does not pose disadvantage on stealth checks. Mithral requires half of the gold cost to Enchant it.",
+        "<b>Weapon Effects:</b> Mithral Requires half of the gold cost to enchant it.",
+        "<b>Additional Effects:</b> Treated as {@item Silver|TftJC} for overcoming Resistances.",
+        "<b>Runesmithing:</b> {@item Arcanite|TftJC}",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

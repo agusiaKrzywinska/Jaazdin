@@ -1,0 +1,32 @@
+{
+  "name": "Alacriver",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "Arborea",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Must be smithed under the effects of Haste, by a creature with at least 100 ft of movement",
+    "armorEffects": "Can only be made into light or medium armor and not shields. Wearer gains 10ft of movement and cannot have their movement speed lowered in any way (other than it getting reduced to 0).",
+    "weaponEffects": "The weapon's critical range is increased by 1.",
+    "additionalEffects": "Material Component for Horseshoes of Zephyr (6 Plates). Any shoes made from Alacriver Cobbler's Tools grant the wearer an extra 5ft of walking movement.",
+    "runesmithing": "Olympium",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Arborea",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Must be smithed under the effects of Haste, by a creature with at least 100 ft of movement",
+        "<b>Armor Effects:</b> Can only be made into light or medium armor and not shields. Wearer gains 10ft of movement and cannot have their movement speed lowered in any way (other than it getting reduced to 0).",
+        "<b>Weapon Effects:</b> The weapon's critical range is increased by 1.",
+        "<b>Additional Effects:</b> Material Component for Horseshoes of Zephyr (6 Plates). Any shoes made from Alacriver Cobbler's Tools grant the wearer an extra 5ft of walking movement.",
+        "<b>Runesmithing:</b> {@item Olympium|TftJC}",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

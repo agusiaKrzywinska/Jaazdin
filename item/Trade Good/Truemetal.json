@@ -1,0 +1,32 @@
+{
+  "name": "Truemetal",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "legendary",
+  "customProperties": {
+    "planeOfOrigin": "Positive Energy Plane",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Must be forged by someone with a total of 50+ points between STR, DEX and CON.",
+    "armorEffects": "Armor reduces damage from Fire/Cold/Lightning/Acid/Poison damage by 5. After the armor reduces 25 damage, the wearer and all creatures within 10ft of them take 10 Force damage (the wearer cannot resist this damage).",
+    "weaponEffects": "Every attack made with this weapon charges it. Every 5th attack hit with this weapon deals an additional 15 Force damage.",
+    "additionalEffects": "-",
+    "runesmithing": "X",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Positive Energy Plane",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Must be forged by someone with a total of 50+ points between STR, DEX and CON.",
+        "<b>Armor Effects:</b> Armor reduces damage from Fire/Cold/Lightning/Acid/Poison damage by 5. After the armor reduces 25 damage, the wearer and all creatures within 10ft of them take 10 Force damage (the wearer cannot resist this damage).",
+        "<b>Weapon Effects:</b> Every attack made with this weapon charges it. Every 5th attack hit with this weapon deals an additional 15 Force damage.",
+        "<b>Additional Effects:</b> -",
+        "<b>Runesmithing:</b> X",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

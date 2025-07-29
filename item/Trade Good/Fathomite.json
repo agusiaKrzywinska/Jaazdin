@@ -1,0 +1,32 @@
+{
+  "name": "Fathomite",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "6th level Fire spell, boiled in salt water",
+    "armorEffects": "When taking force, cold or thunder damage, the wielder can use their reaction to convert the damage they take into either of the other two damage types. All subsequent instances of the converted damage type are treated as the chosen type until the start of the wielder's next turn. Additionally, the wielder gains immunity to crushing pressure of deep water.",
+    "weaponEffects": "Weapons possess the Siege property. When you take cold, force or thunder damage your weapon becomes empowered. It deals an additional 1d8 of that damage type for a number of rounds equal to the damage you took in that instance /10 (min 1). If you take a different damage type, it replaces this effect. Taking more of the same damage type refreshes the round timer on how long the weapon remains empowered.",
+    "additionalEffects": "",
+    "runesmithing": "X",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> 6th level Fire spell, boiled in salt water",
+        "<b>Armor Effects:</b> When taking force, cold or thunder damage, the wielder can use their reaction to convert the damage they take into either of the other two damage types. All subsequent instances of the converted damage type are treated as the chosen type until the start of the wielder's next turn. Additionally, the wielder gains immunity to crushing pressure of deep water.",
+        "<b>Weapon Effects:</b> Weapons possess the Siege property. When you take cold, force or thunder damage your weapon becomes empowered. It deals an additional 1d8 of that damage type for a number of rounds equal to the damage you took in that instance /10 (min 1). If you take a different damage type, it replaces this effect. Taking more of the same damage type refreshes the round timer on how long the weapon remains empowered.",
+        "<b>Additional Effects:</b> ",
+        "<b>Runesmithing:</b> X",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

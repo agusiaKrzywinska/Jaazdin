@@ -77,6 +77,7 @@ The item system in 5eTools covers everything from basic adventuring gear to lege
 - **"ST"** - Staff
 - **"RG"** - Ring
 - **"WD"** - Wondrous Item
+- **"TG"** - Trade Good
 - **"$"** - Treasure
 
 ## Rarity Levels

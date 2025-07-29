@@ -1,0 +1,31 @@
+{
+  "name": "Prismium",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "baseMetal": "Cobalt",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Bury underground for a week + 6th Lvl Earth Spell",
+    "armorEffects": "Armor made with this metal grants you immunity to the effects of spells of 1st level or lower. After casting a Spell that deals Fire/Cold/Lightning/Acid/Thunder damage, armor made with this metal gains resistance to that damage type.",
+    "weaponEffects": "The damage dealt by this weapon is force. Prismium weapons can be used as spellcasting foci, and grant benefits their like Bonuses to hit and damage rolls to the wielder's spell attack rolls and damage rolls from spell attack rolls. These bouses are halved.",
+    "additionalEffects": "Prismium Woodcarver's tools grant advantage on checks to craft Arcane Focuses.",
+    "druidUseable": false
+  },
+  "entries": [
+    "Runesmithed",
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Base Metal:</b> {@item Cobalt|TftJC}",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Bury underground for a week + 6th Lvl Earth Spell",
+        "<b>Armor Effects:</b> Armor made with this metal grants you immunity to the effects of spells of 1st level or lower. After casting a Spell that deals Fire/Cold/Lightning/Acid/Thunder damage, armor made with this metal gains resistance to that damage type.",
+        "<b>Weapon Effects:</b> The damage dealt by this weapon is force. Prismium weapons can be used as spellcasting foci, and grant benefits their like Bonuses to hit and damage rolls to the wielder's spell attack rolls and damage rolls from spell attack rolls. These bouses are halved.",
+        "<b>Additional Effects:</b> Prismium Woodcarver's tools grant advantage on checks to craft Arcane Focuses.",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

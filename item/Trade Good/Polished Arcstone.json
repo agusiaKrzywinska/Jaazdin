@@ -1,0 +1,32 @@
+{
+  "name": "Polished Arcstone",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "legendary",
+  "customProperties": {
+    "planeOfOrigin": "The Weave",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "INT, CHA, or WIS of 20 or Higher",
+    "armorEffects": "When you expend a spell slot of 9th level or lower you can add a bonus to the damage roll equal to the spell's level.",
+    "weaponEffects": "When concentrating on a spell this weapon deals half the spell's level in additional force damage as long as the spell is of 9th level or lower.",
+    "additionalEffects": "A plate of Polished Arcstone can be used to fuel an enchantment, consuming the plate and progressing the enchantment by 150.",
+    "runesmithing": "???",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> The Weave",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> INT, CHA, or WIS of 20 or Higher",
+        "<b>Armor Effects:</b> When you expend a spell slot of 9th level or lower you can add a bonus to the damage roll equal to the spell's level.",
+        "<b>Weapon Effects:</b> When concentrating on a spell this weapon deals half the spell's level in additional force damage as long as the spell is of 9th level or lower.",
+        "<b>Additional Effects:</b> A plate of Polished Arcstone can be used to fuel an enchantment, consuming the plate and progressing the enchantment by 150.",
+        "<b>Runesmithing:</b> ???",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

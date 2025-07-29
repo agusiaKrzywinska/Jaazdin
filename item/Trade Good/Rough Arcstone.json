@@ -1,0 +1,32 @@
+{
+  "name": "Rough Arcstone",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "planeOfOrigin": "The Weave",
+    "requiredTool": "Smith's Tools",
+    "statRequirement": "INT, CHA, or WIS of 14 or Higher",
+    "armorEffects": "When you expend a spell slot of 2nd level or lower you can add a bonus to the damage roll equal to the spell's level. Rough Arcstone can be worked into Hewn Arcstone with a DC 25 Smith's Tools check.",
+    "weaponEffects": "When concentrating on a spell this weapon deals half the spell's level in additional force damage (min 1) as long as the spell is of 2nd level or lower. Rough Arcstone can be worked into Hewn Arcstone with a DC 25 Smith's Tools check.",
+    "additionalEffects": "A plate of Rough Arcstone can be worked into Hewn Arcstone with a DC 25 Smith's Tools check. A plate of Rough Arcstone can be used to fuel an enchantment, consuming the plate and progressing the enchantment by 25.",
+    "runesmithing": "???",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> The Weave",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Stat Requirement:</b> INT, CHA, or WIS of 14 or Higher",
+        "<b>Armor Effects:</b> When you expend a spell slot of 2nd level or lower you can add a bonus to the damage roll equal to the spell's level. Rough Arcstone can be worked into Hewn Arcstone with a DC 25 Smith's Tools check.",
+        "<b>Weapon Effects:</b> When concentrating on a spell this weapon deals half the spell's level in additional force damage (min 1) as long as the spell is of 2nd level or lower. Rough Arcstone can be worked into Hewn Arcstone with a DC 25 Smith's Tools check.",
+        "<b>Additional Effects:</b> A plate of Rough Arcstone can be worked into Hewn Arcstone with a DC 25 Smith's Tools check. A plate of Rough Arcstone can be used to fuel an enchantment, consuming the plate and progressing the enchantment by 25.",
+        "<b>Runesmithing:</b> ???",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

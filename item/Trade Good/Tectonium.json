@@ -1,0 +1,31 @@
+{
+  "name": "Tectonium",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "baseMetal": "Gravinite",
+    "requiredTool": "Mason's Tools",
+    "forgingConditions": "17 CON",
+    "armorEffects": "???",
+    "weaponEffects": "???",
+    "additionalEffects": "???",
+    "druidUseable": true
+  },
+  "entries": [
+    "Runesmithed",
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Base Metal:</b> {@item Gravinite|TftJC}",
+        "<b>Required Tool:</b> Mason's Tools",
+        "<b>Forging Conditions:</b> 17 CON",
+        "<b>Armor Effects:</b> ???",
+        "<b>Weapon Effects:</b> ???",
+        "<b>Additional Effects:</b> ???",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

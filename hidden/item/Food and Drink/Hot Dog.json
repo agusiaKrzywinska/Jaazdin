@@ -1,21 +1,21 @@
 {
-    "name": "Hot Dog",
-    "source": "TftJC",
-    "type": "FD",
-    "rarity": "rare",
-    "value": 5000,
-    "weight": 0,
-    "entries": [
-        "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
-        "<b>Ingredients:</b> x1 Rare Elemental Meat, x1 Flaming Lily",
-        "<b>Effect:</b> You gain a +1 bonus to Dexterity saves and can double your speed on your turn. Once you double your speed you lose all the bonuses of this meal."
-    ],
-    "foundryType": "consumable",
-    "foundrySystem": {
-        "consumableType": "food",
-        "uses": {
-            "max": 1,
-            "per": "charges"
-        }
+  "name": "Hot Dog",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "rare",
+  "value": 5000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
+    "<b>Ingredients:</b> x1 Rare Elemental Meat, x1 Flaming Lily",
+    "<b>Effect:</b> You gain a +1 bonus to Dexterity saves and can double your speed on your turn. Once you double your speed you lose all the bonuses of this meal."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
     }
+  }
 }

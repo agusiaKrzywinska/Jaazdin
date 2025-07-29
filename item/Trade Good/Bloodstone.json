@@ -1,0 +1,32 @@
+{
+  "name": "Bloodstone",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "planeOfOrigin": "y̴͔̙̗͚̪̼͈̻̣͍̿̓̈̓̅̇̈́̈́́̕͜͜͝ö̸̡̢̥̗̹̬̠̻̠̱̬̱́̈́̎͗̒͊͒́̀̋̾̋̋͠u̵̪̱̘̮̓̽͐̂̈́̅̄̃͂̃ͅr̴̢̧͎̠̺͓̮͔̘̻̣̯͙̅͗̿̒̃͌͗͊́̓̍͛̅̆͠ ̷͎̜̞̘͇͇̫̼̫̦̞̗͋̏̐͑̐̀̍͋͂̍͆̇̕͘b̷̨̛͈̙̜̻̭̯͂̀̀̽̇͘ä̸̧̖͙̠̻̝̱͇̳́̃̐͒̍͆͘̕s̸̬͓͔͚̣̭̿̀͋͂́e̷͓̅͊̏̄̓̈́̃͌̾͆́̕͘m̸̡̦̲͍̱̦̫͚̿̄̉̈́͌̈́̏͐̏̿̍͒̑͠ȩ̷͈̠̦̜̝͉̖̇̐̆̌ṋ̷̱̠̱̬͖̭̻͓͈͖̞̯̦̇̈́͒̋̕͠ͅṯ̷͚͔̣̼̠̓͗̎͋͘̚",
+    "requiredTool": "Jeweler's Tools",
+    "forgingConditions": "None",
+    "armorEffects": "This Armor/Shield can only be enchanted with +1/+2/+3 bonuses and no additional effects. Enchanting this armor requires no Material Components. When enchanted, it cannot be removed, transferred or combined with other items (but other + effects can be combined with it increase its power). Upon completing enchantment to +3, it automatically becomes Runesmithed, and cannot be Runesmithed other ways.",
+    "weaponEffects": "This Weapon can only be enchanted with +1/+2/+3 bonuses and no additional effects. Enchanting this weapon requires no Material Components. When enchanted, it cannot be removed, transferred or combined with other items (but other + effects can be combined with it increase its power). Upon completing enchantment to +3, it automatically becomes Runesmithed, and cannot be Runesmithed other ways.",
+    "additionalEffects": "",
+    "runesmithing": "Crimson Crystal",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> y̴͔̙̗͚̪̼͈̻̣͍̿̓̈̓̅̇̈́̈́́̕͜͜͝ö̸̡̢̥̗̹̬̠̻̠̱̬̱́̈́̎͗̒͊͒́̀̋̾̋̋͠u̵̪̱̘̮̓̽͐̂̈́̅̄̃͂̃ͅr̴̢̧͎̠̺͓̮͔̘̻̣̯͙̅͗̿̒̃͌͗͊́̓̍͛̅̆͠ ̷͎̜̞̘͇͇̫̼̫̦̞̗͋̏̐͑̐̀̍͋͂̍͆̇̕͘b̷̨̛͈̙̜̻̭̯͂̀̀̽̇͘ä̸̧̖͙̠̻̝̱͇̳́̃̐͒̍͆͘̕s̸̬͓͔͚̣̭̿̀͋͂́e̷͓̅͊̏̄̓̈́̃͌̾͆́̕͘m̸̡̦̲͍̱̦̫͚̿̄̉̈́͌̈́̏͐̏̿̍͒̑͠ȩ̷͈̠̦̜̝͉̖̇̐̆̌ṋ̷̱̠̱̬͖̭̻͓͈͖̞̯̦̇̈́͒̋̕͠ͅṯ̷͚͔̣̼̠̓͗̎͋͘̚",
+        "<b>Required Tool:</b> Jeweler's Tools",
+        "<b>Forging Conditions:</b> None",
+        "<b>Armor Effects:</b> This Armor/Shield can only be enchanted with +1/+2/+3 bonuses and no additional effects. Enchanting this armor requires no Material Components. When enchanted, it cannot be removed, transferred or combined with other items (but other + effects can be combined with it increase its power). Upon completing enchantment to +3, it automatically becomes Runesmithed, and cannot be Runesmithed other ways.",
+        "<b>Weapon Effects:</b> This Weapon can only be enchanted with +1/+2/+3 bonuses and no additional effects. Enchanting this weapon requires no Material Components. When enchanted, it cannot be removed, transferred or combined with other items (but other + effects can be combined with it increase its power). Upon completing enchantment to +3, it automatically becomes Runesmithed, and cannot be Runesmithed other ways.",
+        "<b>Additional Effects:</b> ",
+        "<b>Runesmithing:</b> {@item Crimson Crystal|TftJC}",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

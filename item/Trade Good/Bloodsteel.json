@@ -1,0 +1,32 @@
+{
+  "name": "Bloodsteel",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "planeOfOrigin": "9 Hells (Avernus)",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "???",
+    "armorEffects": "When under 10% of your maximum Hit Points, you gain a +3 to your armor class.",
+    "weaponEffects": "When under 10% of your maximum Hit Points, you gain a +3 to damage rolls with this weapon.",
+    "additionalEffects": "???",
+    "runesmithing": "???",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> 9 Hells (Avernus)",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> ???",
+        "<b>Armor Effects:</b> When under 10% of your maximum Hit Points, you gain a +3 to your armor class.",
+        "<b>Weapon Effects:</b> When under 10% of your maximum Hit Points, you gain a +3 to damage rolls with this weapon.",
+        "<b>Additional Effects:</b> ???",
+        "<b>Runesmithing:</b> ???",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

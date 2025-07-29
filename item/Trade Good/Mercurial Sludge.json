@@ -1,0 +1,31 @@
+{
+  "name": "Mercurial Sludge",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "legendary",
+  "customProperties": {
+    "baseMetal": "God-Shell",
+    "requiredTool": "Alchemist's Supplies",
+    "forgingConditions": "Must be processed using divine alchemy.",
+    "armorEffects": "You can change the armor's AC as a bonus action, choosing any value between 11 and 18.",
+    "weaponEffects": "As a bonus action, you can change this weapon's damage type to any type of your choice.",
+    "additionalEffects": "You can cast Polymorph on yourself once per day without using a spell slot.",
+    "druidUseable": false
+  },
+  "entries": [
+    "Runesmithed",
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Base Metal:</b> {@item God-Shell|TftJC}",
+        "<b>Required Tool:</b> Alchemist's Supplies",
+        "<b>Forging Conditions:</b> Must be processed using divine alchemy.",
+        "<b>Armor Effects:</b> You can change the armor's AC as a bonus action, choosing any value between 11 and 18.",
+        "<b>Weapon Effects:</b> As a bonus action, you can change this weapon's damage type to any type of your choice.",
+        "<b>Additional Effects:</b> You can cast Polymorph on yourself once per day without using a spell slot.",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Tytantium",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "9 Hells (Cania)",
+    "requiredTool": "Jeweler's Tools",
+    "forgingConditions": "Requires STR, CON and CHA to be 14+, and Enchanted Tools.",
+    "armorEffects": "You gain resistance to Piercing Damage. You incur no penalties from moving on frozen terrains, slipping on ice or any negative effect on your movement on ice.",
+    "weaponEffects": "Weapons made from Tytantium have their damage die size increased by 1 tier (d4s -> d6s. If the damage die is either 1d12 or 2d6, it becomes 2d8).",
+    "additionalEffects": "-",
+    "runesmithing": "X",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> 9 Hells (Cania)",
+        "<b>Required Tool:</b> Jeweler's Tools",
+        "<b>Forging Conditions:</b> Requires STR, CON and CHA to be 14+, and Enchanted Tools.",
+        "<b>Armor Effects:</b> You gain resistance to Piercing Damage. You incur no penalties from moving on frozen terrains, slipping on ice or any negative effect on your movement on ice.",
+        "<b>Weapon Effects:</b> Weapons made from Tytantium have their damage die size increased by 1 tier (d4s -> d6s. If the damage die is either 1d12 or 2d6, it becomes 2d8).",
+        "<b>Additional Effects:</b> -",
+        "<b>Runesmithing:</b> X",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

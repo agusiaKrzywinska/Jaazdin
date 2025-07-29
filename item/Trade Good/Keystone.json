@@ -1,0 +1,32 @@
+{
+  "name": "Keystone",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "Sigil",
+    "requiredTool": "Mason's Tools",
+    "forgingConditions": "Must be forged on a plane that is not Sigil or the Material Plane",
+    "armorEffects": "Armor made from this metal enhances teleportation magic. When the wearer is teleported they are teleported 50% further. Also the armor holds a unique rune set for Teleportation Circle, allowing it to be chosen as a location.",
+    "weaponEffects": "Dealing damage with this weapon causes the target to make an Intelligence saving throw. On a failure they are planarly fatigued. If the target teleports or changes planes they take force damage equal to 10 x the level of spell that moved them. This fatigue lasts for 24 hours.",
+    "additionalEffects": "When using Keystone Mason's Tools the time it takes to cast spells that require the creation of glyphs or magical circles is halved.",
+    "runesmithing": "Loadstone",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Sigil",
+        "<b>Required Tool:</b> Mason's Tools",
+        "<b>Forging Conditions:</b> Must be forged on a plane that is not Sigil or the Material Plane",
+        "<b>Armor Effects:</b> Armor made from this metal enhances teleportation magic. When the wearer is teleported they are teleported 50% further. Also the armor holds a unique rune set for Teleportation Circle, allowing it to be chosen as a location.",
+        "<b>Weapon Effects:</b> Dealing damage with this weapon causes the target to make an Intelligence saving throw. On a failure they are planarly fatigued. If the target teleports or changes planes they take force damage equal to 10 x the level of spell that moved them. This fatigue lasts for 24 hours.",
+        "<b>Additional Effects:</b> When using Keystone Mason's Tools the time it takes to cast spells that require the creation of glyphs or magical circles is halved.",
+        "<b>Runesmithing:</b> {@item Loadstone|TftJC}",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

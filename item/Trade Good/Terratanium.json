@@ -1,0 +1,32 @@
+{
+  "name": "Terratanium",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "Earth",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Enchanted Tools, Magnetic Sphere Spell",
+    "armorEffects": "You gain resistance to Bludgeoning Damage. You have advantage on ability checks against being shoved, or athletics checks you make to end a grapple.",
+    "weaponEffects": "Critical hits made with this weapon add an additional die of weapon damage.",
+    "additionalEffects": "-",
+    "runesmithing": "X",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Earth",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Enchanted Tools, Magnetic Sphere Spell",
+        "<b>Armor Effects:</b> You gain resistance to Bludgeoning Damage. You have advantage on ability checks against being shoved, or athletics checks you make to end a grapple.",
+        "<b>Weapon Effects:</b> Critical hits made with this weapon add an additional die of weapon damage.",
+        "<b>Additional Effects:</b> -",
+        "<b>Runesmithing:</b> X",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

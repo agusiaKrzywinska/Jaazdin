@@ -1,21 +1,21 @@
 {
-    "name": "Clearmind Tea",
-    "source": "TftJC",
-    "type": "FD",
-    "rarity": "rare",
-    "value": 5000,
-    "weight": 0,
-    "entries": [
-        "<b>Preparation:</b> Requires Brewer’s Supplies to prepare.",
-        "<b>Ingredients:</b> x1 Remedial Herb, x1 Foggy Leaf, x1 Harmony Cap",
-        "<b>Effect:</b> You have advantage on any saving throws to resist the Charmed or Frightened conditions."
-    ],
-    "foundryType": "consumable",
-    "foundrySystem": {
-        "consumableType": "food",
-        "uses": {
-            "max": 1,
-            "per": "charges"
-        }
+  "name": "Clearmind Tea",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "rare",
+  "value": 5000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Brewer’s Supplies to prepare.",
+    "<b>Ingredients:</b> x1 Remedial Herb, x1 Foggy Leaf, x1 Harmony Cap",
+    "<b>Effect:</b> You have advantage on any saving throws to resist the Charmed or Frightened conditions."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
     }
+  }
 }

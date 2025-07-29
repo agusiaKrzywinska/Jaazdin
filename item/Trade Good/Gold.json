@@ -1,0 +1,30 @@
+{
+  "name": "Gold",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "common",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Smith's Tools",
+    "armorEffects": "-",
+    "weaponEffects": "-",
+    "additionalEffects": "",
+    "runesmithing": "Purity",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Armor Effects:</b> -",
+        "<b>Weapon Effects:</b> -",
+        "<b>Additional Effects:</b> ",
+        "<b>Runesmithing:</b> {@item Purity|TftJC}",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Ironoak",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Woodcarver's Tools",
+    "forgingConditions": "Proficiency in Druidic or Sylvan",
+    "armorEffects": "This material can be used by Druids for armor, and is non magnetic.",
+    "weaponEffects": "This material can be used by Druids for weapons, and is non magnetic.",
+    "additionalEffects": "Material for +1 Calligrapher, Cartographer, Mason's, Painter's, Potter's, or Woodcarver's Tools (2 Plates).",
+    "runesmithing": "Razorwood",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Woodcarver's Tools",
+        "<b>Forging Conditions:</b> Proficiency in Druidic or Sylvan",
+        "<b>Armor Effects:</b> This material can be used by Druids for armor, and is non magnetic.",
+        "<b>Weapon Effects:</b> This material can be used by Druids for weapons, and is non magnetic.",
+        "<b>Additional Effects:</b> Material for +1 Calligrapher, Cartographer, Mason's, Painter's, Potter's, or Woodcarver's Tools (2 Plates).",
+        "<b>Runesmithing:</b> {@item Razorwood|TftJC}",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

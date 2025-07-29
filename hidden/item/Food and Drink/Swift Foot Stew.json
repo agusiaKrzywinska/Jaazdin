@@ -1,21 +1,21 @@
 {
-    "name": "Swift Foot Stew",
-    "source": "TftJC",
-    "type": "FD",
-    "rarity": "very rare",
-    "value": 16000,
-    "weight": 0,
-    "entries": [
-        "<b>Preparation:</b> Requires Cook’s Utensils or Brewer’s Supplies to prepare.",
-        "<b>Ingredients:</b> x1 Rare beast meat (greater than 30 movement speed), x1 rare monstrosity meat (greater than 30 movement speed)",
-        "<b>Effect:</b> Your movement speed increases by 15 feet."
-    ],
-    "foundryType": "consumable",
-    "foundrySystem": {
-        "consumableType": "food",
-        "uses": {
-            "max": 1,
-            "per": "charges"
-        }
+  "name": "Swift Foot Stew",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "very rare",
+  "value": 16000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook’s Utensils or Brewer’s Supplies to prepare.",
+    "<b>Ingredients:</b> x1 Rare beast meat (greater than 30 movement speed), x1 rare monstrosity meat (greater than 30 movement speed)",
+    "<b>Effect:</b> Your movement speed increases by 15 feet."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
     }
+  }
 }

@@ -1,0 +1,31 @@
+{
+  "name": "Vilenite",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "baseMetal": "Ashenite",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "While Ashenite is active, forge with fire. While working, take 1d4 fire damage per 10 minutes.",
+    "armorEffects": "You have resistance to fire damage. When you take fire damage, you regain 1 hit point.",
+    "weaponEffects": "This weapon deals an additional 1d4 fire damage.",
+    "additionalEffects": "You have advantage on Constitution saving throws against extreme heat.",
+    "druidUseable": false
+  },
+  "entries": [
+    "Runesmithed",
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Base Metal:</b> {@item Ashenite|TftJC}",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> While Ashenite is active, forge with fire. While working, take 1d4 fire damage per 10 minutes.",
+        "<b>Armor Effects:</b> You have resistance to fire damage. When you take fire damage, you regain 1 hit point.",
+        "<b>Weapon Effects:</b> This weapon deals an additional 1d4 fire damage.",
+        "<b>Additional Effects:</b> You have advantage on Constitution saving throws against extreme heat.",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Razorwood",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "baseMetal": "Ironbark",
+    "requiredTool": "Woodcarver's Tools",
+    "forgingConditions": "None",
+    "armorEffects": "When a creature hits you with a melee weapon attack, the attacker takes 1 piercing damage.",
+    "weaponEffects": "Weapon Attacks made with this weapon deal Slashing damage instead of their normal damage type.",
+    "additionalEffects": "When crafting or repairing an item made from Razorwood, the time to craft it is reduced by half.",
+    "druidUseable": true
+  },
+  "entries": [
+    "Runesmithed",
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Base Metal:</b> Ironbark",
+        "<b>Required Tool:</b> Woodcarver's Tools",
+        "<b>Forging Conditions:</b> None",
+        "<b>Armor Effects:</b> When a creature hits you with a melee weapon attack, the attacker takes 1 piercing damage.",
+        "<b>Weapon Effects:</b> Weapon Attacks made with this weapon deal Slashing damage instead of their normal damage type.",
+        "<b>Additional Effects:</b> When crafting or repairing an item made from Razorwood, the time to craft it is reduced by half.",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

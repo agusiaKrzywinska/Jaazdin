@@ -1,0 +1,32 @@
+{
+  "name": "Dark Platinum",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "9 Hells (Maladomini)",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Can only be forged by a creature of a Lawful Alignment.",
+    "armorEffects": "The Gold cost for casting spells that expend the material is lowered by 25% while wearing this armor (you must be proficient in this armor for this benefit to be used).",
+    "weaponEffects": "This weapon has advantage attacking creatures of a Chaotic Alignment (or unaligned), and disadvantage attacking creatures of a Lawful Alignment.",
+    "additionalEffects": "-",
+    "runesmithing": "Ruinous Platinum",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> 9 Hells (Maladomini)",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Can only be forged by a creature of a Lawful Alignment.",
+        "<b>Armor Effects:</b> The Gold cost for casting spells that expend the material is lowered by 25% while wearing this armor (you must be proficient in this armor for this benefit to be used).",
+        "<b>Weapon Effects:</b> This weapon has advantage attacking creatures of a Chaotic Alignment (or unaligned), and disadvantage attacking creatures of a Lawful Alignment.",
+        "<b>Additional Effects:</b> -",
+        "<b>Runesmithing:</b> {@item Ruinous Platinum|TftJC}",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}
