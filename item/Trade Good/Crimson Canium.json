@@ -1,0 +1,34 @@
+{
+  "name": "Crimson Canium",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Jeweler's Tools",
+    "secondaryTool": "Smith's Tools",
+    "forgingConditions": "Enchanted Primary Tools + Boon of Focus",
+    "baseMetals": "Bloodstone + Tytantium",
+    "armorEffects": "You incur no penalties from moving on frozen terrains, slipping on ice or any negative effect on your movement on ice. You gain Resistance to Piercing Damage. As a Free Action, you can sacrifice a Hit die to the Armor to empower it. It instead grants immunity to Piercing Damage, and +10 walking speed on Snow/Ice for a number of rounds equal to half the rolled value of the Hit die (Min 1).",
+    "weaponEffects": "Weapons made from Crimson Canium have their damage die size increased by 1 tier (d4s -> d6s. If the damage die is either 1d12 or 2d6, it becomes 2d8). You can sacrifice a Hit Die to the weapon to increase this amount by another step. This lasts a number of turns equal to half the rolled value on the Hit Die (min 1).",
+    "additionalEffects": "Hit Die return upon compelting the condition for your Boon of Focus.",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Jeweler's Tools",
+        "<b>Secondary Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Enchanted Primary Tools + Boon of Focus",
+        "<b>Base Metals:</b> {@item Bloodstone|TftJC} + {@item Tytantium|TftJC}",
+        "<b>Armor Effects:</b> You incur no penalties from moving on frozen terrains, slipping on ice or any negative effect on your movement on ice. You gain Resistance to Piercing Damage. As a Free Action, you can sacrifice a Hit die to the Armor to empower it. It instead grants immunity to Piercing Damage, and +10 walking speed on Snow/Ice for a number of rounds equal to half the rolled value of the Hit die (Min 1).",
+        "<b>Weapon Effects:</b> Weapons made from Crimson Canium have their damage die size increased by 1 tier (d4s -> d6s. If the damage die is either {@dice 1d12} or {@dice 2d6}, it becomes {@dice 2d8}). You can sacrifice a Hit Die to the weapon to increase this amount by another step. This lasts a number of turns equal to half the rolled value on the Hit Die (min 1).",
+        "<b>Additional Effects:</b> Hit Die return upon compelting the condition for your Boon of Focus.",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

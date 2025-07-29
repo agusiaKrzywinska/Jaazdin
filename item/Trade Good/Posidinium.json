@@ -1,0 +1,34 @@
+{
+  "name": "Posidinium",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Calligrapher's Supplies",
+    "secondaryTool": "Smith's Tools",
+    "forgingConditions": "?",
+    "baseMetals": "?",
+    "armorEffects": "You gain a swim speed equal to your walking speed. You can breathe underwater, and incur no penalties from rough waves, crushing pressure or other penalties caused naturally by bodies of large water (this excludes magical effects).",
+    "weaponEffects": "The weapon gains no penalties when used underwater. While swimming, this weapon gains a +2 to hit and damage rolls that are also in water. You gain a +1 to Charisma Checks against creatures with a swim speed for every 10ft of swim speed you have.",
+    "additionalEffects": "?",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Calligrapher's Supplies",
+        "<b>Secondary Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> ?",
+        "<b>Base Metals:</b> ?",
+        "<b>Armor Effects:</b> You gain a swim speed equal to your walking speed. You can breathe underwater, and incur no penalties from rough waves, crushing pressure or other penalties caused naturally by bodies of large water (this excludes magical effects).",
+        "<b>Weapon Effects:</b> The weapon gains no penalties when used underwater. While swimming, this weapon gains a +2 to hit and damage rolls that are also in water. You gain a +1 to Charisma Checks against creatures with a swim speed for every 10ft of swim speed you have.",
+        "<b>Additional Effects:</b> ?",
+        "<b>Druid Useable:</b> ???"
+      ]
+    }
+  ]
+}

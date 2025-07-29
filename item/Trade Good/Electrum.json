@@ -1,0 +1,34 @@
+{
+  "name": "Electrum",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "common",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Smith's Tools",
+    "secondaryTool": "Smith's Tools",
+    "forgingConditions": "-",
+    "baseMetals": "Gold + Silver",
+    "armorEffects": "Increase an ability score of your choice by 1, up to 20. One other ability Score of your choice is lowered by 2.",
+    "weaponEffects": "You are proficient in any weapon made of Electrum.",
+    "additionalEffects": "Not legal tender for most towns. Treated as Silver for overcoming damage resistances.",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Secondary Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> -",
+        "<b>Base Metals:</b> {@item Gold|TftJC} + {@item Silver|TftJC}",
+        "<b>Armor Effects:</b> Increase an ability score of your choice by 1, up to 20. One other ability Score of your choice is lowered by 2.",
+        "<b>Weapon Effects:</b> You are proficient in any weapon made of Electrum.",
+        "<b>Additional Effects:</b> Not legal tender for most towns. Treated as {@item Silver|TftJC} for overcoming damage resistances.",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

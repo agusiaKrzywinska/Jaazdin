@@ -9,6 +9,6 @@
   "page": 48,
   "featureType": ["TECH"],
   "entries": [
-    "When a creature casts a spell within 30ft of you that deals damage, you can further enhance it with your own magic. Using your reaction to expend a spell slot you add additional force damage to one of the damage rolls of the spell equal to 2d8 per spell slot expended + half your warden levels. This is added to the spell's damage, meaning spells that save for half damage also halve this additional force damage."
+    "When a creature casts a spell within 30ft of you that deals damage, you can further enhance it with your own magic. Using your reaction to expend a spell slot you add additional force damage to one of the damage rolls of the spell equal to {@dice 2d8} per spell slot expended + half your warden levels. This is added to the spell's damage, meaning spells that save for half damage also halve this additional force damage."
   ]
 }

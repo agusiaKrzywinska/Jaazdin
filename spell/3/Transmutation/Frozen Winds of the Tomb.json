@@ -41,7 +41,7 @@
         "(1 fail) Their speed is halved until the start of your next turn.",
         "(2 fails) Previous effects, and the creature has disadvantage on all skill checks.",
         "(3 fails) Previous effects, and attack rolls they make before the start of your next turn have disadvantage.",
-        "(4 fails) Previous effects, and the creature becomes restrained until the start of your next turn.",
+        "(4 fails) Previous effects, and the creature becomes {@condition restrained} until the start of your next turn.",
         "(5 fails) The creature becomes petrified in ice for 10 minutes. Any physical changes that occur while petrified carry over once they return to their original state."
       ]
     }

@@ -9,6 +9,6 @@
   "page": 48,
   "featureType": ["ARC"],
   "entries": [
-    "Tier 3 Arcana. Creatures affected by The Forbidden Spell are no longer subtract 1d4, but now they must instead then make a Strength Saving Throw, and on a fail become Restrained for 1 minute, or until they succeed on the saving throw by repeating it at the end of their turns."
+    "Tier 3 Arcana. Creatures affected by The Forbidden Spell are no longer subtract {@dice 1d4}, but now they must instead then make a Strength Saving Throw, and on a fail become {@condition Restrained} for 1 minute, or until they succeed on the saving throw by repeating it at the end of their turns."
   ]
 }

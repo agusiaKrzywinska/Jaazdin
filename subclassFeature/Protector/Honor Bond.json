@@ -11,7 +11,7 @@
     {
       "type": "list",
       "items": [
-        "Whenever you use the Help action on that creature, they roll 1d4 and add it to the result.",
+        "Whenever you use the Help action on that creature, they roll {@dice 1d4} and add it to the result.",
         "When within 30ft of each other, you both gain a +1 bonus to AC and saving throws.",
         "If you finish a short rest and have access to that creature for the full duration of the rest, they can add half your proficiency modifier to any hit dice they spend during that rest."
       ]

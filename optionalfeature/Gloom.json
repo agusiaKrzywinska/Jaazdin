@@ -9,6 +9,6 @@
   "page": 48,
   "featureType": ["ARC"],
   "entries": [
-    "Tier 2 Arcana. Creatures affected by The Forbidden Spell must instead make a Wisdom saving throw, and on a fail are frightened rather than subtracting 1d4, for 1 minute or until they succeed the saving throw by repeating it at the end of their turns."
+    "Tier 2 Arcana. Creatures affected by The Forbidden Spell must instead make a Wisdom saving throw, and on a fail are {@condition frightened} rather than subtracting {@dice 1d4}, for 1 minute or until they succeed the saving throw by repeating it at the end of their turns."
   ]
 }

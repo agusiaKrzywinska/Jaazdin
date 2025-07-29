@@ -22,7 +22,7 @@
         "<b>Required Tool:</b> Smith's Tools",
         "<b>Forging Conditions:</b> Immolation Spell, 17 STR",
         "<b>Armor Effects:</b> If you do not have resistance/immunity to Fire, you take 5 Fire Damage at the start of your turn while wearing this armor. Creatures Grappling you or creatures you grapple take 5 Fire Damage when the grapple starts, or when the grappler starts their turn.",
-        "<b>Weapon Effects:</b> If you do not have resistance/immunity to Fire, you take 5 Fire Damage at the start of your turn while wielding these weapons. Zuigni Weapons deal an additional 1d6 Fire Damage on a hit, and ignore resistance to Fire Damage. Additionally, Zuigni Weapons can cast Absorb Elements (Fire Only) thrice per dawn.",
+        "<b>Weapon Effects:</b> If you do not have resistance/immunity to Fire, you take 5 Fire Damage at the start of your turn while wielding these weapons. Zuigni Weapons deal an additional {@dice 1d6} Fire Damage on a hit, and ignore resistance to Fire Damage. Additionally, Zuigni Weapons can cast {@spell Absorb Elements} (Fire Only) thrice per dawn.",
         "<b>Additional Effects:</b> -",
         "<b>Runesmithing:</b> X",
         "<b>Druid Useable:</b> No"

@@ -15,12 +15,12 @@
                     "Adam Henderson",
                     "Malcolm Keefe"
                 ],
-                "version": "0.3.78"
+                "version": "0.3.80"
             }
         ],
         "edition": "classic",
         "dateAdded": 0,
-        "dateLastModified": 1753751892,
+        "dateLastModified": 1753754914,
         "optionalFeatureTypes": {
             "FS:W": "Fighting Style: Warden",
             "TECH": "Technique",
@@ -929,7 +929,7 @@
             "classSource": "TftJC",
             "level": 17,
             "entries": [
-                "At 17th level, you can no longer be surprised, and you have advantage on saving throws against the frightened condition."
+                "At 17th level, you can no longer be surprised, and you have advantage on saving throws against the {@condition frightened} condition."
             ]
         },
         {
@@ -1223,7 +1223,7 @@
             "classSource": "TftJC",
             "level": 13,
             "entries": [
-                "At 13th level, even death is unable to shake your resolve on the battlefield. When you drop to zero hit points you do not immediately fall unconscious, instead you remain conscious until you fail one death saving throw. Additionally, you gain advantage on death saving throws and regain one hit point on a 19 or 20 on a death save."
+                "At 13th level, even death is unable to shake your resolve on the battlefield. When you drop to zero hit points you do not immediately fall {@condition unconscious}, instead you remain conscious until you fail one death saving throw. Additionally, you gain advantage on death saving throws and regain one hit point on a 19 or 20 on a death save."
             ]
         },
         {
@@ -1275,7 +1275,7 @@
             "classSource": "TftJC",
             "level": 18,
             "entries": [
-                "When you reach 18th level in this class, you gain the ability to always be prepared for conflict no matter the cause. When you finish a long rest, roll 1d8. You can add the result of that roll to any initiative check before your next long rest. You can add the bonus after you make the roll but before you know the result. Once you add this bonus you cannot do it again until you finish a long rest.",
+                "When you reach 18th level in this class, you gain the ability to always be prepared for conflict no matter the cause. When you finish a long rest, roll {@dice 1d8}. You can add the result of that roll to any initiative check before your next long rest. You can add the bonus after you make the roll but before you know the result. Once you add this bonus you cannot do it again until you finish a long rest.",
                 "In addition, if you ever start initiative without any uses of your Techniques remaining you regain one use."
             ]
         },
@@ -1763,6 +1763,40 @@
             "entries": [
                 "The Anchor of the Deep appears to be an old, rusted anchor covered in intricate, weathered runes. When this anchor is used, it triggers a powerful magical effect that causes the entire ship to sink rapidly to the bottom of the sea. However, rather than resulting in tragedy, the occupants of the ship find themselves under the effect of the water breathing spell.",
                 "<b><i>Breath of the Depths.</i></b> Once per long rest, as an action, you can embed the Anchor of the Deep into the deck of a ship or a similar structure. When activated, the anchor triggers a powerful enchantment that causes the ship to sink quickly to the ocean floor, also everyone currently on the ship will gain the effects of the {@spell water breathing|PHB} spell as if the spell was casted on them. This lasts for 24 hours or until the anchor is retrieved and the ship resurfaces. To resurface the ship, as an action the user attuned to it must retrieve the anchor. Once the anchor is lifted, the ship ascends back to the surface, breaking the water's surface and returning to its normal state. It takes 1 minute to sink to the bottom or to float back up. The ship is unharmed from when it sinks."
+            ]
+        },
+        {
+            "name": "Ancient Sequoia",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "uncommon",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Woodcarver's Tools",
+                "secondaryTool": "Jeweler's Tools",
+                "forgingConditions": "?",
+                "baseMetals": "Ash Quartz + Ironoak",
+                "armorEffects": "Can only be made into Heavy Armor. Elementals have disadvantage on attack rolls against you, and you take reduced damage from Elementals equal to your Wisdom Modifier.",
+                "weaponEffects": "Can only be made into heavy weapons. Deals additional damage to Elementals equal to your Wisdom Modifier, or half your Wisdom Modifer (rounded down) to non elementals.",
+                "additionalEffects": "4 Plates of this metal can be used in a 10 minute ritual to close a planar portal to an Elemental Plane.",
+                "druidUseable": true
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Woodcarver's Tools",
+                        "<b>Secondary Tool:</b> Jeweler's Tools",
+                        "<b>Forging Conditions:</b> ?",
+                        "<b>Base Metals:</b> {@item Ash Quartz|TftJC} + {@item Ironoak|TftJC}",
+                        "<b>Armor Effects:</b> Can only be made into Heavy Armor. Elementals have disadvantage on attack rolls against you, and you take reduced damage from Elementals equal to your Wisdom Modifier.",
+                        "<b>Weapon Effects:</b> Can only be made into heavy weapons. Deals additional damage to Elementals equal to your Wisdom Modifier, or half your Wisdom Modifer (rounded down) to non elementals.",
+                        "<b>Additional Effects:</b> 4 Plates of this metal can be used in a 10 minute ritual to close a planar portal to an Elemental Plane.",
+                        "<b>Druid Useable:</b> Yes"
+                    ]
+                }
             ]
         },
         {
@@ -2318,9 +2352,43 @@
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> 3rd Lvl Transmutation Spell + 15 STR",
                         "<b>Armor Effects:</b> You gain resistance to Fire Damage.",
-                        "<b>Weapon Effects:</b> Damaging a creature with this weapon forces them to make a DC 15 CON save, and on a fail they are lit on fire taking 1d6 fire damage at the start of each of their turns. They can put themselves out using an Action or dousing themselves in water.",
+                        "<b>Weapon Effects:</b> Damaging a creature with this weapon forces them to make a DC 15 CON save, and on a fail they are lit on fire taking {@dice 1d6} fire damage at the start of each of their turns. They can put themselves out using an Action or dousing themselves in water.",
                         "<b>Additional Effects:</b> Cook's Tools made using this metal produce one extra meal if used on meals exclusively made of meat.",
                         "<b>Runesmithing:</b> X",
+                        "<b>Druid Useable:</b> No"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Blight",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "uncommon",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Smith's Tools",
+                "secondaryTool": "Smith's Tools",
+                "forgingConditions": "?",
+                "baseMetals": "Platinum + Hunter's Iron",
+                "armorEffects": "Can only be made into Light/Medium armor. You gain a +3 to both saving throws against the Charmed condition and Intimidation checks.",
+                "weaponEffects": "Can only be made into Piercing/Slashing weapons. All additional damage dealt by this weapon when you hit with it is converted into its weapon's damage type.",
+                "additionalEffects": "Fey skin burns when touching Blight.",
+                "druidUseable": false
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Smith's Tools",
+                        "<b>Secondary Tool:</b> Smith's Tools",
+                        "<b>Forging Conditions:</b> ?",
+                        "<b>Base Metals:</b> {@item Platinum|TftJC} + {@item Hunter's Iron|TftJC}",
+                        "<b>Armor Effects:</b> Can only be made into Light/Medium armor. You gain a +3 to both saving throws against the {@condition Charmed} condition and {@skill Intimidation} checks.",
+                        "<b>Weapon Effects:</b> Can only be made into Piercing/Slashing weapons. All additional damage dealt by this weapon when you hit with it is converted into its weapon's damage type.",
+                        "<b>Additional Effects:</b> Fey skin burns when touching Blight.",
                         "<b>Druid Useable:</b> No"
                     ]
                 }
@@ -2851,7 +2919,7 @@
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> Must have 11+ levels in Paladin/Cleric, or a subclass that gains power from Celestials (Celestial Warlock/ Angelic Armsmaster Fighter.)",
                         "<b>Armor Effects:</b> You gain resistance to Radiant and Necrotic Damage.",
-                        "<b>Weapon Effects:</b> Weapons deal an additional 1d10 radiant damage on a hit, 2d10 against fiends and undead. Paladins wielding this weapon have their damage from their Divine Smite and Smite Spells increased by 1 step.",
+                        "<b>Weapon Effects:</b> Weapons deal an additional {@dice 1d10} radiant damage on a hit, {@dice 2d10} against fiends and undead. Paladins wielding this weapon have their damage from their Divine Smite and Smite Spells increased by 1 step.",
                         "<b>Additional Effects:</b> Material for Horn of Valhalla (Iron)",
                         "<b>Runesmithing:</b> X",
                         "<b>Druid Useable:</b> No"
@@ -3143,7 +3211,7 @@
                         "<b>Plane of Origin:</b> Arcadia",
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> Divine Strike or Divine Smite Feature",
-                        "<b>Armor Effects:</b> Critical Hits against you become normal hits. Armor does not pose disadvantage on stealth checks.",
+                        "<b>Armor Effects:</b> Critical Hits against you become normal hits. Armor does not pose disadvantage on {@skill stealth} checks.",
                         "<b>Weapon Effects:</b> Weapons have the Siege Property. Fiends are considered Vulnerable to this weapon base damage.",
                         "<b>Additional Effects:</b> Material for Horn of Valhalla (Bronze)",
                         "<b>Runesmithing:</b> {@item Leviathan|TftJC}",
@@ -3232,7 +3300,7 @@
                         "<b>Required Tool:</b> Woodcarver's Tools",
                         "<b>Forging Conditions:</b> Must be carved under starlight.",
                         "<b>Armor Effects:</b> You have resistance to necrotic damage.",
-                        "<b>Weapon Effects:</b> This weapon deals an additional 1d4 necrotic damage to celestials and fiends.",
+                        "<b>Weapon Effects:</b> This weapon deals an additional {@dice 1d4} necrotic damage to celestials and fiends.",
                         "<b>Additional Effects:</b> You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.",
                         "<b>Druid Useable:</b> Yes"
                     ]
@@ -3293,6 +3361,40 @@
                 "On hit, the weapon deals {@dice 1d4} extra necrotic.",
                 "If this weapon kills a target, that target returns as a {@creature zombie|MM} under your control. You can only have one zombie under your control from this weapon at a time.",
                 "<b><i>Clip 6.</i></b> Whenever you craft a firearm that uses a clip, you additionally craft 2 clips. A Clip holds a number of shots detailed on the Firearms chart. To reload a Clip, you can use a Bonus Action to replace your current clip with another loaded clip. A clip can be loaded with its maximum number of rounds by spending 1 minute."
+            ]
+        },
+        {
+            "name": "Crimson Canium",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "very rare",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Jeweler's Tools",
+                "secondaryTool": "Smith's Tools",
+                "forgingConditions": "Enchanted Primary Tools + Boon of Focus",
+                "baseMetals": "Bloodstone + Tytantium",
+                "armorEffects": "You incur no penalties from moving on frozen terrains, slipping on ice or any negative effect on your movement on ice. You gain Resistance to Piercing Damage. As a Free Action, you can sacrifice a Hit die to the Armor to empower it. It instead grants immunity to Piercing Damage, and +10 walking speed on Snow/Ice for a number of rounds equal to half the rolled value of the Hit die (Min 1).",
+                "weaponEffects": "Weapons made from Crimson Canium have their damage die size increased by 1 tier (d4s -> d6s. If the damage die is either 1d12 or 2d6, it becomes 2d8). You can sacrifice a Hit Die to the weapon to increase this amount by another step. This lasts a number of turns equal to half the rolled value on the Hit Die (min 1).",
+                "additionalEffects": "Hit Die return upon compelting the condition for your Boon of Focus.",
+                "druidUseable": false
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Jeweler's Tools",
+                        "<b>Secondary Tool:</b> Smith's Tools",
+                        "<b>Forging Conditions:</b> Enchanted Primary Tools + Boon of Focus",
+                        "<b>Base Metals:</b> {@item Bloodstone|TftJC} + {@item Tytantium|TftJC}",
+                        "<b>Armor Effects:</b> You incur no penalties from moving on frozen terrains, slipping on ice or any negative effect on your movement on ice. You gain Resistance to Piercing Damage. As a Free Action, you can sacrifice a Hit die to the Armor to empower it. It instead grants immunity to Piercing Damage, and +10 walking speed on Snow/Ice for a number of rounds equal to half the rolled value of the Hit die (Min 1).",
+                        "<b>Weapon Effects:</b> Weapons made from Crimson Canium have their damage die size increased by 1 tier (d4s -> d6s. If the damage die is either {@dice 1d12} or {@dice 2d6}, it becomes {@dice 2d8}). You can sacrifice a Hit Die to the weapon to increase this amount by another step. This lasts a number of turns equal to half the rolled value on the Hit Die (min 1).",
+                        "<b>Additional Effects:</b> Hit Die return upon compelting the condition for your Boon of Focus.",
+                        "<b>Druid Useable:</b> No"
+                    ]
+                }
             ]
         },
         {
@@ -3447,6 +3549,40 @@
                 "Curse of Ill-Luck - You gain a -1 to all ability checks.",
                 "Curse of Vulnerability - You are Vulnerable to either Fire, Cold, Lightning, Acid or Poison damage (you decide what type when applying this curse).",
                 "Curse of Undead Attraction - Undead Creatures with an intelligence of 8 or lower will instinctively attack you if they are within 60ft of you."
+            ]
+        },
+        {
+            "name": "Cyanidium",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "very rare",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Alchemist's Supplies",
+                "secondaryTool": "Alchemist's Supplies",
+                "forgingConditions": "Necrotic Resistance + 17 CON",
+                "baseMetals": "Putrid Lead + Devil's Mercury",
+                "armorEffects": "If you don't have resistance/immunity to poison damage while wearing this armor, you take 5 Necrotic Damage at the start of each of your turns. Any creature that makes contact with you by hitting you with a melee weapon/attack/melees spell attack, by grappling or by being grappled by you takes 5 Necrotic Damage, and an additional +2 Necrotic for every +1 Enchantment value this armor has (up to 11 Necrotic Damage).",
+                "weaponEffects": "If you don't have resistance/immunity to poison damage while wielding this weapon, you take 5 Necrotic Damage at the start of each of your turns. Cyanidium Weapons deal an additional 1d10 Poison Damage on a hit, and any poison that coats this weapon becomes an Injury Poison. If this weapon is Enchanted with a +X effect, any poison's DC applied to it is increased by that value.",
+                "additionalEffects": "Cyanidium Poisoner's Tools have a 1/4 chance to make an additional dose upon crafting a Poison.",
+                "druidUseable": true
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Alchemist's Supplies",
+                        "<b>Secondary Tool:</b> Alchemist's Supplies",
+                        "<b>Forging Conditions:</b> Necrotic Resistance + 17 CON",
+                        "<b>Base Metals:</b> {@item Putrid Lead|TftJC} + {@item Devil's Mercury|TftJC}",
+                        "<b>Armor Effects:</b> If you don't have resistance/immunity to poison damage while wearing this armor, you take 5 Necrotic Damage at the start of each of your turns. Any creature that makes contact with you by hitting you with a melee weapon/attack/melees spell attack, by grappling or by being grappled by you takes 5 Necrotic Damage, and an additional +2 Necrotic for every +1 Enchantment value this armor has (up to 11 Necrotic Damage).",
+                        "<b>Weapon Effects:</b> If you don't have resistance/immunity to poison damage while wielding this weapon, you take 5 Necrotic Damage at the start of each of your turns. Cyanidium Weapons deal an additional {@dice 1d10} Poison Damage on a hit, and any poison that coats this weapon becomes an Injury Poison. If this weapon is Enchanted with a +X effect, any poison's DC applied to it is increased by that value.",
+                        "<b>Additional Effects:</b> Cyanidium Poisoner's Tools have a 1/4 chance to make an additional dose upon crafting a Poison.",
+                        "<b>Druid Useable:</b> Yes"
+                    ]
+                }
             ]
         },
         {
@@ -3708,7 +3844,7 @@
                         "<b>Required Tool:</b> Alchemist's Supplies",
                         "<b>Forging Conditions:</b> 6th Lvl Cold Spell, Using DEX for check",
                         "<b>Armor Effects:</b> Heavy Armor is treated as Medium Armor, and Medium armor is treated as Light. Light Armor requires no proficiency to wear.",
-                        "<b>Weapon Effects:</b> Weapon attacks that hit a creature force a DC17 Con save (poison effect), and on a fail the target suffers 1d6 Necrotic damage at the start of their turn. This lasts for 1 minute, and the target can repeat this saving throw to end the effect early.",
+                        "<b>Weapon Effects:</b> Weapon attacks that hit a creature force a DC17 Con save (poison effect), and on a fail the target suffers {@dice 1d6} Necrotic damage at the start of their turn. This lasts for 1 minute, and the target can repeat this saving throw to end the effect early.",
                         "<b>Additional Effects:</b> -",
                         "<b>Runesmithing:</b> {@item Mercurial Sludge|TftJC}",
                         "<b>Druid Useable:</b> No"
@@ -3740,8 +3876,42 @@
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> Must be forged in absolute darkness.",
                         "<b>Armor Effects:</b> You have blindsight out to 60 feet and resistance to cold damage.",
-                        "<b>Weapon Effects:</b> This weapon deals an additional 1d6 cold damage and creates a 5-foot radius of darkness on impact.",
+                        "<b>Weapon Effects:</b> This weapon deals an additional {@dice 1d6} cold damage and creates a 5-foot radius of darkness on impact.",
                         "<b>Additional Effects:</b> You can cast Darkness once per day without using a spell slot.",
+                        "<b>Druid Useable:</b> No"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Divinium",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "very rare",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Smith's Tools",
+                "secondaryTool": "Smith's Tools",
+                "forgingConditions": "?",
+                "baseMetals": "Dawn Steel + Celestial Gold",
+                "armorEffects": "You take 1 reduced damage equal to your level from Fiends and Undead, or 1.5x per every level in Cleric/Paladin/Other divinely powered subclasses (rounded down).",
+                "weaponEffects": "This weapon deals Radiant Damage instead of its normal damage type. It deals an additional 1d10 Radiant Damage on a hit, or 2d10 against Fiends and Undead. This weapon is imbued with the abilities of Destroy Undead, and instantly destroys both Undead and Fiends of the listed CR found in Cleric's Destroy Undead (using your Level to calculate CR, and your Spell Save DC. If you don't have a save DC, calculate with CHA).",
+                "additionalEffects": "A Holy Symbol made from Divinium grants Clerics the ability to roll 2d100 when using Divine Intervention and choose the result of the two values rolled.",
+                "druidUseable": false
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Smith's Tools",
+                        "<b>Secondary Tool:</b> Smith's Tools",
+                        "<b>Forging Conditions:</b> ?",
+                        "<b>Base Metals:</b> {@item Dawn Steel|TftJC} + {@item Celestial Gold|TftJC}",
+                        "<b>Armor Effects:</b> You take 1 reduced damage equal to your level from Fiends and Undead, or 1.5x per every level in Cleric/Paladin/Other divinely powered subclasses (rounded down).",
+                        "<b>Weapon Effects:</b> This weapon deals Radiant Damage instead of its normal damage type. It deals an additional {@dice 1d10} Radiant Damage on a hit, or {@dice 2d10} against Fiends and Undead. This weapon is imbued with the abilities of Destroy Undead, and instantly destroys both Undead and Fiends of the listed CR found in Cleric's Destroy Undead (using your Level to calculate CR, and your Spell Save DC. If you don't have a save DC, calculate with CHA).",
+                        "<b>Additional Effects:</b> A Holy Symbol made from Divinium grants Clerics the ability to roll {@dice 2d100} when using Divine Intervention and choose the result of the two values rolled.",
                         "<b>Druid Useable:</b> No"
                     ]
                 }
@@ -3952,6 +4122,40 @@
             ]
         },
         {
+            "name": "Electrum",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "common",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Smith's Tools",
+                "secondaryTool": "Smith's Tools",
+                "forgingConditions": "-",
+                "baseMetals": "Gold + Silver",
+                "armorEffects": "Increase an ability score of your choice by 1, up to 20. One other ability Score of your choice is lowered by 2.",
+                "weaponEffects": "You are proficient in any weapon made of Electrum.",
+                "additionalEffects": "Not legal tender for most towns. Treated as Silver for overcoming damage resistances.",
+                "druidUseable": false
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Smith's Tools",
+                        "<b>Secondary Tool:</b> Smith's Tools",
+                        "<b>Forging Conditions:</b> -",
+                        "<b>Base Metals:</b> {@item Gold|TftJC} + {@item Silver|TftJC}",
+                        "<b>Armor Effects:</b> Increase an ability score of your choice by 1, up to 20. One other ability Score of your choice is lowered by 2.",
+                        "<b>Weapon Effects:</b> You are proficient in any weapon made of Electrum.",
+                        "<b>Additional Effects:</b> Not legal tender for most towns. Treated as {@item Silver|TftJC} for overcoming damage resistances.",
+                        "<b>Druid Useable:</b> No"
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Enchanting Catalogue Vol.",
             "source": "TftJC",
             "rarity": "varies",
@@ -4085,6 +4289,40 @@
             ]
         },
         {
+            "name": "Entropicite",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "rare",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Jeweler's Tools",
+                "secondaryTool": "Smith's Tools",
+                "forgingConditions": "?",
+                "baseMetals": "Void Ash + Skaier",
+                "armorEffects": "While wearing this armor, you gain resistance to psychic damage. While concentrating on a spell, you are gain the benefits of a Ring of Mind Shielding's first effects.",
+                "weaponEffects": "While you are concentrating on a spell, your thrown and ranged weapons deal an additional 3 Psychic Damage on hit. Attacking a creature in your weapons long range doubles this value.",
+                "additionalEffects": "2 Plates can be used as Material reagent for a Ring of Mind Shielding.",
+                "druidUseable": false
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Jeweler's Tools",
+                        "<b>Secondary Tool:</b> Smith's Tools",
+                        "<b>Forging Conditions:</b> ?",
+                        "<b>Base Metals:</b> {@item Void Ash|TftJC} + {@item Skaier|TftJC}",
+                        "<b>Armor Effects:</b> While wearing this armor, you gain resistance to psychic damage. While concentrating on a spell, you are gain the benefits of a Ring of Mind Shielding's first effects.",
+                        "<b>Weapon Effects:</b> While you are concentrating on a spell, your thrown and ranged weapons deal an additional 3 Psychic Damage on hit. Attacking a creature in your weapons long range doubles this value.",
+                        "<b>Additional Effects:</b> 2 Plates can be used as Material reagent for a Ring of Mind Shielding.",
+                        "<b>Druid Useable:</b> No"
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Eternium",
             "source": "TftJC",
             "type": "TG",
@@ -4195,7 +4433,7 @@
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> 6th level Fire spell, boiled in salt water",
                         "<b>Armor Effects:</b> When taking force, cold or thunder damage, the wielder can use their reaction to convert the damage they take into either of the other two damage types. All subsequent instances of the converted damage type are treated as the chosen type until the start of the wielder's next turn. Additionally, the wielder gains immunity to crushing pressure of deep water.",
-                        "<b>Weapon Effects:</b> Weapons possess the Siege property. When you take cold, force or thunder damage your weapon becomes empowered. It deals an additional 1d8 of that damage type for a number of rounds equal to the damage you took in that instance /10 (min 1). If you take a different damage type, it replaces this effect. Taking more of the same damage type refreshes the round timer on how long the weapon remains empowered.",
+                        "<b>Weapon Effects:</b> Weapons possess the Siege property. When you take cold, force or thunder damage your weapon becomes empowered. It deals an additional {@dice 1d8} of that damage type for a number of rounds equal to the damage you took in that instance /10 (min 1). If you take a different damage type, it replaces this effect. Taking more of the same damage type refreshes the round timer on how long the weapon remains empowered.",
                         "<b>Additional Effects:</b> ",
                         "<b>Runesmithing:</b> X",
                         "<b>Druid Useable:</b> No"
@@ -4472,7 +4710,7 @@
                         "<b>Plane of Origin:</b> Ethereal Plane",
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> Must be smithed on the Ethereal Plane",
-                        "<b>Armor Effects:</b> Armor made from Ghost Steel allows the user to see creatures on the Ethereal Plane. Gives advantage on saving throws against undead that would give you the Frightened condition.",
+                        "<b>Armor Effects:</b> Armor made from Ghost Steel allows the user to see creatures on the Ethereal Plane. Gives advantage on saving throws against undead that would give you the {@condition Frightened} condition.",
                         "<b>Weapon Effects:</b> Can only be made into light weapons. Ghost Steel weapons can hit creatures on the Ethereal Plane, regardless of the plane the weapon is on. Ghost Steel weapons ignore damage resistances from undead.",
                         "<b>Additional Effects:</b> Any clothes made from Ghost Steel Weaver's tools grant +1 to Disguise checks.",
                         "<b>Runesmithing:</b> X",
@@ -4710,7 +4948,7 @@
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> 15 CON or poison resistance.",
                         "<b>Armor Effects:</b> Advantage on Saving Throws against petrification.",
-                        "<b>Weapon Effects:</b> Gorgonite Weapons deal 1d4 Poison damage to all creatures within a 5ft radius of the attack target (including yourself) after making an attack roll.",
+                        "<b>Weapon Effects:</b> Gorgonite Weapons deal {@dice 1d4} Poison damage to all creatures within a 5ft radius of the attack target (including yourself) after making an attack roll.",
                         "<b>Additional Effects:</b> Material for +1 Poisoner and Herbalism Tools (2 Plates)",
                         "<b>Runesmithing:</b> X",
                         "<b>Druid Useable:</b> No"
@@ -4761,6 +4999,40 @@
                         "<b>Weapon Effects:</b> Weapon weight is reduced by ¼, and creatures have disadvantage to disarm you. Any weapon with the Heavy property loses that property, any weapon without Heavy, Two-handed, or Special, gains the Light property.",
                         "<b>Additional Effects:</b> Material for Outer Essence Shard (3 Plates)",
                         "<b>Runesmithing:</b> {@item Tectonium|TftJC}",
+                        "<b>Druid Useable:</b> Yes"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Gravity Quartz",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "rare",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Jeweler's Tools",
+                "secondaryTool": "Mason's Tools",
+                "forgingConditions": "Requires a 4th level Graviturgy Spell and 17 Con. Gravity Quartz is Smithed with CON not STR.",
+                "baseMetals": "Ash Quartz + Gravinite",
+                "armorEffects": "The Armors weight is quadrupled but its AC is increased by +1. As an action you can double the weight of the armor. While doubled you gain an additional +1 AC but your speed is reduced by 10 feet and you have disadvantage on Dexterity based attack rolls.",
+                "weaponEffects": "The weapons weight is quadrupled. Its damage die increases by one. As an action you can double the weight of the weapon to increase the weapons die by an additional step. When you do this you have disadvantage on all Dexterity saving throws and Dexterity ability checks.",
+                "additionalEffects": "Suitable material for Titanic Plate.",
+                "druidUseable": true
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Jeweler's Tools",
+                        "<b>Secondary Tool:</b> Mason's Tools",
+                        "<b>Forging Conditions:</b> Requires a 4th level Graviturgy Spell and 17 Con. Gravity Quartz is Smithed with CON not STR.",
+                        "<b>Base Metals:</b> {@item Ash Quartz|TftJC} + {@item Gravinite|TftJC}",
+                        "<b>Armor Effects:</b> The Armors weight is quadrupled but its AC is increased by +1. As an action you can double the weight of the armor. While doubled you gain an additional +1 AC but your speed is reduced by 10 feet and you have disadvantage on Dexterity based attack rolls.",
+                        "<b>Weapon Effects:</b> The weapons weight is quadrupled. Its damage die increases by one. As an action you can double the weight of the weapon to increase the weapons die by an additional step. When you do this you have disadvantage on all Dexterity saving throws and Dexterity ability checks.",
+                        "<b>Additional Effects:</b> Suitable material for Titanic Plate.",
                         "<b>Druid Useable:</b> Yes"
                     ]
                 }
@@ -5065,6 +5337,40 @@
             ]
         },
         {
+            "name": "Helios",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "uncommon",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Smith's Tools",
+                "secondaryTool": "Smith's Tools",
+                "forgingConditions": "13 CHA + 3rd level Fire Spell",
+                "baseMetals": "Gold + Blazing Brass",
+                "armorEffects": "Your proficiency bonus is added to damage rolls anytime you cast a spell of 1st or higher level that deals fire damage (once per cast).",
+                "weaponEffects": "While wielding the weapon, you can cast Searing Smite using this weapon without requiring concentration a number of times equal to your Proficiency Bonus per Long Rest. Any attack made by this weapon is treated as if the you and the target are in sunlight.",
+                "additionalEffects": "Any magical effect that requires \"dawn\" can be circumvented at midnight by holding that item to any item made of Helios.",
+                "druidUseable": false
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Smith's Tools",
+                        "<b>Secondary Tool:</b> Smith's Tools",
+                        "<b>Forging Conditions:</b> 13 CHA + 3rd level Fire Spell",
+                        "<b>Base Metals:</b> {@item Gold|TftJC} + {@item Blazing Brass|TftJC}",
+                        "<b>Armor Effects:</b> Your proficiency bonus is added to damage rolls anytime you cast a spell of 1st or higher level that deals fire damage (once per cast).",
+                        "<b>Weapon Effects:</b> While wielding the weapon, you can cast {@spell Searing Smite} using this weapon without requiring concentration a number of times equal to your Proficiency Bonus per Long Rest. Any attack made by this weapon is treated as if the you and the target are in sunlight.",
+                        "<b>Additional Effects:</b> Any magical effect that requires \"dawn\" can be circumvented at midnight by holding that item to any item made of Helios.",
+                        "<b>Druid Useable:</b> No"
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Herbalist Helper Vol.",
             "source": "TftJC",
             "rarity": "varies",
@@ -5133,6 +5439,40 @@
                 "It can be read over 1 week to learn the use for one plant, potion, or poison of a rarity lower than this book, determined randomly.",
                 "Alternatively, a creature reading it can instead read the book to increase their Gardening, Doctor, Poisoner, or Alchemist Wage Progression by 4",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+            ]
+        },
+        {
+            "name": "Hermes' Steel",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "very rare",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Mason's Tools",
+                "secondaryTool": "Smith's Tools",
+                "forgingConditions": "?",
+                "baseMetals": "Gravinite + Alacriver",
+                "armorEffects": "Light armor grants +3 bonus on Dexterity Saves. Heavy armor grants a +3 bonus on saving throws and checks made to resist being moved against your will.",
+                "weaponEffects": "Heavy weapons gain the Light property. Naturally Light weapons steal 10ft of movement speed on hit, which lasts until the start of your next turn.",
+                "additionalEffects": "Can be used to craft Hound and Stinger (Greatsword + Dagger)",
+                "druidUseable": false
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Mason's Tools",
+                        "<b>Secondary Tool:</b> Smith's Tools",
+                        "<b>Forging Conditions:</b> ?",
+                        "<b>Base Metals:</b> {@item Gravinite|TftJC} + {@item Alacriver|TftJC}",
+                        "<b>Armor Effects:</b> Light armor grants +3 bonus on Dexterity Saves. Heavy armor grants a +3 bonus on saving throws and checks made to resist being moved against your will.",
+                        "<b>Weapon Effects:</b> Heavy weapons gain the Light property. Naturally Light weapons steal 10ft of movement speed on hit, which lasts until the start of your next turn.",
+                        "<b>Additional Effects:</b> Can be used to craft Hound and Stinger (Greatsword + Dagger)",
+                        "<b>Druid Useable:</b> No"
+                    ]
+                }
             ]
         },
         {
@@ -5230,7 +5570,7 @@
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> Forged by a Human with hate in their heart",
                         "<b>Armor Effects:</b> Can only be made into light armor. Taking the dodge action grants a bonus to AC equal to prof bonus. Fey will be more aggressive towards you.",
-                        "<b>Weapon Effects:</b> Can only be made into Slashing weapons. Deals one step lower damage dice. Targets lose 1d4 hp (untyped) if they can bleed. Counts as silver for resistances and immunities. Fey will be more aggressive towards you.",
+                        "<b>Weapon Effects:</b> Can only be made into Slashing weapons. Deals one step lower damage dice. Targets lose {@dice 1d4} hp (untyped) if they can bleed. Counts as silver for resistances and immunities. Fey will be more aggressive towards you.",
                         "<b>Additional Effects:</b> F",
                         "<b>Runesmithing:</b> ???",
                         "<b>Druid Useable:</b> No"
@@ -5325,7 +5665,7 @@
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> 17 INT",
                         "<b>Armor Effects:</b> You gain resistance to Psychic Damage. Illithids wearing this have advantage on Wisdom Saves.",
-                        "<b>Weapon Effects:</b> Weapons that Critically hit grant the target vulnerability to Psychic damage for a number of rounds equal to your Prof Bonus. Illithids using these deal an additional 1d6 psychic damage on a hit.",
+                        "<b>Weapon Effects:</b> Weapons that Critically hit grant the target vulnerability to Psychic damage for a number of rounds equal to your Prof Bonus. Illithids using these deal an additional {@dice 1d6} psychic damage on a hit.",
                         "<b>Additional Effects:</b> -",
                         "<b>Runesmithing:</b> {@item Mentallite|TftJC}",
                         "<b>Druid Useable:</b> No"
@@ -5365,6 +5705,40 @@
                 "Once per day, the wielder can hold aloft the lance and use an action to cast {@spell Find Greater Steed|XGE}. When cast in this way, it specifically summons the spirit bonded to the weapon, Rasharam. Rasharam has the statistics of a {@creature nightmare|MM}, but is of type celestial and only the ability to convoy its summoner. When he appears, he is equipped with a saddle and set of plate barding, which vanish with him when he is dismissed or slain. Rasharam remains until dismissed or slain.",
                 "Indara’s Fall can only be attuned, identified, and wielded by one who has slain a Dragon of CR 11 or higher. A creature can perform a bonding ritual with the blade by anointing it with CR 11 or high Dragon’s blood. Once this ritual is performed, that creature can always attune to Indara’s Fall.",
                 "<b><i>Special.</i></b> You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."
+            ]
+        },
+        {
+            "name": "Iron",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "rare",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Smith's Tools",
+                "secondaryTool": "Smith's Tools",
+                "forgingConditions": "?",
+                "baseMetals": "Iron + Mockrium",
+                "armorEffects": "Can take on the properties of any metal Rare or lower rarity by holding a plate/item comprised of it for 1 minute. Visually indistinguishable from Iron.",
+                "weaponEffects": "Can take on the properties of any metal Rare or lower rarity by holding a plate/item comprised of it for 1 minute. Visually indistinguishable from Iron.",
+                "additionalEffects": "Requires a DC 25 Smiths Tools Check with INT to determine this isn't Iron.",
+                "druidUseable": false
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Smith's Tools",
+                        "<b>Secondary Tool:</b> Smith's Tools",
+                        "<b>Forging Conditions:</b> ?",
+                        "<b>Base Metals:</b> {@item Iron|TftJC} + {@item Mockrium|TftJC}",
+                        "<b>Armor Effects:</b> Can take on the properties of any metal Rare or lower rarity by holding a plate/item comprised of it for 1 minute. Visually indistinguishable from Iron.",
+                        "<b>Weapon Effects:</b> Can take on the properties of any metal Rare or lower rarity by holding a plate/item comprised of it for 1 minute. Visually indistinguishable from Iron.",
+                        "<b>Additional Effects:</b> Requires a DC 25 Smiths Tools Check with INT to determine this isn't Iron.",
+                        "<b>Druid Useable:</b> No"
+                    ]
+                }
             ]
         },
         {
@@ -5614,7 +5988,7 @@
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> Must be forged underwater at crushing depths.",
                         "<b>Armor Effects:</b> You have a swimming speed equal to your walking speed and can breathe underwater. You have resistance to cold damage.",
-                        "<b>Weapon Effects:</b> This weapon deals an additional 1d8 cold damage and can function normally underwater.",
+                        "<b>Weapon Effects:</b> This weapon deals an additional {@dice 1d8} cold damage and can function normally underwater.",
                         "<b>Additional Effects:</b> You can cast Water Breathing once per day without using a spell slot.",
                         "<b>Druid Useable:</b> No"
                     ]
@@ -5643,12 +6017,46 @@
                     "entries": [
                         "<b>Plane of Origin:</b> 9 Hells (Phlegethos)",
                         "<b>Required Tool:</b> Glassblower's Tools",
-                        "<b>Forging Conditions:</b> Proficiency in Persuasion.",
-                        "<b>Armor Effects:</b> This armor is sentient, with an INT of 2, WIS of 8 and CHA of 12 (LE). When you would be subjected to taking fire damage, you can use your reaction to try and convince the armor to absorb it. Make a Persuasion check, and on a success, the damage is reduced by an amount equal to your check.",
-                        "<b>Weapon Effects:</b> The weapon is sentient, with an INT of 2, WIS of 8 and CHA of 12 (LE). If you would make an attack roll with this weapon and roll 1 under your Critical hit range, you can try and convince the weapon to hit a bit harder. Make a DC 20 Persuasion check, and on a success, your critical hit threshold for that attack is increased by 1. On a fail of 10 or more, the attack misses as the weapon forces you to whiff your strike.",
+                        "<b>Forging Conditions:</b> Proficiency in {@skill Persuasion}.",
+                        "<b>Armor Effects:</b> This armor is sentient, with an INT of 2, WIS of 8 and CHA of 12 (LE). When you would be subjected to taking fire damage, you can use your reaction to try and convince the armor to absorb it. Make a {@skill Persuasion} check, and on a success, the damage is reduced by an amount equal to your check.",
+                        "<b>Weapon Effects:</b> The weapon is sentient, with an INT of 2, WIS of 8 and CHA of 12 (LE). If you would make an attack roll with this weapon and roll 1 under your Critical hit range, you can try and convince the weapon to hit a bit harder. Make a DC 20 {@skill Persuasion} check, and on a success, your critical hit threshold for that attack is increased by 1. On a fail of 10 or more, the attack misses as the weapon forces you to whiff your strike.",
                         "<b>Additional Effects:</b> ",
                         "<b>Runesmithing:</b> X",
                         "<b>Druid Useable:</b> Yes"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Living Truemetal",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "very rare",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Glassblower's Tools",
+                "secondaryTool": "Smith's Tools",
+                "forgingConditions": "?",
+                "baseMetals": "Living Lava + Truemetal",
+                "armorEffects": "This armor is sentient, with an INT of 2, WIS of 12 and CHA of 12 (TN). Armor reduces damage from Cold/Lightning/Acid/Poison damage by 5, and Fire Damage by 10. After the armor reduces 25 damage, it bursts with energy, dealing 10 Fire Damage to all creatures within 10ft of you (you do not take this damage).",
+                "weaponEffects": "This weapon is sentient, with an INT of 2, WIS of 12 and CHA of 12 (TN). This weapon deals Fire damage instead of its normal damage type. Every 5th attack made with this weapon that successfully hits causes it to deal an additional 15 Fire Damage.",
+                "additionalEffects": "?",
+                "druidUseable": false
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Glassblower's Tools",
+                        "<b>Secondary Tool:</b> Smith's Tools",
+                        "<b>Forging Conditions:</b> ?",
+                        "<b>Base Metals:</b> {@item Living Lava|TftJC} + {@item Truemetal|TftJC}",
+                        "<b>Armor Effects:</b> This armor is sentient, with an INT of 2, WIS of 12 and CHA of 12 (TN). Armor reduces damage from Cold/Lightning/Acid/Poison damage by 5, and Fire Damage by 10. After the armor reduces 25 damage, it bursts with energy, dealing 10 Fire Damage to all creatures within 10ft of you (you do not take this damage).",
+                        "<b>Weapon Effects:</b> This weapon is sentient, with an INT of 2, WIS of 12 and CHA of 12 (TN). This weapon deals Fire damage instead of its normal damage type. Every 5th attack made with this weapon that successfully hits causes it to deal an additional 15 Fire Damage.",
+                        "<b>Additional Effects:</b> ?",
+                        "<b>Druid Useable:</b> No"
                     ]
                 }
             ]
@@ -5811,6 +6219,40 @@
             ]
         },
         {
+            "name": "Malevolent Magma",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "very rare",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Glassblower's Tools",
+                "secondaryTool": "Smith's Tools",
+                "forgingConditions": "Fire Resist + NE Alignment",
+                "baseMetals": "Living Lava + Zuigni",
+                "armorEffects": "This armor is sentient, with an INT of 2, WIS of 10 and CHA of 12 (NE). You take reduced Fire Damage equal to your Persuasion Bonus. The first time each round that this reduces Fire damage you would have taken to 0, all creatures within 5ft of you (other than yourself) take Fire Damage equal to your Persuasion Bonus.",
+                "weaponEffects": "This weapon is sentient, with an INT of 2, WIS of 10 and CHA of 12 (NE). Malevolent Magma replaces the weapon's damage type with Fire. This weapon ignores Fire Resistance.",
+                "additionalEffects": "Wearing or wielding this metal allows you to walk on lava with no movement penalties.",
+                "druidUseable": false
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Glassblower's Tools",
+                        "<b>Secondary Tool:</b> Smith's Tools",
+                        "<b>Forging Conditions:</b> Fire Resist + NE Alignment",
+                        "<b>Base Metals:</b> {@item Living Lava|TftJC} + {@item Zuigni|TftJC}",
+                        "<b>Armor Effects:</b> This armor is sentient, with an INT of 2, WIS of 10 and CHA of 12 (NE). You take reduced Fire Damage equal to your {@skill Persuasion} Bonus. The first time each round that this reduces Fire damage you would have taken to 0, all creatures within 5ft of you (other than yourself) take Fire Damage equal to your {@skill Persuasion} Bonus.",
+                        "<b>Weapon Effects:</b> This weapon is sentient, with an INT of 2, WIS of 10 and CHA of 12 (NE). Malevolent Magma replaces the weapon's damage type with Fire. This weapon ignores Fire Resistance.",
+                        "<b>Additional Effects:</b> Wearing or wielding this metal allows you to walk on lava with no movement penalties.",
+                        "<b>Druid Useable:</b> No"
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Malkin's Fluxbinder",
             "source": "TftJC",
             "type": "R",
@@ -5889,7 +6331,7 @@
                         "<b>Base Metal:</b> {@item Truemetal|TftJC}",
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> Must be forged by someone with telepathic abilities.",
-                        "<b>Armor Effects:</b> You have resistance to psychic damage and advantage on saving throws against being charmed.",
+                        "<b>Armor Effects:</b> You have resistance to psychic damage and advantage on saving throws against being {@condition charmed}.",
                         "<b>Weapon Effects:</b> When you hit with this weapon, you can communicate telepathically with the target for 1 minute.",
                         "<b>Additional Effects:</b> You can cast Detect Thoughts once per day without using a spell slot.",
                         "<b>Druid Useable:</b> No"
@@ -5995,7 +6437,7 @@
                 "forgingConditions": "Smith's Tools Bonus of +10 or higher",
                 "armorEffects": "Armor does not pose disadvantage on stealth checks. Mithral requires half of the gold cost to Enchant it.",
                 "weaponEffects": "Mithral Requires half of the gold cost to enchant it.",
-                "additionalEffects": "Treated as {@item Silver|TftJC} for overcoming Resistances.",
+                "additionalEffects": "Treated as Silver for overcoming Resistances.",
                 "runesmithing": "Arcanite",
                 "druidUseable": false
             },
@@ -6007,7 +6449,7 @@
                         "<b>Plane of Origin:</b> Material",
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> Smith's Tools Bonus of +10 or higher",
-                        "<b>Armor Effects:</b> Armor does not pose disadvantage on stealth checks. Mithral requires half of the gold cost to Enchant it.",
+                        "<b>Armor Effects:</b> Armor does not pose disadvantage on {@skill stealth} checks. Mithral requires half of the gold cost to Enchant it.",
                         "<b>Weapon Effects:</b> Mithral Requires half of the gold cost to enchant it.",
                         "<b>Additional Effects:</b> Treated as {@item Silver|TftJC} for overcoming Resistances.",
                         "<b>Runesmithing:</b> {@item Arcanite|TftJC}",
@@ -6276,8 +6718,8 @@
                         "<b>Base Metal:</b> {@item Celestial Gold|TftJC}",
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> Must be blessed by a deity or celestial being.",
-                        "<b>Armor Effects:</b> You have resistance to radiant damage and advantage on saving throws against being frightened.",
-                        "<b>Weapon Effects:</b> This weapon deals an additional 1d8 radiant damage to fiends and undead.",
+                        "<b>Armor Effects:</b> You have resistance to radiant damage and advantage on saving throws against being {@condition frightened}.",
+                        "<b>Weapon Effects:</b> This weapon deals an additional {@dice 1d8} radiant damage to fiends and undead.",
                         "<b>Additional Effects:</b> You can cast Divine Favor once per day without using a spell slot.",
                         "<b>Druid Useable:</b> No"
                     ]
@@ -6381,11 +6823,45 @@
                         "<b>Plane of Origin:</b> Material",
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> ???",
-                        "<b>Armor Effects:</b> Whenever you fail a saving throw against a poison, paralysis, or petrified conditions the DC to save from the effect is reduced by 2 against that effect until it ends. You gain resistance to poison damage.",
+                        "<b>Armor Effects:</b> Whenever you fail a saving throw against a {@condition poison}, {@condition paralysis}, or {@condition petrified} conditions the DC to save from the effect is reduced by 2 against that effect until it ends. You gain resistance to poison damage.",
                         "<b>Weapon Effects:</b> Poisons applied to this weapon are destroyed. In addition, any additional damage dealt by this weapon is converted into its damage type.",
                         "<b>Additional Effects:</b> -",
                         "<b>Runesmithing:</b> ???",
                         "<b>Druid Useable:</b> Yes"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Palladium",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "uncommon",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Smith's Tools",
+                "secondaryTool": "Smith's Tools",
+                "forgingConditions": "?",
+                "baseMetals": "Iron + Adamantine",
+                "armorEffects": "You take 2 reduced damage from all sources of damage, doubled against critical hits against you.",
+                "weaponEffects": "Weapons deal an additional 2 Damage, doubled against structures or when you land a critical hit.",
+                "additionalEffects": "Structures made from Palladium have resistance to all damage.",
+                "druidUseable": false
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Smith's Tools",
+                        "<b>Secondary Tool:</b> Smith's Tools",
+                        "<b>Forging Conditions:</b> ?",
+                        "<b>Base Metals:</b> {@item Iron|TftJC} + {@item Adamantine|TftJC}",
+                        "<b>Armor Effects:</b> You take 2 reduced damage from all sources of damage, doubled against critical hits against you.",
+                        "<b>Weapon Effects:</b> Weapons deal an additional 2 Damage, doubled against structures or when you land a critical hit.",
+                        "<b>Additional Effects:</b> Structures made from Palladium have resistance to all damage.",
+                        "<b>Druid Useable:</b> No"
                     ]
                 }
             ]
@@ -6535,7 +7011,7 @@
                         "<b>Plane of Origin:</b> Feywild",
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> 15 WIS or resistance to Psychic Damage.",
-                        "<b>Armor Effects:</b> Each day at Dawn, roll 1d2. On a 1, you have advantage on one type of saving throw against magic (roll 1d6 to decide). On a 2, you have disadvantage to one type of saving throw against magic (roll 1d6 to decide).",
+                        "<b>Armor Effects:</b> Each day at Dawn, roll {@dice 1d2}. On a 1, you have advantage on one type of saving throw against magic (roll {@dice 1d6} to decide). On a 2, you have disadvantage to one type of saving throw against magic (roll {@dice 1d6} to decide).",
                         "<b>Weapon Effects:</b> After hitting a creature with this weapon you can force them to make a DC15 CHA Saving Throw, and on a fail are affected by the Confusion Spell until the start of your next turn (you do not concentrate on this). A creature who succeeds or fails the saving throw they are immune to this effect for the next 24 hours.",
                         "<b>Additional Effects:</b> -",
                         "<b>Runesmithing:</b> ???",
@@ -6611,6 +7087,40 @@
                         "<b>Additional Effects:</b> A plate of Polished Arcstone can be used to fuel an enchantment, consuming the plate and progressing the enchantment by 150.",
                         "<b>Runesmithing:</b> ???",
                         "<b>Druid Useable:</b> Yes"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Posidinium",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "very rare",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Calligrapher's Supplies",
+                "secondaryTool": "Smith's Tools",
+                "forgingConditions": "?",
+                "baseMetals": "?",
+                "armorEffects": "You gain a swim speed equal to your walking speed. You can breathe underwater, and incur no penalties from rough waves, crushing pressure or other penalties caused naturally by bodies of large water (this excludes magical effects).",
+                "weaponEffects": "The weapon gains no penalties when used underwater. While swimming, this weapon gains a +2 to hit and damage rolls that are also in water. You gain a +1 to Charisma Checks against creatures with a swim speed for every 10ft of swim speed you have.",
+                "additionalEffects": "?",
+                "druidUseable": false
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Calligrapher's Supplies",
+                        "<b>Secondary Tool:</b> Smith's Tools",
+                        "<b>Forging Conditions:</b> ?",
+                        "<b>Base Metals:</b> ?",
+                        "<b>Armor Effects:</b> You gain a swim speed equal to your walking speed. You can breathe underwater, and incur no penalties from rough waves, crushing pressure or other penalties caused naturally by bodies of large water (this excludes magical effects).",
+                        "<b>Weapon Effects:</b> The weapon gains no penalties when used underwater. While swimming, this weapon gains a +2 to hit and damage rolls that are also in water. You gain a +1 to Charisma Checks against creatures with a swim speed for every 10ft of swim speed you have.",
+                        "<b>Additional Effects:</b> ?",
+                        "<b>Druid Useable:</b> ???"
                     ]
                 }
             ]
@@ -6738,6 +7248,40 @@
                         "<b>Weapon Effects:</b> The damage dealt by this weapon is force. Prismium weapons can be used as spellcasting foci, and grant benefits their like Bonuses to hit and damage rolls to the wielder's spell attack rolls and damage rolls from spell attack rolls. These bouses are halved.",
                         "<b>Additional Effects:</b> Prismium Woodcarver's tools grant advantage on checks to craft Arcane Focuses.",
                         "<b>Druid Useable:</b> No"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Prometheum",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "rare",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Woodcarver's Tools",
+                "secondaryTool": "Smith's Tools",
+                "forgingConditions": "",
+                "baseMetals": "Ironoak + Zuigni",
+                "armorEffects": "This armor is Druid Useable. When you Wild Shape, polymorph or otherwise transform, your new form resists Fire Damage and any natural attack made in that new form deals an additional 1d8 Fire Damage on a hit.",
+                "weaponEffects": "This weapon is Druid Useable. Any Spells that would deal Fire Damage to a creature ignite them on fire, causing them to take 1d6 Fire Damage at the start of their turns until they are put out or use an action to pat off the flames. Your spells that deal Fire Damage ignore Fire resistance.",
+                "additionalEffects": "Plants and Plant matter can not burn while within 10ft of any material made of Prometheum.",
+                "druidUseable": true
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Woodcarver's Tools",
+                        "<b>Secondary Tool:</b> Smith's Tools",
+                        "<b>Forging Conditions:</b> ",
+                        "<b>Base Metals:</b> {@item Ironoak|TftJC} + {@item Zuigni|TftJC}",
+                        "<b>Armor Effects:</b> This armor is Druid Useable. When you Wild Shape, polymorph or otherwise transform, your new form resists Fire Damage and any natural attack made in that new form deals an additional {@dice 1d8} Fire Damage on a hit.",
+                        "<b>Weapon Effects:</b> This weapon is Druid Useable. Any Spells that would deal Fire Damage to a creature ignite them on fire, causing them to take {@dice 1d6} Fire Damage at the start of their turns until they are put out or use an action to pat off the flames. Your spells that deal Fire Damage ignore Fire resistance.",
+                        "<b>Additional Effects:</b> Plants and Plant matter can not burn while within 10ft of any material made of Prometheum.",
+                        "<b>Druid Useable:</b> Yes"
                     ]
                 }
             ]
@@ -6952,10 +7496,44 @@
                         "<b>Plane of Origin:</b> 9 Hells (Dis)",
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> 15 CON",
-                        "<b>Armor Effects:</b> When dealing Fire damage to a creature, you heal 1d4 hit points per every 10 fire damage dealt to that creature.",
+                        "<b>Armor Effects:</b> When dealing Fire damage to a creature, you heal {@dice 1d4} hit points per every 10 fire damage dealt to that creature.",
                         "<b>Weapon Effects:</b> Taking fire damage causes this weapon to deal an additional Fire damage on the next attack made with it equal to a number of d6s per every 10 fire damage taken (rounded up, minimum 1, calculated before resistances/immunities/vulnerabilities).",
                         "<b>Additional Effects:</b> -",
                         "<b>Runesmithing:</b> X",
+                        "<b>Druid Useable:</b> No"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Redwurm's Glory",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "rare",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Glassblower's Tools",
+                "secondaryTool": "Smith's Tools",
+                "forgingConditions": "Chaotic Evil Alignment",
+                "baseMetals": "Dragon's Gold + Living Lava",
+                "armorEffects": "This armor is sentient, with an INT of 2, WIS of 8 and CHA of 17 (CE). You gain a Bonus to Persuasion Checks while wearing the armor based on its type (Light +1, Medium +2, Heavy +3). This bonus is doubled against Neutral or Evil aligned Dragons. You know Draconic while wearing this armor.",
+                "weaponEffects": "This weapon is sentient, with an INT of 2, WIS of 8 and CHA of 17 (CE). This weapon adds half your proficiency Bonus (rounded down) to its damage rolls, its full value against Dragons, or double your Proficiency against Good Aligned Dragons. This weapon executes any creature you attack with it that is has remaining hitpoints equal to or less that your Proficiency Bonus, this value is doubled against Good Aligned Dragons.",
+                "additionalEffects": "You have disadvantage on saving throws inflicted upon you by Red Dragons, as the armor/weapon betrays you.",
+                "druidUseable": false
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Glassblower's Tools",
+                        "<b>Secondary Tool:</b> Smith's Tools",
+                        "<b>Forging Conditions:</b> Chaotic Evil Alignment",
+                        "<b>Base Metals:</b> {@item Dragon's Gold|TftJC} + {@item Living Lava|TftJC}",
+                        "<b>Armor Effects:</b> This armor is sentient, with an INT of 2, WIS of 8 and CHA of 17 (CE). You gain a Bonus to {@skill Persuasion} Checks while wearing the armor based on its type (Light +1, Medium +2, Heavy +3). This bonus is doubled against Neutral or Evil aligned Dragons. You know Draconic while wearing this armor.",
+                        "<b>Weapon Effects:</b> This weapon is sentient, with an INT of 2, WIS of 8 and CHA of 17 (CE). This weapon adds half your proficiency Bonus (rounded down) to its damage rolls, its full value against Dragons, or double your Proficiency against Good Aligned Dragons. This weapon executes any creature you attack with it that is has remaining hitpoints equal to or less that your Proficiency Bonus, this value is doubled against Good Aligned Dragons.",
+                        "<b>Additional Effects:</b> You have disadvantage on saving throws inflicted upon you by Red Dragons, as the armor/weapon betrays you.",
                         "<b>Druid Useable:</b> No"
                     ]
                 }
@@ -7388,8 +7966,8 @@
                         "<b>Base Metal:</b> {@item Stabilized Uranium|TftJC}",
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> Must be forged in a place of great destruction or by someone who has witnessed apocalypse.",
-                        "<b>Armor Effects:</b> You have resistance to force damage and immunity to being frightened.",
-                        "<b>Weapon Effects:</b> This weapon deals an additional 2d6 force damage, but you take 1d4 force damage each time you attack.",
+                        "<b>Armor Effects:</b> You have resistance to force damage and immunity to being {@condition frightened}.",
+                        "<b>Weapon Effects:</b> This weapon deals an additional {@dice 2d6} force damage, but you take {@dice 1d4} force damage each time you attack.",
                         "<b>Additional Effects:</b> You can cast Disintegrate once per week without using a spell slot.",
                         "<b>Druid Useable:</b> No"
                     ]
@@ -7419,7 +7997,7 @@
                         "<b>Plane of Origin:</b> The Beastlands",
                         "<b>Required Tool:</b> ???",
                         "<b>Forging Conditions:</b> ???",
-                        "<b>Armor Effects:</b> Beasts of CR 5 or lower must succeed on a DC 16 Wisdom save or become charmed by you when they see you. This charm ends when you or an ally attacks them.",
+                        "<b>Armor Effects:</b> Beasts of CR 5 or lower must succeed on a DC 16 Wisdom save or become {@condition charmed} by you when they see you. This charm ends when you or an ally attacks them.",
                         "<b>Weapon Effects:</b> Deals an extra damage die to beasts.",
                         "<b>Additional Effects:</b> Material for Staff of the Ivory Claw (3 Plates). Carpenter's tools gain a +2 bonus while working with bone or bone-like materials.",
                         "<b>Runesmithing:</b> ???",
@@ -7503,7 +8081,7 @@
                     "items": [
                         "Creature that receive healing from you gain temporary hit points equal to the amount healed. While they have these temporary hit points creatures that damage those creatures suffer 5 cold damage if they are within 5ft of the damaged creature.",
                         "Whenever you cast a spell that deals cold damage, the surrounding area grows frigid. Each creature of your choice within 30 feet of you must make a DC 20 Constitution saving throw or have their movement speed halved and suffer cold damage equal to your proficiency bonus.",
-                        "When you restore hit points to a creature, you can also end one of the following conditions on that creature: poisoned, paralyzed, prone, or stunned."
+                        "When you restore hit points to a creature, you can also end one of the following conditions on that creature: {@condition poisoned}, {@condition paralyzed}, {@condition prone}, or {@condition stunned}."
                     ]
                 },
                 "When the spirit drops to 0 hit points or 1 hour passes, it vanishes, and you lose the benefits listed above. Once you use this ability, you cannot use it again for 90 days. As an action, you can cast a 5th level or higher spell that deals cold damage into the Sash to lower the time to wait by 1 day."
@@ -7596,7 +8174,7 @@
                 "This 1-foot-long shard of gold has veins of silver and platinum along its surface.",
                 "Empowered Magic. While holding this shard, you can use it as a spellcasting focus, and it gives a +1 bonus to your spell attack rolls. ",
                 "Enhanced Intelligence. Your Intelligence score increases by 2 while the shard is on your person. The shard can't raise your Intelligence score above 22. ",
-                "<i><b>Curse.</i></b> Attuning to this item extends it curse to you. You remain cursed until you are targeted by a remove curse spell or similar magic.",
+                "<i><b>Curse.</i></b> Attuning to this item extends it curse to you. You remain cursed until you are targeted by a {@spell remove curse} spell or similar magic.",
                 "The shard's curse causes misfortune to befall you. When you roll 1 on an attack roll, an ability check, or a saving throw, roll on the Shard Misfortunes table to determine your misfortune.",
                 {
                     "type": "table",
@@ -7612,19 +8190,19 @@
                     "rows": [
                         [
                             "1",
-                            "You accidentally cut yourself with the shard and are poisoned until the next dawn."
+                            "You accidentally cut yourself with the shard and are {@condition poisoned} until the next dawn."
                         ],
                         [
                             "2",
-                            "You experience a vision of an ancient calamity—a beautiful city threatened by crumbling mountains and erupting volcanoes—and are stunned until the end of your next turn."
+                            "You experience a vision of an ancient calamity—a beautiful city threatened by crumbling mountains and erupting volcanoes—and are {@condition stunned} until the end of your next turn."
                         ],
                         [
                             "3",
-                            "For a few seconds, the ground shakes under you. You and each creature within 10 feet of you must succeed on a DC 18 Dexterity saving throw or be knocked prone."
+                            "For a few seconds, the ground shakes under you. You and each creature within 10 feet of you must succeed on a DC 18 Dexterity saving throw or be knocked {@condition prone}."
                         ],
                         [
                             "4",
-                            "The shard releases four glowing darts of magical force that target one random creature within 30 feet of you. If no such target exists, you become the target. Each dart hits automatically and deals 3 (1d4 + 1) force damage to the target."
+                            "The shard releases four glowing darts of magical force that target one random creature within 30 feet of you. If no such target exists, you become the target. Each dart hits automatically and deals 3 ({@dice 1d4 + 1}) force damage to the target."
                         ],
                         [
                             "5",
@@ -7916,6 +8494,40 @@
                 "When you hurl it and speak its command word, it transforms into a torrent of water, forming a line 5 feet wide that extends out from you to a target within 120 feet. Each creature in the line excluding you and the target must make a DC 13 Dexterity saving throw, taking {@dice 4d6} cold damage on a failed save, and half as much damage on a successful one. The torrent  turns back into a spear when it reaches the target. Make a ranged weapon attack against the target. On a hit, the target takes damage from the spear plus {@dice 4d6} cold damage. This ability does an additional {@dice 2d6} cold damage when used underwater.",
                 "The spear’s property can't be used again until the next dawn. In the meantime, the spear can still be used as a magic weapon.",
                 "The Spear retains all properties from its Staff Form."
+            ]
+        },
+        {
+            "name": "Spectral Patina",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "uncommon",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Smith's Tools",
+                "secondaryTool": "Smith's Tools",
+                "forgingConditions": "?",
+                "baseMetals": "Copper + Ghost Steel",
+                "armorEffects": "At the End of your turn, roll 1d6. On a 6, you enter the Ethereal Realm. This lasts until the start or end of your next turn (your choice).",
+                "weaponEffects": "The weapon deals an additional 3 Lightning Damage to partially corporeal or incorporeal creatures, and can hit incorporeal creatures.",
+                "additionalEffects": "When Planeshifting and wielding/wearing this metal, there is a 5% chance to instead enter the Ethereal Plane instead of your intended plane.",
+                "druidUseable": false
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Smith's Tools",
+                        "<b>Secondary Tool:</b> Smith's Tools",
+                        "<b>Forging Conditions:</b> ?",
+                        "<b>Base Metals:</b> {@item Copper|TftJC} + {@item Ghost Steel|TftJC}",
+                        "<b>Armor Effects:</b> At the End of your turn, roll {@dice 1d6}. On a 6, you enter the Ethereal Realm. This lasts until the start or end of your next turn (your choice).",
+                        "<b>Weapon Effects:</b> The weapon deals an additional 3 Lightning Damage to partially corporeal or incorporeal creatures, and can hit incorporeal creatures.",
+                        "<b>Additional Effects:</b> When Planeshifting and wielding/wearing this metal, there is a 5% chance to instead enter the Ethereal Plane instead of your intended plane.",
+                        "<b>Druid Useable:</b> No"
+                    ]
+                }
             ]
         },
         {
@@ -8598,6 +9210,40 @@
             ]
         },
         {
+            "name": "Truelight",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "legendary",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Smith's Tools",
+                "secondaryTool": "Smith's Tools",
+                "forgingConditions": "Divivne Intervention + Forged on Mount Celestia",
+                "baseMetals": "Celestial Gold + Truemetal",
+                "armorEffects": "Armor reduces damage from Necrotic and Radiant by 10. After the armor reduces 50 damage, it bursts with energy, dealing 10 Radiant Damage to all creatures within 10ft of you (you do not take this damage).",
+                "weaponEffects": "This weapon deals Radiant damage instead of its normal damage type. Every 3rd attack made with this weapon that successfully hits causes it to deal an additional 15 Radiant Damage.",
+                "additionalEffects": "This is a crafting component for an Uprooting Spike.",
+                "druidUseable": false
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Smith's Tools",
+                        "<b>Secondary Tool:</b> Smith's Tools",
+                        "<b>Forging Conditions:</b> Divivne Intervention + Forged on Mount Celestia",
+                        "<b>Base Metals:</b> {@item Celestial Gold|TftJC} + {@item Truemetal|TftJC}",
+                        "<b>Armor Effects:</b> Armor reduces damage from Necrotic and Radiant by 10. After the armor reduces 50 damage, it bursts with energy, dealing 10 Radiant Damage to all creatures within 10ft of you (you do not take this damage).",
+                        "<b>Weapon Effects:</b> This weapon deals Radiant damage instead of its normal damage type. Every 3rd attack made with this weapon that successfully hits causes it to deal an additional 15 Radiant Damage.",
+                        "<b>Additional Effects:</b> This is a crafting component for an Uprooting Spike.",
+                        "<b>Druid Useable:</b> No"
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Truemetal",
             "source": "TftJC",
             "type": "TG",
@@ -8630,6 +9276,40 @@
             ]
         },
         {
+            "name": "Trueskai",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "very rare",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Smith's Tools",
+                "secondaryTool": "Smith's Tools",
+                "forgingConditions": "?",
+                "baseMetals": "Skaier + Truemetal",
+                "armorEffects": "Armor reduces Cold, Thunder and Slashing damage by 5, and Lightning by 10. After reducing 25 damage, every creature but yourself within 5ft of you takes 5 Magical Slashing Damage.",
+                "weaponEffects": "Every 5th attack made with this metal deals an additional 15 Magical Slashing Damage.",
+                "additionalEffects": "?",
+                "druidUseable": false
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Smith's Tools",
+                        "<b>Secondary Tool:</b> Smith's Tools",
+                        "<b>Forging Conditions:</b> ?",
+                        "<b>Base Metals:</b> {@item Skaier|TftJC} + {@item Truemetal|TftJC}",
+                        "<b>Armor Effects:</b> Armor reduces Cold, Thunder and Slashing damage by 5, and Lightning by 10. After reducing 25 damage, every creature but yourself within 5ft of you takes 5 Magical Slashing Damage.",
+                        "<b>Weapon Effects:</b> Every 5th attack made with this metal deals an additional 15 Magical Slashing Damage.",
+                        "<b>Additional Effects:</b> ?",
+                        "<b>Druid Useable:</b> No"
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Tytantium",
             "source": "TftJC",
             "type": "TG",
@@ -8653,7 +9333,7 @@
                         "<b>Required Tool:</b> Jeweler's Tools",
                         "<b>Forging Conditions:</b> Requires STR, CON and CHA to be 14+, and Enchanted Tools.",
                         "<b>Armor Effects:</b> You gain resistance to Piercing Damage. You incur no penalties from moving on frozen terrains, slipping on ice or any negative effect on your movement on ice.",
-                        "<b>Weapon Effects:</b> Weapons made from Tytantium have their damage die size increased by 1 tier (d4s -> d6s. If the damage die is either 1d12 or 2d6, it becomes 2d8).",
+                        "<b>Weapon Effects:</b> Weapons made from Tytantium have their damage die size increased by 1 tier ({@dice d4}s -> {@dice d6}s. If the damage die is either {@dice 1d12} or {@dice 2d6}, it becomes {@dice 2d8}).",
                         "<b>Additional Effects:</b> -",
                         "<b>Runesmithing:</b> X",
                         "<b>Druid Useable:</b> No"
@@ -8750,11 +9430,45 @@
                     "entries": [
                         "<b>Base Metal:</b> {@item Ashenite|TftJC}",
                         "<b>Required Tool:</b> Smith's Tools",
-                        "<b>Forging Conditions:</b> While Ashenite is active, forge with fire. While working, take 1d4 fire damage per 10 minutes.",
+                        "<b>Forging Conditions:</b> While Ashenite is active, forge with fire. While working, take {@dice 1d4} fire damage per 10 minutes.",
                         "<b>Armor Effects:</b> You have resistance to fire damage. When you take fire damage, you regain 1 hit point.",
-                        "<b>Weapon Effects:</b> This weapon deals an additional 1d4 fire damage.",
+                        "<b>Weapon Effects:</b> This weapon deals an additional {@dice 1d4} fire damage.",
                         "<b>Additional Effects:</b> You have advantage on Constitution saving throws against extreme heat.",
                         "<b>Druid Useable:</b> No"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Villainous Radium",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "very rare",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Alchemist's Supplies",
+                "secondaryTool": "Glassblower's Tools",
+                "forgingConditions": "?",
+                "baseMetals": "Living Lava + Unstable Uranium",
+                "armorEffects": "Cannot be crafted into a shield or Light armor. This armor is sentient, with an INT of 2, WIS of 8 and CHA of 12 (LE). While wearing this armor, your maximum Hitpoints are Reduced by 25, and are reduced by another 25 for each consecutive week of use (these hitpoints return after a week without wearing the armor). You gain Immunity to Fire and Necrotic Damage. Taking Fire Damage Increases your AC by an amount equal to 1/10th (min 0) of the damage you would have taken (before immunity/resistances) until the end of your next turn.",
+                "weaponEffects": "Cannot be made into Ammunition or Light Weapons. This weapon is sentient, with an INT of 2, WIS of 8 and CHA of 12 (LE). While wielding this weapon, your Maximum hitpoints are reduced by 13, and are reduced by another 13 for each consecutive week of use (these hitpoints return after a week without wielding the weapon). This weapon doubles the effectiveness of any enchantment that increases its to hit and damage roll bonus (up to a +6). You gain a bonus to Intimidation checks equal to the Enchantment Bonus with this weapon while wielding it. As a reaction to making an attack roll with this weapon, you can make an Intimidation Check, and gain a bonus to the d20 roll equal to 1/10th of the value rolled. If this makes the die value over your Critical Hit threshold, it is a Critical Hit.",
+                "additionalEffects": "If left unwielded for 1 month, the Armor/Weapon gets up and leaves, looking for a new host. Makes you sick ):",
+                "druidUseable": true
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Alchemist's Supplies",
+                        "<b>Secondary Tool:</b> Glassblower's Tools",
+                        "<b>Forging Conditions:</b> ?",
+                        "<b>Base Metals:</b> {@item Living Lava|TftJC} + {@item Unstable Uranium|TftJC}",
+                        "<b>Armor Effects:</b> Cannot be crafted into a shield or Light armor. This armor is sentient, with an INT of 2, WIS of 8 and CHA of 12 (LE). While wearing this armor, your maximum Hitpoints are Reduced by 25, and are reduced by another 25 for each consecutive week of use (these hitpoints return after a week without wearing the armor). You gain Immunity to Fire and Necrotic Damage. Taking Fire Damage Increases your AC by an amount equal to 1/10th (min 0) of the damage you would have taken (before immunity/resistances) until the end of your next turn.",
+                        "<b>Weapon Effects:</b> Cannot be made into Ammunition or Light Weapons. This weapon is sentient, with an INT of 2, WIS of 8 and CHA of 12 (LE). While wielding this weapon, your Maximum hitpoints are reduced by 13, and are reduced by another 13 for each consecutive week of use (these hitpoints return after a week without wielding the weapon). This weapon doubles the effectiveness of any enchantment that increases its to hit and damage roll bonus (up to a +6). You gain a bonus to {@skill Intimidation} checks equal to the Enchantment Bonus with this weapon while wielding it. As a reaction to making an attack roll with this weapon, you can make an {@skill Intimidation} Check, and gain a bonus to the d20 roll equal to 1/10th of the value rolled. If this makes the die value over your Critical Hit threshold, it is a Critical Hit.",
+                        "<b>Additional Effects:</b> If left unwielded for 1 month, the Armor/Weapon gets up and leaves, looking for a new host. Makes you sick ):",
+                        "<b>Druid Useable:</b> Yes"
                     ]
                 }
             ]
@@ -9025,7 +9739,7 @@
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> Immolation Spell, 17 STR",
                         "<b>Armor Effects:</b> If you do not have resistance/immunity to Fire, you take 5 Fire Damage at the start of your turn while wearing this armor. Creatures Grappling you or creatures you grapple take 5 Fire Damage when the grapple starts, or when the grappler starts their turn.",
-                        "<b>Weapon Effects:</b> If you do not have resistance/immunity to Fire, you take 5 Fire Damage at the start of your turn while wielding these weapons. Zuigni Weapons deal an additional 1d6 Fire Damage on a hit, and ignore resistance to Fire Damage. Additionally, Zuigni Weapons can cast Absorb Elements (Fire Only) thrice per dawn.",
+                        "<b>Weapon Effects:</b> If you do not have resistance/immunity to Fire, you take 5 Fire Damage at the start of your turn while wielding these weapons. Zuigni Weapons deal an additional {@dice 1d6} Fire Damage on a hit, and ignore resistance to Fire Damage. Additionally, Zuigni Weapons can cast {@spell Absorb Elements} (Fire Only) thrice per dawn.",
                         "<b>Additional Effects:</b> -",
                         "<b>Runesmithing:</b> X",
                         "<b>Druid Useable:</b> No"
@@ -9259,7 +9973,7 @@
                 "TECH"
             ],
             "entries": [
-                "When a creature casts a spell within 30ft of you that deals damage, you can further enhance it with your own magic. Using your reaction to expend a spell slot you add additional force damage to one of the damage rolls of the spell equal to 2d8 per spell slot expended + half your warden levels. This is added to the spell's damage, meaning spells that save for half damage also halve this additional force damage."
+                "When a creature casts a spell within 30ft of you that deals damage, you can further enhance it with your own magic. Using your reaction to expend a spell slot you add additional force damage to one of the damage rolls of the spell equal to {@dice 2d8} per spell slot expended + half your warden levels. This is added to the spell's damage, meaning spells that save for half damage also halve this additional force damage."
             ]
         },
         {
@@ -9345,7 +10059,7 @@
                 "name": "125gp"
             },
             "entries": [
-                "You attach a blade at the end of the weapon, which can be used as a martial melee weapon that deals 1d8 piercing damage on a hit. The Bayonet is not considered a firearm."
+                "You attach a blade at the end of the weapon, which can be used as a martial melee weapon that deals {@dice 1d8} piercing damage on a hit. The Bayonet is not considered a firearm."
             ]
         },
         {
@@ -9518,7 +10232,7 @@
                 "TECH"
             ],
             "entries": [
-                "You forgo an attack to move in a straight line, up to 15ft towards a creature, for each ally that you pass within 5ft of they gain 10ft of movement on their next turn, each enemy that you pass within 5ft of losses 10ft of movement on their next turn. At the end of the charge you can make a shove action against a creature within range. If you succeed on the shove, the target is pushed up to 15ft away from you and knocked prone."
+                "You forgo an attack to move in a straight line, up to 15ft towards a creature, for each ally that you pass within 5ft of they gain 10ft of movement on their next turn, each enemy that you pass within 5ft of losses 10ft of movement on their next turn. At the end of the charge you can make a shove action against a creature within range. If you succeed on the shove, the target is pushed up to 15ft away from you and knocked {@condition prone}."
             ]
         },
         {
@@ -9545,7 +10259,7 @@
                 "name": "800gp"
             },
             "entries": [
-                "Once per turn, your firearm can concussively Stun a creature you hit with it. They must make a Constitution Saving Throw (DC = 8 + prof + DEX) and on a fail are stunned until the start of your next turn."
+                "Once per turn, your firearm can concussively Stun a creature you hit with it. They must make a Constitution Saving Throw (DC = 8 + prof + DEX) and on a fail are {@condition stunned} until the start of your next turn."
             ]
         },
         {
@@ -9581,7 +10295,7 @@
                 "ARC"
             ],
             "entries": [
-                "Tier 3 Arcana. The Forbidden Spell is upcasted by two levels, and then your maximum hit points are reduced by 3d6 until you complete a long rest."
+                "Tier 3 Arcana. The Forbidden Spell is upcasted by two levels, and then your maximum hit points are reduced by {@dice 3d6} until you complete a long rest."
             ]
         },
         {
@@ -9856,7 +10570,7 @@
                 "name": "650gp"
             },
             "entries": [
-                "The firearm deals an additional 1d8 fire damage. If the firearm activates pump, this damage is doubled."
+                "The firearm deals an additional {@dice 1d8} fire damage. If the firearm activates pump, this damage is doubled."
             ]
         },
         {
@@ -10072,7 +10786,7 @@
                 "name": "800gp"
             },
             "entries": [
-                "Your Burst Strike damage is increased by 1d10. +1 Misfire Score."
+                "Your Burst Strike damage is increased by {@dice 1d10}. +1 Misfire Score."
             ]
         },
         {
@@ -10399,7 +11113,7 @@
                 "ARC"
             ],
             "entries": [
-                "Tier 2 Arcana. Creatures affected by The Forbidden Spell must instead make a Wisdom saving throw, and on a fail are frightened rather than subtracting 1d4, for 1 minute or until they succeed the saving throw by repeating it at the end of their turns."
+                "Tier 2 Arcana. Creatures affected by The Forbidden Spell must instead make a Wisdom saving throw, and on a fail are {@condition frightened} rather than subtracting {@dice 1d4}, for 1 minute or until they succeed the saving throw by repeating it at the end of their turns."
             ]
         },
         {
@@ -10444,7 +11158,7 @@
                 "ARC"
             ],
             "entries": [
-                "Tier 3 Arcana. Creatures affected by The Forbidden Spell are no longer subtract 1d4, but now they must instead then make a Strength Saving Throw, and on a fail become Restrained for 1 minute, or until they succeed on the saving throw by repeating it at the end of their turns."
+                "Tier 3 Arcana. Creatures affected by The Forbidden Spell are no longer subtract {@dice 1d4}, but now they must instead then make a Strength Saving Throw, and on a fail become {@condition Restrained} for 1 minute, or until they succeed on the saving throw by repeating it at the end of their turns."
             ]
         },
         {
@@ -10624,7 +11338,7 @@
                 "name": "85gp"
             },
             "entries": [
-                "When you hit a creature with this weapon, they are lit on fire for a number of rounds equal to your Prof bonus, and take 1d6 Fire damage at the start of each of their turns. They can be doused in water or use an action to put themselves out."
+                "When you hit a creature with this weapon, they are lit on fire for a number of rounds equal to your Prof bonus, and take {@dice 1d6} Fire damage at the start of each of their turns. They can be doused in water or use an action to put themselves out."
             ]
         },
         {
@@ -11017,7 +11731,7 @@
                 "name": "500gp"
             },
             "entries": [
-                "The firearm's attacks deal an additional 1d6 damage. +1 Misfire score."
+                "The firearm's attacks deal an additional {@dice 1d6} damage. +1 Misfire score."
             ]
         },
         {
@@ -11035,7 +11749,7 @@
                 "ARC"
             ],
             "entries": [
-                "Tier 1 Arcana. Creatures affected by The Forbidden Spell must make a Strength saving throw or be knocked prone."
+                "Tier 1 Arcana. Creatures affected by The Forbidden Spell must make a Strength saving throw or be knocked {@condition prone}."
             ]
         },
         {
@@ -11136,7 +11850,7 @@
                 "name": "650gp"
             },
             "entries": [
-                "You can fire objects of up to 6\" in diameter that are not ammunition with this weapon. Objects instead deal 1d4 + your dexterity modifier in bludgeoning damage on a hit, and may apply other effects based on the object's effects."
+                "You can fire objects of up to 6\" in diameter that are not ammunition with this weapon. Objects instead deal {@dice 1d4} + your dexterity modifier in bludgeoning damage on a hit, and may apply other effects based on the object's effects."
             ]
         },
         {
@@ -11312,7 +12026,7 @@
                 "ARC"
             ],
             "entries": [
-                "Tier 2 Arcana. Creatures affected by The Forbidden Spell instead subtract 2d4 from their next roll."
+                "Tier 2 Arcana. Creatures affected by The Forbidden Spell instead subtract {@dice 2d4} from their next roll."
             ]
         },
         {
@@ -11444,7 +12158,7 @@
                 "name": "400gp"
             },
             "entries": [
-                "Once per turn, when you attack with this weapon you can roll 1d6. On a 6, you can make an additional attack with this weapon."
+                "Once per turn, when you attack with this weapon you can roll {@dice 1d6}. On a 6, you can make an additional attack with this weapon."
             ]
         },
         {
@@ -11794,7 +12508,7 @@
                 "TECH"
             ],
             "entries": [
-                "You forgo one attack to instead intimidate one target. Select 1 creature within 60ft of you, they must make a Wisdom saving throw. On a failure, they are Frightened of you. As long as the creature is frightened, their movement speed is halved, and you gain Temporary Hit Points at the start of your turn equal to your Proficiency Bonus. On a success, their movement speed is halved until the end of their next turn. The frightened creature can remake the saving throw at the end of each of its turns."
+                "You forgo one attack to instead intimidate one target. Select 1 creature within 60ft of you, they must make a Wisdom saving throw. On a failure, they are {@condition Frightened} of you. As long as the creature is {@condition frightened}, their movement speed is halved, and you gain Temporary Hit Points at the start of your turn equal to your Proficiency Bonus. On a success, their movement speed is halved until the end of their next turn. The {@condition frightened} creature can remake the saving throw at the end of each of its turns."
             ]
         },
         {
@@ -11839,7 +12553,7 @@
                 "TECH"
             ],
             "entries": [
-                "When you make an attack roll, you can allow the subject of your Honor Bond to also make an attack. Your Honor Bound can use its reaction to immediately make one attack, adding 1d4 to the to hit roll."
+                "When you make an attack roll, you can allow the subject of your Honor Bond to also make an attack. Your Honor Bound can use its reaction to immediately make one attack, adding {@dice 1d4} to the to hit roll."
             ]
         },
         {
@@ -11946,7 +12660,7 @@
                 "EI"
             ],
             "entries": [
-                "When you begin combat while wearing medium armour you gain {@dice 1d4} + Charisma modifier temporary hit points. This bonus increases to {@dice 1d6} at 9th level, {@dice 1d8} at 13th, {@dice 1d10} at 17th level, and 1d12 at 20th level."
+                "When you begin combat while wearing medium armour you gain {@dice 1d4} + Charisma modifier temporary hit points. This bonus increases to {@dice 1d6} at 9th level, {@dice 1d8} at 13th, {@dice 1d10} at 17th level, and {@dice 1d12} at 20th level."
             ]
         },
         {
@@ -12875,7 +13589,7 @@
                 }
             ],
             "entries": [
-                "You create a flurry of black petals and launch them at a creature within range. Make a spell attack roll against that creature, and on a hit they take {@dice 4d10} slashing damage as rapidly moving petals tear around them. If this attack hits a creature, that creature is also restrained, as the petals turn to solid chains. If the spell hits, then all creatures of your choice within 10ft of that creature must make a Dexterity Saving throw, or also be restrained. Creatures restrained by this spell are freed at the end of your next turn."
+                "You create a flurry of black petals and launch them at a creature within range. Make a spell attack roll against that creature, and on a hit they take {@dice 4d10} slashing damage as rapidly moving petals tear around them. If this attack hits a creature, that creature is also {@condition restrained}, as the petals turn to solid chains. If the spell hits, then all creatures of your choice within 10ft of that creature must make a Dexterity Saving throw, or also be {@condition restrained}. Creatures {@condition restrained} by this spell are freed at the end of your next turn."
             ],
             "entriesHigherLevel": [
                 {
@@ -13426,7 +14140,7 @@
                 }
             ],
             "entries": [
-                "Running your fingers down the bowstring a beam of silver light springs towards your target and music fills the air. Select a creature within range, it must make a Constitution saving throw. On a fail, you make them the target for a barrage of sonic attacks. On a success, they are still targeted but take half damage from any future effects. As a bonus action on each of your turns afterward, you can deal {@dice 2d8} thunder damage to the creature. Each additional time you use your bonus action in this way you deal {@dice 2d8} additional thunder damage. Once you reach 8d8 damage your bonus action instead deals {@dice 8d8} thunder damage in a 5ft radius around the target, each creature, including the target, must make a Constitution saving throw. On a success, they take half damage. After this happens the spell ends. The spell ends early if you use your bonus action to do anything other than continuing the spell or if you are restrained or disarmed of the spellcasting focus."
+                "Running your fingers down the bowstring a beam of silver light springs towards your target and music fills the air. Select a creature within range, it must make a Constitution saving throw. On a fail, you make them the target for a barrage of sonic attacks. On a success, they are still targeted but take half damage from any future effects. ...the creature. Each additional time you use your bonus action in this way you deal {@dice 2d8} additional thunder damage. Once you reach 8d8 damage your bonus action instead deals {@dice 8d8} thunder damage in a 5ft radius around the target, each creature, including the target, must make a Constitution saving throw. On a success, they take half damage. After this happens the spell ends. The spell ends early if you use your bonus action to do anything other than continuing the spell or if you are {@condition restrained} or disarmed of the spellcasting focus."
             ],
             "entriesHigherLevel": [
                 {
@@ -13492,7 +14206,7 @@
                         "(1 fail) Their speed is halved until the start of your next turn.",
                         "(2 fails) Previous effects, and the creature has disadvantage on all skill checks.",
                         "(3 fails) Previous effects, and attack rolls they make before the start of your next turn have disadvantage.",
-                        "(4 fails) Previous effects, and the creature becomes restrained until the start of your next turn.",
+                        "(4 fails) Previous effects, and the creature becomes {@condition restrained} until the start of your next turn.",
                         "(5 fails) The creature becomes petrified in ice for 10 minutes. Any physical changes that occur while petrified carry over once they return to their original state."
                     ]
                 }
@@ -13621,7 +14335,7 @@
                 }
             ],
             "entries": [
-                "Skeletal hands erupt from the ground and grasp at creatures in the radius of the spell. Each creature must make a Constitution saving throw or take {@dice 4d12} necrotic damage and become restrained. On a success, they take half damage and are not restrained. For the duration of the spell, the area becomes difficult terrain and a creature that ends its turn inside must make a Constitution saving throw or take {@dice 2d12} necrotic damage, half as much on a success. When the spell ends, the difficult terrain vanishes and any restrained creatures are released."
+                "Skeletal hands erupt from the ground and grasp at creatures in the radius of the spell. Each creature must make a Constitution saving throw or take {@dice 4d12} necrotic damage and become {@condition restrained}. On a success, they take half damage and are not {@condition restrained}. For the duration of the spell, the area becomes difficult terrain and a creature that ends its turn inside must make a Constitution saving throw or take {@dice 2d12} necrotic damage, half as much on a success. When the spell ends, the difficult terrain vanishes and any {@condition restrained} creatures are released."
             ],
             "classes": {
                 "fromClassList": [
@@ -13889,7 +14603,7 @@
             ],
             "entries": [
                 "You summon a pane of magical force 10ftx10ft and 1 inch thick. The pane can appear in an unoccupied space within range and be oriented in any direction. The pane can be opaque or transparent or somewhere in the middle. For the duration of the spell you can summon another pane as an action or move up to three summoned platforms up to 30ft. If you summon more panes than the spell slot used to cast the spell one pane of your choice vanishes. The panes can support 1000lbs of weight each, if more weight than this is applied to one it shatters",
-                "Nothing can physically pass through the panes. They are immune to all damage but force and cannot be dispelled by dispel magic. Each pane has an AC of 10 and 25 hit points. If a platform is destroyed it does not count against the number of summoned platforms."
+                "Nothing can physically pass through the panes. They are immune to all damage but force and cannot be dispelled by {@spell dispel magic}. Each pane has an AC of 10 and 25 hit points. If a platform is destroyed it does not count against the number of summoned platforms."
             ],
             "classes": {
                 "fromClassList": [
@@ -13941,7 +14655,7 @@
                 }
             ],
             "entries": [
-                "A burst of brilliant light ushers from you, each creature of your choice in a 20ft radius must make a Constitution saving throw or be blinded until the end of their next turn. You shed bright light in a 20ft radius. At the start of you next turn the light vanishes and a burst of necrotic energy dealing {@dice 2d8} necrotic damage to each creature that was blinded by this spell and still within range."
+                "A burst of brilliant light ushers from you, each creature of your choice in a 20ft radius must make a Constitution saving throw or be {@condition blinded} until the end of their next turn. You shed bright light in a 20ft radius. At the start of you next turn the light vanishes and a burst of necrotic energy dealing {@dice 2d8} necrotic damage to each creature that was {@condition blinded} by this spell and still within range."
             ],
             "entriesHigherLevel": [
                 {
@@ -14175,7 +14889,7 @@
                 }
             ],
             "entries": [
-                "A shining line of light fires out from your hands in a line 150 feet long and 5 feet wide in a direction you choose. Each creature in the line must make a Constitution Saving throw. Creatures made of darkness, shadows, or smoke have disadvantage on the Saving throw. A creature takes {@dice 6d6} Radiant damage on a failed save and is blinded until the end of their turn, or half as much damage on a successful one."
+                "A shining line of light fires out from your hands in a line 150 feet long and 5 feet wide in a direction you choose. Each creature in the line must make a Constitution Saving throw. Creatures made of darkness, shadows, or smoke have disadvantage on the Saving throw. A creature takes {@dice 6d6} Radiant damage on a failed save and is {@condition blinded} until the end of their turn, or half as much damage on a successful one."
             ],
             "entriesHigherLevel": [
                 {
@@ -14243,7 +14957,7 @@
                 }
             ],
             "entries": [
-                "You conjure moonlight above your head and fire it in a spray of razor-sharp lances. For each creature in 100 feet long and 5 feet wide line make a ranged spell attack. On a hit, you deal {@dice 5d8} radiant damage and the next creature hit takes one less d8 of damage. The spell ends if it reaches 0 d8’s of damage or hits its maximum range. If any creature in the line is invisible you ignore the disadvantage imposed by not seeing them and if you hit, their invisibility ends"
+                "You conjure moonlight above your head and fire it in a spray of razor-sharp lances. For each creature in 100 feet long and 5 feet wide line make a ranged spell attack. On a hit, you deal {@dice 5d8} radiant damage and the next creature hit takes one less d8 of damage. The spell ends if it reaches 0 d8's of damage or hits its maximum range. If any creature in the line is {@condition invisible} you ignore the disadvantage imposed by not seeing them and if you hit, their {@condition invisibility} ends"
             ],
             "entriesHigherLevel": [
                 {
@@ -14375,7 +15089,7 @@
             ],
             "entries": [
                 "You conjure a reflective metallic sphere in range. The sphere is 1ft in radius and hovers 5ft above the ground. It emits a magnetic force in a 45ft radius of the sphere that pulls in metal objects. Upon casting the spell, entering its zone for the first time, or starting your turn within its zone,loose metal objects within the magnetic force are flung towards the sphere and stick to it for the duration of the spell. Metal objects that are held require the wielder to make a Strength Save, and on a fail the objects are flung towards the sphere and stick to it. To retrieve an object stuck on the sphere, a creature must make a Strength Check equal to the spell save DC to successfully remove them from the sphere.",
-                "Creatures wearing metal armor are more susceptible to its effects. A creature wearing medium armor made primarily of metal must make a Strength Save, and on a fail, their body is flung towards the sphere and will then be stuck to it. A creature wearing light armor also makes the save, but with advantage. A creature wearing heavy armor makes the save with disadvantage. While stuck to the sphere, the creature is considered restrained. A creature may attempt an Athletics check to remove itself or another creature stuck to the sphere. The same advantages and disadvantages as detailed above depending on the armor type applies to this check.",
+                "Creatures wearing metal armor are more susceptible to its effects. A creature wearing medium armor made primarily of metal must make a Strength Save, and on a fail, their body is flung towards the sphere and will then be stuck to it. A creature wearing light armor also makes the save, but with advantage. A creature wearing heavy armor makes the save with disadvantage. While stuck to the sphere, the creature is considered {@condition restrained}. A creature may attempt an {@skill Athletics} check to remove itself or another creature stuck to the sphere. The same advantages and disadvantages as detailed above depending on the armor type applies to this check.",
                 "Creatures that are pulled to the centre of the sphere by its effect take fall damage equivalent of the range traveled. If you cast this spell using a spell slot of 7th level, when casting the spell you can instead have the orb repulse objects made of metal. Objects are then instead flung outwards of the sphere’s zone of magnetism. Creatures wearing armor are still affected by the same advantages and disadvantages as detailed above."
             ],
             "entriesHigherLevel": [
@@ -14530,7 +15244,7 @@
                 }
             ],
             "entries": [
-                "You conjure molten magma from your hands and launch it from you in a 20ft long and 10ft wide line. Each creature in that line must make a Dexterity Saving Throw, and on a fail take {@dice 4d8} Fire Damage. Creatures that fail are then restrained, and on a subsequent turn must make a Strength Check against your Spell Save DC to break free from the now cooled rock that has encased them. Creatures that succeed take half of this damage and are not encased in rock. Another creature can use their action to break free someone trapped in the cooled rock."
+                "You conjure molten magma from your hands and launch it from you in a 20ft long and 10ft wide line. Each creature in that line must make a Dexterity Saving Throw, and on a fail take {@dice 4d8} Fire Damage. Creatures that fail are then {@condition restrained}, and on a subsequent turn must make a Strength Check against your Spell Save DC to break free from the now cooled rock that has encased them. Creatures that succeed take half of this damage and are not encased in rock. Another creature can use their action to break free someone trapped in the cooled rock."
             ],
             "entriesHigherLevel": [
                 {
@@ -14765,7 +15479,7 @@
                 }
             ],
             "entries": [
-                "With a wave of the hand and a magic word you bring to light that which is hidden. When you cast the spell choose one creature, object, or 10-foot cube within range. Any illusion spell of 2nd level or lower inside that area or effecting a creature or object immediately ends, if the spell is Invisibility or Greater Invisibility the spell ends regardless of level. For each spell of 3rd level or higher in the area, make an ability check with your spell casting ability. The DC for this check is 10 + spell's level. On a success the spell ends."
+                "With a wave of the hand and a magic word you bring to light that which is hidden. When you cast the spell choose one creature, object, or 10-foot cube within range. Any illusion spell of 2nd level or lower inside that area or effecting a creature or object immediately ends, if the spell is {@spell Invisibility} or {@spell Greater Invisibility} the spell ends regardless of level. For each spell of 3rd level or higher in the area, make an ability check with your spell casting ability. The DC for this check is 10 + spell's level. On a success the spell ends."
             ],
             "entriesHigherLevel": [
                 {
@@ -14981,7 +15695,7 @@
                     "type": "entries",
                     "name": "At Higher Levels",
                     "entries": [
-                        "If you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each spell slot beyond 3rd."
+                        "If you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d6} for each spell slot beyond 3rd."
                     ]
                 }
             ],
@@ -15102,7 +15816,7 @@
                 }
             ],
             "entries": [
-                "You create a raging tornado within range. The tornado has a diameter of 20ft, and a height of 100ft. As a Bonus Action on your turn, you can move the tornado up to 30ft in a straight line. Creatures that enter the tornado or start their turn within the tornado must make a Strength Saving throw, and on a fail are flung up into the air inside of the tornado. Creatures affected by the tornado take {@dice 5d4} bludgeoning damage when they fail the saving throw, and cannot concentrate on spells, fail dexterity saving throws, cannot use a fly speed if they have one and are deafened. Creatures affected are flung a number of feet into the air equal to 1d10 x 10 when they start their turn. If a creature goes higher than the top of the tornado, they are shot out of the top of the tornado in a random direction and fall. They fly a number of feet equal to the remaining distance they would have travelled upwards."
+                "A tornado up to 30ft in a straight line. Creatures that enter the tornado or start their turn within the tornado must make a Strength Saving throw, and on a fail are flung up into the air inside of the tornado. Creatures affected by the tornado take {@dice 5d4} bludgeoning damage when they fail the saving throw, and cannot concentrate on spells, fail dexterity saving throws, cannot use a fly speed if they have one and are deafened. Creatures affected are flung a number of feet into the air equal to {@dice 1d10} x 10 when they start their turn. If a creature goes higher than the top of the tornado, they are shot out of the top of the tornado in a random direction and fall. They fly a number of feet equal to the remaining distance they would have travelled upwards."
             ],
             "entriesHigherLevel": [
                 {
@@ -15225,7 +15939,7 @@
                 }
             ],
             "entries": [
-                "You reach out with grasping magical forces to freeze a target in time and space. Choose one target in range, that target must make a Wisdom saving throw or become stunned. While stunned in this way the target is not aware of its surroundings and is immune to all damage. The target cannot be moved from its current location, even remaining airborne if the ground beneath it is removed. At the end of each of its turns the target can make a Wisdom saving throw, on a success the spell ends. When the spell ends, including if they succeed on the saving throw, the target can only take an action or bonus action and has their movement speed halved until the end of their next turn."
+                "You reach out with grasping magical forces to freeze a target in time and space. Choose one target in range, that target must make a Wisdom saving throw or become {@condition stunned}. While {@condition stunned} in this way the target is not aware of its surroundings and is immune to all damage. The target cannot be moved from its current location, even remaining airborne if the ground beneath it is removed. At the end of each of its turns the target can make a Wisdom saving throw, on a success the spell ends. When the spell ends, including if they succeed on the saving throw, the target can only take an action or bonus action and has their movement speed halved until the end of their next turn."
             ],
             "entriesHigherLevel": [
                 "At Higher Levels. When you cast this spell using a spell slot of 5th level or higher you can target one additional creature."
@@ -15396,7 +16110,7 @@
                 }
             ],
             "entries": [
-                "You create a small monument, which creates a magical connection to you. During the spell's duration, you always know where the monument is, how far you are from the monument, if creatures of one certain type (your choice when you cast the spell) has passed within a 15ft radius of the monument, or if the monument is destroyed, which can be done by toppling the tower. Additionally once per 24 hours, you can channel for 10 minutes to transfer your senses into the monument, while your body becomes blinded and deafened to your surroundings. You can see, hear and smell from the monument, but you cannot speak through it. The connection ends when you choose to end it, or when you take damage.",
+                "You create a small monument, which creates a magical connection to you. During the spell's duration, you always know where the monument is, how far you are from the monument, if creatures of one certain type (your choice when you cast the spell) has passed within a 15ft radius of the monument, or if the monument is destroyed, which can be done by toppling the tower. Additionally once per 24 hours, you can channel for 10 minutes to transfer your senses into the monument, while your body becomes {@condition blinded} and {@condition deafened} to your surroundings. You can see, hear and smell from the monument, but you cannot speak through it. The connection ends when you choose to end it, or when you take damage.",
                 "If you cast this spell on the same area every day for 6 months, it becomes permanent until destroyed or dispelled."
             ],
             "meta": {
@@ -15867,11 +16581,42 @@
             "shortName": "Desertstrider",
             "subclassFeatures": [
                 "Desertstrider|Fighter|PHB|Desertstrider|TftJC|3",
-                "Pitfall|Fighter|PHB|Desertstrider|TftJC|7",
+                "Pitfall|Fighter|PHB|Desertstrider|TftJC|3",
                 "Shape Earth|Fighter|PHB|Desertstrider|TftJC|10",
                 "Sand Blast|Fighter|PHB|Desertstrider|TftJC|10",
-                "Land Shark|Fighter|PHB|Desertstrider|TftJC|15",
+                "Tectonics|Fighter|PHB|Desertstrider|TftJC|15",
+                "Land Shark|Fighter|PHB|Desertstrider|TftJC|7",
                 "Terramaster|Fighter|PHB|Desertstrider|TftJC|18"
+            ]
+        },
+        {
+            "name": "Sanguine Knight",
+            "source": "TftJC",
+            "page": 25,
+            "className": "Fighter",
+            "classSource": "PHB",
+            "shortName": "Sanguine Knight",
+            "subclassFeatures": [
+                "Sanguine Knight|Fighter|PHB|Sanguine Knight|TftJC|3",
+                "Blood Ritual|Fighter|PHB|Sanguine Knight|TftJC|7",
+                "Scarlet Fury|Fighter|PHB|Sanguine Knight|TftJC|10",
+                "Bleed For Me|Fighter|PHB|Sanguine Knight|TftJC|15",
+                "King Crimson|Fighter|PHB|Sanguine Knight|TftJC|18"
+            ]
+        },
+        {
+            "name": "Weaveblade",
+            "source": "TftJC",
+            "page": 25,
+            "className": "Fighter",
+            "classSource": "PHB",
+            "shortName": "Weaveblade",
+            "subclassFeatures": [
+                "Weaveblade|Fighter|PHB|Weaveblade|TftJC|3",
+                "Spell Quickening|Fighter|PHB|Weaveblade|TftJC|7",
+                "Wind of the Weave|Fighter|PHB|Weaveblade|TftJC|10",
+                "Indomitable Magic|Fighter|PHB|Weaveblade|TftJC|15",
+                "Weave Champion|Fighter|PHB|Weaveblade|TftJC|18"
             ]
         },
         {
@@ -16224,6 +16969,21 @@
                 "Extra Attack|Sorcerer|PHB|Runebound|TftJC|6",
                 "Magical Siphon|Sorcerer|PHB|Runebound|TftJC|14",
                 "Runes of Power|Sorcerer|PHB|Runebound|TftJC|18"
+            ]
+        },
+        {
+            "name": "Immortal Guard",
+            "source": "TftJC",
+            "page": 300,
+            "className": "Warden",
+            "classSource": "TftJC",
+            "shortName": "Immortal Guard",
+            "subclassFeatures": [
+                "Immortal Guard|Warden|TftJC|Immortal Guard|TftJC|3",
+                "Unending Command|Warden|TftJC|Immortal Guard|TftJC|7",
+                "Master of the Gilded Arts|Warden|TftJC|Immortal Guard|TftJC|7",
+                "Last Standing|Warden|TftJC|Immortal Guard|TftJC|15",
+                "We Are Legion|Warden|TftJC|Immortal Guard|TftJC|20"
             ]
         },
         {
@@ -17278,8 +18038,8 @@
             "subclassSource": "TftJC",
             "level": 3,
             "entries": [
-                "At 3rd level, you become a practitioner of fisticuffs. Your unarmed strikes deal 1d4 bludgeoning damage, and while raging, your unarmed attacks deal an additional 1d4 damage. Your unarmed strikes can be lethal. Furthermore, you can add your Charisma Modifier to your Initiative Bonus.",
-                "At 7th level, your bonus damage increases to 2d4, at 11th level it increases to 3d4, and at 15th level, it increases to 4d4."
+                "At 3rd level, you become a practitioner of fisticuffs. Your unarmed strikes deal {@dice 1d4} bludgeoning damage, and while raging, your unarmed attacks deal an additional {@dice 1d4} damage. Your unarmed strikes can be lethal. Furthermore, you can add your Charisma Modifier to your Initiative Bonus.",
+                "At 7th level, your bonus damage increases to {@dice 2d4}, at 11th level it increases to {@dice 3d4}, and at 15th level, it increases to {@dice 4d4}."
             ]
         },
         {
@@ -17384,7 +18144,7 @@
             "subclassSource": "TftJC",
             "level": 3,
             "entries": [
-                "At 3rd level, you gain Vampiric Features. When you enter a Rage, you grow sharp fangs. They can be used as a Natural weapon that deals 1d8 piercing damage. After making your attack action, you can use your Bonus Action to make an additional attack with your Fangs.",
+                "At 3rd level, you gain Vampiric Features. When you enter a Rage, you grow sharp fangs. They can be used as a Natural weapon that deals {@dice 1d8} piercing damage. After making your attack action, you can use your Bonus Action to make an additional attack with your Fangs.",
                 "Additionally, once per turn when you deal damage with your Fangs, you can add your Proficiency Bonus to your damage roll"
             ]
         },
@@ -18511,7 +19271,7 @@
                 {
                     "type": "list",
                     "items": [
-                        "Summer: You gain resistance to fire and your attacks deal 1d6 extra fire damage, this fire damage increases to 1d8 at 7th level, 1d10 at 13th level, and 1d12 at 18th level.",
+                        "Summer: You gain resistance to fire and your attacks deal {@dice 1d6} extra fire damage, this fire damage increases to {@dice 1d8} at 7th level, {@dice 1d10} at 13th level, and {@dice 1d12} at 18th level.",
                         "Spring: You gain resistance to acid damage and you gain the Vibrant Aura feature",
                         "Autumn: You gain the Shock Bolt ranged attack and resistance to lightning damage.",
                         "Winter: You gain resistance to cold damage and gain the Frost Breath Special action."
@@ -18528,7 +19288,7 @@
                     "type": "inset",
                     "name": "Shock Bolt",
                     "entries": [
-                        "Make a ranged spell attack against one creature. On hit it deals 1d6 + your spellcasting ability modifier and the creature makes a Dexterity saving throw. On a failure it cannot make a reaction until the start of its next turn. The damage increases to 2d6 at 7th level, 3d6 at 13th level, and 4d6 at 18th level."
+                        "Make a ranged spell attack against one creature. On hit it deals {@dice 1d6} + your spellcasting ability modifier and the creature makes a Dexterity saving throw. On a failure it cannot make a reaction until the start of its next turn. The damage increases to {@dice 2d6} at 7th level, {@dice 3d6} at 13th level, and {@dice 4d6} at 18th level."
                     ]
                 },
                 {
@@ -18818,20 +19578,8 @@
                 },
                 {
                     "type": "refSubclassFeature",
-                    "subclassFeature": "Sand Swipe|Fighter|PHB|Desertstrider|TftJC|3"
+                    "subclassFeature": "Sand Stream|Fighter|PHB|Desertstrider|TftJC|3"
                 }
-            ]
-        },
-        {
-            "name": "Sand Swipe",
-            "source": "TftJC",
-            "className": "Fighter",
-            "classSource": "PHB",
-            "subclassShortName": "Desertstrider",
-            "subclassSource": "TftJC",
-            "level": 3,
-            "entries": [
-                "At 3rd level, you can weave sand into your attacks. At the start of your turn, you can fling sand at a creature within 10ft's eyes provided you have a free hand to do so. Your first attack against that target has advantage. You can instead use this at the end of your turn, and the target's next attack before the end of their next turn has disadvantage."
             ]
         },
         {
@@ -18841,9 +19589,34 @@
             "classSource": "PHB",
             "subclassShortName": "Desertstrider",
             "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you can cause disturbances in the ground to pull in your prey. You can replace one attack to stomp the ground. All creatures standing on the ground that are no more than one size category greater than yours within a 15ft radius of you must make a Dexterity Saving Throw (DC = 8 + prof + CON). Any creatures that failed are pulled within 5ft of you. If this ability would affect an underground creature, they automatically fail the saving throw and are pulled above ground to you. If this ability is used on sandy terrain, creatures have disadvantage on the saving throw. You can use this ability a number of times equal to your Proficiency Bonus per long rest."
+            ]
+        },
+        {
+            "name": "Sand Stream",
+            "source": "TftJC",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Desertstrider",
+            "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you can weave sand into your attacks. Around you swirls a localized sandstorm. The standstorm has a 5ft radius, this number increases as you gain more levels in this class. The sandstorm follows your movement. While the sandstorm is around you, the first attack you make each turn has advantage, and the first attack made against you or an ally by a creature within its radius each round has disadvantage.",
+                "Whenever your Proficiency Bonus Increases, the sandstorm’s radius increases by 5ft."
+            ]
+        },
+        {
+            "name": "Land Shark",
+            "source": "TftJC",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Desertstrider",
+            "subclassSource": "TftJC",
             "level": 7,
             "entries": [
-                "At 7th level, you can cause disturbances in the ground to pull in your prey. You can replace one attack to stomp the ground. All creatures standing on the ground that are no more than one size category greater than yours within a 15ft radius of you must make a Dexterity Saving Throw (DC = 8 + prof + CON). Any creatures that failed are pulled within 5ft of you. If this ability would affect an underground creature, they automatically fail the saving throw and are pulled aboveground to you. If this ability is used on sandy terrain, creatures have disadvantage on the saving throw. You can use this ability a number of times equal to your Proficiency Bonus per long rest."
+                "At 7th level, you can travel through the ground. You can a burrow speed equal to your walking speed. When burrowing through sand, that speed is doubled. While underground, you gain a tremorsense of 15ft, and this range is doubled when in sand."
             ]
         },
         {
@@ -18855,7 +19628,7 @@
             "subclassSource": "TftJC",
             "level": 10,
             "entries": [
-                "At 10th level, your Sand Swipe is improved. When you use Sand Swipe, you next attack deals an additional {@dice 1d12} piercing damage, and if used instead at the end of your turn, the next time you would take damage that amount is reduced by {@dice 1d12}. Sand Swipe's range also becomes 30ft."
+                "At 10th level, your Sand Stream is improved. Creatures of your choice within your standstorm aura take 1d12 piercing damage when they either enter the radius or start their turn within it."
             ]
         },
         {
@@ -18874,11 +19647,12 @@
                     "items": [
                         "If you target an area of earth, you can transform it into sand."
                     ]
-                }
+                },
+                "Additionally, your Pitfall’s radius is increased to 30ft and can pull creatures affected by it underground towards you if you use it while burrowing. Creatures that would be pulled underground get incased in earth and become restrained by it. They can attempt to break the restraint by using an Action to make a Strength Check (DC = 8 + prof + CON). Creatures affected by Pitfall take 1d12 + your Constitution Modifer bludgeoining damage."
             ]
         },
         {
-            "name": "Land Shark",
+            "name": "Terramaster",
             "source": "TftJC",
             "className": "Fighter",
             "classSource": "PHB",
@@ -18886,7 +19660,16 @@
             "subclassSource": "TftJC",
             "level": 15,
             "entries": [
-                "At 15th level, you can travel through the ground. You can a burrow speed equal to your walking speed. When burrowing through sand, that speed is doubled. While underground, you gain a tremorsense of 15ft, and this range is doubled when in sand. Finally, your Pitfall's radius is increased to 30ft and can pull creatures affected by it underground towards you if you use it while burrowing. Creatures affected by Pitfall take {@dice 1d12} + your Constitution Modifier bludgeoning damage."
+                "At 15th level, your connection with your sandstorm allows you to harden it into new shapes. As a Bonus Action, you can coalesce your Sandstorm into a new form. When you do this, you lose any benefits from it until it returns to you. You can create one of the following options:",
+                {
+                    "type": "list",
+                    "style": "list-hang",
+                    "items": [
+                        "You can create a 10ft by 10ft panel of stone (as detailed in Wall of Stone) without requiring concentration.",
+                        "You can create a 5ft wide 30ft high pillar (as detailed in Bones of the Earth) without requiring concentration."
+                    ]
+                },
+                "These effects last until the stone created is destroyed, you move more than 100ft away from it, or you can choose to destroy them early as a Bonus Action. When deatroyed, the particles of stone return to you, forming your sandstorm around you again."
             ]
         },
         {
@@ -18900,6 +19683,142 @@
             "entries": [
                 "At 18th level, your earth shaping abilities are at their peak. Your {@spell Mold Earth|XGE} Cantrip can now affect a 100ft cube.",
                 "You learn the {@spell Earthquake|PHB} spell, and can cast it without expending a spell slot once per long rest (DC = 8 + prof + CON)."
+            ]
+        },
+        {
+            "name": "Bloody Strikes",
+            "source": "TftJC",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Sanguine Knight",
+            "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "At 3rd level, your injuries empower your strikes. You gain a Sanguine Die that can be used for various abilities. It begins as a d4, increasing its size by a step at 7th, 11th, 15th and 19th level. When you take damage from your Sanguine Die, the damage cannot be reduced/resisted in any way, and always hits your hitpoints if you have temporary hitpoints or other similar abilities.",
+                "Once per turn, when you deal damage from a weapon attack you can roll your Sanguine Die and add a bonus to your weapon’s damage dice equal to twice the value on the number rolled. You then take the damage rolled on your Sanguine Die."
+            ]
+        },
+        {
+            "name": "Sanguine Barrier",
+            "source": "TftJC",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Sanguine Knight",
+            "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "At 3rd level, you learn to use your blood to shield yourself. As a reaction to when you would take damage from a source other than yourself, you can roll your Sanguine Die and take that much damage, then gain temporary hitpoints equal to your roll + your Constitution modifier + your Proficiency Bonus. These hitpoints are lost after 1 minute.",
+                "Additionally, when using Second Wind, you can add a roll of your Sanguine Die to the amount you heal."
+            ]
+        },
+        {
+            "name": "Sanguine Knight",
+            "source": "TftJC",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Sanguine Knight",
+            "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "Parting a fine red mist walks a warrior on coated in crimson. Blood drips from their blade; neither of you are shure if it is a slain enemy or their own. You feel your veins shudder in fear, your heart beats erratically. This warrior cares not for injury, only your complete annihilation.",
+                "Sanguine Knights are practitioners of sacrificial bloodletting, using their pain to fuel their strikes. With dark hemomantic magic in their arsenal, every injury is a new ooportunity.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Bloddy Strikes|Fighter|TftJC|Sanguine Knight|TftJC|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Sanguine Barrier|Fighter|TftJC|Sanguine Knight|TftJC|3"
+                }
+            ]
+        },
+        {
+            "name": "Blood Ritual",
+            "source": "TftJC",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Sanguine Knight",
+            "subclassSource": "TftJC",
+            "level": 7,
+            "entries": [
+                "At 7th level, you learn a Blood Ritual. As a Bonus Action, you can roll your Sanguine Die and take that amount of damage to produce one of the following effects:",
+                {
+                    "type": "list",
+                    "style": "list-hang",
+                    "items": [
+                        "Gain a Climb or a Swim speed equal to your Walking speed.",
+                        "Gain proficiency in a Skill/Tool you aren’t proficient in.",
+                        "Double your Jump height and length."
+                    ]
+                },
+                "This lasts for a number of rounds equal to the value rolled on the Sanguine Die x2."
+            ]
+        },
+        {
+            "name": "Scarlet Fury",
+            "source": "TftJC",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Sanguine Knight",
+            "subclassSource": "TftJC",
+            "level": 10,
+            "entries": [
+                "At 10th level, you gain the ability to use your injuries to fuel your powers. As a Bonus Action, you can blootlet, causing yourself to take 2x the maximum value of your Sanguine Die (which cannot be reduced in any way). Additionally, if you take damage in one instance equal to or greater than 2x the highest value of your Sanguine Dice, you fall into a Blood Fury. While in a Blood Fury, anytime you would roll a Sanguine Die, you instead roll 2. While in a Blood Fury, you have disadvantage on Wisdom Saving Throws, except if they are against the Charmed or Frightened conditions. Your Blood Fury ends after not taking damage from a source other than your Sanguine Die for a round."
+            ]
+        },
+        {
+            "name": "Bleed For Me",
+            "source": "TftJC",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Sanguine Knight",
+            "subclassSource": "TftJC",
+            "level": 15,
+            "entries": [
+                "At 15th level, you can force others to endure your bloodletting. When you roll your Sanguine Die, if another creature is within your natural reach, you can force them to endure your pain. That creature then takes damage (which cannot be reduced in any way) equal to your roll + your Constitution modifier. This has no effect against Constructs and Undead. You can use this feature a number of times per Short rest equal to your Proficiency Bonus."
+            ]
+        },
+        {
+            "name": "King Crimson",
+            "source": "TftJC",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Sanguine Knight",
+            "subclassSource": "TftJC",
+            "level": 18,
+            "entries": [
+                "At 18th level, you are able to unleash all of your Blood to overwhelm your foes. As an Action, you can roll up to 5 Sanguine Die (min 1) and take that much damage, and for each Die rolled, this ability remains active for 1 turn. While Active, you gain the following effects.",
+                {
+                    "type": "list",
+                    "style": "list-hang",
+                    "items": [
+                        "Whenever you would deal damage to yourself with a Sanguine Die, the damage is reduced by your Constitution Modifier (ignoring previous restrictions on Sanguine Die’s damage).",
+                        "Killing a creature with blood causes them to explode, dealing damage equal to 2 rolls of your Sanguine Die to all other creatures (except yourself) within 10ft of it. If you are within 10ft of them when they explode, you instead heal for the amount rolled.",
+                        "You are immune to effects that would instantly Kill you, drop you to 0 hitpoints, or make you unconscious or incapacitated. You can still be reduced to 0 hitpoints through damage, which would drop you unconscious."
+                    ]
+                },
+                "When this ability ends, you gain 1 point of exhaustion."
+            ]
+        },
+        {
+            "name": "Weaveblade",
+            "source": "TftJC",
+            "className": "Fighter",
+            "classSource": "PHB",
+            "subclassShortName": "Weaveblade",
+            "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "ark libraries and pacts of old have led this challenger down a new pathway to knowledge. While Eldritch Knights of past used their vast studies to imbue their strikes with magic, your abilities come from the rawest forms of magic; the weave.",
+                "Weaveblades are warriors who have been touched by magic itself, imbuing them with incredible potential. Their magics regenerate as quick as their body does. Rather than utilizing magic in its traditional sense, Weaveblades directly empower their attacks with the rawest forms of magic, allowing them to utilize their already impressive martial training to its fullest.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Pact Magic|Fighter|PHB|Weaveblade|TftJC|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Blade Magic|Fighter|PHB|Weaveblade|TftJC|3"
+                }
             ]
         },
         {
@@ -21267,7 +22186,7 @@
             "level": 15,
             "entries": [
                 "At 15th level, you have escaped death so many times that it has left a supernatural effect on you. As an action, designate a creature within 60ft of you that you can see. That creature must make a Charisma saving throw against your Spell SaveDC. On a fail, they are doomed. The world around them begins to react to their impending doom, with things such as buzzards flocking around them or clerics adverting their eyes.If the creature has more than 100 hit points, they gain a point of exhaustion for every hour that passes, ending after the 6th hour. If they have fewer than 100 hit points, they instantly reach 6 points of exhaustion. A creature that dies by this ability becomes dust.",
-                "If a creature passes this saving throw, they are immune to you using this ability on them for the next 2d4+4 days. This ability can be used once per long rest. A Doomed creature can be saved by having Remove Curse cast on them anywhere at or above 7th level."
+                "If a creature passes this saving throw, they are immune to you using this ability on them for the next {@dice 2d4}+4 days. This ability can be used once per long rest. A Doomed creature can be saved by having {@spell Remove Curse} cast on them anywhere at or above 7th level."
             ]
         },
         {
@@ -21291,7 +22210,7 @@
             "subclassSource": "TftJC",
             "level": 3,
             "entries": [
-                "Starting at 3rd level, you're always in a hurry to get to what comes next. You have advantage on Initiative Rolls. You can take the Dash action as a Bonus Action. Furthermore, once per turn if you move your full movement on your turn, you deal an additional 1d6 damage. You must have moved to deal this bonus damage.",
+                "Starting at 3rd level, you're always in a hurry to get to what comes next. You have advantage on Initiative Rolls. You can take the Dash action as a Bonus Action. Furthermore, once per turn if you move your full movement on your turn, you deal an additional {@dice 1d6} damage. You must have moved to deal this bonus damage.",
                 "Finally, whenever entering a location you have never been,you become quickly accustomed to the land. You have advantage on Wisdom and Intelligence checks that you make to discover more information about this location. This bonus lasts a number of hours equal to your Proficiency Bonus."
             ]
         },
@@ -21612,7 +22531,7 @@
                     "type": "inset",
                     "name": "Katana",
                     "entries": [
-                        "A Katana costs 30gp and has the following stat block: melee, reach 5ft, finesse, special, 1d8 slashing, versatile. It weights 2lbs."
+                        "A Katana costs 30gp and has the following stat block: melee, reach 5ft, finesse, special, {@dice 1d8} slashing, versatile. It weights 2lbs."
                     ]
                 },
                 {
@@ -22611,6 +23530,126 @@
             "source": "TftJC",
             "className": "Warden",
             "classSource": "TftJC",
+            "subclassShortName": "Immortal Guard",
+            "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "When you take this tract at 3rd level, you gain one technique from the list below. Whenever you gain a new technique, you can choose from this list as well.",
+                {
+                    "type": "inset",
+                    "name": "Shield Wall",
+                    "entries": [
+                        "You command your Legionnaires to form an unbreakable wall. Select one Legionnaire or yourself. Any Legionnaires within 60 feet of you or the selected Legionnaire can move up to 15ft towards you, Legionnaires that end their movement adjacent to yourself or another Legionnaires have their AC increased by 4 and become tangible. Attacks cannot pass through or above the Legionnaires (up to 10 feet above and below them) and creature that try and move through the Legionnaires must make a Strength saving throw or be knocked prone and have their movement stopped. This effect ends at the start of your next turn."
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Immortal Shield",
+                    "entries": [
+                        "You forgo one attack and instead command your Legionnaires to protect one creature within 30 feet of you. Any Legionnaires within 60 feet of you can move up to 15ft towards a target of your choice, until the end of that target’s turn when it takes damage, that damage is reduced by 1 for each Legionnaire or yourself within 5ft of it."
+                    ]
+                },
+                {
+                    "type": "inset",
+                    "name": "Immortal Spear",
+                    "entries": [
+                        "As part of an attack, you also command your Legionnaires to attack one creature within 30 feet of you. Any Legionnaires within 60 feet of you can move up to 15ft towards a target of your choice, until the end of that your next turn, whenever you hit a creature with an attack it takes 1 additional damage for each Legionnaire within 5ft of it."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Immortal Guard",
+            "source": "TftJC",
+            "className": "Warden",
+            "classSource": "TftJC",
+            "subclassShortName": "Immortal Guard",
+            "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "In the hallowed halls of the Golden Empire, the Immortal Guard protected the nation and its emperor with fervor and might. They commanded the endless legions of Gilded to conquer and rule with the empire’s will. These powerful warriors could command their soldiers even after they had fallen in battle, calling upon their spirits to serve even beyond death.",
+                "Those of the Immortal Guard command an inexhaustible army of loyal spirits that they can summon to fight alongside themselves. Even after Kim-at’s fall, they could call upon the countless souls lost in the calamity to fight in new lands. While most of the Immortal Guard draw their power from the lineage of Kim-at, some have found new ways of accessing this power, be it divine or otherwise.",
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Immortal Legion|Warden|TftJC|Immortal Guard|TftJC|3"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Bonus Techniques|Warden|TftJC|Immortal Guard|TftJC|3"
+                }
+            ]
+        },
+        {
+            "name": "Immortal Legion",
+            "source": "TftJC",
+            "className": "Warden",
+            "classSource": "TftJC",
+            "subclassShortName": "Immortal Guard",
+            "subclassSource": "TftJC",
+            "level": 3,
+            "entries": [
+                "When you take this tract at 3rd level, you gain the ability to summon the spirit of the fallen Legions of Kim-at. You can summon a Legionnaire in two ways:",
+                "Whenever you use a Technique, you can conjure a spectral Legionnaire at a point you can see within 30ft of you. At the start of your turn while your Inspiring Aura is active, you can create one Legionnaire within 10ft of you or move a Legionnaire within 10ft of you up to 30ft instead of using any of the other effects of Inspiring Aura.",
+                "Your Legionnaires count as you for the purposes of your Techniques.",
+                "Your Legionnaires are magical, shadowy creatures that have your Armor Class, 1 hit point, immunity to all conditions, and automatically fail any saving throws. If they drop to 0 hit point, they vanish. Your Legionnaires cannot move, except for from your class abilities, occupy their space (but can be passed through by creatures, although they cannot end their movement there), and cannot take actions. You can have a number of Legionnaires present at a time equal to twice your proficiency bonus. Legionnaires vanish after 1 minute.",
+                "When you take the attack action, you can replace any number of those attacks with attacks from your Legionnaires. Your Legionnaires use your Strength or Dexterity plus your Proficiency bonus to hit, and on a hit deal 1d8+your Proficiency bonus in force damage. For each other Legionnaire or yourself within 10ft of the attacking Legionnaire, it deals an additional 1 damage, up to a max equal to your levels in Warden."
+            ]
+        },
+        {
+            "name": "Master of the Gilded Arts",
+            "source": "TftJC",
+            "className": "Warden",
+            "classSource": "TftJC",
+            "subclassShortName": "Immortal Guard",
+            "subclassSource": "TftJC",
+            "level": 7,
+            "entries": [
+                "At 7th level, you’ve gained an appreciation for not just the art of war but for other artistic pursuits as well. You learn one of the following Artisan Tools: Mason’s, Painter’s, Calligrapher’s, Jeweler’s, or Woodcarver’s.",
+                "In addition, you can expend a use of your Inspiring Aura feature to gain proficiency in one skill or tool you do not have proficiency in for 1 minute."
+            ]
+        },
+        {
+            "name": "Unending Command",
+            "source": "TftJC",
+            "className": "Warden",
+            "classSource": "TftJC",
+            "subclassShortName": "Immortal Guard",
+            "subclassSource": "TftJC",
+            "level": 7,
+            "entries": [
+                "At 7th level, you can summon even greater forces to fight on your behalf. Whenever you summon a Legionnaire, you summon two instead. In addition, when you use a Technique granted from this subclass that only effects you and your Legionnaires, it does not consume a use of your Techniques."
+            ]
+        },
+        {
+            "name": "Last Standing",
+            "source": "TftJC",
+            "className": "Warden",
+            "classSource": "TftJC",
+            "subclassShortName": "Immortal Guard",
+            "subclassSource": "TftJC",
+            "level": 15,
+            "entries": [
+                "At 15th level, you ensure that you are the last one to fall in any battle. When you would drop to zero hit points, you can destroy any number of Legionnaires within 30 feet of you. For each Legionnaire you destroy in this way, reduce the damage taken by 2. If this kept you from dropping to zero hit points, you can immediately use your reaction to use Heat of Battle, even if you do not have any remaining uses left."
+            ]
+        },
+        {
+            "name": "We Are Legion",
+            "source": "TftJC",
+            "className": "Warden",
+            "classSource": "TftJC",
+            "subclassShortName": "Immortal Guard",
+            "subclassSource": "TftJC",
+            "level": 20,
+            "entries": [
+                "At 20th level, your command of the endless legions becomes supreme. Whenever you make an attack roll and hit, you may summon one Legionnaire to a point you can see within 30 feet.",
+                "In addition, there is no longer any limit on the number of Legionnaires you can have at one time."
+            ]
+        },
+        {
+            "name": "Bonus Techniques",
+            "source": "TftJC",
+            "className": "Warden",
+            "classSource": "TftJC",
             "subclassShortName": "Juggernaut",
             "subclassSource": "TftJC",
             "level": 3,
@@ -22758,7 +23797,7 @@
                     "type": "inset",
                     "name": "Team Strike",
                     "entries": [
-                        "When you make an attack roll, you can allow the subject of your Honor Bond to also make an attack. Your Honor Bound can use its reaction to immediately make one attack, adding 1d4 to the to hit roll."
+                        "When you make an attack roll, you can allow the subject of your Honor Bond to also make an attack. Your Honor Bound can use its reaction to immediately make one attack, adding {@dice 1d4} to the to hit roll."
                     ]
                 }
             ]
@@ -22776,7 +23815,7 @@
                 {
                     "type": "list",
                     "items": [
-                        "Whenever you use the Help action on that creature, they roll 1d4 and add it to the result.",
+                        "Whenever you use the Help action on that creature, they roll {@dice 1d4} and add it to the result.",
                         "When within 30ft of each other, you both gain a +1 bonus to AC and saving throws.",
                         "If you finish a short rest and have access to that creature for the full duration of the rest, they can add half your proficiency modifier to any hit dice they spend during that rest."
                     ]
@@ -22855,7 +23894,7 @@
                     "type": "list",
                     "items": [
                         "You gain resistance to bludgeoning, slashing, and piercing damage.",
-                        "Whenever you make a saving throw, you can add 1d6 to the roll.",
+                        "Whenever you make a saving throw, you can add {@dice 1d6} to the roll.",
                         "If the subject of your Honor Bond drops to 0 hit points, you can immediately take a full turn. Once you use this ability, you cannot use it again until you finish a long rest."
                     ]
                 }
@@ -23233,7 +24272,7 @@
             "level": 1,
             "entries": [
                 "Starting at 1st level, the pockets and pouches of all your clothes are magically enchanted as you put them on. Any pocket or pouch that you are wearing can hold an infinite amount of coins. It can only hold coins. When you remove clothing, the coins are locked in a pocket plane until you don new clothing. When you pull coins out of this dimension, they are of any denomination you wish, regardless of what you put in as long as removing that coin would not be worth more than what is in the pocket plane.",
-                "In addition, whenever you finish a long rest you gain 1d4+warlock level gp, added directly into your pocket dimension."
+                "In addition, whenever you finish a long rest you gain {@dice 1d4}+warlock level gp, added directly into your pocket dimension."
             ]
         },
         {

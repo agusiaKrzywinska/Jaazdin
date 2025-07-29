@@ -27,7 +27,7 @@
     }
   ],
   "entries": [
-    "You conjure molten magma from your hands and launch it from you in a 20ft long and 10ft wide line. Each creature in that line must make a Dexterity Saving Throw, and on a fail take {@dice 4d8} Fire Damage. Creatures that fail are then restrained, and on a subsequent turn must make a Strength Check against your Spell Save DC to break free from the now cooled rock that has encased them. Creatures that succeed take half of this damage and are not encased in rock. Another creature can use their action to break free someone trapped in the cooled rock."
+    "You conjure molten magma from your hands and launch it from you in a 20ft long and 10ft wide line. Each creature in that line must make a Dexterity Saving Throw, and on a fail take {@dice 4d8} Fire Damage. Creatures that fail are then {@condition restrained}, and on a subsequent turn must make a Strength Check against your Spell Save DC to break free from the now cooled rock that has encased them. Creatures that succeed take half of this damage and are not encased in rock. Another creature can use their action to break free someone trapped in the cooled rock."
   ],
   "entriesHigherLevel": [
     {

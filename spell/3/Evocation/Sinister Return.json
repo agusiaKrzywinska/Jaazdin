@@ -36,7 +36,7 @@
       "type": "entries",
       "name": "At Higher Levels",
       "entries": [
-        "If you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each spell slot beyond 3rd."
+        "If you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d6} for each spell slot beyond 3rd."
       ]
     }
   ],

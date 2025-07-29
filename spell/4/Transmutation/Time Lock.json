@@ -32,7 +32,7 @@
     }
   ],
   "entries": [
-    "You reach out with grasping magical forces to freeze a target in time and space. Choose one target in range, that target must make a Wisdom saving throw or become stunned. While stunned in this way the target is not aware of its surroundings and is immune to all damage. The target cannot be moved from its current location, even remaining airborne if the ground beneath it is removed. At the end of each of its turns the target can make a Wisdom saving throw, on a success the spell ends. When the spell ends, including if they succeed on the saving throw, the target can only take an action or bonus action and has their movement speed halved until the end of their next turn."
+    "You reach out with grasping magical forces to freeze a target in time and space. Choose one target in range, that target must make a Wisdom saving throw or become {@condition stunned}. While {@condition stunned} in this way the target is not aware of its surroundings and is immune to all damage. The target cannot be moved from its current location, even remaining airborne if the ground beneath it is removed. At the end of each of its turns the target can make a Wisdom saving throw, on a success the spell ends. When the spell ends, including if they succeed on the saving throw, the target can only take an action or bonus action and has their movement speed halved until the end of their next turn."
   ],
   "entriesHigherLevel": [
     "At Higher Levels. When you cast this spell using a spell slot of 5th level or higher you can target one additional creature."

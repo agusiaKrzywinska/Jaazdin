@@ -22,7 +22,7 @@
         "<b>Required Tool:</b> Smith's Tools",
         "<b>Forging Conditions:</b> Must be forged underwater at crushing depths.",
         "<b>Armor Effects:</b> You have a swimming speed equal to your walking speed and can breathe underwater. You have resistance to cold damage.",
-        "<b>Weapon Effects:</b> This weapon deals an additional 1d8 cold damage and can function normally underwater.",
+        "<b>Weapon Effects:</b> This weapon deals an additional {@dice 1d8} cold damage and can function normally underwater.",
         "<b>Additional Effects:</b> You can cast Water Breathing once per day without using a spell slot.",
         "<b>Druid Useable:</b> No"
       ]

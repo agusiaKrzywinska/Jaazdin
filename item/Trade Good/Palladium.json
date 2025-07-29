@@ -1,0 +1,34 @@
+{
+  "name": "Palladium",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Smith's Tools",
+    "secondaryTool": "Smith's Tools",
+    "forgingConditions": "?",
+    "baseMetals": "Iron + Adamantine",
+    "armorEffects": "You take 2 reduced damage from all sources of damage, doubled against critical hits against you.",
+    "weaponEffects": "Weapons deal an additional 2 Damage, doubled against structures or when you land a critical hit.",
+    "additionalEffects": "Structures made from Palladium have resistance to all damage.",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Secondary Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> ?",
+        "<b>Base Metals:</b> {@item Iron|TftJC} + {@item Adamantine|TftJC}",
+        "<b>Armor Effects:</b> You take 2 reduced damage from all sources of damage, doubled against critical hits against you.",
+        "<b>Weapon Effects:</b> Weapons deal an additional 2 Damage, doubled against structures or when you land a critical hit.",
+        "<b>Additional Effects:</b> Structures made from Palladium have resistance to all damage.",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

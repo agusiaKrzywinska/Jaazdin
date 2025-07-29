@@ -18,6 +18,6 @@
     "name": "85gp"
   },
   "entries": [
-    "When you hit a creature with this weapon, they are lit on fire for a number of rounds equal to your Prof bonus, and take 1d6 Fire damage at the start of each of their turns. They can be doused in water or use an action to put themselves out."
+    "When you hit a creature with this weapon, they are lit on fire for a number of rounds equal to your Prof bonus, and take {@dice 1d6} Fire damage at the start of each of their turns. They can be doused in water or use an action to put themselves out."
   ]
 }

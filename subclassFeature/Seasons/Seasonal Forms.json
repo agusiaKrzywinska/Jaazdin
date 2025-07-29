@@ -11,7 +11,7 @@
     {
       "type": "list",
       "items": [
-        "Summer: You gain resistance to fire and your attacks deal 1d6 extra fire damage, this fire damage increases to 1d8 at 7th level, 1d10 at 13th level, and 1d12 at 18th level.",
+        "Summer: You gain resistance to fire and your attacks deal {@dice 1d6} extra fire damage, this fire damage increases to {@dice 1d8} at 7th level, {@dice 1d10} at 13th level, and {@dice 1d12} at 18th level.",
         "Spring: You gain resistance to acid damage and you gain the Vibrant Aura feature",
         "Autumn: You gain the Shock Bolt ranged attack and resistance to lightning damage.",
         "Winter: You gain resistance to cold damage and gain the Frost Breath Special action."
@@ -28,7 +28,7 @@
       "type": "inset",
       "name": "Shock Bolt",
       "entries": [
-        "Make a ranged spell attack against one creature. On hit it deals 1d6 + your spellcasting ability modifier and the creature makes a Dexterity saving throw. On a failure it cannot make a reaction until the start of its next turn. The damage increases to 2d6 at 7th level, 3d6 at 13th level, and 4d6 at 18th level."
+        "Make a ranged spell attack against one creature. On hit it deals {@dice 1d6} + your spellcasting ability modifier and the creature makes a Dexterity saving throw. On a failure it cannot make a reaction until the start of its next turn. The damage increases to {@dice 2d6} at 7th level, {@dice 3d6} at 13th level, and {@dice 4d6} at 18th level."
       ]
     },
     {

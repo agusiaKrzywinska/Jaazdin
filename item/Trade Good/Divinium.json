@@ -1,0 +1,34 @@
+{
+  "name": "Divinium",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Smith's Tools",
+    "secondaryTool": "Smith's Tools",
+    "forgingConditions": "?",
+    "baseMetals": "Dawn Steel + Celestial Gold",
+    "armorEffects": "You take 1 reduced damage equal to your level from Fiends and Undead, or 1.5x per every level in Cleric/Paladin/Other divinely powered subclasses (rounded down).",
+    "weaponEffects": "This weapon deals Radiant Damage instead of its normal damage type. It deals an additional 1d10 Radiant Damage on a hit, or 2d10 against Fiends and Undead. This weapon is imbued with the abilities of Destroy Undead, and instantly destroys both Undead and Fiends of the listed CR found in Cleric's Destroy Undead (using your Level to calculate CR, and your Spell Save DC. If you don't have a save DC, calculate with CHA).",
+    "additionalEffects": "A Holy Symbol made from Divinium grants Clerics the ability to roll 2d100 when using Divine Intervention and choose the result of the two values rolled.",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Secondary Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> ?",
+        "<b>Base Metals:</b> {@item Dawn Steel|TftJC} + {@item Celestial Gold|TftJC}",
+        "<b>Armor Effects:</b> You take 1 reduced damage equal to your level from Fiends and Undead, or 1.5x per every level in Cleric/Paladin/Other divinely powered subclasses (rounded down).",
+        "<b>Weapon Effects:</b> This weapon deals Radiant Damage instead of its normal damage type. It deals an additional {@dice 1d10} Radiant Damage on a hit, or {@dice 2d10} against Fiends and Undead. This weapon is imbued with the abilities of Destroy Undead, and instantly destroys both Undead and Fiends of the listed CR found in Cleric's Destroy Undead (using your Level to calculate CR, and your Spell Save DC. If you don't have a save DC, calculate with CHA).",
+        "<b>Additional Effects:</b> A Holy Symbol made from Divinium grants Clerics the ability to roll {@dice 2d100} when using Divine Intervention and choose the result of the two values rolled.",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

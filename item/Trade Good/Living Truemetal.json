@@ -1,0 +1,34 @@
+{
+  "name": "Living Truemetal",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Glassblower's Tools",
+    "secondaryTool": "Smith's Tools",
+    "forgingConditions": "?",
+    "baseMetals": "Living Lava + Truemetal",
+    "armorEffects": "This armor is sentient, with an INT of 2, WIS of 12 and CHA of 12 (TN). Armor reduces damage from Cold/Lightning/Acid/Poison damage by 5, and Fire Damage by 10. After the armor reduces 25 damage, it bursts with energy, dealing 10 Fire Damage to all creatures within 10ft of you (you do not take this damage).",
+    "weaponEffects": "This weapon is sentient, with an INT of 2, WIS of 12 and CHA of 12 (TN). This weapon deals Fire damage instead of its normal damage type. Every 5th attack made with this weapon that successfully hits causes it to deal an additional 15 Fire Damage.",
+    "additionalEffects": "?",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Glassblower's Tools",
+        "<b>Secondary Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> ?",
+        "<b>Base Metals:</b> {@item Living Lava|TftJC} + {@item Truemetal|TftJC}",
+        "<b>Armor Effects:</b> This armor is sentient, with an INT of 2, WIS of 12 and CHA of 12 (TN). Armor reduces damage from Cold/Lightning/Acid/Poison damage by 5, and Fire Damage by 10. After the armor reduces 25 damage, it bursts with energy, dealing 10 Fire Damage to all creatures within 10ft of you (you do not take this damage).",
+        "<b>Weapon Effects:</b> This weapon is sentient, with an INT of 2, WIS of 12 and CHA of 12 (TN). This weapon deals Fire damage instead of its normal damage type. Every 5th attack made with this weapon that successfully hits causes it to deal an additional 15 Fire Damage.",
+        "<b>Additional Effects:</b> ?",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

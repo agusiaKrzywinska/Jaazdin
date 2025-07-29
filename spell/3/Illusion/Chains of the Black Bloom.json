@@ -28,7 +28,7 @@
     }
   ],
   "entries": [
-    "You create a flurry of black petals and launch them at a creature within range. Make a spell attack roll against that creature, and on a hit they take {@dice 4d10} slashing damage as rapidly moving petals tear around them. If this attack hits a creature, that creature is also restrained, as the petals turn to solid chains. If the spell hits, then all creatures of your choice within 10ft of that creature must make a Dexterity Saving throw, or also be restrained. Creatures restrained by this spell are freed at the end of your next turn."
+    "You create a flurry of black petals and launch them at a creature within range. Make a spell attack roll against that creature, and on a hit they take {@dice 4d10} slashing damage as rapidly moving petals tear around them. If this attack hits a creature, that creature is also {@condition restrained}, as the petals turn to solid chains. If the spell hits, then all creatures of your choice within 10ft of that creature must make a Dexterity Saving throw, or also be {@condition restrained}. Creatures {@condition restrained} by this spell are freed at the end of your next turn."
   ],
   "entriesHigherLevel": [
     {

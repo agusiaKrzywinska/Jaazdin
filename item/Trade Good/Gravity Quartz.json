@@ -1,0 +1,34 @@
+{
+  "name": "Gravity Quartz",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Jeweler's Tools",
+    "secondaryTool": "Mason's Tools",
+    "forgingConditions": "Requires a 4th level Graviturgy Spell and 17 Con. Gravity Quartz is Smithed with CON not STR.",
+    "baseMetals": "Ash Quartz + Gravinite",
+    "armorEffects": "The Armors weight is quadrupled but its AC is increased by +1. As an action you can double the weight of the armor. While doubled you gain an additional +1 AC but your speed is reduced by 10 feet and you have disadvantage on Dexterity based attack rolls.",
+    "weaponEffects": "The weapons weight is quadrupled. Its damage die increases by one. As an action you can double the weight of the weapon to increase the weapons die by an additional step. When you do this you have disadvantage on all Dexterity saving throws and Dexterity ability checks.",
+    "additionalEffects": "Suitable material for Titanic Plate.",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Jeweler's Tools",
+        "<b>Secondary Tool:</b> Mason's Tools",
+        "<b>Forging Conditions:</b> Requires a 4th level Graviturgy Spell and 17 Con. Gravity Quartz is Smithed with CON not STR.",
+        "<b>Base Metals:</b> {@item Ash Quartz|TftJC} + {@item Gravinite|TftJC}",
+        "<b>Armor Effects:</b> The Armors weight is quadrupled but its AC is increased by +1. As an action you can double the weight of the armor. While doubled you gain an additional +1 AC but your speed is reduced by 10 feet and you have disadvantage on Dexterity based attack rolls.",
+        "<b>Weapon Effects:</b> The weapons weight is quadrupled. Its damage die increases by one. As an action you can double the weight of the weapon to increase the weapons die by an additional step. When you do this you have disadvantage on all Dexterity saving throws and Dexterity ability checks.",
+        "<b>Additional Effects:</b> Suitable material for Titanic Plate.",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Malevolent Magma",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Glassblower's Tools",
+    "secondaryTool": "Smith's Tools",
+    "forgingConditions": "Fire Resist + NE Alignment",
+    "baseMetals": "Living Lava + Zuigni",
+    "armorEffects": "This armor is sentient, with an INT of 2, WIS of 10 and CHA of 12 (NE). You take reduced Fire Damage equal to your Persuasion Bonus. The first time each round that this reduces Fire damage you would have taken to 0, all creatures within 5ft of you (other than yourself) take Fire Damage equal to your Persuasion Bonus.",
+    "weaponEffects": "This weapon is sentient, with an INT of 2, WIS of 10 and CHA of 12 (NE). Malevolent Magma replaces the weapon's damage type with Fire. This weapon ignores Fire Resistance.",
+    "additionalEffects": "Wearing or wielding this metal allows you to walk on lava with no movement penalties.",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Glassblower's Tools",
+        "<b>Secondary Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Fire Resist + NE Alignment",
+        "<b>Base Metals:</b> {@item Living Lava|TftJC} + {@item Zuigni|TftJC}",
+        "<b>Armor Effects:</b> This armor is sentient, with an INT of 2, WIS of 10 and CHA of 12 (NE). You take reduced Fire Damage equal to your {@skill Persuasion} Bonus. The first time each round that this reduces Fire damage you would have taken to 0, all creatures within 5ft of you (other than yourself) take Fire Damage equal to your {@skill Persuasion} Bonus.",
+        "<b>Weapon Effects:</b> This weapon is sentient, with an INT of 2, WIS of 10 and CHA of 12 (NE). Malevolent Magma replaces the weapon's damage type with Fire. This weapon ignores Fire Resistance.",
+        "<b>Additional Effects:</b> Wearing or wielding this metal allows you to walk on lava with no movement penalties.",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

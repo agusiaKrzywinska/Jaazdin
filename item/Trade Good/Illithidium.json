@@ -22,7 +22,7 @@
         "<b>Required Tool:</b> Smith's Tools",
         "<b>Forging Conditions:</b> 17 INT",
         "<b>Armor Effects:</b> You gain resistance to Psychic Damage. Illithids wearing this have advantage on Wisdom Saves.",
-        "<b>Weapon Effects:</b> Weapons that Critically hit grant the target vulnerability to Psychic damage for a number of rounds equal to your Prof Bonus. Illithids using these deal an additional 1d6 psychic damage on a hit.",
+        "<b>Weapon Effects:</b> Weapons that Critically hit grant the target vulnerability to Psychic damage for a number of rounds equal to your Prof Bonus. Illithids using these deal an additional {@dice 1d6} psychic damage on a hit.",
         "<b>Additional Effects:</b> -",
         "<b>Runesmithing:</b> {@item Mentallite|TftJC}",
         "<b>Druid Useable:</b> No"

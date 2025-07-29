@@ -28,7 +28,7 @@
     }
   ],
   "entries": [
-    "With a wave of the hand and a magic word you bring to light that which is hidden. When you cast the spell choose one creature, object, or 10-foot cube within range. Any illusion spell of 2nd level or lower inside that area or effecting a creature or object immediately ends, if the spell is Invisibility or Greater Invisibility the spell ends regardless of level. For each spell of 3rd level or higher in the area, make an ability check with your spell casting ability. The DC for this check is 10 + spell's level. On a success the spell ends."
+    "With a wave of the hand and a magic word you bring to light that which is hidden. When you cast the spell choose one creature, object, or 10-foot cube within range. Any illusion spell of 2nd level or lower inside that area or effecting a creature or object immediately ends, if the spell is {@spell Invisibility} or {@spell Greater Invisibility} the spell ends regardless of level. For each spell of 3rd level or higher in the area, make an ability check with your spell casting ability. The DC for this check is 10 + spell's level. On a success the spell ends."
   ],
   "entriesHigherLevel": [
     {

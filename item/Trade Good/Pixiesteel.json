@@ -21,7 +21,7 @@
         "<b>Plane of Origin:</b> Feywild",
         "<b>Required Tool:</b> Smith's Tools",
         "<b>Forging Conditions:</b> 15 WIS or resistance to Psychic Damage.",
-        "<b>Armor Effects:</b> Each day at Dawn, roll 1d2. On a 1, you have advantage on one type of saving throw against magic (roll 1d6 to decide). On a 2, you have disadvantage to one type of saving throw against magic (roll 1d6 to decide).",
+        "<b>Armor Effects:</b> Each day at Dawn, roll {@dice 1d2}. On a 1, you have advantage on one type of saving throw against magic (roll {@dice 1d6} to decide). On a 2, you have disadvantage to one type of saving throw against magic (roll {@dice 1d6} to decide).",
         "<b>Weapon Effects:</b> After hitting a creature with this weapon you can force them to make a DC15 CHA Saving Throw, and on a fail are affected by the Confusion Spell until the start of your next turn (you do not concentrate on this). A creature who succeeds or fails the saving throw they are immune to this effect for the next 24 hours.",
         "<b>Additional Effects:</b> -",
         "<b>Runesmithing:</b> ???",

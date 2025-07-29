@@ -22,7 +22,7 @@
         "<b>Required Tool:</b> Smith's Tools",
         "<b>Forging Conditions:</b> Must have 11+ levels in Paladin/Cleric, or a subclass that gains power from Celestials (Celestial Warlock/ Angelic Armsmaster Fighter.)",
         "<b>Armor Effects:</b> You gain resistance to Radiant and Necrotic Damage.",
-        "<b>Weapon Effects:</b> Weapons deal an additional 1d10 radiant damage on a hit, 2d10 against fiends and undead. Paladins wielding this weapon have their damage from their Divine Smite and Smite Spells increased by 1 step.",
+        "<b>Weapon Effects:</b> Weapons deal an additional {@dice 1d10} radiant damage on a hit, {@dice 2d10} against fiends and undead. Paladins wielding this weapon have their damage from their Divine Smite and Smite Spells increased by 1 step.",
         "<b>Additional Effects:</b> Material for Horn of Valhalla (Iron)",
         "<b>Runesmithing:</b> X",
         "<b>Druid Useable:</b> No"

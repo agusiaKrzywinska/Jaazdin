@@ -1,0 +1,34 @@
+{
+  "name": "Prometheum",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Woodcarver's Tools",
+    "secondaryTool": "Smith's Tools",
+    "forgingConditions": "",
+    "baseMetals": "Ironoak + Zuigni",
+    "armorEffects": "This armor is Druid Useable. When you Wild Shape, polymorph or otherwise transform, your new form resists Fire Damage and any natural attack made in that new form deals an additional 1d8 Fire Damage on a hit.",
+    "weaponEffects": "This weapon is Druid Useable. Any Spells that would deal Fire Damage to a creature ignite them on fire, causing them to take 1d6 Fire Damage at the start of their turns until they are put out or use an action to pat off the flames. Your spells that deal Fire Damage ignore Fire resistance.",
+    "additionalEffects": "Plants and Plant matter can not burn while within 10ft of any material made of Prometheum.",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Woodcarver's Tools",
+        "<b>Secondary Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> ",
+        "<b>Base Metals:</b> {@item Ironoak|TftJC} + {@item Zuigni|TftJC}",
+        "<b>Armor Effects:</b> This armor is Druid Useable. When you Wild Shape, polymorph or otherwise transform, your new form resists Fire Damage and any natural attack made in that new form deals an additional {@dice 1d8} Fire Damage on a hit.",
+        "<b>Weapon Effects:</b> This weapon is Druid Useable. Any Spells that would deal Fire Damage to a creature ignite them on fire, causing them to take {@dice 1d6} Fire Damage at the start of their turns until they are put out or use an action to pat off the flames. Your spells that deal Fire Damage ignore Fire resistance.",
+        "<b>Additional Effects:</b> Plants and Plant matter can not burn while within 10ft of any material made of Prometheum.",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

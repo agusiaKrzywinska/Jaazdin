@@ -18,6 +18,6 @@
     "name": "650gp"
   },
   "entries": [
-    "You can fire objects of up to 6\" in diameter that are not ammunition with this weapon. Objects instead deal 1d4 + your dexterity modifier in bludgeoning damage on a hit, and may apply other effects based on the object's effects."
+    "You can fire objects of up to 6\" in diameter that are not ammunition with this weapon. Objects instead deal {@dice 1d4} + your dexterity modifier in bludgeoning damage on a hit, and may apply other effects based on the object's effects."
   ]
 }

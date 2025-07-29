@@ -9,6 +9,6 @@
   "page": 48,
   "featureType": ["ARC"],
   "entries": [
-    "Tier 2 Arcana. Creatures affected by The Forbidden Spell instead subtract 2d4 from their next roll."
+    "Tier 2 Arcana. Creatures affected by The Forbidden Spell instead subtract {@dice 2d4} from their next roll."
   ]
 }

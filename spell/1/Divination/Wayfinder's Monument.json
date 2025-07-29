@@ -32,7 +32,7 @@
     }
   ],
   "entries": [
-    "You create a small monument, which creates a magical connection to you. During the spell's duration, you always know where the monument is, how far you are from the monument, if creatures of one certain type (your choice when you cast the spell) has passed within a 15ft radius of the monument, or if the monument is destroyed, which can be done by toppling the tower. Additionally once per 24 hours, you can channel for 10 minutes to transfer your senses into the monument, while your body becomes blinded and deafened to your surroundings. You can see, hear and smell from the monument, but you cannot speak through it. The connection ends when you choose to end it, or when you take damage.",
+    "You create a small monument, which creates a magical connection to you. During the spell's duration, you always know where the monument is, how far you are from the monument, if creatures of one certain type (your choice when you cast the spell) has passed within a 15ft radius of the monument, or if the monument is destroyed, which can be done by toppling the tower. Additionally once per 24 hours, you can channel for 10 minutes to transfer your senses into the monument, while your body becomes {@condition blinded} and {@condition deafened} to your surroundings. You can see, hear and smell from the monument, but you cannot speak through it. The connection ends when you choose to end it, or when you take damage.",
     "If you cast this spell on the same area every day for 6 months, it becomes permanent until destroyed or dispelled."
   ],
   "meta": {

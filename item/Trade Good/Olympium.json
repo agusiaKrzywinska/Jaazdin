@@ -21,8 +21,8 @@
         "<b>Base Metal:</b> {@item Celestial Gold|TftJC}",
         "<b>Required Tool:</b> Smith's Tools",
         "<b>Forging Conditions:</b> Must be blessed by a deity or celestial being.",
-        "<b>Armor Effects:</b> You have resistance to radiant damage and advantage on saving throws against being frightened.",
-        "<b>Weapon Effects:</b> This weapon deals an additional 1d8 radiant damage to fiends and undead.",
+        "<b>Armor Effects:</b> You have resistance to radiant damage and advantage on saving throws against being {@condition frightened}.",
+        "<b>Weapon Effects:</b> This weapon deals an additional {@dice 1d8} radiant damage to fiends and undead.",
         "<b>Additional Effects:</b> You can cast Divine Favor once per day without using a spell slot.",
         "<b>Druid Useable:</b> No"
       ]

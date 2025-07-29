@@ -12,7 +12,7 @@
       "type": "list",
       "items": [
         "You gain resistance to bludgeoning, slashing, and piercing damage.",
-        "Whenever you make a saving throw, you can add 1d6 to the roll.",
+        "Whenever you make a saving throw, you can add {@dice 1d6} to the roll.",
         "If the subject of your Honor Bond drops to 0 hit points, you can immediately take a full turn. Once you use this ability, you cannot use it again until you finish a long rest."
       ]
     }

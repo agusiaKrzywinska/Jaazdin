@@ -1,0 +1,34 @@
+{
+  "name": "Hermes' Steel",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Mason's Tools",
+    "secondaryTool": "Smith's Tools",
+    "forgingConditions": "?",
+    "baseMetals": "Gravinite + Alacriver",
+    "armorEffects": "Light armor grants +3 bonus on Dexterity Saves. Heavy armor grants a +3 bonus on saving throws and checks made to resist being moved against your will.",
+    "weaponEffects": "Heavy weapons gain the Light property. Naturally Light weapons steal 10ft of movement speed on hit, which lasts until the start of your next turn.",
+    "additionalEffects": "Can be used to craft Hound and Stinger (Greatsword + Dagger)",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Mason's Tools",
+        "<b>Secondary Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> ?",
+        "<b>Base Metals:</b> {@item Gravinite|TftJC} + {@item Alacriver|TftJC}",
+        "<b>Armor Effects:</b> Light armor grants +3 bonus on Dexterity Saves. Heavy armor grants a +3 bonus on saving throws and checks made to resist being moved against your will.",
+        "<b>Weapon Effects:</b> Heavy weapons gain the Light property. Naturally Light weapons steal 10ft of movement speed on hit, which lasts until the start of your next turn.",
+        "<b>Additional Effects:</b> Can be used to craft Hound and Stinger (Greatsword + Dagger)",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

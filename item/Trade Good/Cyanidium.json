@@ -1,0 +1,34 @@
+{
+  "name": "Cyanidium",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Alchemist's Supplies",
+    "secondaryTool": "Alchemist's Supplies",
+    "forgingConditions": "Necrotic Resistance + 17 CON",
+    "baseMetals": "Putrid Lead + Devil's Mercury",
+    "armorEffects": "If you don't have resistance/immunity to poison damage while wearing this armor, you take 5 Necrotic Damage at the start of each of your turns. Any creature that makes contact with you by hitting you with a melee weapon/attack/melees spell attack, by grappling or by being grappled by you takes 5 Necrotic Damage, and an additional +2 Necrotic for every +1 Enchantment value this armor has (up to 11 Necrotic Damage).",
+    "weaponEffects": "If you don't have resistance/immunity to poison damage while wielding this weapon, you take 5 Necrotic Damage at the start of each of your turns. Cyanidium Weapons deal an additional 1d10 Poison Damage on a hit, and any poison that coats this weapon becomes an Injury Poison. If this weapon is Enchanted with a +X effect, any poison's DC applied to it is increased by that value.",
+    "additionalEffects": "Cyanidium Poisoner's Tools have a 1/4 chance to make an additional dose upon crafting a Poison.",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Alchemist's Supplies",
+        "<b>Secondary Tool:</b> Alchemist's Supplies",
+        "<b>Forging Conditions:</b> Necrotic Resistance + 17 CON",
+        "<b>Base Metals:</b> {@item Putrid Lead|TftJC} + {@item Devil's Mercury|TftJC}",
+        "<b>Armor Effects:</b> If you don't have resistance/immunity to poison damage while wearing this armor, you take 5 Necrotic Damage at the start of each of your turns. Any creature that makes contact with you by hitting you with a melee weapon/attack/melees spell attack, by grappling or by being grappled by you takes 5 Necrotic Damage, and an additional +2 Necrotic for every +1 Enchantment value this armor has (up to 11 Necrotic Damage).",
+        "<b>Weapon Effects:</b> If you don't have resistance/immunity to poison damage while wielding this weapon, you take 5 Necrotic Damage at the start of each of your turns. Cyanidium Weapons deal an additional {@dice 1d10} Poison Damage on a hit, and any poison that coats this weapon becomes an Injury Poison. If this weapon is Enchanted with a +X effect, any poison's DC applied to it is increased by that value.",
+        "<b>Additional Effects:</b> Cyanidium Poisoner's Tools have a 1/4 chance to make an additional dose upon crafting a Poison.",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

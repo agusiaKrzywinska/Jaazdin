@@ -26,7 +26,7 @@
       "type": "inset",
       "name": "Team Strike",
       "entries": [
-        "When you make an attack roll, you can allow the subject of your Honor Bond to also make an attack. Your Honor Bound can use its reaction to immediately make one attack, adding 1d4 to the to hit roll."
+        "When you make an attack roll, you can allow the subject of your Honor Bond to also make an attack. Your Honor Bound can use its reaction to immediately make one attack, adding {@dice 1d4} to the to hit roll."
       ]
     }
   ]

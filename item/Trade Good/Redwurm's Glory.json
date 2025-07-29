@@ -1,0 +1,34 @@
+{
+  "name": "Redwurm's Glory",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Glassblower's Tools",
+    "secondaryTool": "Smith's Tools",
+    "forgingConditions": "Chaotic Evil Alignment",
+    "baseMetals": "Dragon's Gold + Living Lava",
+    "armorEffects": "This armor is sentient, with an INT of 2, WIS of 8 and CHA of 17 (CE). You gain a Bonus to Persuasion Checks while wearing the armor based on its type (Light +1, Medium +2, Heavy +3). This bonus is doubled against Neutral or Evil aligned Dragons. You know Draconic while wearing this armor.",
+    "weaponEffects": "This weapon is sentient, with an INT of 2, WIS of 8 and CHA of 17 (CE). This weapon adds half your proficiency Bonus (rounded down) to its damage rolls, its full value against Dragons, or double your Proficiency against Good Aligned Dragons. This weapon executes any creature you attack with it that is has remaining hitpoints equal to or less that your Proficiency Bonus, this value is doubled against Good Aligned Dragons.",
+    "additionalEffects": "You have disadvantage on saving throws inflicted upon you by Red Dragons, as the armor/weapon betrays you.",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Glassblower's Tools",
+        "<b>Secondary Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Chaotic Evil Alignment",
+        "<b>Base Metals:</b> {@item Dragon's Gold|TftJC} + {@item Living Lava|TftJC}",
+        "<b>Armor Effects:</b> This armor is sentient, with an INT of 2, WIS of 8 and CHA of 17 (CE). You gain a Bonus to {@skill Persuasion} Checks while wearing the armor based on its type (Light +1, Medium +2, Heavy +3). This bonus is doubled against Neutral or Evil aligned Dragons. You know Draconic while wearing this armor.",
+        "<b>Weapon Effects:</b> This weapon is sentient, with an INT of 2, WIS of 8 and CHA of 17 (CE). This weapon adds half your proficiency Bonus (rounded down) to its damage rolls, its full value against Dragons, or double your Proficiency against Good Aligned Dragons. This weapon executes any creature you attack with it that is has remaining hitpoints equal to or less that your Proficiency Bonus, this value is doubled against Good Aligned Dragons.",
+        "<b>Additional Effects:</b> You have disadvantage on saving throws inflicted upon you by Red Dragons, as the armor/weapon betrays you.",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

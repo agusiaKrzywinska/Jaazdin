@@ -12,7 +12,7 @@
       "type": "inset",
       "name": "Katana",
       "entries": [
-        "A Katana costs 30gp and has the following stat block: melee, reach 5ft, finesse, special, 1d8 slashing, versatile. It weights 2lbs."
+        "A Katana costs 30gp and has the following stat block: melee, reach 5ft, finesse, special, {@dice 1d8} slashing, versatile. It weights 2lbs."
       ]
     },
     {

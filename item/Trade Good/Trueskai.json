@@ -1,0 +1,34 @@
+{
+  "name": "Trueskai",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Smith's Tools",
+    "secondaryTool": "Smith's Tools",
+    "forgingConditions": "?",
+    "baseMetals": "Skaier + Truemetal",
+    "armorEffects": "Armor reduces Cold, Thunder and Slashing damage by 5, and Lightning by 10. After reducing 25 damage, every creature but yourself within 5ft of you takes 5 Magical Slashing Damage.",
+    "weaponEffects": "Every 5th attack made with this metal deals an additional 15 Magical Slashing Damage.",
+    "additionalEffects": "?",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Secondary Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> ?",
+        "<b>Base Metals:</b> {@item Skaier|TftJC} + {@item Truemetal|TftJC}",
+        "<b>Armor Effects:</b> Armor reduces Cold, Thunder and Slashing damage by 5, and Lightning by 10. After reducing 25 damage, every creature but yourself within 5ft of you takes 5 Magical Slashing Damage.",
+        "<b>Weapon Effects:</b> Every 5th attack made with this metal deals an additional 15 Magical Slashing Damage.",
+        "<b>Additional Effects:</b> ?",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

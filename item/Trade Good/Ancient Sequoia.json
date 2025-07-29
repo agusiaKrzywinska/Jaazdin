@@ -1,0 +1,34 @@
+{
+  "name": "Ancient Sequoia",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Woodcarver's Tools",
+    "secondaryTool": "Jeweler's Tools",
+    "forgingConditions": "?",
+    "baseMetals": "Ash Quartz + Ironoak",
+    "armorEffects": "Can only be made into Heavy Armor. Elementals have disadvantage on attack rolls against you, and you take reduced damage from Elementals equal to your Wisdom Modifier.",
+    "weaponEffects": "Can only be made into heavy weapons. Deals additional damage to Elementals equal to your Wisdom Modifier, or half your Wisdom Modifer (rounded down) to non elementals.",
+    "additionalEffects": "4 Plates of this metal can be used in a 10 minute ritual to close a planar portal to an Elemental Plane.",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Woodcarver's Tools",
+        "<b>Secondary Tool:</b> Jeweler's Tools",
+        "<b>Forging Conditions:</b> ?",
+        "<b>Base Metals:</b> {@item Ash Quartz|TftJC} + {@item Ironoak|TftJC}",
+        "<b>Armor Effects:</b> Can only be made into Heavy Armor. Elementals have disadvantage on attack rolls against you, and you take reduced damage from Elementals equal to your Wisdom Modifier.",
+        "<b>Weapon Effects:</b> Can only be made into heavy weapons. Deals additional damage to Elementals equal to your Wisdom Modifier, or half your Wisdom Modifer (rounded down) to non elementals.",
+        "<b>Additional Effects:</b> 4 Plates of this metal can be used in a 10 minute ritual to close a planar portal to an Elemental Plane.",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

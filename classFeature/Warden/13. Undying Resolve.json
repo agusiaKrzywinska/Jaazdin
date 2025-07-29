@@ -5,6 +5,6 @@
   "classSource": "TftJC",
   "level": 13,
   "entries": [
-    "At 13th level, even death is unable to shake your resolve on the battlefield. When you drop to zero hit points you do not immediately fall unconscious, instead you remain conscious until you fail one death saving throw. Additionally, you gain advantage on death saving throws and regain one hit point on a 19 or 20 on a death save."
+    "At 13th level, even death is unable to shake your resolve on the battlefield. When you drop to zero hit points you do not immediately fall {@condition unconscious}, instead you remain conscious until you fail one death saving throw. Additionally, you gain advantage on death saving throws and regain one hit point on a 19 or 20 on a death save."
   ]
 }

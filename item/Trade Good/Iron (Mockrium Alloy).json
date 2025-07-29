@@ -1,0 +1,34 @@
+{
+  "name": "Iron",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Smith's Tools",
+    "secondaryTool": "Smith's Tools",
+    "forgingConditions": "?",
+    "baseMetals": "Iron + Mockrium",
+    "armorEffects": "Can take on the properties of any metal Rare or lower rarity by holding a plate/item comprised of it for 1 minute. Visually indistinguishable from Iron.",
+    "weaponEffects": "Can take on the properties of any metal Rare or lower rarity by holding a plate/item comprised of it for 1 minute. Visually indistinguishable from Iron.",
+    "additionalEffects": "Requires a DC 25 Smiths Tools Check with INT to determine this isn't Iron.",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Secondary Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> ?",
+        "<b>Base Metals:</b> {@item Iron|TftJC} + {@item Mockrium|TftJC}",
+        "<b>Armor Effects:</b> Can take on the properties of any metal Rare or lower rarity by holding a plate/item comprised of it for 1 minute. Visually indistinguishable from Iron.",
+        "<b>Weapon Effects:</b> Can take on the properties of any metal Rare or lower rarity by holding a plate/item comprised of it for 1 minute. Visually indistinguishable from Iron.",
+        "<b>Additional Effects:</b> Requires a DC 25 Smiths Tools Check with INT to determine this isn't Iron.",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

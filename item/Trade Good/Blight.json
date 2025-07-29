@@ -1,0 +1,34 @@
+{
+  "name": "Blight",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Smith's Tools",
+    "secondaryTool": "Smith's Tools",
+    "forgingConditions": "?",
+    "baseMetals": "Platinum + Hunter's Iron",
+    "armorEffects": "Can only be made into Light/Medium armor. You gain a +3 to both saving throws against the Charmed condition and Intimidation checks.",
+    "weaponEffects": "Can only be made into Piercing/Slashing weapons. All additional damage dealt by this weapon when you hit with it is converted into its weapon's damage type.",
+    "additionalEffects": "Fey skin burns when touching Blight.",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Secondary Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> ?",
+        "<b>Base Metals:</b> {@item Platinum|TftJC} + {@item Hunter's Iron|TftJC}",
+        "<b>Armor Effects:</b> Can only be made into Light/Medium armor. You gain a +3 to both saving throws against the {@condition Charmed} condition and {@skill Intimidation} checks.",
+        "<b>Weapon Effects:</b> Can only be made into Piercing/Slashing weapons. All additional damage dealt by this weapon when you hit with it is converted into its weapon's damage type.",
+        "<b>Additional Effects:</b> Fey skin burns when touching Blight.",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

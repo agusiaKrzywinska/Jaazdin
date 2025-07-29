@@ -1,0 +1,34 @@
+{
+  "name": "Spectral Patina",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Smith's Tools",
+    "secondaryTool": "Smith's Tools",
+    "forgingConditions": "?",
+    "baseMetals": "Copper + Ghost Steel",
+    "armorEffects": "At the End of your turn, roll 1d6. On a 6, you enter the Ethereal Realm. This lasts until the start or end of your next turn (your choice).",
+    "weaponEffects": "The weapon deals an additional 3 Lightning Damage to partially corporeal or incorporeal creatures, and can hit incorporeal creatures.",
+    "additionalEffects": "When Planeshifting and wielding/wearing this metal, there is a 5% chance to instead enter the Ethereal Plane instead of your intended plane.",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Secondary Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> ?",
+        "<b>Base Metals:</b> {@item Copper|TftJC} + {@item Ghost Steel|TftJC}",
+        "<b>Armor Effects:</b> At the End of your turn, roll {@dice 1d6}. On a 6, you enter the Ethereal Realm. This lasts until the start or end of your next turn (your choice).",
+        "<b>Weapon Effects:</b> The weapon deals an additional 3 Lightning Damage to partially corporeal or incorporeal creatures, and can hit incorporeal creatures.",
+        "<b>Additional Effects:</b> When Planeshifting and wielding/wearing this metal, there is a 5% chance to instead enter the Ethereal Plane instead of your intended plane.",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

@@ -22,7 +22,7 @@
         "<b>Required Tool:</b> Jeweler's Tools",
         "<b>Forging Conditions:</b> Requires STR, CON and CHA to be 14+, and Enchanted Tools.",
         "<b>Armor Effects:</b> You gain resistance to Piercing Damage. You incur no penalties from moving on frozen terrains, slipping on ice or any negative effect on your movement on ice.",
-        "<b>Weapon Effects:</b> Weapons made from Tytantium have their damage die size increased by 1 tier (d4s -> d6s. If the damage die is either 1d12 or 2d6, it becomes 2d8).",
+        "<b>Weapon Effects:</b> Weapons made from Tytantium have their damage die size increased by 1 tier ({@dice d4}s -> {@dice d6}s. If the damage die is either {@dice 1d12} or {@dice 2d6}, it becomes {@dice 2d8}).",
         "<b>Additional Effects:</b> -",
         "<b>Runesmithing:</b> X",
         "<b>Druid Useable:</b> No"

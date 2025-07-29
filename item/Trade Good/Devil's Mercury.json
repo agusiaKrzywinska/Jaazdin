@@ -22,7 +22,7 @@
         "<b>Required Tool:</b> Alchemist's Supplies",
         "<b>Forging Conditions:</b> 6th Lvl Cold Spell, Using DEX for check",
         "<b>Armor Effects:</b> Heavy Armor is treated as Medium Armor, and Medium armor is treated as Light. Light Armor requires no proficiency to wear.",
-        "<b>Weapon Effects:</b> Weapon attacks that hit a creature force a DC17 Con save (poison effect), and on a fail the target suffers 1d6 Necrotic damage at the start of their turn. This lasts for 1 minute, and the target can repeat this saving throw to end the effect early.",
+        "<b>Weapon Effects:</b> Weapon attacks that hit a creature force a DC17 Con save (poison effect), and on a fail the target suffers {@dice 1d6} Necrotic damage at the start of their turn. This lasts for 1 minute, and the target can repeat this saving throw to end the effect early.",
         "<b>Additional Effects:</b> -",
         "<b>Runesmithing:</b> {@item Mercurial Sludge|TftJC}",
         "<b>Druid Useable:</b> No"
