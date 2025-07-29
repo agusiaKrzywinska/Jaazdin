@@ -7,6 +7,6 @@
   "subclassSource": "TftJC",
   "level": 10,
   "entries": [
-    "At 10th level, your Sand Swipe is improved. When you use Sand Swipe, you next attack deals an additional {@dice 1d12} piercing damage, and if used instead at the end of your turn, the next time you would take damage that amount is reduced by {@dice 1d12}. Sand Swipe's range also becomes 30ft."
+    "At 10th level, your Sand Stream is improved. Creatures of your choice within your standstorm aura take 1d12 piercing damage when they either enter the radius or start their turn within it."
   ]
 }

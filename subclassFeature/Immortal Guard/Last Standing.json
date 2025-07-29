@@ -1,0 +1,12 @@
+{
+  "name": "Last Standing",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Immortal Guard",
+  "subclassSource": "TftJC",
+  "level": 15,
+  "entries": [
+    "At 15th level, you ensure that you are the last one to fall in any battle. When you would drop to zero hit points, you can destroy any number of Legionnaires within 30 feet of you. For each Legionnaire you destroy in this way, reduce the damage taken by 2. If this kept you from dropping to zero hit points, you can immediately use your reaction to use Heat of Battle, even if you do not have any remaining uses left."
+  ]
+}

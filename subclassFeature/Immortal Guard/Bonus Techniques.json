@@ -1,0 +1,33 @@
+{
+  "name": "Bonus Techniques",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Immortal Guard",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "When you take this tract at 3rd level, you gain one technique from the list below. Whenever you gain a new technique, you can choose from this list as well.",
+    {
+      "type": "inset",
+      "name": "Shield Wall",
+      "entries": [
+        "You command your Legionnaires to form an unbreakable wall. Select one Legionnaire or yourself. Any Legionnaires within 60 feet of you or the selected Legionnaire can move up to 15ft towards you, Legionnaires that end their movement adjacent to yourself or another Legionnaires have their AC increased by 4 and become tangible. Attacks cannot pass through or above the Legionnaires (up to 10 feet above and below them) and creature that try and move through the Legionnaires must make a Strength saving throw or be knocked prone and have their movement stopped. This effect ends at the start of your next turn."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Immortal Shield",
+      "entries": [
+        "You forgo one attack and instead command your Legionnaires to protect one creature within 30 feet of you. Any Legionnaires within 60 feet of you can move up to 15ft towards a target of your choice, until the end of that target’s turn when it takes damage, that damage is reduced by 1 for each Legionnaire or yourself within 5ft of it."
+      ]
+    },
+    {
+      "type": "inset",
+      "name": "Immortal Spear",
+      "entries": [
+        "As part of an attack, you also command your Legionnaires to attack one creature within 30 feet of you. Any Legionnaires within 60 feet of you can move up to 15ft towards a target of your choice, until the end of that your next turn, whenever you hit a creature with an attack it takes 1 additional damage for each Legionnaire within 5ft of it."
+      ]
+    }
+  ]
+}

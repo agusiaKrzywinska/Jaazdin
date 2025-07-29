@@ -1,0 +1,13 @@
+{
+  "name": "Bloody Strikes",
+  "source": "TftJC",
+  "className": "Fighter",
+  "classSource": "PHB",
+  "subclassShortName": "Sanguine Knight",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "At 3rd level, your injuries empower your strikes. You gain a Sanguine Die that can be used for various abilities. It begins as a d4, increasing its size by a step at 7th, 11th, 15th and 19th level. When you take damage from your Sanguine Die, the damage cannot be reduced/resisted in any way, and always hits your hitpoints if you have temporary hitpoints or other similar abilities.",
+    "Once per turn, when you deal damage from a weapon attack you can roll your Sanguine Die and add a bonus to your weapon’s damage dice equal to twice the value on the number rolled. You then take the damage rolled on your Sanguine Die."
+  ]
+}

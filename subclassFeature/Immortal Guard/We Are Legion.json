@@ -1,0 +1,13 @@
+{
+  "name": "We Are Legion",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Immortal Guard",
+  "subclassSource": "TftJC",
+  "level": 20,
+  "entries": [
+    "At 20th level, your command of the endless legions becomes supreme. Whenever you make an attack roll and hit, you may summon one Legionnaire to a point you can see within 30 feet.",
+    "In addition, there is no longer any limit on the number of Legionnaires you can have at one time."
+  ]
+}

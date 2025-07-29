@@ -1,0 +1,12 @@
+{
+  "name": "Bleed For Me",
+  "source": "TftJC",
+  "className": "Fighter",
+  "classSource": "PHB",
+  "subclassShortName": "Sanguine Knight",
+  "subclassSource": "TftJC",
+  "level": 15,
+  "entries": [
+    "At 15th level, you can force others to endure your bloodletting. When you roll your Sanguine Die, if another creature is within your natural reach, you can force them to endure your pain. That creature then takes damage (which cannot be reduced in any way) equal to your roll + your Constitution modifier. This has no effect against Constructs and Undead. You can use this feature a number of times per Short rest equal to your Proficiency Bonus."
+  ]
+}

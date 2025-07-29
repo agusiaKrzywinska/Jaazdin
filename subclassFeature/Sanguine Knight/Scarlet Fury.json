@@ -1,0 +1,12 @@
+{
+  "name": "Scarlet Fury",
+  "source": "TftJC",
+  "className": "Fighter",
+  "classSource": "PHB",
+  "subclassShortName": "Sanguine Knight",
+  "subclassSource": "TftJC",
+  "level": 10,
+  "entries": [
+    "At 10th level, you gain the ability to use your injuries to fuel your powers. As a Bonus Action, you can blootlet, causing yourself to take 2x the maximum value of your Sanguine Die (which cannot be reduced in any way). Additionally, if you take damage in one instance equal to or greater than 2x the highest value of your Sanguine Dice, you fall into a Blood Fury. While in a Blood Fury, anytime you would roll a Sanguine Die, you instead roll 2. While in a Blood Fury, you have disadvantage on Wisdom Saving Throws, except if they are against the Charmed or Frightened conditions. Your Blood Fury ends after not taking damage from a source other than your Sanguine Die for a round."
+  ]
+}

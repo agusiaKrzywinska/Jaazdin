@@ -5,8 +5,8 @@
   "classSource": "PHB",
   "subclassShortName": "Desertstrider",
   "subclassSource": "TftJC",
-  "level": 7,
+  "level": 3,
   "entries": [
-    "At 7th level, you can cause disturbances in the ground to pull in your prey. You can replace one attack to stomp the ground. All creatures standing on the ground that are no more than one size category greater than yours within a 15ft radius of you must make a Dexterity Saving Throw (DC = 8 + prof + CON). Any creatures that failed are pulled within 5ft of you. If this ability would affect an underground creature, they automatically fail the saving throw and are pulled aboveground to you. If this ability is used on sandy terrain, creatures have disadvantage on the saving throw. You can use this ability a number of times equal to your Proficiency Bonus per long rest."
+    "At 3rd level, you can cause disturbances in the ground to pull in your prey. You can replace one attack to stomp the ground. All creatures standing on the ground that are no more than one size category greater than yours within a 15ft radius of you must make a Dexterity Saving Throw (DC = 8 + prof + CON). Any creatures that failed are pulled within 5ft of you. If this ability would affect an underground creature, they automatically fail the saving throw and are pulled above ground to you. If this ability is used on sandy terrain, creatures have disadvantage on the saving throw. You can use this ability a number of times equal to your Proficiency Bonus per long rest."
   ]
 }

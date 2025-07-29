@@ -1,0 +1,21 @@
+{
+  "name": "Terramaster",
+  "source": "TftJC",
+  "className": "Fighter",
+  "classSource": "PHB",
+  "subclassShortName": "Desertstrider",
+  "subclassSource": "TftJC",
+  "level": 15,
+  "entries": [
+    "At 15th level, your connection with your sandstorm allows you to harden it into new shapes. As a Bonus Action, you can coalesce your Sandstorm into a new form. When you do this, you lose any benefits from it until it returns to you. You can create one of the following options:",
+    {
+      "type": "list",
+      "style": "list-hang",
+      "items": [
+        "You can create a 10ft by 10ft panel of stone (as detailed in Wall of Stone) without requiring concentration.",
+        "You can create a 5ft wide 30ft high pillar (as detailed in Bones of the Earth) without requiring concentration."
+      ]
+    },
+    "These effects last until the stone created is destroyed, you move more than 100ft away from it, or you can choose to destroy them early as a Bonus Action. When deatroyed, the particles of stone return to you, forming your sandstorm around you again."
+  ]
+}

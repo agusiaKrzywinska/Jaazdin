@@ -1,0 +1,22 @@
+{
+  "name": "Blood Ritual",
+  "source": "TftJC",
+  "className": "Fighter",
+  "classSource": "PHB",
+  "subclassShortName": "Sanguine Knight",
+  "subclassSource": "TftJC",
+  "level": 7,
+  "entries": [
+    "At 7th level, you learn a Blood Ritual. As a Bonus Action, you can roll your Sanguine Die and take that amount of damage to produce one of the following effects:",
+    {
+      "type": "list",
+      "style": "list-hang",
+      "items": [
+        "Gain a Climb or a Swim speed equal to your Walking speed.",
+        "Gain proficiency in a Skill/Tool you aren’t proficient in.",
+        "Double your Jump height and length."
+      ]
+    },
+    "This lasts for a number of rounds equal to the value rolled on the Sanguine Die x2."
+  ]
+}

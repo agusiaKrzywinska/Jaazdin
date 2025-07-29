@@ -1,0 +1,15 @@
+{
+  "name": "Immortal Guard",
+  "source": "TftJC",
+  "page": 300,
+  "className": "Warden",
+  "classSource": "TftJC",
+  "shortName": "Immortal Guard",
+  "subclassFeatures": [
+    "Immortal Guard|Warden|TftJC|Immortal Guard|TftJC|3",
+    "Unending Command|Warden|TftJC|Immortal Guard|TftJC|7",
+    "Master of the Gilded Arts|Warden|TftJC|Immortal Guard|TftJC|7",
+    "Last Standing|Warden|TftJC|Immortal Guard|TftJC|15",
+    "We Are Legion|Warden|TftJC|Immortal Guard|TftJC|20"
+  ]
+}

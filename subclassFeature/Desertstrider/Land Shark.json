@@ -5,8 +5,8 @@
   "classSource": "PHB",
   "subclassShortName": "Desertstrider",
   "subclassSource": "TftJC",
-  "level": 15,
+  "level": 7,
   "entries": [
-    "At 15th level, you can travel through the ground. You can a burrow speed equal to your walking speed. When burrowing through sand, that speed is doubled. While underground, you gain a tremorsense of 15ft, and this range is doubled when in sand. Finally, your Pitfall's radius is increased to 30ft and can pull creatures affected by it underground towards you if you use it while burrowing. Creatures affected by Pitfall take {@dice 1d12} + your Constitution Modifier bludgeoning damage."
+    "At 7th level, you can travel through the ground. You can a burrow speed equal to your walking speed. When burrowing through sand, that speed is doubled. While underground, you gain a tremorsense of 15ft, and this range is doubled when in sand."
   ]
 }

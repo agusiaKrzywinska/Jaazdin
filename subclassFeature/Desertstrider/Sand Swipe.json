@@ -1,5 +1,5 @@
 {
-  "name": "Sand Swipe",
+  "name": "Sand Stream",
   "source": "TftJC",
   "className": "Fighter",
   "classSource": "PHB",
@@ -7,6 +7,7 @@
   "subclassSource": "TftJC",
   "level": 3,
   "entries": [
-    "At 3rd level, you can weave sand into your attacks. At the start of your turn, you can fling sand at a creature within 10ft's eyes provided you have a free hand to do so. Your first attack against that target has advantage. You can instead use this at the end of your turn, and the target's next attack before the end of their next turn has disadvantage."
+    "At 3rd level, you can weave sand into your attacks. Around you swirls a localized sandstorm. The standstorm has a 5ft radius, this number increases as you gain more levels in this class. The sandstorm follows your movement. While the sandstorm is around you, the first attack you make each turn has advantage, and the first attack made against you or an ally by a creature within its radius each round has disadvantage.",
+    "Whenever your Proficiency Bonus Increases, the sandstorm’s radius increases by 5ft."
   ]
 }

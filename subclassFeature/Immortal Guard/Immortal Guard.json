@@ -1,0 +1,21 @@
+{
+  "name": "Immortal Guard",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Immortal Guard",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "In the hallowed halls of the Golden Empire, the Immortal Guard protected the nation and its emperor with fervor and might. They commanded the endless legions of Gilded to conquer and rule with the empire’s will. These powerful warriors could command their soldiers even after they had fallen in battle, calling upon their spirits to serve even beyond death.",
+    "Those of the Immortal Guard command an inexhaustible army of loyal spirits that they can summon to fight alongside themselves. Even after Kim-at’s fall, they could call upon the countless souls lost in the calamity to fight in new lands. While most of the Immortal Guard draw their power from the lineage of Kim-at, some have found new ways of accessing this power, be it divine or otherwise.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Immortal Legion|Warden|TftJC|Immortal Guard|TftJC|3"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Bonus Techniques|Warden|TftJC|Immortal Guard|TftJC|3"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "King Crimson",
+  "source": "TftJC",
+  "className": "Fighter",
+  "classSource": "PHB",
+  "subclassShortName": "Sanguine Knight",
+  "subclassSource": "TftJC",
+  "level": 18,
+  "entries": [
+    "At 18th level, you are able to unleash all of your Blood to overwhelm your foes. As an Action, you can roll up to 5 Sanguine Die (min 1) and take that much damage, and for each Die rolled, this ability remains active for 1 turn. While Active, you gain the following effects.",
+    {
+      "type": "list",
+      "style": "list-hang",
+      "items": [
+        "Whenever you would deal damage to yourself with a Sanguine Die, the damage is reduced by your Constitution Modifier (ignoring previous restrictions on Sanguine Die’s damage).",
+        "Killing a creature with blood causes them to explode, dealing damage equal to 2 rolls of your Sanguine Die to all other creatures (except yourself) within 10ft of it. If you are within 10ft of them when they explode, you instead heal for the amount rolled.",
+        "You are immune to effects that would instantly Kill you, drop you to 0 hitpoints, or make you unconscious or incapacitated. You can still be reduced to 0 hitpoints through damage, which would drop you unconscious."
+      ]
+    },
+    "When this ability ends, you gain 1 point of exhaustion."
+  ]
+}

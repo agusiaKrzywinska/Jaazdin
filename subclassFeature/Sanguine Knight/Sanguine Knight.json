@@ -1,0 +1,21 @@
+{
+  "name": "Sanguine Knight",
+  "source": "TftJC",
+  "className": "Fighter",
+  "classSource": "PHB",
+  "subclassShortName": "Sanguine Knight",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "Parting a fine red mist walks a warrior on coated in crimson. Blood drips from their blade; neither of you are shure if it is a slain enemy or their own. You feel your veins shudder in fear, your heart beats erratically. This warrior cares not for injury, only your complete annihilation.",
+    "Sanguine Knights are practitioners of sacrificial bloodletting, using their pain to fuel their strikes. With dark hemomantic magic in their arsenal, every injury is a new ooportunity.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Bloddy Strikes|Fighter|TftJC|Sanguine Knight|TftJC|3"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Sanguine Barrier|Fighter|TftJC|Sanguine Knight|TftJC|3"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Sanguine Knight",
+  "source": "TftJC",
+  "page": 25,
+  "className": "Fighter",
+  "classSource": "PHB",
+  "shortName": "Sanguine Knight",
+  "subclassFeatures": [
+    "Sanguine Knight|Fighter|PHB|Sanguine Knight|TftJC|3",
+    "Blood Ritual|Fighter|PHB|Sanguine Knight|TftJC|7",
+    "Scarlet Fury|Fighter|PHB|Sanguine Knight|TftJC|10",
+    "Bleed For Me|Fighter|PHB|Sanguine Knight|TftJC|15",
+    "King Crimson|Fighter|PHB|Sanguine Knight|TftJC|18"
+  ]
+}

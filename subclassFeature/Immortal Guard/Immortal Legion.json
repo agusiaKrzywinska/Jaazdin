@@ -1,0 +1,16 @@
+{
+  "name": "Immortal Legion",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Immortal Guard",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "When you take this tract at 3rd level, you gain the ability to summon the spirit of the fallen Legions of Kim-at. You can summon a Legionnaire in two ways:",
+    "Whenever you use a Technique, you can conjure a spectral Legionnaire at a point you can see within 30ft of you. At the start of your turn while your Inspiring Aura is active, you can create one Legionnaire within 10ft of you or move a Legionnaire within 10ft of you up to 30ft instead of using any of the other effects of Inspiring Aura.",
+    "Your Legionnaires count as you for the purposes of your Techniques.",
+    "Your Legionnaires are magical, shadowy creatures that have your Armor Class, 1 hit point, immunity to all conditions, and automatically fail any saving throws. If they drop to 0 hit point, they vanish. Your Legionnaires cannot move, except for from your class abilities, occupy their space (but can be passed through by creatures, although they cannot end their movement there), and cannot take actions. You can have a number of Legionnaires present at a time equal to twice your proficiency bonus. Legionnaires vanish after 1 minute.",
+    "When you take the attack action, you can replace any number of those attacks with attacks from your Legionnaires. Your Legionnaires use your Strength or Dexterity plus your Proficiency bonus to hit, and on a hit deal 1d8+your Proficiency bonus in force damage. For each other Legionnaire or yourself within 10ft of the attacking Legionnaire, it deals an additional 1 damage, up to a max equal to your levels in Warden."
+  ]
+}

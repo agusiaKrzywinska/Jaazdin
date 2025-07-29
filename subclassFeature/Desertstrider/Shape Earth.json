@@ -14,6 +14,7 @@
       "items": [
         "If you target an area of earth, you can transform it into sand."
       ]
-    }
+    },
+    "Additionally, your Pitfall’s radius is increased to 30ft and can pull creatures affected by it underground towards you if you use it while burrowing. Creatures that would be pulled underground get incased in earth and become restrained by it. They can attempt to break the restraint by using an Action to make a Strength Check (DC = 8 + prof + CON). Creatures affected by Pitfall take 1d12 + your Constitution Modifer bludgeoining damage."
   ]
 }

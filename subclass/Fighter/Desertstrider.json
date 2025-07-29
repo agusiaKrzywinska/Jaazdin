@@ -7,10 +7,11 @@
   "shortName": "Desertstrider",
   "subclassFeatures": [
     "Desertstrider|Fighter|PHB|Desertstrider|TftJC|3",
-    "Pitfall|Fighter|PHB|Desertstrider|TftJC|7",
+    "Pitfall|Fighter|PHB|Desertstrider|TftJC|3",
     "Shape Earth|Fighter|PHB|Desertstrider|TftJC|10",
     "Sand Blast|Fighter|PHB|Desertstrider|TftJC|10",
-    "Land Shark|Fighter|PHB|Desertstrider|TftJC|15",
+    "Tectonics|Fighter|PHB|Desertstrider|TftJC|15",
+    "Land Shark|Fighter|PHB|Desertstrider|TftJC|7",
     "Terramaster|Fighter|PHB|Desertstrider|TftJC|18"
   ]
 }

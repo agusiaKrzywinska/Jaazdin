@@ -1,0 +1,21 @@
+{
+  "name": "Weaveblade",
+  "source": "TftJC",
+  "className": "Fighter",
+  "classSource": "PHB",
+  "subclassShortName": "Weaveblade",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "ark libraries and pacts of old have led this challenger down a new pathway to knowledge. While Eldritch Knights of past used their vast studies to imbue their strikes with magic, your abilities come from the rawest forms of magic; the weave.",
+    "Weaveblades are warriors who have been touched by magic itself, imbuing them with incredible potential. Their magics regenerate as quick as their body does. Rather than utilizing magic in its traditional sense, Weaveblades directly empower their attacks with the rawest forms of magic, allowing them to utilize their already impressive martial training to its fullest.",
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Pact Magic|Fighter|PHB|Weaveblade|TftJC|3"
+    },
+    {
+      "type": "refSubclassFeature",
+      "subclassFeature": "Blade Magic|Fighter|PHB|Weaveblade|TftJC|3"
+    }
+  ]
+}

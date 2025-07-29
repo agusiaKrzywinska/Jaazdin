@@ -1,0 +1,15 @@
+{
+  "name": "Weaveblade",
+  "source": "TftJC",
+  "page": 25,
+  "className": "Fighter",
+  "classSource": "PHB",
+  "shortName": "Weaveblade",
+  "subclassFeatures": [
+    "Weaveblade|Fighter|PHB|Weaveblade|TftJC|3",
+    "Spell Quickening|Fighter|PHB|Weaveblade|TftJC|7",
+    "Wind of the Weave|Fighter|PHB|Weaveblade|TftJC|10",
+    "Indomitable Magic|Fighter|PHB|Weaveblade|TftJC|15",
+    "Weave Champion|Fighter|PHB|Weaveblade|TftJC|18"
+  ]
+}

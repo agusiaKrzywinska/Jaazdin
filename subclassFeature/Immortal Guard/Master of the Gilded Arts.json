@@ -1,0 +1,13 @@
+{
+  "name": "Master of the Gilded Arts",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Immortal Guard",
+  "subclassSource": "TftJC",
+  "level": 7,
+  "entries": [
+    "At 7th level, you’ve gained an appreciation for not just the art of war but for other artistic pursuits as well. You learn one of the following Artisan Tools: Mason’s, Painter’s, Calligrapher’s, Jeweler’s, or Woodcarver’s.",
+    "In addition, you can expend a use of your Inspiring Aura feature to gain proficiency in one skill or tool you do not have proficiency in for 1 minute."
+  ]
+}

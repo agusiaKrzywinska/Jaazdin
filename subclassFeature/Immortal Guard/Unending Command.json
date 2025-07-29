@@ -1,0 +1,12 @@
+{
+  "name": "Unending Command",
+  "source": "TftJC",
+  "className": "Warden",
+  "classSource": "TftJC",
+  "subclassShortName": "Immortal Guard",
+  "subclassSource": "TftJC",
+  "level": 7,
+  "entries": [
+    "At 7th level, you can summon even greater forces to fight on your behalf. Whenever you summon a Legionnaire, you summon two instead. In addition, when you use a Technique granted from this subclass that only effects you and your Legionnaires, it does not consume a use of your Techniques."
+  ]
+}
