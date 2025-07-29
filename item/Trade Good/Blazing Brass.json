@@ -1,0 +1,32 @@
+{
+  "name": "Blazing Brass",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "planeOfOrigin": "Fire",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "3rd Lvl Transmutation Spell + 15 STR",
+    "armorEffects": "You gain resistance to Fire Damage.",
+    "weaponEffects": "Damaging a creature with this weapon forces them to make a DC 15 CON save, and on a fail they are lit on fire taking 1d6 fire damage at the start of each of their turns. They can put themselves out using an Action or dousing themselves in water.",
+    "additionalEffects": "Cook's Tools made using this metal produce one extra meal if used on meals exclusively made of meat.",
+    "runesmithing": "X",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Fire",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> 3rd Lvl Transmutation Spell + 15 STR",
+        "<b>Armor Effects:</b> You gain resistance to Fire Damage.",
+        "<b>Weapon Effects:</b> Damaging a creature with this weapon forces them to make a DC 15 CON save, and on a fail they are lit on fire taking 1d6 fire damage at the start of each of their turns. They can put themselves out using an Action or dousing themselves in water.",
+        "<b>Additional Effects:</b> Cook's Tools made using this metal produce one extra meal if used on meals exclusively made of meat.",
+        "<b>Runesmithing:</b> X",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Orichalcum",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "???",
+    "armorEffects": "Whenever you fail a saving throw against a poison, paralysis, or petrified conditions the DC to save from the effect is reduced by 2 against that effect until it ends. You gain resistance to poison damage.",
+    "weaponEffects": "Poisons applied to this weapon are destroyed. In addition, any additional damage dealt by this weapon is converted into its damage type.",
+    "additionalEffects": "-",
+    "runesmithing": "???",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> ???",
+        "<b>Armor Effects:</b> Whenever you fail a saving throw against a poison, paralysis, or petrified conditions the DC to save from the effect is reduced by 2 against that effect until it ends. You gain resistance to poison damage.",
+        "<b>Weapon Effects:</b> Poisons applied to this weapon are destroyed. In addition, any additional damage dealt by this weapon is converted into its damage type.",
+        "<b>Additional Effects:</b> -",
+        "<b>Runesmithing:</b> ???",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

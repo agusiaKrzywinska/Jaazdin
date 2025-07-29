@@ -1,0 +1,32 @@
+{
+  "name": "Demonic Wrought Iron",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "planeOfOrigin": "Abyss",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "15 STR",
+    "armorEffects": "When you would grapple a creature or be grappled, both you and the other creature take 3 piercing damage at the start of your turn.",
+    "weaponEffects": "Weapons gain a +2 to Damage Rolls and a -1 to hit.",
+    "additionalEffects": "Material for Demon Armor (10 Plates)",
+    "runesmithing": "???",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Abyss",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> 15 STR",
+        "<b>Armor Effects:</b> When you would grapple a creature or be grappled, both you and the other creature take 3 piercing damage at the start of your turn.",
+        "<b>Weapon Effects:</b> Weapons gain a +2 to Damage Rolls and a -1 to hit.",
+        "<b>Additional Effects:</b> Material for Demon Armor (10 Plates)",
+        "<b>Runesmithing:</b> ???",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

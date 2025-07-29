@@ -1,0 +1,30 @@
+{
+  "name": "Silver",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "common",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Smith's Tools",
+    "armorEffects": "-",
+    "weaponEffects": "Bypasses some damage resistances.",
+    "additionalEffects": "-",
+    "runesmithing": "Githyanki Silver",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Armor Effects:</b> -",
+        "<b>Weapon Effects:</b> Bypasses some damage resistances.",
+        "<b>Additional Effects:</b> -",
+        "<b>Runesmithing:</b> {@item Githyanki Silver|TftJC}",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

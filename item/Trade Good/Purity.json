@@ -1,0 +1,29 @@
+{
+  "name": "Purity",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "common",
+  "customProperties": {
+    "baseMetal": "Gold",
+    "requiredTool": "Smith's Tools",
+    "armorEffects": "Increases Charisma by 1, up to 30.",
+    "weaponEffects": "Gains a +1 to damage rolls equal to half of your Charisma Bonus (rounded down, +2 CHA = +1 damage, +4 CHA = +2 damage, so on).",
+    "additionalEffects": "",
+    "druidUseable": true
+  },
+  "entries": [
+    "Runesmithed",
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Base Metal:</b> {@item Gold|TftJC}",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Armor Effects:</b> Increases Charisma by 1, up to 30.",
+        "<b>Weapon Effects:</b> Gains a +1 to damage rolls equal to half of your Charisma Bonus (rounded down, +2 CHA = +1 damage, +4 CHA = +2 damage, so on).",
+        "<b>Additional Effects:</b> ",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

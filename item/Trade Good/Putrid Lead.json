@@ -1,0 +1,32 @@
+{
+  "name": "Putrid Lead",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "planeOfOrigin": "9 Hells (Minauros)",
+    "requiredTool": "Alchemist's Supplies",
+    "forgingConditions": "Proficiency in CON Saves",
+    "armorEffects": "Your Constitution Score is lowered by 2 while wearing this armor, but you gain proficiency in Constitution Saving Throws.",
+    "weaponEffects": "If this weapon is coated in a Poison, the Poison's DC is increased by 2.",
+    "additionalEffects": "A character can use Putrid Lead Glassblowers tools when crafting potions and poisons to gain a +1 bonus on the Alchemists tools or Poisoners check, this does not require you to actively use the tool but you must still have proficiency and have them on your person.",
+    "runesmithing": "X",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> 9 Hells (Minauros)",
+        "<b>Required Tool:</b> Alchemist's Supplies",
+        "<b>Forging Conditions:</b> Proficiency in CON Saves",
+        "<b>Armor Effects:</b> Your Constitution Score is lowered by 2 while wearing this armor, but you gain proficiency in Constitution Saving Throws.",
+        "<b>Weapon Effects:</b> If this weapon is coated in a Poison, the Poison's DC is increased by 2.",
+        "<b>Additional Effects:</b> A character can use Putrid Lead Glassblowers tools when crafting potions and poisons to gain a +1 bonus on the Alchemists tools or Poisoners check, this does not require you to actively use the tool but you must still have proficiency and have them on your person.",
+        "<b>Runesmithing:</b> X",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

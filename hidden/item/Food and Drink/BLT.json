@@ -1,21 +1,21 @@
 {
-    "name": "BLT",
-    "source": "TftJC",
-    "type": "FD",
-    "rarity": "legendary",
-    "value": 25000,
-    "weight": 0,
-    "entries": [
-        "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
-        "<b>Ingredients:</b> x1 Rare or higher beast meat, x1 rare fae meat, x1 Tornado Tulip, x2 Road Tack",
-        "<b>Effect:</b> You gain a +1 bonus to all attack, ability, saving, and damage rolls. In addition, your movement speed increases by 10ft, you gain 10ft of darkvision, and gain 10 Temporary Hit points."
-    ],
-    "foundryType": "consumable",
-    "foundrySystem": {
-        "consumableType": "food",
-        "uses": {
-            "max": 1,
-            "per": "charges"
-        }
+  "name": "BLT",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "legendary",
+  "value": 25000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
+    "<b>Ingredients:</b> x1 Rare or higher beast meat, x1 rare fae meat, x1 Tornado Tulip, x2 Road Tack",
+    "<b>Effect:</b> You gain a +1 bonus to all attack, ability, saving, and damage rolls. In addition, your movement speed increases by 10ft, you gain 10ft of darkvision, and gain 10 Temporary Hit points."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
     }
+  }
 }

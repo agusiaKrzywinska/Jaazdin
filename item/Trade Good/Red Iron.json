@@ -1,0 +1,32 @@
+{
+  "name": "Red Iron",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "planeOfOrigin": "9 Hells (Dis)",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "15 CON",
+    "armorEffects": "When dealing Fire damage to a creature, you heal 1d4 hit points per every 10 fire damage dealt to that creature.",
+    "weaponEffects": "Taking fire damage causes this weapon to deal an additional Fire damage on the next attack made with it equal to a number of d6s per every 10 fire damage taken (rounded up, minimum 1, calculated before resistances/immunities/vulnerabilities).",
+    "additionalEffects": "-",
+    "runesmithing": "X",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> 9 Hells (Dis)",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> 15 CON",
+        "<b>Armor Effects:</b> When dealing Fire damage to a creature, you heal 1d4 hit points per every 10 fire damage dealt to that creature.",
+        "<b>Weapon Effects:</b> Taking fire damage causes this weapon to deal an additional Fire damage on the next attack made with it equal to a number of d6s per every 10 fire damage taken (rounded up, minimum 1, calculated before resistances/immunities/vulnerabilities).",
+        "<b>Additional Effects:</b> -",
+        "<b>Runesmithing:</b> X",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

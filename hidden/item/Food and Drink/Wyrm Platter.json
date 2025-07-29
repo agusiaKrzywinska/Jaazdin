@@ -1,21 +1,21 @@
 {
-    "name": "Wyrm Platter",
-    "source": "TftJC",
-    "type": "FD",
-    "rarity": "very rare",
-    "value": 30000,
-    "weight": 0,
-    "entries": [
-        "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
-        "<b>Ingredients:</b> x1 Very Rare Dragon Meat, x4 Draconic Ivy",
-        "<b>Effect:</b> Grants draconic abilities."
-    ],
-    "foundryType": "consumable",
-    "foundrySystem": {
-        "consumableType": "food",
-        "uses": {
-            "max": 1,
-            "per": "charges"
-        }
+  "name": "Wyrm Platter",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "very rare",
+  "value": 30000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
+    "<b>Ingredients:</b> x1 Very Rare Dragon Meat, x4 Draconic Ivy",
+    "<b>Effect:</b> Grants draconic abilities."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
     }
+  }
 }

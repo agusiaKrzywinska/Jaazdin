@@ -1,0 +1,31 @@
+{
+  "name": "Leviathan",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "legendary",
+  "customProperties": {
+    "baseMetal": "Soulsteel",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Must be forged underwater at crushing depths.",
+    "armorEffects": "You have a swimming speed equal to your walking speed and can breathe underwater. You have resistance to cold damage.",
+    "weaponEffects": "This weapon deals an additional 1d8 cold damage and can function normally underwater.",
+    "additionalEffects": "You can cast Water Breathing once per day without using a spell slot.",
+    "druidUseable": false
+  },
+  "entries": [
+    "Runesmithed",
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Base Metal:</b> {@item Soulsteel|TftJC}",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Must be forged underwater at crushing depths.",
+        "<b>Armor Effects:</b> You have a swimming speed equal to your walking speed and can breathe underwater. You have resistance to cold damage.",
+        "<b>Weapon Effects:</b> This weapon deals an additional 1d8 cold damage and can function normally underwater.",
+        "<b>Additional Effects:</b> You can cast Water Breathing once per day without using a spell slot.",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

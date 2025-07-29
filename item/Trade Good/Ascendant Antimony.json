@@ -1,0 +1,32 @@
+{
+  "name": "Ascendant Antimony",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "planeOfOrigin": "Mount Celestia",
+    "requiredTool": "Mason's Tools",
+    "forgingConditions": "???",
+    "armorEffects": "While wearing this armor, succeeding on a Saving Throw (except a death saving throw) causes you to immediately regain hit points equal to your Proficiency Bonus, or half that value while you are over half of your Maximum Hit points (rounded down).",
+    "weaponEffects": "When you critically hit with this weapon, you heal for half the amount of weapon damage dealt.",
+    "additionalEffects": "Material for Horn of Valhalla (Brass)",
+    "runesmithing": "???",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Mount Celestia",
+        "<b>Required Tool:</b> Mason's Tools",
+        "<b>Forging Conditions:</b> ???",
+        "<b>Armor Effects:</b> While wearing this armor, succeeding on a Saving Throw (except a death saving throw) causes you to immediately regain hit points equal to your Proficiency Bonus, or half that value while you are over half of your Maximum Hit points (rounded down).",
+        "<b>Weapon Effects:</b> When you critically hit with this weapon, you heal for half the amount of weapon damage dealt.",
+        "<b>Additional Effects:</b> Material for Horn of Valhalla (Brass)",
+        "<b>Runesmithing:</b> ???",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

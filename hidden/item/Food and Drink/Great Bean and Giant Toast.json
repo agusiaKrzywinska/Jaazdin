@@ -1,21 +1,21 @@
 {
-    "name": "Great Bean and Giant Toast",
-    "source": "TftJC",
-    "type": "FD",
-    "rarity": "legendary",
-    "value": 30000,
-    "weight": 0,
-    "entries": [
-        "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
-        "<b>Ingredients:</b> x1 Legendary Giant Meat, x10 Momento Beans",
-        "<b>Effect:</b> The creature's size increases by one size category. When the effect ends, roll 1d20. On a 20, the character shrinks back to their original size plus 1 inch."
-    ],
-    "foundryType": "consumable",
-    "foundrySystem": {
-        "consumableType": "food",
-        "uses": {
-            "max": 1,
-            "per": "charges"
-        }
+  "name": "Great Bean and Giant Toast",
+  "source": "TftJC",
+  "type": "FD",
+  "rarity": "legendary",
+  "value": 30000,
+  "weight": 0,
+  "entries": [
+    "<b>Preparation:</b> Requires Cook’s Utensils to prepare.",
+    "<b>Ingredients:</b> x1 Legendary Giant Meat, x10 Momento Beans",
+    "<b>Effect:</b> The creature's size increases by one size category. When the effect ends, roll 1d20. On a 20, the character shrinks back to their original size plus 1 inch."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "food",
+    "uses": {
+      "max": 1,
+      "per": "charges"
     }
+  }
 }

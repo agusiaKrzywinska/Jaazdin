@@ -1,0 +1,32 @@
+{
+  "name": "God-Shell",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "legendary",
+  "customProperties": {
+    "planeOfOrigin": "???",
+    "requiredTool": "???",
+    "forgingConditions": "???",
+    "armorEffects": "???",
+    "weaponEffects": "???",
+    "additionalEffects": "???",
+    "runesmithing": "???",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> ???",
+        "<b>Required Tool:</b> ???",
+        "<b>Forging Conditions:</b> ???",
+        "<b>Armor Effects:</b> ???",
+        "<b>Weapon Effects:</b> ???",
+        "<b>Additional Effects:</b> ???",
+        "<b>Runesmithing:</b> ???",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

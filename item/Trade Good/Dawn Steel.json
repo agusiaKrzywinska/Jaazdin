@@ -1,0 +1,32 @@
+{
+  "name": "Dawn Steel",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "planeOfOrigin": "Elysium",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "13 CHA, Good Alignment",
+    "armorEffects": "Advantage on saving throws against effects from Fiends.",
+    "weaponEffects": "Reroll radiant damage dealt by this weapon and take the higher result.",
+    "additionalEffects": "Material for Horn of Valhalla (Silver)",
+    "runesmithing": "X",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Elysium",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> 13 CHA, Good Alignment",
+        "<b>Armor Effects:</b> Advantage on saving throws against effects from Fiends.",
+        "<b>Weapon Effects:</b> Reroll radiant damage dealt by this weapon and take the higher result.",
+        "<b>Additional Effects:</b> Material for Horn of Valhalla (Silver)",
+        "<b>Runesmithing:</b> X",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

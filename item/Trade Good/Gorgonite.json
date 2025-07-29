@@ -1,0 +1,32 @@
+{
+  "name": "Gorgonite",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "15 CON or poison resistance.",
+    "armorEffects": "Advantage on Saving Throws against petrification.",
+    "weaponEffects": "Gorgonite Weapons deal 1d4 Poison damage to all creatures within a 5ft radius of the attack target (including yourself) after making an attack roll.",
+    "additionalEffects": "Material for +1 Poisoner and Herbalism Tools (2 Plates)",
+    "runesmithing": "X",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> 15 CON or poison resistance.",
+        "<b>Armor Effects:</b> Advantage on Saving Throws against petrification.",
+        "<b>Weapon Effects:</b> Gorgonite Weapons deal 1d4 Poison damage to all creatures within a 5ft radius of the attack target (including yourself) after making an attack roll.",
+        "<b>Additional Effects:</b> Material for +1 Poisoner and Herbalism Tools (2 Plates)",
+        "<b>Runesmithing:</b> X",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

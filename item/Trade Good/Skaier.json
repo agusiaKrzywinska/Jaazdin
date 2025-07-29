@@ -1,0 +1,32 @@
+{
+  "name": "Skaier",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "planeOfOrigin": "Air",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "3rd Lvl Air Spell",
+    "armorEffects": "Skaier always hovers an inch off earth. While flying, your speed is increased by 20. You have advantage on saving throws against strong winds that would move you.",
+    "weaponEffects": "Thrown and Ranged weapons do not pose disadvantage at their long range, and have advantage to hit flying targets while in their normal range. Skaier always hovers an inch off earth.",
+    "additionalEffects": "-",
+    "runesmithing": "???",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Air",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> 3rd Lvl Air Spell",
+        "<b>Armor Effects:</b> Skaier always hovers an inch off earth. While flying, your speed is increased by 20. You have advantage on saving throws against strong winds that would move you.",
+        "<b>Weapon Effects:</b> Thrown and Ranged weapons do not pose disadvantage at their long range, and have advantage to hit flying targets while in their normal range. Skaier always hovers an inch off earth.",
+        "<b>Additional Effects:</b> -",
+        "<b>Runesmithing:</b> {@item Sky Steel|TftJC}",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

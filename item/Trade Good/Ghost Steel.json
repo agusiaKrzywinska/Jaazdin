@@ -1,0 +1,32 @@
+{
+  "name": "Ghost Steel",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "planeOfOrigin": "Ethereal Plane",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Must be smithed on the Ethereal Plane",
+    "armorEffects": "Armor made from Ghost Steel allows the user to see creatures on the Ethereal Plane. Gives advantage on saving throws against undead that would give you the Frightened condition.",
+    "weaponEffects": "Can only be made into light weapons. Ghost Steel weapons can hit creatures on the Ethereal Plane, regardless of the plane the weapon is on. Ghost Steel weapons ignore damage resistances from undead.",
+    "additionalEffects": "Any clothes made from Ghost Steel Weaver's tools grant +1 to Disguise checks.",
+    "runesmithing": "X",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Ethereal Plane",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Must be smithed on the Ethereal Plane",
+        "<b>Armor Effects:</b> Armor made from Ghost Steel allows the user to see creatures on the Ethereal Plane. Gives advantage on saving throws against undead that would give you the Frightened condition.",
+        "<b>Weapon Effects:</b> Can only be made into light weapons. Ghost Steel weapons can hit creatures on the Ethereal Plane, regardless of the plane the weapon is on. Ghost Steel weapons ignore damage resistances from undead.",
+        "<b>Additional Effects:</b> Any clothes made from Ghost Steel Weaver's tools grant +1 to Disguise checks.",
+        "<b>Runesmithing:</b> X",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

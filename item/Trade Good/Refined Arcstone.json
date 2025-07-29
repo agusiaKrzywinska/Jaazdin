@@ -1,0 +1,32 @@
+{
+  "name": "Refined Arcstone",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "The Weave",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "INT, CHA, or WIS of 18 or Higher",
+    "armorEffects": "When you expend a spell slot of 6th level or lower you can add a bonus to the damage roll equal to the spell's level. Refined Arcstone can be worked into Polished Arcstone with a DC 35 Smith's tools check.",
+    "weaponEffects": "When concentrating on a spell this weapon deals half the spell's level in additional force damage as long as the spell is of 6th level or lower. Refined Arcstone can be worked into Polished Arcstone with a DC 35 Smith's tools check.",
+    "additionalEffects": "A plate of Refined Arcstone can be worked into Polished Arcstone with a DC 35 Smith's Tools check. A plate of Polished Arcstone can be used to fuel an enchantment, consuming the plate and progressing the enchantment by 100.",
+    "runesmithing": "???",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> The Weave",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> INT, CHA, or WIS of 18 or Higher",
+        "<b>Armor Effects:</b> When you expend a spell slot of 6th level or lower you can add a bonus to the damage roll equal to the spell's level. Refined Arcstone can be worked into Polished Arcstone with a DC 35 Smith's tools check.",
+        "<b>Weapon Effects:</b> When concentrating on a spell this weapon deals half the spell's level in additional force damage as long as the spell is of 6th level or lower. Refined Arcstone can be worked into Polished Arcstone with a DC 35 Smith's tools check.",
+        "<b>Additional Effects:</b> A plate of Refined Arcstone can be worked into Polished Arcstone with a DC 35 Smith's Tools check. A plate of Polished Arcstone can be used to fuel an enchantment, consuming the plate and progressing the enchantment by 100.",
+        "<b>Runesmithing:</b> ???",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

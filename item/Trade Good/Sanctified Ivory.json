@@ -1,0 +1,32 @@
+{
+  "name": "Sanctified Ivory",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "planeOfOrigin": "The Beastlands",
+    "requiredTool": "???",
+    "forgingConditions": "???",
+    "armorEffects": "Beasts of CR 5 or lower must succeed on a DC 16 Wisdom save or become charmed by you when they see you. This charm ends when you or an ally attacks them.",
+    "weaponEffects": "Deals an extra damage die to beasts.",
+    "additionalEffects": "Material for Staff of the Ivory Claw (3 Plates). Carpenter's tools gain a +2 bonus while working with bone or bone-like materials.",
+    "runesmithing": "???",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> The Beastlands",
+        "<b>Required Tool:</b> ???",
+        "<b>Forging Conditions:</b> ???",
+        "<b>Armor Effects:</b> Beasts of CR 5 or lower must succeed on a DC 16 Wisdom save or become charmed by you when they see you. This charm ends when you or an ally attacks them.",
+        "<b>Weapon Effects:</b> Deals an extra damage die to beasts.",
+        "<b>Additional Effects:</b> Material for Staff of the Ivory Claw (3 Plates). Carpenter's tools gain a +2 bonus while working with bone or bone-like materials.",
+        "<b>Runesmithing:</b> ???",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

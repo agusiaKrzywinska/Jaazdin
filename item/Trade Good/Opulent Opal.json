@@ -1,0 +1,32 @@
+{
+  "name": "Opulent Opal",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "planeOfOrigin": "Water",
+    "requiredTool": "Jeweler's Tools",
+    "forgingConditions": "???",
+    "armorEffects": "???",
+    "weaponEffects": "???",
+    "additionalEffects": "Materials for +1 Forgery???.",
+    "runesmithing": "???",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Water",
+        "<b>Required Tool:</b> Jeweler's Tools",
+        "<b>Forging Conditions:</b> ???",
+        "<b>Armor Effects:</b> ???",
+        "<b>Weapon Effects:</b> ???",
+        "<b>Additional Effects:</b> Materials for +1 Forgery???.",
+        "<b>Runesmithing:</b> ???",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

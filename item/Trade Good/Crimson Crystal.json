@@ -1,0 +1,31 @@
+{
+  "name": "Crimson Crystal",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "baseMetal": "Bloodstone",
+    "requiredTool": "Jeweler's Tools",
+    "forgingConditions": "-",
+    "armorEffects": "If left touching another plate of metal for 1 hour, it copies its properties. It can only copy the properties of rare or lower metals, and only one at a time. Can now be combined with other magic items to combine its effects, but Crimson Crystal must remain as the base material.",
+    "weaponEffects": "If left touching another plate of metal for 1 hour, it copies its properties. It can only copy the properties of rare or lower metals, and only one at a time.  Can now be combined with other magic items to combine its effects, but Crimson Crystal must remain as the base material.",
+    "additionalEffects": "If left for a week touching a plate of a different metal that requires Jewelers tools, that plate becomes a plate of Bloodstone.",
+    "druidUseable": true
+  },
+  "entries": [
+    "Runesmithed",
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Base Metal:</b> {@item Bloodstone|TftJC}",
+        "<b>Required Tool:</b> Jeweler's Tools",
+        "<b>Forging Conditions:</b> -",
+        "<b>Armor Effects:</b> If left touching another plate of metal for 1 hour, it copies its properties. It can only copy the properties of rare or lower metals, and only one at a time. Can now be combined with other magic items to combine its effects, but Crimson Crystal must remain as the base material.",
+        "<b>Weapon Effects:</b> If left touching another plate of metal for 1 hour, it copies its properties. It can only copy the properties of rare or lower metals, and only one at a time.  Can now be combined with other magic items to combine its effects, but Crimson Crystal must remain as the base material.",
+        "<b>Additional Effects:</b> If left for a week touching a plate of a different metal that requires Jewelers tools, that plate becomes a plate of {@item Bloodstone|TftJC}.",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

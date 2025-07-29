@@ -1,0 +1,32 @@
+{
+  "name": "Ashenite",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "planeOfOrigin": "Shadowfell",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Daylight/3rd Lvl Radiant Spell",
+    "armorEffects": "You gain resistance to Necrotic Damage.",
+    "weaponEffects": "Damaging a creature with this weapon forces them to make a DC 15 CON save, and on a fail prevents them from healing by use of magic until the end of your next turn.",
+    "additionalEffects": "Alchemist Tools made using Ashenite have a 10% chance not to consume a material. However, they cannot make potions of healing or any potion that restores Hit Points.",
+    "runesmithing": "Vilenite",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Shadowfell",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Daylight/3rd Lvl Radiant Spell",
+        "<b>Armor Effects:</b> You gain resistance to Necrotic Damage.",
+        "<b>Weapon Effects:</b> Damaging a creature with this weapon forces them to make a DC 15 CON save, and on a fail prevents them from healing by use of magic until the end of your next turn.",
+        "<b>Additional Effects:</b> Alchemist Tools made using Ashenite have a 10% chance not to consume a material. However, they cannot make potions of healing or any potion that restores Hit Points.",
+        "<b>Runesmithing:</b> {@item Vilenite|TftJC}",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

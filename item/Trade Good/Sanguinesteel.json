@@ -1,0 +1,31 @@
+{
+  "name": "Sanguinesteel",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "baseMetal": "???",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Reduce your Max HP by 10% for 1 Month.",
+    "armorEffects": "When under 25% of your maximum Hit Points, you gain a +3 to your armor class, and gain 3 temporary hit points at the start of your turn as long as you have at least 1 hit point.",
+    "weaponEffects": "When under 25% of your maximum Hit Points, you gain a +3 to damage rolls with this weapon and heal for the bonus damage dealt.",
+    "additionalEffects": "",
+    "druidUseable": false
+  },
+  "entries": [
+    "Runesmithed",
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Base Metal:</b> ???",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Reduce your Max HP by 10% for 1 Month.",
+        "<b>Armor Effects:</b> When under 25% of your maximum Hit Points, you gain a +3 to your armor class, and gain 3 temporary hit points at the start of your turn as long as you have at least 1 hit point.",
+        "<b>Weapon Effects:</b> When under 25% of your maximum Hit Points, you gain a +3 to damage rolls with this weapon and heal for the bonus damage dealt.",
+        "<b>Additional Effects:</b> ",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

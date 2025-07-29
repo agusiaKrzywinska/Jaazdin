@@ -1,0 +1,32 @@
+{
+  "name": "Gor'shorot",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "rare",
+  "customProperties": {
+    "planeOfOrigin": "Earth",
+    "requiredTool": "Jeweler's Tools",
+    "forgingConditions": "3rd Lvl Graviturgy Spell",
+    "armorEffects": "You have Advantage on ability checks involving communicating with Earth Elementals. You have resistance to Radiant Damage.",
+    "weaponEffects": "You have Advantage on ability checks involving communicating with Earth Elementals. Gor'shorot weapons always deal bludgeoning damage.",
+    "additionalEffects": "Meals produced by Brewers Tools made of Gor'shorot grant Temp HP equal to the crafter's Prof bonus when consumed.",
+    "runesmithing": "Radiant Garnet",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Earth",
+        "<b>Required Tool:</b> Jeweler's Tools",
+        "<b>Forging Conditions:</b> 3rd Lvl Graviturgy Spell",
+        "<b>Armor Effects:</b> You have Advantage on ability checks involving communicating with Earth Elementals. You have resistance to Radiant Damage.",
+        "<b>Weapon Effects:</b> You have Advantage on ability checks involving communicating with Earth Elementals. Gor'shorot weapons always deal bludgeoning damage.",
+        "<b>Additional Effects:</b> Meals produced by Brewers Tools made of Gor'shorot grant Temp HP equal to the crafter's Prof bonus when consumed.",
+        "<b>Runesmithing:</b> {@item Radiant Garnet|TftJC}",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

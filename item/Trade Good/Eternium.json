@@ -1,0 +1,31 @@
+{
+  "name": "Eternium",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "legendary",
+  "customProperties": {
+    "baseMetal": "Clockwork Bronze",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Must be forged in a place where time flows differently.",
+    "armorEffects": "You age at half the normal rate and have advantage on saving throws against effects that would age you.",
+    "weaponEffects": "When you hit with this weapon, you can choose to delay the damage until the start of the target's next turn.",
+    "additionalEffects": "You can cast Slow once per day without using a spell slot.",
+    "druidUseable": false
+  },
+  "entries": [
+    "Runesmithed",
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Base Metal:</b> {@item Clockwork Bronze|TftJC}",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Must be forged in a place where time flows differently.",
+        "<b>Armor Effects:</b> You age at half the normal rate and have advantage on saving throws against effects that would age you.",
+        "<b>Weapon Effects:</b> When you hit with this weapon, you can choose to delay the damage until the start of the target's next turn.",
+        "<b>Additional Effects:</b> You can cast Slow once per day without using a spell slot.",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

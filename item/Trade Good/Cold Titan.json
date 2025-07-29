@@ -1,0 +1,32 @@
+{
+  "name": "Cold Titan",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "Arcadia",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Divine Strike or Divine Smite Feature",
+    "armorEffects": "Critical Hits against you become normal hits. Armor does not pose disadvantage on stealth checks.",
+    "weaponEffects": "Weapons have the Siege Property. Fiends are considered Vulnerable to this weapon base damage.",
+    "additionalEffects": "Material for Horn of Valhalla (Bronze)",
+    "runesmithing": "Leviathan",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Arcadia",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Divine Strike or Divine Smite Feature",
+        "<b>Armor Effects:</b> Critical Hits against you become normal hits. Armor does not pose disadvantage on stealth checks.",
+        "<b>Weapon Effects:</b> Weapons have the Siege Property. Fiends are considered Vulnerable to this weapon base damage.",
+        "<b>Additional Effects:</b> Material for Horn of Valhalla (Bronze)",
+        "<b>Runesmithing:</b> {@item Leviathan|TftJC}",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Dragon's Gold",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "planeOfOrigin": "Material",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "15 CHA, 20 if smith is Draconic.",
+    "armorEffects": "You have advantage on Charisma checks when bartering. Dragons will be innately more aggressive towards you.",
+    "weaponEffects": "Once per turn, when you hit with this weapon you can add your Proficiency Bonus to the Damage. Dragons will be innately more aggressive towards you.",
+    "additionalEffects": "Dragon's gold Cartographer's tool can be used to create spell scroll of Locate Object, or Locate Creature. When used in this way the gold cost to make such scroll is reduced by 75%. You can make and cast these scrolls even if they aren't on your spell list or you don't have the spell slot.",
+    "runesmithing": "Wyrm Platinum",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Material",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> 15 CHA, 20 if smith is Draconic.",
+        "<b>Armor Effects:</b> You have advantage on Charisma checks when bartering. Dragons will be innately more aggressive towards you.",
+        "<b>Weapon Effects:</b> Once per turn, when you hit with this weapon you can add your Proficiency Bonus to the Damage. Dragons will be innately more aggressive towards you.",
+        "<b>Additional Effects:</b> Dragon's gold Cartographer's tool can be used to create spell scroll of Locate Object, or Locate Creature. When used in this way the gold cost to make such scroll is reduced by 75%. You can make and cast these scrolls even if they aren't on your spell list or you don't have the spell slot.",
+        "<b>Runesmithing:</b> {@item Wyrm Platinum|TftJC}",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

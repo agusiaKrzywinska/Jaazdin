@@ -1,0 +1,32 @@
+{
+  "name": "Void Ash",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "planeOfOrigin": "Far Realms",
+    "requiredTool": "Mason's Tools",
+    "forgingConditions": "Proficiency in Deep Speech",
+    "armorEffects": "Creatures of a CR lower than you cannot determine your alignment or creature type through magic or class features.",
+    "weaponEffects": "Weapons deal an additional 2 psychic damage if the target is concentrating on a spell, or was affected by a spell within the last round.",
+    "additionalEffects": "Material for Far Realm Shard (3 Plates)",
+    "runesmithing": "Cosmic Ebony",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Far Realms",
+        "<b>Required Tool:</b> Mason's Tools",
+        "<b>Forging Conditions:</b> Proficiency in Deep Speech",
+        "<b>Armor Effects:</b> Creatures of a CR lower than you cannot determine your alignment or creature type through magic or class features.",
+        "<b>Weapon Effects:</b> Weapons deal an additional 2 psychic damage if the target is concentrating on a spell, or was affected by a spell within the last round.",
+        "<b>Additional Effects:</b> Material for Far Realm Shard (3 Plates)",
+        "<b>Runesmithing:</b> {@item Cosmic Ebony|TftJC}",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

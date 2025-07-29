@@ -1,0 +1,29 @@
+{
+  "name": "Arc-Platinum",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "common",
+  "customProperties": {
+    "baseMetal": "Platinum",
+    "requiredTool": "Smith's Tools",
+    "armorEffects": "-",
+    "weaponEffects": "-",
+    "additionalEffects": "",
+    "druidUseable": true
+  },
+  "entries": [
+    "Runesmithed",
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Base Metal:</b> {@item Platinum|TftJC}",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Armor Effects:</b> -",
+        "<b>Weapon Effects:</b> -",
+        "<b>Additional Effects:</b> ",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Asmodeum",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "legendary",
+  "customProperties": {
+    "planeOfOrigin": "9 Hells (Nessus)",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Must be forged by someone who has slain a CR 20+ Fiend, or be a CR 20+ Fiend.",
+    "armorEffects": "Devils revere you, and will not willingly harm to you unless they are of CR 20 or Higher. If a Fiend attacks you, they take 50 Radiant Damage, and if this would kill them, you take no damage from their attack.",
+    "weaponEffects": "Killing a creature with this weapon transforms them into a Lemure and brings their soul to the River Styx. Once per Week, as an Action the wielder can cast the spell Summon Greater Demon (this casting specifically summons Devils rather than Demons) at 9th level. The spell requires no concentration.",
+    "additionalEffects": "-",
+    "runesmithing": "X",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> 9 Hells (Nessus)",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Must be forged by someone who has slain a CR 20+ Fiend, or be a CR 20+ Fiend.",
+        "<b>Armor Effects:</b> Devils revere you, and will not willingly harm to you unless they are of CR 20 or Higher. If a Fiend attacks you, they take 50 Radiant Damage, and if this would kill them, you take no damage from their attack.",
+        "<b>Weapon Effects:</b> Killing a creature with this weapon transforms them into a Lemure and brings their soul to the River Styx. Once per Week, as an Action the wielder can cast the spell Summon Greater Demon (this casting specifically summons Devils rather than Demons) at 9th level. The spell requires no concentration.",
+        "<b>Additional Effects:</b> -",
+        "<b>Runesmithing:</b> X",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Clockwork Bronze",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "legendary",
+  "customProperties": {
+    "planeOfOrigin": "Mechanius",
+    "requiredTool": "Tinker's Tools",
+    "forgingConditions": "Must be forged by Modrons.",
+    "armorEffects": "You have advantage on saving throws that would magically move you against your will, including teleportation and planar warping spells. You are considered a Construct while wearing this armor.",
+    "weaponEffects": "Weapons cannot roll with disadvantage or advantage.",
+    "additionalEffects": "Clockwork Bronze Tinkerer's Tool can be used to mend Constructs. As an action you can restore a number of hit points to a construct equal to the Construct's number of hit dice + your proficiency bonus. This consumes one hit die from the construct.",
+    "runesmithing": "X",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> Mechanius",
+        "<b>Required Tool:</b> Tinker's Tools",
+        "<b>Forging Conditions:</b> Must be forged by Modrons.",
+        "<b>Armor Effects:</b> You have advantage on saving throws that would magically move you against your will, including teleportation and planar warping spells. You are considered a Construct while wearing this armor.",
+        "<b>Weapon Effects:</b> Weapons cannot roll with disadvantage or advantage.",
+        "<b>Additional Effects:</b> Clockwork Bronze Tinkerer's Tool can be used to mend Constructs. As an action you can restore a number of hit points to a construct equal to the Construct's number of hit dice + your proficiency bonus. This consumes one hit die from the construct.",
+        "<b>Runesmithing:</b> X",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

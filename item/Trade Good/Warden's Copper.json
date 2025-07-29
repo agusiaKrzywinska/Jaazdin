@@ -1,0 +1,32 @@
+{
+  "name": "Warden's Copper",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "very rare",
+  "customProperties": {
+    "planeOfOrigin": "9 Hells (Malbolge)",
+    "requiredTool": "Smith's Tools",
+    "forgingConditions": "Requires Proficiency in WIS Saving Throws, and Enchanted Smith's Tools.",
+    "armorEffects": "The wearer gains proficiency in Perception and gains a blindsight of 10ft.",
+    "weaponEffects": "Hitting a creature with an opposite alignment as you forces that creature to make a DC17 WIS Save, and on a fail incur a Short Term Madness for a number of rounds equal to Half of your Proficiency Bonus (rounded down).",
+    "additionalEffects": "Can be used to Craft Titanic Platemail.",
+    "runesmithing": "X",
+    "druidUseable": false
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Plane of Origin:</b> 9 Hells (Malbolge)",
+        "<b>Required Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> Requires Proficiency in WIS Saving Throws, and Enchanted Smith's Tools.",
+        "<b>Armor Effects:</b> The wearer gains proficiency in Perception and gains a blindsight of 10ft.",
+        "<b>Weapon Effects:</b> Hitting a creature with an opposite alignment as you forces that creature to make a DC17 WIS Save, and on a fail incur a Short Term Madness for a number of rounds equal to Half of your Proficiency Bonus (rounded down).",
+        "<b>Additional Effects:</b> Can be used to Craft Titanic Platemail.",
+        "<b>Runesmithing:</b> X",
+        "<b>Druid Useable:</b> No"
+      ]
+    }
+  ]
+}

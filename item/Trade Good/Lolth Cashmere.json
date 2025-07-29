@@ -1,0 +1,31 @@
+{
+  "name": "Lolth Cashmere",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "baseMetal": "Chromed Silk",
+    "requiredTool": "Weaver's Tools",
+    "forgingConditions": "15 DEX",
+    "armorEffects": "Chromed Silk requires half of the gold cost to Enchant it. Can only be used for Light Armor.",
+    "weaponEffects": "Chromed Silk requires half of the gold cost to Enchant it. Chromed Silk weapons always deal Slashing damage.",
+    "additionalEffects": "Material for +1 Cobbler's, Leatherworker's, or Weaver's Tools (2 Plates).",
+    "druidUseable": true
+  },
+  "entries": [
+    "Runesmithed",
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Base Metal:</b> {@item Chromed Silk|TftJC}",
+        "<b>Required Tool:</b> Weaver's Tools",
+        "<b>Forging Conditions:</b> 15 DEX",
+        "<b>Armor Effects:</b> Chromed Silk requires half of the gold cost to Enchant it. Can only be used for Light Armor.",
+        "<b>Weapon Effects:</b> Chromed Silk requires half of the gold cost to Enchant it. Chromed Silk weapons always deal Slashing damage.",
+        "<b>Additional Effects:</b> Material for +1 Cobbler's, Leatherworker's, or Weaver's Tools (2 Plates).",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

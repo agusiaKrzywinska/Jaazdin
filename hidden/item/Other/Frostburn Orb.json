@@ -17,6 +17,6 @@
     "<b>Combined Orbs:</b> {@item Flaming Orb|TftJC} + {@item Chilling Orb|TftJC}",
     "<b>Weapon Effect:</b> Hit creatures take an additional {@dice 1d8} Cold damage.",
     "<b>Armor Effect:</b> When you take cold damage you can expend two charges to remove any number of Burning, and vice versa with fire damage.",
-    "<b>Focus Effect:</b> "
+    "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw take an additional {@dice 1d8} Cold damage."
   ]
 }
