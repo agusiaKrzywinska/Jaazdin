@@ -1,0 +1,39 @@
+{
+  "name": "Bands of Divine Duty",
+  "type": "WD",
+  "rarity": "artifact",
+  "wondrous": true,
+  "reqAttune": "by a faithful of Helm",
+  "source": "TftJC",
+  "entries": [
+    "These 3 silver bands are imbued with commands from Helm's highest court, and signify a long path of repentance. You gain the following effects.",
+    "You have advantage on saving throws against effects that would change your alignment, but if your alignment changes while attuned to these your attunement instantly ends and you cannot reattune until your alignment returns to normal. Your Wisdom or Charisma increases by 2 (your choice upon attuning), up to 30. Healing an allied creature with a spell allows you to add your Wisdom of Charisma Modifier to the amount healed.",
+    {
+      "type": "entries",
+      "name": "Rebuke Evil",
+      "entries": [
+        "As an Action, you can hold your arm to the sky and rebuke evil. All creatures with an Evil Alignment within 60ft of you must make a Charisma Saving Throw (DC 19), and on a fail are frightened of you, take {@dice 4d10} Radiant Damage (or half as much on a success), and creatures who fail by 5 or more who are from a different plane are then {@spell banishment} to their home plane."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Protect the Weak",
+      "entries": [
+        "As an Action, you bolster yourself to protect others around you. You gain resistance to all damage, but your Armor Class is lowered by 5. Creatures of your choice within 30ft of you (except yourself) then gain a +2 to their Armor Class and Saving Throws. This effect requires Concentration."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Pass the Flame",
+      "entries": [
+        "As an Action, you entrust the magic of this item to another creature, as the Bands fly off your arm and onto theirs. You remain attuned to it, but they receive all benefits from it, and can use its features as if they were attuned to it. While the Bands remain on their arm, you both gain a +1 to all d20 rolls while within 60ft of each other. Once per dawn, if one of you were to drop unconscious, the other can expend all of their remaining hit die and heal you for the amount rolled. They then take necrotic Damage equal to half that amount (this value cannot be reduced or resisted). The bands return to you after 10 minutes."
+      ]
+    }
+  ],
+  "customProperties": {
+    "bands": 3,
+    "saveDC": 19,
+    "maxStat": 30,
+    "uniqueEffectsPerBand": true
+  }
+}

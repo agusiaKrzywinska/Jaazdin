@@ -1,0 +1,29 @@
+{
+  "name": "Brightwarden",
+  "type": "S",
+  "rarity": "rare",
+  "reqAttune": true,
+  "source": "TftJC",
+  "baseItem": "shield|PHB",
+  "bonusAc": 1,
+  "sentient": true,
+  "alignment": "Lawful Good",
+  "int": 10,
+  "wis": 12,
+  "cha": 18,
+  "entries": [
+    "This magical shield grants +1 to AC.",
+    "This shield is Sentient, and has an Alignment of Lawful Good (Int 10, Wis 12, Cha 18) and will always urge the user to protect others.",
+    {
+      "type": "entries",
+      "name": "Guardian's Reaction",
+      "entries": [
+        "As a reaction to an ally taking damage from an enemy, you may move your movement speed towards them. If you end your movement within 5 feet of the ally who took damage in that instance, they instead take half damage and you take the other amount. You can only use this ability an amount of times equal to your proficiency bonus until the next day at high noon under the sun."
+      ]
+    }
+  ],
+  "customProperties": {
+    "usesPerDay": "proficiency bonus",
+    "resetTime": "high noon"
+  }
+}

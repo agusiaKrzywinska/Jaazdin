@@ -3,6 +3,7 @@
   "source": "TftJC",
   "rarity": "legendary",
   "reqAttune": true,
+  "baseItem": "shield|PHB",
   "ac": 2,
   "type": "S",
   "weight": 6,

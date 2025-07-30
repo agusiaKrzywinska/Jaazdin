@@ -1,0 +1,40 @@
+{
+  "name": "Uprooting Spike",
+  "source": "TftJC",
+  "type": "M",
+  "rarity": "legendary",
+  "weight": 2,
+  "reqAttune": true,
+  "foundryType": "consumable",
+  "baseItem": "javelin",
+  "weaponCategory": "simple",
+  "property": ["T"],
+  "range": "30/120",
+  "dmg1": "1d6",
+  "dmgType": "P",
+  "entries": [
+    "This javelin is made of a sturdy yet strangely fragile alloy that combines True Metal and Celestial Gold known as Truelight, while being shaped like a trammel to shatter crystal.",
+    {
+      "type": "entries",
+      "name": "Catalyst of Destruction",
+      "entries": [
+        "Using this weapon to attack a Crystal Tree causes it to splinter. If the damage is more than 20, the Javelin gains 1 charge. Upon gaining 3 charges, the next attack made with the javelin against a Crystal Tree, Fiend, Focused Humanoid, or Creature made from the Crystal tree's gems takes an additional 25 Radiant Damage, and in the case of the Crystal Tree, it is utterly destroyed down to the root. If the Spike destroyed a Crystal Tree, it too is destroyed with it.",
+        "This item cannot be sold because of its place of divinity and not widely known on the Material Plane."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Crafting Conditions",
+      "entries": [
+        "Material Components: 1000gp, 1 Javelin made from Truelight, Smith's Tools, blessed by Clerics/Paladins whose levels equal 30+ (Aasimars count for half of their total levels, rounded down)."
+      ]
+    }
+  ],
+  "charges": 3,
+  "customProperties": {
+    "crystalTreeDestroyer": true,
+    "craftingLevelRequirement": 30,
+    "craftingMaterial": "Truelight",
+    "craftingBlessing": "Cleric/Paladin/Aasimar"
+  }
+}

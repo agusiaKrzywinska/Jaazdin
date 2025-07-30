@@ -1,0 +1,22 @@
+{
+  "name": "Blessing of the Four Winds: Western Winds",
+  "type": "blessing",
+  "source": "TftJC",
+  "rarity": "special",
+  "entries": [
+    "Each boon can be activated as a bonus action once every 30 days. Once used five times the blessing fades as the spirit of the sage moves on.",
+    {
+      "type": "entries",
+      "name": "Western Winds",
+      "entries": [
+        "As a bonus action, you can call upon the spirit of Zephyrus, Sage of the Western Wind, to speed your step. For the next minute, you gain 10 feet of speed in all forms and your jump speed is doubled. Once you use this ability, you cannot use it again for 30 days."
+      ]
+    }
+  ],
+  "uses": {
+    "max": 5,
+    "per": "lifetime",
+    "cooldown": "30 days"
+  },
+  "duration": "1 minute"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Virulent Grung",
+  "type": "blessing",
+  "source": "TftJC",
+  "rarity": "special",
+  "entries": [
+    "Through various Poisons being absorbed, your toxins have reached their pinnacle. Your DCs for all of your poisons are 19. Some Grung features are modified due to your Poisons.",
+    {
+      "type": "entries",
+      "name": "Poisonous Skin - Crawler Mucus",
+      "entries": [
+        "Any creature that grapples you or otherwise comes into direct contact with your skin must succeed on a CON saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with you can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a Creature poisoned by you remains in contact with you for over a round, they must repeat the saving throw and on another fail are then Paralyzed until the start of your next turn."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Fermented Toxins - Purple Wurm Poison",
+      "entries": [
+        "Any time you deal Poison Damage, it is increased by an amount equal to your CON Modifier."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Poisonous Spit - Midnight Tears/Memento Poison",
+      "entries": [
+        "Once per turn, you can replace an attack and expel Midnight Tears or Memento Poison to a creature within 5ft of you. They must make a CON Save or be affected by Midnight Tears. You can use this feature Prof Bonus / LR."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Toxic Secretions",
+      "entries": [
+        "You can also apply a poison to any piercing weapon as part of an attack with that weapon. Your weapon attack deals an additional 2d4 Poison damage, and you can select 1 Poison at the Start of your turn, and all weapon attacks that deal Piercing Damage gain the following effect.",
+        {
+          "type": "list",
+          "items": [
+            {
+              "name": "Death's Kiss",
+              "entry": "The target must succeed on a CON saving throw or take an additional 2d6 Necrotic Damage damage. If they fail this save by 5 or more, their hitpoint maximum is reduced equal to the Necrotic Damage taken until they complete a Long Rest. On a Success, they take half of this amount."
+            },
+            {
+              "name": "Midnight Tears",
+              "entry": "The target must succeed on a CON saving throw or take 4d6 Poison Damage, or 8d6 if it is within 1 hour of Midnight."
+            },
+            {
+              "name": "Purple Wurm",
+              "entry": "The target must succeed on a CON saving throw or have their resistance to Poison Damage removed for 1 Minute. They can repeat this saving throw at the end of each of their turns."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Madness of Time Confusion",
+      "entries": [
+        "You always feel somewhat out of your body. You cannot tell time passage, and have disadvantage on saving throws against spells that would shunt you in time, freeze you in time, affect time in any way for you, or Chronurgy Spells. Failing a saving throw or otherwise being affected by a Time-related effect causes you to to take psychic damage equal to the spells level x 1d6. You also learn the Gift of Alacrity Spell (doesn't count against spells known, always prepared)."
+      ]
+    }
+  ],
+  "poisonDC": 19
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Blessing of the Four Winds: Eastern Archer",
+  "type": "blessing",
+  "source": "TftJC",
+  "rarity": "special",
+  "entries": [
+    "Each boon can be activated as a bonus action once every 30 days. Once used five times the blessing fades as the spirit of the sage moves on.",
+    {
+      "type": "entries",
+      "name": "Eastern Archer",
+      "entries": [
+        "As a bonus action, you can call upon the spirit of Eurus, Sage of the East wind, to guide your shots. For the next minute if you miss a ranged weapon attack, you can immediately remake the attack, no expending a new piece of ammunition, with disadvantage. Once you use this ability, you cannot use it again for 30 days."
+      ]
+    }
+  ],
+  "uses": {
+    "max": 5,
+    "per": "lifetime",
+    "cooldown": "30 days"
+  },
+  "duration": "1 minute"
+}

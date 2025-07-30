@@ -1,0 +1,17 @@
+{
+  "name": "Butterflyfish Scale",
+  "type": "WD",
+  "rarity": "very rare",
+  "wondrous": true,
+  "foundryType": "consumable",
+  "entries": [
+    "This scale shimmers with a myriad of colors, interwoven with the membranous pattern of a butterfly’s wing.",
+    "As a bonus action on your turn, you can crush the scale in your hand. For the next minute, you reduce all damage you take from Transmutation spells by 5, and you are immune to any spell or magical effect that would alter your shape against your will."
+  ],
+  "duration": "1 minute",
+  "customProperties": {
+    "damageReductionType": "Transmutation spells",
+    "damageReductionAmount": 5,
+    "immunity": "shapechange against will"
+  }
+}

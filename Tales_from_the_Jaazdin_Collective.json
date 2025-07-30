@@ -15,12 +15,12 @@
                     "Adam Henderson",
                     "Malcolm Keefe"
                 ],
-                "version": "0.3.82"
+                "version": "0.3.83"
             }
         ],
         "edition": "classic",
         "dateAdded": 0,
-        "dateLastModified": 1753758912,
+        "dateLastModified": 1753839955,
         "optionalFeatureTypes": {
             "FS:W": "Fighting Style: Warden",
             "TECH": "Technique",
@@ -1653,6 +1653,31 @@
             ]
         },
         {
+            "name": "Adaptive Core",
+            "type": "WD",
+            "rarity": "varies",
+            "wondrous": true,
+            "reqAttune": "by a Construct, Autognome, Warforged or Modron",
+            "source": "TftJC",
+            "entries": [
+                "This small metallic core contains limitless potential for change. Upon attuning to the item, it fuses with the metallic form of its wielder.",
+                "This Core can be modified by using Tinker's Tools checks and upgraded at the Construct Upgrade Facility to apply new effects to it. It can hold a number of effects based on its Rarity, maximum of 5 for a Legendary Core.",
+                "When a creature attuned to this item, it gains all features and abilities detailed by the upgrades provided to the Core. Unattuning to the core causes the effect to be removed."
+            ],
+            "customProperties": {
+                "upgradeable": true,
+                "maxUpgrades": {
+                    "common": 1,
+                    "uncommon": 2,
+                    "rare": 3,
+                    "very rare": 4,
+                    "legendary": 5
+                },
+                "upgradeFacility": "Construct Upgrade Facility",
+                "tinkersToolsRequired": true
+            }
+        },
+        {
             "name": "Alacriver",
             "source": "TftJC",
             "type": "TG",
@@ -1777,7 +1802,7 @@
                 "forgingConditions": "?",
                 "baseMetals": "Ash Quartz + Ironoak",
                 "armorEffects": "Can only be made into Heavy Armor. Elementals have disadvantage on attack rolls against you, and you take reduced damage from Elementals equal to your Wisdom Modifier.",
-                "weaponEffects": "Can only be made into heavy weapons. Deals additional damage to Elementals equal to your Wisdom Modifier, or half your Wisdom Modifer (rounded down) to non elementals.",
+                "weaponEffects": "Can only be made into heavy weapons. Deals additional damage to Elementals equal to your Wisdom Modifier, or half your Wisdom Modifier (rounded down) to non elementals.",
                 "additionalEffects": "4 Plates of this metal can be used in a 10 minute ritual to close a planar portal to an Elemental Plane.",
                 "druidUseable": true
             },
@@ -1792,7 +1817,7 @@
                         "<b>Forging Conditions:</b> ?",
                         "<b>Base Metals:</b> {@item Ash Quartz|TftJC} + {@item Ironoak|TftJC}",
                         "<b>Armor Effects:</b> Can only be made into Heavy Armor. Elementals have disadvantage on attack rolls against you, and you take reduced damage from Elementals equal to your Wisdom Modifier.",
-                        "<b>Weapon Effects:</b> Can only be made into heavy weapons. Deals additional damage to Elementals equal to your Wisdom Modifier, or half your Wisdom Modifer (rounded down) to non elementals.",
+                        "<b>Weapon Effects:</b> Can only be made into heavy weapons. Deals additional damage to Elementals equal to your Wisdom Modifier, or half your Wisdom Modifier (rounded down) to non elementals.",
                         "<b>Additional Effects:</b> 4 Plates of this metal can be used in a 10 minute ritual to close a planar portal to an Elemental Plane.",
                         "<b>Druid Useable:</b> Yes"
                     ]
@@ -2023,6 +2048,45 @@
                 "If it lands within 30 feet of another creature, that creature must make a DC 12 Wisdom saving throw at the start of their next turn. On a fail, they must move up to their speed towards the bait and pick it up. The creature is not compelled to move in a way that obviously endangers them; for instance, over a cliff or through a known hazard. If the creature picks it up, succeeds on their saving throw, or if the bait is unreachable, they immediately discern it as a worthless item and are immune to this effect until the next dawn.",
                 "The bag contains up to 3 pieces of bait. 1 piece of bait reappears in the bag each day at dawn."
             ]
+        },
+        {
+            "name": "Bands of Divine Duty",
+            "type": "WD",
+            "rarity": "artifact",
+            "wondrous": true,
+            "reqAttune": "by a faithful of Helm",
+            "source": "TftJC",
+            "entries": [
+                "These 3 silver bands are imbued with commands from Helm's highest court, and signify a long path of repentance. You gain the following effects.",
+                "You have advantage on saving throws against effects that would change your alignment, but if your alignment changes while attuned to these your attunement instantly ends and you cannot reattune until your alignment returns to normal. Your Wisdom or Charisma increases by 2 (your choice upon attuning), up to 30. Healing an allied creature with a spell allows you to add your Wisdom of Charisma Modifier to the amount healed.",
+                {
+                    "type": "entries",
+                    "name": "Rebuke Evil",
+                    "entries": [
+                        "As an Action, you can hold your arm to the sky and rebuke evil. All creatures with an Evil Alignment within 60ft of you must make a Charisma Saving Throw (DC 19), and on a fail are frightened of you, take {@dice 4d10} Radiant Damage (or half as much on a success), and creatures who fail by 5 or more who are from a different plane are then {@spell banishment} to their home plane."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Protect the Weak",
+                    "entries": [
+                        "As an Action, you bolster yourself to protect others around you. You gain resistance to all damage, but your Armor Class is lowered by 5. Creatures of your choice within 30ft of you (except yourself) then gain a +2 to their Armor Class and Saving Throws. This effect requires Concentration."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Pass the Flame",
+                    "entries": [
+                        "As an Action, you entrust the magic of this item to another creature, as the Bands fly off your arm and onto theirs. You remain attuned to it, but they receive all benefits from it, and can use its features as if they were attuned to it. While the Bands remain on their arm, you both gain a +1 to all d20 rolls while within 60ft of each other. Once per dawn, if one of you were to drop unconscious, the other can expend all of their remaining hit die and heal you for the amount rolled. They then take necrotic Damage equal to half that amount (this value cannot be reduced or resisted). The bands return to you after 10 minutes."
+                    ]
+                }
+            ],
+            "customProperties": {
+                "bands": 3,
+                "saveDC": 19,
+                "maxStat": 30,
+                "uniqueEffectsPerBand": true
+            }
         },
         {
             "name": "Banner of Lathander",
@@ -2518,19 +2582,6 @@
             ]
         },
         {
-            "name": "Boots of the Free Gales",
-            "source": "TftJC",
-            "rarity": "rare",
-            "wondrous": true,
-            "curse": true,
-            "entries": [
-                "Your movement speed increases by 10 feet and you gain a fly speed equal to your speed.",
-                "<b><i>Stride of the Free.</i></b> You can use a bonus action on your turn to disengage. When you are suffering from the Grapple, Restrained, or Prone condition you can spend 10 feet of movement to end the condition. When you do this each creature of your choice within 10 feet of you must make a DC 15 Str save or be knocked back 5 feet.",
-                "<b><i>Curse.</i></b> If you do not move your full movement on your turn you suffer {@dice 4d4} slashing damage as the agitated wind attacks you. Additionally, you feel uncomfortable in confined places, and you suffer disadvantage on Wisdom ability checks and saving throws while indoors or underground.",
-                "<b><i>Shackles of Carreshal.</i></b> This item contains the spirit of a destructive elemental tempest known as Elitanith. While this cloak is not being worn by someone the enchantment magic holding Elitanith at bay begins to wane. After {@dice 1d6+2} days the boots vanish and transform into a portal into the Elemental Plane of Air. After {@dice 2d4+2} days the magic fails entirely and Elitanith is freed."
-            ]
-        },
-        {
             "name": "Bracers of the Mountain Cliffs",
             "source": "TftJC",
             "rarity": "rare",
@@ -2791,10 +2842,40 @@
             ]
         },
         {
+            "name": "Brightwarden",
+            "type": "S",
+            "rarity": "rare",
+            "reqAttune": true,
+            "source": "TftJC",
+            "baseItem": "shield|PHB",
+            "bonusAc": 1,
+            "sentient": true,
+            "alignment": "Lawful Good",
+            "int": 10,
+            "wis": 12,
+            "cha": 18,
+            "entries": [
+                "This magical shield grants +1 to AC.",
+                "This shield is Sentient, and has an Alignment of Lawful Good (Int 10, Wis 12, Cha 18) and will always urge the user to protect others.",
+                {
+                    "type": "entries",
+                    "name": "Guardian's Reaction",
+                    "entries": [
+                        "As a reaction to an ally taking damage from an enemy, you may move your movement speed towards them. If you end your movement within 5 feet of the ally who took damage in that instance, they instead take half damage and you take the other amount. You can only use this ability an amount of times equal to your proficiency bonus until the next day at high noon under the sun."
+                    ]
+                }
+            ],
+            "customProperties": {
+                "usesPerDay": "proficiency bonus",
+                "resetTime": "high noon"
+            }
+        },
+        {
             "name": "Bulwark",
             "source": "TftJC",
             "rarity": "legendary",
             "reqAttune": true,
+            "baseItem": "shield|PHB",
             "ac": 2,
             "type": "S",
             "weight": 6,
@@ -2802,6 +2883,23 @@
                 "This magical shield projects an additional shield of force around itself when activated. As a bonus action, you can activate the shield to increase its AC value by +3. While in this state you also have resistance to force damage and immunity to the magic missile spell.",
                 "While the shield is activated and you succeed on a Dexterity saving throw that effects more than one creature you can choose to extend its protection to all allies within 30 feet. Each creature within 30 feet automatically succeeds on the Dexterity saving throw and suffers no damage or negative effects. You suffer the full effect of the saving throw as if you had failed the save. Once you use this ability the shield becomes inactive, and cannot be activated again until you finish a short or long rest."
             ]
+        },
+        {
+            "name": "Butterflyfish Scale",
+            "type": "WD",
+            "rarity": "very rare",
+            "wondrous": true,
+            "foundryType": "consumable",
+            "entries": [
+                "This scale shimmers with a myriad of colors, interwoven with the membranous pattern of a butterfly’s wing.",
+                "As a bonus action on your turn, you can crush the scale in your hand. For the next minute, you reduce all damage you take from Transmutation spells by 5, and you are immune to any spell or magical effect that would alter your shape against your will."
+            ],
+            "duration": "1 minute",
+            "customProperties": {
+                "damageReductionType": "Transmutation spells",
+                "damageReductionAmount": 5,
+                "immunity": "shapechange against will"
+            }
         },
         {
             "name": "Calcified Sludge",
@@ -3043,6 +3141,56 @@
             ]
         },
         {
+            "name": "Circlet of Tyranny",
+            "type": "WD",
+            "rarity": "artifact",
+            "wondrous": true,
+            "unique": true,
+            "reqAttune": true,
+            "source": "TftJC",
+            "charges": 10,
+            "recharge": "dawn",
+            "rechargeAmount": "1d3",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Decree Thrall",
+                    "entries": [
+                        "This ornate circlet is adorned with 10 glimmering emeralds scavenged from the sea floor. While wearing the circlet, you can use an action to place a magical command on a creature you can see within 60 feet and decree them as your Thrall. An unwilling creature must succeed on a DC 16 Wisdom saving throw or be {@condition charmed} by you (a willing creature can choose to fail this saving throw). If you or creatures friendly to you are fighting it, it has advantage on the saving throw. While within 60 feet of you, your Thrall is forced to obey your orders to the best of its ability, but won’t follow any commands that are directly harmful to it. If you are farther than 60 feet, the creature defends itself to the best of its ability. A creature that succeeds on this saving throw is immune to this item’s effects for the next 24 hours. While you have a Thrall under your control and are within range, you can use the following abilities:"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Tyrant’s Command",
+                    "entries": [
+                        "You can use a bonus action to exert your dominion. Your Thrall takes {@dice 1d10} psychic damage and its maximum hit points are reduced by the same amount. You then grant your Thrall advantage on the next attack roll, ability check, or saving throw it makes before the start of your next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Tyrant’s Edict",
+                    "entries": [
+                        "You can empower the effect of Tyrant’s Command. Your Thrall instead takes {@dice 5d10} psychic damage and their maximum hit points are reduced by the same amount. Upon taking this damage, the Thrall can immediately attempt to remake the saving throw to end the {@condition charmed} effect. You then grant the Thrall advantage on all rolls until the start of your next turn.",
+                        "The damage dealt by these actions cannot be reduced or resisted in any way unless it would bring the Thrall to 0 hit points, in which case they do not take the damage and the {@condition charmed} effect ends. If this damage puts the Thrall below half of its normal maximum health, it can immediately attempt to remake the Wisdom saving throw against the {@condition charmed} condition, ending the effect on a success; if it was caused by Tyrant’s Edict, they make the saving throw with advantage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Emerald Expenditure & Release",
+                    "entries": [
+                        "If you have a Thrall under your control and you do not perform either Tyrant’s Command or Tyrant’s Edict on your turn, 1 of the emeralds on the circlet is expended. If all 10 gems are expended, the charmed condition ends and the Thrall is released from your control. You may also end the charmed condition as a bonus action.",
+                        "Whenever the {@condition charmed} condition ends, the creature’s maximum hit points are restored and the affected creature knows it was charmed by you. The {@condition charmed} condition also ends when the bearer of the Circlet attempts to charm another creature, if their attunement to the Circlet ends, or through the use of {@spell remove curse} or a similar spell. After successfully charming a creature with this circlet's ability, you cannot do so again until you complete a long rest unless you expend 5 gems. This circlet regains {@dice 1d3} expended gems daily at dawn. If you expend the last gem, roll a {@dice d20}. On a 1, all the gems shatter and this item loses its magic."
+                    ]
+                }
+            ],
+            "customProperties": {
+                "gemCount": 10,
+                "saveDC": 16,
+                "regainGems": "1d3 at dawn",
+                "shatterChance": "d20, on 1 all gems shatter and item loses magic"
+            }
+        },
+        {
             "name": "Claws of the Blue Dragon",
             "source": "TftJC",
             "rarity": "uncommon",
@@ -3247,6 +3395,86 @@
             ]
         },
         {
+            "name": "Conflux of The Dead Star",
+            "rarity": "artifact",
+            "reqAttune": true,
+            "source": "TftJC",
+            "entries": [
+                "This dodecahedron is structured with a metal frame that houses a fragment of The Hungry Star.",
+                "While little is known of the entity, it is said that The Hungry Star is merely a fragment of an ancient being that resides in the Far Realms that seeks to consume all of reality.",
+                "Those that praise this being are creatures of hunger, death, undeath, desperation, and blood - for consuming life is best to satiate hunger. Often these creatures are twisted into a dark form of themselves to serve their master.",
+                "This conflux was created by the archmage Galtorious Ives to contain and harness his Master’s power for his own use and those loyal to him. Every ritual, every binding, every aspect of knowledge he had was fed into this power. While he was the one who housed this fragment, this power had always existed. Master Ives bound this in his own follower’s souls, for they had already been eaten and renewed by The Star. However over the centuries the conflux has changed hands over and over, often leading to calamity.",
+                "No mortal can possess this conflux and ever be the same. The whispers that haunt those who use this vile artifact drive them to madness, a want to devour all life, and to bring forth their enlightenment to all planes.",
+                {
+                    "type": "entries",
+                    "name": "Attunement",
+                    "entries": [
+                        "A creature attuned to the artifact must spend 80 hours comprehending how the Conflux sets and resets itself to understand its pattern. The creature must be able to speak and write the Deep Speech language to understand the binding enchantments and the power that the being within offers. Once they have completed these 80 hours they may use the features of this item.",
+                        "Whenever a creature attunes to the Conflux of The Dead Star, that creature must make a DC 19 Charisma saving throw. On a failed save, that creature’s alignment changes to an Evil (keeping their Lawful, Neutral, or Chaotic) alignment, and is {@condition charmed} by the Conflux.",
+                        "While charmed in this way, the creature is loyal to Hadar, The Dark Hunger. They will follow its morality and its beliefs for consuming all of reality."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Soul Consumption",
+                    "entries": [
+                        "Should a creature die within the influence of the Conflux (10 feet), it consumes their soul. They cannot be restored to life by any means short of a {@spell wish}. The dead creature will then rise as a Death Knight after 10 days, using all the abilities, knowledge, and spellcasting it had in life as though it were the person who had died, and under control of The Hungry Star. The Death Knight rises where the creature fell."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Awoken",
+                    "entries": [
+                        "While attuned to the artifact, you have resistance against {@damage psychic} damage and creatures can no longer read your thoughts unless you allow them to."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Herald of the Void",
+                    "entries": [
+                        "While attuned to the artifact, you can use an action to cast one of the following spells: {@spell hunger of hadar}, {@spell arms of hadar}, {@spell animate dead}, or {@spell create undead}. Once you use one of these spells you cannot cast a spell in this way until you satisfy your Ravenous condition."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Ravenous",
+                    "entries": [
+                        "While attuned to this artifact, you contract the Blood Ravenousness. While under the effect in this way, you must consume 1 gallon of blood from a humanoid creature within a week. If you do not satisfy this condition, your Wisdom Score is reduced by 1 per week not consumed. When your Wisdom becomes 5, you are consumed by the artifact."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Whispers",
+                    "entries": [
+                        "While you are attuned to this artifact, other creatures cannot take short or long rests within 300 feet of you as they are plagued with nightmares."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "All-Consuming",
+                    "entries": [
+                        "As an action, you may consume any number of Hit Dice available to you or any number of willing creatures within 10 feet of you. You then roll these Hit Dice and take {@damage necrotic} damage equal to the number rolled. If you use other creatures’ Hit Dice, then they take this damage as well. You may choose to empower your next melee weapon attack with damage equal to what you rolled or regain a number of spell slots equal to the number of Hit Dice consumed in this way. Should you or any other creature that had their Hit Dice consumed drop to 0 hit points, they are considered dead, and follow the rules for when a creature dies within the influence of the Conflux."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Command Oblivion",
+                    "entries": [
+                        "While you are attuned to the Conflux, you can use an action to cast {@spell dominate monster} on an Undead or Aberration (DC 18). You cannot use this property again until you satisfy your Ravenous condition."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Destroying the Conflux",
+                    "entries": [
+                        "???"
+                    ]
+                },
+                "The effects of the Conflux can be suppressed by being placed within an {@spell antimagic field} or the casting of a {@spell wish} spell.",
+                "For a creature to unattune to the Conflux, they must have a 9th level {@spell remove curse} spell cast on them and then a 9th level Atonement condition as per the {@spell ceremony} spell be cast."
+            ]
+        },
+        {
             "name": "Copper",
             "source": "TftJC",
             "type": "TG",
@@ -3376,7 +3604,7 @@
                 "baseMetals": "Bloodstone + Tytantium",
                 "armorEffects": "You incur no penalties from moving on frozen terrains, slipping on ice or any negative effect on your movement on ice. You gain Resistance to Piercing Damage. As a Free Action, you can sacrifice a Hit die to the Armor to empower it. It instead grants immunity to Piercing Damage, and +10 walking speed on Snow/Ice for a number of rounds equal to half the rolled value of the Hit die (Min 1).",
                 "weaponEffects": "Weapons made from Crimson Canium have their damage die size increased by 1 tier (d4s -> d6s. If the damage die is either 1d12 or 2d6, it becomes 2d8). You can sacrifice a Hit Die to the weapon to increase this amount by another step. This lasts a number of turns equal to half the rolled value on the Hit Die (min 1).",
-                "additionalEffects": "Hit Die return upon compelting the condition for your Boon of Focus.",
+                "additionalEffects": "Hit Die return upon completing the condition for your Boon of Focus.",
                 "druidUseable": false
             },
             "entries": [
@@ -3391,7 +3619,7 @@
                         "<b>Base Metals:</b> {@item Bloodstone|TftJC} + {@item Tytantium|TftJC}",
                         "<b>Armor Effects:</b> You incur no penalties from moving on frozen terrains, slipping on ice or any negative effect on your movement on ice. You gain Resistance to Piercing Damage. As a Free Action, you can sacrifice a Hit die to the Armor to empower it. It instead grants immunity to Piercing Damage, and +10 walking speed on Snow/Ice for a number of rounds equal to half the rolled value of the Hit die (Min 1).",
                         "<b>Weapon Effects:</b> Weapons made from Crimson Canium have their damage die size increased by 1 tier (d4s -> d6s. If the damage die is either {@dice 1d12} or {@dice 2d6}, it becomes {@dice 2d8}). You can sacrifice a Hit Die to the weapon to increase this amount by another step. This lasts a number of turns equal to half the rolled value on the Hit Die (min 1).",
-                        "<b>Additional Effects:</b> Hit Die return upon compelting the condition for your Boon of Focus.",
+                        "<b>Additional Effects:</b> Hit Die return upon completing the condition for your Boon of Focus.",
                         "<b>Druid Useable:</b> No"
                     ]
                 }
@@ -5922,6 +6150,23 @@
             ]
         },
         {
+            "name": "Kriki’s Rolodex",
+            "type": "WD",
+            "rarity": "rare",
+            "wondrous": true,
+            "reqAttune": true,
+            "source": "TftJC",
+            "entries": [
+                "This simple mirrored watch can be used to capture and replicate the image of others. As an action the wielder can open this mirror and use it to alter their body, taking on the complete appearance of someone else. The form they take must be one that is stored inside the rolodex, which can hold up to five images at a time.",
+                "An image can be added to the mirror by having an intended target look into the mirror for at least 6 seconds. Once they do so, their image is stored inside the mirror and the user can take on their shape. The mirror perfectly replicates the person it has copied, making the user appear as the target, including altering perceived height and weight, as long as they are of the same size, if they are not the transformation fails.",
+                "Noticing the illusion requires a DC 20 Investigation check, in which case the creature notices something is off about the disguised person, but still does not see through the illusion."
+            ],
+            "customProperties": {
+                "maxImages": 5,
+                "investigationDC": 20
+            }
+        },
+        {
             "name": "Lance of the Steadfast Prince",
             "source": "TftJC",
             "rarity": "legendary",
@@ -5942,6 +6187,23 @@
                 "Additionally, your walking speed is increased by 10, and if you are mounted this walking speed is bonus is instead applied to your mount.",
                 "<b><i>Special.</i></b> You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."
             ]
+        },
+        {
+            "name": "Learner’s Tome",
+            "type": "WD",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "source": "TftJC",
+            "entries": [
+                "This magical book can be used to teach spells. The book is written in an encoded ink that prevents it from being copied, but a creature with the Spellcasting or Pact Magic feature can spend a week studying the book and make an Arcana check. At the end of this studying, if the Arcana check totals 15 x the spell's level (10 for a cantrip), you add the spell in the book to your spells list or spells known. Arcana checks over multiple weeks are added together until the total is reached. If the spell in the book is not usually on a creature’s spell list, the book is indecipherable for them.",
+                "Once used, the book crumbles to ash. A character can inscribe a spell on their spell list or known to them on a blank learner's tome by doing the same process of making an Arcana check and reaching the threshold of 15 x the spell’s level."
+            ],
+            "customProperties": {
+                "arcanaThresholdPerLevel": 15,
+                "arcanaThresholdCantrip": 10,
+                "canTeachSpell": true,
+                "canInscribeSpell": true
+            }
         },
         {
             "name": "Lemon Salt Crackers",
@@ -6256,9 +6518,11 @@
             "name": "Malkin's Fluxbinder",
             "source": "TftJC",
             "type": "R",
-            "rarity": "none",
+            "rarity": "very rare",
             "baseItem": "heavy crossbow|PHB",
+            "reqAttune": true,
             "weight": 18,
+            "value": 50000,
             "weaponCategory": "martial",
             "property": [
                 "A",
@@ -6273,9 +6537,22 @@
             "ammoType": "crossbow bolt|phb",
             "bonusWeapon": "+2",
             "entries": [
-                "This magical crossbow is fitted with six gemstone lenses at the end of it. Attacks made with this magical weapon have a +2 to their to hit and damage rolls. When fired it deals an additional 1d8 damage depending on the focused gemstone, fire for ruby, acid for emerald, lightning for sapphire, cold for diamond, thunder for quartz, and acid for topaz. Changing the focused lens takes a bonus action.",
+                "This magical crossbow is fitted with six gemstone lenses at the end of it. Attacks made with this magical weapon have a +2 to their to hit and damage rolls. When fired it deals an additional 1d8 damage depending on the focused gemstone: fire for ruby, acid for emerald, lightning for sapphire, cold for diamond, thunder for quartz, and acid for topaz. Changing the focused lens takes a bonus action.",
                 "In addition this crossbow can be used as an arcane focus. When used as an arcane focus you can change the damage of any spell cast through it to the damage type of the currently focused lens."
-            ]
+            ],
+            "customProperties": {
+                "lensTypes": [
+                    "fire",
+                    "acid",
+                    "lightning",
+                    "cold",
+                    "thunder",
+                    "acid"
+                ],
+                "lensChangeAction": "bonus",
+                "arcaneFocus": true,
+                "extraDamage": "1d8 (type based on lens)"
+            }
         },
         {
             "name": "Man Catcher",
@@ -6296,6 +6573,16 @@
             "entries": [
                 "<b><i>Special.</i></b> A creature can make a grapple check with the reach of the Man Catcher. On a success the grappler can move and maintain the grapple as long as they remain with the weapon’s reach. If a second creature attempts to grapple a creature you are grappling you can grant them advantage. If three or more Man Catchers are all grappling the same creature, that creature is restrained instead, as long as all three maintain the restraint.",
                 "<b><i>Unique.</i></b> Gaining proficiency in simple or martial weapons does not grant proficiency in this weapon. It must trained separately."
+            ]
+        },
+        {
+            "name": "Mask of the Bovine",
+            "type": "WD",
+            "rarity": "uncommon",
+            "wondrous": true,
+            "source": "TftJC",
+            "entries": [
+                "While wearing this mask you have advantage on all charisma checks against bovine creatures, including minotaurs."
             ]
         },
         {
@@ -6799,6 +7086,36 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Orb of Elvanius",
+            "type": "WD",
+            "rarity": "rare",
+            "wondrous": true,
+            "source": "TftJC",
+            "reqAttune": true,
+            "entries": [
+                "This simple glass icosahedron has intricate etchings inscribed inside the glass. When touched, it glows a soft white.",
+                "As an action a creature can attune the orb to either fire, cold, lightning, thunder, or acid. The next time you take that damage type, the orb reduces it by 1d4 and grows stronger. Each successive time it blocks damage the die is increased by 1 step, up to a d6, d8, d10, and d12. Once it reduces the damage by 1d12, it reverts to 1d4.",
+                "In addition, while attuned, {@spell Elvinus’ Ward of Conflux|TftJC} is added to your spell list if you have one."
+            ],
+            "customProperties": {
+                "damageTypes": [
+                    "fire",
+                    "cold",
+                    "lightning",
+                    "thunder",
+                    "acid"
+                ],
+                "reductionDieProgression": [
+                    "d4",
+                    "d6",
+                    "d8",
+                    "d10",
+                    "d12"
+                ],
+                "spellGranted": "Elvinus’ Ward of Conflux"
+            }
         },
         {
             "name": "Orichalcum",
@@ -7517,7 +7834,7 @@
                 "forgingConditions": "Chaotic Evil Alignment",
                 "baseMetals": "Dragon's Gold + Living Lava",
                 "armorEffects": "This armor is sentient, with an INT of 2, WIS of 8 and CHA of 17 (CE). You gain a Bonus to Persuasion Checks while wearing the armor based on its type (Light +1, Medium +2, Heavy +3). This bonus is doubled against Neutral or Evil aligned Dragons. You know Draconic while wearing this armor.",
-                "weaponEffects": "This weapon is sentient, with an INT of 2, WIS of 8 and CHA of 17 (CE). This weapon adds half your proficiency Bonus (rounded down) to its damage rolls, its full value against Dragons, or double your Proficiency against Good Aligned Dragons. This weapon executes any creature you attack with it that is has remaining hitpoints equal to or less that your Proficiency Bonus, this value is doubled against Good Aligned Dragons.",
+                "weaponEffects": "This weapon is sentient, with an INT of 2, WIS of 8 and CHA of 17 (CE). This weapon adds half your proficiency Bonus (rounded down) to its damage rolls, its full value against Dragons, or double your Proficiency against Good Aligned Dragons. This weapon executes any creature you attack with it that is has remaining hit points equal to or less that your Proficiency Bonus, this value is doubled against Good Aligned Dragons.",
                 "additionalEffects": "You have disadvantage on saving throws inflicted upon you by Red Dragons, as the armor/weapon betrays you.",
                 "druidUseable": false
             },
@@ -7532,7 +7849,7 @@
                         "<b>Forging Conditions:</b> Chaotic Evil Alignment",
                         "<b>Base Metals:</b> {@item Dragon's Gold|TftJC} + {@item Living Lava|TftJC}",
                         "<b>Armor Effects:</b> This armor is sentient, with an INT of 2, WIS of 8 and CHA of 17 (CE). You gain a Bonus to {@skill Persuasion} Checks while wearing the armor based on its type (Light +1, Medium +2, Heavy +3). This bonus is doubled against Neutral or Evil aligned Dragons. You know Draconic while wearing this armor.",
-                        "<b>Weapon Effects:</b> This weapon is sentient, with an INT of 2, WIS of 8 and CHA of 17 (CE). This weapon adds half your proficiency Bonus (rounded down) to its damage rolls, its full value against Dragons, or double your Proficiency against Good Aligned Dragons. This weapon executes any creature you attack with it that is has remaining hitpoints equal to or less that your Proficiency Bonus, this value is doubled against Good Aligned Dragons.",
+                        "<b>Weapon Effects:</b> This weapon is sentient, with an INT of 2, WIS of 8 and CHA of 17 (CE). This weapon adds half your proficiency Bonus (rounded down) to its damage rolls, its full value against Dragons, or double your Proficiency against Good Aligned Dragons. This weapon executes any creature you attack with it that is has remaining hit points equal to or less that your Proficiency Bonus, this value is doubled against Good Aligned Dragons.",
                         "<b>Additional Effects:</b> You have disadvantage on saving throws inflicted upon you by Red Dragons, as the armor/weapon betrays you.",
                         "<b>Druid Useable:</b> No"
                     ]
@@ -8771,6 +9088,47 @@
             ]
         },
         {
+            "name": "The Dashers of Elitanith",
+            "source": "TftJC",
+            "rarity": "legendary",
+            "wondrous": true,
+            "curse": true,
+            "entries": [
+                "Your movement speed increases by 20 feet and you gain a fly speed equal to your speed. In addition, your speed cannot be reduced lower than 20 feet (unless it is reduced to 0).",
+                {
+                    "type": "entries",
+                    "name": "Stride of the Free",
+                    "entries": [
+                        "You can use a bonus action on your turn to disengage. Once per turn, when you are suffering from the Grapple, Restrained, or Prone condition you can spend 5 feet of movement to end the condition. When you do this each creature of your choice within 10 feet of you must make a DC 15 Str save or be knocked back 15 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Cursed",
+                    "entries": [
+                        "If you do not move your full movement on your turn you suffer {@dice 8d4} slashing damage as the agitated wind attacks you."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Form of the Gales",
+                    "entries": [
+                        "As an action, you can set loose the spirit contained within the boots to fight alongside you. The spirit takes on the form of an Elemental from the following list: Air Elemental Myrmidon, Invisible Stalker, Animated Breath, or Air Elemental.",
+                        "While the spirit is active and has more than 0 hit points, you gain the following benefits:",
+                        {
+                            "type": "list",
+                            "items": [
+                                "You gain immunity to lightning and thunder damage",
+                                "Your speed increases to 120 ft if its lower and cannot be lowered (unless it is reduced to 0), your fly speed likewise increases to the same amount. You do not provoke attacks of opportunity for moving.",
+                                "When you cast a spell that deals lightning or thunder damage, you may reroll any 1s or 2s rolled on the damage and take the higher result."
+                            ]
+                        },
+                        "When the spirit drops to 0 hit points or 1 hour passes, it vanishes, and you lose the benefits listed above. Once you use this ability, you cannot use it again for 90 days. As an action, you can cast a 5th level or higher spell that deals lightning and thunder damage into the Dashers to lower the time to wait by 1 day."
+                    ]
+                }
+            ]
+        },
+        {
             "name": "The Forbidden Foci",
             "source": "TftJC",
             "rarity": "legendary",
@@ -9210,6 +9568,33 @@
             ]
         },
         {
+            "name": "Tricorne of the Seadog",
+            "type": "WD",
+            "rarity": "rare",
+            "reqAttune": true,
+            "source": "TftJC",
+            "entries": [
+                "This Tricorne is filled with the strange magic that empowers the monstrous Pirates of the Western Sea. While wearing it, you gain the following effects:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You have a knack for treasure and coin, granting advantage on any checks to determine the value of an item.",
+                        "You have advantage on saving throws against being forcibly moved or knocked prone while on the deck of a ship, and are immune to sea sickness.",
+                        "Once per week, you can invoke the powers of the Tricorne to summon an undead crew of Pirates. 4 Skeletons wearing pirate garb appear within unoccupied spaces within 10ft of you, are friendly to you and follow your commands. They last for 10 minutes, or until they drop to 0 hitpoints. They require no corpse or skeleton to summon, and leave no trace that they were ever here once they are gone."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Curse - Part of the Crew",
+                    "entries": [
+                        "You cannot remove the Tricorne willingly. This effect can be temporarily removed by casting {@spell remove curse} on it, returning after wearing it again.",
+                        "While cursed, when seeing gold or gemstones worth more than 1000GP, you must make a DC 15 Charisma saving throw or become {@condition charmed} by it. The charm lasts for 1 hour after it leaves your sight. While charmed, you think only how you can take it and that you must have it. The charm can also end once you successfully claim the gold or gems.",
+                        "You speak in a pirate accent, and commonly use words like 'Scallywag', 'Ahoy', 'Booty', etc."
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Truelight",
             "source": "TftJC",
             "type": "TG",
@@ -9218,7 +9603,7 @@
                 "planeOfOrigin": "Material",
                 "requiredTool": "Smith's Tools",
                 "secondaryTool": "Smith's Tools",
-                "forgingConditions": "Divivne Intervention + Forged on Mount Celestia",
+                "forgingConditions": "Divine Intervention + Forged on Mount Celestia",
                 "baseMetals": "Celestial Gold + Truemetal",
                 "armorEffects": "Armor reduces damage from Necrotic and Radiant by 10. After the armor reduces 50 damage, it bursts with energy, dealing 10 Radiant Damage to all creatures within 10ft of you (you do not take this damage).",
                 "weaponEffects": "This weapon deals Radiant damage instead of its normal damage type. Every 3rd attack made with this weapon that successfully hits causes it to deal an additional 15 Radiant Damage.",
@@ -9233,7 +9618,7 @@
                         "<b>Plane of Origin:</b> Material",
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Secondary Tool:</b> Smith's Tools",
-                        "<b>Forging Conditions:</b> Divivne Intervention + Forged on Mount Celestia",
+                        "<b>Forging Conditions:</b> Divine Intervention + Forged on Mount Celestia",
                         "<b>Base Metals:</b> {@item Celestial Gold|TftJC} + {@item Truemetal|TftJC}",
                         "<b>Armor Effects:</b> Armor reduces damage from Necrotic and Radiant by 10. After the armor reduces 50 damage, it bursts with energy, dealing 10 Radiant Damage to all creatures within 10ft of you (you do not take this damage).",
                         "<b>Weapon Effects:</b> This weapon deals Radiant damage instead of its normal damage type. Every 3rd attack made with this weapon that successfully hits causes it to deal an additional 15 Radiant Damage.",
@@ -9389,6 +9774,48 @@
             ]
         },
         {
+            "name": "Uprooting Spike",
+            "source": "TftJC",
+            "type": "M",
+            "rarity": "legendary",
+            "weight": 2,
+            "reqAttune": true,
+            "foundryType": "consumable",
+            "baseItem": "javelin",
+            "weaponCategory": "simple",
+            "property": [
+                "T"
+            ],
+            "range": "30/120",
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "entries": [
+                "This javelin is made of a sturdy yet strangely fragile alloy that combines True Metal and Celestial Gold known as Truelight, while being shaped like a trammel to shatter crystal.",
+                {
+                    "type": "entries",
+                    "name": "Catalyst of Destruction",
+                    "entries": [
+                        "Using this weapon to attack a Crystal Tree causes it to splinter. If the damage is more than 20, the Javelin gains 1 charge. Upon gaining 3 charges, the next attack made with the javelin against a Crystal Tree, Fiend, Focused Humanoid, or Creature made from the Crystal tree's gems takes an additional 25 Radiant Damage, and in the case of the Crystal Tree, it is utterly destroyed down to the root. If the Spike destroyed a Crystal Tree, it too is destroyed with it.",
+                        "This item cannot be sold because of its place of divinity and not widely known on the Material Plane."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Crafting Conditions",
+                    "entries": [
+                        "Material Components: 1000gp, 1 Javelin made from Truelight, Smith's Tools, blessed by Clerics/Paladins whose levels equal 30+ (Aasimars count for half of their total levels, rounded down)."
+                    ]
+                }
+            ],
+            "charges": 3,
+            "customProperties": {
+                "crystalTreeDestroyer": true,
+                "craftingLevelRequirement": 30,
+                "craftingMaterial": "Truelight",
+                "craftingBlessing": "Cleric/Paladin/Aasimar"
+            }
+        },
+        {
             "name": "Urumi",
             "source": "TftJC",
             "page": 50,
@@ -9450,8 +9877,8 @@
                 "secondaryTool": "Glassblower's Tools",
                 "forgingConditions": "?",
                 "baseMetals": "Living Lava + Unstable Uranium",
-                "armorEffects": "Cannot be crafted into a shield or Light armor. This armor is sentient, with an INT of 2, WIS of 8 and CHA of 12 (LE). While wearing this armor, your maximum Hitpoints are Reduced by 25, and are reduced by another 25 for each consecutive week of use (these hitpoints return after a week without wearing the armor). You gain Immunity to Fire and Necrotic Damage. Taking Fire Damage Increases your AC by an amount equal to 1/10th (min 0) of the damage you would have taken (before immunity/resistances) until the end of your next turn.",
-                "weaponEffects": "Cannot be made into Ammunition or Light Weapons. This weapon is sentient, with an INT of 2, WIS of 8 and CHA of 12 (LE). While wielding this weapon, your Maximum hitpoints are reduced by 13, and are reduced by another 13 for each consecutive week of use (these hitpoints return after a week without wielding the weapon). This weapon doubles the effectiveness of any enchantment that increases its to hit and damage roll bonus (up to a +6). You gain a bonus to Intimidation checks equal to the Enchantment Bonus with this weapon while wielding it. As a reaction to making an attack roll with this weapon, you can make an Intimidation Check, and gain a bonus to the d20 roll equal to 1/10th of the value rolled. If this makes the die value over your Critical Hit threshold, it is a Critical Hit.",
+                "armorEffects": "Cannot be crafted into a shield or Light armor. This armor is sentient, with an INT of 2, WIS of 8 and CHA of 12 (LE). While wearing this armor, your maximum Hit points are Reduced by 25, and are reduced by another 25 for each consecutive week of use (these hit points return after a week without wearing the armor). You gain Immunity to Fire and Necrotic Damage. Taking Fire Damage Increases your AC by an amount equal to 1/10th (min 0) of the damage you would have taken (before immunity/resistances) until the end of your next turn.",
+                "weaponEffects": "Cannot be made into Ammunition or Light Weapons. This weapon is sentient, with an INT of 2, WIS of 8 and CHA of 12 (LE). While wielding this weapon, your Maximum hit points are reduced by 13, and are reduced by another 13 for each consecutive week of use (these hit points return after a week without wielding the weapon). This weapon doubles the effectiveness of any enchantment that increases its to hit and damage roll bonus (up to a +6). You gain a bonus to Intimidation checks equal to the Enchantment Bonus with this weapon while wielding it. As a reaction to making an attack roll with this weapon, you can make an Intimidation Check, and gain a bonus to the d20 roll equal to 1/10th of the value rolled. If this makes the die value over your Critical Hit threshold, it is a Critical Hit.",
                 "additionalEffects": "If left unwielded for 1 month, the Armor/Weapon gets up and leaves, looking for a new host. Makes you sick ):",
                 "druidUseable": true
             },
@@ -9465,8 +9892,8 @@
                         "<b>Secondary Tool:</b> Glassblower's Tools",
                         "<b>Forging Conditions:</b> ?",
                         "<b>Base Metals:</b> {@item Living Lava|TftJC} + {@item Unstable Uranium|TftJC}",
-                        "<b>Armor Effects:</b> Cannot be crafted into a shield or Light armor. This armor is sentient, with an INT of 2, WIS of 8 and CHA of 12 (LE). While wearing this armor, your maximum Hitpoints are Reduced by 25, and are reduced by another 25 for each consecutive week of use (these hitpoints return after a week without wearing the armor). You gain Immunity to Fire and Necrotic Damage. Taking Fire Damage Increases your AC by an amount equal to 1/10th (min 0) of the damage you would have taken (before immunity/resistances) until the end of your next turn.",
-                        "<b>Weapon Effects:</b> Cannot be made into Ammunition or Light Weapons. This weapon is sentient, with an INT of 2, WIS of 8 and CHA of 12 (LE). While wielding this weapon, your Maximum hitpoints are reduced by 13, and are reduced by another 13 for each consecutive week of use (these hitpoints return after a week without wielding the weapon). This weapon doubles the effectiveness of any enchantment that increases its to hit and damage roll bonus (up to a +6). You gain a bonus to {@skill Intimidation} checks equal to the Enchantment Bonus with this weapon while wielding it. As a reaction to making an attack roll with this weapon, you can make an {@skill Intimidation} Check, and gain a bonus to the d20 roll equal to 1/10th of the value rolled. If this makes the die value over your Critical Hit threshold, it is a Critical Hit.",
+                        "<b>Armor Effects:</b> Cannot be crafted into a shield or Light armor. This armor is sentient, with an INT of 2, WIS of 8 and CHA of 12 (LE). While wearing this armor, your maximum Hit points are Reduced by 25, and are reduced by another 25 for each consecutive week of use (these hit points return after a week without wearing the armor). You gain Immunity to Fire and Necrotic Damage. Taking Fire Damage Increases your AC by an amount equal to 1/10th (min 0) of the damage you would have taken (before immunity/resistances) until the end of your next turn.",
+                        "<b>Weapon Effects:</b> Cannot be made into Ammunition or Light Weapons. This weapon is sentient, with an INT of 2, WIS of 8 and CHA of 12 (LE). While wielding this weapon, your Maximum hit points are reduced by 13, and are reduced by another 13 for each consecutive week of use (these hit points return after a week without wielding the weapon). This weapon doubles the effectiveness of any enchantment that increases its to hit and damage roll bonus (up to a +6). You gain a bonus to {@skill Intimidation} checks equal to the Enchantment Bonus with this weapon while wielding it. As a reaction to making an attack roll with this weapon, you can make an {@skill Intimidation} Check, and gain a bonus to the d20 roll equal to 1/10th of the value rolled. If this makes the die value over your Critical Hit threshold, it is a Critical Hit.",
                         "<b>Additional Effects:</b> If left unwielded for 1 month, the Armor/Weapon gets up and leaves, looking for a new host. Makes you sick ):",
                         "<b>Druid Useable:</b> Yes"
                     ]
@@ -13107,6 +13534,94 @@
     ],
     "reward": [
         {
+            "name": "Blessing of the Four Winds: Eastern Archer",
+            "type": "blessing",
+            "source": "TftJC",
+            "rarity": "special",
+            "entries": [
+                "Each boon can be activated as a bonus action once every 30 days. Once used five times the blessing fades as the spirit of the sage moves on.",
+                {
+                    "type": "entries",
+                    "name": "Eastern Archer",
+                    "entries": [
+                        "As a bonus action, you can call upon the spirit of Eurus, Sage of the East wind, to guide your shots. For the next minute if you miss a ranged weapon attack, you can immediately remake the attack, no expending a new piece of ammunition, with disadvantage. Once you use this ability, you cannot use it again for 30 days."
+                    ]
+                }
+            ],
+            "uses": {
+                "max": 5,
+                "per": "lifetime",
+                "cooldown": "30 days"
+            },
+            "duration": "1 minute"
+        },
+        {
+            "name": "Blessing of the Four Winds: Northern Sentinel",
+            "type": "blessing",
+            "source": "TftJC",
+            "rarity": "special",
+            "entries": [
+                "Each boon can be activated as a bonus action once every 30 days. Once used five times the blessing fades as the spirit of the sage moves on.",
+                {
+                    "type": "entries",
+                    "name": "Northern Sentinel",
+                    "entries": [
+                        "As a bonus action, you can call upon the spirit of Borealis, Sage of the Northern Wind, to protect yourself and allies. For the next minute, ranged attacks against you and allied creatures within 10ft of you have disadvantage and if you are hit by a melee weapon attack the damage is reduced by 1d4. Once you use this ability, you cannot use it again for 30 days."
+                    ]
+                }
+            ],
+            "uses": {
+                "max": 5,
+                "per": "lifetime",
+                "cooldown": "30 days"
+            },
+            "duration": "1 minute"
+        },
+        {
+            "name": "Blessing of the Four Winds: Southern Slayer",
+            "type": "blessing",
+            "source": "TftJC",
+            "rarity": "special",
+            "entries": [
+                "Each boon can be activated as a bonus action once every 30 days. Once used five times the blessing fades as the spirit of the sage moves on.",
+                {
+                    "type": "entries",
+                    "name": "Southern Slayer",
+                    "entries": [
+                        "As a bonus action, you can call upon the spirit of Notus, Sage of the Southern Wind, to bolster your blows with the strength of storms. For the next minute, if you hit with a melee weapon attack, your weapon deals 1d6 extra thunder damage. Once you use this ability, you cannot use it again for 30 days."
+                    ]
+                }
+            ],
+            "uses": {
+                "max": 5,
+                "per": "lifetime",
+                "cooldown": "30 days"
+            },
+            "duration": "1 minute"
+        },
+        {
+            "name": "Blessing of the Four Winds: Western Winds",
+            "type": "blessing",
+            "source": "TftJC",
+            "rarity": "special",
+            "entries": [
+                "Each boon can be activated as a bonus action once every 30 days. Once used five times the blessing fades as the spirit of the sage moves on.",
+                {
+                    "type": "entries",
+                    "name": "Western Winds",
+                    "entries": [
+                        "As a bonus action, you can call upon the spirit of Zephyrus, Sage of the Western Wind, to speed your step. For the next minute, you gain 10 feet of speed in all forms and your jump speed is doubled. Once you use this ability, you cannot use it again for 30 days."
+                    ]
+                }
+            ],
+            "uses": {
+                "max": 5,
+                "per": "lifetime",
+                "cooldown": "30 days"
+            },
+            "duration": "1 minute"
+        },
+        {
             "name": "Boon of Minor Combat Might",
             "source": "TftJC",
             "type": "Boon",
@@ -13191,6 +13706,68 @@
                 "While Unarmored, your AC is equal to 10 + DEX + Proficiency Bonus.",
                 "Creatures grappling you take damage equal to your Proficiency Bonus in piercing damage at the start of their turns."
             ]
+        },
+        {
+            "name": "Virulent Grung",
+            "type": "blessing",
+            "source": "TftJC",
+            "rarity": "special",
+            "entries": [
+                "Through various Poisons being absorbed, your toxins have reached their pinnacle. Your DCs for all of your poisons are 19. Some Grung features are modified due to your Poisons.",
+                {
+                    "type": "entries",
+                    "name": "Poisonous Skin - Crawler Mucus",
+                    "entries": [
+                        "Any creature that grapples you or otherwise comes into direct contact with your skin must succeed on a CON saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with you can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a Creature poisoned by you remains in contact with you for over a round, they must repeat the saving throw and on another fail are then Paralyzed until the start of your next turn."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fermented Toxins - Purple Wurm Poison",
+                    "entries": [
+                        "Any time you deal Poison Damage, it is increased by an amount equal to your CON Modifier."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Poisonous Spit - Midnight Tears/Memento Poison",
+                    "entries": [
+                        "Once per turn, you can replace an attack and expel Midnight Tears or Memento Poison to a creature within 5ft of you. They must make a CON Save or be affected by Midnight Tears. You can use this feature Prof Bonus / LR."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Toxic Secretions",
+                    "entries": [
+                        "You can also apply a poison to any piercing weapon as part of an attack with that weapon. Your weapon attack deals an additional 2d4 Poison damage, and you can select 1 Poison at the Start of your turn, and all weapon attacks that deal Piercing Damage gain the following effect.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "name": "Death's Kiss",
+                                    "entry": "The target must succeed on a CON saving throw or take an additional 2d6 Necrotic Damage damage. If they fail this save by 5 or more, their hitpoint maximum is reduced equal to the Necrotic Damage taken until they complete a Long Rest. On a Success, they take half of this amount."
+                                },
+                                {
+                                    "name": "Midnight Tears",
+                                    "entry": "The target must succeed on a CON saving throw or take 4d6 Poison Damage, or 8d6 if it is within 1 hour of Midnight."
+                                },
+                                {
+                                    "name": "Purple Wurm",
+                                    "entry": "The target must succeed on a CON saving throw or have their resistance to Poison Damage removed for 1 Minute. They can repeat this saving throw at the end of each of their turns."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Madness of Time Confusion",
+                    "entries": [
+                        "You always feel somewhat out of your body. You cannot tell time passage, and have disadvantage on saving throws against spells that would shunt you in time, freeze you in time, affect time in any way for you, or Chronurgy Spells. Failing a saving throw or otherwise being affected by a Time-related effect causes you to to take psychic damage equal to the spells level x 1d6. You also learn the Gift of Alacrity Spell (doesn't count against spells known, always prepared)."
+                    ]
+                }
+            ],
+            "poisonDC": 19
         }
     ],
     "spell": [
