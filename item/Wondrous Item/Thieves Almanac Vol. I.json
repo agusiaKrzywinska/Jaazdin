@@ -1,0 +1,14 @@
+{
+  "name": "Thieves Almanac Vol. I",
+  "source": "TftJC",
+  "type": "WD",
+  "rarity": "uncommon",
+  "wondrous": true,
+  "charges": 2,
+  "entries": [
+    "This tome contains the secrets to skullduggery and crime.",
+    "It can be read over 1 week to reduce the heat of a creature to 0 or reduce a buildings heat by 3. Additionally it can be read to gain a +1 bonus to on roll to avoid gaining heat. ",
+    "Alternatively, a creature reading it can instead read the book to increase their Theft, Forger, Spy, or Gambling Wage Progression by 1.",
+    "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+  ]
+}

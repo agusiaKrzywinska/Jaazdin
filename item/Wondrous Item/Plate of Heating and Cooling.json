@@ -1,0 +1,10 @@
+{
+  "name": "Plate of Heating and Cooling",
+  "source": "TftJC",
+  "type": "WD",
+  "rarity": "common",
+  "wondrous": true,
+  "entries": [
+    "This black slate of stone has been enchanted with minor magic to heat or cool food. As an action it can be touched and either heated to a temperature hot enough to boil water or cooled to a temperature enough to freeze water. The effect remains until it is touched again and turned off."
+  ]
+}

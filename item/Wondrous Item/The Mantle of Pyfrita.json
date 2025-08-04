@@ -1,0 +1,25 @@
+{
+  "name": "The Mantle of Pyfrita",
+  "source": "TftJC",
+  "type": "WD",
+  "rarity": "legendary",
+  "wondrous": true,
+  "curse": true,
+  "entries": [
+    "While active this cloak sheds dim light for 30ft. Creatures that attack you while it's active have disadvantage and if they are within 5 feet of you when they hit take {@dice 3d6} fire damage. After being hit the cloak deactivates and must be reactivated with a bonus action.",
+    "<b><i>Sage of the Forge.</i></b> You gain proficiency in smith’s tools. If you already have smith’s tools proficiency you instead add twice your proficiency bonus to your rolls.",
+    "When you finish a long rest you can choose one metal weapon, suit of armor, or shield and enchant it with a fiery light. If it is a weapon it deals {@dice 2d6} extra fire damage on a hit, if it is a shield or suit of armor it grants fire and radiant resistance until your next long rest",
+    "<b><i>Cursed.</i></b> While wearing the cloak you are vulnerable to cold damage.",
+    "<b><i>Form of the Pyre.</i></b> As an action, you can set loose the spirit contained within the cloak to fight alongside you. The spirit takes on the form of an Elemental from the following list: Fire Elemental Myrmidon, Cinder Hulk, Salamander, or Fire Elemental.",
+    "While the spirit is active and has more than 0 hit points, you gain the following benefits:",
+    {
+      "type": "list",
+      "items": [
+        "You gain immunity to fire damage.",
+        "Melee spell and weapon attacks deal 2d6 extra fire damage.",
+        "If you cast a spell that deals fire damage roll {@dice 1d6}, on a result of 6 the spell does not consume a spell slot."
+      ]
+    },
+    "When the spirit drops to 0 hit points or 1 hour passes, it vanishes, and you lose the benefits listed above. Once you use this ability, you cannot use it again for 90 days. As an action, you can cast a 5th level or higher spell that deals fire damage into the Mantle to lower the time to wait by 1 day."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Soulbane",
+  "source": "TftJC",
+  "type": "M",
+  "rarity": "artifact",
+  "baseItem": "Dagger|PHB",
+  "reqAttune": true,
+  "weight": 1,
+  "weaponCategory": "simple",
+  "dmg1": "1d4",
+  "dmgType": "P",
+  "property": ["F", "L", "T"],
+  "bonusWeapon": "+3",
+  "charges": 10,
+  "recharge": "dawn",
+  "rechargeAmount": "1d6+4",
+  "entries": [
+    "This Soul Steel dagger has destroyed the souls of heroes and Dragonlords alike. Attacks made with this weapon have a +3 to hit and damage rolls.",
+    "This dagger has 10 charges. When you hit with a melee attack using it, you can expend up to 3 of its charges. For each charge you expend, the targets takes an additional {@dice 1d6} force damage. The dagger regains {@dice 1d6+4} charges daily at dawn. Whenever you instantly kill a target with this blade it regains 3 charges.",
+    "While wielding this dagger you can use the Crimson Slash weapon form.",
+    {
+      "type": "entries",
+      "name": "Crimson Slash",
+      "entries": [
+        "By grasping your weapon with both hands, you can use an action to place all your strength on a final gambit against your opponent. If you have advantage on the attack roll, you can attempt to end them in one strike. Make an attack roll without advantage, if the attack hits instead of taking damage, your opponent must make a Constitution saving throw with a +1 for every 10 hit points they have left. If they roll lower than your attack roll, they die instantly. Should they pass the saving throw, you gain one level of exhaustion and an additional level for every 5 above the check they passed."
+      ]
+    }
+  ]
+}

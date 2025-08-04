@@ -1,0 +1,9 @@
+{
+  "name": "Angel Skin",
+  "source": "TftJC",
+  "type": "Boon",
+  "entries": [
+    "Gain resistance to radiant damage and grants additional +1 to all magical healing received",
+    "Evil aligned creatures have advantage on attack rolls against you"
+  ]
+}

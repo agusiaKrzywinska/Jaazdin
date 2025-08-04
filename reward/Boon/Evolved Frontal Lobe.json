@@ -1,0 +1,9 @@
+{
+  "name": "Evolved Frontal Lobe",
+  "source": "TftJC",
+  "type": "Boon",
+  "entries": [
+    "You are considered to be always under the effect of {@spell detect thoughts}, and have advantage on insight checks made when done in this way. When probing deeper into a targets mind the DC is determined by your choice of Int, Wis, or Cha. If you are in a situation where you cannot concentrate on a spell, ie Rage, this is suppressed.",
+    "At the start of each turn where you are within 5 feet of five or more creatures and the effect is not suppressed, you must pass a DC 15 insight check or lose your action that turn."
+  ]
+}

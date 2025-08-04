@@ -1,0 +1,10 @@
+{
+  "name": "Hell Bound Soul",
+  "source": "TftJC",
+  "type": "Boon",
+  "entries": [
+    "Your body has been infused with the influence of the Nine Hells. Your creature type is now humanoid (fiend) allowing you to be effected by effects that would normally only effect fiends.",
+    "You are unable to deal radiant damage, any time you would deal radiant damage you deal necrotic damage instead. In addition, your Divine Smite feature now deals an additional damage die to Celestials but not Fiends.",
+    "Celestials find you distasteful and you have disadvantage on any Charisma checks made towards Celestials."
+  ]
+}

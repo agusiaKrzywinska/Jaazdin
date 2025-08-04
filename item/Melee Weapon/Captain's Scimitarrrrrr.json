@@ -1,0 +1,17 @@
+{
+  "name": "Captain's Scimitarrrrrr",
+  "source": "TftJC",
+  "type": "M",
+  "rarity": "very rare",
+  "baseItem": "Scimitar|PHB",
+  "reqAttune": true,
+  "weight": 3,
+  "weaponCategory": "martial",
+  "dmg1": "1d6",
+  "dmgType": "S",
+  "property": ["F", "L"],
+  "entries": [
+    "This scimitar is forged from {@item Posidinium|TftJC}.",
+    "Once per dawn, you can use the weapon to summon a Water Elemental, which is friendly to you, follows your commands and lasts for 1 hour or until reduced to 0 hp. While the elemental is summoned, you gain a swim speed of 60ft, or add 30ft to your current swim speed (whichever would be higher)."
+  ]
+}

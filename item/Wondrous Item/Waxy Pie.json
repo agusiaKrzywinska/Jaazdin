@@ -1,0 +1,10 @@
+{
+  "name": "Waxy Pie",
+  "source": "TftJC",
+  "type": "WD",
+  "rarity": "common",
+  "wondrous": true,
+  "entries": [
+    "This tasty pie can be shared with up to 4 other people. If shared during a short rest each person that eats it can add {@dice 1d4} to one hit die spent during the short rest. The pie magically reappears each day at midnight."
+  ]
+}

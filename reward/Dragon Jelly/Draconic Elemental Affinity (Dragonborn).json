@@ -1,0 +1,10 @@
+{
+  "name": "Draconic Elemental Affinity (Dragonborn)",
+  "source": "TftJC",
+  "type": "Dragon Jelly",
+  "entries": [
+    "You gain Damage reduction equal to your Proficiency Bonus for your Dragon breath weapon element.",
+    "Your breath weapon is now a recharge of 6 (not affected by the dragon's breath dragon jelly transformation).",
+    "You additionally have advantage on saving throws against terrain effects created by a mature dragon of your elemental type's territory/lair, such as extreme heat from a red dragon's volcano or acid pools in a black dragon's swamp."
+  ]
+}

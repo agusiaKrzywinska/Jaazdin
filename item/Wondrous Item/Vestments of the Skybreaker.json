@@ -1,0 +1,19 @@
+{
+  "name": "Vestments of the Skybreaker",
+  "type": "WD",
+  "rarity": "legendary",
+  "wondrous": true,
+  "reqAttune": "special",
+  "source": "TftJC",
+  "entries": [
+    "The Vestments of the Skybreaker are a set of five magical items that when combined gift the wearer the powers of Lysander the Skybreaker. While wearing at least one Vestment you can benefit from a single Vestment without it requiring attunement. If you put on more than one Vestment than they require attunement to function.",
+    {
+      "type": "entries",
+      "name": "Set Bonus",
+      "entries": [
+        "While wearing all five of the Vestments you gain the following bonus:",
+        "When you make an attack using the Attack action and hit, you may make an additional attack with the same weapon and against the same target. If the attack hits, it does its normal damage roll, but the target takes half that amount as force damage. Whenever you deal damage to a creature with a ranged attack, you gain +5ft of movement speed until the end of your turn."
+      ]
+    }
+  ]
+}

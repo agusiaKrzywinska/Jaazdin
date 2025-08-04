@@ -1,0 +1,14 @@
+{
+  "name": "Puzzler's Conchs",
+  "source": "TftJC",
+  "type": "WD",
+  "rarity": "rare",
+  "wondrous": true,
+  "charges": 3,
+  "recharge": "restLong",
+  "rechargeAmount": 3,
+  "entries": [
+    "These four golden conches and be connected together to for a singular large amulet. While connected together, they can be used to search for secrets. A creature holding it can use an action to expend one charge and cast one of the following spells: {@spell detect magic}, {@spell comprehend languages}, or {@spell find traps}. The conch has 3 charges and regains all of them when you finish a long rest.",
+    "The conches can be disconnected, once disconnected a creature speaking through one conch can be heard through every other conch. This lasts for 1 hour, after which the conches need to be reconnected to regain this ability."
+  ]
+}

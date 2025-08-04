@@ -1,0 +1,9 @@
+{
+  "name": "Leech Lungs",
+  "source": "TftJC",
+  "type": "Boon",
+  "entries": [
+    "Can breath in any environment. When dealing damage with a spell that does psychic damage as its base damage type. deal additional damage equal to your prof bonus. (The leeches scream)",
+    "Disadvantage on saving throws against inhaled poisons or similar spells and effects. Must feed the leeches one pint of blood every day or suffer exhaustion."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Thief of Grim Fates",
+  "source": "TftJC",
+  "type": "M",
+  "rarity": "legendary",
+  "baseItem": "Bassinet Claws|TftJC",
+  "reqAttune": true,
+  "weight": 1,
+  "weaponCategory": "martial",
+  "property": ["S"],
+  "dmg1": "1",
+  "dmgType": "S",
+  "bonusWeapon": "+2",
+  "entries": [
+    "This black metal clawed gauntlet has five obsidians imbedded in the knuckles. The presence of this weapon puts people on edge, feeling as if they are about to have terrible luck. This weapon grants a +2 bonuses to attack and damage rolls made with it.",
+    "When you cast a spell of first level or higher that requires concentration, you can use your reaction to store it inside one of the obsidians on this gauntlet. When you do so, the spell does not require concentration, instead it lasts until the end of your next turn. This causes an obsidian on the gauntlet to glow. It continues to glow until you finish a long rest. If all five obsidians are glowing, you cannot use this feature.",
+    "When you hit a creature with this weapon, the target receives one stack of Grim Fate for each obsidian glowing. For every 5 points of Grim Fate, a creature has -1 on saving throws against spells and spell like effects. A creature with at least 1 stack of Grim Fate may make a Wisdom saving throw at the end of each of their turns. If they roll higher than the total number of stacks they have, they reduce their current stacks by half (min 1). If they fail, they reduce the number of stacks by 1."
+  ]
+}

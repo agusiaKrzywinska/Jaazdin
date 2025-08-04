@@ -1,0 +1,79 @@
+{
+  "name": "Conflux of The Dead Star",
+  "rarity": "artifact",
+  "reqAttune": true,
+  "source": "TftJC",
+  "type": "WD",
+  "entries": [
+    "This dodecahedron is structured with a metal frame that houses a fragment of The Hungry Star.",
+    "While little is known of the entity, it is said that The Hungry Star is merely a fragment of an ancient being that resides in the Far Realms that seeks to consume all of reality.",
+    "Those that praise this being are creatures of hunger, death, undeath, desperation, and blood - for consuming life is best to satiate hunger. Often these creatures are twisted into a dark form of themselves to serve their master.",
+    "This conflux was created by the archmage Galtorious Ives to contain and harness his Master’s power for his own use and those loyal to him. Every ritual, every binding, every aspect of knowledge he had was fed into this power. While he was the one who housed this fragment, this power had always existed. Master Ives bound this in his own follower’s souls, for they had already been eaten and renewed by The Star. However over the centuries the conflux has changed hands over and over, often leading to calamity.",
+    "No mortal can possess this conflux and ever be the same. The whispers that haunt those who use this vile artifact drive them to madness, a want to devour all life, and to bring forth their enlightenment to all planes.",
+    {
+      "type": "entries",
+      "name": "Attunement",
+      "entries": [
+        "A creature attuned to the artifact must spend 80 hours comprehending how the Conflux sets and resets itself to understand its pattern. The creature must be able to speak and write the Deep Speech language to understand the binding enchantments and the power that the being within offers. Once they have completed these 80 hours they may use the features of this item.",
+        "Whenever a creature attunes to the Conflux of The Dead Star, that creature must make a DC 19 Charisma saving throw. On a failed save, that creature’s alignment changes to an Evil (keeping their Lawful, Neutral, or Chaotic) alignment, and is {@condition charmed} by the Conflux.",
+        "While charmed in this way, the creature is loyal to Hadar, The Dark Hunger. They will follow its morality and its beliefs for consuming all of reality."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Soul Consumption",
+      "entries": [
+        "Should a creature die within the influence of the Conflux (10 feet), it consumes their soul. They cannot be restored to life by any means short of a {@spell wish}. The dead creature will then rise as a Death Knight after 10 days, using all the abilities, knowledge, and spellcasting it had in life as though it were the person who had died, and under control of The Hungry Star. The Death Knight rises where the creature fell."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Awoken",
+      "entries": [
+        "While attuned to the artifact, you have resistance against {@damage psychic} damage and creatures can no longer read your thoughts unless you allow them to."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Herald of the Void",
+      "entries": [
+        "While attuned to the artifact, you can use an action to cast one of the following spells: {@spell hunger of hadar}, {@spell arms of hadar}, {@spell animate dead}, or {@spell create undead}. Once you use one of these spells you cannot cast a spell in this way until you satisfy your Ravenous condition."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Ravenous",
+      "entries": [
+        "While attuned to this artifact, you contract the Blood Ravenousness. While under the effect in this way, you must consume 1 gallon of blood from a humanoid creature within a week. If you do not satisfy this condition, your Wisdom Score is reduced by 1 per week not consumed. When your Wisdom becomes 5, you are consumed by the artifact."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Whispers",
+      "entries": [
+        "While you are attuned to this artifact, other creatures cannot take short or long rests within 300 feet of you as they are plagued with nightmares."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "All-Consuming",
+      "entries": [
+        "As an action, you may consume any number of Hit Dice available to you or any number of willing creatures within 10 feet of you. You then roll these Hit Dice and take {@damage necrotic} damage equal to the number rolled. If you use other creatures’ Hit Dice, then they take this damage as well. You may choose to empower your next melee weapon attack with damage equal to what you rolled or regain a number of spell slots equal to the number of Hit Dice consumed in this way. Should you or any other creature that had their Hit Dice consumed drop to 0 hit points, they are considered dead, and follow the rules for when a creature dies within the influence of the Conflux."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Command Oblivion",
+      "entries": [
+        "While you are attuned to the Conflux, you can use an action to cast {@spell dominate monster} on an Undead or Aberration (DC 18). You cannot use this property again until you satisfy your Ravenous condition."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Destroying the Conflux",
+      "entries": ["???"]
+    },
+    "The effects of the Conflux can be suppressed by being placed within an {@spell antimagic field} or the casting of a {@spell wish} spell.",
+    "For a creature to unattune to the Conflux, they must have a 9th level {@spell remove curse} spell cast on them and then a 9th level Atonement condition as per the {@spell ceremony} spell be cast."
+  ]
+}

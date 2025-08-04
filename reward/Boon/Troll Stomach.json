@@ -1,0 +1,9 @@
+{
+  "name": "Troll Stomach",
+  "source": "TftJC",
+  "type": "Boon",
+  "entries": [
+    "Immune to effects of ingested poisons, gain damage absorption for ingested poisons",
+    "Must consume a days worth of food every hour awake or take a level of exhaustion"
+  ]
+}

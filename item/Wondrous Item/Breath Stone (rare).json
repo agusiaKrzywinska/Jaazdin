@@ -1,0 +1,23 @@
+{
+  "name": "Breath Stone (rare)",
+  "source": "TftJC",
+  "type": "WD",
+  "rarity": "rare",
+  "wondrous": true,
+  "entries": [
+    "As an action, you can pop the stone into your mouth consuming it, unleashing a breath weapon effect. The breath weapon takes the form of a 15-foot cone of elemental damage. Each creature in the area must make a DC 15 Dexterity saving throw, taking {@dice 4d8} elemental damage on a failed save, or half as much damage on a successful one. Once consumed the breath stone is used.",
+    "Based on the color of the stone it determines the elemental damage type",
+    {
+      "type": "table",
+      "colLabels": ["Breath Stone Color", "Damage Type"],
+      "colStyles": ["col- text-", "col- text- "],
+      "rows": [
+        ["Black, or Copper", "Acid"],
+        ["Blue, or Bronze", "Lightning"],
+        ["Brass, Gold, or Red", "Fire"],
+        ["Green", "Poison"],
+        ["Silver, or White", "Cold"]
+      ]
+    }
+  ]
+}

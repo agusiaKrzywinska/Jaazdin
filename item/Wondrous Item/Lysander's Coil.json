@@ -1,0 +1,12 @@
+{
+  "name": "Lysander's Coil",
+  "type": "WD",
+  "rarity": "legendary",
+  "wondrous": true,
+  "reqAttune": "special",
+  "source": "TftJC",
+  "entries": [
+    "While wearing this magical cloak you take 3 less damage from non-magical sources. In addition, you gain +1 bonus to Survival or Intimidation checks.",
+    "This item is part of the {@item Vestments of the Skybreaker|TftJC}. While wearing at least one Vestment you can benefit from a single Vestment without it requiring attunement. If you put on more than one Vestment than they require attunement to function."
+  ]
+}

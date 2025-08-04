@@ -1,0 +1,13 @@
+{
+  "name": "Captain's Vestments",
+  "source": "TftJC",
+  "rarity": "legendary",
+  "type": "LA",
+  "baseItem": "Studded Leather Armor|PHB",
+  "reqAttune": true,
+  "ac": 12,
+  "entries": [
+    "This studded leather armor is crafted from {@item Posidinium|TftJC}.",
+    "Any creature you summon or otherwise under your control within 30ft of you gains a bonus to attack rolls and saving throws equal to half of your Persuasion bonus."
+  ]
+}

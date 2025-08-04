@@ -1,0 +1,35 @@
+{
+  "name": "Deneith Cave Gemstone Fragment",
+  "source": "TftJC",
+  "type": "WD",
+  "rarity": "uncommon",
+  "recharge": "dawn",
+  "charges": "1",
+  "wondrous": true,
+  "entries": [
+    "To use the fragment you must have it on your person. Once per dawn the fragment can be used to do one of the following things.",
+    {
+      "type": "list",
+      "columns": 0,
+      "name": "As a bonus action",
+      "items": [
+        "expend one hit die and regain that much hp.",
+        "Use a maneuver. The maneuver stored in the fragment is listed below based on the color of the shard. The DC is 13 and your superior die is 1d6 for the maneuvers."
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Gemstone Fragment Coloured Maneuvers",
+      "colLabels": ["Color", "Maneuver"],
+      "colStyles": ["col- text-", "col- text- "],
+      "rows": [
+        ["Yellow", "Ambush"],
+        ["Red", "Trip Attack"],
+        ["Green", "Tactical Assessment"],
+        ["Blue", "Riposte"],
+        ["Purple", "Rally"],
+        ["Orange", "Precision Attack"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Herald of the Tidecaller",
+  "source": "TftJC",
+  "type": "M",
+  "rarity": "artifact",
+  "baseItem": "Quarterstaff|PHB",
+  "reqAttune": "by a cleric, druid, or warlock",
+  "weight": 4,
+  "weaponCategory": "simple",
+  "dmg1": "1d6",
+  "dmg2": "1d8",
+  "dmgType": "B",
+  "property": ["V"],
+  "bonusWeapon": "+3",
+  "charges": "special",
+  "recharge": "dawn",
+  "rechargeAmount": "2d6+1",
+  "entries": [
+    "This magical staff was created by the Sealord Overkin when he conquered the known seas by controlling the great leviathan Veshrime. The staff imparts a faction of Overkin's power to control the seas onto its wielder, if they should prove worthy to wield it. The power of the staff can be shared amongst multiple creatures. Unlike regular magic items any number of creatures can attune to the staff.",
+    "This staff can be wielded as a magical quarterstaff that grants a +3 bonus to attack and damage rolls made with it. While wielding the staff, you can make attack with it with Wisdom instead of Strength. While holding the staff you gain a swim speed of 60 feet and can breathe underwater. Attack rolls with this weapon in water have advantage and cannot gain disadvantage.",
+    "The staff has a number of charges equal to the combined levels of cleric, druid, or warlock of all creatures attuned to it to be used on the following properties. It regains {@dice 2d6+1} charges at dawn each day.",
+    {
+      "type": "entries",
+      "name": "Abyssal Control",
+      "entries": [
+        "1 charge. While holding the staff, you can use an action to attempt to control any beast, elemental, or monstrosity with a swim speed within 120ft of you. The target must make a DC 10 Wisdom saving throw. On a failure of 5 or more, the creature must follow your commands on the next turn. On a failure the creature does not have to follow your commands but may only take one action (action or bonus action) on their turn, including only making one attack, and cannot take reactions or use legendary actions. This DC increases by 1 for each creature attuned to the staff, doubled if they are a druid, tripled if they have 10 or more levels in druid."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Spells",
+      "entries": [
+        "While holding the staff you can use it to cast the following spells, expending the number of charges required: {@spell shape water} (no charges), {@spell create or destroy water} (1 charge), recurring remedy (3 charges), {@spell acid arrow} (3 charges), {@spell wall of water} (5 charges), {@spell water walk} (5 charges), {@spell control water} (7 charges), {@spell maelstrom} (9 charges), {@spell wall of ice} (12 charges), {@spell regenerate} (15 charges), {@spell tsunami} (18 charges), {@spell shape change} (creatures with a swim speed only) (22 charges). You use your DC and Spell Casting ability for these spells, and can also cast them by expending a spell slot instead of charges."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Master of Tides",
+      "entries": [
+        "As an action you can activate the staff to create a bubble of aquatic control around you. Each creature of your choice within 30ft of you gain a swim speed equal to their walking speed, can breathe underwater, and can freely communicate through the water. Likewise, creatures of your choice in the radius inside water have disadvantage on attacks against targets inside the radius who are also inside the water. This effect lasts for 1 hour, after which it cannot be used until you finish a long rest."
+      ]
+    }
+  ]
+}
