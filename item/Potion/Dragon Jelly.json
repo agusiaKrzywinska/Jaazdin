@@ -1,0 +1,31 @@
+{
+  "name": "Dragon Jelly",
+  "type": "P",
+  "source": "TftJC",
+  "rarity": "rare",
+  "foundryType": "consumable",
+  "foundrySubtype": "potion",
+  "foundryData": {
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "per": null,
+      "autoDestroy": true
+    }
+  },
+  "entries": [
+    "A powerful narcotic for dragons, it can imbue non-draconic creatures with temporary draconic boons, or permanent ones for dragons. Roll {@dice 1d5} (rerolling if you already have this effect), you gain one of these abilities. If you are not draconic, these abilities last for 1 hour.",
+    {
+      "type": "list",
+      "style": "list-hang-notitle",
+      "items": [
+        "{@bold 1 - {@reward Dragon's Breath|TftJC}}",
+        "{@bold 2 - {@reward Dragon's Claws|TftJC}}",
+        "{@bold 3 - {@reward Increased Eyesight|TftJC}}",
+        "{@bold 4 - {@reward Dragon's Heart|TftJC}}",
+        "{@bold 5 - {@reward Tough Scales|TftJC}}"
+      ]
+    },
+    "Draconic creatures that intake 5 doses of jelly gain a {@reward Draconic Elemental Affinity (Dragonborn)|TftJC} or {@reward Draconic Elemental Affinity (Kobold)|TftJC} depending on your race."
+  ]
+}

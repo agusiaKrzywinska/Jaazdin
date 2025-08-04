@@ -20,7 +20,7 @@
         ],
         "edition": "classic",
         "dateAdded": 0,
-        "dateLastModified": 1754333142,
+        "dateLastModified": 1754334013,
         "optionalFeatureTypes": {
             "FS:W": "Fighting Style: Warden",
             "TECH": "Technique",
@@ -1714,6 +1714,16 @@
             "rarity": "rare",
             "type": "P",
             "source": "TftJC",
+            "foundryType": "consumable",
+            "foundrySubtype": "potion",
+            "foundryData": {
+                "uses": {
+                    "value": 1,
+                    "max": 1,
+                    "per": null,
+                    "autoDestroy": true
+                }
+            },
             "entries": [
                 "This vial of blood-like substance emits a otherworldly power like nothing seen before. You can choose to imbibe this substance or apply it to a weapon.",
                 "If ingested, you gain the following benefits: For one hour, as a bonus action you can roll a hit dice + your level to gain that much HP. You then lose that Hit Dice until the end of a Long Rest. Once this feature is used the potion’s effect is gone.",
@@ -4269,6 +4279,37 @@
             ]
         },
         {
+            "name": "Dragon Jelly",
+            "type": "P",
+            "source": "TftJC",
+            "rarity": "rare",
+            "foundryType": "consumable",
+            "foundrySubtype": "potion",
+            "foundryData": {
+                "uses": {
+                    "value": 1,
+                    "max": 1,
+                    "per": null,
+                    "autoDestroy": true
+                }
+            },
+            "entries": [
+                "A powerful narcotic for dragons, it can imbue non-draconic creatures with temporary draconic boons, or permanent ones for dragons. Roll {@dice 1d5} (rerolling if you already have this effect), you gain one of these abilities. If you are not draconic, these abilities last for 1 hour.",
+                {
+                    "type": "list",
+                    "style": "list-hang-notitle",
+                    "items": [
+                        "{@bold 1 - {@reward Dragon's Breath|TftJC}}",
+                        "{@bold 2 - {@reward Dragon's Claws|TftJC}}",
+                        "{@bold 3 - {@reward Increased Eyesight|TftJC}}",
+                        "{@bold 4 - {@reward Dragon's Heart|TftJC}}",
+                        "{@bold 5 - {@reward Tough Scales|TftJC}}"
+                    ]
+                },
+                "Draconic creatures that intake 5 doses of jelly gain a {@reward Draconic Elemental Affinity (Dragonborn)|TftJC} or {@reward Draconic Elemental Affinity (Kobold)|TftJC} depending on your race."
+            ]
+        },
+        {
             "name": "Dragon's Gold",
             "source": "TftJC",
             "type": "TG",
@@ -4719,6 +4760,16 @@
             "rarity": "rare",
             "type": "P",
             "source": "TftJC",
+            "foundryType": "consumable",
+            "foundrySubtype": "potion",
+            "foundryData": {
+                "uses": {
+                    "value": 1,
+                    "max": 1,
+                    "per": null,
+                    "autoDestroy": true
+                }
+            },
             "entries": [
                 "This Golden potion swirls with small strands of light seemingly flowing within it. As an action, a creature can drink or administer the potion to another creature. Their body is refreshed, as they are affected by the Greater Restoration Spell."
             ]
@@ -7703,10 +7754,58 @@
             ]
         },
         {
+            "name": "Potion of Air Bubble",
+            "type": "P",
+            "source": "TftJC",
+            "rarity": "common",
+            "foundryType": "consumable",
+            "foundrySubtype": "potion",
+            "foundryData": {
+                "uses": {
+                    "value": 1,
+                    "max": 1,
+                    "per": null,
+                    "autoDestroy": true
+                }
+            },
+            "entries": [
+                "Your lungs adapt to other environments, allowing you to breathe easy. For the next 8 hours, you gain the effects of the {@spell air bubble|XGE} spell."
+            ]
+        },
+        {
+            "name": "Potion of Flamewielding",
+            "type": "P",
+            "source": "TftJC",
+            "rarity": "uncommon",
+            "foundryType": "consumable",
+            "foundrySubtype": "potion",
+            "foundryData": {
+                "uses": {
+                    "value": 1,
+                    "max": 1,
+                    "per": null,
+                    "autoDestroy": true
+                }
+            },
+            "entries": [
+                "Your hands ignite with flames for the next minute. Your melee attacks deal an additional {@damage 1d6} fire damage on a hit."
+            ]
+        },
+        {
             "name": "Potion of Foggy Escape",
             "rarity": "common",
             "type": "P",
             "source": "TftJC",
+            "foundryType": "consumable",
+            "foundrySubtype": "potion",
+            "foundryData": {
+                "uses": {
+                    "value": 1,
+                    "max": 1,
+                    "per": null,
+                    "autoDestroy": true
+                }
+            },
             "entries": [
                 "This swirling potion has strange spiraling grey patterns flowing through it. Drinking or breaking the potion will incur different effects.",
                 "<b>Thrown</b>: You can throw the potion bottle up to 20ft. It breaks open, releasing billowing smoke. This creates the effects of the Fog Cloud spell, but is not considered magical and requires no concentration. It lasts for 1 minute.",
@@ -7718,6 +7817,16 @@
             "rarity": "legendary",
             "type": "P",
             "source": "TftJC",
+            "foundryType": "consumable",
+            "foundrySubtype": "potion",
+            "foundryData": {
+                "uses": {
+                    "value": 1,
+                    "max": 1,
+                    "per": null,
+                    "autoDestroy": true
+                }
+            },
             "entries": [
                 "This Deep brown potion is filled with concentrated Memento beans, providing the Drinker a deep connection to Time. Before ingesting the Potion, a hair, nail or other small piece of a creature is to be mixed in with the completed Potion, after which time it glows with Chronurgic Magic. Ingesting the potion allows you to peer through that creature's life. You experience any event they would have from their point of view.",
                 "This potion's duration is based on the current amount of time the selected creature's life has lasted. 1 hour is equivalent of 1 year of that creature's life, if the creature has lived for 36 years the potion's effects remain active for 36 hours as you experience their life. Within that time, you are {@condition blinded}, {@condition deafened} and {@condition incapacitated}. A creature can resist these effects if they do not want to be under the potion's effects, making a DC 19 INT save, repeating this saving throw each hour that passes or when they take damage. The events are played out backwards, meaning more recent events happen in the first hours, and the beginning of the creature's life happens at the end of the vision. This potion's effects cannot be ended early, unless with a 9th level {@spell Dispel Magic|PHB} or by making the above saving throw. The potion provides no effect to creatures that are dead or undead."
@@ -7728,6 +7837,16 @@
             "rarity": "legendary",
             "type": "P",
             "source": "TftJC",
+            "foundryType": "consumable",
+            "foundrySubtype": "potion",
+            "foundryData": {
+                "uses": {
+                    "value": 1,
+                    "max": 1,
+                    "per": null,
+                    "autoDestroy": true
+                }
+            },
             "entries": [
                 "This potion looks to be made from liquid gold. Drinking this potion grants the creature near Perfection in everything it does. Any d20 roll on a Skill check that is 7 or lower is treated as an 8. Your Proficiency Bonus is treated as 2 Higher. You gain 1 Legendary Resistance, which is lost after the duration runs out.",
                 "These effects last for 1 hour. The potion's remaining duration is halved each time you fail a skill check/saving throw."
