@@ -1,0 +1,11 @@
+{
+  "name": "Githyanki Spacer Helm",
+  "type": "G",
+  "rarity": "none",
+  "source": "TftJC",
+  "entries": [
+    "<i><b>Complex Invention.</b></i>",
+    "",
+    "This special helm protects the wearer from environmental hazards that are airborne and is key in navigating the void that is the Astral Sea. This helm can only be worn for 10 hours at a time before 2 attached filters need to be replaced for new ones. While wearing this helm, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such as {@spell cloudkill} and {@spell stinking cloud} effects, inhaled poisons, and the breath weapons of some dragons). You also resist the cold environment of the Astral Sea."
+  ]
+}

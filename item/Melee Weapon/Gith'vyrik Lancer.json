@@ -13,27 +13,6 @@
   "bonusWeapon": "+3",
   "range": "20/60",
   "entries": [
-    "You gain a +3 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon, it deals an extra {@dice 1d8} force damage or, if the target is an Aberration, {@dice 2d8} force damage. Immediately after the attack, the weapon flies back to your hand.",
-    {
-      "type": "entries",
-      "name": "Thrown",
-      "entries": [
-        "If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property."
-      ]
-    },
-    {
-      "type": "entries",
-      "name": "Heavy",
-      "entries": [
-        "Creatures that are Small or Tiny have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small or Tiny creature to use effectively."
-      ]
-    },
-    {
-      "type": "entries",
-      "name": "Two-Handed",
-      "entries": [
-        "This weapon requires two hands to use. This property is relevant only when you attack with the weapon, not when you simply hold it."
-      ]
-    }
+    "You gain a +3 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon, it deals an extra {@dice 1d8} force damage or, if the target is an Aberration, {@dice 2d8} force damage. Immediately after the attack, the weapon flies back to your hand."
   ]
 }

@@ -1,6 +1,6 @@
 const prompt = require("prompt");
 const fs = require("fs");
-const josnData = require("./Tales_from_the_Jaazdin_Collective.json");
+const jsonData = require("./Tales_from_the_Jaazdin_Collective.json");
 
 const EXCLUDED_FOLDERS = [
   "node_modules",
@@ -78,9 +78,15 @@ const updateJson = (version) => {
       .readdirSync(`./${folder}`, { recursive: true })
       .filter((file) => file.endsWith(".json"));
     jsonFiles.forEach((file) => {
-      const fileContent = fs.readFileSync(`./${folder}/${file}`);
-      const obj = JSON.parse(fileContent);
-      newJson[folder].push(obj);
+      try {
+        const fileContent = fs.readFileSync(`./${folder}/${file}`);
+        const obj = JSON.parse(fileContent);
+        newJson[folder].push(obj);
+      } catch (error) {
+        console.error(`Error parsing JSON in file: ${folder}/${file}`);
+        console.error(`Error: ${error.message}`);
+        process.exit(1);
+      }
     });
     newJson[folder].sort(getSort(folder));
   });
@@ -107,7 +113,7 @@ if (process.argv.includes("-s") || process.argv.includes("--skip-prompt")) {
     {
       properties: {
         version: {
-          description: `Enter new version number (Current: ${josnData._meta.sources[0].version})`,
+          description: `Enter new version number (Current: ${jsonData._meta.sources[0].version})`,
           type: "string",
           pattern: /^\d+\.\d+\.\d+$/,
           message:

@@ -1,0 +1,13 @@
+{
+  "name": "Flash Camera",
+  "type": "T",
+  "rarity": "none",
+  "source": "TftJC",
+  "entries": [
+    "<i><b>Innovative Invention.</b></i>",
+    "",
+    "This contraption has the ability to capture a still image and convert it into a small flexible photograph. As an action you can deploy the tripod beneath it to stabilize it, giving advantage on checks to use it. As an action, you can make a {@skill Perception} or {@skill Investigation} check with the camera, capturing an image directly in front of it. The further away the image, the less detail you will get. Your check determines how clear the image will be.",
+    "",
+    "Having a Flash Camera while working the Journalism or Artist job increases your wage by 5 gp."
+  ]
+}

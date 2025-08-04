@@ -1,8 +1,7 @@
 {
   "name": "Blessing of the Four Winds: Southern Slayer",
-  "type": "blessing",
+  "type": "Blessing",
   "source": "TftJC",
-  "rarity": "special",
   "entries": [
     "Each boon can be activated as a bonus action once every 30 days. Once used five times the blessing fades as the spirit of the sage moves on.",
     {
@@ -12,11 +11,5 @@
         "As a bonus action, you can call upon the spirit of Notus, Sage of the Southern Wind, to bolster your blows with the strength of storms. For the next minute, if you hit with a melee weapon attack, your weapon deals 1d6 extra thunder damage. Once you use this ability, you cannot use it again for 30 days."
       ]
     }
-  ],
-  "uses": {
-    "max": 5,
-    "per": "lifetime",
-    "cooldown": "30 days"
-  },
-  "duration": "1 minute"
+  ]
 }

@@ -1,0 +1,19 @@
+{
+  "name": "Explosive Shot",
+  "type": "GV",
+  "rarity": "none",
+  "source": "TftJC",
+  "entries": [
+    "<i><b>Complex Invention.</i></b>",
+    "Cost 100gp. Requires Alchemist's Tools (INT)",
+    "Creates either 4 {@item Explosive Handcannon Ball|TftJC|Handcannon Balls}, 2 {@item Explosive Cannonball|TftJC|Cannonballs} or 5 {@item Explosive Firearm Ammunition|TftJC|Explosive ammunition}.",
+    "These cannonballs can be used within a Handcannon, Cannon or explosive firearm as ammunition. The weapon deals its normal damage, and gains 5 explosive (or +10 explosive if the weapon was already is explosive). The explosive damage dealt by this Shot is halved.",
+    {
+      "type": "entries",
+      "name": "Explosive",
+      "entries": [
+        "Upon a hit, everything but the targeted creature within a radius determined by its explosive value of the target takes additional damage equal to the weapon's damage roll. If the weapon attack misses, the explosive ammunition fails to detonate. Explosive weapons have their misfire score increased by 1 (or gain a misfire of 1 if they did not have a misfire score originally)."
+      ]
+    }
+  ]
+}

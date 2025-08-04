@@ -1,0 +1,32 @@
+{
+  "name": "Sawmace (Trick Weapon)",
+  "type": "M",
+  "rarity": "none",
+  "source": "TftJC",
+  "weight": 8,
+  "weaponCategory": "martial",
+  "dmg1": "1d6",
+  "dmg2": "1d12",
+  "dmgType": "B",
+  "property": ["H"],
+  "entries": [
+    "<i><b>Complex Invention.</b></i>",
+    "This heavy {@item mace|PHB} and {@item shield|PHB} are built to slot together. In mace form it deals {@dice 1d6} bludgeoning damage as a one-handed weapon with shield, while in saw form it deals {@dice 1d12} slashing damage as a two-handed weapon. When a creature deals maximum damage on the {@dice d12} damage die in saw form, they can use their reaction to rev the sawblade, dealing an additional {@dice 1d12} slashing damage.",
+    {
+      "type": "entries",
+      "name": "Mace Form",
+      "entries": [
+        "{@dice 1d6} Bludgeoning, Heavy",
+        "Functions as both a {@item mace|PHB} ({@dice 1d6} bludgeoning damage) and {@item shield|PHB} when wielded together, granting a +1 bonus to AC."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Saw Form",
+      "entries": [
+        "{@dice 1d12} Slashing, Two-handed, Heavy, Special",
+        "When you roll maximum damage on the {@dice d12} slashing damage die, you can use your reaction to rev the sawblade, dealing an additional {@dice 1d12} slashing damage."
+      ]
+    }
+  ]
+}

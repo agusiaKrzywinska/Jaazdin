@@ -3,7 +3,6 @@
   "type": "WD",
   "rarity": "artifact",
   "wondrous": true,
-  "unique": true,
   "reqAttune": true,
   "source": "TftJC",
   "charges": 10,

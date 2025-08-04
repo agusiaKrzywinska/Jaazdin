@@ -1,8 +1,7 @@
 {
   "name": "Virulent Grung",
-  "type": "blessing",
+  "type": "Blessing",
   "source": "TftJC",
-  "rarity": "special",
   "entries": [
     "Through various Poisons being absorbed, your toxins have reached their pinnacle. Your DCs for all of your poisons are 19. Some Grung features are modified due to your Poisons.",
     {
@@ -35,14 +34,17 @@
           "type": "list",
           "items": [
             {
+              "type": "item",
               "name": "Death's Kiss",
-              "entry": "The target must succeed on a CON saving throw or take an additional 2d6 Necrotic Damage damage. If they fail this save by 5 or more, their hitpoint maximum is reduced equal to the Necrotic Damage taken until they complete a Long Rest. On a Success, they take half of this amount."
+              "entry": "The target must succeed on a CON saving throw or take an additional 2d6 Necrotic Damage damage. If they fail this save by 5 or more, their hit point maximum is reduced equal to the Necrotic Damage taken until they complete a Long Rest. On a Success, they take half of this amount."
             },
             {
+              "type": "item",
               "name": "Midnight Tears",
               "entry": "The target must succeed on a CON saving throw or take 4d6 Poison Damage, or 8d6 if it is within 1 hour of Midnight."
             },
             {
+              "type": "item",
               "name": "Purple Wurm",
               "entry": "The target must succeed on a CON saving throw or have their resistance to Poison Damage removed for 1 Minute. They can repeat this saving throw at the end of each of their turns."
             }
@@ -57,6 +59,5 @@
         "You always feel somewhat out of your body. You cannot tell time passage, and have disadvantage on saving throws against spells that would shunt you in time, freeze you in time, affect time in any way for you, or Chronurgy Spells. Failing a saving throw or otherwise being affected by a Time-related effect causes you to to take psychic damage equal to the spells level x 1d6. You also learn the Gift of Alacrity Spell (doesn't count against spells known, always prepared)."
       ]
     }
-  ],
-  "poisonDC": 19
+  ]
 }

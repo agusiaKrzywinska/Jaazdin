@@ -7,10 +7,6 @@
   "baseItem": "shield|PHB",
   "bonusAc": 1,
   "sentient": true,
-  "alignment": "Lawful Good",
-  "int": 10,
-  "wis": 12,
-  "cha": 18,
   "entries": [
     "This magical shield grants +1 to AC.",
     "This shield is Sentient, and has an Alignment of Lawful Good (Int 10, Wis 12, Cha 18) and will always urge the user to protect others.",

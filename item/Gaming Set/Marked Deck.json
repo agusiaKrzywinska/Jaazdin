@@ -1,0 +1,12 @@
+{
+  "name": "Marked Deck",
+  "baseItem": "playing card set",
+  "type": "GS",
+  "rarity": "none",
+  "source": "TftJC",
+  "entries": [
+    "<i><b>Simple Invention.</b></i>",
+    "",
+    "This deck has various small tells to someone with a keen eye, allowing them to use it for deceit. To spot a marked deck, a creature has to make a DC 17 {@skill Investigation} check, and on a success will notice that the deck is marked. For anyone who knows the deck is marked, they have advantage on {@item gaming set (playing cards)|phb} checks made with it."
+  ]
+}

@@ -1,8 +1,7 @@
 {
   "name": "Blessing of the Four Winds: Northern Sentinel",
-  "type": "blessing",
+  "type": "Blessing",
   "source": "TftJC",
-  "rarity": "special",
   "entries": [
     "Each boon can be activated as a bonus action once every 30 days. Once used five times the blessing fades as the spirit of the sage moves on.",
     {
@@ -12,11 +11,5 @@
         "As a bonus action, you can call upon the spirit of Borealis, Sage of the Northern Wind, to protect yourself and allies. For the next minute, ranged attacks against you and allied creatures within 10ft of you have disadvantage and if you are hit by a melee weapon attack the damage is reduced by 1d4. Once you use this ability, you cannot use it again for 30 days."
       ]
     }
-  ],
-  "uses": {
-    "max": 5,
-    "per": "lifetime",
-    "cooldown": "30 days"
-  },
-  "duration": "1 minute"
+  ]
 }

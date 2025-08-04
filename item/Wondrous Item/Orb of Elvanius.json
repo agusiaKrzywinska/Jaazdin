@@ -11,8 +11,6 @@
     "In addition, while attuned, {@spell Elvinus’ Ward of Conflux|TftJC} is added to your spell list if you have one."
   ],
   "customProperties": {
-    "damageTypes": ["fire", "cold", "lightning", "thunder", "acid"],
-    "reductionDieProgression": ["d4", "d6", "d8", "d10", "d12"],
     "spellGranted": "Elvinus’ Ward of Conflux"
   }
 }

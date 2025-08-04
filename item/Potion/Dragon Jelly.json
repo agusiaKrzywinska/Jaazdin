@@ -4,13 +4,11 @@
   "source": "TftJC",
   "rarity": "rare",
   "foundryType": "consumable",
-  "foundrySubtype": "potion",
-  "foundryData": {
+  "foundrySystem": {
+    "consumableType": "potion",
     "uses": {
-      "value": 1,
       "max": 1,
-      "per": null,
-      "autoDestroy": true
+      "per": "charges"
     }
   },
   "entries": [
@@ -26,6 +24,15 @@
         "{@bold 5 - {@reward Tough Scales|TftJC}}"
       ]
     },
-    "Draconic creatures that intake 5 doses of jelly gain a {@reward Draconic Elemental Affinity (Dragonborn)|TftJC} or {@reward Draconic Elemental Affinity (Kobold)|TftJC} depending on your race."
+    "Draconic Creatures that intake 5 doses of Jelly gain a Boon of their choice from this list.",
+    {
+      "type": "list",
+      "items": [
+        "{@reward Draconic Elemental Affinity (Dragonborn)|TftJC} / {@reward Draconic Elemental Affinity (Kobold)|TftJC}",
+        "Draconic Regality",
+        "Draconic Ferocity"
+      ]
+    },
+    "This boon changes slightly based on your race, depending if you are a Kobold or Dragonborn."
   ]
 }

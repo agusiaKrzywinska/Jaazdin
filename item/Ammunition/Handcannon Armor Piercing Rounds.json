@@ -1,0 +1,9 @@
+{
+  "name": "Handcannon Armor Piercing Rounds",
+  "type": "A",
+  "rarity": "none",
+  "source": "TftJC",
+  "entries": [
+    "These rounds burst on contact, drilling through tough defenses. The weapon gains a +1 to hit against creatures wearing Medium Armor, +2 to hit against creatures wearing Heavy Armor, an additional +1 to hit against creatures using a {@item Shield|PHB}, but a -1 to hit against Unarmored Creatures. Light Armor provides no changes."
+  ]
+}

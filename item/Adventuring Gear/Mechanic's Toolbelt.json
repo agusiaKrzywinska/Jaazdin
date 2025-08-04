@@ -1,0 +1,14 @@
+{
+  "name": "Mechanic's Toolbelt",
+  "type": "G",
+  "rarity": "none",
+  "source": "TftJC",
+  "containerCapacity": {
+    "item": [{ "Any tool": 8 }]
+  },
+  "entries": [
+    "<i><b>Simple Invention.</b></i>",
+    "",
+    "This toolbelt has many heavy duty pockets for on the fly repairs. It can store up to 8 different types of Tools or Kits (Artisan, Gaming, or any item ending in Tools or Kit). You can take out a stored tool once per turn as a Free action, or as an item interaction on the same turn, and if you already have a set of Tools in your hand when you do so, you can store that in the belt as a part of that action."
+  ]
+}

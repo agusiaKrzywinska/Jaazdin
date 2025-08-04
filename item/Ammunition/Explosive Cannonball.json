@@ -1,0 +1,24 @@
+{
+  "name": "Explosive Cannonball",
+  "type": "A",
+  "rarity": "none",
+  "source": "TftJC",
+  "weaponCategory": "ammunition",
+  "entries": [
+    "Ammunition for cannons enhanced with explosive compounds.",
+    "The weapon deals its normal damage, and gains 5 explosive (or +10 explosive if the weapon was already explosive). The explosive damage dealt by this ammunition is halved.",
+    {
+      "type": "entries",
+      "name": "Explosive",
+      "entries": [
+        "Upon a hit, everything but the targeted creature within a radius determined by its explosive value of the target takes additional damage equal to the weapon's damage roll. If the weapon attack misses, the explosive ammunition fails to detonate. Explosive weapons have their misfire score increased by 1 (or gain a misfire of 1 if they did not have a misfire score originally)."
+      ]
+    }
+  ],
+  "customProperties": {
+    "ammunitionType": "Cannonball",
+    "explosive": 5,
+    "misfireIncrease": 1,
+    "explosiveDamageReduction": "halved"
+  }
+}

@@ -11,14 +11,6 @@
     "When a creature attuned to this item, it gains all features and abilities detailed by the upgrades provided to the Core. Unattuning to the core causes the effect to be removed."
   ],
   "customProperties": {
-    "upgradeable": true,
-    "maxUpgrades": {
-      "common": 1,
-      "uncommon": 2,
-      "rare": 3,
-      "very rare": 4,
-      "legendary": 5
-    },
     "upgradeFacility": "Construct Upgrade Facility",
     "tinkersToolsRequired": true
   }

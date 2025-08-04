@@ -4,13 +4,11 @@
   "source": "TftJC",
   "rarity": "common",
   "foundryType": "consumable",
-  "foundrySubtype": "potion",
-  "foundryData": {
+  "foundrySystem": {
+    "consumableType": "potion",
     "uses": {
-      "value": 1,
       "max": 1,
-      "per": null,
-      "autoDestroy": true
+      "per": "charges"
     }
   },
   "entries": [

@@ -20,7 +20,6 @@
     "In addition this crossbow can be used as an arcane focus. When used as an arcane focus you can change the damage of any spell cast through it to the damage type of the currently focused lens."
   ],
   "customProperties": {
-    "lensTypes": ["fire", "acid", "lightning", "cold", "thunder", "acid"],
     "lensChangeAction": "bonus",
     "arcaneFocus": true,
     "extraDamage": "1d8 (type based on lens)"
