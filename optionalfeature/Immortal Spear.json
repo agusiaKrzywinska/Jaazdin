@@ -1,0 +1,14 @@
+{
+  "name": "Immortal Spear",
+  "prerequisite": [
+    {
+      "feature": ["Warden: Immortal Guard"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["TECH"],
+  "entries": [
+    "As part of an attack, you also command your Legionnaires to attack one creature within 30 feet of you. Any Legionnaires within 60 feet of you can move up to 15ft towards a target of your choice, until the end of that your next turn, whenever you hit a creature with an attack it takes 1 additional damage for each Legionnaire within 5ft of it."
+  ]
+}

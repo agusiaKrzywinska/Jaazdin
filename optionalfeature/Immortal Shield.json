@@ -1,0 +1,14 @@
+{
+  "name": "Immortal Shield",
+  "prerequisite": [
+    {
+      "feature": ["Warden: Immortal Guard"]
+    }
+  ],
+  "source": "TftJC",
+  "page": 48,
+  "featureType": ["TECH"],
+  "entries": [
+    "You forgo one attack and instead command your Legionnaires to protect one creature within 30 feet of you. Any Legionnaires within 60 feet of you can move up to 15ft towards a target of your choice, until the end of that target’s turn when it takes damage, that damage is reduced by 1 for each Legionnaire or yourself within 5ft of it."
+  ]
+}

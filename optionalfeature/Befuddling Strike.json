@@ -9,7 +9,7 @@
   "page": 48,
   "featureType": ["TECH"],
   "entries": [
-    "As part of an attack, you strike a creature and confuse its senses. When you use this technique to attack a creature, that creature must make an Intelligence saving throw even if the attack misses. If the target fails, they become confused and on their next turn take one of the following actions of your choice.",
+    "As part of an attack, you strike a creature and confuse its senses. When you use this technique to attack a creature, that creature must make an Intelligence saving throw even if the attack misses. If the target fails, they become confused and on their next turn take one of the following actions of your choice, and then end their turn:",
     {
       "type": "list",
       "items": [

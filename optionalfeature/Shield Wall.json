@@ -9,6 +9,6 @@
   "page": 48,
   "featureType": ["TECH"],
   "entries": [
-    "You forgo one attack to instead brace your charge for incoming attacks. To use this technique, you must be wielding a shield. For the next minute, whenever your Honor Bound is within 5ft of you, they gain the AC benefits of your shield and can add your shield bonus to any Dexterity saving throws they make. "
+    "You forgo one attack to instead brace your charge for incoming attacks. To use this technique, you must be wielding a shield. For the next minute, whenever your Honor Bound is within 5ft of you, they gain the AC benefits of your shield and can add your shield bonus to any Dexterity saving throws they make. The effect ends if you drop your shield or become incapacitated."
   ]
 }

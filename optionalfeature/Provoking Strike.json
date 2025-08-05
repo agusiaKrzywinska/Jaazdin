@@ -4,6 +4,6 @@
   "page": 48,
   "featureType": ["TECH"],
   "entries": [
-    "As part of an attack, you goad one creature into paying attention to you. When you use this technique, the creature must make a Charisma saving throw even if the attack misses. If the target fails the saving throw, the creature makes all attacks against targets other than you with disadvantage until the end of the creature's next turn. This effect ends if you move more than 10 ft from the creature."
+    "As part of an attack, you goad one creature into paying attention to you. When you use this technique, the creature must make a Charisma saving throw even if the attack misses. If the target fails the saving throw, the creature makes all attacks against targets other than you with disadvantage until the end of your next turn."
   ]
 }

@@ -9,6 +9,6 @@
   "page": 48,
   "featureType": ["TECH"],
   "entries": [
-    "When you cast a spell that restores hit points, you can use this technique to increase the potency of the healing. The targeted creature regains additional hit points equal to your Constitution modifier, and you regain hit points equal to your Constitution modifier plus the spells level."
+    "When you cast a spell that restores hit points, you can use this technique to increase the potency of the healing. The targeted creature regains additional hit points equal to your Constitution modifier, and you regain hit points equal to your Warden Level plus the spells level."
   ]
 }

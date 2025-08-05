@@ -10,7 +10,7 @@
     "When you take this tract at 3rd level, you gain one technique from the list below. Whenever you gain a new technique, you can choose from this list as well.",
     {
       "type": "inset",
-      "name": "Shield Wall",
+      "name": "Immortal Wall",
       "entries": [
         "You command your Legionnaires to form an unbreakable wall. Select one Legionnaire or yourself. Any Legionnaires within 60 feet of you or the selected Legionnaire can move up to 15ft towards you, Legionnaires that end their movement adjacent to yourself or another Legionnaires have their AC increased by 4 and become tangible. Attacks cannot pass through or above the Legionnaires (up to 10 feet above and below them) and creature that try and move through the Legionnaires must make a Strength saving throw or be knocked prone and have their movement stopped. This effect ends at the start of your next turn."
       ]

@@ -9,6 +9,6 @@
   "page": 48,
   "featureType": ["TECH"],
   "entries": [
-    "When you cast a spell that targets only you, you can use this Technique to grant one other creature the effects of the spell. If the spell lasts for a duration, it lasts on the secondary creature for a number of rounds equal to the duration of the spell or equal to half your proficiency modifier (rounded down) whichever is lower."
+    "When you cast a spell that targets only you, you can use this Technique to grant one other creature within 5ft of you the effects of the spell. If the spell lasts for a duration, it lasts on the secondary creature for a number of rounds equal to the duration of the spell or equal to half your proficiency modifier (rounded down) whichever is lower."
   ]
 }
