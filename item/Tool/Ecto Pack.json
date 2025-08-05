@@ -3,7 +3,6 @@
   "type": "T",
   "rarity": "none",
   "source": "TftJC",
-  "toolType": "artisan",
   "entries": [
     "<i><b>Innovative Invention.</b></i>",
     "This backpack comes outfitted with a large hose attached to it, allowing to the quick suction of gaseous materials. The Ecto Pack allows the wearer to harvest Gaseous reagents from creatures, like mists, vapors, fogs, essences, etc. Harvesting a gaseous reagent with this item requires only {@dice 10} minutes of harvesting, and the harvester can choose to make either a {@skill Survival} check or a Glassblower's check (CON). After a successful harvest, the gas appears in a small glass tube where it is safely stored within the pack, that can easily be removed."

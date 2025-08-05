@@ -15,12 +15,12 @@
                     "Adam Henderson",
                     "Malcolm Keefe"
                 ],
-                "version": "0.3.85"
+                "version": "0.4.0"
             }
         ],
         "edition": "classic",
         "dateAdded": 0,
-        "dateLastModified": 1754340309,
+        "dateLastModified": 1754354007,
         "optionalFeatureTypes": {
             "FS:W": "Fighting Style: Warden",
             "TECH": "Technique",
@@ -4460,7 +4460,6 @@
             "type": "T",
             "rarity": "none",
             "source": "TftJC",
-            "toolType": "artisan",
             "entries": [
                 "<i><b>Innovative Invention.</b></i>",
                 "This backpack comes outfitted with a large hose attached to it, allowing to the quick suction of gaseous materials. The Ecto Pack allows the wearer to harvest Gaseous reagents from creatures, like mists, vapors, fogs, essences, etc. Harvesting a gaseous reagent with this item requires only {@dice 10} minutes of harvesting, and the harvester can choose to make either a {@skill Survival} check or a Glassblower's check (CON). After a successful harvest, the gas appears in a small glass tube where it is safely stored within the pack, that can easily be removed."
@@ -4801,7 +4800,7 @@
                     "type": "entries",
                     "name": "Explosive",
                     "entries": [
-                        "Upon a hit, everything but the targeted creature within a radius determined by its explosive value of the target takes additional damage equal to the weapon's damage roll. If the weapon attack misses, the explosive ammunition fails to detonate. Explosive weapons have their misfire score increased by 1 (or gain a misfire of 1 if they did not have a misfire score originally)."
+                        "Upon a hit, everything but the targeted creature within a radius determined by its explosive value of the target takes additional damage equal to the weapon’s damage roll. If the weapon attack misses, the explosive ammunition fails to detonate. Inanimate objects take double damage die from Explosive weapons. Explosive weapons have their misfire score increased by 1."
                     ]
                 }
             ],
@@ -4825,7 +4824,7 @@
                     "type": "entries",
                     "name": "Explosive",
                     "entries": [
-                        "Upon a hit, everything but the targeted creature within a radius determined by its explosive value of the target takes additional damage equal to the weapon's damage roll. If the weapon attack misses, the explosive ammunition fails to detonate. Explosive weapons have their misfire score increased by 1 (or gain a misfire of 1 if they did not have a misfire score originally)."
+                        "Upon a hit, everything but the targeted creature within a radius determined by its explosive value of the target takes additional damage equal to the weapon’s damage roll. If the weapon attack misses, the explosive ammunition fails to detonate. Inanimate objects take double damage die from Explosive weapons. Explosive weapons have their misfire score increased by 1."
                     ]
                 }
             ],
@@ -4878,7 +4877,7 @@
             "dmgType": "F",
             "range": "80/320",
             "entries": [
-                "<b><i>Explosive 5.</i></b> Upon a hit, everything within a radius determined by its explosive value of the target must make a Dexterity saving throw (DC equal to 8 + Prof + Dex) or take additional damage equal to the weapon’s damage roll. If the weapon attack misses, the explosive ammunition fails to detonate. Explosive weapons have their misfire score increased by 1.",
+                "<b><i>Explosive 5.</i></b> Upon a hit, everything but the targeted creature within a radius determined by its explosive value of the target takes additional damage equal to the weapon’s damage roll. If the weapon attack misses, the explosive ammunition fails to detonate. Inanimate objects take double damage die from Explosive weapons. Explosive weapons have their misfire score increased by 1.",
                 "<b><i>Barrel 3.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel."
             ]
         },
@@ -11245,7 +11244,7 @@
                 "TECH"
             ],
             "entries": [
-                "As part of an attack, you strike a creature and confuse its senses. When you use this technique to attack a creature, that creature must make an Intelligence saving throw even if the attack misses. If the target fails, they become confused and on their next turn take one of the following actions of your choice.",
+                "As part of an attack, you strike a creature and confuse its senses. When you use this technique to attack a creature, that creature must make an Intelligence saving throw even if the attack misses. If the target fails, they become confused and on their next turn take one of the following actions of your choice, and then end their turn:",
                 {
                     "type": "list",
                     "items": [
@@ -11336,7 +11335,7 @@
                 "TECH"
             ],
             "entries": [
-                "You forgo an attack to instead brace yourself and up to one other creature, allowing them to use their reaction to use the dodge action, as well as taking the Dodge action yourself. Until the end of your next turn, you and an ally that takes the dodge action using their reaction gains advantage against any effects that would physically force that creature's movement. Any creature that enters your or your affected allies threat range immediately provokes an attack of opportunity without using your reaction."
+                "You forgo an attack to instead brace yourself and up to one other creature within 10ft of you, allowing them to use their reaction to use the dodge action, as well as taking the Dodge action yourself. Until the end of your next turn, you and an ally that takes the dodge action using their reaction gains advantage against any effects that would physically force that creature’s movement. Any creature that enters your or your affected allies threat range immediately provokes an attack of opportunity without using your reaction. You lose the bonus if you are ever more than 10ft apart from the target."
             ]
         },
         {
@@ -11882,7 +11881,7 @@
                 "TECH"
             ],
             "entries": [
-                "When you cast a spell that restores hit points, you can use this technique to increase the potency of the healing. The targeted creature regains additional hit points equal to your Constitution modifier, and you regain hit points equal to your Constitution modifier plus the spells level."
+                "When you cast a spell that restores hit points, you can use this technique to increase the potency of the healing. The targeted creature regains additional hit points equal to your Constitution modifier, and you regain hit points equal to your Warden Level plus the spells level."
             ]
         },
         {
@@ -12456,6 +12455,60 @@
             ]
         },
         {
+            "name": "Immortal Shield",
+            "prerequisite": [
+                {
+                    "feature": [
+                        "Warden: Immortal Guard"
+                    ]
+                }
+            ],
+            "source": "TftJC",
+            "page": 48,
+            "featureType": [
+                "TECH"
+            ],
+            "entries": [
+                "You forgo one attack and instead command your Legionnaires to protect one creature within 30 feet of you. Any Legionnaires within 60 feet of you can move up to 15ft towards a target of your choice, until the end of that target’s turn when it takes damage, that damage is reduced by 1 for each Legionnaire or yourself within 5ft of it."
+            ]
+        },
+        {
+            "name": "Immortal Spear",
+            "prerequisite": [
+                {
+                    "feature": [
+                        "Warden: Immortal Guard"
+                    ]
+                }
+            ],
+            "source": "TftJC",
+            "page": 48,
+            "featureType": [
+                "TECH"
+            ],
+            "entries": [
+                "As part of an attack, you also command your Legionnaires to attack one creature within 30 feet of you. Any Legionnaires within 60 feet of you can move up to 15ft towards a target of your choice, until the end of that your next turn, whenever you hit a creature with an attack it takes 1 additional damage for each Legionnaire within 5ft of it."
+            ]
+        },
+        {
+            "name": "Immortal Wall",
+            "prerequisite": [
+                {
+                    "feature": [
+                        "Warden: Immortal Guard"
+                    ]
+                }
+            ],
+            "source": "TftJC",
+            "page": 48,
+            "featureType": [
+                "TECH"
+            ],
+            "entries": [
+                "You command your Legionnaires to form an unbreakable wall. Select one Legionnaire or yourself. Any Legionnaires within 60 feet of you or the selected Legionnaire can move up to 15ft towards you, Legionnaires that end their movement adjacent to yourself or another Legionnaires have their AC increased by 4 and become tangible. Attacks cannot pass through or above the Legionnaires (up to 10 feet above and below them) and creature that try and move through the Legionnaires must make a Strength saving throw or be knocked prone and have their movement stopped. This effect ends at the start of your next turn."
+            ]
+        },
+        {
             "name": "Improved Belt Feed",
             "prerequisite": [
                 {
@@ -12964,7 +13017,7 @@
                 "TECH"
             ],
             "entries": [
-                "You can forgo one attack to instead make a grapple check. When you do this, you can choose one ally within 5ft of the target, if that creature has proficiency in Athletics you add twice your Strength bonus to your Athletics check to grapple the target. If you successfully grapple the target and the target is Large or smaller, you instead pin the creature, Restraining it until you move more than 5ft from the target. The creature can use an action to attempt to break free from the restraint, making a Strength saving throw against your Technique save DC."
+                "You can forgo one attack to instead make a grapple check. When you do this, you can choose one ally within 5ft of the target, if that creature has proficiency in Athletics you add twice your Strength bonus to your Athletics check to grapple the target. If you successfully grapple the target and the target is no more than 1 size larger than you, you instead pin the creature, Restraining it until you move more than 5ft from the target. The creature can use an action to attempt to break free from the restraint, making a Strength saving throw against your Technique save DC, breaking free on a success."
             ]
         },
         {
@@ -13029,7 +13082,7 @@
                 "TECH"
             ],
             "entries": [
-                "As part of an attack, you goad one creature into paying attention to you. When you use this technique, the creature must make a Charisma saving throw even if the attack misses. If the target fails the saving throw, the creature makes all attacks against targets other than you with disadvantage until the end of the creature's next turn. This effect ends if you move more than 10 ft from the creature."
+                "As part of an attack, you goad one creature into paying attention to you. When you use this technique, the creature must make a Charisma saving throw even if the attack misses. If the target fails the saving throw, the creature makes all attacks against targets other than you with disadvantage until the end of your next turn."
             ]
         },
         {
@@ -13548,7 +13601,7 @@
                 "TECH"
             ],
             "entries": [
-                "You forgo one attack to instead brace your charge for incoming attacks. To use this technique, you must be wielding a shield. For the next minute, whenever your Honor Bound is within 5ft of you, they gain the AC benefits of your shield and can add your shield bonus to any Dexterity saving throws they make. "
+                "You forgo one attack to instead brace your charge for incoming attacks. To use this technique, you must be wielding a shield. For the next minute, whenever your Honor Bound is within 5ft of you, they gain the AC benefits of your shield and can add your shield bonus to any Dexterity saving throws they make. The effect ends if you drop your shield or become incapacitated."
             ]
         },
         {
@@ -13658,7 +13711,7 @@
                 "TECH"
             ],
             "entries": [
-                "When you cast a spell that targets only you, you can use this Technique to grant one other creature the effects of the spell. If the spell lasts for a duration, it lasts on the secondary creature for a number of rounds equal to the duration of the spell or equal to half your proficiency modifier (rounded down) whichever is lower."
+                "When you cast a spell that targets only you, you can use this Technique to grant one other creature within 5ft of you the effects of the spell. If the spell lasts for a duration, it lasts on the secondary creature for a number of rounds equal to the duration of the spell or equal to half your proficiency modifier (rounded down) whichever is lower."
             ]
         },
         {
@@ -23799,7 +23852,7 @@
                     "type": "inset",
                     "name": "Smoke Bomb",
                     "entries": [
-                        "As a Bonus Action, you create an explosion of Fog in a 10ft radius around you, which heavily obscures the area. You also become invisible until the start of your next turn, or attack or cast a spell."
+                        "As a Bonus Action, you create an explosion of Fog in a 10ft radius around you, which heavily obscures the area. You additonally turn invisible, and the fog remains so long as you are invisible. Your invisibility ends when you cast a spell or make an attack, or until the start of your next turn."
                     ]
                 },
                 {
@@ -24884,7 +24937,7 @@
                 "When you take this tract at 3rd level, you gain one technique from the list below. Whenever you gain a new technique, you can choose from this list as well.",
                 {
                     "type": "inset",
-                    "name": "Shield Wall",
+                    "name": "Immortal Wall",
                     "entries": [
                         "You command your Legionnaires to form an unbreakable wall. Select one Legionnaire or yourself. Any Legionnaires within 60 feet of you or the selected Legionnaire can move up to 15ft towards you, Legionnaires that end their movement adjacent to yourself or another Legionnaires have their AC increased by 4 and become tangible. Attacks cannot pass through or above the Legionnaires (up to 10 feet above and below them) and creature that try and move through the Legionnaires must make a Strength saving throw or be knocked prone and have their movement stopped. This effect ends at the start of your next turn."
                     ]
