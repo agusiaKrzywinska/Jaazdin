@@ -12,7 +12,7 @@
       "type": "inset",
       "name": "Smoke Bomb",
       "entries": [
-        "As a Bonus Action, you create an explosion of Fog in a 10ft radius around you, which heavily obscures the area. You also become invisible until the start of your next turn, or attack or cast a spell."
+        "As a Bonus Action, you create an explosion of Fog in a 10ft radius around you, which heavily obscures the area. You additonally turn invisible, and the fog remains so long as you are invisible. Your invisibility ends when you cast a spell or make an attack, or until the start of your next turn."
       ]
     },
     {

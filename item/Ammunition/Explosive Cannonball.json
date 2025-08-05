@@ -11,7 +11,7 @@
       "type": "entries",
       "name": "Explosive",
       "entries": [
-        "Upon a hit, everything but the targeted creature within a radius determined by its explosive value of the target takes additional damage equal to the weapon's damage roll. If the weapon attack misses, the explosive ammunition fails to detonate. Explosive weapons have their misfire score increased by 1 (or gain a misfire of 1 if they did not have a misfire score originally)."
+        "Upon a hit, everything but the targeted creature within a radius determined by its explosive value of the target takes additional damage equal to the weapon’s damage roll. If the weapon attack misses, the explosive ammunition fails to detonate. Inanimate objects take double damage die from Explosive weapons. Explosive weapons have their misfire score increased by 1."
       ]
     }
   ],
