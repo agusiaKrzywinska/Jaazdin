@@ -8,7 +8,7 @@
     "consumableType": "potion",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null
     }
   },
   "entries": [

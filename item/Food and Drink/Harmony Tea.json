@@ -15,7 +15,53 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null
+    },
+    "activities": {
+      "drinkTea": {
+        "type": "utility",
+        "name": "Drink Harmony Tea",
+        "description": {
+          "chatFlavor": "Drinks the harmony tea and gains concentration bonus"
+        },
+        "effects": ["harmonyTeaEffect"],
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1"
+            }
+          ]
+        }
+      }
+    },
+    "effects": {
+      "harmonyTeaEffect": {
+        "name": "Harmony Tea Effect",
+        "description": "Gain +1 to all concentration checks until you take a rest",
+        "img": "icons/consumables/drinks/cup-simple-clay-brown.webp",
+        "duration": {
+          "seconds": null,
+          "rounds": null,
+          "turns": null
+        },
+        "changes": [
+          {
+            "key": "system.bonuses.abilities.con",
+            "mode": 2,
+            "value": "1",
+            "priority": 20
+          }
+        ],
+        "flags": {
+          "dnd5e": {
+            "type": "enchantment"
+          }
+        },
+        "transfer": false,
+        "disabled": false
+      }
     }
   }
 }

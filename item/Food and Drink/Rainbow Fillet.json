@@ -15,7 +15,7 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null
     }
   }
 }

@@ -15,7 +15,65 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null
+    },
+    "activities": {
+      "eatCrackers": {
+        "type": "utility",
+        "name": "Eat Lemon Salt Crackers",
+        "description": {
+          "chatFlavor": "Eats the crackers and gains physical ability bonuses"
+        },
+        "effects": ["lemonSaltEffect"],
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1"
+            }
+          ]
+        }
+      }
+    },
+    "effects": {
+      "lemonSaltEffect": {
+        "name": "Lemon Salt Crackers Effect",
+        "description": "You gain a +1 bonus to all Strength, Dexterity, and Constitution ability checks",
+        "img": "icons/consumables/food/bread-loaf-brown-grey.webp",
+        "duration": {
+          "seconds": null,
+          "rounds": null,
+          "turns": null
+        },
+        "changes": [
+          {
+            "key": "system.bonuses.abilities.str",
+            "mode": 2,
+            "value": "1",
+            "priority": 20
+          },
+          {
+            "key": "system.bonuses.abilities.dex",
+            "mode": 2,
+            "value": "1",
+            "priority": 20
+          },
+          {
+            "key": "system.bonuses.abilities.con",
+            "mode": 2,
+            "value": "1",
+            "priority": 20
+          }
+        ],
+        "flags": {
+          "dnd5e": {
+            "type": "enchantment"
+          }
+        },
+        "transfer": false,
+        "disabled": false
+      }
     }
   }
 }

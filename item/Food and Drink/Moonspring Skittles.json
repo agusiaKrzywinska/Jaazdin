@@ -15,7 +15,65 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null
+    },
+    "activities": {
+      "eatSkittles": {
+        "type": "utility",
+        "name": "Eat Moonspring Skittles",
+        "description": {
+          "chatFlavor": "Eats the skittles and gains mental ability bonuses"
+        },
+        "effects": ["moonspringEffect"],
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "target": "",
+              "value": "1"
+            }
+          ]
+        }
+      }
+    },
+    "effects": {
+      "moonspringEffect": {
+        "name": "Moonspring Skittles Effect",
+        "description": "You gain a +1 bonus to all Intelligence, Wisdom, and Charisma ability checks",
+        "img": "icons/consumables/candy/candy-wrapped-blue.webp",
+        "duration": {
+          "seconds": null,
+          "rounds": null,
+          "turns": null
+        },
+        "changes": [
+          {
+            "key": "system.bonuses.abilities.int",
+            "mode": 2,
+            "value": "1",
+            "priority": 20
+          },
+          {
+            "key": "system.bonuses.abilities.wis",
+            "mode": 2,
+            "value": "1",
+            "priority": 20
+          },
+          {
+            "key": "system.bonuses.abilities.cha",
+            "mode": 2,
+            "value": "1",
+            "priority": 20
+          }
+        ],
+        "flags": {
+          "dnd5e": {
+            "type": "enchantment"
+          }
+        },
+        "transfer": false,
+        "disabled": false
+      }
     }
   }
 }
