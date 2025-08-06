@@ -7,7 +7,7 @@
   "weight": 0,
   "entries": [
     "<b>Preparation:</b> Requires Cook's Tools or Brewer's Tools to prepare.",
-    "<b>Ingredients:</b> x1 Bubblepod, x1 Drow’s Wine Glass, x3 Red Winterberry.",
+    "<b>Ingredients:</b> x1 Bubblepod, x1 Drow's Wine Glass, x3 Red Winterberry.",
     "<b>Effect:</b> When you take a short rest you gain +2 Hit Points per Hit Die spent."
   ],
   "foundryType": "consumable",
@@ -17,6 +17,20 @@
       "max": 1,
       "per": null,
       "autoDestroy": true
+    }
+  },
+  "foundryFlags": {
+    "dae": {
+      "transfer": false,
+      "alwaysActive": false
+    },
+    "itemacro": {
+      "macro": {
+        "scope": "global",
+        "command": "// Consume Ice Spring Wine\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Ice Spring Wine consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+        "name": "Ice Spring Wine",
+        "type": "script"
+      }
     }
   }
 }

@@ -7,6 +7,46 @@
   "entries": [
     "<i><b>Simple Invention.</i></b>",
     "These ballbearings have been coated in slippery oil. As an Action, you can apply 3 Flasks of Oil to Ball Bearings.",
-    "As an action, you can spill these tiny metal balls from their pouch to cover a level, square area that is 10 feet on a side. A creature moving across the covered area must succeed on a DC 13 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn’t need to make the save."
-  ]
+    "As an action, you can spill these tiny metal balls from their pouch to cover a level, square area that is 10 feet on a side. A creature moving across the covered area must succeed on a DC 13 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn't need to make the save."
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "consumableType": "trinket",
+    "uses": {
+      "max": 1,
+      "per": null,
+      "autoDestroy": true
+    },
+    "target": {
+      "value": 10,
+      "width": null,
+      "units": "ft",
+      "type": "square",
+      "prompt": true
+    },
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft"
+    },
+    "duration": {
+      "value": null,
+      "units": "perm"
+    },
+    "actionType": "other"
+  },
+  "foundryFlags": {
+    "dae": {
+      "alwaysActive": false,
+      "transfer": false
+    },
+    "itemacro": {
+      "macro": {
+        "name": "Oiled Ballbearings",
+        "type": "script",
+        "scope": "global",
+        "command": "// Place Oiled Ballbearings Template\nif (args[0] === \"on\") {\n  // Use Foundry's built-in template placement system\n  const template = await item.placeTemplate();\n  \n  if (template) {\n    // Add custom flags and styling to the placed template\n    await template.update({\n      borderColor: \"#FF6400\",\n      fillColor: \"#FF640080\",\n      flags: {\n        \"oiled-ballbearings\": {\n          dc: 13,\n          effect: \"DC 13 Dex save or fall prone\"\n        }\n      }\n    });\n    \n    ui.notifications.info(\"Oiled Ballbearings scattered! 10x10 foot area created (DC 13 Dex save or prone).\");\n    \n    // Force delete the item after successful template placement\n    await item.delete();\n  }\n}"
+      }
+    }
+  }
 }

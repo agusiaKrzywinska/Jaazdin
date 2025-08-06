@@ -31,9 +31,6 @@
         "scope": "global",
         "command": "// Apply Harmony Tea Effect\nif (args[0] === \"on\") {\n  const effectData = {\n    name: \"Harmony Tea Effect\",\n    icon: \"icons/consumables/drinks/cup-simple-clay-brown.webp\",\n    changes: [\n      {\n        key: \"system.bonuses.abilities.con\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      }\n    ],\n    flags: {\n      dae: {\n        specialDuration: [\"longRest\", \"shortRest\"]\n      }\n    }\n  };\n  await actor.createEmbeddedDocuments(\"ActiveEffect\", [effectData]);\n  ui.notifications.info(\"Harmony Tea effect applied! +1 to concentration checks until rest.\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
       }
-    },
-    "midi-qol": {
-      "onUseMacroName": "Harmony Tea"
     }
   }
 }

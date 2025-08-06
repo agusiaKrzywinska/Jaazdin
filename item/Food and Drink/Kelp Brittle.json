@@ -18,5 +18,19 @@
       "per": null,
       "autoDestroy": true
     }
+  },
+  "foundryFlags": {
+    "dae": {
+      "transfer": false,
+      "alwaysActive": false
+    },
+    "itemacro": {
+      "macro": {
+        "scope": "global",
+        "command": "// Consume Kelp Brittle\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Kelp Brittle consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+        "name": "Kelp Brittle",
+        "type": "script"
+      }
+    }
   }
 }

@@ -18,5 +18,13 @@
       "per": null,
       "autoDestroy": true
     }
+  },
+  "itemacro": {
+    "macro": {
+      "name": "Cheer Cookies",
+      "type": "script",
+      "scope": "global",
+      "command": "// Consume Cheer Cookies\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Cheer Cookies consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
+    }
   }
 }

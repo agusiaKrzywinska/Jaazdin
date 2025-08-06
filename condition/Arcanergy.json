@@ -11,5 +11,36 @@
         "Being affected by Dispel Magic/ Counterspell/ Anti-Magic Field/ Losing Concentration on a spell removes Arcanergy."
       ]
     }
-  ]
+  ],
+  "foundryCondition": true,
+  "foundrySystem": {
+    "statuses": [
+      {
+        "id": "arcanergy",
+        "name": "Arcanergy",
+        "img": "icons/magic/symbols/runes-star-orange.webp"
+      }
+    ]
+  },
+  "foundryFlags": {
+    "dae": {
+      "stackable": true,
+      "maxStacks": 3,
+      "macroRepeat": "startEveryTurn"
+    },
+    "core": {
+      "statusId": "arcanergy"
+    },
+    "ActiveAuras": {
+      "isAura": false,
+      "aura": "None",
+      "radius": null,
+      "alignment": "",
+      "type": "",
+      "ignoreSelf": false,
+      "height": false,
+      "hidden": false,
+      "onlyOnce": false
+    }
+  }
 }

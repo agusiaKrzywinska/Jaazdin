@@ -18,5 +18,19 @@
       "per": null,
       "autoDestroy": true
     }
+  },
+  "foundryFlags": {
+    "dae": {
+      "transfer": false,
+      "alwaysActive": false
+    },
+    "itemacro": {
+      "macro": {
+        "scope": "global",
+        "command": "// Consume Harvest Sauce\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Harvest Sauce consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+        "name": "Harvest Sauce",
+        "type": "script"
+      }
+    }
   }
 }

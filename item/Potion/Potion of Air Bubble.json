@@ -14,5 +14,19 @@
   },
   "entries": [
     "Your lungs adapt to other environments, allowing you to breathe easy. For the next 8 hours, you gain the effects of the {@spell air bubble|XGE} spell."
-  ]
+  ],
+  "foundryFlags": {
+    "dae": {
+      "transfer": false,
+      "alwaysActive": false
+    },
+    "itemacro": {
+      "macro": {
+        "scope": "global",
+        "command": "// Consume Potion of Air Bubble\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Potion of Air Bubble consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+        "name": "Potion of Air Bubble",
+        "type": "script"
+      }
+    }
+  }
 }

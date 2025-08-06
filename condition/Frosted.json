@@ -8,9 +8,40 @@
       "items": [
         "Affected Creature gains a -1 to Dexterity Saving Throws per stack.",
         "Upon reaching 3 turns of Frosted, the creature becomes Restrained until the end of your next turn, then all Frosted is removed.",
-        "Creatures immune to Cold damage can’t receive Frosted.",
+        "Creatures immune to Cold damage can't receive Frosted.",
         "Taking Fire Damage removes Frosted."
       ]
     }
-  ]
+  ],
+  "foundryCondition": true,
+  "foundrySystem": {
+    "statuses": [
+      {
+        "id": "frosted",
+        "name": "Frosted",
+        "img": "icons/magic/water/ice-crystal-snowflake.webp"
+      }
+    ]
+  },
+  "foundryFlags": {
+    "dae": {
+      "stackable": true,
+      "maxStacks": 3,
+      "macroRepeat": "startEveryTurn"
+    },
+    "core": {
+      "statusId": "frosted"
+    },
+    "ActiveAuras": {
+      "isAura": false,
+      "aura": "None",
+      "radius": null,
+      "alignment": "",
+      "type": "",
+      "ignoreSelf": false,
+      "height": false,
+      "hidden": false,
+      "onlyOnce": false
+    }
+  }
 }

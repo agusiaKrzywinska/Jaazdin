@@ -7,7 +7,7 @@
   "weight": 0,
   "entries": [
     "<b>Preparation:</b> Requires Cook's Tools to prepare.",
-    "<b>Ingredients:</b> x1 Drow’s Wine Glass, x1 Uncommon Meat (cold resistance)",
+    "<b>Ingredients:</b> x1 Drow's Wine Glass, x1 Uncommon Meat (cold resistance)",
     "<b>Effect:</b> You gain a +1 bonus to Intelligence saves and when you take psychic damage you can use your reaction to reduce the psychic damage to 1. Once you use this reaction you lose all the bonuses of this meal."
   ],
   "foundryType": "consumable",
@@ -17,6 +17,20 @@
       "max": 1,
       "per": null,
       "autoDestroy": true
+    }
+  },
+  "foundryFlags": {
+    "dae": {
+      "transfer": false,
+      "alwaysActive": false
+    },
+    "itemacro": {
+      "macro": {
+        "scope": "global",
+        "command": "// Consume Iceflower Flakey\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Iceflower Flakey consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+        "name": "Iceflower Flakey",
+        "type": "script"
+      }
     }
   }
 }

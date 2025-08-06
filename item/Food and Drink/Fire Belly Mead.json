@@ -18,5 +18,19 @@
       "per": null,
       "autoDestroy": true
     }
+  },
+  "foundryFlags": {
+    "dae": {
+      "alwaysActive": false,
+      "transfer": false
+    },
+    "itemacro": {
+      "macro": {
+        "name": "Fire Belly Mead",
+        "type": "script",
+        "scope": "global",
+        "command": "// Consume Fire Belly Mead\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Fire Belly Mead consumed! Advantage on saves against cold climates.\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
+      }
+    }
   }
 }

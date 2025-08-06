@@ -7,7 +7,7 @@
   "weight": 0,
   "entries": [
     "<b>Preparation:</b> Requires cook's tools to prepare.",
-    "<b>Ingredients:</b> 3× Common meat (swim speed), 1× Hiker’s Bounty.",
+    "<b>Ingredients:</b> 3× Common meat (swim speed), 1× Hiker's Bounty.",
     "<b>Effect:</b> Gain a +1 bonus to all ability checks related to swimming or exploring underwater."
   ],
   "foundryType": "consumable",
@@ -17,6 +17,20 @@
       "max": 1,
       "per": null,
       "autoDestroy": true
+    }
+  },
+  "foundryFlags": {
+    "dae": {
+      "transfer": false,
+      "alwaysActive": false
+    },
+    "itemacro": {
+      "macro": {
+        "scope": "global",
+        "command": "// Consume Rainbow Fillet\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Rainbow Fillet consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+        "name": "Rainbow Fillet",
+        "type": "script"
+      }
     }
   }
 }

@@ -14,5 +14,19 @@
   },
   "entries": [
     "Your hands ignite with flames for the next minute. Your melee attacks deal an additional {@damage 1d6} fire damage on a hit."
-  ]
+  ],
+  "foundryFlags": {
+    "dae": {
+      "transfer": false,
+      "alwaysActive": false
+    },
+    "itemacro": {
+      "macro": {
+        "scope": "global",
+        "command": "// Consume Potion of Flamewielding\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Potion of Flamewielding consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+        "name": "Potion of Flamewielding",
+        "type": "script"
+      }
+    }
+  }
 }

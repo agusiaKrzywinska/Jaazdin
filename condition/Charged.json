@@ -10,5 +10,36 @@
         "Upon reaching 3 Charged, the next instance of damage you deal deals an additional 1d10 Lightning Damage and consumes all charges."
       ]
     }
-  ]
+  ],
+  "foundryCondition": true,
+  "foundrySystem": {
+    "statuses": [
+      {
+        "id": "charged",
+        "name": "Charged",
+        "img": "icons/magic/lightning/bolt-strike-blue.webp"
+      }
+    ]
+  },
+  "foundryFlags": {
+    "dae": {
+      "stackable": true,
+      "maxStacks": 3,
+      "macroRepeat": "startEveryTurn"
+    },
+    "core": {
+      "statusId": "charged"
+    },
+    "ActiveAuras": {
+      "isAura": false,
+      "aura": "None",
+      "radius": null,
+      "alignment": "",
+      "type": "",
+      "ignoreSelf": false,
+      "height": false,
+      "hidden": false,
+      "onlyOnce": false
+    }
+  }
 }

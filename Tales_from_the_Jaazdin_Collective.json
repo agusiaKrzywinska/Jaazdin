@@ -15,12 +15,12 @@
                     "Adam Henderson",
                     "Malcolm Keefe"
                 ],
-                "version": "0.4.03"
+                "version": "0.4.05"
             }
         ],
         "edition": "classic",
         "dateAdded": 0,
-        "dateLastModified": 1754496264,
+        "dateLastModified": 1754501139,
         "optionalFeatureTypes": {
             "FS:W": "Fighting Style: Warden",
             "TECH": "Technique",
@@ -1325,7 +1325,38 @@
                         "Being affected by Dispel Magic/ Counterspell/ Anti-Magic Field/ Losing Concentration on a spell removes Arcanergy."
                     ]
                 }
-            ]
+            ],
+            "foundryCondition": true,
+            "foundrySystem": {
+                "statuses": [
+                    {
+                        "id": "arcanergy",
+                        "name": "Arcanergy",
+                        "img": "icons/magic/symbols/runes-star-orange.webp"
+                    }
+                ]
+            },
+            "foundryFlags": {
+                "dae": {
+                    "stackable": true,
+                    "maxStacks": 3,
+                    "macroRepeat": "startEveryTurn"
+                },
+                "core": {
+                    "statusId": "arcanergy"
+                },
+                "ActiveAuras": {
+                    "isAura": false,
+                    "aura": "None",
+                    "radius": null,
+                    "alignment": "",
+                    "type": "",
+                    "ignoreSelf": false,
+                    "height": false,
+                    "hidden": false,
+                    "onlyOnce": false
+                }
+            }
         },
         {
             "name": "Burning",
@@ -1337,11 +1368,42 @@
                     "items": [
                         "Affected Creature takes 2 Fire Damage at the start of its turns per stack.",
                         "Upon reaching 3 Burning, it bursts with flame causing all creatures within 5ft of it to take {@dice 2d6} fire damage, then all Burning is removed.",
-                        "Creatures immune to Fire can’t receive Burning.",
+                        "Creatures immune to Fire can't receive Burning.",
                         "Being doused in water removes Burning."
                     ]
                 }
-            ]
+            ],
+            "foundryCondition": true,
+            "foundrySystem": {
+                "statuses": [
+                    {
+                        "id": "burning",
+                        "name": "Burning",
+                        "img": "icons/magic/fire/flame-burning-creature-person.webp"
+                    }
+                ]
+            },
+            "foundryFlags": {
+                "dae": {
+                    "stackable": true,
+                    "maxStacks": 3,
+                    "macroRepeat": "startEveryTurn"
+                },
+                "core": {
+                    "statusId": "burning"
+                },
+                "ActiveAuras": {
+                    "isAura": false,
+                    "aura": "None",
+                    "radius": null,
+                    "alignment": "",
+                    "type": "",
+                    "ignoreSelf": false,
+                    "height": false,
+                    "hidden": false,
+                    "onlyOnce": false
+                }
+            }
         },
         {
             "name": "Charged",
@@ -1355,7 +1417,38 @@
                         "Upon reaching 3 Charged, the next instance of damage you deal deals an additional 1d10 Lightning Damage and consumes all charges."
                     ]
                 }
-            ]
+            ],
+            "foundryCondition": true,
+            "foundrySystem": {
+                "statuses": [
+                    {
+                        "id": "charged",
+                        "name": "Charged",
+                        "img": "icons/magic/lightning/bolt-strike-blue.webp"
+                    }
+                ]
+            },
+            "foundryFlags": {
+                "dae": {
+                    "stackable": true,
+                    "maxStacks": 3,
+                    "macroRepeat": "startEveryTurn"
+                },
+                "core": {
+                    "statusId": "charged"
+                },
+                "ActiveAuras": {
+                    "isAura": false,
+                    "aura": "None",
+                    "radius": null,
+                    "alignment": "",
+                    "type": "",
+                    "ignoreSelf": false,
+                    "height": false,
+                    "hidden": false,
+                    "onlyOnce": false
+                }
+            }
         },
         {
             "name": "Frosted",
@@ -1367,11 +1460,42 @@
                     "items": [
                         "Affected Creature gains a -1 to Dexterity Saving Throws per stack.",
                         "Upon reaching 3 turns of Frosted, the creature becomes Restrained until the end of your next turn, then all Frosted is removed.",
-                        "Creatures immune to Cold damage can’t receive Frosted.",
+                        "Creatures immune to Cold damage can't receive Frosted.",
                         "Taking Fire Damage removes Frosted."
                     ]
                 }
-            ]
+            ],
+            "foundryCondition": true,
+            "foundrySystem": {
+                "statuses": [
+                    {
+                        "id": "frosted",
+                        "name": "Frosted",
+                        "img": "icons/magic/water/ice-crystal-snowflake.webp"
+                    }
+                ]
+            },
+            "foundryFlags": {
+                "dae": {
+                    "stackable": true,
+                    "maxStacks": 3,
+                    "macroRepeat": "startEveryTurn"
+                },
+                "core": {
+                    "statusId": "frosted"
+                },
+                "ActiveAuras": {
+                    "isAura": false,
+                    "aura": "None",
+                    "radius": null,
+                    "alignment": "",
+                    "type": "",
+                    "ignoreSelf": false,
+                    "height": false,
+                    "hidden": false,
+                    "onlyOnce": false
+                }
+            }
         },
         {
             "name": "Plagued",
@@ -1383,11 +1507,42 @@
                     "items": [
                         "Affected Creature gains a -1 to Constitution Saving Throws per stack.",
                         "Upon reaching 3 Plagued, the creature becomes Vulnerable to Poison Damage until the end of your next turn, then all Plagued is removed.",
-                        "Creatures immune to Poison damage can’t receive Plagued.",
+                        "Creatures immune to Poison damage can't receive Plagued.",
                         "Succeeding a Saving Throw against a Poison removes Plagued."
                     ]
                 }
-            ]
+            ],
+            "foundryCondition": true,
+            "foundrySystem": {
+                "statuses": [
+                    {
+                        "id": "plagued",
+                        "name": "Plagued",
+                        "img": "icons/magic/death/skull-poison-green.webp"
+                    }
+                ]
+            },
+            "foundryFlags": {
+                "dae": {
+                    "stackable": true,
+                    "maxStacks": 3,
+                    "macroRepeat": "startEveryTurn"
+                },
+                "core": {
+                    "statusId": "plagued"
+                },
+                "ActiveAuras": {
+                    "isAura": false,
+                    "aura": "None",
+                    "radius": null,
+                    "alignment": "",
+                    "type": "",
+                    "ignoreSelf": false,
+                    "height": false,
+                    "hidden": false,
+                    "onlyOnce": false
+                }
+            }
         },
         {
             "name": "Radiance",
@@ -1399,11 +1554,42 @@
                     "items": [
                         "Creature has a -1 to Weapon Attack Rolls per stack. It also sheds bright light in a 5ft radius, and dim light in a 5ft radius.",
                         "Upon reaching 3 Radiance, the creature becomes Blinded until the end of the next round, then all Radiance is removed.",
-                        "Creatures immune to Radiant can’t be affected by Radiance.",
+                        "Creatures immune to Radiant can't be affected by Radiance.",
                         "Being in Magical darkness removes Radiance."
                     ]
                 }
-            ]
+            ],
+            "foundryCondition": true,
+            "foundrySystem": {
+                "statuses": [
+                    {
+                        "id": "radiance",
+                        "name": "Radiance",
+                        "img": "icons/magic/light/explosion-star-large-blue-yellow.webp"
+                    }
+                ]
+            },
+            "foundryFlags": {
+                "dae": {
+                    "stackable": true,
+                    "maxStacks": 3,
+                    "macroRepeat": "startEveryTurn"
+                },
+                "core": {
+                    "statusId": "radiance"
+                },
+                "ActiveAuras": {
+                    "isAura": false,
+                    "aura": "None",
+                    "radius": null,
+                    "alignment": "",
+                    "type": "",
+                    "ignoreSelf": false,
+                    "height": false,
+                    "hidden": false,
+                    "onlyOnce": false
+                }
+            }
         }
     ],
     "feat": [
@@ -1721,7 +1907,21 @@
                 "If applied to a weapon you gain the following benefits: For one hour your weapon becomes magical. Additionally, you can choose to expend a Hit Dice to add the number rolled to the damage of any attack. Once you do so, you take Psychic damage equal to the number on the Hit Dice rolled. Once this feature is used the potion's effect is gone.",
                 "This substance can also be used to Runesmith Blood Steel into Sanguine Steel instantly.",
                 "When a creature uses this consumable, they must make a DC:10 Wisdom save, on a fail you are Blood Starved."
-            ]
+            ],
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Alchemic Claret\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Alchemic Claret consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Alchemic Claret",
+                        "type": "script"
+                    }
+                }
+            }
         },
         {
             "name": "Amulet of Average",
@@ -3046,6 +3246,20 @@
                     "per": null,
                     "autoDestroy": true
                 }
+            },
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Carnivore's Delight\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Carnivore's Delight consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Carnivore's Delight",
+                        "type": "script"
+                    }
+                }
             }
         },
         {
@@ -3157,6 +3371,14 @@
                     "max": 1,
                     "per": null,
                     "autoDestroy": true
+                }
+            },
+            "itemacro": {
+                "macro": {
+                    "name": "Cheer Cookies",
+                    "type": "script",
+                    "scope": "global",
+                    "command": "// Consume Cheer Cookies\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Cheer Cookies consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
                 }
             }
         },
@@ -3408,6 +3630,20 @@
                     "max": 1,
                     "per": null,
                     "autoDestroy": true
+                }
+            },
+            "foundryFlags": {
+                "dae": {
+                    "alwaysActive": false,
+                    "transfer": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "name": "Coffee",
+                        "type": "script",
+                        "scope": "global",
+                        "command": "// Consume Coffee\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Coffee consumed! You ignore one level of exhaustion but cannot benefit from rest for 8 hours.\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
+                    }
                 }
             }
         },
@@ -4317,7 +4553,21 @@
                     ]
                 },
                 "This boon changes slightly based on your race, depending if you are a Kobold or Dragonborn."
-            ]
+            ],
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Dragon Jelly\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Dragon Jelly consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Dragon Jelly",
+                        "type": "script"
+                    }
+                }
+            }
         },
         {
             "name": "Dragon's Gold",
@@ -4370,6 +4620,20 @@
                     "max": 1,
                     "per": null,
                     "autoDestroy": true
+                }
+            },
+            "foundryFlags": {
+                "dae": {
+                    "alwaysActive": false,
+                    "transfer": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "name": "Drake Egg Nog",
+                        "type": "script",
+                        "scope": "global",
+                        "command": "// Consume Drake Egg Nog\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Drake Egg Nog consumed! First damage of this type reduced by 2d8.\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
+                    }
                 }
             }
         },
@@ -4792,7 +5056,21 @@
             },
             "entries": [
                 "This Golden potion swirls with small strands of light seemingly flowing within it. As an action, a creature can drink or administer the potion to another creature. Their body is refreshed, as they are affected by the Greater Restoration Spell."
-            ]
+            ],
+            "foundryFlags": {
+                "dae": {
+                    "alwaysActive": false,
+                    "transfer": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "name": "Evercure Potion",
+                        "type": "script",
+                        "scope": "global",
+                        "command": "// Consume Evercure Potion\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Evercure Potion consumed! Greater Restoration effect applied.\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
+                    }
+                }
+            }
         },
         {
             "name": "Explosive Cannonball",
@@ -5016,6 +5294,20 @@
                     "per": null,
                     "autoDestroy": true
                 }
+            },
+            "foundryFlags": {
+                "dae": {
+                    "alwaysActive": false,
+                    "transfer": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "name": "Fire Belly Mead",
+                        "type": "script",
+                        "scope": "global",
+                        "command": "// Consume Fire Belly Mead\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Fire Belly Mead consumed! Advantage on saves against cold climates.\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
+                    }
+                }
             }
         },
         {
@@ -5160,6 +5452,20 @@
                     "max": 1,
                     "per": null,
                     "autoDestroy": true
+                }
+            },
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Frost Cactus Wine\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Frost Cactus Wine consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Frost Cactus Wine",
+                        "type": "script"
+                    }
                 }
             }
         },
@@ -5874,9 +6180,6 @@
                         "scope": "global",
                         "command": "// Apply Harmony Tea Effect\nif (args[0] === \"on\") {\n  const effectData = {\n    name: \"Harmony Tea Effect\",\n    icon: \"icons/consumables/drinks/cup-simple-clay-brown.webp\",\n    changes: [\n      {\n        key: \"system.bonuses.abilities.con\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      }\n    ],\n    flags: {\n      dae: {\n        specialDuration: [\"longRest\", \"shortRest\"]\n      }\n    }\n  };\n  await actor.createEmbeddedDocuments(\"ActiveEffect\", [effectData]);\n  ui.notifications.info(\"Harmony Tea effect applied! +1 to concentration checks until rest.\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
                     }
-                },
-                "midi-qol": {
-                    "onUseMacroName": "Harmony Tea"
                 }
             }
         },
@@ -5899,6 +6202,20 @@
                     "max": 1,
                     "per": null,
                     "autoDestroy": true
+                }
+            },
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Harvest Sauce\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Harvest Sauce consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Harvest Sauce",
+                        "type": "script"
+                    }
                 }
             }
         },
@@ -6259,7 +6576,7 @@
             "weight": 0,
             "entries": [
                 "<b>Preparation:</b> Requires Cook's Tools or Brewer's Tools to prepare.",
-                "<b>Ingredients:</b> x1 Bubblepod, x1 Drow’s Wine Glass, x3 Red Winterberry.",
+                "<b>Ingredients:</b> x1 Bubblepod, x1 Drow's Wine Glass, x3 Red Winterberry.",
                 "<b>Effect:</b> When you take a short rest you gain +2 Hit Points per Hit Die spent."
             ],
             "foundryType": "consumable",
@@ -6269,6 +6586,20 @@
                     "max": 1,
                     "per": null,
                     "autoDestroy": true
+                }
+            },
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Ice Spring Wine\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Ice Spring Wine consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Ice Spring Wine",
+                        "type": "script"
+                    }
                 }
             }
         },
@@ -6302,7 +6633,7 @@
             "weight": 0,
             "entries": [
                 "<b>Preparation:</b> Requires Cook's Tools to prepare.",
-                "<b>Ingredients:</b> x1 Drow’s Wine Glass, x1 Uncommon Meat (cold resistance)",
+                "<b>Ingredients:</b> x1 Drow's Wine Glass, x1 Uncommon Meat (cold resistance)",
                 "<b>Effect:</b> You gain a +1 bonus to Intelligence saves and when you take psychic damage you can use your reaction to reduce the psychic damage to 1. Once you use this reaction you lose all the bonuses of this meal."
             ],
             "foundryType": "consumable",
@@ -6312,6 +6643,20 @@
                     "max": 1,
                     "per": null,
                     "autoDestroy": true
+                }
+            },
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Iceflower Flakey\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Iceflower Flakey consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Iceflower Flakey",
+                        "type": "script"
+                    }
                 }
             }
         },
@@ -6562,6 +6907,20 @@
                     "per": null,
                     "autoDestroy": true
                 }
+            },
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Kelp Brittle\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Kelp Brittle consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Kelp Brittle",
+                        "type": "script"
+                    }
+                }
             }
         },
         {
@@ -6685,9 +7044,6 @@
                         "scope": "global",
                         "command": "// Apply Lemon Salt Crackers Effect\nif (args[0] === \"on\") {\n  const effectData = {\n    name: \"Lemon Salt Crackers Effect\",\n    icon: \"icons/consumables/food/bread-loaf-brown-grey.webp\",\n    changes: [\n      {\n        key: \"system.bonuses.abilities.str\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      },\n      {\n        key: \"system.bonuses.abilities.dex\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      },\n      {\n        key: \"system.bonuses.abilities.con\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      }\n    ],\n    flags: {\n      dae: {\n        specialDuration: [\"longRest\", \"shortRest\"]\n      }\n    }\n  };\n  await actor.createEmbeddedDocuments(\"ActiveEffect\", [effectData]);\n  ui.notifications.info(\"Lemon Salt Crackers effect applied! +1 to STR, DEX, CON checks until rest.\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
                     }
-                },
-                "midi-qol": {
-                    "onUseMacroName": "Lemon Salt Crackers"
                 }
             }
         },
@@ -7343,6 +7699,20 @@
                     "per": null,
                     "autoDestroy": true
                 }
+            },
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Mooncloud Jelly\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Mooncloud Jelly consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Mooncloud Jelly",
+                        "type": "script"
+                    }
+                }
             }
         },
         {
@@ -7391,9 +7761,6 @@
                         "scope": "global",
                         "command": "// Apply Moonspring Skittles Effect\nif (args[0] === \"on\") {\n  const effectData = {\n    name: \"Moonspring Skittles Effect\",\n    icon: \"icons/consumables/candy/candy-wrapped-blue.webp\",\n    changes: [\n      {\n        key: \"system.bonuses.abilities.int\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      },\n      {\n        key: \"system.bonuses.abilities.wis\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      },\n      {\n        key: \"system.bonuses.abilities.cha\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      }\n    ],\n    flags: {\n      dae: {\n        specialDuration: [\"longRest\", \"shortRest\"]\n      }\n    }\n  };\n  await actor.createEmbeddedDocuments(\"ActiveEffect\", [effectData]);\n  ui.notifications.info(\"Moonspring Skittles effect applied! +1 to INT, WIS, CHA checks until rest.\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
                     }
-                },
-                "midi-qol": {
-                    "onUseMacroName": "Moonspring Skittles"
                 }
             }
         },
@@ -7518,8 +7885,48 @@
             "entries": [
                 "<i><b>Simple Invention.</i></b>",
                 "These ballbearings have been coated in slippery oil. As an Action, you can apply 3 Flasks of Oil to Ball Bearings.",
-                "As an action, you can spill these tiny metal balls from their pouch to cover a level, square area that is 10 feet on a side. A creature moving across the covered area must succeed on a DC 13 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn’t need to make the save."
-            ]
+                "As an action, you can spill these tiny metal balls from their pouch to cover a level, square area that is 10 feet on a side. A creature moving across the covered area must succeed on a DC 13 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn't need to make the save."
+            ],
+            "foundryType": "consumable",
+            "foundrySystem": {
+                "consumableType": "trinket",
+                "uses": {
+                    "max": 1,
+                    "per": null,
+                    "autoDestroy": true
+                },
+                "target": {
+                    "value": 10,
+                    "width": null,
+                    "units": "ft",
+                    "type": "square",
+                    "prompt": true
+                },
+                "range": {
+                    "value": 5,
+                    "long": null,
+                    "units": "ft"
+                },
+                "duration": {
+                    "value": null,
+                    "units": "perm"
+                },
+                "actionType": "other"
+            },
+            "foundryFlags": {
+                "dae": {
+                    "alwaysActive": false,
+                    "transfer": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "name": "Oiled Ballbearings",
+                        "type": "script",
+                        "scope": "global",
+                        "command": "// Place Oiled Ballbearings Template\nif (args[0] === \"on\") {\n  // Use Foundry's built-in template placement system\n  const template = await item.placeTemplate();\n  \n  if (template) {\n    // Add custom flags and styling to the placed template\n    await template.update({\n      borderColor: \"#FF6400\",\n      fillColor: \"#FF640080\",\n      flags: {\n        \"oiled-ballbearings\": {\n          dc: 13,\n          effect: \"DC 13 Dex save or fall prone\"\n        }\n      }\n    });\n    \n    ui.notifications.info(\"Oiled Ballbearings scattered! 10x10 foot area created (DC 13 Dex save or prone).\");\n    \n    // Force delete the item after successful template placement\n    await item.delete();\n  }\n}"
+                    }
+                }
+            }
         },
         {
             "name": "Olympium",
@@ -7776,7 +8183,7 @@
             ]
         },
         {
-            "name": "Piña Colada",
+            "name": "PiÃ±a Colada",
             "source": "TftJC",
             "type": "FD",
             "rarity": "rare",
@@ -7785,7 +8192,7 @@
             "entries": [
                 "<b>Preparation:</b> Requires Brewer's Tools to prepare.",
                 "<b>Ingredients:</b> x1 Rare Water Elemental Meat, x1 Siren's Cap",
-                "<b>Effect:</b> Whenever you make a Charisma check, treat a roll of 4 or lower on the d20 as an 5."
+                "<b>Effect:</b> Whenever you make a Charisma check, treat a roll of 4 or lower on the d20 as a 5."
             ],
             "foundryType": "consumable",
             "foundrySystem": {
@@ -7794,6 +8201,20 @@
                     "max": 1,
                     "per": null,
                     "autoDestroy": true
+                }
+            },
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Piña Colada\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Piña Colada consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Piña Colada",
+                        "type": "script"
+                    }
                 }
             }
         },
@@ -7971,7 +8392,21 @@
             },
             "entries": [
                 "Your lungs adapt to other environments, allowing you to breathe easy. For the next 8 hours, you gain the effects of the {@spell air bubble|XGE} spell."
-            ]
+            ],
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Potion of Air Bubble\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Potion of Air Bubble consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Potion of Air Bubble",
+                        "type": "script"
+                    }
+                }
+            }
         },
         {
             "name": "Potion of Flamewielding",
@@ -7989,7 +8424,21 @@
             },
             "entries": [
                 "Your hands ignite with flames for the next minute. Your melee attacks deal an additional {@damage 1d6} fire damage on a hit."
-            ]
+            ],
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Potion of Flamewielding\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Potion of Flamewielding consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Potion of Flamewielding",
+                        "type": "script"
+                    }
+                }
+            }
         },
         {
             "name": "Potion of Foggy Escape",
@@ -8009,7 +8458,21 @@
                 "This swirling potion has strange spiraling grey patterns flowing through it. Drinking or breaking the potion will incur different effects.",
                 "<b>Thrown</b>: You can throw the potion bottle up to 20ft. It breaks open, releasing billowing smoke. This creates the effects of the Fog Cloud spell, but is not considered magical and requires no concentration. It lasts for 1 minute.",
                 "<b>Consumed</b>: You begin expelling smoke from your mouth, ears, nostrils and eyes. Until the end of your next turn, creatures have disadvantage on attacks they make against you."
-            ]
+            ],
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Potion of Foggy Escape\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Potion of Foggy Escape consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Potion of Foggy Escape",
+                        "type": "script"
+                    }
+                }
+            }
         },
         {
             "name": "Potion of Past Memory",
@@ -8028,7 +8491,21 @@
             "entries": [
                 "This Deep brown potion is filled with concentrated Memento beans, providing the Drinker a deep connection to Time. Before ingesting the Potion, a hair, nail or other small piece of a creature is to be mixed in with the completed Potion, after which time it glows with Chronurgic Magic. Ingesting the potion allows you to peer through that creature's life. You experience any event they would have from their point of view.",
                 "This potion's duration is based on the current amount of time the selected creature's life has lasted. 1 hour is equivalent of 1 year of that creature's life, if the creature has lived for 36 years the potion's effects remain active for 36 hours as you experience their life. Within that time, you are {@condition blinded}, {@condition deafened} and {@condition incapacitated}. A creature can resist these effects if they do not want to be under the potion's effects, making a DC 19 INT save, repeating this saving throw each hour that passes or when they take damage. The events are played out backwards, meaning more recent events happen in the first hours, and the beginning of the creature's life happens at the end of the vision. This potion's effects cannot be ended early, unless with a 9th level {@spell Dispel Magic|PHB} or by making the above saving throw. The potion provides no effect to creatures that are dead or undead."
-            ]
+            ],
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Potion of Past Memory\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Potion of Past Memory consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Potion of Past Memory",
+                        "type": "script"
+                    }
+                }
+            }
         },
         {
             "name": "Potion of Perfection",
@@ -8047,7 +8524,21 @@
             "entries": [
                 "This potion looks to be made from liquid gold. Drinking this potion grants the creature near Perfection in everything it does. Any d20 roll on a Skill check that is 7 or lower is treated as an 8. Your Proficiency Bonus is treated as 2 Higher. You gain 1 Legendary Resistance, which is lost after the duration runs out.",
                 "These effects last for 1 hour. The potion's remaining duration is halved each time you fail a skill check/saving throw."
-            ]
+            ],
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Potion of Perfection\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Potion of Perfection consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Potion of Perfection",
+                        "type": "script"
+                    }
+                }
+            }
         },
         {
             "name": "Powdered Butterfly Wings",
@@ -8068,6 +8559,20 @@
                     "max": 1,
                     "per": null,
                     "autoDestroy": true
+                }
+            },
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Powdered Butterfly Wings\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Powdered Butterfly Wings consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Powdered Butterfly Wings",
+                        "type": "script"
+                    }
                 }
             }
         },
@@ -8341,7 +8846,7 @@
             "weight": 0,
             "entries": [
                 "<b>Preparation:</b> Requires cook's tools to prepare.",
-                "<b>Ingredients:</b> 3× Common meat (swim speed), 1× Hiker’s Bounty.",
+                "<b>Ingredients:</b> 3× Common meat (swim speed), 1× Hiker's Bounty.",
                 "<b>Effect:</b> Gain a +1 bonus to all ability checks related to swimming or exploring underwater."
             ],
             "foundryType": "consumable",
@@ -8351,6 +8856,20 @@
                     "max": 1,
                     "per": null,
                     "autoDestroy": true
+                }
+            },
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Rainbow Fillet\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Rainbow Fillet consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Rainbow Fillet",
+                        "type": "script"
+                    }
                 }
             }
         },
@@ -8819,6 +9338,20 @@
                     "per": null,
                     "autoDestroy": true
                 }
+            },
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Road Syrup\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Road Syrup consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Road Syrup",
+                        "type": "script"
+                    }
+                }
             }
         },
         {
@@ -8840,6 +9373,20 @@
                     "max": 1,
                     "per": null,
                     "autoDestroy": true
+                }
+            },
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Road Tack\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Road Tack consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Road Tack",
+                        "type": "script"
+                    }
                 }
             }
         },
@@ -9729,6 +10276,20 @@
                     "max": 1,
                     "per": null,
                     "autoDestroy": true
+                }
+            },
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Tamer's Feed\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Tamer's Feed consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Tamer's Feed",
+                        "type": "script"
+                    }
                 }
             }
         },
@@ -10944,6 +11505,20 @@
                     "max": 1,
                     "per": null,
                     "autoDestroy": true
+                }
+            },
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                },
+                "itemacro": {
+                    "macro": {
+                        "scope": "global",
+                        "command": "// Consume Yushanti's Secret Sauce\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Yushanti's Secret Sauce consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+                        "name": "Yushanti's Secret Sauce",
+                        "type": "script"
+                    }
                 }
             }
         },

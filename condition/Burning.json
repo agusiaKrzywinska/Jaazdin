@@ -8,9 +8,40 @@
       "items": [
         "Affected Creature takes 2 Fire Damage at the start of its turns per stack.",
         "Upon reaching 3 Burning, it bursts with flame causing all creatures within 5ft of it to take {@dice 2d6} fire damage, then all Burning is removed.",
-        "Creatures immune to Fire can’t receive Burning.",
+        "Creatures immune to Fire can't receive Burning.",
         "Being doused in water removes Burning."
       ]
     }
-  ]
+  ],
+  "foundryCondition": true,
+  "foundrySystem": {
+    "statuses": [
+      {
+        "id": "burning",
+        "name": "Burning",
+        "img": "icons/magic/fire/flame-burning-creature-person.webp"
+      }
+    ]
+  },
+  "foundryFlags": {
+    "dae": {
+      "stackable": true,
+      "maxStacks": 3,
+      "macroRepeat": "startEveryTurn"
+    },
+    "core": {
+      "statusId": "burning"
+    },
+    "ActiveAuras": {
+      "isAura": false,
+      "aura": "None",
+      "radius": null,
+      "alignment": "",
+      "type": "",
+      "ignoreSelf": false,
+      "height": false,
+      "hidden": false,
+      "onlyOnce": false
+    }
+  }
 }

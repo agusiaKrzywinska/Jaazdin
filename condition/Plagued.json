@@ -8,9 +8,40 @@
       "items": [
         "Affected Creature gains a -1 to Constitution Saving Throws per stack.",
         "Upon reaching 3 Plagued, the creature becomes Vulnerable to Poison Damage until the end of your next turn, then all Plagued is removed.",
-        "Creatures immune to Poison damage can’t receive Plagued.",
+        "Creatures immune to Poison damage can't receive Plagued.",
         "Succeeding a Saving Throw against a Poison removes Plagued."
       ]
     }
-  ]
+  ],
+  "foundryCondition": true,
+  "foundrySystem": {
+    "statuses": [
+      {
+        "id": "plagued",
+        "name": "Plagued",
+        "img": "icons/magic/death/skull-poison-green.webp"
+      }
+    ]
+  },
+  "foundryFlags": {
+    "dae": {
+      "stackable": true,
+      "maxStacks": 3,
+      "macroRepeat": "startEveryTurn"
+    },
+    "core": {
+      "statusId": "plagued"
+    },
+    "ActiveAuras": {
+      "isAura": false,
+      "aura": "None",
+      "radius": null,
+      "alignment": "",
+      "type": "",
+      "ignoreSelf": false,
+      "height": false,
+      "hidden": false,
+      "onlyOnce": false
+    }
+  }
 }

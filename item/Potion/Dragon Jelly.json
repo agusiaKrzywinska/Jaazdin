@@ -35,5 +35,19 @@
       ]
     },
     "This boon changes slightly based on your race, depending if you are a Kobold or Dragonborn."
-  ]
+  ],
+  "foundryFlags": {
+    "dae": {
+      "transfer": false,
+      "alwaysActive": false
+    },
+    "itemacro": {
+      "macro": {
+        "scope": "global",
+        "command": "// Consume Dragon Jelly\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Dragon Jelly consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+        "name": "Dragon Jelly",
+        "type": "script"
+      }
+    }
+  }
 }

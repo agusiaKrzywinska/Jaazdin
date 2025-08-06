@@ -18,5 +18,19 @@
     "If applied to a weapon you gain the following benefits: For one hour your weapon becomes magical. Additionally, you can choose to expend a Hit Dice to add the number rolled to the damage of any attack. Once you do so, you take Psychic damage equal to the number on the Hit Dice rolled. Once this feature is used the potion's effect is gone.",
     "This substance can also be used to Runesmith Blood Steel into Sanguine Steel instantly.",
     "When a creature uses this consumable, they must make a DC:10 Wisdom save, on a fail you are Blood Starved."
-  ]
+  ],
+  "foundryFlags": {
+    "dae": {
+      "transfer": false,
+      "alwaysActive": false
+    },
+    "itemacro": {
+      "macro": {
+        "scope": "global",
+        "command": "// Consume Alchemic Claret\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Alchemic Claret consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
+        "name": "Alchemic Claret",
+        "type": "script"
+      }
+    }
+  }
 }
