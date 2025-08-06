@@ -15,65 +15,25 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": null
+      "per": null,
+      "autoDestroy": true
+    }
+  },
+  "foundryFlags": {
+    "dae": {
+      "alwaysActive": false,
+      "transfer": false
     },
-    "activities": {
-      "eatCrackers": {
-        "type": "utility",
-        "name": "Eat Lemon Salt Crackers",
-        "description": {
-          "chatFlavor": "Eats the crackers and gains physical ability bonuses"
-        },
-        "effects": ["lemonSaltEffect"],
-        "consumption": {
-          "targets": [
-            {
-              "type": "itemUses",
-              "target": "",
-              "value": "1"
-            }
-          ]
-        }
+    "itemacro": {
+      "macro": {
+        "name": "Lemon Salt Crackers",
+        "type": "script",
+        "scope": "global",
+        "command": "// Apply Lemon Salt Crackers Effect\nif (args[0] === \"on\") {\n  const effectData = {\n    name: \"Lemon Salt Crackers Effect\",\n    icon: \"icons/consumables/food/bread-loaf-brown-grey.webp\",\n    changes: [\n      {\n        key: \"system.bonuses.abilities.str\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      },\n      {\n        key: \"system.bonuses.abilities.dex\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      },\n      {\n        key: \"system.bonuses.abilities.con\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      }\n    ],\n    flags: {\n      dae: {\n        specialDuration: [\"longRest\", \"shortRest\"]\n      }\n    }\n  };\n  await actor.createEmbeddedDocuments(\"ActiveEffect\", [effectData]);\n  ui.notifications.info(\"Lemon Salt Crackers effect applied! +1 to STR, DEX, CON checks until rest.\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
       }
     },
-    "effects": {
-      "lemonSaltEffect": {
-        "name": "Lemon Salt Crackers Effect",
-        "description": "You gain a +1 bonus to all Strength, Dexterity, and Constitution ability checks",
-        "img": "icons/consumables/food/bread-loaf-brown-grey.webp",
-        "duration": {
-          "seconds": null,
-          "rounds": null,
-          "turns": null
-        },
-        "changes": [
-          {
-            "key": "system.bonuses.abilities.str",
-            "mode": 2,
-            "value": "1",
-            "priority": 20
-          },
-          {
-            "key": "system.bonuses.abilities.dex",
-            "mode": 2,
-            "value": "1",
-            "priority": 20
-          },
-          {
-            "key": "system.bonuses.abilities.con",
-            "mode": 2,
-            "value": "1",
-            "priority": 20
-          }
-        ],
-        "flags": {
-          "dnd5e": {
-            "type": "enchantment"
-          }
-        },
-        "transfer": false,
-        "disabled": false
-      }
+    "midi-qol": {
+      "onUseMacroName": "Lemon Salt Crackers"
     }
   }
 }
