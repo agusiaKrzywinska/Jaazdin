@@ -1,0 +1,12 @@
+{
+  "name": "Spell Quickening",
+  "source": "TftJC",
+  "className": "Fighter",
+  "classSource": "PHB",
+  "subclassShortName": "Weaveblade",
+  "subclassSource": "TftJC",
+  "level": 7,
+  "entries": [
+    "At 7th level, when you use your Action Surge, you can cast one spell that would normally take an action to cast as a bonus action instead."
+  ]
+}

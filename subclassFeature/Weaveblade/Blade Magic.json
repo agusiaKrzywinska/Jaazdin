@@ -1,0 +1,13 @@
+{
+  "name": "Blade Magic",
+  "source": "TftJC",
+  "className": "Fighter",
+  "classSource": "PHB",
+  "subclassShortName": "Weaveblade",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "At 3rd level, you’ve learned to infuse your magic into your blade, allowing you to bolster your fighting with your spells. Once per turn, when you hit with a weapon attack, you can imbue the strike with one of your cantrips. The attack deals 1d6 extra damage of the cantrips damage type and applies any effects that the cantrip would apply on a hit. If the cantrip has a saving throw then they make the saving throw against your spell save DC.",
+    "For a cantrip to be applicable for this ability, it must deal damage as part of an on hit effect or from failing a saving throw. The extra damage dealt by this ability increases to 1d8 at 5th level, 1d10 at 11th level, and 1d12 at 15th level."
+  ]
+}

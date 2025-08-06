@@ -1,0 +1,12 @@
+{
+  "name": "Wind of the Weave",
+  "source": "TftJC",
+  "className": "Fighter",
+  "classSource": "PHB",
+  "subclassShortName": "Weaveblade",
+  "subclassSource": "TftJC",
+  "level": 10,
+  "entries": [
+    "Starting at 10th level, when you use your Second Wind ability, you also regain a pact slot. On your turn, if you cast a spell, your movement speed increases by 10ft until the end of your turn."
+  ]
+}

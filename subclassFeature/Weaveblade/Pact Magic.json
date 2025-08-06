@@ -1,0 +1,51 @@
+{
+  "name": "Pact Magic",
+  "source": "TftJC",
+  "className": "Fighter",
+  "classSource": "PHB",
+  "subclassShortName": "Weaveblade",
+  "subclassSource": "TftJC",
+  "level": 3,
+  "entries": [
+    "When you reach 3rd level, you tap into the arcane weave and gain the ability to cast spells. See Spells Rules for the general rules of spellcasting and the Spells Listing for this subclass’ spell list. This subclass uses Pact Magic and Pact Slots.",
+    {
+      "caption": "Weaveblade Spellcasting",
+      "type": "table",
+      "colLabels": [
+        "Fighter Level",
+        "Cantrips Known",
+        "Spells Known",
+        "Pact Slots",
+        "Slot Level"
+      ],
+      "colStyles": [
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center",
+        "col-1 text-center"
+      ],
+      "rows": [
+        ["2", "2", "2", "1", "1st"],
+        ["3", "2", "2", "1", "1st"],
+        ["4", "2", "2", "1", "1st"],
+        ["5", "2", "3", "1", "1st"],
+        ["6", "2", "3", "1", "1st"],
+        ["7", "2", "4", "2", "2nd"],
+        ["8", "2", "4", "2", "2nd"],
+        ["9", "2", "4", "2", "2nd"],
+        ["10", "3", "5", "2", "2nd"],
+        ["11", "3", "5", "2", "2nd"],
+        ["12", "3", "5", "2", "2nd"],
+        ["13", "3", "6", "3", "3rd"],
+        ["14", "3", "6", "3", "3rd"],
+        ["15", "3", "6", "3", "3rd"],
+        ["16", "3", "7", "3", "3rd"],
+        ["17", "3", "7", "3", "3rd"],
+        ["18", "3", "7", "3", "3rd"],
+        ["19", "3", "8", "4", "4th"],
+        ["20", "3", "9", "4", "4th"]
+      ]
+    }
+  ]
+}

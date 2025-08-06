@@ -1,0 +1,12 @@
+{
+  "name": "Indomitable Magic",
+  "source": "TftJC",
+  "className": "Fighter",
+  "classSource": "PHB",
+  "subclassShortName": "Weaveblade",
+  "subclassSource": "TftJC",
+  "level": 15,
+  "entries": [
+    "At 15th level, when you force a creature to make a saving throw against one of your spells, you can expend a use of your Indomitable to force the creature to make the save at disadvantage."
+  ]
+}
