@@ -12,11 +12,36 @@
   ],
   "foundryType": "consumable",
   "foundrySystem": {
+    "type": {
+      "value": "food",
+      "subtype": ""
+    },
     "consumableType": "food",
     "uses": {
       "max": 1,
       "per": null,
-      "autoDestroy": true
+      "autoDestroy": true,
+      "value": 1
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
     }
   },
   "foundryFlags": {

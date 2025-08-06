@@ -45,7 +45,7 @@
         "name": "Oiled Ballbearings",
         "type": "script",
         "scope": "global",
-        "command": "// Place Oiled Ballbearings Template\nif (args[0] === \"on\") {\n  // Use Foundry's built-in template placement system\n  const template = await item.placeTemplate();\n  \n  if (template) {\n    // Add custom flags and styling to the placed template\n    await template.update({\n      borderColor: \"#FF6400\",\n      fillColor: \"#FF640080\",\n      flags: {\n        \"oiled-ballbearings\": {\n          dc: 13,\n          effect: \"DC 13 Dex save or fall prone\"\n        }\n      }\n    });\n    \n    ui.notifications.info(\"Oiled Ballbearings scattered! 10x10 foot area created (DC 13 Dex save or prone).\");\n    \n    // Force delete the item after successful template placement\n    await item.delete();\n  }\n}"
+        "command": "// Place Oiled Ballbearings Template\nif (args[0] === \"on\") {\n  // Use Foundry's built-in template placement system\n  const template = await item.placeTemplate();\n  \n  if (template) {\n    // Add custom flags and styling to the placed template\n    await template.update({\n      borderColor: \"#FF6400\",\n      fillColor: \"#FF640080\",\n      text: \"DC 13 Dex Save\",\n      flags: {\n        \"oiled-ballbearings\": {\n          dc: 13,\n          saveAbility: \"dex\",\n          effect: \"DC 13 Dex save or fall prone\",\n          damageType: \"none\",\n          condition: \"prone on failure\"\n        }\n      }\n    });\n    \n    ui.notifications.info(\"Oiled Ballbearings scattered! 10x10 foot area created (DC 13 Dex save or prone).\");\n    \n    // Force delete the item after successful template placement\n    await item.delete();\n  }\n}"
       }
     }
   }

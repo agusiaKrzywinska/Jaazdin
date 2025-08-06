@@ -15,12 +15,12 @@
                     "Adam Henderson",
                     "Malcolm Keefe"
                 ],
-                "version": "0.4.05"
+                "version": "0.4.06"
             }
         ],
         "edition": "classic",
         "dateAdded": 0,
-        "dateLastModified": 1754501139,
+        "dateLastModified": 1754504961,
         "optionalFeatureTypes": {
             "FS:W": "Fighting Style: Warden",
             "TECH": "Technique",
@@ -1894,11 +1894,36 @@
             "source": "TftJC",
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "potion",
+                    "subtype": ""
+                },
                 "consumableType": "potion",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "entries": [
@@ -1912,14 +1937,6 @@
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Alchemic Claret\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Alchemic Claret consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Alchemic Claret",
-                        "type": "script"
-                    }
                 }
             }
         },
@@ -3240,25 +3257,42 @@
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "foundryFlags": {
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Carnivore's Delight\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Carnivore's Delight consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Carnivore's Delight",
-                        "type": "script"
-                    }
                 }
             }
         },
@@ -3366,19 +3400,42 @@
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
-            "itemacro": {
-                "macro": {
-                    "name": "Cheer Cookies",
-                    "type": "script",
-                    "scope": "global",
-                    "command": "// Consume Cheer Cookies\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Cheer Cookies consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
                 }
             }
         },
@@ -3625,25 +3682,42 @@
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "foundryFlags": {
                 "dae": {
                     "alwaysActive": false,
                     "transfer": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "name": "Coffee",
-                        "type": "script",
-                        "scope": "global",
-                        "command": "// Consume Coffee\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Coffee consumed! You ignore one level of exhaustion but cannot benefit from rest for 8 hours.\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
-                    }
                 }
             }
         },
@@ -4523,11 +4597,36 @@
             "rarity": "rare",
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "potion",
+                    "subtype": ""
+                },
                 "consumableType": "potion",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "entries": [
@@ -4558,14 +4657,6 @@
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Dragon Jelly\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Dragon Jelly consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Dragon Jelly",
-                        "type": "script"
-                    }
                 }
             }
         },
@@ -4615,25 +4706,42 @@
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "foundryFlags": {
                 "dae": {
                     "alwaysActive": false,
                     "transfer": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "name": "Drake Egg Nog",
-                        "type": "script",
-                        "scope": "global",
-                        "command": "// Consume Drake Egg Nog\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Drake Egg Nog consumed! First damage of this type reduced by 2d8.\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
-                    }
                 }
             }
         },
@@ -5047,11 +5155,36 @@
             "source": "TftJC",
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "potion",
+                    "subtype": ""
+                },
                 "consumableType": "potion",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "entries": [
@@ -5061,14 +5194,6 @@
                 "dae": {
                     "alwaysActive": false,
                     "transfer": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "name": "Evercure Potion",
-                        "type": "script",
-                        "scope": "global",
-                        "command": "// Consume Evercure Potion\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Evercure Potion consumed! Greater Restoration effect applied.\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
-                    }
                 }
             }
         },
@@ -5288,25 +5413,42 @@
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "foundryFlags": {
                 "dae": {
                     "alwaysActive": false,
                     "transfer": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "name": "Fire Belly Mead",
-                        "type": "script",
-                        "scope": "global",
-                        "command": "// Consume Fire Belly Mead\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Fire Belly Mead consumed! Advantage on saves against cold climates.\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
-                    }
                 }
             }
         },
@@ -5447,25 +5589,42 @@
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "foundryFlags": {
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Frost Cactus Wine\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Frost Cactus Wine consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Frost Cactus Wine",
-                        "type": "script"
-                    }
                 }
             }
         },
@@ -6161,11 +6320,36 @@
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "foundryFlags": {
@@ -6197,25 +6381,42 @@
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "foundryFlags": {
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Harvest Sauce\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Harvest Sauce consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Harvest Sauce",
-                        "type": "script"
-                    }
                 }
             }
         },
@@ -6581,25 +6782,42 @@
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "foundryFlags": {
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Ice Spring Wine\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Ice Spring Wine consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Ice Spring Wine",
-                        "type": "script"
-                    }
                 }
             }
         },
@@ -6638,25 +6856,42 @@
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "foundryFlags": {
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Iceflower Flakey\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Iceflower Flakey consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Iceflower Flakey",
-                        "type": "script"
-                    }
                 }
             }
         },
@@ -6901,25 +7136,42 @@
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "foundryFlags": {
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Kelp Brittle\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Kelp Brittle consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Kelp Brittle",
-                        "type": "script"
-                    }
                 }
             }
         },
@@ -7025,11 +7277,36 @@
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "foundryFlags": {
@@ -7693,25 +7970,42 @@
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "foundryFlags": {
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Mooncloud Jelly\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Mooncloud Jelly consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Mooncloud Jelly",
-                        "type": "script"
-                    }
                 }
             }
         },
@@ -7742,11 +8036,36 @@
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "foundryFlags": {
@@ -7923,7 +8242,7 @@
                         "name": "Oiled Ballbearings",
                         "type": "script",
                         "scope": "global",
-                        "command": "// Place Oiled Ballbearings Template\nif (args[0] === \"on\") {\n  // Use Foundry's built-in template placement system\n  const template = await item.placeTemplate();\n  \n  if (template) {\n    // Add custom flags and styling to the placed template\n    await template.update({\n      borderColor: \"#FF6400\",\n      fillColor: \"#FF640080\",\n      flags: {\n        \"oiled-ballbearings\": {\n          dc: 13,\n          effect: \"DC 13 Dex save or fall prone\"\n        }\n      }\n    });\n    \n    ui.notifications.info(\"Oiled Ballbearings scattered! 10x10 foot area created (DC 13 Dex save or prone).\");\n    \n    // Force delete the item after successful template placement\n    await item.delete();\n  }\n}"
+                        "command": "// Place Oiled Ballbearings Template\nif (args[0] === \"on\") {\n  // Use Foundry's built-in template placement system\n  const template = await item.placeTemplate();\n  \n  if (template) {\n    // Add custom flags and styling to the placed template\n    await template.update({\n      borderColor: \"#FF6400\",\n      fillColor: \"#FF640080\",\n      text: \"DC 13 Dex Save\",\n      flags: {\n        \"oiled-ballbearings\": {\n          dc: 13,\n          saveAbility: \"dex\",\n          effect: \"DC 13 Dex save or fall prone\",\n          damageType: \"none\",\n          condition: \"prone on failure\"\n        }\n      }\n    });\n    \n    ui.notifications.info(\"Oiled Ballbearings scattered! 10x10 foot area created (DC 13 Dex save or prone).\");\n    \n    // Force delete the item after successful template placement\n    await item.delete();\n  }\n}"
                     }
                 }
             }
@@ -8183,7 +8502,7 @@
             ]
         },
         {
-            "name": "PiÃ±a Colada",
+            "name": "PiÃƒÂ±a Colada",
             "source": "TftJC",
             "type": "FD",
             "rarity": "rare",
@@ -8196,25 +8515,42 @@
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "foundryFlags": {
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Piña Colada\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Piña Colada consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Piña Colada",
-                        "type": "script"
-                    }
                 }
             }
         },
@@ -8383,11 +8719,36 @@
             "rarity": "common",
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "potion",
+                    "subtype": ""
+                },
                 "consumableType": "potion",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "entries": [
@@ -8397,14 +8758,6 @@
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Potion of Air Bubble\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Potion of Air Bubble consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Potion of Air Bubble",
-                        "type": "script"
-                    }
                 }
             }
         },
@@ -8415,11 +8768,36 @@
             "rarity": "uncommon",
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "potion",
+                    "subtype": ""
+                },
                 "consumableType": "potion",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "entries": [
@@ -8429,14 +8807,6 @@
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Potion of Flamewielding\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Potion of Flamewielding consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Potion of Flamewielding",
-                        "type": "script"
-                    }
                 }
             }
         },
@@ -8447,11 +8817,36 @@
             "source": "TftJC",
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "potion",
+                    "subtype": ""
+                },
                 "consumableType": "potion",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "entries": [
@@ -8463,14 +8858,6 @@
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Potion of Foggy Escape\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Potion of Foggy Escape consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Potion of Foggy Escape",
-                        "type": "script"
-                    }
                 }
             }
         },
@@ -8481,11 +8868,36 @@
             "source": "TftJC",
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "potion",
+                    "subtype": ""
+                },
                 "consumableType": "potion",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "entries": [
@@ -8496,14 +8908,6 @@
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Potion of Past Memory\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Potion of Past Memory consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Potion of Past Memory",
-                        "type": "script"
-                    }
                 }
             }
         },
@@ -8514,11 +8918,36 @@
             "source": "TftJC",
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "potion",
+                    "subtype": ""
+                },
                 "consumableType": "potion",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "entries": [
@@ -8529,14 +8958,6 @@
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Potion of Perfection\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Potion of Perfection consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Potion of Perfection",
-                        "type": "script"
-                    }
                 }
             }
         },
@@ -8554,25 +8975,42 @@
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "foundryFlags": {
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Powdered Butterfly Wings\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Powdered Butterfly Wings consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Powdered Butterfly Wings",
-                        "type": "script"
-                    }
                 }
             }
         },
@@ -8846,30 +9284,47 @@
             "weight": 0,
             "entries": [
                 "<b>Preparation:</b> Requires cook's tools to prepare.",
-                "<b>Ingredients:</b> 3× Common meat (swim speed), 1× Hiker's Bounty.",
+                "<b>Ingredients:</b> 3Ã— Common meat (swim speed), 1Ã— Hiker's Bounty.",
                 "<b>Effect:</b> Gain a +1 bonus to all ability checks related to swimming or exploring underwater."
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "foundryFlags": {
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Rainbow Fillet\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Rainbow Fillet consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Rainbow Fillet",
-                        "type": "script"
-                    }
                 }
             }
         },
@@ -9332,25 +9787,42 @@
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "foundryFlags": {
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Road Syrup\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Road Syrup consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Road Syrup",
-                        "type": "script"
-                    }
                 }
             }
         },
@@ -9368,25 +9840,42 @@
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "foundryFlags": {
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Road Tack\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Road Tack consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Road Tack",
-                        "type": "script"
-                    }
                 }
             }
         },
@@ -10271,25 +10760,42 @@
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "foundryFlags": {
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Tamer's Feed\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Tamer's Feed consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Tamer's Feed",
-                        "type": "script"
-                    }
                 }
             }
         },
@@ -11500,25 +12006,42 @@
             ],
             "foundryType": "consumable",
             "foundrySystem": {
+                "type": {
+                    "value": "food",
+                    "subtype": ""
+                },
                 "consumableType": "food",
                 "uses": {
                     "max": 1,
                     "per": null,
-                    "autoDestroy": true
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
                 }
             },
             "foundryFlags": {
                 "dae": {
                     "transfer": false,
                     "alwaysActive": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "scope": "global",
-                        "command": "// Consume Yushanti's Secret Sauce\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Yushanti's Secret Sauce consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-                        "name": "Yushanti's Secret Sauce",
-                        "type": "script"
-                    }
                 }
             }
         },

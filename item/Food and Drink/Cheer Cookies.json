@@ -12,19 +12,42 @@
   ],
   "foundryType": "consumable",
   "foundrySystem": {
+    "type": {
+      "value": "food",
+      "subtype": ""
+    },
     "consumableType": "food",
     "uses": {
       "max": 1,
       "per": null,
-      "autoDestroy": true
+      "autoDestroy": true,
+      "value": 1
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
     }
   },
-  "itemacro": {
-    "macro": {
-      "name": "Cheer Cookies",
-      "type": "script",
-      "scope": "global",
-      "command": "// Consume Cheer Cookies\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Cheer Cookies consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
+  "foundryFlags": {
+    "dae": {
+      "transfer": false,
+      "alwaysActive": false
     }
   }
 }

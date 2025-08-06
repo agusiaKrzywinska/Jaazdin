@@ -5,11 +5,36 @@
   "source": "TftJC",
   "foundryType": "consumable",
   "foundrySystem": {
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
     "consumableType": "potion",
     "uses": {
       "max": 1,
       "per": null,
-      "autoDestroy": true
+      "autoDestroy": true,
+      "value": 1
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
     }
   },
   "entries": [
@@ -21,14 +46,6 @@
     "dae": {
       "transfer": false,
       "alwaysActive": false
-    },
-    "itemacro": {
-      "macro": {
-        "scope": "global",
-        "command": "// Consume Potion of Foggy Escape\nif (args[0] === \"on\") {\n  ui.notifications.info(\"Potion of Foggy Escape consumed!\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}",
-        "name": "Potion of Foggy Escape",
-        "type": "script"
-      }
     }
   }
 }
