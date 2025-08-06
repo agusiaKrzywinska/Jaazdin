@@ -1,5 +1,5 @@
 {
-  "name": "Terramaster",
+  "name": "Tectonics",
   "source": "TftJC",
   "className": "Fighter",
   "classSource": "PHB",
@@ -16,6 +16,6 @@
         "You can create a 5ft wide 30ft high pillar (as detailed in Bones of the Earth) without requiring concentration."
       ]
     },
-    "These effects last until the stone created is destroyed, you move more than 100ft away from it, or you can choose to destroy them early as a Bonus Action. When deatroyed, the particles of stone return to you, forming your sandstorm around you again."
+    "These effects last until the stone created is destroyed, you move more than 100ft away from it, or you can choose to destroy them early as a Bonus Action. When destroyed, the particles of stone return to you, forming your sandstorm around you again."
   ]
 }
