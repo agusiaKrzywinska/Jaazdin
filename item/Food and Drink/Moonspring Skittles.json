@@ -11,51 +11,29 @@
     "<b>Effect:</b> You gain a +1 bonus to all Intelligence, Charisma, or Wisdom ability checks."
   ],
   "foundryType": "consumable",
-  "foundrySystem": {
-    "type": {
-      "value": "food",
-      "subtype": ""
-    },
-    "consumableType": "food",
-    "uses": {
-      "max": 1,
-      "per": null,
-      "autoDestroy": true,
-      "value": 1
-    },
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
-    },
-    "duration": {
-      "value": null,
-      "units": "inst"
-    },
-    "target": {
-      "value": null,
-      "width": null,
-      "units": "",
-      "type": "self"
-    },
-    "range": {
-      "value": null,
-      "long": null,
-      "units": "self"
-    }
-  },
-  "foundryFlags": {
-    "dae": {
-      "alwaysActive": false,
-      "transfer": false
-    },
-    "itemacro": {
+  "foundryActivities": [
+    {
+      "foundryId": "consumemoonspringskittles",
+      "type": "utility",
+      "name": "Consume Moonspring Skittles",
+      "description": { "chatFlavor": "Consumes Moonspring Skittles" },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] },
       "macro": {
-        "name": "Moonspring Skittles",
         "type": "script",
-        "scope": "global",
-        "command": "// Apply Moonspring Skittles Effect\nif (args[0] === \"on\") {\n  const effectData = {\n    name: \"Moonspring Skittles Effect\",\n    icon: \"icons/consumables/candy/candy-wrapped-blue.webp\",\n    changes: [\n      {\n        key: \"system.bonuses.abilities.int\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      },\n      {\n        key: \"system.bonuses.abilities.wis\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      },\n      {\n        key: \"system.bonuses.abilities.cha\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      }\n    ],\n    flags: {\n      dae: {\n        specialDuration: [\"longRest\", \"shortRest\"]\n      }\n    }\n  };\n  await actor.createEmbeddedDocuments(\"ActiveEffect\", [effectData]);\n  ui.notifications.info(\"Moonspring Skittles effect applied! +1 to INT, WIS, CHA checks until rest.\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
+        "name": "Moonspring Skittles Effect",
+        "command": "// Apply Moonspring Skittles Effect as activity macro.\nconst effectData = {\n  name: 'Moonspring Skittles Effect',\n  icon: 'icons/consumables/candy/candy-wrapped-blue.webp',\n  changes: [\n    { key: 'system.bonuses.abilities.int', mode: 2, value: '1', priority: 20 },\n    { key: 'system.bonuses.abilities.wis', mode: 2, value: '1', priority: 20 },\n    { key: 'system.bonuses.abilities.cha', mode: 2, value: '1', priority: 20 }\n  ],\n  flags: { dae: { specialDuration: ['longRest', 'shortRest'] } }\n};\nawait actor.createEmbeddedDocuments('ActiveEffect', [effectData]);\nui.notifications.info('Moonspring Skittles effect applied! +1 to INT, WIS, CHA checks until rest.');"
       }
     }
+  ],
+  "foundrySystem": {
+    "type": { "value": "food", "subtype": "" },
+    "consumableType": "food",
+    "uses": { "max": 1, "per": null, "autoDestroy": true, "value": 1 },
+    "duration": { "value": null, "units": "inst" },
+    "target": { "value": null, "width": null, "units": "", "type": "self" },
+    "range": { "value": null, "long": null, "units": "self" }
+  },
+  "foundryFlags": {
+    "dae": { "alwaysActive": false, "transfer": false }
   }
 }

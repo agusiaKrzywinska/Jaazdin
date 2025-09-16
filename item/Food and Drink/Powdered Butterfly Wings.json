@@ -11,6 +11,15 @@
     "<b>Effect:</b> You gain a +1 bonus to Charisma saves and can double your proficiency bonus to one Charisma checks. Once you double your proficiency bonus you lose all the bonuses of this meal."
   ],
   "foundryType": "consumable",
+  "foundryActivities": [
+    {
+      "foundryId": "consumepowderedbutterflywings",
+      "type": "utility",
+      "name": "Consume Powdered Butterfly Wings",
+      "description": { "chatFlavor": "Consumes Powdered Butterfly Wings" },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ],
   "foundrySystem": {
     "type": {
       "value": "food",
@@ -22,11 +31,6 @@
       "per": null,
       "autoDestroy": true,
       "value": 1
-    },
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
     },
     "duration": {
       "value": null,

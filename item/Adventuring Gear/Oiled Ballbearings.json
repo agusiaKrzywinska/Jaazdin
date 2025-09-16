@@ -10,6 +10,26 @@
     "As an action, you can spill these tiny metal balls from their pouch to cover a level, square area that is 10 feet on a side. A creature moving across the covered area must succeed on a DC 13 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn't need to make the save."
   ],
   "foundryType": "consumable",
+  "foundryActivities": [
+    {
+      "foundryId": "scatteroiledballbearings",
+      "type": "utility",
+      "name": "Scatter Oiled Ballbearings",
+      "description": {
+        "chatFlavor": "Scatters oiled ballbearings (DC 13 Dex or prone)"
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] },
+      "target": {
+        "template": { "type": "rect", "size": "10", "units": "ft" },
+        "prompt": true
+      },
+      "macro": {
+        "type": "script",
+        "name": "Scatter Oiled Ballbearings",
+        "command": "// Scatter Oiled Ballbearings direct macro (inlined).\n// Place template allowing user prompt if not already placed by activity target.\nif (!item) return;\nlet template = canvas.templates?.placeables.find(t => t.document.getFlag('oiled-ballbearings','pending') && t.document.parent?.uuid === item.parent?.uuid);\nif (!template) {\n  // Use item.placeTemplate if available (system helper) else manual creation.\n  if (item.placeTemplate) {\n    template = await item.placeTemplate();\n  } else {\n    const data = { t: 'rect', distance: 10, width: 10, user: game.user.id, flags: { 'oiled-ballbearings': { pending: true } } };\n    const created = await canvas.scene.createEmbeddedDocuments('MeasuredTemplate', [data]);\n    template = created[0];\n  }\n}\nif (!template) { ui.notifications.warn('Template placement cancelled.'); return; }\n// Update styling and metadata.\nawait template.update({\n  borderColor: '#FF6400',\n  fillColor: '#FF640080',\n  text: 'DC 13 Dex Save',\n  flags: { 'oiled-ballbearings': { dc: 13, saveAbility: 'dex', effect: 'DC 13 Dex save or fall prone', damageType: 'none', condition: 'prone on failure' } }\n});\nui.notifications.info('Oiled Ballbearings scattered! 10x10 ft area (DC 13 Dex or prone).');\n// Consume item if uses depleted after activity consumption.\nif (item.system?.uses?.value !== undefined && item.system.uses.value <= 0 && item.system.uses.autoDestroy) {\n  // Ensure not already deleted.\n  try { await item.delete(); } catch(e) {}\n}"
+      }
+    }
+  ],
   "foundrySystem": {
     "consumableType": "trinket",
     "uses": {
@@ -39,14 +59,6 @@
     "dae": {
       "alwaysActive": false,
       "transfer": false
-    },
-    "itemacro": {
-      "macro": {
-        "name": "Oiled Ballbearings",
-        "type": "script",
-        "scope": "global",
-        "command": "// Place Oiled Ballbearings Template\nif (args[0] === \"on\") {\n  // Use Foundry's built-in template placement system\n  const template = await item.placeTemplate();\n  \n  if (template) {\n    // Add custom flags and styling to the placed template\n    await template.update({\n      borderColor: \"#FF6400\",\n      fillColor: \"#FF640080\",\n      text: \"DC 13 Dex Save\",\n      flags: {\n        \"oiled-ballbearings\": {\n          dc: 13,\n          saveAbility: \"dex\",\n          effect: \"DC 13 Dex save or fall prone\",\n          damageType: \"none\",\n          condition: \"prone on failure\"\n        }\n      }\n    });\n    \n    ui.notifications.info(\"Oiled Ballbearings scattered! 10x10 foot area created (DC 13 Dex save or prone).\");\n    \n    // Force delete the item after successful template placement\n    await item.delete();\n  }\n}"
-      }
     }
   }
 }

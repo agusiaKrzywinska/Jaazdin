@@ -15,7 +15,23 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null,
+      "autoDestroy": true,
+      "value": 1
     }
-  }
+  },
+  "foundryActivities": [
+    {
+      "foundryId": "consumeoceansbounty",
+      "type": "utility",
+      "name": "Consume Ocean's Bounty",
+      "description": {
+        "chatFlavor": "Gain swim speed equal to land speed, no underwater attack penalty."
+      },
+      "macro": {
+        "command": "// Ocean's Bounty: Swim speed = land speed, no underwater attack penalty\nconst landSpeed = actor.system.attributes.movement.walk || 30;\nawait actor.createEmbeddedDocuments(\"ActiveEffect\", [{\n  label: \"Ocean's Bounty Meal\",\n  icon: \"icons/consumables/food/fish-blue.webp\",\n  changes: [\n    { key: 'system.attributes.movement.swim', mode: 5, value: landSpeed, priority: 20 }\n  ],\n  duration: { special: [\"longRest\"] },\n  origin: item.uuid\n}]);\nui.notifications.info(\"Swim speed set to land speed until your next rest.\");"
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ]
 }

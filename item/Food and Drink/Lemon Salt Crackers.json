@@ -11,51 +11,29 @@
     "<b>Effect:</b> You gain a +1 bonus to all Strength, Dexterity, and Constitution ability checks."
   ],
   "foundryType": "consumable",
-  "foundrySystem": {
-    "type": {
-      "value": "food",
-      "subtype": ""
-    },
-    "consumableType": "food",
-    "uses": {
-      "max": 1,
-      "per": null,
-      "autoDestroy": true,
-      "value": 1
-    },
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
-    },
-    "duration": {
-      "value": null,
-      "units": "inst"
-    },
-    "target": {
-      "value": null,
-      "width": null,
-      "units": "",
-      "type": "self"
-    },
-    "range": {
-      "value": null,
-      "long": null,
-      "units": "self"
-    }
-  },
-  "foundryFlags": {
-    "dae": {
-      "alwaysActive": false,
-      "transfer": false
-    },
-    "itemacro": {
+  "foundryActivities": [
+    {
+      "foundryId": "consumelemonsaltcrackers",
+      "type": "utility",
+      "name": "Consume Lemon Salt Crackers",
+      "description": { "chatFlavor": "Consumes Lemon Salt Crackers" },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] },
       "macro": {
-        "name": "Lemon Salt Crackers",
         "type": "script",
-        "scope": "global",
-        "command": "// Apply Lemon Salt Crackers Effect\nif (args[0] === \"on\") {\n  const effectData = {\n    name: \"Lemon Salt Crackers Effect\",\n    icon: \"icons/consumables/food/bread-loaf-brown-grey.webp\",\n    changes: [\n      {\n        key: \"system.bonuses.abilities.str\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      },\n      {\n        key: \"system.bonuses.abilities.dex\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      },\n      {\n        key: \"system.bonuses.abilities.con\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      }\n    ],\n    flags: {\n      dae: {\n        specialDuration: [\"longRest\", \"shortRest\"]\n      }\n    }\n  };\n  await actor.createEmbeddedDocuments(\"ActiveEffect\", [effectData]);\n  ui.notifications.info(\"Lemon Salt Crackers effect applied! +1 to STR, DEX, CON checks until rest.\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
+        "name": "Lemon Salt Crackers Effect",
+        "command": "// Apply Lemon Salt Crackers Effect as activity macro.\nconst effectData = {\n  name: 'Lemon Salt Crackers Effect',\n  icon: 'icons/consumables/food/bread-loaf-brown-grey.webp',\n  changes: [\n    { key: 'system.bonuses.abilities.str', mode: 2, value: '1', priority: 20 },\n    { key: 'system.bonuses.abilities.dex', mode: 2, value: '1', priority: 20 },\n    { key: 'system.bonuses.abilities.con', mode: 2, value: '1', priority: 20 }\n  ],\n  flags: { dae: { specialDuration: ['longRest', 'shortRest'] } }\n};\nawait actor.createEmbeddedDocuments('ActiveEffect', [effectData]);\nui.notifications.info('Lemon Salt Crackers effect applied! +1 to STR, DEX, CON checks until rest.');"
       }
     }
+  ],
+  "foundrySystem": {
+    "type": { "value": "food", "subtype": "" },
+    "consumableType": "food",
+    "uses": { "max": 1, "per": null, "autoDestroy": true, "value": 1 },
+    "duration": { "value": null, "units": "inst" },
+    "target": { "value": null, "width": null, "units": "", "type": "self" },
+    "range": { "value": null, "long": null, "units": "self" }
+  },
+  "foundryFlags": {
+    "dae": { "alwaysActive": false, "transfer": false }
   }
 }

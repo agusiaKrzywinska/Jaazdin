@@ -11,6 +11,15 @@
     "<b>Effect:</b> You ignore one level of exhaustion but cannot benefit from a short or long rest for the next 8 hours."
   ],
   "foundryType": "consumable",
+  "foundryActivities": [
+    {
+      "foundryId": "consumecoffee",
+      "type": "utility",
+      "name": "Consume Coffee",
+      "description": { "chatFlavor": "Consumes Coffee" },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ],
   "foundrySystem": {
     "type": {
       "value": "food",
@@ -22,11 +31,6 @@
       "per": null,
       "autoDestroy": true,
       "value": 1
-    },
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
     },
     "duration": {
       "value": null,

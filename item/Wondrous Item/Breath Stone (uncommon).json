@@ -19,5 +19,25 @@
         ["Silver, or White", "Cold"]
       ]
     }
+  ],
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "type": { "value": "trinket", "subtype": "" },
+    "consumableType": "trinket",
+    "uses": { "max": 1, "per": null, "autoDestroy": true, "value": 1 }
+  },
+  "foundryActivities": [
+    {
+      "foundryId": "consumeBreathStoneUncommon",
+      "type": "utility",
+      "name": "Consume Breath Stone (uncommon)",
+      "description": {
+        "chatFlavor": "Unleash a 15-foot cone breath weapon. DC 13 Dex save, 3d6 elemental damage. See item for damage type."
+      },
+      "macro": {
+        "command": "// Template: 15ft cone, prompt for direction\nawait canvas.scene.createEmbeddedDocuments('MeasuredTemplate', [{\n  t: 'cone',\n  user: game.user.id,\n  distance: 15,\n  angle: 53.13,\n  x: token.center.x,\n  y: token.center.y,\n  direction: 0, // Prompt user\n  fillColor: '#ffcc00'\n}]);\nui.notifications.info('Breath weapon template placed. See item for save DC and damage.');"
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
   ]
 }

@@ -15,7 +15,23 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null,
+      "autoDestroy": true,
+      "value": 1
     }
-  }
+  },
+  "foundryActivities": [
+    {
+      "foundryId": "consumeironrockcandy",
+      "type": "utility",
+      "name": "Consume Ironrock Candy",
+      "description": {
+        "chatFlavor": "18 AC, resistance to non-magical B/P/S damage."
+      },
+      "macro": {
+        "command": "// Ironrock Candy: 18 AC, resistance to non-magical B/P/S\nawait actor.createEmbeddedDocuments(\"ActiveEffect\", [{\n  label: \"Ironrock Candy Meal\",\n  icon: \"icons/consumables/food/candy-rock-brown.webp\",\n  changes: [\n    { key: 'system.attributes.ac.value', mode: 5, value: '18', priority: 20 },\n    { key: 'system.traits.dr.value', mode: 2, value: 'bludgeoning', priority: 20 },\n    { key: 'system.traits.dr.value', mode: 2, value: 'piercing', priority: 20 },\n    { key: 'system.traits.dr.value', mode: 2, value: 'slashing', priority: 20 }\n  ],\n  duration: { special: [\"longRest\"] },\n  origin: item.uuid\n}]);\nui.notifications.info(\"AC set to 18 and resistance to non-magical B/P/S until your next rest.\");"
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ]
 }

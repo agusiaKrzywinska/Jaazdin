@@ -15,7 +15,20 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null,
+      "autoDestroy": true,
+      "value": 1
     }
-  }
+  },
+  "foundryActivities": [
+    {
+      "foundryId": "consumegrandpanacea",
+      "type": "utility",
+      "name": "Consume Grand Panacea",
+      "description": {
+        "chatFlavor": "Removes poisoned, curses, and diseases."
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ]
 }

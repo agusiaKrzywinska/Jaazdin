@@ -16,11 +16,6 @@
       "autoDestroy": true,
       "value": 1
     },
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
-    },
     "duration": {
       "value": null,
       "units": "inst"
@@ -37,6 +32,17 @@
       "units": "self"
     }
   },
+  "foundryActivities": [
+    {
+      "foundryId": "consumevercurepotion",
+      "type": "utility",
+      "name": "Consume Evercure Potion",
+      "description": {
+        "chatFlavor": "You are affected by the Greater Restoration spell."
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ],
   "entries": [
     "This Golden potion swirls with small strands of light seemingly flowing within it. As an action, a creature can drink or administer the potion to another creature. Their body is refreshed, as they are affected by the Greater Restoration Spell."
   ],

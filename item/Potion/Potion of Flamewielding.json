@@ -16,11 +16,6 @@
       "autoDestroy": true,
       "value": 1
     },
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
-    },
     "duration": {
       "value": null,
       "units": "inst"
@@ -37,6 +32,17 @@
       "units": "self"
     }
   },
+  "foundryActivities": [
+    {
+      "foundryId": "consumepotionofflamewielding",
+      "type": "utility",
+      "name": "Consume Potion of Flamewielding",
+      "description": {
+        "chatFlavor": "Your melee attacks deal +1d6 fire damage for 1 minute."
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ],
   "entries": [
     "Your hands ignite with flames for the next minute. Your melee attacks deal an additional {@damage 1d6} fire damage on a hit."
   ],

@@ -15,7 +15,18 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null,
+      "autoDestroy": true,
+      "value": 1
     }
-  }
+  },
+  "foundryActivities": [
+    {
+      "foundryId": "consumewyrmplatter",
+      "type": "utility",
+      "name": "Consume Wyrm Platter",
+      "description": { "chatFlavor": "Grants draconic abilities." },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ]
 }

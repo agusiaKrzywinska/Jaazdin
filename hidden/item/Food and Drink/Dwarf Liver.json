@@ -15,7 +15,20 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null,
+      "autoDestroy": true,
+      "value": 1
     }
-  }
+  },
+  "foundryActivities": [
+    {
+      "foundryId": "consumedwarfliver",
+      "type": "utility",
+      "name": "Consume Dwarf Liver",
+      "description": {
+        "chatFlavor": "Immune to alcohol, advantage on poison saves."
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ]
 }

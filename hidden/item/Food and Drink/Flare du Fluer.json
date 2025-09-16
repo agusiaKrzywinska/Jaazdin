@@ -15,7 +15,18 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null,
+      "autoDestroy": true,
+      "value": 1
     }
-  }
+  },
+  "foundryActivities": [
+    {
+      "foundryId": "consumeflaredufluer",
+      "type": "utility",
+      "name": "Consume Flare du Fluer",
+      "description": { "chatFlavor": "Fire breath." },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ]
 }

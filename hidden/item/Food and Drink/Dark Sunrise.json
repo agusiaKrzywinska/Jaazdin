@@ -15,7 +15,20 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null,
+      "autoDestroy": true,
+      "value": 1
     }
-  }
+  },
+  "foundryActivities": [
+    {
+      "foundryId": "consumedarksunrise",
+      "type": "utility",
+      "name": "Consume Dark Sunrise",
+      "description": {
+        "chatFlavor": "DC 25 Con save or 10d10 poison dmg, then poison immunity."
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ]
 }

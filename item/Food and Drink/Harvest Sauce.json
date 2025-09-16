@@ -11,6 +11,15 @@
     "<b>Effect:</b> Must be eaten with another meal, whenever you gain temporary hit points, increase the amount gained by 1."
   ],
   "foundryType": "consumable",
+  "foundryActivities": [
+    {
+      "foundryId": "consumeharvestsauce",
+      "type": "utility",
+      "name": "Consume Harvest Sauce",
+      "description": { "chatFlavor": "Consumes Harvest Sauce" },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ],
   "foundrySystem": {
     "type": {
       "value": "food",
@@ -22,11 +31,6 @@
       "per": null,
       "autoDestroy": true,
       "value": 1
-    },
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
     },
     "duration": {
       "value": null,

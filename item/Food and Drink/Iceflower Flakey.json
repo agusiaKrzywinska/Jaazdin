@@ -11,6 +11,15 @@
     "<b>Effect:</b> You gain a +1 bonus to Intelligence saves and when you take psychic damage you can use your reaction to reduce the psychic damage to 1. Once you use this reaction you lose all the bonuses of this meal."
   ],
   "foundryType": "consumable",
+  "foundryActivities": [
+    {
+      "foundryId": "consumeiceflowerflakey",
+      "type": "utility",
+      "name": "Consume Iceflower Flakey",
+      "description": { "chatFlavor": "Consumes Iceflower Flakey" },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ],
   "foundrySystem": {
     "type": {
       "value": "food",
@@ -22,11 +31,6 @@
       "per": null,
       "autoDestroy": true,
       "value": 1
-    },
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
     },
     "duration": {
       "value": null,

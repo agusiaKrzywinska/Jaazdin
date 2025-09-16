@@ -15,7 +15,21 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null,
+      "autoDestroy": true,
+      "value": 1
     }
-  }
+  },
+  "foundryActivities": [
+    {
+      "foundryId": "consumeroastbeast",
+      "type": "utility",
+      "name": "Consume Roast Beast",
+      "description": { "chatFlavor": "STR is 30 for Strength ability checks." },
+      "macro": {
+        "command": "// Roast Beast: STR is 30 for Strength ability checks\nawait actor.createEmbeddedDocuments(\"ActiveEffect\", [{\n  label: \"Roast Beast Meal\",\n  icon: \"icons/consumables/food/roast-beast-brown.webp\",\n  changes: [\n    { key: 'system.abilities.str.value', mode: 5, value: '30', priority: 20 }\n  ],\n  duration: { special: [\"longRest\"] },\n  origin: item.uuid\n}]);\nui.notifications.info(\"Strength set to 30 for ability checks until your next rest.\");"
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ]
 }

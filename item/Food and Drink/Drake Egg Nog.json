@@ -11,6 +11,15 @@
     "<b>Effect:</b> The first time you take the damage type of the meal reduce the damage by 2d8 to a minimum of 1. The effect then ends."
   ],
   "foundryType": "consumable",
+  "foundryActivities": [
+    {
+      "foundryId": "consumedrakeeggnog",
+      "type": "utility",
+      "name": "Consume Drake Egg Nog",
+      "description": { "chatFlavor": "Consumes Drake Egg Nog" },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ],
   "foundrySystem": {
     "type": {
       "value": "food",
@@ -22,11 +31,6 @@
       "per": null,
       "autoDestroy": true,
       "value": 1
-    },
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
     },
     "duration": {
       "value": null,

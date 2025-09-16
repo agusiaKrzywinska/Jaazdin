@@ -11,6 +11,15 @@
     "<b>Effect:</b> Triples the duration you can remain underwater before you begin drowning."
   ],
   "foundryType": "consumable",
+  "foundryActivities": [
+    {
+      "foundryId": "consumekelpbrittle",
+      "type": "utility",
+      "name": "Consume Kelp Brittle",
+      "description": { "chatFlavor": "Consumes Kelp Brittle" },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ],
   "foundrySystem": {
     "type": {
       "value": "food",
@@ -22,11 +31,6 @@
       "per": null,
       "autoDestroy": true,
       "value": 1
-    },
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
     },
     "duration": {
       "value": null,

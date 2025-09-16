@@ -15,7 +15,20 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null,
+      "autoDestroy": true,
+      "value": 1
     }
-  }
+  },
+  "foundryActivities": [
+    {
+      "foundryId": "consumegreatbeanandgianttoast",
+      "type": "utility",
+      "name": "Consume Great Bean and Giant Toast",
+      "description": {
+        "chatFlavor": "Increase size by 1 category. On end, 1d20: on 20, shrink to original size +1 inch."
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ]
 }

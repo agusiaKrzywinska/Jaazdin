@@ -15,7 +15,20 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null,
+      "autoDestroy": true,
+      "value": 1
     }
-  }
+  },
+  "foundryActivities": [
+    {
+      "foundryId": "consumebloodcookies",
+      "type": "utility",
+      "name": "Consume Blood Cookies",
+      "description": {
+        "chatFlavor": "Melee weapon attacks that use Strength or Dexterity deal an additional 1d6 damage of their type, or 1d10 if heavy."
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ]
 }

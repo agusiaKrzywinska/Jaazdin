@@ -15,12 +15,12 @@
                     "Adam Henderson",
                     "Malcolm Keefe"
                 ],
-                "version": "0.4.06"
+                "version": "0.4.07"
             }
         ],
         "edition": "classic",
         "dateAdded": 0,
-        "dateLastModified": 1754504961,
+        "dateLastModified": 1758027496,
         "optionalFeatureTypes": {
             "FS:W": "Fighting Style: Warden",
             "TECH": "Technique",
@@ -1905,11 +1905,6 @@
                     "autoDestroy": true,
                     "value": 1
                 },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                },
                 "duration": {
                     "value": null,
                     "units": "inst"
@@ -1926,6 +1921,24 @@
                     "units": "self"
                 }
             },
+            "foundryActivities": [
+                {
+                    "foundryId": "consumealchemicclaret",
+                    "type": "utility",
+                    "name": "Consume Alchemic Claret",
+                    "description": {
+                        "chatFlavor": "See item description for effects. Choose to imbibe or apply to weapon."
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "entries": [
                 "This vial of blood-like substance emits a otherworldly power like nothing seen before. You can choose to imbibe this substance or apply it to a weapon.",
                 "If ingested, you gain the following benefits: For one hour, as a bonus action you can roll a hit dice + your level to gain that much HP. You then lose that Hit Dice until the end of a Long Rest. Once this feature is used the potion's effect is gone.",
@@ -2943,6 +2956,41 @@
                         ]
                     ]
                 }
+            ],
+            "foundryType": "consumable",
+            "foundrySystem": {
+                "type": {
+                    "value": "trinket",
+                    "subtype": ""
+                },
+                "consumableType": "trinket",
+                "uses": {
+                    "max": 1,
+                    "per": null,
+                    "autoDestroy": true,
+                    "value": 1
+                }
+            },
+            "foundryActivities": [
+                {
+                    "foundryId": "consumeBreathStoneLegendary",
+                    "type": "utility",
+                    "name": "Consume Breath Stone (legendary)",
+                    "description": {
+                        "chatFlavor": "Unleash a 15-foot cone breath weapon. DC 20 Dex save, 6d12 elemental damage. See item for damage type."
+                    },
+                    "macro": {
+                        "command": "// Template: 15ft cone, prompt for direction\nawait canvas.scene.createEmbeddedDocuments('MeasuredTemplate', [{\n  t: 'cone',\n  user: game.user.id,\n  distance: 15,\n  angle: 53.13,\n  x: token.center.x,\n  y: token.center.y,\n  direction: 0, // Prompt user\n  fillColor: '#ffcc00'\n}]);\nui.notifications.info('Breath weapon template placed. See item for save DC and damage.');"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
             ]
         },
         {
@@ -2986,6 +3034,41 @@
                             "Cold"
                         ]
                     ]
+                }
+            ],
+            "foundryType": "consumable",
+            "foundrySystem": {
+                "type": {
+                    "value": "trinket",
+                    "subtype": ""
+                },
+                "consumableType": "trinket",
+                "uses": {
+                    "max": 1,
+                    "per": null,
+                    "autoDestroy": true,
+                    "value": 1
+                }
+            },
+            "foundryActivities": [
+                {
+                    "foundryId": "consumeBreathStoneRare",
+                    "type": "utility",
+                    "name": "Consume Breath Stone (rare)",
+                    "description": {
+                        "chatFlavor": "Unleash a 15-foot cone breath weapon. DC 15 Dex save, 4d8 elemental damage. See item for damage type."
+                    },
+                    "macro": {
+                        "command": "// Template: 15ft cone, prompt for direction\nawait canvas.scene.createEmbeddedDocuments('MeasuredTemplate', [{\n  t: 'cone',\n  user: game.user.id,\n  distance: 15,\n  angle: 53.13,\n  x: token.center.x,\n  y: token.center.y,\n  direction: 0, // Prompt user\n  fillColor: '#ffcc00'\n}]);\nui.notifications.info('Breath weapon template placed. See item for save DC and damage.');"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -3031,6 +3114,41 @@
                         ]
                     ]
                 }
+            ],
+            "foundryType": "consumable",
+            "foundrySystem": {
+                "type": {
+                    "value": "trinket",
+                    "subtype": ""
+                },
+                "consumableType": "trinket",
+                "uses": {
+                    "max": 1,
+                    "per": null,
+                    "autoDestroy": true,
+                    "value": 1
+                }
+            },
+            "foundryActivities": [
+                {
+                    "foundryId": "consumeBreathStoneUncommon",
+                    "type": "utility",
+                    "name": "Consume Breath Stone (uncommon)",
+                    "description": {
+                        "chatFlavor": "Unleash a 15-foot cone breath weapon. DC 13 Dex save, 3d6 elemental damage. See item for damage type."
+                    },
+                    "macro": {
+                        "command": "// Template: 15ft cone, prompt for direction\nawait canvas.scene.createEmbeddedDocuments('MeasuredTemplate', [{\n  t: 'cone',\n  user: game.user.id,\n  distance: 15,\n  angle: 53.13,\n  x: token.center.x,\n  y: token.center.y,\n  direction: 0, // Prompt user\n  fillColor: '#ffcc00'\n}]);\nui.notifications.info('Breath weapon template placed. See item for save DC and damage.');"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
             ]
         },
         {
@@ -3074,6 +3192,41 @@
                             "Cold"
                         ]
                     ]
+                }
+            ],
+            "foundryType": "consumable",
+            "foundrySystem": {
+                "type": {
+                    "value": "trinket",
+                    "subtype": ""
+                },
+                "consumableType": "trinket",
+                "uses": {
+                    "max": 1,
+                    "per": null,
+                    "autoDestroy": true,
+                    "value": 1
+                }
+            },
+            "foundryActivities": [
+                {
+                    "foundryId": "consumeBreathStoneVeryRare",
+                    "type": "utility",
+                    "name": "Consume Breath Stone (very rare)",
+                    "description": {
+                        "chatFlavor": "Unleash a 15-foot cone breath weapon. DC 17 Dex save, 5d10 elemental damage. See item for damage type."
+                    },
+                    "macro": {
+                        "command": "// Template: 15ft cone, prompt for direction\nawait canvas.scene.createEmbeddedDocuments('MeasuredTemplate', [{\n  t: 'cone',\n  user: game.user.id,\n  distance: 15,\n  angle: 53.13,\n  x: token.center.x,\n  y: token.center.y,\n  direction: 0, // Prompt user\n  fillColor: '#ffcc00'\n}]);\nui.notifications.info('Breath weapon template placed. See item for save DC and damage.');"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -3268,11 +3421,6 @@
                     "autoDestroy": true,
                     "value": 1
                 },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                },
                 "duration": {
                     "value": null,
                     "units": "inst"
@@ -3289,6 +3437,24 @@
                     "units": "self"
                 }
             },
+            "foundryActivities": [
+                {
+                    "foundryId": "consumecarnivoresdelight",
+                    "type": "utility",
+                    "name": "Consume Carnivore's Delight",
+                    "description": {
+                        "chatFlavor": "When you reduce a creature to 0 hit points you regain 1d8 hit points."
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "foundryFlags": {
                 "dae": {
                     "transfer": false,
@@ -3399,6 +3565,24 @@
                 "<b>Effect:</b> The next time you use the help action or have the help action used on you for a Charisma check add {@dice 1d6} to the roll. The effect then ends."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "consumecheercookies",
+                    "type": "utility",
+                    "name": "Consume Cheer Cookies",
+                    "description": {
+                        "chatFlavor": "Consumes Cheer Cookies"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "food",
@@ -3410,11 +3594,6 @@
                     "per": null,
                     "autoDestroy": true,
                     "value": 1
-                },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
                 },
                 "duration": {
                     "value": null,
@@ -3681,6 +3860,24 @@
                 "<b>Effect:</b> You ignore one level of exhaustion but cannot benefit from a short or long rest for the next 8 hours."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "consumecoffee",
+                    "type": "utility",
+                    "name": "Consume Coffee",
+                    "description": {
+                        "chatFlavor": "Consumes Coffee"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "food",
@@ -3692,11 +3889,6 @@
                     "per": null,
                     "autoDestroy": true,
                     "value": 1
-                },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
                 },
                 "duration": {
                     "value": null,
@@ -4608,11 +4800,6 @@
                     "autoDestroy": true,
                     "value": 1
                 },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                },
                 "duration": {
                     "value": null,
                     "units": "inst"
@@ -4629,6 +4816,24 @@
                     "units": "self"
                 }
             },
+            "foundryActivities": [
+                {
+                    "foundryId": "consumedragonjelly",
+                    "type": "utility",
+                    "name": "Consume Dragon Jelly",
+                    "description": {
+                        "chatFlavor": "Gain a random draconic boon. See item description for details."
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "entries": [
                 "A powerful narcotic for dragons, it can imbue non-draconic creatures with temporary draconic boons, or permanent ones for dragons. Roll {@dice 1d5} (rerolling if you already have this effect), you gain one of these abilities. If you are not draconic, these abilities last for 1 hour.",
                 {
@@ -4705,6 +4910,24 @@
                 "<b>Effect:</b> The first time you take the damage type of the meal reduce the damage by 2d8 to a minimum of 1. The effect then ends."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "consumedrakeeggnog",
+                    "type": "utility",
+                    "name": "Consume Drake Egg Nog",
+                    "description": {
+                        "chatFlavor": "Consumes Drake Egg Nog"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "food",
@@ -4716,11 +4939,6 @@
                     "per": null,
                     "autoDestroy": true,
                     "value": 1
-                },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
                 },
                 "duration": {
                     "value": null,
@@ -5166,11 +5384,6 @@
                     "autoDestroy": true,
                     "value": 1
                 },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                },
                 "duration": {
                     "value": null,
                     "units": "inst"
@@ -5187,6 +5400,24 @@
                     "units": "self"
                 }
             },
+            "foundryActivities": [
+                {
+                    "foundryId": "consumevercurepotion",
+                    "type": "utility",
+                    "name": "Consume Evercure Potion",
+                    "description": {
+                        "chatFlavor": "You are affected by the Greater Restoration spell."
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "entries": [
                 "This Golden potion swirls with small strands of light seemingly flowing within it. As an action, a creature can drink or administer the potion to another creature. Their body is refreshed, as they are affected by the Greater Restoration Spell."
             ],
@@ -5412,6 +5643,24 @@
                 "<b>Effect:</b> You have advantage on all saving throws to resist the effects of cold climates."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "consumefirebellymead",
+                    "type": "utility",
+                    "name": "Consume Fire Belly Mead",
+                    "description": {
+                        "chatFlavor": "Consumes Fire Belly Mead"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "food",
@@ -5423,11 +5672,6 @@
                     "per": null,
                     "autoDestroy": true,
                     "value": 1
-                },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
                 },
                 "duration": {
                     "value": null,
@@ -5588,6 +5832,24 @@
                 "<b>Effect:</b> You have advantage on all saving throws to resist the effects of hot climates."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "consumefrostcactuswine",
+                    "type": "utility",
+                    "name": "Consume Frost Cactus Wine",
+                    "description": {
+                        "chatFlavor": "Consumes Frost Cactus Wine"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "food",
@@ -5599,11 +5861,6 @@
                     "per": null,
                     "autoDestroy": true,
                     "value": 1
-                },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
                 },
                 "duration": {
                     "value": null,
@@ -5945,6 +6202,38 @@
             ]
         },
         {
+            "name": "Goldbark",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "uncommon",
+            "customProperties": {
+                "primaryTool": "Woodcarver's Tools",
+                "secondaryTool": "Smith's Tools",
+                "forgingConditions": "?",
+                "baseMetals": "Gold + Ironoak",
+                "armorEffects": "Can only be made into Armor. Any shield you hold is considered Druid Useable.",
+                "weaponEffects": "While this weapon is being wielded, any armor you wear is considered Druid Useable.",
+                "additionalEffects": "Magic Items made from Goldbark that require a Druid to attune to them do not have a Gold Cost.",
+                "druidUseable": true
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Primary Tool:</b> Woodcarver's Tools",
+                        "<b>Secondary Tool:</b> Smith's Tools",
+                        "<b>Forging Conditions:</b> ?",
+                        "<b>Base Metals:</b> {@item Gold|TftJC} + {@item Ironoak|TftJC}",
+                        "<b>Armor Effects:</b> Can only be made into Armor. Any shield you hold is considered Druid Useable.",
+                        "<b>Weapon Effects:</b> While this weapon is being wielded, any armor you wear is considered Druid Useable.",
+                        "<b>Additional Effects:</b> Magic Items made from Goldbark that require a Druid to attune to them do not have a Gold Cost.",
+                        "<b>Druid Useable:</b> Yes"
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Gor'shorot",
             "source": "TftJC",
             "type": "TG",
@@ -6188,6 +6477,45 @@
             ]
         },
         {
+            "name": "Gunsmith's Tools",
+            "source": "TftJC",
+            "type": "AT",
+            "weight": 8,
+            "price": 5000,
+            "entries": [
+                "Gunsmith's tools include a variety of hand tools, precision instruments, and cleaning implements used in the creation, repair, and modification of firearms and gunblades.",
+                {
+                    "type": "list",
+                    "name": "Components",
+                    "items": [
+                        "Small hammer",
+                        "Precision screwdrivers",
+                        "Files and rasps",
+                        "Bore brush",
+                        "Measuring calipers",
+                        "Oil and cleaning cloths"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Proficiency",
+                    "entries": [
+                        "If you have proficiency with gunsmith's tools, you can add your proficiency bonus to any ability checks you make to craft, repair, or modify firearms and gunblades."
+                    ]
+                },
+                {
+                    "type": "list",
+                    "name": "Sample Uses",
+                    "items": [
+                        "Repair a jammed or damaged firearm",
+                        "Craft ammunition or custom gun parts",
+                        "Modify a gunblade with special features",
+                        "Identify the make or origin of a firearm"
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Hand-Bomb",
             "type": "R",
             "source": "TftJC",
@@ -6319,6 +6647,29 @@
                 "<b>Effect:</b> Gain +1 to all concentration checks until you fail one."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "consumeharmonytea",
+                    "type": "utility",
+                    "name": "Consume Harmony Tea",
+                    "description": {
+                        "chatFlavor": "Consumes Harmony Tea"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    },
+                    "macro": {
+                        "type": "script",
+                        "name": "Harmony Tea Effect",
+                        "command": "// Apply Harmony Tea Effect as activity macro.\nconst effectData = {\n  name: 'Harmony Tea Effect',\n  icon: 'icons/consumables/drinks/cup-simple-clay-brown.webp',\n  changes: [\n    { key: 'system.bonuses.abilities.con', mode: 2, value: '1', priority: 20 }\n  ],\n  flags: { dae: { specialDuration: ['longRest', 'shortRest'] } }\n};\nawait actor.createEmbeddedDocuments('ActiveEffect', [effectData]);\nui.notifications.info('Harmony Tea effect applied! +1 to concentration checks until rest.');"
+                    }
+                }
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "food",
@@ -6330,11 +6681,6 @@
                     "per": null,
                     "autoDestroy": true,
                     "value": 1
-                },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
                 },
                 "duration": {
                     "value": null,
@@ -6356,14 +6702,6 @@
                 "dae": {
                     "alwaysActive": false,
                     "transfer": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "name": "Harmony Tea",
-                        "type": "script",
-                        "scope": "global",
-                        "command": "// Apply Harmony Tea Effect\nif (args[0] === \"on\") {\n  const effectData = {\n    name: \"Harmony Tea Effect\",\n    icon: \"icons/consumables/drinks/cup-simple-clay-brown.webp\",\n    changes: [\n      {\n        key: \"system.bonuses.abilities.con\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      }\n    ],\n    flags: {\n      dae: {\n        specialDuration: [\"longRest\", \"shortRest\"]\n      }\n    }\n  };\n  await actor.createEmbeddedDocuments(\"ActiveEffect\", [effectData]);\n  ui.notifications.info(\"Harmony Tea effect applied! +1 to concentration checks until rest.\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
-                    }
                 }
             }
         },
@@ -6380,6 +6718,24 @@
                 "<b>Effect:</b> Must be eaten with another meal, whenever you gain temporary hit points, increase the amount gained by 1."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "consumeharvestsauce",
+                    "type": "utility",
+                    "name": "Consume Harvest Sauce",
+                    "description": {
+                        "chatFlavor": "Consumes Harvest Sauce"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "food",
@@ -6391,11 +6747,6 @@
                     "per": null,
                     "autoDestroy": true,
                     "value": 1
-                },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
                 },
                 "duration": {
                     "value": null,
@@ -6781,6 +7132,24 @@
                 "<b>Effect:</b> When you take a short rest you gain +2 Hit Points per Hit Die spent."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "consumeicespringwine",
+                    "type": "utility",
+                    "name": "Consume Ice Spring Wine",
+                    "description": {
+                        "chatFlavor": "Consumes Ice Spring Wine"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "food",
@@ -6792,11 +7161,6 @@
                     "per": null,
                     "autoDestroy": true,
                     "value": 1
-                },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
                 },
                 "duration": {
                     "value": null,
@@ -6855,6 +7219,24 @@
                 "<b>Effect:</b> You gain a +1 bonus to Intelligence saves and when you take psychic damage you can use your reaction to reduce the psychic damage to 1. Once you use this reaction you lose all the bonuses of this meal."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "consumeiceflowerflakey",
+                    "type": "utility",
+                    "name": "Consume Iceflower Flakey",
+                    "description": {
+                        "chatFlavor": "Consumes Iceflower Flakey"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "food",
@@ -6866,11 +7248,6 @@
                     "per": null,
                     "autoDestroy": true,
                     "value": 1
-                },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
                 },
                 "duration": {
                     "value": null,
@@ -7135,6 +7512,24 @@
                 "<b>Effect:</b> Triples the duration you can remain underwater before you begin drowning."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "consumekelpbrittle",
+                    "type": "utility",
+                    "name": "Consume Kelp Brittle",
+                    "description": {
+                        "chatFlavor": "Consumes Kelp Brittle"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "food",
@@ -7146,11 +7541,6 @@
                     "per": null,
                     "autoDestroy": true,
                     "value": 1
-                },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
                 },
                 "duration": {
                     "value": null,
@@ -7276,6 +7666,29 @@
                 "<b>Effect:</b> You gain a +1 bonus to all Strength, Dexterity, and Constitution ability checks."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "consumelemonsaltcrackers",
+                    "type": "utility",
+                    "name": "Consume Lemon Salt Crackers",
+                    "description": {
+                        "chatFlavor": "Consumes Lemon Salt Crackers"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    },
+                    "macro": {
+                        "type": "script",
+                        "name": "Lemon Salt Crackers Effect",
+                        "command": "// Apply Lemon Salt Crackers Effect as activity macro.\nconst effectData = {\n  name: 'Lemon Salt Crackers Effect',\n  icon: 'icons/consumables/food/bread-loaf-brown-grey.webp',\n  changes: [\n    { key: 'system.bonuses.abilities.str', mode: 2, value: '1', priority: 20 },\n    { key: 'system.bonuses.abilities.dex', mode: 2, value: '1', priority: 20 },\n    { key: 'system.bonuses.abilities.con', mode: 2, value: '1', priority: 20 }\n  ],\n  flags: { dae: { specialDuration: ['longRest', 'shortRest'] } }\n};\nawait actor.createEmbeddedDocuments('ActiveEffect', [effectData]);\nui.notifications.info('Lemon Salt Crackers effect applied! +1 to STR, DEX, CON checks until rest.');"
+                    }
+                }
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "food",
@@ -7287,11 +7700,6 @@
                     "per": null,
                     "autoDestroy": true,
                     "value": 1
-                },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
                 },
                 "duration": {
                     "value": null,
@@ -7313,14 +7721,6 @@
                 "dae": {
                     "alwaysActive": false,
                     "transfer": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "name": "Lemon Salt Crackers",
-                        "type": "script",
-                        "scope": "global",
-                        "command": "// Apply Lemon Salt Crackers Effect\nif (args[0] === \"on\") {\n  const effectData = {\n    name: \"Lemon Salt Crackers Effect\",\n    icon: \"icons/consumables/food/bread-loaf-brown-grey.webp\",\n    changes: [\n      {\n        key: \"system.bonuses.abilities.str\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      },\n      {\n        key: \"system.bonuses.abilities.dex\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      },\n      {\n        key: \"system.bonuses.abilities.con\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      }\n    ],\n    flags: {\n      dae: {\n        specialDuration: [\"longRest\", \"shortRest\"]\n      }\n    }\n  };\n  await actor.createEmbeddedDocuments(\"ActiveEffect\", [effectData]);\n  ui.notifications.info(\"Lemon Salt Crackers effect applied! +1 to STR, DEX, CON checks until rest.\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
-                    }
                 }
             }
         },
@@ -7969,6 +8369,24 @@
                 "<b>Effect:</b> You have advantage on your next Strength, Dexterity, and Constitution saving throw."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "consumemooncloudjelly",
+                    "type": "utility",
+                    "name": "Consume Mooncloud Jelly",
+                    "description": {
+                        "chatFlavor": "Consumes Mooncloud Jelly"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "food",
@@ -7980,11 +8398,6 @@
                     "per": null,
                     "autoDestroy": true,
                     "value": 1
-                },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
                 },
                 "duration": {
                     "value": null,
@@ -8035,6 +8448,29 @@
                 "<b>Effect:</b> You gain a +1 bonus to all Intelligence, Charisma, or Wisdom ability checks."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "consumemoonspringskittles",
+                    "type": "utility",
+                    "name": "Consume Moonspring Skittles",
+                    "description": {
+                        "chatFlavor": "Consumes Moonspring Skittles"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    },
+                    "macro": {
+                        "type": "script",
+                        "name": "Moonspring Skittles Effect",
+                        "command": "// Apply Moonspring Skittles Effect as activity macro.\nconst effectData = {\n  name: 'Moonspring Skittles Effect',\n  icon: 'icons/consumables/candy/candy-wrapped-blue.webp',\n  changes: [\n    { key: 'system.bonuses.abilities.int', mode: 2, value: '1', priority: 20 },\n    { key: 'system.bonuses.abilities.wis', mode: 2, value: '1', priority: 20 },\n    { key: 'system.bonuses.abilities.cha', mode: 2, value: '1', priority: 20 }\n  ],\n  flags: { dae: { specialDuration: ['longRest', 'shortRest'] } }\n};\nawait actor.createEmbeddedDocuments('ActiveEffect', [effectData]);\nui.notifications.info('Moonspring Skittles effect applied! +1 to INT, WIS, CHA checks until rest.');"
+                    }
+                }
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "food",
@@ -8046,11 +8482,6 @@
                     "per": null,
                     "autoDestroy": true,
                     "value": 1
-                },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
                 },
                 "duration": {
                     "value": null,
@@ -8072,14 +8503,6 @@
                 "dae": {
                     "alwaysActive": false,
                     "transfer": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "name": "Moonspring Skittles",
-                        "type": "script",
-                        "scope": "global",
-                        "command": "// Apply Moonspring Skittles Effect\nif (args[0] === \"on\") {\n  const effectData = {\n    name: \"Moonspring Skittles Effect\",\n    icon: \"icons/consumables/candy/candy-wrapped-blue.webp\",\n    changes: [\n      {\n        key: \"system.bonuses.abilities.int\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      },\n      {\n        key: \"system.bonuses.abilities.wis\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      },\n      {\n        key: \"system.bonuses.abilities.cha\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      }\n    ],\n    flags: {\n      dae: {\n        specialDuration: [\"longRest\", \"shortRest\"]\n      }\n    }\n  };\n  await actor.createEmbeddedDocuments(\"ActiveEffect\", [effectData]);\n  ui.notifications.info(\"Moonspring Skittles effect applied! +1 to INT, WIS, CHA checks until rest.\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
-                    }
                 }
             }
         },
@@ -8207,6 +8630,37 @@
                 "As an action, you can spill these tiny metal balls from their pouch to cover a level, square area that is 10 feet on a side. A creature moving across the covered area must succeed on a DC 13 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn't need to make the save."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "scatteroiledballbearings",
+                    "type": "utility",
+                    "name": "Scatter Oiled Ballbearings",
+                    "description": {
+                        "chatFlavor": "Scatters oiled ballbearings (DC 13 Dex or prone)"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    },
+                    "target": {
+                        "template": {
+                            "type": "rect",
+                            "size": "10",
+                            "units": "ft"
+                        },
+                        "prompt": true
+                    },
+                    "macro": {
+                        "type": "script",
+                        "name": "Scatter Oiled Ballbearings",
+                        "command": "// Scatter Oiled Ballbearings direct macro (inlined).\n// Place template allowing user prompt if not already placed by activity target.\nif (!item) return;\nlet template = canvas.templates?.placeables.find(t => t.document.getFlag('oiled-ballbearings','pending') && t.document.parent?.uuid === item.parent?.uuid);\nif (!template) {\n  // Use item.placeTemplate if available (system helper) else manual creation.\n  if (item.placeTemplate) {\n    template = await item.placeTemplate();\n  } else {\n    const data = { t: 'rect', distance: 10, width: 10, user: game.user.id, flags: { 'oiled-ballbearings': { pending: true } } };\n    const created = await canvas.scene.createEmbeddedDocuments('MeasuredTemplate', [data]);\n    template = created[0];\n  }\n}\nif (!template) { ui.notifications.warn('Template placement cancelled.'); return; }\n// Update styling and metadata.\nawait template.update({\n  borderColor: '#FF6400',\n  fillColor: '#FF640080',\n  text: 'DC 13 Dex Save',\n  flags: { 'oiled-ballbearings': { dc: 13, saveAbility: 'dex', effect: 'DC 13 Dex save or fall prone', damageType: 'none', condition: 'prone on failure' } }\n});\nui.notifications.info('Oiled Ballbearings scattered! 10x10 ft area (DC 13 Dex or prone).');\n// Consume item if uses depleted after activity consumption.\nif (item.system?.uses?.value !== undefined && item.system.uses.value <= 0 && item.system.uses.autoDestroy) {\n  // Ensure not already deleted.\n  try { await item.delete(); } catch(e) {}\n}"
+                    }
+                }
+            ],
             "foundrySystem": {
                 "consumableType": "trinket",
                 "uses": {
@@ -8236,14 +8690,6 @@
                 "dae": {
                     "alwaysActive": false,
                     "transfer": false
-                },
-                "itemacro": {
-                    "macro": {
-                        "name": "Oiled Ballbearings",
-                        "type": "script",
-                        "scope": "global",
-                        "command": "// Place Oiled Ballbearings Template\nif (args[0] === \"on\") {\n  // Use Foundry's built-in template placement system\n  const template = await item.placeTemplate();\n  \n  if (template) {\n    // Add custom flags and styling to the placed template\n    await template.update({\n      borderColor: \"#FF6400\",\n      fillColor: \"#FF640080\",\n      text: \"DC 13 Dex Save\",\n      flags: {\n        \"oiled-ballbearings\": {\n          dc: 13,\n          saveAbility: \"dex\",\n          effect: \"DC 13 Dex save or fall prone\",\n          damageType: \"none\",\n          condition: \"prone on failure\"\n        }\n      }\n    });\n    \n    ui.notifications.info(\"Oiled Ballbearings scattered! 10x10 foot area created (DC 13 Dex save or prone).\");\n    \n    // Force delete the item after successful template placement\n    await item.delete();\n  }\n}"
-                    }
                 }
             }
         },
@@ -8514,6 +8960,24 @@
                 "<b>Effect:</b> Whenever you make a Charisma check, treat a roll of 4 or lower on the d20 as a 5."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "consumepinacolada",
+                    "type": "utility",
+                    "name": "Consume Piña Colada",
+                    "description": {
+                        "chatFlavor": "Consumes Piña Colada"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "food",
@@ -8525,11 +8989,6 @@
                     "per": null,
                     "autoDestroy": true,
                     "value": 1
-                },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
                 },
                 "duration": {
                     "value": null,
@@ -8730,11 +9189,6 @@
                     "autoDestroy": true,
                     "value": 1
                 },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                },
                 "duration": {
                     "value": null,
                     "units": "inst"
@@ -8751,6 +9205,24 @@
                     "units": "self"
                 }
             },
+            "foundryActivities": [
+                {
+                    "foundryId": "consumepotionofairbubble",
+                    "type": "utility",
+                    "name": "Consume Potion of Air Bubble",
+                    "description": {
+                        "chatFlavor": "You gain the effects of the Air Bubble spell for 8 hours."
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "entries": [
                 "Your lungs adapt to other environments, allowing you to breathe easy. For the next 8 hours, you gain the effects of the {@spell air bubble|XGE} spell."
             ],
@@ -8779,11 +9251,6 @@
                     "autoDestroy": true,
                     "value": 1
                 },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                },
                 "duration": {
                     "value": null,
                     "units": "inst"
@@ -8800,6 +9267,24 @@
                     "units": "self"
                 }
             },
+            "foundryActivities": [
+                {
+                    "foundryId": "consumepotionofflamewielding",
+                    "type": "utility",
+                    "name": "Consume Potion of Flamewielding",
+                    "description": {
+                        "chatFlavor": "Your melee attacks deal +1d6 fire damage for 1 minute."
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "entries": [
                 "Your hands ignite with flames for the next minute. Your melee attacks deal an additional {@damage 1d6} fire damage on a hit."
             ],
@@ -8828,11 +9313,6 @@
                     "autoDestroy": true,
                     "value": 1
                 },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                },
                 "duration": {
                     "value": null,
                     "units": "inst"
@@ -8849,6 +9329,24 @@
                     "units": "self"
                 }
             },
+            "foundryActivities": [
+                {
+                    "foundryId": "consumepotionoffoggyescape",
+                    "type": "utility",
+                    "name": "Consume Potion of Foggy Escape",
+                    "description": {
+                        "chatFlavor": "Thrown: Fog Cloud for 1 min. Consumed: Disadvantage on attacks against you until end of next turn."
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "entries": [
                 "This swirling potion has strange spiraling grey patterns flowing through it. Drinking or breaking the potion will incur different effects.",
                 "<b>Thrown</b>: You can throw the potion bottle up to 20ft. It breaks open, releasing billowing smoke. This creates the effects of the Fog Cloud spell, but is not considered magical and requires no concentration. It lasts for 1 minute.",
@@ -8879,11 +9377,6 @@
                     "autoDestroy": true,
                     "value": 1
                 },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                },
                 "duration": {
                     "value": null,
                     "units": "inst"
@@ -8900,6 +9393,24 @@
                     "units": "self"
                 }
             },
+            "foundryActivities": [
+                {
+                    "foundryId": "consumepotionofpastmemory",
+                    "type": "utility",
+                    "name": "Consume Potion of Past Memory",
+                    "description": {
+                        "chatFlavor": "Peer through another creature's life. See item description for details."
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "entries": [
                 "This Deep brown potion is filled with concentrated Memento beans, providing the Drinker a deep connection to Time. Before ingesting the Potion, a hair, nail or other small piece of a creature is to be mixed in with the completed Potion, after which time it glows with Chronurgic Magic. Ingesting the potion allows you to peer through that creature's life. You experience any event they would have from their point of view.",
                 "This potion's duration is based on the current amount of time the selected creature's life has lasted. 1 hour is equivalent of 1 year of that creature's life, if the creature has lived for 36 years the potion's effects remain active for 36 hours as you experience their life. Within that time, you are {@condition blinded}, {@condition deafened} and {@condition incapacitated}. A creature can resist these effects if they do not want to be under the potion's effects, making a DC 19 INT save, repeating this saving throw each hour that passes or when they take damage. The events are played out backwards, meaning more recent events happen in the first hours, and the beginning of the creature's life happens at the end of the vision. This potion's effects cannot be ended early, unless with a 9th level {@spell Dispel Magic|PHB} or by making the above saving throw. The potion provides no effect to creatures that are dead or undead."
@@ -8929,11 +9440,6 @@
                     "autoDestroy": true,
                     "value": 1
                 },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
-                },
                 "duration": {
                     "value": null,
                     "units": "inst"
@@ -8950,6 +9456,24 @@
                     "units": "self"
                 }
             },
+            "foundryActivities": [
+                {
+                    "foundryId": "consumepotionofperfection",
+                    "type": "utility",
+                    "name": "Consume Potion of Perfection",
+                    "description": {
+                        "chatFlavor": "Gain Perfection for 1 hour. See item description for details."
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "entries": [
                 "This potion looks to be made from liquid gold. Drinking this potion grants the creature near Perfection in everything it does. Any d20 roll on a Skill check that is 7 or lower is treated as an 8. Your Proficiency Bonus is treated as 2 Higher. You gain 1 Legendary Resistance, which is lost after the duration runs out.",
                 "These effects last for 1 hour. The potion's remaining duration is halved each time you fail a skill check/saving throw."
@@ -8974,6 +9498,24 @@
                 "<b>Effect:</b> You gain a +1 bonus to Charisma saves and can double your proficiency bonus to one Charisma checks. Once you double your proficiency bonus you lose all the bonuses of this meal."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "consumepowderedbutterflywings",
+                    "type": "utility",
+                    "name": "Consume Powdered Butterfly Wings",
+                    "description": {
+                        "chatFlavor": "Consumes Powdered Butterfly Wings"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "food",
@@ -8985,11 +9527,6 @@
                     "per": null,
                     "autoDestroy": true,
                     "value": 1
-                },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
                 },
                 "duration": {
                     "value": null,
@@ -9288,6 +9825,24 @@
                 "<b>Effect:</b> Gain a +1 bonus to all ability checks related to swimming or exploring underwater."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "consumerainbowfillet",
+                    "type": "utility",
+                    "name": "Consume Rainbow Fillet",
+                    "description": {
+                        "chatFlavor": "Consumes Rainbow Fillet"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "food",
@@ -9299,11 +9854,6 @@
                     "per": null,
                     "autoDestroy": true,
                     "value": 1
-                },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
                 },
                 "duration": {
                     "value": null,
@@ -9786,6 +10336,24 @@
                 "<b>Effect:</b> When you travel you can travel 50% longer before suffering any ill effects."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "consumeroadsyrup",
+                    "type": "utility",
+                    "name": "Consume Road Syrup",
+                    "description": {
+                        "chatFlavor": "Consumes Road Syrup"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "food",
@@ -9797,11 +10365,6 @@
                     "per": null,
                     "autoDestroy": true,
                     "value": 1
-                },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
                 },
                 "duration": {
                     "value": null,
@@ -9839,6 +10402,24 @@
                 "<b>Effect:</b> Road Tack prepares eight meals worth. A character that eats Road Tack is filled for the day."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "consumeroadtack",
+                    "type": "utility",
+                    "name": "Consume Road Tack",
+                    "description": {
+                        "chatFlavor": "Consumes Road Tack"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "food",
@@ -9850,11 +10431,6 @@
                     "per": null,
                     "autoDestroy": true,
                     "value": 1
-                },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
                 },
                 "duration": {
                     "value": null,
@@ -10414,9 +10990,9 @@
                 "baseMetal": "Skaier",
                 "requiredTool": "Smith's Tools",
                 "forgingConditions": "3rd Lvl Air Spell",
-                "armorEffects": "???",
-                "weaponEffects": "???",
-                "additionalEffects": "???",
+                "armorEffects": "Sky Steel always hovers a foot off earth. While flying, your speed is increased by 30. You are immune to effects that would ground you or otherwise force or the effects of strong winds. In addition, you gain a hover speed of 5 feet and do not fall if knocked prone while flying.",
+                "weaponEffects": "Thrown and Ranged weapons do not pose disadvantage at their long range, and both ranges increased by 30, and have advantage to hit flying targets. Sky Steel always hovers a foot off earth.",
+                "additionalEffects": "-",
                 "druidUseable": false
             },
             "entries": [
@@ -10428,9 +11004,9 @@
                         "<b>Base Metal:</b> {@item Skaier|TftJC}",
                         "<b>Required Tool:</b> Smith's Tools",
                         "<b>Forging Conditions:</b> 3rd Lvl Air Spell",
-                        "<b>Armor Effects:</b> ???",
-                        "<b>Weapon Effects:</b> ???",
-                        "<b>Additional Effects:</b> ???",
+                        "<b>Armor Effects:</b> Sky Steel always hovers a foot off earth. While flying, your speed is increased by 30. You are immune to effects that would ground you or otherwise force or the effects of strong winds. In addition, you gain a hover speed of 5 feet and do not fall if knocked prone while flying.",
+                        "<b>Weapon Effects:</b> Thrown and Ranged weapons do not pose disadvantage at their long range, and both ranges increased by 30, and have advantage to hit flying targets. Sky Steel always hovers a foot off earth.",
+                        "<b>Additional Effects:</b> -",
                         "<b>Druid Useable:</b> No"
                     ]
                 }
@@ -10759,6 +11335,24 @@
                 "<b>Effect:</b> Can only be fed to a creature with an intelligence of 3 or lower. When fed as an action it gives them disadvantage on checks to resist being charmed. When used in downtime, it grants a +1 bonus to the taming/training roll."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "consumetamersfeed",
+                    "type": "utility",
+                    "name": "Consume Tamer's Feed",
+                    "description": {
+                        "chatFlavor": "Consumes Tamer's Feed"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "food",
@@ -10770,11 +11364,6 @@
                     "per": null,
                     "autoDestroy": true,
                     "value": 1
-                },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
                 },
                 "duration": {
                     "value": null,
@@ -12005,6 +12594,24 @@
                 "<b>Effect:</b> Must be eaten with another meal, grants both its effect and the other meals effects. When consumed you gain one use of a Legendary resistance."
             ],
             "foundryType": "consumable",
+            "foundryActivities": [
+                {
+                    "foundryId": "consumeyushantissecretsauce",
+                    "type": "utility",
+                    "name": "Consume Yushanti's Secret Sauce",
+                    "description": {
+                        "chatFlavor": "Consumes Yushanti's Secret Sauce"
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "food",
@@ -12016,11 +12623,6 @@
                     "per": null,
                     "autoDestroy": true,
                     "value": 1
-                },
-                "activation": {
-                    "type": "action",
-                    "cost": 1,
-                    "condition": ""
                 },
                 "duration": {
                     "value": null,

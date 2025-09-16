@@ -16,11 +16,6 @@
       "autoDestroy": true,
       "value": 1
     },
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
-    },
     "duration": {
       "value": null,
       "units": "inst"
@@ -37,6 +32,17 @@
       "units": "self"
     }
   },
+  "foundryActivities": [
+    {
+      "foundryId": "consumepotionofperfection",
+      "type": "utility",
+      "name": "Consume Potion of Perfection",
+      "description": {
+        "chatFlavor": "Gain Perfection for 1 hour. See item description for details."
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ],
   "entries": [
     "This potion looks to be made from liquid gold. Drinking this potion grants the creature near Perfection in everything it does. Any d20 roll on a Skill check that is 7 or lower is treated as an 8. Your Proficiency Bonus is treated as 2 Higher. You gain 1 Legendary Resistance, which is lost after the duration runs out.",
     "These effects last for 1 hour. The potion's remaining duration is halved each time you fail a skill check/saving throw."

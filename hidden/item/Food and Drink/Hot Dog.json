@@ -15,7 +15,20 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null,
+      "autoDestroy": true,
+      "value": 1
     }
-  }
+  },
+  "foundryActivities": [
+    {
+      "foundryId": "consumehotdog",
+      "type": "utility",
+      "name": "Consume Hot Dog",
+      "description": {
+        "chatFlavor": "+1 Dex saves, double speed once (then lose bonuses)."
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ]
 }

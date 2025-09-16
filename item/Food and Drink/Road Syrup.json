@@ -11,6 +11,15 @@
     "<b>Effect:</b> When you travel you can travel 50% longer before suffering any ill effects."
   ],
   "foundryType": "consumable",
+  "foundryActivities": [
+    {
+      "foundryId": "consumeroadsyrup",
+      "type": "utility",
+      "name": "Consume Road Syrup",
+      "description": { "chatFlavor": "Consumes Road Syrup" },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ],
   "foundrySystem": {
     "type": {
       "value": "food",
@@ -22,11 +31,6 @@
       "per": null,
       "autoDestroy": true,
       "value": 1
-    },
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
     },
     "duration": {
       "value": null,

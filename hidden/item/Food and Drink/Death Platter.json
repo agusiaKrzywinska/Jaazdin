@@ -15,7 +15,20 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null,
+      "autoDestroy": true,
+      "value": 1
     }
-  }
+  },
+  "foundryActivities": [
+    {
+      "foundryId": "consumedeathplatter",
+      "type": "utility",
+      "name": "Consume Death Platter",
+      "description": {
+        "chatFlavor": "DC 10 Con save or die. Success: life signs undetectable."
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ]
 }

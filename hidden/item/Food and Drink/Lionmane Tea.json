@@ -15,7 +15,20 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null,
+      "autoDestroy": true,
+      "value": 1
     }
-  }
+  },
+  "foundryActivities": [
+    {
+      "foundryId": "consumelionmanetea",
+      "type": "utility",
+      "name": "Consume Lionmane Tea",
+      "description": {
+        "chatFlavor": "+1 Wis saves, reaction to auto-succeed vs fear (once)."
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ]
 }

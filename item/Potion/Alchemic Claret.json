@@ -16,11 +16,6 @@
       "autoDestroy": true,
       "value": 1
     },
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
-    },
     "duration": {
       "value": null,
       "units": "inst"
@@ -37,6 +32,17 @@
       "units": "self"
     }
   },
+  "foundryActivities": [
+    {
+      "foundryId": "consumealchemicclaret",
+      "type": "utility",
+      "name": "Consume Alchemic Claret",
+      "description": {
+        "chatFlavor": "See item description for effects. Choose to imbibe or apply to weapon."
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ],
   "entries": [
     "This vial of blood-like substance emits a otherworldly power like nothing seen before. You can choose to imbibe this substance or apply it to a weapon.",
     "If ingested, you gain the following benefits: For one hour, as a bonus action you can roll a hit dice + your level to gain that much HP. You then lose that Hit Dice until the end of a Long Rest. Once this feature is used the potion's effect is gone.",

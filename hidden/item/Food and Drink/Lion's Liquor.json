@@ -15,7 +15,18 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null,
+      "autoDestroy": true,
+      "value": 1
     }
-  }
+  },
+  "foundryActivities": [
+    {
+      "foundryId": "consumelionsliquor",
+      "type": "utility",
+      "name": "Consume Lion's Liquor",
+      "description": { "chatFlavor": "Advantage on saves vs non-spell fear." },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ]
 }

@@ -16,11 +16,6 @@
       "autoDestroy": true,
       "value": 1
     },
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
-    },
     "duration": {
       "value": null,
       "units": "inst"
@@ -37,6 +32,17 @@
       "units": "self"
     }
   },
+  "foundryActivities": [
+    {
+      "foundryId": "consumedragonjelly",
+      "type": "utility",
+      "name": "Consume Dragon Jelly",
+      "description": {
+        "chatFlavor": "Gain a random draconic boon. See item description for details."
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ],
   "entries": [
     "A powerful narcotic for dragons, it can imbue non-draconic creatures with temporary draconic boons, or permanent ones for dragons. Roll {@dice 1d5} (rerolling if you already have this effect), you gain one of these abilities. If you are not draconic, these abilities last for 1 hour.",
     {

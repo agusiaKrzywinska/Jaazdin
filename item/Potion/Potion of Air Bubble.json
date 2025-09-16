@@ -16,11 +16,6 @@
       "autoDestroy": true,
       "value": 1
     },
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
-    },
     "duration": {
       "value": null,
       "units": "inst"
@@ -37,6 +32,17 @@
       "units": "self"
     }
   },
+  "foundryActivities": [
+    {
+      "foundryId": "consumepotionofairbubble",
+      "type": "utility",
+      "name": "Consume Potion of Air Bubble",
+      "description": {
+        "chatFlavor": "You gain the effects of the Air Bubble spell for 8 hours."
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ],
   "entries": [
     "Your lungs adapt to other environments, allowing you to breathe easy. For the next 8 hours, you gain the effects of the {@spell air bubble|XGE} spell."
   ],

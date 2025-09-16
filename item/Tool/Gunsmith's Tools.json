@@ -1,0 +1,39 @@
+{
+  "name": "Gunsmith's Tools",
+  "source": "TftJC",
+  "type": "AT",
+  "weight": 8,
+  "price": 5000,
+  "entries": [
+    "Gunsmith's tools include a variety of hand tools, precision instruments, and cleaning implements used in the creation, repair, and modification of firearms and gunblades.",
+    {
+      "type": "list",
+      "name": "Components",
+      "items": [
+        "Small hammer",
+        "Precision screwdrivers",
+        "Files and rasps",
+        "Bore brush",
+        "Measuring calipers",
+        "Oil and cleaning cloths"
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Proficiency",
+      "entries": [
+        "If you have proficiency with gunsmith's tools, you can add your proficiency bonus to any ability checks you make to craft, repair, or modify firearms and gunblades."
+      ]
+    },
+    {
+      "type": "list",
+      "name": "Sample Uses",
+      "items": [
+        "Repair a jammed or damaged firearm",
+        "Craft ammunition or custom gun parts",
+        "Modify a gunblade with special features",
+        "Identify the make or origin of a firearm"
+      ]
+    }
+  ]
+}

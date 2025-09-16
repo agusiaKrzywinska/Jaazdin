@@ -11,6 +11,15 @@
     "<b>Effect:</b> You have advantage on your next Strength, Dexterity, and Constitution saving throw."
   ],
   "foundryType": "consumable",
+  "foundryActivities": [
+    {
+      "foundryId": "consumemooncloudjelly",
+      "type": "utility",
+      "name": "Consume Mooncloud Jelly",
+      "description": { "chatFlavor": "Consumes Mooncloud Jelly" },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ],
   "foundrySystem": {
     "type": {
       "value": "food",
@@ -22,11 +31,6 @@
       "per": null,
       "autoDestroy": true,
       "value": 1
-    },
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
     },
     "duration": {
       "value": null,

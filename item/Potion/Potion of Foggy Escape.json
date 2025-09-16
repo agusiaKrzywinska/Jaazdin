@@ -16,11 +16,6 @@
       "autoDestroy": true,
       "value": 1
     },
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
-    },
     "duration": {
       "value": null,
       "units": "inst"
@@ -37,6 +32,17 @@
       "units": "self"
     }
   },
+  "foundryActivities": [
+    {
+      "foundryId": "consumepotionoffoggyescape",
+      "type": "utility",
+      "name": "Consume Potion of Foggy Escape",
+      "description": {
+        "chatFlavor": "Thrown: Fog Cloud for 1 min. Consumed: Disadvantage on attacks against you until end of next turn."
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ],
   "entries": [
     "This swirling potion has strange spiraling grey patterns flowing through it. Drinking or breaking the potion will incur different effects.",
     "<b>Thrown</b>: You can throw the potion bottle up to 20ft. It breaks open, releasing billowing smoke. This creates the effects of the Fog Cloud spell, but is not considered magical and requires no concentration. It lasts for 1 minute.",

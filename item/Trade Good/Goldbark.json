@@ -1,0 +1,32 @@
+{
+  "name": "Goldbark",
+  "source": "TftJC",
+  "type": "TG",
+  "rarity": "uncommon",
+  "customProperties": {
+    "primaryTool": "Woodcarver's Tools",
+    "secondaryTool": "Smith's Tools",
+    "forgingConditions": "?",
+    "baseMetals": "Gold + Ironoak",
+    "armorEffects": "Can only be made into Armor. Any shield you hold is considered Druid Useable.",
+    "weaponEffects": "While this weapon is being wielded, any armor you wear is considered Druid Useable.",
+    "additionalEffects": "Magic Items made from Goldbark that require a Druid to attune to them do not have a Gold Cost.",
+    "druidUseable": true
+  },
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Properties",
+      "entries": [
+        "<b>Primary Tool:</b> Woodcarver's Tools",
+        "<b>Secondary Tool:</b> Smith's Tools",
+        "<b>Forging Conditions:</b> ?",
+        "<b>Base Metals:</b> {@item Gold|TftJC} + {@item Ironoak|TftJC}",
+        "<b>Armor Effects:</b> Can only be made into Armor. Any shield you hold is considered Druid Useable.",
+        "<b>Weapon Effects:</b> While this weapon is being wielded, any armor you wear is considered Druid Useable.",
+        "<b>Additional Effects:</b> Magic Items made from Goldbark that require a Druid to attune to them do not have a Gold Cost.",
+        "<b>Druid Useable:</b> Yes"
+      ]
+    }
+  ]
+}

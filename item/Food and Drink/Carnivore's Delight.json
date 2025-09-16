@@ -23,11 +23,6 @@
       "autoDestroy": true,
       "value": 1
     },
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
-    },
     "duration": {
       "value": null,
       "units": "inst"
@@ -44,6 +39,17 @@
       "units": "self"
     }
   },
+  "foundryActivities": [
+    {
+      "foundryId": "consumecarnivoresdelight",
+      "type": "utility",
+      "name": "Consume Carnivore's Delight",
+      "description": {
+        "chatFlavor": "When you reduce a creature to 0 hit points you regain 1d8 hit points."
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ],
   "foundryFlags": {
     "dae": {
       "transfer": false,

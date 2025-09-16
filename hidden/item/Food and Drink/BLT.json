@@ -15,7 +15,23 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null,
+      "autoDestroy": true,
+      "value": 1
     }
-  }
+  },
+  "foundryActivities": [
+    {
+      "foundryId": "consumeblt",
+      "type": "utility",
+      "name": "Consume BLT",
+      "description": {
+        "chatFlavor": "+1 to all rolls, +10ft speed, +10ft darkvision, 10 temp HP."
+      },
+      "macro": {
+        "command": "// BLT: +1 to all rolls, +10ft speed, +10ft darkvision, 10 temp HP\nawait actor.createEmbeddedDocuments(\"ActiveEffect\", [{\n  label: \"BLT Meal\",\n  icon: \"icons/consumables/food/sandwich-bacon-lettuce-tomato.webp\",\n  changes: [\n    { key: 'system.bonuses.abilities.check', mode: 2, value: '+1', priority: 20 },\n    { key: 'system.bonuses.abilities.save', mode: 2, value: '+1', priority: 20 },\n    { key: 'system.bonuses.abilities.attack', mode: 2, value: '+1', priority: 20 },\n    { key: 'system.bonuses.abilities.damage', mode: 2, value: '+1', priority: 20 },\n    { key: 'system.attributes.movement.walk', mode: 2, value: '+10', priority: 20 },\n    { key: 'system.attributes.senses.darkvision', mode: 2, value: '+10', priority: 20 },\n    { key: 'system.attributes.hp.temp', mode: 5, value: '10', priority: 20 }\n  ],\n  duration: { special: [\"longRest\"] },\n  origin: item.uuid\n}]);\nui.notifications.info(\"BLT meal effects applied until your next rest.\");"
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ]
 }

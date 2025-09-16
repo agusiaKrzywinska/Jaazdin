@@ -7,9 +7,9 @@
     "baseMetal": "Skaier",
     "requiredTool": "Smith's Tools",
     "forgingConditions": "3rd Lvl Air Spell",
-    "armorEffects": "???",
-    "weaponEffects": "???",
-    "additionalEffects": "???",
+    "armorEffects": "Sky Steel always hovers a foot off earth. While flying, your speed is increased by 30. You are immune to effects that would ground you or otherwise force or the effects of strong winds. In addition, you gain a hover speed of 5 feet and do not fall if knocked prone while flying.",
+    "weaponEffects": "Thrown and Ranged weapons do not pose disadvantage at their long range, and both ranges increased by 30, and have advantage to hit flying targets. Sky Steel always hovers a foot off earth.",
+    "additionalEffects": "-",
     "druidUseable": false
   },
   "entries": [
@@ -21,9 +21,9 @@
         "<b>Base Metal:</b> {@item Skaier|TftJC}",
         "<b>Required Tool:</b> Smith's Tools",
         "<b>Forging Conditions:</b> 3rd Lvl Air Spell",
-        "<b>Armor Effects:</b> ???",
-        "<b>Weapon Effects:</b> ???",
-        "<b>Additional Effects:</b> ???",
+        "<b>Armor Effects:</b> Sky Steel always hovers a foot off earth. While flying, your speed is increased by 30. You are immune to effects that would ground you or otherwise force or the effects of strong winds. In addition, you gain a hover speed of 5 feet and do not fall if knocked prone while flying.",
+        "<b>Weapon Effects:</b> Thrown and Ranged weapons do not pose disadvantage at their long range, and both ranges increased by 30, and have advantage to hit flying targets. Sky Steel always hovers a foot off earth.",
+        "<b>Additional Effects:</b> -",
         "<b>Druid Useable:</b> No"
       ]
     }

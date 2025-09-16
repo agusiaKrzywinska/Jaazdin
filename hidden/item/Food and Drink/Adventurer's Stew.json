@@ -7,7 +7,7 @@
   "weight": 0,
   "entries": [
     "<b>Preparation:</b> Requires Cook’s Utensils or Brewer’s Supplies to prepare.",
-    "<b>Ingredients:</b> x1 Rare Beast Meat, x1 Rare Monstrosity Meat, x1 Rare Abberation Meat, x1 Rare Giant Meat, x1 Rare Fiend Meat, x1 Rare Celestial Meat, x1 Rare Dragon Meat",
+    "<b>Ingredients:</b> x1 Rare Beast Meat, x1 Rare Monstrosity Meat, x1 Rare Aberration Meat, x1 Rare Giant Meat, x1 Rare Fiend Meat, x1 Rare Celestial Meat, x1 Rare Dragon Meat",
     "<b>Effect:</b> Your maximum hit points increase by twice your current level."
   ],
   "foundryType": "consumable",
@@ -15,7 +15,23 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null,
+      "autoDestroy": true,
+      "value": 1
     }
-  }
+  },
+  "foundryActivities": [
+    {
+      "foundryId": "consumeadventurersstew",
+      "type": "utility",
+      "name": "Consume Adventurer's Stew",
+      "description": {
+        "chatFlavor": "Your maximum hit points increase by twice your current level."
+      },
+      "macro": {
+        "command": "// Increase max HP by twice actor's level\nconst level = actor.system.details.level || 1;\nconst value = 2 * level;\nawait actor.createEmbeddedDocuments(\"ActiveEffect\", [{\n  label: \"Adventurer's Stew: Max HP +2/level\",\n  icon: \"icons/consumables/food/stew-bowl-brown.webp\",\n  changes: [{ key: 'system.attributes.hp.max', mode: 2, value: value, priority: 20 }],\n  duration: { special: [\"longRest\"] },\n  origin: item.uuid\n}]);\nui.notifications.info(\"Max HP increased by \" + value + \" until your next rest.\");"
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ]
 }

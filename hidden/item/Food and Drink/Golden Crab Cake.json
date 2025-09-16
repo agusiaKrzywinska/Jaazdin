@@ -15,7 +15,21 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null,
+      "autoDestroy": true,
+      "value": 1
     }
-  }
+  },
+  "foundryActivities": [
+    {
+      "foundryId": "consumegoldencrabcake",
+      "type": "utility",
+      "name": "Consume Golden Crab Cake",
+      "description": { "chatFlavor": "Immunity to frightened and charmed." },
+      "macro": {
+        "command": "// Golden Crab Cake: Immunity to frightened and charmed\nawait actor.createEmbeddedDocuments(\"ActiveEffect\", [{\n  label: \"Golden Crab Cake Meal\",\n  icon: \"icons/consumables/food/crab-cake-golden.webp\",\n  changes: [\n    { key: 'system.traits.ci.value', mode: 2, value: 'frightened', priority: 20 },\n    { key: 'system.traits.ci.value', mode: 2, value: 'charmed', priority: 20 }\n  ],\n  duration: { special: [\"longRest\"] },\n  origin: item.uuid\n}]);\nui.notifications.info(\"Immunity to frightened and charmed until your next rest.\");"
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ]
 }

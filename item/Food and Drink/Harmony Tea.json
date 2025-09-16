@@ -11,51 +11,29 @@
     "<b>Effect:</b> Gain +1 to all concentration checks until you fail one."
   ],
   "foundryType": "consumable",
-  "foundrySystem": {
-    "type": {
-      "value": "food",
-      "subtype": ""
-    },
-    "consumableType": "food",
-    "uses": {
-      "max": 1,
-      "per": null,
-      "autoDestroy": true,
-      "value": 1
-    },
-    "activation": {
-      "type": "action",
-      "cost": 1,
-      "condition": ""
-    },
-    "duration": {
-      "value": null,
-      "units": "inst"
-    },
-    "target": {
-      "value": null,
-      "width": null,
-      "units": "",
-      "type": "self"
-    },
-    "range": {
-      "value": null,
-      "long": null,
-      "units": "self"
-    }
-  },
-  "foundryFlags": {
-    "dae": {
-      "alwaysActive": false,
-      "transfer": false
-    },
-    "itemacro": {
+  "foundryActivities": [
+    {
+      "foundryId": "consumeharmonytea",
+      "type": "utility",
+      "name": "Consume Harmony Tea",
+      "description": { "chatFlavor": "Consumes Harmony Tea" },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] },
       "macro": {
-        "name": "Harmony Tea",
         "type": "script",
-        "scope": "global",
-        "command": "// Apply Harmony Tea Effect\nif (args[0] === \"on\") {\n  const effectData = {\n    name: \"Harmony Tea Effect\",\n    icon: \"icons/consumables/drinks/cup-simple-clay-brown.webp\",\n    changes: [\n      {\n        key: \"system.bonuses.abilities.con\",\n        mode: 2,\n        value: \"1\",\n        priority: 20\n      }\n    ],\n    flags: {\n      dae: {\n        specialDuration: [\"longRest\", \"shortRest\"]\n      }\n    }\n  };\n  await actor.createEmbeddedDocuments(\"ActiveEffect\", [effectData]);\n  ui.notifications.info(\"Harmony Tea effect applied! +1 to concentration checks until rest.\");\n  \n  // Remove the item after use\n  if (item.system.uses.value <= 0) {\n    await item.delete();\n  }\n}"
+        "name": "Harmony Tea Effect",
+        "command": "// Apply Harmony Tea Effect as activity macro.\nconst effectData = {\n  name: 'Harmony Tea Effect',\n  icon: 'icons/consumables/drinks/cup-simple-clay-brown.webp',\n  changes: [\n    { key: 'system.bonuses.abilities.con', mode: 2, value: '1', priority: 20 }\n  ],\n  flags: { dae: { specialDuration: ['longRest', 'shortRest'] } }\n};\nawait actor.createEmbeddedDocuments('ActiveEffect', [effectData]);\nui.notifications.info('Harmony Tea effect applied! +1 to concentration checks until rest.');"
       }
     }
+  ],
+  "foundrySystem": {
+    "type": { "value": "food", "subtype": "" },
+    "consumableType": "food",
+    "uses": { "max": 1, "per": null, "autoDestroy": true, "value": 1 },
+    "duration": { "value": null, "units": "inst" },
+    "target": { "value": null, "width": null, "units": "", "type": "self" },
+    "range": { "value": null, "long": null, "units": "self" }
+  },
+  "foundryFlags": {
+    "dae": { "alwaysActive": false, "transfer": false }
   }
 }

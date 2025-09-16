@@ -15,7 +15,21 @@
     "consumableType": "food",
     "uses": {
       "max": 1,
-      "per": "charges"
+      "per": null,
+      "autoDestroy": true,
+      "value": 1
     }
-  }
+  },
+  "foundryActivities": [
+    {
+      "foundryId": "consumeswiftfootstew",
+      "type": "utility",
+      "name": "Consume Swift Foot Stew",
+      "description": { "chatFlavor": "+15ft movement speed." },
+      "macro": {
+        "command": "// Swift Foot Stew: +15ft movement speed\nawait actor.createEmbeddedDocuments(\"ActiveEffect\", [{\n  label: \"Swift Foot Stew Meal\",\n  icon: \"icons/consumables/food/stew-bowl-brown.webp\",\n  changes: [\n    { key: 'system.attributes.movement.walk', mode: 2, value: '+15', priority: 20 }\n  ],\n  duration: { special: [\"longRest\"] },\n  origin: item.uuid\n}]);\nui.notifications.info(\"+15ft movement speed until your next rest.\");"
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ]
 }
