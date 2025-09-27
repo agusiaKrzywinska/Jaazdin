@@ -4,9 +4,9 @@
   "rarity": "none",
   "type": "OTH",
   "wondrous": true,
-  "charges": 10,
+  "charges": 20,
   "recharge": "dawn",
-  "rechargeAmount": 10,
+  "rechargeAmount": 20,
   "customProperties": {
     "orbType": "Orb"
   },

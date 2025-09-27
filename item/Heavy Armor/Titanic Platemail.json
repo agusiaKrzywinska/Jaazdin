@@ -1,0 +1,21 @@
+{
+  "name": "Titanic Platemail",
+  "source": "TftJC",
+  "rarity": "none",
+  "type": "HA",
+  "ac": 20,
+  "weight": 120,
+  "modifySpeed": {
+    "bonus": {
+      "walk": -5
+    }
+  },
+  "strength": 17,
+  "ability": {
+    "dex": -2
+  },
+  "entries": [
+    "This massive set of Platemail contains bulky shoulder plates that attach directly onto a helm that fully covers the face.",
+    "This also lowers your walking speed by 5, and your Dexterity score by 2."
+  ]
+}

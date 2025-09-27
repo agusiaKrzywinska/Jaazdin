@@ -1,0 +1,55 @@
+{
+  "name": "Remedial Powder",
+  "type": "P",
+  "source": "TftJC",
+  "rarity": "common",
+  "foundryType": "consumable",
+  "foundrySystem": {
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "consumableType": "potion",
+    "uses": {
+      "max": 1,
+      "per": null,
+      "autoDestroy": true,
+      "value": 1
+    },
+    "duration": {
+      "value": null,
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "self"
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    }
+  },
+  "foundryActivities": [
+    {
+      "foundryId": "consumeremedialpowder",
+      "type": "utility",
+      "name": "Consume Remedial Powder",
+      "description": {
+        "chatFlavor": "As an action, a creature can ingest this powder which heals the creature {@dice 1d4 +1} hit points."
+      },
+      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+    }
+  ],
+  "entries": [
+    "As an action, a creature can ingest this powder which heals the creature {@dice 1d4 + 1} hit points."
+  ],
+  "foundryFlags": {
+    "dae": {
+      "transfer": false,
+      "alwaysActive": false
+    }
+  }
+}

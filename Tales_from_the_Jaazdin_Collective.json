@@ -15,12 +15,12 @@
                     "Adam Henderson",
                     "Malcolm Keefe"
                 ],
-                "version": "0.4.07"
+                "version": "0.4.08"
             }
         ],
         "edition": "classic",
         "dateAdded": 0,
-        "dateLastModified": 1758027496,
+        "dateLastModified": 1758935354,
         "optionalFeatureTypes": {
             "FS:W": "Fighting Style: Warden",
             "TECH": "Technique",
@@ -1807,6 +1807,40 @@
     ],
     "item": [
         {
+            "name": "'Iron'",
+            "source": "TftJC",
+            "type": "TG",
+            "rarity": "rare",
+            "customProperties": {
+                "planeOfOrigin": "Material",
+                "requiredTool": "Smith's Tools",
+                "secondaryTool": "Smith's Tools",
+                "forgingConditions": "?",
+                "baseMetals": "Iron + Mockrium",
+                "armorEffects": "Can take on the properties of any metal Rare or lower rarity by holding a plate/item comprised of it for 1 minute. Visually indistinguishable from Iron.",
+                "weaponEffects": "Can take on the properties of any metal Rare or lower rarity by holding a plate/item comprised of it for 1 minute. Visually indistinguishable from Iron.",
+                "additionalEffects": "Requires a DC 25 Smiths Tools Check with INT to determine this isn't Iron.",
+                "druidUseable": false
+            },
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Properties",
+                    "entries": [
+                        "<b>Plane of Origin:</b> Material",
+                        "<b>Required Tool:</b> Smith's Tools",
+                        "<b>Secondary Tool:</b> Smith's Tools",
+                        "<b>Forging Conditions:</b> ?",
+                        "<b>Base Metals:</b> {@item Iron|TftJC} + {@item Mockrium|TftJC}",
+                        "<b>Armor Effects:</b> Can take on the properties of any metal Rare or lower rarity by holding a plate/item comprised of it for 1 minute. Visually indistinguishable from Iron.",
+                        "<b>Weapon Effects:</b> Can take on the properties of any metal Rare or lower rarity by holding a plate/item comprised of it for 1 minute. Visually indistinguishable from Iron.",
+                        "<b>Additional Effects:</b> Requires a DC 25 Smiths Tools Check with INT to determine this isn't Iron.",
+                        "<b>Druid Useable:</b> No"
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Adamantine",
             "source": "TftJC",
             "type": "TG",
@@ -2125,9 +2159,9 @@
             "rarity": "none",
             "type": "OTH",
             "wondrous": true,
-            "charges": 10,
+            "charges": 20,
             "recharge": "dawn",
-            "rechargeAmount": 10,
+            "rechargeAmount": 20,
             "customProperties": {
                 "orbType": "Orb"
             },
@@ -4696,6 +4730,28 @@
             ]
         },
         {
+            "name": "Dissolving Orb",
+            "source": "TftJC",
+            "rarity": "none",
+            "type": "OTH",
+            "wondrous": true,
+            "charges": 20,
+            "recharge": "dawn",
+            "rechargeAmount": 20,
+            "customProperties": {
+                "orbType": "Orb"
+            },
+            "entries": [
+                "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+                "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+                "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+                "<b>Combined Orbs:</b> {@item Toxic Orb|TftJC} + {@item Charging Orb|TftJC}",
+                "<b>Weapon Effect:</b> Hit creatures take an additional {@dice 1d8} Poison damage.",
+                "<b>Armor Effect:</b> You can end the {@condition Poisoned} condition on yourself, and have a +5 against the next saving throw against a Poison within the next minute.",
+                "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw take an additional {@dice 1d8} Poison damage."
+            ]
+        },
+        {
             "name": "Divinium",
             "source": "TftJC",
             "type": "TG",
@@ -5945,9 +6001,9 @@
             "rarity": "none",
             "type": "OTH",
             "wondrous": true,
-            "charges": 10,
+            "charges": 20,
             "recharge": "dawn",
-            "rechargeAmount": 10,
+            "rechargeAmount": 20,
             "customProperties": {
                 "orbType": "Orb"
             },
@@ -7120,6 +7176,27 @@
             ]
         },
         {
+            "name": "Hunter's Pistol",
+            "type": "R",
+            "source": "TftJC",
+            "rarity": "none",
+            "weight": 1,
+            "value": 1000,
+            "weaponCategory": "simple",
+            "property": [
+                "T"
+            ],
+            "range": "30/90",
+            "dmg1": "1d6",
+            "dmgType": "P",
+            "charges": 1,
+            "entries": [
+                "<i><b>Innovative Invention.</i></b>",
+                "<b><i>Barrel 1.</i></b> A barrel is a chamber that holds a number of rounds. You can spend a Bonus Action to reload a single round in your barrel.",
+                "While in the off-hand, the wielder can use a reaction when targeted by a melee attack to fire the pistol at the attacker, granting a bonus to their AC equal to a roll of the pistol's damage die. (this deals no damage and expends the ammunition)"
+            ]
+        },
+        {
             "name": "Ice Spring Wine",
             "source": "TftJC",
             "type": "FD",
@@ -7336,40 +7413,6 @@
                 "Once per day, the wielder can hold aloft the lance and use an action to cast {@spell Find Greater Steed|XGE}. When cast in this way, it specifically summons the spirit bonded to the weapon, Rasharam. Rasharam has the statistics of a {@creature nightmare|MM}, but is of type celestial and only the ability to convoy its summoner. When he appears, he is equipped with a saddle and set of plate barding, which vanish with him when he is dismissed or slain. Rasharam remains until dismissed or slain.",
                 "Indara’s Fall can only be attuned, identified, and wielded by one who has slain a Dragon of CR 11 or higher. A creature can perform a bonding ritual with the blade by anointing it with CR 11 or high Dragon’s blood. Once this ritual is performed, that creature can always attune to Indara’s Fall.",
                 "<b><i>Special.</i></b> You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."
-            ]
-        },
-        {
-            "name": "Iron",
-            "source": "TftJC",
-            "type": "TG",
-            "rarity": "rare",
-            "customProperties": {
-                "planeOfOrigin": "Material",
-                "requiredTool": "Smith's Tools",
-                "secondaryTool": "Smith's Tools",
-                "forgingConditions": "?",
-                "baseMetals": "Iron + Mockrium",
-                "armorEffects": "Can take on the properties of any metal Rare or lower rarity by holding a plate/item comprised of it for 1 minute. Visually indistinguishable from Iron.",
-                "weaponEffects": "Can take on the properties of any metal Rare or lower rarity by holding a plate/item comprised of it for 1 minute. Visually indistinguishable from Iron.",
-                "additionalEffects": "Requires a DC 25 Smiths Tools Check with INT to determine this isn't Iron.",
-                "druidUseable": false
-            },
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Properties",
-                    "entries": [
-                        "<b>Plane of Origin:</b> Material",
-                        "<b>Required Tool:</b> Smith's Tools",
-                        "<b>Secondary Tool:</b> Smith's Tools",
-                        "<b>Forging Conditions:</b> ?",
-                        "<b>Base Metals:</b> {@item Iron|TftJC} + {@item Mockrium|TftJC}",
-                        "<b>Armor Effects:</b> Can take on the properties of any metal Rare or lower rarity by holding a plate/item comprised of it for 1 minute. Visually indistinguishable from Iron.",
-                        "<b>Weapon Effects:</b> Can take on the properties of any metal Rare or lower rarity by holding a plate/item comprised of it for 1 minute. Visually indistinguishable from Iron.",
-                        "<b>Additional Effects:</b> Requires a DC 25 Smiths Tools Check with INT to determine this isn't Iron.",
-                        "<b>Druid Useable:</b> No"
-                    ]
-                }
             ]
         },
         {
@@ -8197,9 +8240,9 @@
             "rarity": "none",
             "type": "OTH",
             "wondrous": true,
-            "charges": 10,
+            "charges": 20,
             "recharge": "dawn",
-            "rechargeAmount": 10,
+            "rechargeAmount": 20,
             "customProperties": {
                 "orbType": "Orb"
             },
@@ -8793,7 +8836,10 @@
                         "{@item Storming Orb|TftJC}",
                         "{@item Arcing Orb|TftJC}",
                         "{@item Mercury Orb|TftJC}",
-                        "{@item Generator Orb|TftJC}"
+                        "{@item Generator Orb|TftJC}",
+                        "{@item Zapping Orb|TftJC}",
+                        "{@item Dissolving Orb|TftJC}",
+                        "{@item Void Orb|TftJC}"
                     ]
                 }
             ]
@@ -10008,6 +10054,68 @@
             ]
         },
         {
+            "name": "Remedial Powder",
+            "type": "P",
+            "source": "TftJC",
+            "rarity": "common",
+            "foundryType": "consumable",
+            "foundrySystem": {
+                "type": {
+                    "value": "potion",
+                    "subtype": ""
+                },
+                "consumableType": "potion",
+                "uses": {
+                    "max": 1,
+                    "per": null,
+                    "autoDestroy": true,
+                    "value": 1
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
+                }
+            },
+            "foundryActivities": [
+                {
+                    "foundryId": "consumeremedialpowder",
+                    "type": "utility",
+                    "name": "Consume Remedial Powder",
+                    "description": {
+                        "chatFlavor": "As an action, a creature can ingest this powder which heals the creature {@dice 1d4 +1} hit points."
+                    },
+                    "consumption": {
+                        "targets": [
+                            {
+                                "target": "uses",
+                                "value": "1"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "entries": [
+                "As an action, a creature can ingest this powder which heals the creature {@dice 1d4 + 1} hit points."
+            ],
+            "foundryFlags": {
+                "dae": {
+                    "transfer": false,
+                    "alwaysActive": false
+                }
+            }
+        },
+        {
             "name": "Revolver",
             "source": "TftJC",
             "type": "R",
@@ -10689,9 +10797,9 @@
             "rarity": "none",
             "type": "OTH",
             "wondrous": true,
-            "charges": 10,
+            "charges": 20,
             "recharge": "dawn",
-            "rechargeAmount": 10,
+            "rechargeAmount": 20,
             "customProperties": {
                 "orbType": "Orb"
             },
@@ -11276,9 +11384,9 @@
             "rarity": "none",
             "type": "OTH",
             "wondrous": true,
-            "charges": 10,
+            "charges": 20,
             "recharge": "dawn",
-            "rechargeAmount": 10,
+            "rechargeAmount": 20,
             "customProperties": {
                 "orbType": "Orb"
             },
@@ -11900,6 +12008,27 @@
             ]
         },
         {
+            "name": "Titanic Platemail",
+            "source": "TftJC",
+            "rarity": "none",
+            "type": "HA",
+            "ac": 20,
+            "weight": 120,
+            "modifySpeed": {
+                "bonus": {
+                    "walk": -5
+                }
+            },
+            "strength": 17,
+            "ability": {
+                "dex": -2
+            },
+            "entries": [
+                "This massive set of Platemail contains bulky shoulder plates that attach directly onto a helm that fully covers the face.",
+                "This also lowers your walking speed by 5, and your Dexterity score by 2."
+            ]
+        },
+        {
             "name": "Tonfa",
             "source": "TftJC",
             "page": 50,
@@ -11968,9 +12097,9 @@
             "rarity": "none",
             "type": "OTH",
             "wondrous": true,
-            "charges": 10,
+            "charges": 20,
             "recharge": "dawn",
-            "rechargeAmount": 10,
+            "rechargeAmount": 20,
             "customProperties": {
                 "orbType": "Orb"
             },
@@ -12392,6 +12521,28 @@
             ]
         },
         {
+            "name": "Void Orb",
+            "source": "TftJC",
+            "rarity": "none",
+            "type": "OTH",
+            "wondrous": true,
+            "charges": 20,
+            "recharge": "dawn",
+            "rechargeAmount": 20,
+            "customProperties": {
+                "orbType": "Orb"
+            },
+            "entries": [
+                "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+                "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+                "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+                "<b>Combined Orbs:</b> {@item Chilling Orb|TftJC} + {@item Charging Orb|TftJC}",
+                "<b>Weapon Effect:</b> Hitting a creature successfully grants you 10 temporary hit points.",
+                "<b>Armor Effect:</b> When you fail a Saving Throw, you can repeat the Saving Throw. If you fail again, you take an additional 10 Necrotic damage.",
+                "<b>Focus Effect:</b> Hitting a creature successfully or having them fail a Saving Throw grants you 10 temporary hit points."
+            ]
+        },
+        {
             "name": "Volcanic Quartz",
             "source": "TftJC",
             "type": "TG",
@@ -12646,6 +12797,28 @@
                     "alwaysActive": false
                 }
             }
+        },
+        {
+            "name": "Zapping Orb",
+            "source": "TftJC",
+            "rarity": "none",
+            "type": "OTH",
+            "wondrous": true,
+            "charges": 20,
+            "recharge": "dawn",
+            "rechargeAmount": 20,
+            "customProperties": {
+                "orbType": "Orb"
+            },
+            "entries": [
+                "Orbs are magic items found within Kima-at that can be applied to weapons, foci and armor, each granting unique effects. Orbs have 10 charges, which return at dawn.",
+                "You can only use one charge per orb, per turn. Up to 2 Orbs can be placed on a single item, which combines them and grants new effects.",
+                "Having 2 orbs on one weapon/armor/foci combines their charges, and allows you to use their abilities interchangeably. Using a Combo effect requires 2 charges spent",
+                "<b>Combined Orbs:</b> {@item Static Orb|TftJC} + {@item Static Orb|TftJC}",
+                "<b>Weapon Effect:</b> Hitting a creature successfully with a weapon or spell attack grants 2 {@condition Charged|TftJC}.",
+                "<b>Armor Effect:</b> -4 Lightning Damage, as a Reaction to taking Lightning Damage you can expend 2 charges to gain resistance to Lightning damage until the start of your next turn.",
+                "<b>Focus Effect:</b> Creatures hit by or who fail a saving throw grants you 2 {@condition Charged|TftJC}, or 3 if the spell cast matches the Orb's element."
+            ]
         },
         {
             "name": "Zar's Fancy Boots",
