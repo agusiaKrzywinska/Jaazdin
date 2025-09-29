@@ -15,12 +15,12 @@
                     "Adam Henderson",
                     "Malcolm Keefe"
                 ],
-                "version": "0.4.09"
+                "version": "0.4.10"
             }
         ],
         "edition": "classic",
         "dateAdded": 0,
-        "dateLastModified": 1759176201,
+        "dateLastModified": 1759177990,
         "optionalFeatureTypes": {
             "FS:W": "Fighting Style: Warden",
             "TECH": "Technique",
@@ -12109,7 +12109,7 @@
                         "{@item Herbalist Helper Vol.|TftJC}",
                         "{@item Enchanting Catalogue Vol.|TftJC}",
                         "{@item Thieves Almanac Vol.|TftJC}",
-                        "{@item Performer’s Companion Vol.|TftJC}",
+                        "{@item Performer's Companion Vol.|TftJC}",
                         "{@item Muscle Magazine Vol.|TftJC}",
                         "{@item Guileless’ Guide Vol.|TftJC}"
                     ]
