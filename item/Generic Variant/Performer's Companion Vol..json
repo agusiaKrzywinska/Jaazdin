@@ -1,0 +1,20 @@
+{
+  "name": "Performer's Companion Vol.",
+  "source": "TftJC",
+  "rarity": "varies",
+  "type": "GV",
+  "wondrous": true,
+  "entries": [
+    "This tome contains the secrets to performance and writing.",
+    "Affects the following Jobs: Artist, Cook, Journalism, Performer",
+    {
+      "type": "list",
+      "items": [
+        "{@item Performer's Companion Vol. I|TftJC}",
+        "{@item Performer's Companion Vol. II|TftJC}",
+        "{@item Performer's Companion Vol. III|TftJC}",
+        "{@item Performer's Companion Vol. IV|TftJC}"
+      ]
+    }
+  ]
+}

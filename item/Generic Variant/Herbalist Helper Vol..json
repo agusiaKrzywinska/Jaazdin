@@ -6,6 +6,7 @@
   "wondrous": true,
   "entries": [
     "These tomes contains the secrets of medical knowledge, plants, and poultices.",
+    "Affects the following Jobs: Alchemist, Gardening, Doctor, Poisoner",
     {
       "type": "list",
       "items": [

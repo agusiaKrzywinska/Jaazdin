@@ -6,6 +6,7 @@
   "wondrous": true,
   "entries": [
     "These tomes contains the secrets to enchanting magical objects.",
+    "Affects the following Jobs: Appraisal Shop, Arcanist, Jeweler, Tailor",
     {
       "type": "list",
       "items": [

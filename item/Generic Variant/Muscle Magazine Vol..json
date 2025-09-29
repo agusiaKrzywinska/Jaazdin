@@ -6,6 +6,7 @@
   "type": "GV",
   "entries": [
     "This magazine contains tips, tricks, and hacks for improving ones body and physical form.",
+    "Affects the following Jobs: Barkeep, Dock Worker, General Laborer, Guard, Instructor",
     {
       "type": "list",
       "items": [

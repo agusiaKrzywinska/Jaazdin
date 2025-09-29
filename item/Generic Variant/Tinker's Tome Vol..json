@@ -6,6 +6,7 @@
   "type": "GV",
   "entries": [
     "These tomes contains the secrets of invention and innovation.",
+    "Affects the following Jobs: Carpentry, Sculptor, Smith, Teacher, Tinkerer",
     {
       "type": "list",
       "items": [
