@@ -4,6 +4,7 @@
   "source": "TftJC",
   "rarity": "rare",
   "foundryType": "consumable",
+  "miscTags": ["CNS", "POTN"],
   "foundrySystem": {
     "type": {
       "value": "potion",

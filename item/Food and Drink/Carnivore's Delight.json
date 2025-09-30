@@ -10,6 +10,7 @@
     "<b>Ingredients:</b> x1 Rare Beast Meat, x1 Rare Monstrosity Meat, x1 Humanoid Meat",
     "<b>Effect:</b> When you reduce a creature to 0 hit points you regain 1d8 hit points."
   ],
+  "miscTags": ["CNS", "FOD"],
   "foundryType": "consumable",
   "foundrySystem": {
     "type": {

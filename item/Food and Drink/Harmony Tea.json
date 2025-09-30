@@ -11,6 +11,7 @@
     "<b>Effect:</b> Gain +1 to all concentration checks until you fail one."
   ],
   "foundryType": "consumable",
+  "miscTags": ["CNS", "FOD"],
   "foundryActivities": [
     {
       "foundryId": "consumeharmonytea",

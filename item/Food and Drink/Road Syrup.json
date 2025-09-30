@@ -11,13 +11,23 @@
     "<b>Effect:</b> When you travel you can travel 50% longer before suffering any ill effects."
   ],
   "foundryType": "consumable",
+  "miscTags": ["CNS", "FOD"],
   "foundryActivities": [
     {
       "foundryId": "consumeroadsyrup",
       "type": "utility",
       "name": "Consume Road Syrup",
-      "description": { "chatFlavor": "Consumes Road Syrup" },
-      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+      "description": {
+        "chatFlavor": "Consumes Road Syrup"
+      },
+      "consumption": {
+        "targets": [
+          {
+            "target": "uses",
+            "value": "1"
+          }
+        ]
+      }
     }
   ],
   "foundrySystem": {

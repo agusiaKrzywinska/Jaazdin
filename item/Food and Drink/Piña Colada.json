@@ -11,6 +11,7 @@
     "<b>Effect:</b> Whenever you make a Charisma check, treat a roll of 4 or lower on the d20 as a 5."
   ],
   "foundryType": "consumable",
+  "miscTags": ["CNS", "FOD"],
   "foundryActivities": [
     {
       "foundryId": "consumepinacolada",

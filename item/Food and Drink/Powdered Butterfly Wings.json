@@ -11,6 +11,7 @@
     "<b>Effect:</b> You gain a +1 bonus to Charisma saves and can double your proficiency bonus to one Charisma checks. Once you double your proficiency bonus you lose all the bonuses of this meal."
   ],
   "foundryType": "consumable",
+  "miscTags": ["CNS", "FOD"],
   "foundryActivities": [
     {
       "foundryId": "consumepowderedbutterflywings",

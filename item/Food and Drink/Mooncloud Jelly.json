@@ -11,6 +11,7 @@
     "<b>Effect:</b> You have advantage on your next Strength, Dexterity, and Constitution saving throw."
   ],
   "foundryType": "consumable",
+  "miscTags": ["CNS", "FOD"],
   "foundryActivities": [
     {
       "foundryId": "consumemooncloudjelly",

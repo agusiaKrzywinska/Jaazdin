@@ -11,6 +11,7 @@
     "<b>Effect:</b> When you take a short rest you gain +2 Hit Points per Hit Die spent."
   ],
   "foundryType": "consumable",
+  "miscTags": ["CNS", "FOD"],
   "foundryActivities": [
     {
       "foundryId": "consumeicespringwine",

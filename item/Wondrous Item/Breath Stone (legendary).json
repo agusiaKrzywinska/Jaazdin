@@ -20,6 +20,7 @@
       ]
     }
   ],
+  "miscTags": ["CNS"],
   "foundryType": "consumable",
   "foundrySystem": {
     "type": { "value": "trinket", "subtype": "" },

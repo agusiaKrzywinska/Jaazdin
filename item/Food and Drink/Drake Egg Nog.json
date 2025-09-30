@@ -11,6 +11,7 @@
     "<b>Effect:</b> The first time you take the damage type of the meal reduce the damage by 2d8 to a minimum of 1. The effect then ends."
   ],
   "foundryType": "consumable",
+  "miscTags": ["CNS", "FOD"],
   "foundryActivities": [
     {
       "foundryId": "consumedrakeeggnog",

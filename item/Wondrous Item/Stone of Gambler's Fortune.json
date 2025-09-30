@@ -1,0 +1,13 @@
+{
+  "name": "Stone of Gambler's Fortune",
+  "source": "TftJC",
+  "rarity": "common",
+  "type": "WD",
+  "wondrous": true,
+  "entries": [
+    "These polished pebbles contain magic to aid in one's ability to play games of chance.",
+    "When you would roll a d20 for a Gaming Set Check, you can palm a pebble. You can either choose to reroll your check, reroll your opponents check, or to reroll any one set of rolls made as a part of gambling.",
+    "The pebble is then consumed."
+  ],
+  "miscTags": ["CNS"]
+}

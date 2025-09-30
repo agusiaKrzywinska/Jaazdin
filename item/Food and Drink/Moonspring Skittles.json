@@ -11,6 +11,7 @@
     "<b>Effect:</b> You gain a +1 bonus to all Intelligence, Charisma, or Wisdom ability checks."
   ],
   "foundryType": "consumable",
+  "miscTags": ["CNS", "FOD"],
   "foundryActivities": [
     {
       "foundryId": "consumemoonspringskittles",

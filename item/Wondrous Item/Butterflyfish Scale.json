@@ -4,6 +4,7 @@
   "rarity": "very rare",
   "wondrous": true,
   "source": "TftJC",
+  "miscTags": ["CNS"],
   "foundryType": "consumable",
   "entries": [
     "This scale shimmers with a myriad of colors, interwoven with the membranous pattern of a butterfly's wing.",

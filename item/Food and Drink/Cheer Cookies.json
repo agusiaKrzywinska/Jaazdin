@@ -11,13 +11,23 @@
     "<b>Effect:</b> The next time you use the help action or have the help action used on you for a Charisma check add {@dice 1d6} to the roll. The effect then ends."
   ],
   "foundryType": "consumable",
+  "miscTags": ["CNS", "FOD"],
   "foundryActivities": [
     {
       "foundryId": "consumecheercookies",
       "type": "utility",
       "name": "Consume Cheer Cookies",
-      "description": { "chatFlavor": "Consumes Cheer Cookies" },
-      "consumption": { "targets": [{ "target": "uses", "value": "1" }] }
+      "description": {
+        "chatFlavor": "Consumes Cheer Cookies"
+      },
+      "consumption": {
+        "targets": [
+          {
+            "target": "uses",
+            "value": "1"
+          }
+        ]
+      }
     }
   ],
   "foundrySystem": {

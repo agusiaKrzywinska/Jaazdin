@@ -11,6 +11,7 @@
     "<b>Effect:</b> You have advantage on all saving throws to resist the effects of hot climates."
   ],
   "foundryType": "consumable",
+  "miscTags": ["CNS", "FOD"],
   "foundryActivities": [
     {
       "foundryId": "consumefrostcactuswine",

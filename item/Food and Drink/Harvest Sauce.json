@@ -11,6 +11,7 @@
     "<b>Effect:</b> Must be eaten with another meal, whenever you gain temporary hit points, increase the amount gained by 1."
   ],
   "foundryType": "consumable",
+  "miscTags": ["CNS", "FOD"],
   "foundryActivities": [
     {
       "foundryId": "consumeharvestsauce",

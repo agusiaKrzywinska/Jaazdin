@@ -15,12 +15,12 @@
                     "Adam Henderson",
                     "Malcolm Keefe"
                 ],
-                "version": "0.4.11"
+                "version": "0.4.12"
             }
         ],
         "edition": "classic",
         "dateAdded": 0,
-        "dateLastModified": 1759197795,
+        "dateLastModified": 1759234988,
         "optionalFeatureTypes": {
             "FS:W": "Fighting Style: Warden",
             "TECH": "Technique",
@@ -1926,6 +1926,10 @@
             "rarity": "rare",
             "type": "P",
             "source": "TftJC",
+            "miscTags": [
+                "CNS",
+                "POTN"
+            ],
             "foundryType": "consumable",
             "foundrySystem": {
                 "type": {
@@ -2991,6 +2995,9 @@
                     ]
                 }
             ],
+            "miscTags": [
+                "CNS"
+            ],
             "foundryType": "consumable",
             "foundrySystem": {
                 "type": {
@@ -3069,6 +3076,9 @@
                         ]
                     ]
                 }
+            ],
+            "miscTags": [
+                "CNS"
             ],
             "foundryType": "consumable",
             "foundrySystem": {
@@ -3149,6 +3159,9 @@
                     ]
                 }
             ],
+            "miscTags": [
+                "CNS"
+            ],
             "foundryType": "consumable",
             "foundrySystem": {
                 "type": {
@@ -3227,6 +3240,9 @@
                         ]
                     ]
                 }
+            ],
+            "miscTags": [
+                "CNS"
             ],
             "foundryType": "consumable",
             "foundrySystem": {
@@ -3330,6 +3346,9 @@
             "rarity": "very rare",
             "wondrous": true,
             "source": "TftJC",
+            "miscTags": [
+                "CNS"
+            ],
             "foundryType": "consumable",
             "entries": [
                 "This scale shimmers with a myriad of colors, interwoven with the membranous pattern of a butterfly's wing.",
@@ -3381,6 +3400,9 @@
             "wondrous": true,
             "entries": [
                 "These candles hold a powerful magical charge. When a magic item within 30ft of a candle uses a charge, you can have the candles restore its power. It regains an expended charge or use. After it has done so, the candle loses its magical ability."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -3395,6 +3417,9 @@
                 "Time out! How often has this happened to you? A party of vagabonds arrives and just before you reveal the intricacies of your master plan, they start attacking. So uncultured! Thanks to the Cape of Monologuing, you’ll never have to worry about this again.",
                 "Yes, this is a very real item, and not something I just created out of thin air! As a...reaction...yeah a reaction, you conjure this cape out of thin air and time stops all around you for what seems like a minute. During this time, you cannot take actions, bonus actions, other reactions, or any movement...however you can monologue about your master plans. Also you can pace or whatever for dramatic effect, but you need to end up in the same spot, m’kay? After this, the cape explodes and is gone forever.",
                 "This is a real item. Obviously not something I made up on the spot because I’ve built this moment up in my head for two damn years, Todd."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -3441,6 +3466,10 @@
                 "<b>Preparation:</b> Requires Cook's Tools to prepare.",
                 "<b>Ingredients:</b> x1 Rare Beast Meat, x1 Rare Monstrosity Meat, x1 Humanoid Meat",
                 "<b>Effect:</b> When you reduce a creature to 0 hit points you regain 1d8 hit points."
+            ],
+            "miscTags": [
+                "CNS",
+                "FOD"
             ],
             "foundryType": "consumable",
             "foundrySystem": {
@@ -3599,6 +3628,10 @@
                 "<b>Effect:</b> The next time you use the help action or have the help action used on you for a Charisma check add {@dice 1d6} to the roll. The effect then ends."
             ],
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "FOD"
+            ],
             "foundryActivities": [
                 {
                     "foundryId": "consumecheercookies",
@@ -3894,6 +3927,10 @@
                 "<b>Effect:</b> You ignore one level of exhaustion but cannot benefit from a short or long rest for the next 8 hours."
             ],
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "FOD"
+            ],
             "foundryActivities": [
                 {
                     "foundryId": "consumecoffee",
@@ -4844,6 +4881,10 @@
             "source": "TftJC",
             "rarity": "rare",
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "POTN"
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "potion",
@@ -4966,6 +5007,10 @@
                 "<b>Effect:</b> The first time you take the damage type of the meal reduce the damage by 2d8 to a minimum of 1. The effect then ends."
             ],
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "FOD"
+            ],
             "foundryActivities": [
                 {
                     "foundryId": "consumedrakeeggnog",
@@ -5128,6 +5173,9 @@
                 "\"Captain...wha...what was that? Did you plan that? Is this why you were an hour late to the crime scene?! People were murdered!\"",
                 "\\...Eggsactly.\"",
                 "When you break an Egg of Seeking, it reveals the location of any purposefully hidden objects, entrances, containers, persons, and the like within 100 feet for one minute. When this happens, that which is purposefully hidden is enveloped in the illusion of a brightly-colored egg. The hunter of such should then easily be able to poach the location(s) of what is hidden as long as it resides on the same plane of existence."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -5218,6 +5266,9 @@
                 "It can be read over 1 week to learn the recipe for one magical item of the books rarity or lower, determined randomly, or gain a +2 bonus to an Arcana check in downtime.",
                 "Alternatively, a creature reading it can instead read the book to increase their Arcanist, Appraisal Shop, Jeweler, or Tailor Wage Progression by 1",
                 "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -5232,6 +5283,9 @@
                 "It can be read over 1 week to learn the recipe for one magical item of the books rarity or lower, determined randomly, or gain a +3 bonus to an Arcana check in downtime.",
                 "Alternatively, a creature reading it can instead read the book to increase their Arcanist, Appraisal Shop, Jeweler, or Tailor Wage Progression by 2",
                 "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -5246,6 +5300,9 @@
                 "It can be read over 1 week to learn the recipe for one magical item of the books rarity or lower, determined randomly, or gain a +4 bonus to an Arcana check in downtime.",
                 "Alternatively, a creature reading it can instead read the book to increase their Arcanist, Appraisal Shop, Jeweler, or Tailor Wage Progression by 3",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -5260,6 +5317,9 @@
                 "It can be read over 1 week to learn the recipe for one magical item of the books rarity or lower, determined randomly, or gain a +5 bonus to an Arcana check in downtime.",
                 "Alternatively, a creature reading it can instead read the book to increase their Arcanist, Appraisal Shop, Jeweler, or Tailor Wage Progression by 4",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -5429,6 +5489,10 @@
             "type": "P",
             "source": "TftJC",
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "POTN"
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "potion",
@@ -5623,6 +5687,9 @@
                 "On a 1, your next roll becomes a natural 20 and you have advantage on all attack rolls, saving throws, and ability checks until the end of your next turn.",
                 "On a 2, your next roll becomes a natural 1 and you have disadvantage on all attack rolls, saving throws, and ability checks until the end of your next turn.",
                 "After the coin has been flipped it bursts into sparkles."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -5700,6 +5767,10 @@
                 "<b>Effect:</b> You have advantage on all saving throws to resist the effects of cold climates."
             ],
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "FOD"
+            ],
             "foundryActivities": [
                 {
                     "foundryId": "consumefirebellymead",
@@ -5889,6 +5960,10 @@
                 "<b>Effect:</b> You have advantage on all saving throws to resist the effects of hot climates."
             ],
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "FOD"
+            ],
             "foundryActivities": [
                 {
                     "foundryId": "consumefrostcactuswine",
@@ -6469,6 +6544,9 @@
                 "It can be read over 1 week to grant a creature a 10% discount to one purchase in downtime, provided it is an object of the same or lower rarity as this tome.",
                 "Alternatively, a creature reading it can instead read the book to increase their Franchiser, General Store, Priest, Stablehand, or Tour Guide Wage Progression by 1.",
                 "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -6483,6 +6561,9 @@
                 "It can be read over 1 week to grant a creature a 10% discount to one purchase in downtime, provided it is an object of the same or lower rarity as this tome.",
                 "Alternatively, a creature reading it can instead read the book to increase their Franchiser, General Store, Priest, Stablehand, or Tour Guide Wage Progression by 2.",
                 "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -6497,6 +6578,9 @@
                 "It can be read over 1 week to grant a creature a 10% discount to one purchase in downtime, provided it is an object of the same or lower rarity as this tome.",
                 "Alternatively, a creature reading it can instead read the book to increase their Franchiser, General Store, Priest, Stablehand, or Tour Guide Wage Progression by 3.",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -6511,6 +6595,9 @@
                 "It can be read over 1 week to grant a creature a 10% discount to one purchase in downtime, provided it is an object of the same or lower rarity as this tome.",
                 "Alternatively, a creature reading it can instead read the book to increase their Franchiser, General Store, Priest, Stablehand, or Tour Guide Wage Progression by 4.",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -6705,6 +6792,10 @@
                 "<b>Effect:</b> Gain +1 to all concentration checks until you fail one."
             ],
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "FOD"
+            ],
             "foundryActivities": [
                 {
                     "foundryId": "consumeharmonytea",
@@ -6776,6 +6867,10 @@
                 "<b>Effect:</b> Must be eaten with another meal, whenever you gain temporary hit points, increase the amount gained by 1."
             ],
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "FOD"
+            ],
             "foundryActivities": [
                 {
                     "foundryId": "consumeharvestsauce",
@@ -6997,6 +7092,9 @@
                 "It can be read over 1 week to learn the use for one plant, potion, or poison of a rarity lower than this book, determined randomly.",
                 "Alternatively, a creature reading it can instead read the book to increase their Gardening, Doctor, Poisoner, or Alchemist Wage Progression by 1",
                 "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -7011,6 +7109,9 @@
                 "It can be read over 1 week to learn the use for one plant, potion, or poison of a rarity lower than this book, determined randomly.",
                 "Alternatively, a creature reading it can instead read the book to increase their Gardening, Doctor, Poisoner, or Alchemist Wage Progression by 2",
                 "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -7025,6 +7126,9 @@
                 "It can be read over 1 week to learn the use for one plant, potion, or poison of a rarity lower than this book, determined randomly.",
                 "Alternatively, a creature reading it can instead read the book to increase their Gardening, Doctor, Poisoner, or Alchemist Wage Progression by 3",
                 "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -7039,6 +7143,9 @@
                 "It can be read over 1 week to learn the use for one plant, potion, or poison of a rarity lower than this book, determined randomly.",
                 "Alternatively, a creature reading it can instead read the book to increase their Gardening, Doctor, Poisoner, or Alchemist Wage Progression by 4",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time and does not require the use of downtime."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -7147,6 +7254,22 @@
             ]
         },
         {
+            "name": "Horns of Orion",
+            "source": "TftJC",
+            "type": "WD",
+            "rarity": "artifact",
+            "wondrous": true,
+            "reqAttune": true,
+            "charges": 1,
+            "recharge": "restLong",
+            "rechargeAmount": 1,
+            "entries": [
+                "These gold and crystal horns once belonged to Orion, famed protector of Alsorn. They grant their wielder supernatural sense. These horns must be attached to a set of Medium or Heavy armor to function. Once attached, the wearer gains proficiency in Perception and can add their proficiency bonus to initiative rolls.",
+                "While attached, the horns warn the wearer of incoming danger. You gain advantage on Dexterity saving throw against effects you can see, cannot be surprised, and creatures cannot gain advantage against you from flanking you.",
+                "As an action, you can touch the horns to grant yourself 5ft of truesight. This effect lasts for 1 hour or until you use a bonus action to turn it off. Once you use this ability, it cannot be used until you finish a long rest."
+            ]
+        },
+        {
             "name": "Hunter's Iron",
             "source": "TftJC",
             "type": "TG",
@@ -7212,6 +7335,10 @@
                 "<b>Effect:</b> When you take a short rest you gain +2 Hit Points per Hit Die spent."
             ],
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "FOD"
+            ],
             "foundryActivities": [
                 {
                     "foundryId": "consumeicespringwine",
@@ -7299,6 +7426,10 @@
                 "<b>Effect:</b> You gain a +1 bonus to Intelligence saves and when you take psychic damage you can use your reaction to reduce the psychic damage to 1. Once you use this reaction you lose all the bonuses of this meal."
             ],
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "FOD"
+            ],
             "foundryActivities": [
                 {
                     "foundryId": "consumeiceflowerflakey",
@@ -7558,6 +7689,10 @@
                 "<b>Effect:</b> Triples the duration you can remain underwater before you begin drowning."
             ],
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "FOD"
+            ],
             "foundryActivities": [
                 {
                     "foundryId": "consumekelpbrittle",
@@ -7692,12 +7827,9 @@
                 "This magical book can be used to teach spells. The book is written in an encoded ink that prevents it from being copied, but a creature with the Spellcasting or Pact Magic feature can spend a week studying the book and make an Arcana check. At the end of this studying, if the Arcana check totals 15 x the spell's level (10 for a cantrip), you add the spell in the book to your spells list or spells known. Arcana checks over multiple weeks are added together until the total is reached. If the spell in the book is not usually on a creature’s spell list, the book is indecipherable for them.",
                 "Once used, the book crumbles to ash. A character can inscribe a spell on their spell list or known to them on a blank learner's tome by doing the same process of making an Arcana check and reaching the threshold of 15 x the spell’s level."
             ],
-            "customProperties": {
-                "arcanaThresholdPerLevel": 15,
-                "arcanaThresholdCantrip": 10,
-                "canTeachSpell": true,
-                "canInscribeSpell": true
-            }
+            "miscTags": [
+                "CNS"
+            ]
         },
         {
             "name": "Lemon Salt Crackers",
@@ -7712,6 +7844,10 @@
                 "<b>Effect:</b> You gain a +1 bonus to all Strength, Dexterity, and Constitution ability checks."
             ],
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "FOD"
+            ],
             "foundryActivities": [
                 {
                     "foundryId": "consumelemonsaltcrackers",
@@ -8173,6 +8309,9 @@
             "wondrous": true,
             "entries": [
                 "You can squeeze this medal tightly in the palm of your hand as an action. Doing so gives you advantage on Strength checks and Strength saving throws for 1 hour. Once this property has been used 3 times, it can't be used again, and the medal becomes nonmagical."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -8403,6 +8542,19 @@
             ]
         },
         {
+            "name": "Modifiable Scrap",
+            "source": "TftJC",
+            "rarity": "common",
+            "type": "WD",
+            "wondrous": true,
+            "entries": [
+                "One of these scraps can be spent when making a check to Build or Upgrade a Construct at the Construct Upgrade or Building facilities. When you do so, you gain a +10 bonus to the roll."
+            ],
+            "miscTags": [
+                "CNS"
+            ]
+        },
+        {
             "name": "Mooncloud Jelly",
             "source": "TftJC",
             "type": "FD",
@@ -8415,6 +8567,10 @@
                 "<b>Effect:</b> You have advantage on your next Strength, Dexterity, and Constitution saving throw."
             ],
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "FOD"
+            ],
             "foundryActivities": [
                 {
                     "foundryId": "consumemooncloudjelly",
@@ -8494,6 +8650,10 @@
                 "<b>Effect:</b> You gain a +1 bonus to all Intelligence, Charisma, or Wisdom ability checks."
             ],
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "FOD"
+            ],
             "foundryActivities": [
                 {
                     "foundryId": "consumemoonspringskittles",
@@ -8584,6 +8744,9 @@
                 "It can be read over 1 week to grant a creature an extra {@dice 2d4}’s to an Athletics or Acrobatics check made during downtime.",
                 "Alternatively, a creature reading it can instead read the book to increase their Barkeep, Dock Worker, General Laborer, Guard, or Instructor Wage Progression by 1",
                 "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -8598,6 +8761,9 @@
                 "It can be read over 1 week to grant a creature an extra {@dice 4d4}’s to an Athletics or Acrobatics check made during downtime.",
                 "Alternatively, a creature reading it can instead read the book to increase their Barkeep, Dock Worker, General Laborer, Guard, or Instructor Wage Progression by 2",
                 "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -8612,6 +8778,9 @@
                 "It can be read over 1 week to grant a creature an extra {@dice 7d4}’s to an Athletics or Acrobatics check made during downtime.",
                 "Alternatively, a creature reading it can instead read the book to increase their Barkeep, Dock Worker, General Laborer, Guard, or Instructor Wage Progression by 3",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -8626,6 +8795,9 @@
                 "It can be read over 1 week to grant a creature an extra {@dice 10d4}’s to an Athletics or Acrobatics check made during downtime.",
                 "Alternatively, a creature reading it can instead read the book to increase their Barkeep, Dock Worker, General Laborer, Guard, or Instructor Wage Progression by 4",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -8936,9 +9108,13 @@
             "type": "WD",
             "rarity": "very rare",
             "wondrous": true,
+            "charges": 2,
             "entries": [
                 "This book contains space for one to jot down their own notes. The book can be used to record ones thoughts for a total of 40 hours, after which the user can choose 1 skill or tool that they are proficient in and gain a permanent +1 to that skill.",
                 "Once used twice the book becomes non-magical."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -8973,6 +9149,9 @@
                 "It can be read over 1 week to grant a creature a {@dice 1d6} to one roll during their downtime.",
                 "Alternatively, a creature reading it can instead read the book to increase their Artist, Journalism, Performance, or Cook Wage Progression by 1",
                 "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -8987,6 +9166,9 @@
                 "It can be read over 1 week to grant a creature a {@dice 1d8} to one roll during their downtime",
                 "Alternatively, a creature reading it can instead read the book to increase their Artist, Journalism, Performance, or Cook Wage Progression by 2",
                 "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -9001,6 +9183,9 @@
                 "It can be read over 1 week to grant a creature a {@dice 1d10} to one roll during their downtime.",
                 "Alternatively, a creature reading it can instead read the book to increase their Artist, Journalism, Performance, or Cook Wage Progression by 3",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -9015,6 +9200,9 @@
                 "It can be read over 1 week to grant a creature a {@dice 1d12} to one roll during their downtime.",
                 "Alternatively, a creature reading it can instead read the book to increase their Artist, Journalism, Performance, or Cook Wage Progression by 4",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -9030,6 +9218,10 @@
                 "<b>Effect:</b> Whenever you make a Charisma check, treat a roll of 4 or lower on the d20 as a 5."
             ],
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "FOD"
+            ],
             "foundryActivities": [
                 {
                     "foundryId": "consumepinacolada",
@@ -9247,6 +9439,10 @@
             "source": "TftJC",
             "rarity": "common",
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "POTN"
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "potion",
@@ -9309,6 +9505,10 @@
             "source": "TftJC",
             "rarity": "uncommon",
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "POTN"
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "potion",
@@ -9371,6 +9571,10 @@
             "type": "P",
             "source": "TftJC",
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "POTN"
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "potion",
@@ -9435,6 +9639,10 @@
             "type": "P",
             "source": "TftJC",
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "POTN"
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "potion",
@@ -9498,6 +9706,10 @@
             "type": "P",
             "source": "TftJC",
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "POTN"
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "potion",
@@ -9568,6 +9780,10 @@
                 "<b>Effect:</b> You gain a +1 bonus to Charisma saves and can double your proficiency bonus to one Charisma checks. Once you double your proficiency bonus you lose all the bonuses of this meal."
             ],
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "FOD"
+            ],
             "foundryActivities": [
                 {
                     "foundryId": "consumepowderedbutterflywings",
@@ -9895,6 +10111,10 @@
                 "<b>Effect:</b> Gain a +1 bonus to all ability checks related to swimming or exploring underwater."
             ],
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "FOD"
+            ],
             "foundryActivities": [
                 {
                     "foundryId": "consumerainbowfillet",
@@ -10083,6 +10303,10 @@
             "source": "TftJC",
             "rarity": "common",
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "POTN"
+            ],
             "foundrySystem": {
                 "type": {
                     "value": "potion",
@@ -10468,6 +10692,10 @@
                 "<b>Effect:</b> When you travel you can travel 50% longer before suffering any ill effects."
             ],
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "FOD"
+            ],
             "foundryActivities": [
                 {
                     "foundryId": "consumeroadsyrup",
@@ -10534,6 +10762,10 @@
                 "<b>Effect:</b> Road Tack prepares eight meals worth. A character that eats Road Tack is filled for the day."
             ],
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "FOD"
+            ],
             "foundryActivities": [
                 {
                     "foundryId": "consumeroadtack",
@@ -11403,6 +11635,21 @@
             ]
         },
         {
+            "name": "Stone of Gambler's Fortune",
+            "source": "TftJC",
+            "rarity": "common",
+            "type": "WD",
+            "wondrous": true,
+            "entries": [
+                "These polished pebbles contain magic to aid in one's ability to play games of chance.",
+                "When you would roll a d20 for a Gaming Set Check, you can palm a pebble. You can either choose to reroll your check, reroll your opponents check, or to reroll any one set of rolls made as a part of gambling.",
+                "The pebble is then consumed."
+            ],
+            "miscTags": [
+                "CNS"
+            ]
+        },
+        {
             "name": "Storming Orb",
             "source": "TftJC",
             "rarity": "none",
@@ -11467,6 +11714,10 @@
                 "<b>Effect:</b> Can only be fed to a creature with an intelligence of 3 or lower. When fed as an action it gives them disadvantage on checks to resist being charmed. When used in downtime, it grants a +1 bonus to the taming/training roll."
             ],
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "FOD"
+            ],
             "foundryActivities": [
                 {
                     "foundryId": "consumetamersfeed",
@@ -11828,6 +12079,9 @@
                 "It can be read over 1 week to reduce the heat of a creature to 0 or reduce a buildings heat by 3. Additionally it can be read to gain a +1 bonus to on roll to avoid gaining heat. ",
                 "Alternatively, a creature reading it can instead read the book to increase their Theft, Forger, Spy, or Gambling Wage Progression by 1.",
                 "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -11842,6 +12096,9 @@
                 "It can be read over 1 week to reduce the heat of a creature to 0 or reduce a buildings heat by 3. Additionally it can be read to gain a +3 bonus to on roll to avoid gaining heat. ",
                 "Alternatively, a creature reading it can instead read the book to increase their Theft, Forger, Spy, or Gambling Wage Progression by 2.",
                 "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -11856,6 +12113,9 @@
                 "It can be read over 1 week to reduce the heat of a creature to 0 or reduce a buildings heat by 3. Additionally it can be read to gain a +5 bonus to on roll to avoid gaining heat. ",
                 "Alternatively, a creature reading it can instead read the book to increase their Theft, Forger, Spy, or Gambling Wage Progression by 3.",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -11870,6 +12130,9 @@
                 "It can be read over 1 week to reduce the heat of a creature to 0 or reduce a buildings heat by 3. Additionally it can be read to gain a +7 bonus to on roll to avoid gaining heat. ",
                 "Alternatively, a creature reading it can instead read the book to increase their Theft, Forger, Spy, or Gambling Wage Progression by 4.",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -11988,6 +12251,9 @@
                 "It can be read over 1 week to gain +10 towards any tool check made in downtime.",
                 "Alternatively, a creature reading it can instead read the book to increase their Carpentry, Sculptor, Smith, Teacher, or Tinkerer Wage Progression by 1",
                 "Once this book has been used in this way 2 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -12002,6 +12268,9 @@
                 "It can be read over 1 week to gain +15 towards any tool check made in downtime.",
                 "Alternatively, a creature reading it can instead read the book to increase their Carpentry, Sculptor, Smith, Teacher, or Tinkerer Wage Progression by 2",
                 "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -12016,6 +12285,9 @@
                 "It can be read over 1 week to gain +20 towards any tool check made in downtime.",
                 "Alternatively, a creature reading it can instead read the book to increase their Carpentry, Sculptor, Smith, Teacher, or Tinkerer Wage Progression by 3",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -12030,6 +12302,9 @@
                 "It can be read over 1 week to gain +25 towards any tool check made in downtime.",
                 "Alternatively, a creature reading it can instead read the book to increase their Carpentry, Sculptor, Smith, Teacher, or Tinkerer Wage Progression by 4",
                 "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -12147,6 +12422,9 @@
             "entries": [
                 "This book contains space for one to jot down their own notes. The book can be used to record ones thoughts for a total of 40 hours, after which the user can choose 1 skill or tool that they are proficient in and gain a permanent +1 to that skill.",
                 "Once used the book becomes non-magical."
+            ],
+            "miscTags": [
+                "CNS"
             ]
         },
         {
@@ -12456,7 +12734,8 @@
             },
             "bonusAc": 2,
             "charges": 1,
-            "recharge": "restShort",
+            "recharge": "restLong",
+            "rechargeAmount": 1,
             "attunement": true,
             "entries": [
                 "This massive set of Platemail contains bulky shoulder plates that attach directly onto a helm that fully covers the face.",
@@ -12799,6 +13078,10 @@
                 "<b>Effect:</b> Must be eaten with another meal, grants both its effect and the other meals effects. When consumed you gain one use of a Legendary resistance."
             ],
             "foundryType": "consumable",
+            "miscTags": [
+                "CNS",
+                "FOD"
+            ],
             "foundryActivities": [
                 {
                     "foundryId": "consumeyushantissecretsauce",

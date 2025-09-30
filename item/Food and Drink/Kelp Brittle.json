@@ -11,6 +11,7 @@
     "<b>Effect:</b> Triples the duration you can remain underwater before you begin drowning."
   ],
   "foundryType": "consumable",
+  "miscTags": ["CNS", "FOD"],
   "foundryActivities": [
     {
       "foundryId": "consumekelpbrittle",

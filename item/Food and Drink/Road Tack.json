@@ -11,6 +11,7 @@
     "<b>Effect:</b> Road Tack prepares eight meals worth. A character that eats Road Tack is filled for the day."
   ],
   "foundryType": "consumable",
+  "miscTags": ["CNS", "FOD"],
   "foundryActivities": [
     {
       "foundryId": "consumeroadtack",

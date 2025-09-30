@@ -3,6 +3,7 @@
   "rarity": "rare",
   "type": "P",
   "source": "TftJC",
+  "miscTags": ["CNS", "POTN"],
   "foundryType": "consumable",
   "foundrySystem": {
     "type": {

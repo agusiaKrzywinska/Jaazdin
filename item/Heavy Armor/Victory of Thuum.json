@@ -17,7 +17,8 @@
   },
   "bonusAc": 2,
   "charges": 1,
-  "recharge": "restShort",
+  "recharge": "restLong",
+  "rechargeAmount": 1,
   "attunement": true,
   "entries": [
     "This massive set of Platemail contains bulky shoulder plates that attach directly onto a helm that fully covers the face.",

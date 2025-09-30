@@ -512,6 +512,63 @@ Example custom ammunition container:
 }
 ```
 
+## Miscellaneous Tags (`miscTags`)
+
+The `miscTags` property is an array of short codes used to categorize items for filtering, sorting, or special handling in 5eTools.  
+Each tag represents a specific property, rule, or behavior.
+
+### Supported Tags
+
+| Tag    | Meaning / Usage                      |
+| ------ | ------------------------------------ |
+| ABP    | Attunement by Proficiency            |
+| AMM    | Ammunition                           |
+| ART    | Artisan Tool                         |
+| BAG    | Bag of Holding                       |
+| BLK    | Black Powder                         |
+| BLD    | Blade                                |
+| BOW    | Bow                                  |
+| CNS    | Consumable (item is consumed on use) |
+| CURS   | Cursed item                          |
+| DRK    | Drink                                |
+| DRU    | Druidic                              |
+| FAM    | Familiar item                        |
+| FOD    | Food                                 |
+| HOLY   | Holy item                            |
+| INSTR  | Musical instrument                   |
+| KIT    | Tool kit                             |
+| LGT    | Light source                         |
+| LOCK   | Lock item                            |
+| MAG    | Magical item                         |
+| MISC   | Miscellaneous                        |
+| MWK    | Masterwork item                      |
+| PET    | Pet item                             |
+| POIS   | Poison                               |
+| POTN   | Potion                               |
+| RCH    | Requires attunement                  |
+| RLD    | Reload (item must be reloaded)       |
+| SCROLL | Scroll                               |
+| SENT   | Sentient item                        |
+| SHLD   | Shield                               |
+| SIL    | Silvered item                        |
+| THR    | Throwable item                       |
+| VEH    | Vehicle                              |
+| WEAP   | Weapon                               |
+| WOND   | Wondrous item                        |
+
+> **Note:**  
+> The full list of supported tags is defined in the [5eTools homebrew schema](https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json).  
+> Use tags that match your item's properties for best compatibility.
+
+### Example Usage
+
+```json
+{
+  "name": "Potion of Healing",
+  "miscTags": ["CNS", "POTN"]
+}
+```
+
 ## Best Practices
 
 1. **Clear Descriptions**: Write item descriptions that clearly explain mechanics and flavor

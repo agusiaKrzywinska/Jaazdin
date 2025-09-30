@@ -11,6 +11,7 @@
     "<b>Effect:</b> Gain a +1 bonus to all ability checks related to swimming or exploring underwater."
   ],
   "foundryType": "consumable",
+  "miscTags": ["CNS", "FOD"],
   "foundryActivities": [
     {
       "foundryId": "consumerainbowfillet",

@@ -11,6 +11,7 @@
     "<b>Effect:</b> You ignore one level of exhaustion but cannot benefit from a short or long rest for the next 8 hours."
   ],
   "foundryType": "consumable",
+  "miscTags": ["CNS", "FOD"],
   "foundryActivities": [
     {
       "foundryId": "consumecoffee",

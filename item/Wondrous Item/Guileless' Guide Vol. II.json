@@ -10,5 +10,6 @@
     "It can be read over 1 week to grant a creature a 10% discount to one purchase in downtime, provided it is an object of the same or lower rarity as this tome.",
     "Alternatively, a creature reading it can instead read the book to increase their Franchiser, General Store, Priest, Stablehand, or Tour Guide Wage Progression by 2.",
     "Once this book has been used in this way 3 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
-  ]
+  ],
+  "miscTags": ["CNS"]
 }
