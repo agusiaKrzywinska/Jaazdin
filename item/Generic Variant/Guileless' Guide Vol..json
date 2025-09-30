@@ -1,5 +1,5 @@
 {
-  "name": "Guileless’ Guide Vol.",
+  "name": "Guileless' Guide Vol.",
   "source": "TftJC",
   "rarity": "varies",
   "wondrous": true,
@@ -10,10 +10,10 @@
     {
       "type": "list",
       "items": [
-        "{@item Guileless’ Guide Vol. I|TftJC}",
-        "{@item Guileless’ Guide Vol. II|TftJC}",
-        "{@item Guileless’ Guide Vol. III|TftJC}",
-        "{@item Guileless’ Guide Vol. IV|TftJC}"
+        "{@item Guileless' Guide Vol. I|TftJC}",
+        "{@item Guileless' Guide Vol. II|TftJC}",
+        "{@item Guileless' Guide Vol. III|TftJC}",
+        "{@item Guileless' Guide Vol. IV|TftJC}"
       ]
     }
   ]

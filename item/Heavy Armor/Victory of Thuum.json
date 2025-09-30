@@ -1,0 +1,29 @@
+{
+  "name": "Victory of Thuum",
+  "source": "TftJC",
+  "rarity": "artifact",
+  "baseItem": "Titanic Platemail|TftJC",
+  "type": "HA",
+  "ac": 20,
+  "weight": 120,
+  "modifySpeed": {
+    "bonus": {
+      "walk": -5
+    }
+  },
+  "strength": 17,
+  "ability": {
+    "dex": -2
+  },
+  "bonusAc": 2,
+  "charges": 1,
+  "recharge": "restShort",
+  "attunement": true,
+  "entries": [
+    "This massive set of Platemail contains bulky shoulder plates that attach directly onto a helm that fully covers the face.",
+    "This also lowers your walking speed by 5, and your Dexterity score by 2.",
+    "This set of Titanic Platemail has been enchanted with the unbreakable will of Thuum, servant of Alsorn. You have a +2 bonus to AC while wearing this armor. The eyes of this armor always glow with a deep red light, granting you advantage on Intimidation checks while wearing it.",
+    "As an action while wearing this armor, you can cause the armor to grow. Your size increases to Large and you gain advantage on all Strength checks and saving throws while you are Large from this armor. This bonus lasts for 1 hour or until you use a bonus action to turn it off. Once you use this ability, it cannot be used until you finish a long rest.",
+    "Orion is a deadly duelist, quick and strong wielding a great sword and heavy shield. His horns have both been replaced with crystals, granting him supernatural defenses."
+  ]
+}
