@@ -1,0 +1,24 @@
+{
+  "name": "Amulet of the Elemental Adept",
+  "source": "TftJC",
+  "rarity": "very rare",
+  "wondrous": true,
+  "reqAttune": "by a creature with spellcasting that uses their Charisma",
+  "entries": [
+    "This amulet is inset with four gems, ruby, sapphire, diamond, and opal. One gem always softly glows in an inner light. While illuminated each gem confers power to the user. While the ruby is illuminated your fire damage ignores resistance and you can cast {@spell burning hands|PHB}. While the sapphire is illuminated your cold damage ignores resistance and you can cast {@spell ice knife|XGE}. While the diamond is illuminated your force damage ignores resistance and you can cast {@spell zephyr strike|XGE}. While the opal is illuminated your bludgeoning damage ignores resistances and you can cast {@spell earth tremor|XGE}.",
+    "Each time you cast a spell from the amulet the illuminated gem changes, following this order Opal->Ruby->Sapphire->Diamond. Once a gems power has been used it cannot be used again until you finish a long rest.",
+    "When all 4 gems are exhausted the amulet itself begins to glow. While in this state you have resistance to fire, cold, force, and bludgeoning damage. This state lasts for one minute before the amulet becomes unusable until the gems are recharged. When this state is activated, the wearing must make a DC 18 Wisdom saving throw or become possessed by the spirit of Vestkarl Thunderlance, a chaotic evil druid.",
+    "Each night, roll {@dice 1d4}, this determines the starting gem for that day:",
+    {
+      "type": "list",
+      "style": "list-decimal",
+      "items": ["Ruby", "Sapphire", "Diamond", "Opal"]
+    }
+  ],
+  "attachedSpells": [
+    "burning hands",
+    "ice knife|XGE",
+    "zephyr strike|XGE",
+    "earth tremor|XGE"
+  ]
+}

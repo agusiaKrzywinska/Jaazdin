@@ -1,0 +1,26 @@
+{
+  "name": "Tricorne of the Seadog",
+  "rarity": "rare",
+  "reqAttune": true,
+  "source": "TftJC",
+  "entries": [
+    "This Tricorne is filled with the strange magic that empowers the monstrous Pirates of the Western Sea. While wearing it, you gain the following effects:",
+    {
+      "type": "list",
+      "items": [
+        "You have a knack for treasure and coin, granting advantage on any checks to determine the value of an item.",
+        "You have advantage on saving throws against being forcibly moved or knocked prone while on the deck of a ship, and are immune to sea sickness.",
+        "Once per week, you can invoke the powers of the Tricorne to summon an undead crew of Pirates. 4 Skeletons wearing pirate garb appear within unoccupied spaces within 10ft of you, are friendly to you and follow your commands. They last for 10 minutes, or until they drop to 0 hit points. They require no corpse or skeleton to summon, and leave no trace that they were ever here once they are gone."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Curse - Part of the Crew",
+      "entries": [
+        "You cannot remove the Tricorne willingly. This effect can be temporarily removed by casting {@spell remove curse} on it, returning after wearing it again.",
+        "While cursed, when seeing gold or gemstones worth more than 1000GP, you must make a DC 15 Charisma saving throw or become {@condition charmed} by it. The charm lasts for 1 hour after it leaves your sight. While charmed, you think only how you can take it and that you must have it. The charm can also end once you successfully claim the gold or gems.",
+        "You speak in a pirate accent, and commonly use words like 'Scallywag', 'Ahoy', 'Booty', etc."
+      ]
+    }
+  ]
+}

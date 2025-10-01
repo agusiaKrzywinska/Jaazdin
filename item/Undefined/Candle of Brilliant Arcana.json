@@ -1,0 +1,10 @@
+{
+  "name": "Candle of Brilliant Arcana",
+  "source": "TftJC",
+  "rarity": "common",
+  "wondrous": true,
+  "entries": [
+    "These candles hold a powerful magical charge. When a magic item within 30ft of a candle uses a charge, you can have the candles restore its power. It regains an expended charge or use. After it has done so, the candle loses its magical ability."
+  ],
+  "miscTags": ["CNS"]
+}

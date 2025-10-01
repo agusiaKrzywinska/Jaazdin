@@ -1,0 +1,11 @@
+{
+  "name": "Learner’s Tome",
+  "rarity": "uncommon",
+  "wondrous": true,
+  "source": "TftJC",
+  "entries": [
+    "This magical book can be used to teach spells. The book is written in an encoded ink that prevents it from being copied, but a creature with the Spellcasting or Pact Magic feature can spend a week studying the book and make an Arcana check. At the end of this studying, if the Arcana check totals 15 x the spell's level (10 for a cantrip), you add the spell in the book to your spells list or spells known. Arcana checks over multiple weeks are added together until the total is reached. If the spell in the book is not usually on a creature’s spell list, the book is indecipherable for them.",
+    "Once used, the book crumbles to ash. A character can inscribe a spell on their spell list or known to them on a blank learner's tome by doing the same process of making an Arcana check and reaching the threshold of 15 x the spell’s level."
+  ],
+  "miscTags": ["CNS"]
+}

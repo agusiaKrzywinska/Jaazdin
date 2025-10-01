@@ -1,0 +1,9 @@
+{
+  "name": "Mask of the Bovine",
+  "rarity": "uncommon",
+  "wondrous": true,
+  "source": "TftJC",
+  "entries": [
+    "While wearing this mask you have advantage on all charisma checks against bovine creatures, including minotaurs."
+  ]
+}

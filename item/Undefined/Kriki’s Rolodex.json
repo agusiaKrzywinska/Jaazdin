@@ -1,0 +1,16 @@
+{
+  "name": "Kriki’s Rolodex",
+  "rarity": "rare",
+  "wondrous": true,
+  "reqAttune": true,
+  "source": "TftJC",
+  "entries": [
+    "This simple mirrored watch can be used to capture and replicate the image of others. As an action the wielder can open this mirror and use it to alter their body, taking on the complete appearance of someone else. The form they take must be one that is stored inside the rolodex, which can hold up to five images at a time.",
+    "An image can be added to the mirror by having an intended target look into the mirror for at least 6 seconds. Once they do so, their image is stored inside the mirror and the user can take on their shape. The mirror perfectly replicates the person it has copied, making the user appear as the target, including altering perceived height and weight, as long as they are of the same size, if they are not the transformation fails.",
+    "Noticing the illusion requires a DC 20 Investigation check, in which case the creature notices something is off about the disguised person, but still does not see through the illusion."
+  ],
+  "customProperties": {
+    "maxImages": 5,
+    "investigationDC": 20
+  }
+}

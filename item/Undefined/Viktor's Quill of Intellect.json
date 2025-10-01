@@ -1,0 +1,10 @@
+{
+  "name": "Viktor's Quill of Intellect",
+  "rarity": "artifact",
+  "wondrous": true,
+  "source": "TftJC",
+  "entries": [
+    "This magical quill contains the ability to condense the learned experience of the most intelligent individuals. If a creature with 17 or more intelligence uses the quill to sign their name, the book receives an amount of their intellect. Upon reaching 20 signatures, the tome can be transformed into a Tome of Clear Thought with Viktor's assistance.",
+    "Only signatures from those who have access to knowledge that is not modernly available can sign the book for it to count towards the total needed."
+  ]
+}

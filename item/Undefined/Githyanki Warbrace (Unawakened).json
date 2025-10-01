@@ -1,0 +1,23 @@
+{
+  "name": "Githyanki Warbrace (Unawakened)",
+  "source": "TftJC",
+  "rarity": "rare",
+  "reqAttune": "by a creature with Intelligence, Wisdom, or Charisma greater than or equal to 15",
+  "wondrous": true,
+  "charges": 3,
+  "entries": [
+    "The brace can be activated in this way 3 times and you regain 1 use per long rest. You cannot end this effect early.",
+    "As an action, you can activate this brace and gain the following benefits: ",
+    {
+      "type": "list",
+      "style": "list-hang",
+      "items": [
+        "Your walking speed increases by 10 feet",
+        "You gain advantage on Acrobatics Checks"
+      ]
+    },
+    "The brace can be activated in this way 3 times and you regain 1 use per long rest. You cannot end this effect early.",
+    "If the attuning creature has access to Psionic Energy Dice, the Telekinetic Feat, or the Telepathic Feat, they gain access to the following ability:",
+    "Astral Blade: When you attack with a weapon while the Warbrace is active, your attacks are considered magical and can add 1d8 Force damage once per turn."
+  ]
+}

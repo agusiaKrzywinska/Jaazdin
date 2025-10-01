@@ -1,0 +1,14 @@
+{
+  "name": "Muscle Magazine Vol. IV",
+  "source": "TftJC",
+  "rarity": "legendary",
+  "wondrous": true,
+  "charges": 4,
+  "entries": [
+    "This tome contains tips, tricks, and hacks for improving ones body and physical form.",
+    "It can be read over 1 week to grant a creature an extra {@dice 10d4}’s to an Athletics or Acrobatics check made during downtime.",
+    "Alternatively, a creature reading it can instead read the book to increase their Barkeep, Dock Worker, General Laborer, Guard, or Instructor Wage Progression by 4",
+    "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+  ],
+  "miscTags": ["CNS"]
+}

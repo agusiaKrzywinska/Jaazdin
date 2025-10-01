@@ -15,12 +15,12 @@
                     "Adam Henderson",
                     "Malcolm Keefe"
                 ],
-                "version": "0.4.12"
+                "version": "0.4.13"
             }
         ],
         "edition": "classic",
         "dateAdded": 0,
-        "dateLastModified": 1759234988,
+        "dateLastModified": 1759330068,
         "optionalFeatureTypes": {
             "FS:W": "Fighting Style: Warden",
             "TECH": "Technique",
@@ -1874,7 +1874,6 @@
         },
         {
             "name": "Adaptive Core",
-            "type": "WD",
             "rarity": "varies",
             "wondrous": true,
             "reqAttune": "by a Construct, Autognome, Warforged or Modron",
@@ -1994,7 +1993,6 @@
         {
             "name": "Amulet of Average",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "uncommon",
             "wondrous": true,
             "curse": true,
@@ -2009,7 +2007,6 @@
         {
             "name": "Amulet of the Elemental Adept",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "very rare",
             "wondrous": true,
             "reqAttune": "by a creature with spellcasting that uses their Charisma",
@@ -2039,7 +2036,6 @@
         {
             "name": "Amulet of the Elemental Knights",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "reqAttune": true,
@@ -2051,7 +2047,6 @@
         {
             "name": "Anchor of the Deep",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "artifact",
             "wondrous": true,
             "reqAttune": true,
@@ -2338,7 +2333,6 @@
         },
         {
             "name": "Bands of Divine Duty",
-            "type": "WD",
             "rarity": "artifact",
             "wondrous": true,
             "reqAttune": "by a faithful of Helm",
@@ -2378,7 +2372,6 @@
         {
             "name": "Banner of Lathander",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "reqAttune": true,
@@ -2831,7 +2824,6 @@
         {
             "name": "Bonetooth Necklace",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "very rare",
             "wondrous": true,
             "entries": [
@@ -2872,7 +2864,6 @@
         },
         {
             "name": "Brace of the Ouroboros",
-            "type": "WD",
             "source": "TftJC",
             "rarity": "very rare",
             "reqAttune": "by a creature with Intelligence, Wisdom, or Charisma greater than or equal to 15",
@@ -2955,7 +2946,6 @@
         {
             "name": "Breath Stone (legendary)",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "legendary",
             "wondrous": true,
             "entries": [
@@ -3037,7 +3027,6 @@
         {
             "name": "Breath Stone (rare)",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "entries": [
@@ -3119,7 +3108,6 @@
         {
             "name": "Breath Stone (uncommon)",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "uncommon",
             "wondrous": true,
             "entries": [
@@ -3201,7 +3189,6 @@
         {
             "name": "Breath Stone (very rare)",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "very rare",
             "wondrous": true,
             "entries": [
@@ -3342,7 +3329,6 @@
         },
         {
             "name": "Butterflyfish Scale",
-            "type": "WD",
             "rarity": "very rare",
             "wondrous": true,
             "source": "TftJC",
@@ -3395,7 +3381,6 @@
         {
             "name": "Candle of Brilliant Arcana",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "common",
             "wondrous": true,
             "entries": [
@@ -3408,7 +3393,6 @@
         {
             "name": "Cape of Monologuing",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "legendary",
             "wondrous": true,
             "entries": [
@@ -3740,7 +3724,6 @@
         },
         {
             "name": "Circlet of Tyranny",
-            "type": "WD",
             "rarity": "artifact",
             "wondrous": true,
             "reqAttune": true,
@@ -3790,7 +3773,6 @@
         {
             "name": "Claws of the Blue Dragon",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "uncommon",
             "wondrous": true,
             "reqAttune": "by a spellcaster",
@@ -3811,7 +3793,6 @@
         {
             "name": "Claws of the Green Wyrmling",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "uncommon",
             "wondrous": true,
             "reqAttune": "by a spellcaster",
@@ -4047,7 +4028,6 @@
             "rarity": "artifact",
             "reqAttune": true,
             "source": "TftJC",
-            "type": "WD",
             "entries": [
                 "This dodecahedron is structured with a metal frame that houses a fragment of The Hungry Star.",
                 "While little is known of the entity, it is said that The Hungry Star is merely a fragment of an ancient being that resides in the Far Realms that seeks to consume all of reality.",
@@ -4333,7 +4313,6 @@
         {
             "name": "Crown of Crimson",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "artifact",
             "wondrous": true,
             "reqAttune": "by a creature with spellcasting that uses their Charisma",
@@ -4349,7 +4328,6 @@
         {
             "name": "Crown of Sun Peak",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "reqAttune": "by a spellcaster",
@@ -4367,7 +4345,6 @@
         {
             "name": "Crown of the Everknowing",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "artifact",
             "wondrous": true,
             "curse": true,
@@ -4416,7 +4393,6 @@
         {
             "name": "Cursed Catalyst",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "very rare",
             "wondrous": true,
             "reqAttune": true,
@@ -4588,7 +4564,6 @@
         {
             "name": "Deneith Cave Gemstone Fragment",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "uncommon",
             "recharge": "dawn",
             "charges": "1",
@@ -4647,7 +4622,6 @@
         {
             "name": "Deneith Oasis Gemstone Fragment",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "uncommon",
             "recharge": "dawn",
             "charges": "1",
@@ -4825,7 +4799,6 @@
         {
             "name": "Docent (Combat Morph)",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "reqAttune": "by a warforged",
             "reqAttuneTags": [
@@ -5066,7 +5039,6 @@
         },
         {
             "name": "Driver Modification - Perfected Projection",
-            "type": "WD",
             "rarity": "very rare",
             "wondrous": true,
             "reqAttune": true,
@@ -5077,7 +5049,6 @@
         },
         {
             "name": "Driver Modification - Wild Weave",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "reqAttune": true,
@@ -5165,7 +5136,6 @@
         {
             "name": "Egg of Seeking",
             "rarity": "rare",
-            "type": "WD",
             "wondrous": true,
             "source": "TftJC",
             "entries": [
@@ -5181,7 +5151,6 @@
         {
             "name": "Electrolysis Orb",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "legendary",
             "reqAttune": "Spellcaster that can cast 5th level spells or higher",
             "wondrous": true,
@@ -5257,7 +5226,6 @@
         {
             "name": "Enchanting Catalogue Vol. I",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "uncommon",
             "wondrous": true,
             "charges": 2,
@@ -5274,7 +5242,6 @@
         {
             "name": "Enchanting Catalogue Vol. II",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "charges": 3,
@@ -5291,7 +5258,6 @@
         {
             "name": "Enchanting Catalogue Vol. III",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "very rare",
             "wondrous": true,
             "charges": 4,
@@ -5308,7 +5274,6 @@
         {
             "name": "Enchanting Catalogue Vol. IV",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "legendary",
             "wondrous": true,
             "charges": 4,
@@ -5325,7 +5290,6 @@
         {
             "name": "Encyclopedia of Art, Music and Literature",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "uncommon",
             "wondrous": true,
             "entries": [
@@ -5335,7 +5299,6 @@
         {
             "name": "Encyclopedia of Combat and War",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "uncommon",
             "wondrous": true,
             "entries": [
@@ -5345,7 +5308,6 @@
         {
             "name": "Encyclopedia of Inventions and Technology",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "uncommon",
             "wondrous": true,
             "entries": [
@@ -5355,7 +5317,6 @@
         {
             "name": "Encyclopedia of Social Culture",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "uncommon",
             "wondrous": true,
             "entries": [
@@ -5365,7 +5326,6 @@
         {
             "name": "Encyclopedia of the Lands and History",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "uncommon",
             "wondrous": true,
             "entries": [
@@ -5374,7 +5334,6 @@
         },
         {
             "name": "Endless Beginnings",
-            "type": "WD",
             "source": "TftJC",
             "rarity": "very rare",
             "reqAttune": "by a creature with Intelligence, Wisdom, or Charisma greater than or equal to 15",
@@ -5403,7 +5362,6 @@
         {
             "name": "Energy Driver",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "uncommon",
             "reqAttune": true,
             "entries": [
@@ -5665,7 +5623,6 @@
         {
             "name": "Eye of the Tempest",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "artifact",
             "wondrous": true,
             "curse": true,
@@ -5680,7 +5637,6 @@
             "name": "Fate Coin",
             "rarity": "rare",
             "source": "TftJC",
-            "type": "WD",
             "wondrous": true,
             "entries": [
                 "As a reaction you can flip this coin into the air and place your fate in its hands. Roll {@dice 1d2}.",
@@ -5737,7 +5693,6 @@
         {
             "name": "Figurine of Wondrous Knowledge (Onyxphire Crow)",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "very rare",
             "baseItem": "Figurine of Wondrous Power|DMG",
             "wondrous": true,
@@ -6041,7 +5996,6 @@
         {
             "name": "Future of Chromaticism Dragon Masks",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "legendary",
             "reqAttune": true,
             "entries": [
@@ -6060,7 +6014,6 @@
         {
             "name": "Gauntlets of the Frigid North",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "reqAttune": true,
@@ -6190,7 +6143,6 @@
         {
             "name": "Githyanki Warbrace (Astral Dragon)",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "very rare",
             "reqAttune": "by a creature with Intelligence, Wisdom, or Charisma greater than or equal to 15",
             "wondrous": true,
@@ -6219,7 +6171,6 @@
         {
             "name": "Githyanki Warbrace (Unawakened)",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "reqAttune": "by a creature with Intelligence, Wisdom, or Charisma greater than or equal to 15",
             "wondrous": true,
@@ -6432,7 +6383,6 @@
         {
             "name": "Grand Intelligence Mutagen",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "very rare",
             "wondrous": true,
             "curse": true,
@@ -6534,7 +6484,6 @@
         },
         {
             "name": "Guileless' Guide Vol. I",
-            "type": "WD",
             "source": "TftJC",
             "rarity": "uncommon",
             "wondrous": true,
@@ -6551,7 +6500,6 @@
         },
         {
             "name": "Guileless' Guide Vol. II",
-            "type": "WD",
             "source": "TftJC",
             "rarity": "rare",
             "wondrous": true,
@@ -6568,7 +6516,6 @@
         },
         {
             "name": "Guileless' Guide Vol. III",
-            "type": "WD",
             "source": "TftJC",
             "rarity": "very rare",
             "wondrous": true,
@@ -6585,7 +6532,6 @@
         },
         {
             "name": "Guileless' Guide Vol. IV",
-            "type": "WD",
             "source": "TftJC",
             "rarity": "legendary",
             "wondrous": true,
@@ -6951,7 +6897,6 @@
         {
             "name": "Heart of Ice",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "legendary",
             "wondrous": true,
             "reqAttune": true,
@@ -6964,7 +6909,6 @@
         {
             "name": "Heart of the Empire",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "artifact",
             "wondrous": true,
             "curse": true,
@@ -7083,7 +7027,6 @@
         {
             "name": "Herbalist Helper Vol. I",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "uncommon",
             "wondrous": true,
             "charges": 2,
@@ -7100,7 +7043,6 @@
         {
             "name": "Herbalist Helper Vol. II",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "charges": 3,
@@ -7117,7 +7059,6 @@
         {
             "name": "Herbalist Helper Vol. III",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "very rare",
             "wondrous": true,
             "charges": 4,
@@ -7134,7 +7075,6 @@
         {
             "name": "Herbalist Helper Vol. IV",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "legendary",
             "wondrous": true,
             "charges": 4,
@@ -7256,7 +7196,6 @@
         {
             "name": "Horns of Orion",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "artifact",
             "wondrous": true,
             "reqAttune": true,
@@ -7780,7 +7719,6 @@
         },
         {
             "name": "Kriki’s Rolodex",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "reqAttune": true,
@@ -7819,7 +7757,6 @@
         },
         {
             "name": "Learner’s Tome",
-            "type": "WD",
             "rarity": "uncommon",
             "wondrous": true,
             "source": "TftJC",
@@ -8037,7 +7974,6 @@
         {
             "name": "Locket of Warding",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "reqAttune": true,
@@ -8111,7 +8047,6 @@
         },
         {
             "name": "Lysander's Coil",
-            "type": "WD",
             "rarity": "legendary",
             "wondrous": true,
             "reqAttune": "special",
@@ -8274,7 +8209,6 @@
         },
         {
             "name": "Mask of the Bovine",
-            "type": "WD",
             "rarity": "uncommon",
             "wondrous": true,
             "source": "TftJC",
@@ -8303,7 +8237,6 @@
         {
             "name": "Medal of Muscle (Uncommon)",
             "source": "TftJC",
-            "type": "WD",
             "charges": 3,
             "rarity": "uncommon",
             "wondrous": true,
@@ -8401,7 +8334,6 @@
         {
             "name": "Mere'su'ra Puzzle Box",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "weight": 3,
@@ -8545,7 +8477,6 @@
             "name": "Modifiable Scrap",
             "source": "TftJC",
             "rarity": "common",
-            "type": "WD",
             "wondrous": true,
             "entries": [
                 "One of these scraps can be spent when making a check to Build or Upgrade a Construct at the Construct Upgrade or Building facilities. When you do so, you gain a +10 bonus to the roll."
@@ -8627,7 +8558,6 @@
         {
             "name": "Moonlight Pendant",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "reqAttune": "by a creature with Lycanthropy",
@@ -8735,7 +8665,6 @@
         {
             "name": "Muscle Magazine Vol. I",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "uncommon",
             "wondrous": true,
             "charges": 2,
@@ -8752,7 +8681,6 @@
         {
             "name": "Muscle Magazine Vol. II",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "charges": 3,
@@ -8769,7 +8697,6 @@
         {
             "name": "Muscle Magazine Vol. III",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "very rare",
             "wondrous": true,
             "charges": 4,
@@ -8786,7 +8713,6 @@
         {
             "name": "Muscle Magazine Vol. IV",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "legendary",
             "wondrous": true,
             "charges": 4,
@@ -9022,7 +8948,6 @@
         },
         {
             "name": "Orb of Elvanius",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "source": "TftJC",
@@ -9105,7 +9030,6 @@
         {
             "name": "Penman's Encyclopedia",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "very rare",
             "wondrous": true,
             "charges": 2,
@@ -9139,7 +9063,6 @@
         },
         {
             "name": "Performer's Companion Vol. I",
-            "type": "WD",
             "source": "TftJC",
             "rarity": "uncommon",
             "wondrous": true,
@@ -9156,7 +9079,6 @@
         },
         {
             "name": "Performer's Companion Vol. II",
-            "type": "WD",
             "source": "TftJC",
             "rarity": "rare",
             "wondrous": true,
@@ -9173,7 +9095,6 @@
         },
         {
             "name": "Performer's Companion Vol. III",
-            "type": "WD",
             "source": "TftJC",
             "rarity": "very rare",
             "wondrous": true,
@@ -9190,7 +9111,6 @@
         },
         {
             "name": "Performer's Companion Vol. IV",
-            "type": "WD",
             "source": "TftJC",
             "rarity": "legendary",
             "wondrous": true,
@@ -9330,7 +9250,6 @@
         {
             "name": "Plate of Heating and Cooling",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "common",
             "wondrous": true,
             "entries": [
@@ -9840,7 +9759,6 @@
         {
             "name": "Prism of the Moon",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "charges": "7",
@@ -9950,7 +9868,6 @@
         {
             "name": "Propeller Hat",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "common",
             "wondrous": true,
             "entries": [
@@ -9960,7 +9877,6 @@
         {
             "name": "Puck",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "common",
             "wondrous": true,
             "entries": [
@@ -10031,7 +9947,6 @@
         {
             "name": "Puzzler's Conchs",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "charges": 3,
@@ -10386,7 +10301,6 @@
         {
             "name": "Ribbon of Return",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "reqAttune": true,
@@ -10421,7 +10335,6 @@
         {
             "name": "Riftgem (Feywilds)",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "very rare",
             "wondrous": true,
             "reqAttune": true,
@@ -10652,7 +10565,6 @@
         {
             "name": "Riftgem (Plane of Fire)",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "very rare",
             "reqAttune": true,
             "wondrous": true,
@@ -10948,7 +10860,6 @@
         {
             "name": "Sanguinity",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "very rare",
             "wondrous": true,
             "curse": true,
@@ -10975,7 +10886,6 @@
         {
             "name": "Sash of Doluna",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "legendary",
             "wondrous": true,
             "curse": true,
@@ -11082,7 +10992,6 @@
         {
             "name": "Sending Stones (Rare)",
             "source": "TftJC",
-            "type": "WD",
             "charges": 3,
             "recharge": "dawn",
             "rechargeAmount": 3,
@@ -11100,7 +11009,6 @@
         },
         {
             "name": "Shackles of Cavalkal",
-            "type": "WD",
             "source": "TftJC",
             "rarity": "legendary",
             "wondrous": true,
@@ -11149,7 +11057,6 @@
         {
             "name": "Shard of Illumina",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "reqAttune": true,
@@ -11378,7 +11285,6 @@
         },
         {
             "name": "Skybreaker's Ring",
-            "type": "WD",
             "rarity": "legendary",
             "wondrous": true,
             "reqAttune": "special",
@@ -11410,7 +11316,6 @@
         {
             "name": "Slippers of Hopping",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "entries": [
@@ -11638,7 +11543,6 @@
             "name": "Stone of Gambler's Fortune",
             "source": "TftJC",
             "rarity": "common",
-            "type": "WD",
             "wondrous": true,
             "entries": [
                 "These polished pebbles contain magic to aid in one's ability to play games of chance.",
@@ -11867,7 +11771,6 @@
         {
             "name": "The Dashers of Elitanith",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "legendary",
             "wondrous": true,
             "curse": true,
@@ -11981,7 +11884,6 @@
         {
             "name": "The Mantle of Pyfrita",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "legendary",
             "wondrous": true,
             "curse": true,
@@ -12070,7 +11972,6 @@
         {
             "name": "Thieves Almanac Vol. I",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "uncommon",
             "wondrous": true,
             "charges": 2,
@@ -12087,7 +11988,6 @@
         {
             "name": "Thieves Almanac Vol. II",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "charges": 3,
@@ -12104,7 +12004,6 @@
         {
             "name": "Thieves Almanac Vol. III",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "very rare",
             "wondrous": true,
             "charges": 4,
@@ -12121,7 +12020,6 @@
         {
             "name": "Thieves Almanac Vol. IV",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "legendary",
             "wondrous": true,
             "charges": 4,
@@ -12138,7 +12036,6 @@
         {
             "name": "Thought Forge",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "entries": [
@@ -12242,7 +12139,6 @@
         {
             "name": "Tinker's Tome Vol. I",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "uncommon",
             "wondrous": true,
             "charges": 2,
@@ -12259,7 +12155,6 @@
         {
             "name": "Tinker's Tome Vol. II",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "charges": 3,
@@ -12276,7 +12171,6 @@
         {
             "name": "Tinker's Tome Vol. III",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "very rare",
             "wondrous": true,
             "charges": 4,
@@ -12293,7 +12187,6 @@
         {
             "name": "Tinker's Tome Vol. IV",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "legendary",
             "wondrous": true,
             "charges": 4,
@@ -12416,7 +12309,6 @@
         {
             "name": "Traveler's Encyclopedia",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "rare",
             "wondrous": true,
             "entries": [
@@ -12429,7 +12321,6 @@
         },
         {
             "name": "Tricorne of the Seadog",
-            "type": "WD",
             "rarity": "rare",
             "reqAttune": true,
             "source": "TftJC",
@@ -12589,7 +12480,6 @@
         {
             "name": "Unruly Broom of Flying",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "uncommon",
             "wondrous": true,
             "curse": true,
@@ -12698,7 +12588,6 @@
         },
         {
             "name": "Vestments of the Skybreaker",
-            "type": "WD",
             "rarity": "legendary",
             "wondrous": true,
             "reqAttune": "special",
@@ -12747,7 +12636,6 @@
         },
         {
             "name": "Viktor's Quill of Intellect",
-            "type": "WD",
             "rarity": "artifact",
             "wondrous": true,
             "source": "TftJC",
@@ -12909,7 +12797,6 @@
         {
             "name": "Vow of Overkin",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "legendary",
             "wondrous": true,
             "reqAttune": true,
@@ -12953,7 +12840,6 @@
         {
             "name": "Warriors Might Mutagen",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "very rare",
             "wondrous": true,
             "curse": true,
@@ -12970,7 +12856,6 @@
         {
             "name": "Waxy Pie",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "common",
             "wondrous": true,
             "entries": [
@@ -13206,7 +13091,6 @@
         {
             "name": "Zyrial, Heart of the Sea",
             "source": "TftJC",
-            "type": "WD",
             "rarity": "artifact",
             "wondrous": true,
             "reqAttune": true,

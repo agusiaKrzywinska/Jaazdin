@@ -1,0 +1,14 @@
+{
+  "name": "Enchanting Catalogue Vol. III",
+  "source": "TftJC",
+  "rarity": "very rare",
+  "wondrous": true,
+  "charges": 4,
+  "entries": [
+    "This tome contains the secrets to enchanting magical objects.",
+    "It can be read over 1 week to learn the recipe for one magical item of the books rarity or lower, determined randomly, or gain a +4 bonus to an Arcana check in downtime.",
+    "Alternatively, a creature reading it can instead read the book to increase their Arcanist, Appraisal Shop, Jeweler, or Tailor Wage Progression by 3",
+    "Once this book has been used in this way 4 times it becomes no longer magical. Reading the book can be done during leisure time which requires 8 hours of reading in that week."
+  ],
+  "miscTags": ["CNS"]
+}

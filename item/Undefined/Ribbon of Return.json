@@ -1,0 +1,14 @@
+{
+  "name": "Ribbon of Return",
+  "source": "TftJC",
+  "rarity": "rare",
+  "wondrous": true,
+  "reqAttune": true,
+  "charges": 3,
+  "recharge": "dawn",
+  "rechargeAmount": "1d3",
+  "entries": [
+    "You can attach this ribbon to a weapon to grant it the Thrown property. This ribbon takes 1 Minute to apply or remove from a weapon. Once you give the weapon this property, it gains a thrown range of 15/45. Immediately after a thrown attack, the weapon flies back to your hand.",
+    "Additionally, this item has 3 charges. When you hit a creature with a thrown weapon attack using this item, you may expand a charge to teleport to a unoccupied space within 5 feet of that creature as a bonus action. Alternatively, you may throw your weapon with this ribbon attached at an unoccupied space withing range. To do so make an attack roll with this weapon. On a 12 or higher, the weapon lands on target, and you may expend a charge to teleport to that location as a bonus action. Otherwise, the weapon returns to your hand. This item regains {@dice 1d3} charges daily at dawn."
+  ]
+}

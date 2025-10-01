@@ -1,0 +1,16 @@
+{
+  "name": "Adaptive Core",
+  "rarity": "varies",
+  "wondrous": true,
+  "reqAttune": "by a Construct, Autognome, Warforged or Modron",
+  "source": "TftJC",
+  "entries": [
+    "This small metallic core contains limitless potential for change. Upon attuning to the item, it fuses with the metallic form of its wielder.",
+    "This Core can be modified by using Tinker's Tools checks and upgraded at the Construct Upgrade Facility to apply new effects to it. It can hold a number of effects based on its Rarity, maximum of 5 for a Legendary Core.",
+    "When a creature attuned to this item, it gains all features and abilities detailed by the upgrades provided to the Core. Unattuning to the core causes the effect to be removed."
+  ],
+  "customProperties": {
+    "upgradeFacility": "Construct Upgrade Facility",
+    "tinkersToolsRequired": true
+  }
+}

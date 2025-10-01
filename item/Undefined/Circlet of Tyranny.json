@@ -1,0 +1,48 @@
+{
+  "name": "Circlet of Tyranny",
+  "rarity": "artifact",
+  "wondrous": true,
+  "reqAttune": true,
+  "source": "TftJC",
+  "charges": 10,
+  "recharge": "dawn",
+  "rechargeAmount": "1d3",
+  "entries": [
+    {
+      "type": "entries",
+      "name": "Decree Thrall",
+      "entries": [
+        "This ornate circlet is adorned with 10 glimmering emeralds scavenged from the sea floor. While wearing the circlet, you can use an action to place a magical command on a creature you can see within 60 feet and decree them as your Thrall. An unwilling creature must succeed on a DC 16 Wisdom saving throw or be {@condition charmed} by you (a willing creature can choose to fail this saving throw). If you or creatures friendly to you are fighting it, it has advantage on the saving throw. While within 60 feet of you, your Thrall is forced to obey your orders to the best of its ability, but won’t follow any commands that are directly harmful to it. If you are farther than 60 feet, the creature defends itself to the best of its ability. A creature that succeeds on this saving throw is immune to this item’s effects for the next 24 hours. While you have a Thrall under your control and are within range, you can use the following abilities:"
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Tyrant’s Command",
+      "entries": [
+        "You can use a bonus action to exert your dominion. Your Thrall takes {@dice 1d10} psychic damage and its maximum hit points are reduced by the same amount. You then grant your Thrall advantage on the next attack roll, ability check, or saving throw it makes before the start of your next turn."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Tyrant’s Edict",
+      "entries": [
+        "You can empower the effect of Tyrant’s Command. Your Thrall instead takes {@dice 5d10} psychic damage and their maximum hit points are reduced by the same amount. Upon taking this damage, the Thrall can immediately attempt to remake the saving throw to end the {@condition charmed} effect. You then grant the Thrall advantage on all rolls until the start of your next turn.",
+        "The damage dealt by these actions cannot be reduced or resisted in any way unless it would bring the Thrall to 0 hit points, in which case they do not take the damage and the {@condition charmed} effect ends. If this damage puts the Thrall below half of its normal maximum health, it can immediately attempt to remake the Wisdom saving throw against the {@condition charmed} condition, ending the effect on a success; if it was caused by Tyrant’s Edict, they make the saving throw with advantage."
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Emerald Expenditure & Release",
+      "entries": [
+        "If you have a Thrall under your control and you do not perform either Tyrant’s Command or Tyrant’s Edict on your turn, 1 of the emeralds on the circlet is expended. If all 10 gems are expended, the charmed condition ends and the Thrall is released from your control. You may also end the charmed condition as a bonus action.",
+        "Whenever the {@condition charmed} condition ends, the creature’s maximum hit points are restored and the affected creature knows it was charmed by you. The {@condition charmed} condition also ends when the bearer of the Circlet attempts to charm another creature, if their attunement to the Circlet ends, or through the use of {@spell remove curse} or a similar spell. After successfully charming a creature with this circlet's ability, you cannot do so again until you complete a long rest unless you expend 5 gems. This circlet regains {@dice 1d3} expended gems daily at dawn. If you expend the last gem, roll a {@dice d20}. On a 1, all the gems shatter and this item loses its magic."
+      ]
+    }
+  ],
+  "customProperties": {
+    "gemCount": 10,
+    "saveDC": 16,
+    "regainGems": "1d3 at dawn",
+    "shatterChance": "d20, on 1 all gems shatter and item loses magic"
+  }
+}

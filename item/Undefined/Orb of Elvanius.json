@@ -1,0 +1,15 @@
+{
+  "name": "Orb of Elvanius",
+  "rarity": "rare",
+  "wondrous": true,
+  "source": "TftJC",
+  "reqAttune": true,
+  "entries": [
+    "This simple glass icosahedron has intricate etchings inscribed inside the glass. When touched, it glows a soft white.",
+    "As an action a creature can attune the orb to either fire, cold, lightning, thunder, or acid. The next time you take that damage type, the orb reduces it by 1d4 and grows stronger. Each successive time it blocks damage the die is increased by 1 step, up to a d6, d8, d10, and d12. Once it reduces the damage by 1d12, it reverts to 1d4.",
+    "In addition, while attuned, {@spell Elvinus’ Ward of Conflux|TftJC} is added to your spell list if you have one."
+  ],
+  "customProperties": {
+    "spellGranted": "Elvinus’ Ward of Conflux"
+  }
+}
